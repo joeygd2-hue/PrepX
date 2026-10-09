@@ -13,13 +13,14 @@ import { activeSelection, awardXp, recordActivity, syncAchievements } from "@/se
 import { autoCompleteTask } from "@/server/dashboard";
 import { rateLimit } from "@/server/ratelimit";
 import { XP } from "@/lib/levels";
+import { errorDetail } from "@/lib/errors";
 
 export type AiResult<T = undefined> = { ok: true; data?: T } | { ok: false; error: string; limit?: boolean };
 
 function fail(e: unknown): { ok: false; error: string; limit?: boolean } {
   if (e instanceof LimitReachedError) return { ok: false, error: `You've reached today's limit for this feature on your plan. ${e.resetsLabel}.`, limit: true };
   if (e instanceof AiNotConfiguredError || e instanceof AiFailedError) return { ok: false, error: e.message };
-  console.error("ai action failed", (e as Error)?.message);
+  console.error("ai action failed", errorDetail(e));
   return { ok: false, error: "Something went wrong. You weren't charged. Please try again." };
 }
 

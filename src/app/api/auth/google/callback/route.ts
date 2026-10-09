@@ -8,6 +8,7 @@ import { upsertVerifiedUser } from "@/server/auth/accounts";
 import { createSession } from "@/server/auth/session";
 import { applyReferral } from "@/app/(public)/sign-in/actions";
 import { rateLimit } from "@/server/ratelimit";
+import { errorDetail } from "@/lib/errors";
 
 export async function GET(req: NextRequest) {
   const fail = (code = "google") => NextResponse.redirect(new URL(`/sign-in?error=${code}`, env.appUrl));
@@ -40,7 +41,7 @@ export async function GET(req: NextRequest) {
     await createSession(id);
     return NextResponse.redirect(new URL(isNew ? "/welcome" : "/", env.appUrl));
   } catch (e) {
-    console.error("google oauth failed", (e as Error).message);
+    console.error("google oauth failed", errorDetail(e));
     return fail();
   }
 }

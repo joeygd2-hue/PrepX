@@ -9,6 +9,8 @@ import { upsertVerifiedUser } from "@/server/auth/accounts";
 import { createSession, destroySession } from "@/server/auth/session";
 import { clientIp } from "@/server/request";
 import { RateLimitError } from "@/server/ratelimit";
+import { databaseHint, errorDetail } from "@/lib/errors";
+import { env } from "@/lib/env";
 
 const PENDING = "prepx_pending_email";
 export type FormState = { error?: string; ok?: boolean } | undefined;
@@ -20,7 +22,10 @@ export async function requestCodeAction(_: FormState, form: FormData): Promise<F
     await requestSignInCode(parsed.data, await clientIp());
   } catch (e) {
     if (e instanceof RateLimitError) return { error: e.message };
-    console.error("sign-in code send failed", (e as Error).message);
+    const hint = databaseHint(e);
+    console.error(`sign-in code send failed: ${errorDetail(e)}${hint ? `\n  Hint: ${hint}` : ""}`);
+    // In development, show the actual cause so setup problems are obvious.
+    if (!env.isProd && hint) return { error: `Setup problem: ${hint}` };
     return { error: "We couldn't send the code right now. Please try again in a minute." };
   }
   (await cookies()).set(PENDING, parsed.data.toLowerCase(), { httpOnly: true, sameSite: "lax", maxAge: 900, path: "/" });

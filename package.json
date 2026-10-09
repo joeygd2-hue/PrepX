@@ -13,6 +13,7 @@
     "db:migrate": "tsx scripts/migrate.ts",
     "db:seed": "tsx scripts/seed.ts",
     "db:setup": "npm run db:migrate && npm run db:seed",
+    "db:check": "tsx scripts/db-check.ts",
     "test": "vitest run",
     "test:e2e": "playwright test"
   },

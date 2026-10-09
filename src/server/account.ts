@@ -2,6 +2,7 @@ import "server-only";
 import { and, asc, eq, ne, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { cancelStripeSubscription } from "@/server/billing";
+import { errorDetail } from "@/lib/errors";
 
 /**
  * Permanently deletes a user. Personal data is removed through ON DELETE CASCADE.
@@ -32,7 +33,7 @@ export async function deleteAccount(userId: string, reason: string) {
   try {
     await cancelStripeSubscription(userId);
   } catch (e) {
-    console.error("subscription cancel during deletion failed", (e as Error).message);
+    console.error("subscription cancel during deletion failed", errorDetail(e));
   }
   await db.insert(schema.auditLog).values({ action: "account_deleted", meta: { reason } });
   await db.delete(schema.users).where(eq(schema.users.id, userId));

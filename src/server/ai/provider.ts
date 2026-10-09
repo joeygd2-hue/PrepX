@@ -4,6 +4,7 @@ import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import type { z } from "zod";
 import { env } from "@/lib/env";
 import { mockChat, mockStructured } from "./mock";
+import { errorDetail } from "@/lib/errors";
 
 export class AiNotConfiguredError extends Error {
   constructor() {
@@ -105,6 +106,6 @@ function mapError(e: unknown): Error {
     console.error(`AI API error ${e.status}`);
     return new AiFailedError();
   }
-  console.error("AI call failed", (e as Error)?.message);
+  console.error("AI call failed", errorDetail(e));
   return new AiFailedError();
 }
