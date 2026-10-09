@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { useClientValue } from "@/lib/use-client-value";
 import { Download, Smartphone, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -8,28 +9,32 @@ const KEY = "prepx-install-dismissed";
 
 export function InstallCard() {
   const [evt, setEvt] = useState<BIP | null>(null);
-  const [ios, setIos] = useState(false);
-  const [show, setShow] = useState(false);
+  const [dismissed, setDismissed] = useState(false);
+  const eligible = useClientValue(() => {
+    const standalone = window.matchMedia("(display-mode: standalone)").matches || Boolean((navigator as { standalone?: boolean }).standalone);
+    let seen = false;
+    try {
+      seen = Boolean(localStorage.getItem(KEY));
+    } catch {}
+    return !standalone && !seen;
+  }, false);
+  const ios = useClientValue(() => /iphone|ipad|ipod/i.test(navigator.userAgent), false);
 
   useEffect(() => {
-    const standalone = window.matchMedia("(display-mode: standalone)").matches || (navigator as { standalone?: boolean }).standalone;
-    if (standalone || localStorage.getItem(KEY)) return;
-    const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
-    setIos(isIos);
-    if (isIos) setShow(true);
     const onPrompt = (e: Event) => {
       e.preventDefault();
       setEvt(e as BIP);
-      setShow(true);
     };
     window.addEventListener("beforeinstallprompt", onPrompt);
     return () => window.removeEventListener("beforeinstallprompt", onPrompt);
   }, []);
 
-  if (!show) return null;
+  if (!eligible || dismissed || (!ios && !evt)) return null;
   const dismiss = () => {
-    localStorage.setItem(KEY, "1");
-    setShow(false);
+    try {
+      localStorage.setItem(KEY, "1");
+    } catch {}
+    setDismissed(true);
   };
   return (
     <section aria-label="Install PrepX" className="rounded-3xl border border-border p-5">

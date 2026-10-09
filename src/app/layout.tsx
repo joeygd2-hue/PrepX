@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import { getCurrentUser } from "@/server/auth/session";
+import { ServiceWorkerRegister } from "@/components/shell/sw-register";
 import "./globals.css";
 
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit", display: "swap" });
@@ -34,6 +35,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           Skip to content
         </a>
         {children}
+        <ServiceWorkerRegister />
       </body>
     </html>
   );

@@ -2,7 +2,7 @@ import "server-only";
 import { and, desc, eq, gte, inArray, isNotNull, isNull, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { addDays, todayIn } from "@/lib/dates";
-import { levelFor } from "@/lib/levels";
+import { levelFor, XP } from "@/lib/levels";
 import { currentStreak, longestStreak } from "@/lib/streaks";
 import { ACHIEVEMENTS, earnedAchievements } from "@/lib/achievements";
 import { eventShape, readiness, type PlanStats } from "@/lib/plan";
@@ -13,7 +13,14 @@ export async function awardXp(userId: string, amount: number, reason: string, re
 }
 
 export async function recordActivity(userId: string, tz: string) {
-  await db.insert(schema.activityDays).values({ userId, day: todayIn(tz) }).onConflictDoNothing();
+  const inserted = await db.insert(schema.activityDays).values({ userId, day: todayIn(tz) }).onConflictDoNothing().returning();
+  if (!inserted.length) return;
+  // Referral reward: the inviter earns XP once, when the friend first actually studies.
+  const [p] = await db.select({ referredBy: schema.profiles.referredBy }).from(schema.profiles).where(eq(schema.profiles.userId, userId));
+  if (p?.referredBy) {
+    await awardXp(p.referredBy, XP.referral, "referral", userId);
+    await syncAchievements(p.referredBy, tz);
+  }
 }
 
 export async function xpSummary(userId: string, tz: string) {

@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useActionState, useEffect, useState } from "react";
+import { useActionState } from "react";
+import { useClientValue } from "@/lib/use-client-value";
 import { ArrowRight } from "lucide-react";
 import { FieldError, Input, Label, Select } from "@/components/ui/form";
 import { SubmitButton } from "@/components/ui/submit-button";
@@ -121,7 +122,7 @@ export function Steps({ step, profile }: { step: string; profile: P }) {
   return (
     <StepForm action={acceptTerms} title="One last thing" subtitle="Here's how PrepX handles your information, in short:" back="orgs">
       <ul className="list-disc space-y-2 pl-5 text-muted">
-        <li>We collect only what's needed to run your study tools. We never sell your data.</li>
+        <li>We collect only what&apos;s needed to run your study tools. We never sell your data.</li>
         <li>Your email, birthday and school are never shown publicly.</li>
         <li>AI practice is processed by our AI provider to give you feedback. Voice is transcribed in your browser; we never store audio.</li>
         <li>You can download or delete your data at any time from Profile.</li>
@@ -145,7 +146,6 @@ export function Steps({ step, profile }: { step: string; profile: P }) {
 }
 
 function TimezoneInput() {
-  const [tz, setTz] = useState("America/Chicago");
-  useEffect(() => setTz(Intl.DateTimeFormat().resolvedOptions().timeZone), []);
+  const tz = useClientValue(() => Intl.DateTimeFormat().resolvedOptions().timeZone, "America/Chicago");
   return <input type="hidden" name="timezone" value={tz} />;
 }
