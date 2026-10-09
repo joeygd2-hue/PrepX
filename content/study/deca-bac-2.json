@@ -1,0 +1,127 @@
+[
+{
+ "title": "Emotional Intelligence",
+ "objective": "Use self-awareness, self-management, empathy and relationship skills to work effectively with others.",
+ "body": "Emotional intelligence (EI) is the ability to recognize and manage your own emotions and to understand and influence the emotions of others. Employers value it because it predicts teamwork, leadership and how well people handle pressure.\n\n**Four building blocks.**\n1. *Self-awareness*: knowing your strengths, limits and emotional triggers.\n2. *Self-management*: controlling impulses, staying calm under stress and adapting to change.\n3. *Social awareness*: reading other people's emotions and showing empathy.\n4. *Relationship management*: communicating clearly, resolving conflict and inspiring others.\n\n**Conflict styles.** People respond to conflict by *avoiding*, *accommodating* (giving in), *competing* (winning at any cost), *compromising* (each side gives something) or *collaborating* (working together for a solution that satisfies both). Collaboration usually produces the best long-term result when time allows.\n\n**Ethics and integrity.** Acting with integrity, doing what is right even when no one is watching, builds trust. Taking responsibility for mistakes, rather than blaming others, is a sign of maturity.\n\n**Stress management.** Prioritizing tasks, taking short breaks and seeking help early are self-management strategies that protect performance on competition day too.",
+ "examples": [
+  "A team leader notices a quiet member seems frustrated and checks in privately instead of calling them out in the meeting.",
+  "Two coworkers who want the same vacation week work out a schedule that gives each of them the days that matter most."
+ ],
+ "questions": [
+  {"stem": "Recognizing that you become impatient when you are hungry is an example of:", "choices": ["Self-awareness", "Relationship management", "Compromising", "Social awareness"], "answer": 0, "explanation": "Self-awareness is understanding your own emotions and what triggers them."},
+  {"stem": "Which conflict style seeks a solution that fully satisfies both parties?", "choices": ["Avoiding", "Competing", "Collaborating", "Accommodating"], "answer": 2, "explanation": "Collaboration looks for a win-win outcome by addressing everyone's concerns."},
+  {"stem": "An employee calmly takes a breath before responding to a rude customer. This shows:", "choices": ["Self-management", "Accommodating", "Social awareness", "Avoidance"], "answer": 0, "explanation": "Self-management means controlling impulses and staying composed."},
+  {"stem": "Noticing that a coworker seems discouraged and offering support demonstrates:", "choices": ["Competing", "Empathy", "Self-promotion", "Delegation"], "answer": 1, "explanation": "Empathy is part of social awareness: understanding others' feelings."},
+  {"stem": "Which behavior best demonstrates integrity?", "choices": ["Blaming a teammate for a missed deadline", "Admitting a mistake and proposing a fix", "Hiding errors from a supervisor", "Taking credit for a group idea"], "answer": 1, "explanation": "Integrity means honesty and accepting responsibility."},
+  {"stem": "When might 'compromising' be the most practical conflict style?", "choices": ["When neither side cares about the outcome", "When time is short and both sides can give something up", "When safety rules are being broken", "When one side is clearly correct"], "answer": 1, "explanation": "Compromise reaches a quick, acceptable middle ground when a full win-win is not possible."},
+  {"stem": "Why do employers value emotional intelligence?", "choices": ["It replaces technical skills", "It predicts teamwork and leadership effectiveness", "It is required by law", "It guarantees promotions"], "answer": 1, "explanation": "EI supports collaboration, conflict resolution and leading others."}
+ ],
+ "flashcards": [
+  {"term": "Emotional intelligence", "definition": "The ability to recognize and manage your emotions and understand others' emotions."},
+  {"term": "Self-management", "definition": "Controlling impulses, staying calm and adapting to change."},
+  {"term": "Collaborating", "definition": "A conflict style that seeks a solution satisfying everyone involved."},
+  {"term": "Integrity", "definition": "Consistently acting honestly and ethically."},
+  {"term": "Social awareness", "definition": "Reading and understanding the emotions of other people."}
+ ]
+},
+{
+ "title": "Entrepreneurship",
+ "objective": "Describe how entrepreneurs identify opportunities, assess risk and plan a new venture.",
+ "body": "An *entrepreneur* starts and runs a business, taking on financial risk in hope of profit. Entrepreneurship is one of the four factors of production because it brings land, labor and capital together.\n\n**Spotting opportunities.** Good ideas solve a real problem for a defined group of customers. Entrepreneurs look for unmet needs, trends, frustrations and ways to do something faster, cheaper or better. *Feasibility analysis* tests whether an idea can work: is there enough demand, can it be produced at a profit, and does the founder have the skills and resources?\n\n**The business plan.** A business plan describes the concept, target market, competition, marketing approach, operations, management team and financial projections. It guides decisions and is used to attract investors or lenders.\n\n**Funding.** Options include personal savings (*bootstrapping*), loans (*debt financing*, which must be repaid with interest) and investors who receive ownership (*equity financing*). Venture capitalists invest in high-growth startups in exchange for equity.\n\n**Risk and reward.** Entrepreneurs face financial, market and personal risk. They reduce it through research, starting small, testing a *minimum viable product* and controlling costs.\n\n**Traits.** Successful entrepreneurs tend to be persistent, creative, comfortable with uncertainty and willing to learn from failure.",
+ "examples": [
+  "A student notices classmates struggle to find study partners and builds a simple matching app, testing it first with one school.",
+  "A food-truck owner borrows $40,000 from a bank: that is debt financing."
+ ],
+ "questions": [
+  {"stem": "Giving an investor part ownership of a business in exchange for money is called:", "choices": ["Debt financing", "Equity financing", "Bootstrapping", "Leasing"], "answer": 1, "explanation": "Equity financing trades ownership (shares) for capital; it does not need to be repaid like a loan."},
+  {"stem": "What is the main purpose of a feasibility analysis?", "choices": ["To register a trademark", "To decide whether a business idea is practical and profitable", "To hire employees", "To calculate payroll"], "answer": 1, "explanation": "Feasibility analysis tests demand, costs and resources before committing."},
+  {"stem": "Which document describes a new venture's market, operations and financial projections?", "choices": ["Business plan", "Balance sheet", "Job description", "Press release"], "answer": 0, "explanation": "A business plan is a road map for the venture and a tool for attracting funding."},
+  {"stem": "Starting a business with personal savings and early revenue rather than outside funding is called:", "choices": ["Venture capital", "Bootstrapping", "Franchising", "Crowdsourcing"], "answer": 1, "explanation": "Bootstrapping keeps full ownership but limits how fast the business can grow."},
+  {"stem": "A minimum viable product (MVP) helps an entrepreneur:", "choices": ["Avoid all risk", "Test an idea with real customers before investing heavily", "Guarantee profit", "Skip market research"], "answer": 1, "explanation": "An MVP is a simple version used to learn what customers actually want."},
+  {"stem": "Why is entrepreneurship considered a factor of production?", "choices": ["It is a natural resource", "It organizes land, labor and capital to create goods and services", "It is a type of loan", "It is a government program"], "answer": 1, "explanation": "Entrepreneurs combine the other resources and take the risk of producing."},
+  {"stem": "Which trait is most associated with successful entrepreneurs?", "choices": ["Avoiding all uncertainty", "Persistence after setbacks", "Preferring routine tasks only", "Relying solely on others' ideas"], "answer": 1, "explanation": "Persistence and learning from failure help founders survive early challenges."}
+ ],
+ "flashcards": [
+  {"term": "Entrepreneur", "definition": "A person who starts a business and accepts the risk of loss for the chance of profit."},
+  {"term": "Equity financing", "definition": "Raising money by selling ownership in the business."},
+  {"term": "Debt financing", "definition": "Borrowing money that must be repaid with interest."},
+  {"term": "Feasibility analysis", "definition": "An evaluation of whether a business idea is practical and profitable."},
+  {"term": "Minimum viable product", "definition": "A basic version of a product used to test demand and learn from customers."}
+ ]
+},
+{
+ "title": "Financial Analysis",
+ "objective": "Read basic financial statements and use ratios and budgets to judge a business's financial health.",
+ "body": "Financial analysis turns accounting numbers into decisions.\n\n**The three core statements.**\n- The *income statement* shows revenue minus expenses over a period, ending in net income (profit) or net loss.\n- The *balance sheet* is a snapshot at one moment: **Assets = Liabilities + Owner's equity**. Assets are what the business owns, liabilities are what it owes, and equity is the owners' claim.\n- The *cash flow statement* tracks cash moving in and out from operating, investing and financing activities. A profitable business can still run out of cash.\n\n**Useful calculations.**\n- *Gross profit* = Revenue − Cost of goods sold.\n- *Net profit margin* = Net income ÷ Revenue.\n- *Current ratio* = Current assets ÷ Current liabilities; above 1 suggests the business can pay short-term bills.\n- *Break-even point (units)* = Fixed costs ÷ (Price − Variable cost per unit).\n\n**Fixed vs. variable costs.** Fixed costs (rent, insurance) stay the same regardless of output. Variable costs (materials, packaging) rise with each unit produced.\n\n**Budgets.** A budget is a financial plan. Comparing actual results with the budget (*variance analysis*) reveals where spending is off track so managers can act early.\n\n**Personal connection.** The same thinking applies to personal finance: track income, separate needs from wants and build an emergency fund.",
+ "examples": [
+  "A shop with $60,000 in fixed costs selling candles at $25 that cost $10 each to make breaks even at 4,000 candles.",
+  "A café has $30,000 in current assets and $15,000 in current liabilities, giving a current ratio of 2.0."
+ ],
+ "questions": [
+  {"stem": "Which equation is the basis of the balance sheet?", "choices": ["Revenue − Expenses = Net income", "Assets = Liabilities + Owner's equity", "Price × Quantity = Revenue", "Cash in − Cash out = Profit"], "answer": 1, "explanation": "The accounting equation must always balance on the balance sheet."},
+  {"stem": "A company has fixed costs of $20,000, a selling price of $50 and a variable cost of $30 per unit. What is the break-even point?", "choices": ["400 units", "667 units", "1,000 units", "2,000 units"], "answer": 2, "explanation": "$20,000 ÷ ($50 − $30) = 1,000 units."},
+  {"stem": "Which statement shows a company's revenues and expenses over a period of time?", "choices": ["Balance sheet", "Income statement", "Statement of owner's equity", "Bank reconciliation"], "answer": 1, "explanation": "The income statement (profit and loss statement) covers a period such as a month or year."},
+  {"stem": "Rent paid on a store each month regardless of sales is a:", "choices": ["Variable cost", "Fixed cost", "Marginal revenue", "Liability"], "answer": 1, "explanation": "Fixed costs do not change with the level of production or sales."},
+  {"stem": "A current ratio of 0.6 suggests a business:", "choices": ["Has plenty of cash", "May struggle to pay short-term obligations", "Is highly profitable", "Has no debt"], "answer": 1, "explanation": "Current liabilities exceed current assets, signaling liquidity risk."},
+  {"stem": "Revenue is $200,000 and net income is $20,000. What is the net profit margin?", "choices": ["5%", "10%", "20%", "90%"], "answer": 1, "explanation": "$20,000 ÷ $200,000 = 0.10, or 10%."},
+  {"stem": "Why can a profitable business still fail?", "choices": ["Profits are illegal", "It may run out of cash to pay bills", "Profit always equals cash", "Balance sheets do not balance"], "answer": 1, "explanation": "Timing of cash flows matters; sales on credit or heavy inventory can drain cash."}
+ ],
+ "flashcards": [
+  {"term": "Income statement", "definition": "Report of revenues and expenses over a period, showing net income or loss."},
+  {"term": "Balance sheet", "definition": "Snapshot of assets, liabilities and owner's equity at a point in time."},
+  {"term": "Break-even point", "definition": "Sales level where total revenue equals total costs; Fixed costs ÷ (Price − Variable cost)."},
+  {"term": "Current ratio", "definition": "Current assets ÷ current liabilities; a measure of short-term liquidity."},
+  {"term": "Variable cost", "definition": "A cost that changes with the number of units produced."}
+ ]
+},
+{
+ "title": "Human Resources Management",
+ "objective": "Explain how businesses recruit, select, train, evaluate and retain employees fairly.",
+ "body": "Human resources management (HRM) is about getting and keeping the right people.\n\n**Planning and recruiting.** HR forecasts staffing needs, writes a *job analysis*, a *job description* (duties) and a *job specification* (required skills and qualifications). Recruiting can be *internal* (promoting current employees, which boosts morale) or *external* (job boards, referrals, career fairs, which bring fresh ideas).\n\n**Selection.** Typical steps: application or résumé screening, interviews, skills tests, background and reference checks, then a job offer. Equal employment opportunity laws prohibit discrimination based on race, color, religion, sex, national origin, age, disability and other protected characteristics.\n\n**Orientation and training.** *Orientation* (onboarding) introduces new hires to the company culture and policies. *On-the-job training* teaches skills while working; *off-the-job training* happens in classes or online.\n\n**Performance and compensation.** *Performance appraisals* compare work against clear standards and set goals. Compensation includes *wages* (hourly), *salary* (fixed annual pay), *commission* (percentage of sales) and *benefits* such as health insurance and paid time off.\n\n**Retention.** Recognition, growth opportunities, fair pay and a positive culture reduce *turnover*, which is expensive because of hiring and training costs.",
+ "examples": [
+  "A store promotes its best cashier to shift supervisor: internal recruiting.",
+  "A salesperson earns $500 a week plus 5% of sales: salary plus commission."
+ ],
+ "questions": [
+  {"stem": "Which document lists the skills, education and experience a job requires?", "choices": ["Job description", "Job specification", "Performance appraisal", "Pay stub"], "answer": 1, "explanation": "The job specification describes the qualifications needed; the job description lists duties."},
+  {"stem": "What is an advantage of recruiting internally?", "choices": ["It always brings new ideas", "It can boost employee morale", "It increases turnover", "It avoids training costs entirely"], "answer": 1, "explanation": "Promotions from within reward current employees and show a path for growth."},
+  {"stem": "Pay based on a percentage of sales is called:", "choices": ["Salary", "Commission", "Wages", "Benefits"], "answer": 1, "explanation": "Commission ties pay to sales performance."},
+  {"stem": "Why is high employee turnover costly?", "choices": ["It lowers rent", "The business must repeatedly recruit and train replacements", "It increases product quality", "It reduces taxes"], "answer": 1, "explanation": "Replacing employees requires recruiting, onboarding and training time and money."},
+  {"stem": "A program that introduces new hires to company policies and culture is:", "choices": ["Orientation", "Termination", "Appraisal", "Compensation"], "answer": 0, "explanation": "Orientation (onboarding) helps new employees adjust quickly."},
+  {"stem": "Which interview question would most likely violate equal employment opportunity rules?", "choices": ["Describe a time you solved a problem.", "What is your religion?", "Why do you want this job?", "Are you available to work weekends?"], "answer": 1, "explanation": "Religion is a protected characteristic and is not a lawful hiring factor."},
+  {"stem": "A performance appraisal is most useful when it:", "choices": ["Happens without clear standards", "Compares work to clear expectations and sets goals", "Focuses only on mistakes", "Is kept secret from the employee"], "answer": 1, "explanation": "Clear standards and goals make appraisals fair and actionable."}
+ ],
+ "flashcards": [
+  {"term": "Job description", "definition": "A list of the duties and responsibilities of a position."},
+  {"term": "Job specification", "definition": "The qualifications, skills and experience required for a position."},
+  {"term": "Turnover", "definition": "The rate at which employees leave and must be replaced."},
+  {"term": "Performance appraisal", "definition": "A formal evaluation of an employee's work against standards."},
+  {"term": "Commission", "definition": "Pay based on a percentage of sales made."}
+ ]
+},
+{
+ "title": "Information Management",
+ "objective": "Describe how businesses collect, protect and use data and technology to make decisions.",
+ "body": "Information management is how a business gathers, stores, protects and uses data.\n\n**Data to decisions.** *Data* are raw facts (sales numbers, survey responses). *Information* is data organized so it is useful (a chart showing which product sells best each month). A *management information system (MIS)* collects data from across the business and turns it into reports for managers.\n\n**Primary vs. secondary data.** Primary data is collected first-hand for a specific purpose (surveys, observation, experiments). Secondary data already exists (government statistics, industry reports). Secondary data is faster and cheaper; primary data is more specific.\n\n**Tools.** Spreadsheets organize and calculate; databases store records that can be searched and sorted; point-of-sale (POS) systems capture every transaction; cloud services let teams access files anywhere.\n\n**Security and privacy.** Businesses must protect customer and employee data from breaches. Good practices include strong passwords, multi-factor authentication, encryption, limiting access to people who need it and training employees to spot *phishing* (fraudulent messages that trick people into revealing information). Many laws require businesses to protect personal data and to tell people how it is used.\n\n**Ethics.** Using data responsibly means collecting only what is needed, being transparent and respecting people's choices.",
+ "examples": [
+  "A grocery chain's POS data shows soup sales spike on cold days, so managers stock more before a cold front.",
+  "An employee reports a suspicious email asking for their login instead of clicking the link."
+ ],
+ "questions": [
+  {"stem": "What is the difference between data and information?", "choices": ["There is no difference", "Information is data organized to be useful", "Data is always more accurate", "Information is always numerical"], "answer": 1, "explanation": "Raw facts become information once organized and interpreted for a purpose."},
+  {"stem": "A survey a company designs and sends to its own customers produces:", "choices": ["Secondary data", "Primary data", "Census data", "Industry data"], "answer": 1, "explanation": "Primary data is collected first-hand for the current purpose."},
+  {"stem": "An email pretending to be from a bank and asking for your password is an example of:", "choices": ["Encryption", "Phishing", "Data mining", "A firewall"], "answer": 1, "explanation": "Phishing tricks people into revealing sensitive information."},
+  {"stem": "Which practice best protects sensitive company data?", "choices": ["Sharing passwords with coworkers", "Giving everyone access to all files", "Using multi-factor authentication", "Writing passwords on sticky notes"], "answer": 2, "explanation": "Multi-factor authentication requires a second proof of identity, blocking most stolen-password attacks."},
+  {"stem": "What does a point-of-sale (POS) system primarily capture?", "choices": ["Employee résumés", "Transaction data at checkout", "Tax law changes", "Competitor prices"], "answer": 1, "explanation": "POS systems record each sale, providing data on products, times and payment types."},
+  {"stem": "An advantage of secondary data is that it is:", "choices": ["Always specific to your question", "Usually faster and cheaper to obtain", "Always more recent", "Collected by your own staff"], "answer": 1, "explanation": "Secondary data already exists, saving time and cost, though it may be less specific."},
+  {"stem": "A management information system (MIS) is used to:", "choices": ["Replace all managers", "Turn business data into reports for decision-making", "Manufacture products", "Recruit employees only"], "answer": 1, "explanation": "MIS gathers data across departments and presents useful information to managers."}
+ ],
+ "flashcards": [
+  {"term": "Primary data", "definition": "Data collected first-hand for a specific purpose."},
+  {"term": "Secondary data", "definition": "Existing data collected by someone else for another purpose."},
+  {"term": "MIS", "definition": "Management information system: turns business data into reports for decisions."},
+  {"term": "Phishing", "definition": "Fraudulent messages designed to trick people into revealing sensitive information."},
+  {"term": "Encryption", "definition": "Encoding data so only authorized parties can read it."}
+ ]
+}
+]

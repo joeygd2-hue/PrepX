@@ -1,0 +1,1811 @@
+{
+ "org": "tsa",
+ "name": "TSA",
+ "fullName": "Technology Student Association",
+ "color": "#C8102E",
+ "season": "2026-2027",
+ "sourceUrl": "https://tsaweb.org/competitions",
+ "sourceCheckedAt": null,
+ "note": "Event names and formats are from general knowledge and the reference screenshots. Official guideline pages could not be reached from the build environment; every event not marked reference_observed must be checked against the official source before launch.",
+ "clusters": [],
+ "events": [
+  {
+   "code": "ARCH",
+   "name": "Architectural Design",
+   "category": "Architecture & Construction",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 0
+  },
+  {
+   "code": "CADA",
+   "name": "Computer-Aided Design (CAD), Architecture",
+   "category": "Architecture & Construction",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 1
+  },
+  {
+   "code": "SDE",
+   "name": "Structural Design and Engineering",
+   "category": "Architecture & Construction",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 2
+  },
+  {
+   "code": "AP",
+   "name": "Audio Podcasting",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 3
+  },
+  {
+   "code": "CS",
+   "name": "Children's Stories",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 4
+  },
+  {
+   "code": "DVP",
+   "name": "Digital Video Production",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 5
+  },
+  {
+   "code": "MP",
+   "name": "Music Production",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 6
+  },
+  {
+   "code": "ODV",
+   "name": "On Demand Video",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 7
+  },
+  {
+   "code": "PHOTO",
+   "name": "Photographic Technology",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 8
+  },
+  {
+   "code": "PD",
+   "name": "Promotional Design",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 9
+  },
+  {
+   "code": "BGD",
+   "name": "Board Game Design",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 10
+  },
+  {
+   "code": "FDT",
+   "name": "Fashion Design and Technology",
+   "category": "Communications & Media",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 11
+  },
+  {
+   "code": "COD",
+   "name": "Coding",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 12
+  },
+  {
+   "code": "DSA",
+   "name": "Data Science and Analytics",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 13
+  },
+  {
+   "code": "SD",
+   "name": "Software Development",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 14
+  },
+  {
+   "code": "VGD",
+   "name": "Video Game Design",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 15
+  },
+  {
+   "code": "VRS",
+   "name": "Virtual Reality Simulation",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 16
+  },
+  {
+   "code": "WEB",
+   "name": "Webmaster",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 17
+  },
+  {
+   "code": "GEO",
+   "name": "Geospatial Technology",
+   "category": "Computing & Coding",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 18
+  },
+  {
+   "code": "ANI",
+   "name": "Animatronics",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 19
+  },
+  {
+   "code": "BIO",
+   "name": "Biotechnology Design",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 20
+  },
+  {
+   "code": "CADE",
+   "name": "Computer-Aided Design (CAD), Engineering",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 21
+  },
+  {
+   "code": "ED",
+   "name": "Engineering Design",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 22
+  },
+  {
+   "code": "EA",
+   "name": "Electrical Applications",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 23
+  },
+  {
+   "code": "MPR",
+   "name": "Manufacturing Prototype",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 24
+  },
+  {
+   "code": "SCT",
+   "name": "System Control Technology",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 25
+  },
+  {
+   "code": "TPS",
+   "name": "Technology Problem Solving",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 26
+  },
+  {
+   "code": "FS",
+   "name": "Forensic Science",
+   "category": "Engineering & Design",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 27
+  },
+  {
+   "code": "DRAG",
+   "name": "Dragster Design",
+   "category": "Transportation",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 28
+  },
+  {
+   "code": "UAS",
+   "name": "Drone Challenge (UAV)",
+   "category": "Transportation",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 29
+  },
+  {
+   "code": "FE",
+   "name": "Flight Endurance",
+   "category": "Transportation",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 30
+  },
+  {
+   "code": "TM",
+   "name": "Transportation Modeling",
+   "category": "Transportation",
+   "formatLabel": "Project + semifinal interview or presentation",
+   "components": {
+    "presentation": {
+     "label": "Semifinal interview or presentation"
+    },
+    "production": {
+     "label": "Project / portfolio"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 31
+  },
+  {
+   "code": "CT",
+   "name": "Chapter Team",
+   "category": "Leadership & Speaking",
+   "formatLabel": "Presentation / speech",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 32
+  },
+  {
+   "code": "DTI",
+   "name": "Debating Technological Issues",
+   "category": "Leadership & Speaking",
+   "formatLabel": "Presentation / speech",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 33
+  },
+  {
+   "code": "EXT",
+   "name": "Extemporaneous Speech",
+   "category": "Leadership & Speaking",
+   "formatLabel": "Presentation / speech",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 34
+  },
+  {
+   "code": "FTET",
+   "name": "Future Technology and Engineering Teacher",
+   "category": "Leadership & Speaking",
+   "formatLabel": "Presentation / speech",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 35
+  },
+  {
+   "code": "PP",
+   "name": "Prepared Presentation",
+   "category": "Leadership & Speaking",
+   "formatLabel": "Presentation / speech",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 36
+  }
+ ]
+}

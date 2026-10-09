@@ -1,0 +1,102 @@
+[
+{
+ "title": "Business Law",
+ "objective": "Explain how contracts, business ownership forms and consumer-protection rules shape everyday business decisions.",
+ "body": "Business law sets the rules every company plays by. Three ideas show up again and again on exams.\n\n**Contracts.** A contract is a legally enforceable agreement. To be valid it needs an *offer*, *acceptance*, *consideration* (something of value exchanged by both sides), *competent parties* (of legal age and sound mind) and a *legal purpose*. Missing any one of these elements makes the agreement void or voidable. A minor can usually cancel a contract for non-necessities, which is why many businesses require a parent's signature.\n\n**Forms of ownership.** A *sole proprietorship* is owned by one person who keeps all profits and carries unlimited personal liability. A *general partnership* splits profits, decisions and liability between two or more owners. A *corporation* is a separate legal entity, so shareholders' liability is limited to what they invested, but profits can be taxed twice. A *limited liability company (LLC)* combines limited liability with pass-through taxation.\n\n**Regulation and protection.** Government agencies protect consumers and competition. Antitrust laws stop monopolies and price fixing. Truth-in-advertising rules ban deceptive claims. Intellectual property law protects creators: *patents* cover inventions, *copyrights* cover creative works, and *trademarks* cover brand names and logos.\n\nWhen you see a law question, first ask: who is protected, and what right or duty is involved?",
+ "examples": [
+  "A store owner offers to sell a used register for $300, the buyer agrees and pays: offer, acceptance and consideration are all present.",
+  "A shoe company registers its swoosh-style logo so competitors cannot copy it: that is trademark protection."
+ ],
+ "questions": [
+  {"stem": "Which element of a contract is missing if one party promises to give a friend a laptop and expects nothing in return?", "choices": ["Offer", "Acceptance", "Consideration", "Legal purpose"], "answer": 2, "explanation": "Consideration means both parties exchange something of value. A one-sided gift promise has no consideration, so it is not an enforceable contract."},
+  {"stem": "Maria owns a bakery by herself and is personally responsible for all of its debts. Which form of ownership is this?", "choices": ["Corporation", "Sole proprietorship", "Limited liability company", "Cooperative"], "answer": 1, "explanation": "A sole proprietorship has one owner who keeps all profits and has unlimited personal liability for business debts."},
+  {"stem": "A company invents a new battery design and wants to stop others from making it for a period of years. What should it obtain?", "choices": ["Copyright", "Trademark", "Patent", "Trade name"], "answer": 2, "explanation": "Patents protect inventions and processes. Copyrights protect creative works and trademarks protect brand identifiers."},
+  {"stem": "Why do many investors prefer the corporate form of ownership?", "choices": ["Profits are never taxed", "Owners have limited liability", "It is the easiest form to start", "Owners make every daily decision"], "answer": 1, "explanation": "Shareholders can lose only what they invested; the corporation itself is responsible for its debts."},
+  {"stem": "Two competing gas stations secretly agree to charge the same high price. Which type of law does this most likely violate?", "choices": ["Antitrust law", "Copyright law", "Contract law", "Zoning law"], "answer": 0, "explanation": "Price fixing reduces competition, which antitrust laws are designed to prevent."},
+  {"stem": "A 15-year-old signs a contract to buy a $900 gaming system and later wants to cancel. What is most likely true?", "choices": ["The contract is fully binding", "The minor can usually void the contract", "Only the seller can cancel", "The contract becomes a partnership"], "answer": 1, "explanation": "Minors generally lack contractual capacity for non-necessities, so they can usually void such contracts."},
+  {"stem": "Which business ownership form offers limited liability while allowing profits to pass through to the owners' personal tax returns?", "choices": ["General partnership", "C corporation", "Limited liability company", "Sole proprietorship"], "answer": 2, "explanation": "An LLC combines the liability protection of a corporation with pass-through taxation."}
+ ],
+ "flashcards": [
+  {"term": "Consideration", "definition": "Something of value that each party gives or promises in a contract."},
+  {"term": "Unlimited liability", "definition": "Owners are personally responsible for all business debts, risking personal assets."},
+  {"term": "Trademark", "definition": "Legal protection for a word, symbol or design that identifies a brand."},
+  {"term": "Antitrust laws", "definition": "Laws that promote competition by banning monopolies and practices such as price fixing."},
+  {"term": "LLC", "definition": "Limited liability company: limited liability for owners with pass-through taxation."}
+ ]
+},
+{
+ "title": "Communications",
+ "objective": "Choose clear, audience-appropriate messages and channels, and apply active listening in business settings.",
+ "body": "Communication is the transfer of meaning from a sender to a receiver. The basic model has a *sender* who encodes a message, a *channel* (email, meeting, phone, social media), a *receiver* who decodes it, and *feedback* that shows whether it was understood. Anything that gets in the way is *noise*: background sound, jargon, emotions or a poorly chosen channel.\n\n**Pick the right channel.** Rich channels (face-to-face, video) carry tone and body language and suit sensitive or complex messages, like a performance conversation. Lean channels (memos, email) suit routine, factual information that people may need to keep.\n\n**Write for the reader.** Lead with the main point, use short sentences, and end with a clear action: who does what by when. Proofread for tone, since written messages lose facial cues.\n\n**Listen actively.** Active listening means giving full attention, asking clarifying questions and paraphrasing (\"So what I'm hearing is...\"). It builds trust and prevents costly misunderstandings.\n\n**Nonverbal cues.** Eye contact, posture and gestures can support or contradict your words. In a DECA role-play, a firm handshake, steady eye contact and an organized summary are communication skills the judge notices.",
+ "examples": [
+  "A manager announces layoffs in person instead of by email because the message is sensitive and employees will have questions.",
+  "An employee repeats a customer's complaint back to confirm understanding before offering a fix."
+ ],
+ "questions": [
+  {"stem": "In the communication process, what is 'noise'?", "choices": ["The volume of the speaker's voice", "Anything that interferes with understanding the message", "The receiver's reply", "The channel used"], "answer": 1, "explanation": "Noise is any barrier, physical or psychological, that distorts or blocks the message."},
+  {"stem": "Which channel is best for delivering complex, sensitive news to a team?", "choices": ["A group text", "A company-wide memo", "A face-to-face meeting", "A social media post"], "answer": 2, "explanation": "Face-to-face is a rich channel that allows tone, body language and immediate questions."},
+  {"stem": "Paraphrasing what a speaker said is an example of:", "choices": ["Active listening", "Selective hearing", "Encoding", "Jargon"], "answer": 0, "explanation": "Paraphrasing confirms understanding and shows the speaker you are paying attention."},
+  {"stem": "What should usually come first in a business email?", "choices": ["Personal small talk", "The main point or request", "A list of attachments", "Background history"], "answer": 1, "explanation": "Busy readers need the purpose immediately; supporting details follow."},
+  {"stem": "Feedback in the communication process tells the sender:", "choices": ["Which channel is cheapest", "Whether the message was understood", "How long the message was", "Who encoded the message"], "answer": 1, "explanation": "Feedback closes the loop by showing how the receiver interpreted the message."},
+  {"stem": "A salesperson crosses their arms and looks away while saying 'I'm happy to help.' What is the likely effect?", "choices": ["The words are strengthened", "Nonverbal cues contradict the message", "The message becomes more formal", "There is no effect"], "answer": 1, "explanation": "Closed posture and poor eye contact signal disinterest, undermining the spoken message."},
+  {"stem": "Using technical terms a customer does not know is an example of which barrier?", "choices": ["Jargon", "Feedback", "Channel richness", "Encoding accuracy"], "answer": 0, "explanation": "Jargon is specialized language that confuses receivers outside the field."}
+ ],
+ "flashcards": [
+  {"term": "Active listening", "definition": "Fully concentrating, asking questions and paraphrasing to confirm understanding."},
+  {"term": "Noise", "definition": "Any barrier that interferes with a message being received as intended."},
+  {"term": "Channel", "definition": "The medium used to send a message, such as email, phone or a meeting."},
+  {"term": "Feedback", "definition": "The receiver's response that shows how a message was understood."},
+  {"term": "Nonverbal communication", "definition": "Messages sent through body language, facial expressions, gestures and tone."}
+ ]
+},
+{
+ "title": "Customer Relations",
+ "objective": "Use service techniques that build loyalty and resolve complaints in a way that keeps customers coming back.",
+ "body": "Keeping a customer is usually far cheaper than winning a new one, so businesses invest in *customer relations*: every interaction that shapes how customers feel about the company.\n\n**Know what customers expect.** Customers want reliability (doing what you promised), responsiveness (prompt help), assurance (knowledgeable, courteous staff), empathy (individual attention) and tangibles (clean, professional surroundings).\n\n**Handle complaints with a process.** A widely taught approach is: *listen* without interrupting, *empathize* (\"I understand how frustrating that is\"), *apologize* for the experience, *solve* the problem or offer options, and *follow up*. Never argue or blame the customer. A complaint handled well can create a more loyal customer than one who never had a problem.\n\n**Build loyalty.** Loyalty programs, personalized service and remembering preferences encourage repeat business. *Customer relationship management (CRM)* systems store purchase history and preferences so employees can personalize each interaction.\n\n**Brand promise.** Every employee represents the brand. Consistent service across locations and channels (in-store, phone, online) keeps the brand promise believable.",
+ "examples": [
+  "A hotel clerk apologizes for a noisy room, moves the guest immediately and sends a complimentary breakfast voucher.",
+  "A coffee shop's app remembers a customer's usual order and offers a reward after 10 visits."
+ ],
+ "questions": [
+  {"stem": "What is usually the FIRST step when handling an upset customer's complaint?", "choices": ["Offer a refund", "Explain company policy", "Listen without interrupting", "Call a manager"], "answer": 2, "explanation": "Listening first shows respect and helps you understand the real problem before responding."},
+  {"stem": "Why do businesses focus on keeping existing customers?", "choices": ["Existing customers never complain", "It is usually cheaper than attracting new customers", "Laws require it", "New customers spend nothing"], "answer": 1, "explanation": "Acquisition costs such as advertising make new customers expensive; loyal customers also tend to spend more over time."},
+  {"stem": "A CRM system primarily helps a business:", "choices": ["Calculate payroll taxes", "Store and use customer information to personalize service", "Manufacture products faster", "File patents"], "answer": 1, "explanation": "Customer relationship management software tracks interactions and preferences."},
+  {"stem": "Saying 'I understand how frustrating that must be' demonstrates:", "choices": ["Empathy", "Reliability", "Tangibles", "Upselling"], "answer": 0, "explanation": "Empathy means recognizing and acknowledging the customer's feelings."},
+  {"stem": "Which action most directly supports a company's brand promise?", "choices": ["Changing service standards at each location", "Delivering consistent service across all channels", "Avoiding customer feedback", "Lowering prices without notice"], "answer": 1, "explanation": "Consistency makes the brand's promise believable wherever customers interact with it."},
+  {"stem": "An employee who arrives on time for every scheduled delivery is demonstrating which service quality?", "choices": ["Empathy", "Reliability", "Tangibles", "Assurance"], "answer": 1, "explanation": "Reliability means consistently doing what was promised."},
+  {"stem": "After resolving a complaint, what step helps confirm the customer is satisfied?", "choices": ["Following up", "Closing the account", "Offering a survey to a different customer", "Ignoring further contact"], "answer": 0, "explanation": "Follow-up shows ongoing care and catches any remaining issues."}
+ ],
+ "flashcards": [
+  {"term": "Customer relations", "definition": "All activities a business uses to build positive, lasting relationships with customers."},
+  {"term": "CRM", "definition": "Customer relationship management: systems and practices for tracking and personalizing customer interactions."},
+  {"term": "Customer loyalty", "definition": "A customer's tendency to keep buying from the same business."},
+  {"term": "Brand promise", "definition": "The consistent experience a company commits to delivering to customers."},
+  {"term": "Empathy", "definition": "Understanding and acknowledging a customer's feelings."}
+ ]
+},
+{
+ "title": "Economics",
+ "objective": "Apply supply and demand, scarcity and economic systems to explain how prices and business decisions are made.",
+ "body": "Economics studies how people and businesses make choices with limited resources.\n\n**Scarcity and opportunity cost.** Resources (land, labor, capital, entrepreneurship) are limited while wants are unlimited, so every choice has an *opportunity cost*: the value of the next-best alternative you give up.\n\n**Supply and demand.** The *law of demand* says that as price rises, quantity demanded falls. The *law of supply* says that as price rises, producers supply more. The *equilibrium price* is where the two meet. A shortage (demand greater than supply) pushes prices up; a surplus pushes prices down. Demand shifts when income, tastes, the price of related goods or expectations change.\n\n**Elasticity.** If demand is *elastic*, a small price change causes a big change in quantity demanded (luxury items, products with many substitutes). If demand is *inelastic*, quantity barely changes (gasoline, medicine).\n\n**Economic systems.** In a *market* economy, individuals and businesses answer what, how and for whom to produce. In a *command* economy, the government decides. Most countries, including the U.S., are *mixed* economies.\n\n**Measuring the economy.** *GDP* measures total output, *inflation* is a general rise in prices, and the *business cycle* moves through expansion, peak, contraction and trough.",
+ "examples": [
+  "Concert tickets sell out within minutes and resale prices soar: demand exceeds supply at the original price.",
+  "A student who chooses to work a shift instead of attending a review session gives up the review session as the opportunity cost."
+ ],
+ "questions": [
+  {"stem": "What is opportunity cost?", "choices": ["The price paid for a product", "The value of the next-best alternative given up", "The total cost of production", "A tax on business opportunities"], "answer": 1, "explanation": "Opportunity cost is what you sacrifice when you choose one option over another."},
+  {"stem": "If the price of a product rises and nothing else changes, what happens to quantity demanded?", "choices": ["It increases", "It decreases", "It stays the same", "It doubles"], "answer": 1, "explanation": "The law of demand states that price and quantity demanded move in opposite directions."},
+  {"stem": "A shortage occurs when:", "choices": ["Supply exceeds demand at the current price", "Demand exceeds supply at the current price", "Prices are at equilibrium", "Producers stop advertising"], "answer": 1, "explanation": "When more people want a product than is available at a price, a shortage results and prices tend to rise."},
+  {"stem": "Demand for which product is most likely inelastic?", "choices": ["Designer sunglasses", "A specific brand of cereal", "Prescription insulin", "Movie tickets"], "answer": 2, "explanation": "Necessities with few substitutes keep similar demand even when prices rise."},
+  {"stem": "The United States is best described as which type of economy?", "choices": ["Command", "Traditional", "Mixed", "Pure market"], "answer": 2, "explanation": "The U.S. is mostly market-driven but includes government regulation and public services."},
+  {"stem": "Which phase of the business cycle features falling output and rising unemployment?", "choices": ["Expansion", "Peak", "Contraction", "Recovery"], "answer": 2, "explanation": "During a contraction (or recession), economic activity declines."},
+  {"stem": "A general, sustained rise in the price level is called:", "choices": ["Deflation", "Inflation", "Equilibrium", "Scarcity"], "answer": 1, "explanation": "Inflation reduces the purchasing power of money."}
+ ],
+ "flashcards": [
+  {"term": "Scarcity", "definition": "Limited resources compared with unlimited wants, forcing choices."},
+  {"term": "Equilibrium price", "definition": "The price at which quantity supplied equals quantity demanded."},
+  {"term": "Elastic demand", "definition": "Demand that changes a lot when price changes, often due to many substitutes."},
+  {"term": "Mixed economy", "definition": "An economy combining market decisions with government involvement."},
+  {"term": "GDP", "definition": "Gross domestic product: the total value of goods and services produced in a country."}
+ ]
+}
+]

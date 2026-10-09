@@ -1,0 +1,59 @@
+{
+  "note": "Every date carries a status. 'confirmed' = published by the organisation; 'tentative' = published as a future date subject to change; 'unconfirmed' = only third-party or conflicting sources. Admins update these in /admin/competitions.",
+  "competitions": [
+    {
+      "id": "deca-icdc-2027", "org": "deca", "level": "international",
+      "name": "DECA International Career Development Conference", "shortName": "DECA Internationals",
+      "startsOn": "2027-04-17", "endsOn": "2027-04-20", "timezone": "America/Los_Angeles", "location": "Anaheim, CA",
+      "status": "confirmed",
+      "statusNote": "Announced by DECA in the ICDC 2026 post-conference FAQ.",
+      "sourceUrl": "https://www.decadirect.org/articles/deca-icdc-2026-post-conference-faqs", "sourceCheckedAt": "2026-10-09"
+    },
+    {
+      "id": "fbla-nlc-2027", "org": "fbla", "level": "national",
+      "name": "FBLA National Leadership Conference", "shortName": "FBLA NLC",
+      "startsOn": "2027-06-23", "endsOn": "2027-06-26", "timezone": "America/New_York", "location": "Columbus, OH",
+      "status": "tentative",
+      "statusNote": "Listed under FBLA's 'Save the Date: Future NLCs'.",
+      "sourceUrl": "https://www.fbla.org/nlc", "sourceCheckedAt": "2026-10-09"
+    },
+    {
+      "id": "hosa-ilc-2027", "org": "hosa", "level": "international",
+      "name": "HOSA International Leadership Conference", "shortName": "HOSA ILC",
+      "startsOn": "2027-06-23", "endsOn": "2027-06-26", "timezone": "America/New_York", "location": "Baltimore, MD (unconfirmed)",
+      "status": "unconfirmed",
+      "statusNote": "Sources conflict: HOSA's countdown page lists June 23–26, 2027 in Baltimore; a third-party page citing the 2026–27 General Rules lists June 22–25, 2027 in Philadelphia. Confirm on hosa.org.",
+      "sourceUrl": "https://hosa.org/?p=4086", "sourceCheckedAt": "2026-10-09"
+    },
+    {
+      "id": "tsa-national-2027", "org": "tsa", "level": "national",
+      "name": "National TSA Conference", "shortName": "TSA Nationals",
+      "startsOn": "2027-06-23", "endsOn": "2027-06-27", "timezone": "America/New_York", "location": "Location to be announced",
+      "status": "unconfirmed",
+      "statusNote": "Only a state CTSO date sheet lists these dates; TSA had not posted a 2027 page when checked.",
+      "sourceUrl": "https://tsaweb.org/conferences/future-national-tsa-conferences", "sourceCheckedAt": "2026-10-09"
+    }
+  ],
+  "regions": [
+    { "id": "deca-tx-d1", "org": "deca", "state": "TX", "name": "District 1" },
+    { "id": "deca-tx-d2", "org": "deca", "state": "TX", "name": "District 2" },
+    { "id": "deca-tx-d3", "org": "deca", "state": "TX", "name": "District 3", "description": "Fort Bend and Harris counties" },
+    { "id": "deca-tx-d4", "org": "deca", "state": "TX", "name": "District 4" },
+    { "id": "deca-tx-d5", "org": "deca", "state": "TX", "name": "District 5" },
+    { "id": "deca-tx-d6", "org": "deca", "state": "TX", "name": "District 6" },
+    { "id": "deca-tx-d7", "org": "deca", "state": "TX", "name": "District 7" },
+    { "id": "deca-tx-d8", "org": "deca", "state": "TX", "name": "District 8" },
+    { "id": "deca-tx-d9", "org": "deca", "state": "TX", "name": "District 9" },
+    { "id": "deca-tx-d10", "org": "deca", "state": "TX", "name": "District 10" },
+    { "id": "deca-tx-d11", "org": "deca", "state": "TX", "name": "District 11" },
+    { "id": "deca-tx-d12", "org": "deca", "state": "TX", "name": "District 12" }
+  ],
+  "announcements": [
+    {
+      "org": "deca", "competitionId": "deca-icdc-2027", "kind": "date_change",
+      "title": "DECA International Career Development Conference has a new date",
+      "body": "ICDC 2027 is scheduled for Saturday, April 17 – Tuesday, April 20, 2027 in Anaheim, California. Countdowns and study plans have been updated automatically.",
+      "sourceUrl": "https://www.decadirect.org/articles/deca-icdc-2026-post-conference-faqs"
+    }
+  ]
+}

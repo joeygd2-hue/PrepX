@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* PrepX design tokens. Predominantly black and white, restrained borders. */
+:root {
+  --bg: #ffffff;
+  --fg: #0a0a0a;
+  --muted: #6b6b6b;
+  --subtle: #f3f3f3;
+  --subtle-2: #e9e9e9;
+  --border: #e6e6e6;
+  --card: #ffffff;
+  --primary: #0a0a0a;
+  --primary-fg: #ffffff;
+  --danger: #c0262d;
+  --success: #1f7a4d;
+  --warning: #9a6200;
+  --ring: #0a0a0a;
+  --deca: #0b5fa5;
+  --fbla: #1f3a73;
+  --hosa: #7a1e3a;
+  --tsa: #c8102e;
+}
+[data-accent="competitor"] { --primary: #3b5bdb; --ring: #3b5bdb; }
+[data-accent="finalist"] { --primary: #2b8a5e; --ring: #2b8a5e; }
+[data-accent="champion"] { --primary: #7048c8; --ring: #7048c8; }
+[data-accent="legend"] { --primary: #9c6b2f; --ring: #9c6b2f; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0b0b;
+    --fg: #f4f4f4;
+    --muted: #a0a0a0;
+    --subtle: #181818;
+    --subtle-2: #222222;
+    --border: #2a2a2a;
+    --card: #111111;
+    --primary: #f4f4f4;
+    --primary-fg: #0a0a0a;
+    --ring: #f4f4f4;
+    --danger: #ff6b6b;
+    --success: #4fd18b;
+    --warning: #f0b44c;
+  }
+  :root:not([data-theme="light"])[data-accent="competitor"] { --primary: #9fb3ff; --ring: #9fb3ff; }
+  :root:not([data-theme="light"])[data-accent="finalist"] { --primary: #8fdcb4; --ring: #8fdcb4; }
+  :root:not([data-theme="light"])[data-accent="champion"] { --primary: #c9b2ff; --ring: #c9b2ff; }
+  :root:not([data-theme="light"])[data-accent="legend"] { --primary: #e8c79a; --ring: #e8c79a; }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-subtle-2: var(--subtle-2);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-primary-fg: var(--primary-fg);
+  --color-danger: var(--danger);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-deca: var(--deca);
+  --color-fbla: var(--fbla);
+  --color-hosa: var(--hosa);
+  --color-tsa: var(--tsa);
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.eyebrow { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.tabular { font-variant-numeric: tabular-nums; }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+.prose-lesson p { margin: 0.75rem 0; line-height: 1.65; }
+.prose-lesson ul, .prose-lesson ol { margin: 0.5rem 0 0.75rem 1.25rem; }
+.prose-lesson ul { list-style: disc; }
+.prose-lesson ol { list-style: decimal; }
+.prose-lesson li { margin: 0.25rem 0; line-height: 1.55; }
