@@ -73,7 +73,8 @@ export async function studyContext(userId: string, tz: string, minutesPerDay: nu
   const target = await resolveTarget(userId, sel, tz);
   const daysLeft = target ? daysUntil(target.startsOn, tz) : null;
   const { stats, shape } = await planStats(userId, event, tz);
-  const plan = buildPlan(daysLeft, shape, stats);
+  const startedWith = target ? daysBetween(todayIn(tz, sel.selectedAt), target.startsOn) : null;
+  const plan = buildPlan(daysLeft, shape, stats, startedWith);
   const clusterId = event.components.exam?.clusterId;
   const cluster = clusterId ? (await db.select().from(schema.examClusters).where(eq(schema.examClusters.id, clusterId)))[0] : undefined;
   const tasks = await ensureTodayTasks(userId, event, tz, {

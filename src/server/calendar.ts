@@ -67,7 +67,8 @@ export async function calendarItems(userId: string, tz: string): Promise<CalItem
     const today = todayIn(tz);
     const { stats, shape } = await planStats(userId, event, tz);
     const daysLeft = Math.round((Date.parse(target.startsOn) - Date.parse(today)) / 86400000);
-    const plan = buildPlan(daysLeft, shape, stats);
+    const startedWith = Math.round((Date.parse(target.startsOn) - Date.parse(todayIn(tz, sel.selectedAt))) / 86400000);
+    const plan = buildPlan(daysLeft, shape, stats, startedWith);
     for (const m of plan.milestones) {
       const d = addDays(today, m.dueInDays);
       items.push({ id: `ms-${sel.id}-${m.key}`, kind: "milestone", start: d, end: d, title: `${event.code}: ${m.heading}`, org: sel.org, level: "personal", status: "confirmed", note: m.criteria.map((c) => c.label).join(" · ") });

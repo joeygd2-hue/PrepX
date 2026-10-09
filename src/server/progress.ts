@@ -68,7 +68,7 @@ export async function unitMastery(userId: string, clusterId: string) {
   // Mastery: >= 80% on the last 15+ questions answered from that unit.
   const recent = await db.execute<{ unit_id: string; n: number; correct: number }>(sql`
     select unit_id, count(*)::int as n, sum(case when correct then 1 else 0 end)::int as correct from (
-      select q.unit_id, a.correct, row_number() over (partition by q.unit_id order by a.answered_at desc) as rn
+      select q.unit_id, a.correct, row_number() over (partition by q.unit_id order by a.created_at desc) as rn
       from attempt_answers a join questions q on q.id = a.question_id
       where a.user_id = ${userId} and q.cluster_id = ${clusterId}
     ) t where rn <= 20 group by unit_id`);
@@ -119,7 +119,7 @@ export async function planStats(userId: string, event: typeof schema.events.$inf
     ? await db
         .select({
           fullExams: sql<number>`count(*) filter (where ${schema.examAttempts.mode} in ('full','rehearsal'))::int`,
-          rehearsals: sql<number>`count(*) filter (where ${schema.examAttempts.mode} = 'rehearsal' and ${schema.examAttempts.submittedAt} >= ${weekAgo})::int`,
+          rehearsals: sql<number>`count(*) filter (where ${schema.examAttempts.mode} = 'rehearsal' and ${schema.examAttempts.submittedAt} >= ${weekAgo.toISOString()}::timestamptz)::int`,
         })
         .from(schema.examAttempts)
         .where(and(eq(schema.examAttempts.userId, userId), eq(schema.examAttempts.clusterId, clusterId), isNotNull(schema.examAttempts.submittedAt)))

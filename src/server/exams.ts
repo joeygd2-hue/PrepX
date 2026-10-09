@@ -1,5 +1,5 @@
 import "server-only";
-import { and, desc, eq, inArray, isNull, notInArray, sql } from "drizzle-orm";
+import { and, desc, eq, inArray, isNull, lt, notInArray, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { XP } from "@/lib/levels";
 import { awardXp, recordActivity, syncAchievements } from "./progress";
@@ -262,7 +262,7 @@ export async function attemptReview(userId: string, attemptId: string) {
         eq(schema.examAttempts.clusterId, a.clusterId),
         eq(schema.examAttempts.mode, a.mode),
         notInArray(schema.examAttempts.id, [a.id]),
-        sql`${schema.examAttempts.submittedAt} < ${a.submittedAt}`,
+        lt(schema.examAttempts.submittedAt, a.submittedAt),
       ),
     )
     .orderBy(desc(schema.examAttempts.submittedAt))

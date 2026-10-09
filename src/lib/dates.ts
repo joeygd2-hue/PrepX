@@ -43,6 +43,6 @@ export function seasonKey(ymd: string) {
 }
 
 export function weeksLabel(days: number) {
-  const w = Math.round(days / 7);
+  const w = Math.ceil(days / 7);
   return w <= 1 ? "about a week" : `about ${w} weeks`;
 }

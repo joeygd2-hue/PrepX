@@ -105,7 +105,12 @@ export type Plan = {
   status: "On track" | "Ahead" | "Behind" | "Competition day" | "Season wrapped";
 };
 
-export function buildPlan(daysLeft: number | null, shape: EventShape, stats: PlanStats): Plan {
+/**
+ * @param availableAtStart days the student had when they began this plan (selection date →
+ *   competition). The plan is condensed only if they started with too little time; a student
+ *   who started early and fell behind keeps the full schedule and sees "Behind".
+ */
+export function buildPlan(daysLeft: number | null, shape: EventShape, stats: PlanStats, availableAtStart: number | null = daysLeft): Plan {
   if (daysLeft === null) {
     // No date: show the standard milestones as an estimate anchored 8 weeks out.
     return { ...buildPlan(56, shape, stats), mode: "no-date", daysLeft: null };
@@ -113,14 +118,15 @@ export function buildPlan(daysLeft: number | null, shape: EventShape, stats: Pla
   if (daysLeft < 0) return { mode: "past", daysLeft, milestones: [], status: "Season wrapped" };
   if (daysLeft === 0) return { mode: "past", daysLeft, milestones: [], status: "Competition day" };
 
-  const condensed = daysLeft < FULL_PLAN_DAYS;
-  const scale = condensed ? Math.max(0.25, daysLeft / FULL_PLAN_DAYS) : 1;
+  const budget = Math.max(daysLeft, availableAtStart ?? daysLeft);
+  const condensed = budget < FULL_PLAN_DAYS;
+  const scale = condensed ? Math.max(0.25, budget / FULL_PLAN_DAYS) : 1;
   const used = new Set<number>();
   const milestones: Milestone[] = STANDARD.map((m, i) => {
     let offset = condensed ? Math.round(m.offset * scale) : m.offset;
     // Keep offsets strictly decreasing and before the competition.
     while (used.has(offset) && offset > 0) offset--;
-    offset = Math.min(offset, daysLeft);
+    offset = Math.min(offset, budget);
     used.add(offset);
     const criteria = criteriaFor(m.key, shape, stats, condensed ? Math.max(scale, 0.4) : 1);
     const heading = condensed ? `Phase ${i + 1} · ${m.title}` : `${m.label} · ${m.title}`;
