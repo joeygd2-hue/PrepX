@@ -70,7 +70,12 @@ export function JudgeRunner({ sessionId, face, scenario, eventLabel }: { session
     }
   }, [elapsed, camOn, shareStills, phase, scenario.performSec]);
 
-  useEffect(() => () => stream.current?.getTracks().forEach((t) => t.stop()), []);
+  useEffect(
+    () => () => {
+      stream.current?.getTracks().forEach((t) => t.stop());
+    },
+    [],
+  );
 
   const toggleCamera = async () => {
     if (camOn) {

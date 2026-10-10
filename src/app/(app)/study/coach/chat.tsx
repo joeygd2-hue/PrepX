@@ -20,7 +20,10 @@ export function CoachChat(props: { sessionId: string | null; initialMessages: Ms
   const [error, setError] = useState<{ text: string; limit?: boolean } | null>(null);
   const [pending, start] = useTransition();
   const end = useRef<HTMLDivElement>(null);
-  useEffect(() => end.current?.scrollIntoView({ behavior: "smooth", block: "end" }), [messages, pending]);
+  useEffect(() => {
+    // Block body: scrollIntoView() returns a Promise in newer browsers, and effects may only return a cleanup function.
+    end.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+  }, [messages, pending]);
 
   const send = (text: string) => {
     const t = text.trim();

@@ -3,7 +3,9 @@ import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
 export default function AppError({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
-  useEffect(() => console.error(error), [error]);
+  useEffect(() => {
+    console.error(error);
+  }, [error]);
   return (
     <main id="main" className="mx-auto max-w-md px-6 pt-24 text-center">
       <h1 className="text-2xl font-semibold">Something went wrong</h1>

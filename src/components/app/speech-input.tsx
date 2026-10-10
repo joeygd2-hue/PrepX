@@ -54,7 +54,12 @@ export function SpeechInput({
   useEffect(() => {
     valueRef.current = value;
   }, [value]);
-  useEffect(() => () => rec.current?.stop(), []);
+  useEffect(
+    () => () => {
+      rec.current?.stop();
+    },
+    [],
+  );
 
   const start = () => {
     const w = window as unknown as { SpeechRecognition?: new () => SR; webkitSpeechRecognition?: new () => SR };
