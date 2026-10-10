@@ -7,11 +7,11 @@ export const LEVELS = [
 ] as const;
 
 export const ACCENTS = [
-  { id: "ink", label: "Ink", swatch: "#0a0a0a", unlockLevel: 1 },
-  { id: "competitor", label: "Competitor", swatch: "#c9d4f6", unlockLevel: 2 },
-  { id: "finalist", label: "Finalist", swatch: "#c7e4d3", unlockLevel: 3 },
-  { id: "champion", label: "Champion", swatch: "#dccbf3", unlockLevel: 4 },
-  { id: "legend", label: "Legend", swatch: "#ead9c5", unlockLevel: 5 },
+  { id: "ink", label: "Volt", swatch: "#c6f03a", unlockLevel: 1 },
+  { id: "competitor", label: "Competitor", swatch: "#8ea2ff", unlockLevel: 2 },
+  { id: "finalist", label: "Finalist", swatch: "#ff8a57", unlockLevel: 3 },
+  { id: "champion", label: "Champion", swatch: "#c99bff", unlockLevel: 4 },
+  { id: "legend", label: "Legend", swatch: "#f4c54f", unlockLevel: 5 },
 ] as const;
 
 export function levelFor(xp: number) {

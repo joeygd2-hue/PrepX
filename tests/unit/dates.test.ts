@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { addDays, daysBetween, daysUntil, formatRange, seasonKey, todayIn } from "@/lib/dates";
+import { addDays, daysBetween, daysUntil, formatRange, greetingFor, seasonKey, todayIn } from "@/lib/dates";
 
 describe("countdown", () => {
   it("matches the reference app: 190 days from Oct 9, 2026 to ICDC (Apr 17, 2027)", () => {
@@ -34,5 +34,15 @@ describe("countdown", () => {
     expect(seasonKey("2026-10-09")).toBe("2026-2027");
     expect(seasonKey("2027-07-31")).toBe("2026-2027");
     expect(seasonKey("2027-08-01")).toBe("2027-2028");
+  });
+});
+
+describe("greetingFor", () => {
+  it("uses the viewer's local hour, not the server's", () => {
+    const t = new Date("2026-10-10T15:30:00Z");
+    expect(greetingFor("UTC", t)).toBe("Good afternoon");
+    expect(greetingFor("America/Los_Angeles", t)).toBe("Good morning"); // 08:30
+    expect(greetingFor("Asia/Tokyo", t)).toBe("Up late"); // 00:30
+    expect(greetingFor("Europe/Berlin", t)).toBe("Good evening"); // 17:30
   });
 });

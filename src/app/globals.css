@@ -1,50 +1,80 @@
 @import "tailwindcss";
 
-/* PrepX design tokens. Predominantly black and white, restrained borders. */
+/*
+ * PrepX design tokens — "Graphite & Volt".
+ * Warm paper and graphite neutrals, one electric accent used sparingly for
+ * "you are here" moments: the active tab, progress, and primary calls to action.
+ */
 :root {
-  --bg: #ffffff;
-  --fg: #0a0a0a;
-  --muted: #6b6b6b;
-  --subtle: #f3f3f3;
-  --subtle-2: #e9e9e9;
-  --border: #e6e6e6;
+  --bg: #f4f4ef;
+  --bg-glow: rgba(196, 240, 58, 0.22);
+  --fg: #0c0c0d;
+  --muted: #6b6b65;
+  --subtle: #ebebe4;
+  --subtle-2: #deded6;
+  --border: rgba(12, 12, 13, 0.08);
+  --border-strong: rgba(12, 12, 13, 0.16);
   --card: #ffffff;
-  --primary: #0a0a0a;
-  --primary-fg: #ffffff;
-  --danger: #c0262d;
-  --success: #1f7a4d;
-  --warning: #9a6200;
-  --ring: #0a0a0a;
+  --hero: #0c0c0d;
+  --hero-fg: #f4f4ef;
+  --hero-muted: rgba(244, 244, 239, 0.62);
+  --hero-line: rgba(244, 244, 239, 0.14);
+  --primary: #0c0c0d;
+  --primary-fg: #f4f4ef;
+  --accent: #c6f03a;
+  --accent-fg: #0c0c0d;
+  --danger: #cc3b2f;
+  --success: #1d8a52;
+  --warning: #a46600;
+  --ring: #0c0c0d;
+  --shadow-card: 0 1px 0 rgba(12, 12, 13, 0.03), 0 10px 30px -20px rgba(12, 12, 13, 0.28);
+  --shadow-float: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 18px 50px -20px rgba(12, 12, 13, 0.35);
   --deca: #0b5fa5;
-  --fbla: #1f3a73;
-  --hosa: #7a1e3a;
-  --tsa: #c8102e;
+  --fbla: #2a4b9b;
+  --hosa: #a3274f;
+  --tsa: #d0142f;
+  color-scheme: light;
 }
-[data-accent="competitor"] { --primary: #3b5bdb; --ring: #3b5bdb; }
-[data-accent="finalist"] { --primary: #2b8a5e; --ring: #2b8a5e; }
-[data-accent="champion"] { --primary: #7048c8; --ring: #7048c8; }
-[data-accent="legend"] { --primary: #9c6b2f; --ring: #9c6b2f; }
+
+/* Accent colors unlocked by level. */
+[data-accent="competitor"] { --accent: #8ea2ff; --bg-glow: rgba(142, 162, 255, 0.22); }
+[data-accent="finalist"] { --accent: #ff8a57; --bg-glow: rgba(255, 138, 87, 0.2); }
+[data-accent="champion"] { --accent: #c99bff; --bg-glow: rgba(201, 155, 255, 0.22); }
+[data-accent="legend"] { --accent: #f4c54f; --bg-glow: rgba(244, 197, 79, 0.24); }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0b0b0b;
-    --fg: #f4f4f4;
-    --muted: #a0a0a0;
-    --subtle: #181818;
-    --subtle-2: #222222;
-    --border: #2a2a2a;
-    --card: #111111;
-    --primary: #f4f4f4;
-    --primary-fg: #0a0a0a;
-    --ring: #f4f4f4;
-    --danger: #ff6b6b;
+    --bg: #09090a;
+    --bg-glow: rgba(196, 240, 58, 0.09);
+    --fg: #f2f2ec;
+    --muted: #8d8d86;
+    --subtle: #151517;
+    --subtle-2: #1f1f22;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+    --card: #111113;
+    --hero: #18181b;
+    --hero-fg: #f2f2ec;
+    --hero-muted: rgba(242, 242, 236, 0.6);
+    --hero-line: rgba(242, 242, 236, 0.12);
+    --primary: #f2f2ec;
+    --primary-fg: #0c0c0d;
+    --ring: #f2f2ec;
+    --danger: #ff6b5e;
     --success: #4fd18b;
     --warning: #f0b44c;
+    --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 10px 30px -20px rgba(0, 0, 0, 0.8);
+    --shadow-float: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 18px 50px -18px rgba(0, 0, 0, 0.9);
+    --deca: #4d9be0;
+    --fbla: #7f9cf0;
+    --hosa: #e0668e;
+    --tsa: #ff5a6e;
+    color-scheme: dark;
   }
-  :root:not([data-theme="light"])[data-accent="competitor"] { --primary: #9fb3ff; --ring: #9fb3ff; }
-  :root:not([data-theme="light"])[data-accent="finalist"] { --primary: #8fdcb4; --ring: #8fdcb4; }
-  :root:not([data-theme="light"])[data-accent="champion"] { --primary: #c9b2ff; --ring: #c9b2ff; }
-  :root:not([data-theme="light"])[data-accent="legend"] { --primary: #e8c79a; --ring: #e8c79a; }
+  :root:not([data-theme="light"])[data-accent="competitor"] { --bg-glow: rgba(142, 162, 255, 0.1); }
+  :root:not([data-theme="light"])[data-accent="finalist"] { --bg-glow: rgba(255, 138, 87, 0.09); }
+  :root:not([data-theme="light"])[data-accent="champion"] { --bg-glow: rgba(201, 155, 255, 0.1); }
+  :root:not([data-theme="light"])[data-accent="legend"] { --bg-glow: rgba(244, 197, 79, 0.09); }
 }
 
 @theme inline {
@@ -54,9 +84,16 @@
   --color-subtle: var(--subtle);
   --color-subtle-2: var(--subtle-2);
   --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-card: var(--card);
+  --color-hero: var(--hero);
+  --color-hero-fg: var(--hero-fg);
+  --color-hero-muted: var(--hero-muted);
+  --color-hero-line: var(--hero-line);
   --color-primary: var(--primary);
   --color-primary-fg: var(--primary-fg);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
   --color-danger: var(--danger);
   --color-success: var(--success);
   --color-warning: var(--warning);
@@ -64,25 +101,130 @@
   --color-fbla: var(--fbla);
   --color-hosa: var(--hosa);
   --color-tsa: var(--tsa);
-  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-display: var(--font-instrument), ui-serif, Georgia, serif;
+  --shadow-card: var(--shadow-card);
+  --shadow-float: var(--shadow-float);
 }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
 body {
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image: radial-gradient(1100px 520px at 50% -260px, var(--bg-glow), transparent 70%);
+  background-repeat: no-repeat;
   color: var(--fg);
   font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
-:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
-.eyebrow { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
-.tabular { font-variant-numeric: tabular-nums; }
-.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+::selection {
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Small mono label used above titles and sections. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Texture for feature surfaces. */
+.dot-grid {
+  background-image: radial-gradient(currentColor 1px, transparent 1.2px);
+  background-size: 16px 16px;
+  mask-image: radial-gradient(120% 90% at 100% 0%, #000 30%, transparent 75%);
+}
+
+/* ── Motion ─────────────────────────────────────────────── */
+@keyframes px-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+@keyframes px-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes px-pop {
+  0% { transform: scale(0.6); opacity: 0; }
+  60% { transform: scale(1.08); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes px-shimmer {
+  from { background-position: -200% 0; }
+  to { background-position: 200% 0; }
+}
+
+/*
+ * Applied by each route group's template.tsx: runs on first load, refresh and every navigation.
+ * Fill mode is "backwards" (not "both") so the end state isn't pinned: hover transforms and
+ * filters keep working, and no transform lingers to trap position:fixed descendants.
+ */
+.page-enter {
+  animation: px-fade 0.35s ease-out backwards;
+}
+.page-enter main > *,
+.page-enter .stagger > * {
+  animation: px-enter 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+}
+.page-enter main > *:nth-child(1), .page-enter .stagger > *:nth-child(1) { animation-delay: 0ms; }
+.page-enter main > *:nth-child(2), .page-enter .stagger > *:nth-child(2) { animation-delay: 50ms; }
+.page-enter main > *:nth-child(3), .page-enter .stagger > *:nth-child(3) { animation-delay: 100ms; }
+.page-enter main > *:nth-child(4), .page-enter .stagger > *:nth-child(4) { animation-delay: 150ms; }
+.page-enter main > *:nth-child(5), .page-enter .stagger > *:nth-child(5) { animation-delay: 200ms; }
+.page-enter main > *:nth-child(6), .page-enter .stagger > *:nth-child(6) { animation-delay: 240ms; }
+.page-enter main > *:nth-child(7), .page-enter .stagger > *:nth-child(7) { animation-delay: 280ms; }
+.page-enter main > *:nth-child(8), .page-enter .stagger > *:nth-child(8) { animation-delay: 320ms; }
+.page-enter main > *:nth-child(n + 9), .page-enter .stagger > *:nth-child(n + 9) { animation-delay: 360ms; }
+
+.pop-in {
+  animation: px-pop 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--subtle) 0%, var(--subtle-2) 50%, var(--subtle) 100%);
+  background-size: 200% 100%;
+  animation: px-shimmer 1.4s linear infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
-.prose-lesson p { margin: 0.75rem 0; line-height: 1.65; }
-.prose-lesson ul, .prose-lesson ol { margin: 0.5rem 0 0.75rem 1.25rem; }
+
+/* Lesson body typography. */
+.prose-lesson p { margin: 0.85rem 0; line-height: 1.7; }
+.prose-lesson ul, .prose-lesson ol { margin: 0.5rem 0 0.85rem 1.25rem; }
 .prose-lesson ul { list-style: disc; }
 .prose-lesson ol { list-style: decimal; }
-.prose-lesson li { margin: 0.25rem 0; line-height: 1.55; }
+.prose-lesson li { margin: 0.3rem 0; line-height: 1.6; }
+.prose-lesson strong { font-weight: 600; }

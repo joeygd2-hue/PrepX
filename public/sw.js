@@ -1,7 +1,7 @@
 /* PrepX service worker.
  * Privacy: only static build assets, icons and the offline page are cached. Pages and API
  * responses (which contain personal data) are never stored by the service worker. */
-const CACHE = "prepx-static-v1";
+const CACHE = "prepx-static-v2";
 const PRECACHE = ["/offline", "/icons/icon-192.png", "/icons/icon.svg"];
 
 self.addEventListener("install", (event) => {

@@ -28,14 +28,15 @@ export async function onboard(page: Page, opts: { first?: string; birth?: string
   await page.waitForURL(/welcome/);
   await page.getByRole("link", { name: "Continue" }).click();
   const step = (name: RegExp) => expect(page.getByRole("heading", { name })).toBeVisible();
-  await step(/What's your name/);
-  await page.getByLabel("First name").fill(opts.first ?? "Jordan");
-  await page.getByLabel("Last name").fill("Rivera");
-  await page.getByRole("button", { name: "Continue" }).click();
+  // The age check comes first: nothing else is asked before it.
   await step(/birthday/);
   await page.getByLabel("Date of birth").fill(opts.birth ?? "2010-05-01");
   await page.getByRole("button", { name: "Continue" }).click();
   if (opts.birth && Number(opts.birth.slice(0, 4)) > 2013) return;
+  await step(/What's your name/);
+  await page.getByLabel("First name").fill(opts.first ?? "Jordan");
+  await page.getByLabel("Last name").fill("Rivera");
+  await page.getByRole("button", { name: "Continue" }).click();
   await step(/school/);
   await page.getByLabel("Grade").selectOption("10");
   await page.getByRole("button", { name: "Continue" }).click();

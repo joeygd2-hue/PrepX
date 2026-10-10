@@ -35,10 +35,10 @@ export async function xpSummary(userId: string, tz: string) {
   return { total: row.total, week: row.week, level: levelFor(row.total) };
 }
 
-export async function streakSummary(userId: string, tz: string) {
+export async function streakSummary(userId: string, tz: string, now: Date = new Date()) {
   const rows = await db.select({ day: schema.activityDays.day }).from(schema.activityDays).where(eq(schema.activityDays.userId, userId));
   const days = rows.map((r) => r.day);
-  const today = todayIn(tz);
+  const today = todayIn(tz, now);
   const last14 = days.filter((d) => d > addDays(today, -14)).length;
   return { current: currentStreak(days, today), longest: longestStreak(days), activeLast14: last14, practicedToday: days.includes(today) };
 }

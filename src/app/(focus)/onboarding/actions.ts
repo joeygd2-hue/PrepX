@@ -1,4 +1,5 @@
 "use server";
+import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { eq } from "drizzle-orm";
 import { z } from "zod";
@@ -10,7 +11,12 @@ import { ORG_IDS } from "@/lib/orgs";
 import { deleteAccount } from "@/server/account";
 
 export type StepState = { error?: string } | undefined;
-const STEPS = ["name", "age", "school", "orgs", "terms"] as const;
+/** The age check comes first so nothing else is collected from someone under 13. */
+const STEPS = ["age", "name", "school", "orgs", "terms"] as const;
+/** Set after an under-13 refusal so the age step can't simply be retried with another date. */
+const AGE_REFUSED_COOKIE = "prepx_age_refused";
+/** Name claims from Google, held here instead of the database until the age check passes. */
+const PREFILL_COOKIE = "prepx_prefill_name";
 
 async function me() {
   const u = await getCurrentUser();
@@ -19,8 +25,16 @@ async function me() {
 }
 const next = (step: (typeof STEPS)[number]) => STEPS[STEPS.indexOf(step) + 1] ?? "done";
 
+/** Later steps require a confirmed age; send anyone without one back to the age step. */
+async function requireAgeConfirmed(u: Awaited<ReturnType<typeof me>>) {
+  if (u.profile?.birthDate) return;
+  await db.update(schema.profiles).set({ onboardingStep: "age" }).where(eq(schema.profiles.userId, u.id));
+  redirect("/onboarding");
+}
+
 export async function saveName(_: StepState, form: FormData): Promise<StepState> {
   const u = await me();
+  await requireAgeConfirmed(u);
   const p = z
     .object({
       firstName: z.string().trim().min(1, "Enter your first name.").max(50),
@@ -33,6 +47,7 @@ export async function saveName(_: StepState, form: FormData): Promise<StepState>
     .update(schema.profiles)
     .set({ ...p.data, displayName: p.data.displayName || p.data.firstName, onboardingStep: next("name"), updatedAt: new Date() })
     .where(eq(schema.profiles.userId, u.id));
+  (await cookies()).delete(PREFILL_COOKIE);
   redirect("/onboarding");
 }
 
@@ -43,10 +58,14 @@ export async function saveAge(_: StepState, form: FormData): Promise<StepState> 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(birth)) return { error: "Enter your date of birth." };
   const age = ageOn(birth, todayIn("UTC"));
   if (age > 100 || age < 0) return { error: "Check the date and try again." };
-  if (age < MIN_AGE) {
-    // Do not retain data for under-13 users: delete the account immediately.
+  const jar = await cookies();
+  if (age < MIN_AGE || jar.get(AGE_REFUSED_COOKIE)) {
+    // Do not retain data for under-13 users: delete the account immediately, and
+    // don't accept a different date from this browser for a day.
     await deleteAccount(u.id, "under_13");
     await destroySession();
+    jar.delete(PREFILL_COOKIE);
+    jar.set(AGE_REFUSED_COOKIE, "1", { httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production", path: "/", maxAge: 60 * 60 * 24 });
     redirect("/sign-in/too-young");
   }
   const validTz = Intl.supportedValuesOf("timeZone").includes(tz) ? tz : "America/Chicago";
@@ -56,6 +75,7 @@ export async function saveAge(_: StepState, form: FormData): Promise<StepState> 
 
 export async function saveSchool(_: StepState, form: FormData): Promise<StepState> {
   const u = await me();
+  await requireAgeConfirmed(u);
   const p = z
     .object({
       grade: z.coerce.number().int().min(6).max(13),
@@ -80,6 +100,7 @@ export async function saveSchool(_: StepState, form: FormData): Promise<StepStat
 
 export async function saveOrgs(_: StepState, form: FormData): Promise<StepState> {
   const u = await me();
+  await requireAgeConfirmed(u);
   const orgs = form.getAll("org").map(String).filter((o) => (ORG_IDS as string[]).includes(o));
   if (!orgs.length) return { error: "Pick at least one organization. You can change this later." };
   await db.update(schema.profiles).set({ orgInterests: orgs, onboardingStep: next("orgs"), updatedAt: new Date() }).where(eq(schema.profiles.userId, u.id));
@@ -98,7 +119,7 @@ export async function acceptTerms(_: StepState, form: FormData): Promise<StepSta
   const [p] = await db.select().from(schema.profiles).where(eq(schema.profiles.userId, u.id));
   if (!p?.firstName || !p.birthDate || !p.grade || !p.orgInterests.length) {
     // Resumable: send the user back to whatever is missing.
-    const missing = !p?.firstName ? "name" : !p.birthDate ? "age" : !p.grade ? "school" : "orgs";
+    const missing = !p?.birthDate ? "age" : !p.firstName ? "name" : !p.grade ? "school" : "orgs";
     await db.update(schema.profiles).set({ onboardingStep: missing }).where(eq(schema.profiles.userId, u.id));
     redirect("/onboarding");
   }

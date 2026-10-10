@@ -46,3 +46,12 @@ export function weeksLabel(days: number) {
   const w = Math.ceil(days / 7);
   return w <= 1 ? "about a week" : `about ${w} weeks`;
 }
+
+/** Time-of-day greeting in the viewer's time zone. */
+export function greetingFor(timeZone: string, now: Date = new Date()) {
+  const hour = Number(new Intl.DateTimeFormat("en-US", { timeZone, hour: "numeric", hourCycle: "h23" }).format(now));
+  if (hour < 5) return "Up late";
+  if (hour < 12) return "Good morning";
+  if (hour < 17) return "Good afternoon";
+  return "Good evening";
+}

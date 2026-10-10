@@ -99,7 +99,7 @@ export function SpeechInput({
         {supported === false ? (
           <p className="text-sm text-muted">Voice input isn&apos;t supported in this browser. Type your response, or try Chrome, Edge or Safari.</p>
         ) : supported && !consented ? (
-          <div className="rounded-2xl bg-subtle p-4 text-sm">
+          <div className="rounded-[16px] border border-border bg-subtle/70 p-4 text-sm leading-relaxed">
             <p>
               <strong>Speak instead of typing?</strong> Your browser will ask for microphone access. Speech is converted to text by your browser&apos;s speech service (in Chrome, Google
               processes the audio). PrepX never receives or stores audio, only the text you submit.
@@ -126,7 +126,11 @@ export function SpeechInput({
           </Button>
         ) : null}
         {listening ? (
-          <p className="mt-2 text-sm text-muted" role="status">
+          <p className="mt-3 flex items-center gap-2 text-sm text-muted" role="status">
+            <span aria-hidden className="relative inline-flex size-2.5">
+              <span className="absolute inset-0 animate-ping rounded-full bg-accent opacity-75" />
+              <span className="relative inline-flex size-2.5 rounded-full bg-accent shadow-[inset_0_0_0_1px_color-mix(in_oklab,var(--fg)_25%,transparent)]" />
+            </span>
             Listening… speak naturally. You can edit the text afterwards.
           </p>
         ) : null}

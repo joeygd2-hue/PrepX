@@ -8,6 +8,7 @@ All-in-one competition prep for **DECA, FBLA, HOSA and TSA** high school student
 - **Architecture:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — sitemap, flows, data model, auth, AI, billing, tests
 - **Deployment:** [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) — hosting, OAuth, AI, Stripe, email, cron, legal checklist
 - **Feature checklist:** [docs/CHECKLIST.md](docs/CHECKLIST.md) — implemented / partial / blocked, per feature
+- **Design system:** [docs/DESIGN.md](docs/DESIGN.md) — tokens, primitives, patterns and motion
 
 ## Stack
 

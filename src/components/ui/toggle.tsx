@@ -24,28 +24,44 @@ export function Toggle({
   return (
     <div className="flex items-center justify-between gap-4 py-4">
       <div className="min-w-0">
-        <p className="font-medium">{label}</p>
+        <p className="font-medium tracking-[-0.01em]">{label}</p>
         {description ? <p className="mt-0.5 text-sm text-muted">{description}</p> : null}
       </div>
-      <button
-        type="button"
-        role="switch"
-        aria-checked={optimistic}
-        aria-label={label}
+      <Switch
+        checked={optimistic}
+        label={label}
         disabled={disabled || pending}
-        onClick={() =>
+        onToggle={() =>
           start(async () => {
             setOptimistic(!optimistic);
             await onChange(!optimistic);
           })
         }
-        className={cn(
-          "relative inline-flex h-7 w-12 shrink-0 items-center rounded-full transition-colors disabled:opacity-60",
-          optimistic ? "bg-fg" : "bg-subtle-2",
-        )}
-      >
-        <span className={cn("inline-block size-6 rounded-full bg-bg shadow transition-transform", optimistic ? "translate-x-5.5" : "translate-x-0.5")} />
-      </button>
+      />
     </div>
+  );
+}
+
+export function Switch({ checked, label, disabled, onToggle }: { checked: boolean; label: string; disabled?: boolean; onToggle: () => void }) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={checked}
+      aria-label={label}
+      disabled={disabled}
+      onClick={onToggle}
+      className={cn(
+        "relative inline-flex h-7 w-12 shrink-0 items-center rounded-full border transition-colors duration-200 disabled:opacity-60",
+        checked ? "border-transparent bg-accent" : "border-border-strong bg-subtle-2",
+      )}
+    >
+      <span
+        className={cn(
+          "inline-block size-5 rounded-full shadow-[0_1px_3px_rgba(0,0,0,0.25)] transition-transform duration-200 ease-[cubic-bezier(.2,.7,.2,1)]",
+          checked ? "translate-x-[23px] bg-accent-fg" : "translate-x-[3px] bg-card",
+        )}
+      />
+    </button>
   );
 }

@@ -3,6 +3,7 @@ import { currentStreak, longestStreak } from "@/lib/streaks";
 import { levelFor } from "@/lib/levels";
 import { earnedAchievements } from "@/lib/achievements";
 import { buildIcs, googleCalendarUrl } from "@/lib/ics";
+import { randomAlias } from "@/lib/alias";
 import { isJoinCodeShape, joinCode, normalizeJoinCode, sixDigitCode } from "@/lib/crypto";
 import { ageOn } from "@/lib/age";
 
@@ -63,5 +64,11 @@ describe("age gate", () => {
   it("computes age correctly around birthdays", () => {
     expect(ageOn("2013-10-10", "2026-10-09")).toBe(12);
     expect(ageOn("2013-10-09", "2026-10-09")).toBe(13);
+  });
+});
+
+describe("randomAlias", () => {
+  it("is an adjective, an animal and a two-digit number", () => {
+    for (let i = 0; i < 50; i++) expect(randomAlias()).toMatch(/^[A-Z][a-z]+ [A-Z][a-z]+ [1-9]\d$/);
   });
 });

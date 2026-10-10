@@ -96,7 +96,10 @@ export const profiles = pgTable("profiles", {
   // Privacy
   hideNameOnTrophies: boolean("hide_name_on_trophies").notNull().default(true),
   leaderboardVisibility: text("leaderboard_visibility").notNull().default("hidden"), // hidden | pseudonym | name
-  shareActivityWithChapter: boolean("share_activity_with_chapter").notNull().default(true),
+  /** Random leaderboard nickname, not derived from the student's name or id. Assigned on first use. */
+  leaderboardAlias: text("leaderboard_alias"),
+  /** Off until the student opts in (on joining a chapter or in Profile). */
+  shareActivityWithChapter: boolean("share_activity_with_chapter").notNull().default(false),
   publicTrophyId: text("public_trophy_id").notNull().default(sql`substr(md5(random()::text), 1, 10)`),
   referralCode: text("referral_code").notNull().default(sql`upper(substr(md5(random()::text), 1, 8))`),
   referredBy: uuid("referred_by").references(() => users.id, { onDelete: "set null" }),

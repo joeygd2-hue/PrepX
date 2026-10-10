@@ -13,7 +13,7 @@ export function EmailForm() {
       <Input id="email" name="email" type="email" autoComplete="email" inputMode="email" required placeholder="you@example.com" aria-describedby="email-error" />
       <FieldError>{state?.error}</FieldError>
       <SubmitButton block size="lg" className="mt-6" pendingText="Sending code…">
-        <ArrowRight className="size-4" aria-hidden /> Send code
+        Send code <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" aria-hidden />
       </SubmitButton>
     </form>
   );
@@ -33,11 +33,11 @@ export function CodeForm() {
         maxLength={7}
         required
         placeholder="123456"
-        className="text-center text-2xl tracking-[0.5em]"
+        className="h-16 text-center font-mono text-[1.75rem] tracking-[0.45em] placeholder:text-muted/35"
       />
       <FieldError>{state?.error}</FieldError>
       <SubmitButton block size="lg" className="mt-6" pendingText="Checking…">
-        <ArrowRight className="size-4" aria-hidden /> Continue
+        Continue <ArrowRight className="size-4 transition-transform group-hover/btn:translate-x-0.5" aria-hidden />
       </SubmitButton>
     </form>
   );

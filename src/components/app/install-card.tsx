@@ -37,19 +37,21 @@ export function InstallCard() {
     setDismissed(true);
   };
   return (
-    <section aria-label="Install PrepX" className="rounded-3xl border border-border p-5">
-      <div className="flex items-start gap-3">
-        <Smartphone className="mt-0.5 size-6 shrink-0" aria-hidden />
-        <div className="flex-1">
-          <p className="font-semibold">Add PrepX to your Home Screen</p>
-          <p className="text-sm text-muted">Opens like an app and can send check-in and announcement alerts.</p>
+    <section aria-label="Install PrepX" className="relative overflow-hidden rounded-[24px] border border-border bg-card p-5 shadow-card">
+      <div className="flex items-start gap-3.5">
+        <span aria-hidden className="inline-flex size-10 shrink-0 items-center justify-center rounded-[12px] bg-accent text-accent-fg">
+          <Smartphone className="size-[18px]" />
+        </span>
+        <div className="min-w-0 flex-1">
+          <p className="font-semibold tracking-[-0.01em]">Add PrepX to your Home Screen</p>
+          <p className="mt-0.5 text-sm text-muted">Opens like an app and can send check-in and announcement alerts.</p>
         </div>
-        <button type="button" onClick={dismiss} aria-label="Dismiss" className="rounded-full p-1 hover:bg-subtle">
-          <X className="size-5" aria-hidden />
+        <button type="button" onClick={dismiss} aria-label="Dismiss" className="-m-1 rounded-full p-1.5 text-muted transition-colors hover:bg-subtle hover:text-fg">
+          <X className="size-[18px]" aria-hidden />
         </button>
       </div>
       {ios && !evt ? (
-        <p className="mt-4 rounded-2xl bg-subtle px-4 py-3 text-sm">
+        <p className="mt-4 rounded-[14px] bg-subtle px-4 py-3 text-sm">
           In Safari, tap <strong>Share</strong> then <strong>Add to Home Screen</strong>.
         </p>
       ) : (

@@ -25,23 +25,29 @@ export function eventLines(e: EventRow) {
 }
 
 export function EventSummary({ event, action }: { event: EventRow; action?: React.ReactNode }) {
+  const lines = eventLines(event);
   return (
-    <section className="rounded-3xl border border-border p-5 sm:p-6">
+    <section className="relative overflow-hidden rounded-[24px] border border-border bg-card p-5 shadow-card sm:p-6">
       <div className="flex items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-2">
           <OrgBadge org={event.org as OrgId} />
-          <Chip>{event.code}</Chip>
+          <Chip className="font-mono tracking-wider">{event.code}</Chip>
           {event.verification !== "verified" && event.verification !== "reference_observed" ? <Chip tone="warning">Format unverified</Chip> : null}
         </div>
         {action}
       </div>
-      <h2 className="mt-4 text-xl font-semibold sm:text-2xl">{event.name}</h2>
-      <div className="mt-3 space-y-1 text-muted">
-        <p>{[shortCategory(event.category), event.cluster].filter(Boolean).join(" · ")}</p>
-        {eventLines(event).map((l) => (
-          <p key={l}>{l}</p>
-        ))}
-      </div>
+      <h2 className="mt-5 text-[1.6rem] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-3xl">{event.name}</h2>
+      <p className="eyebrow mt-3">{[shortCategory(event.category), event.cluster].filter(Boolean).join(" · ")}</p>
+      {lines.length ? (
+        <ul className="mt-5 space-y-2 border-t border-border pt-4 text-[15px]">
+          {lines.map((l) => (
+            <li key={l} className="flex gap-3">
+              <span aria-hidden className="mt-[0.6em] h-px w-3 shrink-0 bg-fg/40" />
+              <span>{l}</span>
+            </li>
+          ))}
+        </ul>
+      ) : null}
     </section>
   );
 }
@@ -71,31 +77,39 @@ export function EventFacts({ event }: { event: EventRow }) {
       ) : event.verification === "reference_observed" ? (
         <Notice>Format details were checked against a published reference. Confirm specifics in the official guidelines.</Notice>
       ) : null}
-      <dl className="divide-y divide-border rounded-3xl border border-border px-5">
+      <dl className="divide-y divide-border rounded-[24px] border border-border bg-card px-5 shadow-card">
         {rows.map(([k, v]) => (
-          <div key={k} className="flex justify-between gap-4 py-3 text-sm">
-            <dt className="text-muted">{k}</dt>
+          <div key={k} className="flex items-center justify-between gap-4 py-3.5 text-sm">
+            <dt className="eyebrow">{k}</dt>
             <dd className="text-right font-medium">{v}</dd>
           </div>
         ))}
       </dl>
       {event.rubric.length ? (
-        <div className="rounded-3xl border border-border p-5">
-          <h3 className="font-semibold">What PrepX practice feedback looks at</h3>
+        <div className="rounded-[24px] border border-border bg-card p-5 shadow-card sm:p-6">
+          <h3 className="text-lg font-semibold tracking-[-0.02em]">What PrepX practice feedback looks at</h3>
           <p className="mt-1 text-sm text-muted">
             {event.rubricVerification === "verified" ? "Based on the official rubric." : "General practice criteria, not the official rubric or its point values."}
           </p>
-          <ul className="mt-3 space-y-2 text-sm">
-            {event.rubric.map((r) => (
-              <li key={r.id}>
-                <span className="font-medium">{r.label}.</span> <span className="text-muted">{r.description}</span>
+          <ol className="mt-5 space-y-4 text-sm">
+            {event.rubric.map((r, i) => (
+              <li key={r.id} className="flex gap-3">
+                <span aria-hidden className="mt-px font-mono text-xs text-muted tabular">{String(i + 1).padStart(2, "0")}</span>
+                <span>
+                  <span className="font-medium">{r.label}.</span> <span className="text-muted">{r.description}</span>
+                </span>
               </li>
             ))}
-          </ul>
+          </ol>
         </div>
       ) : null}
       {event.sourceUrl ? (
-        <Link href={event.sourceUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm underline underline-offset-2">
+        <Link
+          href={event.sourceUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-full border border-border-strong px-3.5 py-1.5 text-sm font-medium transition-colors hover:bg-subtle"
+        >
           Official guidelines <ExternalLink className="size-3.5" aria-hidden />
         </Link>
       ) : null}

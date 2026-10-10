@@ -1,5 +1,8 @@
 import { cn } from "@/lib/cn";
 
+const field =
+  "w-full rounded-[14px] border border-border-strong bg-card text-[15px] text-fg placeholder:text-muted/80 transition-[border-color,box-shadow] duration-150 focus:border-fg focus:outline-none focus:ring-4 focus:ring-accent/35 disabled:opacity-60";
+
 export function Label({ htmlFor, children, className }: { htmlFor?: string; children: React.ReactNode; className?: string }) {
   return (
     <label htmlFor={htmlFor} className={cn("mb-2 block text-sm font-medium", className)}>
@@ -9,36 +12,15 @@ export function Label({ htmlFor, children, className }: { htmlFor?: string; chil
 }
 
 export function Input({ className, ...props }: React.InputHTMLAttributes<HTMLInputElement>) {
-  return (
-    <input
-      className={cn(
-        "h-13 w-full rounded-2xl border border-border bg-card px-4 text-[15px] text-fg placeholder:text-muted focus:border-fg focus:outline-none",
-        className,
-      )}
-      {...props}
-    />
-  );
+  return <input className={cn(field, "h-12 px-4", className)} {...props} />;
 }
 
 export function Textarea({ className, ...props }: React.TextareaHTMLAttributes<HTMLTextAreaElement>) {
-  return (
-    <textarea
-      className={cn(
-        "w-full rounded-2xl border border-border bg-card p-4 text-[15px] text-fg placeholder:text-muted focus:border-fg focus:outline-none",
-        className,
-      )}
-      {...props}
-    />
-  );
+  return <textarea className={cn(field, "p-4 leading-relaxed", className)} {...props} />;
 }
 
 export function Select({ className, ...props }: React.SelectHTMLAttributes<HTMLSelectElement>) {
-  return (
-    <select
-      className={cn("h-13 w-full rounded-2xl border border-border bg-card px-4 text-[15px] text-fg focus:border-fg focus:outline-none", className)}
-      {...props}
-    />
-  );
+  return <select className={cn(field, "h-12 px-4", className)} {...props} />;
 }
 
 export function FieldError({ children }: { children?: React.ReactNode }) {
@@ -55,15 +37,16 @@ export function Notice({ tone = "info", children, className }: { tone?: "info" |
     <div
       role={tone === "error" ? "alert" : "status"}
       className={cn(
-        "rounded-2xl border px-4 py-3 text-sm",
-        tone === "info" && "border-border bg-subtle",
-        tone === "success" && "border-success/30 bg-success/10 text-success",
-        tone === "error" && "border-danger/30 bg-danger/10 text-danger",
-        tone === "warning" && "border-warning/30 bg-warning/10 text-warning",
+        "flex gap-3 rounded-[16px] border px-4 py-3 text-sm leading-relaxed",
+        tone === "info" && "border-border bg-card",
+        tone === "success" && "border-success/25 bg-success/10 text-success",
+        tone === "error" && "border-danger/25 bg-danger/10 text-danger",
+        tone === "warning" && "border-warning/25 bg-warning/10 text-warning",
         className,
       )}
     >
-      {children}
+      <span aria-hidden className={cn("mt-1.5 size-1.5 shrink-0 rounded-full", tone === "info" ? "bg-accent" : "bg-current")} />
+      <div className="min-w-0">{children}</div>
     </div>
   );
 }

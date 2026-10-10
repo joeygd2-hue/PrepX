@@ -4,7 +4,7 @@ import { cn } from "@/lib/cn";
 import { IconTile } from "./card";
 
 export function ListGroup({ children, className }: { children: React.ReactNode; className?: string }) {
-  return <div className={cn("divide-y divide-border overflow-hidden rounded-3xl border border-border bg-card px-5", className)}>{children}</div>;
+  return <div className={cn("divide-y divide-border overflow-hidden rounded-[24px] border border-border bg-card px-4 shadow-card sm:px-5", className)}>{children}</div>;
 }
 
 type RowProps = {
@@ -21,15 +21,16 @@ type RowProps = {
 export function ListRow({ icon, title, subtitle, right, href, danger, external, className }: RowProps) {
   const inner = (
     <>
-      {icon ? <IconTile>{icon}</IconTile> : null}
+      {icon ? <IconTile className={danger ? "text-danger" : undefined}>{icon}</IconTile> : null}
       <span className="min-w-0 flex-1">
-        <span className={cn("block font-medium", danger && "text-danger")}>{title}</span>
+        <span className={cn("block font-medium tracking-[-0.01em]", danger && "text-danger")}>{title}</span>
         {subtitle ? <span className="mt-0.5 block text-sm text-muted">{subtitle}</span> : null}
       </span>
-      {right ?? (href ? <ChevronRight className="size-5 shrink-0 text-muted" aria-hidden /> : null)}
+      {right ??
+        (href ? <ChevronRight className="size-4 shrink-0 text-muted transition-transform duration-200 group-hover/row:translate-x-0.5 group-hover/row:text-fg" aria-hidden /> : null)}
     </>
   );
-  const cls = cn("flex items-center gap-4 py-4", href && "-mx-5 px-5 hover:bg-subtle/60", className);
+  const cls = cn("group/row flex items-center gap-3.5 py-3.5", href && "-mx-4 px-4 transition-colors hover:bg-subtle/60 sm:-mx-5 sm:px-5", className);
   if (!href) return <div className={cls}>{inner}</div>;
   if (external)
     return (

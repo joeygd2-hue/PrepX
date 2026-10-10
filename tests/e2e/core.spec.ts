@@ -15,7 +15,7 @@ test("new student registers, onboards, picks an event and gets a dynamic countdo
   await expect(page.getByText("6 weeks out · Learn the material")).toBeVisible();
   await expect(page.getByText("Judged practice · 75%")).toBeVisible();
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: "Hi, Jordan" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^(Good morning|Good afternoon|Good evening|Up late), Jordan$/ })).toBeVisible();
   await expect(page.getByText("days to go")).toBeVisible();
   await expect(page.getByText(/Today's plan/i)).toBeVisible();
 });
@@ -28,6 +28,26 @@ test("students under 13 are refused and nothing is kept", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /13 and older/ })).toBeVisible();
   const rows = await sql`select id from users where lower(email) = ${email.toLowerCase()}`;
   expect(rows).toHaveLength(0);
+  // Retrying right away from the same browser with an older date is refused too.
+  await signIn(page, email);
+  await page.waitForURL(/welcome/);
+  await page.getByRole("link", { name: "Continue" }).click();
+  await page.getByLabel("Date of birth").fill("2005-01-01");
+  await page.getByRole("button", { name: "Continue" }).click();
+  await page.waitForURL(/too-young/);
+  expect(await sql`select id from users where lower(email) = ${email.toLowerCase()}`).toHaveLength(0);
+});
+
+test("a sign-up can be cancelled during onboarding and nothing is kept", async ({ page }) => {
+  const email = uniqueEmail("cancel");
+  await signIn(page, email);
+  await page.waitForURL(/welcome/);
+  await page.getByRole("link", { name: "Continue" }).click();
+  await expect(page.getByRole("heading", { name: /birthday/ })).toBeVisible();
+  await page.getByRole("button", { name: "Cancel sign-up" }).click();
+  await page.getByRole("button", { name: "Delete and leave" }).click();
+  await page.waitForURL(/\/sign-in$/);
+  expect(await sql`select id from users where lower(email) = ${email.toLowerCase()}`).toHaveLength(0);
 });
 
 test("Quick 10: answer, see explanations, submit and review results", async ({ page }) => {

@@ -2,6 +2,8 @@
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
+import { eq } from "drizzle-orm";
+import { db, schema } from "@/db";
 import { userOrThrow } from "@/server/auth/session";
 import {
   ChapterError,
@@ -30,6 +32,11 @@ export async function joinAction(_: FormState, form: FormData): Promise<FormStat
     await joinChapter(user.id, String(form.get("code") ?? ""));
   } catch (e) {
     return err(e);
+  }
+  // Sharing weekly activity with chapter leaders is an explicit choice made on the join screen (off by default).
+  const share = form.get("shareActivity") === "on";
+  if (share !== user.profile?.shareActivityWithChapter) {
+    await db.update(schema.profiles).set({ shareActivityWithChapter: share, updatedAt: new Date() }).where(eq(schema.profiles.userId, user.id));
   }
   revalidatePath("/", "layout");
   redirect("/chapter?joined=1");

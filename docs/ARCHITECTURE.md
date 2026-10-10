@@ -7,7 +7,7 @@ This document covers Phase 2 of the build: sitemap, user flows, components, data
 | Layer | Choice | Reason |
 |---|---|---|
 | App | Next.js 16 (App Router, React 19, Server Components + Server Actions), TypeScript | One deployable unit; server-rendered pages keep personal data and secrets on the server. |
-| Styling | Tailwind CSS v4 with CSS-variable tokens (`src/app/globals.css`) | Black/white design system with light/dark and unlockable accent colors. |
+| Styling | Tailwind CSS v4 with CSS-variable tokens (`src/app/globals.css`), see [DESIGN.md](DESIGN.md) | "Graphite & Volt" design system: warm neutrals, one accent, light/dark, unlockable accent colors, page-entrance motion. |
 | Data | PostgreSQL + Drizzle ORM, SQL migrations in `drizzle/` | Any managed Postgres works (Neon, Supabase, RDS…). No vendor lock-in. |
 | Auth | Own implementation: passwordless email codes + Google OAuth (`arctic`), DB-backed sessions | Matches the reference sign-in ("Continue with Google / email"); avoids password storage. |
 | AI | Anthropic Claude via `@anthropic-ai/sdk`, server-side only, behind `src/server/ai/provider.ts` | Swap-able provider boundary, structured outputs validated with Zod. |
@@ -31,7 +31,7 @@ Public
   /offline                    PWA offline fallback
 
 Onboarding (focus layout, no nav)
-  /welcome → /onboarding (name → birthday/13+ → school → organizations → terms)
+  /welcome → /onboarding (birthday/13+ → name → school → organizations → terms)
 
 App (bottom nav: Home · Study · Calendar · Chapter · Profile)
   /                           Home dashboard
@@ -54,8 +54,8 @@ Admin (staff/admin role)
 
 ## 3. Key user flows
 
-1. **Sign up** — `/sign-in` → email → code emailed (hash stored, 10-min TTL, 5 attempts) → session cookie → `/welcome` → onboarding (resumable; `profiles.onboarding_step`) → `/study/events`.
-   Under 13 → account and inputs deleted immediately → `/sign-in/too-young`.
+1. **Sign up** — `/sign-in` → email → code emailed (hash stored, 10-min TTL, 5 attempts enforced atomically) → session cookie → `/welcome` → onboarding (resumable; `profiles.onboarding_step`; the age check is the first step) → `/study/events`.
+   Under 13 → account and inputs deleted immediately → `/sign-in/too-young` (the browser can't retry with another date for 24 h). "Cancel sign-up" deletes the account at any step; unfinished sign-ups are deleted after 7 days.
 2. **Choose event** — org switcher → chooser (search + categories) → details (verification status, practice rubric, official source) → "Study this event" (previous selection kept inactive for history).
 3. **Daily study** — Home/Study show countdown (computed per request in the viewer's time zone), milestones and today's 2–4 tasks. Tasks auto-complete when the server records the matching activity; manual ticks are self-tracking only and earn no XP.
 4. **Practice exam** — start screen (POST; never on prefetch) → attempt runner → server grading → review with topic breakdown and comparison to last attempt → misses go to the mistake notebook until answered correctly twice.
@@ -65,7 +65,7 @@ Admin (staff/admin role)
 
 ## 4. Component inventory
 
-`src/components/ui`: Button/ButtonLink, SubmitButton, Card/IconTile/SectionLabel, ListGroup/ListRow, Input/Textarea/Select/Label/FieldError/Notice, OrgBadge/Chip/VerificationChip, ProgressBar/Ring, Page/PageTitle/BackHeader/EmptyState, Toggle (optimistic switch), Markdown (safe subset), ActionForm/ActionButton.
+`src/components/ui`: Button/ButtonLink, SubmitButton, Card/HeroTexture/IconTile/SectionLabel, Tile/TileGrid/StatStrip, ListGroup/ListRow, Input/Textarea/Select/Label/FieldError/Notice, OrgBadge/Chip/VerificationChip, ProgressBar/Ring, Page/PageTitle/Accent/BackHeader/EmptyState, Toggle/Switch, Markdown (safe subset), ActionForm/ActionButton.
 `src/components/app`: CountdownHero, TodayPlan, PlanCard, ReadinessCard, LevelCard, OrgSwitcher, EventSummary/EventFacts, FeedbackView, SpeechInput, InstallCard, Avatar.
 `src/components/shell`: BottomNav, Logo, PublicHeader/Footer/PublicPage, ServiceWorkerRegister.
 
