@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Visual Design Principles",
+    "objective": "Apply the core principles of design—contrast, alignment, repetition, and proximity—to evaluate and improve digital layouts.",
+    "body": "Every effective digital design rests on a small set of principles that guide how viewers perceive and process visual information. Understanding these principles gives you a repeatable system for making design decisions rather than relying on instinct alone.\n\n**Contrast** is the difference between elements that makes them stand out from one another. Contrast can be achieved through color (dark vs. light), size (large vs. small), weight (bold vs. thin), or shape (round vs. angular). High contrast draws the eye to the most important element on a page, while low contrast creates a unified, calm feel. Without enough contrast, designs feel flat and text becomes hard to read.\n\n**Alignment** refers to the invisible lines that connect elements on a page. When every element aligns to a grid or to other elements, the design feels organized and intentional. Misaligned elements—even by just a few pixels—create a sense of sloppiness and erode viewer trust. Left alignment is the most common in Western reading cultures because it mirrors how we read text.\n\n**Repetition** strengthens a design by tying individual parts into a cohesive whole. Repeating a font, a color, or a graphic style throughout a document signals that all the pieces belong together. In branding, repetition is how companies build visual recognition across multiple materials.\n\n**Proximity** groups related items together so the viewer understands their relationship without needing to read every word. Items placed close together are perceived as a unit; items placed far apart seem unrelated. White space—the empty area around and between elements—is the tool you use to control proximity. White space is not wasted space; it is an active design element that improves readability and focus.\n\nThese four principles, sometimes remembered with the acronym **CARP**, work together. A strong design uses contrast to establish hierarchy, alignment to create order, repetition to build unity, and proximity to communicate relationships. When a design feels wrong but you cannot identify why, checking each CARP principle in turn is an effective diagnostic strategy.",
+    "examples": [
+      "A club flyer uses a large, bold event title in white over a dark navy background—high contrast ensures the title is the first thing a viewer reads.",
+      "A business card repeats the same coral accent color on the logo, the phone number, and a thin border, making all three elements feel like part of one brand identity.",
+      "A resume groups the job title, company name, and dates of employment close together with extra white space separating each position, so the reader instantly understands which details belong to which job."
+    ],
+    "questions": [
+      {
+        "stem": "A student designs a poster where the headline and body text are both thin gray on a white background. Which principle is most clearly violated?",
+        "choices": [
+          "Proximity",
+          "Repetition",
+          "Contrast",
+          "Alignment"
+        ],
+        "answer": 2,
+        "explanation": "Contrast is violated because there is not enough visual difference between the text and background, making content difficult to read. Proximity relates to grouping, not readability of individual elements."
+      },
+      {
+        "stem": "On a flyer, the event date is positioned three pixels to the right of every other text block. Which principle does this break?",
+        "choices": [
+          "Contrast",
+          "Alignment",
+          "Repetition",
+          "Proximity"
+        ],
+        "answer": 1,
+        "explanation": "Alignment is broken because the date does not share an invisible guideline with the other elements, making the layout look unintentional. Contrast involves visual difference, not positional consistency."
+      },
+      {
+        "stem": "A designer uses the same teal color for every section header across a ten-page report. This best demonstrates which principle?",
+        "choices": [
+          "Contrast",
+          "Proximity",
+          "Repetition",
+          "Alignment"
+        ],
+        "answer": 2,
+        "explanation": "Repetition ties the report together visually by using a consistent element—color—across multiple pages. Proximity describes how close elements are to each other, not cross-page consistency."
+      },
+      {
+        "stem": "A contact form groups 'Name,' 'Email,' and 'Phone' fields together with extra space before the 'Submit' button. This layout uses which principle?",
+        "choices": [
+          "Alignment",
+          "Contrast",
+          "Repetition",
+          "Proximity"
+        ],
+        "answer": 3,
+        "explanation": "Proximity signals that the three input fields are related (personal information) and that the submit button is a separate action. Alignment describes positional relationships to a grid, not grouping by meaning."
+      },
+      {
+        "stem": "Which of the following best describes the design purpose of white space?",
+        "choices": [
+          "It fills areas where images could not be found",
+          "It controls proximity and improves focus on key elements",
+          "It reduces printing costs for physical materials",
+          "It signals that a design is unfinished"
+        ],
+        "answer": 1,
+        "explanation": "White space actively guides the viewer's eye and separates groups of content to improve comprehension. It is an intentional design choice, not a placeholder or cost-reduction strategy."
+      },
+      {
+        "stem": "A logo appears in blue on a company website, but the business cards use the same logo in black. Which principle is weakened?",
+        "choices": [
+          "Alignment",
+          "Contrast",
+          "Proximity",
+          "Repetition"
+        ],
+        "answer": 3,
+        "explanation": "Repetition is weakened because the inconsistent color prevents the logo from reinforcing the same visual identity across materials. Contrast involves differences within a single design, not inconsistency across media."
+      },
+      {
+        "stem": "A student wants the viewer's eye to land on a sale price first. Which approach best achieves this?",
+        "choices": [
+          "Make the price the same size as surrounding text but in italic",
+          "Place the price at the bottom of the page",
+          "Display the price in a large, bold font against a contrasting background",
+          "Use a thin font and light color for the price"
+        ],
+        "answer": 2,
+        "explanation": "High contrast combined with large, bold type creates a strong visual hierarchy that draws the eye to the price immediately. Making the price the same size or using low contrast would cause it to blend in rather than stand out."
+      },
+      {
+        "stem": "Which acronym is commonly used to remember the four core design principles covered in this unit?",
+        "choices": [
+          "CMYK",
+          "CARP",
+          "RGB",
+          "AIDA"
+        ],
+        "answer": 1,
+        "explanation": "CARP stands for Contrast, Alignment, Repetition, and Proximity—the four foundational principles. CMYK and RGB are color models, and AIDA is a marketing framework."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Contrast",
+        "definition": "The degree of visual difference between two or more elements, used to create emphasis and establish hierarchy."
+      },
+      {
+        "term": "Alignment",
+        "definition": "The positioning of elements along a shared invisible line or grid so a layout appears organized and intentional."
+      },
+      {
+        "term": "Repetition",
+        "definition": "The consistent reuse of a visual element—such as a color, font, or shape—across a design to create unity and brand recognition."
+      },
+      {
+        "term": "Proximity",
+        "definition": "The practice of grouping related elements close together and separating unrelated elements with white space to communicate relationships."
+      },
+      {
+        "term": "White Space",
+        "definition": "The empty area surrounding and between design elements, used actively to improve readability and direct the viewer's attention."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Risk and Insurance Principles",
+    "objective": "Identify the core types of risk, explain how insurance transfers risk, and classify the fundamental components of an insurance contract.",
+    "body": "Risk is an unavoidable element of business and personal life. In the context of insurance, **risk** is defined as the uncertainty of financial loss. Before a business or individual can manage risk effectively, they must first understand its nature. Risks are broadly categorized as **pure risk** — situations where the only outcomes are loss or no loss, such as a fire destroying a warehouse — and **speculative risk**, where outcomes may result in gain, loss, or no change, such as investing in the stock market. Insurance generally covers only pure risks.\n\nNot every risk is insurable. For a risk to qualify as **insurable**, it must meet several criteria: the loss must be accidental and unintentional, it must be measurable in dollar terms, a large number of similar exposure units must exist (the **law of large numbers**), and the potential loss must be significant enough to warrant coverage. Catastrophic risks that could bankrupt the insurer are typically excluded from standard policies.\n\nInsurance works through the mechanism of **risk pooling**, where many individuals or businesses contribute premiums into a shared fund. The insurer uses actuarial science to predict the probability and severity of losses, allowing the company to set premiums that cover expected claims plus operating costs. The **premium** is the price paid for coverage, and it reflects factors including the insured's loss history, the value of assets at risk, and the coverage limits selected.\n\nEvery insurance contract contains essential legal elements. The **declarations page** identifies the named insured, effective dates, and covered property. The **insuring agreement** describes what the insurer promises to pay. **Exclusions** remove specific perils or property from coverage, while **conditions** outline the duties of both parties — for example, the insured must promptly report a loss. **Endorsements** modify the base policy, either broadening or restricting coverage.\n\nTwo foundational legal principles govern insurance contracts. The **principle of indemnity** states that insurance should restore the insured to the financial position they were in before the loss, but not provide a profit. Closely related is **insurable interest**, which requires that the policyholder must suffer a genuine financial loss if the covered event occurs. Without insurable interest, insurance would become a form of gambling and would undermine the entire system.",
+    "examples": [
+      "A restaurant owner buys property insurance for her building; if a kitchen fire causes $80,000 in damage, the indemnity principle means the insurer pays $80,000 — not $100,000, even if she claims the building was worth more.",
+      "A shipping company pools premiums with thousands of other fleet owners so that the insurer can statistically predict how many trucks will be in accidents each year, making the coverage financially viable for everyone.",
+      "A bank requires a homeowner to list the bank as an additional insured on the property policy because the bank has an insurable interest in the home it holds as mortgage collateral."
+    ],
+    "questions": [
+      {
+        "stem": "A factory owner purchases fire insurance on a warehouse she owns outright. Which principle makes this purchase legally valid?",
+        "choices": [
+          "Principle of indemnity",
+          "Insurable interest",
+          "Law of large numbers",
+          "Subrogation"
+        ],
+        "answer": 1,
+        "explanation": "Insurable interest requires the policyholder to face a genuine financial loss if the covered event occurs; the factory owner would lose the value of the warehouse. The principle of indemnity governs how much the insurer pays after a loss, not the validity of the contract."
+      },
+      {
+        "stem": "Which of the following is an example of pure risk rather than speculative risk?",
+        "choices": [
+          "Purchasing cryptocurrency hoping it appreciates",
+          "Opening a new franchise location",
+          "A delivery truck being stolen from a parking lot",
+          "Launching a marketing campaign that may or may not increase sales"
+        ],
+        "answer": 2,
+        "explanation": "Pure risk involves only the possibility of loss or no loss — a stolen truck has no upside outcome. The other options each carry the possibility of gain, making them speculative risks that standard insurance does not cover."
+      },
+      {
+        "stem": "An insurer charges higher premiums to businesses in flood-prone areas. Which insurable-risk criterion does this practice reflect?",
+        "choices": [
+          "The loss must be accidental",
+          "The loss must be catastrophic in nature",
+          "The loss must be measurable and quantifiable",
+          "A large pool of similar exposures must exist"
+        ],
+        "answer": 2,
+        "explanation": "Measurability allows insurers to price risk accurately; flood-prone geography increases the probable dollar amount of loss, raising premiums. Catastrophic nature actually makes risks harder to insure, not easier."
+      },
+      {
+        "stem": "The section of an insurance policy that lists the named insured, policy period, and coverage limits is the:",
+        "choices": [
+          "Insuring agreement",
+          "Declarations page",
+          "Conditions section",
+          "Endorsement"
+        ],
+        "answer": 1,
+        "explanation": "The declarations page is the summary document identifying the key policy facts specific to that insured. The insuring agreement describes what the insurer promises to cover, not who is covered or for how long."
+      },
+      {
+        "stem": "Keiko's homeowner policy pays $55,000 after a fire, exactly covering her documented repair costs. Which insurance principle does this payment illustrate?",
+        "choices": [
+          "Subrogation",
+          "Law of large numbers",
+          "Principle of indemnity",
+          "Adverse selection"
+        ],
+        "answer": 2,
+        "explanation": "The principle of indemnity ensures the insured is restored to their pre-loss financial position without profiting from the claim. Subrogation is the insurer's right to pursue a third party responsible for the loss, which is a separate concept."
+      },
+      {
+        "stem": "A policy provision that removes coverage for earthquake damage from a standard homeowner policy is called a(n):",
+        "choices": [
+          "Endorsement",
+          "Insuring agreement",
+          "Exclusion",
+          "Condition"
+        ],
+        "answer": 2,
+        "explanation": "Exclusions eliminate specific perils or property from coverage. An endorsement modifies the policy and can add earthquake coverage, but the base removal of coverage is accomplished through an exclusion clause."
+      },
+      {
+        "stem": "Why do insurers rely on the law of large numbers when setting premiums?",
+        "choices": [
+          "It guarantees that no single claim will exceed the premium collected",
+          "It allows accurate prediction of loss frequency across a large pool of similar risks",
+          "It legally caps the maximum payout an insurer must make",
+          "It ensures all policyholders face identical levels of risk"
+        ],
+        "answer": 1,
+        "explanation": "The law of large numbers states that as the sample size grows, actual loss experience converges toward the predicted average, enabling reliable premium pricing. It does not cap payouts or equalize individual risk levels."
+      },
+      {
+        "stem": "A homeowner discovers that her policy does not cover damage from a slow, ongoing plumbing leak — only sudden and accidental water damage. Where in the policy would she find this limitation?",
+        "choices": [
+          "Declarations page",
+          "Insuring agreement",
+          "Conditions section",
+          "Exclusions section"
+        ],
+        "answer": 3,
+        "explanation": "Exclusions define what the insurer will not pay for; gradual damage is a common exclusion in property policies. The insuring agreement describes covered perils broadly, while conditions address duties and procedures, not specific coverage carve-outs."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Pure Risk",
+        "definition": "A risk situation where the only possible outcomes are loss or no loss, making it eligible for insurance coverage."
+      },
+      {
+        "term": "Insurable Interest",
+        "definition": "The legal requirement that a policyholder must stand to suffer a real financial loss if the insured event occurs."
+      },
+      {
+        "term": "Principle of Indemnity",
+        "definition": "The insurance principle that a claim payment should restore the insured to their pre-loss financial position, not create a profit."
+      },
+      {
+        "term": "Law of Large Numbers",
+        "definition": "The statistical principle that a larger pool of similar exposures allows an insurer to more accurately predict average losses and set appropriate premiums."
+      },
+      {
+        "term": "Exclusion",
+        "definition": "A policy provision that specifically removes certain perils, properties, or situations from coverage under an insurance contract."
+      }
+    ]
+  }
+]

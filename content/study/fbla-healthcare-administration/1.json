@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of the US Healthcare System",
+    "objective": "Explain how the major components of the US healthcare system interact to deliver and finance patient care.",
+    "body": "The United States healthcare system is one of the most complex in the world, built on a **mixed public-private model** that differs fundamentally from the single-payer systems found in most industrialized nations. Understanding its structure is the first step toward managing within it effectively.\n\nAt its core, the system involves three distinct groups: **providers** (hospitals, physicians, clinics, and allied health professionals who deliver care), **payers** (insurance companies, government programs, and employers who finance care), and **patients** (individuals who receive care and often share costs through premiums and out-of-pocket expenses). The interaction among these three groups is governed by a web of contracts, regulations, and market forces.\n\nGovernment programs play a dominant role. **Medicare** is a federal program that covers approximately 65 million Americans aged 65 and older, as well as certain disabled individuals. It is divided into parts: Part A covers inpatient hospital care, Part B covers outpatient and physician services, Part C (Medicare Advantage) allows private insurers to administer benefits, and Part D covers prescription drugs. **Medicaid**, a joint federal-state program, covers low-income individuals and families; eligibility rules and benefits vary significantly by state.\n\nThe private sector is equally important. **Employer-sponsored insurance** remains the most common source of coverage for working-age Americans. Insurers use several financing models: in a **fee-for-service (FFS)** model, providers are paid for each service rendered, which critics argue incentivizes volume over value. In contrast, **capitation** pays providers a fixed amount per patient per period, shifting financial risk to the provider and encouraging efficiency.\n\nThe **Affordable Care Act (ACA)** of 2010 introduced major structural reforms, including health insurance marketplaces, the individual mandate (later zeroed out), Medicaid expansion, and protections for individuals with pre-existing conditions. Healthcare administrators must understand how ACA provisions affect revenue cycles, compliance requirements, and patient populations.\n\nFinally, **accreditation** bodies such as **The Joint Commission (TJC)** set safety and quality standards for hospitals and other organizations. Accreditation is often required for Medicare and Medicaid reimbursement, making it a critical operational concern for administrators.",
+    "examples": [
+      "A rural critical-access hospital derives 60% of its revenue from Medicare patients, so when CMS changes inpatient reimbursement rates, the CFO must immediately model the budget impact.",
+      "A state that expanded Medicaid under the ACA saw its uncompensated care costs drop because previously uninsured patients now had coverage, improving the hospital's financial position.",
+      "A primary care clinic switches from fee-for-service to a capitation contract with a large insurer, meaning the clinic receives $45 per member per month regardless of how many visits each patient makes."
+    ],
+    "questions": [
+      {
+        "stem": "A hospital receives a fixed monthly payment per enrolled patient regardless of services used. Which payment model is this?",
+        "choices": [
+          "Fee-for-service",
+          "Capitation",
+          "Prospective payment",
+          "Cost-plus reimbursement"
+        ],
+        "answer": 1,
+        "explanation": "Capitation pays a fixed amount per member per period, transferring utilization risk to the provider. Fee-for-service, the main distractor, pays per individual service rendered, not per enrolled patient."
+      },
+      {
+        "stem": "Which part of Medicare specifically covers inpatient hospital stays?",
+        "choices": [
+          "Part B",
+          "Part D",
+          "Part A",
+          "Part C"
+        ],
+        "answer": 2,
+        "explanation": "Medicare Part A covers inpatient hospital care, skilled nursing facilities, and hospice. Part B, the main distractor, covers outpatient and physician services."
+      },
+      {
+        "stem": "Medicaid eligibility and benefit levels differ across states primarily because it is structured as a:",
+        "choices": [
+          "Fully federal program with uniform rules",
+          "Joint federal-state program",
+          "Private insurance cooperative",
+          "Block grant with no federal oversight"
+        ],
+        "answer": 1,
+        "explanation": "Medicaid is a joint federal-state program; states set their own eligibility criteria and benefit packages within federal minimums. It is not fully federal, so national uniformity does not apply."
+      },
+      {
+        "stem": "A hospital loses its Joint Commission accreditation. What is the most immediate financial consequence?",
+        "choices": [
+          "It must immediately close all outpatient clinics",
+          "It loses eligibility for Medicare and Medicaid reimbursement",
+          "Its malpractice insurance premiums double",
+          "State licensure is automatically revoked"
+        ],
+        "answer": 1,
+        "explanation": "TJC accreditation is a deemed-status pathway for Medicare and Medicaid participation; losing it jeopardizes those payment streams. Closure and licensure revocation are separate regulatory actions not automatically triggered by lost accreditation."
+      },
+      {
+        "stem": "The ACA provision that required most Americans to carry health insurance or pay a penalty is called the:",
+        "choices": [
+          "Employer mandate",
+          "Individual mandate",
+          "Essential health benefits rule",
+          "Guaranteed issue requirement"
+        ],
+        "answer": 1,
+        "explanation": "The individual mandate required individuals to obtain coverage; the employer mandate requires large employers to offer coverage. These are distinct ACA provisions targeting different actors."
+      },
+      {
+        "stem": "An insurer pays a physician group $150 for each office visit and $2,000 for each surgical procedure. This arrangement is best described as:",
+        "choices": [
+          "Capitation",
+          "Bundled payment",
+          "Fee-for-service",
+          "Value-based purchasing"
+        ],
+        "answer": 2,
+        "explanation": "Paying a discrete price for each service rendered is fee-for-service. Capitation would instead pay a flat monthly rate per enrolled patient regardless of services used."
+      },
+      {
+        "stem": "Medicare Advantage (Part C) differs from traditional Medicare primarily because it:",
+        "choices": [
+          "Covers only prescription drugs",
+          "Is administered by private insurers",
+          "Is available only to Medicaid-eligible beneficiaries",
+          "Does not require premium payments"
+        ],
+        "answer": 1,
+        "explanation": "Medicare Advantage plans are offered by private insurers approved by CMS and must cover at least the same benefits as traditional Medicare. Traditional Medicare is administered directly by the federal government."
+      },
+      {
+        "stem": "A state expands Medicaid under the ACA. Which group gains coverage access most directly?",
+        "choices": [
+          "Adults over age 65 with low incomes",
+          "Low-income adults under 65 who previously did not qualify",
+          "Children already covered by CHIP",
+          "Federal employees below the poverty line"
+        ],
+        "answer": 1,
+        "explanation": "ACA Medicaid expansion extended eligibility to adults under 65 with incomes up to 138% of the federal poverty level who previously fell outside eligibility thresholds. Medicare, not Medicaid expansion, serves adults 65 and older."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Capitation",
+        "definition": "A payment model in which a provider receives a fixed amount per enrolled patient per time period, regardless of the volume of services delivered."
+      },
+      {
+        "term": "Medicare Part A",
+        "definition": "The component of Medicare that covers inpatient hospital care, skilled nursing facility stays, hospice, and some home health services."
+      },
+      {
+        "term": "Fee-for-service (FFS)",
+        "definition": "A reimbursement model in which payers pay providers a separate price for each individual service or procedure rendered."
+      },
+      {
+        "term": "The Joint Commission (TJC)",
+        "definition": "A nonprofit accreditation organization that evaluates and certifies healthcare organizations on safety and quality standards, with accreditation serving as a pathway for Medicare and Medicaid participation."
+      },
+      {
+        "term": "Medicaid",
+        "definition": "A joint federal-state public insurance program that provides health coverage to low-income individuals and families, with eligibility rules and benefits varying by state."
+      }
+    ]
+  }
+]

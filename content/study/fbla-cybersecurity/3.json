@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Incident Response, Governance, Risk, and Compliance Strategy",
+    "objective": "Develop an incident response strategy and evaluate an organization's security posture using governance frameworks, risk management principles, and compliance requirements.",
+    "body": "Even the most hardened organizations experience security incidents. The ability to detect, contain, and recover from breaches—and to learn from them—is what separates resilient organizations from those that suffer repeated, escalating damage. The **NIST Incident Response (IR) Lifecycle** defines four phases: **Preparation**, **Detection and Analysis**, **Containment, Eradication, and Recovery**, and **Post-Incident Activity**.\n\nDuring **Preparation**, organizations build and maintain the tools, plans, and team structures needed before an incident occurs. A **Computer Security Incident Response Team (CSIRT)** is the designated group responsible for coordinating the response. **Detection and Analysis** involves identifying indicators of compromise (**IOCs**)—anomalies such as unusual login times, unexpected outbound traffic, or file modifications—and determining whether they constitute a real incident or a **false positive**. A **Security Information and Event Management (SIEM)** system aggregates logs from across the environment and uses correlation rules to surface potential threats at scale.\n\n**Containment** stops the bleeding: isolating affected systems to prevent lateral movement. **Eradication** removes the root cause—deleting malware, closing exploited vulnerabilities, or disabling compromised accounts. **Recovery** restores systems from clean backups and verifies normal operation before returning services to production. Finally, the **lessons-learned review** in Post-Incident Activity captures what worked, what failed, and what controls would have prevented or limited the incident.\n\nBeyond incident response, organizations operate within a broader framework of **governance, risk, and compliance (GRC)**. **Governance** refers to the policies, roles, and accountability structures that direct security decisions. A **security policy** is a formal document stating management's intent; beneath it sit **standards** (mandatory rules), **guidelines** (recommended practices), and **procedures** (step-by-step instructions).\n\n**Risk management** quantifies and prioritizes threats. **Risk** is calculated as a function of **likelihood** and **impact**. Organizations choose one of four responses to each identified risk:\n\n- **Accept**: acknowledge the risk and take no action (when cost of control exceeds potential loss)\n- **Avoid**: eliminate the activity that creates the risk\n- **Mitigate**: implement controls to reduce likelihood or impact\n- **Transfer**: shift financial liability to a third party (e.g., cyber insurance)\n\nCompliance with legal and industry frameworks is non-negotiable for many sectors. **HIPAA** protects patient health information in healthcare. **PCI-DSS** governs payment card data security. **GDPR** regulates personal data of EU citizens. The **NIST Cybersecurity Framework (CSF)** organizes security activities into five functions: **Identify, Protect, Detect, Respond, and Recover**. While voluntary for private organizations, it is widely adopted as a best-practice baseline and maps directly to many compliance requirements. Understanding how governance, risk management, and compliance interconnect enables leaders to allocate resources strategically rather than reactively.",
+    "examples": [
+      "After detecting unusual after-hours logins from a contractor account, the CSIRT immediately disables the account (Containment), scans for malware it may have installed (Eradication), restores any altered files from backup (Recovery), and then holds a lessons-learned meeting to improve login anomaly alerting.",
+      "A retail chain that processes credit cards must comply with PCI-DSS; failure during an audit can result in losing the ability to accept card payments—making compliance a direct business continuity issue, not just a legal formality.",
+      "A small startup decides to purchase cyber liability insurance instead of building a full SOC team; this is a risk transfer strategy—acknowledging that the cost of full mitigation exceeds the organization's current resources."
+    ],
+    "questions": [
+      {
+        "stem": "During which NIST IR phase does an organization isolate an infected server to prevent the malware from spreading laterally?",
+        "choices": [
+          "Preparation",
+          "Detection and Analysis",
+          "Containment, Eradication, and Recovery",
+          "Post-Incident Activity"
+        ],
+        "answer": 2,
+        "explanation": "Containment—the first step of the third phase—involves isolating compromised systems to stop lateral spread before root-cause removal (Eradication) and restoring services (Recovery). Preparation occurs before any incident."
+      },
+      {
+        "stem": "A SIEM system generates an alert for a login that turns out to be a legitimate system administrator. This alert is classified as what?",
+        "choices": [
+          "True positive",
+          "False positive",
+          "True negative",
+          "False negative"
+        ],
+        "answer": 1,
+        "explanation": "A false positive is an alert triggered by benign activity that appears suspicious; here the alert fired but no actual threat existed. A false negative would mean a real attack occurred but generated no alert."
+      },
+      {
+        "stem": "An organization identifies a vulnerability in a legacy system but decides the cost of remediation exceeds the potential financial loss. Which risk response has the organization chosen?",
+        "choices": [
+          "Risk avoidance",
+          "Risk mitigation",
+          "Risk transfer",
+          "Risk acceptance"
+        ],
+        "answer": 3,
+        "explanation": "Risk acceptance means acknowledging a risk and choosing not to act on it, typically when the cost of control exceeds the expected loss. Risk mitigation would involve implementing controls to reduce the risk."
+      },
+      {
+        "stem": "Which compliance framework specifically protects the payment card data of customers and is enforced by card brands such as Visa and Mastercard?",
+        "choices": [
+          "HIPAA",
+          "GDPR",
+          "PCI-DSS",
+          "SOX"
+        ],
+        "answer": 2,
+        "explanation": "PCI-DSS (Payment Card Industry Data Security Standard) governs how organizations store, process, and transmit cardholder data. HIPAA applies to healthcare information, not payment data."
+      },
+      {
+        "stem": "A hospital's security team updates its incident response plan, trains staff on new procedures, and acquires forensic analysis tools before any incident occurs. This represents which NIST IR phase?",
+        "choices": [
+          "Detection and Analysis",
+          "Containment",
+          "Preparation",
+          "Post-Incident Activity"
+        ],
+        "answer": 2,
+        "explanation": "Preparation encompasses all pre-incident activities: building the team, creating plans, training, and acquiring tools. This proactive phase is what enables effective response when an incident actually occurs."
+      },
+      {
+        "stem": "In the NIST Cybersecurity Framework, which function involves identifying assets, business context, and supply chain risks BEFORE implementing controls?",
+        "choices": [
+          "Protect",
+          "Detect",
+          "Identify",
+          "Respond"
+        ],
+        "answer": 2,
+        "explanation": "The 'Identify' function establishes an organizational understanding of assets, risks, and governance context, forming the foundation for all subsequent CSF functions. 'Protect' involves implementing safeguards after assets are identified."
+      },
+      {
+        "stem": "A company purchases cyber liability insurance to cover costs from a potential data breach. This is an example of which risk management strategy?",
+        "choices": [
+          "Risk avoidance",
+          "Risk acceptance",
+          "Risk mitigation",
+          "Risk transfer"
+        ],
+        "answer": 3,
+        "explanation": "Risk transfer shifts the financial liability for a risk to a third party, such as an insurer, without eliminating the underlying risk. Risk mitigation would reduce the probability or impact through technical or procedural controls."
+      },
+      {
+        "stem": "Which document in an organization's security governance hierarchy provides step-by-step operational instructions for a specific task, such as how to respond to a phishing email?",
+        "choices": [
+          "Security policy",
+          "Standard",
+          "Guideline",
+          "Procedure"
+        ],
+        "answer": 3,
+        "explanation": "Procedures are detailed, step-by-step instructions for completing a specific task; they operationalize policies and standards. A security policy states management's high-level intent without specifying exactly how to execute it."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "SIEM (Security Information and Event Management)",
+        "definition": "A platform that aggregates and correlates log data from across an organization's environment to detect, alert on, and support investigation of security incidents."
+      },
+      {
+        "term": "Indicators of Compromise (IOCs)",
+        "definition": "Observable evidence—such as unusual network traffic, unauthorized account activity, or unexpected file modifications—that suggests a system may have been breached."
+      },
+      {
+        "term": "NIST Cybersecurity Framework (CSF)",
+        "definition": "A voluntary best-practice framework organizing cybersecurity activities into five functions—Identify, Protect, Detect, Respond, and Recover—to help organizations manage and reduce cyber risk."
+      },
+      {
+        "term": "Risk Transfer",
+        "definition": "A risk management response that shifts the financial consequences of a risk to a third party, most commonly through the purchase of cyber liability insurance."
+      },
+      {
+        "term": "Lessons-Learned Review",
+        "definition": "The post-incident activity phase in which the response team analyzes what happened, evaluates the effectiveness of the response, and identifies control improvements to prevent recurrence."
+      }
+    ]
+  }
+]

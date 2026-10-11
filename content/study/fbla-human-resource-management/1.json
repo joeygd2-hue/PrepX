@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Human Resource Management and Staffing",
+    "objective": "Explain the core functions of HRM and execute the staffing process from job analysis through onboarding.",
+    "body": "**Human Resource Management (HRM)** is the strategic approach to managing an organization's most valuable asset: its people. HR professionals are responsible for attracting, developing, and retaining talent while ensuring the organization complies with employment law and maintains a productive workplace culture.\n\nThe HR function is typically organized around six core areas: staffing, training and development, performance management, compensation and benefits, employee relations, and legal compliance. Understanding how these areas interlock is essential for any HR professional. A decision made in compensation, for example, directly affects the organization's ability to attract qualified candidates during staffing.\n\n**Job analysis** is the systematic process of identifying the duties, responsibilities, and requirements of a specific position. It produces two key documents: the **job description**, which outlines what the job entails (duties, reporting relationships, working conditions), and the **job specification**, which details the minimum qualifications a candidate must possess (education, experience, skills). Accurate job analysis is the foundation for nearly every other HR activity, from writing job postings to setting performance standards.\n\nThe **staffing process** follows a logical sequence. Organizations first conduct **workforce planning** — forecasting future talent needs by analyzing business strategy and comparing projected demand against the current workforce supply. If a gap exists, recruitment begins. **Internal recruitment** promotes or transfers existing employees, preserving institutional knowledge and boosting morale. **External recruitment** brings in fresh perspectives and new skills through job boards, campus recruiting, employee referrals, and staffing agencies.\n\nOnce applicants apply, **selection** tools help organizations identify the best fit. Common tools include:\n- Structured interviews with standardized questions\n- Cognitive and skills-based assessments\n- Work samples or job simulations\n- Background and reference checks\n\nResearch consistently shows that **structured interviews** and work samples are more valid predictors of job performance than unstructured conversations.\n\nThe process concludes with **onboarding**, which goes beyond paperwork. Effective onboarding socializes new employees into the company culture, clarifies expectations, and connects them to colleagues — all of which accelerate time-to-productivity and reduce early turnover. Studies indicate that employees who experience structured onboarding are significantly more likely to remain with the organization after one year.",
+    "examples": [
+      "A regional hospital notices it will need 15 additional registered nurses within 18 months due to planned expansion; its workforce plan triggers a targeted campus recruitment campaign at nursing schools before the gap becomes critical.",
+      "A retail chain updates its job specification for a store manager role to require two years of P&L responsibility after analyzing why several recent hires struggled with budgeting — showing how job analysis feeds directly into better hiring decisions.",
+      "A tech startup uses a 30-60-90 day onboarding plan that assigns each new hire a peer mentor and scheduled check-ins, reducing first-year voluntary turnover from 28% to 11%."
+    ],
+    "questions": [
+      {
+        "stem": "A document listing the minimum education and experience required for a position is called a:",
+        "choices": [
+          "Job description",
+          "Job specification",
+          "Workforce plan",
+          "Organizational chart"
+        ],
+        "answer": 1,
+        "explanation": "A job specification details the minimum qualifications a candidate must have, such as education and experience. A job description, by contrast, describes the duties and responsibilities of the role itself."
+      },
+      {
+        "stem": "Acme Corp promotes an internal employee to fill a vacant supervisory role rather than posting externally. The PRIMARY advantage of this approach is:",
+        "choices": [
+          "It always produces the most qualified candidate",
+          "It reduces the cost of background checks",
+          "It preserves institutional knowledge and motivates existing staff",
+          "It eliminates the need for onboarding"
+        ],
+        "answer": 2,
+        "explanation": "Internal recruitment preserves institutional knowledge and signals to employees that advancement is possible, boosting morale. Internal candidates are not automatically the most qualified; they still require onboarding to their new role."
+      },
+      {
+        "stem": "Which selection method has research most consistently shown to be the strongest predictor of future job performance?",
+        "choices": [
+          "Unstructured interviews",
+          "Reference checks",
+          "Structured interviews and work samples",
+          "Years of experience listed on a resume"
+        ],
+        "answer": 2,
+        "explanation": "Structured interviews and work samples have high predictive validity because they assess job-relevant behavior consistently across candidates. Unstructured interviews are prone to interviewer bias and have much lower predictive validity."
+      },
+      {
+        "stem": "Workforce planning is best described as the process of:",
+        "choices": [
+          "Scheduling employee shifts for the upcoming quarter",
+          "Forecasting future talent needs relative to current workforce supply",
+          "Negotiating compensation packages with new hires",
+          "Writing employee handbooks and HR policies"
+        ],
+        "answer": 1,
+        "explanation": "Workforce planning involves analyzing business strategy to project future talent needs and comparing that demand to the existing workforce to identify gaps. Shift scheduling is an operational, not a strategic, HR activity."
+      },
+      {
+        "stem": "A new employee completes tax forms and benefits enrollment but receives no introduction to team norms or company culture. This organization has most likely neglected:",
+        "choices": [
+          "Recruitment",
+          "Job analysis",
+          "Effective onboarding socialization",
+          "Workforce forecasting"
+        ],
+        "answer": 2,
+        "explanation": "Onboarding encompasses both administrative tasks and cultural socialization. Focusing only on paperwork misses the socialization component, which research links to higher retention and faster productivity. This is not a recruitment or job analysis failure."
+      },
+      {
+        "stem": "Which of the following is an example of EXTERNAL recruitment?",
+        "choices": [
+          "Posting a vacancy on the company intranet",
+          "Promoting a top-performing analyst to senior analyst",
+          "Partnering with a university career center to attract recent graduates",
+          "Transferring a manager from the Atlanta office to the Denver office"
+        ],
+        "answer": 2,
+        "explanation": "University partnerships bring in candidates from outside the organization, making this an external recruitment method. Intranet postings, promotions, and internal transfers all draw from the existing employee pool."
+      },
+      {
+        "stem": "A company is expanding into a new product line and needs to hire specialists it has never employed before. The FIRST logical step in the staffing process should be:",
+        "choices": [
+          "Posting job openings on external job boards",
+          "Conducting job analysis to define the new roles",
+          "Designing a compensation package for the new positions",
+          "Scheduling structured interviews for potential candidates"
+        ],
+        "answer": 1,
+        "explanation": "Job analysis must precede recruitment because it defines what the role entails and what qualifications are needed — information required to write accurate job postings. Posting or interviewing without a job analysis risks hiring for the wrong skills."
+      },
+      {
+        "stem": "The legal purpose of maintaining a consistent, standardized interview process is primarily to:",
+        "choices": [
+          "Reduce the time each interview takes",
+          "Ensure all candidates are asked the same job-relevant questions, reducing bias claims",
+          "Allow interviewers to skip reference checks",
+          "Enable the company to hire faster than competitors"
+        ],
+        "answer": 1,
+        "explanation": "Standardized questions ensure each candidate is evaluated on the same job-relevant criteria, which reduces subjective bias and provides a defensible record if a rejected candidate alleges discriminatory hiring. Speed and cost are secondary benefits, not the legal rationale."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Job Analysis",
+        "definition": "The systematic process of identifying the duties, required skills, and working conditions of a specific position to produce a job description and job specification."
+      },
+      {
+        "term": "Job Specification",
+        "definition": "A document that outlines the minimum qualifications — education, experience, and skills — a candidate must possess to perform a job successfully."
+      },
+      {
+        "term": "Workforce Planning",
+        "definition": "A strategic HR process of forecasting future talent needs and comparing them to the current workforce supply to identify hiring, training, or reduction gaps."
+      },
+      {
+        "term": "Structured Interview",
+        "definition": "A selection tool in which every candidate is asked the same predetermined, job-relevant questions and evaluated using a consistent scoring rubric."
+      },
+      {
+        "term": "Onboarding",
+        "definition": "The process of integrating a new employee into the organization by completing administrative requirements and socializing them into company culture and team norms."
+      }
+    ]
+  }
+]

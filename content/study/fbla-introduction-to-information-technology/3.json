@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Software Development, Data Management, and IT Strategy",
+    "objective": "Evaluate how software development methodologies, database design, and IT governance principles guide technology decisions in business contexts.",
+    "body": "Software does not appear fully formed — it is built through structured processes. The traditional **Software Development Life Cycle (SDLC)** defines phases that guide a project from concept to completion: **Planning** (define scope and feasibility), **Analysis** (gather requirements), **Design** (architect the solution), **Implementation** (write and integrate code), **Testing** (verify correctness), **Deployment** (release to users), and **Maintenance** (update and fix post-release).\n\nTwo competing philosophies govern how teams move through the SDLC. The **Waterfall model** is sequential — each phase must finish before the next begins, producing detailed documentation and a predictable timeline. It works well for projects with fixed, well-understood requirements. **Agile methodologies**, by contrast, embrace change by delivering software in short iterations called **sprints** (typically two weeks). Teams release working software frequently, gather feedback, and adjust. Agile frameworks like **Scrum** use roles (**Product Owner**, **Scrum Master**, **Development Team**) and ceremonies (**daily standups**, **sprint reviews**) to maintain momentum and transparency.\n\nData is one of an organization's most valuable assets, and **Database Management Systems (DBMS)** are the tools used to store, organize, and retrieve it efficiently. A **relational database** organizes data into **tables** (also called relations), where rows represent individual records and columns represent attributes. Tables are linked through **primary keys** (unique identifiers within a table) and **foreign keys** (references to primary keys in another table). **SQL (Structured Query Language)** is the standard language for querying and manipulating relational data — a SELECT statement retrieves records, INSERT adds new ones, and UPDATE modifies existing ones.\n\n**IT governance** ensures technology investments align with business goals and manage risk responsibly. Frameworks like **ITIL (Information Technology Infrastructure Library)** provide best practices for IT service management. **Cloud computing** has transformed IT strategy by allowing organizations to rent computing resources on demand from providers like AWS, Microsoft Azure, and Google Cloud instead of buying and maintaining physical hardware. The three primary cloud service models are **IaaS** (Infrastructure as a Service — raw compute and storage), **PaaS** (Platform as a Service — development environments), and **SaaS** (Software as a Service — ready-to-use applications like Gmail or Salesforce). Choosing between **on-premises**, **cloud**, or **hybrid** deployments requires balancing cost, security, scalability, and compliance requirements.",
+    "examples": [
+      "A startup building a mobile app chooses Agile/Scrum because user preferences are unknown — after each two-week sprint they release a new feature, measure user engagement, and pivot quickly, which would be impossible under Waterfall's rigid sequential phases.",
+      "An e-commerce company stores customer orders in a relational database: an Orders table with a primary key (OrderID) links to a Customers table via a foreign key (CustomerID), preventing duplicate customer data and enabling fast queries like 'show all orders placed by customer #1042.'",
+      "A school district moves its student information system from on-premises servers to a SaaS solution, eliminating the need to maintain physical servers and IT staff to patch them — trading capital expense for a predictable monthly subscription cost."
+    ],
+    "questions": [
+      {
+        "stem": "A software project has rigid, government-mandated requirements that will not change. Which development methodology is most appropriate?",
+        "choices": [
+          "Scrum",
+          "Extreme Programming (XP)",
+          "Waterfall",
+          "Kanban"
+        ],
+        "answer": 2,
+        "explanation": "Waterfall's sequential, documentation-heavy approach suits projects with fixed, well-defined requirements. Agile frameworks like Scrum are designed for changing requirements, which is a disadvantage when requirements are locked."
+      },
+      {
+        "stem": "In a relational database, a CustomerID column in an Orders table that references the Customers table is an example of a:",
+        "choices": [
+          "Primary key",
+          "Foreign key",
+          "Index field",
+          "Composite attribute"
+        ],
+        "answer": 1,
+        "explanation": "A foreign key in one table references the primary key of another table, establishing the relationship between them. A primary key uniquely identifies records within its own table."
+      },
+      {
+        "stem": "A company uses Microsoft 365 for email and document collaboration without managing any underlying servers. This arrangement is best described as:",
+        "choices": [
+          "IaaS",
+          "PaaS",
+          "SaaS",
+          "On-premises deployment"
+        ],
+        "answer": 2,
+        "explanation": "SaaS (Software as a Service) delivers fully managed applications over the internet. IaaS provides raw compute infrastructure, and PaaS provides development platforms — both still require the customer to manage applications."
+      },
+      {
+        "stem": "During which SDLC phase would a development team create wireframes and define the database schema for a new application?",
+        "choices": [
+          "Planning",
+          "Analysis",
+          "Design",
+          "Deployment"
+        ],
+        "answer": 2,
+        "explanation": "The Design phase translates requirements into technical blueprints, including UI mockups, database schemas, and system architecture. Analysis focuses on gathering what the system must do, not how it will be built."
+      },
+      {
+        "stem": "An Agile team holds a 15-minute meeting each morning where each member answers 'What did I do yesterday, what will I do today, any blockers?' This is called a:",
+        "choices": [
+          "Sprint review",
+          "Sprint retrospective",
+          "Daily standup",
+          "Backlog refinement"
+        ],
+        "answer": 2,
+        "explanation": "The daily standup (or daily scrum) is a brief synchronization meeting focused on progress and impediments. A sprint review demonstrates completed work to stakeholders at the end of a sprint."
+      },
+      {
+        "stem": "Which SQL statement would a database administrator use to retrieve all records from a table named 'Inventory' where quantity is less than 10?",
+        "choices": [
+          "INSERT INTO Inventory WHERE quantity < 10",
+          "SELECT * FROM Inventory WHERE quantity < 10",
+          "UPDATE Inventory SET quantity < 10",
+          "DELETE FROM Inventory WHERE quantity < 10"
+        ],
+        "answer": 1,
+        "explanation": "SELECT retrieves records matching a condition. INSERT adds new records, UPDATE modifies existing values, and DELETE removes records — none of which retrieve data."
+      },
+      {
+        "stem": "A hospital wants maximum control over patient data security and compliance but needs to scale computing resources seasonally. Which deployment model best fits this need?",
+        "choices": [
+          "Full public cloud",
+          "Full on-premises",
+          "Hybrid cloud",
+          "SaaS-only"
+        ],
+        "answer": 2,
+        "explanation": "A hybrid cloud keeps sensitive data on-premises for control and compliance while using public cloud resources for scalable, seasonal workloads. Full public cloud surrenders direct hardware control, which concerns compliance-heavy industries."
+      },
+      {
+        "stem": "The ITIL framework is primarily used by organizations to:",
+        "choices": [
+          "Write secure application code following OWASP guidelines",
+          "Manage and improve IT service delivery aligned with business goals",
+          "Design relational database schemas using normalization rules",
+          "Enforce Agile sprint schedules across development teams"
+        ],
+        "answer": 1,
+        "explanation": "ITIL (Information Technology Infrastructure Library) provides best practices for IT service management — aligning IT services with business needs. It is a governance framework, not a coding standard or development methodology."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "SDLC (Software Development Life Cycle)",
+        "definition": "A structured process for planning, creating, testing, and deploying software, typically consisting of phases such as Planning, Analysis, Design, Implementation, Testing, Deployment, and Maintenance."
+      },
+      {
+        "term": "Agile",
+        "definition": "An iterative software development philosophy that delivers working software in short cycles called sprints, welcoming changing requirements and frequent collaboration with stakeholders."
+      },
+      {
+        "term": "Primary Key",
+        "definition": "A column or set of columns in a relational database table that uniquely identifies each record, ensuring no two rows share the same identifier."
+      },
+      {
+        "term": "SaaS (Software as a Service)",
+        "definition": "A cloud delivery model in which fully managed software applications are provided to users over the internet on a subscription basis, with no hardware or software installation required."
+      },
+      {
+        "term": "SQL (Structured Query Language)",
+        "definition": "The standardized programming language used to create, query, update, and manage data in relational database management systems."
+      }
+    ]
+  }
+]

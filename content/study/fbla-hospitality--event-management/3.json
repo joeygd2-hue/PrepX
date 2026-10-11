@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Strategic Risk Management, Marketing, and Event Evaluation",
+    "objective": "Develop a risk management plan, apply event marketing strategies across the attendee journey, and use evaluation frameworks to measure and improve event performance.",
+    "body": "At the strategic level, event professionals must manage risk, drive attendee acquisition, and rigorously evaluate outcomes. These three disciplines separate competent coordinators from elite event strategists.\n\n**Risk management** in events follows a four-step process: identify, assess, mitigate, and monitor. Risks are categorized as **operational risks** (vendor no-shows, AV failures, weather delays), **financial risks** (sponsorship withdrawal, lower-than-projected ticket sales), **reputational risks** (negative press, social media crises), and **safety and security risks** (crowd management failures, medical emergencies, natural disasters). Each identified risk is plotted on a **risk matrix** — a grid that maps likelihood against impact — to prioritize which risks demand mitigation plans versus simple monitoring.\n\nMitigation strategies include **risk avoidance** (changing a plan to eliminate the risk entirely), **risk transfer** (purchasing event cancellation insurance or requiring vendor bonds), **risk reduction** (training staff in emergency response), and **risk acceptance** (consciously absorbing low-impact, low-probability risks). Every event should have an **emergency action plan (EAP)** and a designated **incident command structure** so all staff know who makes decisions when something goes wrong.\n\n**Event marketing** uses the attendee journey as its strategic map. The journey has three stages: **pre-event** (awareness and registration), **during-event** (engagement and experience amplification), and **post-event** (retention and relationship building). Pre-event tactics include email campaigns, social media content, early-bird pricing, and influencer partnerships. During-event tactics include live social sharing incentives, interactive polling, and branded photo opportunities. Post-event tactics include thank-you communications, highlight reels, and early registration offers for future events.\n\nA critical marketing concept is the **unique value proposition (UVP)** — the specific reason a target audience should choose this event over competing uses of their time and money. A strong UVP is concrete, differentiated, and audience-specific.\n\n**Event evaluation** closes the strategic loop. Quantitative metrics include attendance rate, **net promoter score (NPS)** — which measures how likely attendees are to recommend the event — revenue versus budget, and sponsor fulfillment rates. Qualitative data comes from post-event surveys, focus groups, and social media sentiment analysis. The gold standard evaluation framework is the **Kirkpatrick Model**, originally designed for training but adapted for events: it evaluates Reaction (did attendees enjoy it?), Learning (did they gain knowledge?), Behavior (did they change actions after?), and Results (did the event achieve its strategic goals?). Planners who present evaluation data in structured reports build credibility with clients and justify future investment.",
+    "examples": [
+      "An outdoor music festival plots a severe thunderstorm on its risk matrix as high likelihood and high impact; the mitigation plan includes a pre-negotiated indoor backup venue, a weather monitoring service contract, and a guest communication protocol via SMS.",
+      "A technology conference uses a three-stage marketing approach: LinkedIn ads driving early registration six weeks out, live Twitter Q&A sessions with speakers during the event, and a post-event email with session recordings and a discount code for next year's conference.",
+      "A corporate training summit uses the Kirkpatrick Model to evaluate success: post-session surveys measure Reaction, a knowledge quiz measures Learning, a 90-day follow-up survey measures Behavior change, and year-over-year sales data measures Results from the skills taught."
+    ],
+    "questions": [
+      {
+        "stem": "An event planner purchases event cancellation insurance to protect against a venue closing unexpectedly. This is an example of which risk mitigation strategy?",
+        "choices": [
+          "Risk avoidance",
+          "Risk acceptance",
+          "Risk reduction",
+          "Risk transfer"
+        ],
+        "answer": 3,
+        "explanation": "Risk transfer shifts financial consequences of a risk to a third party — in this case, an insurance company. Risk avoidance would mean changing the plan to eliminate the risk entirely, such as switching to a different venue proactively."
+      },
+      {
+        "stem": "A planner maps risks by plotting likelihood on one axis and potential impact on the other. This tool is called a:",
+        "choices": [
+          "SWOT analysis",
+          "Risk register",
+          "Risk matrix",
+          "Incident command chart"
+        ],
+        "answer": 2,
+        "explanation": "A risk matrix is specifically the grid-based tool that plots likelihood versus impact to prioritize risks. A risk register is a list that documents identified risks but does not inherently use a grid visualization."
+      },
+      {
+        "stem": "An attendee survey asks: 'On a scale of 0–10, how likely are you to recommend this conference to a colleague?' This question measures:",
+        "choices": [
+          "Return on investment",
+          "Net Promoter Score",
+          "Return on objectives",
+          "Kirkpatrick Level 3"
+        ],
+        "answer": 1,
+        "explanation": "The Net Promoter Score (NPS) is derived from asking respondents how likely they are to recommend an experience — scores classify respondents as promoters, passives, or detractors. This is a distinct metric from ROI, which measures financial performance."
+      },
+      {
+        "stem": "A conference organizer sends attendees a 90-day follow-up survey asking whether they implemented skills learned at the event. This corresponds to which level of the Kirkpatrick Model?",
+        "choices": [
+          "Level 1: Reaction",
+          "Level 2: Learning",
+          "Level 3: Behavior",
+          "Level 4: Results"
+        ],
+        "answer": 2,
+        "explanation": "Kirkpatrick Level 3 (Behavior) measures whether participants applied new knowledge or skills after the event. Level 2 (Learning) would measure knowledge gained during the event, typically via an immediate quiz."
+      },
+      {
+        "stem": "A nonprofit gala's marketing team offers 20% off ticket prices to registrants who sign up more than 60 days in advance. This tactic primarily serves which stage of the attendee journey?",
+        "choices": [
+          "During-event stage",
+          "Post-event stage",
+          "Pre-event stage",
+          "Sponsorship activation stage"
+        ],
+        "answer": 2,
+        "explanation": "Early-bird pricing is a pre-event tactic designed to drive awareness and early registration, reducing financial uncertainty for the planner. During-event tactics focus on engagement for attendees already on-site."
+      },
+      {
+        "stem": "A planner decides to accept the risk that a single microphone stand might malfunction, requiring a 30-second delay to replace it. This decision reflects:",
+        "choices": [
+          "Risk transfer",
+          "Risk reduction",
+          "Risk avoidance",
+          "Risk acceptance"
+        ],
+        "answer": 3,
+        "explanation": "Risk acceptance is the conscious decision to tolerate a risk because its likelihood and impact are low enough that mitigation costs outweigh benefits. This is appropriate for minor, easily resolved operational issues."
+      },
+      {
+        "stem": "An event's unique value proposition is best described as:",
+        "choices": [
+          "The total dollar value of sponsorships secured for the event",
+          "The specific, differentiated reason the target audience should choose this event",
+          "The list of keynote speakers and breakout session topics",
+          "The net promoter score from the previous year's event"
+        ],
+        "answer": 1,
+        "explanation": "A unique value proposition (UVP) articulates why a specific audience should attend this event over competing alternatives — it must be concrete and differentiated. Speaker lineups and NPS scores are components that may support the UVP but are not the UVP itself."
+      },
+      {
+        "stem": "After a stadium concert, local news reports unsafe crowd density near the main stage. This risk category is best classified as:",
+        "choices": [
+          "Financial risk",
+          "Operational risk",
+          "Safety and security risk",
+          "Reputational risk"
+        ],
+        "answer": 2,
+        "explanation": "Crowd management failures that create physical danger are safety and security risks. While this incident may also create reputational risk, the primary classification is safety and security because the direct harm is physical, not perceptual."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Risk Matrix",
+        "definition": "A grid-based planning tool that maps identified risks by their likelihood of occurrence against their potential impact to prioritize mitigation efforts."
+      },
+      {
+        "term": "Net Promoter Score (NPS)",
+        "definition": "A metric derived from asking attendees how likely they are to recommend an event, used to gauge overall satisfaction and predict loyalty."
+      },
+      {
+        "term": "Kirkpatrick Model",
+        "definition": "An evaluation framework that measures event or training effectiveness across four levels: Reaction, Learning, Behavior, and Results."
+      },
+      {
+        "term": "Unique Value Proposition (UVP)",
+        "definition": "The specific, differentiated benefit that convinces a target audience to choose a particular event over competing alternatives."
+      },
+      {
+        "term": "Emergency Action Plan (EAP)",
+        "definition": "A documented protocol outlining the procedures, roles, and communication steps staff must follow when a safety or operational emergency occurs at an event."
+      }
+    ]
+  }
+]

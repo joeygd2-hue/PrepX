@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Networks, the Internet, and Cybersecurity Essentials",
+    "objective": "Analyze how networks transmit data and apply cybersecurity principles to identify and mitigate common digital threats.",
+    "body": "A **computer network** is a collection of devices connected together to share resources and communicate. Networks are classified by size and scope: a **LAN (Local Area Network)** covers a small area such as a home or office, while a **WAN (Wide Area Network)** spans large geographic distances. The **internet** is the world's largest WAN — a global network of networks interconnected through standardized protocols.\n\nCommunication across networks depends on agreed-upon rules called **protocols**. The foundational protocol suite is **TCP/IP (Transmission Control Protocol / Internet Protocol)**. **IP** assigns a unique numerical address to every device on a network, allowing data to be routed to the correct destination. **TCP** ensures reliable delivery by breaking data into **packets**, sending them independently across the network, and reassembling them in the correct order at the destination. The **HTTP** and **HTTPS** protocols govern how web browsers request and receive web pages, with HTTPS adding encryption for security.\n\nNetwork hardware includes **routers**, which direct packets between different networks; **switches**, which connect devices within the same network; and **access points**, which provide wireless (**Wi-Fi**) connectivity. Every network device has a **MAC address** — a unique hardware identifier burned into its network interface card — while **IP addresses** are logical addresses assigned by network configuration.\n\nCybersecurity protects digital systems from unauthorized access, damage, and theft. The **CIA triad** — **Confidentiality**, **Integrity**, and **Availability** — represents the three core goals of information security. **Confidentiality** means only authorized users access data; **Integrity** means data is accurate and unaltered; **Availability** means systems and data are accessible when needed.\n\nCommon threats include **malware** (malicious software), which encompasses **viruses** (self-replicating programs), **ransomware** (encrypts files and demands payment), **spyware** (secretly monitors users), and **Trojans** (malware disguised as legitimate software). **Phishing** is a social engineering attack where attackers impersonate trusted entities via email or websites to steal credentials. Defenses include **firewalls** (filter incoming/outgoing network traffic), **encryption** (scrambles data so only authorized parties can read it), **multi-factor authentication (MFA)** (requires two or more verification methods), and regular **software updates** to patch known vulnerabilities.",
+    "examples": [
+      "When you check your bank balance online, HTTPS encrypts the connection between your browser and the bank's server — without it, anyone on the same Wi-Fi could intercept your account credentials in plain text.",
+      "A ransomware attack on a hospital encrypts patient records and demands $500,000 for the decryption key, directly violating the Availability principle of the CIA triad by making critical data inaccessible.",
+      "A home router acts as both a router (directing traffic between your LAN and the internet WAN) and a switch (connecting your devices to each other) — illustrating how consumer devices often combine network functions."
+    ],
+    "questions": [
+      {
+        "stem": "A company's database is altered without authorization, changing employee salary records. Which CIA triad principle has been violated?",
+        "choices": [
+          "Confidentiality",
+          "Availability",
+          "Integrity",
+          "Authentication"
+        ],
+        "answer": 2,
+        "explanation": "Integrity ensures data remains accurate and unaltered by unauthorized parties. Confidentiality would be violated if unauthorized users merely viewed the records without changing them."
+      },
+      {
+        "stem": "Which protocol is responsible for breaking data into packets and ensuring they are reassembled correctly at the destination?",
+        "choices": [
+          "IP",
+          "HTTP",
+          "TCP",
+          "DNS"
+        ],
+        "answer": 2,
+        "explanation": "TCP (Transmission Control Protocol) handles reliable delivery by sequencing packets and requesting retransmission of lost ones. IP handles addressing and routing, not sequencing or error correction."
+      },
+      {
+        "stem": "An employee receives an email appearing to be from IT support asking them to confirm their password. This attack is best described as:",
+        "choices": [
+          "Ransomware",
+          "A denial-of-service attack",
+          "Phishing",
+          "A brute-force attack"
+        ],
+        "answer": 2,
+        "explanation": "Phishing impersonates trusted entities to trick users into revealing credentials. Ransomware encrypts files and demands payment — it does not typically involve fake emails requesting passwords."
+      },
+      {
+        "stem": "What distinguishes a router from a switch in a typical office network?",
+        "choices": [
+          "A router connects devices wirelessly; a switch uses only wired connections",
+          "A router directs traffic between different networks; a switch connects devices within the same network",
+          "A router stores MAC addresses; a switch stores IP addresses",
+          "A router provides power over Ethernet; a switch does not"
+        ],
+        "answer": 1,
+        "explanation": "Routers operate at the network layer and forward packets between different networks (e.g., LAN to internet). Switches operate at the data link layer connecting devices within a single LAN using MAC addresses."
+      },
+      {
+        "stem": "A user enables two-factor authentication on their email account. This security measure is best described as:",
+        "choices": [
+          "Encryption of stored email data",
+          "A firewall rule blocking external access",
+          "Requiring two verification methods before granting access",
+          "Automatic malware scanning of incoming attachments"
+        ],
+        "answer": 2,
+        "explanation": "Multi-factor authentication (MFA) requires users to provide two or more forms of verification (e.g., password plus a phone code). A firewall controls network traffic but does not verify individual user identities."
+      },
+      {
+        "stem": "Malware that disguises itself as a helpful free utility but secretly gives an attacker remote access to the system is classified as a:",
+        "choices": [
+          "Virus",
+          "Trojan",
+          "Worm",
+          "Adware"
+        ],
+        "answer": 1,
+        "explanation": "A Trojan (Trojan horse) disguises itself as legitimate software to deceive users into installing it. A virus self-replicates by attaching to other files, which a Trojan does not necessarily do."
+      },
+      {
+        "stem": "Which of the following best explains why HTTPS is preferred over HTTP for online shopping?",
+        "choices": [
+          "HTTPS loads pages faster than HTTP",
+          "HTTPS encrypts data in transit, protecting payment information from interception",
+          "HTTPS prevents the website from collecting cookies",
+          "HTTPS guarantees the website has no malware"
+        ],
+        "answer": 1,
+        "explanation": "HTTPS uses TLS encryption to secure data between the browser and server, preventing interception of sensitive data like credit card numbers. Page speed depends on many factors beyond the protocol."
+      },
+      {
+        "stem": "A network covers an entire college campus connecting multiple buildings. This is most accurately classified as:",
+        "choices": [
+          "A PAN (Personal Area Network)",
+          "A LAN (Local Area Network)",
+          "A MAN (Metropolitan Area Network)",
+          "A WAN (Wide Area Network)"
+        ],
+        "answer": 2,
+        "explanation": "A LAN typically covers a single building or campus-sized area. A WAN spans cities, countries, or global distances. A campus network falls within LAN scope, though very large campuses sometimes use MAN classification."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "TCP/IP",
+        "definition": "The foundational protocol suite of the internet, where IP handles device addressing and routing while TCP ensures reliable, ordered delivery of data packets."
+      },
+      {
+        "term": "CIA Triad",
+        "definition": "The three core principles of information security: Confidentiality (only authorized access), Integrity (data accuracy), and Availability (systems accessible when needed)."
+      },
+      {
+        "term": "Firewall",
+        "definition": "A network security system that monitors and filters incoming and outgoing network traffic based on predefined security rules to block unauthorized access."
+      },
+      {
+        "term": "Phishing",
+        "definition": "A social engineering cyberattack in which an attacker impersonates a trusted entity through email or fake websites to trick users into revealing sensitive information."
+      },
+      {
+        "term": "Encryption",
+        "definition": "The process of converting readable data into an unreadable coded format so that only parties with the correct decryption key can access the original information."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Computing and Digital Systems",
+    "objective": "Explain how computer hardware components work together to process, store, and communicate digital information.",
+    "body": "A computer is a programmable electronic device that accepts **input**, processes it according to stored instructions, and produces **output**. Every modern computer — from a smartphone to a server — follows this same fundamental model, known as the **IPO cycle** (Input-Process-Output).\n\nAt the heart of every computer sits the **central processing unit (CPU)**, often called the brain of the machine. The CPU fetches instructions from memory, decodes them, and executes them in a continuous loop called the **fetch-decode-execute cycle**. CPU performance is measured in **clock speed** (gigahertz, or GHz), which indicates how many instruction cycles per second the processor can complete. Modern CPUs also contain multiple **cores**, allowing them to handle several tasks simultaneously through **parallel processing**.\n\nMemory in a computer system exists on a hierarchy. **RAM (Random Access Memory)** is volatile, high-speed storage the CPU uses for active programs and data — when power is lost, RAM is cleared. **ROM (Read-Only Memory)** holds permanent firmware such as the **BIOS/UEFI**, which initializes hardware during startup. For long-term storage, computers use **secondary storage** devices such as hard disk drives (**HDDs**), solid-state drives (**SSDs**), or optical media. SSDs use flash memory chips and have no moving parts, making them faster and more durable than traditional HDDs.\n\nInput and output devices allow humans to interact with computers. Common **input devices** include keyboards, mice, microphones, and scanners. **Output devices** include monitors, printers, and speakers. Some devices, like touchscreens, serve both roles and are called **I/O devices**.\n\nAll data inside a computer is stored and transmitted as **binary** — sequences of 0s and 1s called **bits**. Eight bits form one **byte**, and larger units follow: kilobyte (KB), megabyte (MB), gigabyte (GB), and terabyte (TB). Understanding binary is essential because it underlies everything from file sizes to network speeds. The **motherboard** connects all components through pathways called **buses**, allowing the CPU, RAM, storage, and peripherals to communicate as a unified system.",
+    "examples": [
+      "When you open a web browser, the operating system loads the browser program from your SSD (secondary storage) into RAM so the CPU can execute it quickly — illustrating how the memory hierarchy works in practice.",
+      "A CPU advertised as '3.5 GHz, 8-core' can theoretically handle 8 simultaneous threads of instructions, which is why it can run a video game, antivirus scan, and music player at the same time without freezing.",
+      "A 4K video file that is 8 GB in size contains roughly 64 billion bits of data — demonstrating how the bit-to-byte conversion scales to real-world storage needs."
+    ],
+    "questions": [
+      {
+        "stem": "A student saves a document, turns off the computer, and finds the file intact the next day. Which storage type preserved the file?",
+        "choices": [
+          "RAM",
+          "Cache memory",
+          "A solid-state drive",
+          "A CPU register"
+        ],
+        "answer": 2,
+        "explanation": "SSDs and HDDs are non-volatile secondary storage — data persists without power. RAM is volatile and loses all data when the computer shuts down."
+      },
+      {
+        "stem": "Which component is primarily responsible for executing program instructions inside a computer?",
+        "choices": [
+          "GPU",
+          "RAM",
+          "Motherboard",
+          "CPU"
+        ],
+        "answer": 3,
+        "explanation": "The CPU (central processing unit) fetches, decodes, and executes instructions. The motherboard connects components but does not execute instructions itself."
+      },
+      {
+        "stem": "A file is described as 2 GB. Approximately how many bytes does it contain?",
+        "choices": [
+          "2,000 bytes",
+          "2,000,000 bytes",
+          "2,000,000,000 bytes",
+          "2,000,000,000,000 bytes"
+        ],
+        "answer": 2,
+        "explanation": "1 GB equals approximately one billion (10^9) bytes, so 2 GB is about 2,000,000,000 bytes. 2,000,000 bytes would be only 2 MB."
+      },
+      {
+        "stem": "Which of the following best describes what the BIOS/UEFI does when a computer is powered on?",
+        "choices": [
+          "It runs antivirus scans on startup files",
+          "It initializes hardware and locates the operating system bootloader",
+          "It manages RAM allocation for running programs",
+          "It controls the CPU clock speed during normal operation"
+        ],
+        "answer": 1,
+        "explanation": "BIOS/UEFI is firmware stored in ROM that performs a power-on self-test and then hands control to the operating system bootloader. RAM management is handled by the OS, not BIOS."
+      },
+      {
+        "stem": "An SSD is generally preferred over an HDD for an operating system drive primarily because SSDs:",
+        "choices": [
+          "Hold more data per dollar than HDDs",
+          "Have no moving parts, making them faster and more durable",
+          "Use optical laser technology to read data",
+          "Are only compatible with newer motherboards"
+        ],
+        "answer": 1,
+        "explanation": "SSDs use flash memory chips with no mechanical parts, resulting in much faster read/write speeds and greater shock resistance. HDDs actually tend to offer more storage per dollar."
+      },
+      {
+        "stem": "A computer advertisement lists a processor as '3.2 GHz quad-core.' What does 'quad-core' indicate about the CPU?",
+        "choices": [
+          "It runs at four times the listed clock speed",
+          "It contains four independent processing units",
+          "It requires four RAM sticks to function",
+          "It can only execute four programs total"
+        ],
+        "answer": 1,
+        "explanation": "A quad-core CPU contains four separate cores, each capable of executing instructions independently, enabling true parallel processing. The GHz rating describes clock speed, not core count."
+      },
+      {
+        "stem": "Which sequence correctly represents the IPO cycle when a user types a search query into a browser?",
+        "choices": [
+          "Process → Input → Output",
+          "Output → Process → Input",
+          "Input → Process → Output",
+          "Input → Output → Process"
+        ],
+        "answer": 2,
+        "explanation": "The IPO model always follows Input (typing the query) → Process (CPU searches and formats results) → Output (results displayed on screen). The order never reverses."
+      },
+      {
+        "stem": "A device that can both accept data from a user and display information back to that user is classified as:",
+        "choices": [
+          "An output-only peripheral",
+          "A secondary storage device",
+          "An I/O device",
+          "A volatile memory unit"
+        ],
+        "answer": 2,
+        "explanation": "A touchscreen, for example, accepts touch input and displays visual output, making it an I/O (input/output) device. A keyboard is input-only; a monitor is output-only."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "CPU (Central Processing Unit)",
+        "definition": "The primary hardware component that fetches, decodes, and executes program instructions, functioning as the processing brain of the computer."
+      },
+      {
+        "term": "Volatile memory",
+        "definition": "A type of storage, such as RAM, that retains data only while power is supplied and loses all content when the system is turned off."
+      },
+      {
+        "term": "Binary",
+        "definition": "The base-2 number system using only 0s and 1s that computers use internally to represent all data and instructions."
+      },
+      {
+        "term": "IPO Cycle",
+        "definition": "The fundamental model of computing describing the three stages of data handling: Input, Process, and Output."
+      },
+      {
+        "term": "Solid-State Drive (SSD)",
+        "definition": "A secondary storage device that uses flash memory chips with no moving mechanical parts, providing faster data access and greater durability than traditional hard disk drives."
+      }
+    ]
+  }
+]

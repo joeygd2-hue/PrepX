@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of International Trade and Global Markets",
+    "objective": "Explain the core theories and drivers of international trade and identify how comparative advantage shapes global commerce.",
+    "body": "International business begins with a fundamental question: why do nations trade at all? The answer lies in **comparative advantage**, the principle that a country benefits by specializing in goods it can produce at a lower opportunity cost than other nations, even if it holds an absolute advantage in every product. This concept, developed by economist David Ricardo, underpins modern trade theory and explains why Germany exports machinery while importing tropical fruit despite being capable of growing produce in greenhouses.\n\n**Absolute advantage** occurs when one country can produce more of a good with the same resources than another. However, trade still benefits both parties when each focuses on its comparative strength. Consider a scenario where Brazil produces both coffee and software more efficiently than Vietnam, yet Brazil's edge in coffee is proportionally far greater — both nations gain when Brazil exports coffee and Vietnam exports software.\n\nBeyond factor endowments, **trade theories** have evolved significantly. The **Heckscher-Ohlin model** argues that countries export goods requiring factors they possess abundantly — labor-abundant nations export labor-intensive goods, while capital-abundant nations export capital-intensive goods. The **Product Life Cycle theory**, introduced by Raymond Vernon, explains how a product invented in a high-wage country eventually gets manufactured in lower-cost nations as technology diffuses globally.\n\nGovernments shape trade flows through **trade policy instruments**:\n- **Tariffs**: taxes on imported goods, raising their price to protect domestic producers\n- **Quotas**: hard limits on the quantity of a specific import\n- **Subsidies**: government payments to domestic producers that lower their costs relative to foreign rivals\n- **Non-tariff barriers**: regulations, standards, and licensing requirements that restrict trade without explicit taxes\n\n**The World Trade Organization (WTO)** serves as the global referee for trade disputes, operating on the **Most Favored Nation (MFN)** principle: any trade benefit granted to one member must be extended to all members. This prevents discriminatory bilateral deals from fragmenting global commerce.\n\nBalance of payments accounting tracks a nation's economic transactions with the world. The **current account** records trade in goods and services, while the **capital account** captures investment flows. A persistent **trade deficit** means a nation imports more than it exports, which may reflect strong consumer demand or an overvalued currency rather than economic weakness.",
+    "examples": [
+      "The United States runs a trade deficit with China largely in consumer electronics because Chinese manufacturers benefit from lower labor costs and established supply chains, illustrating how comparative advantage shifts over time as wages and technology evolve.",
+      "When the U.S. imposed a 25% tariff on imported steel in 2018, domestic steel producers gained protection, but American car manufacturers faced higher input costs — demonstrating the downstream ripple effects of trade policy instruments.",
+      "Japan's post-WWII industrial strategy used targeted subsidies and import restrictions to build globally competitive electronics and automotive sectors, a real-world application of trade policy shaping comparative advantage rather than merely reflecting it."
+    ],
+    "questions": [
+      {
+        "stem": "Country A produces 10 units of wheat or 5 units of cloth per worker. Country B produces 6 units of wheat or 4 units of cloth. Which statement about comparative advantage is correct?",
+        "choices": [
+          "Country A has a comparative advantage in cloth because it produces more of both goods.",
+          "Country B has a comparative advantage in cloth because its opportunity cost of cloth is lower.",
+          "No trade is beneficial because Country A is more efficient in both products.",
+          "Country B has a comparative advantage in wheat because it has lower absolute output."
+        ],
+        "answer": 1,
+        "explanation": "Country B gives up 1.5 units of wheat per unit of cloth versus Country A's 2 units, giving Country B the comparative advantage in cloth. Absolute advantage in both goods does not eliminate the gains from trade based on relative opportunity costs."
+      },
+      {
+        "stem": "A government imposes a limit of 500,000 tons of imported sugar annually. This policy instrument is best described as a:",
+        "choices": [
+          "Tariff",
+          "Subsidy",
+          "Quota",
+          "Most Favored Nation clause"
+        ],
+        "answer": 2,
+        "explanation": "A quota is a quantitative restriction on imports, directly capping the volume allowed. A tariff raises the price through a tax but does not set a hard quantity ceiling."
+      },
+      {
+        "stem": "Under WTO's Most Favored Nation principle, if the EU grants a 5% tariff rate on Japanese cars, it must:",
+        "choices": [
+          "Apply that same 5% rate to car imports from all other WTO members.",
+          "Charge Japan an additional fee for the privilege of the reduced rate.",
+          "Notify the WTO but may negotiate separate rates with each member.",
+          "Automatically reduce tariffs on all Japanese goods to 5%."
+        ],
+        "answer": 0,
+        "explanation": "MFN requires non-discriminatory treatment — any tariff concession to one WTO member must be extended to all. The MFN principle prevents selective trade favoritism among members, not selective product favoritism."
+      },
+      {
+        "stem": "The Heckscher-Ohlin model would predict that Bangladesh primarily exports which type of product?",
+        "choices": [
+          "Capital-intensive semiconductors",
+          "Labor-intensive garments",
+          "Technology-intensive pharmaceuticals",
+          "Land-intensive grain crops"
+        ],
+        "answer": 1,
+        "explanation": "Bangladesh is abundant in labor relative to capital, so H-O theory predicts it exports labor-intensive goods like garments. Semiconductors and pharmaceuticals require intensive capital and R&D investment that Bangladesh does not hold in abundance."
+      },
+      {
+        "stem": "A nation's current account surplus of $50 billion most directly indicates that:",
+        "choices": [
+          "The nation's currency has appreciated against all trading partners.",
+          "The nation exports more goods and services than it imports.",
+          "Foreign investors are purchasing more domestic assets than vice versa.",
+          "The government is running a budget surplus of equal size."
+        ],
+        "answer": 1,
+        "explanation": "The current account measures trade in goods and services; a surplus means export revenues exceed import payments. Capital account movements and budget balances are related through accounting identities but are not what the current account directly measures."
+      },
+      {
+        "stem": "A domestic steel manufacturer lobbies for tariffs on imported steel. Which group is MOST likely harmed by this policy?",
+        "choices": [
+          "Foreign steel producers who lose market access",
+          "Domestic steel workers whose jobs are protected",
+          "Domestic manufacturers who use steel as an input",
+          "The WTO, which must adjudicate the dispute"
+        ],
+        "answer": 2,
+        "explanation": "Downstream manufacturers — automakers, appliance producers, construction firms — pay higher prices for steel, raising their production costs. While foreign producers also lose sales, the domestic manufacturers who use steel as a critical input bear direct cost increases."
+      },
+      {
+        "stem": "Vernon's Product Life Cycle theory explains why a product invented in the United States might later be manufactured in Vietnam because:",
+        "choices": [
+          "Vietnamese consumers have stronger brand loyalty to U.S. innovations.",
+          "Technology diffuses over time, allowing lower-cost countries to produce standardized products.",
+          "The WTO requires production to shift to developing nations after five years.",
+          "Absolute advantage always transfers to the country with the largest population."
+        ],
+        "answer": 1,
+        "explanation": "As a product matures, production methods become standardized and widely understood, allowing labor-cost advantages to dominate location decisions. The WTO has no such mandatory production-shift rule."
+      },
+      {
+        "stem": "A government pays its wheat farmers $50 per ton to help them compete globally. This policy instrument is classified as a:",
+        "choices": [
+          "Quota",
+          "Tariff",
+          "Non-tariff barrier",
+          "Subsidy"
+        ],
+        "answer": 3,
+        "explanation": "A subsidy is a direct government payment or cost reduction given to domestic producers, lowering their effective cost of production. A tariff taxes imports rather than supporting domestic producers directly."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Comparative Advantage",
+        "definition": "The ability of a country to produce a good at a lower opportunity cost than its trading partners, forming the basis for mutually beneficial trade even when one country is absolutely more efficient in everything."
+      },
+      {
+        "term": "Tariff",
+        "definition": "A tax levied by a government on imported goods, which raises the price of imports, protects domestic producers, and generates government revenue."
+      },
+      {
+        "term": "Heckscher-Ohlin Model",
+        "definition": "A trade theory stating that countries export goods requiring factors of production they possess in abundance and import goods requiring factors they lack."
+      },
+      {
+        "term": "Most Favored Nation (MFN) Principle",
+        "definition": "A WTO rule requiring that any trade concession granted to one member nation must be extended equally to all other WTO member nations."
+      },
+      {
+        "term": "Balance of Payments",
+        "definition": "A systematic record of all economic transactions between residents of one country and the rest of the world, divided into the current account and the capital/financial account."
+      }
+    ]
+  }
+]

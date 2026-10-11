@@ -1,0 +1,124 @@
+[
+  {
+    "title": "History, Mission, and Structure of FBLA",
+    "objective": "Identify the founding history, core mission, and organizational levels of FBLA and explain how each level supports student development.",
+    "body": "**FBLA-PBL** (Future Business Leaders of America–Phi Beta Lambda) is the largest career and technical student organization in the world, with more than 230,000 members across the United States and internationally. Understanding its roots helps competitors appreciate why the organization exists and what it stands for today.\n\nFBLA was founded in **1937** by Dr. Hamden L. Forkner of Columbia University, who envisioned a national organization that would bridge classroom business education with real-world professional expectations. The first local chapter was chartered in **Johnson City, Tennessee**, in 1942. The college-level division, **Phi Beta Lambda (PBL)**, was established in **1958** to extend that mission into higher education.\n\nThe organization operates through a **three-level structure**. At the local level, chapters are based in individual high schools or middle schools and are the primary unit of membership and activity. The **state level** coordinates regional competitions, leadership conferences, and membership campaigns within each state. At the top sits the **national level**, headquartered in **Reston, Virginia**, which governs the National Leadership Conference (NLC), sets competitive event guidelines, and maintains partnerships with the business community.\n\nFBLA's official **mission** is to bring business and education together in a positive working relationship through innovative leadership and career development programs. This mission is carried out through four pillars: **education**, **leadership**, **service**, and **progress**. The organization also maintains a formal **creed**, recited at chapter meetings, which outlines the ethical commitments members make to their schools, communities, and profession.\n\nThe national organization is governed by a **Board of Directors** and a **National Executive Council** composed of elected student officers, including the national president. Each state similarly elects a **state officer team** that represents members at the state level. Understanding these governance layers is essential for competitors, because many exam questions require students to distinguish responsibilities at each level.\n\n- Local chapters: recruit members, conduct service projects, host business speakers\n- State associations: organize state leadership conferences and qualifier competitions\n- National organization: hosts NLC, sets bylaws, manages professional partnerships",
+    "examples": [
+      "A chapter in rural Iowa wants to compete at nationals — they must first place at their state leadership conference, which is organized by the Iowa FBLA state association.",
+      "When a student recites the FBLA creed at the opening of a chapter meeting, they are reaffirming commitments to ethical business practice and community service that trace back to Dr. Forkner's founding vision in 1937.",
+      "The national headquarters in Reston, Virginia, publishes the official competitive event guidelines that dictate exactly which topics appear on the Introduction to FBLA exam."
+    ],
+    "questions": [
+      {
+        "stem": "In what year was the first FBLA local chapter officially chartered?",
+        "choices": [
+          "1937",
+          "1942",
+          "1958",
+          "1965"
+        ],
+        "answer": 1,
+        "explanation": "The first local chapter was chartered in Johnson City, Tennessee, in 1942; 1937 is when Dr. Forkner founded the organization conceptually, making it a common distractor."
+      },
+      {
+        "stem": "A student wants to know which body sets the rules for national competitive events. Which entity is responsible?",
+        "choices": [
+          "The local chapter adviser",
+          "The state association board",
+          "The national FBLA organization headquartered in Reston, Virginia",
+          "The Phi Beta Lambda alumni council"
+        ],
+        "answer": 2,
+        "explanation": "The national organization sets competitive event guidelines and governs the NLC; state associations organize state-level competitions but do not write national rules."
+      },
+      {
+        "stem": "Which of the following best describes the primary purpose of Phi Beta Lambda?",
+        "choices": [
+          "To provide scholarships to high school FBLA members",
+          "To extend the FBLA mission to college and university students",
+          "To certify business teachers in secondary education",
+          "To manage the national headquarters staff"
+        ],
+        "answer": 1,
+        "explanation": "PBL was established in 1958 specifically as the collegiate division of FBLA-PBL; it is not a scholarship program or teacher-certification body."
+      },
+      {
+        "stem": "A chapter officer is asked to lead the recitation at the start of a meeting. Which document does she recite?",
+        "choices": [
+          "The FBLA bylaws",
+          "The FBLA creed",
+          "The national mission statement",
+          "The state association charter"
+        ],
+        "answer": 1,
+        "explanation": "The FBLA creed is the formal statement recited at meetings to affirm member commitments; bylaws govern organizational procedure and are not recited ceremonially."
+      },
+      {
+        "stem": "Which of the following is a responsibility of a STATE FBLA association, not the national organization?",
+        "choices": [
+          "Publishing the competitive event topic list",
+          "Organizing the National Leadership Conference",
+          "Hosting state leadership conferences and qualifier competitions",
+          "Maintaining the official FBLA headquarters"
+        ],
+        "answer": 2,
+        "explanation": "State associations run state leadership conferences and qualifiers; the NLC and national event guidelines are managed at the national level."
+      },
+      {
+        "stem": "Dr. Hamden L. Forkner's core vision when founding FBLA was to connect which two groups?",
+        "choices": [
+          "Students and government agencies",
+          "Business and education",
+          "Technology firms and trade schools",
+          "Local employers and state governments"
+        ],
+        "answer": 1,
+        "explanation": "Forkner explicitly aimed to bridge classroom business education with the professional world; the official mission statement echoes this as 'bringing business and education together.'"
+      },
+      {
+        "stem": "A new member asks where FBLA's national headquarters is located. Which answer is correct?",
+        "choices": [
+          "Washington, D.C.",
+          "Atlanta, Georgia",
+          "Reston, Virginia",
+          "New York, New York"
+        ],
+        "answer": 2,
+        "explanation": "FBLA-PBL national headquarters is in Reston, Virginia; Washington, D.C. is a common guess because of proximity to federal institutions but is incorrect."
+      },
+      {
+        "stem": "Which of the four pillars of FBLA's mission would best describe a chapter organizing a food drive for a local shelter?",
+        "choices": [
+          "Education",
+          "Leadership",
+          "Service",
+          "Progress"
+        ],
+        "answer": 2,
+        "explanation": "Community service projects directly reflect the 'service' pillar; leadership refers to developing student officers and decision-makers, not outreach activities."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "FBLA-PBL",
+        "definition": "The combined organization of Future Business Leaders of America and its collegiate division, Phi Beta Lambda, forming the world's largest career and technical student organization."
+      },
+      {
+        "term": "Phi Beta Lambda (PBL)",
+        "definition": "The collegiate division of FBLA-PBL, established in 1958 to extend the business leadership mission to college and university students."
+      },
+      {
+        "term": "FBLA Creed",
+        "definition": "A formal statement of ethical and professional commitments recited by members at chapter meetings, outlining their obligations to school, community, and business."
+      },
+      {
+        "term": "National Leadership Conference (NLC)",
+        "definition": "The annual national competition and leadership event hosted by the FBLA national organization where top competitors from each state gather to compete and elect national officers."
+      },
+      {
+        "term": "Three-level structure",
+        "definition": "The organizational framework of FBLA consisting of local chapters, state associations, and the national organization, each with distinct governance responsibilities."
+      }
+    ]
+  }
+]

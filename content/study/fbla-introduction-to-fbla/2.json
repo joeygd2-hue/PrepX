@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Membership, Chapter Operations, and Officer Roles",
+    "objective": "Describe the requirements for FBLA membership, explain how a chapter conducts official business, and distinguish the duties of each elected officer.",
+    "body": "Being a member of FBLA is more than paying dues — it means actively participating in a professional organization governed by **bylaws**, run by elected **officers**, and accountable to established procedures. Understanding how chapters work is critical both for daily involvement and for competition.\n\nTo become an **active member**, a student must be enrolled in a school that has a chartered FBLA chapter, pay national and state **dues** by the membership deadline, and meet any additional requirements set by their local chapter. Members who fulfill these criteria earn the right to vote, hold office, and compete at sanctioned events. **Alumni members** and **professional members** also exist for individuals who have aged out of the student category but wish to maintain their connection to FBLA.\n\nEvery chapter is guided by a set of **bylaws** — written rules that establish the chapter's name, purpose, membership criteria, officer positions, and meeting procedures. Bylaws must align with the national constitution and cannot contradict it. When a chapter needs to make a formal decision, it follows **parliamentary procedure**, most commonly **Robert's Rules of Order**, to ensure orderly and fair deliberation.\n\nChapter meetings follow a standard **order of business**:\n- Call to order\n- Opening ceremonies (Pledge of Allegiance, FBLA creed)\n- Roll call\n- Reading and approval of minutes\n- Officer reports\n- Committee reports\n- Old business\n- New business\n- Announcements\n- Adjournment\n\nThe **president** presides over meetings, enforces the agenda, and represents the chapter externally. The **vice president** supports the president and often chairs standing committees. The **secretary** records **minutes** — the official written record of each meeting — and handles official correspondence. The **treasurer** manages the chapter's finances, collects dues, and prepares financial reports. The **parliamentarian** advises on correct procedure during meetings. The **reporter** handles public relations and communicates chapter activities to the school and community.\n\nBeyond elected officers, chapters rely on **committees** to accomplish specific goals. A **program committee** might plan a guest speaker series, while a **community service committee** organizes outreach events. Committees report back to the full chapter, keeping all members informed and engaged.\n\nStrong chapter operations create the foundation for competitive success — students who understand governance can answer scenario-based questions about procedure, officer duties, and conflict resolution that regularly appear on the Introduction to FBLA exam.",
+    "examples": [
+      "When a member wants to propose hosting a business etiquette dinner, she raises her hand during New Business, is recognized by the president, and makes a formal motion — the chapter then debates and votes following Robert's Rules of Order.",
+      "The secretary's minutes from last month's meeting are read aloud, corrected for a typo in the treasurer's report, and then approved by a voice vote before the meeting proceeds.",
+      "A chapter's treasurer notices dues income does not match the membership roster; she presents a discrepancy report to the president and adviser before the next meeting rather than waiting for the annual audit."
+    ],
+    "questions": [
+      {
+        "stem": "A student paid her dues and attends meetings but has never been elected to any position. What is her membership classification?",
+        "choices": [
+          "Honorary member",
+          "Professional member",
+          "Active member",
+          "Alumni member"
+        ],
+        "answer": 2,
+        "explanation": "A dues-paying student enrolled in the school and its chapter is an active member; honorary and professional designations apply to non-students or community partners."
+      },
+      {
+        "stem": "During a chapter meeting, a member disagrees with how the president is running a vote. Which officer should the member address to question the procedure?",
+        "choices": [
+          "Vice president",
+          "Secretary",
+          "Parliamentarian",
+          "Treasurer"
+        ],
+        "answer": 2,
+        "explanation": "The parliamentarian's specific role is to advise on correct parliamentary procedure; the vice president supports the president but does not specialize in procedural rulings."
+      },
+      {
+        "stem": "Which document establishes a chapter's own rules for officer elections and membership requirements?",
+        "choices": [
+          "The national FBLA constitution",
+          "The chapter bylaws",
+          "The standing rules of the state association",
+          "Robert's Rules of Order"
+        ],
+        "answer": 1,
+        "explanation": "Chapter bylaws are the locally adopted rules governing the chapter's specific operations; they must align with but are distinct from the national constitution."
+      },
+      {
+        "stem": "A reporter for a local newspaper asks who speaks on behalf of the chapter at a school board meeting. Which officer typically takes this role?",
+        "choices": [
+          "Secretary",
+          "Vice president",
+          "Reporter",
+          "President"
+        ],
+        "answer": 3,
+        "explanation": "The president is the external representative of the chapter; the reporter handles media and communications but does not formally represent the chapter in official governance settings."
+      },
+      {
+        "stem": "After a heated debate, the chapter votes to allocate funds for a community project. The secretary's PRIMARY duty immediately following the vote is to:",
+        "choices": [
+          "Transfer the funds to the treasurer",
+          "Notify the state association of the decision",
+          "Record the vote outcome accurately in the minutes",
+          "Draft a press release about the project"
+        ],
+        "answer": 2,
+        "explanation": "Recording accurate minutes is the secretary's core responsibility; financial transfers belong to the treasurer, and press releases fall under the reporter's role."
+      },
+      {
+        "stem": "A chapter wants to change the number of required officer positions from five to seven. Which document must be amended to make this change official?",
+        "choices": [
+          "The meeting agenda",
+          "The chapter bylaws",
+          "The treasurer's budget report",
+          "The national competitive event guidelines"
+        ],
+        "answer": 1,
+        "explanation": "Officer positions are defined in the chapter bylaws; amending the agenda or budget report would not create a binding rule change."
+      },
+      {
+        "stem": "Which step in the standard order of business comes IMMEDIATELY after the opening ceremonies?",
+        "choices": [
+          "Officer reports",
+          "Old business",
+          "Roll call",
+          "Reading of minutes"
+        ],
+        "answer": 2,
+        "explanation": "The standard order places roll call directly after opening ceremonies; minutes are read after roll call, and officer reports come later in the sequence."
+      },
+      {
+        "stem": "A chapter's vice president is asked to chair the program planning committee. This best illustrates which aspect of the vice president's role?",
+        "choices": [
+          "Managing chapter finances",
+          "Presiding over meetings in the president's absence",
+          "Supporting the president and leading committees",
+          "Communicating chapter news to the public"
+        ],
+        "answer": 2,
+        "explanation": "The vice president's role includes supporting the president and often chairing standing or special committees; financial management belongs to the treasurer."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Active member",
+        "definition": "A student who is enrolled in an FBLA-chartered school, has paid required dues, and holds full rights to vote, hold office, and compete."
+      },
+      {
+        "term": "Bylaws",
+        "definition": "The written rules adopted by a local chapter that govern its specific operations, including officer positions, elections, and membership requirements, subject to the national constitution."
+      },
+      {
+        "term": "Parliamentary procedure",
+        "definition": "A set of rules, most commonly Robert's Rules of Order, used to conduct orderly and fair chapter meetings and decision-making processes."
+      },
+      {
+        "term": "Minutes",
+        "definition": "The official written record of a chapter meeting, prepared by the secretary, documenting attendance, motions made, votes taken, and action items assigned."
+      },
+      {
+        "term": "Parliamentarian",
+        "definition": "The chapter officer responsible for advising the president and members on the correct application of parliamentary procedure during meetings."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Hospitality and Event Management",
+    "objective": "Define core hospitality principles and explain the event planning lifecycle from conception to post-event evaluation.",
+    "body": "The hospitality industry encompasses lodging, food and beverage, travel, tourism, and event services — all united by a commitment to guest satisfaction. At its core, hospitality is the relationship between a host and a guest, built on **service quality**, **anticipation of needs**, and **consistent delivery of value**.\n\nEvent management is a subset of hospitality focused on designing, coordinating, and executing planned gatherings. Events are typically categorized into four types: **corporate events** (conferences, product launches, trade shows), **social events** (weddings, galas, reunions), **nonprofit events** (fundraisers, awareness campaigns), and **association events** (conventions, educational summits). Understanding the category shapes every planning decision that follows.\n\nThe **event planning lifecycle** provides a structured framework professionals use to manage complexity. It begins with the **conception phase**, where objectives, audience, and scope are defined. Next comes the **planning phase**, which includes budgeting, venue selection, vendor contracting, and logistics design. The **execution phase** covers day-of coordination, staff management, and real-time problem-solving. Finally, the **post-event phase** involves financial reconciliation, attendee surveys, and a formal debrief to capture lessons learned.\n\nA key concept in hospitality is the **moment of truth** — any instance where a guest interacts with a service touchpoint. These moments cumulatively define the guest experience. Planners must map every touchpoint, from registration check-in to farewell, and design each one intentionally.\n\n**Stakeholders** in event management include the client (who funds and owns the event), attendees (who experience it), vendors and suppliers (who deliver components), sponsors (who provide financial or in-kind support), and the planning team (who orchestrates everything). Managing stakeholder expectations through clear communication is one of the most critical professional skills in this field.\n\nFinally, hospitality professionals operate within a framework of **service standards**. Standards define the minimum acceptable level of performance — for example, a hotel's standard might require front desk staff to greet every guest within 30 seconds. Standards create consistency, enable training, and form the baseline for quality measurement.",
+    "examples": [
+      "A corporate client hires an event planner to organize an annual sales kickoff for 400 employees; the planner maps the lifecycle by setting objectives in week one, signing a venue contract by week six, running rehearsals the day before, and distributing a post-event survey within 48 hours of the closing session.",
+      "A hotel chain defines a service standard that room service orders must be delivered within 30 minutes; when a guest waits 45 minutes, that broken standard becomes a negative moment of truth that management must address.",
+      "A nonprofit uses a gala fundraiser — a social/nonprofit hybrid event — to engage major donors; the planner must satisfy both the nonprofit's revenue objective and the guests' expectation of an elegant dining experience."
+    ],
+    "questions": [
+      {
+        "stem": "Which phase of the event planning lifecycle involves reconciling budgets and conducting attendee surveys?",
+        "choices": [
+          "Conception phase",
+          "Planning phase",
+          "Execution phase",
+          "Post-event phase"
+        ],
+        "answer": 3,
+        "explanation": "The post-event phase is dedicated to financial close-out, data collection, and debriefs. The execution phase focuses on real-time coordination, not retrospective evaluation."
+      },
+      {
+        "stem": "A conference attendee finds the registration desk unstaffed when they arrive. This situation is best described as a negative:",
+        "choices": [
+          "Service standard violation only",
+          "Moment of truth",
+          "Stakeholder conflict",
+          "Vendor failure"
+        ],
+        "answer": 1,
+        "explanation": "A moment of truth is any guest-service touchpoint interaction; a negative experience at that touchpoint — like an unstaffed desk — is a negative moment of truth. It may also involve a standards violation, but the primary concept being tested is the moment of truth framework."
+      },
+      {
+        "stem": "An event planner is organizing a conference for a professional nurses' association. This event is best classified as:",
+        "choices": [
+          "Corporate event",
+          "Social event",
+          "Association event",
+          "Nonprofit event"
+        ],
+        "answer": 2,
+        "explanation": "Association events are organized by professional or trade associations for their members — a nurses' association conference fits this category. Corporate events are hosted by for-profit companies for business purposes."
+      },
+      {
+        "stem": "Which stakeholder group is primarily responsible for funding the event and owning its strategic objectives?",
+        "choices": [
+          "Attendees",
+          "Sponsors",
+          "The client",
+          "The planning team"
+        ],
+        "answer": 2,
+        "explanation": "The client commissions and funds the event and defines its core goals. Sponsors provide supplemental financial or in-kind support but do not own the event's primary strategic direction."
+      },
+      {
+        "stem": "A planner sets measurable goals for an event before selecting a venue or hiring vendors. This activity occurs in which phase?",
+        "choices": [
+          "Execution phase",
+          "Post-event phase",
+          "Planning phase",
+          "Conception phase"
+        ],
+        "answer": 3,
+        "explanation": "Defining objectives and scope happens in the conception phase, before tactical work like venue selection begins. The planning phase builds on those defined objectives."
+      },
+      {
+        "stem": "Service standards in hospitality are primarily designed to ensure:",
+        "choices": [
+          "Events always exceed budget expectations",
+          "Consistent guest experience and measurable performance baselines",
+          "Vendors are paid on time",
+          "Sponsors receive maximum brand exposure"
+        ],
+        "answer": 1,
+        "explanation": "Service standards create consistency and provide benchmarks for training and quality measurement. They define the minimum acceptable performance level, not budget outcomes or vendor payment schedules."
+      },
+      {
+        "stem": "A wedding planner and a corporate conference planner both operate within the hospitality industry. What unifying principle connects their work?",
+        "choices": [
+          "Both manage only food and beverage services",
+          "Both are governed by the same legal contracts",
+          "Both aim to deliver value and satisfy guest needs through intentional service",
+          "Both primarily work within hotel properties"
+        ],
+        "answer": 2,
+        "explanation": "The core of hospitality across all event types is the intentional creation of guest satisfaction and value delivery. The other options reflect assumptions that don't universally apply to both roles."
+      },
+      {
+        "stem": "After a tech company's product launch, the event team discovers the AV equipment failed during the keynote. The post-event debrief should:",
+        "choices": [
+          "Assign blame to the AV vendor and close the file",
+          "Document the failure, analyze the root cause, and update vendor selection criteria",
+          "Skip the AV issue since the event is already over",
+          "Immediately cancel the vendor's contract without review"
+        ],
+        "answer": 1,
+        "explanation": "Post-event debriefs should capture lessons learned to improve future events — documenting failures and updating processes is the professional response. Assigning blame without root-cause analysis does not prevent recurrence."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Event Planning Lifecycle",
+        "definition": "A four-phase framework — conception, planning, execution, and post-event — that guides the systematic management of an event from idea to evaluation."
+      },
+      {
+        "term": "Moment of Truth",
+        "definition": "Any interaction between a guest and a service touchpoint that shapes the guest's overall perception of the experience."
+      },
+      {
+        "term": "Service Standard",
+        "definition": "A defined, measurable performance benchmark that establishes the minimum acceptable level of service quality for a hospitality operation."
+      },
+      {
+        "term": "Stakeholder",
+        "definition": "Any individual or group with an interest in or influence over an event, including the client, attendees, vendors, sponsors, and the planning team."
+      },
+      {
+        "term": "Corporate Event",
+        "definition": "A planned gathering organized by a for-profit company to achieve business objectives such as employee engagement, product promotion, or client development."
+      }
+    ]
+  }
+]

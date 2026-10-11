@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Cybersecurity: Threats, Attacks, and Core Principles",
+    "objective": "Identify and classify major cybersecurity threat types and explain the CIA Triad as the foundation of information security policy.",
+    "body": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks, unauthorized access, and data damage. At its core, every security decision is measured against three fundamental properties known as the **CIA Triad**: **Confidentiality**, **Integrity**, and **Availability**. Confidentiality ensures that information is accessible only to those authorized to see it. Integrity guarantees that data has not been altered or tampered with, either in transit or at rest. Availability means that authorized users can reliably access systems and data when needed. A failure in any one of these pillars constitutes a security incident.\n\nThreats to information systems come in many forms. A **threat actor** is any individual, group, or entity that poses a potential danger to an organization's assets. Threat actors range from **script kiddies**—unskilled attackers using prewritten tools—to sophisticated **advanced persistent threats (APTs)**, which are often nation-state sponsored groups conducting long-term espionage campaigns. Understanding the motivation behind an attack (financial gain, espionage, disruption, or ideology) helps defenders prioritize their response.\n\nAttacks are typically categorized as **active** or **passive**. Passive attacks, such as **eavesdropping** and **traffic analysis**, involve monitoring communications without altering them; they are hard to detect because no data is changed. Active attacks, such as **man-in-the-middle (MitM)** attacks, **denial-of-service (DoS)**, and **data modification**, directly interfere with systems or data. A **DoS attack** floods a target with requests until it cannot serve legitimate users, while a **Distributed Denial-of-Service (DDoS)** attack coordinates thousands of compromised machines—a **botnet**—to amplify the assault.\n\nSocial engineering exploits human psychology rather than technical vulnerabilities. **Phishing** emails impersonate trusted entities to steal credentials or install malware. **Spear phishing** targets specific individuals using personalized details, while **whaling** targets executives. **Pretexting** involves fabricating a scenario to manipulate victims into revealing information or granting access.\n\nOrganizations manage risk through a layered approach called **defense in depth**, placing multiple overlapping security controls so that failure of one layer does not compromise the entire system. Key controls include:\n\n- **Preventive controls**: firewalls, encryption, access controls\n- **Detective controls**: intrusion detection systems (IDS), log monitoring\n- **Corrective controls**: incident response plans, backups\n\nUnderstanding these fundamentals—threat classification, the CIA Triad, and defense in depth—provides the analytical framework every cybersecurity professional applies when evaluating any security scenario.",
+    "examples": [
+      "A hospital's ransomware attack encrypts patient records, violating all three CIA Triad properties: doctors cannot access files (Availability), data may be altered by attackers (Integrity), and private records are exposed (Confidentiality).",
+      "An attacker sends a carefully crafted email to a CFO pretending to be the company's bank, requesting wire transfer credentials—this is a whaling attack that relies on social engineering rather than exploiting software vulnerabilities.",
+      "A competitor floods an e-commerce website with millions of fake requests on Black Friday, preventing real customers from completing purchases—a DDoS attack targeting Availability."
+    ],
+    "questions": [
+      {
+        "stem": "A company's database is altered without authorization, causing incorrect product prices to be displayed. Which CIA Triad property has been violated?",
+        "choices": [
+          "Confidentiality",
+          "Integrity",
+          "Availability",
+          "Authentication"
+        ],
+        "answer": 1,
+        "explanation": "Integrity covers the accuracy and trustworthiness of data; unauthorized alteration of the database directly violates this property. Confidentiality would be violated if unauthorized parties merely viewed the data without changing it."
+      },
+      {
+        "stem": "An attacker monitors network traffic between two users without altering any data. This is best classified as which type of attack?",
+        "choices": [
+          "Active attack",
+          "Passive attack",
+          "Replay attack",
+          "Injection attack"
+        ],
+        "answer": 1,
+        "explanation": "Passive attacks involve observing or eavesdropping on communications without modifying them, making them hard to detect. Active attacks would require the attacker to alter, inject, or interrupt data."
+      },
+      {
+        "stem": "Which threat actor type is most likely responsible for a multi-year intrusion campaign targeting classified government networks?",
+        "choices": [
+          "Script kiddie",
+          "Hacktivist",
+          "Advanced persistent threat (APT)",
+          "Insider threat"
+        ],
+        "answer": 2,
+        "explanation": "APTs are typically nation-state or sophisticated sponsored groups that conduct long-term, stealthy campaigns for espionage. Script kiddies lack the skill for sustained covert operations."
+      },
+      {
+        "stem": "A security team deploys firewalls, an IDS, and a backup system simultaneously. This layered strategy is known as what?",
+        "choices": [
+          "Zero trust architecture",
+          "Defense in depth",
+          "Security through obscurity",
+          "Risk transference"
+        ],
+        "answer": 1,
+        "explanation": "Defense in depth places multiple overlapping controls at different layers so no single point of failure can compromise the whole system. Zero trust is a related but distinct model focused on continuous verification of identity."
+      },
+      {
+        "stem": "An employee receives an email that appears to be from their CEO, urgently asking for gift card codes. This is an example of what attack?",
+        "choices": [
+          "Spear phishing (whaling)",
+          "Vishing",
+          "Watering hole attack",
+          "SQL injection"
+        ],
+        "answer": 0,
+        "explanation": "Whaling is spear phishing targeting executives or their direct reports with personalized, high-value lures. Vishing uses voice calls rather than email."
+      },
+      {
+        "stem": "Which of the following BEST describes a botnet?",
+        "choices": [
+          "A firewall that filters malicious traffic automatically",
+          "A network of compromised devices controlled by an attacker",
+          "A software tool used to scan for open ports",
+          "An encrypted tunnel between two endpoints"
+        ],
+        "answer": 1,
+        "explanation": "A botnet is a collection of internet-connected devices infected with malware and controlled remotely by an attacker, commonly used to launch DDoS attacks. A port scanner is a separate reconnaissance tool."
+      },
+      {
+        "stem": "Pretexting differs from standard phishing primarily because pretexting relies on what technique?",
+        "choices": [
+          "Exploiting unpatched software vulnerabilities",
+          "Fabricating a believable backstory to manipulate victims",
+          "Redirecting users to fake websites via malicious links",
+          "Intercepting network packets in transit"
+        ],
+        "answer": 1,
+        "explanation": "Pretexting involves creating a fabricated scenario or identity to gain trust and extract information. Standard phishing typically uses deceptive links or attachments rather than a constructed narrative."
+      },
+      {
+        "stem": "A website becomes unreachable because it is overwhelmed by requests from thousands of infected computers. Which term BEST describes this event?",
+        "choices": [
+          "Man-in-the-middle attack",
+          "SQL injection attack",
+          "Distributed Denial-of-Service (DDoS) attack",
+          "Brute force attack"
+        ],
+        "answer": 2,
+        "explanation": "A DDoS attack uses a botnet—many compromised machines—to flood a target and deny service to legitimate users. A man-in-the-middle attack intercepts communications rather than overwhelming a server."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "CIA Triad",
+        "definition": "The three core principles of information security: Confidentiality (restricting access), Integrity (preventing unauthorized alteration), and Availability (ensuring reliable access for authorized users)."
+      },
+      {
+        "term": "Threat Actor",
+        "definition": "Any individual, group, or entity that has the potential to carry out a malicious action against an organization's information systems."
+      },
+      {
+        "term": "Phishing",
+        "definition": "A social engineering attack delivered via fraudulent email that impersonates a trusted entity to steal credentials or install malware."
+      },
+      {
+        "term": "Defense in Depth",
+        "definition": "A security strategy that layers multiple overlapping controls (preventive, detective, and corrective) so that the compromise of one layer does not result in a total breach."
+      },
+      {
+        "term": "Advanced Persistent Threat (APT)",
+        "definition": "A highly skilled, often nation-state-sponsored threat actor that conducts prolonged, stealthy intrusion campaigns typically aimed at espionage or sabotage."
+      }
+    ]
+  }
+]

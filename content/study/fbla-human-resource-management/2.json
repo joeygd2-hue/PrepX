@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Performance Management, Training, and Employee Development",
+    "objective": "Design a performance management cycle and select appropriate training methods to develop employees and address performance gaps.",
+    "body": "**Performance management** is a continuous cycle — not an annual event — through which organizations align employee behavior with strategic goals. The cycle typically moves through goal-setting, ongoing coaching and feedback, formal appraisal, and development planning. When executed well, performance management motivates employees, surfaces talent, and provides the documented evidence HR needs for promotion and termination decisions.\n\nThe cycle begins with **goal-setting**, most commonly using the **SMART framework**: goals should be Specific, Measurable, Achievable, Relevant, and Time-bound. SMART goals give employees a clear target and give managers an objective basis for evaluation. Vague goals like \"improve customer service\" make fair evaluation impossible; a SMART version — \"increase customer satisfaction scores from 78% to 85% by Q4\" — does not.\n\n**Performance appraisals** are the formal evaluation component. Several rating methods exist:\n- **Graphic rating scales** assess traits or behaviors on a numerical continuum — simple to administer but prone to **halo effect** and other cognitive biases.\n- **Behaviorally Anchored Rating Scales (BARS)** link specific behaviors to each rating point, improving consistency and reducing subjectivity.\n- **Management by Objectives (MBO)** evaluates employees against the SMART goals they set collaboratively with their manager, emphasizing outcomes over personality.\n- **360-degree feedback** gathers input from supervisors, peers, subordinates, and sometimes customers, providing a multi-perspective view of performance.\n\nWhen appraisals reveal a performance gap, the organization must determine its cause before selecting a solution. A **performance gap** may stem from a lack of knowledge or skill, unclear expectations, inadequate resources, or motivational issues. **Training** is the appropriate intervention only when the gap is caused by insufficient knowledge or skill.\n\nThe **ADDIE model** (Analysis, Design, Development, Implementation, Evaluation) is the classic instructional design framework. Analysis identifies the gap and target audience; Design specifies learning objectives and methods; Development creates the actual materials; Implementation delivers the training; Evaluation measures whether learning occurred and transferred to the job. **Kirkpatrick's Four Levels of Evaluation** provides the standard framework for the Evaluation phase: Level 1 (Reaction) measures learner satisfaction, Level 2 (Learning) tests knowledge gain, Level 3 (Behavior) assesses job transfer, and Level 4 (Results) ties training to organizational outcomes like productivity or revenue.\n\nCommon training delivery methods include on-the-job training, mentoring, e-learning modules, classroom instruction, and job rotation. The choice depends on the content, audience size, budget, and urgency of the need.",
+    "examples": [
+      "A sales manager rewrites an annual review goal from 'sell more' to 'close 12 new enterprise accounts worth at least $50,000 each by December 31,' transforming it into a SMART goal that both parties can track monthly.",
+      "A call center uses BARS for its agent evaluations, anchoring the 'handles difficult customers' dimension with specific behavioral descriptions at each rating level, so two different supervisors score the same agent consistently.",
+      "After training newly promoted supervisors on conflict resolution, HR tracks whether workplace grievance filings decrease over the next six months — a Kirkpatrick Level 4 evaluation linking training to a business result."
+    ],
+    "questions": [
+      {
+        "stem": "A manager rates an employee highly on every dimension of an appraisal simply because they liked one recent project. This is an example of:",
+        "choices": [
+          "Recency bias",
+          "Halo effect",
+          "Central tendency error",
+          "Contrast effect"
+        ],
+        "answer": 1,
+        "explanation": "The halo effect occurs when one positive impression of an employee colors all other ratings. Recency bias, by contrast, involves over-weighting the most recent events rather than the full review period."
+      },
+      {
+        "stem": "Which performance appraisal method is MOST likely to reduce subjectivity by anchoring ratings to specific observable behaviors?",
+        "choices": [
+          "Graphic rating scale",
+          "Forced ranking",
+          "Behaviorally Anchored Rating Scale (BARS)",
+          "Simple checklist"
+        ],
+        "answer": 2,
+        "explanation": "BARS links each point on the rating scale to specific behavioral examples, giving evaluators a concrete reference and reducing reliance on subjective judgment. Graphic rating scales use numerical or descriptive anchors that are far more open to interpretation."
+      },
+      {
+        "stem": "An employee consistently meets deadlines but their report quality has declined. Before scheduling training, the manager should first determine whether the performance gap is caused by:",
+        "choices": [
+          "The employee's personality type",
+          "A lack of knowledge, unclear expectations, or a motivational issue",
+          "The employee's tenure with the company",
+          "The frequency of performance appraisals"
+        ],
+        "answer": 1,
+        "explanation": "Training is only appropriate when the gap stems from missing knowledge or skill. If the cause is unclear expectations or a motivational issue, training will not fix it. Diagnosing root cause is the analysis step of ADDIE."
+      },
+      {
+        "stem": "In the ADDIE model, which phase involves determining the target audience and identifying the specific knowledge gap that training must close?",
+        "choices": [
+          "Design",
+          "Development",
+          "Analysis",
+          "Evaluation"
+        ],
+        "answer": 2,
+        "explanation": "The Analysis phase identifies who needs training, what gap exists, and why — information that drives all subsequent phases. Design comes after Analysis and specifies how learning objectives and delivery methods will address the identified gap."
+      },
+      {
+        "stem": "A company tests employees before and after a safety training module to measure knowledge gain. According to Kirkpatrick's model, this is a Level:",
+        "choices": [
+          "1 (Reaction) evaluation",
+          "2 (Learning) evaluation",
+          "3 (Behavior) evaluation",
+          "4 (Results) evaluation"
+        ],
+        "answer": 1,
+        "explanation": "Level 2 (Learning) measures whether knowledge, skills, or attitudes changed as a result of training — typically assessed with pre/post tests. Level 1 measures learner satisfaction with the training experience itself."
+      },
+      {
+        "stem": "Management by Objectives (MBO) differs from graphic rating scales primarily because MBO:",
+        "choices": [
+          "Is faster to administer",
+          "Evaluates employees against collaboratively set outcome goals rather than trait ratings",
+          "Relies on peer feedback rather than supervisor feedback",
+          "Is only appropriate for executive-level employees"
+        ],
+        "answer": 1,
+        "explanation": "MBO evaluates employees on the outcomes they agreed to achieve with their manager, keeping focus on results rather than personality or behavior traits. Graphic rating scales assess traits or behaviors on a numerical scale, which is susceptible to subjective bias."
+      },
+      {
+        "stem": "A large company wants feedback on a regional director's leadership from their direct reports, peers, and their own supervisor. The BEST appraisal method for this goal is:",
+        "choices": [
+          "Management by Objectives",
+          "Forced ranking",
+          "Graphic rating scale",
+          "360-degree feedback"
+        ],
+        "answer": 3,
+        "explanation": "360-degree feedback is specifically designed to collect performance input from multiple perspectives — subordinates, peers, and supervisors — providing a holistic view. MBO and graphic rating scales use only supervisor evaluation."
+      },
+      {
+        "stem": "Which component of a SMART goal ensures the employee knows exactly when performance will be evaluated?",
+        "choices": [
+          "Specific",
+          "Measurable",
+          "Achievable",
+          "Time-bound"
+        ],
+        "answer": 3,
+        "explanation": "The Time-bound element sets a clear deadline or review date, so the employee knows the evaluation window. Measurable relates to how success will be quantified, not when it will be assessed."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "SMART Goals",
+        "definition": "A goal-setting framework requiring objectives to be Specific, Measurable, Achievable, Relevant, and Time-bound to provide clear direction and an objective basis for evaluation."
+      },
+      {
+        "term": "Halo Effect",
+        "definition": "A cognitive bias in which a rater's overall positive impression of an employee causes them to rate that employee favorably across all performance dimensions."
+      },
+      {
+        "term": "BARS (Behaviorally Anchored Rating Scale)",
+        "definition": "A performance appraisal method that anchors each rating point on a scale to specific, observable behavioral examples to reduce subjectivity."
+      },
+      {
+        "term": "ADDIE Model",
+        "definition": "An instructional design framework with five sequential phases — Analysis, Design, Development, Implementation, and Evaluation — used to create effective training programs."
+      },
+      {
+        "term": "Kirkpatrick's Four Levels",
+        "definition": "A training evaluation framework that measures effectiveness at four progressively deeper levels: Reaction, Learning, Behavior transfer, and organizational Results."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Strategic Compensation, Labor Relations, and HR Law",
+    "objective": "Evaluate compensation strategies, interpret key employment laws, and apply HR practices that balance organizational goals with employee rights.",
+    "body": "**Compensation** is one of the most powerful levers an organization controls. Total compensation includes **direct pay** (base salary, bonuses, commissions) and **indirect pay** — the full package of benefits such as health insurance, retirement plans, paid time off, and employee assistance programs. Designing compensation well requires balancing internal equity, external competitiveness, and individual performance.\n\n**Internal equity** means employees perceive pay as fair relative to colleagues in similar roles — typically ensured through **job evaluation** methods that rank positions by their relative value. **External equity** means pay is competitive with the labor market, determined through **compensation surveys** that benchmark salaries against industry peers. Organizations that pay below market risk losing talent to competitors; those that consistently overpay may sacrifice profitability. Most organizations set a **pay range** with a minimum, midpoint, and maximum for each job grade to balance both concerns.\n\nCompensation philosophy comes in two broad forms. A **market leader strategy** pays above median to attract and retain top talent — common in high-tech industries where talent is scarce. A **market follower strategy** pays at or below median, often compensating with strong non-monetary benefits or growth opportunities. **Pay-for-performance** systems tie compensation increases to individual or team results, including merit pay, profit-sharing, and **gainsharing** (where teams share in the financial gains from their productivity improvements).\n\nEffective HR practice requires fluency in key employment laws. The **Fair Labor Standards Act (FLSA)** establishes the federal minimum wage, mandates overtime pay (1.5× the regular rate) for non-exempt employees working more than 40 hours per week, and distinguishes between exempt and non-exempt classifications. Title VII of the **Civil Rights Act of 1964** prohibits employment discrimination based on race, color, religion, sex, or national origin. The **Americans with Disabilities Act (ADA)** requires employers to provide **reasonable accommodations** to qualified individuals with disabilities, unless doing so creates an **undue hardship** for the organization. The **Family and Medical Leave Act (FMLA)** entitles eligible employees to up to 12 weeks of unpaid, job-protected leave for qualifying family or medical reasons.\n\n**Labor relations** governs the relationship between employers and unions. The **National Labor Relations Act (NLRA)** protects employees' rights to organize, bargain collectively, and engage in concerted activity. When employees unionize, management and union representatives negotiate a **collective bargaining agreement (CBA)** covering wages, hours, and working conditions. HR professionals must understand **unfair labor practices** — illegal actions by employers (such as retaliating against organizing employees) or unions — to avoid costly violations.\n\nThe strategic HR professional recognizes that compensation, legal compliance, and labor relations are not isolated activities. A compensation system that inadvertently creates pay disparities along protected-class lines creates legal liability. A disciplinary process that is not consistently applied can become an unfair labor practice. Integrating these areas is the mark of mature HR strategy.",
+    "examples": [
+      "A software company benchmarks its engineer salaries annually using a published compensation survey and sets its pay ranges at the 75th percentile of the market — a deliberate market leader strategy to reduce turnover in a competitive talent market.",
+      "An employee with a mobility impairment requests a standing desk and a closer parking space; the employer provides both at modest cost, satisfying the ADA's reasonable accommodation requirement without incurring undue hardship.",
+      "A warehouse operation introduces a gainsharing plan that pays each crew a quarterly bonus when throughput exceeds the baseline by 10%, directly linking team productivity gains to shared financial rewards."
+    ],
+    "questions": [
+      {
+        "stem": "An employer pays female engineers 15% less than male engineers in identical roles with equivalent experience. This most directly violates:",
+        "choices": [
+          "The Family and Medical Leave Act",
+          "Title VII of the Civil Rights Act of 1964",
+          "The National Labor Relations Act",
+          "The Americans with Disabilities Act"
+        ],
+        "answer": 1,
+        "explanation": "Title VII prohibits sex-based employment discrimination, which includes compensation disparities for the same work. The FMLA governs leave rights and is not applicable here."
+      },
+      {
+        "stem": "Under the FLSA, a non-exempt employee works 46 hours in one week at a base rate of $20/hour. What is the correct total pay for that week?",
+        "choices": [
+          "$920",
+          "$980",
+          "$950",
+          "$1,000"
+        ],
+        "answer": 1,
+        "explanation": "The employee earns $20 × 40 = $800 for regular hours, plus 6 overtime hours at $30 each ($20 × 1.5) = $180, for a total of $980. Paying the flat rate of $920 for all 46 hours would violate FLSA's overtime provision."
+      },
+      {
+        "stem": "A company conducts a salary survey and adjusts pay to match the median for each role. This compensation approach is called:",
+        "choices": [
+          "Market leader strategy",
+          "Pay compression",
+          "Market follower strategy",
+          "Gainsharing"
+        ],
+        "answer": 2,
+        "explanation": "Paying at the market median is a market follower strategy, which meets but does not exceed competitive rates. A market leader strategy deliberately pays above the median to gain a talent acquisition advantage."
+      },
+      {
+        "stem": "An employee with severe anxiety disorder requests permission to work from home two days per week. Under the ADA, the employer must:",
+        "choices": [
+          "Automatically approve the request regardless of business impact",
+          "Engage in an interactive process to assess whether the accommodation is reasonable",
+          "Deny the request because mental health conditions are not covered",
+          "Transfer the employee to a different department"
+        ],
+        "answer": 1,
+        "explanation": "The ADA requires an interactive dialogue between employer and employee to explore reasonable accommodations; automatic approval is not the standard. Mental health conditions are covered under the ADA when they substantially limit a major life activity."
+      },
+      {
+        "stem": "A manufacturing plant's HR director discovers that supervisors have been firing employees who attended a union organizing meeting. This is most likely an:",
+        "choices": [
+          "Acceptable management prerogative under employment-at-will",
+          "Unfair labor practice under the NLRA",
+          "Violation of the FLSA overtime rules",
+          "Reasonable business decision protected by the First Amendment"
+        ],
+        "answer": 1,
+        "explanation": "The NLRA protects employees' rights to organize and engage in concerted activity; retaliating against employees for union activity is a classic unfair labor practice. Employment-at-will does not override NLRA protections."
+      },
+      {
+        "stem": "The purpose of a pay range with a minimum, midpoint, and maximum for each job grade is PRIMARILY to:",
+        "choices": [
+          "Eliminate bonuses and commissions from the compensation structure",
+          "Balance internal equity with external market competitiveness within each role",
+          "Ensure all employees earn the same salary regardless of experience",
+          "Comply with FLSA minimum wage requirements"
+        ],
+        "answer": 1,
+        "explanation": "Pay ranges allow organizations to reward varying levels of experience and performance within a role while keeping pay anchored to market benchmarks, balancing internal equity (fairness among peers) with external equity (market competitiveness)."
+      },
+      {
+        "stem": "A hospital implements a plan where nursing units receive a share of cost savings they generate through reduced supply waste. This is an example of:",
+        "choices": [
+          "Merit pay",
+          "Profit-sharing",
+          "Gainsharing",
+          "Commission-based pay"
+        ],
+        "answer": 2,
+        "explanation": "Gainsharing distributes a portion of the financial gains from team productivity or cost improvements back to the contributing employees. Profit-sharing distributes a portion of overall company profits rather than unit-level performance gains."
+      },
+      {
+        "stem": "Under the FMLA, an eligible employee may take up to 12 weeks of leave that is:",
+        "choices": [
+          "Paid and job-protected",
+          "Unpaid and job-protected",
+          "Paid but not job-protected",
+          "Unpaid and at the employer's discretion to restore the position"
+        ],
+        "answer": 1,
+        "explanation": "FMLA provides up to 12 weeks of unpaid, job-protected leave, meaning the employer must restore the employee to the same or equivalent position upon return. The law does not require paid leave, though some employers offer it voluntarily."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Internal Equity",
+        "definition": "The perception that pay is fair relative to colleagues holding similar roles within the same organization, typically ensured through systematic job evaluation."
+      },
+      {
+        "term": "Fair Labor Standards Act (FLSA)",
+        "definition": "A federal law that establishes the minimum wage, requires overtime pay at 1.5 times the regular rate for non-exempt employees working more than 40 hours per week, and regulates child labor."
+      },
+      {
+        "term": "Reasonable Accommodation",
+        "definition": "Under the ADA, a modification to a job, work environment, or the way work is performed that enables a qualified individual with a disability to perform essential job functions without causing undue hardship to the employer."
+      },
+      {
+        "term": "Collective Bargaining Agreement (CBA)",
+        "definition": "A legally binding contract negotiated between management and a union that defines wages, hours, benefits, and working conditions for covered employees."
+      },
+      {
+        "term": "Gainsharing",
+        "definition": "A pay-for-performance plan in which employees share in the financial savings or productivity gains their work group generates, linking team behavior directly to compensation."
+      }
+    ]
+  }
+]
