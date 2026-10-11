@@ -86,6 +86,30 @@ describe("scheduled jobs", () => {
     expect((await db.select().from(schema.notifications).where(eq(schema.notifications.userId, u.id))).filter((x) => x.kind === "streak")).toHaveLength(1);
   });
 
+  it("sends streak reminders at the student's own reminder hour instead of 6pm", async () => {
+    const u = await makeUser({ tz: "America/New_York" });
+    await db.update(schema.profiles).set({ studyReminderTime: "07:30" }).where(eq(schema.profiles.userId, u.id));
+    await db.insert(schema.activityDays).values({ userId: u.id, day: "2026-10-08" });
+    const streak = async () => (await db.select().from(schema.notifications).where(eq(schema.notifications.userId, u.id))).filter((x) => x.kind === "streak");
+    await streakReminders(new Date("2026-10-09T22:00:00Z")); // 6pm New York
+    expect(await streak()).toHaveLength(0);
+    await streakReminders(new Date("2026-10-09T11:00:00Z")); // 7am New York
+    expect(await streak()).toHaveLength(1);
+  });
+
+  it("skips streak reminders on the student's rest days", async () => {
+    const u = await makeUser({ tz: "America/New_York" });
+    // 2026-10-09 is a Friday: a rest day in this plan.
+    await db.update(schema.profiles).set({ studyDays: { mon: 30, tue: 30, wed: 30, thu: 30, fri: 0, sat: 45, sun: 0 } }).where(eq(schema.profiles.userId, u.id));
+    await db.insert(schema.activityDays).values({ userId: u.id, day: "2026-10-08" });
+    const streak = async () => (await db.select().from(schema.notifications).where(eq(schema.notifications.userId, u.id))).filter((x) => x.kind === "streak");
+    await streakReminders(new Date("2026-10-09T22:00:00Z")); // Friday 6pm New York
+    expect(await streak()).toHaveLength(0);
+    await db.insert(schema.activityDays).values({ userId: u.id, day: "2026-10-09" }); // practiced anyway on Friday
+    await streakReminders(new Date("2026-10-10T22:00:00Z")); // Saturday 6pm New York: a study day
+    expect(await streak()).toHaveLength(1);
+  });
+
   it("deletes AI conversations older than 180 days", async () => {
     const u = await makeUser();
     const [s] = await db.insert(schema.aiSessions).values({ userId: u.id, kind: "coach", title: "old", updatedAt: new Date(Date.now() - 200 * 86400_000) }).returning();

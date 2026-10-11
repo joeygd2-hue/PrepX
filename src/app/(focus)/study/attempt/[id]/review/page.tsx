@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CheckCircle2, Repeat, XCircle } from "lucide-react";
+import { Bookmark, CheckCircle2, Repeat, Swords, XCircle } from "lucide-react";
 import { requireUser } from "@/server/auth/session";
 import { attemptReview, ExamError, MODES, type Mode } from "@/server/exams";
+import { bookmarkNotes } from "@/server/bookmarks";
+import { BookmarkControls } from "@/app/(app)/study/bookmarks/bookmark-controls";
 import { ButtonLink } from "@/components/ui/button";
 import { ProgressBar } from "@/components/ui/progress";
 import { BackHeader } from "@/components/ui/page";
@@ -26,6 +28,10 @@ export default async function Review({ params, searchParams }: { params: Promise
   }
   const a = r.attempt;
   const mode = a.mode as Mode;
+  const notes = await bookmarkNotes(user.id, r.items.map((i) => i.id));
+  const bookmarksHref = `/study/bookmarks?exam=${encodeURIComponent(a.clusterId)}`;
+  const duelHref = r.duelId ? `/study/duels/${r.duelId}` : "/study/duels";
+  const backHref = a.mode === "check" && a.unitId ? `/study/learn/${a.unitId}` : mode === "duel" ? duelHref : mode === "bookmarks" ? bookmarksHref : "/study";
   const pct = a.total ? Math.round(((a.correct ?? 0) / a.total) * 100) : 0;
   const prevPct = r.previous?.total ? Math.round(((r.previous.correct ?? 0) / r.previous.total) * 100) : null;
   const items = filter === "missed" ? r.items.filter((i) => !i.answer?.correct) : r.items;
@@ -33,7 +39,7 @@ export default async function Review({ params, searchParams }: { params: Promise
 
   return (
     <main id="main" className="mx-auto max-w-2xl px-4 pb-16 pt-7 sm:px-6 sm:pt-10">
-      <BackHeader href={a.mode === "check" && a.unitId ? `/study/learn/${a.unitId}` : "/study"} title={MODES[mode]?.label ?? "Results"} />
+      <BackHeader href={backHref} title={MODES[mode]?.label ?? "Results"} />
       <section className="relative overflow-hidden rounded-[28px] bg-hero p-6 text-hero-fg shadow-float sm:p-8">
         <HeroTexture />
         <div className="relative">
@@ -70,7 +76,12 @@ export default async function Review({ params, searchParams }: { params: Promise
       </section>
 
       <div className="mt-4 flex flex-wrap gap-3">
-        <ButtonLink href="/study" variant="primary">
+        {mode === "duel" ? (
+          <ButtonLink href={duelHref} variant="accent">
+            <Swords className="size-4" aria-hidden /> See duel results
+          </ButtonLink>
+        ) : null}
+        <ButtonLink href="/study" variant={mode === "duel" ? "outline" : "primary"}>
           Back to Study
         </ButtonLink>
         {r.items.some((i) => !i.answer?.correct) ? (
@@ -78,6 +89,9 @@ export default async function Review({ params, searchParams }: { params: Promise
             <Repeat className="size-4" aria-hidden /> Practice misses
           </ButtonLink>
         ) : null}
+        <ButtonLink href={bookmarksHref} variant="outline">
+          <Bookmark className="size-4" aria-hidden /> Bookmarks
+        </ButtonLink>
       </div>
 
       {r.topics.length > 1 ? (
@@ -151,6 +165,7 @@ export default async function Review({ params, searchParams }: { params: Promise
                         ) : null}
                       </div>
                       <p className="mt-3 text-sm leading-relaxed text-muted">{it.explanation}</p>
+                      <BookmarkControls questionId={it.id} initial={{ bookmarked: it.id in notes, note: notes[it.id] ?? "" }} />
                     </div>
                   </div>
                 </Card>

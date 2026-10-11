@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { and, eq } from "drizzle-orm";
-import { Target } from "lucide-react";
+import { and, eq, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { BackHeader, Page } from "@/components/ui/page";
-import { Card, HeroTexture } from "@/components/ui/card";
-import { Markdown } from "@/components/ui/markdown";
-import { cn } from "@/lib/cn";
-import { StartForm } from "../../practice/start-form";
+import { CourseReader } from "@/components/app/course/reader";
+import type { ReaderPage, TermDef } from "@/components/app/course/types";
+import { dedupeTerms, examplesMarkdown, lessonMinutes, markTerms, paginateLesson, splitTermTokens } from "@/lib/course";
+import { checkQuestions } from "./data";
 
 export async function generateMetadata({ params }: { params: Promise<{ unitId: string }> }): Promise<Metadata> {
   const { unitId } = await params;
@@ -24,52 +23,68 @@ export default async function Lesson({ params }: { params: Promise<{ unitId: str
   await db.insert(schema.lessonProgress).values({ userId: user.id, unitId }).onConflictDoNothing();
   const [progress] = await db.select().from(schema.lessonProgress).where(and(eq(schema.lessonProgress.userId, user.id), eq(schema.lessonProgress.unitId, unitId)));
   const complete = Boolean(progress?.lessonCompletedAt);
+
+  const [siblings, cards, questions, [{ practice }]] = await Promise.all([
+    db
+      .select({ id: schema.units.id, title: schema.units.title })
+      .from(schema.units)
+      .where(eq(schema.units.clusterId, unit.clusterId))
+      .orderBy(schema.units.position, schema.units.id),
+    db
+      .select({ term: schema.flashcards.term, definition: schema.flashcards.definition, unitId: schema.flashcards.unitId })
+      .from(schema.flashcards)
+      .where(eq(schema.flashcards.clusterId, unit.clusterId)),
+    checkQuestions(user.id, unit.id, complete),
+    db
+      .select({ practice: sql<number>`count(*)::int` })
+      .from(schema.questions)
+      .where(and(eq(schema.questions.unitId, unit.id), eq(schema.questions.status, "published"))),
+  ]);
+
+  // The bank's flashcards are the glossary; this unit's own cards win when a term repeats.
+  const unitTerms: TermDef[] = dedupeTerms(cards.filter((c) => c.unitId === unit.id)).map(({ term, definition }) => ({ term, definition }));
+  const glossary = dedupeTerms([...unitTerms, ...cards]);
+  const termNames = glossary.map((c) => c.term);
+  const lessonPages = paginateLesson(unit.body);
+  const examples = examplesMarkdown(unit.examples);
+
+  const pages: ReaderPage[] = [
+    { kind: "intro" },
+    ...lessonPages.map((source, i): ReaderPage => ({ kind: "lesson", source: markTerms(source, termNames), part: i + 1, parts: lessonPages.length })),
+    ...(examples ? [{ kind: "practice", source: markTerms(examples, termNames) } as const] : []),
+    ...(unitTerms.length ? [{ kind: "terms" } as const] : []),
+    ...(questions.length ? [{ kind: "check" } as const] : []),
+    { kind: "finish" },
+  ];
+
+  // Only send the definitions the pages actually mark.
+  const used: Record<number, TermDef> = {};
+  for (const p of pages) {
+    if (p.kind !== "lesson" && p.kind !== "practice") continue;
+    for (const piece of splitTermTokens(p.source)) {
+      if (typeof piece !== "string" && glossary[piece.term]) used[piece.term] = { term: glossary[piece.term].term, definition: glossary[piece.term].definition };
+    }
+  }
+
+  const index = siblings.findIndex((s) => s.id === unit.id);
+  const nextUnit = index >= 0 ? siblings[index + 1] : undefined;
+  const exam = encodeURIComponent(unit.clusterId);
+
   return (
     <Page>
-      <BackHeader href={`/study/learn?exam=${unit.clusterId}`} title={`Unit ${unit.position}`} subtitle={unit.title} />
-      <article>
-        <h1 className="text-[2rem] font-semibold leading-[1.08] tracking-[-0.035em] sm:text-[2.35rem]">{unit.title}</h1>
-        <Card tone="subtle" className="mt-5 flex gap-3 p-4 text-[15px] leading-relaxed sm:p-5">
-          <Target className="mt-0.5 size-[18px] shrink-0" aria-hidden />
-          <p>
-            <span className="font-semibold">Learning objective: </span>
-            {unit.objective}
-          </p>
-        </Card>
-        <div className="mt-6 text-[17px]">
-          <Markdown source={unit.body} />
-        </div>
-        {unit.examples.length ? (
-          <Card className="mt-6">
-            <h2 className="text-lg font-semibold tracking-[-0.02em]">Examples</h2>
-            <ul className="mt-4 space-y-3 text-[15px] leading-relaxed text-muted">
-              {unit.examples.map((e) => (
-                <li key={e} className="flex gap-3">
-                  <span aria-hidden className="mt-[0.75em] h-px w-3 shrink-0 bg-border-strong" />
-                  <span>{e}</span>
-                </li>
-              ))}
-            </ul>
-          </Card>
-        ) : null}
-      </article>
-      <Card tone="inverse" className="mt-10 p-6 shadow-float sm:p-8">
-        <HeroTexture />
-        <div className="relative">
-          <h2 className="text-[1.6rem] font-semibold leading-[1.1] tracking-[-0.03em]">{complete ? "Lesson complete" : "Check your understanding"}</h2>
-          <p className="mt-2 max-w-md text-hero-muted">
-            {complete ? `You got ${progress.checkCorrect} of 3 on the check. Keep practicing this unit to master it.` : "3 quick questions finish the lesson."}
-          </p>
-          {complete ? (
-            <div className="mt-5 flex max-w-48 gap-1.5" aria-hidden>
-              {[0, 1, 2].map((n) => (
-                <span key={n} className={cn("h-1.5 flex-1 rounded-full", n < progress.checkCorrect ? "bg-accent" : "bg-hero-line")} />
-              ))}
-            </div>
-          ) : null}
-          <StartForm exam={unit.clusterId} mode={complete ? "unit" : "check"} unit={unit.id} resume={false} allowanceNote={null} disabled={false} />
-        </div>
-      </Card>
+      <BackHeader href={`/study/learn?exam=${exam}`} title={`Unit ${unit.position}`} subtitle={unit.title} />
+      <CourseReader
+        unit={{ id: unit.id, title: unit.title, objective: unit.objective, position: unit.position }}
+        pages={pages}
+        glossary={used}
+        unitTerms={unitTerms}
+        minutes={lessonMinutes(unit, questions.length)}
+        questions={questions}
+        complete={complete ? { correct: progress.checkCorrect, total: questions.length } : null}
+        practiceHref={practice > 0 ? `/study/practice?exam=${exam}&mode=unit&unit=${encodeURIComponent(unit.id)}` : null}
+        next={nextUnit ? { href: `/study/learn/${encodeURIComponent(nextUnit.id)}`, title: nextUnit.title } : null}
+        courseHref={`/study/learn?exam=${exam}`}
+      />
     </Page>
   );
 }

@@ -5,6 +5,7 @@ import { addDays, daysUntil, todayIn, formatRange } from "@/lib/dates";
 import { randomToken, sha256 } from "@/lib/crypto";
 import { env } from "@/lib/env";
 import { errorDetail } from "@/lib/errors";
+import { isStudyDay, reminderHour } from "@/lib/planner";
 import { deleteAccount } from "./account";
 import { sendEmail } from "./email";
 import { notifyUsers } from "./notify";
@@ -17,19 +18,23 @@ const localWeekday = (tz: string, now = new Date()) => new Intl.DateTimeFormat("
 
 async function activeStudents() {
   return db
-    .select({ userId: schema.users.id, email: schema.users.email, tz: schema.profiles.timezone, first: schema.profiles.firstName, prefs: schema.notificationPrefs })
+    .select({ userId: schema.users.id, email: schema.users.email, tz: schema.profiles.timezone, first: schema.profiles.firstName, prefs: schema.notificationPrefs, studyDays: schema.profiles.studyDays, dailyMinutes: schema.profiles.dailyStudyMinutes, reminderTime: schema.profiles.studyReminderTime })
     .from(schema.users)
     .innerJoin(schema.profiles, eq(schema.profiles.userId, schema.users.id))
     .leftJoin(schema.notificationPrefs, eq(schema.notificationPrefs.userId, schema.users.id))
     .where(isNotNull(schema.profiles.onboardingCompletedAt));
 }
 
-/** Hourly: at 6pm local, remind students with a streak who haven't practiced today. Never more than once a day. */
+/**
+ * Hourly: at each student's reminder hour (local; 6pm unless set in the study planner), remind students
+ * with a streak who haven't practiced today. Skips the student's rest days. Never more than once a day.
+ */
 export async function streakReminders(now = new Date()) {
   let sent = 0;
   for (const u of await activeStudents()) {
     if (u.prefs && !u.prefs.streakReminder) continue;
-    if (localHour(u.tz, now) !== 18) continue;
+    if (localHour(u.tz, now) !== reminderHour(u.reminderTime)) continue;
+    if (!isStudyDay(u.studyDays, u.dailyMinutes, todayIn(u.tz, now))) continue;
     const s = await streakSummary(u.userId, u.tz, now);
     if (s.practicedToday || s.current === 0) continue;
     await notifyUsers([u.userId], "streakReminder", {

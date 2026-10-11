@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Chip } from "@/components/ui/badge";
 import { ProgressBar } from "@/components/ui/progress";
 import { cn } from "@/lib/cn";
+import { BookmarkControls } from "@/app/(app)/study/bookmarks/bookmark-controls";
 
 type Q = {
   id: string;
@@ -28,6 +29,8 @@ export function ExamRunner(props: {
   initialDraft: Record<string, number>;
   remainingSec: number | null;
   elapsedSec: number;
+  /** Bookmarked questions of this attempt: question id → private note. */
+  bookmarks: Record<string, string>;
 }) {
   const { attemptId, mode, instant, questions } = props;
   const sprint = mode === "sprint";
@@ -41,6 +44,7 @@ export function ExamRunner(props: {
   const [remaining, setRemaining] = useState(props.remainingSec);
   const [error, setError] = useState<string | null>(null);
   const [confirming, setConfirming] = useState(false);
+  const [marks, setMarks] = useState(props.bookmarks);
   const [pending, start] = useTransition();
   const elapsed = useRef(props.elapsedSec);
   const submitted = useRef(false);
@@ -114,6 +118,8 @@ export function ExamRunner(props: {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement || confirming) return;
+      // Bookmark and note controls handle their own keys (Enter on them must not skip ahead).
+      if (e.target instanceof Element && e.target.closest("[data-bookmark]")) return;
       const k = e.key.toUpperCase();
       const n = "1234".indexOf(k) >= 0 ? "1234".indexOf(k) : "ABCD".indexOf(k);
       if (n >= 0 && q && n < q.choices.length) choose(n);
@@ -229,6 +235,21 @@ export function ExamRunner(props: {
             </p>
             <p className="mt-2 text-[15px] leading-relaxed">{fb.explanation}</p>
           </div>
+        ) : null}
+        {fb && !sprint ? (
+          <BookmarkControls
+            key={q.id}
+            questionId={q.id}
+            initial={{ bookmarked: q.id in marks, note: marks[q.id] ?? "" }}
+            onChange={(v) =>
+              setMarks((m) => {
+                const n = { ...m };
+                if (v.bookmarked) n[q.id] = v.note;
+                else delete n[q.id];
+                return n;
+              })
+            }
+          />
         ) : null}
         {error ? <p role="alert" className="mt-4 text-sm text-danger">{error}</p> : null}
       </section>

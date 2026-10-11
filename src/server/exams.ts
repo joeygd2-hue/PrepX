@@ -1,5 +1,6 @@
 import "server-only";
 import { and, desc, eq, inArray, isNull, lt, notInArray, sql } from "drizzle-orm";
+import { z } from "zod";
 import { db, schema } from "@/db";
 import { XP } from "@/lib/levels";
 import { awardXp, recordActivity, syncAchievements } from "./progress";
@@ -22,10 +23,10 @@ export const isMode = (m: unknown): m is Mode => typeof m === "string" && m in M
 
 export class ExamError extends Error {}
 
-function shuffle<T>(a: T[]) {
+function shuffle<T>(a: T[], rng: () => number = Math.random) {
   const b = [...a];
   for (let i = b.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(rng() * (i + 1));
     [b[i], b[j]] = [b[j], b[i]];
   }
   return b;
@@ -47,6 +48,128 @@ async function pickQuestions(userId: string, clusterId: string, n: number, unitI
   const missed = shuffle(pool.filter((p) => seenMap.get(p.id) === false));
   const rest = shuffle(pool.filter((p) => seenMap.get(p.id) === true));
   return [...unseen, ...missed, ...rest].slice(0, n).map((p) => p.id);
+}
+
+const DAY_MS = 86_400_000;
+/** Questions answered this recently are only reused when nothing fresher is left. */
+export const ADAPTIVE_RECENT_DAYS = 3;
+/** How many of a unit's latest answers decide its "recent accuracy". */
+const UNIT_WINDOW = 20;
+
+export type AdaptiveInput = {
+  /** Published questions of the bank. */
+  pool: { id: string; unitId: string | null }[];
+  /** The student's answers in this bank (any order). */
+  answers: { questionId: string; correct: boolean; answeredAt: Date }[];
+  /** Question ids in the student's open mistake notebook, most recent miss first. */
+  openMistakes: string[];
+  n: number;
+  now?: Date;
+  rng?: () => number;
+};
+
+/**
+ * Adaptive Quick 10, as a pure function so it can be tested with a seeded random source.
+ *
+ * - Each unit gets a weight: 1 when the student has no answers there, otherwise
+ *   0.25 + 0.75 × (share missed among its latest answers). Slots go to the unit with the highest
+ *   weight ÷ (1 + questions it already has) (a little jitter breaks ties), so weak and unseen
+ *   units get more questions while the set still spreads; a brand-new student gets one question
+ *   per unit before any unit gets a second.
+ * - About two open mistakes are included when the student has any (stale ones first).
+ * - Within a unit: never-seen questions first, then previously missed, then the rest. Questions
+ *   answered in the last few days are only used once nothing else is left in the bank.
+ * - No question appears twice; a bank smaller than `n` simply returns every question.
+ */
+export function selectAdaptiveQuestions({ pool, answers, openMistakes, n, now = new Date(), rng = Math.random }: AdaptiveInput): string[] {
+  const unitOf = new Map(pool.map((q) => [q.id, q.unitId ?? ""]));
+  if (!unitOf.size || n <= 0) return [];
+  const lastAt = new Map<string, number>();
+  const missed = new Set<string>();
+  const unitStats = new Map<string, { total: number; correct: number }>();
+  for (const a of [...answers].sort((x, y) => y.answeredAt.getTime() - x.answeredAt.getTime())) {
+    if (!lastAt.has(a.questionId)) lastAt.set(a.questionId, a.answeredAt.getTime());
+    if (!a.correct) missed.add(a.questionId);
+    const unit = unitOf.get(a.questionId);
+    if (unit === undefined) continue;
+    const s = unitStats.get(unit) ?? { total: 0, correct: 0 };
+    if (s.total < UNIT_WINDOW) {
+      s.total++;
+      if (a.correct) s.correct++;
+    }
+    unitStats.set(unit, s);
+  }
+  const weight = (unit: string) => {
+    const s = unitStats.get(unit);
+    return s?.total ? 0.25 + 0.75 * (1 - s.correct / s.total) : 1;
+  };
+  const cutoff = now.getTime() - ADAPTIVE_RECENT_DAYS * DAY_MS;
+  const isRecent = (id: string) => (lastAt.get(id) ?? 0) > cutoff;
+
+  const picked: string[] = [];
+  const perUnit = new Map<string, number>();
+  const take = (id: string) => {
+    picked.push(id);
+    const unit = unitOf.get(id)!;
+    perUnit.set(unit, (perUnit.get(unit) ?? 0) + 1);
+  };
+
+  // About two open mistakes, preferring ones not answered in the last few days (stable sort keeps the shuffle).
+  const mistakes = shuffle([...new Set(openMistakes)].filter((id) => unitOf.has(id)), rng).sort((x, y) => Number(isRecent(x)) - Number(isRecent(y)));
+  for (const id of mistakes.slice(0, Math.min(2, Math.floor(n / 3)))) take(id);
+
+  const queues = new Map<string, { fresh: string[]; recent: string[] }>();
+  for (const id of shuffle([...unitOf.keys()], rng)) {
+    if (picked.includes(id)) continue;
+    const unit = unitOf.get(id)!;
+    const q = queues.get(unit) ?? { fresh: [], recent: [] };
+    (isRecent(id) ? q.recent : q.fresh).push(id);
+    queues.set(unit, q);
+  }
+  const tier = (id: string) => (!lastAt.has(id) ? 0 : missed.has(id) ? 1 : 2);
+  for (const q of queues.values()) {
+    q.fresh.sort((x, y) => tier(x) - tier(y));
+    q.recent.sort((x, y) => lastAt.get(x)! - lastAt.get(y)!);
+  }
+  for (const key of ["fresh", "recent"] as const) {
+    while (picked.length < n) {
+      let best: string[] | null = null;
+      let bestScore = -1;
+      for (const [unit, q] of queues) {
+        if (!q[key].length) continue;
+        const score = (weight(unit) * (0.9 + 0.2 * rng())) / (1 + (perUnit.get(unit) ?? 0));
+        if (score > bestScore) {
+          bestScore = score;
+          best = q[key];
+        }
+      }
+      if (!best) break;
+      take(best.shift()!);
+    }
+  }
+  return shuffle(picked, rng);
+}
+
+async function pickAdaptive(userId: string, clusterId: string, n: number) {
+  const pool = await db
+    .select({ id: schema.questions.id, unitId: schema.questions.unitId })
+    .from(schema.questions)
+    .where(and(eq(schema.questions.clusterId, clusterId), eq(schema.questions.status, "published")));
+  const answers = await db
+    .select({ questionId: schema.attemptAnswers.questionId, correct: schema.attemptAnswers.correct, answeredAt: schema.attemptAnswers.answeredAt })
+    .from(schema.attemptAnswers)
+    .innerJoin(schema.questions, eq(schema.questions.id, schema.attemptAnswers.questionId))
+    .where(and(eq(schema.attemptAnswers.userId, userId), eq(schema.questions.clusterId, clusterId)))
+    .orderBy(desc(schema.attemptAnswers.answeredAt))
+    .limit(2000);
+  const open = await db
+    .select({ id: schema.mistakes.questionId })
+    .from(schema.mistakes)
+    .innerJoin(schema.questions, eq(schema.questions.id, schema.mistakes.questionId))
+    .where(and(eq(schema.mistakes.userId, userId), isNull(schema.mistakes.clearedAt), eq(schema.questions.clusterId, clusterId), eq(schema.questions.status, "published")))
+    .orderBy(desc(schema.mistakes.lastMissedAt))
+    .limit(50);
+  return selectAdaptiveQuestions({ pool, answers, openMistakes: open.map((m) => m.id), n });
 }
 
 /**
@@ -96,6 +219,16 @@ export async function startAttempt(opts: { userId: string; tz: string; clusterId
       .limit(MODES.mistakes.count);
     ids = shuffle(rows.map((r) => r.id));
     if (!ids.length) throw new ExamError("Your mistake notebook is empty. Nice work!");
+  } else if (mode === "bookmarks") {
+    const rows = await db
+      .select({ id: schema.questionBookmarks.questionId })
+      .from(schema.questionBookmarks)
+      .innerJoin(schema.questions, eq(schema.questions.id, schema.questionBookmarks.questionId))
+      .where(and(eq(schema.questionBookmarks.userId, userId), eq(schema.questions.clusterId, clusterId), eq(schema.questions.status, "published")))
+      .orderBy(sql`random()`)
+      .limit(MODES.bookmarks.count);
+    ids = rows.map((r) => r.id);
+    if (!ids.length) throw new ExamError("You haven't bookmarked any questions in this bank yet. Tap the bookmark on a question after you answer it to save it for later.");
   } else if (mode === "check") {
     if (!opts.unitId) throw new ExamError("Unit required.");
     const rows = await db
@@ -105,6 +238,8 @@ export async function startAttempt(opts: { userId: string; tz: string; clusterId
       .orderBy(schema.questions.createdAt, schema.questions.id)
       .limit(3);
     ids = rows.map((r) => r.id);
+  } else if (mode === "quick10") {
+    ids = await pickAdaptive(userId, clusterId, MODES.quick10.count);
   } else {
     const n = mode === "full" || mode === "rehearsal" ? (cluster.questionCount ?? 100) : MODES[mode].count;
     ids = await pickQuestions(userId, clusterId, n, mode === "unit" ? (opts.unitId ?? undefined) : undefined);
@@ -128,7 +263,11 @@ export async function startAttempt(opts: { userId: string; tz: string; clusterId
   }
 }
 
+const AttemptId = z.uuid();
+
 async function ownedAttempt(userId: string, attemptId: string) {
+  // A malformed id (hand-edited URL, tampered action call) is "not found", not a database error.
+  if (!AttemptId.safeParse(attemptId).success) throw new ExamError("Attempt not found.");
   const [a] = await db.select().from(schema.examAttempts).where(and(eq(schema.examAttempts.id, attemptId), eq(schema.examAttempts.userId, userId)));
   if (!a) throw new ExamError("Attempt not found.");
   return a;
@@ -191,6 +330,8 @@ export async function answerInstant(userId: string, attemptId: string, questionI
   if (!a.questionIds.includes(questionId)) throw new ExamError("Question not in this attempt.");
   if (a.timeLimitSec && Date.now() - a.startedAt.getTime() > (a.timeLimitSec + 5) * 1000) throw new ExamError("Time's up.");
   const [q] = await db.select().from(schema.questions).where(eq(schema.questions.id, questionId));
+  if (!q) throw new ExamError("This question is no longer available.");
+  if (!Number.isInteger(chosen) || chosen < 0 || chosen >= q.choices.length) throw new ExamError("Pick one of the answer choices.");
   const r = await applyAnswer(userId, a.id, q, chosen);
   return { correct: r.correct, answerIndex: q.answerIndex, explanation: q.explanation };
 }
@@ -223,7 +364,7 @@ export async function submitAttempt(userId: string, tz: string, attemptId: strin
 
   if (answers.length) {
     await recordActivity(userId, tz);
-    const kinds: Record<string, string[]> = { quick10: ["quick10"], full: ["exam"], rehearsal: ["rehearsal", "exam"], sprint: ["sprint"], mistakes: ["mistakes"], unit: ["quick10"], check: ["lesson"] };
+    const kinds: Record<string, string[]> = { quick10: ["quick10"], full: ["exam"], rehearsal: ["rehearsal", "exam"], sprint: ["sprint"], mistakes: ["mistakes"], unit: ["quick10"], check: ["lesson"], bookmarks: ["quick10"] };
     await autoCompleteTask(userId, tz, kinds[a.mode] ?? []);
   }
   if (a.mode === "full" || a.mode === "rehearsal") await awardXp(userId, XP.examSubmitted, "exam", a.id);
@@ -282,5 +423,14 @@ export async function attemptReview(userId: string, attemptId: string) {
     .orderBy(desc(schema.examAttempts.submittedAt))
     .limit(1);
   const [best] = a.mode === "sprint" ? await db.select().from(schema.sprintBests).where(and(eq(schema.sprintBests.userId, userId), eq(schema.sprintBests.clusterId, a.clusterId))) : [];
-  return { attempt: a, items, topics: [...topics.entries()].map(([title, t]) => ({ title, ...t })), previous: previous ?? null, sprintBest: best?.best ?? null };
+  // A duel attempt links back to its own duel's results.
+  const [duel] =
+    a.mode === "duel"
+      ? await db
+          .select({ id: schema.duelEntries.duelId })
+          .from(schema.duelEntries)
+          .where(and(eq(schema.duelEntries.attemptId, a.id), eq(schema.duelEntries.userId, userId)))
+          .limit(1)
+      : [];
+  return { attempt: a, items, topics: [...topics.entries()].map(([title, t]) => ({ title, ...t })), previous: previous ?? null, sprintBest: best?.best ?? null, duelId: duel?.id ?? null };
 }
