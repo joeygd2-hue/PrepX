@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Pricing strategies and pricing math",
+    "objective": "Choose and justify a pricing strategy and calculate markup, markdown, break-even point and margin accurately.",
+    "body": "Price is the only part of the marketing mix that brings in revenue, and it is where the exam tests math most often. Expect strategy questions plus markups, markdowns and break-even.\n\n**What affects price.** Costs set the floor, customers' perceived value sets the ceiling, and competitors' prices, demand, company objectives and laws decide where you land in between. Demand is *elastic* when a small price change causes a larger percentage change in quantity sold (many substitutes, nonessential items) and *inelastic* when quantity barely changes (necessities, few substitutes).\n\n**Strategies.**\n- *Price skimming*: start high for eager early adopters, then lower the price over time.\n- *Penetration pricing*: start low to win market share quickly.\n- *Competition-based pricing*: price at, above or below rivals.\n- *Psychological pricing*: $19.99 instead of $20; *prestige pricing* uses high prices to signal quality.\n- *Bundle pricing* sells several items for one price; *price lining* sets a few price points such as $25, $40 and $60.\n- *Loss leader*: price a popular item very low to bring in shoppers who buy other items.\n- *Dynamic pricing*: prices change with demand, common for tickets and travel.\n\n**The math.**\n- Markup = Selling price − Cost. Markup % on cost = Markup ÷ Cost.\n- Markup % on retail = Markup ÷ Selling price. To find a price from a markup on retail: Price = Cost ÷ (1 − markup %).\n- Markdown % = Markdown amount ÷ Original price.\n- Break-even units = Fixed costs ÷ (Price − Variable cost per unit). The denominator is the *contribution margin* per unit.\n- Gross margin = Sales − Cost of goods sold.\n\nA hoodie that costs $24 and sells for $40 has a $16 markup: 66.7% of cost (16 ÷ 24) but 40% of retail (16 ÷ 40). Always check which base a question uses.\n\n**Legal and ethical limits.** *Price fixing* (competitors agreeing on prices) and *bait-and-switch* advertising are illegal. *Price discrimination* that harms competition among business buyers is restricted, and *predatory pricing* below cost to drive out rivals can violate antitrust law. Unit pricing (price per ounce) helps shoppers compare fairly.\n\n**Common mistake:** adding successive discounts. A 20% markdown followed by another 10% is a 28% total reduction (0.80 × 0.90 = 0.72 of the original price), not 30%.",
+    "examples": [
+      "A store pays $60 for a jacket and wants a 40% markup on retail: Price = $60 ÷ (1 − 0.40) = $60 ÷ 0.60 = $100.",
+      "A food truck has $6,000 in monthly fixed costs, sells tacos for $5 and spends $2 per taco on ingredients, so it breaks even at $6,000 ÷ $3 = 2,000 tacos a month.",
+      "A gaming console launches at a premium price for devoted fans and drops in price a year later to reach casual players: price skimming."
+    ],
+    "questions": [
+      {
+        "stem": "A retailer buys sunglasses for $30 and sells them for $48. What is the markup percentage based on cost?",
+        "choices": [
+          "37.5%",
+          "60%",
+          "18%",
+          "62.5%"
+        ],
+        "answer": 1,
+        "explanation": "Markup = $48 − $30 = $18, and $18 ÷ $30 = 60%. The 37.5% figure is the markup based on retail ($18 ÷ $48)."
+      },
+      {
+        "stem": "A school store sells custom water bottles for $15 each. Each bottle costs $9 to produce, and fixed costs for the design and equipment total $2,400. How many bottles must it sell to break even?",
+        "choices": [
+          "160",
+          "267",
+          "400",
+          "240"
+        ],
+        "answer": 2,
+        "explanation": "Contribution margin per bottle = $15 − $9 = $6. Break-even = $2,400 ÷ $6 = 400 bottles."
+      },
+      {
+        "stem": "A pair of boots originally priced at $80 is marked down to $60. What is the markdown percentage?",
+        "choices": [
+          "25%",
+          "33.3%",
+          "20%",
+          "75%"
+        ],
+        "answer": 0,
+        "explanation": "Markdown = $80 − $60 = $20, and $20 ÷ $80 (the original price) = 25%. Dividing by the new price gives the wrong 33.3%."
+      },
+      {
+        "stem": "A $200 jacket is marked down 25%, and at the end of the season the sale price is cut by another 20%. What is the final price?",
+        "choices": [
+          "$110",
+          "$130",
+          "$90",
+          "$120"
+        ],
+        "answer": 3,
+        "explanation": "$200 × 0.75 = $150, then $150 × 0.80 = $120. Adding the discounts to 45% would wrongly give $110."
+      },
+      {
+        "stem": "A buyer pays $36 for a dress and needs a 40% markup based on the retail price. What retail price should she set?",
+        "choices": [
+          "$50.40",
+          "$60.00",
+          "$90.00",
+          "$54.00"
+        ],
+        "answer": 1,
+        "explanation": "Cost must be 60% of retail, so Price = $36 ÷ 0.60 = $60. Check: markup $24 ÷ $60 = 40%. The $50.40 answer is a 40% markup on cost."
+      },
+      {
+        "stem": "A new streaming service charges a very low monthly price for its first year to sign up subscribers quickly before competitors can respond. Which pricing strategy is this?",
+        "choices": [
+          "Price skimming",
+          "Prestige pricing",
+          "Penetration pricing",
+          "Price lining"
+        ],
+        "answer": 2,
+        "explanation": "Penetration pricing sets a low introductory price to gain market share fast. Skimming does the opposite, starting high."
+      },
+      {
+        "stem": "When a theater raised ticket prices by 10%, the number of tickets sold fell by 25%. What does this indicate about demand for its tickets?",
+        "choices": [
+          "Demand is elastic",
+          "Demand is inelastic",
+          "Demand is unit elastic",
+          "Demand is perfectly inelastic"
+        ],
+        "answer": 0,
+        "explanation": "The percentage change in quantity (25%) is larger than the percentage change in price (10%), so demand is elastic. Total revenue also falls."
+      },
+      {
+        "stem": "An ad promotes a $299 laptop, but the store stocked almost none, and staff steer every shopper who asks about it toward a $699 model. What illegal practice is this?",
+        "choices": [
+          "Price lining",
+          "Loss-leader pricing",
+          "Price skimming",
+          "Bait and switch"
+        ],
+        "answer": 3,
+        "explanation": "Bait and switch advertises a product the seller doesn't intend to sell in order to push customers to a pricier item, which deceptive-advertising laws prohibit."
+      },
+      {
+        "stem": "A supermarket sells turkeys below its cost the week before Thanksgiving, expecting shoppers to buy side dishes and desserts at regular prices. Which pricing technique is this?",
+        "choices": [
+          "Bundle pricing",
+          "Loss leader",
+          "Odd pricing",
+          "Dynamic pricing"
+        ],
+        "answer": 1,
+        "explanation": "A loss leader is priced very low, even below cost, to draw shoppers who then buy other, profitable items."
+      },
+      {
+        "stem": "A sports store sells 500 helmets at $60 each. Each helmet cost the store $35. What is the total gross margin on the helmets?",
+        "choices": [
+          "$30,000",
+          "$17,500",
+          "$12,500",
+          "$25,000"
+        ],
+        "answer": 2,
+        "explanation": "Gross margin = sales − cost of goods sold = (500 × $60) − (500 × $35) = $30,000 − $17,500 = $12,500."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Markup on retail",
+        "definition": "Markup expressed as a percentage of the selling price: (selling price − cost) ÷ selling price."
+      },
+      {
+        "term": "Break-even point",
+        "definition": "The sales level at which total revenue equals total costs, so there is neither profit nor loss."
+      },
+      {
+        "term": "Contribution margin per unit",
+        "definition": "Selling price minus variable cost per unit; the amount each sale adds toward fixed costs and profit."
+      },
+      {
+        "term": "Elastic demand",
+        "definition": "Demand in which a price change causes a proportionally larger change in quantity demanded."
+      },
+      {
+        "term": "Loss leader",
+        "definition": "A popular item priced very low, sometimes below cost, to attract shoppers who buy other products."
+      },
+      {
+        "term": "Bait and switch",
+        "definition": "Illegal tactic of advertising a low-priced item with no real intent to sell it in order to push a pricier one."
+      }
+    ]
+  }
+]

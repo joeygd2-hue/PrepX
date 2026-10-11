@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Analyzing a case under time pressure",
+    "objective": "Identify the real problem, key facts and constraints in a business case quickly.",
+    "body": "In a case study event, you and usually a partner receive a business problem, a prep period to analyze it and then present your solution to a judge who plays a decision-maker at the company. Check the current guidelines for your event's prep time, presentation time and allowed materials. The analysis you do in the first minutes decides whether your solution solves the right problem.\n\n**Separate the problem from the symptoms.** Cases often open with symptoms: falling sales, poor reviews, high staff turnover. The *core problem* is the cause behind them, such as a product that no longer fits its customers or a schedule that burns out workers. Keep asking why it is happening until you reach something the business can act on. A solution aimed only at a symptom rarely satisfies the judge.\n\n**Pull out the key facts.** Mark numbers, deadlines, budgets, target customers and anything the decision-maker says they want. These facts become the limits of and the evidence for your recommendation. A budget of $5,000 rules out a plan that costs $50,000, no matter how creative it is.\n\n**Name the stakeholders.** List who is affected: customers, employees, owners, suppliers, the community. Strong solutions show you considered how each group will react.\n\n**Use a quick framework.** A fast *SWOT analysis* (internal strengths and weaknesses, external opportunities and threats) organizes your thinking and often reveals a strength you can build the solution on. Frameworks are tools: use one to think, not to fill time in the presentation.\n\n**Divide the work.** Partners work best when they read the case, agree on the core problem out loud, then split tasks, such as one person building the plan's steps while the other works out costs and the timeline. Regroup before prep ends to merge notes and agree who presents what.\n\n**Note the performance indicators.** Like role-plays, case events list indicators the judge scores. Mark where each one fits in your solution so none is left out.\n\nA common mistake is jumping to a favorite idea before agreeing on the problem. Two minutes spent defining the problem can save the whole presentation.",
+    "examples": [
+      "Symptom: a pet-supply store's sales fell 15 percent this year. Asking why reveals a new online competitor with free delivery, so the core problem is that the store offers no convenient way to buy without visiting.",
+      "Key facts noted from a case: budget $8,000, launch within 3 months, the owner wants to keep all current staff. Any plan over $8,000 or one that requires layoffs is ruled out."
+    ],
+    "questions": [
+      {
+        "stem": "A case states that a hotel's online ratings fell after it cut housekeeping staff to save money, and bookings are now down. What is the core problem?",
+        "choices": [
+          "Online ratings are too low",
+          "Service quality declined after the staffing cuts",
+          "Bookings have dropped this season",
+          "Competitors advertise more often"
+        ],
+        "answer": 1,
+        "explanation": "Low ratings and fewer bookings are symptoms; the cause the hotel can act on is the drop in service quality from understaffing. Fixing only the ratings would not solve it."
+      },
+      {
+        "stem": "A case gives a $10,000 budget. Your team's favorite idea would cost $25,000. What is the best approach?",
+        "choices": [
+          "Present it anyway, since bold ideas impress judges",
+          "Ask the judge for a bigger budget at the start",
+          "Adapt or replace the idea so it fits the budget",
+          "Ignore cost and focus on how creative the idea is"
+        ],
+        "answer": 2,
+        "explanation": "A stated budget is a constraint, and a plan that breaks it is not realistic for the business. Scaling the idea down or choosing another respects the case facts."
+      },
+      {
+        "stem": "In a SWOT analysis for a bakery, where does a large competitor opening a store across the street belong?",
+        "choices": [
+          "Strength",
+          "Weakness",
+          "Opportunity",
+          "Threat"
+        ],
+        "answer": 3,
+        "explanation": "A new competitor is an external factor that could hurt the bakery, so it is a threat. Strengths and weaknesses are internal to the business."
+      },
+      {
+        "stem": "Two partners begin the prep period for a case. Which plan uses their time best?",
+        "choices": [
+          "Agree on the core problem together, then split tasks and regroup",
+          "Each partner reads silently and writes a separate solution",
+          "One partner does all of the analysis while the other rests",
+          "Start designing visuals before reading the full case"
+        ],
+        "answer": 0,
+        "explanation": "Agreeing on the problem first keeps both partners solving the same issue, and splitting tasks then regrouping makes the most of limited time."
+      }
+    ],
+    "flashcards": [
+      { "term": "Core problem", "definition": "The underlying cause of a case's issues that the business can act on, as opposed to its symptoms." },
+      { "term": "Symptom", "definition": "A visible sign of a problem, such as falling sales, that points to a deeper cause." },
+      { "term": "Stakeholder", "definition": "Any person or group affected by a business decision, such as customers, employees or owners." },
+      { "term": "SWOT analysis", "definition": "A framework listing internal strengths and weaknesses and external opportunities and threats." },
+      { "term": "Constraint", "definition": "A limit stated or implied in a case, such as a budget, deadline or policy, that a solution must respect." }
+    ]
+  }
+]

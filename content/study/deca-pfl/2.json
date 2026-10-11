@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Budgeting, spending decisions and banking",
+    "objective": "Build a realistic budget, make value-based spending choices, and manage a checking account without costly fees.",
+    "body": "Every financial plan depends on a budget, and the Personal Financial Literacy exam tests budgeting from several angles: classifying expenses, applying guidelines, comparing prices and keeping a checking account in balance. In a role-play, a clear budget with specific numbers is often the strongest recommendation you can make.\n\n**Goals come first.** A budget works best when it serves *SMART goals*: specific, measurable, achievable, relevant and time-bound. 'Save more' is a wish; 'save $900 for a used bike by June by setting aside $150 a month' is a plan. Every spending choice also has an *opportunity cost*, the value of the next-best option you give up.\n\n**Building the budget.** List net (take-home) income, then expenses:\n- *Fixed expenses* stay the same each month, such as rent, a phone plan or an insurance premium.\n- *Variable expenses* change, such as groceries, gas and entertainment.\n- *Periodic expenses*, like an annual car registration, can be divided by 12 and saved for monthly.\n\nA popular starting guideline is the *50/30/20 rule*: about 50% of take-home pay for needs, 30% for wants and 20% for saving and extra debt repayment. *Pay yourself first* by moving savings out automatically on payday instead of saving whatever is left at the end of the month.\n\n**Smart spending.** Compare *unit prices* (price divided by quantity) rather than package prices. Separate needs from wants, wait a day before large impulse purchases, and read reviews and return policies. Comparison shopping for big items such as cars, phones and insurance often saves more than cutting small daily treats.\n\n**Banking basics.** A checking account handles everyday payments through a debit card, transfers and checks; a savings account earns interest on money set aside. Deposits at banks insured by the *FDIC*, or at credit unions insured by the *NCUA*, are protected up to $250,000 per depositor, per institution, per ownership category if the institution fails. Keep a running record of your balance and *reconcile* it with your statement each month, adjusting for checks and payments that haven't cleared and deposits that haven't posted yet. Overdraft and insufficient-funds fees are avoidable: track your balance, set low-balance alerts, and decline overdraft coverage so a purchase that exceeds your balance is refused rather than charged a fee.\n\nA common mistake is building a budget once and never checking it. Compare actual spending with the plan each month and adjust the categories that keep running over.",
+    "examples": [
+      "Tara's take-home pay is $2,000 a month. Under the 50/30/20 guideline she plans about $1,000 for needs, $600 for wants and $400 for savings and extra debt payments.",
+      "A 12-pack of water costs $4.20 ($0.35 a bottle) and a 24-pack costs $7.68 ($0.32 a bottle), so the larger pack is the better value as long as the water gets used.",
+      "Andre's register shows $410, but his bank statement shows $485. A $75 check he wrote has not cleared yet; after subtracting it from the statement balance, the two records agree."
+    ],
+    "questions": [
+      {
+        "stem": "Elena's monthly take-home pay is $2,400. Using the 50/30/20 guideline, how much should she plan to spend on wants?",
+        "choices": ["$480", "$1,200", "$720", "$600"],
+        "answer": 2,
+        "explanation": "Wants get about 30% of take-home pay: 0.30 x $2,400 = $720. $480 is the 20% savings share and $1,200 is the 50% needs share."
+      },
+      {
+        "stem": "Which of these is a variable expense for most households?",
+        "choices": ["Monthly apartment rent", "A fixed-rate car loan payment", "A 12-month phone plan at a set price", "Groceries"],
+        "answer": 3,
+        "explanation": "Grocery spending changes from month to month based on choices and prices. Rent, a fixed loan payment and a set-price phone plan stay the same each month."
+      },
+      {
+        "stem": "Noah has $300 and must choose between concert tickets and adding the money to his laptop fund. He buys the tickets. What is his opportunity cost?",
+        "choices": [
+          "The sales tax on the concert tickets",
+          "The $300 of progress toward the laptop that he gave up",
+          "The total price of a new laptop",
+          "The enjoyment he gets from the concert"
+        ],
+        "answer": 1,
+        "explanation": "Opportunity cost is the value of the next-best alternative given up, which here is the $300 that would have gone to the laptop fund. The full laptop price is not what he gave up."
+      },
+      {
+        "stem": "A 24-ounce box of cereal costs $4.80 and a 15-ounce box costs $3.15. Which statement is correct?",
+        "choices": [
+          "The 15-ounce box is the better value at $0.19 per ounce",
+          "Both boxes cost $0.21 per ounce",
+          "The 24-ounce box is the better value at $0.18 per ounce",
+          "The 24-ounce box is the better value at $0.20 per ounce"
+        ],
+        "answer": 3,
+        "explanation": "$4.80 / 24 = $0.20 per ounce and $3.15 / 15 = $0.21 per ounce, so the larger box costs less per ounce."
+      },
+      {
+        "stem": "Jamal's checking register starts at $640. He deposits $215, makes debit card purchases of $48.50 and $112.25, and writes a $300 check for rent. What is his new balance?",
+        "choices": ["$394.25", "$694.25", "$494.25", "$1,315.75"],
+        "answer": 0,
+        "explanation": "$640 + $215 = $855. Then $855 - $48.50 - $112.25 - $300 = $394.25. $694.25 forgets to subtract the rent check."
+      },
+      {
+        "stem": "Mei's bank statement shows a balance of $520. She has written a $75 check that hasn't cleared, and a $100 deposit she made yesterday isn't on the statement yet. What is her true balance after reconciling?",
+        "choices": ["$495", "$695", "$545", "$345"],
+        "answer": 2,
+        "explanation": "Start with the statement balance, subtract outstanding checks and add deposits in transit: $520 - $75 + $100 = $545."
+      },
+      {
+        "stem": "What does FDIC deposit insurance do for a customer of an insured bank?",
+        "choices": [
+          "Guarantees the interest rate on a savings account will never fall",
+          "Protects deposits, up to the legal limit, if the bank fails",
+          "Reimburses losses on stocks bought through the bank",
+          "Covers overdraft fees caused by the customer's own spending"
+        ],
+        "answer": 1,
+        "explanation": "FDIC insurance protects deposits up to $250,000 per depositor, per insured bank, per ownership category if the bank fails. It does not cover investment losses or guarantee rates."
+      },
+      {
+        "stem": "Which habit best applies the 'pay yourself first' principle?",
+        "choices": [
+          "Saving whatever money is left at the end of the month",
+          "Paying all bills early before buying anything else",
+          "Setting up an automatic transfer to savings on each payday",
+          "Treating yourself to a purchase after every paycheck"
+        ],
+        "answer": 2,
+        "explanation": "Paying yourself first means saving before spending, usually by automating a transfer on payday. Saving leftovers often means saving nothing."
+      },
+      {
+        "stem": "Chris often makes debit card purchases without checking his balance and has paid three overdraft fees this year. Which step would most directly prevent future fees?",
+        "choices": [
+          "Open a second checking account at a different bank",
+          "Pay for purchases with paper checks instead of the debit card",
+          "Ask the bank to raise his overdraft limit",
+          "Set low-balance alerts and decline overdraft coverage so purchases are refused instead"
+        ],
+        "answer": 3,
+        "explanation": "Alerts help him track his balance, and without overdraft coverage a purchase that exceeds the balance is declined rather than triggering a fee. A higher limit only allows bigger overdrafts."
+      },
+      {
+        "stem": "Which savings goal is written in SMART form?",
+        "choices": [
+          "Save as much as possible this year",
+          "Save $1,200 for a used laptop within 12 months by depositing $100 from each monthly paycheck",
+          "Stop wasting money on things I don't need",
+          "Have a healthy savings account someday"
+        ],
+        "answer": 1,
+        "explanation": "That goal is specific, measurable ($1,200), achievable ($100 a month), relevant (a laptop) and time-bound (12 months). The others give no amount or deadline."
+      }
+    ],
+    "flashcards": [
+      { "term": "Budget", "definition": "A plan that matches expected income with spending and saving for a set period, usually a month." },
+      { "term": "Fixed expense", "definition": "A cost that stays the same each period, such as rent or a set insurance premium." },
+      { "term": "Variable expense", "definition": "A cost that changes from period to period, such as groceries, gas or entertainment." },
+      { "term": "Opportunity cost", "definition": "The value of the next-best alternative you give up when you make a choice." },
+      { "term": "Unit price", "definition": "The cost per unit of measure, found by dividing the price by the quantity." },
+      { "term": "Account reconciliation", "definition": "Comparing your own account record with the bank statement and adjusting for items that have not cleared yet." }
+    ]
+  }
+]

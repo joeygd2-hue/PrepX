@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Career exploration and planning",
+    "objective": "Match your interests, skills and values to career pathways and build a realistic plan with education, experience and networking steps.",
+    "body": "In Career Portfolio and Job Interview, judges look for proof that you know where you are heading and why. A clear career plan, built on honest self-assessment and real labor-market research, makes your portfolio and your interview answers specific instead of generic.\n\n**Self-assessment.** Start with three questions:\n- *Interests*: What activities do you enjoy? Interest inventories group people by themes such as working with data, people, things or ideas.\n- *Skills*: What can you do well now? *Hard skills* are teachable, measurable abilities, such as building spreadsheets, coding or speaking a second language. *Soft skills* are interpersonal and personal strengths, such as teamwork, communication and dependability. *Transferable skills* carry from one setting to another, such as leading a meeting or managing a budget.\n- *Values*: What matters most to you in work, such as helping others, income, security, creativity or flexibility?\n\n**Research.** *Career clusters* group related occupations, such as Finance or Business Management and Administration, so you can see many paths at once. Use labor-market information, such as the U.S. Bureau of Labor Statistics' *Occupational Outlook Handbook*, to check an occupation's duties, typical education, median pay and projected job growth. An *informational interview* is a short conversation with someone in a field you are exploring; you ask about their work and path, not for a job.\n\n**Education and experience paths.** Options include industry certifications, registered apprenticeships, associate's and bachelor's degrees, military training and on-the-job training. Build experience through part-time jobs, internships, *job shadowing* (following a professional through a workday), volunteering and leadership roles in student organizations.\n\n**Goals and networking.** Write SMART career goals, such as *Complete an introductory accounting course with a B or higher by May*. Break long-range goals into short-range steps you can start this semester. *Networking* means building professional relationships before you need them, with teachers, employers, mentors, alumni and contacts you meet at competitions. Keep your online presence professional, because employers and admissions staff often search applicants' names.\n\n**Common mistake:** choosing a career on salary or a single interest alone. A convincing plan shows that your interests, skills, values and realistic job prospects all point in the same direction.",
+    "examples": [
+      "A student who enjoys data, values stability and earns an A in accounting checks the Occupational Outlook Handbook, sees steady demand for accountants, and plans a bachelor's degree plus a summer internship at a local firm.",
+      "Short-range step: job shadow a hospital billing specialist this spring. Mid-range step: earn a medical coding certificate after graduation. Long-range goal: become a health information manager.",
+      "A treasurer who managed a $1,200 club budget, ran meetings and resolved a scheduling dispute can show transferable skills in budgeting, leadership and conflict resolution."
+    ],
+    "questions": [
+      {
+        "stem": "Which item on a student's skills list is a soft skill?",
+        "choices": ["Creating pivot tables in a spreadsheet", "Calming upset customers and resolving conflicts", "Typing 60 words per minute", "Writing basic Python code"],
+        "answer": 1,
+        "explanation": "Handling people and conflict is an interpersonal soft skill. The other choices are measurable, teachable hard skills."
+      },
+      {
+        "stem": "A student emails a local architect to ask for 20 minutes to learn about her daily work and the training she needed. What is this request?",
+        "choices": ["A job interview", "An informational interview", "An internship", "A job shadowing day"],
+        "answer": 1,
+        "explanation": "An informational interview is a short conversation to learn about a field, not to ask for a job. Job shadowing means following the professional through a workday."
+      },
+      {
+        "stem": "Which source would give the most reliable data on an occupation's typical education, median pay and projected job growth?",
+        "choices": ["A popular video about dream jobs", "A company's recruiting advertisement", "The Occupational Outlook Handbook from the Bureau of Labor Statistics", "An anonymous post on an online forum"],
+        "answer": 2,
+        "explanation": "The Occupational Outlook Handbook is a government source built on labor-market data. Ads and social posts may be accurate but are not systematic or neutral."
+      },
+      {
+        "stem": "Which career goal is written in SMART form?",
+        "choices": ["Earn CPR certification from an approved provider by June 15", "Get better at helping people", "Become successful in healthcare someday", "Learn more about lots of different careers"],
+        "answer": 0,
+        "explanation": "The first goal is specific, measurable (certified or not), attainable, relevant to healthcare and has a deadline. The others lack a measure or a date."
+      },
+      {
+        "stem": "A student who values flexibility and creativity is considering a job with rigid hours and repetitive tasks only because it pays well. What does sound career-planning advice suggest?",
+        "choices": ["Take the job, because pay alone predicts job satisfaction", "Ignore values, since they change too often to plan around", "Weigh the pay against personal values, since a poor values fit often lowers satisfaction", "Decide based only on which job has the shorter commute"],
+        "answer": 2,
+        "explanation": "Career satisfaction depends on how well work fits interests, skills and values, not pay alone. A strong plan weighs all of them together."
+      },
+      {
+        "stem": "Which experience best demonstrates a transferable skill for a future project-management role?",
+        "choices": ["Reading a book about famous project managers", "Planning a club fundraiser's schedule, task list and $800 budget", "Attending a project-management webinar without taking notes", "Listing \"detail-oriented\" on a résumé with no example"],
+        "answer": 1,
+        "explanation": "Actually scheduling tasks and managing a budget shows planning and organizing skills that carry over to project work. The other choices show interest, not demonstrated skill."
+      },
+      {
+        "stem": "Which action is the best example of professional networking?",
+        "choices": ["Connecting with a guest speaker after a career fair and sending a thank-you message", "Applying to 50 online postings in one day without researching any", "Asking a stranger for a job offer in a first message", "Posting complaints about a former employer online"],
+        "answer": 0,
+        "explanation": "Networking builds genuine, courteous relationships over time. Mass applications and cold job demands do not build connections."
+      },
+      {
+        "stem": "A student wants to become an electrician, earn wages while learning and combine on-the-job training with classroom instruction. Which path fits best?",
+        "choices": ["A four-year liberal arts degree", "Unpaid job shadowing", "A registered apprenticeship", "An online interest quiz"],
+        "answer": 2,
+        "explanation": "Registered apprenticeships pay apprentices while combining supervised work with related classroom instruction. Job shadowing is a brief, unpaid observation."
+      }
+    ],
+    "flashcards": [
+      { "term": "Soft skills", "definition": "Interpersonal and personal strengths, such as communication, teamwork and dependability, used in any job." },
+      { "term": "Transferable skills", "definition": "Abilities developed in one setting, such as budgeting or leading meetings, that apply in other jobs." },
+      { "term": "Informational interview", "definition": "A short conversation with a professional to learn about a career field, not to request a job." },
+      { "term": "Job shadowing", "definition": "Following a professional through part or all of a workday to observe what the job involves." },
+      { "term": "Career cluster", "definition": "A group of related occupations and industries that share common knowledge and skills." }
+    ]
+  }
+]

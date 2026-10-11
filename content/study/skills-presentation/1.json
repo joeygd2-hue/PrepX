@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Planning and structuring a presentation",
+    "objective": "Organize a presentation around one clear message with a strong opening, body and close.",
+    "body": "Prepared presentations appear in a wide range of events, from business plans and public speaking to health promotion and technology projects. Rubrics differ, but nearly all reward the same core: a clear message, logical organization and confident delivery. Organization is the part you fully control before you walk into the room.\n\n**Know your audience and purpose.** Ask who is listening and what you want them to think, feel or do afterward. Judges often play a specific audience, such as investors, a school board or community members, so match your vocabulary and examples to them.\n\n**Write one central message.** Before building slides or note cards, write your main point in a single sentence, such as 'Our app cuts lunch-line waits in half.' Every section should support it. If a fact does not help that message, cut it.\n\n**Use a simple structure.**\n- *Opening:* grab attention with a striking statistic, a short story or a question, then state your central message and preview your main points.\n- *Body:* usually three main points, each backed by evidence such as data, examples or a demonstration. Three points are easy for listeners to remember.\n- *Closing:* summarize the main points, restate the message and end with a clear call to action or a memorable line.\n\n**Signpost.** Spoken presentations need more guideposts than writing because listeners cannot flip back a page. Phrases like 'My second point...' and 'Now that we've seen the problem, let's look at the solution' keep the audience oriented.\n\n**Match the rubric and the clock.** Read the event's rating sheet and make sure every scored item appears somewhere in your outline. Plan content that fits comfortably inside the time limit, since many events deduct points or stop you when time expires.\n\n**Credit your evidence.** Briefly naming a source, such as a federal health survey or your own customer poll, makes claims more credible and is often part of the score.\n\nA common mistake is opening with a long self-introduction or background before telling the audience why they should care. Hook them first, then fill in the context.",
+    "examples": [
+      "Central message for a health talk: Teens who sleep eight or more hours think faster and feel better. Main points: what sleep does, why teens fall short and three habits that help.",
+      "Opening hook for a business plan: Every school day, 400 students wait an average of 12 minutes for lunch. That is 400 × 12 = 4,800 minutes, or 80 hours of lost time each day."
+    ],
+    "questions": [
+      {
+        "stem": "Which of these is the strongest central message for a presentation?",
+        "choices": [
+          "Our school can cut cafeteria waste 30 percent with three changes",
+          "Recycling and the environment",
+          "Some facts and ideas about how schools handle their waste",
+          "A look at the history of waste around the world"
+        ],
+        "answer": 0,
+        "explanation": "A strong central message is one specific, arguable sentence the whole talk supports. The other choices are topics, not messages."
+      },
+      {
+        "stem": "Which opening is most likely to grab a judge's attention?",
+        "choices": [
+          "Hi, my name is Alex, and today I am going to talk to you about my topic.",
+          "Before I begin, I would like to thank everyone for being here today.",
+          "One in four lunches at our school ends up in the trash; today I will show how to change that.",
+          "My presentation has three parts, and the first part is some background."
+        ],
+        "answer": 2,
+        "explanation": "A surprising fact tied to the central message creates interest immediately. The other openings delay the point and give listeners no reason to care."
+      },
+      {
+        "stem": "Why do signposts matter more in a spoken presentation than in a written report?",
+        "choices": [
+          "They make a presentation longer so it meets a minimum time",
+          "Listeners cannot reread earlier points, so they need cues to stay oriented",
+          "Judges simply count the number of transitions on the rubric",
+          "Signposts remove the need to support points with evidence"
+        ],
+        "answer": 1,
+        "explanation": "A reader can flip back, but a listener hears each point once, so verbal cues show where the talk is and where it is going."
+      },
+      {
+        "stem": "While planning, you find an interesting fact that does not support your central message. What should you do with it?",
+        "choices": [
+          "Put it in the opening to grab attention anyway",
+          "Place it in the conclusion as a final thought",
+          "Show it on a slide without mentioning it",
+          "Cut it or keep it in reserve for a possible question"
+        ],
+        "answer": 3,
+        "explanation": "Everything in the talk should serve the central message. An off-message fact distracts listeners and uses time, though it may help in a question period."
+      }
+    ],
+    "flashcards": [
+      { "term": "Central message", "definition": "The single main point a presentation is built to prove or persuade, stated in one sentence." },
+      { "term": "Hook", "definition": "An attention-getting opening, such as a surprising statistic, a short story or a question." },
+      { "term": "Call to action", "definition": "A closing request that tells the audience exactly what to think, do or decide next." },
+      { "term": "Audience analysis", "definition": "Considering who is listening, what they know and what they care about to shape content and language." },
+      { "term": "Signpost", "definition": "A phrase that tells listeners where the talk is going, such as naming the next main point." }
+    ]
+  }
+]

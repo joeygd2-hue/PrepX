@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Banking, credit and risk management",
+    "objective": "Explain how financial institutions, credit decisions and insurance work, and choose the right strategy for managing a business risk.",
+    "body": "Business Finance and Financial Services case studies often involve a client who needs a loan, a business facing a risk, or a customer choosing where to bank. Exams test the vocabulary of financial institutions, credit and insurance, and they reward ethical choices.\n\n**Financial institutions.** *Commercial banks* are for-profit businesses owned by shareholders. *Credit unions* are not-for-profit cooperatives owned by their members, so they often return earnings through lower loan rates and fees. The Federal Deposit Insurance Corporation (FDIC) insures deposits at member banks up to a legal limit, and the National Credit Union Administration (NCUA) provides similar coverage at federally insured credit unions. Neither insures stocks, bonds or mutual funds, even when they are sold at a bank branch.\n\n**The Federal Reserve.** The Fed conducts monetary policy. To fight inflation it raises its target for short-term interest rates, which makes borrowing more expensive and slows spending. To support a weak economy it does the opposite. Monetary policy is different from fiscal policy, which is government taxing and spending set by Congress and the President.\n\n**Credit.** Lenders weigh the *five Cs of credit*: character (track record of repaying), capacity (income available to make payments), capital (the borrower's own money invested), collateral (assets pledged to secure the loan) and conditions (the loan's purpose and the economy). A *secured loan* is backed by collateral the lender can claim; an *unsecured loan* relies on creditworthiness alone and usually carries a higher rate. Payment history is the biggest factor in a typical credit score.\n\n**Risk management.** Businesses handle *pure risks*, which bring only a chance of loss or no loss, with four strategies:\n1. *Avoid* the risky activity entirely.\n2. *Reduce* the chance or size of a loss, such as by installing sprinklers.\n3. *Transfer* the loss to someone else through insurance or contracts.\n4. *Retain* small or predictable losses and pay them yourself.\n\n*Speculative risks*, such as launching a product or buying stock, carry a chance of gain and generally cannot be insured. The *premium* is the price of insurance coverage, and the *deductible* is the amount the insured pays before the insurer pays.\n\n**Ethics and compliance.** Financial employees protect customer privacy, follow know-your-customer and anti-money-laundering rules, and, when acting as fiduciaries, put the client's interests first.\n\nA common mistake is confusing reducing a risk with transferring it. Installing a security system reduces risk; buying insurance transfers it.",
+    "examples": [
+      "A café installs a fire-suppression system (reduce), buys property insurance (transfer) and simply replaces the occasional broken plate itself (retain).",
+      "A shop's policy has a $1,000 deductible. After $6,500 of covered water damage, the insurer pays $6,500 − $1,000 = $5,500.",
+      "A loan applicant shows steady income that easily covers the payment (capacity) and pledges a delivery van as security (collateral), so the bank approves a secured loan at a lower rate."
+    ],
+    "questions": [
+      {
+        "stem": "A business's insurance policy has a $500 deductible. A storm causes $3,200 of covered damage. How much will the insurer pay?",
+        "choices": ["$3,200", "$2,700", "$3,700", "$500"],
+        "answer": 1,
+        "explanation": "The insured pays the deductible first, so the insurer pays $3,200 − $500 = $2,700."
+      },
+      {
+        "stem": "A delivery company installs vehicle tracking and trains drivers in defensive driving to lower its accident rate. Which risk management strategy is this?",
+        "choices": ["Risk transfer", "Risk avoidance", "Risk reduction", "Risk retention"],
+        "answer": 2,
+        "explanation": "Taking steps to lower the chance or size of a loss is risk reduction. Buying insurance would be transfer, and stopping deliveries altogether would be avoidance."
+      },
+      {
+        "stem": "Which of these risks could a business most likely insure against?",
+        "choices": ["A new product failing to attract buyers", "A fire destroying its warehouse", "A competitor cutting its prices", "Losing money on a stock investment"],
+        "answer": 1,
+        "explanation": "Insurers cover pure risks, which offer only a chance of loss or no loss, such as fire. The other options are business or speculative risks that insurers generally will not cover."
+      },
+      {
+        "stem": "A loan officer reviews an applicant's monthly income and existing debt payments to judge whether the applicant can afford a new loan payment. Which of the five Cs of credit is being evaluated?",
+        "choices": ["Character", "Capacity", "Collateral", "Capital"],
+        "answer": 1,
+        "explanation": "Capacity is the borrower's ability to repay from income. Character is repayment history, and collateral is the assets pledged."
+      },
+      {
+        "stem": "Which of the following is a secured loan?",
+        "choices": ["A credit card with a $2,000 limit", "An auto loan that lets the lender repossess the car if payments stop", "A personal loan approved on the borrower's credit score alone", "A line of credit based only on the borrower's income"],
+        "answer": 1,
+        "explanation": "A secured loan is backed by collateral, here the car. The other options rely only on creditworthiness, so they are unsecured."
+      },
+      {
+        "stem": "What most distinguishes a credit union from a commercial bank?",
+        "choices": ["A credit union cannot offer loans to its customers", "A credit union is a not-for-profit cooperative owned by its members", "A credit union's deposits can never be federally insured", "A credit union is owned by outside shareholders seeking profit"],
+        "answer": 1,
+        "explanation": "Credit unions are member-owned cooperatives that return earnings through better rates and lower fees. Deposits at federally insured credit unions are covered by the NCUA."
+      },
+      {
+        "stem": "Inflation is running well above the Federal Reserve's goal. Which action is the Fed most likely to take?",
+        "choices": ["Raise its target for short-term interest rates", "Buy large amounts of government securities", "Lower the interest rate it charges banks", "Increase federal spending on highways"],
+        "answer": 0,
+        "explanation": "Higher interest rates make borrowing more expensive and slow spending, which eases inflation. Buying securities and cutting rates would stimulate the economy, and highway spending is fiscal policy set by Congress."
+      },
+      {
+        "stem": "A customer asks what FDIC insurance covers at her bank. Which answer is accurate?",
+        "choices": ["Checking and savings deposits at an insured bank, up to the legal limit", "Stocks purchased through the bank's brokerage affiliate", "Mutual funds sold at the bank's branch", "Valuables stored in the bank's safe-deposit boxes"],
+        "answer": 0,
+        "explanation": "FDIC insurance protects deposit accounts up to the legal limit. Investments sold at a bank and the contents of safe-deposit boxes are not insured deposits."
+      },
+      {
+        "stem": "Which factor generally carries the most weight in a typical consumer credit score?",
+        "choices": ["The borrower's annual income", "History of paying bills on time", "Number of bank accounts the borrower holds", "The borrower's age"],
+        "answer": 1,
+        "explanation": "Payment history is the largest factor in common credit scoring models. Income and age are not part of the score itself."
+      },
+      {
+        "stem": "A bank teller notices a customer making frequent cash deposits that are each just below the amount that triggers a federal currency report. What should the teller do?",
+        "choices": ["Suggest the customer combine the deposits into one larger deposit", "Ignore the pattern because each deposit is legal on its own", "Report the pattern to the bank's compliance officer under its anti-money-laundering procedures", "Tell the customer the bank is watching the account closely"],
+        "answer": 2,
+        "explanation": "Splitting deposits to avoid reporting, called structuring, is a red flag that must be escalated under anti-money-laundering rules. Warning the customer could tip off possible criminal activity."
+      }
+    ],
+    "flashcards": [
+      { "term": "Credit union", "definition": "A not-for-profit financial cooperative owned by its members that offers deposit accounts and loans." },
+      { "term": "FDIC", "definition": "Federal Deposit Insurance Corporation; the U.S. agency that insures deposits at member banks up to a legal limit." },
+      { "term": "Five Cs of credit", "definition": "Character, capacity, capital, collateral and conditions; the factors lenders weigh when approving credit." },
+      { "term": "Deductible", "definition": "The amount the insured must pay toward a covered loss before the insurance company pays the rest." },
+      { "term": "Risk transfer", "definition": "Shifting the financial burden of a possible loss to another party, usually through insurance or a contract." },
+      { "term": "Pure risk", "definition": "A risk with only a chance of loss or no loss, such as fire or theft; the type of risk insurance covers." }
+    ]
+  }
+]

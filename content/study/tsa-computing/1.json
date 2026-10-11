@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Programming fundamentals and algorithms",
+    "objective": "Trace and write code using variables, control flow, functions and core data structures, compare algorithms with Big-O notation, and debug systematically.",
+    "body": "Coding and Software Development competitors are judged on whether their programs work and whether they can explain them. Semifinal interviews often ask you to trace your own code, justify a data structure or predict how a program scales. These fundamentals apply in every language.\n\n**Variables, types and operators.** Programs store values in variables of types such as integer, floating-point, string and Boolean. Know integer division and the *modulus* operator: in Python, 17 // 5 is 3 and 17 % 5 is 2, the remainder. Modulus is the standard way to test for even numbers (n % 2 == 0) or to wrap around the end of a list.\n\n**Control flow.** *Selection* (if and else) chooses a path; *iteration* (for and while loops) repeats. Watch for *off-by-one errors*, such as a loop that runs from index 0 through n when a list of n items only has indexes 0 through n − 1, and *infinite loops*, whose condition never becomes false.\n\n**Functions and decomposition.** Break a problem into small functions with clear inputs (parameters) and outputs (return values). *Recursion* is a function calling itself; it needs a *base case* that stops the calls, or the program overflows the call stack.\n\n**Data structures.** An *array* or list gives fast access by index. A *dictionary* (hash map) looks up values by key in about constant time on average. A *stack* is last-in, first-out, like an undo history; a *queue* is first-in, first-out, like a line of print jobs.\n\n**Algorithms and efficiency.** *Big-O notation* describes how work grows as the input size n grows.\n- *Linear search* checks items one by one: O(n).\n- *Binary search* repeatedly halves a sorted list: O(log n). It finds any item among 1,024 sorted items in at most 11 comparisons.\n- Simple sorts such as bubble sort and insertion sort take O(n²) time in the worst case; merge sort takes O(n log n).\n\n**Debugging.** Reproduce the bug, isolate it with print statements or a debugger's breakpoints, change one thing at a time and retest. Know the three error types: *syntax errors* stop the code from running at all, *runtime errors* crash it during execution (such as dividing by zero), and *logic errors* let it run but produce wrong results.\n\nA common mistake is writing clever but unreadable code. Clear names, comments that explain why, and consistent formatting earn points in interviews and make your own debugging faster.",
+    "examples": [
+      "Binary search for 42 in a sorted list of 1,000 numbers checks the middle item, discards the half that cannot contain 42, and repeats. At most 10 comparisons are needed, because 2^10 = 1,024 is at least 1,000.",
+      "A loop meant to total a 5-item list runs i from 0 through 5 and crashes on the sixth pass, because index 5 does not exist. Stopping while i is less than 5 fixes the off-by-one error.",
+      "A word-count program stores each word as a dictionary key and its count as the value, so updating a count takes about the same time whether the text has 100 words or 100,000."
+    ],
+    "questions": [
+      {
+        "stem": "In a language where % is the remainder operator, what value does 47 % 6 produce?",
+        "choices": ["7", "5", "1", "7.83"],
+        "answer": 1,
+        "explanation": "6 goes into 47 seven times (6 x 7 = 42) with 47 − 42 = 5 left over. 7 is the integer quotient, not the remainder."
+      },
+      {
+        "stem": "What does this pseudocode print? total = 0; for i from 1 to 4 inclusive: total = total + i * 2; print(total)",
+        "choices": ["10", "12", "20", "8"],
+        "answer": 2,
+        "explanation": "The loop adds 2, 4, 6 and 8, and 2 + 4 + 6 + 8 = 20. Stopping one pass early at i = 3 would give the off-by-one answer of 12."
+      },
+      {
+        "stem": "A program must look up student records by ID thousands of times in a list of 50,000 IDs that is already sorted. Which search approach scales best?",
+        "choices": ["Linear search, O(n)", "Binary search, O(log n)", "Bubble sort before every lookup, O(n²)", "Checking random positions until the ID is found"],
+        "answer": 1,
+        "explanation": "Binary search halves the remaining range each step, needing at most 16 comparisons for 50,000 sorted items. Linear search could need 50,000."
+      },
+      {
+        "stem": "A drawing app's undo button should reverse the most recent action first, then the one before it. Which data structure fits best?",
+        "choices": ["Queue", "Stack", "Sorted array", "Dictionary keyed by color"],
+        "answer": 1,
+        "explanation": "A stack is last-in, first-out, so the most recent action is on top and is undone first. A queue would undo the oldest action first."
+      },
+      {
+        "stem": "A recursive factorial function multiplies n by factorial(n − 1) but has no base case. What happens when it runs?",
+        "choices": ["It returns 0 immediately", "It keeps calling itself until the call stack overflows", "It returns the correct answer more slowly", "The compiler automatically adds a base case"],
+        "answer": 1,
+        "explanation": "Without a base case such as returning 1 when n is 1 or less, nothing stops the recursion, so calls pile up until the program runs out of stack space."
+      },
+      {
+        "stem": "A program that should average three test scores runs without crashing, but for scores of 80, 90 and 80 it prints 250. What type of error is this?",
+        "choices": ["Syntax error", "Runtime error", "Logic error", "Compilation error"],
+        "answer": 2,
+        "explanation": "80 + 90 + 80 = 250, so the program forgot to divide by 3. It runs but gives a wrong result, which is a logic error."
+      },
+      {
+        "stem": "An algorithm compares every item in a list with every other item. If the list size doubles, about how much longer will it take?",
+        "choices": ["About the same time", "About twice as long", "About four times as long", "About eight times as long"],
+        "answer": 2,
+        "explanation": "Comparing all pairs is O(n²). Doubling n multiplies n² by 2² = 4."
+      },
+      {
+        "stem": "A list has 8 elements with indexes 0 through 7. Which loop visits every element exactly once?",
+        "choices": ["Start i at 1 and continue while i is at most 8", "Start i at 0 and continue while i is at most 8", "Start i at 0 and continue while i is less than 8", "Start i at 1 and continue while i is less than 8"],
+        "answer": 2,
+        "explanation": "Starting at 0 and stopping before 8 visits indexes 0 through 7. Running while i is at most 8 tries the nonexistent index 8, and starting at 1 skips index 0."
+      }
+    ],
+    "flashcards": [
+      { "term": "Big-O notation", "definition": "A way to describe how an algorithm's running time or memory grows as the input size grows, such as O(n) or O(log n)." },
+      { "term": "Binary search", "definition": "An O(log n) search that repeatedly checks the middle of a sorted list and discards the half that cannot hold the target." },
+      { "term": "Stack", "definition": "A last-in, first-out data structure where the most recently added item is removed first, as in an undo history." },
+      { "term": "Base case", "definition": "The condition in a recursive function that returns a result directly instead of calling the function again." },
+      { "term": "Logic error", "definition": "A bug that lets a program run without crashing but produces incorrect results." }
+    ]
+  }
+]

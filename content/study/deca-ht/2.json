@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Guest service and customer relations",
+    "objective": "Use the guest cycle, service recovery steps and inclusive service practices to build guest satisfaction and loyalty.",
+    "body": "In every hospitality role-play the judge is effectively a guest, and exams test the service principles behind great experiences. Strong service is not luck; it comes from understanding expectations, owning problems and building loyalty.\n\n**The guest cycle.** Hotels map the guest experience in four stages: *pre-arrival* (booking and confirmation), *arrival* (registration and rooming), *occupancy* (the stay itself) and *departure* (check-out and follow-up). Each contact point is a *moment of truth*, a chance to create or damage an impression. Restaurants, attractions and airlines have similar journeys.\n\n**Meeting and exceeding expectations.** Guests judge service by comparing what they receive with what they expected. Clear promises, consistent standards and personal touches close the gap, such as greeting a returning guest by name or remembering a pillow preference stored in the guest history. Over-promising widens it.\n\n**Handling complaints and service recovery.** An effective recovery usually follows these steps:\n1. Listen fully without interrupting or getting defensive.\n2. Empathize and apologize sincerely for the experience.\n3. Resolve the problem quickly with a fair solution.\n4. Thank the guest and follow up to confirm the fix worked.\n\n*Employee empowerment*, giving front-line staff authority to solve problems within set limits, makes fast recovery possible. Guests whose problems are handled well sometimes become more loyal than guests who never had a problem, an effect called the *service recovery paradox*.\n\n**Serving every guest.** The Americans with Disabilities Act requires accessible facilities and allows guests to bring trained service animals even where pets are banned; staff may ask only whether the animal is required because of a disability and what task it has been trained to perform. Cultural awareness, clear communication without slang, and key information in guests' main languages help international visitors feel welcome.\n\n**Loyalty and reputation.** Keeping a guest costs less than finding a new one. *Customer lifetime value* estimates the total revenue a loyal guest brings over time. Loyalty programs reward repeat business, and professional, specific responses to online reviews show future guests that management listens.\n\nA common mistake is arguing about who caused the problem. Guests care far more about how quickly and sincerely it is fixed.",
+    "examples": [
+      "A guest finds her room uncleaned at 4 p.m. The agent listens, apologizes, sends housekeeping right away, offers a drink voucher for the lounge while she waits and calls 30 minutes later to confirm the room is ready.",
+      "A manager replies to a two-star review: thanks the guest by name, acknowledges the slow room service, explains that a second runner now works the dinner rush and invites the guest to reach out directly."
+    ],
+    "questions": [
+      {
+        "stem": "A guest walks up to the front desk visibly upset about noise from the room next door. What should the agent do first?",
+        "choices": ["Point out that the quiet-hours policy is posted in every room", "Listen to the guest's full concern without interrupting", "Offer a full refund before hearing the details", "Call the manager over before the guest finishes speaking"],
+        "answer": 1,
+        "explanation": "Listening fully shows respect, calms the guest and gives the agent the facts needed to choose a fair solution. Quoting policy first sounds defensive."
+      },
+      {
+        "stem": "A restaurant authorizes servers to take up to $25 off a check to resolve a complaint without asking a manager. What is this an example of?",
+        "choices": ["Upselling", "Employee empowerment", "Centralized decision-making", "Cross-training"],
+        "answer": 1,
+        "explanation": "Empowerment gives front-line staff authority, within set limits, to solve guest problems on the spot. Centralized decision-making would require a manager's approval."
+      },
+      {
+        "stem": "A week before a guest's stay, the hotel emails a confirmation with directions and offers to arrange airport pickup. Which stage of the guest cycle is this?",
+        "choices": ["Pre-arrival", "Arrival", "Occupancy", "Departure"],
+        "answer": 0,
+        "explanation": "Pre-arrival covers everything from booking until the guest reaches the property, including confirmations and pre-arranged services."
+      },
+      {
+        "stem": "Which term describes any point of contact at which a guest forms an impression of a hospitality business?",
+        "choices": ["Moment of truth", "Service blueprint", "Value proposition", "Guest folio"],
+        "answer": 0,
+        "explanation": "A moment of truth is any interaction, from a phone greeting to a clean lobby, that shapes the guest's opinion. A guest folio is the record of charges on an account."
+      },
+      {
+        "stem": "A guest whose lost reservation was fixed quickly and generously later rates the hotel higher than guests who had no problem at all. Which concept does this illustrate?",
+        "choices": ["Price elasticity", "Service recovery paradox", "Cognitive dissonance", "Law of diminishing returns"],
+        "answer": 1,
+        "explanation": "The service recovery paradox describes customers becoming more loyal after an excellent recovery than they were before the problem occurred."
+      },
+      {
+        "stem": "A guest arrives with a dog trained to alert her before seizures, and the hotel has a no-pets policy. What should the front desk do?",
+        "choices": ["Require proof of service-animal certification before check-in", "Charge the hotel's standard pet cleaning fee", "Welcome the dog, since trained service animals must be allowed", "Assign the guest only to a designated pet-friendly floor"],
+        "answer": 2,
+        "explanation": "Under the ADA, businesses must admit trained service animals despite no-pets policies. They cannot demand certification, charge pet fees or limit the guest to pet areas."
+      },
+      {
+        "stem": "A guest posts an online review complaining about slow breakfast service. What is the best response from the hotel's management?",
+        "choices": ["Ignore it so newer reviews push it down the page", "Reply that the guest came during the busiest hour of the day", "Thank the guest, address the specific issue and explain what is being improved", "Ask employees to post positive reviews to balance it out"],
+        "answer": 2,
+        "explanation": "A prompt, specific and professional reply shows future guests that management listens. Blaming the guest or posting fake reviews damages trust."
+      },
+      {
+        "stem": "A returning guest finds her preferred feather-free pillows already in the room when she arrives. What most likely made this possible?",
+        "choices": ["The guest history stored in the hotel's customer database", "The previous night's audit report", "The hotel's rack-rate pricing policy", "Housekeeping's linen par levels"],
+        "answer": 0,
+        "explanation": "Guest history records preferences from earlier stays so staff can personalize future visits. The night audit reconciles charges and does not track preferences."
+      },
+      {
+        "stem": "A loyal guest spends an average of $400 per stay and stays three times each year. If the guest stays loyal for five years, what is the guest's lifetime revenue value?",
+        "choices": ["$1,200", "$2,000", "$6,000", "$8,000"],
+        "answer": 2,
+        "explanation": "Lifetime value = $400 per stay × 3 stays per year × 5 years = $6,000. $1,200 is only one year of revenue."
+      },
+      {
+        "stem": "A tour company serves many international visitors. Which action would most improve their comfort and understanding?",
+        "choices": ["Use local slang and idioms to sound friendly", "Train guides on cultural norms and offer key information in visitors' main languages", "Provide all printed materials in one language only", "Assume all visitors from one country share the same preferences"],
+        "answer": 1,
+        "explanation": "Cultural training and translated essentials make information clear and show respect. Slang confuses non-native speakers, and stereotypes lead to poor service."
+      }
+    ],
+    "flashcards": [
+      { "term": "Guest cycle", "definition": "The four stages of a guest's experience: pre-arrival, arrival, occupancy and departure." },
+      { "term": "Moment of truth", "definition": "Any point of contact where a guest forms an impression of the business." },
+      { "term": "Service recovery", "definition": "The actions a business takes to fix a service failure and restore the guest's satisfaction." },
+      { "term": "Employee empowerment", "definition": "Giving front-line staff authority, within set limits, to solve guest problems without a manager's approval." },
+      { "term": "Customer lifetime value", "definition": "The total revenue a business expects to earn from one loyal customer over the whole relationship." },
+      { "term": "Service animal", "definition": "A dog individually trained to perform tasks for a person with a disability; the ADA requires businesses to admit it." }
+    ]
+  }
+]

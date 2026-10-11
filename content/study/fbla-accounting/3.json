@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Cash control, payroll and merchandising",
+    "objective": "Reconcile a bank statement, compute payroll and payroll taxes, and record merchandise purchases and sales with credit terms.",
+    "body": "Cash, payroll and merchandise are where real businesses lose money to errors and fraud, so accounting tests return to them again and again. Expect calculation questions that reward careful, step-by-step work.\n\n**Cash control.** Good internal control separates duties: the person who receives cash should not also record it or reconcile the bank account. Deposit receipts daily, pay by check or electronic transfer, and keep a small *petty cash* fund for minor expenses. When the fund is replenished, the entry debits the expenses paid and credits Cash.\n\n**Bank reconciliation.** The bank statement balance and the checkbook balance rarely match because of timing and unrecorded items.\n- Adjust the *bank* balance: add deposits in transit, subtract outstanding checks.\n- Adjust the *book* balance: subtract bank service charges and NSF (returned) checks; add interest earned or collections the bank made for the business.\nBoth adjusted balances must agree, and only the book-side items need journal entries.\n\n**Payroll.** Gross pay = hours × rate, with overtime commonly paid at 1.5 times the regular rate for hours over 40 in a week. Net pay = gross pay minus deductions such as federal and state income tax withholding, Social Security, Medicare and voluntary items like health insurance. The employer also owes its own payroll taxes, including a matching share of Social Security and Medicare plus federal and state unemployment taxes. Employer payroll taxes are a business expense; amounts withheld from employees are liabilities until they are paid to the government.\n\n**Merchandising.** A merchandising business buys goods to resell.\n- *Cost of goods sold* = beginning inventory + net purchases − ending inventory.\n- *Gross profit* = net sales − cost of goods sold.\n- Credit terms such as *2/10, n/30* offer a 2% discount if paid within 10 days; otherwise the full amount is due in 30 days.\nUnder a *periodic* inventory system, inventory is counted at period end; under a *perpetual* system, the inventory account updates with every purchase and sale.\n\nThe most common mistake in reconciliations is putting outstanding checks on the book side. The business already recorded those checks; only the bank has not seen them yet.",
+    "examples": [
+      "Bank balance $4,820, deposit in transit $600, outstanding checks $1,150: adjusted bank balance = $4,820 + $600 − $1,150 = $4,270. A checkbook showing $4,295 less a $25 service charge also equals $4,270.",
+      "An employee earns $18 per hour and works 44 hours. Regular pay is 40 × $18 = $720, overtime is 4 × $27 = $108 and gross pay is $828.",
+      "A retailer buys $5,000 of goods on terms 2/10, n/30 and pays in 8 days. The discount is $5,000 × 2% = $100, so it pays $4,900."
+    ],
+    "questions": [
+      {
+        "stem": "A bank statement shows a balance of $6,300. There is a $900 deposit in transit and $1,450 of outstanding checks. What is the adjusted bank balance?",
+        "choices": ["$6,850", "$5,750", "$8,650", "$4,850"],
+        "answer": 1,
+        "explanation": "Adjusted bank balance = $6,300 + $900 − $1,450 = $5,750. Deposits in transit are added and outstanding checks are subtracted on the bank side."
+      },
+      {
+        "stem": "During a bank reconciliation, which item requires a journal entry in the company's own books?",
+        "choices": ["An outstanding check", "A deposit in transit", "A bank service charge", "A check the bank cleared for the correct amount"],
+        "answer": 2,
+        "explanation": "The company learns of the service charge only from the statement, so it must record it. Outstanding checks and deposits in transit are already in the books."
+      },
+      {
+        "stem": "An hourly employee earns $16 per hour and works 46 hours in one week. Overtime is paid at 1.5 times the regular rate for hours over 40. What is gross pay?",
+        "choices": ["$736", "$1,104", "$832", "$784"],
+        "answer": 3,
+        "explanation": "Regular pay is 40 × $16 = $640. Overtime is 6 × $24 = $144. Gross pay = $640 + $144 = $784; $736 ignores the overtime premium."
+      },
+      {
+        "stem": "Which payroll item is an expense paid only by the employer rather than an amount withheld from the employee's pay?",
+        "choices": ["Employee federal income tax withholding", "Federal unemployment tax", "Employee's share of Medicare tax", "Health insurance premium deducted from pay"],
+        "answer": 1,
+        "explanation": "Federal unemployment tax is paid by the employer and is not deducted from wages. The other items are withheld from the employee's gross pay."
+      },
+      {
+        "stem": "Beginning inventory is $14,000, net purchases are $52,000 and ending inventory is $16,500. What is cost of goods sold?",
+        "choices": ["$49,500", "$54,500", "$82,500", "$38,000"],
+        "answer": 0,
+        "explanation": "Cost of goods sold = $14,000 + $52,000 − $16,500 = $49,500. Goods available were $66,000, and the $16,500 still on hand was not sold."
+      },
+      {
+        "stem": "A store buys merchandise for $3,600 on terms 2/10, n/30 and pays the invoice 7 days later. How much does it pay?",
+        "choices": ["$3,600", "$3,240", "$3,528", "$2,880"],
+        "answer": 2,
+        "explanation": "Payment is within the 10-day discount period, so the discount is $3,600 × 2% = $72 and the payment is $3,600 − $72 = $3,528."
+      },
+      {
+        "stem": "Net sales are $90,000 and cost of goods sold is $54,000. What is gross profit, and what percentage of net sales does it represent?",
+        "choices": ["$36,000; 60%", "$54,000; 60%", "$144,000; 160%", "$36,000; 40%"],
+        "answer": 3,
+        "explanation": "Gross profit = $90,000 − $54,000 = $36,000, and $36,000 ÷ $90,000 = 40%. The 60% figure is cost of goods sold as a share of sales."
+      },
+      {
+        "stem": "Which practice best strengthens internal control over cash received by mail?",
+        "choices": ["Letting the cashier also prepare the monthly bank reconciliation", "Having one employee open the mail and list the checks while another records them", "Depositing cash once a month to save trips to the bank", "Paying small expenses directly from the day's cash receipts"],
+        "answer": 1,
+        "explanation": "Separating custody of cash from record keeping makes theft harder to hide. The other practices combine duties or leave cash unprotected for long periods."
+      }
+    ],
+    "flashcards": [
+      { "term": "Deposit in transit", "definition": "A deposit recorded by the business but not yet shown on the bank statement; it is added to the bank balance." },
+      { "term": "Outstanding check", "definition": "A check written and recorded by the business that has not yet cleared the bank; it is subtracted from the bank balance." },
+      { "term": "Net pay", "definition": "Gross pay minus all taxes withheld and voluntary deductions; the amount the employee actually receives." },
+      { "term": "Cost of goods sold", "definition": "Beginning inventory plus net purchases minus ending inventory; the cost of the merchandise sold during the period." },
+      { "term": "Credit terms 2/10, n/30", "definition": "A 2% discount is allowed if paid within 10 days; otherwise the full invoice amount is due within 30 days." }
+    ]
+  }
+]

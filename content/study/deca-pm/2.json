@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Planning scope, tasks and the schedule",
+    "objective": "Break a project into manageable work, sequence the tasks, find the critical path and assign clear responsibility.",
+    "body": "Planning is usually the heaviest section of a Project Management written entry, and judges look for evidence that the team turned big goals into specific tasks with owners and dates. A strong plan also makes the rest of the project easier to monitor, because you have something concrete to compare against.\n\n**Define the scope.** A *scope statement* describes the deliverables, the work required and the boundaries. Listing *exclusions*, what the project will not do, is one of the best defenses against scope creep later.\n\n**Break down the work.** A *work breakdown structure (WBS)* splits the project into deliverables, then into smaller *work packages* that can be assigned, estimated and tracked. The WBS should include 100% of the work in scope and nothing outside it. A financial literacy week might break into promotion, speakers, materials, logistics and evaluation, each with its own tasks.\n\n**Estimate and sequence.** Estimate how long each task will take. When a task is uncertain, a *three-point estimate* combines optimistic (O), most likely (M) and pessimistic (P) times: (O + 4M + P) / 6. Then identify *dependencies*. The most common is *finish-to-start*: flyers can't be printed until the design is approved. *Milestones* are zero-duration checkpoints, such as 'venue contract signed,' that mark major progress.\n\n**Build the schedule.** A *Gantt chart* shows tasks as horizontal bars on a timeline, making overlaps and deadlines easy to see, while a network diagram shows the order of tasks. The *critical path* is the longest chain of dependent tasks, and it sets the shortest possible project duration. Tasks on it have zero *float* (slack), so any delay to them delays the whole project. Tasks off the critical path have float and can slip a little without moving the end date.\n\n**Assign responsibility.** A *RACI matrix* labels each person's role for each task:\n- *Responsible*: does the work.\n- *Accountable*: the single owner who approves it.\n- *Consulted*: gives input before decisions.\n- *Informed*: kept updated on progress.\n\nEach task should have exactly one accountable person, even when several people share the work.\n\nA common mistake is writing a task list with no owners, dates or dependencies. A list like that is a wish list, not a plan.",
+    "examples": [
+      "Booking the venue takes 3 days. Promotion (10 days) and ordering supplies (4 days) both start after booking, and setup (2 days) starts after both finish. The critical path is booking, promotion and setup, or 15 days, so ordering supplies has 6 days of float.",
+      "In a RACI matrix for a bake sale, the treasurer is Responsible for counting cash, the chapter president is Accountable for the final deposit, the advisor is Consulted, and all members are Informed of the total raised.",
+      "A team's scope statement says the project will host a free tax-filing information night but will not prepare anyone's actual return, which keeps the team from taking on work it isn't qualified to do."
+    ],
+    "questions": [
+      {
+        "stem": "What is the main purpose of a work breakdown structure?",
+        "choices": [
+          "To show how much each team member will be paid",
+          "To divide the project's total scope into smaller, manageable deliverables and work packages",
+          "To record problems that have already happened",
+          "To compare actual spending with the budget"
+        ],
+        "answer": 1,
+        "explanation": "A WBS decomposes the whole scope into pieces small enough to assign, estimate and track. Issue logs and budget comparisons are monitoring tools."
+      },
+      {
+        "stem": "A team's scope statement says, 'This project will not provide transportation to the event.' Why is this line useful?",
+        "choices": [
+          "It identifies the project's critical path",
+          "It assigns accountability for transportation to the sponsor",
+          "It sets a clear boundary that helps prevent scope creep",
+          "It serves as the project's success criterion"
+        ],
+        "answer": 2,
+        "explanation": "Exclusions clarify what is out of scope, so later requests for extra work can be recognized and evaluated instead of quietly added."
+      },
+      {
+        "stem": "Flyers cannot be printed until the advisor approves the design. What type of dependency is this?",
+        "choices": ["Start-to-start", "Finish-to-finish", "Start-to-finish", "Finish-to-start"],
+        "answer": 3,
+        "explanation": "The approval must finish before printing can start, which is a finish-to-start dependency, the most common type."
+      },
+      {
+        "stem": "Which item in a project schedule is best described as a milestone?",
+        "choices": ["Venue contract signed", "Design social media graphics", "Call ten potential sponsors", "Set up tables and decorations"],
+        "answer": 0,
+        "explanation": "A milestone is a zero-duration checkpoint marking a significant event. The other choices are tasks that take time to complete."
+      },
+      {
+        "stem": "Task A takes 3 days. Tasks B (5 days) and C (2 days) can start only after A finishes. Task D (4 days) can start only after both B and C finish. What is the shortest possible project duration?",
+        "choices": ["9 days", "14 days", "12 days", "10 days"],
+        "answer": 2,
+        "explanation": "Path A-B-D = 3 + 5 + 4 = 12 days; path A-C-D = 3 + 2 + 4 = 9 days. The longest path, 12 days, is the critical path. Adding every task (14 days) ignores that B and C run in parallel."
+      },
+      {
+        "stem": "Task P takes 2 days. Tasks Q (6 days) and R (3 days) both start after P, and Task S (1 day) starts after both Q and R finish. How many days can Task R be delayed without delaying the project?",
+        "choices": ["0 days", "3 days", "6 days", "9 days"],
+        "answer": 1,
+        "explanation": "The critical path is P-Q-S = 2 + 6 + 1 = 9 days. Path P-R-S = 2 + 3 + 1 = 6 days, so R has 9 - 6 = 3 days of float."
+      },
+      {
+        "stem": "In a RACI matrix, which role should be assigned to exactly one person for each task?",
+        "choices": ["Responsible", "Consulted", "Informed", "Accountable"],
+        "answer": 3,
+        "explanation": "The accountable person owns the outcome and gives final approval, so there should be only one per task. Several people can be responsible for doing the work."
+      },
+      {
+        "stem": "A team wants one visual that shows every task as a bar on a calendar timeline so members can see start dates, end dates and overlaps. Which tool fits best?",
+        "choices": ["Risk register", "Gantt chart", "Pie chart of the budget", "Project charter"],
+        "answer": 1,
+        "explanation": "A Gantt chart displays tasks as horizontal bars across a timeline, showing duration, sequence and overlap at a glance."
+      },
+      {
+        "stem": "The task 'confirm keynote speaker' is on the critical path and slips by 2 days. If nothing else changes, what happens?",
+        "choices": [
+          "The project's finish date moves back 2 days",
+          "The project still finishes on time because other tasks have float",
+          "Only the speaker task itself is affected",
+          "The project finishes 2 days early"
+        ],
+        "answer": 0,
+        "explanation": "Critical path tasks have zero float, so any delay to them delays the project's end date unless the team recovers time elsewhere on the path."
+      },
+      {
+        "stem": "For the task 'secure sponsors,' a team estimates an optimistic time of 4 days, a most likely time of 7 days and a pessimistic time of 16 days. Using the three-point formula (O + 4M + P) / 6, what is the expected duration?",
+        "choices": ["7 days", "9 days", "10 days", "8 days"],
+        "answer": 3,
+        "explanation": "(4 + 4 x 7 + 16) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8 days. A simple average of the three estimates (9 days) gives the pessimistic case too much weight."
+      }
+    ],
+    "flashcards": [
+      { "term": "Scope statement", "definition": "A description of a project's deliverables, required work, boundaries and exclusions." },
+      { "term": "Work breakdown structure (WBS)", "definition": "A hierarchy that breaks the full project scope into deliverables and smaller work packages." },
+      { "term": "Gantt chart", "definition": "A schedule that shows tasks as horizontal bars along a timeline, revealing durations and overlaps." },
+      { "term": "Critical path", "definition": "The longest sequence of dependent tasks, which sets the shortest possible project duration." },
+      { "term": "Float (slack)", "definition": "The amount of time a task can be delayed without delaying the project's finish date." },
+      { "term": "RACI matrix", "definition": "A chart assigning the Responsible, Accountable, Consulted and Informed people for each task." }
+    ]
+  }
+]

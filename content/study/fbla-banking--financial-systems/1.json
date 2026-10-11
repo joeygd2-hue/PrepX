@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Financial institutions and how banks work",
+    "objective": "Compare types of financial institutions and explain how banks earn income, expand the money supply and manage the main risks on their balance sheets.",
+    "body": "Banking tests and role plays both assume you understand what banks actually do: move money from savers to borrowers safely and at a profit. Start with who the players are and how a bank's balance sheet works.\n\n**Financial intermediation.** Savers want safety and easy access; borrowers want larger, longer-term funds. *Financial intermediaries* connect them, pooling many deposits and lending them out while spreading risk and cutting the cost of finding a match.\n\n**Types of institutions.**\n- *Commercial banks*: for-profit and stockholder-owned; serve consumers and businesses with deposits, loans and payment services.\n- *Credit unions*: not-for-profit cooperatives owned by members who share a common bond; earnings return to members as better rates and lower fees.\n- *Savings institutions (thrifts)*: historically focused on savings deposits and home mortgages.\n- *Investment banks and brokerages*: help companies issue stocks and bonds and help investors trade securities.\n- *Insurance companies and pension funds*: collect premiums or contributions and invest them to pay future claims.\n- *Fintech firms*: technology companies offering payments and lending, often in partnership with chartered banks.\n\n**The bank balance sheet.** For a bank, *deposits are liabilities*, because the bank owes them to customers, and *loans are assets*, because borrowers owe the bank. Equity capital is the cushion that absorbs losses.\n\n**How banks earn.** The main source is the *spread*: interest earned on loans and investments minus interest paid on deposits. *Net interest margin* = (interest income − interest expense) ÷ earning assets. Banks also earn *noninterest income* from fees and services.\n\n**Fractional reserve banking.** Banks keep only part of their deposits as reserves and lend the rest. When a loan is spent and redeposited, another bank can lend part of it, so the banking system expands the money supply. In the simple textbook model, the money multiplier is 1 ÷ reserve ratio.\n\n**Key risks.**\n- *Credit risk*: borrowers fail to repay.\n- *Liquidity risk*: too many depositors want cash at once.\n- *Interest rate risk*: the cost of deposits rises faster than income from loans.\n\nThe most common mistake is calling customer deposits a bank asset. To the customer the deposit is an asset; to the bank it is a debt it must repay on demand.",
+    "examples": [
+      "A bank earns $9 million in interest on $150 million of earning assets and pays $3 million in interest. Net interest margin = ($9 million − $3 million) ÷ $150 million = 4%.",
+      "With a 10% reserve ratio in the simple model, a new $1,000 deposit can support up to $1,000 ÷ 0.10 = $10,000 of total deposits across the banking system.",
+      "A credit union for school employees returns part of its yearly earnings to members through lower loan rates, rather than paying profits to outside stockholders."
+    ],
+    "questions": [
+      {
+        "stem": "From a bank's point of view, how is a customer's checking account balance classified?",
+        "choices": ["As an asset", "As a liability", "As equity", "As revenue"],
+        "answer": 1,
+        "explanation": "The bank owes the deposit back to the customer on demand, so it is a liability. The same balance is an asset to the customer."
+      },
+      {
+        "stem": "Which type of financial institution is a not-for-profit cooperative owned by its members?",
+        "choices": ["Commercial bank", "Investment bank", "Credit union", "Brokerage firm"],
+        "answer": 2,
+        "explanation": "Credit unions are member-owned cooperatives that return earnings through better rates and lower fees. Commercial banks are for-profit and owned by stockholders."
+      },
+      {
+        "stem": "A bank earns $12 million in interest income and pays $4 million in interest expense. Its earning assets total $200 million. What is its net interest margin?",
+        "choices": ["6%", "8%", "2%", "4%"],
+        "answer": 3,
+        "explanation": "Net interest margin = ($12 million − $4 million) ÷ $200 million = $8 million ÷ $200 million = 4%. Using only interest income gives the wrong 6%."
+      },
+      {
+        "stem": "Assume a required reserve ratio of 20% in a simple banking model with no cash held outside banks. What is the maximum total amount of deposits in the banking system that a new $5,000 deposit can support?",
+        "choices": ["$25,000", "$4,000", "$1,000", "$100,000"],
+        "answer": 0,
+        "explanation": "The simple money multiplier is 1 ÷ 0.20 = 5, so $5,000 × 5 = $25,000 of total deposits. $1,000 is only the reserve the first bank must hold."
+      },
+      {
+        "stem": "Many depositors try to withdraw their money at the same time, and a bank cannot sell its loans fast enough to pay them. Which risk is this?",
+        "choices": ["Credit risk", "Liquidity risk", "Interest rate risk", "Exchange rate risk"],
+        "answer": 1,
+        "explanation": "Liquidity risk is the danger of not having enough cash to meet withdrawals. Credit risk is the danger that borrowers will not repay."
+      },
+      {
+        "stem": "Which institution's primary role is helping corporations issue new stocks and bonds to investors?",
+        "choices": ["Credit union", "Savings institution", "Investment bank", "Federal Reserve Bank"],
+        "answer": 2,
+        "explanation": "Investment banks underwrite new securities and advise companies on raising capital. Credit unions and savings institutions mainly take deposits and make consumer loans."
+      },
+      {
+        "stem": "A bank pays 1.5% on savings deposits and lends to small businesses at 7.0%. What does the 5.5-percentage-point difference represent?",
+        "choices": ["The bank's reserve requirement", "The borrower's annual percentage yield", "The bank's capital ratio", "The bank's interest rate spread"],
+        "answer": 3,
+        "explanation": "The spread is the difference between the rate earned on loans and the rate paid on deposits: 7.0% − 1.5% = 5.5 points. It is a bank's main source of income."
+      },
+      {
+        "stem": "How does financial intermediation by banks help the economy?",
+        "choices": ["It pools savings and channels them to borrowers at lower search and risk costs", "It guarantees that every loan will be repaid", "It sets the interest rates that all banks must charge", "It prints new currency to fund business loans"],
+        "answer": 0,
+        "explanation": "Intermediaries gather many small deposits, judge borrowers and spread risk, so savers and borrowers do not have to find each other directly. Banks do not print currency or guarantee repayment."
+      }
+    ],
+    "flashcards": [
+      { "term": "Financial intermediary", "definition": "An institution, such as a bank, that pools funds from savers and lends or invests them for borrowers." },
+      { "term": "Credit union", "definition": "A not-for-profit financial cooperative owned by its members, who share a common bond." },
+      { "term": "Net interest margin", "definition": "Interest income minus interest expense, divided by earning assets; a key measure of bank profitability." },
+      { "term": "Fractional reserve banking", "definition": "A system in which banks hold only part of deposits as reserves and lend the rest, expanding the money supply." },
+      { "term": "Liquidity risk", "definition": "The risk that an institution cannot meet withdrawals or other cash needs without heavy losses." }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Transportation systems, power sources and scale modeling",
+    "objective": "Describe vehicle subsystems and power sources, and calculate scale, battery and efficiency figures for model vehicles.",
+    "body": "Transportation Modeling asks you to build a detailed scale model of a vehicle that fits a theme, and Drone Challenge expects you to explain how your aircraft is powered and controlled. In interviews, judges ask why you chose a design, so you need the vocabulary of transportation systems and the math of scale and energy.\n\n**Modes and systems.** Transportation moves people and cargo by land, water, air, space and pipeline. *Intermodal* transportation moves the same sealed container by more than one mode, such as ship, rail and truck, without unpacking the cargo. Every vehicle can be described by six *subsystems*:\n- *Propulsion:* produces motion (engine, motor, sail, propeller).\n- *Suspension:* holds the vehicle on or above its medium (wheels and springs, a hull's buoyancy, a wing's lift).\n- *Guidance:* information that tells the operator where to go and how the vehicle is doing (GPS, signs, signals, gauges).\n- *Control:* changes speed and direction (steering, brakes, throttle, rudder).\n- *Structure:* the frame or body that holds everything together.\n- *Support:* the infrastructure and services that keep the system running (roads, airports, maintenance, fueling).\n\n**Power sources.** Internal combustion engines burn fuel; *electric* vehicles store energy in batteries and drive motors; *hybrids* combine both; *hydrogen fuel cells* make electricity from hydrogen and oxygen and emit water vapor. Electric motors turn a much larger share of their input energy into motion than combustion engines, which lose much of theirs as heat. *Efficiency* is useful output energy divided by input energy.\n\n**Batteries.** Capacity is rated in milliamp-hours (mAh). A 2,000 mAh battery can supply 2 amps for about one hour. Estimated run time in minutes equals capacity in amp-hours divided by average current draw in amps, times 60. Drone pilots plan to land well before the battery is drained, often after using about 80 percent of its capacity, to protect lithium-polymer cells.\n\n**Scale.** A scale of 1:24 means every model dimension is 1/24 of the real one. Divide a real dimension by the scale factor to get the model size, or multiply a model dimension by it to find the real size. Convert units first: a 4.8-meter car at 1:24 is 4,800 mm / 24 = 200 mm long.\n\n**Detail and documentation.** Strong models show accurate proportions, realistic details and a documented process: research, sketches, scale drawings and a log of materials and techniques.\n\nA common mistake is mixing units in scale calculations. Convert every measurement to the same unit before you divide or multiply.",
+    "examples": [
+      "A drone with a 2,200 mAh battery draws an average of 13.2 amps. Full-capacity run time is 2.2 / 13.2 x 60 = 10 minutes; using only 80 percent of the capacity, the pilot plans for 8 minutes.",
+      "A bus that is 12 meters long, modeled at 1:48, becomes 12,000 mm / 48 = 250 mm long.",
+      "A shipping container leaves a factory by truck, crosses the ocean by ship and reaches an inland city by rail without ever being unpacked, which makes the trip intermodal."
+    ],
+    "questions": [
+      {
+        "stem": "A real locomotive is 21.75 m long. How long is a model of it at 1:87 scale?",
+        "choices": [
+          "25 mm",
+          "87 mm",
+          "435 mm",
+          "250 mm"
+        ],
+        "answer": 3,
+        "explanation": "Convert to millimeters, then divide by the scale factor: 21,750 mm / 87 = 250 mm."
+      },
+      {
+        "stem": "A 1:32 scale model airplane has a wingspan of 450 mm. What is the wingspan of the real airplane?",
+        "choices": [
+          "14.4 m",
+          "1.44 m",
+          "144 m",
+          "14.06 mm"
+        ],
+        "answer": 0,
+        "explanation": "Multiply the model dimension by the scale factor: 450 mm x 32 = 14,400 mm, which is 14.4 m."
+      },
+      {
+        "stem": "A drone has a 1,500 mAh battery and draws an average of 9 amps in flight. Ignoring any safety reserve, about how long can it fly?",
+        "choices": [
+          "6 minutes",
+          "10 minutes",
+          "16.7 minutes",
+          "60 minutes"
+        ],
+        "answer": 1,
+        "explanation": "1,500 mAh = 1.5 Ah. Run time = 1.5 / 9 x 60 = 10 minutes. Dividing 9 by 1.5 gives the distractor of 6."
+      },
+      {
+        "stem": "In the six-subsystem model of transportation, a car's brakes and steering belong to which subsystem?",
+        "choices": [
+          "Guidance",
+          "Suspension",
+          "Control",
+          "Support"
+        ],
+        "answer": 2,
+        "explanation": "Control systems change a vehicle's speed and direction. Guidance supplies information, such as GPS and signs, that the operator uses to decide how to control it."
+      },
+      {
+        "stem": "A ship's GPS display and the lighthouse signals its crew watches are part of which subsystem?",
+        "choices": [
+          "Guidance",
+          "Propulsion",
+          "Structure",
+          "Control"
+        ],
+        "answer": 0,
+        "explanation": "Guidance provides information about location, direction and conditions so the operator can navigate. The crew then uses control systems to act on it."
+      },
+      {
+        "stem": "In the six-subsystem model, what provides suspension for an airplane while it is in flight?",
+        "choices": [
+          "The tires on its landing gear",
+          "The thrust from its engines",
+          "The air traffic control system",
+          "The lift produced by its wings"
+        ],
+        "answer": 3,
+        "explanation": "Suspension keeps a vehicle on or above its medium. In flight, wing lift holds the airplane up; landing gear does this only on the ground, and thrust is propulsion."
+      },
+      {
+        "stem": "Which shipment is an example of intermodal transportation?",
+        "choices": [
+          "A pipeline carrying natural gas between two states",
+          "A sealed container moved from ship to train to truck without unpacking",
+          "A truck delivering groceries across one city",
+          "A passenger flying nonstop between two airports"
+        ],
+        "answer": 1,
+        "explanation": "Intermodal transportation moves the same container across two or more modes without handling the cargo inside. The others each use a single mode."
+      },
+      {
+        "stem": "An electric motor receives 400 J of electrical energy and delivers 340 J of mechanical work. What is its efficiency?",
+        "choices": [
+          "15%",
+          "60%",
+          "85%",
+          "118%"
+        ],
+        "answer": 2,
+        "explanation": "Efficiency = useful output / input = 340 / 400 = 0.85, or 85%. The other 60 J (15%) is lost, mostly as heat."
+      }
+    ],
+    "flashcards": [
+      { "term": "Intermodal transportation", "definition": "Moving the same sealed container by two or more modes, such as ship, rail and truck, without handling the cargo inside." },
+      { "term": "Guidance subsystem", "definition": "The information a vehicle's operator uses to navigate and monitor the vehicle, such as GPS, signs, signals and gauges." },
+      { "term": "Scale ratio", "definition": "The relationship between model size and real size; at 1:24, each model dimension is 1/24 of the real one." },
+      { "term": "Milliamp-hour (mAh)", "definition": "A unit of battery capacity; 1,000 mAh can supply 1 amp for about one hour." },
+      { "term": "Hydrogen fuel cell", "definition": "A device that combines hydrogen and oxygen to produce electricity, with water vapor as its main emission." }
+    ]
+  }
+]

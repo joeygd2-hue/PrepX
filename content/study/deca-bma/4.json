@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Operations, quality and project management",
+    "objective": "Calculate productivity, capacity and reorder points, apply quality-improvement tools, and schedule projects using the critical path.",
+    "body": "Operations is one of the most heavily tested areas for business management, and Business Services Operations Research papers depend on operational measures. Operations management turns inputs (labor, materials, equipment and information) into goods and services as efficiently as possible.\n\n**Productivity and capacity.** *Productivity* = output ÷ input, such as units produced per labor hour. *Capacity utilization* = actual output ÷ maximum possible output × 100. Running near 100% sounds efficient but leaves no slack for rush orders, maintenance or breakdowns.\n\n**Inventory and purchasing.** Too much inventory ties up cash and adds storage costs; too little causes stockouts and lost sales. The *reorder point* = average daily usage × lead time in days + safety stock. *Just-in-time (JIT)* inventory has materials arrive right when they are needed, cutting holding costs but making the business vulnerable to supplier delays. *ABC analysis* ranks items by value so managers control the costly A items most closely. Good purchasing judges vendors on quality, reliability and service, not price alone, often with a weighted scoring sheet.\n\n**Quality management.** *Total quality management (TQM)* makes quality everyone's job and centers on the customer. *Continuous improvement* (kaizen) relies on small, ongoing changes, often through the *Plan-Do-Check-Act* cycle. *Six Sigma* uses data to reduce variation and defects. *Lean* thinking removes waste such as waiting, extra inventory and unnecessary motion. Key tools:\n- *Pareto chart*: bars sorted from most to least frequent, showing the few causes behind most problems.\n- *Cause-and-effect (fishbone) diagram*: maps possible causes of one problem.\n- *Control chart*: tracks a process over time and flags points outside upper or lower control limits.\n\n*Quality assurance* builds quality into the process; *quality control* inspects finished output.\n\n**Project management.** A project has a defined scope, schedule and budget. A *Gantt chart* shows tasks as bars on a timeline. The *critical path* is the longest chain of dependent tasks; it sets the shortest possible project length, so any delay on it delays the whole project. Tasks off the critical path have *slack* (float). *Scope creep*, the uncontrolled growth of project requirements, is prevented with a formal change-control process.\n\nA common mistake is rushing a task that is not on the critical path. It uses extra resources without finishing the project a single day sooner.",
+    "examples": [
+      "Reorder point: A print shop uses 30 reams of paper a day, its supplier needs 4 days to deliver, and it keeps 40 reams of safety stock. Reorder point = 30 × 4 + 40 = 160 reams.",
+      "Critical path: Task A (3 days) must finish before B (5 days) and C (2 days); D (4 days) follows both B and C. Path A-B-D takes 12 days and A-C-D takes 9 days, so A-B-D is critical, the project takes 12 days and task C has 3 days of slack.",
+      "Pareto: A help desk finds that 2 of its 10 complaint types cause 78% of all tickets, so it fixes those two causes first."
+    ],
+    "questions": [
+      {
+        "stem": "A café uses 25 pounds of coffee beans per day. Its roaster takes 6 days to deliver, and the café keeps 50 pounds of safety stock. At what inventory level should it reorder?",
+        "choices": ["150 pounds", "200 pounds", "175 pounds", "300 pounds"],
+        "answer": 1,
+        "explanation": "Reorder point = daily usage × lead time + safety stock = 25 × 6 + 50 = 150 + 50 = 200 pounds. Forgetting the safety stock gives 150."
+      },
+      {
+        "stem": "A team of 5 workers assembles 600 units during an 8-hour shift. What is their labor productivity in units per labor hour?",
+        "choices": ["15", "75", "120", "24"],
+        "answer": 0,
+        "explanation": "Labor hours = 5 workers × 8 hours = 40. Productivity = 600 units ÷ 40 labor hours = 15 units per labor hour. 75 is units per clock hour for the whole team."
+      },
+      {
+        "stem": "A bakery can produce 2,000 loaves per week at full capacity but produced 1,700 loaves last week. What was its capacity utilization?",
+        "choices": ["85%", "15%", "117.6%", "70%"],
+        "answer": 0,
+        "explanation": "Capacity utilization = actual ÷ maximum × 100 = 1,700 ÷ 2,000 × 100 = 85%. The 15% is the unused capacity."
+      },
+      {
+        "stem": "Project tasks: A (4 days) starts the project; B (6 days) and C (3 days) both follow A; D (2 days) follows both B and C. What is the shortest possible project length?",
+        "choices": ["9 days", "12 days", "15 days", "10 days"],
+        "answer": 1,
+        "explanation": "Path A-B-D = 4 + 6 + 2 = 12 days and path A-C-D = 4 + 3 + 2 = 9 days. The longest path (the critical path) sets the length at 12 days; 15 wrongly adds every task in sequence."
+      },
+      {
+        "stem": "Project tasks: P (2 days) comes first; Q (5 days) and R (1 day) both follow P; S (3 days) follows both Q and R. The manager wants to finish sooner. Which action could shorten the project?",
+        "choices": ["Shorten task Q by one day", "Shorten task R by one day", "Delay task R by two days", "Add a quality check after task R"],
+        "answer": 0,
+        "explanation": "Path P-Q-S = 10 days and P-R-S = 6 days, so P-Q-S is critical. Only shortening a critical task, such as Q, reduces the 10-day total; R has 4 days of slack."
+      },
+      {
+        "stem": "A manufacturer switches from keeping large stockpiles of parts to just-in-time inventory. Which risk increases the most?",
+        "choices": ["Production stops if a supplier delivery is late", "Warehouse storage costs rise sharply", "More cash is tied up in raw materials", "Stored parts become obsolete before use"],
+        "answer": 0,
+        "explanation": "JIT keeps very little inventory on hand, so a late delivery can halt production. Storage costs, tied-up cash and obsolescence all fall under JIT."
+      },
+      {
+        "stem": "A hotel sorts 400 guest complaints into a bar chart ordered from most to least frequent to find the few causes behind most complaints. Which quality tool is this?",
+        "choices": ["Pareto chart", "Gantt chart", "Fishbone diagram", "Organization chart"],
+        "answer": 0,
+        "explanation": "A Pareto chart ranks problem categories by frequency so managers focus on the vital few. A fishbone diagram brainstorms causes of a single problem instead."
+      },
+      {
+        "stem": "A bottling line's control chart shows fill volumes inside the control limits for weeks, but today three readings fall above the upper control limit. What should the operations manager do first?",
+        "choices": ["Investigate the process for a special cause", "Ignore it because the weekly average looks normal", "Widen the control limits to fit the new readings", "Raise prices to cover the wasted product"],
+        "answer": 0,
+        "explanation": "Points outside control limits signal that something has changed in the process. The right response is to find and fix the cause, not to move the limits."
+      },
+      {
+        "stem": "Midway through building an employee-scheduling app, department heads keep adding new features without changing the deadline or budget. What is this problem, and what prevents it?",
+        "choices": ["Scope creep, prevented by a formal change-control process", "Critical path delay, prevented by adding parallel tasks", "Benchmarking, prevented by comparing with rivals", "Bottlenecking, prevented by holding more inventory"],
+        "answer": 0,
+        "explanation": "Scope creep is uncontrolled growth in project requirements. A change-control process makes every new request get approved along with any needed time or budget changes."
+      },
+      {
+        "stem": "A purchasing manager scores suppliers from 1 to 10 using weights of quality 50%, price 30% and delivery 20%. Supplier X scores 8, 6 and 9; Supplier Y scores 6, 9 and 7. Which supplier wins, and with what weighted score?",
+        "choices": ["Supplier X, with 7.6", "Supplier Y, with 7.1", "Supplier Y, with 7.9", "They tie at 7.5"],
+        "answer": 0,
+        "explanation": "X = 0.5 × 8 + 0.3 × 6 + 0.2 × 9 = 4.0 + 1.8 + 1.8 = 7.6. Y = 0.5 × 6 + 0.3 × 9 + 0.2 × 7 = 3.0 + 2.7 + 1.4 = 7.1. Supplier X wins."
+      }
+    ],
+    "flashcards": [
+      { "term": "Reorder point", "definition": "The inventory level that triggers a new order: average daily usage times lead time, plus safety stock." },
+      { "term": "Just-in-time inventory", "definition": "A system in which materials arrive just as they are needed, lowering holding costs but raising supply risk." },
+      { "term": "Critical path", "definition": "The longest sequence of dependent tasks in a project; it sets the minimum project length." },
+      { "term": "Pareto chart", "definition": "A bar chart ranking problem causes from most to least frequent to show the few causes behind most issues." },
+      { "term": "Six Sigma", "definition": "A data-driven quality method that reduces process variation to cut defects to extremely low levels." },
+      { "term": "Scope creep", "definition": "Uncontrolled growth in a project's requirements without matching changes to schedule or budget." }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Strategy, budgets and risk management",
+    "objective": "Build a strategic plan, track results against budgets and KPIs, and choose the right response to business risks.",
+    "body": "The most advanced BMA questions ask how managers steer the whole organization: set direction, measure progress and protect against what could go wrong. These same skills turn a role-play answer or research paper from a list of ideas into a real plan.\n\n**Strategic planning.** A *mission statement* explains why the organization exists today; a *vision statement* describes what it wants to become. A *SWOT analysis* lists internal *strengths* and *weaknesses* and external *opportunities* and *threats*. Goals should be *SMART*: specific, measurable, attainable, relevant and time-bound. Strategy works at three levels: *corporate* (which businesses to be in), *business* (how to compete, such as cost leadership or differentiation) and *functional* (how each department supports the plan).\n\n**Measuring performance.** *Key performance indicators (KPIs)* are the few numbers that show whether goals are being met, such as on-time delivery rate or customer retention. A *balanced scorecard* tracks four perspectives: financial, customer, internal processes, and learning and growth. *Benchmarking* compares your results with industry leaders to find gaps worth closing.\n\n**Budgets.** An *operating budget* plans revenue and expenses; a *capital budget* plans major purchases such as equipment or buildings. A *variance* is the difference between actual and budgeted amounts. For expenses, spending more than budget is *unfavorable*; for revenue, earning more than budget is *favorable*. Managers investigate large variances rather than every small one. Two quick ratios help:\n- *Current ratio* = current assets ÷ current liabilities, a test of ability to pay short-term bills.\n- *Net profit margin* = net income ÷ revenue × 100, the share of each sales dollar kept as profit.\n\n**Risk management.** Managers identify risks, estimate likelihood and impact (expected loss = probability × cost), then choose a response:\n- *Avoid*: stop the risky activity entirely.\n- *Reduce*: lower the chance or size of loss, such as safety training or data backups.\n- *Transfer*: shift the financial impact to another party, usually through insurance or contracts.\n- *Retain*: accept small, predictable losses and pay for them yourself.\n\n*Pure risks* (only loss is possible, like fire or theft) are usually insurable; *speculative risks* (gain or loss, like launching a product) are not. A *business continuity plan* explains how critical operations keep running after a disaster.\n\nA common mistake is treating SWOT as a list exercise. Strong answers match a strength to an opportunity and turn the analysis into a specific, measurable action.",
+    "examples": [
+      "Variance: A department budgeted $12,000 for overtime and spent $14,400. The variance is $2,400 unfavorable, 20% over budget, which deserves investigation.",
+      "Risk responses: A landscaping company buys liability insurance (transfer), trains crews on mower safety (reduce) and pays for small tool losses itself (retain).",
+      "SWOT to action: A tutoring center's strength is certified bilingual tutors, and a nearby opportunity is a growing number of multilingual families, so it launches a bilingual homework program with a goal of 60 new students by June."
+    ],
+    "questions": [
+      {
+        "stem": "A regional bakery learns that a large competitor plans to open a store two blocks away next year. In the bakery's SWOT analysis, this belongs under:",
+        "choices": ["Threats", "Weaknesses", "Strengths", "Opportunities"],
+        "answer": 0,
+        "explanation": "A new competitor is an external factor that could hurt the business, so it is a threat. Weaknesses are internal shortcomings the bakery controls."
+      },
+      {
+        "stem": "A marketing department budgeted $45,000 for the quarter and actually spent $41,400. What is its expense variance?",
+        "choices": ["$3,600 favorable", "$3,600 unfavorable", "$4,140 favorable", "$4,500 unfavorable"],
+        "answer": 0,
+        "explanation": "$45,000 − $41,400 = $3,600. Spending less than an expense budget is favorable."
+      },
+      {
+        "stem": "A store budgeted $80,000 in revenue for March but earned $72,000. What is the revenue variance as a percentage of budget?",
+        "choices": ["10% unfavorable", "10% favorable", "11.1% unfavorable", "8% unfavorable"],
+        "answer": 0,
+        "explanation": "Variance = $72,000 − $80,000 = −$8,000. As a percentage of budget, $8,000 ÷ $80,000 = 10%, and earning less revenue than planned is unfavorable. 11.1% wrongly divides by actual revenue."
+      },
+      {
+        "stem": "A company has $180,000 in current assets and $120,000 in current liabilities. What is its current ratio?",
+        "choices": ["1.5", "0.67", "2.5", "3.0"],
+        "answer": 0,
+        "explanation": "Current ratio = current assets ÷ current liabilities = $180,000 ÷ $120,000 = 1.5. Flipping the division gives 0.67."
+      },
+      {
+        "stem": "A concert venue requires every outside food vendor to carry its own liability insurance and to sign a contract accepting responsibility for injuries its products cause. Which risk-management technique is the venue using?",
+        "choices": ["Risk transfer", "Risk avoidance", "Risk retention", "Risk reduction"],
+        "answer": 0,
+        "explanation": "Insurance requirements and contracts shift the financial impact of a loss to another party, which is risk transfer. Avoidance would mean not allowing outside vendors at all."
+      },
+      {
+        "stem": "Which of these risks would an insurance company be least likely to cover?",
+        "choices": ["The chance a new product line loses money", "Fire damage to a warehouse", "A delivery truck accident", "Theft of store inventory"],
+        "answer": 0,
+        "explanation": "A product launch is a speculative risk with a chance of gain or loss, so it is not insurable. Fire, accidents and theft are pure risks that insurers routinely cover."
+      },
+      {
+        "stem": "A hospital tracks profit per patient, patient satisfaction scores, average discharge time and staff training hours, grouping them into four perspectives. Which management tool is it using?",
+        "choices": ["Balanced scorecard", "SWOT analysis", "Gantt chart", "Break-even analysis"],
+        "answer": 0,
+        "explanation": "A balanced scorecard groups measures into financial, customer, internal process, and learning and growth perspectives, matching these four measures."
+      },
+      {
+        "stem": "Which is the best example of a SMART goal for a customer-service department?",
+        "choices": ["Cut average email response time from 24 hours to 8 hours by June 30", "Provide the best customer service in the industry", "Respond to customers much faster this year", "Make customers happier with our team soon"],
+        "answer": 0,
+        "explanation": "The first goal is specific, measurable (24 to 8 hours), attainable, relevant to service and time-bound (June 30). The others lack a measure or a deadline."
+      },
+      {
+        "stem": "A company earned net income of $54,000 on revenue of $600,000. What is its net profit margin?",
+        "choices": ["9%", "11.1%", "90%", "5.4%"],
+        "answer": 0,
+        "explanation": "Net profit margin = net income ÷ revenue × 100 = $54,000 ÷ $600,000 × 100 = 9%."
+      },
+      {
+        "stem": "A manager ranks risks by expected loss (probability × cost). Risk A: 30% chance of a $50,000 loss. Risk B: 10% chance of a $120,000 loss. Risk C: 60% chance of a $20,000 loss. Which risk has the highest expected loss?",
+        "choices": ["Risk A, at $15,000", "Risk B, at $12,000", "Risk C, at $12,000", "Risk B, at $120,000"],
+        "answer": 0,
+        "explanation": "A = 0.30 × $50,000 = $15,000; B = 0.10 × $120,000 = $12,000; C = 0.60 × $20,000 = $12,000. Risk A has the highest expected loss even though B has the largest possible loss."
+      }
+    ],
+    "flashcards": [
+      { "term": "SWOT analysis", "definition": "A planning tool listing internal strengths and weaknesses and external opportunities and threats." },
+      { "term": "SMART goal", "definition": "A goal that is specific, measurable, attainable, relevant and time-bound." },
+      { "term": "Balanced scorecard", "definition": "A performance system tracking financial, customer, internal process, and learning and growth measures." },
+      { "term": "Budget variance", "definition": "The difference between actual and budgeted amounts, labeled favorable or unfavorable." },
+      { "term": "Risk transfer", "definition": "Shifting the financial impact of a possible loss to another party, usually through insurance or contracts." },
+      { "term": "Speculative risk", "definition": "A risk that could produce either a gain or a loss, such as launching a new product; generally not insurable." }
+    ]
+  }
+]

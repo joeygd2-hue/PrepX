@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Measuring the economy and stabilization policy",
+    "objective": "Interpret GDP, inflation and unemployment data, identify business cycle phases, and match fiscal and monetary policy tools to economic conditions.",
+    "body": "Macroeconomics questions ask you to read the health of the whole economy and decide what policymakers should do about it. Learn the three headline measures, the business cycle, and which tool belongs to whom.\n\n**Gross domestic product (GDP).** GDP is the market value of all final goods and services produced within a country in a year. Using the expenditure approach, GDP = C + I + G + (X − M): consumer spending, business investment, government purchases and net exports (exports minus imports). Intermediate goods, used goods, purchases of stocks and bonds, and transfer payments such as Social Security checks are not counted. *Real GDP* adjusts for price changes, so it is the better measure of whether output actually grew.\n\n**Inflation.** Inflation is a sustained rise in the general price level, often measured with the Consumer Price Index (CPI), which tracks the cost of a fixed market basket of goods and services. Inflation rate = (new CPI − old CPI) ÷ old CPI × 100. *Demand-pull* inflation comes from spending that outruns output; *cost-push* inflation comes from rising input costs. Unexpected inflation hurts savers and people on fixed incomes and helps borrowers who repay with cheaper dollars.\n\n**Unemployment.** Unemployment rate = unemployed ÷ labor force × 100. The labor force counts only people who are working or actively looking for work. Types include *frictional* (between jobs), *structural* (skills or locations no longer match available jobs), *cyclical* (caused by recession) and *seasonal*.\n\n**Business cycle.** The economy moves through expansion, peak, contraction and trough. A recession is a significant, widespread decline in economic activity lasting more than a few months.\n\n**Stabilization policy.**\n- *Fiscal policy* is set by Congress and the President through government spending and taxes. Expansionary fiscal policy raises spending or cuts taxes; contractionary fiscal policy does the reverse.\n- *Monetary policy* is set by the Federal Reserve, which influences the money supply and interest rates. It sets a target range for the federal funds rate and steers rates using interest paid on bank reserves, open market operations (buying or selling government securities) and the discount rate it charges banks. To fight inflation, the Fed tightens by raising rates, which slows borrowing and spending.\n\nThe most common mistake is crediting Congress with interest-rate decisions or the Fed with tax cuts. Keep fiscal and monetary policy with their owners.",
+    "examples": [
+      "An economy has C = $14 trillion, I = $4 trillion, G = $5 trillion, exports of $3 trillion and imports of $4 trillion. GDP = 14 + 4 + 5 + (3 − 4) = $22 trillion.",
+      "The CPI rises from 250 to 260. Inflation = (260 − 250) ÷ 250 × 100 = 4%.",
+      "A town has 47,000 people employed and 3,000 unemployed people actively looking for work. The labor force is 50,000, so the unemployment rate is 3,000 ÷ 50,000 = 6%."
+    ],
+    "questions": [
+      {
+        "stem": "An economy reports consumer spending of $600 billion, investment of $150 billion, government purchases of $200 billion, exports of $80 billion and imports of $110 billion. What is GDP?",
+        "choices": ["$920 billion", "$1,140 billion", "$950 billion", "$980 billion"],
+        "answer": 0,
+        "explanation": "GDP = 600 + 150 + 200 + (80 − 110) = 950 − 30 = $920 billion. Imports are subtracted because they were produced in other countries."
+      },
+      {
+        "stem": "Which transaction is counted in this year's U.S. GDP?",
+        "choices": ["A family buys a used car built five years ago", "A retiree receives a Social Security payment", "A U.S. company builds a new factory in Ohio", "An investor buys shares of stock in a bank"],
+        "answer": 2,
+        "explanation": "A new factory is business investment in newly produced capital. Used goods were counted when first made, transfer payments are not production, and stock purchases are financial transactions."
+      },
+      {
+        "stem": "The CPI was 200 last year and is 212 this year. What is the inflation rate?",
+        "choices": ["12%", "6%", "5.7%", "2.12%"],
+        "answer": 1,
+        "explanation": "Inflation = (212 − 200) ÷ 200 × 100 = 12 ÷ 200 × 100 = 6%. Dividing by the new index (212) instead of the old one gives the incorrect 5.7%."
+      },
+      {
+        "stem": "A region has 90,000 employed people, 10,000 unemployed people actively seeking work, and 20,000 adults who are not looking for work. What is the unemployment rate?",
+        "choices": ["10%", "8.3%", "25%", "11.1%"],
+        "answer": 0,
+        "explanation": "The labor force is 90,000 + 10,000 = 100,000; adults not looking for work are excluded. The rate is 10,000 ÷ 100,000 × 100 = 10%."
+      },
+      {
+        "stem": "Factory workers lose their jobs after their plant automates, and their skills no longer match the jobs available in the area. What type of unemployment is this?",
+        "choices": ["Frictional", "Seasonal", "Cyclical", "Structural"],
+        "answer": 3,
+        "explanation": "Structural unemployment occurs when workers' skills or locations no longer match available jobs, often because of technology. Cyclical unemployment is caused by a recession."
+      },
+      {
+        "stem": "Inflation is running well above the target. Which action would the Federal Reserve most likely take?",
+        "choices": ["Raise its target for short-term interest rates", "Cut income tax rates for households", "Buy large amounts of government securities", "Increase federal spending on highways"],
+        "answer": 0,
+        "explanation": "Raising interest rates makes borrowing more costly and slows spending, easing inflation. Buying securities would be expansionary, and taxes and spending are fiscal policy set by Congress and the President."
+      },
+      {
+        "stem": "During a deep recession, Congress passes a law that increases spending on infrastructure and cuts payroll taxes. This is an example of what?",
+        "choices": ["Contractionary monetary policy", "Expansionary fiscal policy", "Expansionary monetary policy", "Contractionary fiscal policy"],
+        "answer": 1,
+        "explanation": "Changes in government spending and taxes are fiscal policy, and raising spending while cutting taxes is expansionary. Monetary policy is carried out by the Federal Reserve."
+      },
+      {
+        "stem": "Who is generally hurt most when inflation turns out higher than expected?",
+        "choices": ["A borrower repaying a fixed-rate loan", "A retiree living on a fixed pension", "A business whose prices rise with inflation", "A worker whose wages are tied to the CPI"],
+        "answer": 1,
+        "explanation": "A fixed pension buys less as prices rise, so the retiree loses purchasing power. A fixed-rate borrower actually benefits by repaying with dollars worth less."
+      }
+    ],
+    "flashcards": [
+      { "term": "Gross domestic product (GDP)", "definition": "The market value of all final goods and services produced within a country in a given period." },
+      { "term": "Consumer Price Index (CPI)", "definition": "A measure of the average change in prices paid by consumers for a fixed basket of goods and services, used to track inflation." },
+      { "term": "Structural unemployment", "definition": "Unemployment caused by a mismatch between workers' skills or locations and the jobs available." },
+      { "term": "Fiscal policy", "definition": "Government use of spending and taxation, set by Congress and the President, to influence the economy." },
+      { "term": "Monetary policy", "definition": "Federal Reserve actions that influence interest rates and the money supply to promote stable prices and maximum employment." }
+    ]
+  }
+]

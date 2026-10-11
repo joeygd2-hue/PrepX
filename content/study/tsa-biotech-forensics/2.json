@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Crime scene investigation and physical evidence",
+    "objective": "Secure, document, search and collect evidence from a crime scene while preserving the chain of custody, and interpret fingerprints and trace evidence without overstating conclusions.",
+    "body": "In Forensic Science, semifinalists examine a mock crime scene and defend their conclusions, and the written test rewards the same habits: protect the evidence, document everything, and reason carefully from facts to conclusions.\n\n**Locard's exchange principle.** Every contact leaves a trace: a person brings material into a scene and carries material away from it. That is why investigators look for hair, fibers, soil, glass and prints both at the scene and on the suspect.\n\n**Processing a scene.**\n1. Secure the scene, limit entry and log everyone who enters.\n2. Do an initial walk-through to plan the search.\n3. Document before touching anything: notes, photographs (overall, mid-range and close-up with a scale) and a measured sketch.\n4. Search systematically. A *line* or *strip* search suits large outdoor areas with many searchers; a *grid* search covers an area twice in crossing directions; a *spiral* search suits a single searcher in an open area; a *zone* search divides a room or vehicle into sections.\n5. Collect and package evidence. Biological items are air-dried and packaged in paper, not plastic, so moisture cannot cause mold and bacterial growth.\n\n**Chain of custody.** Everyone who handles an item signs and dates its record. A broken chain lets the defense argue that the item could have been swapped or contaminated.\n\n**Class versus individual evidence.** *Class characteristics* place an item in a group, such as a size 10 sneaker of a certain model or type A blood. *Individual characteristics* can link evidence to a single source, such as a unique cut in that sneaker's sole or a DNA profile.\n\n**Fingerprints.** The three basic ridge patterns are *loops* (most common, about 60 to 65 percent of prints), *whorls* (about 30 to 35 percent) and *arches* (about 5 percent). Examiners compare *minutiae* such as ridge endings, bifurcations and dots. Prints can be *patent* (visible, as in blood or paint), *plastic* (pressed into soft material such as wax) or *latent* (invisible until developed with powder, ninhydrin or cyanoacrylate fuming).\n\n**Trace evidence.** Hair, fibers, glass, paint and soil are compared with microscopes and physical properties such as density and refractive index. Breaking glass forms radial and concentric cracks, and a new crack stops when it reaches an existing one, which reveals the order of multiple impacts.\n\nA common mistake is stating a conclusion stronger than the evidence allows. Class evidence can be *consistent with* a suspect; it cannot prove the suspect was there.",
+    "examples": [
+      "Two bullet holes are found in a window. Radial cracks from hole B stop where they meet cracks from hole A, so hole A was made first.",
+      "A detective hands a sealed bag holding a bloodstained shirt to a lab technician. Both sign the custody form with the date and time, and the technician notes that the seal was intact.",
+      "A shoe print in mud matches the brand and size of a suspect's shoe, which is class evidence. A distinctive gouge in the heel that appears in both the print and the shoe is individual evidence."
+    ],
+    "questions": [
+      {
+        "stem": "A large, open field must be searched by a team of 12 volunteers. Which search pattern fits best?",
+        "choices": ["Line (strip) search, with searchers walking side by side", "Spiral search, with one searcher circling inward", "Zone search, dividing the field into small rooms", "Wheel search, starting from a single center point"],
+        "answer": 0,
+        "explanation": "A line search spreads many searchers shoulder to shoulder across a large outdoor area so nothing is skipped. A spiral search is designed for a single searcher."
+      },
+      {
+        "stem": "A blood-soaked shirt is collected at a scene. How should it be packaged?",
+        "choices": ["Sealed while wet in an airtight plastic bag", "Air-dried and placed in a paper bag", "Rinsed with water and then bagged", "Stored in a plastic bin in a warm vehicle"],
+        "answer": 1,
+        "explanation": "Paper lets biological evidence breathe and dry. Plastic traps moisture, which encourages mold and bacteria that can destroy DNA."
+      },
+      {
+        "stem": "A defense attorney shows that a knife sat in an unlocked drawer for two days with no record of who handled it. Which problem does this reveal?",
+        "choices": ["A broken chain of custody", "Sampling bias", "A failed presumptive test", "An incorrect search pattern"],
+        "answer": 0,
+        "explanation": "The chain of custody must document every person who has the evidence at all times. A gap lets the defense argue tampering or contamination."
+      },
+      {
+        "stem": "Which item is individual rather than class evidence?",
+        "choices": ["A blue cotton fiber like those in mass-produced jeans", "A type O bloodstain", "A torn piece of tape whose ragged edge fits the end of a roll found in a suspect's car", "A tire tread pattern from a popular tire model"],
+        "answer": 2,
+        "explanation": "A physical fit between torn edges is unique, so it can link the tape to one roll. The fiber, blood type and tread pattern are shared by many sources."
+      },
+      {
+        "stem": "On a fingerprint, the ridges enter from one side, curve back, and exit on the same side they entered. Which pattern is this?",
+        "choices": ["Plain arch", "Whorl", "Tented arch", "Loop"],
+        "answer": 3,
+        "explanation": "A loop's ridges recurve and leave on the side where they entered. Arches flow from one side to the other, and whorls form circular or spiral patterns."
+      },
+      {
+        "stem": "Investigators need to develop invisible prints on a smooth plastic bottle. Which method is best suited to this nonporous surface?",
+        "choices": ["Ninhydrin treatment", "Cyanoacrylate (superglue) fuming", "Luminol spray", "Mitochondrial DNA testing"],
+        "answer": 1,
+        "explanation": "Cyanoacrylate fumes polymerize on the residue of latent prints on nonporous surfaces like plastic and glass. Ninhydrin reacts with amino acids absorbed into porous surfaces such as paper."
+      },
+      {
+        "stem": "A window has two bullet holes. Radial cracks from hole X run uninterrupted, while radial cracks from hole Y stop wherever they meet cracks from hole X. What can be concluded?",
+        "choices": ["Hole Y was made first", "Hole X was made first", "Both holes were made at the same instant", "The order cannot be determined from glass"],
+        "answer": 1,
+        "explanation": "A new crack stops when it reaches an existing crack. Because Y's cracks end at X's cracks, X's cracks were already there, so X came first."
+      },
+      {
+        "stem": "A suspect's jacket carries carpet fibers matching a victim's living room, and the room contains fibers matching the jacket. Which principle explains this two-way transfer?",
+        "choices": ["The chain of custody rule", "The law of superposition", "Locard's exchange principle", "The principle of parsimony"],
+        "answer": 2,
+        "explanation": "Locard's exchange principle states that contact between two objects or people transfers material in both directions."
+      }
+    ],
+    "flashcards": [
+      { "term": "Locard's exchange principle", "definition": "The idea that every contact leaves a trace: material transfers in both directions between a person and a scene." },
+      { "term": "Chain of custody", "definition": "A written record of every person who handled a piece of evidence, with dates and times, from collection to court." },
+      { "term": "Individual characteristics", "definition": "Features of evidence that can link it to a single source, such as a physical fit or a DNA profile." },
+      { "term": "Latent print", "definition": "A fingerprint that is invisible to the eye until developed with powder, chemicals or fuming." },
+      { "term": "Minutiae", "definition": "Small ridge details, such as ridge endings, bifurcations and dots, that examiners compare to identify fingerprints." }
+    ]
+  }
+]

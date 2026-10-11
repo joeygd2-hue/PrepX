@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Hardware components and the troubleshooting process",
+    "objective": "Identify core PC hardware, match symptoms to the components most likely at fault and apply a structured troubleshooting method.",
+    "body": "Computer problem solving tests rarely ask you to recite a definition. They describe a symptom and ask for the most likely cause or the best next step. To answer well you need two things: a clear picture of what each component does, and a repeatable method that checks simple, likely causes first.\n\n**Core components.**\n- The *CPU* executes instructions. It needs a working cooler and thermal paste; overheating causes sudden shutdowns or slowdowns under load.\n- *RAM* is fast, volatile working memory. Faulty RAM often shows up as random crashes, blue screens or beep codes at startup, and too little RAM makes heavy multitasking crawl.\n- *Storage* holds data permanently. Solid-state drives (SSDs) have no moving parts and are much faster than hard disk drives (HDDs). A clicking HDD is a warning that it may fail soon.\n- The *power supply unit (PSU)* converts AC wall power into the DC voltages the parts use. A system with no lights and no fans points to power first.\n- The *motherboard* connects everything, and its *firmware* (UEFI, or older BIOS) runs the power-on self-test (POST) before the operating system loads.\n\n**A structured method.** Professional technicians follow a sequence like this:\n1. Identify the problem: question the user, note error messages and ask what changed recently.\n2. Establish a theory of probable cause, starting with the obvious, such as a loose cable.\n3. Test the theory; if it fails, form a new one or escalate.\n4. Plan and implement the fix, considering side effects such as data loss.\n5. Verify full system functionality and add preventive measures.\n6. Document the findings, actions and outcome.\n\n**Reading the symptoms.** Beeps or a blank screen before the logo point to hardware that failed POST. A system that powers on but reports no boot device points to storage or the boot order. Slowness only when many programs are open points to too little RAM, while slow file opening on an aging HDD points to the drive.\n\n**Safety and care.** Use an antistatic wrist strap to prevent electrostatic discharge (ESD), unplug the computer before opening the case, and never open a power supply, which can hold a dangerous charge even when unplugged.\n\nThe most common mistake is jumping to an expensive fix, such as replacing a motherboard, before checking cables, power and recent changes. Tests reward the least invasive step that tests your theory.",
+    "examples": [
+      "A desktop shuts off after about ten minutes of gaming, the fans are loud and the case feels hot. Overheating is the leading theory, so the technician checks for dust and a failed CPU fan before replacing any parts.",
+      "A laptop reports that no bootable device was found after it was dropped. The likely theory is a damaged or unseated drive, so the technician checks whether the firmware setup still detects the drive before reinstalling anything.",
+      "A PC with 4 GB of RAM slows to a crawl with 30 browser tabs open while the drive light stays on constantly. The system is swapping memory to disk, so adding RAM is the targeted fix."
+    ],
+    "questions": [
+      {
+        "stem": "A desktop shows no lights, no fan movement and no sound when the power button is pressed. Which should a technician check first?",
+        "choices": ["The RAM modules", "The graphics card drivers", "The power source and power supply unit", "The operating system boot files"],
+        "answer": 2,
+        "explanation": "With no lights or fans at all, nothing is receiving power, so the outlet, cable and PSU come first. RAM, drivers and boot files cannot be tested until the system has power."
+      },
+      {
+        "stem": "A technician has replaced a failed keyboard, confirmed the whole system works and suggested a keyboard cover to prevent spills. What is the final step in a standard troubleshooting method?",
+        "choices": ["Establish a new theory of probable cause", "Document the findings, actions and outcome", "Question the user about recent changes", "Escalate the ticket to a senior technician"],
+        "answer": 1,
+        "explanation": "Verifying functionality and adding preventive measures come just before the last step, which is documenting what happened, what was done and the result so future problems are solved faster."
+      },
+      {
+        "stem": "A computer randomly freezes and shows different blue-screen errors in different programs, and a memory diagnostic reports errors. What is the most likely cause?",
+        "choices": ["A failing optical drive", "An outdated web browser", "A loose monitor cable", "Faulty RAM"],
+        "answer": 3,
+        "explanation": "Random crashes across many programs plus failed memory tests point to bad RAM. A browser or monitor cable would not cause system-wide blue screens."
+      },
+      {
+        "stem": "Which storage device is most likely to make a repeated clicking sound shortly before it fails?",
+        "choices": ["A hard disk drive", "A solid-state drive", "A USB flash drive", "An M.2 NVMe drive"],
+        "answer": 0,
+        "explanation": "HDDs have spinning platters and moving read/write heads, so mechanical failure can be heard as clicking. SSDs, flash drives and NVMe drives have no moving parts."
+      },
+      {
+        "stem": "Before replacing RAM in a desktop, which precaution best protects the components from electrostatic discharge?",
+        "choices": ["Keep the computer plugged in and powered on", "Work on a carpeted floor to cushion the parts", "Wear an antistatic wrist strap grounded to the case", "Blow compressed air into the memory slots first"],
+        "answer": 2,
+        "explanation": "A grounded antistatic strap keeps you at the same electrical potential as the case, preventing ESD. Carpet builds static, and the system should be unplugged and off."
+      },
+      {
+        "stem": "A technician asks a user what changed on the computer just before it started running slowly. Which troubleshooting step is the technician performing?",
+        "choices": ["Test the theory to determine the cause", "Identify the problem", "Verify full system functionality", "Document findings, actions and outcomes"],
+        "answer": 1,
+        "explanation": "Questioning the user and asking about recent changes is part of identifying the problem, the first step. Theories are formed and tested only after the problem is understood."
+      },
+      {
+        "stem": "A computer powers on, but the screen stays black and the system emits a pattern of beeps before anything appears. What do the beeps most likely indicate?",
+        "choices": ["A virus that infected the operating system", "A corrupt user profile", "An expired software license", "A hardware fault detected during the power-on self-test"],
+        "answer": 3,
+        "explanation": "Beep codes come from the firmware during POST, before the operating system loads, so they signal hardware problems such as missing RAM or a graphics fault. Viruses, profiles and licenses involve software that has not started yet."
+      },
+      {
+        "stem": "A gaming PC shuts off without warning during long sessions but runs normally for web browsing. The CPU fan has stopped spinning. What is the best fix?",
+        "choices": ["Replace the CPU cooler fan and renew the thermal paste", "Reinstall the operating system from recovery media", "Replace the storage drive with a larger SSD", "Update the web browser and the games"],
+        "answer": 0,
+        "explanation": "Heavy loads make the CPU hot, and without a working fan it overheats and the system shuts down to protect itself. Software reinstalls or storage upgrades do not address heat."
+      }
+    ],
+    "flashcards": [
+      { "term": "POST (power-on self-test)", "definition": "A firmware check of essential hardware that runs every time a computer starts, before the operating system loads." },
+      { "term": "UEFI", "definition": "Modern motherboard firmware that replaced BIOS; it initializes hardware, runs POST and hands control to the operating system's boot loader." },
+      { "term": "Electrostatic discharge (ESD)", "definition": "A sudden flow of static electricity that can damage components; prevented with grounded antistatic straps and mats." },
+      { "term": "Volatile memory", "definition": "Memory, such as RAM, that loses its contents when power is removed." },
+      { "term": "Theory of probable cause", "definition": "A technician's best explanation for a problem, formed from the symptoms and tested before any fix is applied." }
+    ]
+  }
+]

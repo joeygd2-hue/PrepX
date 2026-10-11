@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Audio for podcasts and music production",
+    "objective": "Record, edit and mix clean audio for podcasts and music, and explain the technical choices behind it.",
+    "body": "Audio Podcasting and Music Production are judged by ear first. Clean recording, balanced levels and a clear structure tell judges you understand the craft, and the interview checks whether you can explain your choices in technical terms. Good audio also lifts every video entry.\n\n**How sound works.** Sound is a vibration that travels as a wave. *Frequency*, measured in hertz (Hz), sets pitch; human hearing spans roughly 20 Hz to 20,000 Hz. *Amplitude*, expressed in decibels (dB), sets loudness.\n\n**Microphones.**\n- *Dynamic* mics are rugged and less sensitive, good for loud sources and untreated rooms.\n- *Condenser* mics need power (often 48-volt *phantom power*) and capture more detail, ideal for vocals in a quiet room.\n- A *polar pattern* describes where a mic listens. *Cardioid* mics pick up mainly from the front and reject sound from behind; *omnidirectional* mics pick up equally from all sides.\nKeep a consistent distance from the mic and use a pop filter to soften hard 'p' and 'b' sounds.\n\n**Digital audio.** *Sample rate* is how many times per second the signal is measured: 44.1 kHz is the CD standard and 48 kHz is standard for video. The highest frequency a sample rate can capture is half of it. *Bit depth* (commonly 16 or 24 bits) sets the dynamic range and how low the noise floor is. *WAV* files are uncompressed; *MP3* and *AAC* use lossy compression to make smaller files. Record and edit in WAV, then export the finished mix to a distribution format once.\n\n**Levels and processing.** In digital audio, 0 dBFS is the maximum level, and anything that tries to go above it *clips*, causing harsh distortion. Record with peaks comfortably below that, around -12 to -6 dBFS. *EQ* boosts or cuts frequency ranges; a *high-pass filter* removes low rumble below the voice. A *compressor* narrows the gap between loud and quiet passages, and a *noise gate* mutes the signal when it falls below a set level.\n\n**Music basics.** Tempo is measured in beats per minute (BPM). *MIDI* is a set of performance instructions (which note, how hard, how long), not recorded sound, so you can change instruments or fix notes after recording. Songs are organized into sections such as intro, verse, chorus and bridge.\n\n**Podcast structure.** Plan a hook, an intro, segments with clear transitions and an outro with a call to action. Work from an outline or script, and edit out long pauses and false starts.\n\nA common mistake is using music you do not have rights to. Use original, royalty-free or properly licensed music and record its source in your documentation.",
+    "examples": [
+      "A song at 120 BPM in 4/4 time has 2 beats per second, so each 4-beat measure lasts 2 seconds and a 16-measure chorus lasts 32 seconds.",
+      "A podcaster recording in an echoey classroom switches from an omnidirectional mic on the table to a cardioid dynamic mic about a hand's width from her mouth, cutting most of the room sound.",
+      "One minute of CD-quality stereo audio is 44,100 samples per second x 16 bits x 2 channels x 60 seconds = 84,672,000 bits, or 10,584,000 bytes, about 10.6 MB as a WAV file."
+    ],
+    "questions": [
+      {
+        "stem": "A podcast recording has harsh distortion every time the host laughs, and the level meter hits 0 dBFS at those moments. What happened?",
+        "choices": [
+          "The sample rate was set too low for speech",
+          "The signal clipped because the input level was too high",
+          "The microphone was set to a cardioid pattern",
+          "The file was saved in the WAV format"
+        ],
+        "answer": 1,
+        "explanation": "0 dBFS is the digital ceiling; louder peaks are cut off, or clipped, which sounds distorted. Lowering the input gain so peaks stay well below 0 dBFS prevents it."
+      },
+      {
+        "stem": "A recording uses a sample rate of 48 kHz. What is the highest frequency it can capture?",
+        "choices": [
+          "12 kHz",
+          "48 kHz",
+          "96 kHz",
+          "24 kHz"
+        ],
+        "answer": 3,
+        "explanation": "A digital system can capture frequencies up to half its sample rate: 48 / 2 = 24 kHz, which is above the upper limit of human hearing."
+      },
+      {
+        "stem": "A podcaster in a noisy room wants a microphone that picks up her voice in front while rejecting sound from behind it. Which polar pattern is best?",
+        "choices": [
+          "Cardioid",
+          "Omnidirectional",
+          "Figure-8 (bidirectional)",
+          "A spaced pair of omnidirectional mics"
+        ],
+        "answer": 0,
+        "explanation": "A cardioid pattern is most sensitive at the front and rejects sound from the rear. Omnidirectional mics pick up all directions, and figure-8 mics pick up both front and back."
+      },
+      {
+        "stem": "After recording a melody on a keyboard controller as MIDI, a producer changes the sound from piano to strings without re-recording. Why is this possible?",
+        "choices": [
+          "MIDI files are compressed audio, like MP3s",
+          "MIDI records sound at a higher sample rate than WAV",
+          "MIDI stores note instructions rather than recorded sound",
+          "MIDI captures each instrument on a separate microphone"
+        ],
+        "answer": 2,
+        "explanation": "MIDI data says which notes to play, when and how hard. Any virtual instrument can play those instructions, so the sound can be changed after recording."
+      },
+      {
+        "stem": "A track is 96 BPM in 4/4 time. How long does an 8-measure section last?",
+        "choices": [
+          "12 seconds",
+          "20 seconds",
+          "24 seconds",
+          "32 seconds"
+        ],
+        "answer": 1,
+        "explanation": "8 measures x 4 beats = 32 beats. At 96 beats per minute, 32 / 96 = 1/3 of a minute, which is 20 seconds."
+      },
+      {
+        "stem": "A podcast guest sometimes speaks very softly and sometimes very loudly. Which tool most directly narrows the gap between loud and quiet passages?",
+        "choices": [
+          "Equalizer",
+          "Noise gate",
+          "Reverb",
+          "Compressor"
+        ],
+        "answer": 3,
+        "explanation": "A compressor reduces the level of loud passages so the overall dynamic range is smaller. EQ shapes frequencies, a gate mutes quiet signals and reverb adds space."
+      },
+      {
+        "stem": "Which workflow best preserves audio quality from recording to final release?",
+        "choices": [
+          "Record and edit in WAV, then export the finished mix to MP3 once",
+          "Record in MP3, then convert to WAV and back to MP3 after each edit",
+          "Record at a low bit depth to save space, then raise it while editing",
+          "Download an MP3 of the take and re-export it after every change"
+        ],
+        "answer": 0,
+        "explanation": "Each lossy encode throws away data, so repeated MP3 exports degrade the sound. Working in uncompressed WAV and encoding once at the end keeps quality highest."
+      },
+      {
+        "stem": "A voice recording has a low rumble from an air conditioner, well below the main range of the speaker's voice. What is the best fix?",
+        "choices": [
+          "Raise the overall volume of the track",
+          "Apply a low-pass filter to remove high frequencies",
+          "Apply a high-pass filter with EQ to cut the low rumble",
+          "Add reverb to blend the rumble into the room sound"
+        ],
+        "answer": 2,
+        "explanation": "A high-pass (low-cut) filter lets frequencies above a set point pass and removes the rumble below it. A low-pass filter would remove the wrong end of the spectrum."
+      }
+    ],
+    "flashcards": [
+      { "term": "Sample rate", "definition": "How many times per second a digital system measures an audio signal, such as 44.1 kHz or 48 kHz." },
+      { "term": "Clipping", "definition": "Harsh distortion that occurs when a digital audio signal tries to exceed the 0 dBFS maximum level." },
+      { "term": "Cardioid pattern", "definition": "A microphone pickup pattern that is most sensitive in front and rejects sound from behind." },
+      { "term": "MIDI", "definition": "A digital protocol that stores performance instructions such as note, timing and velocity rather than recorded sound." },
+      { "term": "Compressor", "definition": "An audio processor that reduces the level of loud passages to narrow the gap between loud and quiet sounds." }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Opportunity recognition and the business plan",
+    "objective": "Evaluate a business idea for feasibility, analyze it with SWOT and market research, and identify what each section of a business plan must prove.",
+    "body": "Entrepreneurship tests and judges reward one habit above all: testing an idea against evidence before spending money on it. That is what opportunity recognition, feasibility analysis and the business plan are for.\n\n**Entrepreneurs and opportunities.** An entrepreneur organizes resources and accepts the risk of starting a business in hopes of profit. An *idea* becomes an *opportunity* only when enough customers have a problem, will pay to solve it, and can be reached at a cost that leaves a profit. Opportunities often come from changing demographics, new technology, customer frustrations and new regulations. Entrepreneurs differ from *intrapreneurs*, who innovate inside an existing company.\n\n**Feasibility and market research.** Before writing a full plan, run a feasibility study:\n- *Market*: Who is the target customer, how many are there, and what do they buy now?\n- *Competition*: Who else solves this problem, directly or indirectly?\n- *Operations*: Can you produce and deliver the product reliably?\n- *Finances*: What will it cost to start, and when could it break even?\n\n*Primary research* is data you collect yourself, such as surveys, interviews and test sales. *Secondary research* is data someone else already gathered, such as government statistics and industry reports. Primary research is more specific to your idea but takes more time and money.\n\n**SWOT analysis.** Strengths and weaknesses are *internal*, things the business controls. Opportunities and threats are *external*, things in the environment such as trends, competitors and laws.\n\n**The business plan.** A plan persuades lenders and investors and guides the owner. Common sections:\n1. *Executive summary*: a short overview of the whole plan, written last but placed first.\n2. *Company description*: mission, legal form and value proposition.\n3. *Market analysis*: industry, target market and competitors.\n4. *Organization and management*: owners, key staff and structure.\n5. *Products or services* and *marketing and sales*: what you sell and how you will reach buyers.\n6. *Financial plan*: startup costs, projected income statements, cash flow and break-even.\n7. *Funding request* (when seeking money) and an appendix of supporting documents.\n\A *value proposition* states why a target customer should choose you over alternatives. A *unique selling proposition* names the one benefit competitors cannot easily match.\n\nThe most common mistake is claiming a business has no competition. Every customer is solving the problem somehow today, and judges expect you to name those alternatives.",
+    "examples": [
+      "A student notices that parents at her school struggle to find last-minute sports uniforms. She surveys 120 parents (primary research) and checks census data on local families with school-age children (secondary research) before building a plan.",
+      "In a SWOT for a food truck, a skilled chef-owner is a strength, owning only one vehicle is a weakness, a new office park nearby is an opportunity, and a city proposal to limit food-truck permits is a threat."
+    ],
+    "questions": [
+      {
+        "stem": "A startup bakery learns that a national chain plans to open a store two blocks away. Where does this belong in the bakery's SWOT analysis?",
+        "choices": ["Strength", "Weakness", "Opportunity", "Threat"],
+        "answer": 3,
+        "explanation": "A new competitor is an external factor that could hurt the business, so it is a threat. Strengths and weaknesses are internal factors the bakery controls."
+      },
+      {
+        "stem": "Which is an example of primary research for a new pet-grooming business?",
+        "choices": ["Reading a trade association's industry report", "Interviewing 40 local dog owners about their grooming habits", "Downloading census data on household pet ownership", "Reviewing a competitor's published annual report"],
+        "answer": 1,
+        "explanation": "Primary research is collected firsthand for the current purpose, such as interviews. The other choices use data someone else already gathered, which is secondary research."
+      },
+      {
+        "stem": "Which business plan section is usually written last, even though it appears first?",
+        "choices": ["Executive summary", "Company description", "Market analysis", "Financial plan"],
+        "answer": 0,
+        "explanation": "The executive summary condenses the whole plan, so it can only be written well after the other sections are finished. It goes first because many readers start there."
+      },
+      {
+        "stem": "Which evidence best shows that a business idea is a true opportunity?",
+        "choices": ["The founder is passionate about the product and has the skills to make it", "Friends and family say they love the idea and would recommend it", "Surveys and test sales show many customers will pay a price that covers costs", "No other company currently sells exactly the same product"],
+        "answer": 2,
+        "explanation": "An opportunity requires enough paying customers at a price that leaves a profit. Passion, praise from friends and a lack of identical products do not prove demand."
+      },
+      {
+        "stem": "An employee at a large software company persuades managers to fund her idea for a new product line, which she then leads inside the company. She is best described as what?",
+        "choices": ["An intrapreneur", "A franchisee", "A sole proprietor", "An angel investor"],
+        "answer": 0,
+        "explanation": "An intrapreneur develops new ventures within an existing organization, using its resources rather than starting an independent business."
+      },
+      {
+        "stem": "Which statement is the strongest value proposition for a tutoring startup?",
+        "choices": ["We are the newest tutoring service in town", "Our tutors raise algebra grades within six weeks, or the next month is free", "We offer tutoring in many subjects for students of all ages", "Our company was founded by two enthusiastic students"],
+        "answer": 1,
+        "explanation": "A strong value proposition names a specific customer benefit and a reason to choose the business. The other statements describe the company rather than what the customer gains."
+      },
+      {
+        "stem": "An entrepreneur has an idea for a mobile phone-repair van. What is the best next step before writing a full business plan?",
+        "choices": ["Buy and equip the van to lock in a good price", "Apply for a large bank loan to fund growth", "Conduct a feasibility study of demand, competitors and costs", "Design a logo and launch a social media page"],
+        "answer": 2,
+        "explanation": "A feasibility study tests whether the idea can work before money is committed. Buying equipment, borrowing or branding first risks spending on an idea that may not be viable."
+      },
+      {
+        "stem": "A lender reading a business plan wants to know when the company will generate enough cash from operations to repay a loan. Which section should answer this most directly?",
+        "choices": ["Company description", "Organization and management", "Financial plan with cash flow projections", "Products and services"],
+        "answer": 2,
+        "explanation": "Cash flow projections in the financial plan show when money will come in and go out each month, which tells the lender whether loan payments can be met."
+      }
+    ],
+    "flashcards": [
+      { "term": "Entrepreneur", "definition": "A person who organizes resources and takes on the risk of starting and running a business in hopes of earning a profit." },
+      { "term": "Feasibility study", "definition": "An analysis of market demand, competition, operations and costs to decide whether a business idea is worth pursuing." },
+      { "term": "SWOT analysis", "definition": "A review of internal strengths and weaknesses and external opportunities and threats facing a business." },
+      { "term": "Executive summary", "definition": "The brief overview at the front of a business plan that highlights the key points of every section." },
+      { "term": "Value proposition", "definition": "A clear statement of the benefit a business delivers and why target customers should choose it over alternatives." }
+    ]
+  }
+]

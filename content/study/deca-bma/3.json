@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Business law and ethics for managers",
+    "objective": "Analyze contract, agency, tort and employment situations and recommend actions that are both legal and ethical.",
+    "body": "Business Law and Ethics Team Decision Making cases and BMA exam questions ask you to spot the legal issue in a business situation, then recommend an ethical course of action. Learn the categories so you can name the issue fast.\n\n**Contracts beyond the basics.** A valid contract needs an offer, acceptance, consideration, capacity and a legal purpose. Failing to perform a contract is a *breach*. Remedies include *compensatory damages* (money that covers the actual loss), *specific performance* (a court orders the promised act, used when the subject is unique, such as land or a rare item) and *rescission* (canceling the contract and returning both sides to where they started). *Liquidated damages* are an amount the parties agreed to in advance. The *Uniform Commercial Code (UCC)* governs sales of goods in nearly every state, and contracts for goods priced at $500 or more generally must be in writing to be enforced.\n\n**Agency and torts.** An *agent* acts on behalf of a *principal*, as an employee does when placing orders for the company. Under *respondeat superior*, an employer can be held liable for wrongs an employee commits within the scope of employment. A *tort* is a civil wrong. *Negligence* requires four elements: a duty of care, a breach of that duty, causation and actual damages. *Strict product liability* can hold a manufacturer responsible for injuries caused by a defective product even if it was not careless.\n\n**Employment relationships.** Most U.S. jobs are *at-will*: either side can end the relationship at any time for any lawful reason, but not for an illegal one such as discrimination or retaliation against an employee who reports a legal violation. Managers must also classify workers correctly; *independent contractors* control how they do their work and are not owed overtime or employee benefits.\n\n**Ethics and governance.** Legal is not always ethical. Three common frameworks:\n- *Utilitarian*: choose the action that creates the greatest total good.\n- *Rights-based*: respect each person's rights, whatever the outcome.\n- *Justice (fairness)*: treat people equally and share benefits and burdens fairly.\n\nA *conflict of interest* exists when personal interests could bias a business decision; the fix is to disclose it and step aside. A *code of ethics*, confidential reporting channels and whistleblower protection help employees raise concerns. Corporate governance rules, such as the Sarbanes-Oxley Act's requirement that public-company executives certify their financial reports, hold leaders accountable.\n\nA common mistake on case studies is stopping at what the law requires. Judges reward teams that recommend the legally required action plus a policy that keeps the problem from happening again.",
+    "examples": [
+      "A furniture maker agrees to deliver 40 desks to a school for $8,000 but never delivers. The school pays another supplier $9,200 for identical desks, so compensatory damages of $1,200 cover the extra cost it suffered.",
+      "A delivery driver runs a red light while on his route and damages a parked car. Because he was acting within the scope of his job, the employer may be liable under respondeat superior.",
+      "A purchasing manager's brother owns one of three suppliers bidding on a contract. Ethically, she should disclose the relationship and let a colleague make the choice."
+    ],
+    "questions": [
+      {
+        "stem": "A caterer under contract to serve an event for $4,000 cancels the day before. The client, who had not paid anything yet, hires a replacement caterer for $5,100 to serve the same menu. What compensatory damages should the client most likely recover?",
+        "choices": ["$1,100", "$4,000", "$5,100", "$9,100"],
+        "answer": 0,
+        "explanation": "Compensatory damages cover the actual loss: the extra cost of substitute performance, $5,100 − $4,000 = $1,100. The client never paid the $4,000, so it is not part of the loss."
+      },
+      {
+        "stem": "A seller agrees to sell a one-of-a-kind historic building to a restaurant owner, then refuses to complete the sale. Which remedy is the buyer most likely to seek?",
+        "choices": ["Specific performance", "Liquidated damages", "Rescission", "Punitive damages"],
+        "answer": 0,
+        "explanation": "Specific performance orders the breaching party to do what it promised and is used when the subject is unique, like a particular building. Money cannot buy an identical substitute."
+      },
+      {
+        "stem": "Two businesses make only an oral agreement for the sale of $2,500 worth of used office chairs. Under the UCC, what is the main legal weakness of this agreement?",
+        "choices": ["Contracts for goods of $500 or more generally must be in writing", "Oral agreements between businesses are illegal", "The UCC covers only sales of real estate", "Used goods cannot be sold between businesses"],
+        "answer": 0,
+        "explanation": "The UCC's statute of frauds generally requires a writing for sales of goods priced at $500 or more, so this oral deal may not be enforceable."
+      },
+      {
+        "stem": "A customer slips on a spill in a grocery aisle that an employee knew about for two hours but never cleaned up or marked with a sign. Which element of negligence does the employee's inaction most directly show?",
+        "choices": ["Breach of duty", "Causation", "Damages", "Consideration"],
+        "answer": 0,
+        "explanation": "The store owes customers a duty of reasonable care; ignoring a known hazard for two hours is a breach of that duty. Causation and damages concern the link to the injury and the injury itself."
+      },
+      {
+        "stem": "While making deliveries for a florist, an employee carelessly backs the company van into a customer's fence. Who can the fence owner most likely hold liable for the damage?",
+        "choices": ["The florist, under respondeat superior", "Only the employee, because torts are personal", "No one, because it was an accident", "The van maker, under product liability"],
+        "answer": 0,
+        "explanation": "Respondeat superior makes an employer liable for torts employees commit within the scope of their job. The van had no defect, so product liability does not apply."
+      },
+      {
+        "stem": "A space heater with a defective switch overheats and burns a buyer, even though the manufacturer followed careful production procedures. Under strict product liability, the manufacturer:",
+        "choices": ["Can be liable because the product was defective", "Is not liable because it was not careless", "Is liable only if the buyer signed a contract with it", "Can shift all liability to the retailer by law"],
+        "answer": 0,
+        "explanation": "Strict liability focuses on the defective product, not on whether the maker was careless. Proof of a defect that caused the injury can be enough."
+      },
+      {
+        "stem": "An at-will employee reports safety violations to a government safety agency and is fired the next week because of that report. Why is the firing most likely unlawful?",
+        "choices": ["It is illegal retaliation for protected reporting", "At-will employees can never be fired", "The employer did not give two weeks' notice", "Reporting a problem grants job tenure"],
+        "answer": 0,
+        "explanation": "At-will employment allows firing for any lawful reason, but retaliating against an employee for reporting legal violations is an illegal reason."
+      },
+      {
+        "stem": "A company must decide whether to close an old plant. Managers pick the option that produces the greatest total benefit for employees, customers and the community combined. Which ethical approach are they using?",
+        "choices": ["Utilitarian", "Rights-based", "Justice (fairness)", "Ethical relativism"],
+        "answer": 0,
+        "explanation": "Utilitarian ethics judges actions by their consequences and chooses the greatest total good. A rights-based approach would focus on protecting individual rights regardless of totals."
+      },
+      {
+        "stem": "A purchasing manager learns that her spouse owns one of the companies bidding on a large supply contract she is responsible for awarding. What is the most ethical next step?",
+        "choices": ["Disclose the relationship and step aside from the decision", "Choose the spouse's company only if its price is lowest", "Keep it private because the bids are sealed", "Ask the spouse to lower the bid slightly"],
+        "answer": 0,
+        "explanation": "A conflict of interest is handled by disclosing it and removing yourself from the decision. Even a fair choice would look biased if the relationship stayed hidden."
+      },
+      {
+        "stem": "A company hires a web designer who sets her own hours, uses her own equipment, works for several other clients and is paid per project. How should the company most likely classify her?",
+        "choices": ["Independent contractor", "Nonexempt employee", "Exempt employee", "Part-time employee"],
+        "answer": 0,
+        "explanation": "Control over how, when and with what tools the work is done, plus serving many clients and per-project pay, points to an independent contractor rather than an employee."
+      }
+    ],
+    "flashcards": [
+      { "term": "Compensatory damages", "definition": "Money awarded to cover the actual loss a party suffers because the other side breached a contract." },
+      { "term": "Specific performance", "definition": "A court order requiring a party to do what the contract promised, used when the subject is unique." },
+      { "term": "Respondeat superior", "definition": "The rule that an employer can be liable for wrongs an employee commits within the scope of employment." },
+      { "term": "Negligence", "definition": "A tort requiring a duty of care, a breach of that duty, causation and actual damages." },
+      { "term": "Employment at will", "definition": "Either side may end employment at any time for any lawful reason, but not for discrimination or retaliation." },
+      { "term": "Conflict of interest", "definition": "A situation where personal interests could bias a business decision; it should be disclosed and the person should step aside." }
+    ]
+  }
+]

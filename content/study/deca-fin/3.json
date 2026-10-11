@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Time value of money, budgets and capital decisions",
+    "objective": "Use compounding, discounting, break-even and capital budgeting tools to evaluate financial decisions.",
+    "body": "Almost every finance decision compares money received or spent at different times. Exams test whether you can do the math, and judges reward competitors who explain *why* a project or budget makes sense, not just what it costs.\n\n**Time value of money.** A dollar today is worth more than a dollar next year because today's dollar can be invested to earn a return, and inflation and risk shrink the value of money received later.\n- *Simple interest* is earned only on the original principal: interest = principal × rate × time.\n- *Compound interest* is earned on principal plus past interest. Future value = present value × (1 + r)^n, where r is the rate per period and n is the number of periods.\n- *Present value* reverses the process: present value = future value ÷ (1 + r)^n. This step is called discounting.\n- The *Rule of 72* estimates doubling time: divide 72 by the annual percentage rate.\n\n**Capital budgeting.** When a business considers long-term investments such as equipment or a new branch, it uses tools like these:\n- *Payback period*: how long it takes cash inflows to repay the cost. Shorter means less risk, but this method ignores cash after payback and the time value of money.\n- *Net present value (NPV)*: the present value of future cash inflows minus the initial cost. A positive NPV means the project earns more than the required rate of return, so it adds value.\n- *Internal rate of return (IRR)*: the discount rate that makes NPV equal zero. Accept projects whose IRR beats the required rate.\n\n**Budgets and break-even.** An *operating budget* plans revenues and expenses, a *cash budget* forecasts monthly inflows and outflows so shortages can be financed in advance, and a *capital budget* plans major long-term asset purchases. A *variance* is the difference between budgeted and actual results; spending more than planned or earning less than planned is *unfavorable*. The *break-even point* in units equals fixed costs divided by the contribution margin per unit (price minus variable cost per unit).\n\nA common mistake is adding dollars from different years as if they were equal. Always discount future amounts before comparing them with money spent today.",
+    "examples": [
+      "$5,000 invested at 6% compounded annually grows to $5,000 × 1.06 × 1.06 = $5,618 after two years, $18 more than simple interest would pay.",
+      "A food truck has fixed costs of $24,000 a year, sells meals for $12 and spends $7 per meal on ingredients and packaging. Break-even = $24,000 ÷ ($12 − $7) = 4,800 meals.",
+      "A $60,000 machine saves $15,000 a year in labor. Its payback period is $60,000 ÷ $15,000 = 4 years."
+    ],
+    "questions": [
+      {
+        "stem": "You deposit $2,000 in an account that earns 5% interest compounded annually. How much will the account hold after 2 years?",
+        "choices": ["$2,200", "$2,205", "$2,100", "$2,210"],
+        "answer": 1,
+        "explanation": "Future value = $2,000 × 1.05 × 1.05 = $2,000 × 1.1025 = $2,205. The $2,200 figure is simple interest, which ignores interest earned on the first year's interest."
+      },
+      {
+        "stem": "A business borrows $8,000 at 7% simple annual interest for 3 years. How much total interest will it pay?",
+        "choices": ["$560", "$1,120", "$1,680", "$2,240"],
+        "answer": 2,
+        "explanation": "Simple interest = principal × rate × time = $8,000 × 0.07 × 3 = $1,680. $560 is only one year of interest."
+      },
+      {
+        "stem": "Using the Rule of 72, about how long will it take an investment earning 8% per year to double?",
+        "choices": ["6 years", "8 years", "9 years", "12 years"],
+        "answer": 2,
+        "explanation": "Divide 72 by the annual rate: 72 ÷ 8 = 9 years."
+      },
+      {
+        "stem": "How much must be invested today at 10% compounded annually to grow to $12,100 in 2 years?",
+        "choices": ["$9,680", "$10,000", "$10,890", "$11,000"],
+        "answer": 1,
+        "explanation": "Present value = $12,100 ÷ (1.10 × 1.10) = $12,100 ÷ 1.21 = $10,000. Check: $10,000 × 1.10 = $11,000, and $11,000 × 1.10 = $12,100."
+      },
+      {
+        "stem": "A project costs $100,000 today. Discounted at the company's required rate of return, its future cash inflows have a present value of $112,000. What should the company conclude?",
+        "choices": ["Accept it, because its NPV is $12,000", "Reject it, because its NPV is −$12,000", "Accept it, because its NPV is $112,000", "Reject it, because its inflows arrive in the future"],
+        "answer": 0,
+        "explanation": "NPV = $112,000 − $100,000 = $12,000. A positive NPV means the project earns more than the required return and adds value."
+      },
+      {
+        "stem": "A machine costs $45,000 and is expected to produce net cash inflows of $9,000 per year. What is its payback period?",
+        "choices": ["4.5 years", "5 years", "6 years", "9 years"],
+        "answer": 1,
+        "explanation": "Payback period = cost ÷ annual cash inflow = $45,000 ÷ $9,000 = 5 years."
+      },
+      {
+        "stem": "A company has fixed costs of $30,000. It sells its product for $25 per unit, and variable costs are $15 per unit. How many units must it sell to break even?",
+        "choices": ["1,200 units", "2,000 units", "3,000 units", "750 units"],
+        "answer": 2,
+        "explanation": "Contribution margin = $25 − $15 = $10 per unit, so break-even = $30,000 ÷ $10 = 3,000 units. Dividing by the price alone ($25) gives 1,200 and ignores variable costs."
+      },
+      {
+        "stem": "A department budgeted $4,000 for supplies but actually spent $4,600. How should this variance be described?",
+        "choices": ["$600 favorable", "$600 unfavorable", "15% favorable", "$4,600 unfavorable"],
+        "answer": 1,
+        "explanation": "Actual spending exceeded the budget by $4,600 − $4,000 = $600 (15% of the budget). Spending more than planned is an unfavorable variance."
+      },
+      {
+        "stem": "A company is planning which buildings and major machines to buy over the next five years. Which budget is it preparing?",
+        "choices": ["Cash budget", "Sales budget", "Operating budget", "Capital budget"],
+        "answer": 3,
+        "explanation": "A capital budget plans long-term asset purchases. An operating budget plans routine revenues and expenses for the year."
+      },
+      {
+        "stem": "Why is a monthly cash budget especially important for a seasonal business such as a swimwear shop?",
+        "choices": ["It shows the months when outflows will exceed inflows so financing can be arranged early", "It replaces the need to prepare an income statement at year-end", "It guarantees the business will earn a profit each month", "It records depreciation on the shop's long-term assets"],
+        "answer": 0,
+        "explanation": "A profitable seasonal business can still run short of cash in slow months. A cash budget reveals those gaps in advance so the owner can arrange a line of credit or build reserves."
+      }
+    ],
+    "flashcards": [
+      { "term": "Compound interest", "definition": "Interest earned on both the original principal and the interest already added in earlier periods." },
+      { "term": "Present value", "definition": "What a future amount of money is worth today, found by discounting it at a given rate of return." },
+      { "term": "Rule of 72", "definition": "A shortcut for estimating doubling time: divide 72 by the annual interest rate in percent." },
+      { "term": "Net present value (NPV)", "definition": "Present value of a project's future cash inflows minus its initial cost; a positive NPV means the project adds value." },
+      { "term": "Payback period", "definition": "The time needed for an investment's cash inflows to repay its original cost." },
+      { "term": "Break-even point", "definition": "The sales level at which total revenue equals total costs; in units, fixed costs divided by contribution margin per unit." }
+    ]
+  }
+]

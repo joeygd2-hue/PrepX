@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Principles of flight for model aircraft and drones",
+    "objective": "Explain how lift, control and stability work on fixed-wing models and multirotor drones, and use that knowledge to trim and improve a model.",
+    "body": "Flight Endurance asks you to build a light, rubber-powered model that stays aloft as long as possible, and Drone Challenge asks you to design, build and fly an unmanned aircraft through tasks. Both reward builders who understand why aircraft fly and how small adjustments change their behavior.\n\n**Four forces.** *Lift* acts upward, *weight* downward, *thrust* forward and *drag* backward. In steady, level flight at constant speed, lift equals weight and thrust equals drag.\n\n**How wings make lift.** An *airfoil* is a wing cross-section with a rounded *leading edge*, a thin *trailing edge* and usually some *camber* (curve). The straight line from leading edge to trailing edge is the *chord*. A wing turns the passing air downward, and by Newton's third law the air pushes the wing up; at the same time, air over the top moves faster at lower pressure (Bernoulli's principle). Lift rises with airspeed, wing area and *angle of attack*, the angle between the chord and the oncoming air. If the angle gets too steep, airflow separates from the wing and it *stalls*, suddenly losing lift. *Aspect ratio*, span squared divided by wing area, describes how long and slender a wing is; long, slender wings like a glider's produce less drag for the lift they make.\n\n**Axes and controls.** An aircraft rotates around three axes through its center of gravity:\n- *Roll* about the longitudinal axis (nose to tail), controlled by *ailerons*.\n- *Pitch* about the lateral axis (wingtip to wingtip), controlled by the *elevator*.\n- *Yaw* about the vertical axis, controlled by the *rudder*.\n\n**Stability and trim.** For a stable model, the *center of gravity* (CG) sits slightly ahead of the wing's center of lift; a tail-heavy model pitches up and stalls. *Dihedral*, wings angled upward from the root, helps a model level itself after it banks. Trim by test-gliding: if the model dives, add a little up-elevator or move the CG back slightly; if it climbs and stalls, do the opposite.\n\n**Rubber power.** A wound rubber motor stores energy; more turns store more energy until the rubber nears its breaking point. A model that climbs gently and spends that energy slowly usually stays up longer than one that shoots up and stalls.\n\n**Multirotors.** A quadcopter has no control surfaces. Its flight controller changes individual motor speeds. Two propellers spin clockwise and two counterclockwise so their torques cancel. Speeding up the rear motors tips the nose down to fly forward, and speeding up one diagonal pair while slowing the other makes the craft yaw.\n\nA common mistake is adding strength everywhere. Every extra gram raises the lift needed, so build each part only as strong as it must be.",
+    "examples": [
+      "A balsa glider noses up, slows and drops, then repeats. The builder adds a small piece of clay to the nose, moving the CG forward, and the next glide is long and smooth.",
+      "A wing with a 60 cm span and a 10 cm chord has an area of 60 x 10 = 600 cm², so its aspect ratio is 60² / 600 = 3600 / 600 = 6.",
+      "To turn a hovering quadcopter's nose to the right, the flight controller speeds up the two counterclockwise propellers and slows the two clockwise ones. The extra reaction torque rotates the frame clockwise as seen from above."
+    ],
+    "questions": [
+      {
+        "stem": "A model airplane is in steady, level flight at a constant speed. Which statement is true?",
+        "choices": [
+          "Lift is greater than weight, and thrust is greater than drag",
+          "Lift equals weight, and thrust equals drag",
+          "Thrust equals weight, and lift equals drag",
+          "Drag is zero because the speed is constant"
+        ],
+        "answer": 1,
+        "explanation": "With no acceleration, the forces balance: lift cancels weight vertically, and thrust cancels drag horizontally."
+      },
+      {
+        "stem": "A model glider's angle of attack keeps increasing until the model suddenly loses lift and drops. What happened?",
+        "choices": [
+          "The center of gravity moved forward",
+          "The rudder made the model yaw",
+          "The wing stalled because airflow separated from it",
+          "The dihedral angle was too large"
+        ],
+        "answer": 2,
+        "explanation": "Beyond a critical angle of attack, airflow can no longer follow the wing's upper surface and separates, so lift drops sharply. That is a stall."
+      },
+      {
+        "stem": "A pilot wants to raise the nose of a model airplane. Which control surface is used, and around which axis does the airplane rotate?",
+        "choices": [
+          "Elevator, around the lateral axis",
+          "Ailerons, around the longitudinal axis",
+          "Rudder, around the vertical axis",
+          "Elevator, around the vertical axis"
+        ],
+        "answer": 0,
+        "explanation": "Raising or lowering the nose is pitch, which happens around the lateral (wingtip-to-wingtip) axis and is controlled by the elevator."
+      },
+      {
+        "stem": "During a test glide, a model dives steeply into the ground. Which adjustment is most appropriate?",
+        "choices": [
+          "Add weight to the nose",
+          "Add down-elevator",
+          "Remove the dihedral from the wing",
+          "Add slight up-elevator or move the CG back slightly"
+        ],
+        "answer": 3,
+        "explanation": "A dive means the model is nose-heavy or trimmed nose-down. A little up-elevator or a slightly rearward CG raises the nose; nose weight and down-elevator make the dive worse."
+      },
+      {
+        "stem": "A wing has a span of 80 cm and an area of 800 cm². What is its aspect ratio?",
+        "choices": [
+          "0.1",
+          "10",
+          "8",
+          "64"
+        ],
+        "answer": 2,
+        "explanation": "Aspect ratio = span² / area = 80² / 800 = 6400 / 800 = 8."
+      },
+      {
+        "stem": "How does a quadcopter rotate (yaw) while hovering in place?",
+        "choices": [
+          "It speeds up one diagonal pair of propellers and slows the other pair",
+          "It moves a small rudder to one side",
+          "It speeds up all four motors by the same amount",
+          "It tilts ailerons on its arms in opposite directions"
+        ],
+        "answer": 0,
+        "explanation": "Diagonal pairs spin in opposite directions. Speeding up one pair and slowing the other keeps total lift the same but leaves an unbalanced torque that rotates the frame."
+      },
+      {
+        "stem": "What is the main purpose of dihedral on a free-flight model airplane?",
+        "choices": [
+          "To increase the thrust from the propeller",
+          "To help the model level its wings after it banks",
+          "To make the model stall at a lower angle of attack",
+          "To reduce the weight of the wing structure"
+        ],
+        "answer": 1,
+        "explanation": "Dihedral gives roll stability: when a wing drops, the geometry produces a force that rolls the model back toward level flight."
+      },
+      {
+        "stem": "A Flight Endurance team wants longer flights from the same rubber motor, wound the same number of turns. Which change is most likely to help?",
+        "choices": [
+          "Adding a heavier, stronger spar along the whole wing",
+          "Increasing the angle of attack until the wing stalls",
+          "Moving the CG far behind the wing",
+          "Removing unnecessary weight while keeping the model strong enough to fly"
+        ],
+        "answer": 3,
+        "explanation": "A lighter model needs less lift and less power to stay up, so the same stored energy lasts longer. Stalling and a far-aft CG both cut flights short."
+      }
+    ],
+    "flashcards": [
+      { "term": "Angle of attack", "definition": "The angle between a wing's chord line and the oncoming airflow; raising it increases lift until the wing stalls." },
+      { "term": "Stall", "definition": "A sudden loss of lift when the angle of attack is too steep and airflow separates from the wing." },
+      { "term": "Dihedral", "definition": "The upward angle of wings from root to tip, which helps an aircraft roll back to level after a bank." },
+      { "term": "Aspect ratio", "definition": "Wingspan squared divided by wing area; long, slender wings have a high aspect ratio and less induced drag." },
+      { "term": "Yaw", "definition": "Rotation of an aircraft about its vertical axis, turning the nose left or right." }
+    ]
+  }
+]

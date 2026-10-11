@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Word processing and document formatting",
+    "objective": "Format professional documents with paragraph settings, styles, page layout, tables and mail merge, choosing the right feature for each task.",
+    "body": "The Computer Applications test and its production portion both reward knowing exactly which feature solves a formatting problem. A document built with the right tools is faster to create, easier to edit and consistent from page to page.\n\n**Text and paragraph formatting.** *Character formatting* (font, size, bold, italic) applies to selected text. *Paragraph formatting* applies to whole paragraphs: alignment (left, center, right, justified), line spacing, spacing before and after, and indents. A *first-line indent* moves only the first line in. A *hanging indent* keeps the first line at the margin and indents the lines below it, the standard look for works-cited entries. *Tab stops* (left, center, right and decimal) align text in columns; a decimal tab lines numbers up on the decimal point.\n\n**Styles.** A *style* is a saved set of formatting, such as Heading 1. Styles keep formatting consistent, let you change every heading at once by modifying the style, and allow the program to build an automatic *table of contents* and navigation pane.\n\n**Page layout.** Page settings include margins, orientation (portrait or landscape), paper size and columns. A *section break* lets one part of a document use different settings, such as a single landscape page inside a portrait report, while a *page break* only starts a new page. *Headers and footers* repeat at the top and bottom of pages and often hold page numbers, which should be inserted as fields so they update automatically. *Widow and orphan control* prevents a single line of a paragraph from being stranded at the top or bottom of a page.\n\n**Tables and graphics.** Tables organize data in rows and columns; you can merge cells, sort rows and set a header row to repeat on every page. *Text wrapping* controls how text flows around an image.\n\n**Mail merge.** Mail merge combines a *main document*, such as a form letter, with a *data source*, such as a list of names and addresses, using *merge fields* like FirstName. It produces a personalized copy for every record and can also create labels and envelopes.\n\n**Collaboration.** *Track Changes* records insertions, deletions and formatting changes so a reviewer can accept or reject each one. *Comments* add notes in the margin without changing the text.\n\n**Common mistake:** pressing Enter repeatedly to push text onto a new page, or typing page numbers by hand. Use page breaks and page-number fields so the layout survives later edits.",
+    "examples": [
+      "A 20-page report needs a wide budget table on page 12. The writer inserts a section break before and after that page and sets only that section to landscape.",
+      "A club sends 150 personalized thank-you letters. The main document holds the letter text, a spreadsheet holds names and donation amounts, and mail merge produces 150 letters in one step.",
+      "Changing the Heading 1 style from 14-point to 16-point bold updates all 23 headings in a report at once, and the table of contents updates with one click."
+    ],
+    "questions": [
+      {
+        "stem": "A writer needs one landscape page to hold a wide table inside an otherwise portrait report. Which feature makes this possible?",
+        "choices": ["A page break before the table", "Section breaks before and after that page", "A hanging indent on the table", "A decimal tab stop"],
+        "answer": 1,
+        "explanation": "Section breaks let one part of a document have its own orientation and margins. A page break only starts a new page and cannot change orientation for part of the file."
+      },
+      {
+        "stem": "On a works-cited page, each entry's first line must start at the left margin and the following lines must be indented 0.5 inch. Which formatting should be used?",
+        "choices": ["First-line indent", "Right alignment", "Hanging indent", "Justified alignment"],
+        "answer": 2,
+        "explanation": "A hanging indent leaves the first line at the margin and indents the rest. A first-line indent does the opposite."
+      },
+      {
+        "stem": "An office must send the same letter to 300 customers, each with a personalized name and address. Which feature is most efficient?",
+        "choices": ["Mail merge", "Track Changes", "Find and Replace", "Text wrapping"],
+        "answer": 0,
+        "explanation": "Mail merge combines one main document with a data source to create a personalized copy for every record. Find and Replace would require editing each letter one at a time."
+      },
+      {
+        "stem": "A 40-page report uses built-in heading styles throughout. What can the writer now generate automatically?",
+        "choices": ["A mail merge data source", "A spreadsheet chart", "A database query", "A table of contents"],
+        "answer": 3,
+        "explanation": "The program reads heading styles to build and update a table of contents. Without styles, the writer would have to type the entries by hand."
+      },
+      {
+        "stem": "A lab report lists measurements such as 4.5, 112.75 and 19.125 that must line up on the decimal point. Which tab stop should be used?",
+        "choices": ["Decimal tab", "Center tab", "Left tab", "Right tab"],
+        "answer": 0,
+        "explanation": "A decimal tab aligns numbers on the decimal point no matter how many digits come before or after it. A right tab aligns the last digit, so these numbers would not line up."
+      },
+      {
+        "stem": "An editor wants to suggest wording changes in a draft so the author can accept or reject each edit individually. Which feature should the editor turn on?",
+        "choices": ["Widow and orphan control", "Section breaks", "Track Changes", "Mail merge"],
+        "answer": 2,
+        "explanation": "Track Changes records each insertion and deletion as a suggestion the author can accept or reject. Comments add notes but do not mark edits in the text."
+      },
+      {
+        "stem": "The last line of a paragraph appears alone at the top of the next page. Which setting prevents this?",
+        "choices": ["Text wrapping", "Landscape orientation", "A hanging indent", "Widow and orphan control"],
+        "answer": 3,
+        "explanation": "Widow and orphan control keeps at least two lines of a paragraph together at page breaks. The other settings do not affect how paragraphs split between pages."
+      },
+      {
+        "stem": "A long table continues across three pages. What is the best way to make its column headings appear at the top of each page?",
+        "choices": ["Retype the headings at the top of each page", "Set the header row to repeat on each page", "Place the headings in the document footer", "Merge all header cells into one cell"],
+        "answer": 1,
+        "explanation": "A repeating header row updates automatically if the table grows or shifts. Retyped headings end up in the wrong place when the content changes."
+      }
+    ],
+    "flashcards": [
+      { "term": "Section break", "definition": "A marker that divides a document so each part can have its own orientation, margins, columns or headers." },
+      { "term": "Hanging indent", "definition": "Paragraph format with the first line at the margin and the remaining lines indented, used for citations." },
+      { "term": "Style", "definition": "A named, saved set of formatting that can be applied and updated across a whole document at once." },
+      { "term": "Mail merge", "definition": "A feature that combines a main document with a data source to create personalized letters, labels or envelopes." },
+      { "term": "Track Changes", "definition": "A review feature that marks insertions and deletions so each edit can be accepted or rejected." }
+    ]
+  }
+]

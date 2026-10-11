@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Interacting with the judge",
+    "objective": "Open, converse, answer questions and close professionally while staying in your role.",
+    "body": "A role-play is a conversation, not a speech. Judges score how you communicate as well as what you know, and many rubrics include items for professional demeanor, clear communication and answering questions. Treat the judge as the person they are playing and the meeting as a real business conversation.\n\n**Open with purpose.** Make eye contact, smile and greet the judge by their role: 'Good morning, I'm Jordan, your new marketing assistant. Thank you for meeting with me about our spring sales plan.' Follow whatever greeting customs the event sets. A clear purpose statement tells the judge you understood the task.\n\n**Make it two-way.** Ask a question or two that a real employee would ask, such as whether a budget is firm, and check in after a major idea: 'Does that fit how you see the business?' Keep check-ins brief so they do not eat your time, and never ask the judge to supply the ideas you are there to provide.\n\n**Use your materials well.** If the event allows notes or simple visuals, glance at them for reminders and turn them toward the judge when showing a sketch or figure. Never read your notes word for word.\n\n**Answer judge questions calmly.** Judges often ask follow-up questions to see how you think. A simple method:\n1. Listen to the whole question and pause briefly.\n2. Answer directly in your first sentence.\n3. Give a reason or an example.\n4. Connect back to your recommendation.\n\nIf a question raises a concern, such as cost, acknowledge it, then respond with a fact, a lower-cost alternative or a way to test the idea first. If you truly do not know, say how you would find out rather than inventing facts.\n\n**Close strongly.** Summarize your main recommendations in two or three sentences, state a clear next step, thank the judge using their role and finish within the time limit. A confident close is the last thing the judge hears before scoring.\n\n**Stay in character.** Speak as your role throughout, even if you stumble. Correct the slip briefly and continue; judges reward a calm recovery.\n\nA common mistake is talking nonstop from start to finish, which leaves no room for questions and makes the meeting feel like a recital.",
+    "examples": [
+      "Opening: Good afternoon, Ms. Rivera. I'm Sam, the assistant manager. You asked for ideas to cut food waste, and I have three that could save about $400 a month.",
+      "The judge asks whether a loyalty app is too expensive. Response: It could be, so I suggest starting with a free punch-card program for three months, then deciding on an app if repeat visits rise."
+    ],
+    "questions": [
+      {
+        "stem": "The judge asks a follow-up question you did not expect. Which response pattern is strongest?",
+        "choices": [
+          "Answer directly, give a reason and link back to your plan",
+          "Restate your entire presentation from the beginning",
+          "Say the question is outside the scenario and move on",
+          "Give a long answer that covers every possible angle"
+        ],
+        "answer": 0,
+        "explanation": "A direct answer with a reason, tied back to your recommendation, shows clear thinking. Long or evasive answers waste time and suggest uncertainty."
+      },
+      {
+        "stem": "The judge, playing a store owner, says your main idea sounds expensive. What is the best response?",
+        "choices": [
+          "Insist that cost does not matter over the long run",
+          "Drop the idea and apologize for suggesting it",
+          "Acknowledge the concern and offer a lower-cost way to test the idea",
+          "Ask the judge how much money the store should spend"
+        ],
+        "answer": 2,
+        "explanation": "Acknowledging the concern and offering a low-risk test respects the owner's priority while keeping your recommendation alive. Dismissing or abandoning the idea both weaken your position."
+      },
+      {
+        "stem": "Which closing best fits a professional role-play with a store owner named Mr. Lee?",
+        "choices": [
+          "That's basically everything I had prepared, so I guess we can stop here. Thanks for listening to me today.",
+          "Before I finish, do you have any ideas of your own that you would like to add to my plan for the store?",
+          "I'm honestly not sure that went the way I planned, but I tried my best and hope it was helpful to you.",
+          "To recap, I recommend a loyalty card and a student night; I can have cost estimates to you by Friday. Thank you, Mr. Lee."
+        ],
+        "answer": 3,
+        "explanation": "A strong close recaps the recommendation, gives a next step and thanks the judge by role or name. The others sound unsure or hand the work back to the judge."
+      },
+      {
+        "stem": "Midway through a role-play, you realize you stated the wrong percentage for a proposed discount. What should you do?",
+        "choices": [
+          "Ignore it and hope the judge did not notice",
+          "Briefly correct the figure and continue in your role",
+          "Stop the role-play and ask to start over",
+          "Step out of character to explain that you were nervous"
+        ],
+        "answer": 1,
+        "explanation": "A quick, calm correction keeps your information accurate and shows composure. Restarting or breaking character disrupts the conversation far more than the slip did."
+      }
+    ],
+    "flashcards": [
+      { "term": "Purpose statement", "definition": "An opening sentence telling the judge why you are meeting and what you will deliver." },
+      { "term": "Check-in question", "definition": "A brief question to the judge, such as whether an idea fits their goals, that keeps the role-play two-way." },
+      { "term": "Objection handling", "definition": "Acknowledging a concern, then answering it with facts, an alternative or a low-risk test." },
+      { "term": "Role-play close", "definition": "An ending with a short recap, a clear next step and thanks to the judge by role or name." },
+      { "term": "Staying in character", "definition": "Speaking and acting as your assigned role for the whole role-play, including while recovering from mistakes." }
+    ]
+  }
+]

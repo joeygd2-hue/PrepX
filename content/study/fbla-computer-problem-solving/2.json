@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Operating systems, software and boot problems",
+    "objective": "Diagnose operating system and application problems with built-in tools, file system knowledge and the least destructive recovery options.",
+    "body": "Many problem-solving questions involve software rather than broken parts: a program that will not open, a system that will not boot, a file that will not copy or a device that fails after an update. Knowing which built-in tool answers which question lets you choose the right next step quickly.\n\n**What the operating system does.** The OS manages hardware, memory, files, running processes and user accounts. *Drivers* are small programs that let the OS talk to a specific device, so a new or updated driver is a prime suspect when a device misbehaves right after a change.\n\n**Built-in tools worth knowing.** These are the Windows names; macOS and Linux have equivalents.\n- *Task Manager* shows running processes and CPU, memory and disk use, and can end a frozen program.\n- *Device Manager* lists hardware and driver status. A warning icon marks a device with a problem, and *roll back driver* restores the previous version.\n- *Event Viewer* keeps timestamped logs of errors and warnings.\n- *System Restore* returns system files and settings to an earlier restore point without deleting personal documents.\n- *Safe Mode* starts the OS with only essential drivers and services, which helps show whether a third-party program or driver is causing the problem.\n\n**File systems and storage.** NTFS is the standard Windows file system and supports permissions and very large files. FAT32 works almost everywhere but limits a single file to 4 GB, which is why a large video will not copy to an older flash drive. exFAT removes that limit while staying portable. Keep free space on the system drive, because a nearly full drive slows updates and virtual memory.\n\n**Boot problems.** Firmware settings control the *boot order*. If a USB installer is ignored, the USB drive is probably lower in the boot order than the internal drive. If the OS fails to start after an update, try Safe Mode or startup repair before a full reinstall.\n\n**Updates and licensing.** Patches fix security holes and bugs, so keeping systems updated prevents many problems. Installing software requires a valid license; freeware can be free to use but is still copyrighted, and a single-user license covers one user or device, not a whole lab.\n\nA common mistake is reinstalling the operating system first. A reinstall erases settings and sometimes data, so tests expect you to try less destructive options, such as rolling back a driver, using a restore point or booting into Safe Mode, before wiping anything.",
+    "examples": [
+      "After a graphics driver update, a laptop screen flickers. Rolling back the driver in Device Manager restores the earlier version, the flicker stops, and the technician confirms the update was the cause.",
+      "A student cannot copy a 6 GB video to a flash drive with 20 GB free. The drive is formatted FAT32, whose single-file limit is 4 GB, so the student backs up the drive and reformats it as exFAT.",
+      "A PC freezes a minute after every login but runs normally in Safe Mode. That points to a startup program or third-party driver rather than failed hardware."
+    ],
+    "questions": [
+      {
+        "stem": "A webcam stopped working immediately after its driver was updated. Which action is the least disruptive fix to try first?",
+        "choices": ["Reinstall the operating system", "Roll back the driver in Device Manager", "Replace the motherboard", "Format the system drive"],
+        "answer": 1,
+        "explanation": "The problem began right after the driver update, so restoring the previous driver directly tests that theory without touching data or hardware. The other options are drastic and destructive."
+      },
+      {
+        "stem": "A 6 GB file will not copy to a flash drive that has plenty of free space. Which file system is the drive most likely using?",
+        "choices": ["NTFS", "exFAT", "FAT32", "APFS"],
+        "answer": 2,
+        "explanation": "FAT32 cannot store a single file larger than 4 GB, no matter how much free space remains. NTFS, exFAT and APFS all support much larger files."
+      },
+      {
+        "stem": "A program has frozen and will not respond to clicks. Which built-in Windows tool can end it without restarting the computer?",
+        "choices": ["Task Manager", "Disk Cleanup", "Event Viewer", "System Information"],
+        "answer": 0,
+        "explanation": "Task Manager lists running processes and can end an unresponsive one. Event Viewer only records errors, and Disk Cleanup removes temporary files."
+      },
+      {
+        "stem": "A computer works normally in Safe Mode but crashes during a regular startup. What does this most strongly suggest?",
+        "choices": ["The processor is physically damaged", "The monitor is failing", "The power supply is too weak for the case fans", "A startup program or third-party driver is causing the crashes"],
+        "answer": 3,
+        "explanation": "Safe Mode loads only essential drivers and services. If the system is stable there, the core hardware works, and something extra loaded during normal startup is the likely cause."
+      },
+      {
+        "stem": "A technician wants to see a timestamped record of the errors that occurred before a crash last night. Which tool should be used?",
+        "choices": ["Device Manager", "Task Manager", "Event Viewer", "Disk Management"],
+        "answer": 2,
+        "explanation": "Event Viewer stores system and application logs with dates and times. Task Manager shows only what is running now, and Device Manager shows current hardware status."
+      },
+      {
+        "stem": "A user wants to undo a system settings change made yesterday without losing documents created since then. Which option fits best?",
+        "choices": ["A clean install of the operating system", "System Restore to a restore point from before the change", "Formatting the drive and restoring an old full backup", "Resetting the PC and removing everything"],
+        "answer": 1,
+        "explanation": "System Restore rolls back system files and settings but leaves personal documents alone. Restoring an old full backup or resetting would erase the newer documents."
+      },
+      {
+        "stem": "A technician inserts a bootable USB installer, but the computer keeps loading the existing operating system. What should be checked first?",
+        "choices": ["The amount of installed RAM", "The screen resolution", "The default web browser", "The boot order in the firmware settings"],
+        "answer": 3,
+        "explanation": "The firmware boots from the first device in its boot order that holds an operating system. If the internal drive is listed first, the USB installer is skipped."
+      },
+      {
+        "stem": "Which statement about software licensing is accurate?",
+        "choices": ["Any program downloaded from the internet is in the public domain", "A single-user license lets a school install a program on every lab computer", "Freeware can be used at no cost but is still protected by copyright", "Shareware may be used forever without payment once installed"],
+        "answer": 2,
+        "explanation": "Freeware is free to use, but the author still owns the copyright and sets the terms. Downloads are not automatically public domain, single-user licenses cover one user or device, and shareware usually requires payment after a trial."
+      }
+    ],
+    "flashcards": [
+      { "term": "Device driver", "definition": "Software that lets the operating system communicate with and control a specific hardware device." },
+      { "term": "Safe Mode", "definition": "A startup option that loads only essential drivers and services, used to isolate software and driver problems." },
+      { "term": "System Restore", "definition": "A Windows tool that returns system files and settings to an earlier restore point without deleting personal files." },
+      { "term": "Boot order", "definition": "The firmware setting that lists, in order, which drives the computer checks for an operating system to start." },
+      { "term": "FAT32 vs. exFAT", "definition": "FAT32 limits single files to 4 GB; exFAT is also portable across devices but supports much larger files." }
+    ]
+  }
+]

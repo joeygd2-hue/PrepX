@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Mechanisms, control systems and manufacturing",
+    "objective": "Calculate mechanical advantage, torque and gear ratios, design input-process-output control systems with feedback, and choose suitable manufacturing processes for a prototype.",
+    "body": "Animatronics, System Control Technology and Manufacturing Prototype projects must move, react and be built repeatably. Judges ask how motion is transmitted, how the system decides what to do and how the parts were made.\n\n**Mechanical advantage.** Simple machines (lever, wheel and axle, pulley, inclined plane, wedge and screw) trade force for distance. *Ideal mechanical advantage* (IMA) equals input distance divided by output distance; for a lever it is the effort-arm length divided by the load-arm length. A lever with a 1.2 m effort arm and a 0.3 m load arm has an IMA of 4.\n\n**Gears and torque.** *Torque* is turning force: force × perpendicular distance from the pivot, measured in newton-meters. *Gear ratio* = driven gear teeth / driver gear teeth. A 12-tooth motor gear driving a 36-tooth gear gives a 3:1 ratio, so the output turns at one-third the speed with about three times the torque, minus friction losses. Two meshed gears turn in opposite directions; an *idler* gear placed between them makes the output turn the same way as the input without changing the overall ratio.\n\n**Motion converters.** A cam and follower turns rotation into a timed up-and-down motion, cranks and linkages create arcs and back-and-forth motion, and a rack and pinion converts rotation into straight-line motion.\n\n**Control systems.** Every control system has *inputs* (sensors such as limit switches, light sensors and ultrasonic distance sensors), a *process* (usually a microcontroller running a program) and *outputs* (actuators such as DC motors, servos, stepper motors, lights and solenoids).\n- *Open-loop* control runs without checking results, like a toaster on a timer.\n- *Closed-loop* control uses *feedback* from a sensor to adjust the output, like a thermostat or a robot that stops when its distance sensor reads 10 cm.\nServos rotate to a commanded angle, stepper motors move in precise steps, and standard DC motors spin continuously, with speed often set by *pulse-width modulation* (PWM), which switches power on and off rapidly. A 25% duty cycle means power is on one-quarter of the time.\n\n**Manufacturing processes.** *Subtractive* processes remove material (milling, turning, drilling, laser cutting); *additive* processes build parts layer by layer (3D printing); *forming* reshapes material (bending, molding, casting); *joining* connects parts (fasteners, welding, adhesives). *Jigs* and *fixtures* hold and guide work so every copy is identical, and *quality control* inspects parts against their tolerances.\n\nA common mistake is choosing a motor before calculating the torque the mechanism needs. Size the drive from the load first, then add a safety margin.",
+    "examples": [
+      "An animatronic jaw needs 0.6 N·m of torque, and the chosen motor supplies 0.2 N·m. A gear ratio of at least 0.6 / 0.2 = 3:1, such as a 10-tooth pinion driving a 30-tooth gear, is needed, plus extra margin for friction.",
+      "A conveyor model uses a light sensor to detect each box, a microcontroller to count them and a motor that stops after 12 boxes: input, process and output, with the sensor providing feedback.",
+      "A team making 50 identical phone stands builds a drilling jig so every hole lands in the same place, then checks every tenth part with calipers against the drawing tolerances."
+    ],
+    "questions": [
+      {
+        "stem": "A 15-tooth driver gear meshes with a 45-tooth driven gear. If the driver turns at 300 rpm, how fast does the driven gear turn?",
+        "choices": ["33 rpm", "100 rpm", "150 rpm", "900 rpm"],
+        "answer": 1,
+        "explanation": "The gear ratio is 45 / 15 = 3:1, so the driven gear turns at 300 / 3 = 100 rpm. Multiplying by 3 instead gives 900 rpm, which would be a speed increase."
+      },
+      {
+        "stem": "A lever's effort is applied 90 cm from the fulcrum, and the load sits 15 cm from the fulcrum. What is the lever's ideal mechanical advantage?",
+        "choices": ["0.17", "6", "75", "105"],
+        "answer": 1,
+        "explanation": "IMA = effort arm / load arm = 90 / 15 = 6. Flipping the ratio gives about 0.17, which would mean the lever reduces force."
+      },
+      {
+        "stem": "A 40 N force is applied perpendicular to a wrench handle 0.25 m from the center of a bolt. What torque is produced?",
+        "choices": ["10 N·m", "40.25 N·m", "160 N·m", "0.00625 N·m"],
+        "answer": 0,
+        "explanation": "Torque = force × perpendicular distance = 40 × 0.25 = 10 N·m. Dividing 40 by 0.25 gives the incorrect 160."
+      },
+      {
+        "stem": "Which system is an example of closed-loop control?",
+        "choices": ["A sprinkler that runs for 20 minutes every morning, rain or shine", "A toaster that heats for a fixed time", "A greenhouse fan that turns on when a temperature sensor reads above 30 °C and off when it drops below", "A wind-up music box that plays until the spring unwinds"],
+        "answer": 2,
+        "explanation": "Closed-loop control measures the result with a sensor and adjusts the output. The sprinkler and toaster run on fixed timing without feedback, which is open-loop."
+      },
+      {
+        "stem": "An animatronic eye must rotate to specific angles between 0° and 180° on command and hold each position. Which actuator is best suited?",
+        "choices": ["A continuous-rotation DC motor with no sensor", "A standard servo motor", "A solenoid", "A piezo buzzer"],
+        "answer": 1,
+        "explanation": "A standard servo uses internal position feedback to move to and hold a commanded angle, typically within about 180°. A plain DC motor just spins, and a solenoid only pushes or pulls."
+      },
+      {
+        "stem": "An idler gear is added between a driver gear and a driven gear. What is its effect?",
+        "choices": ["It doubles the gear ratio", "It makes the driven gear turn the same direction as the driver, with the overall ratio unchanged", "It reverses the driver gear's direction", "It removes all friction from the gear train"],
+        "answer": 1,
+        "explanation": "Each mesh reverses direction, so adding one gear makes the output match the input's direction. The idler's tooth count cancels out of the overall ratio."
+      },
+      {
+        "stem": "A bracket is made by removing material from a solid aluminum block on a CNC mill. Which category of manufacturing process is this?",
+        "choices": ["Additive", "Forming", "Joining", "Subtractive"],
+        "answer": 3,
+        "explanation": "Milling cuts material away from a larger piece, which is subtractive manufacturing. 3D printing is additive, and bending or casting is forming."
+      },
+      {
+        "stem": "A microcontroller drives a DC motor with PWM at a 75% duty cycle from a 12 V supply. What is the approximate average voltage delivered to the motor?",
+        "choices": ["3 V", "9 V", "12 V", "16 V"],
+        "answer": 1,
+        "explanation": "Power is on 75% of the time, so the average is 0.75 × 12 = 9 V. 3 V would correspond to a 25% duty cycle."
+      }
+    ],
+    "flashcards": [
+      { "term": "Gear ratio", "definition": "The number of teeth on the driven gear divided by the number on the driver gear; a higher ratio means slower output and more torque." },
+      { "term": "Torque", "definition": "A turning force equal to force times the perpendicular distance from the pivot, measured in newton-meters." },
+      { "term": "Closed-loop control", "definition": "A control system that uses sensor feedback to compare the actual result with the target and adjust its output." },
+      { "term": "Pulse-width modulation (PWM)", "definition": "Switching power on and off rapidly, with the on-time percentage (duty cycle) setting the average power to a motor or LED." },
+      { "term": "Jig", "definition": "A custom device that holds a part and guides a tool so every copy is made in exactly the same way." }
+    ]
+  }
+]

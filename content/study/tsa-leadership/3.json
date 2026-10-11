@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Parliamentary procedure: meetings, motions and voting",
+    "objective": "Run a business meeting and process motions correctly using Robert's Rules of Order.",
+    "body": "Chapter Team tests a group's ability to conduct a business meeting with correct parliamentary procedure, and the same skills help any officer run a fair, efficient chapter meeting. Most organizations follow *Robert's Rules of Order Newly Revised*. Its goals are simple: the majority decides, the minority is heard, and one item is handled at a time.\n\n**Basic terms.** A *quorum* is the minimum number of members who must be present to conduct business; if the bylaws are silent, it is a majority of the members. The *chair* presides, recognizes speakers and stays neutral during debate. The *secretary* keeps the *minutes*, a record of what was done, not what was said.\n\n**Order of business.** A typical agenda runs: call to order, reading and approval of minutes, officer reports, committee reports, unfinished business, new business, announcements and adjournment.\n\n**Handling a main motion.**\n1. A member obtains the floor and says 'I move that...'\n2. Another member seconds.\n3. The chair states the motion.\n4. Members debate and may amend it.\n5. The chair puts the question (takes the vote).\n6. The chair announces the result and what happens next.\n\n**Voting.** A *majority vote* is more than half of the votes cast, not counting abstentions. A *two-thirds vote* is required for motions that limit members' rights, such as the *previous question* (closing debate), limiting or extending debate, and suspending the rules. Routine matters can pass by *general consent*: 'If there is no objection...'\n\n**Precedence.** Motions have a rank. While a motion is pending, only higher-ranking motions may be made. From highest to lowest:\n- *Privileged:* fix the time to adjourn, adjourn, recess, raise a question of privilege, call for the orders of the day.\n- *Subsidiary:* lay on the table, previous question, limit or extend debate, postpone to a certain time, refer to a committee, amend, postpone indefinitely.\n- *Main motion* (lowest).\n\n*Incidental* motions, such as a point of order, an appeal, a division of the assembly or a motion to suspend the rules, have no fixed rank; they arise from the business at hand and are settled before returning to it.\n\n**Amendments** may be primary or secondary (an amendment to the amendment), never a third level, and must be germane to the motion they change.\n\nA common mistake is using *lay on the table* to kill a motion. Its proper use is to set a motion aside temporarily for something urgent. To dispose of a main motion without a direct vote on it, use *postpone indefinitely*.",
+    "examples": [
+      "A chapter has 40 members and its bylaws do not set a quorum. At least 21 members must be present to conduct business, because a quorum defaults to a majority of the membership.",
+      "On a motion to buy a 3D printer, 25 members vote yes, 20 vote no and 5 abstain. With 45 votes cast, a majority is any number above 22.5, so 23 yes votes are enough and the motion passes with 25.",
+      "During debate on a fundraiser, a member moves the previous question. It is seconded and voted on without debate. Of 30 votes cast, 20 are yes, exactly two-thirds, so debate closes and the chair immediately takes the vote on the fundraiser."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter has 36 members, and its bylaws do not define a quorum. Under Robert's Rules, what is the minimum number of members who must be present to conduct business?",
+        "choices": [
+          "12",
+          "18",
+          "19",
+          "24"
+        ],
+        "answer": 2,
+        "explanation": "When the bylaws are silent, a quorum is a majority of the membership. Half of 36 is 18, and a majority must be more than half, so 19 members are needed."
+      },
+      {
+        "stem": "On a main motion, 28 members vote yes, 26 vote no and 6 abstain. What is the result under a majority-vote rule?",
+        "choices": [
+          "It passes because 28 is more than half of the 54 votes cast",
+          "It fails because 28 is not more than half of the 60 members present",
+          "It fails because abstentions are counted as no votes",
+          "It passes only if the chair votes to break a tie"
+        ],
+        "answer": 0,
+        "explanation": "A majority is more than half of the votes cast, and abstentions are not votes cast. 28 + 26 = 54 votes, half is 27, and 28 is more than 27, so the motion passes."
+      },
+      {
+        "stem": "A member wants to end debate and vote immediately on the pending motion. Which motion should she make, and what vote does it need?",
+        "choices": [
+          "Previous question, which needs a majority vote",
+          "Previous question, which needs a two-thirds vote",
+          "Lay on the table, which needs a two-thirds vote",
+          "Adjourn, which needs a majority vote"
+        ],
+        "answer": 1,
+        "explanation": "The previous question closes debate. Because it takes away members' right to keep debating, it requires a two-thirds vote."
+      },
+      {
+        "stem": "A main motion and a primary amendment to it are pending. Which of the following motions is in order now?",
+        "choices": [
+          "Postpone the main motion indefinitely",
+          "Introduce a new main motion on another topic",
+          "Offer an amendment unrelated to the main motion",
+          "Refer the main motion to a committee"
+        ],
+        "answer": 3,
+        "explanation": "Refer to a committee ranks above amend, so it can be made while the amendment is pending. Postpone indefinitely ranks below amend, a new main motion ranks lowest, and amendments must be germane."
+      },
+      {
+        "stem": "A member wants to dispose of a pending main motion without the assembly taking a direct vote on it. Which motion is designed for that purpose?",
+        "choices": [
+          "Postpone indefinitely",
+          "Lay on the table",
+          "Recess",
+          "Division of the assembly"
+        ],
+        "answer": 0,
+        "explanation": "Postpone indefinitely kills the main motion without a direct vote on it. Lay on the table only sets a motion aside temporarily, and using it to kill a motion is a misuse."
+      },
+      {
+        "stem": "During debate, the chair allows a member to speak at length about a topic unrelated to the pending motion. What should another member do to have the error corrected?",
+        "choices": [
+          "Move to adjourn the meeting",
+          "Call for a division of the assembly",
+          "Rise to a point of order",
+          "Move to postpone the motion indefinitely"
+        ],
+        "answer": 2,
+        "explanation": "A point of order calls attention to a breach of the rules, here debate that is not germane, and the chair must rule on it. It may interrupt a speaker and needs no second."
+      },
+      {
+        "stem": "After a voice vote, the chair announces that a motion carried, but a member believes the result was too close to judge by sound. What should the member do?",
+        "choices": [
+          "Move to lay the motion on the table",
+          "Call for a division of the assembly",
+          "Rise to a point of information about the budget",
+          "Move to amend the motion that just passed"
+        ],
+        "answer": 1,
+        "explanation": "A division of the assembly requires the chair to retake the vote as a rising (standing) vote. Any single member can demand it, and it needs no second."
+      },
+      {
+        "stem": "A main motion, a primary amendment and a secondary amendment are all pending. A member moves to change the wording of the secondary amendment. How should the chair respond?",
+        "choices": [
+          "Accept it and vote on it before the secondary amendment",
+          "Ask the secretary to rewrite the main motion",
+          "Treat it as a new main motion",
+          "Rule it out of order because a third-level amendment is not allowed"
+        ],
+        "answer": 3,
+        "explanation": "Robert's Rules allow only primary and secondary amendments. An amendment to a secondary amendment would be a third level, so it is out of order."
+      }
+    ],
+    "flashcards": [
+      { "term": "Quorum", "definition": "The minimum number of members who must be present to conduct business; a majority of members if the bylaws are silent." },
+      { "term": "Previous question", "definition": "A subsidiary motion that closes debate and brings the pending question to an immediate vote; it needs a two-thirds vote." },
+      { "term": "Point of order", "definition": "An incidental motion that calls attention to a breach of the rules so the chair can rule on it; it needs no second." },
+      { "term": "Division of the assembly", "definition": "A demand by any member that an unclear voice or hand vote be retaken as a rising vote." },
+      { "term": "General consent", "definition": "Approving a routine matter without a formal vote when the chair asks if there is any objection and none is raised." }
+    ]
+  }
+]

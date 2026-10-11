@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Forensic biology: blood, DNA profiling and time of death",
+    "objective": "Choose and interpret forensic tests for blood and DNA, calculate bloodstain impact angles, and estimate time since death as a range.",
+    "body": "Biological evidence often decides a mock crime scene, and the test expects you to know what each lab method can and cannot show. The key skill is matching the right test to the question being asked.\n\n**Presumptive versus confirmatory tests.** A *presumptive* test is quick and sensitive but can give false positives. The *Kastle-Meyer* (phenolphthalein) test turns pink in the presence of blood, and *luminol* glows where traces of blood may have been cleaned up. A *confirmatory* test establishes the substance's identity. A positive presumptive result means 'possibly blood,' not 'blood.'\n\n**Blood typing.** ABO type depends on antigens on red blood cells. Type A blood clumps (agglutinates) with anti-A serum, type B with anti-B, type AB with both, and type O with neither. Rh-positive blood also clumps with anti-Rh (anti-D) serum. Blood type is class evidence.\n\n**Bloodstain patterns.** A drop that strikes a surface at 90° leaves a round stain. As the angle becomes shallower, the stain stretches into an ellipse with a tail pointing in the direction of travel. The impact angle can be estimated with sin θ = width / length. Lines traced back through several stains meet at the *area of convergence*, which locates the source in two dimensions.\n\n**DNA profiling.** Forensic labs compare *short tandem repeats* (STRs), short DNA sequences repeated a different number of times in different people. Each person has two alleles at each locus, one from each parent. Matching many independent loci makes a coincidental match extremely unlikely, and only identical twins share the same nuclear DNA profile. *Mitochondrial DNA*, inherited from the mother, works on hair shafts, bones and degraded samples, but maternal relatives share it.\n\n**Time-of-death clues.**\n- *Rigor mortis*: muscles stiffen, usually beginning within a few hours, peaking around 12 hours, and fading so that it is generally gone within about 24 to 48 hours.\n- *Livor mortis*: blood settles to the lowest parts of the body, causing purplish discoloration that becomes fixed after roughly 8 to 12 hours. Fixed livor on the upper side of a body suggests it was moved.\n- *Algor mortis*: the body cools toward room temperature at a rate affected by clothing, body size and surroundings.\n\nAll three give ranges, not exact times.\n\nA common mistake is treating a single test as proof. Pair presumptive tests with confirmatory ones, use several loci for DNA, and report time of death as an estimated window.",
+    "examples": [
+      "A bloodstain measures 6 mm wide and 12 mm long. Since sin θ = 6 / 12 = 0.5, the drop struck the surface at about 30°.",
+      "A sample clumps with anti-A serum and anti-Rh serum but not with anti-B serum, so the blood is type A positive.",
+      "At one STR locus the evidence shows alleles 12 and 15. Suspect 1 has 12 and 15; suspect 2 has 12 and 14. Suspect 2 is excluded, while suspect 1 is not excluded and more loci must be compared."
+    ],
+    "questions": [
+      {
+        "stem": "A drop of blood struck a floor at an angle of 30° and left a stain 4 mm wide. Using sin θ = width / length and sin 30° = 0.5, how long is the stain?",
+        "choices": ["2 mm", "4 mm", "8 mm", "12 mm"],
+        "answer": 2,
+        "explanation": "Length = width / sin θ = 4 / 0.5 = 8 mm. Multiplying instead of dividing gives 2 mm, which would make the stain shorter than it is wide."
+      },
+      {
+        "stem": "A blood sample clumps with anti-B serum but does not clump with anti-A or anti-Rh serum. What is the blood type?",
+        "choices": ["B positive", "B negative", "A negative", "AB negative"],
+        "answer": 1,
+        "explanation": "Clumping with anti-B shows B antigens, no clumping with anti-A rules out A antigens, and no clumping with anti-Rh means Rh negative."
+      },
+      {
+        "stem": "A Kastle-Meyer test on a dark stain turns pink. What is the most accurate conclusion?",
+        "choices": ["The stain is definitely human blood", "The stain may be blood, and a confirmatory test is needed", "The stain is not blood", "The stain belongs to the victim"],
+        "answer": 1,
+        "explanation": "Kastle-Meyer is a presumptive test that can react with some non-blood substances, and it cannot tell human from animal blood or identify a person."
+      },
+      {
+        "stem": "An elongated bloodstain on a hallway floor has a narrow tail pointing toward the front door. What does the tail indicate?",
+        "choices": ["The drop was traveling toward the front door", "The drop was traveling away from the front door", "The drop fell straight down at 90°", "The blood came from a cleaned-up area"],
+        "answer": 0,
+        "explanation": "The tail of an elongated stain points in the direction the drop was moving when it hit the surface."
+      },
+      {
+        "stem": "A single-source bloodstain shows alleles 9 and 11 at one STR locus. Which suspect can NOT be excluded at this locus?",
+        "choices": ["A suspect with alleles 9 and 12", "A suspect with alleles 10 and 11", "A suspect with alleles 11 and 11", "A suspect with alleles 9 and 11"],
+        "answer": 3,
+        "explanation": "A single source must have exactly the alleles 9 and 11 at this locus. Every other suspect is missing one of those alleles or has an extra one, so they are excluded."
+      },
+      {
+        "stem": "The only biological evidence at a scene is a hair shaft with no root. Which DNA analysis is most likely to give results, and what is its main limitation?",
+        "choices": ["Nuclear STR analysis; it cannot separate siblings", "Mitochondrial DNA analysis; maternal relatives share the same profile", "Mitochondrial DNA analysis; it is inherited only from the father", "Blood typing; it works only on fresh samples"],
+        "answer": 1,
+        "explanation": "Hair shafts contain little nuclear DNA but many copies of mitochondrial DNA. Because mtDNA passes from mother to child, it cannot distinguish people related through the maternal line."
+      },
+      {
+        "stem": "A body found lying on its back shows fixed livor mortis on the chest and face. What does this most likely indicate?",
+        "choices": ["The person died within the last 30 minutes", "The body lay face down for hours after death and was later turned over", "Rigor mortis has not yet begun", "The person died from blood loss"],
+        "answer": 1,
+        "explanation": "Blood settles to the lowest parts of the body and becomes fixed after several hours. Fixed livor on the upward-facing side means the body was in a different position earlier."
+      },
+      {
+        "stem": "A body is found with full rigor mortis throughout the jaw and limbs. Which time-since-death range is most consistent with this finding?",
+        "choices": ["About 30 minutes", "About 8 to 24 hours", "About 4 days", "About 2 weeks"],
+        "answer": 1,
+        "explanation": "Rigor usually develops over the first several hours, peaks around 12 hours and fades within about 24 to 48 hours. Minutes is too early and several days is too late."
+      }
+    ],
+    "flashcards": [
+      { "term": "Presumptive test", "definition": "A quick, sensitive screening test, such as Kastle-Meyer for blood, that suggests but does not prove what a substance is." },
+      { "term": "Short tandem repeat (STR)", "definition": "A short DNA sequence repeated a variable number of times; comparing STR counts at many loci creates a DNA profile." },
+      { "term": "Mitochondrial DNA", "definition": "DNA inherited from the mother, useful for hair shafts, bones and degraded samples but shared by maternal relatives." },
+      { "term": "Livor mortis", "definition": "Purplish discoloration as blood settles to the lowest parts of a body after death, becoming fixed after several hours." },
+      { "term": "Area of convergence", "definition": "The point where lines drawn back through several bloodstains meet, showing in two dimensions where the blood source was." }
+    ]
+  }
+]

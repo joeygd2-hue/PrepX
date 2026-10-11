@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Deposit accounts, loans and interest",
+    "objective": "Calculate simple and compound interest, compare deposit and loan products, and evaluate a borrower using the five Cs of credit.",
+    "body": "Many banking role plays put you across the desk from a customer choosing an account or applying for a loan. Tests check the same skills through calculations and scenarios, so learn the products, the math and how lenders judge risk.\n\n**Deposit products.**\n- *Checking (transaction) accounts*: easy access by debit card, check and electronic transfer; usually little or no interest.\n- *Savings and money market accounts*: pay interest; money market accounts often require higher balances.\n- *Certificates of deposit (CDs)*: a fixed rate for a fixed term, with a penalty for early withdrawal; longer terms usually pay more.\nAll are covered by deposit insurance at insured institutions, within the limits.\n\n**Interest math.**\n- *Simple interest* = principal × rate × time.\n- *Compound interest* earns interest on earlier interest: future value = P × (1 + r/n) raised to the power n × t, where n is the number of compounding periods per year.\n- *APY (annual percentage yield)* shows the yearly return including compounding, so savers can compare accounts fairly. *APR (annual percentage rate)* is the yearly cost of borrowing, including certain fees, so borrowers can compare loans.\n- The *Rule of 72*: years to double ≈ 72 ÷ the annual interest rate.\n\n**Loan products.** *Secured loans*, such as auto loans and mortgages, are backed by collateral the lender can claim; *unsecured loans*, such as most credit cards and personal loans, rely on the borrower's promise and usually cost more. *Installment loans* have fixed payments; *revolving credit* lets the borrower reuse a credit limit. In an *amortizing* loan, each payment covers that month's interest first and the rest reduces principal, so early payments are mostly interest.\n\n**The five Cs of credit.**\n1. *Character*: credit history and reliability.\n2. *Capacity*: income available to repay, often judged with the *debt-to-income ratio* (monthly debt payments ÷ gross monthly income).\n3. *Capital*: savings and net worth.\n4. *Collateral*: assets pledged to secure the loan.\n5. *Conditions*: the loan's purpose and the state of the economy.\n\n**Payments.** *ACH* transfers move direct deposits and bill payments in batches; *wire transfers* move money quickly and are very hard to reverse, which is why scammers ask for them.\n\nThe most common mistake is comparing a savings account's APY with a loan's APR as if they measured the same thing. APY measures what you earn; APR measures what you pay.",
+    "examples": [
+      "$2,000 earning 5% simple interest for 3 years earns $2,000 × 0.05 × 3 = $300.",
+      "$1,000 at 6% compounded annually grows to $1,000 × 1.06 × 1.06 = $1,123.60 after 2 years, $3.60 more than simple interest would pay.",
+      "An applicant earns $5,000 a month and pays $1,350 for rent, $400 for a car loan and $150 for a student loan. Debt-to-income = $1,900 ÷ $5,000 = 38%."
+    ],
+    "questions": [
+      {
+        "stem": "A customer deposits $4,000 at 3% simple interest for 4 years. How much interest is earned?",
+        "choices": ["$120", "$480", "$502.04", "$4,480"],
+        "answer": 1,
+        "explanation": "Simple interest = $4,000 × 0.03 × 4 = $480. The $502.04 figure would result from annual compounding, and $4,480 is the ending balance, not the interest."
+      },
+      {
+        "stem": "$5,000 is deposited at 4% interest compounded annually. What is the balance after 2 years?",
+        "choices": ["$5,400", "$5,200", "$5,408", "$5,416"],
+        "answer": 2,
+        "explanation": "Year 1: $5,000 × 1.04 = $5,200. Year 2: $5,200 × 1.04 = $5,408. Simple interest would give only $5,400."
+      },
+      {
+        "stem": "Using the Rule of 72, about how many years will it take money to double at 8% annual interest?",
+        "choices": ["8 years", "12 years", "6 years", "9 years"],
+        "answer": 3,
+        "explanation": "Years to double ≈ 72 ÷ 8 = 9 years. The rule is a quick estimate for compound growth."
+      },
+      {
+        "stem": "Two savings accounts both advertise a 4.00% interest rate, but one compounds daily and the other compounds annually. Which figure should a customer compare to see which pays more?",
+        "choices": ["The annual percentage yield", "The annual percentage rate", "The minimum balance requirement", "The account's routing number"],
+        "answer": 0,
+        "explanation": "APY includes the effect of compounding, so the daily-compounding account will show a slightly higher APY. APR describes the cost of borrowing, not savings earnings."
+      },
+      {
+        "stem": "A loan applicant earns $6,000 per month in gross income and has monthly debt payments of $1,500 for housing, $420 for a car loan and $180 for a student loan. What is the applicant's debt-to-income ratio?",
+        "choices": ["25%", "35%", "32%", "286%"],
+        "answer": 1,
+        "explanation": "Total monthly debt = $1,500 + $420 + $180 = $2,100, and $2,100 ÷ $6,000 = 35%. Counting only housing gives the incomplete 25%."
+      },
+      {
+        "stem": "A lender reviews the applicant's credit report to see how reliably past debts were paid. Which of the five Cs of credit is being evaluated?",
+        "choices": ["Capacity", "Capital", "Character", "Collateral"],
+        "answer": 2,
+        "explanation": "Character reflects willingness to repay, shown by credit history. Capacity is the income available to repay, judged with measures such as debt-to-income."
+      },
+      {
+        "stem": "Why does an unsecured personal loan usually carry a higher interest rate than an auto loan to the same borrower?",
+        "choices": ["Unsecured loans always have longer terms by law", "Auto loans are insured by the FDIC", "Unsecured loans are not covered by the Truth in Lending Act", "No collateral backs the loan, so the lender takes more risk"],
+        "answer": 3,
+        "explanation": "With an auto loan the lender can repossess the car; with an unsecured loan it has no asset to claim, so it charges more for the added risk. The FDIC insures deposits, not loans."
+      },
+      {
+        "stem": "A customer asks to wire $3,000 to an online acquaintance who says the money is needed urgently. What is the best response from a bank employee?",
+        "choices": ["Explain that wires are very hard to reverse and point out common scam warning signs before proceeding", "Process the wire immediately because the customer has enough funds", "Tell the customer that wire transfers are fully insured against fraud", "Suggest sending the money in cash by mail instead"],
+        "answer": 0,
+        "explanation": "Urgent requests from online contacts are a classic scam pattern, and wired money is rarely recoverable. Educating the customer protects them while respecting their decision."
+      }
+    ],
+    "flashcards": [
+      { "term": "Certificate of deposit (CD)", "definition": "A deposit that pays a fixed rate for a fixed term, with a penalty for withdrawing early." },
+      { "term": "Annual percentage yield (APY)", "definition": "The yearly rate earned on a deposit including the effect of compounding." },
+      { "term": "Rule of 72", "definition": "A shortcut estimating the years for money to double: 72 divided by the annual interest rate." },
+      { "term": "Debt-to-income ratio", "definition": "Total monthly debt payments divided by gross monthly income; a key measure of a borrower's capacity." },
+      { "term": "Five Cs of credit", "definition": "Character, capacity, capital, collateral and conditions: the factors lenders use to judge a borrower." }
+    ]
+  }
+]

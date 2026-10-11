@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Planning a project: guidelines, design process and timeline",
+    "objective": "Turn event guidelines into a plan, use the design process to choose a solution, and schedule milestones backward from the deadline.",
+    "body": "Project and portfolio events, from engineering builds and video productions to software, architectural models and investment portfolios, reward a strong product *and* evidence of a thoughtful process. Many entries lose points, or are disqualified, not because the work is weak but because it broke a rule nobody read closely.\n\n**Read the guidelines and rubric first.** Before brainstorming, list every requirement: eligibility, this year's theme or challenge, size or time limits, file formats, required documentation, submission deadlines and anything that triggers a penalty or disqualification. Then study the rubric to see how points are divided. If documentation is worth as much as the finished product, plan your time that way. Always work from the current year's guidelines.\n\n**Separate constraints from criteria.** *Constraints* are limits a solution must meet, such as a maximum size, a budget cap or required materials. *Criteria* are qualities that make one solution better than another, such as durability, appeal or speed. A design that misses a constraint fails; among designs that meet every constraint, the one that scores best on the criteria wins.\n\n**Use the design process.** Define the problem, research existing solutions, brainstorm several ideas, choose one, build a prototype, test it and improve it. Testing and iteration are where judges look for evidence of real engineering or creative thinking, so plan more than one round.\n\n**Choose with a decision matrix.** List your criteria, give each a weight based on its importance, score every option, multiply each score by its weight and add the results. The matrix turns a gut feeling into a documented decision you can explain to judges.\n\n**Plan backward from the deadline.** Start at the submission date and subtract time for a buffer, documentation and testing to find when building must be finished. Set weekly milestones, give each task an owner on a team, and back up digital files in more than one place.\n\nThe most common mistake is starting to build on day one. A week spent understanding the rules, the rubric and the problem saves many weeks of rework later.",
+    "examples": [
+      "Decision matrix with appearance (weight 2) and ease of building (weight 1): a design scoring 4 and 5 earns 4 × 2 + 5 × 1 = 13 points, while one scoring 5 and 2 earns 5 × 2 + 2 × 1 = 12, so the first design edges ahead.",
+      "A video team's film must stay under the running-time limit (a constraint) and should be as engaging as possible (a criterion). A cut that runs 10 seconds over fails the constraint no matter how engaging it is.",
+      "An entry is due at the end of week 12. One buffer week, two documentation weeks and three testing weeks mean the prototype must be finished by the end of week 6, since 12 − 1 − 2 − 3 = 6."
+    ],
+    "questions": [
+      {
+        "stem": "A team's dragster must fit within maximum dimensions set by the guidelines, and the team wants it to be as fast as possible. How should the team classify these two requirements?",
+        "choices": [
+          "The dimensions are a constraint and speed is a criterion",
+          "Both are criteria to be balanced against each other",
+          "The dimensions are a criterion and speed is a constraint",
+          "Both are constraints that every entry must meet"
+        ],
+        "answer": 0,
+        "explanation": "A required size limit is a constraint: the design fails if it is not met. Speed is a criterion because it ranks designs that already meet the constraints."
+      },
+      {
+        "stem": "A team weights durability × 3 and cost × 2 and scores four designs from 1 to 5. A: durability 3, cost 4. B: durability 5, cost 3. C: durability 2, cost 5. D: durability 4, cost 1. Which design has the highest weighted total?",
+        "choices": [
+          "Design B, with 21 points",
+          "Design A, with 17 points",
+          "Design C, with 16 points",
+          "Design D, with 14 points"
+        ],
+        "answer": 0,
+        "explanation": "B: 5 × 3 + 3 × 2 = 21. A: 3 × 3 + 4 × 2 = 17. C: 2 × 3 + 5 × 2 = 16. D: 4 × 3 + 1 × 2 = 14. Design B scores highest."
+      },
+      {
+        "stem": "An entry is due at the end of week 10. After building, the team plans 3 weeks of testing, then 2 weeks to finish its documentation, and keeps the final week as a buffer. By the end of which week must building be finished?",
+        "choices": [
+          "Week 4",
+          "Week 5",
+          "Week 6",
+          "Week 7"
+        ],
+        "answer": 0,
+        "explanation": "Work backward: 10 − 1 − 2 − 3 = 4. The buffer is week 10, documentation is weeks 8–9 and testing is weeks 5–7, so building must end in week 4."
+      },
+      {
+        "stem": "A team has just learned this year's design challenge for a project event. What should it do first?",
+        "choices": [
+          "Read the full guidelines and rubric, listing every requirement and penalty",
+          "Start building its first idea while the team's enthusiasm is high",
+          "Buy materials in bulk so the team will not run short later",
+          "Find last year's winning entry and copy its overall approach"
+        ],
+        "answer": 0,
+        "explanation": "Understanding the requirements and scoring first prevents disqualification and wasted work. Building or buying before reading the rules risks a design that breaks a constraint."
+      }
+    ],
+    "flashcards": [
+      { "term": "Constraint", "definition": "A limit a design must meet to be acceptable, such as a maximum size, a budget cap or a required material." },
+      { "term": "Criterion", "definition": "A quality used to judge how good a design is, such as durability, cost or appeal; the plural is criteria." },
+      { "term": "Design process", "definition": "An iterative cycle of defining a problem, researching, brainstorming, prototyping, testing and improving." },
+      { "term": "Decision matrix", "definition": "A table that scores options against weighted criteria to choose and justify the best solution." },
+      { "term": "Backward planning", "definition": "Scheduling from the deadline backward so every phase, plus a buffer, fits before the due date." }
+    ]
+  }
+]

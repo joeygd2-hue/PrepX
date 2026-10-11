@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Building and delivering a winning speech",
+    "objective": "Structure, rehearse and deliver a prepared or extemporaneous speech that holds an audience and fits the time limit.",
+    "body": "Speaking events such as Prepared Presentation and Extemporaneous Speech are scored on two things at once: what you say and how you say it. Judges reward a clear message, logical organization, confident delivery and staying within the time limit. A brilliant idea delivered in a rambling way usually loses to a simpler idea delivered with focus.\n\n**Start with one core message.** Before outlining, write a single sentence that states your point, your *thesis*. Every story, statistic and slide should support it. If a detail does not, cut it.\n\n**Use a simple structure.**\n1. *Introduction:* an attention-getter (a question, short story or striking fact), the thesis and a preview of your main points.\n2. *Body:* two or three main points, each with support such as an example, data or an expert view, linked by clear *transitions* ('That cost leads to a second problem...').\n3. *Conclusion:* a summary of the points and a memorable closing line that echoes the opening.\n\n**Adapt to the format.** In a prepared speech you can polish wording and rehearse with visual aids, but speak from brief notes rather than reading a script. In extemporaneous speaking you get a topic and a short prep period, so use a repeatable plan: choose your thesis in the first minute, jot three points with one example each, write your first and last sentences, then rehearse the opening silently. If you are teaching a lesson, as in Future Technology and Engineering Teacher, state a measurable objective ('students will be able to...') and check for understanding before you finish.\n\n**Deliver with purpose.**\n- *Eye contact:* sweep the whole room and hold each look for a sentence or so.\n- *Voice:* vary pace, volume and pitch; pause before and after key ideas.\n- *Body:* stand balanced, use natural gestures and avoid pacing or fidgeting.\n- *Filler words:* replace 'um' and 'like' with a short silent pause.\n\n**Visual aids support the speaker; they do not replace you.** Use few words per slide, large readable type and one idea per slide. If the audience is reading, they are not listening.\n\n**Practice against the clock.** Rehearse aloud, time yourself and decide in advance what you would cut if you run long. Going over the limit usually costs points.\n\nA common mistake is memorizing a script word for word. When you lose your place, you freeze. Memorize your structure, your opening and your closing, and speak the middle from key words.",
+    "examples": [
+      "An extemporaneous competitor draws the topic 'Should schools limit phone use in class?' She spends the first minute choosing a thesis (limit phones during instruction, allow them at lunch), then writes three points, distraction, safety and teaching digital responsibility, each with one example.",
+      "A Prepared Presentation speaker rehearses a talk with a 5-minute limit and finishes in 5:40. He cuts the weakest of three supporting stories and one slide of statistics, bringing the talk to 4:35 and leaving room for pauses.",
+      "A presenter replaces a slide containing 90 words with one photo and a six-word headline, and moves the details into what she says aloud."
+    ],
+    "questions": [
+      {
+        "stem": "A speaker's outline has an attention-getter, three main points and a closing line, but after the speech the audience could not say what it was about. What is most likely missing?",
+        "choices": [
+          "A clear thesis that every main point supports",
+          "More statistics inside each main point",
+          "A longer story in the introduction",
+          "Extra slides with detailed text"
+        ],
+        "answer": 0,
+        "explanation": "The thesis is the one-sentence message that ties the points together. Without it, even well-supported points feel unconnected, and adding more detail does not fix that."
+      },
+      {
+        "stem": "You draw an extemporaneous speaking topic and have a short preparation period. What is the best first step?",
+        "choices": [
+          "Write out the entire speech word for word",
+          "Decide on a one-sentence thesis that answers the topic",
+          "Sketch visuals to hold up during the speech",
+          "Memorize as many statistics on the subject as possible"
+        ],
+        "answer": 1,
+        "explanation": "Choosing a thesis first gives every later decision a direction. Writing a full script wastes limited prep time and encourages reading instead of speaking."
+      },
+      {
+        "stem": "Which sentence works best as a transition between two main points?",
+        "choices": [
+          "Thank you all for listening to my presentation today.",
+          "My name is Jordan, and I will be speaking about energy.",
+          "Beyond the cost to families, the new policy also affects local businesses.",
+          "According to a recent survey, most students walk to school."
+        ],
+        "answer": 2,
+        "explanation": "A transition links the point just finished (cost to families) to the next one (local businesses). The other sentences are a closing, an introduction and a piece of evidence."
+      },
+      {
+        "stem": "During rehearsal, a speaker says 'um' between almost every sentence. What is the most effective fix?",
+        "choices": [
+          "Speak faster so there is no room for fillers",
+          "Read the speech directly from a full script",
+          "Add more slides to glance at between sentences",
+          "Replace each filler with a brief silent pause"
+        ],
+        "answer": 3,
+        "explanation": "A short pause sounds confident and gives the speaker time to think, which is what the filler was doing. Speeding up usually creates more fillers, not fewer."
+      },
+      {
+        "stem": "A speech must run 3 to 5 minutes. In rehearsal it runs 5 minutes 45 seconds. Which change best fixes the problem while protecting the message?",
+        "choices": [
+          "Cut the weakest supporting example and its slide",
+          "Talk faster through the entire speech",
+          "Skip the conclusion to save time",
+          "Remove the thesis from the introduction"
+        ],
+        "answer": 0,
+        "explanation": "Cutting the least important support shortens the speech while keeping the thesis, structure and conclusion intact. Rushing hurts clarity, and dropping the conclusion or thesis weakens the message."
+      },
+      {
+        "stem": "Which slide design best supports a speaker during a presentation?",
+        "choices": [
+          "Full paragraphs so the audience can read along",
+          "One idea per slide with a short headline and a large image",
+          "Several charts on each slide to show all the data at once",
+          "Small text so more detail fits on every slide"
+        ],
+        "answer": 1,
+        "explanation": "Simple slides keep attention on the speaker and make one point at a time easy to see. Dense text and crowded charts compete with the speaker for attention."
+      },
+      {
+        "stem": "A competitor plans to memorize her 5-minute speech word for word. What is the main risk of this approach?",
+        "choices": [
+          "Judges award no points for memorized content",
+          "A memorized speech always runs too short",
+          "Losing one word can make her freeze and break her flow",
+          "Memorizing prevents her from using any visual aids"
+        ],
+        "answer": 2,
+        "explanation": "Word-for-word memorization depends on recalling an exact sequence, so a single slip can derail the speech. Memorizing the structure, opening and closing is more resilient."
+      },
+      {
+        "stem": "A Future Technology and Engineering Teacher competitor is planning a short lesson. Which lesson objective is written most effectively?",
+        "choices": [
+          "Students will understand gears.",
+          "Students will appreciate the importance of engineering.",
+          "Students will learn a lot about simple machines.",
+          "Students will be able to calculate the gear ratio of a two-gear system."
+        ],
+        "answer": 3,
+        "explanation": "A strong objective names an observable, measurable action (calculate a gear ratio), so the teacher can check whether students met it. 'Understand' and 'appreciate' cannot be directly observed."
+      }
+    ],
+    "flashcards": [
+      { "term": "Thesis", "definition": "The single sentence that states the main point of a speech, which every part of the speech supports." },
+      { "term": "Attention-getter", "definition": "An opening question, short story or striking fact that draws the audience in before the thesis." },
+      { "term": "Transition", "definition": "A phrase or sentence that links one main point to the next so the audience can follow the structure." },
+      { "term": "Extemporaneous speech", "definition": "A speech delivered from brief notes after a short preparation period on an assigned topic." },
+      { "term": "Measurable objective", "definition": "A lesson goal stated as an observable action, such as 'students will be able to calculate,' that can be checked." }
+    ]
+  }
+]

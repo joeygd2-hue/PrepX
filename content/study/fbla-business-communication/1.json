@@ -1,0 +1,69 @@
+[
+  {
+    "title": "The communication process, listening and nonverbal cues",
+    "objective": "Trace a message through the communication process, choose a fitting channel, and use listening and nonverbal skills to prevent misunderstanding.",
+    "body": "Every item on the Business Communication test, and every minute of a speaking event, rests on one idea: communication succeeds only when the receiver understands the message the sender intended. Test items often ask where a message broke down, and judges reward speakers who adapt to their audience.\n\n**The communication process.** A *sender* has an idea and *encodes* it into words, images or gestures. The message travels through a *channel*, such as a meeting, an email or a phone call. The *receiver* *decodes* it and returns *feedback*, which tells the sender whether the meaning arrived. Anything that distorts the message is *noise*:\n- *Physical noise*: a loud printer or a poor room setup.\n- *Psychological noise*: stress, bias or distraction in the receiver's mind.\n- *Semantic noise*: jargon or words the receiver does not understand.\n- *Technical noise*: a dropped video call or a garbled audio feed.\n\n**Choosing a channel.** *Rich* channels, such as face-to-face talks and video calls, carry tone, facial expression and instant feedback. *Lean* channels, such as email and printed notices, suit routine facts and create a record. Use a rich channel for sensitive, complex or emotional messages and a lean channel for simple information people need to keep.\n\n**Direction of flow.** *Downward* communication goes from managers to employees (policies, instructions). *Upward* communication goes from employees to managers (reports, suggestions). *Lateral* communication moves between peers in different departments. The *grapevine* is the informal network; it is fast but can spread rumors.\n\n**Listening.** Hearing is physical; listening is mental. *Active listening* means giving full attention, paraphrasing to confirm meaning, asking clarifying questions and holding judgment until the speaker finishes. Common barriers are planning your reply while the other person talks and pretending to pay attention.\n\n**Nonverbal communication.** Eye contact, posture, gestures, facial expressions, use of personal space (*proxemics*) and voice qualities such as pitch, rate and volume (*paralanguage*) can support or contradict your words. When verbal and nonverbal signals conflict, listeners usually trust the nonverbal ones. Meanings also vary across cultures; steady eye contact signals confidence in some cultures and disrespect in others, so learn about your audience first.\n\n**Common mistake:** assuming a message was understood because it was sent. Without feedback the sender cannot know whether decoding matched encoding, so ask a question or invite a quick summary.",
+    "examples": [
+      "A manager announces that a team is being reorganized in a two-line email. Because the news is sensitive, a meeting where employees can ask questions, followed by a written summary for the record, would communicate far better.",
+      "A trainer tells new sales staff to \"clear the cache and check the API logs,\" and the staff look confused. That is semantic noise; the fix is plain language or a quick definition of each term.",
+      "In an impromptu speech, a competitor says \"I'm excited to be here\" while staring at the floor with crossed arms. Judges notice the mismatch and believe the body language more than the words."
+    ],
+    "questions": [
+      {
+        "stem": "A new employee misunderstands her instructions because the supervisor used several technical acronyms she had never heard. Which type of noise caused the breakdown?",
+        "choices": ["Physical noise", "Semantic noise", "Technical noise", "Psychological noise"],
+        "answer": 1,
+        "explanation": "Semantic noise comes from words or jargon the receiver cannot decode. Physical noise would be an outside sound or distraction in the environment."
+      },
+      {
+        "stem": "In the communication process, which step turns the sender's idea into words, symbols or gestures?",
+        "choices": ["Decoding", "Feedback", "Encoding", "Channel selection"],
+        "answer": 2,
+        "explanation": "Encoding is how the sender puts an idea into a form that can be transmitted. Decoding is the receiver's job of interpreting that form."
+      },
+      {
+        "stem": "A department head must tell a long-time employee that her position is being moved to another location next month. Which channel is most appropriate for the first conversation?",
+        "choices": ["A group email to the whole department", "A private face-to-face meeting", "A memo left on her desk", "A post on the company intranet"],
+        "answer": 1,
+        "explanation": "Sensitive, personal news calls for a rich channel that carries tone and allows immediate questions. Lean written channels can follow up with details for the record."
+      },
+      {
+        "stem": "A sales associate submits a weekly performance report to the regional manager. Which direction of communication does this represent?",
+        "choices": ["Downward", "Lateral", "External", "Upward"],
+        "answer": 3,
+        "explanation": "Messages from employees to people above them in the organization flow upward. Downward communication runs from managers to employees."
+      },
+      {
+        "stem": "Which listener behavior best demonstrates active listening during a client meeting?",
+        "choices": ["Paraphrasing the client's main concern and asking a clarifying question", "Preparing a rebuttal while the client is still talking", "Checking messages to appear relaxed and informal", "Interrupting to share a similar story from another client"],
+        "answer": 0,
+        "explanation": "Paraphrasing and clarifying confirm that the listener decoded the message correctly. Preparing a rebuttal mid-sentence is a classic listening barrier."
+      },
+      {
+        "stem": "A presenter tells the audience she is confident in her plan, but her voice shakes and she avoids eye contact. What is the audience most likely to do?",
+        "choices": ["Trust her words because spoken content outweighs delivery", "Give more weight to her nonverbal cues than to her words", "Ignore both her words and her nonverbal cues", "Assume nervous speakers always have stronger plans"],
+        "answer": 1,
+        "explanation": "When verbal and nonverbal messages conflict, listeners tend to believe the nonverbal signals. That is why delivery practice matters as much as content."
+      },
+      {
+        "stem": "Which example is paralanguage?",
+        "choices": ["Standing farther away from a client to respect personal space", "Pointing at a chart while explaining it", "Slowing down and lowering pitch to stress a key point", "Adding a bar graph to a slide"],
+        "answer": 2,
+        "explanation": "Paralanguage covers vocal qualities such as pitch, rate and volume. Personal space is proxemics, and pointing is a gesture."
+      },
+      {
+        "stem": "A U.S. team will host partners from a culture where saying a direct \"no\" is considered rude. Which approach best supports clear communication?",
+        "choices": ["Press for an immediate yes-or-no answer to save time", "Use casual slang so the meeting feels more relaxed", "Skip written follow-up so the partners do not feel pressured", "Watch for indirect cues and confirm agreements in writing afterward"],
+        "answer": 3,
+        "explanation": "In cultures that rely on context and indirect signals, careful observation plus a written summary reduces misunderstanding without causing offense."
+      }
+    ],
+    "flashcards": [
+      { "term": "Encoding", "definition": "The sender's step of turning an idea into words, symbols or gestures that can be transmitted." },
+      { "term": "Feedback", "definition": "The receiver's response, which shows the sender whether the intended meaning was understood." },
+      { "term": "Noise", "definition": "Anything that distorts or blocks a message, whether physical, psychological, semantic or technical." },
+      { "term": "Active listening", "definition": "Giving full attention, paraphrasing, asking clarifying questions and holding judgment until the speaker finishes." },
+      { "term": "Paralanguage", "definition": "Vocal qualities such as pitch, rate, volume and tone that add meaning beyond the words themselves." }
+    ]
+  }
+]

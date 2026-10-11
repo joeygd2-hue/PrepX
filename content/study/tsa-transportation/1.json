@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Forces, motion and dragster design",
+    "objective": "Apply Newton's laws, drag and friction to design and analyze a fast, stable CO2 dragster.",
+    "body": "Dragster Design challenges you to build a car powered by a CO2 cartridge that races down a guided track. Every car gets roughly the same push from its cartridge, so the winners are the cars that waste the least of it. Judges also reward drawings and design decisions you can justify with physics.\n\n**Newton's laws on the track.**\n1. *First law (inertia):* an object stays at rest or in steady motion unless a net force acts on it. A heavier car has more inertia, so it is harder to get moving.\n2. *Second law:* F = ma, so acceleration equals net force divided by mass. With the same thrust, a lighter car accelerates faster.\n3. *Third law:* every action has an equal and opposite reaction. Gas rushing backward out of the cartridge pushes the car forward.\n\n**Drag.** Air resistance grows with the *square* of speed: double the speed and drag roughly quadruples. Drag also depends on *frontal area* and the *drag coefficient*, a number that describes how streamlined a shape is. Reduce drag with a small frontal area, a rounded nose, smooth sanded and painted surfaces and a tapered rear that lets air flow back together smoothly. Wheels and axles sticking out into the airflow add drag too.\n\n**Friction.** *Rolling resistance* and axle friction steal energy. Use straight, polished axles, round wheels that spin freely, low-friction bearings or bushings, and careful alignment so wheels never rub the body or the track guide.\n\n**Mass and balance.** Remove material wherever the rules and strength allow, since a lighter car accelerates faster. The body must still meet the event's minimum dimension and mass rules and survive the launch. Keep the *center of mass* low and centered between the wheels so the car tracks straight.\n\n**Measuring performance.** *Average speed* equals distance divided by time. *Acceleration* is the change in velocity divided by the time it takes. Time several runs for every design change so you know whether the change actually helped.\n\n**Design process.** Sketch several ideas, make dimensioned working drawings with top and side views, then build, test and refine. Document each change and its result for the judges.\n\nA common mistake is chasing a dramatic shape while ignoring wheel alignment. A car that wobbles or rubs loses more time to friction than its styling saves.",
+    "examples": [
+      "A dragster covers a 20-meter track in 1.25 seconds, so its average speed is 20 / 1.25 = 16 m/s.",
+      "With a thrust of 6 N, a 0.050 kg dragster could accelerate at 6 / 0.050 = 120 m/s² (ignoring drag and friction), while a 0.060 kg car would reach only 6 / 0.060 = 100 m/s².",
+      "A team rounds the nose, sands the body smooth and realigns a rubbing wheel, cutting its average run time over five trials from 1.31 to 1.24 seconds."
+    ],
+    "questions": [
+      {
+        "stem": "Two dragsters receive the same 8 N average thrust. Car A has a mass of 0.040 kg and Car B a mass of 0.050 kg. Ignoring drag and friction, what is Car A's acceleration?",
+        "choices": [
+          "160 m/s²",
+          "200 m/s²",
+          "320 m/s²",
+          "0.005 m/s²"
+        ],
+        "answer": 1,
+        "explanation": "a = F / m = 8 / 0.040 = 200 m/s². Car B would reach 8 / 0.050 = 160 m/s², which shows why lighter cars accelerate faster."
+      },
+      {
+        "stem": "Which of Newton's laws best explains why gas escaping backward from the CO2 cartridge drives the car forward?",
+        "choices": [
+          "The first law",
+          "The second law",
+          "The law of universal gravitation",
+          "The third law"
+        ],
+        "answer": 3,
+        "explanation": "The third law states that every action has an equal and opposite reaction: the cartridge pushes gas backward, and the gas pushes the car forward."
+      },
+      {
+        "stem": "If a dragster's speed doubles, how does its aerodynamic drag change, assuming the same shape and air conditions?",
+        "choices": [
+          "It becomes about four times as large",
+          "It doubles",
+          "It stays the same",
+          "It is cut in half"
+        ],
+        "answer": 0,
+        "explanation": "Drag is proportional to the square of speed, so doubling speed multiplies drag by 2 x 2 = 4."
+      },
+      {
+        "stem": "A dragster covers a 20-meter track in 1.6 seconds. What is its average speed?",
+        "choices": [
+          "32 m/s",
+          "16 m/s",
+          "12.5 m/s",
+          "0.08 m/s"
+        ],
+        "answer": 2,
+        "explanation": "Average speed = distance / time = 20 / 1.6 = 12.5 m/s. Multiplying (20 x 1.6 = 32) or dividing the wrong way (1.6 / 20 = 0.08) gives the distractors."
+      },
+      {
+        "stem": "Which design change most directly reduces a dragster's aerodynamic drag?",
+        "choices": [
+          "Adding a flat vertical plate across the front",
+          "Reducing frontal area and rounding the nose",
+          "Using wider wheels that stick out past the body",
+          "Leaving the body rough and unsanded"
+        ],
+        "answer": 1,
+        "explanation": "Drag depends on frontal area and how streamlined the shape is. A smaller, rounded front lets air flow around the car with less resistance."
+      },
+      {
+        "stem": "During testing, a car slows sharply and leaves scrape marks on its body next to one wheel. What should the team fix first?",
+        "choices": [
+          "The color of the paint on the nose",
+          "The decals on the sides of the body",
+          "The length of the tether line",
+          "The wheel and axle alignment so the wheel stops rubbing"
+        ],
+        "answer": 3,
+        "explanation": "Scrape marks show the wheel is rubbing the body, which adds friction and wastes energy. Realigning the axle removes the source of the slowdown."
+      },
+      {
+        "stem": "Why should a dragster's center of mass be kept low and centered between the wheels?",
+        "choices": [
+          "It helps the car stay stable and track straight",
+          "It increases the thrust produced by the cartridge",
+          "It increases the car's frontal area",
+          "It raises the car's speed by adding mass"
+        ],
+        "answer": 0,
+        "explanation": "A low, centered center of mass keeps weight evenly on the wheels, so the car is less likely to wobble or lift. Thrust comes from the cartridge, not the mass distribution."
+      },
+      {
+        "stem": "A team adds 10 grams of decorative parts to its finished dragster. With everything else unchanged, what is the most likely effect?",
+        "choices": [
+          "Higher acceleration because the car has more inertia",
+          "No change, because mass does not affect speed",
+          "Lower acceleration and a slower run",
+          "More thrust from the cartridge"
+        ],
+        "answer": 2,
+        "explanation": "With the same thrust, a larger mass means a smaller acceleration (a = F / m), so the run takes longer. More inertia makes the car harder, not easier, to speed up."
+      }
+    ],
+    "flashcards": [
+      { "term": "Newton's second law", "definition": "Acceleration equals net force divided by mass (F = ma), so the same force speeds up a lighter object more." },
+      { "term": "Drag coefficient", "definition": "A number describing how streamlined a shape is; a lower value means less air resistance for the same frontal area." },
+      { "term": "Frontal area", "definition": "The area of a vehicle seen head-on, facing the airflow; a smaller frontal area produces less drag." },
+      { "term": "Rolling resistance", "definition": "The force that resists a wheel rolling, caused by deformation and friction where the wheel meets the surface." },
+      { "term": "Center of mass", "definition": "The point where an object's mass can be treated as concentrated; its location affects balance and stability." }
+    ]
+  }
+]

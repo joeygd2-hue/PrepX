@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Professional presence, questions and follow-up",
+    "objective": "Make a strong first impression, communicate confidently, handle difficult moments, and close and follow up professionally.",
+    "body": "Two candidates with equally strong answers rarely earn the same score. The difference is usually presence: how they enter, listen, carry themselves and close. Judges in interview events often score these behaviors directly, so they deserve as much practice as your answers.\n\n**The first minute.** Arrive early. Enter with good posture, smile, make eye contact, introduce yourself and return a firm handshake if one is offered. Wait to be invited to sit. Dress at least one step more formally than the job's everyday dress, in clean, well-fitting business attire.\n\n**Nonverbal communication.** Sit upright and lean slightly forward to show interest. Keep your hands relaxed and visible, and avoid fidgeting with pens, hair or jewelry. Keep natural eye contact; in a panel interview, look mainly at the person who asked the question while including the others. Nodding and brief responses show you are listening.\n\n**Difficult moments.**\n- *You do not know an answer.* Pause, be honest, and share what you do know or how you would find out. Experienced judges spot bluffing easily.\n- *You stumble.* Take a breath, say \"Let me rephrase that,\" and continue. A calm recovery shows composure.\n- *An inappropriate question.* Interviewers should not ask about religion, national origin, disability, marital status, family plans or similar personal topics unrelated to the job. You can politely redirect to your ability to do the job, for example: \"I'm fully able to meet the schedule this role requires.\"\n\n**Ask your own questions.** When invited, ask one or two thoughtful questions based on your research, such as what success looks like in the first three months or what the team is working on now. Saying \"No, I think you covered everything\" signals low interest. Save pay and vacation questions for after an offer.\n\n**Close and follow up.** Thank the interviewer, restate your interest in one sentence, and shake hands again if appropriate. Within about 24 hours, send a brief thank-you email or note that mentions something specific from the conversation and reaffirms your fit for the role.\n\nA common mistake is relaxing too early. The interview is not over when the questions end; your closing, your exit and your follow-up all shape the final impression.",
+    "examples": [
+      "An interviewer asks, 'Do you plan to start a family soon?' The candidate stays pleasant and says, 'Right now I'm focused on building my career in health care, and I can fully commit to this position's schedule.'",
+      "Thank-you email sent that evening: 'Thank you for meeting with me today. I enjoyed hearing about your new patient check-in system, and I'm excited about the chance to help it run smoothly.'",
+      "Asked 'Do you have any questions for us?', a candidate asks, 'What qualities have your most successful interns shared?' instead of 'How much vacation would I get?'"
+    ],
+    "questions": [
+      {
+        "stem": "During an interview, a candidate is asked whether they plan to have children soon. Which response is most professional?",
+        "choices": [
+          "Politely redirect to their commitment and ability to meet the job's requirements",
+          "Refuse to continue and walk out of the interview immediately",
+          "Give a detailed explanation of their future family plans",
+          "Ask the interviewer the same personal question in return"
+        ],
+        "answer": 0,
+        "explanation": "Family plans are not an appropriate interview topic, and a calm redirect keeps the focus on qualifications while staying professional. Walking out or turning the question around damages the impression."
+      },
+      {
+        "stem": "When should a candidate send a thank-you message after an interview?",
+        "choices": [
+          "Within about 24 hours",
+          "Only after receiving a job offer",
+          "One to two weeks later, to stay memorable",
+          "Only if the interview seemed to go poorly"
+        ],
+        "answer": 0,
+        "explanation": "A prompt thank-you, sent within about a day, reinforces interest while the conversation is still fresh. Waiting weeks or for an offer misses the chance to influence the decision."
+      },
+      {
+        "stem": "At the end of an interview, the judge asks, 'Do you have any questions for me?' Which response is best?",
+        "choices": [
+          "What would success look like for someone in this role after the first three months?",
+          "No, I think you already covered everything I wanted to know.",
+          "How soon after starting could I take my first vacation?",
+          "How did my answers compare with the other candidates today?"
+        ],
+        "answer": 0,
+        "explanation": "A question about success in the role shows genuine interest and forward thinking. Declining to ask signals low interest, and vacation or ranking questions come across as self-focused."
+      },
+      {
+        "stem": "A judge asks a technical question that the candidate cannot answer. What is the best response?",
+        "choices": [
+          "Acknowledge it honestly, share related knowledge and explain how they would find the answer",
+          "Give a confident-sounding guess and hope the judge does not notice",
+          "Stay silent until the judge moves on to a different question",
+          "Say the question is unfair and ask the judge for an easier one"
+        ],
+        "answer": 0,
+        "explanation": "Honesty plus a plan to find the answer shows integrity and problem-solving. Bluffing is easy for judges to detect and undermines trust in every other answer."
+      }
+    ],
+    "flashcards": [
+      { "term": "Nonverbal communication", "definition": "Messages sent through posture, eye contact, facial expressions, gestures and appearance rather than words." },
+      { "term": "Panel interview", "definition": "An interview conducted by two or more interviewers at once, often taking turns asking questions." },
+      { "term": "Thank-you note", "definition": "A brief message sent within about a day of an interview that thanks the interviewer and reaffirms interest." },
+      { "term": "Redirecting a question", "definition": "Politely steering an inappropriate or off-topic question back to your qualifications for the job." },
+      { "term": "Business attire", "definition": "Clean, well-fitting professional clothing, such as a suit or blazer with dress pants or a skirt, worn for interviews." }
+    ]
+  }
+]

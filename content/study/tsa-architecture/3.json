@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Structural design: loads, forces and efficient structures",
+    "objective": "Identify the loads and internal forces acting on a structure, apply stress and efficiency calculations, and improve a model bridge or tower based on how it fails.",
+    "body": "In Structural Design and Engineering, your model is loaded until it fails, and the score usually depends on *structural efficiency*: the load carried divided by the structure's own mass. The ideas below explain why some very light structures hold surprising loads.\n\n**Loads.** *Dead loads* are permanent weight: the structure itself and fixed materials. *Live loads* change over time: people, furniture, vehicles and stored goods. *Environmental loads* include wind, snow and earthquakes. Engineers design with a *factor of safety*; a member that fails at 3,000 N but is expected to carry only 1,000 N has a factor of safety of 3.\n\n**Internal forces.**\n- *Tension* pulls on a member and tries to stretch it.\n- *Compression* pushes and tries to shorten it. Long, slender compression members fail by *buckling*, bowing sideways long before the material itself crushes.\n- *Shear* makes layers of material slide past each other.\n- *Bending* puts one face of a beam in compression and the opposite face in tension. In a simply supported beam loaded from above, the top is squeezed and the bottom is stretched.\n- *Torsion* twists a member.\n\n**Trusses and triangles.** A triangle cannot change shape unless one of its sides changes length, so triangulated *trusses* such as the Warren, Pratt and Howe are rigid and light. In an ideal truss loaded only at its joints, each member carries pure tension or pure compression. Wood is strong in tension along the grain, so thin strips can serve as tension members, while compression members need larger cross sections or bracing. Bracing that halves a column's unbraced length raises its buckling capacity roughly fourfold, because buckling capacity is inversely proportional to the square of that length.\n\n**Stress.** Stress = force / cross-sectional area. The same force on a smaller cross section creates higher stress, which is why a notch or a sloppy cut weakens a member.\n\n**Joints and testing.** Most model failures start at joints, not in the middle of members. Use tight-fitting joints with full glue contact, add gussets where several members meet, and line members up so forces pass through the center of each joint. Test prototypes, record exactly where and how they fail, and redesign that spot.\n\nA common mistake is adding material everywhere after a failure. That raises mass and lowers efficiency; strengthen only the member or joint that actually failed.",
+    "examples": [
+      "A balsa bridge with a mass of 25 g holds 15 kg (15,000 g) before failing. Its efficiency is 15,000 / 25 = 600.",
+      "A tower fails when one tall leg bows sideways at mid-height. Adding a light horizontal brace at mid-height halves the unbraced length, which raises the leg's buckling capacity about four times while adding only a gram or two.",
+      "A hanging sign pulls on a steel rod with a force of 6,000 N. If the rod's cross section is 50 square millimeters, the stress is 6,000 / 50 = 120 N per square millimeter."
+    ],
+    "questions": [
+      {
+        "stem": "A model tower with a mass of 18 g supports 9.0 kg before it fails. Using efficiency = load supported / structure mass, with both in grams, what is its efficiency?",
+        "choices": ["50", "500", "162", "2"],
+        "answer": 1,
+        "explanation": "9.0 kg is 9,000 g, and 9,000 / 18 = 500. Forgetting to convert kilograms to grams gives the much smaller 0.5, and 162 comes from multiplying instead of dividing."
+      },
+      {
+        "stem": "A simply supported beam carries a single load at mid-span. Which statement describes the internal forces at mid-span?",
+        "choices": ["The top of the beam is in compression and the bottom is in tension", "The top of the beam is in tension and the bottom is in compression", "The whole beam is in pure tension", "The whole beam is in pure torsion"],
+        "answer": 0,
+        "explanation": "The beam sags under the load, so the top fibers are squeezed together and the bottom fibers are stretched apart."
+      },
+      {
+        "stem": "A long, thin vertical member in a balsa tower bows sideways and snaps while the wood at its ends shows no crushing. What failure mode is this, and what is the most mass-efficient fix?",
+        "choices": ["Shear failure; replace every member with a thicker one", "Tension failure; glue a second strip along its full length", "Buckling; add light bracing to shorten its unbraced length", "Torsion; turn the member upside down"],
+        "answer": 2,
+        "explanation": "Sideways bowing of a slender compression member is buckling. Bracing reduces the unbraced length and greatly increases buckling capacity while adding little mass."
+      },
+      {
+        "stem": "Why are trusses built from triangles rather than rectangles?",
+        "choices": ["Triangles use more material, which always makes them stronger", "A triangle cannot change shape unless a member changes length, so it resists distortion", "Rectangles cannot be glued at their corners", "Triangles put every member in bending, which wood resists best"],
+        "answer": 1,
+        "explanation": "A pinned rectangle can rack into a parallelogram without any member stretching, but a triangle is geometrically rigid. That lets truss members carry mainly tension or compression instead of bending."
+      },
+      {
+        "stem": "Which of the following is a live load on a school gymnasium floor?",
+        "choices": ["The weight of the concrete floor slab", "The weight of permanently mounted air ducts", "Students and spectators gathered for an assembly", "The weight of the roof framing"],
+        "answer": 2,
+        "explanation": "Live loads change over time, such as occupants and movable contents. The slab, ducts and roof framing are permanent dead loads."
+      },
+      {
+        "stem": "A designer expects a hanger to carry 1,200 N and requires a factor of safety of 2.5. What is the minimum failure load the hanger must have?",
+        "choices": ["480 N", "1,202.5 N", "2,500 N", "3,000 N"],
+        "answer": 3,
+        "explanation": "Required strength = expected load x factor of safety = 1,200 x 2.5 = 3,000 N. Dividing instead of multiplying gives 480 N, which would be unsafe."
+      },
+      {
+        "stem": "Two members each carry a 900 N compression force. Member X has a cross section of 30 square millimeters and member Y has 45 square millimeters. What is the stress in each?",
+        "choices": ["X: 30 N/mm²; Y: 20 N/mm²", "X: 20 N/mm²; Y: 30 N/mm²", "Both: 900 N/mm²", "X: 27,000 N/mm²; Y: 40,500 N/mm²"],
+        "answer": 0,
+        "explanation": "Stress = force / area: 900 / 30 = 30 N/mm² for X and 900 / 45 = 20 N/mm² for Y. The smaller cross section carries the higher stress."
+      },
+      {
+        "stem": "After a test, a team finds that its bridge failed where a diagonal meets the bottom chord; the glue joint pulled apart while both members stayed intact. What is the best redesign?",
+        "choices": ["Double the size of every member in the bridge", "Strengthen that joint with a gusset and better glue contact", "Remove the diagonal to save mass", "Replace the bottom chord with a heavier piece"],
+        "answer": 1,
+        "explanation": "The failure was in the joint, so reinforcing that joint fixes the weak point with minimal added mass. Enlarging every member adds weight and lowers efficiency without addressing the cause."
+      }
+    ],
+    "flashcards": [
+      { "term": "Structural efficiency", "definition": "The load a structure supports divided by the structure's own mass, used to score many model bridge and tower contests." },
+      { "term": "Dead load vs. live load", "definition": "Dead load is the permanent weight of the structure and fixed parts; live load is changing weight such as people, furniture and vehicles." },
+      { "term": "Buckling", "definition": "Sudden sideways bowing of a slender compression member, often at a load far below what would crush the material." },
+      { "term": "Truss", "definition": "A framework of members arranged in triangles so that the members carry mainly tension or compression." },
+      { "term": "Factor of safety", "definition": "The ratio of a part's failure load to the load it is expected to carry, giving a margin for uncertainty." }
+    ]
+  }
+]

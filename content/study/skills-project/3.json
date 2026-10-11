@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Skill demonstrations and on-site challenges",
+    "objective": "Perform a timed skill or on-site challenge accurately by practicing from the rating sheet, communicating clearly and recovering calmly from errors.",
+    "body": "Many events test what you can do in the moment: a health science skill performed on a manikin or a volunteer patient, an emergency response scenario, a timed build or an on-site design challenge. Judges usually score from a rating sheet or rubric that lists each expected step, and many mark certain steps as critical, where a miss can cost a large share of the points or the whole skill.\n\n**Practice from the rating sheet, not from memory.** Get the current rating sheet or rubric and practice with a partner who scores you on every line. Patterns appear quickly: the steps competitors skip under pressure are often the first and last ones, such as hand hygiene, introducing yourself, checking that a scene is safe, or cleaning up and documenting. Rehearse the full skill from start to finish until the sequence feels automatic.\n\n**Communicate throughout.** In patient-care skills, introduce yourself, identify the patient, explain what you are about to do and protect privacy. If a step cannot actually be performed on a manikin, *verbalize* it clearly so the judge can credit it, for example: \"I am now checking that the area is safe to enter.\" Judges can only score what they see or hear.\n\n**Make safety visible.** Follow standard precautions and use protective equipment whenever the skill calls for it. In technical events, wear required safety gear, handle tools correctly and keep your workspace clean. Safety errors are among the most costly mistakes in any skill event.\n\n**Manage the clock.** Time your practice runs. If you run over the limit, cut hesitation and repeated motions, never required steps. In on-site team challenges, spend the first few minutes reading the entire prompt and rubric, planning and assigning roles; then build and test, and save time at the end to check every requirement.\n\n**Recover calmly.** If you realize you made a mistake, stay composed, tell the judge what you are correcting, and perform the step correctly if the procedure still allows it. Judges see errors often; panic and silence cost more than a corrected step.\n\nA common mistake is rushing to finish early. Accuracy and safety earn points, while finishing two minutes ahead of the limit earns nothing if a critical step was skipped.",
+    "examples": [
+      "A practice partner scoring with the rating sheet notices that a competitor skips hand hygiene at the end in 3 of 5 runs. The competitor adds a deliberate closing routine, cleaning hands and then documenting, and completes it in each of the next 10 runs.",
+      "A competitor's practice runs take 11 minutes against a 10-minute limit. Instead of dropping steps, they lay out supplies in order before starting and stop re-checking the same item, bringing runs down to 9 minutes 30 seconds.",
+      "An on-site challenge allows 90 minutes. The team spends 10 minutes reading and planning, 60 building, 15 testing and fixing, and the last 5 checking the requirements list: 10 + 60 + 15 + 5 = 90."
+    ],
+    "questions": [
+      {
+        "stem": "What is the most effective way to practice for a skill event that is scored with a rating sheet?",
+        "choices": [
+          "Have a partner score full practice runs line by line using the current rating sheet",
+          "Watch videos of others performing the skill instead of practicing it yourself",
+          "Practice only the hardest steps and skip rehearsing the simple ones",
+          "Memorize the steps from an older rating sheet that a friend used"
+        ],
+        "answer": 0,
+        "explanation": "Scoring complete runs against the current sheet reveals exactly which steps you miss under pressure. Old sheets may differ, and skipping simple steps in practice makes them easy to forget at competition."
+      },
+      {
+        "stem": "During a skill performed on a manikin, a competitor reaches a step that cannot physically be carried out. What should the competitor do?",
+        "choices": [
+          "State the step aloud clearly so the judge knows it was not skipped",
+          "Skip it silently, since the judge already knows it cannot be done",
+          "Wait until the end and list every skipped step at once",
+          "Stop and ask the judge whether that step really matters"
+        ],
+        "answer": 0,
+        "explanation": "Verbalizing the step at the moment it belongs shows the judge it was performed in the correct order. Judges can only credit what they see or hear."
+      },
+      {
+        "stem": "Halfway through a patient-care skill, a competitor realizes they never explained the procedure to the patient. What is the best response?",
+        "choices": [
+          "Calmly say they will explain the procedure now, do so and continue",
+          "Keep going and hope the judge did not notice the missed step",
+          "Stop and insist on restarting the entire skill from the beginning",
+          "Apologize several times and describe how nervous they feel"
+        ],
+        "answer": 0,
+        "explanation": "A composed correction shows the judge the competitor recognizes the step and still communicates with the patient. Ignoring the error or dwelling on it costs more than fixing it."
+      },
+      {
+        "stem": "A team receives an on-site design challenge with a 60-minute limit. What should it do in the first few minutes?",
+        "choices": [
+          "Read the whole prompt and rubric, plan the approach and assign roles",
+          "Start building right away and read the rubric once the build is done",
+          "Have each member build a separate solution and choose one at the end",
+          "Begin a detailed sketch that the team plans to perfect for most of the hour"
+        ],
+        "answer": 0,
+        "explanation": "A short planning phase makes sure the team meets every requirement and uses its time and people well. Building before reading the rubric risks missing a requirement entirely."
+      }
+    ],
+    "flashcards": [
+      { "term": "Rating sheet", "definition": "The scoring tool that lists each step or element judges look for in a skill or project, with points for each." },
+      { "term": "Critical step", "definition": "A step marked as essential on a rating sheet; missing it can cost a large share of the points or the whole skill." },
+      { "term": "Verbalize", "definition": "To state a step aloud during a skill demonstration so the judge can credit an action that cannot be physically performed." },
+      { "term": "Standard precautions", "definition": "Infection-control practices, such as hand hygiene and protective equipment, used with every patient regardless of diagnosis." },
+      { "term": "On-site challenge", "definition": "A task revealed at the competition that competitors must plan, build or solve within a set time." }
+    ]
+  }
+]

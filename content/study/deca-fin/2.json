@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Financial statements and ratio analysis",
+    "objective": "Read the three core financial statements and use key ratios to judge a company's liquidity, profitability and leverage.",
+    "body": "Finance role-plays and exam questions constantly ask you to read financial statements and judge a company's health. Knowing what each statement shows and which ratio answers which question lets you move from raw numbers to a clear recommendation.\n\n**The three core statements.**\n- The *income statement* covers a period of time. Revenue minus cost of goods sold equals gross profit; subtracting operating expenses gives operating income; subtracting interest and taxes gives net income.\n- The *balance sheet* is a snapshot on one date. It lists assets, liabilities and equity, split into current items (due or used within one year) and long-term items, and it always balances.\n- The *statement of cash flows* explains why cash changed, sorted into operating activities (day-to-day business), investing activities (buying or selling long-term assets) and financing activities (borrowing, repaying debt, issuing stock and paying dividends).\n\n**Liquidity ratios** ask whether the business can pay its short-term bills. The *current ratio* is current assets divided by current liabilities. The *quick ratio* removes inventory from current assets first, because inventory can be slow to turn into cash.\n\n**Profitability ratios** ask how well the business turns sales into profit. *Gross profit margin* is gross profit divided by revenue, *net profit margin* is net income divided by revenue, and *return on equity* is net income divided by owners' equity.\n\n**Leverage and efficiency ratios.** The *debt-to-equity ratio* (total liabilities divided by equity) shows how much the business relies on borrowed money. *Inventory turnover* (cost of goods sold divided by average inventory) shows how many times inventory sells during the period.\n\n**Comparing results.** *Horizontal analysis* compares the same line item across periods, such as sales growth from last year. *Vertical analysis* expresses each line as a percentage of a base figure, such as net sales on the income statement or total assets on the balance sheet, which makes companies of different sizes comparable.\n\nRemember that profit and cash are not the same thing. A growing company that sells on credit can report strong net income while its cash shrinks.\n\nA common mistake is judging a ratio in isolation. A current ratio of 1.2 might be healthy for a grocery chain and weak for a manufacturer, so compare with past periods and industry averages before drawing a conclusion.",
+    "examples": [
+      "A company has revenue of $500,000, cost of goods sold of $300,000, operating expenses of $120,000, and interest and taxes of $20,000. Gross profit is $200,000, operating income is $80,000 and net income is $60,000, a 12% net profit margin.",
+      "A shop has $90,000 of current assets, including $30,000 of inventory, and $45,000 of current liabilities. Its current ratio is $90,000 ÷ $45,000 = 2.0, and its quick ratio is $60,000 ÷ $45,000, about 1.33."
+    ],
+    "questions": [
+      {
+        "stem": "A retailer had revenue of $820,000 and cost of goods sold of $492,000. What is its gross profit margin?",
+        "choices": ["60%", "40%", "32.8%", "66.7%"],
+        "answer": 1,
+        "explanation": "Gross profit = $820,000 − $492,000 = $328,000, and $328,000 ÷ $820,000 = 0.40, or 40%. The 60% figure is cost of goods sold as a share of revenue."
+      },
+      {
+        "stem": "A company has current assets of $150,000 and current liabilities of $60,000. What is its current ratio?",
+        "choices": ["0.4", "1.5", "2.5", "2.0"],
+        "answer": 2,
+        "explanation": "Current ratio = current assets ÷ current liabilities = $150,000 ÷ $60,000 = 2.5. Dividing the other way gives 0.4."
+      },
+      {
+        "stem": "A firm has current assets of $120,000, including $45,000 of inventory, and current liabilities of $50,000. What is its quick ratio?",
+        "choices": ["2.4", "1.5", "0.9", "3.3"],
+        "answer": 1,
+        "explanation": "Quick ratio = (current assets − inventory) ÷ current liabilities = ($120,000 − $45,000) ÷ $50,000 = $75,000 ÷ $50,000 = 1.5. The 2.4 answer forgets to remove inventory."
+      },
+      {
+        "stem": "A lender wants to see what a company owns and owes as of December 31. Which financial statement provides this?",
+        "choices": ["Income statement", "Statement of cash flows", "Balance sheet", "Statement of retained earnings"],
+        "answer": 2,
+        "explanation": "The balance sheet is a snapshot of assets, liabilities and equity on a specific date. The income statement covers performance over a period."
+      },
+      {
+        "stem": "A manufacturer pays $200,000 in cash for new production equipment. In which section of the statement of cash flows does this appear?",
+        "choices": ["Operating activities", "Investing activities", "Financing activities", "It does not appear because no expense was recorded"],
+        "answer": 1,
+        "explanation": "Buying or selling long-term assets such as equipment is an investing activity. Operating activities cover day-to-day revenue and expense transactions."
+      },
+      {
+        "stem": "On a common-size income statement prepared with vertical analysis, each line item is expressed as a percentage of which amount?",
+        "choices": ["Net income", "Net sales", "Total assets", "Cost of goods sold"],
+        "answer": 1,
+        "explanation": "Vertical analysis of an income statement uses net sales as the 100% base, so each cost shows as a share of sales. Total assets is the base for a common-size balance sheet."
+      },
+      {
+        "stem": "A business earned net income of $45,000, and its owners' equity is $300,000. What is its return on equity?",
+        "choices": ["6.7%", "15%", "45%", "30%"],
+        "answer": 1,
+        "explanation": "Return on equity = net income ÷ equity = $45,000 ÷ $300,000 = 0.15, or 15%."
+      },
+      {
+        "stem": "A company has total liabilities of $240,000 and owners' equity of $160,000. What is its debt-to-equity ratio?",
+        "choices": ["0.67", "0.6", "1.5", "0.4"],
+        "answer": 2,
+        "explanation": "Debt-to-equity = total liabilities ÷ equity = $240,000 ÷ $160,000 = 1.5, or $1.50 of debt for every $1 of owner investment. The 0.6 figure is liabilities divided by total assets of $400,000."
+      },
+      {
+        "stem": "A store's cost of goods sold for the year was $360,000. Inventory was $40,000 at the start of the year and $50,000 at the end. What is its inventory turnover?",
+        "choices": ["9 times", "7.2 times", "8 times", "4.5 times"],
+        "answer": 2,
+        "explanation": "Average inventory = ($40,000 + $50,000) ÷ 2 = $45,000, so turnover = $360,000 ÷ $45,000 = 8 times. Using only beginning or ending inventory gives 9 or 7.2."
+      },
+      {
+        "stem": "A fast-growing company reports higher net income than last year, yet its cash flow from operating activities is negative. Which is the most likely explanation?",
+        "choices": ["It repaid a large long-term bank loan", "It issued new shares of stock to investors", "Its sales on credit grew and customers have not yet paid", "It purchased a new warehouse for cash"],
+        "answer": 2,
+        "explanation": "Credit sales raise net income but bring in no cash until customers pay, so a jump in accounts receivable reduces operating cash flow. Loan repayments and stock issues are financing activities, and a warehouse purchase is investing."
+      }
+    ],
+    "flashcards": [
+      { "term": "Statement of cash flows", "definition": "Financial statement that explains the change in cash through operating, investing and financing activities." },
+      { "term": "Gross profit margin", "definition": "Gross profit divided by revenue; shows how much of each sales dollar remains after the cost of goods sold." },
+      { "term": "Current ratio", "definition": "Current assets divided by current liabilities; a basic measure of the ability to pay short-term obligations." },
+      { "term": "Quick ratio", "definition": "Current assets minus inventory, divided by current liabilities; a stricter liquidity test than the current ratio." },
+      { "term": "Debt-to-equity ratio", "definition": "Total liabilities divided by owners' equity; shows how heavily a business relies on borrowed money." },
+      { "term": "Vertical analysis", "definition": "Expressing each financial statement line as a percentage of a base figure, such as net sales or total assets." }
+    ]
+  }
+]

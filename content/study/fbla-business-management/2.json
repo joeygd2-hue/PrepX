@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Organizing, leading and motivating",
+    "objective": "Choose an organizational structure, delegate effectively, and apply leadership and motivation theories to workplace situations.",
+    "body": "Organizing and leading questions test whether you can match a situation to the right structure, leadership style or motivation theory. In the role-play portion, the same ideas help you recommend realistic fixes for people problems.\n\n**Organizational structure.** An *organizational chart* shows who reports to whom. The *chain of command* is the line of authority from top to bottom, and *unity of command* means each employee reports to one boss. *Span of control* is the number of employees a manager directly supervises. A *wide* span creates a *flat* organization with few levels; a *narrow* span creates a *tall* one with many levels. Common structures include:\n- *Line*: direct authority from top to bottom, typical of small firms.\n- *Line-and-staff*: line managers plus staff specialists, such as legal or HR, who advise but do not command line employees.\n- *Functional or divisional*: grouping by function (marketing, finance) or by product, customer or region.\n- *Matrix*: employees report to both a functional manager and a project manager, which adds flexibility but breaks unity of command.\n\n**Delegation and centralization.** Delegation assigns *responsibility* for a task along with the *authority* to complete it, while the manager remains *accountable* for the result. *Centralized* organizations keep decisions at the top; *decentralized* organizations push decisions down to lower levels, closer to customers.\n\n**Leadership styles.** *Autocratic* leaders decide alone, which suits emergencies or very inexperienced teams. *Democratic* (participative) leaders involve the team in decisions. *Laissez-faire* (free-rein) leaders give experienced, self-motivated teams broad freedom. *Transformational* leaders inspire change through a shared vision, while *transactional* leaders manage performance through rewards and corrective action.\n\n**Motivation theories.**\n- *Maslow's hierarchy of needs*: physiological, safety, social (belonging), esteem and self-actualization, generally satisfied from the bottom up.\n- *Herzberg's two-factor theory*: *hygiene factors* (pay, working conditions, company policy) prevent dissatisfaction, while *motivators* (achievement, recognition, responsibility, growth) create satisfaction.\n- *McGregor's Theory X and Theory Y*: Theory X managers assume people dislike work and need close control; Theory Y managers assume people seek responsibility and can direct themselves.\n- *Expectancy theory*: effort depends on believing that effort leads to performance and that performance leads to a reward the person values.\n\n**Common mistake:** expecting a raise to motivate for the long term. In Herzberg's model pay is a hygiene factor: fixing it removes dissatisfaction but does not by itself create lasting motivation.",
+    "examples": [
+      "A regional manager supervises 6 store managers, and each store manager supervises 20 employees. The store managers have a wide span of control; adding an assistant manager layer would make the organization taller.",
+      "A product launch team pulls a designer, an engineer and a marketer from their departments. Each reports to the launch manager for the project and to a department head for everything else: a matrix structure.",
+      "A call center raises wages to match competitors and complaints drop, but sales per call stay flat. Adding recognition and chances to lead training sessions, which are Herzberg motivators, then lifts performance."
+    ],
+    "questions": [
+      {
+        "stem": "A manager directly supervises 25 employees, and the company has only three levels of management. Which description fits?",
+        "choices": ["Narrow span of control and a tall organization", "Wide span of control and a flat organization", "Wide span of control and a tall organization", "Narrow span of control and a flat organization"],
+        "answer": 1,
+        "explanation": "Supervising many people means a wide span of control, and few management levels make the organization flat. Narrow spans require more levels, creating a tall structure."
+      },
+      {
+        "stem": "A software engineer reports to the engineering director and, at the same time, to a product launch manager. Which structure is this?",
+        "choices": ["Line", "Line-and-staff", "Matrix", "Divisional"],
+        "answer": 2,
+        "explanation": "In a matrix structure employees report to both a functional manager and a project manager. That dual reporting breaks unity of command."
+      },
+      {
+        "stem": "A supervisor assigns an employee to plan the company picnic and gives her authority to spend a set budget. If the picnic goes poorly, who remains accountable to upper management?",
+        "choices": ["The supervisor, because accountability cannot be fully delegated", "Only the employee, because she controlled the budget", "The vendors, because they supplied the food", "The human resources department, because it oversees events"],
+        "answer": 0,
+        "explanation": "A manager can delegate responsibility and authority, but stays accountable for the outcome. The employee is responsible to the supervisor for the task."
+      },
+      {
+        "stem": "A fire alarm sounds in a warehouse, and the manager immediately gives direct orders for evacuation without asking for input. Which leadership style is the manager using?",
+        "choices": ["Democratic", "Laissez-faire", "Servant", "Autocratic"],
+        "answer": 3,
+        "explanation": "Autocratic leaders make decisions alone, which is appropriate in emergencies when speed matters. Democratic leaders would gather input first."
+      },
+      {
+        "stem": "Employees say they feel accepted as part of their team, and now they want recognition and respect for their work. According to Maslow, which need are they now seeking to meet?",
+        "choices": ["Social", "Esteem", "Safety", "Self-actualization"],
+        "answer": 1,
+        "explanation": "Recognition, respect and status are esteem needs, the level above social belonging. Self-actualization is reaching one's full potential."
+      },
+      {
+        "stem": "A company raises pay to the market level. Complaints drop, but productivity does not improve. Which theory best explains this result?",
+        "choices": ["Herzberg's two-factor theory, because pay is a hygiene factor", "Maslow's hierarchy, because pay satisfies self-actualization", "Theory Y, because workers dislike responsibility", "Span of control theory, because managers supervise too many people"],
+        "answer": 0,
+        "explanation": "Hygiene factors such as pay prevent dissatisfaction but do not create motivation on their own. Motivators like recognition and growth drive extra effort."
+      },
+      {
+        "stem": "A manager believes employees avoid work whenever possible and must be closely watched and threatened with penalties. Which view does this reflect?",
+        "choices": ["Theory Y", "Expectancy theory", "Theory X", "Transformational leadership"],
+        "answer": 2,
+        "explanation": "Theory X assumes people dislike work and need control. Theory Y assumes people can be self-directed and seek responsibility."
+      },
+      {
+        "stem": "A national retailer lets each store manager set staff schedules and choose local promotions. What does this practice show?",
+        "choices": ["Centralization", "Unity of command", "Chain of command", "Decentralization"],
+        "answer": 3,
+        "explanation": "Pushing decision-making down to lower levels closer to customers is decentralization. Centralization would keep those decisions at headquarters."
+      }
+    ],
+    "flashcards": [
+      { "term": "Span of control", "definition": "The number of employees a manager directly supervises; wide spans create flat organizations." },
+      { "term": "Matrix structure", "definition": "An organization in which employees report to both a functional manager and a project manager." },
+      { "term": "Accountability", "definition": "The obligation to answer for results, which stays with a manager even after a task is delegated." },
+      { "term": "Hygiene factors", "definition": "In Herzberg's theory, job conditions such as pay and policies that prevent dissatisfaction but do not motivate." },
+      { "term": "Theory Y", "definition": "McGregor's view that employees can enjoy work, seek responsibility and direct themselves." }
+    ]
+  }
+]

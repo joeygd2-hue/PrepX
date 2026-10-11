@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Studying for an objective test",
+    "objective": "Build a study plan that targets the test blueprint and uses proven memory techniques.",
+    "body": "An objective test rewards what you can recall and apply under time pressure, not how many hours you spent highlighting. Many competitors move up the rankings simply by studying smarter in the weeks before a conference.\n\n**Start with the blueprint.** Most competition tests publish the topic areas they draw from, sometimes with the share of questions in each area. Treat that list as your map. If one area supplies a quarter of the questions, it deserves roughly a quarter of your study time. Check off each topic only when you can explain it without notes.\n\n**Use retrieval practice.** Rereading feels productive but builds weak memories. Closing the book and forcing yourself to recall an answer, through flashcards, practice questions or explaining a concept aloud, is one of the most reliable ways to make knowledge stick. The effort of remembering is the point.\n\n**Space it out.** Short sessions spread over many days beat one long cram session. Review new material the next day, then a few days later, then a week later. Each review comes just as the memory starts to fade, which strengthens it.\n\n**Mix topics.** *Interleaving* means shuffling different topics in one session instead of drilling one topic at a time. It feels harder, but it trains you to recognize which concept a question is really asking about, which is exactly what a mixed test demands.\n\n**Keep an error log.** After every practice set, write down each missed question, the correct idea and why you missed it:\n- you did not know the content,\n- you misread the stem, or\n- you rushed or made a calculation slip.\n\nPatterns in the log tell you what to fix next. A miss caused by misreading needs a different cure than a miss caused by a content gap.\n\nBefore competition, take at least one full-length practice test under timed conditions so you know how the pace feels and where your focus drops.\n\nA common mistake is studying only the topics you already enjoy. Your score rises fastest when you attack the weak areas your error log reveals.",
+    "examples": [
+      "A test blueprint lists five areas, and economics makes up 20 percent of the questions. With 10 hours to study, a competitor plans about 2 hours (20 percent of 10) on economics.",
+      "Instead of rereading a chapter on financial statements, a student writes ten recall questions, answers them from memory the next day, and restudies only the four she missed.",
+      "A competitor's error log shows that 6 of his 9 misses came from overlooking the word NOT in the stem, so he starts circling negative words during practice."
+    ],
+    "questions": [
+      {
+        "stem": "Two weeks before a competition, you notice that rereading your notes feels easy but your practice scores are not improving. Which change is most likely to raise your score?",
+        "choices": [
+          "Reread your notes twice as often each day",
+          "Highlight the key terms in a new color",
+          "Replace rereading with quizzing yourself from memory",
+          "Copy your notes into a neater notebook"
+        ],
+        "answer": 2,
+        "explanation": "Retrieval practice, recalling answers without looking, builds stronger memories than rereading or highlighting, which feel productive but add little."
+      },
+      {
+        "stem": "A test's published blueprint shows that 30 of its 100 questions come from one topic area. You have 20 hours to study. About how many hours matches that area's weight?",
+        "choices": [
+          "3 hours",
+          "6 hours",
+          "10 hours",
+          "15 hours"
+        ],
+        "answer": 1,
+        "explanation": "The area is 30 of 100 questions, or 30 percent. 30 percent of 20 hours is 0.30 × 20 = 6 hours."
+      },
+      {
+        "stem": "Which schedule makes the best use of spaced practice for learning 50 new terms?",
+        "choices": [
+          "Study all 50 terms for three hours the night before the test",
+          "Read all 50 terms aloud repeatedly in one long weekend session",
+          "Study the terms once, then move on to new material only",
+          "Review the terms in short sessions across several days with growing gaps"
+        ],
+        "answer": 3,
+        "explanation": "Spaced practice means several short reviews separated by increasing gaps. Cramming in one long session produces memories that fade quickly."
+      },
+      {
+        "stem": "After a practice test, a student sees that most of her misses were on questions whose content she knew, but she answered them too quickly. What should her next step be?",
+        "choices": [
+          "Practice slowing down to reread each stem and its key words before answering",
+          "Restudy the content areas of those questions from the beginning",
+          "Stop taking practice tests and focus only on flashcards",
+          "Memorize the answers to that practice test before competition"
+        ],
+        "answer": 0,
+        "explanation": "Her error log points to a reading and pacing habit, not a content gap, so the fix is a careful reading routine. Restudying content she already knows wastes time."
+      }
+    ],
+    "flashcards": [
+      { "term": "Test blueprint", "definition": "The published list of topic areas a test covers, often with the share of questions drawn from each." },
+      { "term": "Retrieval practice", "definition": "Studying by recalling information from memory, such as self-quizzing, instead of rereading it." },
+      { "term": "Spaced practice", "definition": "Reviewing material in several short sessions with growing gaps between them rather than cramming." },
+      { "term": "Interleaving", "definition": "Mixing different topics or problem types within one study session so you learn to tell them apart." },
+      { "term": "Error log", "definition": "A record of missed practice questions, the correct idea and the reason for each miss." }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Contracts and sales of goods",
+    "objective": "Decide whether an agreement is an enforceable contract, recognize defenses, and apply contract remedies and UCC sales rules.",
+    "body": "Contracts are the most heavily tested area of business law because nearly every business transaction is one. Work every contract question by asking, in order: Is there a contract? Is it enforceable? Was it breached? What remedy fits?\n\n**Elements of a valid contract.**\n1. *Offer*: a definite proposal showing intent to be bound. Most advertisements are invitations to negotiate, not offers.\n2. *Acceptance*: agreement to the offer's terms. Under the common-law *mirror image rule*, used for services and real estate, a reply that changes the terms is a *counteroffer*, which rejects the original offer.\n3. *Consideration*: each side gives something of legal value, such as money, goods, services or a promise. A promise to give a gift lacks consideration.\n4. *Capacity*: the parties must be legally able to contract. A contract made by a minor is generally *voidable* by the minor, although a minor must pay the reasonable value of *necessaries* such as food, clothing and shelter.\n5. *Legality*: the purpose must be legal.\n6. *Genuine assent*: agreement free of fraud, duress, undue influence or certain mistakes.\n\n**Contract status.** A *valid* contract is fully enforceable. A *void* agreement was never a contract, such as one with an illegal purpose. A *voidable* contract can be canceled by one party, such as a minor or a victim of fraud. An *unenforceable* contract exists but cannot be enforced in court, often because it lacks a required writing.\n\n**Statute of frauds.** Certain contracts must be evidenced by a signed writing: contracts for an interest in land, agreements that cannot be performed within one year, promises to pay another person's debt, promises made in consideration of marriage and, under the Uniform Commercial Code (UCC), sales of goods for $500 or more.\n\n**Breach and remedies.** *Compensatory damages* put the injured party where it would have been if the contract had been performed. *Liquidated damages* are an amount agreed in the contract in advance. *Specific performance* orders the breaching party to perform and is used when money is inadequate, such as for land or a unique item. The injured party has a *duty to mitigate*, taking reasonable steps to limit its losses.\n\n**UCC sales.** Article 2 of the UCC governs sales of goods, meaning movable, tangible items, not services or real estate. A seller may create an *express warranty* through specific promises or descriptions. A merchant seller also gives an *implied warranty of merchantability*, a promise that goods are fit for their ordinary purpose, unless it is properly disclaimed.\n\n**Common mistake:** calling a counteroffer an acceptance. Under the mirror image rule, changing a term rejects the original offer and creates a new one.",
+    "examples": [
+      "A painter offers to paint a garage for $900. The owner replies, \"Yes, but only if you also paint the fence.\" That reply is a counteroffer, and there is no contract unless the painter accepts the new terms.",
+      "A supplier contract sets liquidated damages of $200 per day of late delivery. Delivery is 4 days late, so the supplier owes 4 × $200 = $800.",
+      "A seller backs out of a deal to sell a specific lakefront lot. Because every parcel of land is unique, the buyer can ask the court for specific performance instead of money."
+    ],
+    "questions": [
+      {
+        "stem": "A landscaper offers to redesign a yard for $3,000. The homeowner replies, \"I accept if you do it for $2,500.\" What is the legal effect of the reply?",
+        "choices": ["It accepts the original $3,000 offer", "It creates a contract at a midpoint price of $2,750", "It is a counteroffer that rejects the original offer", "It is a binding option contract"],
+        "answer": 2,
+        "explanation": "Changing the price is a counteroffer, which rejects the original offer under the mirror image rule. No contract exists unless the landscaper accepts the $2,500 terms."
+      },
+      {
+        "stem": "A 16-year-old signs a contract to buy a $1,200 gaming laptop and wants to cancel it two weeks later. In most states, what is the status of the contract?",
+        "choices": ["Voidable at the minor's option", "Void from the start", "Fully enforceable against the minor", "Unenforceable by either party"],
+        "answer": 0,
+        "explanation": "A minor generally may disaffirm a contract, making it voidable at the minor's choice. A gaming laptop is not a necessary like food or shelter."
+      },
+      {
+        "stem": "An uncle promises his niece $1,000 as a birthday gift, then changes his mind. Why can't she enforce the promise as a contract?",
+        "choices": ["The uncle lacked capacity because he is an adult", "It violates the statute of frauds because it exceeds $500", "It lacks legality because cash gifts are taxable", "It lacks consideration because she gave nothing in return"],
+        "answer": 3,
+        "explanation": "A contract requires a bargained-for exchange of value. A promise to make a gift has no consideration, so it is not enforceable as a contract."
+      },
+      {
+        "stem": "Under the statute of frauds, which agreement must be evidenced by a signed writing to be enforceable?",
+        "choices": ["An oral agreement to mow a lawn next week for $40", "A contract to sell a parcel of land for $20,000", "A spoken order for $150 of office supplies", "An agreement to tutor a student for three months"],
+        "answer": 1,
+        "explanation": "Contracts for an interest in land fall under the statute of frauds regardless of price. The other agreements are small sales of goods or services that can be performed within a year."
+      },
+      {
+        "stem": "A seller breaches a contract to deliver a one-of-a-kind antique desk, and the buyer wants the desk itself, not money. Which remedy fits best?",
+        "choices": ["Compensatory damages", "Liquidated damages", "Specific performance", "Nominal damages"],
+        "answer": 2,
+        "explanation": "Specific performance orders the seller to deliver when the item is unique and money cannot replace it. Damages would give the buyer cash instead of the desk."
+      },
+      {
+        "stem": "A construction contract says the builder will pay $500 for each day the project is late. The project finishes 6 days late. How much is owed, and what are these damages called?",
+        "choices": ["$3,000 in liquidated damages", "$3,000 in punitive damages", "$500 in nominal damages", "$6,000 in compensatory damages"],
+        "answer": 0,
+        "explanation": "6 days × $500 = $3,000. An amount agreed in the contract before any breach is called liquidated damages."
+      },
+      {
+        "stem": "Which transaction is governed by Article 2 of the Uniform Commercial Code?",
+        "choices": ["A company hiring an accountant to prepare its tax returns", "A family buying a house", "A business renting office space", "A restaurant buying 200 dining chairs from a furniture maker"],
+        "answer": 3,
+        "explanation": "Article 2 covers sales of goods, which are movable, tangible items such as chairs. Services and real estate are governed by common law."
+      },
+      {
+        "stem": "A caterer cancels a $2,000 event contract, and the host, who had paid nothing, hires a substitute caterer for $2,300 to provide the same service. What compensatory damages can the host most likely recover?",
+        "choices": ["$300", "$2,000", "$2,300", "$4,300"],
+        "answer": 0,
+        "explanation": "Compensatory damages cover the extra cost of getting the promised performance: $2,300 − $2,000 = $300. The host had paid nothing, so no deposit needs to be returned."
+      }
+    ],
+    "flashcards": [
+      { "term": "Consideration", "definition": "Something of legal value that each party gives or promises in exchange, required for a valid contract." },
+      { "term": "Voidable contract", "definition": "A contract that one party, such as a minor or a fraud victim, may choose to cancel or to enforce." },
+      { "term": "Statute of frauds", "definition": "Rule requiring certain contracts, such as land sales and sales of goods for $500 or more, to be evidenced by a signed writing." },
+      { "term": "Specific performance", "definition": "A court order requiring a party to do what the contract promised, used when money damages are inadequate." },
+      { "term": "Implied warranty of merchantability", "definition": "A merchant seller's automatic promise that goods are fit for the ordinary purpose for which such goods are used." }
+    ]
+  }
+]

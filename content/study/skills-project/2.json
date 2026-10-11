@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Documentation, portfolios and judge interviews",
+    "objective": "Document your process so judges can see your decisions, use media legally, and explain your work confidently in an interview.",
+    "body": "In most project events, judges see your finished product for only a few minutes. Your documentation and your interview are how they learn what you did, why you did it and what you learned along the way. A portfolio that shows only the final result leaves points on the table.\n\n**Keep a design log from day one.** Whether it is an engineering notebook, a production journal or a development log, make dated entries as you work. Record ideas, sketches, test results, problems, decisions and the reasons behind them. Entries written at the time are far more convincing than a story reconstructed the week before the deadline. Photograph or screenshot every prototype and version.\n\n**Organize the portfolio around the rubric.** Include every required element in the order the guidelines list, with a table of contents and clear section labels. A typical portfolio includes:\n- The problem or challenge statement, with constraints and criteria\n- Research and early ideas\n- The decision process, such as a decision matrix\n- Build or production steps, with images\n- Test data, analysis and the improvements you made\n- Sources, credits and any required forms or permissions\n\n**Use media legally and credit it.** Use only images, music, fonts, code and footage that you created, that are in the public domain, or that come with a license permitting your use, and follow any attribution the license requires. Collect signed release forms from people who appear in your photos or videos when the guidelines require them. Never assume something is free to use just because it is online.\n\n**Prepare for the judge interview.** Expect questions such as \"What was your role?\", \"Why did you choose this approach?\", \"What went wrong and how did you fix it?\" and \"What would you improve with more time?\" Answer with specifics from your log: the test that failed, the data that changed your mind. On a team, every member should be able to explain the whole project, not just their own part. Bring the product or a demonstration ready to run, plus a backup if it depends on technology.\n\nA common mistake is presenting the project as if everything went perfectly. Judges trust teams that can describe their failures, what they learned and how the design improved because of them.",
+    "examples": [
+      "Design log entry: 'Oct 14: Bridge v2 failed at 18 N; the break began at the glue joint on the left truss. Decision: add gusset plates at every joint for v3.'",
+      "A team making a promotional video needs background music. A member composes a short original track and the team lists it in the credits, rather than using a popular song it has no license for.",
+      "Asked what they would change, a team answers: 'Our battery lasted 6 minutes in testing, short of our 10-minute goal, so we would switch to a higher-capacity battery and redesign the mount to carry it.'"
+    ],
+    "questions": [
+      {
+        "stem": "Which design log entry gives judges the most useful evidence of the design process?",
+        "choices": [
+          "Mar 3: Arm v2 lifted 150 g but tipped over, so we widened the base from 8 cm to 12 cm for v3.",
+          "Worked on the robot for two hours today and made really good progress overall.",
+          "Changed a few things on the arm because it was not working quite right.",
+          "Team meeting went well, and everyone agreed on the next steps for the project."
+        ],
+        "answer": 0,
+        "explanation": "The strong entry is dated and records a measured test result, the problem observed and the specific change made in response. The others give no data or reasons a judge can evaluate."
+      },
+      {
+        "stem": "A student creating a promotional video wants background music. Which choice is appropriate?",
+        "choices": [
+          "Music the student composed, or a track whose license permits this use, credited as required",
+          "Any popular song, as long as the clip used is shorter than 30 seconds",
+          "A song downloaded from a video site, since anything posted online is free to use",
+          "A commercial song, provided the artist's name appears in the video's credits"
+        ],
+        "answer": 0,
+        "explanation": "Only original, public-domain or properly licensed media may be used. A short clip length or a credit line does not replace permission from the copyright holder."
+      },
+      {
+        "stem": "A judge asks, 'What would you improve if you had more time?' Which answer is strongest?",
+        "choices": [
+          "A specific improvement tied to test results, with how the team would carry it out",
+          "Nothing, because the project turned out exactly the way the team planned",
+          "The team would probably make the whole project look a little nicer",
+          "The team would start over with a completely different idea"
+        ],
+        "answer": 0,
+        "explanation": "A data-based improvement shows the team tested honestly and understands its design. Claiming perfection or giving a vague answer suggests little reflection."
+      },
+      {
+        "stem": "A three-person team split its project so each member handled one part. How should the team prepare for the judge interview?",
+        "choices": [
+          "Make sure every member can explain the whole project and the reasons for key decisions",
+          "Have each member answer only the questions about their own part",
+          "Let the most confident speaker answer every question for the team",
+          "Memorize a script so every answer is delivered word for word"
+        ],
+        "answer": 0,
+        "explanation": "Judges may direct any question to any member, and a team that shares understanding of the whole project appears more credible. Scripts sound stiff and fail when judges ask unexpected questions."
+      }
+    ],
+    "flashcards": [
+      { "term": "Design log", "definition": "A dated record of ideas, tests, problems and decisions kept throughout a project as evidence of the process." },
+      { "term": "Portfolio", "definition": "An organized collection of documentation showing a project's problem, process, testing and results." },
+      { "term": "Public domain", "definition": "Creative works not protected by copyright, which anyone may use freely." },
+      { "term": "Media license", "definition": "Permission from a copyright holder that states how a work may be used, often with attribution requirements." },
+      { "term": "Release form", "definition": "A signed document giving permission to use a person's image, voice or likeness in a project." }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Media planning, buying and measurement",
+    "objective": "Compare media options and calculate reach, frequency, gross rating points, CPM and digital performance metrics to plan and evaluate a campaign.",
+    "body": "A great ad only works if the right people see it often enough at a cost the client can afford. Media questions on advertising tests are often calculations, so memorize the formulas and practice them.\n\n**Choosing media.** Each medium has strengths and limits.\n- *Television and online video*: sight, sound and motion with wide reach, but high production cost.\n- *Radio and audio streaming*: low cost, local targeting and strong frequency, but no visuals.\n- *Print*: newspapers are timely and local; magazines target special interests and have a long life.\n- *Out-of-home*: billboards and transit ads reach commuters repeatedly but allow only a few words.\n- *Digital (search, social, display)*: precise targeting and real-time measurement, with ad fatigue and ad blockers as risks.\n\n**Core media math.**\n- *Reach*: the percentage (or number) of the target audience exposed at least once during a period.\n- *Frequency*: the average number of times each reached person is exposed.\n- *Gross rating points (GRPs)* = reach × average frequency, with reach written as a percentage. One rating point is 1% of the target audience.\n- *CPM (cost per thousand)* = cost ÷ audience × 1,000. It lets planners compare media of very different sizes.\n\n**Digital metrics.**\n- *Click-through rate (CTR)* = clicks ÷ impressions.\n- *Cost per click (CPC)* = cost ÷ clicks.\n- *Conversion rate* = conversions ÷ clicks (or visitors).\n- *Return on ad spend (ROAS)* = revenue from the ads ÷ ad cost.\n\n**Scheduling.** *Continuous* scheduling runs ads steadily all year. *Flighting* alternates bursts of advertising with periods of none. *Pulsing* keeps a low base level all year with heavier bursts at key times, such as a sunscreen brand increasing spending before summer.\n\n**Paid, owned and earned.** *Paid media* is bought space and time; *owned media* is the brand's own website, app, email list and social accounts; *earned media* is coverage, reviews and sharing the brand did not pay for.\n\nThe most common mistake is choosing the medium with the lowest total price. A cheap buy that reaches the wrong people is expensive per useful exposure, so compare CPM for the *target* audience instead.",
+    "examples": [
+      "A magazine page costs $18,000 and reaches 600,000 readers. CPM = $18,000 ÷ 600,000 × 1,000 = $30.",
+      "A campaign reaches 70% of teens an average of 4 times during a month. GRPs = 70 × 4 = 280.",
+      "A display ad earns 250,000 impressions and 1,000 clicks at a cost of $1,500. CTR = 1,000 ÷ 250,000 = 0.4% and CPC = $1,500 ÷ 1,000 = $1.50."
+    ],
+    "questions": [
+      {
+        "stem": "A radio spot costs $1,200 and reaches 80,000 listeners. What is the CPM?",
+        "choices": ["$66.67", "$15.00", "$1.50", "$96.00"],
+        "answer": 1,
+        "explanation": "CPM = $1,200 ÷ 80,000 × 1,000 = $15.00. It means the advertiser pays $15 for every thousand listeners reached."
+      },
+      {
+        "stem": "A media plan reaches 55% of the target audience with an average frequency of 3.2. How many gross rating points does it deliver?",
+        "choices": ["58.2", "17.2", "176", "1,760"],
+        "answer": 2,
+        "explanation": "GRPs = reach × frequency = 55 × 3.2 = 176. Adding the two numbers (58.2) is a common error."
+      },
+      {
+        "stem": "A campaign delivers 300 gross rating points and reaches 60% of the target audience. What is the average frequency?",
+        "choices": ["180", "240", "0.2", "5"],
+        "answer": 3,
+        "explanation": "Frequency = GRPs ÷ reach = 300 ÷ 60 = 5. On average, each person reached saw the ad 5 times."
+      },
+      {
+        "stem": "A search ad receives 40,000 impressions and 1,200 clicks and costs $900. What are its click-through rate and cost per click?",
+        "choices": ["3%; $0.75", "30%; $0.75", "3%; $1.33", "33%; $22.50"],
+        "answer": 0,
+        "explanation": "CTR = 1,200 ÷ 40,000 = 0.03, or 3%. CPC = $900 ÷ 1,200 = $0.75. Dividing clicks by cost ($1.33) reverses the CPC formula."
+      },
+      {
+        "stem": "A swimwear brand runs a low level of ads all year and much heavier advertising in late spring. Which scheduling pattern is this?",
+        "choices": ["Flighting", "Pulsing", "Continuous", "Blocking"],
+        "answer": 1,
+        "explanation": "Pulsing keeps a steady base with bursts at peak times. Flighting would stop advertising completely between bursts."
+      },
+      {
+        "stem": "A hardware store with one location wants an affordable medium that reaches commuters in its own city repeatedly during drive time. Which medium fits best?",
+        "choices": ["A national magazine", "A national television network", "Local radio", "A trade journal"],
+        "answer": 2,
+        "explanation": "Local radio is inexpensive, targets one market and reaches drivers often, building frequency. National media would waste most of the budget on people outside the store's area."
+      },
+      {
+        "stem": "An online ad campaign cost $4,000 and generated $18,000 in sales. What is the return on ad spend (ROAS)?",
+        "choices": ["0.22 to 1", "3.5 to 1", "14 to 1", "4.5 to 1"],
+        "answer": 3,
+        "explanation": "ROAS = $18,000 ÷ $4,000 = 4.5, so each ad dollar produced $4.50 in sales. The 3.5 figure subtracts the cost first, which is a return-on-investment calculation."
+      },
+      {
+        "stem": "Thousands of customers share a brand's video on their own social accounts without being paid. What kind of media is this?",
+        "choices": ["Earned media", "Paid media", "Owned media", "Programmatic media"],
+        "answer": 0,
+        "explanation": "Earned media is exposure the brand did not buy, such as shares, reviews and news coverage. Owned media is the brand's own channels, and paid media is bought placement."
+      }
+    ],
+    "flashcards": [
+      { "term": "Reach", "definition": "The percentage or number of people in the target audience exposed to an ad at least once in a set period." },
+      { "term": "Frequency", "definition": "The average number of times each person reached is exposed to an ad during a set period." },
+      { "term": "Gross rating points (GRPs)", "definition": "Reach (as a percentage) multiplied by average frequency; a measure of the total weight of a media schedule." },
+      { "term": "CPM", "definition": "Cost per thousand: the cost of reaching 1,000 people, found by cost ÷ audience × 1,000." },
+      { "term": "Pulsing", "definition": "A media schedule with a low continuous base of ads plus heavier bursts at key selling times." }
+    ]
+  }
+]

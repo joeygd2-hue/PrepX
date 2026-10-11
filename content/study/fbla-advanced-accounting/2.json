@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Partnerships and corporations",
+    "objective": "Divide partnership income, handle partner changes and liquidation, and record corporate stock issues, dividends and retained earnings.",
+    "body": "Ownership structure changes how equity is recorded. Advanced accounting tests ask you to split partnership income, follow a partnership through liquidation and trace corporate equity through stock issues and dividends.\n\n**Partnerships.** Each partner has a capital account and a drawing account. Net income is divided according to the partnership agreement; if the agreement is silent, partners share *equally*, regardless of how much each invested. Agreements often use several steps:\n1. Allow salaries to partners for services.\n2. Allow interest on each partner's capital balance.\n3. Divide whatever remains, positive or negative, by the agreed income-sharing ratio.\nSalary and interest allowances are a way to divide income, not expenses of the business. If net income is smaller than the allowances, the remainder is negative and reduces each partner's share by the ratio.\n\n**Admitting and liquidating.** A new partner may buy an existing partner's interest privately, which simply transfers capital between partner accounts, or invest assets directly in the firm. If the new partner pays more than the book value of the share received, the extra is a *bonus* to the existing partners. *Liquidation* follows a fixed order: sell noncash assets, divide any gain or loss by the income-sharing ratio, pay creditors, then distribute remaining cash according to capital balances.\n\n**Corporations.** Stockholders' equity has two main parts: *paid-in capital*, what investors contributed, and *retained earnings*, accumulated net income minus dividends.\n- Issuing stock above par: credit Common Stock for par and Paid-in Capital in Excess of Par for the rest.\n- *Preferred stock* receives dividends before common stock; *cumulative* preferred must also be paid any dividends in arrears first.\n- *Treasury stock* is the company's own stock that it has repurchased; it reduces stockholders' equity.\n\n**Dividends.** On the *declaration date* the board creates a liability: debit Retained Earnings (or Dividends) and credit Dividends Payable. The *date of record* determines who receives the dividend and needs no entry. On the *payment date*, debit Dividends Payable and credit Cash. A *stock split* changes the number of shares and the par value but not total equity.\n\nThe most common mistake is recording a cash dividend as an expense. Dividends distribute earnings to owners, so they reduce retained earnings and never appear on the income statement.",
+    "examples": [
+      "Partners Rosa and Ken share income 3:2 after a $20,000 salary allowance to Rosa. Net income is $70,000, so $50,000 remains: Rosa gets $30,000 more (total $50,000) and Ken gets $20,000.",
+      "A corporation issues 1,000 shares of $10 par common stock for $25 per share. Cash is debited $25,000, Common Stock is credited $10,000 and Paid-in Capital in Excess of Par is credited $15,000.",
+      "A company with 50,000 shares outstanding declares a $0.40 per-share cash dividend. It records a $20,000 liability on the declaration date and pays the $20,000 on the payment date."
+    ],
+    "questions": [
+      {
+        "stem": "Partners Lena and Omar have no agreement about sharing income. Lena invested $60,000 and Omar invested $20,000. Net income is $48,000. How much is allocated to Omar?",
+        "choices": ["$12,000", "$24,000", "$36,000", "$16,000"],
+        "answer": 1,
+        "explanation": "With no agreement, partners share income equally: $48,000 ÷ 2 = $24,000 each. Dividing by capital ($12,000) applies a ratio the partners never agreed to."
+      },
+      {
+        "stem": "A partnership agreement allows Partner X a $30,000 salary and Partner Y a $20,000 salary, with any remainder divided equally. Net income is $40,000. What is Partner Y's total share?",
+        "choices": ["$20,000", "$25,000", "$15,000", "$16,000"],
+        "answer": 2,
+        "explanation": "Salaries total $50,000, so the remainder is $40,000 − $50,000 = −$10,000, or −$5,000 each. Y receives $20,000 − $5,000 = $15,000."
+      },
+      {
+        "stem": "Three partners share income in the ratio 2:1:1. After salary and interest allowances, $36,000 of net income remains. How much of the remainder goes to the partner with the largest share?",
+        "choices": ["$12,000", "$24,000", "$9,000", "$18,000"],
+        "answer": 3,
+        "explanation": "The ratio has 2 + 1 + 1 = 4 parts, so the largest share is 2/4 × $36,000 = $18,000. Splitting into thirds ($12,000) ignores the ratio."
+      },
+      {
+        "stem": "A corporation issues 5,000 shares of $2 par common stock at $15 per share. How much is credited to Paid-in Capital in Excess of Par?",
+        "choices": ["$65,000", "$75,000", "$10,000", "$85,000"],
+        "answer": 0,
+        "explanation": "The excess over par is $15 − $2 = $13 per share, and 5,000 × $13 = $65,000. Common Stock is credited for par: 5,000 × $2 = $10,000."
+      },
+      {
+        "stem": "A company has 10,000 shares of $100 par, 5% cumulative preferred stock. No dividends were paid last year. This year the board declares $150,000 in total dividends. How much goes to common stockholders?",
+        "choices": ["$100,000", "$50,000", "$150,000", "$0"],
+        "answer": 1,
+        "explanation": "The annual preferred dividend is 10,000 × $100 × 5% = $50,000. Preferred receives last year's arrears plus this year's, $100,000, leaving $150,000 − $100,000 = $50,000 for common."
+      },
+      {
+        "stem": "On which of these dates is no journal entry recorded for a cash dividend?",
+        "choices": ["Declaration date", "Payment date", "Date of record", "The date dividends are closed at year-end"],
+        "answer": 2,
+        "explanation": "The date of record only identifies which stockholders will be paid. The liability is recorded on the declaration date and settled on the payment date."
+      },
+      {
+        "stem": "A corporation carries out a 2-for-1 stock split on its $10 par common stock. What is the effect on total stockholders' equity?",
+        "choices": ["It doubles", "It falls by half", "It decreases by the par value of the new shares", "No change"],
+        "answer": 3,
+        "explanation": "A split doubles the shares and halves the par value to $5, so no account balance changes. Total stockholders' equity stays the same."
+      },
+      {
+        "stem": "In a partnership liquidation, noncash assets have been sold and the gain has been divided among the partners. What is the next step?",
+        "choices": ["Pay the partnership's creditors", "Distribute all cash to partners by the income-sharing ratio", "Distribute all cash to partners equally", "Close partner drawing accounts to revenue"],
+        "answer": 0,
+        "explanation": "Creditors are paid before partners receive anything. Remaining cash then goes to partners according to their capital balances, not their income ratio."
+      }
+    ],
+    "flashcards": [
+      { "term": "Income-sharing ratio", "definition": "The agreed proportion partners use to divide net income or loss; equal shares apply if no agreement exists." },
+      { "term": "Partnership bonus", "definition": "The amount a new partner pays above the book value of the capital received, credited to the existing partners." },
+      { "term": "Paid-in capital in excess of par", "definition": "The amount investors pay for stock above its par value, recorded separately from the stock account." },
+      { "term": "Cumulative preferred stock", "definition": "Preferred stock whose unpaid dividends accumulate as arrears and must be paid before common stockholders get dividends." },
+      { "term": "Treasury stock", "definition": "A corporation's own issued stock that it has bought back; it reduces total stockholders' equity." }
+    ]
+  }
+]

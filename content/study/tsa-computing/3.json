@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Data analysis, visualization and geospatial basics",
+    "objective": "Summarize, clean and visualize data honestly, separate correlation from causation, and use GIS layers, data models and coordinate systems correctly.",
+    "body": "Data Science and Analytics teams must turn a dataset into a defensible finding, and Geospatial Technology teams must do the same on a map. Judges press on method: where the data came from, how it was cleaned and whether the conclusion actually follows.\n\n**Describing data.** The *mean* is the average, the *median* is the middle value when the data are sorted, and the *mode* is the most frequent value. Outliers pull the mean toward them but barely move the median, so the median better describes skewed data such as home prices or incomes. The *range* (maximum minus minimum) and the *standard deviation* describe spread.\n\n**Cleaning data.** Real datasets contain duplicates, missing values, inconsistent formats ('NY,' 'New York,' 'new york') and entry errors. Document every cleaning step so someone else could repeat it, and never quietly delete data just because it is inconvenient.\n\n**Sampling and bias.** A sample should represent the population it describes. Surveying only robotics club members about school technology creates *sampling bias*; a random sample drawn from the whole school is better. Larger random samples reduce random error, but they cannot fix a biased method.\n\n**Correlation is not causation.** Two variables can move together because one causes the other, because a third *confounding variable* drives both, or by coincidence. A correlation coefficient *r* near +1 or −1 shows a strong linear relationship; near 0 it shows little linear relationship. A controlled experiment is the strongest way to show cause.\n\n**Choosing a chart.**\n- Line chart: change over time.\n- Bar chart: comparing categories.\n- Histogram: the distribution of one numeric variable.\n- Scatter plot: the relationship between two numeric variables.\n- Pie chart: parts of one whole, with only a few categories.\nStart bar-chart value axes at zero so differences are not exaggerated.\n\n**Geospatial basics.** A *geographic information system* (GIS) stores data in *layers* that can be overlaid and analyzed together. *Vector* data uses points, lines and polygons (hydrants, roads, parcels); *raster* data uses a grid of cells (satellite imagery, elevation). Locations use a coordinate system such as latitude and longitude, and layers must share the same *coordinate reference system* to line up. GPS receivers find their position by timing signals from several satellites.\n\nA common mistake is presenting a chart without stating the data source, the sample size and the limitations. Judges trust analysts who are honest about what the data cannot show.",
+    "examples": [
+      "Five houses sell for $210,000, $225,000, $240,000, $250,000 and $1,200,000. The mean is $2,125,000 / 5 = $425,000, but the median of $240,000 better describes a typical sale.",
+      "Ice-cream sales and sunburn cases both rise in July. Neither causes the other; hot, sunny weather is the confounding variable that drives both.",
+      "A Geospatial team overlays a flood-zone polygon layer, a parcel layer and a raster elevation layer to list which homes sit both inside the flood zone and below 10 meters of elevation."
+    ],
+    "questions": [
+      {
+        "stem": "Five quiz scores are 62, 70, 74, 74 and 95. What are the mean and the median?",
+        "choices": ["Mean 75, median 74", "Mean 74, median 75", "Mean 75, median 70", "Mean 74, median 74"],
+        "answer": 0,
+        "explanation": "The sum is 62 + 70 + 74 + 74 + 95 = 375, and 375 / 5 = 75. Sorted, the middle (third) value is 74."
+      },
+      {
+        "stem": "A survey dataset lists the same state as 'TX,' 'Texas' and 'texas.' What is the best cleaning step?",
+        "choices": ["Delete every row that uses an abbreviation", "Standardize all entries to one consistent format and record the change", "Leave the values as they are so the data stay original", "Replace the column with random state names"],
+        "answer": 1,
+        "explanation": "Standardizing makes the three spellings count as one category, and documenting the step keeps the analysis repeatable. Deleting rows throws away valid data."
+      },
+      {
+        "stem": "A team wants to show how its website's monthly visits changed over 24 months. Which chart is best?",
+        "choices": ["Pie chart", "Line chart", "Histogram", "Scatter plot of month names"],
+        "answer": 1,
+        "explanation": "Line charts show change over time, connecting each month's value so trends and seasonal patterns are easy to see."
+      },
+      {
+        "stem": "A study of 200 students finds r = −0.85 between minutes of screen time before bed and hours of sleep. Which interpretation is best?",
+        "choices": ["There is a strong negative linear relationship, but this alone does not prove screen time causes less sleep", "Screen time definitely causes 85% less sleep", "There is almost no relationship, because r is negative", "More screen time is strongly linked to more sleep"],
+        "answer": 0,
+        "explanation": "An r near −1 means strong negative association: as one rises, the other tends to fall. Correlation by itself cannot rule out confounding variables, so it does not prove cause."
+      },
+      {
+        "stem": "To estimate how all 1,200 students at a school travel to school, which sampling method is least biased?",
+        "choices": ["Surveying the first 150 students in the car drop-off line", "Asking 150 members of the cycling club", "Posting an optional online poll", "Randomly selecting 150 students from the full enrollment list"],
+        "answer": 3,
+        "explanation": "A random sample from the full enrollment list gives every student an equal chance of selection. The other methods over-represent drivers, cyclists or students who choose to respond."
+      },
+      {
+        "stem": "Across many neighborhoods, the number of firefighters sent to a fire is strongly correlated with the amount of damage. What is the most likely explanation?",
+        "choices": ["Firefighters cause fire damage", "Damage attracts firefighters after the fire is out", "Larger fires bring more firefighters and also cause more damage", "The correlation must be a data entry error"],
+        "answer": 2,
+        "explanation": "Fire size is a confounding variable that drives both the number of firefighters and the damage. The correlation does not mean firefighters cause damage."
+      },
+      {
+        "stem": "Which dataset is best stored as raster data in a GIS?",
+        "choices": ["Locations of fire hydrants", "Centerlines of city streets", "Boundaries of property parcels", "A satellite image of land surface temperature"],
+        "answer": 3,
+        "explanation": "Continuous surfaces such as imagery and temperature fit a grid of cells, which is raster data. Hydrants, streets and parcels are discrete features suited to vector points, lines and polygons."
+      },
+      {
+        "stem": "Two GIS layers of the same city appear hundreds of meters apart when overlaid. What is the most likely cause?",
+        "choices": ["The layers use different coordinate reference systems that were not reconciled", "One layer has too many attribute columns", "The map uses the wrong color scheme", "The layers were saved on different days"],
+        "answer": 0,
+        "explanation": "Data must share, or be projected into, the same coordinate reference system to align. A mismatch shifts features even though both layers describe the same place."
+      }
+    ],
+    "flashcards": [
+      { "term": "Median", "definition": "The middle value of sorted data, or the average of the two middle values; resistant to outliers." },
+      { "term": "Confounding variable", "definition": "A third factor that influences both variables in a study, creating a correlation that is not cause and effect." },
+      { "term": "Sampling bias", "definition": "Error that occurs when the way a sample is chosen makes it unrepresentative of the population." },
+      { "term": "Raster data", "definition": "GIS data stored as a grid of cells, each holding a value, such as satellite imagery or elevation." },
+      { "term": "Vector data", "definition": "GIS data stored as points, lines and polygons representing discrete features such as wells, roads and parcels." }
+    ]
+  }
+]

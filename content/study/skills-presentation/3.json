@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Delivery, rehearsal and Q&A",
+    "objective": "Deliver with a confident voice and body language, rehearse effectively and handle questions well.",
+    "body": "Two competitors with the same content can earn very different scores because of delivery. Judges notice whether you sound confident, connect with them and handle questions calmly. The good news is that delivery improves quickly with deliberate practice.\n\n**Voice.** Speak loudly enough for the back of the room and a little slower than feels natural, since nerves speed most people up. Vary your pitch and pace to emphasize key points, and use short pauses before and after important ideas. Pauses also replace filler words such as *um*, *like* and *you know*, which make speakers sound unsure.\n\n**Body language.** Stand tall with your feet planted, keep your hands relaxed and use natural gestures that match your words. Make eye contact with each judge in turn, holding it for a full thought rather than darting around the room. Avoid pacing, swaying or gripping the lectern.\n\n**Rehearse the right way.**\n1. Practice out loud, standing, with your actual slides or materials.\n2. Time every run and adjust content until you finish comfortably within the limit.\n3. Record yourself or present to someone who will give honest feedback, then fix one or two habits at a time.\n4. Rehearse your first minute and your transitions most, since a strong start calms nerves.\n\nAim to know your ideas and their order, not a memorized script; a memorized script can fall apart when a single word slips.\n\n**Manage nerves.** Nervous energy is normal. Slow breathing before you start, a well-rehearsed opening line and a focus on helping the audience understand, rather than on being judged, all help.\n\n**Handle questions with a method.** When a judge asks a question:\n- Listen to the whole question and pause briefly.\n- Answer directly and concisely, then support it with one reason or fact.\n- If you do not know, say so honestly and explain how you would find out.\n- Stay composed and polite, even when a question is challenging.\n\nFor team presentations, decide in advance who answers which topics so you never talk over each other.\n\nA common mistake is rehearsing only in your head. Silent run-throughs hide the timing problems and stumbles that appear the moment you speak aloud.",
+    "examples": [
+      "A competitor records a practice run and counts 23 filler words in 5 minutes. She replaces them with short pauses, and two runs later she is down to 6.",
+      "A judge asks about a cost the speaker has not researched. Strong answer: I don't have that figure yet; I would get quotes from two local suppliers before launch.",
+      "With a 7-minute limit, practice runs of 7 minutes 40 seconds lead a team to cut one example, bringing runs to about 6 minutes 30 seconds and leaving a safe buffer."
+    ],
+    "questions": [
+      {
+        "stem": "A practice recording shows you say um many times. What is the best replacement habit?",
+        "choices": [
+          "Speak faster so there is no room left for filler words",
+          "Memorize the script word for word before you present",
+          "Read directly from your slides to avoid any gaps",
+          "Pause silently whenever you need a moment to think"
+        ],
+        "answer": 3,
+        "explanation": "A short silent pause sounds confident and gives you time to think, which removes the need for fillers. Speaking faster usually adds more of them."
+      },
+      {
+        "stem": "A judge asks a question you cannot answer. What is the best response?",
+        "choices": [
+          "Give a reasonable-sounding figure so you appear prepared",
+          "Admit you do not know and explain how you would find out",
+          "Change the subject to a point you prepared in advance",
+          "Tell the judge the question is not relevant to your topic"
+        ],
+        "answer": 1,
+        "explanation": "Honesty plus a clear plan for finding the answer shows integrity and problem-solving. Invented figures can destroy your credibility if the judge knows the real number."
+      },
+      {
+        "stem": "Your timed rehearsals run 8 minutes 30 seconds for an event with an 8-minute limit. What is the best fix?",
+        "choices": [
+          "Plan to speak faster during the real presentation",
+          "Skip the conclusion if you start running short of time",
+          "Cut or shorten content until runs finish under the limit",
+          "Keep the content, since judges rarely watch the time"
+        ],
+        "answer": 2,
+        "explanation": "Trimming content builds in a reliable buffer. Rushing hurts clarity, and many events penalize or stop presenters who go over time."
+      },
+      {
+        "stem": "Which rehearsal method best prepares you for the actual presentation?",
+        "choices": [
+          "Practicing aloud, standing and timed, with your real materials",
+          "Reading your notes silently several times the night before",
+          "Memorizing every word so that nothing can possibly change",
+          "Running through only the hardest parts in your head"
+        ],
+        "answer": 0,
+        "explanation": "Realistic rehearsal reveals timing, transitions and stumbles that silent or partial practice hides."
+      }
+    ],
+    "flashcards": [
+      { "term": "Filler words", "definition": "Sounds or words such as um, like and you know that fill silence and make a speaker sound unsure." },
+      { "term": "Vocal variety", "definition": "Changing pitch, pace and volume to keep listeners engaged and emphasize key ideas." },
+      { "term": "Strategic pause", "definition": "A brief, intentional silence used to emphasize a point or gather your thoughts instead of using filler." },
+      { "term": "Eye contact", "definition": "Looking at individual listeners for a full thought to build connection and show confidence." },
+      { "term": "Timed rehearsal", "definition": "A full, out-loud practice run measured with a timer to confirm the talk fits the time limit." }
+    ]
+  }
+]

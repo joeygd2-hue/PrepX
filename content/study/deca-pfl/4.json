@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Using credit and managing debt",
+    "objective": "Compare types and costs of credit, explain what drives credit reports and scores, and use consumer credit rights.",
+    "body": "Credit lets you buy now and pay later, and it shapes your financial life for years: lenders, landlords, insurers and some employers may look at your credit history. The Personal Financial Literacy exam tests credit math, credit score factors and consumer rights, and judges reward advice that keeps borrowing affordable.\n\n**Types of credit.** *Installment credit* is borrowed once and repaid in fixed payments over a set term, such as auto loans, student loans and mortgages. *Revolving credit*, such as a credit card, gives you a limit you can borrow against again as you repay. A *secured* loan is backed by *collateral* the lender can take if you stop paying, such as the car on an auto loan; an *unsecured* loan is backed only by your promise to pay.\n\n**The cost of credit.** The *annual percentage rate (APR)* states the yearly cost of borrowing, including interest and certain fees, and the Truth in Lending Act requires lenders to disclose it. Most credit cards offer a *grace period*: pay the full statement balance by the due date and you pay no interest on new purchases. Paying only the minimum keeps a balance alive for years and can add up to more in interest than the original purchase.\n\n**How lenders decide.** Lenders weigh the *five Cs*: character (repayment history), capacity (income compared with debts), capital (savings and assets), collateral and conditions (the loan's purpose and the economy). A *debt-to-income ratio* divides monthly debt payments by gross monthly income; lower is better.\n\n**Credit reports and scores.** Three nationwide credit bureaus, Equifax, Experian and TransUnion, keep reports of your accounts and payment history, and you can get free reports through the official site, AnnualCreditReport.com. FICO scores weigh payment history most heavily (about 35%), followed by amounts owed (about 30%), length of credit history, new credit and credit mix. Keep *credit utilization*, total balances divided by total limits, low; many experts suggest staying under 30%.\n\n**Your rights.** The *Fair Credit Reporting Act* lets you dispute errors with the bureau and the company that reported them. The *Fair Debt Collection Practices Act* bans abusive collection tactics. Under the Credit CARD Act, card applicants under 21 must show independent income or have a cosigner.\n\n**Student loans.** Federal student loans have fixed rates set by law and borrower protections such as income-based repayment options; private loans are priced on credit and often require a cosigner. Use grants, scholarships and federal loans first, and borrow only what you need.\n\nA common mistake is treating a credit limit as spending money. Borrow only what your budget can repay, and pay on time every month.",
+    "examples": [
+      "Zoe charges $800 on a card with a 24% APR and pays the full statement balance by the due date. Because of the grace period, she pays $0 in interest.",
+      "Ethan earns $3,000 a month before taxes and pays $450 a month toward a car loan and a student loan. His debt-to-income ratio is $450 / $3,000 = 15%.",
+      "Rana finds an account on her credit report that she never opened. She disputes it with the bureau, which must investigate, and she checks her other reports for signs of identity theft."
+    ],
+    "questions": [
+      {
+        "stem": "Kai has two credit cards with limits of $2,000 and $3,000. The balances are $600 and $900. What is his overall credit utilization ratio?",
+        "choices": ["20%", "45%", "30%", "50%"],
+        "answer": 2,
+        "explanation": "Total balances ($600 + $900 = $1,500) divided by total limits ($2,000 + $3,000 = $5,000) = 0.30, or 30%."
+      },
+      {
+        "stem": "Which factor carries the most weight in a FICO credit score?",
+        "choices": ["Length of credit history", "Payment history", "Types of credit used", "Number of recent applications"],
+        "answer": 1,
+        "explanation": "Payment history makes up about 35% of a FICO score, more than any other factor. Amounts owed is second at about 30%."
+      },
+      {
+        "stem": "Which of these is an example of revolving credit?",
+        "choices": ["A five-year auto loan", "A 30-year mortgage", "A federal student loan", "A credit card with a $1,500 limit"],
+        "answer": 3,
+        "explanation": "Revolving credit lets you borrow up to a limit, repay and borrow again. The others are installment loans repaid in fixed payments over a set term."
+      },
+      {
+        "stem": "Leo stops making payments on his auto loan, and the lender repossesses the car. Which feature of the loan allowed this?",
+        "choices": [
+          "The car served as collateral for a secured loan",
+          "The loan was a revolving line of credit",
+          "The lender charged a variable APR",
+          "The loan included a grace period"
+        ],
+        "answer": 0,
+        "explanation": "In a secured loan, the borrower pledges collateral the lender can take after default. Unsecured loans have no specific property backing them."
+      },
+      {
+        "stem": "Nia carries a $1,200 balance on a credit card with an 18% APR. If the monthly interest is found by dividing the APR by 12, about how much interest is charged for one month?",
+        "choices": ["$216.00", "$21.60", "$18.00", "$15.00"],
+        "answer": 2,
+        "explanation": "Monthly rate = 18% / 12 = 1.5%. Interest = $1,200 x 0.015 = $18. $216 is a full year of interest."
+      },
+      {
+        "stem": "Isabel's gross monthly income is $2,400, and her monthly debt payments are a $350 car loan and a $250 student loan. What is her debt-to-income ratio?",
+        "choices": ["15%", "25%", "35%", "40%"],
+        "answer": 1,
+        "explanation": "Debt payments: $350 + $250 = $600. Then $600 / $2,400 = 0.25, or 25%."
+      },
+      {
+        "stem": "A loan officer reviews an applicant's monthly income and existing loan payments to judge whether the applicant can handle a new payment. Which of the five Cs of credit is the officer evaluating?",
+        "choices": ["Character", "Capital", "Collateral", "Capacity"],
+        "answer": 3,
+        "explanation": "Capacity is the ability to repay based on income compared with debts. Character is judged by past repayment behavior, such as the credit report."
+      },
+      {
+        "stem": "Devin finds a collection account on his credit report for a debt he already paid in full. What is his best first step?",
+        "choices": [
+          "Close all of his credit card accounts",
+          "File a dispute with the credit bureau reporting it, including proof of payment",
+          "Pay the debt a second time to remove it quickly",
+          "Wait seven years for the item to disappear"
+        ],
+        "answer": 1,
+        "explanation": "Under the Fair Credit Reporting Act, bureaus must investigate disputes and correct inaccurate information. Closing accounts does not fix the error and can raise his utilization."
+      },
+      {
+        "stem": "Tyler's cousin asks him to cosign a car loan. What does cosigning mean for Tyler?",
+        "choices": [
+          "He is only a character reference and has no responsibility for payments",
+          "He owns half of the car once the loan is approved",
+          "He is legally responsible for the full debt if his cousin does not pay",
+          "He can be charged only if the car is damaged in an accident"
+        ],
+        "answer": 2,
+        "explanation": "A cosigner promises to repay the entire debt if the borrower doesn't, and missed payments can appear on the cosigner's credit report too."
+      },
+      {
+        "stem": "Which habit lets a credit card user avoid paying interest on new purchases?",
+        "choices": [
+          "Paying the minimum payment a few days early",
+          "Keeping the balance just under the credit limit",
+          "Making a payment only when the balance passes $500",
+          "Paying the full statement balance by the due date each month"
+        ],
+        "answer": 3,
+        "explanation": "With a grace period, paying the full statement balance by the due date means no interest on purchases. A balance carried past the due date starts accruing interest."
+      }
+    ],
+    "flashcards": [
+      { "term": "Annual percentage rate (APR)", "definition": "The yearly cost of borrowing, including interest and certain fees, expressed as a percentage." },
+      { "term": "Revolving credit", "definition": "Credit with a limit you can borrow against, repay and borrow again, such as a credit card." },
+      { "term": "Collateral", "definition": "Property pledged to secure a loan that the lender can take if the borrower defaults." },
+      { "term": "Credit utilization ratio", "definition": "Total revolving balances divided by total credit limits; lower ratios help credit scores." },
+      { "term": "Debt-to-income ratio", "definition": "Monthly debt payments divided by gross monthly income, used by lenders to judge ability to repay." },
+      { "term": "Credit report", "definition": "A credit bureau's record of a person's accounts, balances, payment history and collection activity." }
+    ]
+  }
+]

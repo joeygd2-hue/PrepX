@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Electricity and electronic circuits",
+    "objective": "Use Ohm's law and the power formula, analyze series and parallel circuits, size resistors for LEDs, read resistor color codes and measure circuits safely with a multimeter.",
+    "body": "Electrical Applications, Animatronics and System Control Technology all depend on circuits that work the first time and can be explained under questioning. A few relationships let you size components, predict behavior and troubleshoot quickly.\n\n**Quantities.** *Voltage* (V, in volts) is the electrical push; *current* (I, in amperes) is the flow of charge; *resistance* (R, in ohms) opposes that flow. *Ohm's law* states V = I × R. *Power* is P = V × I, measured in watts.\n\n**Series circuits.** There is one path. Current is the same everywhere, resistances add (R total = R1 + R2 + ...), and the source voltage divides among the components. If one bulb opens, everything stops.\n\n**Parallel circuits.** There are several paths. Every branch gets the full source voltage, branch currents add up to the total current, and the total resistance is lower than the smallest branch resistance. For two resistors, R total = (R1 × R2) / (R1 + R2). Household outlets are wired in parallel so each device works independently.\n\n**Components.**\n- *LEDs* conduct in one direction only and need a series resistor to limit current: R = (supply voltage − LED forward voltage) / desired current.\n- *Resistor color bands* give the value. On a four-band resistor, brown-black-red means 1, 0 and a multiplier of 100, or 1,000 Ω; the fourth band is tolerance, with gold meaning ±5%.\n- *Capacitors* store charge, *diodes* allow current in one direction, *transistors* act as electronically controlled switches or amplifiers, and *relays* let a small control signal switch a larger load.\n\n**Measuring.** A *multimeter* measures voltage in parallel across a component, measures current in series by breaking the circuit and inserting the meter, and measures resistance or continuity only with the power off.\n\n**AC and DC.** Batteries supply direct current that flows one way. Wall outlets supply alternating current that reverses direction many times per second; in the United States it completes 60 cycles per second (60 hertz).\n\n**Safety.** Fuses and circuit breakers open a circuit when current is too high. Ground-fault circuit interrupters (GFCIs) cut power when current leaks to ground, protecting people near water.\n\nA common mistake is ignoring units and prefixes: 220 mA is 0.22 A and 4.7 kΩ is 4,700 Ω. Convert before you calculate.",
+    "examples": [
+      "An LED with a 2 V forward voltage should run at 20 mA from a 9 V battery: R = (9 − 2) / 0.020 = 350 Ω. Choosing the next larger common value, 390 Ω, keeps the current safely below 20 mA.",
+      "Two 12 Ω resistors in parallel give R total = (12 × 12) / (12 + 12) = 6 Ω. Across 6 V, the total current is 6 / 6 = 1 A, with 0.5 A in each branch.",
+      "A motor draws 1.5 A at 12 V, so it uses P = 12 × 1.5 = 18 W."
+    ],
+    "questions": [
+      {
+        "stem": "A 12 V source pushes current through a single 48 Ω resistor. What current flows?",
+        "choices": ["0.25 A", "4 A", "36 A", "576 A"],
+        "answer": 0,
+        "explanation": "I = V / R = 12 / 48 = 0.25 A. Dividing R by V gives 4, and multiplying gives 576."
+      },
+      {
+        "stem": "Resistors of 100 Ω, 220 Ω and 330 Ω are connected in series across a 13 V supply. What current flows?",
+        "choices": ["2 mA", "20 mA", "50 mA", "200 mA"],
+        "answer": 1,
+        "explanation": "Series resistances add: 100 + 220 + 330 = 650 Ω. I = 13 / 650 = 0.02 A, which is 20 mA."
+      },
+      {
+        "stem": "A 30 Ω resistor and a 60 Ω resistor are connected in parallel. What is their equivalent resistance?",
+        "choices": ["20 Ω", "30 Ω", "45 Ω", "90 Ω"],
+        "answer": 0,
+        "explanation": "R = (30 × 60) / (30 + 60) = 1,800 / 90 = 20 Ω. The parallel total is always less than the smallest branch; 90 Ω would be the series total."
+      },
+      {
+        "stem": "A heater draws 5 A from a 120 V supply. How much power does it use?",
+        "choices": ["24 W", "115 W", "125 W", "600 W"],
+        "answer": 3,
+        "explanation": "P = V × I = 120 × 5 = 600 W. Dividing 120 by 5 gives 24, which is the heater's resistance in ohms, not its power."
+      },
+      {
+        "stem": "An LED with a 3 V forward voltage must run at 15 mA from a 6 V supply. What series resistance gives exactly that current?",
+        "choices": ["45 Ω", "200 Ω", "400 Ω", "600 Ω"],
+        "answer": 1,
+        "explanation": "R = (6 − 3) / 0.015 = 3 / 0.015 = 200 Ω. Using the full 6 V and ignoring the LED's forward voltage gives 400 Ω."
+      },
+      {
+        "stem": "A four-band resistor is marked yellow, violet, orange, gold. Using yellow = 4, violet = 7, orange multiplier = 1,000 and gold = ±5%, what is its value?",
+        "choices": ["4.7 kΩ ±5%", "47 kΩ ±5%", "470 kΩ ±5%", "473 Ω ±5%"],
+        "answer": 1,
+        "explanation": "The first two bands give 47, and the orange multiplier makes it 47 × 1,000 = 47,000 Ω, or 47 kΩ, with ±5% tolerance."
+      },
+      {
+        "stem": "To measure the current through an LED with a multimeter, how must the meter be connected?",
+        "choices": ["In parallel across the LED with power on", "In series, by breaking the circuit and inserting the meter", "Across the battery terminals with the circuit removed", "In parallel across the resistor with power off"],
+        "answer": 1,
+        "explanation": "All of the current must flow through the meter, so it goes in series in the path. Measuring across a component in parallel reads voltage, not current."
+      },
+      {
+        "stem": "In a string of decorative lights, one bulb burns out and the entire string goes dark. Which explanation is correct?",
+        "choices": ["The bulbs are in series, so the open bulb breaks the only current path", "The bulbs are in parallel, so the open bulb shorts the other branches", "The bulbs are in parallel, so the voltage across each bulb doubled", "The bulbs are in series, so the open bulb raised the total current"],
+        "answer": 0,
+        "explanation": "A series circuit has a single path, so one open component stops current everywhere. In a parallel circuit the other branches would stay lit."
+      }
+    ],
+    "flashcards": [
+      { "term": "Ohm's law", "definition": "The relationship V = I × R: voltage equals current times resistance." },
+      { "term": "Series circuit", "definition": "A circuit with one current path, where current is the same everywhere and resistances add." },
+      { "term": "Parallel circuit", "definition": "A circuit with several branches, each receiving the full source voltage, with branch currents adding to the total." },
+      { "term": "Current-limiting resistor", "definition": "A resistor placed in series with an LED to keep its current at a safe value: R = (supply − forward voltage) / current." },
+      { "term": "Relay", "definition": "An electrically operated switch that lets a small control current turn a larger, separate load on or off." }
+    ]
+  }
+]

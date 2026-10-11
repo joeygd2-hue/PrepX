@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Business messages, reports and presentations",
+    "objective": "Organize letters, memos, emails, reports and speeches with the direct, indirect or persuasive pattern that fits the purpose and audience.",
+    "body": "Whether you are answering a test item about letter format or delivering a timed speech, the core skill is the same: choose an organizational pattern that fits your purpose and the audience's likely reaction.\n\n**Three patterns.**\n- *Direct approach*: main idea first, then supporting details, then a courteous close. Use it for routine requests, good news and most internal messages.\n- *Indirect approach*: open with a neutral *buffer*, explain the reasons, state the bad news clearly but briefly, then close with goodwill or an alternative. Use it for refusals and other unwelcome news.\n- *Persuasive (AIDA)*: gain **A**ttention, build **I**nterest, create **D**esire with benefits and proof such as testimonials, and ask for **A**ction. Use it for sales messages, proposals and requests that need convincing.\n\n**Document formats.** A business letter goes to readers outside the organization. In *full block* style every line starts at the left margin; in *modified block* style the date and closing start near the center. Standard parts are the letterhead or return address, date, inside address, salutation, body, complimentary close, signature block and any notations, such as *Enclosure* or *c:* for copies. A *memo* is internal and uses TO, FROM, DATE and SUBJECT headings with no salutation or complimentary close. An email needs a specific subject line, a brief greeting, short paragraphs and a signature with contact details; avoid writing in all capitals, which reads as shouting.\n\n**Reports.** *Informational* reports present facts; *analytical* reports interpret facts and recommend action. Long formal reports often open with an *executive summary*, a short overview that lets a busy decision-maker grasp the findings and recommendations without reading everything. Cite the source of any data you did not create.\n\n**Speeches.** A strong speech has an attention-getting opening, a preview of two or three main points, transitions that signal movement (*Second...*, *Now that we have seen the cost...*), and a conclusion that summarizes and ends memorably. For impromptu speaking, a quick structure such as *point, reason, example, point* keeps you organized under time pressure. Rehearse so you can speak from brief notes, keep eye contact and finish within the time limit.\n\n**Common mistake:** burying the main point. Readers and judges decide quickly whether a message deserves their attention, so in routine messages state the purpose in the first sentence or two.",
+    "examples": [
+      "Refusing a late refund request: buffer (\"Thank you for shopping with us for the past three years\"), reasons (the 30-day policy keeps prices low), refusal stated once, then goodwill (a 15% coupon toward the next purchase).",
+      "A one-minute impromptu plan for \"Should every student learn to code?\": state a position, give two reasons with one quick example each, then restate the position in a memorable final line.",
+      "A 30-page analytical report on opening a second store starts with a one-page executive summary that lists the three key findings and the recommendation to open in the spring."
+    ],
+    "questions": [
+      {
+        "stem": "A customer requests a refund 45 days after purchase, outside the 30-day return window, and the company must say no. Which plan is most appropriate for the reply?",
+        "choices": ["Direct: state the refusal in the first sentence, then give reasons", "Indirect: buffer, reasons, the refusal, then a goodwill close", "AIDA: attention, interest, desire, then a call to action", "Chronological: list every event in time order"],
+        "answer": 1,
+        "explanation": "Bad news is usually delivered indirectly so the reader hears the reasons before the refusal. The direct plan suits routine and good-news messages."
+      },
+      {
+        "stem": "A writer is preparing an internal memo to all employees. Which element belongs in it?",
+        "choices": ["A SUBJECT line that names the topic", "An inside address with the reader's street address", "A complimentary close such as \"Sincerely\"", "A salutation such as \"Dear Ms. Lee:\""],
+        "answer": 0,
+        "explanation": "Memos use TO, FROM, DATE and SUBJECT headings. Inside addresses, salutations and complimentary closes are parts of business letters."
+      },
+      {
+        "stem": "In a full block business letter, where do the date and the complimentary close begin?",
+        "choices": ["At the horizontal center of the page", "Aligned with the right margin", "At the left margin", "Indented half an inch from the left margin"],
+        "answer": 2,
+        "explanation": "In full block style every line, including the date and closing, starts at the left margin. Starting them near the center describes modified block style."
+      },
+      {
+        "stem": "A sales letter opens with a surprising statistic, describes the product's features, quotes a satisfied customer and ends with \"Call today for a free trial.\" In AIDA, which step does the customer quote mainly serve?",
+        "choices": ["Attention", "Interest", "Action", "Desire"],
+        "answer": 3,
+        "explanation": "Proof such as testimonials builds desire by showing the benefits are real. The statistic grabs attention and the final line asks for action."
+      },
+      {
+        "stem": "A vice president has five minutes to review a 40-page analytical report before a meeting. Which section is designed for this reader?",
+        "choices": ["Executive summary", "Appendix", "Bibliography", "Table of contents"],
+        "answer": 0,
+        "explanation": "An executive summary condenses the purpose, key findings and recommendations into a page or two. An appendix holds supporting detail that few readers need."
+      },
+      {
+        "stem": "Which email subject line is most effective?",
+        "choices": ["Hello", "Request: Approve Q3 travel budget by Friday", "IMPORTANT!!! READ NOW", "A few things I wanted to mention"],
+        "answer": 1,
+        "explanation": "A specific subject line tells the reader the topic, the action needed and the deadline. All capitals and vague phrases hide the purpose."
+      },
+      {
+        "stem": "An impromptu speaker receives the topic \"Should high school students have part-time jobs?\" with one minute to prepare. Which plan gives the clearest structure?",
+        "choices": ["Describe every possible opinion without choosing one", "Begin with a long personal story and find the point while speaking", "State a position, support it with two reasons and examples, then restate it", "Read the topic aloud several times to fill the time"],
+        "answer": 2,
+        "explanation": "A clear position with two supported reasons and a restated conclusion is easy to follow and fits a short time limit. Wandering openings lose judges quickly."
+      },
+      {
+        "stem": "Which statement correctly contrasts informational and analytical reports?",
+        "choices": ["Analytical reports interpret data and recommend action; informational reports present facts.", "Informational reports always recommend action; analytical reports only list facts.", "Informational reports must be longer than analytical reports.", "Analytical reports are used only for readers outside the company."],
+        "answer": 0,
+        "explanation": "Analytical reports go beyond facts to conclusions and recommendations. Length and audience do not define the difference."
+      }
+    ],
+    "flashcards": [
+      { "term": "Direct approach", "definition": "Message plan that states the main idea first, then details, used for routine and good-news messages." },
+      { "term": "Buffer", "definition": "A neutral, relevant opening in a bad-news message that prepares the reader before the reasons and the news." },
+      { "term": "AIDA", "definition": "Persuasive plan: gain Attention, build Interest, create Desire with benefits and proof, then ask for Action." },
+      { "term": "Full block format", "definition": "Business letter style in which every line, including the date and closing, begins at the left margin." },
+      { "term": "Executive summary", "definition": "A brief overview at the start of a long report that presents key findings and recommendations." }
+    ]
+  }
+]

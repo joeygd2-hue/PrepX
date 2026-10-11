@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Executing, monitoring and controlling",
+    "objective": "Lead the team through execution, track progress with measurable indicators, and control changes to scope, schedule and budget.",
+    "body": "Executing is where the plan meets reality, and monitoring and controlling is how the team keeps reality close to the plan. In the written entry and presentation, judges want proof that the team tracked progress with real data and responded to problems in a disciplined way.\n\n**Executing.** The project manager coordinates people and resources: confirming vendors, launching promotion, preparing materials and running the event. Good leaders delegate tasks with clear deadlines, hold short meetings with an agenda shared in advance, and end each meeting with *action items* that have an owner and a due date. Teams often move through stages known as *forming, storming, norming and performing*; conflict during storming is normal and is best handled by refocusing on shared goals and clear roles.\n\n**Monitoring progress.** Compare actual results with the plan on a regular schedule:\n- *Key performance indicators (KPIs)* are measurable signs of progress, such as tickets sold, dollars raised or volunteers signed up.\n- *Status reports* summarize progress, often with a red-amber-green (RAG) rating: green is on track, amber is at risk, red needs immediate action.\n- *Budget variance* compares actual cost with budgeted cost for each line; spending more than budgeted is an unfavorable variance.\n\n**Earned value basics.** *Planned value (PV)* is the budgeted cost of the work scheduled so far, *earned value (EV)* is the budgeted cost of the work actually completed, and *actual cost (AC)* is what that work really cost. *Cost variance* = EV - AC and *schedule variance* = EV - PV; negative results signal trouble. The *cost performance index* (EV / AC) and *schedule performance index* (EV / PV) fall below 1.0 when a project is over budget or behind schedule.\n\n**Controlling changes.** *Scope creep* is the gradual, unapproved growth of a project's scope. Prevent it with a *change control process*: submit a change request, analyze its effect on time, cost, quality and risk, get a decision from the sponsor or other decision-maker, and update the plan before doing the work. Keep *issues*, problems happening now, in an *issue log*, separate from *risks*, which might happen. Use checklists and peer reviews for *quality control* before anything reaches the public.\n\nA common mistake is checking progress only at the end. By then it is too late to rescue a fundraiser that fell behind in week two.",
+    "examples": [
+      "Halfway through a six-week food drive with a 2,000-meal goal, a team has collected 800 meals. Its KPI shows it is behind the 1,000-meal pace, so it adds a classroom competition to collect the remaining 1,200 meals at 400 a week.",
+      "A teammate suggests adding a raffle two weeks before the event. Instead of agreeing on the spot, the project manager logs a change request, estimates that it needs $60 and six volunteer hours, and asks the advisor to approve it before anyone starts.",
+      "A status check shows PV = $2,000, EV = $1,800 and AC = $1,500. The project is behind schedule (SV = $1,800 - $2,000 = -$200) but under budget (CV = $1,800 - $1,500 = +$300)."
+    ],
+    "questions": [
+      {
+        "stem": "Over several weeks, team members add a photo booth, a second guest speaker and custom T-shirts to a workshop without updating the budget or schedule. What is this called?",
+        "choices": ["Critical path", "Scope creep", "Risk transfer", "Fast tracking"],
+        "answer": 1,
+        "explanation": "Scope creep is the gradual, unapproved expansion of scope. It strains time and budget because the additions were never evaluated or planned."
+      },
+      {
+        "stem": "Two weeks before the event, a sponsor asks the team to add a live demonstration. What should the project manager do first?",
+        "choices": [
+          "Add the demonstration immediately to keep the sponsor happy",
+          "Refuse the request because the plan cannot change",
+          "Log a change request and analyze its effect on time, cost, quality and risk before seeking approval",
+          "Ask a team member to fit it in without changing the schedule"
+        ],
+        "answer": 2,
+        "explanation": "A change control process evaluates each requested change and gets a decision before work begins, so changes are made deliberately rather than by default."
+      },
+      {
+        "stem": "On the morning of the event, the keynote speaker calls in sick. How should the team classify and record this?",
+        "choices": [
+          "As a new risk to rate for probability and impact",
+          "As a milestone on the Gantt chart",
+          "As a scope change for the sponsor to approve",
+          "As an issue in the issue log, with an owner assigned to act now"
+        ],
+        "answer": 3,
+        "explanation": "An issue is a problem that is already happening and needs action. A risk is an uncertain future event; once it occurs, it becomes an issue."
+      },
+      {
+        "stem": "At a status check, a project's earned value is $4,000 and its actual cost is $4,500. What is the cost variance, and what does it mean?",
+        "choices": [
+          "-$500; the project is over budget",
+          "+$500; the project is under budget",
+          "-$500; the project is behind schedule",
+          "+$500; the project is ahead of schedule"
+        ],
+        "answer": 0,
+        "explanation": "Cost variance = EV - AC = $4,000 - $4,500 = -$500. A negative cost variance means the completed work cost more than planned."
+      },
+      {
+        "stem": "A project's earned value is $3,000 and its planned value is $4,000. What is the schedule performance index?",
+        "choices": [
+          "1.33, meaning the project is ahead of schedule",
+          "0.75, meaning the project is under budget",
+          "0.75, meaning the project is behind schedule",
+          "1.33, meaning the project is over budget"
+        ],
+        "answer": 2,
+        "explanation": "SPI = EV / PV = $3,000 / $4,000 = 0.75. A value below 1.0 means less work has been completed than planned by this point."
+      },
+      {
+        "stem": "A team budgeted $800 for promotion but spent $920. By what percentage did it exceed the promotion budget?",
+        "choices": ["12%", "13%", "120%", "15%"],
+        "answer": 3,
+        "explanation": "Variance = $920 - $800 = $120, and $120 / $800 = 0.15, or 15% over budget. Dividing by actual spending ($120 / $920, about 13%) uses the wrong base."
+      },
+      {
+        "stem": "A team's goal is to raise $4,800 over 8 weeks. After 5 weeks, it has raised $2,400. How much must it raise per week for the rest of the project to meet the goal?",
+        "choices": ["$480", "$800", "$600", "$1,200"],
+        "answer": 1,
+        "explanation": "Remaining amount: $4,800 - $2,400 = $2,400. Remaining time: 8 - 5 = 3 weeks. $2,400 / 3 = $800 per week. The original $600 pace is no longer enough."
+      },
+      {
+        "stem": "In a red-amber-green status report, what does an amber rating usually signal?",
+        "choices": [
+          "The task is at risk and may miss its target without attention",
+          "The task is complete and approved",
+          "The task has failed and must be cancelled",
+          "The task is on track with no concerns"
+        ],
+        "answer": 0,
+        "explanation": "Amber is the warning level: progress is slipping or a risk is emerging. Green means on track, and red means serious problems needing immediate action."
+      },
+      {
+        "stem": "Which practice best keeps team meetings productive during execution?",
+        "choices": [
+          "Hold meetings without an agenda so discussion can flow freely",
+          "Have the project manager do every task personally to avoid delegating",
+          "Wait until problems are serious before calling a meeting",
+          "Share an agenda in advance and end with action items that each have an owner and due date"
+        ],
+        "answer": 3,
+        "explanation": "An agenda keeps discussion focused, and action items with owners and deadlines turn decisions into accountable work."
+      },
+      {
+        "stem": "A newly formed project team begins arguing about roles and whose ideas to use. According to the forming-storming-norming-performing model, which stage is this, and what helps most?",
+        "choices": [
+          "Performing; step back and let the team work independently",
+          "Storming; clarify roles and refocus everyone on shared goals",
+          "Norming; celebrate the team's agreement on procedures",
+          "Forming; hold introductions so members get to know each other"
+        ],
+        "answer": 1,
+        "explanation": "Conflict over roles and direction is typical of the storming stage. Clarifying roles and shared goals helps the team move into norming."
+      }
+    ],
+    "flashcards": [
+      { "term": "Key performance indicator (KPI)", "definition": "A measurable value that shows progress toward a project goal, such as dollars raised or tickets sold." },
+      { "term": "Scope creep", "definition": "Gradual, unapproved growth in a project's scope that strains its schedule and budget." },
+      { "term": "Change control process", "definition": "Steps for submitting, analyzing and approving or rejecting changes before any work on them begins." },
+      { "term": "Issue log", "definition": "A record of current problems with owners and actions, kept separate from possible future risks." },
+      { "term": "Earned value (EV)", "definition": "The budgeted cost of the work actually completed at a given point in the project." },
+      { "term": "Cost performance index (CPI)", "definition": "Earned value divided by actual cost; a value below 1.0 means the project is over budget." }
+    ]
+  }
+]

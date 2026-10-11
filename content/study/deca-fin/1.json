@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Accounting foundations",
+    "objective": "Apply the accounting equation, double-entry rules and core accounting principles to record business transactions.",
+    "body": "Finance exams lean heavily on accounting because every financial decision starts with accurate records. If you can trace how a transaction moves through the books, you can answer most accounting questions in seconds and explain your numbers confidently in a role-play.\n\n**The accounting equation.** Assets = Liabilities + Owner's equity. Assets are resources the business controls, such as cash, inventory and equipment. Liabilities are debts owed to outsiders, such as accounts payable and loans. Equity is the owners' claim on what is left after debts are paid. Every transaction keeps the equation in balance: buying a truck with a loan raises assets and liabilities by the same amount.\n\n**Debits and credits.** In double-entry accounting each transaction touches at least two accounts, and total debits always equal total credits. A simple memory aid:\n- Assets and expenses increase with a *debit*.\n- Liabilities, equity and revenue increase with a *credit*.\n\n**Accrual versus cash basis.** Under the *accrual basis*, revenue is recorded when it is earned and expenses when they are incurred, no matter when cash changes hands. The *cash basis* records transactions only when cash moves. Generally accepted accounting principles (GAAP) are built on accrual accounting because it matches revenue with the expenses that produced it, giving a truer picture of each period.\n\n**Principles that guide the records.**\n- *Revenue recognition*: record revenue when the good or service is delivered.\n- *Matching*: report expenses in the same period as the revenue they helped earn.\n- *Going concern*: assume the business will keep operating into the future.\n- *Conservatism*: when an estimate is uncertain, choose the option that does not overstate assets or income.\n- *Cost principle*: record assets at their original purchase cost.\n\n**The accounting cycle and controls.** Transactions are analyzed, journalized, posted to the ledger, summarized in a trial balance, adjusted, reported in financial statements and closed at period end. Internal controls, such as separating the person who handles cash from the person who records it, protect assets and make fraud harder to hide.\n\nA common mistake is treating debit as good and credit as bad. The words simply mean left side and right side of an account; whether a debit increases or decreases an account depends on the account type.",
+    "examples": [
+      "A bakery buys a $4,000 oven, paying $1,000 cash and signing a note for $3,000. Equipment rises $4,000 and cash falls $1,000, so assets rise $3,000 net; notes payable rise $3,000. Both sides of the equation grow by $3,000.",
+      "A consulting firm finishes a project in March but is paid in April. Under accrual accounting the revenue belongs to March; under the cash basis it would appear in April.",
+      "A company pays $2,400 on July 1 for a year of software service. Each month it moves $200 from prepaid expense to software expense, matching the cost to the months it is used."
+    ],
+    "questions": [
+      {
+        "stem": "A business reports total assets of $250,000 and total liabilities of $90,000. What is the owner's equity?",
+        "choices": ["$340,000", "$160,000", "$90,000", "$125,000"],
+        "answer": 1,
+        "explanation": "Equity = Assets − Liabilities = $250,000 − $90,000 = $160,000. Adding the two figures ($340,000) reverses the accounting equation."
+      },
+      {
+        "stem": "A shop pays $500 in cash for this month's rent. Which journal entry records the payment?",
+        "choices": ["Debit Cash $500; credit Rent Expense $500", "Debit Rent Expense $500; credit Accounts Payable $500", "Debit Rent Expense $500; credit Cash $500", "Debit Accounts Payable $500; credit Cash $500"],
+        "answer": 2,
+        "explanation": "Expenses increase with a debit, and the asset Cash decreases with a credit. Crediting Accounts Payable would be used only if the rent were still unpaid."
+      },
+      {
+        "stem": "A landscaping company completes and bills a $2,000 job on June 28, and the customer pays on July 10. Under the accrual basis, when is the $2,000 of revenue recorded?",
+        "choices": ["In June, when the work is completed", "In July, when the cash is received", "Half in June and half in July", "At year-end, when the books are closed"],
+        "answer": 0,
+        "explanation": "Accrual accounting records revenue when it is earned, which is when the work is done in June. Recording it in July would be the cash basis."
+      },
+      {
+        "stem": "A company records a delivery van at its $38,000 purchase price even though similar vans now sell for $42,000. Which principle is it following?",
+        "choices": ["Going concern", "Matching principle", "Revenue recognition", "Cost principle"],
+        "answer": 3,
+        "explanation": "The cost principle records assets at their original purchase cost, not at their current market value."
+      },
+      {
+        "stem": "Which of these accounts increases with a credit?",
+        "choices": ["Cash", "Accounts payable", "Equipment", "Utilities expense"],
+        "answer": 1,
+        "explanation": "Liabilities such as accounts payable increase with credits. Assets (cash, equipment) and expenses increase with debits."
+      },
+      {
+        "stem": "On January 1, a company pays $1,200 for a 12-month insurance policy. Using accrual accounting, how much insurance expense should it report for January?",
+        "choices": ["$1,200", "$0", "$100", "$600"],
+        "answer": 2,
+        "explanation": "The $1,200 is a prepaid asset used up evenly over 12 months: $1,200 ÷ 12 = $100 of expense per month. Expensing it all in January would violate the matching principle."
+      },
+      {
+        "stem": "Which practice best reduces the risk that an employee could steal cash and hide it in the records?",
+        "choices": ["Letting one trusted employee collect, deposit and record all cash", "Having one employee handle cash and a different employee record it", "Reconciling the bank statement once at the end of each year", "Allowing cashiers to correct their own register totals"],
+        "answer": 1,
+        "explanation": "Separation of duties means no single person controls both the asset and the records, so theft is hard to conceal. A yearly reconciliation is too infrequent to catch problems quickly."
+      },
+      {
+        "stem": "A business pays $1,200 to a supplier to settle an amount it owed. How does this affect the accounting equation?",
+        "choices": ["Assets and liabilities both decrease by $1,200", "Assets decrease and equity increases by $1,200", "Liabilities decrease and equity increases by $1,200", "Assets and liabilities both increase by $1,200"],
+        "answer": 0,
+        "explanation": "Cash (an asset) falls by $1,200 and accounts payable (a liability) falls by $1,200, so both sides drop equally and the equation stays balanced."
+      },
+      {
+        "stem": "After posting journal entries, an accountant lists every ledger account and its balance to confirm that total debits equal total credits. What is this list called?",
+        "choices": ["Chart of accounts", "Income statement", "Trial balance", "General journal"],
+        "answer": 2,
+        "explanation": "A trial balance checks that debits equal credits after posting. A chart of accounts lists account names and numbers but not their balances."
+      },
+      {
+        "stem": "Inventory that cost $10,000 is now obsolete and can be sold for only $7,500. Which principle supports reducing its reported value to $7,500?",
+        "choices": ["Cost principle", "Conservatism", "Revenue recognition", "Going concern"],
+        "answer": 1,
+        "explanation": "Conservatism says assets should not be overstated, so inventory is written down when it can be sold for less than it cost. The cost principle alone would keep it at $10,000."
+      }
+    ],
+    "flashcards": [
+      { "term": "Accounting equation", "definition": "Assets = Liabilities + Owner's equity; every transaction keeps both sides in balance." },
+      { "term": "Double-entry accounting", "definition": "A system in which every transaction affects at least two accounts and total debits always equal total credits." },
+      { "term": "Accrual basis", "definition": "Accounting method that records revenue when earned and expenses when incurred, regardless of when cash moves." },
+      { "term": "Matching principle", "definition": "The rule that expenses are reported in the same period as the revenue they helped generate." },
+      { "term": "Conservatism principle", "definition": "Guideline to choose the option that does not overstate assets or income when an estimate is uncertain." },
+      { "term": "Internal control", "definition": "A procedure, such as separating cash handling from recordkeeping, that protects assets and keeps records accurate." }
+    ]
+  }
+]

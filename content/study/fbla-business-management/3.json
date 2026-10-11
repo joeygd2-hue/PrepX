@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Controlling, operations and human resources",
+    "objective": "Use the control process, quality and scheduling tools, and the human resources cycle to keep an organization performing well.",
+    "body": "Once plans and structures exist, managers must keep work on track and keep good people. Test items in this area mix control steps, quality programs, scheduling tools and HR vocabulary, and several include a short calculation.\n\n**The control process.**\n1. Set performance standards, such as 98% on-time delivery.\n2. Measure actual performance.\n3. Compare performance with the standard.\n4. Take corrective action, or reinforce what is working.\n\n*Feedforward* (preliminary) controls prevent problems before work begins, such as inspecting raw materials. *Concurrent* controls monitor work as it happens, such as a supervisor watching a production line. *Feedback* controls review results afterward, such as a monthly sales report. A *budget* is both a plan and a control tool. A *variance* is the difference between actual and budgeted amounts; spending more than budgeted is an unfavorable variance, and managers investigate large ones.\n\n**Quality and operations.** *Total quality management (TQM)* makes quality everyone's job, with a strong customer focus and *continuous improvement* (*kaizen*). *Six Sigma* uses data and statistics to reduce defects to very low levels. *Benchmarking* compares your processes with the best performers, inside or outside your industry. *Just-in-time (JIT)* inventory brings materials in as they are needed, cutting storage costs but raising the risk of a shutdown if a supplier is late.\n\n**Scheduling tools.** A *Gantt chart* shows tasks as bars along a timeline so progress is easy to track. A *PERT chart* maps the sequence of tasks; the longest path through the network is the *critical path*, and a delay in any critical-path task delays the whole project.\n\n**The human resources cycle.**\n- *Job analysis* produces a *job description* (the duties) and a *job specification* (the qualifications a person needs).\n- *Recruiting* attracts applicants internally (promotions, transfers) or externally (job boards, referrals, career fairs).\n- *Selection* uses applications, interviews, tests and reference checks.\n- *Orientation* (onboarding) introduces new hires to the organization, and *training* builds job skills.\n- *Performance appraisal* compares an employee's work with standards and sets goals.\n- *Turnover rate* = employees who left ÷ average number of employees, expressed as a percentage.\n\n**Common mistake:** confusing a job description with a job specification. The description lists what the job involves; the specification lists what the person must bring to it.",
+    "examples": [
+      "A school store budgets $2,400 for inventory in October and spends $2,100. The variance is $2,400 − $2,100 = $300 favorable, because spending came in under budget.",
+      "A website project has two paths: design–build–test takes 5 + 10 + 4 = 19 days, and design–write content–test takes 5 + 7 + 4 = 16 days. The critical path is 19 days, so a one-day delay in building delays launch.",
+      "A firm averaged 50 employees last year and 6 left, so turnover was 6 ÷ 50 = 0.12, or 12%."
+    ],
+    "questions": [
+      {
+        "stem": "A bakery inspects every flour delivery for quality before the flour is used. Which type of control is this?",
+        "choices": ["Concurrent control", "Feedforward control", "Feedback control", "Budgetary control"],
+        "answer": 1,
+        "explanation": "Feedforward controls catch problems before work begins, such as inspecting inputs. Feedback controls review results after the work is finished."
+      },
+      {
+        "stem": "A department budgeted $12,000 for supplies and actually spent $13,500. What is the variance?",
+        "choices": ["$1,500 favorable", "$25,500 unfavorable", "$1,500 unfavorable", "$13,500 favorable"],
+        "answer": 2,
+        "explanation": "$13,500 − $12,000 = $1,500. Spending more than the budget is an unfavorable variance."
+      },
+      {
+        "stem": "A project network has two paths. Path A–B–D takes 4 + 6 + 3 days, and path A–C–D takes 4 + 5 + 3 days. What is the critical path and the minimum project length?",
+        "choices": ["A–C–D, 12 days", "A–B–D, 12 days", "A–C–D, 13 days", "A–B–D, 13 days"],
+        "answer": 3,
+        "explanation": "A–B–D totals 4 + 6 + 3 = 13 days and A–C–D totals 4 + 5 + 3 = 12 days. The longest path, A–B–D at 13 days, is the critical path."
+      },
+      {
+        "stem": "A hotel chain studies how a top-rated airline handles customer check-in so it can speed up its own front desk. What practice is this?",
+        "choices": ["Benchmarking", "Just-in-time inventory", "Job analysis", "Concurrent control"],
+        "answer": 0,
+        "explanation": "Benchmarking compares processes with the best performers, even in other industries. Job analysis studies the duties and requirements of a position."
+      },
+      {
+        "stem": "A company averaged 80 employees during the year, and 12 employees left. What was its turnover rate?",
+        "choices": ["12%", "15%", "6.7%", "20%"],
+        "answer": 1,
+        "explanation": "Turnover rate = 12 ÷ 80 = 0.15, or 15%. Using 12 as the percentage ignores the size of the workforce."
+      },
+      {
+        "stem": "A job posting lists \"bachelor's degree in accounting and two years of payroll experience.\" This list belongs to which HR document?",
+        "choices": ["Job description", "Performance appraisal", "Orientation checklist", "Job specification"],
+        "answer": 3,
+        "explanation": "A job specification states the qualifications a person needs. The job description lists the duties of the job itself."
+      },
+      {
+        "stem": "What is a main risk of using just-in-time inventory?",
+        "choices": ["Production can stop if a supplier's delivery is late", "Warehouse storage costs rise sharply", "Large amounts of stock become obsolete", "Managers can no longer track inventory costs"],
+        "answer": 0,
+        "explanation": "JIT keeps little inventory on hand, so a late delivery can halt operations. It is designed to lower storage costs and obsolete stock, not raise them."
+      },
+      {
+        "stem": "A factory's standard is 2 defects per 1,000 units. This month a supervisor measures 5 defects per 1,000 units. What is the best next step in the control process?",
+        "choices": ["Change the standard to 5 defects so the goal is met", "Compare the result with the standard, find the cause and take corrective action", "Stop measuring defects until next quarter", "Rewrite the company's mission statement"],
+        "answer": 1,
+        "explanation": "After measuring, managers compare results with the standard and correct the cause of the gap. Lowering the standard hides the problem instead of fixing it."
+      }
+    ],
+    "flashcards": [
+      { "term": "Feedforward control", "definition": "A control that prevents problems before work begins, such as inspecting materials or screening applicants." },
+      { "term": "Budget variance", "definition": "The difference between actual and budgeted amounts; spending over budget is an unfavorable variance." },
+      { "term": "Benchmarking", "definition": "Comparing an organization's processes or results with those of top performers to find improvements." },
+      { "term": "Critical path", "definition": "The longest sequence of dependent tasks in a project, which sets the minimum completion time." },
+      { "term": "Job specification", "definition": "A statement of the education, skills and experience a person needs to perform a particular job." }
+    ]
+  }
+]

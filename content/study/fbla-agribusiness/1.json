@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Agricultural economics and the food system",
+    "objective": "Explain how supply, demand and the structure of the food system shape agricultural prices and farm income.",
+    "body": "Agribusiness covers everything from seed and fertilizer suppliers to farms, processors, shippers, grocers and restaurants. Tests start with the economics that make agriculture different from most other industries.\n\n**The agribusiness system.** Think of three linked sectors:\n- *Input supply*: seed, feed, fertilizer, machinery, credit and services sold to farmers.\n- *Production*: farms and ranches that grow crops and raise livestock.\n- *Processing, marketing and distribution*: mills, packers, wholesalers, retailers and food service.\nMost of what a consumer pays for food covers processing, packaging, transportation and retailing, so the *farmer's share* of the retail food dollar is usually small. *Value-added agriculture* captures more of that dollar, for example by turning milk into cheese or selling directly at a farmers market.\n\n**Inelastic demand.** People eat roughly the same amount of food whether prices rise or fall, so demand for most farm products is *price inelastic*. When demand is inelastic, a large harvest lowers price by a bigger percentage than quantity rises, so total revenue for farmers can fall in a bumper-crop year. Weather shocks therefore cause sharp price swings.\n\n**Supply challenges.** Farmers make planting decisions months before harvest and cannot quickly change output, so supply is slow to respond to price. High prices one year can lead many farmers to plant more the next, pushing prices down: a classic boom-and-bust pattern. Agriculture also has many sellers of nearly identical products, close to *pure competition*, so individual farmers are *price takers*.\n\n**Productivity and structure.** Technology such as improved seed, precision equipment and better livestock genetics has raised output per acre and per worker. Farms have become fewer and larger as owners spread costly machinery and technology over more acres, an example of *economies of scale*.\n\n**Global forces.** Exports matter: a large share of some U.S. crops, such as soybeans, is sold abroad, so exchange rates and trade policy affect farm prices. A stronger dollar makes U.S. products more expensive for foreign buyers.\n\nThe most common mistake is assuming a bigger harvest always means more income. With inelastic demand, the drop in price can outweigh the extra bushels sold.",
+    "examples": [
+      "A region's wheat harvest rises 10% and the price falls 25%. A farmer who sold 10,000 bushels at $6.00 ($60,000) now sells 11,000 bushels at $4.50 ($49,500), so revenue drops $10,500.",
+      "A dairy farm sells milk to a processor at a commodity price. By making its own cheese and selling it at a farm store, it keeps a larger share of the consumer's dollar, an example of value-added agriculture.",
+      "When the dollar strengthens against other currencies, a foreign mill must spend more of its own currency to buy U.S. corn, so it may buy from another exporting country instead."
+    ],
+    "questions": [
+      {
+        "stem": "Which business belongs to the input supply sector of agribusiness?",
+        "choices": ["A meatpacking plant", "A company that sells seed and fertilizer to farmers", "A grocery store chain", "A restaurant that buys local produce"],
+        "answer": 1,
+        "explanation": "Input suppliers sell the products and services farmers need to produce, such as seed and fertilizer. Packers, grocers and restaurants are in processing, marketing and distribution."
+      },
+      {
+        "stem": "Demand for a staple crop is price inelastic. A record harvest increases the quantity sold by 8% and lowers the price by 20%. What happens to growers' total revenue?",
+        "choices": ["It rises by about 8%", "It stays the same", "It falls by about 14%", "It rises by about 12%"],
+        "answer": 2,
+        "explanation": "New revenue = 1.08 × 0.80 = 0.864 of the old revenue, a decline of 13.6%, or about 14%. The price drop outweighs the extra quantity."
+      },
+      {
+        "stem": "Why are individual crop farmers usually described as price takers?",
+        "choices": ["Government agencies set the price of every crop each year", "Farmers sign contracts that fix prices for several years", "Processors are legally required to pay each farmer a minimum price", "Many farmers sell nearly identical products, so no single farm can influence the market price"],
+        "answer": 3,
+        "explanation": "In a nearly purely competitive market, one farm's output is too small to move the price, so each farmer accepts the market price. Prices are not set by government each year."
+      },
+      {
+        "stem": "A tomato grower that used to sell its whole crop to a cannery starts making salsa and selling it to local stores. What is this strategy called?",
+        "choices": ["Value-added agriculture", "Contract farming", "Commodity hedging", "Crop rotation"],
+        "answer": 0,
+        "explanation": "Turning a raw product into a processed one captures more of the consumer's food dollar, which is value-added agriculture. Hedging manages price risk, and crop rotation is a growing practice."
+      },
+      {
+        "stem": "Corn prices are unusually high this year. Based on how farm supply typically responds, what is a likely result the following year?",
+        "choices": ["Corn supply falls because farmers expect lower prices", "Farmers plant more corn, which can push prices down", "Prices stay high because supply can never change", "Demand for corn rises because prices are high"],
+        "answer": 1,
+        "explanation": "High prices encourage many farmers to plant more acres, and the larger combined supply tends to lower prices: the boom-and-bust cycle."
+      },
+      {
+        "stem": "The U.S. dollar strengthens sharply against the currencies of major importing countries. What is the most likely effect on U.S. agricultural exports?",
+        "choices": ["Exports rise because U.S. products look cheaper abroad", "Exports are unaffected because food demand is inelastic", "Exports fall because U.S. products cost more in foreign currencies", "Exports rise because farmers earn more dollars per bushel"],
+        "answer": 2,
+        "explanation": "A stronger dollar means foreign buyers need more of their own currency for each bushel, so they buy less or shop elsewhere. A weaker dollar has the opposite effect."
+      },
+      {
+        "stem": "Why does most of the money consumers spend on food go to businesses other than farms?",
+        "choices": ["Farmers are required to sell below their cost of production", "Retailers pay farmers only after products expire", "Taxes make up most of the retail price of food", "Processing, packaging, transportation and retailing add most of the cost"],
+        "answer": 3,
+        "explanation": "Most of the retail price pays for turning raw products into finished food and moving and selling it. That is why the farmer's share of the food dollar is small."
+      },
+      {
+        "stem": "A large crop farm spreads the cost of an expensive combine over 4,000 acres, while a small farm uses the same machine on 500 acres. What concept explains the large farm's lower machinery cost per acre?",
+        "choices": ["Economies of scale", "Diminishing marginal utility", "Inelastic demand", "Comparative advantage"],
+        "answer": 0,
+        "explanation": "Economies of scale lower average cost as output grows because fixed costs are spread over more units. Here the same combine cost is divided among eight times as many acres."
+      }
+    ],
+    "flashcards": [
+      { "term": "Agribusiness", "definition": "All businesses involved in producing food and fiber, from input suppliers and farms to processors, distributors and retailers." },
+      { "term": "Price inelastic demand", "definition": "Demand that changes little when price changes, so a price drop of a given percentage reduces total revenue." },
+      { "term": "Price taker", "definition": "A seller too small to influence market price, who must accept the price the market sets." },
+      { "term": "Value-added agriculture", "definition": "Processing, packaging or marketing a farm product to capture more of the consumer's food dollar." },
+      { "term": "Farmer's share", "definition": "The portion of each retail food dollar that goes to farmers rather than to processing, transportation and retail." }
+    ]
+  }
+]

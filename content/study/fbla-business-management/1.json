@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Management functions, skills and planning",
+    "objective": "Identify the functions, levels and skills of management, and build plans and decisions with a structured process.",
+    "body": "Business Management test questions often describe a manager's action and ask which function, level or skill it shows. Learn the vocabulary precisely, because the answer choices are usually close cousins.\n\n**Functions of management.** The classic functions are:\n1. *Planning*: setting goals and deciding how to reach them.\n2. *Organizing*: arranging people, tasks and resources into a structure.\n3. *Staffing*: recruiting, hiring, training and evaluating employees (some models fold this into organizing).\n4. *Leading* (directing): guiding, motivating and communicating with employees.\n5. *Controlling*: setting standards, measuring results and correcting performance.\n\n**Levels and skills.** *Top managers*, such as the CEO and vice presidents, set long-range direction. *Middle managers*, such as regional or department heads, turn strategy into programs. *First-line managers*, or supervisors, oversee daily work. Every manager needs three types of skills in different proportions: *technical skills* (job-specific know-how, most important for first-line managers), *human relations skills* (working with and through people, important at every level) and *conceptual skills* (seeing the whole organization and how its parts fit, most important for top managers).\n\n**Types of plans.** *Strategic plans* cover the whole organization for several years. *Tactical plans* translate strategy into specific actions for departments, usually for a year or so. *Operational plans* guide daily and weekly work, such as schedules and budgets. *Contingency plans* prepare for what could go wrong. A *mission statement* explains why the organization exists and whom it serves today; a *vision statement* describes what it hopes to become. Goals should be SMART: specific, measurable, attainable, relevant and time-bound. A *SWOT analysis* reviews internal strengths and weaknesses and external opportunities and threats before a strategy is chosen.\n\n**Decision making.** A rational process is:\n1. Define the problem.\n2. Identify alternatives.\n3. Evaluate the alternatives.\n4. Choose and implement the best one.\n5. Follow up and evaluate the results.\n\n*Programmed decisions* handle routine, recurring situations with set rules, such as reordering supplies. *Nonprogrammed decisions* handle new, complex problems, such as entering a foreign market. *Brainstorming* generates many ideas quickly by holding back criticism until later.\n\n**Common mistake:** confusing planning with controlling. Setting a sales goal is planning; comparing actual sales with that goal and taking corrective action is controlling.",
+    "examples": [
+      "A gym chain's vision is to be the region's most welcoming fitness community. Its strategic plan adds four locations in five years, the marketing department's tactical plan launches a student membership this year, and each manager's operational plan sets weekly class schedules.",
+      "A SMART goal for a campus store: \"Increase average daily sales from $400 to $460, a 15% gain, by the end of the spring semester.\" It is specific, measurable, realistic, tied to store success and dated.",
+      "A supervisor who repairs a jammed machine is using technical skill; resolving a scheduling conflict between two employees uses human relations skill."
+    ],
+    "questions": [
+      {
+        "stem": "A store supervisor compares this week's labor costs with the budget and cuts overtime when costs run high. Which management function is this?",
+        "choices": ["Planning", "Organizing", "Controlling", "Leading"],
+        "answer": 2,
+        "explanation": "Measuring results against a standard and correcting the gap is controlling. Planning would be setting the labor budget in the first place."
+      },
+      {
+        "stem": "A CEO is deciding how the company's five divisions should work together over the next decade. Which type of skill is most important for this task?",
+        "choices": ["Technical skills", "Conceptual skills", "Human relations skills", "Clerical skills"],
+        "answer": 1,
+        "explanation": "Conceptual skills let a manager see the organization as a whole and how its parts relate, which matters most for top managers. Technical skills matter most for first-line supervisors."
+      },
+      {
+        "stem": "A restaurant chain sets the goal \"Increase online orders by 15% at all locations by December 31.\" If the date were removed, which SMART element would be missing?",
+        "choices": ["Time-bound", "Specific", "Measurable", "Relevant"],
+        "answer": 0,
+        "explanation": "The deadline is what makes the goal time-bound. The 15% target would still keep it measurable without the date."
+      },
+      {
+        "stem": "Company leaders write a five-year plan to expand into three new regions and add a new product line. What type of plan is this?",
+        "choices": ["Operational plan", "Tactical plan", "Contingency plan", "Strategic plan"],
+        "answer": 3,
+        "explanation": "Strategic plans set long-range direction for the whole organization. Tactical and operational plans carry out that direction at department and daily levels."
+      },
+      {
+        "stem": "During a SWOT analysis, a manufacturer notes that a large new competitor will open a plant nearby next year. Where does this belong?",
+        "choices": ["Weakness", "Threat", "Strength", "Opportunity"],
+        "answer": 1,
+        "explanation": "A competitor is an external factor that could hurt the business, so it is a threat. Weaknesses are internal shortcomings, such as outdated equipment."
+      },
+      {
+        "stem": "An office manager reorders printer paper automatically whenever stock falls below 10 boxes. What kind of decision is this?",
+        "choices": ["A programmed decision", "A nonprogrammed decision", "A strategic decision", "A contingency decision"],
+        "answer": 0,
+        "explanation": "A routine, recurring situation handled by a set rule is a programmed decision. Nonprogrammed decisions handle new or unusual problems."
+      },
+      {
+        "stem": "A manager has chosen and implemented a new employee scheduling system. What is the final step of the rational decision-making process?",
+        "choices": ["Define the problem", "Brainstorm more alternatives", "Select the least expensive option", "Follow up and evaluate the results"],
+        "answer": 3,
+        "explanation": "The process ends by checking whether the solution worked and adjusting if needed. Defining the problem is the first step, not the last."
+      },
+      {
+        "stem": "Which statement is best described as a vision statement?",
+        "choices": ["We fill prescriptions accurately and serve our neighbors with care every day.", "Reduce average pharmacy wait times to under 10 minutes this quarter.", "To become the most trusted community pharmacy network in the region.", "Pharmacy hours are 8 a.m. to 9 p.m., seven days a week."],
+        "answer": 2,
+        "explanation": "A vision statement describes what the organization hopes to become in the future. The first choice describes current purpose, which is a mission statement."
+      }
+    ],
+    "flashcards": [
+      { "term": "Controlling", "definition": "The management function of setting standards, measuring performance, comparing results and correcting problems." },
+      { "term": "Conceptual skills", "definition": "The ability to see the organization as a whole and how its parts relate, most important for top managers." },
+      { "term": "Tactical plan", "definition": "A medium-range plan that turns strategy into specific actions for departments, often covering about a year." },
+      { "term": "Contingency plan", "definition": "A backup plan describing what the organization will do if a likely problem or emergency occurs." },
+      { "term": "Programmed decision", "definition": "A routine decision made by following an established rule or procedure for a recurring situation." }
+    ]
+  }
+]

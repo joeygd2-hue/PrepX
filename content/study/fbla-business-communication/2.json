@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Grammar, punctuation and business writing style",
+    "objective": "Apply the agreement, pronoun, punctuation and style rules that make business writing correct, clear and concise.",
+    "body": "Many Business Communication test items are about correctness, because a single agreement error or misplaced comma makes a professional message look careless. Learn a handful of rules well, then practice spotting them in real sentences.\n\n**Agreement.** A verb agrees with its subject, not with words in a phrase between them: *The box of samples **is** on the desk.* Subjects joined by *and* are usually plural. With *or* or *nor*, the verb agrees with the nearer subject: *Neither the manager nor the interns **are** available.* Indefinite pronouns such as *each*, *everyone* and *either* are singular.\n\n**Pronoun case.** Use subject pronouns (*I, he, she, we, they*) as subjects and object pronouns (*me, him, her, us, them*) after verbs and prepositions: *between you and **me***, *Send the report to Dana and **me***. To test it, drop the other person: you would say *send the report to me*, not *to I*. Use *myself* only to reflect or emphasize a subject already named.\n\n**Punctuation.**\n- Use a comma before a coordinating conjunction (*and, but, or, so*) that joins two independent clauses.\n- Use a comma after an introductory clause: *When the shipment arrives, call me.*\n- Use a semicolon to join two closely related independent clauses without a conjunction, or before a transitional word such as *however*, which is then followed by a comma.\n- Joining two independent clauses with only a comma creates a *comma splice*.\n- Possessives: *the client's file* (one client), *the clients' files* (several clients). *Its* is possessive; *it's* means *it is*.\n\n**Style.** Business readers are busy, so:\n1. Prefer *active voice* (*The team approved the budget*) over passive voice (*The budget was approved by the team*), unless you need to soften bad news or the doer is unknown.\n2. Keep items in a series *parallel*: *planning, organizing and leading*, not *planning, to organize and leadership*.\n3. Cut wordy phrases: *because* instead of *due to the fact that*, *now* instead of *at this point in time*.\n4. Use the *you-attitude*: frame messages around the reader's needs and benefits (*Your refund will arrive Friday*) rather than the writer's process.\n\n**Numbers.** Business styles differ on small numbers, but all agree that a number beginning a sentence is spelled out and that money, percentages and dates use figures in running text.\n\n**Common mistake:** trusting spell-check. It will not catch *their* for *there*, *affect* for *effect* or *manger* for *manager*, so proofread slowly, ideally aloud.",
+    "examples": [
+      "Wordy: \"Due to the fact that the meeting has been moved, at this point in time we will reschedule.\" Concise: \"Because the meeting moved, we will reschedule.\" The revision cuts 18 words to 7 without losing meaning.",
+      "Writer-centered: \"We have approved your application.\" Reader-centered: \"You are approved and can start using your account today.\" The second applies the you-attitude.",
+      "\"The report is finished, it is on your desk\" is a comma splice. Fix it with a period, a semicolon, or a conjunction: \"The report is finished, and it is on your desk.\""
+    ],
+    "questions": [
+      {
+        "stem": "Which sentence is grammatically correct?",
+        "choices": ["The list of approved vendors are posted online.", "The list of approved vendors is posted online.", "The list of approved vendors were posted online.", "The list of approved vendors have been posted online."],
+        "answer": 1,
+        "explanation": "The subject is \"list,\" which is singular, so the verb is \"is.\" The plural word \"vendors\" sits inside a prepositional phrase and does not control the verb."
+      },
+      {
+        "stem": "Choose the sentence with the correct pronoun.",
+        "choices": ["Please send the final draft to Jordan and I.", "Please send the final draft to Jordan and myself.", "Please send the final draft to Jordan and me.", "Please send the final draft to I and Jordan."],
+        "answer": 2,
+        "explanation": "\"Me\" is the object of the preposition \"to.\" Dropping \"Jordan\" shows it: you would write \"send the final draft to me,\" not \"to I\" or \"to myself.\""
+      },
+      {
+        "stem": "Which sentence contains a comma splice?",
+        "choices": ["The printer jammed, so we finished the report by hand.", "The printer jammed; we finished the report by hand.", "Because the printer jammed, we finished the report by hand.", "The printer jammed, we finished the report by hand."],
+        "answer": 3,
+        "explanation": "Two independent clauses joined by only a comma form a comma splice. The other sentences use a conjunction, a semicolon or a dependent clause correctly."
+      },
+      {
+        "stem": "Which revision changes \"The new policy was announced by the director on Monday\" to active voice?",
+        "choices": ["The director announced the new policy on Monday.", "On Monday, the new policy was announced.", "The new policy had been announced by the director on Monday.", "Announced on Monday by the director was the new policy."],
+        "answer": 0,
+        "explanation": "In active voice the doer (the director) is the subject and performs the action. The other choices keep the policy as the receiver of the action."
+      },
+      {
+        "stem": "Which sentence uses parallel structure?",
+        "choices": ["Interns will answer phones, filing invoices and to greet visitors.", "Interns will answer phones, file invoices and greet visitors.", "Interns will be answering phones, file invoices and the greeting of visitors.", "Interns will answer phones, invoices filed and visitors greeted."],
+        "answer": 1,
+        "explanation": "Each item in the series uses the same verb form: answer, file, greet. Mixing -ing forms, infinitives and nouns breaks parallelism."
+      },
+      {
+        "stem": "Which revision of \"We have processed your order and we will ship it Tuesday\" best applies the you-attitude?",
+        "choices": ["We want to inform you that we processed the order we received.", "Our company policy requires us to process orders before shipping.", "We have finished our processing and our team ships Tuesday.", "Your order is processed and will ship to you on Tuesday."],
+        "answer": 3,
+        "explanation": "The you-attitude makes the reader and the reader's benefit the focus. The other choices center on what the company or its policy does."
+      },
+      {
+        "stem": "Three employees left their badges at the front desk. Which phrase correctly shows possession?",
+        "choices": ["the employees' badges", "the employee's badges", "the employees badges", "the employees's badges"],
+        "answer": 0,
+        "explanation": "For a plural noun ending in s, add only an apostrophe after the s. \"Employee's\" would mean one employee owns the badges."
+      },
+      {
+        "stem": "Which sentence is punctuated correctly?",
+        "choices": ["Sales rose in March, however, returns also increased.", "Sales rose in March however; returns also increased.", "Sales rose in March; however, returns also increased.", "Sales rose in March; however returns, also increased."],
+        "answer": 2,
+        "explanation": "A semicolon joins the two independent clauses, and a comma follows the transitional word \"however.\" A comma alone before \"however\" creates a comma splice."
+      }
+    ],
+    "flashcards": [
+      { "term": "Subject-verb agreement", "definition": "The rule that a verb must match its subject in number, ignoring words in phrases that come between them." },
+      { "term": "Comma splice", "definition": "An error in which two independent clauses are joined with only a comma and no conjunction." },
+      { "term": "Active voice", "definition": "Sentence structure in which the subject performs the action, making writing more direct and concise." },
+      { "term": "Parallel structure", "definition": "Using the same grammatical form for items in a series or list, such as all verbs or all nouns." },
+      { "term": "You-attitude", "definition": "Writing from the reader's point of view, emphasizing the reader's needs and benefits rather than the writer's." }
+    ]
+  }
+]

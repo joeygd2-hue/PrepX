@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Financing a startup and managing cash",
+    "objective": "Estimate start-up needs, compare debt and equity funding, calculate ownership and dilution, and manage cash flow and runway.",
+    "body": "Money questions make up a large share of the Entrepreneurship exam, and business-plan judges always ask how much money the founder needs and exactly what it will pay for. Learn to estimate needs, choose the right funding and protect cash.\n\n**Start-up costs.** *One-time costs* include equipment, deposits, licenses and opening inventory. *Ongoing operating costs* include rent, payroll and utilities. Smart founders add a *working capital reserve*, often several months of operating costs, because revenue usually starts slower than planned.\n\n**Sources of funds.**\n- *Bootstrapping*: personal savings, early revenue and tight cost control; the founder keeps full ownership and control.\n- *Debt financing*: bank loans, SBA-guaranteed loans, lines of credit and equipment loans. The money must be repaid with interest, but the owner gives up no ownership. Lenders look at credit history, cash flow, collateral and how much the owner has invested.\n- *Equity financing*: selling ownership to *angel investors* (individuals investing their own money, often early) or *venture capitalists* (firms investing pooled funds in high-growth companies, usually for a large stake and a board seat).\n- *Crowdfunding*: *rewards-based* backers receive a product or perk; *equity-based* backers receive shares.\n- *Grants and pitch competitions*: money that does not need to be repaid, but with strict rules and heavy competition.\n\n**Valuation and dilution.** *Post-money valuation* = pre-money valuation + new investment. The investor's ownership = investment ÷ post-money valuation. Each new round *dilutes* existing owners, so they own a smaller percentage, ideally of a more valuable company.\n\n**Cash flow.** Profit and cash are not the same. A business can show a profit on its income statement yet run out of cash if customers pay slowly or money is tied up in inventory. The *cash flow statement* tracks cash from operating, investing and financing activities. *Burn rate* is how much more cash a startup spends each month than it brings in, and *runway* = cash on hand ÷ monthly net burn, the number of months before the cash runs out. To improve cash flow, collect receivables faster (for example with early-payment discounts), negotiate longer payment terms with suppliers and lease equipment instead of buying it.\n\nA common mistake is asking investors for money without a *use of funds* breakdown. Show exactly where each dollar goes and which milestone it helps the business reach.",
+    "examples": [
+      "Dilution: Founders own 100% of a company valued at $1.5 million pre-money. An angel invests $500,000, making the post-money valuation $2 million. The angel owns $500,000 ÷ $2,000,000 = 25%, and the founders now own 75%.",
+      "Runway: A startup has $180,000 in the bank, spends $50,000 a month and brings in $20,000 a month. Net burn is $30,000, so runway = $180,000 ÷ $30,000 = 6 months.",
+      "Profit versus cash: A wholesaler records a $40,000 sale in March, but the customer pays in 60 days. March profit rises, yet the cash does not arrive until May."
+    ],
+    "questions": [
+      {
+        "stem": "An investor puts $300,000 into a startup at a pre-money valuation of $900,000. What percentage of the company does the investor own after the deal?",
+        "choices": ["25%", "33.3%", "30%", "20%"],
+        "answer": 0,
+        "explanation": "Post-money valuation = $900,000 + $300,000 = $1,200,000. Ownership = $300,000 ÷ $1,200,000 = 25%. Dividing by the pre-money value gives the 33.3% distractor."
+      },
+      {
+        "stem": "A startup has $240,000 in cash. Each month it spends $70,000 and collects $30,000 in revenue. How many months of runway does it have?",
+        "choices": ["6 months", "3.4 months", "8 months", "2.4 months"],
+        "answer": 0,
+        "explanation": "Net burn = $70,000 − $30,000 = $40,000 per month. Runway = $240,000 ÷ $40,000 = 6 months."
+      },
+      {
+        "stem": "Founders own 80% of a company and early investors own 20%. A new investor buys newly issued shares equal to 20% of the company after the round. What percentage do the founders own afterward?",
+        "choices": ["64%", "60%", "80%", "68%"],
+        "answer": 0,
+        "explanation": "Existing owners keep 100% − 20% = 80% of the company in total, split in their old proportions. Founders own 80% × 80% = 64%; early investors drop to 16%."
+      },
+      {
+        "stem": "A bakery owner needs $50,000 for a new oven and wants to keep 100% ownership. The bakery has steady cash flow to cover monthly payments. Which funding source fits best?",
+        "choices": ["An equipment loan from a bank", "Selling 30% of the bakery to an angel investor", "Pitching to a venture capital fund", "Equity crowdfunding from customers"],
+        "answer": 0,
+        "explanation": "Debt financing keeps full ownership, and steady cash flow can cover loan payments. The equipment can also serve as collateral. Every other option gives up equity."
+      },
+      {
+        "stem": "Which business is the most likely candidate for venture capital funding?",
+        "choices": ["A software startup that could reach millions of users and grow revenue tenfold in five years", "A single-location family restaurant with steady local sales", "A freelance graphic designer working from home", "A neighborhood lawn-care service with two employees"],
+        "answer": 0,
+        "explanation": "Venture capitalists need a chance at very large returns, so they look for scalable, high-growth businesses. The others are solid lifestyle businesses better suited to loans or bootstrapping."
+      },
+      {
+        "stem": "A company's income statement shows a $25,000 profit for the quarter, yet it cannot pay its suppliers on time. What is the most likely cause?",
+        "choices": ["Customers have not yet paid for sales made on credit", "Its prices are too low to cover variable costs", "It relied on bootstrapping instead of debt", "Its depreciation expense was recorded twice"],
+        "answer": 0,
+        "explanation": "Sales on credit raise profit when recorded, but the cash arrives later, so a profitable firm can still be short of cash. Prices below variable cost would produce a loss, not a profit."
+      },
+      {
+        "stem": "A founder estimates one-time start-up costs of $35,000 and monthly operating expenses of $8,000. She wants a reserve covering 4 months of operating expenses. How much total funding should she seek?",
+        "choices": ["$67,000", "$43,000", "$32,000", "$140,000"],
+        "answer": 0,
+        "explanation": "Reserve = 4 × $8,000 = $32,000. Total = $35,000 + $32,000 = $67,000. The reserve alone is $32,000, and $43,000 covers only one month."
+      },
+      {
+        "stem": "A board-game designer raises $40,000 online from 1,600 backers who each receive a copy of the game when it ships. What type of financing is this?",
+        "choices": ["Rewards-based crowdfunding", "Equity crowdfunding", "Angel investment", "Trade credit"],
+        "answer": 0,
+        "explanation": "Backers receive a product, not shares, so this is rewards-based crowdfunding. On average each backer gave $40,000 ÷ 1,600 = $25."
+      },
+      {
+        "stem": "A landscaping startup waits 60 days for clients to pay but must pay its suppliers within 15 days. Which action most directly improves its cash flow?",
+        "choices": ["Offer a small discount for client payment within 10 days", "Buy more equipment with cash", "Extend client payment terms to 90 days", "Pay suppliers early to build goodwill"],
+        "answer": 0,
+        "explanation": "An early-payment discount brings cash in sooner, narrowing the gap between paying suppliers and collecting from clients. The other choices make the gap worse or drain cash."
+      },
+      {
+        "stem": "A founder borrows $20,000 at 6% simple annual interest for 3 years. How much interest will she pay over the life of the loan?",
+        "choices": ["$3,600", "$1,200", "$6,000", "$23,600"],
+        "answer": 0,
+        "explanation": "Simple interest = principal × rate × time = $20,000 × 0.06 × 3 = $3,600. $1,200 is only one year's interest, and $23,600 is the total repaid."
+      }
+    ],
+    "flashcards": [
+      { "term": "Bootstrapping", "definition": "Funding a business with personal savings, early revenue and tight cost control instead of outside investors." },
+      { "term": "Angel investor", "definition": "A wealthy individual who invests personal money in an early-stage business in exchange for equity or convertible debt." },
+      { "term": "Venture capitalist", "definition": "A firm that invests pooled funds in high-growth companies in exchange for equity and often a board seat." },
+      { "term": "Post-money valuation", "definition": "A company's value right after an investment: pre-money valuation plus the new money invested." },
+      { "term": "Dilution", "definition": "The drop in existing owners' percentage stake when a company issues new shares." },
+      { "term": "Runway", "definition": "The number of months a startup can operate before cash runs out: cash on hand divided by monthly net burn." }
+    ]
+  }
+]

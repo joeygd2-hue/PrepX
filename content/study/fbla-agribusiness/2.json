@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Farm business management and finance",
+    "objective": "Use enterprise budgets, break-even analysis and farm financial statements to manage a farm and evaluate its borrowing.",
+    "body": "Running a farm means running a business with high fixed costs, thin margins and income that may arrive only once or twice a year. Agribusiness tests ask you to read farm budgets and financial ratios and to know where farmers borrow.\n\n**Costs and enterprise budgets.** An *enterprise* is one farm activity, such as corn, soybeans or a cow-calf herd. An *enterprise budget* projects revenue and costs per acre or per head.\n- *Variable (operating) costs*: seed, fertilizer, fuel, feed and hired labor; they change with how much is produced.\n- *Fixed (ownership) costs*: machinery depreciation, property taxes, insurance and interest on owned capital; they occur whether or not a crop is planted.\nIn the short run, a farmer should keep producing as long as price covers variable costs, even if it does not cover all fixed costs, because the fixed costs must be paid either way.\n\n**Break-even analysis.**\n- *Break-even price* = total cost per acre ÷ expected yield per acre.\n- *Break-even yield* = total cost per acre ÷ expected price.\n\n**Farm financial statements.** The farm *balance sheet* lists assets and liabilities on one date, split into current (due or used within a year) and noncurrent. Key measures:\n- *Working capital* = current assets − current liabilities.\n- *Current ratio* = current assets ÷ current liabilities, a measure of liquidity.\n- *Debt-to-asset ratio* = total liabilities ÷ total assets, a measure of solvency.\nThe *income statement* reports net farm income for a period. The *cash flow budget* projects when cash comes in and goes out, which matters because expenses pile up at planting while income arrives after harvest.\n\n**Land and leasing.** Many farmers rent much of the land they farm. In a *cash rent* lease the tenant pays a fixed amount per acre and keeps the whole crop. In a *crop share* lease the landowner receives a share of the crop and usually pays a share of some costs, so landowner and tenant split both price and yield risk.\n\n**Agricultural credit.** Lenders include commercial banks, the *Farm Credit System* (a nationwide network of borrower-owned lending cooperatives), the USDA *Farm Service Agency* (direct and guaranteed loans, especially for beginning farmers who cannot get credit elsewhere) and input suppliers.\n\nThe most common mistake is judging profitability from the balance sheet. The balance sheet shows what the farm owns and owes on one date; profit comes from the income statement.",
+    "examples": [
+      "Soybean costs are $560 per acre and expected yield is 56 bushels. Break-even price = $560 ÷ 56 = $10.00 per bushel.",
+      "A farm has current assets of $240,000 and current liabilities of $160,000. Working capital is $80,000 and the current ratio is $240,000 ÷ $160,000 = 1.5.",
+      "A tenant pays $250 per acre cash rent on 400 acres, a fixed $100,000 no matter the yield. Under a crop share lease, the landowner's income would instead rise and fall with the harvest."
+    ],
+    "questions": [
+      {
+        "stem": "A farmer's corn production costs are $780 per acre, and the expected selling price is $4.00 per bushel. What is the break-even yield?",
+        "choices": ["3,120 bushels per acre", "195 bushels per acre", "180 bushels per acre", "156 bushels per acre"],
+        "answer": 1,
+        "explanation": "Break-even yield = total cost per acre ÷ price = $780 ÷ $4.00 = 195 bushels per acre. Multiplying instead of dividing gives the impossible 3,120."
+      },
+      {
+        "stem": "Which of these is a fixed cost for a crop farm?",
+        "choices": ["Fertilizer applied to the crop", "Fuel used during harvest", "Annual insurance on the machinery shed", "Seed purchased for planting"],
+        "answer": 2,
+        "explanation": "Building insurance is owed whether or not a crop is grown, so it is fixed. Fertilizer, fuel and seed rise or fall with how much is planted, so they are variable."
+      },
+      {
+        "stem": "A farm has total assets of $2,500,000 and total liabilities of $750,000. What is its debt-to-asset ratio?",
+        "choices": ["3.33", "0.43", "0.70", "0.30"],
+        "answer": 3,
+        "explanation": "Debt-to-asset = $750,000 ÷ $2,500,000 = 0.30, meaning creditors have financed 30% of the assets. The 0.43 figure divides debt by equity instead."
+      },
+      {
+        "stem": "A farm reports current assets of $180,000 and current liabilities of $120,000. What is its working capital?",
+        "choices": ["$60,000", "$300,000", "$150,000", "$120,000"],
+        "answer": 0,
+        "explanation": "Working capital = $180,000 − $120,000 = $60,000. It is the cushion of current assets left after paying short-term debts."
+      },
+      {
+        "stem": "The market price of wheat is below a farm's total cost per acre but above its variable cost per acre. In the short run, what should the farmer do?",
+        "choices": ["Stop producing immediately to avoid all costs", "Keep producing, because revenue covers variable costs and part of fixed costs", "Raise the selling price above total cost", "Sell the land to eliminate fixed costs this season"],
+        "answer": 1,
+        "explanation": "Fixed costs are owed even if nothing is planted, so producing reduces the loss as long as revenue covers variable costs. A price taker cannot simply raise its price."
+      },
+      {
+        "stem": "A landowner wants steady, predictable income from farmland and does not want to share in crop price or yield risk. Which lease type fits best?",
+        "choices": ["Crop share lease", "Flexible lease tied to yield", "Cash rent lease", "Livestock share lease"],
+        "answer": 2,
+        "explanation": "A cash rent lease pays a fixed amount per acre, so the tenant carries the price and yield risk. Crop share and flexible leases tie the landowner's income to the harvest."
+      },
+      {
+        "stem": "A beginning farmer is turned down for a loan at a commercial bank. Which federal agency makes direct and guaranteed farm loans aimed at farmers who cannot get credit elsewhere?",
+        "choices": ["Federal Deposit Insurance Corporation", "Commodity Futures Trading Commission", "Securities and Exchange Commission", "USDA Farm Service Agency"],
+        "answer": 3,
+        "explanation": "The Farm Service Agency offers direct and guaranteed loans, with programs for beginning farmers. The FDIC insures bank deposits, and the CFTC and SEC regulate markets."
+      },
+      {
+        "stem": "Why is a monthly cash flow budget especially important for a crop farm?",
+        "choices": ["Most expenses come at planting, while most income arrives after harvest", "It replaces the need for an income statement", "It shows the market value of land on a single date", "Lenders are not allowed to review it"],
+        "answer": 0,
+        "explanation": "The gap between spring costs and fall sales means a farm can be profitable for the year yet run short of cash in midsummer. The budget shows when an operating loan is needed."
+      }
+    ],
+    "flashcards": [
+      { "term": "Enterprise budget", "definition": "A projection of revenue, costs and profit per acre or per head for one farm activity, such as corn or a cattle herd." },
+      { "term": "Break-even yield", "definition": "Total cost per acre divided by expected price; the yield needed to cover all costs." },
+      { "term": "Debt-to-asset ratio", "definition": "Total liabilities divided by total assets; a measure of solvency showing how much of the farm is financed by debt." },
+      { "term": "Cash rent lease", "definition": "A land lease where the tenant pays a fixed amount per acre and keeps the entire crop and its risk." },
+      { "term": "Farm Credit System", "definition": "A nationwide network of borrower-owned cooperative lenders that provide credit to farmers, ranchers and rural businesses." }
+    ]
+  }
+]

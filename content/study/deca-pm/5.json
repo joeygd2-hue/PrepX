@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Closing the project and evaluating results",
+    "objective": "Close a project formally, measure results against goals with sound data, and capture lessons that improve future projects.",
+    "body": "The closing phase is where a team proves its project worked. In Project Management events, judges look for results measured against the goals set at the start, honest analysis of what went right and wrong, and clear recommendations. A project that ends with 'we had fun' instead of data leaves points on the table.\n\n**Formal closure.** Closing a project involves several steps:\n1. Confirm that every deliverable is complete and get *formal acceptance* from the sponsor or decision-maker.\n2. *Reconcile the budget*: pay all invoices, deposit or deliver all funds, and compare final costs and revenue with the budget, explaining major variances.\n3. Release resources, return borrowed equipment and close out vendor agreements.\n4. Archive documents such as the charter, schedules, contracts, receipts, survey data and the final report.\n\n**Measuring results.** Compare final numbers with each SMART goal. *Percent of goal* = actual result / goal x 100. Distinguish *outputs*, the activities and products delivered (three workshops held, 400 flyers distributed), from *outcomes*, the changes those activities caused (average quiz scores rose from 55% to 78%). Outcomes are stronger evidence of impact. *Pre- and post-surveys* or quizzes show change, and rating scales such as 1 to 5 produce data you can average and chart. For money spent on promotion or materials, *return on investment (ROI)* = (gain - cost) / cost.\n\n**Lessons learned.** Capture lessons throughout the project, then hold a final review with the whole team: what went well, what didn't, and what to do differently. Focus on processes rather than blaming individuals. Good lessons are specific and actionable, such as 'confirm the venue in writing at least six weeks ahead.'\n\n**Recognition and handoff.** Thank volunteers, sponsors and partners personally, and share the results their support produced; this builds relationships for future projects. If the project will continue, prepare a *transition plan* for next year's officers with contacts, timeline, budget, templates and recommendations, so the next team starts ahead instead of from zero.\n\nA common mistake is reporting only activities. 'We held a fair' describes effort; 'attendance beat our goal by 18% and 81% of attendees rated the fair 4 or 5' proves success.",
+    "examples": [
+      "A chapter set a goal of raising $2,500 for a youth shelter and raised $2,900. Its percent of goal is $2,900 / $2,500 x 100 = 116%.",
+      "Before a budgeting workshop, students averaged 52% on a 10-question quiz; afterward, they averaged 81%. The 29-point gain is an outcome, while the fact that four workshops were held is an output.",
+      "In its lessons-learned review, a team notes that online ticket sales jumped after a teacher shared the link in morning announcements, and it recommends that next year's team start announcements three weeks earlier."
+    ],
+    "questions": [
+      {
+        "stem": "As a project ends, what should the team do before releasing resources and archiving documents?",
+        "choices": [
+          "Write next year's project charter",
+          "Confirm all deliverables are complete and get formal acceptance from the sponsor",
+          "Start recruiting volunteers for a new event",
+          "Delete the planning files to protect privacy"
+        ],
+        "answer": 1,
+        "explanation": "Formal acceptance confirms the project met its requirements and marks the official end of the work; resources are then released and records archived."
+      },
+      {
+        "stem": "Which result is an outcome rather than an output of a financial literacy project?",
+        "choices": [
+          "The team held three workshops",
+          "Volunteers distributed 400 flyers",
+          "Participants' average quiz score rose from 55% to 78%",
+          "The team posted 12 social media updates"
+        ],
+        "answer": 2,
+        "explanation": "Outcomes measure change caused by the project, such as improved knowledge. Workshops held, flyers distributed and posts made are outputs: activities delivered."
+      },
+      {
+        "stem": "Workshop participants averaged 60 points on a pre-test and 75 points on a post-test. What was the percent increase in the average score?",
+        "choices": ["15%", "20%", "75%", "25%"],
+        "answer": 3,
+        "explanation": "Percent increase = (75 - 60) / 60 = 15 / 60 = 0.25, or 25%. Fifteen is the point gain, not the percent change, and 20% wrongly uses 75 as the base."
+      },
+      {
+        "stem": "A team set a fundraising goal of $5,000 and raised $6,200. What percentage of its goal did it reach?",
+        "choices": ["124%", "81%", "112%", "120%"],
+        "answer": 0,
+        "explanation": "Percent of goal = $6,200 / $5,000 x 100 = 124%. The team exceeded its goal by $1,200, or 24%."
+      },
+      {
+        "stem": "Which approach to lessons learned is most effective?",
+        "choices": [
+          "Have the project manager write the lessons alone after the final report is submitted",
+          "Focus the review on identifying which team member caused each problem",
+          "Record only what went wrong so mistakes are not repeated",
+          "Record lessons throughout the project, then review them as a team and turn them into specific recommendations"
+        ],
+        "answer": 3,
+        "explanation": "Capturing lessons as they happen and reviewing them as a team produces specific, actionable recommendations. Reviews should focus on processes, not blame, and include successes worth repeating."
+      },
+      {
+        "stem": "A project's approved budget was $3,000, and final expenses were $2,760. By what percentage did the team come in under budget?",
+        "choices": ["9%", "8%", "24%", "92%"],
+        "answer": 1,
+        "explanation": "Underspend = $3,000 - $2,760 = $240, and $240 / $3,000 = 0.08, or 8% under budget. Dividing by actual spending (about 9%) uses the wrong base."
+      },
+      {
+        "stem": "A team wants evaluation data it can average and chart. Which survey question best provides it?",
+        "choices": [
+          "What was your favorite part of the workshop?",
+          "Do you have any other comments?",
+          "On a scale of 1 to 5, how confident are you in creating a monthly budget?",
+          "How would you describe the speaker's style?"
+        ],
+        "answer": 2,
+        "explanation": "A rating scale produces numbers that can be averaged, compared before and after, and charted. Open-ended questions add useful detail but are hard to summarize numerically."
+      },
+      {
+        "stem": "A chapter plans to repeat its community project next year with new officers. Which closing step best sets the next team up for success?",
+        "choices": [
+          "Prepare a transition plan with contacts, timeline, budget, templates and recommendations",
+          "Keep all project files on one officer's personal device",
+          "Let next year's officers start from scratch to encourage creativity",
+          "Share only the final fundraising total with the new officers"
+        ],
+        "answer": 0,
+        "explanation": "A transition plan passes along the knowledge, relationships and tools the team built, so the next team can improve the project instead of rebuilding it."
+      },
+      {
+        "stem": "After the project, which action best strengthens relationships with sponsors for future support?",
+        "choices": [
+          "Send a generic mass email that does not mention results",
+          "Wait until next year's funding request to thank them",
+          "Thank only the largest sponsor publicly",
+          "Send personalized thank-you letters that share the results their support made possible"
+        ],
+        "answer": 3,
+        "explanation": "Personal thanks that show measurable impact help sponsors see the value of their support and make them more likely to give again."
+      },
+      {
+        "stem": "A team spent $400 on promotion and estimates that the promotion brought in $1,600 in additional ticket sales. Using ROI = (gain - cost) / cost, what was the return on investment?",
+        "choices": ["75%", "400%", "300%", "25%"],
+        "answer": 2,
+        "explanation": "ROI = ($1,600 - $400) / $400 = $1,200 / $400 = 3, or 300%. Dividing $1,600 by $400 (400%) forgets to subtract the cost."
+      }
+    ],
+    "flashcards": [
+      { "term": "Formal acceptance", "definition": "The sponsor's or decision-maker's confirmation that a project's deliverables are complete and meet requirements." },
+      { "term": "Output", "definition": "An activity or product a project delivers, such as workshops held or flyers distributed." },
+      { "term": "Outcome", "definition": "A change a project causes, such as improved knowledge, behavior or conditions for the people served." },
+      { "term": "Lessons learned", "definition": "Specific, actionable insights about what worked and what to change, gathered to improve future projects." },
+      { "term": "Return on investment (ROI)", "definition": "The gain from spending minus its cost, divided by the cost, expressed as a percentage." },
+      { "term": "Transition plan", "definition": "A handoff document giving the next team contacts, timeline, budget, templates and recommendations." }
+    ]
+  }
+]

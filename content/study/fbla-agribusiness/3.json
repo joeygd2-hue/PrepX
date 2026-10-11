@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Marketing farm products and managing risk",
+    "objective": "Compare ways to market farm products and use forward contracts, futures, options, insurance and diversification to manage price and production risk.",
+    "body": "Farmers face risks that few other businesses do: weather, disease and prices set in world markets. Agribusiness tests check that you know the tools that turn those risks into something a business can plan around.\n\n**Types of risk.**\n- *Production risk*: drought, floods, pests and disease change yields.\n- *Price (market) risk*: prices can fall between planting and sale.\n- *Financial risk*: interest rates, debt payments and access to credit.\n- *Legal, policy and human risk*: regulations, trade disputes, injuries and illness.\n\n**Marketing options.**\n- *Cash sale at harvest*: simple, but the farmer takes whatever price the market offers that day.\n- *Storage*: hold grain and sell later, hoping for higher prices; storage and interest costs must be covered.\n- *Forward contract*: a private agreement with a local buyer to deliver a set quantity at a set price on a future date. It locks in the price but requires delivery even if the crop falls short.\n- *Cooperatives*: farmer-owned businesses that market products or buy supplies for members and return profits as patronage refunds.\n- *Direct marketing*: farmers markets, farm stands, community supported agriculture (CSA) and online sales.\n\n**Futures and hedging.** A *futures contract* is a standardized agreement, traded on an exchange, to buy or sell a commodity at a future date. A farmer who will sell grain later protects against falling prices with a *short hedge*: sell futures now, then buy them back when the crop is sold for cash. If prices fall, the futures gain offsets the lower cash price. *Basis* = local cash price − futures price. Because basis can change, a hedge locks in a price only approximately. A *put option* gives the right, but not the obligation, to sell futures at a strike price, setting a price floor while keeping upside, at the cost of a premium.\n\n**Insurance and diversification.** Federal *crop insurance*, sold through private companies with federal support, protects against losses in yield or revenue. *Diversification* across crops, livestock or off-farm income reduces the impact of any one loss.\n\nThe most common mistake is treating a hedge as a bet on prices. A hedger already carries the price risk; the futures position offsets it, so the hedger gives up some potential gain in exchange for protection.",
+    "examples": [
+      "In spring a farmer sells December corn futures at $4.70. At harvest futures are $4.10 and the local cash price is $3.90. Cash sale $3.90 + futures gain ($4.70 − $4.10 = $0.60) = $4.50 net per bushel.",
+      "A soybean grower buys a put option with a $12.00 strike price for a $0.40 premium. If prices collapse, the futures floor is about $12.00 − $0.40 = $11.60 before basis; if prices rise, the grower simply sells at the higher price.",
+      "A wheat farm adds a small cattle herd and a fall corn maze, so one poor wheat year no longer wipes out the farm's entire income."
+    ],
+    "questions": [
+      {
+        "stem": "A wheat farmer worries that prices will fall before harvest. Which futures position creates a hedge against that risk?",
+        "choices": ["Buy wheat futures now and sell them at harvest", "Sell wheat futures now and buy them back when the crop is sold", "Buy a call option on wheat futures", "Take no futures position and store the crop instead"],
+        "answer": 1,
+        "explanation": "A producer uses a short hedge: if prices fall, buying back the futures for less creates a gain that offsets the lower cash price. Buying futures or calls protects buyers against rising prices."
+      },
+      {
+        "stem": "The local cash price for soybeans is $11.40 per bushel and the nearby futures price is $11.75. What is the basis?",
+        "choices": ["+$0.35 (35 cents over)", "$0.00 (even with futures)", "−$0.35 (35 cents under)", "−$0.53 (53 cents under)"],
+        "answer": 2,
+        "explanation": "Basis = cash − futures = $11.40 − $11.75 = −$0.35, or 35 cents under. A cash price below futures always gives a negative basis."
+      },
+      {
+        "stem": "In April a corn grower sells futures at $5.00. At harvest the futures price is $4.40 and the local cash price is $4.15. Ignoring fees, what net price does the hedge produce?",
+        "choices": ["$4.15", "$5.00", "$4.40", "$4.75"],
+        "answer": 3,
+        "explanation": "The futures gain is $5.00 − $4.40 = $0.60. Net price = $4.15 cash + $0.60 = $4.75, which equals the $5.00 futures price plus the −$0.25 harvest basis."
+      },
+      {
+        "stem": "A cattle producer wants protection against falling prices but still wants to benefit if prices rise. Which tool fits best?",
+        "choices": ["Buying a put option", "Selling a futures contract", "Signing a fixed-price forward contract", "Buying a call option"],
+        "answer": 0,
+        "explanation": "A put sets a price floor while letting the producer sell higher if prices rise, for the cost of a premium. Futures and forward contracts lock in a price and give up the upside."
+      },
+      {
+        "stem": "What is a key drawback of a fixed-price forward contract with a local grain elevator?",
+        "choices": ["The price changes daily until delivery", "The farmer must deliver the agreed quantity even if the crop is smaller than expected", "It can only be traded on a futures exchange", "It requires the farmer to pay a premium up front"],
+        "answer": 1,
+        "explanation": "A forward contract is a delivery obligation, so a short crop can leave the farmer unable to fill it. It is a private agreement, not exchange-traded, and it has no option premium."
+      },
+      {
+        "stem": "Several fruit growers form a business they jointly own to pack and market their apples, sharing profits based on how much each member sells through it. What is this business?",
+        "choices": ["A futures exchange", "A sole proprietorship", "A marketing cooperative", "A crop insurance provider"],
+        "answer": 2,
+        "explanation": "A marketing cooperative is owned by the farmers who use it and returns profits as patronage refunds based on each member's business. A sole proprietorship has one owner."
+      },
+      {
+        "stem": "A drought cuts a farm's corn yield in half. Which risk management tool is designed to cover this kind of loss?",
+        "choices": ["A short futures hedge", "A forward contract", "A put option", "Crop insurance"],
+        "answer": 3,
+        "explanation": "Crop insurance covers production losses from causes such as drought. Hedges, forward contracts and puts manage price risk, not lost bushels."
+      },
+      {
+        "stem": "A family farm earns income from hogs, soybeans and an on-farm pumpkin patch. Which risk management strategy does this show?",
+        "choices": ["Diversification", "Hedging", "Vertical integration", "Leveraging"],
+        "answer": 0,
+        "explanation": "Diversification spreads income across unrelated enterprises so one bad year in a single product does less damage. Hedging uses futures or options to offset price risk."
+      }
+    ],
+    "flashcards": [
+      { "term": "Price risk", "definition": "The chance that the market price of a product will fall between production decisions and the time of sale." },
+      { "term": "Forward contract", "definition": "A private agreement to deliver a set quantity of a commodity at a set price on a future date." },
+      { "term": "Futures contract", "definition": "A standardized, exchange-traded agreement to buy or sell a commodity at a set price on a future date." },
+      { "term": "Basis", "definition": "The local cash price minus the futures price for a commodity at a given time and place." },
+      { "term": "Put option", "definition": "The right, but not the obligation, to sell a futures contract at a strike price, creating a price floor for a premium." }
+    ]
+  }
+]

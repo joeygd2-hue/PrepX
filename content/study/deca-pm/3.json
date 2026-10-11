@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Budgets, resources and risk planning",
+    "objective": "Build a project budget with a contingency, calculate break-even and net proceeds, and plan responses to the biggest risks.",
+    "body": "Money and risk are where many student projects run into trouble, and judges notice when a written entry includes a realistic budget and a thoughtful plan for what could go wrong. Showing the numbers, and where they came from, makes your project credible.\n\n**Building the budget.** The most reliable method is *bottom-up estimating*: estimate the cost of each work package in the WBS, then add them up. Get quotes from more than one vendor for major purchases. Typical categories include venue, materials, printing, promotion, food and awards. Record *in-kind donations*, goods or services given instead of cash, at their fair value so the budget shows the true cost of the project. Add a *contingency reserve*, an extra amount set aside for identified risks; many student teams use about 10% of the base estimate.\n\n**Revenue and results.** For fundraisers, list each revenue source: ticket sales, sponsorships, donations and merchandise. *Net proceeds* equal total revenue minus total expenses. For a ticketed event, the *break-even point* in tickets equals fixed costs divided by the ticket price minus the variable cost per attendee. Knowing break-even tells the team the minimum turnout it needs before it sets goals.\n\n**Planning for risk.** A *risk* is an uncertain event that would affect the project if it happened. Manage risk in steps:\n1. *Identify* risks by brainstorming with the team and reviewing past projects.\n2. *Analyze* each one by rating probability and impact; multiplying the two gives a score for ranking.\n3. *Plan responses*: *avoid* (change the plan to remove the risk), *mitigate* (reduce its probability or impact), *transfer* (shift it to another party, such as through insurance or a vendor contract) or *accept* (live with it, sometimes with a backup plan).\n4. *Record* everything in a *risk register* with each risk's score, response, trigger and *risk owner*, the person who watches it and acts.\n\n**Communication planning.** A *communication plan* lists who needs what information, how often, in what format and from whom. Sponsors might get a biweekly email update, while the team uses a shared task board and weekly meetings.\n\nA common mistake is budgeting only the big items and leaving no contingency. Small costs such as tape, printing and parking add up, and a budget with no reserve breaks the first time a price rises.",
+    "examples": [
+      "A charity dodgeball tournament has $450 in fixed costs (gym fee and referees) and a $3 T-shirt for each player. At $12 per player, break-even is $450 / ($12 - $3) = 50 players.",
+      "A team rates 'outdoor event rained out' at probability 4 and impact 5 (score 20) and 'guest speaker cancels' at probability 2 and impact 8 (score 16). It reserves a covered pavilion for the first risk and lines up a backup speaker for the second.",
+      "A local print shop donates 400 flyers worth $120. The team lists the $120 as an in-kind donation in both revenue and printing expense, so the budget reflects the full cost of the project."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter's dance has fixed costs of $600 for the venue and DJ. Each ticket sells for $12, and snacks cost $4 per attendee. How many tickets must be sold to break even?",
+        "choices": ["50", "100", "150", "75"],
+        "answer": 3,
+        "explanation": "Break-even = fixed costs / (price - variable cost) = $600 / ($12 - $4) = $600 / $8 = 75 tickets. Dividing by the full $12 price (50) ignores the snack cost."
+      },
+      {
+        "stem": "A fundraiser sells 180 tickets at $10 each and receives a $500 sponsorship. Total expenses are $950. What are the net proceeds?",
+        "choices": ["$850", "$2,300", "$1,350", "$1,800"],
+        "answer": 2,
+        "explanation": "Revenue = 180 x $10 + $500 = $2,300. Net proceeds = $2,300 - $950 = $1,350. Leaving out the sponsorship gives $850."
+      },
+      {
+        "stem": "A team's bottom-up estimate for its project is $2,400. It adds a 10% contingency reserve. What is the total budget?",
+        "choices": ["$2,640", "$2,410", "$2,160", "$2,880"],
+        "answer": 0,
+        "explanation": "Contingency = 10% x $2,400 = $240. Total budget = $2,400 + $240 = $2,640."
+      },
+      {
+        "stem": "A team rates four risks by probability (as a decimal) and impact (on a 1-to-10 scale). Based on probability times impact, which risk should get the highest priority?",
+        "choices": [
+          "Rain: probability 0.4, impact 5",
+          "Low turnout: probability 0.3, impact 8",
+          "Speaker cancels: probability 0.1, impact 9",
+          "Printer delay: probability 0.5, impact 2"
+        ],
+        "answer": 1,
+        "explanation": "Scores are probability x impact: rain 2.0, low turnout 2.4, speaker 0.9 and printer 1.0. Low turnout has the highest score."
+      },
+      {
+        "stem": "A team requires the inflatable-ride vendor to carry liability insurance that covers injuries on its equipment. Which risk response is this?",
+        "choices": ["Avoid", "Accept", "Transfer", "Mitigate"],
+        "answer": 2,
+        "explanation": "Shifting the financial consequences of a risk to another party, such as through a vendor's insurance or contract, is risk transfer."
+      },
+      {
+        "stem": "Worried that volunteers won't show up, a team recruits 20% more volunteers than it needs and sends reminder texts the day before. Which risk response is this?",
+        "choices": ["Transfer", "Avoid", "Accept", "Mitigate"],
+        "answer": 3,
+        "explanation": "Mitigation reduces a risk's probability or impact. Extra recruits and reminders lower the chance and effect of a shortage, but the risk still exists, so it is not avoidance."
+      },
+      {
+        "stem": "A local print shop donates 500 flyers that would normally cost $150. How should the team handle this in its budget?",
+        "choices": [
+          "Leave it out because no cash changed hands",
+          "Record it as a $150 in-kind donation at fair value",
+          "List it as a $150 cash expense paid by the chapter",
+          "Count it as $150 of ticket revenue"
+        ],
+        "answer": 1,
+        "explanation": "In-kind donations are goods or services given instead of cash. Recording them at fair value shows the project's true cost and properly credits the donor."
+      },
+      {
+        "stem": "A team estimates the cost of every work package in its WBS and adds the amounts together to create its budget. Which estimating method is this?",
+        "choices": ["Top-down estimating", "Break-even analysis", "Variance analysis", "Bottom-up estimating"],
+        "answer": 3,
+        "explanation": "Bottom-up estimating builds the total from detailed estimates of each piece of work, which is usually the most accurate approach. Top-down starts from one overall figure."
+      },
+      {
+        "stem": "Which document specifies which stakeholders receive project updates, how often, in what format and from whom?",
+        "choices": ["Communication plan", "Work breakdown structure", "Risk register", "Scope statement"],
+        "answer": 0,
+        "explanation": "A communication plan matches each stakeholder's information needs with a frequency, channel and sender."
+      },
+      {
+        "stem": "In a risk register, what is the role of the risk owner?",
+        "choices": [
+          "To pay personally for any losses the risk causes",
+          "To approve the final project budget",
+          "To watch for the risk's trigger and carry out the planned response",
+          "To delete the risk from the register once it is identified"
+        ],
+        "answer": 2,
+        "explanation": "Each risk is assigned an owner who monitors it and acts on the response plan if the trigger occurs, so no risk falls through the cracks."
+      }
+    ],
+    "flashcards": [
+      { "term": "Bottom-up estimating", "definition": "Building a total budget or schedule by estimating each work package and adding them together." },
+      { "term": "Contingency reserve", "definition": "Money or time set aside in a plan to handle identified risks if they occur." },
+      { "term": "In-kind donation", "definition": "A gift of goods or services instead of cash, recorded in the budget at fair value." },
+      { "term": "Break-even point", "definition": "The sales level at which total revenue equals total costs, so there is no profit or loss." },
+      { "term": "Risk register", "definition": "A log of identified risks with each one's probability, impact, response, trigger and owner." },
+      { "term": "Risk mitigation", "definition": "A risk response that lowers the probability or impact of a risk without removing it entirely." }
+    ]
+  }
+]
