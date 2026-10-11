@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Strategic thinking, change leadership and interview performance",
+    "objective": "Evaluate organizations with strategic tools, lead change effectively, and deliver structured, persuasive interview responses.",
+    "body": "Advanced competitors stand out by thinking like executives and communicating like professionals. This unit connects strategy, change and the interview, where judges decide whether you can actually lead.\n\n**Strategic planning** starts with a **mission statement** (why the organization exists) and a **vision statement** (what it hopes to become). Leaders then set goals that are **SMART**: specific, measurable, achievable, relevant and time-bound. 'Grow membership' is vague; 'Increase membership from 40 to 55 by October 31' is SMART.\n\n**SWOT analysis** reviews internal **strengths** and **weaknesses** and external **opportunities** and **threats**. The key distinction is control: strengths and weaknesses are inside the organization, while opportunities and threats come from the environment, such as competitors, the economy or new laws. A strong strategy uses strengths to seize opportunities and reduces weaknesses that expose it to threats.\n\n**Leading change** is hard because people resist uncertainty. Kotter's model offers a sequence, beginning with creating a sense of urgency, building a guiding coalition and forming a clear vision, then communicating it, removing barriers, generating **short-term wins**, sustaining momentum and anchoring the change in the culture. Skipping early steps, especially urgency and coalition-building, is a leading cause of failed change.\n\n**Delegation** multiplies a leader's impact. Effective delegation assigns a task with clear expectations, authority and a deadline, while the leader keeps **accountability** for the overall result. Delegating responsibility without authority sets people up to fail.\n\n**Emotional intelligence** includes self-awareness, self-regulation, empathy and social skill. It helps leaders stay calm under pressure and read a room, which judges notice immediately.\n\nIn the **interview**, structure your answers. The **STAR method** works for experience questions:\n- **Situation**: brief context.\n- **Task**: your responsibility.\n- **Action**: what you specifically did.\n- **Result**: measurable outcome and what you learned.\nSupport claims with numbers, keep answers to about one to two minutes, make eye contact, and connect your experience to the role or question asked. Prepare a concise answer to 'Why should you be selected?' that names two or three strengths backed by evidence.\n\nThe most common mistake students make is giving vague, 'we did' answers in the interview. Judges want to hear what *you* did and what measurable result it produced, and they quickly notice when a candidate lists traits without proof.",
+    "examples": [
+      "A chapter's SWOT lists a strong social media following as a strength and a new community grant program as an opportunity, so officers plan a campaign to win the grant.",
+      "Asked about a challenge, a candidate explains how she reorganized a disorganized fundraiser, assigned three leads, and raised $1,200, 40% more than the prior year."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter notes that a rival club is launching a competing fundraiser in the same month. In a SWOT analysis this is a:",
+        "choices": [
+          "Strength",
+          "Weakness",
+          "Opportunity",
+          "Threat"
+        ],
+        "answer": 3,
+        "explanation": "A competitor's action is external and harmful, so it is a threat. It is not a weakness because weaknesses are internal to the chapter."
+      },
+      {
+        "stem": "Which goal is written in SMART format?",
+        "choices": [
+          "Be the best chapter in the state",
+          "Improve meeting attendance soon",
+          "Raise average meeting attendance from 25 to 35 members by December 15",
+          "Get more people involved in events"
+        ],
+        "answer": 2,
+        "explanation": "Only this goal is specific, measurable and time-bound. 'Improve attendance soon' names a direction but lacks a measure and deadline."
+      },
+      {
+        "stem": "An officer announces a new dues system by email with no explanation, and members resist. According to Kotter, which early step was most likely skipped?",
+        "choices": [
+          "Anchoring change in culture",
+          "Creating a sense of urgency",
+          "Generating short-term wins",
+          "Sustaining acceleration"
+        ],
+        "answer": 1,
+        "explanation": "Members resisted because no one explained why change was needed, so urgency was never created. Anchoring in culture is the final step and cannot work without the early ones."
+      },
+      {
+        "stem": "An interviewer asks, 'Tell me about a time you led a team.' Which answer structure is most effective?",
+        "choices": [
+          "List your leadership traits",
+          "Describe the situation, your task, your actions and the measurable result",
+          "Explain what your team did as a group",
+          "Summarize your resume chronologically"
+        ],
+        "answer": 1,
+        "explanation": "The STAR method gives a clear story with personal actions and results. Describing only what 'the team' did hides your individual contribution."
+      },
+      {
+        "stem": "A president asks the secretary to redesign the newsletter but requires approval for every word choice. What delegation problem exists?",
+        "choices": [
+          "Too much authority given",
+          "Responsibility without matching authority",
+          "No accountability retained",
+          "Deadline is too long"
+        ],
+        "answer": 1,
+        "explanation": "Effective delegation pairs responsibility with authority; micromanaging every word removes that authority. The president still keeps accountability, so that is not the problem."
+      },
+      {
+        "stem": "Which item belongs in the 'weaknesses' section of a chapter SWOT?",
+        "choices": [
+          "A new state grant for student groups",
+          "Officers with limited budgeting experience",
+          "A local recession reducing donations",
+          "Growing interest in business careers"
+        ],
+        "answer": 1,
+        "explanation": "Limited officer experience is internal and unfavorable, so it is a weakness. A recession is unfavorable but external, making it a threat."
+      },
+      {
+        "stem": "During a tense interview question, a candidate notices rising frustration, pauses, and responds calmly. This best shows which emotional intelligence component?",
+        "choices": [
+          "Empathy",
+          "Self-regulation",
+          "Social skill",
+          "Motivation"
+        ],
+        "answer": 1,
+        "explanation": "Managing one's own emotional reaction is self-regulation. Empathy concerns understanding others' feelings, not controlling your own."
+      },
+      {
+        "stem": "Which statement correctly describes a vision statement?",
+        "choices": [
+          "A list of this year's budget items",
+          "A description of what the organization hopes to become",
+          "A summary of daily procedures",
+          "The bylaws governing elections"
+        ],
+        "answer": 1,
+        "explanation": "A vision statement describes the desired future. A mission statement, by contrast, explains why the organization exists today."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "SMART goal",
+        "definition": "A goal that is specific, measurable, achievable, relevant and time-bound."
+      },
+      {
+        "term": "SWOT analysis",
+        "definition": "A review of internal strengths and weaknesses and external opportunities and threats."
+      },
+      {
+        "term": "STAR method",
+        "definition": "An interview answer structure: Situation, Task, Action, Result."
+      },
+      {
+        "term": "Delegation",
+        "definition": "Assigning a task with clear expectations, authority and a deadline while the leader keeps accountability."
+      },
+      {
+        "term": "Short-term wins",
+        "definition": "Visible early successes in a change effort that build momentum and credibility."
+      }
+    ]
+  }
+]

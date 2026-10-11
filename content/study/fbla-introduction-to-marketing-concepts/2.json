@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Target markets, segmentation, and consumer buying behavior",
+    "objective": "Segment a market using four bases, select and describe a target market, and explain the stages and influences of the consumer buying decision.",
+    "body": "No product appeals to everyone, so marketers divide the total market into smaller groups and choose whom to serve. This choice shapes every part of the marketing mix.\n\n**Market segmentation.** **Market segmentation** is dividing a market into groups of buyers with similar characteristics. Four common bases are used:\n- **Demographic**: measurable traits such as age, gender, income, education and family size.\n- **Geographic**: where people live, including region, climate and population density.\n- **Psychographic**: lifestyles, values, attitudes, interests and personality.\n- **Behavioral**: how people act toward a product, such as usage rate, brand loyalty, benefits sought and occasion of purchase.\n\nA single company often combines bases. A sports-drink brand might target athletes ages 15 to 30 (demographic) who train several times a week (behavioral) and value fitness (psychographic).\n\n**Target market.** The **target market** is the specific segment a business chooses to serve. A good target segment is large enough to be profitable, reachable through media and distribution, and different enough from other segments to respond to its own marketing mix. Firms may use **mass marketing** (one mix for everyone), **multisegment marketing** (different mixes for several segments), or **niche marketing** (a narrow, specialized segment).\n\n**Positioning.** After choosing a target, a firm decides how it wants that target to view the product compared with competitors. This is **positioning**, often built around price, quality, convenience or a special benefit.\n\n**The consumer decision process.** Consumers usually move through five steps:\n1. Problem recognition: noticing a need.\n2. Information search: looking at reviews, friends, ads and stores.\n3. Evaluation of alternatives: comparing options on features and price.\n4. Purchase decision: choosing what, where and when to buy.\n5. Post-purchase evaluation: judging satisfaction, which may include **buyer's remorse**, also called cognitive dissonance.\n\nRoutine purchases like toothpaste may skip steps, while expensive, high-involvement purchases like a laptop usually include all five.\n\n**Influences on buying.** Buying behavior is shaped by personal factors (age, income), psychological factors (motivation, perception, attitudes), and social factors (family, friends, reference groups, culture). Marketers also distinguish **rational buying motives**, based on logic such as price and durability, from **emotional buying motives**, based on feelings such as status, fear or love.\n\n**Common mistake.** Students frequently confuse psychographic and behavioral segmentation. Psychographic describes who a person is inside (values, lifestyle); behavioral describes what the person does with the product (how often they buy, whether they are loyal). If the scenario mentions usage or loyalty, choose behavioral.",
+    "examples": [
+      "A snow-tire company advertising mainly in Minnesota and Maine is using geographic segmentation.",
+      "A coffee chain offering a reward to customers who visit five times a week is targeting heavy users, a behavioral segment."
+    ],
+    "questions": [
+      {
+        "stem": "A gym markets a premium membership to people who describe themselves as adventurous and health-conscious. Which segmentation base is used?",
+        "choices": [
+          "Demographic",
+          "Geographic",
+          "Behavioral",
+          "Psychographic"
+        ],
+        "answer": 3,
+        "explanation": "Values and lifestyle traits are psychographic. Behavioral is the main distractor, but it would focus on actions such as visit frequency."
+      },
+      {
+        "stem": "An airline creates offers only for travelers who fly more than 20 times a year. Which segmentation base is this?",
+        "choices": [
+          "Behavioral",
+          "Psychographic",
+          "Demographic",
+          "Geographic"
+        ],
+        "answer": 0,
+        "explanation": "Usage rate is a behavioral variable. Demographic is incorrect because flying frequency is an action, not a measurable population trait like age."
+      },
+      {
+        "stem": "A student researches three laptops by reading reviews and asking friends. Which stage of the buying process is she in?",
+        "choices": [
+          "Problem recognition",
+          "Purchase decision",
+          "Information search",
+          "Post-purchase evaluation"
+        ],
+        "answer": 2,
+        "explanation": "Gathering reviews and opinions is information search. Evaluation of alternatives comes next, when she compares the options she has found."
+      },
+      {
+        "stem": "After buying an expensive jacket, a customer worries he paid too much. This feeling is called:",
+        "choices": [
+          "Reference grouping",
+          "Cognitive dissonance",
+          "Rational motivation",
+          "Positioning"
+        ],
+        "answer": 1,
+        "explanation": "Post-purchase doubt is cognitive dissonance, or buyer's remorse. Rational motivation describes logical reasons for buying, not doubt afterward."
+      },
+      {
+        "stem": "A small company makes left-handed scissors and guitars only. Which targeting strategy does it use?",
+        "choices": [
+          "Niche marketing",
+          "Mass marketing",
+          "Multisegment marketing",
+          "Geographic marketing"
+        ],
+        "answer": 0,
+        "explanation": "Serving a narrow, specialized segment is niche marketing. Multisegment marketing would serve several distinct groups with different mixes."
+      },
+      {
+        "stem": "A parent buys a car seat mainly because it has the highest crash-test safety rating. This is primarily a:",
+        "choices": [
+          "Emotional buying motive based on status",
+          "Psychographic segment",
+          "Rational buying motive",
+          "Behavioral segment"
+        ],
+        "answer": 2,
+        "explanation": "Choosing based on objective test data is a rational motive. Although safety can involve feelings, the decision here rests on logical evidence, not status."
+      },
+      {
+        "stem": "Which segment would be a POOR target market?",
+        "choices": [
+          "A large group that is reachable through social media",
+          "A segment too small to cover the cost of serving it",
+          "A group that responds differently from others",
+          "A growing group with money to spend"
+        ],
+        "answer": 1,
+        "explanation": "A target must be large enough to be profitable. The other choices describe reachable, distinct or growing segments, which are signs of good targets."
+      },
+      {
+        "stem": "A store brand advertises that it offers the same quality as name brands for 30 percent less. This is an example of:",
+        "choices": [
+          "Segmentation",
+          "Mass marketing",
+          "Problem recognition",
+          "Positioning"
+        ],
+        "answer": 3,
+        "explanation": "Defining how customers should see the product relative to competitors is positioning. Segmentation divides the market but does not create the comparison message."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Market segmentation",
+        "definition": "Dividing a market into groups of buyers with similar characteristics."
+      },
+      {
+        "term": "Target market",
+        "definition": "The specific group of customers a business chooses to serve."
+      },
+      {
+        "term": "Psychographic segmentation",
+        "definition": "Grouping buyers by lifestyles, values, attitudes and interests."
+      },
+      {
+        "term": "Positioning",
+        "definition": "Shaping how the target market views a product compared with competitors."
+      },
+      {
+        "term": "Cognitive dissonance",
+        "definition": "Post-purchase doubt about whether a buying decision was right; buyer's remorse."
+      }
+    ]
+  }
+]

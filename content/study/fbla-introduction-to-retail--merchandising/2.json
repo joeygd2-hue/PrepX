@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Merchandise Planning, Pricing Math, and Inventory Control",
+    "objective": "Calculate markup, markdown, and inventory turnover, and use assortment and inventory-control methods to plan merchandise that meets customer demand.",
+    "body": "**Merchandising** means having the right product, in the right quantity, at the right place, at the right time, at the right price. Buyers turn that idea into numbers.\n\n**Assortment planning.** An **assortment** is the full range of merchandise a store carries. **Breadth** (or width) is the number of different product lines or categories; **depth** is the number of choices within a line, such as sizes, colors, and styles. A convenience store is broad and shallow; a shoe specialty store is narrow and deep. Buyers also classify goods as **staple** merchandise, which sells steadily year round, or **fashion** and **seasonal** merchandise, which sells in short, predictable windows.\n\n**Markup.** **Markup** is the amount added to cost to reach the retail price: Retail = Cost + Markup. Markup percentage can be stated two ways, and the base matters.\n- Markup on retail = Markup / Retail price.\n- Markup on cost = Markup / Cost.\n\nA sweater costing $30 and priced at $50 has a $20 markup: 40% on retail but about 66.7% on cost. Retailers usually quote markup on retail because sales, budgets, and gross margin are reported in retail dollars. To set a price from a target markup on retail, divide cost by (1 minus the markup percentage): $30 / (1 - 0.40) = $50.\n\n**Markdown.** A **markdown** is a reduction from the original retail price, used to clear slow, damaged, or end-of-season goods. Markdown percentage = Markdown / Original retail price. A $50 sweater reduced to $35 has a $15 markdown, or 30%.\n\n**Inventory control.** Too much stock ties up cash and leads to markdowns; too little causes **stockouts** and lost sales.\n- A **perpetual inventory system** updates stock levels with every sale and receipt, usually through point-of-sale (POS) scanning.\n- A **periodic inventory system** counts stock physically at set intervals.\n- **Inventory turnover** = Net sales / Average inventory at retail (or cost of goods sold / average inventory at cost). Higher turnover generally means fresher stock and less money tied up.\n- A **reorder point** is the stock level that triggers a new order: average daily sales times lead time, plus safety stock.\n\nEven perpetual systems need periodic physical counts to detect **shrinkage**, the loss of inventory from theft, damage, and recording errors.\n\n**Common mistake.** The most frequent error is mixing up the base for a percentage. Markup on retail divides by the selling price, markup on cost divides by cost, and markdown percentage divides by the original retail price, not the sale price. Always write the formula before plugging in numbers.",
+    "examples": [
+      "A buyer pays $12 for a phone case and wants a 60% markup on retail, so the price is $12 / 0.40 = $30.",
+      "A store with $600,000 in annual net sales and average retail inventory of $150,000 has an inventory turnover of 4, meaning it sells through its average stock four times a year."
+    ],
+    "questions": [
+      {
+        "stem": "A backpack costs the retailer $24 and sells for $40. What is the markup percentage on retail?",
+        "choices": [
+          "60%",
+          "66.7%",
+          "16%",
+          "40%"
+        ],
+        "answer": 3,
+        "explanation": "Markup is $16; $16 / $40 retail = 40%. 66.7% is the markup on cost ($16 / $24), which uses the wrong base."
+      },
+      {
+        "stem": "A buyer wants a 50% markup on retail for a lamp that costs $45. What retail price should be set?",
+        "choices": [
+          "$67.50",
+          "$90.00",
+          "$95.00",
+          "$22.50"
+        ],
+        "answer": 1,
+        "explanation": "Retail = Cost / (1 - 0.50) = $90. Adding 50% of cost gives $67.50, which is a 50% markup on cost, only 33% on retail."
+      },
+      {
+        "stem": "A jacket originally priced at $80 is marked down to $60. What is the markdown percentage?",
+        "choices": [
+          "25%",
+          "33.3%",
+          "20%",
+          "75%"
+        ],
+        "answer": 0,
+        "explanation": "Markdown is $20 divided by the original $80 = 25%. Dividing by the sale price ($60) gives 33.3%, a common base error."
+      },
+      {
+        "stem": "A grocery store stocks 40 categories with few brands in each, while a nearby cheese shop sells only cheese but offers 200 kinds. Which statement is accurate?",
+        "choices": [
+          "The grocery store has a narrow, deep assortment",
+          "The cheese shop has a broad, shallow assortment",
+          "The grocery store is broad and the cheese shop is deep",
+          "Both have the same assortment strategy"
+        ],
+        "answer": 2,
+        "explanation": "Breadth is the number of categories; depth is choices within a category. The cheese shop has one category with many choices, so it is narrow and deep, not broad."
+      },
+      {
+        "stem": "A store sells an average of 8 units of a printer ink per day, lead time is 5 days, and safety stock is 10 units. What is the reorder point?",
+        "choices": [
+          "40 units",
+          "18 units",
+          "13 units",
+          "50 units"
+        ],
+        "answer": 3,
+        "explanation": "Reorder point = 8 x 5 + 10 = 50. 40 units ignores safety stock and would risk a stockout if demand rises."
+      },
+      {
+        "stem": "Every time a cashier scans an item, the store's system lowers that item's on-hand count. What system is this?",
+        "choices": [
+          "Perpetual inventory",
+          "Periodic inventory",
+          "Physical count",
+          "Consignment inventory"
+        ],
+        "answer": 0,
+        "explanation": "A perpetual system updates continuously with each transaction. A periodic system relies on counts at set intervals rather than real-time updates."
+      },
+      {
+        "stem": "A store's records show 500 units of a candle, but a physical count finds 470. The 30-unit gap is best described as:",
+        "choices": [
+          "Markdown",
+          "Turnover",
+          "Shrinkage",
+          "Safety stock"
+        ],
+        "answer": 2,
+        "explanation": "Shrinkage is inventory lost to theft, damage, or errors, found when records exceed actual counts. A markdown is a price cut, not a missing unit."
+      },
+      {
+        "stem": "Store A has turnover of 2 and Store B has turnover of 6 in the same category. What is the most likely implication?",
+        "choices": [
+          "Store A sells its stock faster",
+          "Store B keeps less money tied up in inventory relative to sales",
+          "Store B has more shrinkage",
+          "Store A has lower markdown risk"
+        ],
+        "answer": 1,
+        "explanation": "Higher turnover means stock sells through more often, so less capital sits on shelves. Store A, with low turnover, actually faces higher markdown risk from aging stock."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Markup",
+        "definition": "The amount added to an item's cost to set its retail price; usually expressed as a percentage of retail."
+      },
+      {
+        "term": "Markdown",
+        "definition": "A reduction from an item's original retail price, with percentage calculated on the original price."
+      },
+      {
+        "term": "Assortment depth",
+        "definition": "The number of choices, such as sizes, colors, and styles, offered within one product line."
+      },
+      {
+        "term": "Inventory turnover",
+        "definition": "The number of times average inventory is sold during a period, found by dividing net sales by average retail inventory."
+      },
+      {
+        "term": "Shrinkage",
+        "definition": "Inventory loss from theft, damage, and recording errors, revealed when physical counts fall below recorded levels."
+      }
+    ]
+  }
+]

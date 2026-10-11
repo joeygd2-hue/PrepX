@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Resolving complaints, service recovery, and measuring satisfaction",
+    "objective": "Resolve difficult complaints with a structured recovery process, decide when to escalate, and evaluate service performance with common satisfaction metrics.",
+    "body": "Complaints are not just problems; they are information and an opportunity. Customers who complain are giving the business a chance to fix things, while many unhappy customers simply leave without saying a word. Handled well, a complaint can produce a customer more loyal than one who never had a problem, an effect called the **service recovery paradox**.\n\n**A complaint resolution process.** Many businesses use a sequence similar to this:\n1. Listen without interrupting and let the customer finish.\n2. Acknowledge feelings and apologize for the experience, without arguing about blame.\n3. Gather facts with questions and confirm them.\n4. Offer a solution, ideally giving the customer a choice.\n5. Follow through and follow up to confirm the fix worked.\n\n**Service recovery** is the complete effort to fix a failure and restore the customer's trust. Recovery is strongest when it is fast and when front-line employees are **empowered**, meaning they have the authority to solve common problems without waiting for a manager. Empowerment usually has limits, such as a set dollar amount for refunds.\n\n**Difficult customers.** Stay calm, keep your voice low and even, and never take anger personally. Focus on the problem, not the person. If a customer becomes abusive or threatening, employee safety comes first: set a calm boundary and follow company procedures for involving a supervisor or security.\n\n**Escalation.** **Escalation** is passing an issue to someone with more authority or expertise. Escalate when the request is beyond your authority, when policy or legal questions arise, or when the customer asks for a supervisor after reasonable attempts. Do it smoothly: explain why, share the details so the customer does not have to repeat them, and stay involved if you can.\n\n**Measuring service.** Businesses track results with metrics such as:\n- **Customer Satisfaction Score (CSAT):** the share of customers rating an interaction satisfied, often 4 or 5 on a 5-point scale.\n- **Net Promoter Score (NPS):** customers rate how likely they are to recommend the business from 0 to 10; the percentage of detractors (0-6) is subtracted from the percentage of promoters (9-10). Scores range from -100 to +100.\n- **Customer Effort Score (CES):** how easy it was to get the issue resolved.\n- **First contact resolution:** the share of issues solved in the first interaction.\n\nFor example, if 60% of respondents are promoters, 25% are passives, and 15% are detractors, the NPS is 60 - 15 = 45.\n\nThe most common mistake students make on NPS questions is including passives (7-8) in the calculation or reporting NPS as a percentage of all responses. Passives count in the total number of respondents but are neither added nor subtracted.",
+    "examples": [
+      "A restaurant server whose kitchen sends out a cold meal is empowered to replace it and remove a dessert charge without calling the manager, turning a failure into a positive memory.",
+      "A software company surveys 200 users: 110 promoters, 50 passives, and 40 detractors, so its NPS is 55% - 20% = 35."
+    ],
+    "questions": [
+      {
+        "stem": "An angry customer starts explaining a billing problem. What should the representative do first?",
+        "choices": [
+          "Explain the company's billing policy",
+          "Listen without interrupting until the customer finishes",
+          "Offer a refund immediately",
+          "Transfer the call to a supervisor"
+        ],
+        "answer": 1,
+        "explanation": "Listening first lets the customer feel heard and reveals the real issue. Offering a refund immediately may solve the wrong problem before the facts are known."
+      },
+      {
+        "stem": "A survey of 100 customers finds 50 promoters, 30 passives, and 20 detractors. What is the NPS?",
+        "choices": [
+          "30",
+          "50",
+          "80",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "NPS = 50% promoters - 20% detractors = 30. Passives are not subtracted or added, so answering 50 ignores the detractors."
+      },
+      {
+        "stem": "A hotel lets front-desk staff issue up to $100 in credits without manager approval. This is an example of:",
+        "choices": [
+          "escalation",
+          "employee empowerment",
+          "upselling",
+          "a loyalty program"
+        ],
+        "answer": 1,
+        "explanation": "Giving front-line staff authority to solve problems is empowerment. Escalation would mean sending the issue to a higher authority, the opposite of what the policy does."
+      },
+      {
+        "stem": "After a delayed flight, an airline rebooks a traveler quickly, apologizes, and adds a meal voucher. The traveler later books with the airline more often than before. This illustrates the:",
+        "choices": [
+          "service recovery paradox",
+          "moment of truth fallacy",
+          "customer effort score",
+          "first contact resolution rate"
+        ],
+        "answer": 0,
+        "explanation": "Strong recovery producing greater loyalty than before is the service recovery paradox. First contact resolution measures solving issues in one interaction, not changed loyalty."
+      },
+      {
+        "stem": "A customer asks a cashier for a contract exception that only a manager can approve. The best action is to:",
+        "choices": [
+          "refuse the request",
+          "approve it to keep the customer happy",
+          "explain that a manager can help, brief the manager, and introduce the customer",
+          "tell the customer to email the company"
+        ],
+        "answer": 2,
+        "explanation": "This is a proper escalation that avoids making the customer repeat the story. Approving it oversteps the cashier's authority."
+      },
+      {
+        "stem": "A customer begins shouting threats at an employee. The employee's priority should be to:",
+        "choices": [
+          "shout back to show confidence",
+          "give whatever the customer demands",
+          "stay calm, set a boundary, and follow procedures to involve a supervisor or security",
+          "walk away without saying anything"
+        ],
+        "answer": 2,
+        "explanation": "Safety and calm procedure come first with threatening behavior. Giving in to any demand rewards abuse and may break policy."
+      },
+      {
+        "stem": "A help desk wants to know how often problems are solved on the first call. Which metric fits best?",
+        "choices": [
+          "Net Promoter Score",
+          "First contact resolution",
+          "Customer lifetime value",
+          "CSAT"
+        ],
+        "answer": 1,
+        "explanation": "First contact resolution directly measures issues solved in one interaction. CSAT measures satisfaction, which is related but not the same thing."
+      },
+      {
+        "stem": "Which survey question measures Customer Effort Score?",
+        "choices": [
+          "How likely are you to recommend us to a friend?",
+          "How easy was it to get your issue resolved today?",
+          "How many times have you shopped here this year?",
+          "Which product did you buy?"
+        ],
+        "answer": 1,
+        "explanation": "CES asks how easy the resolution was. The recommendation question measures NPS, not effort."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Service recovery",
+        "definition": "The complete effort to fix a service failure and restore the customer's trust."
+      },
+      {
+        "term": "Empowerment",
+        "definition": "Giving front-line employees authority to solve customer problems without waiting for approval."
+      },
+      {
+        "term": "Escalation",
+        "definition": "Passing an issue to someone with more authority or expertise."
+      },
+      {
+        "term": "Net Promoter Score",
+        "definition": "Percentage of promoters (9-10) minus percentage of detractors (0-6) on a likelihood-to-recommend scale."
+      },
+      {
+        "term": "Service recovery paradox",
+        "definition": "When excellent recovery makes a customer more loyal than if no problem had occurred."
+      }
+    ]
+  }
+]

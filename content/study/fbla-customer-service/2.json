@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Communication skills for handling customer interactions",
+    "objective": "Apply active listening, empathy, and clear verbal, nonverbal, phone, and written communication to resolve everyday customer requests.",
+    "body": "Most service problems are really communication problems. A customer who feels heard will forgive a lot; a customer who feels ignored will remember it. This unit covers the skills you use in every interaction.\n\n**Active listening.** **Active listening** means fully concentrating on the customer, understanding the message, and showing that you understood. It includes:\n- giving full attention and avoiding interruptions\n- asking **open-ended questions** (\"What happened when you tried to log in?\") to gather details, and **closed-ended questions** (\"Was that order number 4471?\") to confirm facts\n- **paraphrasing**, or restating the customer's point in your own words to confirm accuracy\n\n**Empathy versus sympathy.** **Empathy** is understanding and acknowledging how the customer feels (\"I can see why that would be frustrating when you needed it for today\"). Sympathy is feeling sorry for someone, and it can sound distant or scripted. Empathy keeps the focus on the customer and moves toward a solution.\n\n**Positive language.** Tell customers what you can do, not what you cannot. \"I can have that ready Thursday\" works better than \"We can't do it before Thursday.\" Avoid jargon and internal codes the customer will not understand.\n\n**Nonverbal communication.** Eye contact, an open posture, facial expression, and tone of voice often carry more meaning than words. Crossed arms or looking at a phone while a customer speaks signal that you do not care, no matter what you say.\n\n**Telephone etiquette.** On the phone, tone is everything because the customer cannot see you. Answer promptly with a greeting, your name, and the business name. Before placing someone on hold, ask permission and explain why; check back regularly. When transferring, explain the reason and, when possible, brief the next person so the customer does not repeat the story.\n\n**Written and digital communication.** Emails, chats, and social media replies should be clear, courteous, and proofread. Respond within the time your business promises. On public channels, acknowledge the issue publicly, then move personal details to a private message to protect privacy.\n\n**Closing the interaction.** Summarize what will happen next, confirm the customer is satisfied, and thank them. A clear close prevents repeat calls.\n\nThe most common mistake students make is choosing answers where the employee jumps straight to a solution. On scenario questions, the strongest response usually listens and acknowledges feelings first, then confirms the facts, and only then offers a solution.",
+    "examples": [
+      "A call center agent says, \"So the charger stopped working after two days, and you need it before your trip Friday, is that right?\" This paraphrase confirms facts before solving.",
+      "Instead of \"That's not my department,\" a clerk says, \"Let me walk you to someone in electronics who can help with that.\""
+    ],
+    "questions": [
+      {
+        "stem": "A customer says, \"My order came, but it's not what I ordered.\" Which is the best open-ended question to start?",
+        "choices": [
+          "Is this your order number?",
+          "Can you tell me what you received and what you were expecting?",
+          "Did you order online?",
+          "Do you want a refund?"
+        ],
+        "answer": 1,
+        "explanation": "Open-ended questions invite detail and reveal the real problem. The order-number question is closed-ended and useful later for confirming facts."
+      },
+      {
+        "stem": "Which statement best shows empathy?",
+        "choices": [
+          "I'm sorry you feel that way.",
+          "That's our policy.",
+          "I understand how frustrating it is to wait when you planned around this delivery.",
+          "Those things happen sometimes."
+        ],
+        "answer": 2,
+        "explanation": "Empathy names and validates the customer's specific feeling. \"I'm sorry you feel that way\" sounds dismissive because it blames the feeling rather than acknowledging the situation."
+      },
+      {
+        "stem": "An employee needs to check inventory during a phone call. What should the employee do first?",
+        "choices": [
+          "Put the caller on hold immediately",
+          "Ask whether the caller can hold and explain the reason",
+          "Transfer the caller to another department",
+          "Ask the caller to call back later"
+        ],
+        "answer": 1,
+        "explanation": "Asking permission and explaining why respects the caller. Placing someone on hold without asking feels abrupt even if the wait is short."
+      },
+      {
+        "stem": "Which response uses positive language?",
+        "choices": [
+          "We can't ship until next week.",
+          "I can ship that out Monday morning for you.",
+          "That's impossible this week.",
+          "You'll have to wait."
+        ],
+        "answer": 1,
+        "explanation": "Positive language states what can be done. \"We can't ship until next week\" gives the same information but focuses on the limitation."
+      },
+      {
+        "stem": "A customer complains publicly on a store's social media page about a billing error. The best first step is to:",
+        "choices": [
+          "delete the comment",
+          "post the customer's account details to explain the charge",
+          "acknowledge the issue publicly and invite the customer to a private message",
+          "ignore it to avoid attention"
+        ],
+        "answer": 2,
+        "explanation": "Acknowledging publicly shows responsiveness while moving details private protects privacy. Posting account details publicly violates the customer's privacy."
+      },
+      {
+        "stem": "While a customer explains a problem, an associate keeps glancing at his phone. The main issue is:",
+        "choices": [
+          "poor product knowledge",
+          "negative nonverbal communication",
+          "incorrect paraphrasing",
+          "use of jargon"
+        ],
+        "answer": 1,
+        "explanation": "Glancing at a phone signals disinterest nonverbally. No jargon is being used, so that distractor does not fit."
+      },
+      {
+        "stem": "Restating \"So you were charged twice for the same subscription this month?\" is an example of:",
+        "choices": [
+          "paraphrasing",
+          "upselling",
+          "escalating",
+          "scripting"
+        ],
+        "answer": 0,
+        "explanation": "Paraphrasing restates the customer's message to confirm understanding. Escalating means passing the issue to a higher level, which has not happened."
+      },
+      {
+        "stem": "Before ending a support chat, which action best prevents a repeat contact?",
+        "choices": [
+          "Closing the chat as soon as a solution is sent",
+          "Summarizing next steps and confirming the customer is satisfied",
+          "Sending a survey link only",
+          "Asking the customer to rate the agent"
+        ],
+        "answer": 1,
+        "explanation": "A summary and confirmation make sure the issue is truly resolved. Closing quickly may leave confusion that brings the customer back."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Active listening",
+        "definition": "Fully concentrating on, understanding, and showing understanding of what a customer says."
+      },
+      {
+        "term": "Paraphrasing",
+        "definition": "Restating a customer's message in your own words to confirm accuracy."
+      },
+      {
+        "term": "Empathy",
+        "definition": "Understanding and acknowledging how a customer feels about the situation."
+      },
+      {
+        "term": "Positive language",
+        "definition": "Wording that tells customers what can be done rather than what cannot."
+      },
+      {
+        "term": "Open-ended question",
+        "definition": "A question that invites a detailed answer rather than yes or no."
+      }
+    ]
+  }
+]

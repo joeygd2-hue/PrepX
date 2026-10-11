@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Applying leadership through communication, teams and ethics",
+    "objective": "Apply communication, team development, decision-making and ethical reasoning to realistic workplace and chapter situations.",
+    "body": "Once you know the vocabulary, the next step is using it. Future Business Leader scenarios usually ask what a leader should do next, so practice turning concepts into actions.\n\n**Communication** is the leader's main tool. Effective messages are clear, concise and matched to the audience and channel. **Active listening** means giving full attention, paraphrasing what you heard and asking clarifying questions before responding. Feedback works best when it is specific, timely and focused on behavior rather than personality.\n\n**Team development** often follows Tuckman's stages:\n1. **Forming**: members are polite and unsure of roles.\n2. **Storming**: conflict appears as people push ideas and test boundaries.\n3. **Norming**: the group agrees on roles and ways of working.\n4. **Performing**: the team works smoothly toward goals.\n5. **Adjourning**: the project ends and the team disbands.\nKnowing the stage helps a leader respond; storming is normal, not a sign of failure.\n\n**Conflict resolution** styles include avoiding, accommodating, competing, compromising and **collaborating**. Collaboration seeks a solution that fully satisfies both sides; it takes the most time but produces the strongest commitment on important issues.\n\n**Decision-making** follows a logical process: define the problem, gather information, identify alternatives, evaluate them, choose, implement, and evaluate results. Groups should watch for **groupthink**, when the desire for harmony silences dissent and leads to poor choices.\n\n**Motivation** theories help explain behavior. Maslow's hierarchy places physiological and safety needs below social, esteem and self-actualization needs. Herzberg separated **hygiene factors** (pay, conditions), whose absence causes dissatisfaction, from **motivators** (recognition, achievement, growth), which create satisfaction.\n\n**Ethics** guide choices when rules are unclear. A useful test asks whether the action is legal, whether it is fair to all stakeholders, and whether you would be comfortable if it were made public. **Stakeholders** include anyone affected by a decision: employees, customers, owners, suppliers and the community. Meetings in student organizations typically run on **parliamentary procedure**, commonly guided by Robert's Rules of Order, where a member makes a motion, another seconds it, the group debates, and then votes.\n\nThe most common mistake students make is picking the 'nicest' answer instead of the most effective one, such as avoiding conflict to keep the peace when the scenario clearly requires a leader to address it directly.",
+    "examples": [
+      "A project team that argued about roles for two weeks finally writes a shared task list and meeting schedule, moving from storming to norming.",
+      "A manager raises pay to fix complaints about low wages, which reduces dissatisfaction but does not by itself make employees more motivated, as Herzberg predicts."
+    ],
+    "questions": [
+      {
+        "stem": "Two committee members argue repeatedly over who leads the marketing plan during the first month of a project. Which stage is the team in?",
+        "choices": [
+          "Forming",
+          "Storming",
+          "Norming",
+          "Adjourning"
+        ],
+        "answer": 1,
+        "explanation": "Open conflict over roles and ideas marks storming. Forming comes earlier, when members are still polite and uncertain."
+      },
+      {
+        "stem": "A leader wants a solution that fully meets the needs of two departments on a high-stakes issue. Which conflict style fits?",
+        "choices": [
+          "Avoiding",
+          "Accommodating",
+          "Collaborating",
+          "Compromising"
+        ],
+        "answer": 2,
+        "explanation": "Collaborating aims for a win-win that satisfies both sides. Compromising has each side give something up, so neither is fully satisfied."
+      },
+      {
+        "stem": "A committee agrees quickly on a risky plan because no one wants to challenge the popular chair. This is an example of:",
+        "choices": [
+          "Groupthink",
+          "Synergy",
+          "Delegation",
+          "Brainstorming"
+        ],
+        "answer": 0,
+        "explanation": "Suppressing dissent to keep harmony is groupthink. Synergy refers to a group producing more than individuals could, which is not what happened."
+      },
+      {
+        "stem": "Which action best demonstrates active listening when a member raises a concern?",
+        "choices": [
+          "Preparing your reply while they talk",
+          "Paraphrasing their point and asking a clarifying question",
+          "Offering a solution immediately",
+          "Checking messages to save time"
+        ],
+        "answer": 1,
+        "explanation": "Paraphrasing and clarifying confirm understanding, which defines active listening. Jumping to a solution skips confirming the actual problem."
+      },
+      {
+        "stem": "Employees have fair pay and safe conditions but still feel unmotivated. According to Herzberg, what should a manager add?",
+        "choices": [
+          "Higher base salary",
+          "Better parking",
+          "Recognition and growth opportunities",
+          "Stricter supervision"
+        ],
+        "answer": 2,
+        "explanation": "Herzberg's motivators, such as recognition and growth, create satisfaction. Pay is a hygiene factor that prevents dissatisfaction but does not motivate on its own."
+      },
+      {
+        "stem": "At a chapter meeting, a member says 'I move that we hold a car wash on May 3.' What normally happens next under parliamentary procedure?",
+        "choices": [
+          "The chair calls the vote immediately",
+          "Another member seconds the motion",
+          "The motion is tabled automatically",
+          "The secretary approves it"
+        ],
+        "answer": 1,
+        "explanation": "A motion generally needs a second before debate and voting. Calling the vote immediately skips the second and debate steps."
+      },
+      {
+        "stem": "A supplier offers the chapter treasurer a personal gift card for choosing its fundraiser products. What is the best response?",
+        "choices": [
+          "Accept it since it is small",
+          "Decline and disclose the offer to the advisor",
+          "Accept but split it with officers",
+          "Ignore it and choose a different supplier quietly"
+        ],
+        "answer": 1,
+        "explanation": "Declining and disclosing protects the chapter from a conflict of interest and keeps decisions transparent. Quietly switching suppliers avoids the gift but hides a relevant ethical issue from leadership."
+      },
+      {
+        "stem": "A team has a recurring drop in volunteer turnout. What is the first step in a logical decision-making process?",
+        "choices": [
+          "Choose a reward program",
+          "Define the problem clearly",
+          "Survey other chapters",
+          "Implement a new schedule"
+        ],
+        "answer": 1,
+        "explanation": "Defining the problem comes first so solutions target the true cause. Choosing a reward program jumps to a solution before the cause is known."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Active listening",
+        "definition": "Giving full attention, paraphrasing and asking clarifying questions before responding."
+      },
+      {
+        "term": "Storming",
+        "definition": "The team stage in which conflict appears as members push ideas and test roles."
+      },
+      {
+        "term": "Groupthink",
+        "definition": "Poor group decision-making caused by the desire for harmony silencing dissent."
+      },
+      {
+        "term": "Hygiene factors",
+        "definition": "In Herzberg's theory, factors like pay and conditions whose absence causes dissatisfaction."
+      },
+      {
+        "term": "Stakeholders",
+        "definition": "Anyone affected by a decision, such as employees, customers, owners, suppliers and the community."
+      }
+    ]
+  }
+]

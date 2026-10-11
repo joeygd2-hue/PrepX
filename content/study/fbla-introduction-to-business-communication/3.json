@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Persuasion, presentations, and professional digital communication",
+    "objective": "Construct persuasive messages, deliver effective oral presentations, and evaluate the ethics and professionalism of digital and intercultural communication.",
+    "body": "Advanced business communication goes beyond informing readers. It asks them to act, it happens in front of live audiences, and it often travels across cultures and permanent digital records.\n\n**Persuasive messages.** Sales letters, proposals and requests for favors often follow the **AIDA** model:\n1. *Attention*: open with a question, surprising fact or benefit.\n2. *Interest*: explain how the idea relates to the reader.\n3. *Desire*: offer evidence, such as data, testimonials or demonstrations.\n4. *Action*: state exactly what to do next and make it easy, with a deadline or link.\n\nPersuasion also draws on three classic appeals: **ethos** (the speaker's credibility), **pathos** (emotion) and **logos** (logic and evidence). Strong business persuasion leans on logos and ethos and uses pathos carefully. Anticipating objections and answering them before the reader raises them makes a message more convincing.\n\n**Oral presentations.** Plan around the audience and a single purpose. Organize with an introduction that previews the main points, a body of two to four points, and a conclusion that summarizes and calls for action. Visual aids should support, not replace, the speaker: limit text on slides, use readable fonts and avoid reading slides aloud. Delivery includes **nonverbal communication**, such as eye contact, posture, gestures and vocal variety. When words and body language conflict, listeners tend to believe the nonverbal signals.\n\n**Listening.** **Active listening** means giving full attention, asking clarifying questions and paraphrasing what you heard. It differs from passive hearing, where sound is received but not processed.\n\n**Intercultural communication.** Cultures differ in how much meaning comes from words versus context. In **low-context cultures**, such as the United States and Germany, people expect direct, explicit messages. In **high-context cultures**, such as Japan and many Middle Eastern countries, meaning often depends on relationships, tone and setting. Avoid idioms, slang and humor that may not translate, and learn the norms for greetings, time and formality.\n\n**Digital professionalism and ethics.** Emails, chat messages and social media posts create a permanent record and can be forwarded or subpoenaed. Use **netiquette**: professional tone, no all caps, prompt replies and careful use of Reply All. Never share confidential customer or company information, and represent facts honestly. Ethical communication avoids exaggeration, hidden conditions and misleading statistics, even when the goal is to persuade.\n\nThe most common mistake students make is treating persuasion as pressure. Questions often include an option that relies on exaggeration or emotional manipulation; the better answer almost always provides honest evidence, addresses the reader's needs and ends with a clear, specific call to action.",
+    "examples": [
+      "A student council fundraising letter opens with \"Did you know 40 students skipped the field trip because of cost?\", shows a budget, shares a past participant's comment, and asks readers to donate through a link by May 1, following AIDA.",
+      "A presenter preparing for clients in Japan plans extra time for relationship building and avoids pushing for an immediate yes, recognizing a high-context culture.",
+      "An employee who disagrees with a decision speaks to his manager privately instead of hitting Reply All on a company-wide email, practicing netiquette."
+    ],
+    "questions": [
+      {
+        "stem": "A sales email ends with \"Order by Friday at this link to get free shipping.\" Which AIDA step is this?",
+        "choices": [
+          "Attention",
+          "Interest",
+          "Desire",
+          "Action"
+        ],
+        "answer": 3,
+        "explanation": "A specific instruction with a deadline is the Action step. Desire is building want through evidence, which comes before the request."
+      },
+      {
+        "stem": "A proposal cites a survey showing 72% of customers want online scheduling. Which persuasive appeal is it using most?",
+        "choices": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "Netiquette"
+        ],
+        "answer": 2,
+        "explanation": "Statistics and evidence are logical appeals, or logos. Ethos relies on the speaker's credibility rather than data."
+      },
+      {
+        "stem": "During a presentation, Kevin says he is excited about the project while slouching, looking at the floor and speaking in a monotone. How will the audience most likely interpret his message?",
+        "choices": [
+          "They will believe his words",
+          "They will trust the nonverbal signals and doubt his enthusiasm",
+          "They will ignore both",
+          "They will focus only on his slides"
+        ],
+        "answer": 1,
+        "explanation": "When verbal and nonverbal messages conflict, audiences tend to believe the nonverbal ones. Assuming they believe his words ignores how strongly body language affects interpretation."
+      },
+      {
+        "stem": "Which practice best demonstrates active listening in a meeting?",
+        "choices": [
+          "Planning your reply while the other person talks",
+          "Checking messages to stay efficient",
+          "Paraphrasing the speaker's point and asking a clarifying question",
+          "Nodding without commenting"
+        ],
+        "answer": 2,
+        "explanation": "Paraphrasing and asking questions show full attention and confirm understanding. Nodding alone may be passive hearing and does not verify meaning."
+      },
+      {
+        "stem": "A U.S. manager is negotiating with a partner from a high-context culture. Which approach is most appropriate?",
+        "choices": [
+          "Skip small talk and push for an immediate decision",
+          "Invest time in building the relationship and pay attention to indirect cues",
+          "Use American sports idioms to build rapport",
+          "Put all disagreements in a blunt group email"
+        ],
+        "answer": 1,
+        "explanation": "High-context cultures rely on relationships and context, so relationship building and attention to subtle cues matter. Pushing for an immediate decision reflects low-context norms that may offend."
+      },
+      {
+        "stem": "An employee is annoyed by a company-wide email about a policy change. What is the most professional response?",
+        "choices": [
+          "Reply All with his objections",
+          "Post a complaint on social media",
+          "Contact the sender or his manager privately",
+          "Reply in all capital letters to show urgency"
+        ],
+        "answer": 2,
+        "explanation": "Private, direct communication follows netiquette and keeps disagreements professional. Reply All spreads a complaint to everyone and can damage his reputation."
+      },
+      {
+        "stem": "A presenter's slides contain full paragraphs that she reads word for word. What is the best advice?",
+        "choices": [
+          "Add more text so nothing is missed",
+          "Use brief key points and speak to the audience",
+          "Turn off the slides and read from notes",
+          "Use smaller fonts to fit everything"
+        ],
+        "answer": 1,
+        "explanation": "Visual aids should support the speaker with brief points while the speaker engages the audience. Adding more text worsens the problem of reading instead of presenting."
+      },
+      {
+        "stem": "A marketing flyer claims a product is \"clinically proven\" when no study exists. What is the main problem?",
+        "choices": [
+          "It lacks a call to action",
+          "It is unethical because it misrepresents facts",
+          "It uses the indirect approach",
+          "It is too concise"
+        ],
+        "answer": 1,
+        "explanation": "Ethical persuasion must be truthful; inventing evidence is misleading and can create legal liability. A missing call to action would be a weakness, but it is not the problem here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "AIDA",
+        "definition": "A persuasive structure: Attention, Interest, Desire, Action."
+      },
+      {
+        "term": "Logos",
+        "definition": "A persuasive appeal based on logic, data and evidence."
+      },
+      {
+        "term": "Active listening",
+        "definition": "Giving full attention, asking clarifying questions and paraphrasing to confirm understanding."
+      },
+      {
+        "term": "High-context culture",
+        "definition": "A culture in which meaning depends heavily on relationships, tone and setting rather than explicit words."
+      },
+      {
+        "term": "Netiquette",
+        "definition": "Professional etiquette for digital communication, such as clear tone, no all caps and careful use of Reply All."
+      }
+    ]
+  }
+]

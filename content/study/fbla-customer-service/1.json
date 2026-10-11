@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of customer service and customer expectations",
+    "objective": "Define customer service, distinguish internal from external customers, and explain how expectations, perception, and loyalty drive business results.",
+    "body": "Customer service is every interaction a business has with the people it serves, before, during, and after a purchase. It is not a department; it is the experience a customer remembers. Strong service turns one-time buyers into repeat customers, and repeat customers are far cheaper to keep than new customers are to attract.\n\n**Internal and external customers.** An **external customer** buys or uses the organization's products. An **internal customer** is a coworker or department that depends on your work to serve others. When the warehouse ships late to the sales team, the sales team (an internal customer) cannot keep its promise to the shopper (an external customer). Good service starts inside the building.\n\n**Expectations and perception.** Customers judge service by comparing what they expected with what they experienced. If the experience meets or beats expectations, they are satisfied; if it falls short, they are not, even when the business followed its own rules. That is why perception matters as much as facts. Expectations come from:\n- past experiences with the business or its competitors\n- advertising and promises made by employees\n- word of mouth and online reviews\n- the price paid\n\nA useful habit is to **underpromise and overdeliver**: set realistic expectations, then exceed them. Promising delivery in three days and arriving in two creates delight; promising one day and arriving in two creates a complaint, even though the delivery time was identical.\n\n**Moments of truth.** Every point at which a customer forms an impression, such as a greeting, a hold time, a receipt, or a return, is a **moment of truth**. A business can do ninety things right and lose the customer on one careless moment.\n\n**Loyalty and lifetime value.** **Customer loyalty** is a customer's commitment to keep choosing a business. Loyal customers buy more over time and recommend the business to others. **Customer lifetime value** estimates the total revenue a customer brings over the whole relationship, which is why giving up a small refund to save a relationship is often a smart financial choice.\n\n**Service qualities.** Customers consistently value reliability (doing what you said), responsiveness (prompt help), assurance (knowledge and courtesy that build trust), empathy (individual care), and tangibles (clean, professional facilities and materials).\n\nThe most common mistake students make is treating customer satisfaction as following policy correctly. On test scenarios, the best answer usually focuses on meeting the customer's expectations and preserving the relationship, not just proving the employee was technically right.",
+    "examples": [
+      "A hotel desk clerk who remembers a returning guest's name and room preference creates a positive moment of truth that builds loyalty.",
+      "An IT help desk treats the accounting department as an internal customer, because a slow fix delays payroll for every employee."
+    ],
+    "questions": [
+      {
+        "stem": "A cashier is waiting on a price check from the stockroom employee. In this situation, the cashier is best described as the stockroom employee's:",
+        "choices": [
+          "external customer",
+          "internal customer",
+          "vendor",
+          "competitor"
+        ],
+        "answer": 1,
+        "explanation": "Coworkers who depend on your work are internal customers. The cashier is not an external customer because she is not buying or using the company's products."
+      },
+      {
+        "stem": "A pizza shop promises delivery in 30 minutes and arrives in 40. A rival promises 50 minutes and arrives in 40. Which statement is most accurate?",
+        "choices": [
+          "Both customers will be equally satisfied because delivery times were the same",
+          "The first shop's customer is more likely to be dissatisfied because expectations were not met",
+          "The second shop's customer will be dissatisfied because 40 minutes is slow",
+          "Neither customer's satisfaction depends on the promise"
+        ],
+        "answer": 1,
+        "explanation": "Satisfaction compares experience with expectation, so the missed promise creates disappointment. Identical delivery times do not mean equal satisfaction."
+      },
+      {
+        "stem": "Which approach best describes underpromising and overdelivering?",
+        "choices": [
+          "Quoting a five-day repair and finishing in four",
+          "Quoting a two-day repair to win the job, then taking four",
+          "Refusing to give any time estimate",
+          "Offering a discount on every order"
+        ],
+        "answer": 0,
+        "explanation": "Setting a realistic expectation and beating it is the idea. Quoting an unrealistic time to win business does the opposite and creates complaints."
+      },
+      {
+        "stem": "A shopper has a great experience in a store but receives a rude reply to a follow-up email. The email is an example of a:",
+        "choices": [
+          "service guarantee",
+          "moment of truth",
+          "loyalty program",
+          "internal audit"
+        ],
+        "answer": 1,
+        "explanation": "Any point where a customer forms an impression is a moment of truth. A service guarantee is a formal promise, which the email is not."
+      },
+      {
+        "stem": "A customer who has spent about $2,000 a year at a store for eight years asks for a $15 refund on a damaged item just past the return window. Considering customer lifetime value, the best response is to:",
+        "choices": [
+          "deny it, since policy must always be enforced",
+          "grant the refund or exchange to protect a valuable relationship",
+          "ask the customer to file a written complaint first",
+          "refer the customer to the manufacturer only"
+        ],
+        "answer": 1,
+        "explanation": "The relationship is worth far more than $15, so flexibility is wise. Strictly enforcing policy is technically defensible but risks losing thousands in future sales."
+      },
+      {
+        "stem": "A bank teller explains a loan option clearly and confidently, making the customer trust the advice. Which service quality is most clearly shown?",
+        "choices": [
+          "Tangibles",
+          "Assurance",
+          "Responsiveness",
+          "Reliability"
+        ],
+        "answer": 1,
+        "explanation": "Assurance is knowledge and courtesy that build trust. Responsiveness is about speed of help, which the scenario does not emphasize."
+      },
+      {
+        "stem": "Which source is LEAST likely to shape a first-time customer's expectations of a restaurant?",
+        "choices": [
+          "Online reviews",
+          "A friend's recommendation",
+          "The restaurant's advertising",
+          "The restaurant's internal payroll schedule"
+        ],
+        "answer": 3,
+        "explanation": "Customers never see payroll schedules, so they cannot shape expectations. Reviews, word of mouth, and ads all strongly shape expectations."
+      },
+      {
+        "stem": "A repair shop always finishes jobs on the date it promises. This most directly demonstrates:",
+        "choices": [
+          "empathy",
+          "tangibles",
+          "reliability",
+          "assurance"
+        ],
+        "answer": 2,
+        "explanation": "Reliability means doing what you said you would do. Assurance concerns trust from expertise and courtesy, not keeping deadlines."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Internal customer",
+        "definition": "A coworker or department that depends on your work in order to serve others."
+      },
+      {
+        "term": "Moment of truth",
+        "definition": "Any point of contact at which a customer forms an impression of the business."
+      },
+      {
+        "term": "Customer loyalty",
+        "definition": "A customer's ongoing commitment to keep choosing and recommending a business."
+      },
+      {
+        "term": "Customer lifetime value",
+        "definition": "The estimated total revenue a customer brings over the full relationship with a business."
+      },
+      {
+        "term": "Underpromise and overdeliver",
+        "definition": "Setting realistic expectations and then exceeding them to create satisfaction."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Leadership foundations and core business knowledge",
+    "objective": "Define leadership styles, explain basic business functions and forms of ownership, and apply them to student organization scenarios.",
+    "body": "The Future Business Leader event rewards students who can connect leadership ideas to real business decisions. A typical event combines an objective test with an interview or presentation, so you need both vocabulary and the ability to explain it in your own words. Start by building a strong base in leadership and business fundamentals.\n\n**Leadership** is the ability to influence a group toward shared goals. It is different from **management**, which focuses on planning, organizing, staffing and controlling resources so work gets done efficiently. Good leaders often manage well, but a person can hold a title without leading anyone.\n\n**Leadership styles** describe how a leader makes decisions and involves others:\n- **Autocratic** leaders decide alone. This is fast and useful in emergencies, but it can lower morale if overused.\n- **Democratic (participative)** leaders gather input before deciding, which builds buy-in but takes longer.\n- **Laissez-faire** leaders give the team wide freedom, which works best with experienced, motivated members.\n- **Transformational** leaders inspire people with a vision and develop them to grow beyond their current roles.\n- **Servant** leaders put the needs of the team first and lead by removing obstacles.\n\nNo single style is always best. **Situational leadership** means adjusting style to the task and to the skill and commitment of the people involved.\n\nBusiness knowledge is the second pillar. Every organization performs core **business functions**: production or operations, marketing, finance, and human resources. Businesses also take a legal form. A **sole proprietorship** has one owner with unlimited personal liability. A **partnership** has two or more owners who share profits and, in a general partnership, liability. A **corporation** is a separate legal entity whose owners (shareholders) have **limited liability**. A **limited liability company (LLC)** blends limited liability with flexible management and pass-through taxation.\n\nFinally, understand basic economics: **supply and demand** set prices in a market economy, and **opportunity cost** is the value of the next best alternative given up when you make a choice.\n\nThe most common mistake students make is treating leadership and management as synonyms, or naming a 'best' leadership style without explaining why it fits the situation. Judges and test writers want the fit, not the label.",
+    "examples": [
+      "A chapter president uses a democratic style to choose a fundraiser, then switches to an autocratic style during a fire drill at the event.",
+      "Two friends who start a lawn-care business without filing any paperwork have formed a general partnership and are each personally liable for its debts."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter officer must decide in two minutes whether to move an outdoor event indoors because of lightning. Which style fits best?",
+        "choices": [
+          "Democratic",
+          "Autocratic",
+          "Laissez-faire",
+          "Servant"
+        ],
+        "answer": 1,
+        "explanation": "Urgent safety decisions call for a quick, decisive autocratic approach. Democratic leadership is valuable but too slow when there is immediate danger."
+      },
+      {
+        "stem": "A team of veteran members already knows its tasks well and is highly motivated. Which style is most likely to work?",
+        "choices": [
+          "Laissez-faire",
+          "Autocratic",
+          "Transactional micromanagement",
+          "Coercive"
+        ],
+        "answer": 0,
+        "explanation": "Experienced, motivated teams thrive with autonomy, which is laissez-faire. Autocratic control would likely frustrate capable members."
+      },
+      {
+        "stem": "Which statement best distinguishes leadership from management?",
+        "choices": [
+          "Leadership is about budgets; management is about people",
+          "Leadership influences people toward goals; management plans and controls resources",
+          "They mean the same thing in business",
+          "Management applies only to corporations"
+        ],
+        "answer": 1,
+        "explanation": "Leadership centers on influence and vision, while management centers on planning, organizing and controlling. Treating them as identical ignores that each can exist without the other."
+      },
+      {
+        "stem": "An entrepreneur wants personal assets protected from business debts but prefers simple management and pass-through taxation. Which form fits?",
+        "choices": [
+          "Sole proprietorship",
+          "General partnership",
+          "Limited liability company",
+          "Nonprofit cooperative"
+        ],
+        "answer": 2,
+        "explanation": "An LLC offers limited liability with flexible management and pass-through taxation. A sole proprietorship is simple but leaves the owner personally liable."
+      },
+      {
+        "stem": "A student gives up a paid weekend shift to attend a leadership conference. The lost wages are an example of:",
+        "choices": [
+          "Sunk cost",
+          "Opportunity cost",
+          "Fixed cost",
+          "Marginal revenue"
+        ],
+        "answer": 1,
+        "explanation": "Opportunity cost is the value of the next best alternative given up. A sunk cost is money already spent that cannot be recovered, which does not describe forgone future wages."
+      },
+      {
+        "stem": "A new club advisor focuses on mentoring officers, asking what support they need, and clearing obstacles. This describes:",
+        "choices": [
+          "Servant leadership",
+          "Autocratic leadership",
+          "Laissez-faire leadership",
+          "Bureaucratic leadership"
+        ],
+        "answer": 0,
+        "explanation": "Putting the team's needs first and removing obstacles defines servant leadership. Laissez-faire is hands-off rather than actively supportive."
+      },
+      {
+        "stem": "Which business function is mainly responsible for recruiting, training and evaluating employees?",
+        "choices": [
+          "Finance",
+          "Marketing",
+          "Human resources",
+          "Operations"
+        ],
+        "answer": 2,
+        "explanation": "Human resources handles the employee life cycle. Operations deals with producing goods or services, not staffing."
+      },
+      {
+        "stem": "A chapter president shares a bold vision of tripling community service hours and coaches members to lead their own projects. Which style is shown?",
+        "choices": [
+          "Transformational",
+          "Autocratic",
+          "Laissez-faire",
+          "Transactional"
+        ],
+        "answer": 0,
+        "explanation": "Inspiring a vision and developing followers is transformational leadership. Transactional leadership relies mainly on rewards and penalties for meeting set targets."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Leadership",
+        "definition": "The ability to influence a group toward shared goals."
+      },
+      {
+        "term": "Situational leadership",
+        "definition": "Adjusting leadership style to the task and to followers' skill and commitment."
+      },
+      {
+        "term": "Limited liability",
+        "definition": "Owners are not personally responsible for business debts beyond their investment."
+      },
+      {
+        "term": "Opportunity cost",
+        "definition": "The value of the next best alternative given up when making a choice."
+      },
+      {
+        "term": "Servant leadership",
+        "definition": "A style in which the leader puts the team's needs first and removes obstacles."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Handling main motions, amendments and voting",
+    "objective": "Apply the steps for processing a main motion, amend motions correctly, and determine whether a vote meets the required threshold.",
+    "body": "The **main motion** is the basic way to bring business before a group. It proposes a new action, such as holding a car wash, and it can be made only when no other question is pending.\n\n**Six steps to handle a motion.** Every motion moves through the same cycle:\n1. A member obtains the floor and makes the motion: \"I move that...\"\n2. Another member **seconds** it, showing at least two people want it discussed.\n3. The chair **states the question**, which places the motion before the assembly.\n4. Members **debate**. The maker has the right to speak first, and debate must address the merits of the motion, not personalities.\n5. The chair **puts the question** by asking for affirmative votes and then negative votes.\n6. The chair **announces the result** and what happens as a consequence.\n\nOnce the chair states the motion, it belongs to the assembly, not to the maker. Under RONR, each member may speak twice on the same question on the same day, up to 10 minutes each time, and no one may speak a second time while someone who has not yet spoken wants the floor.\n\n**Amendments.** The motion to **amend** changes the wording of a pending motion before the vote. There are three basic processes: **inserting or adding** words, **striking out** words, and **striking out and inserting**, which includes substituting a whole paragraph. An amendment must be **germane**, meaning closely related to the subject of the motion. A **primary amendment** changes the main motion; a **secondary amendment** changes the primary amendment. No third level is allowed. Amendments are voted on in reverse order: secondary first, then primary, then the main motion as amended.\n\n**Vote thresholds.** A **majority vote** means more than half of the votes cast, ignoring blanks and abstentions. A **two-thirds vote** means at least twice as many yes votes as no votes. Motions that limit members' rights, such as closing debate, need two-thirds. If 30 members vote 19 to 11, the motion passes by majority but fails a two-thirds requirement, because 19 is less than twice 11.\n\n**Methods of voting.** Common methods include **voice vote**, **rising vote**, show of hands, and **ballot**, which keeps votes secret. If a member doubts the chair's announced result of a voice vote, the member may call for a **division**, which requires a rising vote to verify it.\n\n**Unanimous consent** lets the chair handle routine matters quickly: \"If there is no objection, the minutes are approved as read.\" A single objection means a formal vote is required.\n\nThe most common mistake students make is counting abstentions as \"no\" votes. Under RONR, a majority is based on votes actually cast, so abstentions do not count at all unless the bylaws specify otherwise.",
+    "examples": [
+      "A member moves to hold a spring car wash; another member seconds; the chair says, \"It is moved and seconded that the chapter hold a spring car wash. Is there any discussion?\"",
+      "A main motion to buy 50 T-shirts is amended to \"buy 75 T-shirts,\" and a secondary amendment then proposes changing 75 to 60; the group votes on 60 first."
+    ],
+    "questions": [
+      {
+        "stem": "At a meeting, 40 members are present. A motion receives 18 yes votes, 15 no votes, and 7 members abstain. Under RONR's default rules, what is the result?",
+        "choices": [
+          "It fails, because 18 is less than a majority of the 40 present",
+          "It fails, because abstentions count as no votes",
+          "It must be re-voted because of the abstentions",
+          "It passes, because 18 is more than half of the 33 votes cast"
+        ],
+        "answer": 3,
+        "explanation": "A majority is more than half of the votes cast. Here 33 votes were cast and 18 is a majority. Counting against the 40 present would wrongly treat abstentions as no votes."
+      },
+      {
+        "stem": "A motion to close debate needs a two-thirds vote. The vote is 24 yes and 13 no. Does it pass?",
+        "choices": [
+          "Yes, because 24 is close to two-thirds",
+          "No, because 24 is less than twice 13 (26)",
+          "Yes, because 24 is a majority of 37",
+          "Yes, because nearly two-thirds of those present voted yes"
+        ],
+        "answer": 1,
+        "explanation": "Two-thirds requires at least twice as many yes as no votes. Twice 13 is 26, and 24 falls short. A simple majority is not enough for this motion."
+      },
+      {
+        "stem": "A member moves to buy a new banner, and the chair immediately calls for the vote without stating the question or allowing debate. Which step was skipped?",
+        "choices": [
+          "Stating the question and allowing debate",
+          "Seconding the motion",
+          "Announcing the result",
+          "Reading the minutes"
+        ],
+        "answer": 0,
+        "explanation": "After a second, the chair must state the question, which opens debate. Skipping straight to the vote denies members full discussion. Announcing the result comes after the vote, so it was not yet due."
+      },
+      {
+        "stem": "The pending motion is \"to hold a dance in May.\" A member moves to amend by adding \"and to buy a new laptop for the secretary.\" How should the chair rule?",
+        "choices": [
+          "In order, because adding words is a valid process",
+          "In order, if it is seconded",
+          "Out of order, because the amendment is not germane",
+          "Out of order, because only striking is allowed"
+        ],
+        "answer": 2,
+        "explanation": "An amendment must be closely related to the motion's subject. A laptop purchase is unrelated to a dance. Although adding is a valid process, a non-germane amendment is still out of order."
+      },
+      {
+        "stem": "A main motion, a primary amendment, and a secondary amendment are all pending. In what order are they voted on?",
+        "choices": [
+          "Main motion, primary, secondary",
+          "Primary, secondary, main motion",
+          "All three at once",
+          "Secondary, primary, main motion"
+        ],
+        "answer": 3,
+        "explanation": "Amendments are voted on in reverse order of proposal: the secondary amendment first, then the primary, then the main motion as amended."
+      },
+      {
+        "stem": "After a voice vote, the chair announces \"The ayes have it,\" but a member thinks the vote was close. What should the member do?",
+        "choices": [
+          "Move to reconsider the vote immediately",
+          "Call for a division",
+          "Move to amend the motion",
+          "Appeal to the parliamentarian"
+        ],
+        "answer": 1,
+        "explanation": "A division forces a rising vote to verify an uncertain voice vote. Reconsider reopens a decided question for a new vote, which is a different and more involved process."
+      },
+      {
+        "stem": "The maker of a motion wants to change its wording after the chair has stated it. What is true?",
+        "choices": [
+          "The motion now belongs to the assembly, so changes require amendment or the group's permission",
+          "The maker can change it freely, since it is their motion",
+          "The secretary may edit it before the vote",
+          "The maker must withdraw and re-make it with no approval needed"
+        ],
+        "answer": 0,
+        "explanation": "Once stated by the chair, a motion belongs to the assembly. The maker can no longer change it on their own; it must be amended or modified with the assembly's permission."
+      },
+      {
+        "stem": "The chair says, \"If there is no objection, the minutes are approved as corrected,\" and one member objects. What happens next?",
+        "choices": [
+          "The minutes are approved anyway",
+          "The objection is overruled by the chair",
+          "The chair takes a formal vote on approving the minutes",
+          "The minutes are automatically rejected"
+        ],
+        "answer": 2,
+        "explanation": "Unanimous consent works only when no one objects. A single objection requires the chair to put the question to a formal vote; it does not automatically defeat the minutes."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Main motion",
+        "definition": "A motion that brings new business before the assembly and can be made only when no other question is pending."
+      },
+      {
+        "term": "Germane",
+        "definition": "Closely related to the subject of the pending motion, a requirement for any amendment."
+      },
+      {
+        "term": "Majority vote",
+        "definition": "More than half of the votes cast by members entitled to vote, excluding blanks and abstentions."
+      },
+      {
+        "term": "Two-thirds vote",
+        "definition": "A vote in which the yes votes are at least twice the no votes."
+      },
+      {
+        "term": "Division of the assembly",
+        "definition": "A demand that an uncertain voice vote be retaken as a rising vote to verify the result."
+      }
+    ]
+  }
+]
