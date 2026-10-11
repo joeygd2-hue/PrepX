@@ -6,6 +6,7 @@ import { rateLimit } from "./ratelimit";
 import { awardXp, recordActivity } from "./progress";
 import { XP } from "@/lib/levels";
 import { notifyUsers } from "./notify";
+import { leaderboardAliases } from "./alias";
 
 export class ChapterError extends Error {}
 type Role = "member" | "officer" | "advisor";
@@ -166,7 +167,9 @@ export async function checkIn(userId: string, checkinId: string, tz: string) {
 
 /**
  * Roster for a member. Everyone sees display names and roles (never emails or school info).
- * Officers and advisors also see points and, only for members who allow it, study activity.
+ * Officers and advisors also see every member's name and points and, only for members who
+ * allow it, weekly study activity. A regular member sees their own points; on the leaderboard
+ * they also see members who turned leaderboards on, by display name or by leaderboard alias.
  */
 export async function roster(viewerId: string, chapterId: string) {
   const viewer = await membership(viewerId, chapterId);
@@ -182,14 +185,15 @@ export async function roster(viewerId: string, chapterId: string) {
       firstName: schema.profiles.firstName,
       lastName: schema.profiles.lastName,
       share: schema.profiles.shareActivityWithChapter,
+      visibility: schema.profiles.leaderboardVisibility,
     })
     .from(schema.chapterMembers)
     .innerJoin(schema.profiles, eq(schema.profiles.userId, schema.chapterMembers.userId))
     .where(eq(schema.chapterMembers.chapterId, chapterId))
     .orderBy(desc(schema.chapterMembers.role), asc(schema.profiles.firstName));
-  const ids = rows.filter((r) => r.share).map((r) => r.userId);
+  const ids = lead ? rows.filter((r) => r.share).map((r) => r.userId) : [];
   const weekAgo = new Date(Date.now() - 7 * 86400_000);
-  const activity = lead && ids.length
+  const activity = ids.length
     ? await db
         .select({ userId: schema.attemptAnswers.userId, n: sql<number>`count(*)::int` })
         .from(schema.attemptAnswers)
@@ -197,15 +201,35 @@ export async function roster(viewerId: string, chapterId: string) {
         .groupBy(schema.attemptAnswers.userId)
     : [];
   const act = new Map(activity.map((a) => [a.userId, a.n]));
+  const nameFor = (r: (typeof rows)[number]) => (lead ? `${r.firstName} ${r.lastName}`.trim() || r.displayName : r.displayName || r.firstName);
+
+  // Leaders rank everyone by name. Members see only people who opted into leaderboards, under the
+  // name they chose to show there; a nickname row never carries the member's real name or id.
+  const aliases = lead ? new Map<string, string>() : await leaderboardAliases(rows.filter((r) => r.visibility === "pseudonym").map((r) => r.userId));
+  const entries = rows
+    .flatMap((r) => {
+      const name = lead || r.visibility === "name" ? nameFor(r) : r.visibility === "pseudonym" ? aliases.get(r.userId) : undefined;
+      return name ? [{ name, points: r.points, you: r.userId === viewerId }] : [];
+    })
+    .sort((a, b) => b.points - a.points || a.name.localeCompare(b.name));
+  let rank = 0;
+  const leaderboard = entries.map((e, i) => {
+    if (i === 0 || e.points < entries[i - 1].points) rank = i + 1;
+    return { rank, ...e };
+  });
+  const self = rows.find((r) => r.userId === viewerId);
+
   return {
     viewerRole: viewer.role,
+    /** Whether the viewer opted into leaderboards, so other members can see their points. */
+    onLeaderboard: self?.visibility === "name" || self?.visibility === "pseudonym",
     members: rows.map((r) => ({
       userId: r.userId,
       role: r.role,
-      name: lead ? `${r.firstName} ${r.lastName}`.trim() || r.displayName : r.displayName || r.firstName,
-      points: r.points,
+      name: nameFor(r),
+      points: lead || r.userId === viewerId ? r.points : null,
       questionsThisWeek: lead && r.share ? (act.get(r.userId) ?? 0) : null,
-      sharesActivity: r.share,
     })),
+    leaderboard,
   };
 }

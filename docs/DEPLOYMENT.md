@@ -29,6 +29,10 @@ Copy `.env.example` and fill in values. Everything is read server-side; only `NE
 | `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_PRICE_PRO_MONTHLY`, `STRIPE_PRICE_SEASON_BOOST` | See §6. Checkout is hidden until the first three are set. |
 | `NEXT_PUBLIC_VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` | `npx web-push generate-vapid-keys` |
 | `CRON_SECRET` | Long random string; scheduler sends `Authorization: Bearer <secret>`. |
+| `TRUSTED_PROXY_COUNT` | Default `1`. Number of reverse proxies in front of the app that append to `X-Forwarded-For`; see the note below. |
+| `TRUST_CF_CONNECTING_IP` | `true` to take the client address from Cloudflare's `CF-Connecting-IP`. Only when the origin accepts traffic from Cloudflare alone. |
+
+**Client IP for rate limits.** Sign-in and other abuse limits key on the client address, so it must not come from anything the client can set. On Vercel (`x-vercel-forwarded-for`) and Fly.io (`Fly-Client-IP`) the platform's own header is used automatically. Elsewhere each proxy appends the address it received the request from to `X-Forwarded-For`, and PrepX takes the entry `TRUSTED_PROXY_COUNT` places from the right; anything further left is client-supplied and ignored. Set it to the number of proxies that append (nginx with `proxy_add_x_forwarded_for`, Render or a load balancer: `1`; a CDN in front of nginx: `2`), and make sure the app can't be reached without going through them. Too low a value makes all traffic share the nearest proxy's address; too high lets clients choose their own. Use `0` only when the proxy sets `X-Real-IP` (replacing any value the client sent) and doesn't append to `X-Forwarded-For`.
 
 ## 3. First deploy
 

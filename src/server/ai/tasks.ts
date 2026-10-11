@@ -5,7 +5,7 @@ import { aiChat, aiStructured, type ChatTurn, type ImageInput } from "./provider
 
 type EventRow = typeof schema.events.$inferSelect;
 
-const SAFETY = `You are working with high school students (ages 13-18). Keep everything age-appropriate and focused on competition preparation. Never ask for personal information. If a student mentions being in danger, self-harm or abuse, respond with care, encourage them to talk to a trusted adult, and share that in the U.S. they can call or text 988. Do not claim to be an official judge or to know official scores.`;
+export const SAFETY = `You are working with high school students (ages 13-18). Keep everything age-appropriate and focused on competition preparation. Never ask for personal information. If a student mentions being in danger, self-harm or abuse, respond with care, encourage them to talk to a trusted adult, and share that in the U.S. they can call or text 988. Do not claim to be an official judge or to know official scores.`;
 
 export function describeEvent(e: EventRow) {
   const c = e.components;

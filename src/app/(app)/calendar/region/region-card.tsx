@@ -1,7 +1,10 @@
 "use client";
 import { useOptimistic, useTransition } from "react";
+import { Check } from "lucide-react";
 import { OrgBadge } from "@/components/ui/badge";
+import { Card } from "@/components/ui/card";
 import { Select } from "@/components/ui/form";
+import { Switch } from "@/components/ui/toggle";
 import { cn } from "@/lib/cn";
 import { ORGS, type OrgId } from "@/lib/orgs";
 import { US_STATES, stateName } from "@/lib/states";
@@ -11,7 +14,16 @@ type R = { id: string; state: string; label: string };
 
 function Pill({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
-    <button type="button" aria-pressed={active} onClick={onClick} className={cn("rounded-full border px-4 py-2 text-sm font-medium", active ? "border-fg bg-fg text-bg" : "border-border hover:border-fg/50")}>
+    <button
+      type="button"
+      aria-pressed={active}
+      onClick={onClick}
+      className={cn(
+        "inline-flex min-h-10 items-center gap-2 rounded-[14px] border px-4 py-2 text-left text-sm font-medium transition-colors",
+        active ? "border-transparent bg-primary text-primary-fg" : "border-border-strong bg-card hover:border-fg/40",
+      )}
+    >
+      {active ? <Check className="size-4 shrink-0" strokeWidth={2.5} aria-hidden /> : null}
       {children}
     </button>
   );
@@ -24,30 +36,25 @@ export function RegionCard(props: { org: OrgId; showDates: boolean; state: strin
   const featured = statesWithRegions[0];
   const regionsHere = props.regions.filter((r) => r.state === s.state);
   return (
-    <div className="rounded-3xl border border-border p-5">
-      <div className="flex items-center justify-between">
+    <Card>
+      <div className="flex items-center justify-between gap-3">
         <OrgBadge org={props.org} />
-        <label className="inline-flex items-center gap-3 text-sm">
+        <label className="inline-flex items-center gap-3 text-sm text-muted">
           Show dates
-          <button
-            type="button"
-            role="switch"
-            aria-checked={s.show}
-            aria-label={`Show ${ORGS[props.org].name} dates`}
-            onClick={() => start(async () => { setS({ show: !s.show }); await setShowDates(props.org, !s.show); })}
-            className={cn("relative inline-flex h-7 w-12 items-center rounded-full", s.show ? "bg-fg" : "bg-subtle-2")}
-          >
-            <span className={cn("inline-block size-6 rounded-full bg-bg shadow transition-transform", s.show ? "translate-x-5.5" : "translate-x-0.5")} />
-          </button>
+          <Switch
+            checked={s.show}
+            label={`Show ${ORGS[props.org].name} dates`}
+            onToggle={() => start(async () => { setS({ show: !s.show }); await setShowDates(props.org, !s.show); })}
+          />
         </label>
       </div>
       {!s.show ? (
-        <p className="mt-4 text-muted">Off. Turn on to see {ORGS[props.org].name} dates.</p>
+        <p className="mt-4 text-sm text-muted">Off. Turn on to see {ORGS[props.org].name} dates.</p>
       ) : (
-        <div className="mt-4 space-y-4">
-          {props.chapterNote ? <p className="rounded-2xl bg-subtle px-4 py-3 text-sm">{props.chapterNote}</p> : null}
+        <div className="mt-5 space-y-5 border-t border-border pt-5">
+          {props.chapterNote ? <p className="rounded-[16px] bg-subtle px-4 py-3 text-sm">{props.chapterNote}</p> : null}
           <div>
-            <p className="mb-2 font-medium">State</p>
+            <p className="eyebrow mb-2.5">State</p>
             <div className="flex flex-wrap gap-2">
               {featured ? (
                 <Pill active={s.state === featured} onClick={() => start(async () => { setS({ state: featured, region: null }); await setOrgState(props.org, featured); })}>
@@ -61,7 +68,7 @@ export function RegionCard(props: { org: OrgId; showDates: boolean; state: strin
                 id={`state-${props.org}`}
                 value={s.state && s.state !== featured ? s.state : ""}
                 onChange={(e) => start(async () => { const v = e.target.value || null; setS({ state: v, region: null }); await setOrgState(props.org, v); })}
-                className="h-10 w-auto rounded-full px-4 text-sm"
+                className={cn("h-10 w-auto px-4 text-sm font-medium", s.state && s.state !== featured && "border-fg ring-4 ring-accent/30")}
               >
                 <option value="">Another state</option>
                 {US_STATES.filter(([c]) => c !== featured).map(([c, n]) => (
@@ -74,7 +81,7 @@ export function RegionCard(props: { org: OrgId; showDates: boolean; state: strin
           </div>
           {s.state ? (
             <div>
-              <p className="mb-2 font-medium">District / area</p>
+              <p className="eyebrow mb-2.5">District / area</p>
               {regionsHere.length ? (
                 <div className="flex flex-wrap gap-2">
                   {regionsHere.map((r) => (
@@ -93,6 +100,6 @@ export function RegionCard(props: { org: OrgId; showDates: boolean; state: strin
           ) : null}
         </div>
       )}
-    </div>
+    </Card>
   );
 }

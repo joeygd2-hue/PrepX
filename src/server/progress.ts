@@ -23,8 +23,8 @@ export async function recordActivity(userId: string, tz: string) {
   }
 }
 
-export async function xpSummary(userId: string, tz: string) {
-  const weekStart = addDays(todayIn(tz), -6);
+export async function xpSummary(userId: string, tz: string, now: Date = new Date()) {
+  const weekStart = addDays(todayIn(tz, now), -6);
   const [row] = await db
     .select({
       total: sql<number>`coalesce(sum(${schema.xpEvents.amount}),0)::int`,

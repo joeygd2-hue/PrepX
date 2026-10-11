@@ -1,4 +1,4 @@
-import { handleStripeWebhook } from "@/server/billing";
+import { handleStripeWebhook, WebhookRejectedError } from "@/server/billing";
 import { features } from "@/lib/env";
 import { errorDetail } from "@/lib/errors";
 
@@ -10,7 +10,12 @@ export async function POST(req: Request) {
     const r = await handleStripeWebhook(body, req.headers.get("stripe-signature"));
     return Response.json({ received: true, duplicate: r.duplicate });
   } catch (e) {
-    console.error("stripe webhook rejected", errorDetail(e));
-    return new Response("Invalid signature", { status: 400 });
+    if (e instanceof WebhookRejectedError) {
+      console.error("stripe webhook rejected", errorDetail(e));
+      return new Response("Invalid signature", { status: 400 });
+    }
+    // Nothing was recorded, so Stripe's retry applies the event.
+    console.error("stripe webhook failed", errorDetail(e));
+    return new Response("Webhook processing failed", { status: 500 });
   }
 }

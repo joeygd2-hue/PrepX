@@ -36,6 +36,15 @@ export const env = {
   },
   cronSecret: process.env.CRON_SECRET ?? "",
   adminEmails: (process.env.ADMIN_EMAILS ?? "").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean),
+  /** Where the client address comes from (see clientIp in src/server/request.ts). */
+  proxy: {
+    /** Reverse proxies in front of the app that each append to X-Forwarded-For; 0 reads X-Real-IP instead. */
+    trustedProxyCount: /^\d+$/.test(process.env.TRUSTED_PROXY_COUNT?.trim() ?? "") ? Number(process.env.TRUSTED_PROXY_COUNT) : 1,
+    // Platform headers are trusted only on the platform that sets them; elsewhere a client could send them.
+    vercel: Boolean(process.env.VERCEL),
+    fly: Boolean(process.env.FLY_APP_NAME),
+    cloudflare: ["1", "true"].includes(process.env.TRUST_CF_CONNECTING_IP?.trim().toLowerCase() ?? ""),
+  },
 };
 
 export const features = {

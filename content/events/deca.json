@@ -1411,6 +1411,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-bma",
+     "label": "Business management knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -1461,6 +1465,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -1511,6 +1519,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-fin",
+     "label": "Finance knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -1561,6 +1573,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and tourism knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -1611,6 +1627,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -1661,6 +1681,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
     }
    },
    "team": "1\u20133 members",
@@ -1711,6 +1735,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
     }
    },
    "team": "1\u20133 members",
@@ -1761,6 +1789,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
     }
    },
    "team": "1\u20133 members",
@@ -1811,6 +1843,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
     }
    },
    "team": "1\u20133 members",
@@ -1861,6 +1897,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
     }
    },
    "team": "1\u20133 members",
@@ -1911,6 +1951,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
     }
    },
    "team": "1\u20133 members",
@@ -1961,6 +2005,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2011,6 +2059,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2061,6 +2113,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2111,6 +2167,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2161,6 +2221,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2211,6 +2275,10 @@
     },
     "presentation": {
      "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2582,6 +2650,10 @@
     },
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "deca-fin",
+     "label": "Finance knowledge"
     }
    },
    "team": "1\u20133 members",
@@ -2601,6 +2673,10 @@
     },
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing knowledge"
     }
    },
    "team": "chapter",

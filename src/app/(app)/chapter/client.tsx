@@ -9,7 +9,7 @@ export function CheckInButton({ id }: { id: string }) {
   const [msg, setMsg] = useState<string | null>(null);
   return (
     <div>
-      <Button variant="subtle" className="bg-bg text-fg" disabled={pending} onClick={() => start(async () => { const r = await checkInAction(id); setMsg(r?.error ?? r?.ok ?? null); })}>
+      <Button variant="accent" disabled={pending} onClick={() => start(async () => { const r = await checkInAction(id); setMsg(r?.error ?? r?.ok ?? null); })}>
         {pending ? <Loader2 className="size-4 animate-spin" aria-hidden /> : null} Check in
       </Button>
       {msg ? <p className="mt-2 text-sm" role="status">{msg}</p> : null}
@@ -23,16 +23,16 @@ export function LeaveButton({ chapterId, name }: { chapterId: string; name: stri
   const [error, setError] = useState<string | null>(null);
   if (!confirm)
     return (
-      <button type="button" className="text-sm font-medium text-danger" onClick={() => setConfirm(true)}>
+      <Button variant="ghost" size="sm" className="-ml-3.5 text-danger hover:bg-danger/10" onClick={() => setConfirm(true)}>
         Leave chapter
-      </button>
+      </Button>
     );
   return (
-    <div className="rounded-3xl border border-danger/30 p-5">
-      <p className="font-semibold">Leave {name}?</p>
+    <div className="rounded-[24px] border border-danger/30 bg-card p-5 shadow-card sm:p-6">
+      <p className="text-lg font-semibold tracking-[-0.02em]">Leave {name}?</p>
       <p className="mt-1 text-sm text-muted">Your chapter points stay with the chapter. You can rejoin later with a code.</p>
       {error ? <p role="alert" className="mt-2 text-sm text-danger">{error}</p> : null}
-      <div className="mt-4 flex gap-3">
+      <div className="mt-5 flex flex-wrap gap-3">
         <Button variant="outline" onClick={() => setConfirm(false)}>
           Cancel
         </Button>

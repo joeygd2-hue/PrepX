@@ -1,21 +1,19 @@
 import { cookies } from "next/headers";
 import { NextResponse, type NextRequest } from "next/server";
-import { eq } from "drizzle-orm";
-import { db, schema } from "@/db";
 import { env } from "@/lib/env";
-import { decodeIdToken, googleClient } from "@/server/auth/google";
+import { decodeIdToken, googleClient, PREFILL_NAME_COOKIE, prefillNameCookieValue } from "@/server/auth/google";
 import { upsertVerifiedUser } from "@/server/auth/accounts";
 import { createSession } from "@/server/auth/session";
 import { applyReferral } from "@/app/(public)/sign-in/actions";
 import { rateLimit } from "@/server/ratelimit";
+import { clientIp } from "@/server/request";
 import { errorDetail } from "@/lib/errors";
 
 export async function GET(req: NextRequest) {
   const fail = (code = "google") => NextResponse.redirect(new URL(`/sign-in?error=${code}`, env.appUrl));
   const google = googleClient();
   if (!google) return fail();
-  const ip = req.headers.get("x-forwarded-for")?.split(",")[0] ?? "unknown";
-  if (!(await rateLimit(`google:${ip}`, 30, 900))) return fail();
+  if (!(await rateLimit(`google:${await clientIp()}`, 30, 900))) return fail();
 
   const code = req.nextUrl.searchParams.get("code");
   const state = req.nextUrl.searchParams.get("state");
@@ -33,10 +31,9 @@ export async function GET(req: NextRequest) {
     const { id, isNew } = await upsertVerifiedUser(claims.email, claims.sub);
     if (isNew) {
       await applyReferral(id);
-      await db
-        .update(schema.profiles)
-        .set({ firstName: claims.given_name?.slice(0, 50) ?? "", lastName: claims.family_name?.slice(0, 50) ?? "" })
-        .where(eq(schema.profiles.userId, id));
+      // Names only prefill the form: the profile gets them once the student passes the age check.
+      const prefill = prefillNameCookieValue(claims);
+      if (prefill) jar.set(PREFILL_NAME_COOKIE, prefill, { httpOnly: true, secure: env.isProd, sameSite: "lax", maxAge: 3600, path: "/" });
     }
     await createSession(id);
     return NextResponse.redirect(new URL(isNew ? "/welcome" : "/", env.appUrl));

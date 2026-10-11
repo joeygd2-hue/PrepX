@@ -5,6 +5,7 @@ import { requireUser } from "@/server/auth/session";
 import { Logo } from "@/components/shell/logo";
 import { cn } from "@/lib/cn";
 import { Steps } from "./steps";
+import { CancelSignUp } from "./cancel";
 
 export const metadata: Metadata = { title: "Set up your account" };
 const ORDER = ["age", "name", "school", "orgs", "terms"];
@@ -59,6 +60,7 @@ export default async function Onboarding() {
           orgInterests: p.orgInterests,
         }}
       />
+      <CancelSignUp />
     </main>
   );
 }

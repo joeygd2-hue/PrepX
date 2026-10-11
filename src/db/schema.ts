@@ -152,14 +152,40 @@ export const regions = pgTable("regions", {
 });
 
 /** An exam blueprint shared by several events (e.g. DECA Business Administration Core). */
+/**
+ * Study banks. `exam` = an organization's official test topic (questions are original practice
+ * written for it); `practice` = a knowledge bank for events without an official test;
+ * `skills` = how to compete in a format (role-play, presentation…), shared across organizations.
+ */
 export const examClusters = pgTable("exam_clusters", {
   id: text("id").primaryKey(), // "deca-bac"
-  org: orgEnum("org").notNull(),
+  org: orgEnum("org"), // null for cross-organization skills banks
+  kind: text("kind").$type<"exam" | "practice" | "skills">().notNull().default("exam"),
   code: text("code").notNull(), // "BAC"
   name: text("name").notNull(),
   questionCount: integer("question_count"),
   minutes: integer("minutes"),
   verification: verificationEnum("verification").notNull().default("unverified"),
+});
+
+/** Curated external study resources per bank (official pages, open textbooks, public-agency guides). */
+export const studyResources = pgTable("study_resources", {
+  id: text("id").primaryKey(),
+  clusterId: text("cluster_id").notNull().references(() => examClusters.id, { onDelete: "cascade" }),
+  position: integer("position").notNull(),
+  title: text("title").notNull(),
+  url: text("url").notNull(),
+  publisher: text("publisher").notNull(),
+  kind: text("kind").$type<"official" | "textbook" | "course" | "reference" | "video" | "tool">().notNull(),
+  note: text("note").notNull().default(""),
+}, (t) => [index("study_resources_cluster_idx").on(t.clusterId, t.position)]);
+
+/** Admin-editable application settings (e.g. the free launch period). */
+export const appSettings = pgTable("app_settings", {
+  key: text("key").primaryKey(),
+  value: jsonb("value").notNull(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedBy: uuid("updated_by").references(() => users.id, { onDelete: "set null" }),
 });
 
 export const units = pgTable("units", {
@@ -174,6 +200,8 @@ export const units = pgTable("units", {
 
 export type EventComponents = {
   exam?: { clusterId: string; label: string; questions?: number; minutes?: number };
+  /** Practice knowledge bank for events without an official test (not an official component). */
+  knowledge?: { clusterId: string; label: string };
   roleplay?: { prepMinutes?: number; performMinutes?: number; indicators?: number; count?: number };
   caseStudy?: { prepMinutes?: number; performMinutes?: number; team?: boolean };
   written?: { pages?: number; label: string };

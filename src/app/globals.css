@@ -77,6 +77,30 @@
   :root:not([data-theme="light"])[data-accent="legend"] { --bg-glow: rgba(244, 197, 79, 0.09); }
 }
 
+/*
+ * Organization themes: the Study area takes on the selected organization's colors.
+ * DECA blue, FBLA gold on navy, HOSA maroon, TSA red; tuned for both appearances.
+ */
+[data-org="deca"] { --accent: #2563eb; --accent-fg: #ffffff; --bg-glow: rgba(37, 99, 235, 0.16); }
+[data-org="fbla"] { --accent: #f4b41a; --accent-fg: #13254a; --bg-glow: rgba(244, 180, 26, 0.2); }
+[data-org="hosa"] { --accent: #a3214b; --accent-fg: #ffffff; --bg-glow: rgba(163, 33, 75, 0.14); }
+[data-org="tsa"] { --accent: #d4213d; --accent-fg: #ffffff; --bg-glow: rgba(212, 33, 61, 0.14); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"])[data-org="deca"], :root:not([data-theme="light"]) [data-org="deca"] { --accent: #5b9bff; --accent-fg: #0b1220; --bg-glow: rgba(91, 155, 255, 0.1); }
+  :root:not([data-theme="light"])[data-org="fbla"], :root:not([data-theme="light"]) [data-org="fbla"] { --accent: #f6c34a; --accent-fg: #10203f; --bg-glow: rgba(246, 195, 74, 0.09); }
+  :root:not([data-theme="light"])[data-org="hosa"], :root:not([data-theme="light"]) [data-org="hosa"] { --accent: #f0668f; --accent-fg: #1a0710; --bg-glow: rgba(240, 102, 143, 0.09); }
+  :root:not([data-theme="light"])[data-org="tsa"], :root:not([data-theme="light"]) [data-org="tsa"] { --accent: #ff5c70; --accent-fg: #1a0509; --bg-glow: rgba(255, 92, 112, 0.09); }
+}
+
+/* Registered so theme changes animate instead of snapping. */
+@property --accent { syntax: "<color>"; inherits: true; initial-value: #c6f03a; }
+@property --accent-fg { syntax: "<color>"; inherits: true; initial-value: #0c0c0d; }
+@property --bg-glow { syntax: "<color>"; inherits: true; initial-value: rgba(196, 240, 58, 0.22); }
+:root,
+.org-theme {
+  transition: --accent 0.5s ease, --accent-fg 0.5s ease, --bg-glow 0.7s ease;
+}
+
 @theme inline {
   --color-bg: var(--bg);
   --color-fg: var(--fg);
@@ -121,6 +145,16 @@ body {
   font-feature-settings: "ss01", "cv11";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+/* Tailwind's reset gives buttons the default arrow; anything clickable should say so. */
+button:not(:disabled),
+[role="button"]:not([aria-disabled="true"]),
+[role="tab"],
+[role="switch"]:not(:disabled),
+summary,
+label:has(input:not(:disabled)),
+select:not(:disabled) {
+  cursor: pointer;
 }
 ::selection {
   background: var(--accent);
@@ -202,6 +236,10 @@ body {
 .page-enter main > *:nth-child(8), .page-enter .stagger > *:nth-child(8) { animation-delay: 320ms; }
 .page-enter main > *:nth-child(n + 9), .page-enter .stagger > *:nth-child(n + 9) { animation-delay: 360ms; }
 
+/* Replays when the Study area switches organization (the wrapper is keyed by organization). */
+.org-swap {
+  animation: px-enter 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+}
 .pop-in {
   animation: px-pop 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
 }

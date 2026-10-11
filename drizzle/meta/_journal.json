@@ -29,6 +29,13 @@
       "when": 1791607327585,
       "tag": "0003_privacy_defaults",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791652329377,
+      "tag": "0004_study_banks",
+      "breakpoints": true
     }
   ]
 }

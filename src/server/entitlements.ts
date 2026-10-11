@@ -2,12 +2,14 @@ import "server-only";
 import { and, eq, gt, inArray, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { seasonKey, todayIn } from "@/lib/dates";
+import { getLaunchAccess } from "./settings";
 
 export type Feature =
   | "coach_message"
   | "judge_run"
   | "judge_questions"
   | "explain_back"
+  | "ask_ai"
   | "full_exam"
   | "entry_check"
   | "presentation_check"
@@ -20,7 +22,7 @@ export class LimitReachedError extends Error {
   }
 }
 
-export type PlanStatus = { isPro: boolean; source: "subscription" | "season_boost" | "chapter" | null; detail?: string };
+export type PlanStatus = { isPro: boolean; source: "subscription" | "season_boost" | "chapter" | "launch" | null; detail?: string };
 
 export async function getPlanStatus(userId: string): Promise<PlanStatus> {
   const [sub] = await db.select().from(schema.subscriptions).where(eq(schema.subscriptions.userId, userId));
@@ -35,6 +37,8 @@ export async function getPlanStatus(userId: string): Promise<PlanStatus> {
     .where(and(eq(schema.chapterMembers.userId, userId), eq(schema.chapters.coversPro, true)))
     .limit(1);
   if (covered[0]) return { isPro: true, source: "chapter", detail: covered[0].name };
+  const launch = await getLaunchAccess();
+  if (launch.active) return { isPro: true, source: "launch", detail: launch.endsOn ?? undefined };
   return { isPro: false, source: null };
 }
 

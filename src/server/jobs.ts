@@ -1,9 +1,11 @@
 import "server-only";
-import { and, eq, gte, isNotNull, lt, sql } from "drizzle-orm";
+import { and, eq, gte, isNotNull, isNull, lt, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { addDays, daysUntil, todayIn, formatRange } from "@/lib/dates";
 import { randomToken, sha256 } from "@/lib/crypto";
 import { env } from "@/lib/env";
+import { errorDetail } from "@/lib/errors";
+import { deleteAccount } from "./account";
 import { sendEmail } from "./email";
 import { notifyUsers } from "./notify";
 import { resolveTarget } from "./dashboard";
@@ -28,7 +30,7 @@ export async function streakReminders(now = new Date()) {
   for (const u of await activeStudents()) {
     if (u.prefs && !u.prefs.streakReminder) continue;
     if (localHour(u.tz, now) !== 18) continue;
-    const s = await streakSummary(u.userId, u.tz);
+    const s = await streakSummary(u.userId, u.tz, now);
     if (s.practicedToday || s.current === 0) continue;
     await notifyUsers([u.userId], "streakReminder", {
       kind: "streak",
@@ -54,7 +56,7 @@ export async function competitionReminders(now = new Date()) {
     .leftJoin(schema.notificationPrefs, eq(schema.notificationPrefs.userId, schema.eventSelections.userId))
     .where(eq(schema.eventSelections.active, true));
   for (const r of sels) {
-    const t = await resolveTarget(r.sel.userId, r.sel, r.tz);
+    const t = await resolveTarget(r.sel.userId, r.sel, r.tz, now);
     if (!t) continue;
     const d = daysUntil(t.startsOn, r.tz, now);
     if (d !== 7 && d !== 1) continue;
@@ -85,7 +87,7 @@ export async function weeklyRecaps(now = new Date()) {
       .select({ n: sql<number>`count(*)::int`, c: sql<number>`count(*) filter (where ${schema.attemptAnswers.correct})::int` })
       .from(schema.attemptAnswers)
       .where(and(eq(schema.attemptAnswers.userId, u.userId), gte(schema.attemptAnswers.answeredAt, since)));
-    const xp = await xpSummary(u.userId, u.tz);
+    const xp = await xpSummary(u.userId, u.tz, now);
     if (!n && !xp.week) continue; // nothing to recap; don't nag
     const dedupe = `recap:${todayIn(u.tz, now)}`;
     const [already] = await db.select().from(schema.notifications).where(and(eq(schema.notifications.userId, u.userId), eq(schema.notifications.dedupeKey, dedupe)));
@@ -123,7 +125,7 @@ export async function parentMonthly(now = new Date()) {
       .select({ s: schema.aiFeedback.score })
       .from(schema.aiFeedback)
       .where(and(eq(schema.aiFeedback.userId, link.studentId), gte(schema.aiFeedback.createdAt, since)));
-    const streak = await streakSummary(link.studentId, tz);
+    const streak = await streakSummary(link.studentId, tz, now);
     const token = randomToken();
     await db.update(schema.familyLinks).set({ tokenHash: sha256(token), lastReportAt: now }).where(eq(schema.familyLinks.id, link.id));
     await sendEmail({
@@ -148,7 +150,22 @@ export async function cleanup(now = new Date()) {
   await db.delete(schema.emailLog).where(lt(schema.emailLog.createdAt, ago(30)));
   await db.delete(schema.notifications).where(lt(schema.notifications.createdAt, ago(120)));
   await releaseStaleReservations();
-  return { aiSessionsDeleted: ai.length };
+  // Sign-ups never finished within a week (no profile counts as unfinished) are deleted the same way as a user's own request.
+  const abandoned = await db
+    .select({ id: schema.users.id })
+    .from(schema.users)
+    .leftJoin(schema.profiles, eq(schema.profiles.userId, schema.users.id))
+    .where(and(isNull(schema.profiles.onboardingCompletedAt), lt(schema.users.createdAt, ago(7))));
+  let abandonedSignUpsDeleted = 0;
+  for (const { id } of abandoned) {
+    try {
+      await deleteAccount(id, "abandoned_sign_up");
+      abandonedSignUpsDeleted++;
+    } catch (e) {
+      console.error("abandoned sign-up deletion failed", errorDetail(e));
+    }
+  }
+  return { aiSessionsDeleted: ai.length, abandonedSignUpsDeleted };
 }
 
 export const JOBS = { "streak-reminders": streakReminders, "competition-reminders": competitionReminders, "weekly-recaps": weeklyRecaps, "parent-monthly": parentMonthly, cleanup } as const;

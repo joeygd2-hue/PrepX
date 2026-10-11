@@ -1450,6 +1450,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-journalism",
+     "label": "Journalism knowledge"
     }
    },
    "team": "individual or team",
@@ -1496,6 +1500,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-law",
+     "label": "Business law and ethics"
     }
    },
    "team": "individual or team",
@@ -1542,6 +1550,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-entrepreneurship",
+     "label": "Entrepreneurship knowledge"
     }
    },
    "team": "individual or team",
@@ -1588,6 +1600,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-careers",
+     "label": "Career readiness"
     }
    },
    "team": "individual or team",
@@ -1634,6 +1650,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
     }
    },
    "team": "individual or team",
@@ -1680,6 +1700,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
     }
    },
    "team": "individual or team",
@@ -1726,6 +1750,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-data-science--ai",
+     "label": "Data science knowledge"
     }
    },
    "team": "individual or team",
@@ -1772,6 +1800,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
     }
    },
    "team": "individual or team",
@@ -1818,6 +1850,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
     }
    },
    "team": "individual or team",
@@ -1864,6 +1900,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-hospitality--event-management",
+     "label": "Event management knowledge"
     }
    },
    "team": "individual or team",
@@ -1910,6 +1950,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-personal-finance",
+     "label": "Personal finance knowledge"
     }
    },
    "team": "individual or team",
@@ -1956,6 +2000,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-accounting",
+     "label": "Accounting knowledge"
     }
    },
    "team": "individual or team",
@@ -2002,6 +2050,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-introduction-to-business-concepts",
+     "label": "Business concepts"
     }
    },
    "team": "individual or team",
@@ -2048,6 +2100,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
     }
    },
    "team": "individual or team",
@@ -2094,6 +2150,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-introduction-to-business-concepts",
+     "label": "Business concepts"
     }
    },
    "team": "individual or team",
@@ -2140,6 +2200,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
     }
    },
    "team": "individual or team",
@@ -2186,6 +2250,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing knowledge"
     }
    },
    "team": "individual or team",
@@ -2232,6 +2300,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
     }
    },
    "team": "individual or team",
@@ -2278,6 +2350,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
     }
    },
    "team": "individual or team",
@@ -2324,6 +2400,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing and sales knowledge"
     }
    },
    "team": "individual or team",
@@ -2370,6 +2450,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing knowledge"
     }
    },
    "team": "individual or team",
@@ -2416,6 +2500,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-introduction-to-supply-chain-management",
+     "label": "Supply chain knowledge"
     }
    },
    "team": "individual or team",
@@ -2462,6 +2550,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
     }
    },
    "team": "individual or team",
@@ -2508,6 +2600,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
     }
    },
    "team": "individual or team",
@@ -2554,6 +2650,10 @@
    "components": {
     "presentation": {
      "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
     }
    },
    "team": "individual or team",
@@ -2600,6 +2700,10 @@
    "components": {
     "presentation": {
      "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business communication"
     }
    },
    "team": "individual",
@@ -2646,6 +2750,10 @@
    "components": {
     "presentation": {
      "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business communication"
     }
    },
    "team": "individual",
@@ -2692,6 +2800,10 @@
    "components": {
     "presentation": {
      "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business communication"
     }
    },
    "team": "individual",
@@ -2739,7 +2851,11 @@
     "written": {
      "label": "Application packet"
     },
-    "interview": {}
+    "interview": {},
+    "knowledge": {
+     "clusterId": "fbla-careers",
+     "label": "Career readiness"
+    }
    },
    "team": "individual",
    "verification": "unverified",

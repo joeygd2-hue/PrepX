@@ -13,7 +13,7 @@ export default async function NewChapter() {
   return (
     <Page>
       <BackHeader href="/chapter" title="Start a chapter" />
-      <p className="text-muted">
+      <p className="max-w-xl text-[15px] leading-relaxed text-muted">
         Set up your school&apos;s chapter and share the join code with members. You&apos;ll be the chapter advisor and can add board members to help. PrepX staff may contact
         your school to verify chapters.
       </p>

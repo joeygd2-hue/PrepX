@@ -16,19 +16,22 @@ import { CountdownHero } from "@/components/app/countdown-hero";
 import { TodayPlan } from "@/components/app/today-plan";
 import { LevelCard } from "@/components/app/level-card";
 import { InstallCard } from "@/components/app/install-card";
+import { LaunchBanner } from "@/components/app/launch-banner";
+import { getPlanStatus } from "@/server/entitlements";
 
 export default async function Home() {
   const user = await requireUser();
   const p = user.profile!;
   const tz = p.timezone;
   const today = todayIn(tz);
-  const [ctx, xp, streak, announcements, unread, memberships] = await Promise.all([
+  const [ctx, xp, streak, announcements, unread, memberships, plan] = await Promise.all([
     studyContext(user.id, tz, p.dailyStudyMinutes),
     xpSummary(user.id, tz),
     streakSummary(user.id, tz),
     homeAnnouncements(user.id, p.orgInterests),
     unreadNotifications(user.id),
     db.select({ org: schema.chapterMembers.org }).from(schema.chapterMembers).where(eq(schema.chapterMembers.userId, user.id)),
+    getPlanStatus(user.id),
   ]);
   const regionPref = ctx
     ? (await db.select().from(schema.orgPreferences).where(and(eq(schema.orgPreferences.userId, user.id), eq(schema.orgPreferences.org, ctx.event.org))))[0]
@@ -61,6 +64,7 @@ export default async function Home() {
       </header>
 
       <div className="stagger space-y-3">
+        {plan.source === "launch" && plan.detail ? <LaunchBanner endsOn={plan.detail} /> : null}
         <InstallCard />
 
         {announcements.map((a) => (

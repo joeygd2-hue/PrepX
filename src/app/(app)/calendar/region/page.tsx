@@ -3,7 +3,8 @@ import { eq, asc } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { ORGS, ORG_IDS } from "@/lib/orgs";
-import { BackHeader, Page } from "@/components/ui/page";
+import { Accent, BackHeader, Page, PageTitle } from "@/components/ui/page";
+import { SectionLabel } from "@/components/ui/card";
 import { RegionCard } from "./region-card";
 
 export const metadata: Metadata = { title: "Your competitions" };
@@ -20,16 +21,22 @@ export default async function Region() {
   return (
     <Page>
       <BackHeader href="/calendar" />
-      <h1 className="text-[2rem] font-semibold leading-tight tracking-tight">Your competitions</h1>
-      <p className="mt-2 text-muted">Choose which organizations&apos; dates you see and where you compete. If you&apos;re in a chapter, it uses your chapter&apos;s district or area.</p>
+      <PageTitle
+        title={
+          <>
+            Your <Accent>competitions</Accent>
+          </>
+        }
+        subtitle="Choose which organizations' dates you see and where you compete. If you're in a chapter, it uses your chapter's district or area."
+      />
       {ORG_IDS.map((o) => {
         const p = prefs.find((x) => x.org === o);
         const ch = chapters.find((c) => c.org === o && c.regionId);
         return (
           <section key={o} aria-labelledby={`org-${o}`}>
-            <h2 id={`org-${o}`} className="eyebrow mt-8 mb-3">
+            <SectionLabel id={`org-${o}`} className="mt-8">
               {ORGS[o].sectionLabel}
-            </h2>
+            </SectionLabel>
             <RegionCard
               org={o}
               showDates={p?.showDates ?? false}

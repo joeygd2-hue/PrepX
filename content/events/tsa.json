@@ -20,6 +20,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-architecture",
+     "label": "Architecture and construction"
     }
    },
    "team": "individual or team",
@@ -69,6 +73,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-architecture",
+     "label": "Architecture and construction"
     }
    },
    "team": "individual or team",
@@ -118,6 +126,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-architecture",
+     "label": "Architecture and construction"
     }
    },
    "team": "individual or team",
@@ -167,6 +179,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -216,6 +232,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -265,6 +285,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -314,6 +338,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -363,6 +391,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -412,6 +444,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -461,6 +497,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -510,6 +550,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -559,6 +603,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-media",
+     "label": "Media and design"
     }
    },
    "team": "individual or team",
@@ -608,6 +656,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -657,6 +709,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -706,6 +762,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -755,6 +815,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -804,6 +868,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -853,6 +921,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -902,6 +974,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-computing",
+     "label": "Computing and coding"
     }
    },
    "team": "individual or team",
@@ -951,6 +1027,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1000,6 +1080,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-biotech-forensics",
+     "label": "Biotechnology and forensics"
     }
    },
    "team": "individual or team",
@@ -1049,6 +1133,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1098,6 +1186,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1147,6 +1239,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1196,6 +1292,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1245,6 +1345,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1294,6 +1398,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-engineering",
+     "label": "Engineering and design"
     }
    },
    "team": "individual or team",
@@ -1343,6 +1451,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-biotech-forensics",
+     "label": "Biotechnology and forensics"
     }
    },
    "team": "individual or team",
@@ -1392,6 +1504,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-transportation",
+     "label": "Transportation and flight"
     }
    },
    "team": "individual or team",
@@ -1441,6 +1557,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-transportation",
+     "label": "Transportation and flight"
     }
    },
    "team": "individual or team",
@@ -1490,6 +1610,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-transportation",
+     "label": "Transportation and flight"
     }
    },
    "team": "individual or team",
@@ -1539,6 +1663,10 @@
     },
     "production": {
      "label": "Project / portfolio"
+    },
+    "knowledge": {
+     "clusterId": "tsa-transportation",
+     "label": "Transportation and flight"
     }
    },
    "team": "individual or team",
@@ -1585,6 +1713,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "tsa-leadership",
+     "label": "Leadership and speaking"
     }
    },
    "team": "individual or team",
@@ -1631,6 +1763,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "tsa-leadership",
+     "label": "Leadership and speaking"
     }
    },
    "team": "individual or team",
@@ -1677,6 +1813,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "tsa-leadership",
+     "label": "Leadership and speaking"
     }
    },
    "team": "individual or team",
@@ -1723,6 +1863,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "tsa-leadership",
+     "label": "Leadership and speaking"
     }
    },
    "team": "individual or team",
@@ -1769,6 +1913,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "tsa-leadership",
+     "label": "Leadership and speaking"
     }
    },
    "team": "individual or team",

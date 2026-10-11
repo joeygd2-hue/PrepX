@@ -4,8 +4,8 @@
  * a hash of their text so re-seeding does not duplicate them or break attempt history).
  */
 import { createHash } from "node:crypto";
-import { readFileSync } from "node:fs";
-import { sql } from "drizzle-orm";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { and, eq, notInArray, sql } from "drizzle-orm";
 import { db, schema } from "./index";
 
 const read = <T>(p: string): T => JSON.parse(readFileSync(new URL(`../../content/${p}`, import.meta.url), "utf8"));
@@ -97,28 +97,84 @@ type Unit = {
   flashcards: { term: string; definition: string }[];
 };
 
+type BankMeta = { org: "deca" | "fbla" | "hosa" | "tsa" | null; kind: "practice" | "skills"; code: string; name: string };
+type Resource = { title: string; url: string; publisher: string; kind: "official" | "textbook" | "course" | "reference" | "video" | "tool"; note?: string };
+
+const STUDY_DIR = new URL("../../content/study/", import.meta.url);
+const exists = (p: string) => existsSync(new URL(p, STUDY_DIR));
+
+/**
+ * Every folder in content/study is one bank. Official test banks are declared in the events
+ * files; practice and skills banks declare themselves in meta.json. Units come from 1.json,
+ * 2.json, … in numeric order, so unit ids stay stable when files are appended.
+ */
 async function seedStudy() {
-  const idx = read<{ banks: { clusterId: string; files: string[] }[] }>("study/index.json");
-  for (const bank of idx.banks) {
-    const units = bank.files.flatMap((file) => read<Unit[]>(`study/${file}`));
+  const banks = readdirSync(STUDY_DIR, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    .sort();
+  for (const bankId of banks) {
+    if (exists(`${bankId}/meta.json`)) {
+      const m = read<BankMeta>(`study/${bankId}/meta.json`);
+      const row = { id: bankId, org: m.org, kind: m.kind, code: m.code, name: m.name, questionCount: null, minutes: null, verification: "unverified" as const };
+      await db.insert(schema.examClusters).values(row).onConflictDoUpdate({ target: schema.examClusters.id, set: { org: m.org, kind: m.kind, code: m.code, name: m.name } });
+    }
+    const files = readdirSync(new URL(`${bankId}/`, STUDY_DIR))
+      .filter((f) => /^\d+\.json$/.test(f))
+      .sort((a, b) => parseInt(a) - parseInt(b));
+    const units = files.flatMap((file) => read<Unit[]>(`study/${bankId}/${file}`));
     let q = 0;
     for (const [i, u] of units.entries()) {
-      const unitId = `${bank.clusterId}-u${i + 1}`;
-      const unitRow = { id: unitId, clusterId: bank.clusterId, position: i + 1, title: u.title, objective: u.objective, body: u.body, examples: u.examples };
+      const unitId = `${bankId}-u${i + 1}`;
+      const unitRow = { id: unitId, clusterId: bankId, position: i + 1, title: u.title, objective: u.objective, body: u.body, examples: u.examples };
       await db.insert(schema.units).values(unitRow).onConflictDoUpdate({ target: schema.units.id, set: unitRow });
-      for (const qu of u.questions) {
-        const id = stableUuid(`${bank.clusterId}|${qu.stem}`);
+      const questions = u.questions.map((qu) => {
+        const id = stableUuid(`${bankId}|${qu.stem}`);
         const { choices, answer } = shuffleChoices(qu.choices, qu.answer, id);
-        const row = { id, clusterId: bank.clusterId, unitId, stem: qu.stem, choices, answerIndex: answer, explanation: qu.explanation, source: "prepx_original" as const };
-        await db.insert(schema.questions).values(row).onConflictDoUpdate({ target: schema.questions.id, set: row });
-        q++;
-      }
-      for (const fc of u.flashcards) {
-        const row = { id: stableUuid(`${bank.clusterId}|card|${fc.term}`), clusterId: bank.clusterId, unitId, term: fc.term, definition: fc.definition };
-        await db.insert(schema.flashcards).values(row).onConflictDoUpdate({ target: schema.flashcards.id, set: row });
-      }
+        return { id, clusterId: bankId, unitId, stem: qu.stem, choices, answerIndex: answer, explanation: qu.explanation, source: "prepx_original" as const };
+      });
+      if (questions.length)
+        await db
+          .insert(schema.questions)
+          .values(questions)
+          .onConflictDoUpdate({
+            target: schema.questions.id,
+            set: { unitId: sql`excluded.unit_id`, stem: sql`excluded.stem`, choices: sql`excluded.choices`, answerIndex: sql`excluded.answer_index`, explanation: sql`excluded.explanation` },
+          });
+      q += questions.length;
+      const cards = u.flashcards.map((fc) => ({ id: stableUuid(`${bankId}|card|${fc.term}`), clusterId: bankId, unitId, term: fc.term, definition: fc.definition }));
+      if (cards.length)
+        await db
+          .insert(schema.flashcards)
+          .values(cards)
+          .onConflictDoUpdate({ target: schema.flashcards.id, set: { unitId: sql`excluded.unit_id`, term: sql`excluded.term`, definition: sql`excluded.definition` } });
     }
-    log(`  ${bank.clusterId}: ${units.length} units, ${q} questions`);
+    let r = 0;
+    if (exists(`${bankId}/resources.json`)) {
+      const resources = read<Resource[]>(`study/${bankId}/resources.json`).map((x, position) => ({
+        id: stableUuid(`${bankId}|res|${x.url}`),
+        clusterId: bankId,
+        position,
+        title: x.title,
+        url: x.url,
+        publisher: x.publisher,
+        kind: x.kind,
+        note: x.note ?? "",
+      }));
+      if (resources.length) {
+        await db
+          .insert(schema.studyResources)
+          .values(resources)
+          .onConflictDoUpdate({
+            target: schema.studyResources.id,
+            set: { position: sql`excluded.position`, title: sql`excluded.title`, publisher: sql`excluded.publisher`, kind: sql`excluded.kind`, note: sql`excluded.note` },
+          });
+        // Resources removed from the file are removed from the app.
+        await db.delete(schema.studyResources).where(and(eq(schema.studyResources.clusterId, bankId), notInArray(schema.studyResources.id, resources.map((x) => x.id))));
+      }
+      r = resources.length;
+    }
+    if (units.length || r) log(`  ${bankId}: ${units.length} units, ${q} questions, ${r} resources`);
   }
 }
 

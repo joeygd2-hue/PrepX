@@ -12,7 +12,7 @@ test("advisor creates a chapter; student joins with a valid code after an invali
   await advisor.getByRole("checkbox").check();
   await advisor.getByRole("button", { name: "Create chapter" }).click();
   await advisor.waitForURL(/manage\?created=1/);
-  const code = (await advisor.locator("p.tracking-\\[0\\.3em\\]").textContent())!.trim();
+  const code = (await advisor.getByTestId("join-code").textContent())!.trim();
   expect(code).toMatch(/^[A-Z2-9]{6}$/);
 
   const student = await (await browser.newContext()).newPage();

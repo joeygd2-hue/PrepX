@@ -22,6 +22,7 @@ export default async function Manage({ params, searchParams }: { params: Promise
   const r = await roster(user.id, id);
   const checkins = await db.select().from(schema.checkins).where(and(eq(schema.checkins.chapterId, id))).orderBy(desc(schema.checkins.opensAt)).limit(5);
   const isAdvisor = m.role === "advisor";
+  const now = new Date();
   return (
     <Page>
       <BackHeader href={`/chapter?c=${id}`} title="Manage chapter" subtitle={c.name} />
@@ -34,20 +35,29 @@ export default async function Manage({ params, searchParams }: { params: Promise
       <SectionLabel>Meeting check-in</SectionLabel>
       <CheckinForm chapterId={id} />
       {checkins.length ? (
-        <ul className="mt-3 divide-y divide-border rounded-3xl border border-border px-5">
-          {checkins.map((ck) => (
-            <li key={ck.id} className="flex items-center justify-between gap-3 py-3 text-sm">
-              <span>
-                <span className="font-medium">{ck.title}</span> · +{ck.points} pts · {ck.opensAt.toLocaleDateString("en-US", { month: "short", day: "numeric" })}
-              </span>
-              {ck.closesAt > new Date() ? <CloseCheckin id={ck.id} /> : <span className="text-muted">Closed</span>}
-            </li>
-          ))}
+        <ul className="mt-3 divide-y divide-border overflow-hidden rounded-[24px] border border-border bg-card px-4 shadow-card sm:px-5">
+          {checkins.map((ck) => {
+            const open = ck.closesAt > now;
+            return (
+              <li key={ck.id} className="flex items-center justify-between gap-3 py-3.5">
+                <span className="min-w-0">
+                  <span className="flex items-center gap-2 font-medium tracking-[-0.01em]">
+                    {open ? <span aria-hidden className="size-2 shrink-0 rounded-full bg-accent shadow-[inset_0_0_0_1px_color-mix(in_oklab,var(--fg)_25%,transparent)]" /> : null}
+                    <span className="truncate">{ck.title}</span>
+                  </span>
+                  <span className="mt-0.5 block font-mono text-xs text-muted tabular">
+                    +{ck.points} pts · {ck.opensAt.toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+                  </span>
+                </span>
+                {open ? <CloseCheckin id={ck.id} /> : <span className="shrink-0 text-sm text-muted">Closed</span>}
+              </li>
+            );
+          })}
         </ul>
       ) : null}
 
       <SectionLabel>Members ({r.members.length})</SectionLabel>
-      <ul className="divide-y divide-border rounded-3xl border border-border px-5">
+      <ul className="divide-y divide-border overflow-hidden rounded-[24px] border border-border bg-card px-4 shadow-card sm:px-5">
         {r.members.map((mm) => (
           <MemberRow
             key={mm.userId}

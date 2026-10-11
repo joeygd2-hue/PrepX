@@ -5,6 +5,7 @@
     { "feature": "judge_run", "label": "AI judge role-plays", "freeLimit": 1, "proLimit": 15, "period": "day" },
     { "feature": "judge_questions", "label": "Judge question drills", "freeLimit": 1, "proLimit": 10, "period": "day" },
     { "feature": "explain_back", "label": "Explain-it-back checks", "freeLimit": 5, "proLimit": 100, "period": "day" },
+    { "feature": "ask_ai", "label": "Ask AI explanations", "freeLimit": 20, "proLimit": 300, "period": "day" },
     { "feature": "full_exam", "label": "Full practice exams", "freeLimit": 2, "proLimit": -1, "period": "season" },
     { "feature": "entry_check", "label": "Written entry checks", "freeLimit": 1, "proLimit": 20, "period": "season" },
     { "feature": "presentation_check", "label": "Presentation checks", "freeLimit": 1, "proLimit": 20, "period": "season" },

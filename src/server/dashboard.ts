@@ -4,6 +4,7 @@ import { db, schema } from "@/db";
 import { daysUntil, todayIn, daysBetween } from "@/lib/dates";
 import { buildPlan, dailyTasks } from "@/lib/plan";
 import { XP } from "@/lib/levels";
+import { skillBanksFor, studyBankFor } from "@/lib/banks";
 import { activeSelection, awardXp, openMistakes, planStats, unitMastery } from "./progress";
 
 export type Target = {
@@ -22,7 +23,7 @@ export type Target = {
 };
 
 /** The competition (or custom date) a selection is counting down to. */
-export async function resolveTarget(userId: string, sel: typeof schema.eventSelections.$inferSelect, tz: string): Promise<Target | null> {
+export async function resolveTarget(userId: string, sel: typeof schema.eventSelections.$inferSelect, tz: string, now: Date = new Date()): Promise<Target | null> {
   if (sel.targetDate) {
     return { kind: "custom", name: "Your target date", shortName: "your competition", startsOn: sel.targetDate, endsOn: sel.targetDate, location: null, status: "confirmed", statusNote: "Date you entered", sourceUrl: null, competitionId: null, dateChanged: false, org: sel.org };
   }
@@ -30,7 +31,7 @@ export async function resolveTarget(userId: string, sel: typeof schema.eventSele
   if (sel.competitionId) [comp] = await db.select().from(schema.competitions).where(eq(schema.competitions.id, sel.competitionId));
   if (!comp) {
     const [pref] = await db.select().from(schema.orgPreferences).where(and(eq(schema.orgPreferences.userId, userId), eq(schema.orgPreferences.org, sel.org)));
-    const today = todayIn(tz);
+    const today = todayIn(tz, now);
     const candidates = await db
       .select()
       .from(schema.competitions)
@@ -75,17 +76,54 @@ export async function studyContext(userId: string, tz: string, minutesPerDay: nu
   const { stats, shape } = await planStats(userId, event, tz);
   const startedWith = target ? daysBetween(todayIn(tz, sel.selectedAt), target.startsOn) : null;
   const plan = buildPlan(daysLeft, shape, stats, startedWith);
-  const clusterId = event.components.exam?.clusterId;
-  const cluster = clusterId ? (await db.select().from(schema.examClusters).where(eq(schema.examClusters.id, clusterId)))[0] : undefined;
+  const bank = studyBankFor(event.components);
+  const cluster = bank ? (await db.select().from(schema.examClusters).where(eq(schema.examClusters.id, bank.id)))[0] : undefined;
+  const [{ questions }] = bank
+    ? await db
+        .select({ questions: sql<number>`count(*)::int` })
+        .from(schema.questions)
+        .where(and(eq(schema.questions.clusterId, bank.id), eq(schema.questions.status, "published")))
+    : [{ questions: 0 }];
+  // Only plan practice tasks against a bank that has something to practice.
+  const practiceBank = cluster && questions > 0 ? cluster : undefined;
   const tasks = await ensureTodayTasks(userId, event, tz, {
     daysLeft,
     minutesPerDay,
-    examClusterId: clusterId,
-    examLabel: cluster?.name,
+    examClusterId: practiceBank?.id,
+    examLabel: practiceBank ? (bank?.official ? practiceBank.name : bank?.label) : undefined,
     shape,
     competitionName: target?.shortName ?? null,
   });
-  return { sel, event, target, daysLeft, stats, shape, plan, cluster: cluster ?? null, tasks };
+  return {
+    sel,
+    event,
+    target,
+    daysLeft,
+    stats,
+    shape,
+    plan,
+    cluster: cluster ?? null,
+    bank: bank && cluster ? { ...bank, questions } : null,
+    skills: await skillBankSummaries(skillBanksFor(event.components)),
+    tasks,
+  };
+}
+
+/** Skills banks that have lessons, with their lesson counts. */
+async function skillBankSummaries(ids: string[]) {
+  if (!ids.length) return [];
+  const rows = await db
+    .select({ id: schema.examClusters.id, name: schema.examClusters.name, lessons: sql<number>`count(${schema.units.id})::int` })
+    .from(schema.examClusters)
+    .innerJoin(schema.units, eq(schema.units.clusterId, schema.examClusters.id))
+    .where(inArray(schema.examClusters.id, ids))
+    .groupBy(schema.examClusters.id);
+  return ids.map((id) => rows.find((r) => r.id === id)).filter((r) => r !== undefined);
+}
+
+/** Curated external resources for a bank, in authoring order. */
+export async function bankResources(clusterId: string) {
+  return db.select().from(schema.studyResources).where(eq(schema.studyResources.clusterId, clusterId)).orderBy(asc(schema.studyResources.position));
 }
 
 async function ensureTodayTasks(

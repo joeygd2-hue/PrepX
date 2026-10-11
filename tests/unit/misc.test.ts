@@ -4,6 +4,7 @@ import { levelFor } from "@/lib/levels";
 import { earnedAchievements } from "@/lib/achievements";
 import { buildIcs, googleCalendarUrl } from "@/lib/ics";
 import { randomAlias } from "@/lib/alias";
+import { skillBanksFor, studyBankFor } from "@/lib/banks";
 import { isJoinCodeShape, joinCode, normalizeJoinCode, sixDigitCode } from "@/lib/crypto";
 import { ageOn } from "@/lib/age";
 
@@ -70,5 +71,18 @@ describe("age gate", () => {
 describe("randomAlias", () => {
   it("is an adjective, an animal and a two-digit number", () => {
     for (let i = 0; i < 50; i++) expect(randomAlias()).toMatch(/^[A-Z][a-z]+ [A-Z][a-z]+ [1-9]\d$/);
+  });
+});
+
+describe("study banks", () => {
+  it("uses the official test bank first, then the knowledge bank", () => {
+    expect(studyBankFor({ exam: { clusterId: "deca-mkt", label: "Marketing exam" }, roleplay: {} })).toEqual({ id: "deca-mkt", official: true, label: "Marketing exam" });
+    expect(studyBankFor({ knowledge: { clusterId: "tsa-computing", label: "Computing and coding" }, production: { label: "Project" } })).toEqual({ id: "tsa-computing", official: false, label: "Computing and coding" });
+    expect(studyBankFor({ presentation: { label: "Talk" } })).toBeNull();
+  });
+  it("maps each event component to a skills bank once, in order", () => {
+    expect(skillBanksFor({ exam: { clusterId: "x", label: "x" }, roleplay: {}, spelldown: true })).toEqual(["skills-roleplay", "skills-test"]);
+    expect(skillBanksFor({ written: { label: "Plan" }, presentation: { label: "Pitch" } })).toEqual(["skills-presentation", "skills-written"]);
+    expect(skillBanksFor({ spelldown: false })).toEqual([]);
   });
 });

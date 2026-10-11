@@ -4,9 +4,10 @@ import { revalidatePath } from "next/cache";
 import { eq, sql } from "drizzle-orm";
 import { z } from "zod";
 import { db, schema } from "@/db";
-import { userOrThrow, destroySession } from "@/server/auth/session";
+import { getCurrentUser, userOrThrow, destroySession } from "@/server/auth/session";
 import { xpSummary } from "@/server/progress";
 import { deleteAccount } from "@/server/account";
+import { SubscriptionCancelError } from "@/server/billing";
 import { sendEmail } from "@/server/email";
 import { rateLimit } from "@/server/ratelimit";
 import { ACCENTS } from "@/lib/levels";
@@ -131,11 +132,29 @@ export async function submitFeedback(_: FormState, form: FormData): Promise<Form
 /* ───────── Account deletion ───────── */
 
 export async function deleteMyAccount(_: FormState, form: FormData): Promise<FormState> {
-  const user = await userOrThrow();
+  // Works mid-onboarding too, so anyone who can sign in can delete their account.
+  const user = await getCurrentUser();
+  if (!user) redirect("/sign-in");
   if (String(form.get("confirm") ?? "").trim().toUpperCase() !== "DELETE") return { error: 'Type DELETE to confirm.' };
-  await deleteAccount(user.id, "user_request");
+  try {
+    await deleteAccount(user.id, "user_request");
+  } catch (e) {
+    if (e instanceof SubscriptionCancelError) return { error: "We couldn't cancel your subscription, so nothing was deleted. Please try again in a few minutes." };
+    throw e;
+  }
   await destroySession();
   redirect("/sign-in?deleted=1");
+}
+
+/** "Cancel sign-up" on the onboarding screens: deletes an account that hasn't finished onboarding. */
+export async function cancelSignUp(): Promise<void> {
+  const user = await getCurrentUser();
+  if (!user) redirect("/sign-in");
+  // A finished account is deleted only from Profile, with the typed confirmation.
+  if (user.profile?.onboardingCompletedAt) redirect("/");
+  await deleteAccount(user.id, "sign_up_cancelled");
+  await destroySession();
+  redirect("/sign-in");
 }
 
 export async function signOut() {

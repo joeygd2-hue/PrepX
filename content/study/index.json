@@ -1,8 +1,0 @@
-{
-  "note": "All lessons, questions and flashcards here are original PrepX content written for practice. They are aligned to publicly described exam topic areas but are not official competition materials.",
-  "banks": [
-    { "clusterId": "deca-bac", "files": ["deca-bac-1.json", "deca-bac-2.json", "deca-bac-3.json"] },
-    { "clusterId": "hosa-mt", "files": ["hosa-mt.json"] },
-    { "clusterId": "hosa-mm", "files": ["hosa-mm.json"] }
-  ]
-}

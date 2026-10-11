@@ -1459,6 +1459,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-epi",
+     "label": "Public health and epidemiology"
     }
    },
    "team": "individual or team",
@@ -1505,6 +1509,10 @@
    "components": {
     "presentation": {
      "label": "Poster"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
     }
    },
    "team": "individual",
@@ -1554,6 +1562,10 @@
     },
     "presentation": {
      "label": "Writing"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
     }
    },
    "team": "individual",
@@ -1600,6 +1612,10 @@
    "components": {
     "presentation": {
      "label": "Photography"
+    },
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Health careers"
     }
    },
    "team": "individual",
@@ -1646,6 +1662,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-nut",
+     "label": "Nutrition and healthy living"
     }
    },
    "team": "individual",
@@ -1690,7 +1710,11 @@
    "category": "Leadership",
    "formatLabel": "Interview",
    "components": {
-    "interview": {}
+    "interview": {},
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Career development"
+    }
    },
    "team": "individual",
    "verification": "unverified",
@@ -1734,7 +1758,11 @@
    "category": "Leadership",
    "formatLabel": "Interview",
    "components": {
-    "interview": {}
+    "interview": {},
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Career development"
+    }
    },
    "team": "individual",
    "verification": "unverified",
@@ -1780,6 +1808,10 @@
    "components": {
     "presentation": {
      "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
     }
    },
    "team": "individual",
@@ -1829,6 +1861,10 @@
     },
     "presentation": {
      "label": "Writing + Speech"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
     }
    },
    "team": "individual",
@@ -1875,6 +1911,10 @@
    "components": {
     "presentation": {
      "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
     }
    },
    "team": "individual",
@@ -1921,6 +1961,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "Community and world health"
     }
    },
    "team": "team",
@@ -2067,6 +2111,10 @@
    "components": {
     "presentation": {
      "label": "Display + Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Health careers"
     }
    },
    "team": "team",
@@ -2113,6 +2161,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "Community and world health"
     }
    },
    "team": "team",
@@ -2259,6 +2311,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-bet",
+     "label": "Biomedical technology"
     }
    },
    "team": "team",
@@ -2355,6 +2411,10 @@
    "components": {
     "presentation": {
      "label": "Video + Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "Community and world health"
     }
    },
    "team": "team",
@@ -2401,6 +2461,10 @@
    "components": {
     "presentation": {
      "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "World health"
     }
    },
    "team": "team",

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { and, eq, sql } from "drizzle-orm";
-import { ArrowRight, BookOpen, Check, FileText, Flame, Gauge, Globe, History, Layers, MessageCircle, MessagesSquare, Mic, Presentation, Repeat, Timer, User, Zap, Layers3 } from "lucide-react";
+import { eq, sql } from "drizzle-orm";
+import { ArrowRight, BookOpen, Check, FileText, Flame, Gauge, Globe, GraduationCap, History, Layers, Layers3, Library, Link2, MessageCircle, MessagesSquare, Mic, PlayCircle, Presentation, Repeat, ScrollText, Timer, User, Wrench, Zap } from "lucide-react";
 import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
-import { studyContext } from "@/server/dashboard";
+import { bankResources, studyContext } from "@/server/dashboard";
 import { examStats, openMistakes, streakSummary, xpSummary } from "@/server/progress";
 import { getAllowance, getPlanStatus } from "@/server/entitlements";
 import { readiness } from "@/lib/plan";
@@ -22,6 +22,8 @@ import { PlanCard } from "@/components/app/plan-card";
 import { ReadinessCard } from "@/components/app/readiness-card";
 import { TodayPlan } from "@/components/app/today-plan";
 import { LevelCard } from "@/components/app/level-card";
+import { LaunchBanner } from "@/components/app/launch-banner";
+import { AskAiButton } from "@/components/app/ask-ai";
 import { features } from "@/lib/env";
 
 export const metadata: Metadata = { title: "Study" };
@@ -36,8 +38,9 @@ export default async function Study() {
 
   return (
     <Page>
-      <PageTitle eyebrow="Study" title={<>Your <Accent>event</Accent></>} />
+      <PageTitle eyebrow="Study" title={<>Your <Accent>event</Accent></>} right={<AskAiButton className="mt-1 shrink-0" />} />
       <OrgSwitcher value={org} />
+      <div key={org} className="org-swap">
       {!ctx ? (
         <Card tone="inverse" className="mt-5 p-6 shadow-float sm:p-8">
           <HeroTexture />
@@ -53,13 +56,14 @@ export default async function Study() {
       ) : (
         <StudyBody userId={user.id} tz={tz} ctx={ctx} xp={xp} />
       )}
+      </div>
     </Page>
   );
 }
 
 async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; ctx: NonNullable<Awaited<ReturnType<typeof studyContext>>>; xp: Awaited<ReturnType<typeof xpSummary>> }) {
-  const { event, plan, shape, stats, cluster } = ctx;
-  const r = readiness(shape, stats);
+  const { event, plan, shape, bank, skills } = ctx;
+  const r = readiness(shape, ctx.stats);
   const plan$ = await getPlanStatus(userId);
   const [judge, coach, fullExam, entry, pres] = await Promise.all([
     getAllowance(userId, "judge_run", tz, plan$),
@@ -69,23 +73,23 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
     getAllowance(userId, "presentation_check", tz, plan$),
   ]);
   const left = (a: { unlimited: boolean; remaining: number }, unit: string, period = "today") => (a.unlimited ? "Unlimited" : `${a.remaining} ${unit}${a.remaining === 1 ? "" : "s"} left${period ? ` ${period}` : ""}`);
-  const clusterId = cluster?.id;
-  const ex = clusterId ? await examStats(userId, clusterId) : null;
+  const bankId = bank?.id;
+  const ex = bankId ? await examStats(userId, bankId) : null;
   const streak = await streakSummary(userId, tz);
-  const mistakes = clusterId ? await openMistakes(userId, clusterId) : 0;
-  const [unitCount] = clusterId ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.units).where(eq(schema.units.clusterId, clusterId)) : [{ n: 0 }];
-  const [cardCount] = clusterId ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.flashcards).where(eq(schema.flashcards.clusterId, clusterId)) : [{ n: 0 }];
-  const [bank] = clusterId
-    ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.questions).where(and(eq(schema.questions.clusterId, clusterId), eq(schema.questions.status, "published")))
-    : [{ n: 0 }];
-  const exQ = clusterId ? `exam=${encodeURIComponent(clusterId)}` : "";
-  const qCount = Math.min(cluster?.questionCount ?? 100, bank.n);
-
+  const mistakes = bankId ? await openMistakes(userId, bankId) : 0;
+  const [unitCount] = bankId ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.units).where(eq(schema.units.clusterId, bankId)) : [{ n: 0 }];
+  const [cardCount] = bankId ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.flashcards).where(eq(schema.flashcards.clusterId, bankId)) : [{ n: 0 }];
+  const resources = bankId ? await bankResources(bankId) : [];
+  const exQ = bankId ? `exam=${encodeURIComponent(bankId)}` : "";
+  const qCount = Math.min(ctx.cluster?.questionCount ?? 100, bank?.questions ?? 0);
+  const bankLabel = bank ? (bank.official ? (ctx.cluster?.name ?? bank.label) : bank.label) : "";
+  const orgName = ORGS[event.org as OrgId].name;
   const judgeTitle = event.components.presentation && !event.components.roleplay && !event.components.caseStudy ? "Presentation judge" : "Role-play judge";
 
   return (
     <div className="mt-5">
       <div className="stagger space-y-3">
+        {plan$.source === "launch" && plan$.detail ? <LaunchBanner endsOn={plan$.detail} /> : null}
         <EventSummary
           event={event}
           action={
@@ -100,6 +104,49 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
         <LevelCard level={xp.level} total={xp.total} week={xp.week} />
       </div>
 
+      {bank ? (
+        <>
+          <SectionLabel>{bankLabel}</SectionLabel>
+          <div className="space-y-3">
+            {!bank.official ? (
+              <p className="text-sm text-muted">
+                {event.name} has no {orgName} test, so this is practice for the knowledge judges expect you to use.
+              </p>
+            ) : null}
+            <StatStrip
+              items={[
+                { icon: <Flame />, value: String(streak.current), label: "day streak" },
+                { icon: <Check />, value: ex?.last100Accuracy !== null && ex?.last100Accuracy !== undefined ? `${Math.round(ex.last100Accuracy * 100)}%` : "–", label: "accuracy" },
+                { icon: <Layers3 />, value: String(ex?.answered ?? 0), label: "questions done" },
+              ]}
+            />
+            {bank.questions === 0 ? (
+              <Notice>Lessons and practice questions for {bankLabel} are being added. Meanwhile, use the AI coach, explain-it-back and the format lessons below.</Notice>
+            ) : (
+              <TileGrid cols={3}>
+                <Tile href={`/study/practice?${exQ}&mode=quick10`} tone="accent" icon={<Zap />} title="Quick 10" subtitle="10 questions, instant explanations" />
+                <Tile href={`/study/learn?${exQ}`} icon={<BookOpen />} title="Lessons" subtitle={`${unitCount.n} units · short lessons with quick checks`} />
+                {bank.official ? (
+                  <Tile
+                    href={`/study/practice?${exQ}&mode=full`}
+                    icon={<FileText />}
+                    title="Full practice exam"
+                    subtitle={`${qCount} questions${ctx.cluster?.minutes ? ` · ${ctx.cluster.minutes} min` : ""}, like the real test`}
+                    meta={<Chip>{left(fullExam, "exam", "this season")}</Chip>}
+                  />
+                ) : null}
+                {bank.official ? <Tile href={`/study/practice?${exQ}&mode=rehearsal`} icon={<Timer />} title="Test-day rehearsal" subtitle="No pausing, auto-submit, compare with last time" /> : null}
+                <Tile href={`/study/practice?${exQ}&mode=mistakes`} icon={<Repeat />} title="Mistake notebook" subtitle={mistakes ? `${mistakes} to clear · misses stay until you've got them` : "Every miss lands here until you've got it down"} />
+                <Tile href={`/study/practice?${exQ}&mode=sprint`} icon={<Gauge />} title="60-second sprint" subtitle="As many as you can in a minute" />
+                <Tile href={`/study/explain?${exQ}`} icon={<MessagesSquare />} title="Explain it back" subtitle="Say a key term in your own words" />
+                <Tile href={`/study/flashcards?${exQ}`} icon={<Layers />} title="Flashcards" subtitle={`${cardCount.n} key terms`} />
+                <Tile href={`/study/history?${exQ}`} icon={<History />} title="Attempt history" subtitle="Scores over time and by topic" />
+              </TileGrid>
+            )}
+          </div>
+        </>
+      ) : null}
+
       <SectionLabel>Practice with AI</SectionLabel>
       <div className="space-y-3">
         {!features.ai() ? <Notice tone="warning">AI practice isn&apos;t configured on this server yet, so the judge and coach are unavailable. Practice tests, lessons and flashcards still work.</Notice> : null}
@@ -111,7 +158,7 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
               tone="hero"
               icon={<Mic />}
               title={judgeTitle}
-              subtitle={`A realistic round with an AI judge, then a ${ORGS[event.org as OrgId].name}-style practice score.`}
+              subtitle={`A realistic round with an AI judge, then a ${orgName}-style practice score.`}
               meta={<Chip tone="inverse">{left(judge, "run")}</Chip>}
               className="min-h-[13rem]"
             />
@@ -135,46 +182,39 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
         ) : null}
       </div>
 
-      {cluster ? (
+      {skills.length ? (
         <>
-          <SectionLabel>{cluster.name}</SectionLabel>
-          <div className="space-y-3">
-            <StatStrip
-              items={[
-                { icon: <Flame />, value: String(streak.current), label: "day streak" },
-                { icon: <Check />, value: ex?.last100Accuracy !== null && ex?.last100Accuracy !== undefined ? `${Math.round(ex.last100Accuracy * 100)}%` : "–", label: "accuracy" },
-                { icon: <Layers3 />, value: String(ex?.answered ?? 0), label: "questions done" },
-              ]}
-            />
-            {bank.n === 0 ? (
-              <Notice>
-                We don&apos;t have an original question bank for the {cluster.name} yet. You can still use the AI coach, explain-it-back and judge tools. Lessons and practice tests will appear here when content is added.
-              </Notice>
-            ) : (
-              <TileGrid cols={3}>
-                <Tile href={`/study/practice?${exQ}&mode=quick10`} tone="accent" icon={<Zap />} title="Quick 10" subtitle="10 questions, instant explanations" />
-                <Tile href={`/study/learn?${exQ}`} icon={<BookOpen />} title="Lessons" subtitle={`${unitCount.n} units · short lessons with quick checks`} />
-                <Tile
-                  href={`/study/practice?${exQ}&mode=full`}
-                  icon={<FileText />}
-                  title="Full practice exam"
-                  subtitle={`${qCount} questions${cluster.minutes ? ` · ${cluster.minutes} min` : ""}, like the real test`}
-                  meta={<Chip>{left(fullExam, "exam", "this season")}</Chip>}
-                />
-                <Tile href={`/study/practice?${exQ}&mode=rehearsal`} icon={<Timer />} title="Test-day rehearsal" subtitle="No pausing, auto-submit, compare with last time" />
-                <Tile href={`/study/practice?${exQ}&mode=mistakes`} icon={<Repeat />} title="Mistake notebook" subtitle={mistakes ? `${mistakes} to clear · misses stay until you've got them` : "Every miss lands here until you've got it down"} />
-                <Tile href={`/study/practice?${exQ}&mode=sprint`} icon={<Gauge />} title="60-second sprint" subtitle="As many as you can in a minute" />
-                <Tile href={`/study/explain?${exQ}`} icon={<MessagesSquare />} title="Explain it back" subtitle="Say a key term in your own words" />
-                <Tile href={`/study/flashcards?${exQ}`} icon={<Layers />} title="Flashcards" subtitle={`${cardCount.n} key terms for your exam`} />
-                <Tile href={`/study/history?${exQ}`} icon={<History />} title="Attempt history" subtitle="Scores over time and by topic" />
-              </TileGrid>
-            )}
-          </div>
+          <SectionLabel>Master the format</SectionLabel>
+          <TileGrid cols={3}>
+            {skills.map((s) => (
+              <Tile key={s.id} href={`/study/learn?exam=${encodeURIComponent(s.id)}`} tone="subtle" icon={<GraduationCap />} title={s.name} subtitle={`${s.lessons} short lesson${s.lessons === 1 ? "" : "s"} on how judges score it`} />
+            ))}
+          </TileGrid>
         </>
       ) : null}
+
+      <SectionLabel>Study resources</SectionLabel>
+      <ListGroup>
+        {event.sourceUrl ? (
+          <ListRow href={event.sourceUrl} newTab icon={<ScrollText />} title={`Official ${orgName} competitive events`} subtitle="Always confirm rules, time limits and rubrics in the official guidelines" />
+        ) : null}
+        {resources.map((res) => (
+          <ListRow key={res.id} href={res.url} newTab icon={RESOURCE_ICONS[res.kind] ?? <Link2 />} title={res.title} subtitle={`${res.publisher}${res.note ? ` · ${res.note}` : ""}`} />
+        ))}
+      </ListGroup>
+
       <p className="mt-8 text-xs leading-relaxed text-muted">
-        Practice scenarios and scores come from AI and are not official {ORGS[event.org as OrgId].name} materials or scores. Practice questions are original PrepX content.
+        Practice scenarios and scores come from AI and are not official {orgName} materials or scores. Lessons and practice questions are original PrepX content; linked resources belong to their publishers.
       </p>
     </div>
   );
 }
+
+const RESOURCE_ICONS: Record<string, React.ReactNode> = {
+  official: <ScrollText />,
+  textbook: <BookOpen />,
+  course: <GraduationCap />,
+  reference: <Library />,
+  video: <PlayCircle />,
+  tool: <Wrench />,
+};

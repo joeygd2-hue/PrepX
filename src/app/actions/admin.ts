@@ -6,6 +6,7 @@ import { z } from "zod";
 import { db, schema } from "@/db";
 import { requireRole } from "@/server/auth/session";
 import { notifyUsers } from "@/server/notify";
+import { setLaunchAccess as saveLaunchAccess } from "@/server/settings";
 import { generateQuestions } from "@/server/ai/tasks";
 import { AiFailedError, AiNotConfiguredError } from "@/server/ai/provider";
 
@@ -187,6 +188,26 @@ export async function saveLimit(_: FormState, form: FormData): Promise<FormState
   await audit(admin.id, "limit.update", p.data.feature, p.data);
   revalidatePath("/admin/limits");
   return { ok: "Saved." };
+}
+
+/**
+ * Free launch period (Pro for everyone until a date). Form: `endsOn` (YYYY-MM-DD) with the
+ * "save" intent, or the "end" intent to switch it off now. Admins only.
+ */
+export async function setLaunchAccess(_: FormState, form: FormData): Promise<FormState> {
+  const admin = await requireRole(["admin"]);
+  if (form.get("intent") === "end") {
+    await saveLaunchAccess(null, admin.id);
+    await audit(admin.id, "launch_access.end", "launch_access");
+    revalidatePath("/", "layout");
+    return { ok: "Launch access ended. Students are back on their own plans." };
+  }
+  const endsOn = ymd.safeParse(String(form.get("endsOn") ?? ""));
+  if (!endsOn.success) return { error: "Choose the last free day." };
+  await saveLaunchAccess(endsOn.data, admin.id);
+  await audit(admin.id, "launch_access.set", "launch_access", { endsOn: endsOn.data });
+  revalidatePath("/", "layout");
+  return { ok: `Everyone has Pro through ${endsOn.data}.` };
 }
 
 export async function setChapterFlags(chapterId: string, flags: { verified?: boolean; coversPro?: boolean }) {
