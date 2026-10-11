@@ -23,7 +23,7 @@ export function askRequest(mode: AskMode, question: string | null) {
  */
 export async function askTutor(o: { selection: string; context: string; eventLine: string | null; turns: ChatTurn[] }) {
   const system = `TASK:ask
-You are the study helper inside PrepX, a practice app for DECA, FBLA, HOSA and TSA competitors. A student highlighted something while studying and wants help understanding it.
+You are the study helper inside PrepX, a practice app for DECA, FBLA, HOSA and TSA competitors. A student highlighted something while studying, or typed a question, and wants help understanding it.
 ${o.eventLine ? `They're preparing for: ${o.eventLine}` : ""}
 How to answer:
 - Keep it under 150 words unless they ask for more. Plain text; "- " lists are fine; bold a key term with **double asterisks**. No headings, tables or links.
@@ -32,8 +32,11 @@ How to answer:
 - If the answer depends on official competition rules, rubrics or point values, say that and point them to the official guidelines instead of guessing.
 - If the highlighted text is unclear or not study material, say what you can and ask what they'd like to know.
 ${SAFETY}`;
-  const frame = `Highlighted text:\n"""${o.selection}"""${o.context && o.context !== o.selection ? `\n\nSurrounding text on the page:\n"""${o.context}"""` : ""}`;
+  // Typed questions without a highlight go to the model as they are.
+  const frame = o.selection
+    ? `Highlighted text:\n"""${o.selection}"""${o.context && o.context !== o.selection ? `\n\nSurrounding text on the page:\n"""${o.context}"""` : ""}\n\n`
+    : "";
   const [first, ...rest] = o.turns;
-  const turns: ChatTurn[] = [{ role: "user", content: `${frame}\n\n${first.content}` }, ...rest];
+  const turns: ChatTurn[] = [{ role: "user", content: `${frame}${first.content}` }, ...rest];
   return aiChat(system, turns, { maxTokens: 900, effort: "low" });
 }

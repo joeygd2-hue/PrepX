@@ -40,7 +40,7 @@ export async function askAi(input: z.input<typeof AskInput>): Promise<AskResult>
     const sel = await activeSelection(user.id, user.profile!.focusOrg);
     const turns: ChatTurn[] = [...history, { role: "user", content: request }];
     const answer = await withUsage(user.id, "ask_ai", tz, () =>
-      askTutor({ selection: selection || "(nothing highlighted; answer the question below)", context, eventLine: sel ? describeEvent(sel.event) : null, turns }),
+      askTutor({ selection, context: selection ? context : "", eventLine: sel ? describeEvent(sel.event) : null, turns }),
     );
     const left = await getAllowance(user.id, "ask_ai", tz);
     return { ok: true, answer, remaining: left.unlimited ? null : left.remaining, mock: features.aiIsMock() };

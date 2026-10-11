@@ -5,7 +5,7 @@ test("new student registers, onboards, picks an event and gets a dynamic countdo
   await newStudent(page, "reg", { first: "Jordan" });
   await expect(page.getByRole("heading", { name: "Choose your event" })).toBeVisible();
   await expect(page.getByText("HEALTH SCIENCE")).toHaveCount(0); // DECA chosen at onboarding
-  await page.getByLabel("Search").fill("finance");
+  await page.getByRole("searchbox", { name: "Search" }).fill("finance");
   await expect(page.getByRole("link", { name: /Principles of Finance/ })).toBeVisible();
   await expect(page.getByRole("link", { name: /Principles of Marketing/ })).toHaveCount(0);
   await choosePBM(page);
