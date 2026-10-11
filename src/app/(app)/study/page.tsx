@@ -120,13 +120,17 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
                 { icon: <Layers3 />, value: String(ex?.answered ?? 0), label: "questions done" },
               ]}
             />
-            {bank.questions === 0 ? (
+            {bank.questions === 0 && unitCount.n === 0 ? (
               <Notice>Lessons and practice questions for {bankLabel} are being added. Meanwhile, use the AI coach, explain-it-back and the format lessons below.</Notice>
             ) : (
               <TileGrid cols={3}>
-                <Tile href={`/study/practice?${exQ}&mode=quick10`} tone="accent" icon={<Zap />} title="Quick 10" subtitle="10 questions, instant explanations" />
-                <Tile href={`/study/learn?${exQ}`} icon={<BookOpen />} title="Lessons" subtitle={`${unitCount.n} units · short lessons with quick checks`} />
-                {bank.official ? (
+                {bank.questions > 0 ? (
+                  <Tile href={`/study/practice?${exQ}&mode=quick10`} tone="accent" icon={<Zap />} title="Quick 10" subtitle="10 questions, instant explanations" />
+                ) : null}
+                {unitCount.n > 0 ? (
+                  <Tile href={`/study/learn?${exQ}`} icon={<BookOpen />} title="Lessons" subtitle={`${unitCount.n} unit${unitCount.n === 1 ? "" : "s"} · short lessons with quick checks`} />
+                ) : null}
+                {bank.questions > 0 && bank.official ? (
                   <Tile
                     href={`/study/practice?${exQ}&mode=full`}
                     icon={<FileText />}
@@ -135,12 +139,12 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
                     meta={<Chip>{left(fullExam, "exam", "this season")}</Chip>}
                   />
                 ) : null}
-                {bank.official ? <Tile href={`/study/practice?${exQ}&mode=rehearsal`} icon={<Timer />} title="Test-day rehearsal" subtitle="No pausing, auto-submit, compare with last time" /> : null}
-                <Tile href={`/study/practice?${exQ}&mode=mistakes`} icon={<Repeat />} title="Mistake notebook" subtitle={mistakes ? `${mistakes} to clear · misses stay until you've got them` : "Every miss lands here until you've got it down"} />
-                <Tile href={`/study/practice?${exQ}&mode=sprint`} icon={<Gauge />} title="60-second sprint" subtitle="As many as you can in a minute" />
+                {bank.questions > 0 && bank.official ? <Tile href={`/study/practice?${exQ}&mode=rehearsal`} icon={<Timer />} title="Test-day rehearsal" subtitle="No pausing, auto-submit, compare with last time" /> : null}
+                {bank.questions > 0 ? <Tile href={`/study/practice?${exQ}&mode=mistakes`} icon={<Repeat />} title="Mistake notebook" subtitle={mistakes ? `${mistakes} to clear · misses stay until you've got them` : "Every miss lands here until you've got it down"} /> : null}
+                {bank.questions > 0 ? <Tile href={`/study/practice?${exQ}&mode=sprint`} icon={<Gauge />} title="60-second sprint" subtitle="As many as you can in a minute" /> : null}
                 <Tile href={`/study/explain?${exQ}`} icon={<MessagesSquare />} title="Explain it back" subtitle="Say a key term in your own words" />
-                <Tile href={`/study/flashcards?${exQ}`} icon={<Layers />} title="Flashcards" subtitle={`${cardCount.n} key terms`} />
-                <Tile href={`/study/history?${exQ}`} icon={<History />} title="Attempt history" subtitle="Scores over time and by topic" />
+                {bank.questions > 0 ? <Tile href={`/study/flashcards?${exQ}`} icon={<Layers />} title="Flashcards" subtitle={`${cardCount.n} key terms`} /> : null}
+                {bank.questions > 0 ? <Tile href={`/study/history?${exQ}`} icon={<History />} title="Attempt history" subtitle="Scores over time and by topic" /> : null}
               </TileGrid>
             )}
           </div>
