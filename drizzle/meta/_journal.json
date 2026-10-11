@@ -36,6 +36,13 @@
       "when": 1791652329377,
       "tag": "0004_study_banks",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791696212838,
+      "tag": "0005_course_bookmarks_duels_planner",
+      "breakpoints": true
     }
   ]
 }

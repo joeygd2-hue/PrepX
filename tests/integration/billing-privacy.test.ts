@@ -275,6 +275,9 @@ describe("account deletion removes email-keyed data and feedback", () => {
 
 /** Tables that reference users.id, and where each is exported. A new user table must be added to one of these lists. */
 const EXPORTED: Record<string, string> = {
+  question_bookmarks: "questionBookmarks",
+  duels: "duelsCreated",
+  duel_entries: "duelEntries",
   users: "account",
   sessions: "sessions",
   profiles: "profile",

@@ -90,6 +90,10 @@ export const profiles = pgTable("profiles", {
   termsAcceptedAt: timestamp("terms_accepted_at", { withTimezone: true }),
   termsVersion: text("terms_version"),
   dailyStudyMinutes: integer("daily_study_minutes").notNull().default(20),
+  /** Study planner: minutes the student can study on each weekday (null = every day at dailyStudyMinutes). */
+  studyDays: jsonb("study_days").$type<Partial<Record<"mon" | "tue" | "wed" | "thu" | "fri" | "sat" | "sun", number>>>(),
+  /** Study planner: preferred local time for reminders, "HH:MM" 24-hour. */
+  studyReminderTime: text("study_reminder_time"),
   focusOrg: orgEnum("focus_org"),
   accentColor: text("accent_color").notNull().default("ink"),
   timezone: text("timezone").notNull().default("America/Chicago"),
@@ -353,6 +357,39 @@ export const mistakes = pgTable("mistakes", {
   lastMissedAt: createdAt(),
   clearedAt: timestamp("cleared_at", { withTimezone: true }),
 }, (t) => [primaryKey({ columns: [t.userId, t.questionId] })]);
+
+/** Saved questions with the student's private notes. */
+export const questionBookmarks = pgTable("question_bookmarks", {
+  userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  questionId: uuid("question_id").notNull().references(() => questions.id, { onDelete: "cascade" }),
+  note: text("note").notNull().default(""),
+  createdAt: createdAt(),
+  updatedAt: updatedAt(),
+}, (t) => [primaryKey({ columns: [t.userId, t.questionId] }), index("question_bookmarks_user_idx").on(t.userId, t.createdAt)]);
+
+/** Head-to-head duels: two students answer the same questions; most right wins (time breaks ties). */
+export const duels = pgTable("duels", {
+  id: id(),
+  clusterId: text("cluster_id").notNull().references(() => examClusters.id, { onDelete: "cascade" }),
+  creatorId: uuid("creator_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  opponentId: uuid("opponent_id").references(() => users.id, { onDelete: "set null" }),
+  /** 6-character invite code for opponents who aren't study buddies. */
+  code: text("code").notNull(),
+  questionIds: jsonb("question_ids").$type<string[]>().notNull(),
+  status: text("status").notNull().default("open"), // open | active | finished | expired | declined
+  createdAt: createdAt(),
+  expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(),
+}, (t) => [uniqueIndex("duels_code_idx").on(t.code), index("duels_creator_idx").on(t.creatorId), index("duels_opponent_idx").on(t.opponentId)]);
+
+export const duelEntries = pgTable("duel_entries", {
+  duelId: uuid("duel_id").notNull().references(() => duels.id, { onDelete: "cascade" }),
+  userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  attemptId: uuid("attempt_id").references(() => examAttempts.id, { onDelete: "set null" }),
+  correct: integer("correct"),
+  total: integer("total"),
+  elapsedSec: integer("elapsed_sec"),
+  finishedAt: timestamp("finished_at", { withTimezone: true }),
+}, (t) => [primaryKey({ columns: [t.duelId, t.userId] })]);
 
 export const lessonProgress = pgTable("lesson_progress", {
   userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),

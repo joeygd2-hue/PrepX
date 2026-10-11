@@ -14,6 +14,8 @@ export const MODES = {
   mistakes: { label: "Mistake notebook", instant: true, count: 20 },
   unit: { label: "Unit practice", instant: true, count: 10 },
   check: { label: "Lesson check", instant: true, count: 3 },
+  bookmarks: { label: "Bookmarked questions", instant: true, count: 20 },
+  duel: { label: "Head-to-head duel", instant: true, count: 10 },
 } as const;
 export type Mode = keyof typeof MODES;
 export const isMode = (m: unknown): m is Mode => typeof m === "string" && m in MODES;
@@ -47,13 +49,17 @@ async function pickQuestions(userId: string, clusterId: string, n: number, unitI
   return [...unseen, ...missed, ...rest].slice(0, n).map((p) => p.id);
 }
 
-export async function startAttempt(opts: { userId: string; tz: string; clusterId: string; mode: Mode; eventId?: string | null; unitId?: string | null }) {
+/**
+ * Starts (or resumes) a practice attempt. `questionIds` fixes the question list (duels use it
+ * so both players get the same questions); those ids must be published questions of the bank.
+ */
+export async function startAttempt(opts: { userId: string; tz: string; clusterId: string; mode: Mode; eventId?: string | null; unitId?: string | null; questionIds?: string[] }) {
   const { userId, clusterId, mode } = opts;
   const [cluster] = await db.select().from(schema.examClusters).where(eq(schema.examClusters.id, clusterId));
   if (!cluster) throw new ExamError("Exam not found.");
 
   // Resume an unfinished attempt of the same kind instead of starting over.
-  if (mode !== "sprint" && mode !== "check") {
+  if (mode !== "sprint" && mode !== "check" && !opts.questionIds) {
     const [open] = await db
       .select({ id: schema.examAttempts.id })
       .from(schema.examAttempts)
@@ -72,7 +78,15 @@ export async function startAttempt(opts: { userId: string; tz: string; clusterId
   }
 
   let ids: string[];
-  if (mode === "mistakes") {
+  if (opts.questionIds) {
+    const valid = await db
+      .select({ id: schema.questions.id })
+      .from(schema.questions)
+      .where(and(inArray(schema.questions.id, opts.questionIds), eq(schema.questions.clusterId, clusterId), eq(schema.questions.status, "published")));
+    const ok = new Set(valid.map((r) => r.id));
+    ids = opts.questionIds.filter((id) => ok.has(id));
+    if (ids.length !== opts.questionIds.length) throw new ExamError("Some of these questions are no longer available.");
+  } else if (mode === "mistakes") {
     const rows = await db
       .select({ id: schema.mistakes.questionId })
       .from(schema.mistakes)

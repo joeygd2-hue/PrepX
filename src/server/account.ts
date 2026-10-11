@@ -85,6 +85,10 @@ export async function exportAccount(userId: string) {
     lessonProgress: await db.select().from(schema.lessonProgress).where(eq(schema.lessonProgress.userId, userId)),
     flashcardReviews: await db.select().from(schema.flashcardReviews).where(eq(schema.flashcardReviews.userId, userId)),
     sprintBests: await db.select().from(schema.sprintBests).where(eq(schema.sprintBests.userId, userId)),
+    questionBookmarks: await db.select().from(schema.questionBookmarks).where(eq(schema.questionBookmarks.userId, userId)),
+    duelsCreated: await db.select().from(schema.duels).where(eq(schema.duels.creatorId, userId)),
+    duelsJoined: await db.select().from(schema.duels).where(eq(schema.duels.opponentId, userId)),
+    duelEntries: await db.select().from(schema.duelEntries).where(eq(schema.duelEntries.userId, userId)),
     aiSessions: await db.select().from(schema.aiSessions).where(eq(schema.aiSessions.userId, userId)),
     aiMessages: await db
       .select({ sessionId: schema.aiMessages.sessionId, role: schema.aiMessages.role, content: schema.aiMessages.content, createdAt: schema.aiMessages.createdAt })
