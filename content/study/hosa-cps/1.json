@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of the creative problem solving process",
+    "objective": "Identify the stages of a structured creative problem solving process, distinguish divergent from convergent thinking, and write a clear problem statement for a health care challenge.",
+    "body": "Creative problem solving is not random brainstorming. It is a repeatable process that moves a team from a messy situation to a workable, defensible solution. In a health science setting, the problems are often about patients, staff, access, cost or safety, so the process has to balance originality with practicality.\n\n**The basic stages.** Most models, including the widely taught Osborn-Parnes approach, follow a similar path:\n1. **Clarify the challenge**: gather facts, identify who is affected and decide what the real problem is.\n2. **Generate ideas**: produce many possible solutions without judging them.\n3. **Develop solutions**: evaluate, combine and strengthen the most promising ideas.\n4. **Plan for action**: decide who does what, when, with what resources, and how success will be measured.\n\n**Divergent and convergent thinking.** Each stage uses two kinds of thinking. **Divergent thinking** expands options: listing many ideas, questions or viewpoints. **Convergent thinking** narrows options: comparing, selecting and refining. Strong teams separate the two on purpose. If someone criticizes ideas while the group is still generating them, people stop sharing and the pool of options shrinks.\n\n**The problem statement.** A clear **problem statement** names the gap between the current situation and the desired one, the people affected and any limits. A useful format is an \"In what ways might we...\" question, for example: \"In what ways might we reduce missed follow-up appointments among teens at a rural clinic?\" It focuses on the goal without locking in a single solution.\n\n**Facts versus assumptions.** During clarification, sort what you know from what you are guessing. A **constraint** is a real limit, such as budget, staffing, time or patient privacy rules. An assumption is something the team believes but has not checked. Treating an assumption as a constraint can wipe out good ideas before they are considered.\n\n**Stakeholders.** A **stakeholder** is anyone affected by or able to affect the solution: patients, families, nurses, physicians, administrators, insurers and the community. Naming stakeholders early helps you spot needs and objections you might otherwise miss.\n\nIn competition, judges look for evidence that your team followed a logical process, not just that you landed on a clever idea. Being able to explain how you defined the problem and why you chose your solution is part of the score.\n\nThe most common mistake students make is jumping straight to a solution before defining the problem. A team that hears \"patients wait too long\" and immediately proposes hiring more staff may solve the wrong problem if the real cause is a scheduling bottleneck.",
+    "examples": [
+      "A team rewrites \"the cafeteria food is unhealthy\" as \"In what ways might we increase the number of students choosing a vegetable at lunch?\", which gives a goal they can measure.",
+      "While clarifying a hospital discharge problem, a team lists \"no extra budget\" as a constraint but marks \"patients won't use text reminders\" as an untested assumption.",
+      "A group spends ten minutes listing 30 ideas with no criticism, then switches to ranking them, keeping divergent and convergent thinking separate."
+    ],
+    "questions": [
+      {
+        "stem": "A team is asked to address long wait times in a school nurse's office. One member immediately says, \"We just need a second nurse.\" Which stage of the process is the team skipping?",
+        "choices": [
+          "Clarifying the challenge",
+          "Planning for action",
+          "Developing solutions",
+          "Presenting the solution"
+        ],
+        "answer": 0,
+        "explanation": "The team has not yet investigated causes or defined the real problem, which is the clarification stage. Developing solutions is the tempting distractor, but you cannot develop a solution well before knowing the problem it must solve."
+      },
+      {
+        "stem": "Which activity is the clearest example of divergent thinking?",
+        "choices": [
+          "Scoring each idea against cost and feasibility",
+          "Listing as many ways as possible to remind patients of appointments",
+          "Choosing the top two ideas by vote",
+          "Writing a timeline for the chosen idea"
+        ],
+        "answer": 1,
+        "explanation": "Divergent thinking expands options, so generating many reminder ideas fits. Scoring ideas against criteria is convergent because it narrows the list."
+      },
+      {
+        "stem": "Which is the strongest problem statement for a team studying low flu vaccination rates among staff at a clinic?",
+        "choices": [
+          "Staff are lazy about getting vaccinated.",
+          "We should require all staff to get vaccinated.",
+          "In what ways might we increase flu vaccination among clinic staff before flu season?",
+          "Flu vaccines are important for health care workers."
+        ],
+        "answer": 2,
+        "explanation": "It names a goal, a group and a time frame without locking in one solution. Requiring vaccination is a solution, not a problem statement, so it narrows the options too early."
+      },
+      {
+        "stem": "During idea generation, a teammate says, \"That will never work, it's too expensive,\" after each suggestion. What is the most likely effect?",
+        "choices": [
+          "The team will produce more creative ideas.",
+          "The team will reach a better final decision faster.",
+          "The team will avoid all unrealistic ideas safely.",
+          "Teammates will share fewer ideas and the option pool will shrink."
+        ],
+        "answer": 3,
+        "explanation": "Judging during the divergent phase discourages contributions. The idea that this speeds up a better decision is wrong because the best option may never be voiced."
+      },
+      {
+        "stem": "A team planning a hand-hygiene campaign writes, \"Nurses will ignore posters.\" No one has asked nurses. How should this be classified?",
+        "choices": [
+          "An untested assumption",
+          "A constraint",
+          "A stakeholder",
+          "An evaluation criterion"
+        ],
+        "answer": 0,
+        "explanation": "It is a belief the team has not checked, so it is an assumption. Calling it a constraint would wrongly treat it as a real limit and could eliminate good options."
+      },
+      {
+        "stem": "Which of the following is a true constraint for a team designing a new patient check-in system?",
+        "choices": [
+          "Patients prefer paper forms.",
+          "Patient health information must be kept private under federal law.",
+          "Younger staff will like the new system better.",
+          "The front desk is probably too busy to change."
+        ],
+        "answer": 1,
+        "explanation": "Privacy requirements such as HIPAA are real, external limits. Patient preference for paper is an unverified assumption, not a fixed limit."
+      },
+      {
+        "stem": "A team is improving access to a free dental clinic. Which group is a stakeholder they could easily overlook?",
+        "choices": [
+          "The clinic's dentists",
+          "Patients who need care",
+          "Families who provide transportation to appointments",
+          "The team members themselves"
+        ],
+        "answer": 2,
+        "explanation": "Transportation providers affect whether patients can reach care but are often missed. Dentists and patients are stakeholders too, but they are obvious ones."
+      },
+      {
+        "stem": "After choosing a peer health-mentoring program, a team assigns roles, sets a start date and decides to track attendance monthly. Which stage is this?",
+        "choices": [
+          "Generating ideas",
+          "Clarifying the challenge",
+          "Developing solutions",
+          "Planning for action"
+        ],
+        "answer": 3,
+        "explanation": "Assigning people, timelines and measures is action planning. Developing solutions is the distractor, but that stage refines the idea itself, not how it will be carried out."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Divergent thinking",
+        "definition": "Thinking that expands options by generating many ideas, questions or viewpoints without judging them."
+      },
+      {
+        "term": "Convergent thinking",
+        "definition": "Thinking that narrows options by comparing, selecting and refining ideas."
+      },
+      {
+        "term": "Problem statement",
+        "definition": "A clear description of the gap between the current and desired situation, often phrased as \"In what ways might we...\""
+      },
+      {
+        "term": "Constraint",
+        "definition": "A real limit on possible solutions, such as budget, time, staffing or privacy law."
+      },
+      {
+        "term": "Stakeholder",
+        "definition": "Anyone affected by or able to affect a solution, such as patients, families, staff or administrators."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Infection control and patient safety at the bedside",
+    "objective": "Apply standard and transmission-based precautions, perform hand hygiene correctly, and identify patients and hazards to keep care safe.",
+    "body": "Clinical nursing begins before any skill is performed. Every procedure starts with the same safety habits: clean hands, correct patient, explained procedure, privacy and a safe environment. Judges and test writers expect you to treat these steps as automatic.\n\n**Hand hygiene** is the single most effective way to prevent healthcare-associated infections. An **alcohol-based hand rub** is preferred when hands are not visibly soiled; rub all surfaces for about 20 seconds until dry. Wash with **soap and water** for at least 20 seconds when hands are visibly dirty, after contact with body fluids, and when caring for a patient with *Clostridioides difficile* or norovirus, because alcohol does not reliably kill spores. Perform hand hygiene before and after patient contact, before clean or aseptic tasks, after body-fluid exposure, and after touching the patient's surroundings.\n\n**Standard precautions** apply to every patient, regardless of diagnosis. They assume all blood, body fluids, non-intact skin and mucous membranes may be infectious. They include hand hygiene, using **personal protective equipment (PPE)** based on expected exposure, respiratory hygiene, safe sharps handling and cleaning of shared equipment.\n\n**Transmission-based precautions** are added for known or suspected infections:\n- **Contact precautions** (gown and gloves) for organisms spread by touch, such as MRSA or C. diff.\n- **Droplet precautions** (surgical mask within close range) for illnesses such as influenza or pertussis.\n- **Airborne precautions** (fit-tested N95 respirator and an airborne infection isolation room) for tuberculosis, measles and chickenpox.\n\nPPE order matters. A common sequence for **donning** is gown, mask or respirator, goggles or face shield, then gloves. For **doffing**, remove the most contaminated items first: gloves, then goggles, gown, and mask last, followed by hand hygiene.\n\n**Patient identification** uses at least two identifiers, such as full name and date of birth, checked against the wristband. A room number is never an identifier. Before care, also explain the procedure, provide privacy, raise the bed to working height and lock its wheels. When you leave, lower the bed, place the call light within reach and make sure side rails follow facility policy.\n\n**Body mechanics** protect both nurse and patient: keep a wide base of support, bend at the knees and hips, hold loads close to your body and avoid twisting. Use lift equipment and ask for help when a patient cannot assist.\n\nThe most common mistake students make is treating gloves as a substitute for hand hygiene. Gloves can have tiny defects and hands are contaminated during removal, so hand hygiene is still required before putting gloves on and immediately after taking them off.",
+    "examples": [
+      "A nursing assistant entering the room of a patient with C. diff puts on a gown and gloves and, when leaving, washes with soap and water instead of using hand rub.",
+      "Before giving a bed bath, a student checks the patient's name and date of birth against the wristband, closes the curtain and locks the bed wheels."
+    ],
+    "questions": [
+      {
+        "stem": "A nurse is about to enter the room of a patient with confirmed pulmonary tuberculosis. Which equipment is essential?",
+        "choices": [
+          "A surgical mask and gloves",
+          "A fit-tested N95 respirator",
+          "A gown and gloves only",
+          "A face shield without a mask"
+        ],
+        "answer": 1,
+        "explanation": "TB spreads by airborne particles, so airborne precautions require a fit-tested N95 respirator. A surgical mask is used for droplet precautions and does not filter the tiny airborne particles."
+      },
+      {
+        "stem": "A patient has diarrhea caused by Clostridioides difficile. After providing care, the nursing assistant should clean their hands by:",
+        "choices": [
+          "Using alcohol-based hand rub for 20 seconds",
+          "Washing with soap and water",
+          "Removing gloves and wiping hands on a towel",
+          "Applying hand rub twice"
+        ],
+        "answer": 1,
+        "explanation": "Alcohol does not reliably kill C. diff spores, so soap and water physically remove them. Repeating hand rub still does not inactivate spores."
+      },
+      {
+        "stem": "Which pair of identifiers is acceptable before performing care?",
+        "choices": [
+          "Room number and bed number",
+          "Name and diagnosis",
+          "Full name and date of birth",
+          "Name and room number"
+        ],
+        "answer": 2,
+        "explanation": "Two person-specific identifiers such as name and date of birth are required. Room numbers are locations, not identifiers, because patients move."
+      },
+      {
+        "stem": "When removing PPE after contact precautions, which item should generally come off first?",
+        "choices": [
+          "Gloves",
+          "Gown",
+          "Mask",
+          "Goggles"
+        ],
+        "answer": 0,
+        "explanation": "Gloves are the most contaminated item and are removed first in the common sequence. Removing the gown first risks contaminating hands with the soiled gloves still on."
+      },
+      {
+        "stem": "A student is about to enter a room and has no visible soil on their hands. Which hand hygiene method is preferred?",
+        "choices": [
+          "Soap and water for 60 seconds",
+          "Alcohol-based hand rub",
+          "Gloves without hand hygiene",
+          "Rinsing hands with water"
+        ],
+        "answer": 1,
+        "explanation": "Alcohol-based hand rub is preferred when hands are not visibly soiled because it is fast and effective. Soap and water is reserved for visible soil and certain organisms like spores."
+      },
+      {
+        "stem": "A patient with influenza is placed on droplet precautions. What should a caregiver wear when providing care within close range?",
+        "choices": [
+          "An N95 respirator in a negative-pressure room",
+          "A surgical mask",
+          "No mask if gloves are worn",
+          "A gown only"
+        ],
+        "answer": 1,
+        "explanation": "Droplet precautions require a surgical mask for close contact. An N95 and negative-pressure room are airborne precautions, more than routine influenza care requires."
+      },
+      {
+        "stem": "Before leaving a patient's room after care, which action best protects patient safety?",
+        "choices": [
+          "Raise the bed to working height",
+          "Leave the call light on the bedside table out of reach",
+          "Lower the bed and place the call light within reach",
+          "Unlock the bed wheels"
+        ],
+        "answer": 2,
+        "explanation": "A low bed and an accessible call light reduce fall risk. Leaving the bed raised increases injury if the patient tries to get up."
+      },
+      {
+        "stem": "A nursing assistant needs to move a heavy box of supplies. Which technique reflects proper body mechanics?",
+        "choices": [
+          "Bend at the waist with straight legs",
+          "Twist the trunk to set the box down",
+          "Hold the box close and bend at the knees and hips",
+          "Keep feet close together for balance"
+        ],
+        "answer": 2,
+        "explanation": "Holding loads close and bending the knees and hips uses the strong leg muscles and protects the back. Bending at the waist strains the lower back."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Standard precautions",
+        "definition": "Infection-control practices used with every patient, assuming all blood and body fluids may be infectious."
+      },
+      {
+        "term": "Airborne precautions",
+        "definition": "Precautions requiring a fit-tested N95 respirator and an airborne infection isolation room for diseases like TB and measles."
+      },
+      {
+        "term": "Droplet precautions",
+        "definition": "Precautions requiring a surgical mask for close contact with diseases spread by large respiratory droplets."
+      },
+      {
+        "term": "Contact precautions",
+        "definition": "Precautions using gown and gloves for organisms spread by direct or indirect touch, such as MRSA."
+      },
+      {
+        "term": "Patient identification",
+        "definition": "Confirming identity with at least two person-specific identifiers, such as name and date of birth."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "What makes a mass casualty incident different",
+    "objective": "Define a mass casualty incident, explain why it shifts care from the individual to the population, and identify the four triage categories and their colors.",
+    "body": "A **mass casualty incident (MCI)** is any event in which the number or severity of patients overwhelms the resources immediately available to care for them. The definition is relative, not a fixed number. Six injured people from a highway crash can be an MCI for a rural volunteer squad with one ambulance, while a large city system might handle the same scene routinely. What matters is the gap between **needs** and **resources**.\n\nThat gap changes the goal of care. In everyday emergency medicine, responders give each patient the best possible care. In an MCI, the goal becomes **doing the greatest good for the greatest number**. Responders accept that some patients will wait, and that time and supplies must go first to the people most likely to benefit from them.\n\nThe tool for making those decisions is **triage**, from the French word for sorting. Triage is fast, repeated and brief: a responder spends well under a minute per patient, performs only quick lifesaving actions, and moves on. Most U.S. systems use four color-coded categories:\n- **Immediate (red):** life-threatening problems that can likely be fixed with prompt care, such as severe bleeding or breathing trouble.\n- **Delayed (yellow):** serious injuries, but the patient can safely wait for treatment, such as a fracture without shock.\n- **Minor (green):** often called the \"walking wounded\"; injuries are minor and the patient can largely care for themselves.\n- **Expectant or deceased (black, sometimes gray for expectant):** patients who are dead or whose injuries are unlikely to be survivable with the resources available.\n\nTriage is never a one-time label. A patient's condition can improve or worsen, so responders **re-triage** at each stage: on scene, in the treatment area, at transport and again at the hospital. A green patient who becomes confused or pale should move up to red.\n\nMCIs come from many causes, including transportation crashes, building collapses, severe weather, fires, shootings, and chemical, biological or radiological releases. Planning that happens before the event, such as drills, mutual aid agreements and stocked supply caches, determines how well a community can close the gap between needs and resources when one occurs.\n\nThe most common mistake students make is thinking an MCI is defined by a specific casualty count. It is defined by resources being overwhelmed, so the same number of victims can be routine in one place and a full MCI in another.",
+    "examples": [
+      "A school bus rollover with 22 students on a rural road overwhelms the two ambulances in the county, so the first crew declares an MCI and requests mutual aid.",
+      "At a stadium, a responder tags a man with a broken wrist who walks to the collection point as green and keeps moving to unassessed patients.",
+      "A patient tagged yellow for a leg fracture becomes pale and confused while waiting, so a medic re-triages him to red."
+    ],
+    "questions": [
+      {
+        "stem": "A rural fire department with one ambulance responds to a van crash with seven injured passengers. Which statement best describes the situation?",
+        "choices": [
+          "It is not an MCI because fewer than ten people are injured",
+          "It is an MCI because the patients exceed the resources immediately available",
+          "It is an MCI only if at least one patient has died",
+          "It becomes an MCI only after a hospital declares a disaster"
+        ],
+        "answer": 1,
+        "explanation": "An MCI is defined by needs exceeding available resources, which one ambulance for seven patients does. A fixed casualty count, the main distractor, is a common myth; no universal number defines an MCI."
+      },
+      {
+        "stem": "During MCI triage, what is the guiding goal of care?",
+        "choices": [
+          "Give each patient the full assessment they would receive on a normal call",
+          "Treat the most severely injured patients first regardless of survivability",
+          "Do the greatest good for the greatest number of patients",
+          "Transport patients in the order they are found"
+        ],
+        "answer": 2,
+        "explanation": "MCI care shifts to population-level benefit. Treating the most severe first regardless of survivability is wrong because it can spend scarce resources on patients unlikely to survive while salvageable patients deteriorate."
+      },
+      {
+        "stem": "A patient has a closed, deformed forearm, is talking clearly and has no signs of shock, but cannot walk because of an ankle injury. Which category fits best?",
+        "choices": [
+          "Immediate (red)",
+          "Delayed (yellow)",
+          "Minor (green)",
+          "Expectant (black)"
+        ],
+        "answer": 1,
+        "explanation": "Serious but stable injuries that can wait are delayed. Green is tempting, but this patient cannot walk and has significant injuries, so minor does not fit."
+      },
+      {
+        "stem": "Which color is used for patients classified as minor or \"walking wounded\"?",
+        "choices": [
+          "Green",
+          "Red",
+          "Yellow",
+          "Black"
+        ],
+        "answer": 0,
+        "explanation": "Green identifies minor injuries. Yellow is the main distractor, but yellow means serious injuries that can safely wait, not minor ones."
+      },
+      {
+        "stem": "A responder tags a patient yellow. Twenty minutes later the patient is pale, sweaty and confused. What should happen?",
+        "choices": [
+          "Leave the tag unchanged because triage was already done",
+          "Move the patient to the green area to free up space",
+          "Tag the patient expectant because they worsened",
+          "Re-triage the patient, likely to immediate (red)"
+        ],
+        "answer": 3,
+        "explanation": "Triage is dynamic, and new signs of shock warrant upgrading to red. Leaving the tag unchanged ignores the core principle of re-triage."
+      },
+      {
+        "stem": "About how long should a responder typically spend on initial triage of each patient?",
+        "choices": [
+          "Under a minute",
+          "About five minutes",
+          "Ten to fifteen minutes",
+          "As long as it takes to complete a full head-to-toe exam"
+        ],
+        "answer": 0,
+        "explanation": "Initial triage is designed to be brief, usually well under a minute, so all patients get sorted quickly. A full head-to-toe exam belongs in the treatment phase, not initial sorting."
+      },
+      {
+        "stem": "Which action during initial triage is appropriate before moving to the next patient?",
+        "choices": [
+          "Splinting a suspected fractured leg",
+          "Applying direct pressure or a tourniquet to severe bleeding",
+          "Starting a full set of vital signs every five minutes",
+          "Cleaning and bandaging minor abrasions"
+        ],
+        "answer": 1,
+        "explanation": "Only quick lifesaving actions such as hemorrhage control belong in initial triage. Splinting is a real treatment but takes time and can be done later in the treatment area."
+      },
+      {
+        "stem": "A county holds tabletop drills, signs mutual aid agreements and stocks supply trailers. How does this affect a future MCI?",
+        "choices": [
+          "It changes the legal definition of an MCI for that county",
+          "It eliminates the need for triage",
+          "It narrows the gap between patient needs and available resources",
+          "It allows every patient to receive normal individual care"
+        ],
+        "answer": 2,
+        "explanation": "Preparedness increases and organizes resources, shrinking the needs-resources gap. It does not eliminate triage, because large events can still overwhelm even well-prepared systems."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Mass casualty incident (MCI)",
+        "definition": "An event in which the number or severity of patients overwhelms the resources immediately available."
+      },
+      {
+        "term": "Triage",
+        "definition": "Rapid sorting of patients by urgency and likelihood of benefit so limited resources do the most good."
+      },
+      {
+        "term": "Immediate (red)",
+        "definition": "Triage category for life-threatening but likely survivable injuries needing prompt care."
+      },
+      {
+        "term": "Delayed (yellow)",
+        "definition": "Triage category for serious injuries in patients who can safely wait for treatment."
+      },
+      {
+        "term": "Re-triage",
+        "definition": "Repeating triage at each stage because a patient's condition can improve or worsen."
+      }
+    ]
+  }
+]

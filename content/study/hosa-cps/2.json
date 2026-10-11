@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Generating and evaluating ideas for health challenges",
+    "objective": "Apply idea-generation techniques to health care scenarios, analyze root causes, and evaluate options with a decision matrix.",
+    "body": "Once the problem is defined, the team's job is to produce many options and then choose wisely. Both halves need tools, because groups under time pressure tend to grab the first decent idea.\n\n**Root cause analysis.** Before generating solutions, ask why the problem happens. The **5 Whys** technique repeats \"Why?\" until the team reaches a cause it can act on. Patients miss appointments. Why? They forget. Why? Reminders go to outdated phone numbers. Why? Contact information is not updated at check-in. Now the fix is clear and inexpensive. A **fishbone (cause-and-effect) diagram** organizes possible causes into categories such as people, processes, equipment and environment.\n\n**Idea-generation techniques.**\n- **Brainstorming**: say ideas aloud, aim for quantity, defer judgment and build on others' ideas.\n- **Brainwriting**: each person writes ideas silently, then passes them on to be expanded. This keeps quieter members from being drowned out.\n- **SCAMPER**: a checklist of prompts: Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse. Asking \"What could we eliminate?\" about a discharge process might reveal duplicate paperwork.\n- **Reverse brainstorming**: ask \"How could we make this worse?\" then flip each answer into a solution.\n\n**Evaluating ideas.** Convergence should rely on agreed **criteria**, such as cost, feasibility, time to implement, impact on patients and safety. A **decision matrix** lists options in rows and criteria in columns, scores each option, and may weight the criteria that matter most. If patient safety is weighted three times as heavily as cost, a cheap but risky idea will not win. The matrix makes the team's reasoning visible, which is valuable when explaining a choice to judges.\n\n**Combining ideas.** The best solution is often a hybrid. A text-reminder system and a check-in contact update may each be modest alone but strong together.\n\n**Thinking about evidence and ethics.** In health care, a creative idea still has to respect patient privacy, informed consent, scope of practice and evidence-based practice. A proposal for students to give medical advice on social media, for example, ignores scope of practice no matter how creative it is.\n\nThe most common mistake students make is evaluating ideas by gut feeling or by who argues loudest. Without stated criteria, the team cannot defend its choice, and judges notice when a solution was picked without a clear rationale.",
+    "examples": [
+      "Using SCAMPER's \"Combine\" prompt, a team merges a school walking club with a lunchtime music playlist to raise participation.",
+      "A team weights safety 3, impact 2 and cost 1 in its decision matrix, so a low-cost idea with a fall risk drops to third place.",
+      "Asking \"Why?\" five times about medication errors on a unit leads a team to discover that two drug labels look nearly identical."
+    ],
+    "questions": [
+      {
+        "stem": "A team learns that clinic patients miss follow-up visits. After repeatedly asking why, they find the clinic's reminder calls go to old phone numbers. Which technique did they use?",
+        "choices": [
+          "SCAMPER",
+          "5 Whys",
+          "Reverse brainstorming",
+          "Decision matrix"
+        ],
+        "answer": 1,
+        "explanation": "Repeatedly asking why to reach an actionable cause is the 5 Whys. A decision matrix evaluates solutions; it does not uncover causes."
+      },
+      {
+        "stem": "Two confident members dominate every brainstorm while three others stay silent. Which technique would best address this?",
+        "choices": [
+          "Brainwriting",
+          "Open verbal brainstorming",
+          "Majority vote",
+          "Fishbone diagram"
+        ],
+        "answer": 0,
+        "explanation": "Brainwriting has everyone write ideas silently, so all voices contribute. Open verbal brainstorming is the distractor because it is the very format letting two people dominate."
+      },
+      {
+        "stem": "A team asks, \"How could we make hospital discharge as confusing as possible?\" and then flips each answer. What technique is this?",
+        "choices": [
+          "SCAMPER",
+          "Root cause analysis",
+          "Reverse brainstorming",
+          "Brainwriting"
+        ],
+        "answer": 2,
+        "explanation": "Generating ways to worsen a problem, then reversing them, is reverse brainstorming. SCAMPER includes a Reverse prompt, but it is one item in a broader checklist, not this whole approach."
+      },
+      {
+        "stem": "A team's decision matrix weights patient safety at 3 and cost at 1. Option A scores safety 2, cost 5. Option B scores safety 4, cost 2. Which option wins and with what totals?",
+        "choices": [
+          "Option A, 11 to 14",
+          "Option A, 14 to 11",
+          "Both tie at 11",
+          "Option B, 14 to 11"
+        ],
+        "answer": 3,
+        "explanation": "A = 2x3 + 5x1 = 11; B = 4x3 + 2x1 = 14, so B wins. Choosing A comes from ignoring the weights, since unweighted A totals 7 and B totals 6."
+      },
+      {
+        "stem": "Applying the \"Eliminate\" prompt from SCAMPER to a crowded ER waiting room, which idea fits best?",
+        "choices": [
+          "Removing a duplicate paper form patients fill out twice",
+          "Adding a television to distract patients",
+          "Moving triage to a different floor",
+          "Combining the pharmacy and gift shop"
+        ],
+        "answer": 0,
+        "explanation": "Eliminate asks what can be removed, such as duplicate paperwork. Combining the pharmacy and gift shop reflects the Combine prompt instead."
+      },
+      {
+        "stem": "A team proposes that health science students answer anonymous medical questions on a public app and recommend treatments. What is the biggest problem with this idea?",
+        "choices": [
+          "It is not creative enough.",
+          "It exceeds the students' scope of practice and could harm people.",
+          "It would cost too much to build.",
+          "It targets the wrong age group."
+        ],
+        "answer": 1,
+        "explanation": "Students are not licensed to recommend treatments, so the idea is unsafe regardless of originality. Cost may also be a concern, but safety and scope of practice are the deciding flaws."
+      },
+      {
+        "stem": "A team sorts possible causes of patient falls into people, procedures, equipment and environment on a diagram. What tool are they using?",
+        "choices": [
+          "Decision matrix",
+          "Gantt chart",
+          "Fishbone diagram",
+          "SWOT analysis"
+        ],
+        "answer": 2,
+        "explanation": "A fishbone diagram groups causes into categories. A decision matrix compares solutions, not causes."
+      },
+      {
+        "stem": "Two ideas each score moderately in a decision matrix: weekend vaccine pop-ups and text reminders. What is the best next step?",
+        "choices": [
+          "Pick whichever idea was suggested first",
+          "Drop both and start over",
+          "Choose the cheaper one automatically",
+          "Consider combining them into a stronger hybrid solution"
+        ],
+        "answer": 3,
+        "explanation": "Complementary ideas often work better together. Choosing on cost alone ignores the other criteria the team agreed on."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "5 Whys",
+        "definition": "A root cause technique that repeatedly asks why a problem happens until reaching a cause the team can act on."
+      },
+      {
+        "term": "Brainwriting",
+        "definition": "Idea generation in which members write ideas silently and pass them along, giving quieter members an equal voice."
+      },
+      {
+        "term": "SCAMPER",
+        "definition": "An idea checklist: Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse."
+      },
+      {
+        "term": "Decision matrix",
+        "definition": "A table that scores options against agreed criteria, often with weights, to make a choice transparent."
+      },
+      {
+        "term": "Fishbone diagram",
+        "definition": "A cause-and-effect diagram that groups possible causes of a problem into categories."
+      }
+    ]
+  }
+]

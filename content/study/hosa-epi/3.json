@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Outbreak investigation, screening tests and surveillance systems",
+    "objective": "Apply the steps of an outbreak investigation, evaluate screening tests using sensitivity, specificity and predictive values, and judge causation with surveillance data and Bradford Hill criteria.",
+    "body": "Advanced epidemiology questions combine skills: investigating an outbreak, judging a diagnostic test, and deciding whether evidence supports cause.\n\n**Outbreak investigation.** Public health agencies follow an ordered but overlapping set of steps:\n1. Prepare for field work and **confirm the outbreak** by comparing current cases with expected levels.\n2. Verify the diagnosis with clinical and laboratory findings.\n3. Create a **case definition** with clinical criteria plus limits of person, place and time.\n4. Find cases systematically and describe them by person, place and time.\n5. Develop hypotheses, then test them with analytic studies such as a cohort or case-control study.\n6. Implement **control and prevention measures**, which can begin as soon as the source is suspected.\n7. Communicate findings to the public and partners.\n\nCase definitions are often tiered as *confirmed* (laboratory proof), *probable* and *possible*, so investigators can count broadly early and narrow later.\n\n**Screening tests.** In a two-by-two table of test result versus true disease status:\n- **Sensitivity** = true positives / all people with disease. A highly sensitive test rarely misses disease, so a negative result helps rule it out.\n- **Specificity** = true negatives / all people without disease. A highly specific test rarely mislabels healthy people, so a positive result helps rule disease in.\n- **Positive predictive value (PPV)** = true positives / all positive tests: the chance that a person who tests positive truly has disease.\n- **Negative predictive value (NPV)** = true negatives / all negative tests.\n\nSensitivity and specificity are properties of the test. Predictive values change with **prevalence**: when a disease is rare, even a good test produces many false positives and PPV falls. That is why screening programs target higher-risk groups and confirm positives with a second test.\n\n**Surveillance.** **Public health surveillance** is the ongoing, systematic collection, analysis and dissemination of health data for action. **Passive surveillance** relies on providers and labs to submit reports of **notifiable diseases**; it is cheap but underreports. **Active surveillance** means the health department contacts providers to seek cases; it is more complete but costly. **Syndromic surveillance** tracks early signals such as emergency department complaints before diagnoses are confirmed.\n\n**Judging causation.** The **Bradford Hill criteria** include strength of association, consistency, specificity, **temporality**, dose-response, plausibility, coherence, experiment and analogy. Only temporality is required: the cause must come before the effect.\n\nThe most common mistake students make is assuming predictive values are fixed properties of a test; PPV and NPV shift with prevalence, while sensitivity and specificity do not.",
+    "examples": [
+      "A health department defines an outbreak case as diarrhea with onset between June 1 and June 10 in someone who attended a county fair, and labels lab-confirmed Salmonella cases as confirmed.",
+      "A test with 99% specificity used in a population where 1 in 10,000 people has the disease will still produce far more false positives than true positives.",
+      "A health department calls every hospital in its region weekly to ask about new measles cases, an example of active surveillance."
+    ],
+    "questions": [
+      {
+        "stem": "A test correctly identifies 90 of 100 people who have a disease. What is its sensitivity?",
+        "choices": [
+          "10%",
+          "90%",
+          "100%",
+          "Cannot be determined"
+        ],
+        "answer": 1,
+        "explanation": "Sensitivity is true positives divided by all diseased people: 90/100 = 90%. The 10% figure is the false-negative rate."
+      },
+      {
+        "stem": "Of 1,000 people without a disease, a test correctly reports 950 as negative. What is its specificity?",
+        "choices": [
+          "95%",
+          "5%",
+          "50%",
+          "99.5%"
+        ],
+        "answer": 0,
+        "explanation": "Specificity = 950/1,000 = 95%. The 5% value is the false-positive rate, the complement of specificity."
+      },
+      {
+        "stem": "The same screening test is moved from a high-risk clinic to the general population, where the disease is much rarer. What happens?",
+        "choices": [
+          "Sensitivity falls",
+          "Specificity rises",
+          "Positive predictive value falls",
+          "Negative predictive value falls"
+        ],
+        "answer": 2,
+        "explanation": "Lower prevalence means a larger share of positives are false, so PPV drops. Sensitivity is a property of the test and does not change with prevalence."
+      },
+      {
+        "stem": "Investigators suspect a restaurant salad bar caused an outbreak but analysis is not finished. When should control measures begin?",
+        "choices": [
+          "Only after laboratory confirmation of every case",
+          "As soon as a likely source is identified",
+          "After the final report is published",
+          "Only after the epidemic curve ends"
+        ],
+        "answer": 1,
+        "explanation": "Control measures can start once a source is suspected to prevent more cases. Waiting for every lab result allows avoidable illness."
+      },
+      {
+        "stem": "Which item belongs in a case definition for an outbreak investigation?",
+        "choices": [
+          "The suspected food vehicle",
+          "Clinical criteria limited by person, place and time",
+          "The odds ratio for each exposure",
+          "The control measures planned"
+        ],
+        "answer": 1,
+        "explanation": "A case definition uses clinical criteria plus person, place and time limits. Including the suspected exposure would bias the investigation toward that hypothesis."
+      },
+      {
+        "stem": "Doctors in a state must report confirmed measles cases to the health department through an online form. This is an example of:",
+        "choices": [
+          "Active surveillance",
+          "Syndromic surveillance",
+          "Passive surveillance",
+          "A cohort study"
+        ],
+        "answer": 2,
+        "explanation": "Providers submitting required reports on their own is passive surveillance. Active surveillance would require the health department to reach out to find cases."
+      },
+      {
+        "stem": "A clinician wants to rule out a dangerous disease in a patient with mild symptoms. Which test property matters most?",
+        "choices": [
+          "High specificity",
+          "High sensitivity",
+          "High prevalence",
+          "Low negative predictive value"
+        ],
+        "answer": 1,
+        "explanation": "A highly sensitive test seldom misses disease, so a negative result reliably rules it out. High specificity is better for confirming disease after a positive result."
+      },
+      {
+        "stem": "Which Bradford Hill criterion must always be met to conclude that an exposure causes a disease?",
+        "choices": [
+          "Strength of association",
+          "Dose-response",
+          "Temporality",
+          "Analogy"
+        ],
+        "answer": 2,
+        "explanation": "The exposure must precede the disease, so temporality is essential. Strength of association supports causation but weak associations can still be causal."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Sensitivity",
+        "definition": "The proportion of people with a disease whom a test correctly identifies as positive."
+      },
+      {
+        "term": "Specificity",
+        "definition": "The proportion of people without a disease whom a test correctly identifies as negative."
+      },
+      {
+        "term": "Positive predictive value",
+        "definition": "The proportion of positive test results that are true positives; it falls as prevalence falls."
+      },
+      {
+        "term": "Case definition",
+        "definition": "Standard clinical criteria, limited by person, place and time, used to decide who counts as a case."
+      },
+      {
+        "term": "Passive surveillance",
+        "definition": "A system in which providers and laboratories report notifiable diseases to the health department without being contacted."
+      }
+    ]
+  }
+]

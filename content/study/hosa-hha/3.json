@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Home safety, emergencies, observation, and accurate reporting",
+    "objective": "Identify home hazards, respond to emergencies within an aide's role, distinguish objective from subjective observations, and document care accurately.",
+    "body": "Advanced HHA questions test judgment: deciding what is unsafe, what is urgent, and how to communicate it. Because aides see clients more often than any other team member, they are often the first to notice a change in condition.\n\n**Home safety and fall prevention.** **Falls** are a leading cause of injury in older adults. Aides look for hazards and fix or report them:\n- Loose throw rugs, cords and clutter in walkways\n- Poor lighting, especially between bedroom and bathroom\n- Missing grab bars or nonslip mats in the bathroom\n- Unsafe footwear or walkers used incorrectly\n\nFire safety matters too. Oxygen supports combustion, so no smoking or open flames near oxygen equipment. If a fire starts, use **RACE**: Rescue the client, Alarm by calling 911, Contain the fire by closing doors, and Extinguish only if small and safe. A fire extinguisher is used with **PASS**: Pull the pin, Aim at the base, Squeeze the handle, Sweep side to side.\n\n**Emergencies.** If a client falls, the aide does not rush to lift them. Stay with the client, call for help, check for injuries, and follow the agency policy before moving them; if the client is falling while being assisted, ease them to the floor while protecting the head. Signs of a stroke follow **BE FAST**: Balance loss, Eyes (vision change), Face drooping, Arm weakness, Speech difficulty, Time to call 911. A responsive adult who is choking and cannot speak or cough needs abdominal thrusts. An unresponsive client who is not breathing normally needs 911 and CPR if the aide is trained.\n\n**Observing and reporting.** **Objective** observations are facts the aide can see, hear, feel, smell or measure, such as \"blood pressure 162/94\" or \"ankles swollen.\" **Subjective** observations are what the client reports, such as \"I feel dizzy,\" and are recorded in the client's own words. Some changes must be reported immediately: chest pain, trouble breathing, sudden confusion, signs of stroke, a fall, or suspected abuse or neglect, which aides are required to report.\n\n**Documentation.** Records are legal documents. Good notes are factual, specific, timely and completed only after care is given. Write \"ate 25 percent of lunch\" rather than \"ate poorly.\" Errors are corrected according to agency policy, often a single line through the mistake with initials and date, never by erasing or using correction fluid. Use only approved abbreviations, and never chart for someone else.\n\nThe most common mistake students make is recording opinions or labels, such as \"client was depressed,\" instead of objective facts and quoted statements. Write what you observed and what the client said, such as \"client stayed in bed all day and said, 'I don't see the point anymore,'\" and report it.",
+    "examples": [
+      "An aide notices a client's speech is suddenly slurred and her face droops on one side; she notes the time, calls 911, and then notifies her supervisor.",
+      "Instead of charting \"client in pain,\" the aide writes: \"Client grimacing, holding right hip, states 'it hurts when I stand.'\""
+    ],
+    "questions": [
+      {
+        "stem": "A client says she feels lightheaded, then slides to the floor as the aide is walking her. What should the aide do?",
+        "choices": [
+          "Lift her back into bed right away",
+          "Ease her to the floor while protecting her head, then stay with her and call for help",
+          "Leave to get a neighbor's help",
+          "Let go so she can fall naturally"
+        ],
+        "answer": 1,
+        "explanation": "Easing the client down safely and then staying to assess and summon help prevents further injury. Lifting immediately may worsen an unknown injury."
+      },
+      {
+        "stem": "Which note is the best example of an objective observation?",
+        "choices": [
+          "Client seems anxious today",
+          "Client says, 'My chest feels tight'",
+          "Client's ankles are swollen and leave a dent when pressed",
+          "Client appears to be in a bad mood"
+        ],
+        "answer": 2,
+        "explanation": "Swelling that leaves an indentation is something the aide observed directly. The quoted chest tightness is subjective, reported by the client, though it should also be reported."
+      },
+      {
+        "stem": "An aide notices the client's son yells at her and the client has unexplained bruises on both arms. What is the aide's responsibility?",
+        "choices": [
+          "Confront the son",
+          "Ignore it because it is a family matter",
+          "Report the observations to the supervisor promptly",
+          "Ask the client to keep quiet about it"
+        ],
+        "answer": 2,
+        "explanation": "Aides must report suspected abuse through proper channels. Confronting the son could increase danger and is not the aide's role."
+      },
+      {
+        "stem": "A client suddenly develops a drooping face, weak left arm, and slurred speech. What is the priority action?",
+        "choices": [
+          "Have the client lie down and rest for an hour",
+          "Call 911 and note the time symptoms began",
+          "Give the client something to drink",
+          "Call the family first"
+        ],
+        "answer": 1,
+        "explanation": "These are BE FAST stroke signs; emergency treatment is time-sensitive, so call 911 and note onset time. Letting the client rest delays care."
+      },
+      {
+        "stem": "An aide wrote the wrong blood pressure in the record. How should it be corrected?",
+        "choices": [
+          "Cover it with correction fluid",
+          "Erase it and write the correct value",
+          "Draw a single line through it, write the correct value, and initial and date it per policy",
+          "Tear out the page and rewrite it"
+        ],
+        "answer": 2,
+        "explanation": "A single line keeps the original visible, as legal records require. Erasing hides the original entry and is not allowed."
+      },
+      {
+        "stem": "A client who uses home oxygen wants to light a candle for dinner. What should the aide do?",
+        "choices": [
+          "Allow it if the window is open",
+          "Explain that open flames are not safe near oxygen and suggest a battery candle",
+          "Turn the oxygen off for a while without telling anyone",
+          "Move the candle to the next table"
+        ],
+        "answer": 1,
+        "explanation": "Oxygen makes fire burn faster, so open flames are unsafe nearby. Turning off oxygen changes therapy, which the aide may not do."
+      },
+      {
+        "stem": "A small wastebasket fire starts in the kitchen. Following RACE, what does the aide do first?",
+        "choices": [
+          "Extinguish the fire",
+          "Rescue the client from immediate danger",
+          "Close the kitchen door",
+          "Call the supervisor"
+        ],
+        "answer": 1,
+        "explanation": "RACE starts with Rescue, moving the client away from danger. Extinguishing comes last and only if the fire is small and safe to fight."
+      },
+      {
+        "stem": "Which fall-prevention change is most appropriate for a client who walks to the bathroom at night?",
+        "choices": [
+          "Add a nightlight along the path",
+          "Place a throw rug beside the bed",
+          "Keep the bathroom door closed",
+          "Store the walker in the closet"
+        ],
+        "answer": 0,
+        "explanation": "Lighting the path reduces trips in the dark. A throw rug sounds comforting but is a common tripping hazard."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Objective observation",
+        "definition": "A fact the aide can see, hear, feel, smell or measure."
+      },
+      {
+        "term": "Subjective observation",
+        "definition": "Information the client reports, recorded in the client's own words."
+      },
+      {
+        "term": "RACE",
+        "definition": "Fire response: Rescue, Alarm, Contain, Extinguish."
+      },
+      {
+        "term": "PASS",
+        "definition": "Extinguisher use: Pull, Aim at the base, Squeeze, Sweep."
+      },
+      {
+        "term": "BE FAST",
+        "definition": "Stroke signs: Balance, Eyes, Face, Arm, Speech, Time to call 911."
+      }
+    ]
+  }
+]

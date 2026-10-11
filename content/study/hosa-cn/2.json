@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Measuring and interpreting vital signs accurately in practice",
+    "objective": "Measure temperature, pulse, respirations, blood pressure and oxygen saturation correctly, compare results with normal adult ranges, and report abnormal findings.",
+    "body": "**Vital signs** are objective measurements of the body's basic functions: temperature, pulse, respirations, blood pressure and, commonly, oxygen saturation. Pain is often assessed alongside them. Accurate technique matters because care decisions depend on these numbers.\n\n**Temperature.** A typical adult oral temperature is about 97.8 to 99.1 °F (36.5 to 37.3 °C). Rectal readings run higher than oral, and axillary readings run lower. Wait about 15 minutes after a patient eats, drinks or smokes before taking an oral temperature. Rectal temperatures are avoided in patients with rectal surgery or certain heart conditions, and tympanic and temporal artery thermometers offer quick, noninvasive options.\n\n**Pulse.** The normal adult resting rate is 60 to 100 beats per minute. The **radial pulse** is most common; the **apical pulse**, heard with a stethoscope at the apex of the heart, is counted for a full minute and is preferred for infants and irregular rhythms. Note rate, rhythm and strength. A rate below 60 is **bradycardia** and above 100 is **tachycardia**.\n\n**Respirations.** The normal adult rate is 12 to 20 breaths per minute. Count respirations right after the pulse while keeping your fingers on the wrist, because people change their breathing when they know it is being watched. Note depth, rhythm and effort.\n\n**Blood pressure.** Under the current American Heart Association categories, normal is below 120/80 mm Hg, elevated is 120 to 129 systolic with diastolic below 80, and stage 1 hypertension begins at 130 systolic or 80 diastolic. To measure manually:\n1. Seat the patient with feet flat, back supported and arm at heart level.\n2. Choose a cuff whose bladder fits the arm; a cuff that is too small gives falsely high readings.\n3. Place the stethoscope over the brachial artery and inflate, then deflate slowly at about 2 to 3 mm Hg per second.\n4. The first clear sound is the **systolic** pressure; the point where sounds disappear is the **diastolic** pressure.\n\n**Oxygen saturation (SpO2)**, measured with a pulse oximeter, is typically 95 to 100 percent in healthy adults. Cold fingers, movement and dark nail polish can produce inaccurate readings, and some oximeters may overestimate saturation in people with darker skin, so readings should be interpreted with the whole clinical picture.\n\nRecord vital signs promptly and report any value outside the expected range, or any sudden change from the patient's baseline, to the nurse. A single number is less meaningful than a trend.\n\nThe most common mistake students make is choosing the wrong cuff size or positioning the arm below heart level. Both errors produce falsely high blood pressure readings that can lead to unnecessary concern or treatment.",
+    "examples": [
+      "A nursing assistant counts a radial pulse of 112 and irregular, so she counts an apical pulse for a full minute and reports tachycardia to the nurse.",
+      "A patient's pressure reads 148/94 with a small cuff; repeated with a correctly sized cuff, it reads 132/84, still in the stage 1 range."
+    ],
+    "questions": [
+      {
+        "stem": "A healthy adult's resting pulse is 54 beats per minute. How should this be described?",
+        "choices": [
+          "Tachycardia",
+          "Bradycardia",
+          "Normal",
+          "Hypertension"
+        ],
+        "answer": 1,
+        "explanation": "A rate below 60 is bradycardia. Tachycardia refers to rates above 100."
+      },
+      {
+        "stem": "A patient just finished a cup of hot coffee. What should the nursing assistant do before taking an oral temperature?",
+        "choices": [
+          "Take it immediately",
+          "Wait about 15 minutes",
+          "Use the rectal route automatically",
+          "Add one degree to the result"
+        ],
+        "answer": 1,
+        "explanation": "Hot or cold drinks alter mouth temperature, so waiting about 15 minutes gives an accurate reading. Adjusting the number by guesswork is not acceptable practice."
+      },
+      {
+        "stem": "Why does a nurse keep fingers on the wrist while counting respirations?",
+        "choices": [
+          "To feel the respirations through the radial artery",
+          "So the patient does not change breathing after noticing it is being counted",
+          "To measure blood pressure at the same time",
+          "Because respirations must be counted with the pulse added"
+        ],
+        "answer": 1,
+        "explanation": "Patients unconsciously change breathing when observed, so continuing to appear to count the pulse keeps the count accurate. Respirations are not felt through the artery."
+      },
+      {
+        "stem": "An adult's blood pressure is 126/76 mm Hg. Under current AHA categories, this is:",
+        "choices": [
+          "Normal",
+          "Elevated",
+          "Stage 1 hypertension",
+          "Stage 2 hypertension"
+        ],
+        "answer": 1,
+        "explanation": "Systolic 120 to 129 with diastolic below 80 is elevated. Stage 1 begins at 130 systolic or 80 diastolic, which this reading does not reach."
+      },
+      {
+        "stem": "A cuff that is too small for a patient's arm will most likely produce a reading that is:",
+        "choices": [
+          "Falsely low",
+          "Falsely high",
+          "Accurate",
+          "Impossible to hear"
+        ],
+        "answer": 1,
+        "explanation": "A narrow cuff needs more pressure to compress the artery, giving a falsely high reading. A cuff that is too large tends to read falsely low."
+      },
+      {
+        "stem": "During a manual blood pressure, the first clear tapping sound is heard at 118 and sounds disappear at 74. What is recorded?",
+        "choices": [
+          "74/118",
+          "118/74",
+          "118/0",
+          "Unable to determine"
+        ],
+        "answer": 1,
+        "explanation": "The first sound is systolic and the disappearance is diastolic, recorded systolic over diastolic. Reversing the order would misreport the reading."
+      },
+      {
+        "stem": "A pulse oximeter reads 86% on a patient with cold, pale fingers who otherwise appears comfortable. What is the best first action?",
+        "choices": [
+          "Document it and continue care",
+          "Warm the hand or reposition the probe and recheck, then report to the nurse",
+          "Remove the oximeter permanently",
+          "Ask the patient to hold their breath"
+        ],
+        "answer": 1,
+        "explanation": "Cold fingers can cause inaccurate readings, so the probe should be checked and the value rechecked, and a low value must still be reported. Simply documenting it could miss true hypoxia."
+      },
+      {
+        "stem": "Which pulse site is preferred for an infant or a patient with an irregular rhythm?",
+        "choices": [
+          "Radial",
+          "Apical",
+          "Carotid",
+          "Pedal"
+        ],
+        "answer": 1,
+        "explanation": "The apical pulse, counted for a full minute, gives the most accurate rate for infants and irregular rhythms. The radial pulse can miss weak beats that do not reach the wrist."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Apical pulse",
+        "definition": "The heartbeat counted with a stethoscope at the apex of the heart for one full minute."
+      },
+      {
+        "term": "Bradycardia",
+        "definition": "An adult resting heart rate below 60 beats per minute."
+      },
+      {
+        "term": "Tachycardia",
+        "definition": "An adult resting heart rate above 100 beats per minute."
+      },
+      {
+        "term": "Systolic pressure",
+        "definition": "The first clear sound heard while deflating a blood pressure cuff, reflecting pressure when the heart contracts."
+      },
+      {
+        "term": "Diastolic pressure",
+        "definition": "The point at which sounds disappear during cuff deflation, reflecting pressure when the heart relaxes."
+      }
+    ]
+  }
+]

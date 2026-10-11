@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Healthcare organizations, management functions, and leadership roles",
+    "objective": "Identify the types of healthcare organizations, explain the four functions of management, and distinguish the roles of administrators at each level of the organization.",
+    "body": "Healthcare administration is the work of planning, organizing and running the organizations that deliver care. Clinicians treat patients; administrators make sure the people, money, equipment and systems are in place so that care is safe, legal and affordable. Nearly every question in this event assumes you understand how a healthcare organization is built and who is responsible for what.\n\n**Types of organizations.** Hospitals are classified by ownership and mission. A **nonprofit hospital** reinvests any surplus into its mission and must provide community benefit to keep its tax-exempt status. A **for-profit (investor-owned) hospital** returns profit to shareholders and pays taxes. **Public (government) hospitals**, such as county or Veterans Affairs facilities, are funded and governed by government. Beyond hospitals, the system includes ambulatory surgery centers, physician practices, skilled nursing facilities, home health agencies, hospice and public health departments, which together form the **continuum of care**.\n\n**The four functions of management.**\n1. **Planning**: setting goals and deciding how to reach them.\n2. **Organizing**: arranging people and resources into departments and roles.\n3. **Leading** (directing): motivating and guiding staff.\n4. **Controlling**: measuring performance against standards and correcting problems.\n\n**Levels of management.** The **governing board** holds ultimate legal and fiduciary responsibility and appoints the CEO. Top managers, such as the CEO, CFO and chief nursing officer, set strategy. Middle managers, such as department directors, translate strategy into departmental plans. First-line supervisors, such as a charge nurse or registration supervisor, direct daily work. An **organizational chart** shows these reporting relationships; the **chain of command** means each employee reports to one supervisor, and **span of control** is the number of people a manager supervises.\n\n**Leadership styles.** An autocratic leader decides alone, which suits emergencies like a code or a disaster. A democratic (participative) leader involves staff in decisions, which builds buy-in for changes such as a new scheduling system. A laissez-faire leader gives experts wide freedom and works best with highly skilled, self-directed teams. Good administrators adjust their style to the situation.\n\nThe most common mistake students make is confusing the governing board with management: the board sets policy and oversees the organization, while the CEO and managers run daily operations. If a question asks who approves strategic direction or hires the CEO, the answer is the board, not the administrator.",
+    "examples": [
+      "A county-owned hospital that receives tax funding and is overseen by elected officials is a public hospital, while a hospital owned by a publicly traded company is for-profit.",
+      "A radiology director who compares monthly MRI wait times to a 7-day target and adds evening slots when the target is missed is performing the controlling function.",
+      "During a mass-casualty event, an incident commander gives direct orders without discussion, an appropriate use of autocratic leadership."
+    ],
+    "questions": [
+      {
+        "stem": "A hospital administrator writes a three-year goal to reduce emergency department wait times and outlines the steps to get there. Which management function is this?",
+        "choices": [
+          "Controlling",
+          "Planning",
+          "Organizing",
+          "Leading"
+        ],
+        "answer": 1,
+        "explanation": "Setting goals and deciding how to reach them is planning. Controlling is tempting but comes later, when actual results are measured against the goal."
+      },
+      {
+        "stem": "A nurse manager reviews monthly fall rates, sees they exceed the unit's target, and launches a corrective action plan. Which function is she performing?",
+        "choices": [
+          "Organizing",
+          "Planning",
+          "Leading",
+          "Controlling"
+        ],
+        "answer": 3,
+        "explanation": "Comparing performance to a standard and correcting deviations is controlling. Planning is wrong because the target already existed; she is measuring against it."
+      },
+      {
+        "stem": "Which group holds ultimate legal and fiduciary responsibility for a hospital and appoints its chief executive officer?",
+        "choices": [
+          "The governing board",
+          "The medical staff",
+          "The department directors",
+          "The chief financial officer"
+        ],
+        "answer": 0,
+        "explanation": "The governing board is accountable for the organization and hires the CEO. The medical staff is a common distractor, but it oversees physician credentialing and quality, not the whole organization."
+      },
+      {
+        "stem": "A hospital earns a surplus, pays no federal income tax, and reinvests the surplus in a free community clinic. What type of hospital is it most likely?",
+        "choices": [
+          "For-profit",
+          "Public",
+          "Nonprofit",
+          "Proprietary"
+        ],
+        "answer": 2,
+        "explanation": "Nonprofit hospitals are tax-exempt and reinvest surplus in their mission and community benefit. For-profit (proprietary) hospitals pay taxes and distribute profit to owners."
+      },
+      {
+        "stem": "A new manager supervises 28 employees directly and struggles to meet with each of them. Which concept best describes the problem?",
+        "choices": [
+          "Chain of command",
+          "Span of control",
+          "Unity of direction",
+          "Line authority"
+        ],
+        "answer": 1,
+        "explanation": "Span of control is the number of people a manager directly supervises; 28 is wide for close supervision. Chain of command describes reporting lines, not how many people report to one manager."
+      },
+      {
+        "stem": "An administrator wants nurses to accept a new electronic scheduling system and invites them to help choose its features. Which leadership style is she using?",
+        "choices": [
+          "Autocratic",
+          "Laissez-faire",
+          "Transactional",
+          "Democratic"
+        ],
+        "answer": 3,
+        "explanation": "Involving staff in decisions is democratic (participative) leadership and builds buy-in. Laissez-faire is wrong because she is still guiding the decision, not handing it off entirely."
+      },
+      {
+        "stem": "A charge nurse assigns patients to staff at the start of a shift and handles problems during the shift. What level of management does this represent?",
+        "choices": [
+          "First-line management",
+          "Middle management",
+          "Top management",
+          "Governance"
+        ],
+        "answer": 0,
+        "explanation": "First-line supervisors direct daily work of frontline staff. Middle managers such as department directors oversee several units and translate strategy into plans."
+      },
+      {
+        "stem": "A patient moves from a hospital stay to a skilled nursing facility and then to home health services. This sequence of settings is best described as the:",
+        "choices": [
+          "Chain of command",
+          "Organizational chart",
+          "Continuum of care",
+          "Span of control"
+        ],
+        "answer": 2,
+        "explanation": "The continuum of care is the range of services and settings a patient moves through over time. An organizational chart describes reporting relationships inside one organization, not patient movement."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Planning",
+        "definition": "The management function of setting goals and deciding the actions needed to reach them."
+      },
+      {
+        "term": "Controlling",
+        "definition": "The management function of measuring performance against standards and correcting deviations."
+      },
+      {
+        "term": "Governing board",
+        "definition": "The body with ultimate legal and fiduciary responsibility for a healthcare organization; it sets policy and appoints the CEO."
+      },
+      {
+        "term": "Span of control",
+        "definition": "The number of employees a manager directly supervises."
+      },
+      {
+        "term": "Continuum of care",
+        "definition": "The range of services and settings, from prevention to long-term and end-of-life care, that patients move through over time."
+      }
+    ]
+  }
+]

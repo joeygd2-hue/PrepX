@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Building dental terms from roots, prefixes and suffixes",
+    "objective": "Identify common dental word roots, prefixes and suffixes, combine them into terms, and decode unfamiliar dental vocabulary by breaking it into parts.",
+    "body": "Dental terminology looks intimidating until you notice that most long words are built from a small set of reusable parts. If you can split a term into its pieces and translate each one, you can define words you have never seen before, which is exactly what a terminology test rewards.\n\n**Word parts.** A **word root** carries the core meaning, a **prefix** comes before the root and modifies it, and a **suffix** comes at the end and usually tells you a condition, procedure or specialty. A **combining vowel**, usually *o*, links parts so the word is easy to say, as in *odont-o-logy*. Drop the combining vowel when the suffix already starts with a vowel: *gingiv-itis*, not *gingivoitis*.\n\n**High-yield roots.**\n- **odont/o** and **dent/i**: tooth (orthodontics, dentin)\n- **gingiv/o**: gum tissue (gingivitis)\n- **stomat/o** and **or/o**: mouth (stomatitis, oral)\n- **gloss/o** and **lingu/o**: tongue (glossitis, lingual)\n- **cheil/o** and **labi/o**: lip (cheilitis, labial)\n- **bucc/o**: cheek (buccal)\n- **pulp/o**: dental pulp (pulpitis)\n- **sial/o**: saliva or salivary gland (sialolith, a salivary stone)\n- **gnath/o** and **mandibul/o** or **maxill/o**: jaw (prognathism)\n\n**Prefixes.** **Peri-** means around, so the **periodontium** is the tissue around the tooth. **Endo-** means within, so **endodontics** treats the inside of the tooth. **Ortho-** means straight, giving **orthodontics**. **Pedo-** or **pedi-** refers to children, and **an-** or **a-** means without, as in **anodontia**, the congenital absence of teeth. **Hyper-** means excessive and **hypo-** means deficient.\n\n**Suffixes.**\n1. **-itis**: inflammation (gingivitis)\n2. **-ectomy**: surgical removal (gingivectomy)\n3. **-otomy**: cutting into (pulpotomy, removal of the coronal pulp)\n4. **-plasty**: surgical repair or reshaping (gingivoplasty)\n5. **-algia** or **-dynia**: pain (odontalgia, toothache)\n6. **-ics** or **-ist**: a field or the practitioner in it (periodontics, periodontist)\n\n**Decoding strategy.** Read the suffix first, then the prefix, then the root. *Periodontitis* becomes inflammation (-itis) around (peri-) the tooth (odont), which is an accurate definition of a disease of the supporting structures. *Xerostomia* becomes dry (xer/o) mouth (stomat/o), a condition (-ia).\n\nThe most common mistake students make is confusing look-alike suffixes such as **-ectomy** (removing something), **-otomy** (cutting into it) and **-ostomy** (creating an opening). Under time pressure, one letter separates a correct answer from a convincing distractor, so slow down on the last syllables.",
+    "examples": [
+      "Gingivectomy splits into gingiv (gum) + -ectomy (surgical removal): surgical removal of gum tissue, often used to reduce overgrown gingiva.",
+      "Glossodynia splits into gloss/o (tongue) + -dynia (pain): a painful or burning tongue.",
+      "Cheilosis is built from cheil/o (lip) + -osis (abnormal condition), describing cracking and scaling at the lips."
+    ],
+    "questions": [
+      {
+        "stem": "A patient's chart says 'odontalgia, lower left.' Which complaint brought the patient in?",
+        "choices": [
+          "Bleeding gums",
+          "Toothache",
+          "Dry mouth",
+          "Swollen lip"
+        ],
+        "answer": 1,
+        "explanation": "Odont/o means tooth and -algia means pain, so odontalgia is a toothache. Bleeding gums would involve gingiv/o, a root that is not in this word."
+      },
+      {
+        "stem": "A periodontist is the specialist who mainly treats which area?",
+        "choices": [
+          "The pulp inside the tooth",
+          "Tooth alignment and bite",
+          "The gums and supporting structures around the teeth",
+          "Children's teeth"
+        ],
+        "answer": 2,
+        "explanation": "Peri- means around and odont means tooth, so periodontics covers the tissues around the teeth. The pulp inside the tooth belongs to endodontics, where endo- means within."
+      },
+      {
+        "stem": "A dental assistant reads 'xerostomia' on a medication side-effect list. What should she expect the patient to report?",
+        "choices": [
+          "A dry mouth",
+          "Bad breath",
+          "Tooth sensitivity to cold",
+          "Jaw clicking"
+        ],
+        "answer": 0,
+        "explanation": "Xer/o means dry and stomat/o means mouth. Bad breath (halitosis) can accompany dry mouth, but it is not what the term means."
+      },
+      {
+        "stem": "Which term correctly means 'inflammation of the gums'?",
+        "choices": [
+          "Gingivectomy",
+          "Gingivoplasty",
+          "Gingivitis",
+          "Gingivotomy"
+        ],
+        "answer": 2,
+        "explanation": "-itis means inflammation. Gingivectomy is a tempting distractor because it shares the root, but -ectomy means surgical removal."
+      },
+      {
+        "stem": "A child is born with no tooth buds for several permanent teeth. A radiology report uses a term for the complete absence of teeth. Which prefix signals 'without' in that term?",
+        "choices": [
+          "Peri-",
+          "An-",
+          "Endo-",
+          "Hyper-"
+        ],
+        "answer": 1,
+        "explanation": "Anodontia uses an- (without) + odont (tooth). Hyper- means excessive, which would describe extra teeth (hyperdontia), the opposite situation."
+      },
+      {
+        "stem": "A surgeon removes only the coronal portion of an inflamed baby-tooth pulp. Which term fits a procedure built on 'cutting into' rather than removing the whole pulp?",
+        "choices": [
+          "Pulpectomy",
+          "Pulpotomy",
+          "Pulpitis",
+          "Pulpostomy"
+        ],
+        "answer": 1,
+        "explanation": "-otomy means cutting into; a pulpotomy removes the coronal pulp and leaves the root pulp. A pulpectomy (-ectomy) removes all of the pulp, which is the main distractor."
+      },
+      {
+        "stem": "A note describes a 'sialolith' blocking a duct under the tongue. What is it?",
+        "choices": [
+          "A cyst on the tongue",
+          "A salivary stone",
+          "A bone spur in the jaw",
+          "Tartar on a lower tooth"
+        ],
+        "answer": 1,
+        "explanation": "Sial/o refers to saliva and -lith means stone. Tartar is hardened deposit on teeth, called calculus, not a stone in a salivary duct."
+      },
+      {
+        "stem": "Which pair of roots both refer to the tongue?",
+        "choices": [
+          "Gloss/o and lingu/o",
+          "Cheil/o and labi/o",
+          "Bucc/o and stomat/o",
+          "Gnath/o and maxill/o"
+        ],
+        "answer": 0,
+        "explanation": "Gloss/o (Greek) and lingu/o (Latin) both mean tongue. Cheil/o and labi/o are also a matched pair, but they mean lip."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "-ectomy",
+        "definition": "Suffix meaning surgical removal, as in gingivectomy."
+      },
+      {
+        "term": "-otomy",
+        "definition": "Suffix meaning cutting into or incision, as in pulpotomy."
+      },
+      {
+        "term": "Periodontium",
+        "definition": "The tissues surrounding and supporting the teeth, including gingiva, periodontal ligament, cementum and alveolar bone."
+      },
+      {
+        "term": "Xerostomia",
+        "definition": "Dry mouth caused by reduced saliva flow."
+      },
+      {
+        "term": "Anodontia",
+        "definition": "Congenital absence of teeth."
+      }
+    ]
+  }
+]

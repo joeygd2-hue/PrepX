@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Implementing, defending and presenting team solutions under pressure",
+    "objective": "Design an implementation plan with measurable outcomes, anticipate objections, and deliver a persuasive, well-timed team presentation of a health care solution.",
+    "body": "In the Creative Problem Solving event, teams typically receive a scenario, prepare for a limited time, then present their solution to judges and answer questions. Always check the current HOSA guidelines for exact rules and timing, since details can change from year to year. Whatever the format, advanced teams win by showing that their solution is realistic, measurable and well defended.\n\n**Implementation planning.** A good plan answers who, what, when, where, how and how much. Break the solution into steps with owners and a timeline. Identify needed resources and possible partners, such as a local health department or a hospital volunteer office. Consider a **pilot**: testing the idea on a small scale first reduces risk and produces data before a full rollout.\n\n**Measurable outcomes.** Judges want to know how you will know it worked. Write **SMART goals**: Specific, Measurable, Achievable, Relevant and Time-bound. \"Improve hydration\" is vague; \"increase the share of students carrying a water bottle from 40% to 60% by the end of the semester\" is SMART. Pair outcomes with an **evaluation plan**, such as surveys, attendance counts or before-and-after comparisons.\n\n**Anticipating objections.** Before presenting, run a quick **risk analysis**: list what could go wrong, how likely it is and how you would respond. Consider cost, staff buy-in, privacy, equity and sustainability. If your solution relies on an app, ask how patients without smartphones are served. Addressing barriers yourself shows maturity and prepares you for judge questions.\n\n**Structuring the presentation.** A clear structure keeps a team on time:\n1. State the problem and why it matters.\n2. Briefly show the process: causes found, options considered, criteria used.\n3. Present the chosen solution and the implementation plan.\n4. Share measurable outcomes and how risks are handled.\n5. Close with a concise, memorable summary.\n\n**Team dynamics.** Divide speaking roles evenly and plan transitions so the delivery feels unified. Assign one person to watch time during preparation. During questions, let the member best suited to the topic answer, and avoid contradicting each other. If you do not know something, acknowledge it and explain how you would find out rather than inventing data.\n\n**Time management.** Under a short prep window, spend early minutes defining the problem, a burst on ideas, a few minutes choosing with criteria, and the rest on building and rehearsing the presentation.\n\nThe most common mistake students make is spending nearly all their preparation time debating ideas, leaving no time to organize or rehearse. A good solution delivered in a rushed, disorganized way usually scores below a simpler solution presented clearly and confidently.",
+    "examples": [
+      "A team proposing a mental health check-in kiosk plans a one-month pilot in a single school before district-wide rollout.",
+      "Instead of \"reduce vaping,\" a team sets the goal \"increase the number of students who can name two health risks of vaping from 50% to 80% within 8 weeks, measured by pre- and post-surveys.\"",
+      "When a judge asks about families without internet access, a team explains its backup plan of printed materials distributed through the school office."
+    ],
+    "questions": [
+      {
+        "stem": "A team proposes a citywide telehealth program for teens. Which addition would most reduce implementation risk?",
+        "choices": [
+          "Launching in all schools on day one",
+          "Running a small pilot at one school and collecting data first",
+          "Adding more features to the app",
+          "Skipping evaluation to save money"
+        ],
+        "answer": 1,
+        "explanation": "A pilot tests the idea on a small scale and generates evidence before expansion. Launching everywhere at once is the distractor that maximizes risk if something fails."
+      },
+      {
+        "stem": "Which goal is written in SMART form?",
+        "choices": [
+          "Help students eat better",
+          "Increase healthy eating a lot this year",
+          "Get everyone to love vegetables",
+          "Increase the share of students choosing a fruit at lunch from 30% to 45% by May, measured by cafeteria sales data"
+        ],
+        "answer": 3,
+        "explanation": "It is specific, measurable, achievable, relevant and time-bound. \"Increase healthy eating a lot this year\" has a time frame but no measurable target."
+      },
+      {
+        "stem": "A judge asks how the team's appointment-reminder app will serve elderly patients without smartphones. What is the best response?",
+        "choices": [
+          "Explain a backup option such as automated phone calls or mailed reminders",
+          "Say that most people have smartphones now",
+          "Change the subject to the app's design",
+          "Admit the solution does not work and stop"
+        ],
+        "answer": 0,
+        "explanation": "Offering an alternative addresses an equity barrier directly. Claiming most people have smartphones dismisses the concern instead of answering it."
+      },
+      {
+        "stem": "During a short preparation period, a team spends almost all its time debating two ideas. What is the most likely result?",
+        "choices": [
+          "A stronger solution because it was thoroughly debated",
+          "A higher score for creativity",
+          "A rushed, disorganized presentation with little rehearsal",
+          "Judges awarding extra time"
+        ],
+        "answer": 2,
+        "explanation": "Too little time remains to organize and practice. The idea that more debate always yields a better result ignores that presentation quality is also judged."
+      },
+      {
+        "stem": "A judge asks for a statistic the team does not know. What should the team do?",
+        "choices": [
+          "Make up a reasonable-sounding number",
+          "Acknowledge the gap and explain how they would find the data",
+          "Have each member give a different estimate",
+          "Ignore the question"
+        ],
+        "answer": 1,
+        "explanation": "Honesty plus a plan for getting the data shows credibility. Inventing a number risks being wrong and damages trust if questioned further."
+      },
+      {
+        "stem": "Which item belongs in a risk analysis for a peer-led nutrition program?",
+        "choices": [
+          "The color scheme of the program's flyers",
+          "A list of every fruit available in the cafeteria",
+          "The team's favorite healthy recipes",
+          "The chance that peer leaders lose interest midyear, and a plan to recruit replacements"
+        ],
+        "answer": 3,
+        "explanation": "A risk analysis identifies what could go wrong and how to respond. The other options are details, not risks to the program's success."
+      },
+      {
+        "stem": "Which presentation order best follows a logical problem-solving structure?",
+        "choices": [
+          "Solution, problem, process, summary",
+          "Problem, process, solution and plan, outcomes and risks, summary",
+          "Outcomes, solution, problem, summary",
+          "Process, summary, problem, solution"
+        ],
+        "answer": 1,
+        "explanation": "It moves from why the issue matters to how the team reasoned to what it will do and measure. Opening with the solution is tempting but leaves judges without context for why it fits."
+      },
+      {
+        "stem": "Two teammates give conflicting answers to the same judge question. Which preparation step would best have prevented this?",
+        "choices": [
+          "Assigning topic owners for likely questions and agreeing on key answers in advance",
+          "Adding more slides",
+          "Speaking faster",
+          "Letting only one person present everything"
+        ],
+        "answer": 0,
+        "explanation": "Topic ownership and agreed answers keep the team consistent. Having one person do everything avoids conflicts but sacrifices teamwork and balanced participation."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Pilot",
+        "definition": "A small-scale trial of a solution that reduces risk and produces data before full implementation."
+      },
+      {
+        "term": "SMART goal",
+        "definition": "A goal that is Specific, Measurable, Achievable, Relevant and Time-bound."
+      },
+      {
+        "term": "Evaluation plan",
+        "definition": "The methods, such as surveys or before-and-after counts, used to show whether a solution worked."
+      },
+      {
+        "term": "Risk analysis",
+        "definition": "Listing what could go wrong, how likely it is and how the team would respond."
+      },
+      {
+        "term": "Implementation plan",
+        "definition": "A plan stating who does what, when, with which resources, to put a solution into action."
+      }
+    ]
+  }
+]

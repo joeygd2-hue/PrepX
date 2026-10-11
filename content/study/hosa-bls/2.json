@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Hematology, chemistry and urinalysis results in practice",
+    "objective": "Interpret common hematology, chemistry and urinalysis results and relate abnormal findings to likely clinical causes.",
+    "body": "Once a specimen is accepted, laboratory scientists measure it in departments that each answer different clinical questions. Competition questions usually describe a patient and a result and ask you to connect them, so learn what each test measures and what makes it rise or fall.\n\n**Hematology.** The **complete blood count (CBC)** is run on EDTA whole blood. It reports:\n- **Red blood cells (RBC)**, **hemoglobin** and **hematocrit**, which measure oxygen-carrying capacity. Low values indicate **anemia**.\n- **Red cell indices**, especially **mean corpuscular volume (MCV)**. A low MCV (microcytic) suggests iron deficiency; a high MCV (macrocytic) suggests vitamin B12 or folate deficiency.\n- **White blood cells (WBC)** with a **differential**. Neutrophils typically rise in bacterial infection, lymphocytes in many viral infections, and eosinophils in allergies and parasitic infections.\n- **Platelets**, which are needed for clotting.\n\nCoagulation testing uses citrated plasma. **Prothrombin time (PT/INR)** monitors warfarin therapy, while **activated partial thromboplastin time (aPTT)** is used to monitor unfractionated heparin.\n\n**Clinical chemistry.** Chemistry uses serum or plasma. Key groups include:\n1. **Glucose**: a fasting plasma glucose of 126 mg/dL or higher on repeat testing, or a **hemoglobin A1c** of 6.5 percent or higher, meets diagnostic criteria for diabetes. A1c reflects average glucose over roughly the past two to three months.\n2. **Kidney function**: **BUN** and **creatinine** rise when the kidneys filter poorly.\n3. **Liver function**: **ALT** and **AST** rise with liver cell injury; bilirubin rises with impaired processing or bile flow.\n4. **Cardiac**: **troponin** is the preferred marker of heart muscle injury.\n5. **Electrolytes**: sodium, potassium, chloride and bicarbonate.\n\n**Urinalysis.** A routine urinalysis has three parts: physical (color, clarity, specific gravity), chemical (reagent strip) and microscopic. Positive **nitrite** and **leukocyte esterase** together suggest a urinary tract infection, because many gram-negative bacteria convert nitrate to nitrite. Glucose in urine appears when blood glucose exceeds the kidney's threshold, and ketones appear when the body burns fat for fuel. A first-morning, clean-catch midstream specimen is preferred, and urine should be tested within about two hours or refrigerated.\n\n**Reference ranges.** A **reference interval** describes values seen in about 95 percent of healthy people, so a healthy person can occasionally fall slightly outside it. A **critical value** is a result dangerous enough to require immediate notification.\n\nThe most common mistake students make is interpreting one result in isolation. A low hemoglobin alone says anemia; pairing it with the MCV tells you what kind, and pairing results across departments is how the lab points toward a cause.",
+    "examples": [
+      "A teenager has low hemoglobin and a low MCV, a pattern that points toward iron deficiency anemia.",
+      "A urine strip shows positive nitrite and leukocyte esterase in a patient with painful urination, supporting a urinary tract infection.",
+      "A patient with chest pain has a rising troponin on serial draws, indicating heart muscle injury."
+    ],
+    "questions": [
+      {
+        "stem": "A patient's CBC shows low hemoglobin and an MCV well below the reference interval. Which condition best fits?",
+        "choices": [
+          "Vitamin B12 deficiency",
+          "Iron deficiency anemia",
+          "Dehydration",
+          "Bacterial infection"
+        ],
+        "answer": 1,
+        "explanation": "Low MCV means small (microcytic) cells, typical of iron deficiency. B12 deficiency produces large (macrocytic) cells, the opposite pattern."
+      },
+      {
+        "stem": "A patient taking warfarin needs monitoring. Which test is ordered?",
+        "choices": [
+          "aPTT",
+          "Platelet count",
+          "PT/INR",
+          "Troponin"
+        ],
+        "answer": 2,
+        "explanation": "PT/INR is the standard for warfarin monitoring. aPTT is used for unfractionated heparin."
+      },
+      {
+        "stem": "A WBC differential shows a marked increase in neutrophils in a patient with fever. What does this most often suggest?",
+        "choices": [
+          "Bacterial infection",
+          "Allergic reaction",
+          "Parasitic infection",
+          "Iron deficiency"
+        ],
+        "answer": 0,
+        "explanation": "Neutrophilia commonly accompanies bacterial infection. Eosinophils, not neutrophils, typically rise in allergies and parasitic infections."
+      },
+      {
+        "stem": "Which result alone meets a diagnostic criterion for diabetes when confirmed?",
+        "choices": [
+          "Random glucose of 110 mg/dL",
+          "Hemoglobin A1c of 6.8 percent",
+          "Fasting glucose of 99 mg/dL",
+          "Urine ketones negative"
+        ],
+        "answer": 1,
+        "explanation": "An A1c of 6.5 percent or higher meets diagnostic criteria. A random glucose of 110 mg/dL is not diagnostic."
+      },
+      {
+        "stem": "A urine specimen sat at room temperature for six hours before testing. Which change is most likely?",
+        "choices": [
+          "Falsely decreased bacteria",
+          "Increased bacterial growth and possible false-positive nitrite",
+          "Higher specific gravity",
+          "Formation of new red cells"
+        ],
+        "answer": 1,
+        "explanation": "Unpreserved urine allows bacteria to multiply, which can raise nitrite and pH. Bacteria increase, not decrease, over time."
+      },
+      {
+        "stem": "A patient has elevated BUN and creatinine. Which organ system is the lab most likely flagging?",
+        "choices": [
+          "Liver",
+          "Heart",
+          "Kidneys",
+          "Bone marrow"
+        ],
+        "answer": 2,
+        "explanation": "BUN and creatinine accumulate when kidney filtration declines. Liver injury is shown by ALT and AST instead."
+      },
+      {
+        "stem": "A healthy athlete's sodium is just above the reference interval and all other results are normal. What is the best interpretation?",
+        "choices": [
+          "The athlete definitely has a disease",
+          "Reference intervals cover about 95 percent of healthy people, so a slight deviation may be normal variation",
+          "The analyzer is broken",
+          "The result is a critical value"
+        ],
+        "answer": 1,
+        "explanation": "Reference intervals exclude about 5 percent of healthy people by design. A slightly high value is not automatically critical or a sign of instrument failure."
+      },
+      {
+        "stem": "Which marker is preferred for detecting heart muscle injury?",
+        "choices": [
+          "ALT",
+          "Troponin",
+          "Creatinine",
+          "Bilirubin"
+        ],
+        "answer": 1,
+        "explanation": "Troponin is specific to cardiac muscle and is the preferred marker. ALT reflects liver injury."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Mean corpuscular volume (MCV)",
+        "definition": "Average red cell size; low suggests iron deficiency, high suggests B12 or folate deficiency."
+      },
+      {
+        "term": "PT/INR",
+        "definition": "Coagulation test used to monitor warfarin therapy."
+      },
+      {
+        "term": "Hemoglobin A1c",
+        "definition": "Measure of average blood glucose over about two to three months; 6.5 percent or higher meets diabetes criteria."
+      },
+      {
+        "term": "Reference interval",
+        "definition": "Range containing about 95 percent of values from healthy people."
+      },
+      {
+        "term": "Leukocyte esterase",
+        "definition": "Urine strip test detecting white blood cells, suggesting inflammation or infection."
+      }
+    ]
+  }
+]

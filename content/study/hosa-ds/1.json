@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Tooth anatomy, tissues, and the numbering system",
+    "objective": "Identify the four dental tissues, name crown and root structures, and assign teeth correct Universal Numbering System numbers.",
+    "body": "Almost every Dental Science question assumes you can picture a tooth and name it precisely. Before you study disease or procedures, lock in the vocabulary of structure, tissue, and position.\n\n**The four dental tissues.** A tooth is built from three hard tissues and one soft tissue.\n- **Enamel** covers the anatomical crown. It is the hardest substance in the body, about 96 percent mineral (mostly hydroxyapatite), and it has no living cells, so it cannot repair itself once a cavity forms.\n- **Dentin** makes up the bulk of the tooth beneath the enamel and cementum. It contains microscopic tubules, which is why exposed dentin feels sensitive to cold.\n- **Cementum** is a thin, bonelike layer covering the root. Fibers of the periodontal ligament anchor into it.\n- **Pulp** is the soft tissue in the center, containing nerves and blood vessels. The pulp chamber sits in the crown and continues as root canals that open at the **apex** through the apical foramen.\n\n**Crown, root, and supporting structures.** The **cementoenamel junction (CEJ)** is the line where enamel meets cementum, dividing anatomical crown from root. The tooth sits in a socket of alveolar bone, suspended by the **periodontal ligament**, and is surrounded by **gingiva**. Together these supporting tissues are called the periodontium.\n\n**Tooth types and dentitions.** Incisors cut, canines tear, premolars and molars grind. Adults have 32 permanent teeth; children have 20 primary teeth, with no premolars and no third molars.\n\n**The Universal Numbering System.** Used in most U.S. dental offices, it numbers permanent teeth 1 through 32. Start with the patient's maxillary right third molar as #1, move across the upper arch to the maxillary left third molar (#16), drop to the mandibular left third molar (#17), and continue across to the mandibular right third molar (#32). Primary teeth use capital letters A through T in the same clockwise path. Remember that the chart is written from the patient's point of view, not yours.\n\n**Surfaces.** Each tooth has named surfaces: mesial (toward the midline), distal (away from it), facial (buccal on posterior teeth, labial on anterior teeth), lingual (toward the tongue; palatal on maxillary teeth), and occlusal on posterior teeth or the incisal edge on anterior teeth. A cavity touching mesial and occlusal surfaces is charted as an MO lesion.\n\nThe most common mistake is charting from the operator's point of view. When you face a patient, their right side is on your left, so students who number from their own left mislabel every tooth by arch side, turning #3 into #14.",
+    "examples": [
+      "Tooth #8 is the patient's maxillary right central incisor, and #9 is the maxillary left central incisor right beside it.",
+      "A five-year-old's lower left second primary molar is charted as K, because primary teeth use letters A through T.",
+      "Cold water causes a sharp twinge where gum recession has exposed root dentin, because fluid moves in the open dentinal tubules."
+    ],
+    "questions": [
+      {
+        "stem": "A dental assistant charts a filling in a patient's maxillary left first molar using the Universal Numbering System. Which number should she record?",
+        "choices": [
+          "#3",
+          "#14",
+          "#19",
+          "#30"
+        ],
+        "answer": 1,
+        "explanation": "Counting from #1 (maxillary right third molar) across the upper arch, the maxillary left first molar is #14. #3 is the maxillary right first molar, the error made when charting from the operator's own side."
+      },
+      {
+        "stem": "Which tissue cannot repair itself after a carious lesion breaks through it, because it contains no living cells?",
+        "choices": [
+          "Dentin",
+          "Cementum",
+          "Enamel",
+          "Pulp"
+        ],
+        "answer": 2,
+        "explanation": "Mature enamel has no cells, so lost enamel is not regenerated. Dentin is the tempting choice, but living odontoblasts can lay down reparative dentin."
+      },
+      {
+        "stem": "A patient's root surface is exposed by gum recession. Which tissue covers the root and provides attachment for periodontal ligament fibers?",
+        "choices": [
+          "Cementum",
+          "Enamel",
+          "Gingiva",
+          "Alveolar mucosa"
+        ],
+        "answer": 0,
+        "explanation": "Cementum covers the root and anchors the periodontal ligament fibers. Enamel covers only the anatomical crown, not the root."
+      },
+      {
+        "stem": "A dentist notes decay on the surface of tooth #29 that faces the tongue. Which surface is that?",
+        "choices": [
+          "Facial",
+          "Distal",
+          "Occlusal",
+          "Lingual"
+        ],
+        "answer": 3,
+        "explanation": "The lingual surface faces the tongue. Facial faces the lips or cheeks, the opposite side, so it is the main distractor."
+      },
+      {
+        "stem": "How many teeth make up a complete primary dentition?",
+        "choices": [
+          "20",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": 0,
+        "explanation": "There are 20 primary teeth: incisors, canines, and molars in each quadrant, with no premolars. 32 is the full permanent dentition, including third molars."
+      },
+      {
+        "stem": "A radiograph shows an infection at the tip of a root, where vessels and nerves enter the tooth. What is this location called?",
+        "choices": [
+          "Cementoenamel junction",
+          "Apex",
+          "Furcation",
+          "Pulp horn"
+        ],
+        "answer": 1,
+        "explanation": "The apex is the root tip where the apical foramen admits nerves and vessels. The CEJ is where crown meets root near the gumline, not at the root tip."
+      },
+      {
+        "stem": "A cavity involves the surface of a premolar that faces the midline and its chewing surface. How is it recorded?",
+        "choices": [
+          "DO",
+          "MO",
+          "BO",
+          "MOD"
+        ],
+        "answer": 1,
+        "explanation": "Mesial faces toward the midline and occlusal is the chewing surface, so the lesion is MO. DO would mean the surface facing away from the midline."
+      },
+      {
+        "stem": "Which structure suspends a tooth in its socket and helps cushion chewing forces?",
+        "choices": [
+          "Gingiva",
+          "Pulp",
+          "Periodontal ligament",
+          "Enamel"
+        ],
+        "answer": 2,
+        "explanation": "The periodontal ligament connects cementum to alveolar bone and absorbs chewing forces. Gingiva surrounds the neck of the tooth but does not anchor it to bone."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Enamel",
+        "definition": "Hardest tissue in the body, about 96 percent mineral, covering the anatomical crown; it has no living cells and cannot repair itself."
+      },
+      {
+        "term": "Dentin",
+        "definition": "Tissue forming the bulk of the tooth under enamel and cementum, containing tubules that transmit sensation."
+      },
+      {
+        "term": "Cementoenamel junction (CEJ)",
+        "definition": "The line where enamel meets cementum, dividing the anatomical crown from the root."
+      },
+      {
+        "term": "Universal Numbering System",
+        "definition": "U.S. system numbering permanent teeth 1 to 32 starting at the patient's maxillary right third molar; primary teeth are lettered A to T."
+      },
+      {
+        "term": "Periodontal ligament",
+        "definition": "Fibrous tissue that anchors the cementum to alveolar bone and cushions chewing forces."
+      }
+    ]
+  }
+]

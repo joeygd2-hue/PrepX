@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of epidemiology: disease frequency and the triad",
+    "objective": "Define epidemiology, apply the epidemiologic triad and chain of infection, and calculate and interpret incidence, prevalence and attack rates.",
+    "body": "**Epidemiology** is the study of the distribution and determinants of health-related states or events in specified populations, and the application of that study to control health problems. Distribution asks *who, where and when*; determinants ask *why and how*. Unlike a clinician who treats one patient, an epidemiologist treats the community as the patient.\n\n**The epidemiologic triad.** Classic infectious disease models describe three interacting parts:\n- The **agent**, such as a bacterium, virus or toxin, that must be present for disease to occur.\n- The **host**, the person whose age, immunity, genetics and behaviors affect susceptibility.\n- The **environment**, the external factors such as crowding, climate and sanitation that bring agent and host together.\n\nA **vector**, such as a mosquito or tick, carries an agent from one host to another. Breaking any link in the **chain of infection** (agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host) can stop spread. Handwashing interrupts transmission; vaccination removes susceptible hosts.\n\n**Describing disease levels.** **Endemic** means the usual, constant presence of a disease in an area. An **epidemic** (or outbreak) is an increase in cases above what is normally expected. A **pandemic** is an epidemic that has spread across several countries or continents, usually affecting many people.\n\n**Measuring frequency.** Raw counts mislead because populations differ in size, so epidemiologists use rates and proportions.\n1. **Incidence** counts *new* cases during a period divided by the population at risk. It measures risk and is best for studying causes.\n2. **Prevalence** counts *all existing* cases (new and old) at a point or period divided by the total population. It measures burden and helps plan services.\n3. The **attack rate** is incidence during an outbreak: ill people divided by people exposed.\n\nPrevalence depends on both incidence and duration. A chronic disease that people live with for decades, such as type 2 diabetes, can have high prevalence even with modest incidence. A cure or a quick death lowers prevalence; a treatment that prolongs life without curing raises it.\n\n**Descriptive epidemiology** organizes data by **person, place and time**. An **epidemic curve** plots cases by date of onset; its shape hints at the source. A sharp rise and fall suggests a **point source** where everyone was exposed at once, while waves spaced about one incubation period apart suggest **propagated** person-to-person spread.\n\nThe most common mistake students make is confusing incidence with prevalence: if a question mentions *new* cases or risk, use incidence; if it mentions everyone currently living with the condition, use prevalence.",
+    "examples": [
+      "A town of 10,000 people records 50 new influenza cases in January: the January incidence is 50/10,000, or 5 per 1,000.",
+      "At a picnic, 40 of the 80 people who ate potato salad became ill, so the attack rate among those exposed is 50%.",
+      "Malaria is endemic in parts of sub-Saharan Africa, while a sudden jump of measles cases in a U.S. county would be called an outbreak."
+    ],
+    "questions": [
+      {
+        "stem": "A school nurse counts every student currently living with asthma on October 1. Which measure is she calculating?",
+        "choices": [
+          "Point prevalence",
+          "Incidence rate",
+          "Attack rate",
+          "Case fatality rate"
+        ],
+        "answer": 0,
+        "explanation": "Counting all existing cases at a single moment is point prevalence. Incidence would require counting only new cases over a period."
+      },
+      {
+        "stem": "A county reports 30 new cases of Lyme disease in a year among 60,000 residents. What is the annual incidence per 100,000?",
+        "choices": [
+          "30 per 100,000",
+          "5 per 100,000",
+          "50 per 100,000",
+          "200 per 100,000"
+        ],
+        "answer": 2,
+        "explanation": "30/60,000 = 0.0005, which equals 50 per 100,000. Answering 30 forgets to adjust the count for population size."
+      },
+      {
+        "stem": "A new drug keeps people with a chronic disease alive longer but does not cure them. If incidence stays the same, what happens to prevalence?",
+        "choices": [
+          "It decreases",
+          "It increases",
+          "It stays the same",
+          "It becomes equal to incidence"
+        ],
+        "answer": 1,
+        "explanation": "Prevalence reflects incidence times duration, so longer survival raises it. It would decrease only if people were cured or died sooner."
+      },
+      {
+        "stem": "In the epidemiologic triad, crowded housing that speeds tuberculosis spread is classified as which component?",
+        "choices": [
+          "Agent",
+          "Host",
+          "Vector",
+          "Environment"
+        ],
+        "answer": 3,
+        "explanation": "Crowding is an external condition, so it belongs to the environment. It is not a host factor because it is not a trait of the person."
+      },
+      {
+        "stem": "An epidemic curve shows cases rising sharply within hours and ending within two days after a banquet. What pattern does this suggest?",
+        "choices": [
+          "Propagated spread",
+          "Endemic transmission",
+          "Point source exposure",
+          "Vector-borne spread"
+        ],
+        "answer": 2,
+        "explanation": "A single sharp peak after a shared event indicates a point source. Propagated outbreaks show successive waves about one incubation period apart."
+      },
+      {
+        "stem": "At a wedding, 120 guests ate chicken and 36 became ill. What is the attack rate among chicken eaters?",
+        "choices": [
+          "30%",
+          "36%",
+          "12%",
+          "70%"
+        ],
+        "answer": 0,
+        "explanation": "36/120 = 0.30, or 30%. Choosing 36% mistakes the count of ill guests for a percentage."
+      },
+      {
+        "stem": "Requiring health care workers to clean hands between patients breaks which link in the chain of infection?",
+        "choices": [
+          "Reservoir",
+          "Mode of transmission",
+          "Susceptible host",
+          "Portal of exit"
+        ],
+        "answer": 1,
+        "explanation": "Hand hygiene stops the agent from being carried between people, which is the mode of transmission. Vaccination, not handwashing, targets the susceptible host."
+      },
+      {
+        "stem": "A respiratory virus spreads rapidly across multiple continents, infecting large numbers of people. This is best described as a(n):",
+        "choices": [
+          "Endemic",
+          "Outbreak limited to one area",
+          "Pandemic",
+          "Sporadic occurrence"
+        ],
+        "answer": 2,
+        "explanation": "Widespread epidemic disease across several countries or continents is a pandemic. A localized outbreak lacks the international spread."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Epidemiology",
+        "definition": "The study of the distribution and determinants of health-related events in populations, applied to control health problems."
+      },
+      {
+        "term": "Incidence",
+        "definition": "The number of new cases during a period divided by the population at risk; a measure of risk."
+      },
+      {
+        "term": "Prevalence",
+        "definition": "All existing cases at a point or period divided by the total population; a measure of burden."
+      },
+      {
+        "term": "Attack rate",
+        "definition": "The proportion of exposed people who become ill during an outbreak."
+      },
+      {
+        "term": "Epidemiologic triad",
+        "definition": "A model in which disease results from the interaction of agent, host and environment."
+      }
+    ]
+  }
+]

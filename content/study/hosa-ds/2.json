@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Infection control, instruments, and dental caries prevention",
+    "objective": "Apply standard precautions in the operatory, classify instruments by Spaulding category, and explain how caries forms and how fluoride and sealants prevent it.",
+    "body": "Once you can name the parts of a tooth, the next layer is protecting them and protecting everyone in the operatory. Questions here often describe a real situation and ask what the dental team should do next.\n\n**Standard precautions.** The CDC directs dental teams to treat blood and saliva from every patient as potentially infectious. Core practices include hand hygiene before and after gloving, personal protective equipment (gloves, mask, protective eyewear, and a gown when spatter is expected), safe injection practices, and careful handling of sharps. Used needles are recapped only with a one-handed scoop technique or a recapping device, then discarded in a puncture-resistant sharps container.\n\n**The Spaulding classification.** Instruments are processed according to the risk they carry.\n1. **Critical** items penetrate soft tissue or bone, such as scalers, forceps, and surgical burs. They must be heat-sterilized.\n2. **Semicritical** items touch mucous membranes but do not penetrate, such as mouth mirrors and handpieces. They are heat-sterilized whenever possible; dental handpieces should always be heat-sterilized between patients.\n3. **Noncritical** items touch only intact skin, such as a blood pressure cuff. They are cleaned and disinfected.\n\nSterilization is verified with **biological indicators** (spore tests) at least weekly; chemical indicators on packages only show that conditions were reached, not that spores were killed. Clinical contact surfaces are covered with barriers or cleaned and disinfected between patients.\n\n**How caries forms.** **Dental caries** is a disease driven by bacterial biofilm (**plaque**). Bacteria such as *Streptococcus mutans* ferment dietary sugars into acid. When plaque pH drops below roughly 5.5, enamel **demineralizes**. Saliva buffers the acid and supplies calcium and phosphate, allowing **remineralization**. Caries progresses when acid attacks outpace repair, which is why how often someone snacks on sugar matters more than the total amount eaten.\n\n**Prevention tools.**\n- **Fluoride** strengthens enamel by promoting remineralization and forming more acid-resistant fluorapatite. Sources include fluoride toothpaste, community water fluoridation, and professionally applied varnish.\n- **Pit and fissure sealants** are thin resin coatings bonded into the grooves of molars, physically blocking plaque from areas toothbrush bristles cannot reach.\n- Brushing twice daily, cleaning between teeth, and limiting frequent sugary drinks round out home care.\n\nThe most common mistake is treating a passed chemical indicator as proof of sterility. A color change only shows that a package was exposed to heat or steam; only a biological spore test confirms that the sterilizer actually killed microorganisms.",
+    "examples": [
+      "A student who sips a sweetened coffee over three hours exposes enamel to more acid attacks than one who drinks the same coffee in ten minutes.",
+      "A periodontal scaler is critical because it enters gum tissue, so it is packaged and steam-sterilized after every patient.",
+      "A dentist places sealants on a seven-year-old's newly erupted first permanent molars to protect their deep grooves."
+    ],
+    "questions": [
+      {
+        "stem": "After a procedure, an assistant must dispose of a used anesthetic needle that will not be reused. What is the correct action?",
+        "choices": [
+          "Recap it with two hands, then place it in the trash",
+          "Bend the needle so it cannot be reused",
+          "Place it in a puncture-resistant sharps container",
+          "Leave it on the tray for the dentist to discard"
+        ],
+        "answer": 2,
+        "explanation": "Used sharps go directly into a puncture-resistant sharps container. Two-handed recapping is a leading cause of needlestick injuries, so it is the dangerous distractor."
+      },
+      {
+        "stem": "Under the Spaulding classification, how is a surgical extraction forceps categorized?",
+        "choices": [
+          "Critical",
+          "Semicritical",
+          "Noncritical",
+          "Environmental surface"
+        ],
+        "answer": 0,
+        "explanation": "Forceps contact bone and penetrate soft tissue, so they are critical and must be sterilized. Semicritical items only touch mucous membranes without penetrating."
+      },
+      {
+        "stem": "A package's chemical indicator tape changed color after a sterilizer cycle. What does this confirm?",
+        "choices": [
+          "All microorganisms were killed",
+          "The package was exposed to sterilizing conditions",
+          "The sterilizer passed its weekly spore test",
+          "The instruments were cleaned properly"
+        ],
+        "answer": 1,
+        "explanation": "Chemical indicators show exposure to processing conditions only. Proof that spores were killed requires a biological indicator, so the first choice overstates what the tape shows."
+      },
+      {
+        "stem": "A teen drinks a sugary soda slowly throughout every afternoon. Why does this raise caries risk more than drinking it quickly?",
+        "choices": [
+          "Saliva production stops completely while drinking",
+          "Repeated acid attacks give enamel little time to remineralize",
+          "Soda contains fluoride that weakens enamel",
+          "Sugar directly dissolves dentin without bacteria"
+        ],
+        "answer": 1,
+        "explanation": "Each sip restarts bacterial acid production, so pH stays low and remineralization cannot keep up. Sugar does not dissolve tooth structure directly; bacteria must ferment it into acid."
+      },
+      {
+        "stem": "A hygienist wants to protect the deep grooves on a child's newly erupted permanent molars. Which preventive measure targets those grooves directly?",
+        "choices": [
+          "Pit and fissure sealants",
+          "Whitening strips",
+          "Antibiotic mouth rinse",
+          "Radiographs"
+        ],
+        "answer": 0,
+        "explanation": "Sealants bond into pits and fissures and block plaque. Fluoride also helps, but whitening and rinses do not seal the grooves, and radiographs only detect problems."
+      },
+      {
+        "stem": "Below roughly what plaque pH does enamel begin to demineralize?",
+        "choices": [
+          "8.5",
+          "7.4",
+          "6.8",
+          "5.5"
+        ],
+        "answer": 3,
+        "explanation": "The critical pH for enamel is about 5.5. A pH of 7.4 is normal body fluid pH, near neutral, at which enamel is stable."
+      },
+      {
+        "stem": "How does fluoride help prevent caries?",
+        "choices": [
+          "It kills all oral bacteria permanently",
+          "It promotes remineralization and forms acid-resistant fluorapatite",
+          "It fills cavities that have already reached dentin",
+          "It raises saliva pH to 10"
+        ],
+        "answer": 1,
+        "explanation": "Fluoride enhances remineralization and makes enamel more acid resistant. It cannot fill cavitated lesions, which need restoration."
+      },
+      {
+        "stem": "A blood pressure cuff touches only a patient's intact skin. How should it be processed between patients?",
+        "choices": [
+          "Steam sterilization",
+          "Discard after one use",
+          "Cleaning and disinfection",
+          "Dry heat sterilization"
+        ],
+        "answer": 2,
+        "explanation": "Noncritical items touching intact skin need cleaning and disinfection. Sterilization is required for critical items and is unnecessary here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Standard precautions",
+        "definition": "CDC infection-control practices that treat blood and saliva from every patient as potentially infectious."
+      },
+      {
+        "term": "Critical instrument",
+        "definition": "Item that penetrates soft tissue or bone, such as a scaler or forceps, and must be heat-sterilized."
+      },
+      {
+        "term": "Biological indicator",
+        "definition": "Spore test used at least weekly to verify that a sterilizer actually kills microorganisms."
+      },
+      {
+        "term": "Demineralization",
+        "definition": "Loss of minerals from enamel when bacterial acids lower plaque pH below about 5.5."
+      },
+      {
+        "term": "Pit and fissure sealant",
+        "definition": "Thin resin coating bonded into molar grooves to block plaque."
+      }
+    ]
+  }
+]

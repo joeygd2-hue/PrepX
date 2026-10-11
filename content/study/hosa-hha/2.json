@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Personal care, vital signs, and body mechanics",
+    "objective": "Perform personal care safely, measure and interpret vital signs against normal adult ranges, and use proper body mechanics and positioning to protect the client and aide.",
+    "body": "Most of an aide's day is spent on **activities of daily living (ADLs)**: bathing, dressing, grooming, eating, toileting and moving. Good personal care keeps the client clean and comfortable while preserving dignity and independence, so the aide lets the client do as much as safely possible.\n\n**Personal care principles.** Before any procedure, the aide knocks, introduces themselves, identifies the client, explains the task, performs hand hygiene and provides privacy. During bathing, wash from **clean to dirty**: face first, then work downward, and perineal care from front to back to reduce urinary tract infections. Check water temperature with a thermometer or the inner wrist, because older adults may not feel heat well. When dressing a client with weakness on one side, put clothing on the **weak side first** and remove it from the strong side first.\n\n**Skin care.** Clients who stay in bed or a chair are at risk for **pressure injuries**, damage over bony areas such as the sacrum, hips and heels. Aides help prevent them by repositioning at least every two hours (or as the care plan directs), keeping skin clean and dry, and reporting any redness that does not fade.\n\n**Vital signs.** Normal adult ranges at rest are approximately:\n- Temperature: about 97.8 to 99.1 degrees F orally\n- Pulse: 60 to 100 beats per minute\n- Respirations: 12 to 20 breaths per minute\n- Blood pressure: normal is below 120 systolic and below 80 diastolic\n\nCount the radial pulse for a full minute if it is irregular. Count respirations without telling the client, often while still holding the wrist, because people change their breathing when watched. Any reading outside the client's usual range is reported to the supervisor promptly.\n\n**Body mechanics and positioning.** **Body mechanics** means using the body efficiently to avoid injury. Keep a wide base of support, bend at the knees and hips rather than the waist, hold loads close, and pivot with the feet instead of twisting. Use a **gait belt** for transfers and ambulation when the care plan calls for it, and lock wheelchair brakes first. Common positions include **Fowler's** (head of bed raised about 45 to 60 degrees, helpful for breathing and eating), **supine** (on the back) and **lateral** (on the side).\n\nWhen assisting with meals, seat the client upright, offer small bites, and watch for coughing or choking. Record intake if the care plan requires it.\n\nThe most common mistake students make is dressing a client with one-sided weakness by starting with the strong arm. Starting on the weak side lets the strong arm do the harder work of reaching into the second sleeve.",
+    "examples": [
+      "A client's pulse is 112 beats per minute at rest; the aide rechecks it, records it, and reports it to the nurse because it is above the normal range.",
+      "Before transferring a client from bed to wheelchair, the aide locks the wheelchair brakes, applies a gait belt, and pivots on the feet rather than twisting the back."
+    ],
+    "questions": [
+      {
+        "stem": "A client had a stroke and has right-sided weakness. Which arm should go into the shirt sleeve first?",
+        "choices": [
+          "The left arm",
+          "The right arm",
+          "Either arm, based on the client's preference",
+          "Both arms at the same time"
+        ],
+        "answer": 1,
+        "explanation": "Dress the weak (right) side first so the strong arm can maneuver into the second sleeve. Starting with the stronger left arm is the most common error."
+      },
+      {
+        "stem": "While measuring vital signs, an aide counts a resting adult pulse of 54 beats per minute. What should the aide do?",
+        "choices": [
+          "Record it as normal",
+          "Record it and report it to the supervisor",
+          "Have the client walk and recheck",
+          "Give the client a glass of water"
+        ],
+        "answer": 1,
+        "explanation": "Below 60 is outside the normal adult range and must be reported. Calling it normal is wrong even though some fit adults run low; the nurse, not the aide, interprets it."
+      },
+      {
+        "stem": "Why should an aide count respirations without telling the client?",
+        "choices": [
+          "It saves time during the visit",
+          "Clients often change their breathing when they know it is being counted",
+          "Breathing must be counted while the client sleeps",
+          "It prevents the client from talking"
+        ],
+        "answer": 1,
+        "explanation": "Awareness alters breathing rate and depth, so counting discreetly gives an accurate reading. Saving time is a side benefit, not the reason."
+      },
+      {
+        "stem": "During perineal care for a female client, which direction should the aide wipe?",
+        "choices": [
+          "Back to front",
+          "Front to back",
+          "In a circular motion",
+          "Side to side"
+        ],
+        "answer": 1,
+        "explanation": "Front to back moves away from the urethra and reduces urinary tract infections. Back to front is the main distractor because it drags bacteria toward the urethra."
+      },
+      {
+        "stem": "A client who mostly stays in bed has a reddened area over the tailbone that does not fade after repositioning. What should the aide do first?",
+        "choices": [
+          "Massage the area firmly",
+          "Apply a heating pad",
+          "Report it to the supervisor and keep pressure off the area",
+          "Wait to see if it goes away by the next visit"
+        ],
+        "answer": 2,
+        "explanation": "Persistent redness may be an early pressure injury and must be reported while relieving pressure. Massage is a tempting distractor but can further damage tissue."
+      },
+      {
+        "stem": "Which position would best help a client with shortness of breath eat a meal?",
+        "choices": [
+          "Supine",
+          "Prone",
+          "Fowler's",
+          "Lateral"
+        ],
+        "answer": 2,
+        "explanation": "Fowler's position raises the head and chest, easing breathing and swallowing. Lateral position may help rest but is not appropriate for eating."
+      },
+      {
+        "stem": "An aide must lift a box of supplies from the floor. Which technique is correct?",
+        "choices": [
+          "Bend at the waist with legs straight",
+          "Bend at the knees and hips, keep the box close, and lift with the legs",
+          "Twist at the waist while lifting",
+          "Hold the box at arm's length"
+        ],
+        "answer": 1,
+        "explanation": "Bending the knees and holding the load close protects the back. Bending at the waist is common but strains the spine."
+      },
+      {
+        "stem": "Before helping a client move from bed to wheelchair, what should the aide do first with the wheelchair?",
+        "choices": [
+          "Remove the footrests and leave the brakes off",
+          "Lock the brakes",
+          "Place it far from the bed",
+          "Tilt it backward"
+        ],
+        "answer": 1,
+        "explanation": "Locked brakes keep the chair from rolling during the transfer. Removing or swinging away footrests may also be needed, but leaving the brakes off makes the transfer unsafe."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Activities of daily living (ADLs)",
+        "definition": "Basic self-care tasks such as bathing, dressing, eating, toileting and moving."
+      },
+      {
+        "term": "Pressure injury",
+        "definition": "Skin and tissue damage over a bony area caused by prolonged pressure."
+      },
+      {
+        "term": "Body mechanics",
+        "definition": "Using the body efficiently and safely to move and lift without injury."
+      },
+      {
+        "term": "Fowler's position",
+        "definition": "Semi-sitting position with the head of the bed raised about 45 to 60 degrees."
+      },
+      {
+        "term": "Gait belt",
+        "definition": "A belt placed around the client's waist that gives the aide a secure grip during transfers and walking."
+      }
+    ]
+  }
+]

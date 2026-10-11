@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Medical terminology and body systems for rapid recall",
+    "objective": "Break medical terms into word parts, define unfamiliar terms from their roots, and match body systems to their organs and functions under time pressure.",
+    "body": "Health science questions in HOSA Bowl move fast, so the goal is not to memorize thousands of words but to decode them. Almost every medical term is built from a few reusable parts.\n\n**Word parts.** A **root** carries the core meaning, a **prefix** comes before it and modifies it, and a **suffix** comes after it and usually names a condition, procedure or specialty. A **combining vowel**, usually \"o,\" links parts to make pronunciation easier.\n- *Gastr/o* (stomach) + *-itis* (inflammation) = gastritis, inflammation of the stomach.\n- *Brady-* (slow) + *card/i* (heart) + *-ia* (condition) = bradycardia, a slow heart rate.\n- *Hepat/o* (liver) + *-megaly* (enlargement) = hepatomegaly.\n\nRead a term from the suffix first, then the prefix, then the root: \"inflammation of the stomach\" for gastritis.\n\n**High-yield suffixes.** -ectomy means surgical removal, -otomy means cutting into, and -ostomy means creating a new opening. -algia means pain, -emia refers to a blood condition, and -ology means the study of. Confusing -ectomy, -otomy and -ostomy is a classic trap.\n\n**Body systems.** Link each system to its main organs and job.\n1. **Cardiovascular**: heart and blood vessels; transports blood, oxygen and nutrients.\n2. **Respiratory**: lungs, trachea and bronchi; exchanges oxygen and carbon dioxide in the alveoli.\n3. **Nervous**: brain, spinal cord and nerves; controls and coordinates the body.\n4. **Endocrine**: glands such as the thyroid, pancreas and adrenal glands; release hormones.\n5. **Digestive**: stomach, intestines and liver; break down food and absorb nutrients.\n6. **Urinary**: kidneys, ureters and bladder; filter blood and remove waste as urine.\n7. **Musculoskeletal**: bones, muscles and joints; support and movement.\n8. **Integumentary**: skin, hair and nails; protection and temperature regulation.\n\n**Directional terms.** Questions often describe location. **Anterior** means toward the front and **posterior** toward the back; **proximal** means closer to the point of attachment and **distal** farther away. The elbow is proximal to the wrist.\n\n**Antonym pairs** are worth drilling together: hyper- (above normal) versus hypo- (below normal), tachy- (fast) versus brady- (slow), and endo- (within) versus exo- (outside).\n\nThe most common mistake is guessing from a word's sound instead of its parts. Students see \"hypo\" and \"hyper\" or \"-ectomy\" and \"-otomy\" and pick whichever looks familiar; slow down for one second and translate each part.",
+    "examples": [
+      "Arthroscopy breaks into arthr/o (joint) and -scopy (visual examination), so it means looking inside a joint with a scope.",
+      "Hypoglycemia combines hypo- (below normal), glyc (sugar) and -emia (blood condition): low blood sugar."
+    ],
+    "questions": [
+      {
+        "stem": "A patient's chart lists a planned appendectomy. What procedure is scheduled?",
+        "choices": [
+          "Cutting into the appendix to drain it",
+          "Surgical removal of the appendix",
+          "Creating an opening from the appendix to the skin",
+          "Visual examination of the appendix"
+        ],
+        "answer": 1,
+        "explanation": "-ectomy means surgical removal. -otomy (cutting into) is the main distractor because the two suffixes look similar."
+      },
+      {
+        "stem": "A nurse records a resting heart rate of 120 beats per minute in an adult and describes it with a medical term. Which term fits?",
+        "choices": [
+          "Bradycardia",
+          "Tachycardia",
+          "Cardiomegaly",
+          "Arrhythmia only"
+        ],
+        "answer": 1,
+        "explanation": "Tachy- means fast, and a resting adult rate above 100 is generally called tachycardia. Bradycardia means slow, the opposite."
+      },
+      {
+        "stem": "Which body system is primarily responsible for gas exchange in the alveoli?",
+        "choices": [
+          "Respiratory",
+          "Cardiovascular",
+          "Integumentary",
+          "Lymphatic"
+        ],
+        "answer": 0,
+        "explanation": "Alveoli are the air sacs of the lungs, part of the respiratory system. The cardiovascular system carries the gases afterward but does not perform the exchange in the alveoli."
+      },
+      {
+        "stem": "A student sees the term \"nephritis\" on a case study. Which organ is inflamed?",
+        "choices": [
+          "Liver",
+          "Nerve",
+          "Kidney",
+          "Stomach"
+        ],
+        "answer": 2,
+        "explanation": "Nephr/o means kidney and -itis means inflammation. Students often confuse nephr/o with neur/o (nerve) because they start similarly."
+      },
+      {
+        "stem": "A surgeon creates a new opening from the colon to the abdominal wall. Which term describes this?",
+        "choices": [
+          "Colectomy",
+          "Colotomy",
+          "Colonoscopy",
+          "Colostomy"
+        ],
+        "answer": 3,
+        "explanation": "-ostomy means creating a new opening. Colectomy is removal of the colon, a common distractor."
+      },
+      {
+        "stem": "An injury is described as distal to the knee. Where is it?",
+        "choices": [
+          "Below the knee, toward the foot",
+          "Above the knee, toward the hip",
+          "On the back of the knee",
+          "Exactly at the kneecap"
+        ],
+        "answer": 0,
+        "explanation": "Distal means farther from the point of attachment, so for the leg it is toward the foot. Proximal would mean toward the hip."
+      },
+      {
+        "stem": "A patient has an overactive thyroid gland. Which term best describes this condition?",
+        "choices": [
+          "Hypothyroidism",
+          "Thyroidectomy",
+          "Hyperthyroidism",
+          "Thyroiditis"
+        ],
+        "answer": 2,
+        "explanation": "Hyper- means above normal, so hyperthyroidism is overactivity. Hypothyroidism is the opposite, underactivity."
+      },
+      {
+        "stem": "Which organ belongs to both the digestive and endocrine systems because it secretes digestive enzymes and hormones such as insulin?",
+        "choices": [
+          "Spleen",
+          "Gallbladder",
+          "Kidney",
+          "Pancreas"
+        ],
+        "answer": 3,
+        "explanation": "The pancreas releases digestive enzymes and hormones including insulin and glucagon. The gallbladder stores bile but does not secrete hormones."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Root",
+        "definition": "The word part that carries the core meaning of a medical term, such as cardi (heart)."
+      },
+      {
+        "term": "Suffix",
+        "definition": "A word part added to the end of a term that often names a condition or procedure, such as -itis or -ectomy."
+      },
+      {
+        "term": "Combining vowel",
+        "definition": "A vowel, usually o, that links word parts for easier pronunciation."
+      },
+      {
+        "term": "Proximal",
+        "definition": "Closer to the point of attachment or the trunk of the body."
+      },
+      {
+        "term": "Distal",
+        "definition": "Farther from the point of attachment or the trunk of the body."
+      }
+    ]
+  }
+]

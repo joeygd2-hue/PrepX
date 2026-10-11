@@ -1,0 +1,123 @@
+[
+  {
+    "title": "CERT roles, preparedness and the size-up process",
+    "objective": "Explain the purpose of CERT, identify core CERT functions, and apply the size-up steps to decide whether and how to act safely.",
+    "body": "A **Community Emergency Response Team (CERT)** is a group of trained volunteers who help their neighborhood or workplace in the first hours after a disaster, before professional responders can reach everyone. The program, supported by FEMA, teaches people to protect themselves first, then help others with simple, low-risk skills. CERT members do not replace firefighters or paramedics; they extend the reach of those professionals when demand overwhelms them.\n\n**Core functions.** CERT training groups its work into a few areas:\n- **Disaster preparedness**: knowing local hazards, building kits and making family plans.\n- **Fire safety and utility control**: suppressing small fires and shutting off utilities when it is safe.\n- **Disaster medical operations**: triage and basic treatment of life-threatening conditions.\n- **Light search and rescue**: locating and removing lightly trapped victims.\n- **Team organization**: working within a clear structure based on the **Incident Command System (ICS)**.\n\n**Personal preparedness.** A responder who is unprepared at home becomes another victim. CERT members keep a disaster supply kit with water (about one gallon per person per day for several days), nonperishable food, a flashlight, a radio, first aid supplies and copies of important documents. They also keep safety gear ready: helmet, goggles, N95 mask, work gloves and sturdy shoes.\n\n**Size-up.** Before every action, CERT members use **size-up**, a continual process of gathering information and deciding what to do. The steps are:\n1. Gather facts (time, type of structure, weather, hazards).\n2. Assess and communicate the damage.\n3. Consider probabilities: what is likely to happen next?\n4. Assess your own situation: are you trained, equipped and safe?\n5. Establish priorities.\n6. Make decisions.\n7. Develop a plan of action.\n8. Take action.\n9. Evaluate progress, then repeat the cycle.\n\nThe guiding rule is that **rescuer safety comes first**. CERT members work in pairs or teams (the **buddy system**), wear protective equipment and back away from situations that exceed their training, such as heavily damaged buildings or hazardous material spills.\n\n**ICS basics.** On scene, a **team leader** directs operations, and members report to one supervisor (**unity of command**). Accountability means the leader always knows where every member is assigned. Clear structure prevents freelancing, which wastes effort and puts people at risk.\n\nThe most common mistake students make is treating size-up as a single checklist done once at arrival. Size-up is continuous: conditions such as aftershocks, rising water or spreading fire change constantly, so the evaluation step loops back to gathering new facts.",
+    "examples": [
+      "After an earthquake, a CERT member first checks her own home and family, then puts on her helmet, gloves and goggles before reporting to the neighborhood staging area.",
+      "Arriving at a damaged house, a CERT pair notices a strong smell of gas and decides, during size-up, to stay out and report the hazard instead of entering."
+    ],
+    "questions": [
+      {
+        "stem": "A neighborhood CERT member hears about a local flood. What should he do before going to help others?",
+        "choices": [
+          "Check on his own safety and family first",
+          "Drive immediately to the flooded area",
+          "Wait for the fire department to call him",
+          "Post the flood location on social media"
+        ],
+        "answer": 0,
+        "explanation": "CERT emphasizes self and family safety first so the responder does not become a victim. Rushing to the scene ignores personal readiness."
+      },
+      {
+        "stem": "Which statement best describes CERT's role after a major disaster?",
+        "choices": [
+          "It replaces local fire and EMS agencies",
+          "It provides advanced medical care in the field",
+          "It supports professional responders until they can arrive",
+          "It directs all government response operations"
+        ],
+        "answer": 2,
+        "explanation": "CERT volunteers extend help in the gap before professionals arrive. They do not replace fire or EMS or provide advanced care."
+      },
+      {
+        "stem": "During size-up, a team asks, 'Could this wall collapse during an aftershock?' Which step is this?",
+        "choices": [
+          "Gather facts",
+          "Consider probabilities",
+          "Make decisions",
+          "Take action"
+        ],
+        "answer": 1,
+        "explanation": "Predicting what is likely to happen next is considering probabilities. Gathering facts records present conditions rather than forecasting."
+      },
+      {
+        "stem": "A CERT pair finds a building with a large crack across the foundation and a leaning wall. What is the best decision?",
+        "choices": [
+          "Enter quickly to search for victims",
+          "Send the more experienced member in alone",
+          "Stay out, mark the hazard and report it",
+          "Shore up the wall with nearby lumber"
+        ],
+        "answer": 2,
+        "explanation": "Heavy structural damage exceeds CERT training, so rescuer safety requires staying out and reporting. Entering alone violates both safety and the buddy system."
+      },
+      {
+        "stem": "Why do CERT members follow unity of command?",
+        "choices": [
+          "So each person reports to one supervisor",
+          "So volunteers can choose their own tasks",
+          "So every member can give orders",
+          "So paperwork is unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "Unity of command means each member reports to one supervisor, which supports accountability. Letting volunteers choose tasks leads to freelancing."
+      },
+      {
+        "stem": "What is the final step of the CERT size-up process?",
+        "choices": [
+          "Take action",
+          "Establish priorities",
+          "Develop a plan",
+          "Evaluate progress"
+        ],
+        "answer": 3,
+        "explanation": "Evaluating progress ends each cycle and feeds new information back into the process. Taking action comes just before evaluation."
+      },
+      {
+        "stem": "A student packing a family disaster kit plans water for four people for three days. About how much water is recommended?",
+        "choices": [
+          "3 gallons",
+          "12 gallons",
+          "6 gallons",
+          "24 gallons"
+        ],
+        "answer": 1,
+        "explanation": "About one gallon per person per day gives 4 x 3 = 12 gallons. Six gallons would cover only half that need."
+      },
+      {
+        "stem": "Which item is part of standard CERT personal protective equipment?",
+        "choices": [
+          "Firefighter breathing apparatus",
+          "Helmet and work gloves",
+          "Bulletproof vest",
+          "Chemical splash suit"
+        ],
+        "answer": 1,
+        "explanation": "CERT safety gear includes a helmet, goggles, N95 mask, work gloves and sturdy shoes. Breathing apparatus requires professional training CERT does not provide."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Community Emergency Response Team (CERT)",
+        "definition": "Trained volunteers who help their community in the first hours after a disaster, supporting professional responders."
+      },
+      {
+        "term": "Size-up",
+        "definition": "A continual nine-step process of gathering information, deciding and acting, then evaluating."
+      },
+      {
+        "term": "Buddy system",
+        "definition": "Working in pairs or teams so no rescuer operates alone."
+      },
+      {
+        "term": "Incident Command System (ICS)",
+        "definition": "A standard organizational structure for managing emergency response."
+      },
+      {
+        "term": "Unity of command",
+        "definition": "The principle that each team member reports to only one supervisor."
+      }
+    ]
+  }
+]

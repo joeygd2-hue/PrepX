@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Fingerprints, blood evidence, and forensic DNA analysis",
+    "objective": "Classify fingerprint patterns, interpret basic bloodstain and serology findings, and explain how STR DNA profiling and CODIS link evidence to individuals.",
+    "body": "Most links between a person and a scene come from three sources: friction ridge skin, blood, and DNA. Each method has its own vocabulary and limits.\n\n**Fingerprints.** Friction ridge patterns form before birth and remain stable for life, and no two fingers, even of identical twins, have been found identical. The three pattern types are:\n- **Loops**, the most common (about 60 to 65 percent), with one delta.\n- **Whorls**, about 30 to 35 percent, with two deltas.\n- **Arches**, about 5 percent, with no delta.\n\nPatterns are class characteristics; individualization relies on **minutiae** such as ridge endings, bifurcations and dots. Prints are classified as **patent** (visible, as in blood or paint), **plastic** (impressed into soft material like wax), or **latent** (invisible until developed). Latent prints on nonporous surfaces such as glass are often developed with powder or cyanoacrylate (superglue) fuming; on porous paper, ninhydrin reacts with amino acids to produce a purple print. Searchable databases, such as the FBI's Next Generation Identification system, return candidates, but a trained examiner makes the final comparison.\n\n**Blood.** Examiners first ask whether a stain is blood. A **presumptive test**, such as Kastle-Meyer (phenolphthalein) or luminol, is sensitive but can react with other substances, so a positive result must be followed by a **confirmatory test**. A precipitin test then shows whether the blood is human. **Bloodstain pattern analysis** reconstructs events: passive drops fall by gravity, spatter results from force, and transfer stains come from contact. The shape of a drop shows its angle of impact; a round stain struck at about 90 degrees, while elongated stains point in the direction of travel. Tracing several stains back reveals the **area of origin**.\n\n**DNA profiling.** Modern labs analyze **short tandem repeats (STRs)**, short DNA sequences repeated a variable number of times at specific locations, or loci. Because people inherit one allele from each parent, a profile shows one or two numbers at each locus. The U.S. **CODIS** database uses 20 core STR loci, and matching all of them makes a random match extremely unlikely. PCR copies tiny amounts of DNA, which makes analysis possible from touch samples but also makes contamination a serious risk. **Mitochondrial DNA** is inherited only from the mother and survives well in hair shafts, bones and teeth, but it cannot distinguish maternal relatives.\n\nThe most common mistake students make is treating a positive presumptive test, such as luminol glowing, as proof of human blood; it only indicates that blood may be present.",
+    "examples": [
+      "A latent print on a soda can is developed by superglue fuming, then photographed and searched in a fingerprint database before an examiner compares minutiae.",
+      "A stain on a floor reacts with Kastle-Meyer, so the analyst runs a confirmatory test and a precipitin test before reporting human blood.",
+      "Skeletal remains with degraded nuclear DNA are compared to a possible missing person's mother using mitochondrial DNA."
+    ],
+    "questions": [
+      {
+        "stem": "A fingerprint shows ridges entering on one side, recurving, and exiting the same side, with one delta. What is the pattern?",
+        "choices": [
+          "Arch",
+          "Whorl",
+          "Loop",
+          "Tented arch"
+        ],
+        "answer": 2,
+        "explanation": "One delta with ridges entering and exiting the same side defines a loop. A whorl has two deltas and circular ridge flow."
+      },
+      {
+        "stem": "An analyst needs to develop latent prints on a paper ransom note. Which method is most appropriate?",
+        "choices": [
+          "Ninhydrin",
+          "Black powder dusting",
+          "Photographing under normal light",
+          "Casting with dental stone"
+        ],
+        "answer": 0,
+        "explanation": "Ninhydrin reacts with amino acids absorbed into porous paper. Powder works best on smooth nonporous surfaces like glass."
+      },
+      {
+        "stem": "Luminol makes a dark carpet glow at a scene. What can the investigator conclude?",
+        "choices": [
+          "Human blood is confirmed",
+          "Blood may be present and confirmatory testing is needed",
+          "The suspect's DNA is present",
+          "The stain is less than a day old"
+        ],
+        "answer": 1,
+        "explanation": "Luminol is presumptive and can react with substances such as some bleaches and metals. It neither confirms human origin nor identifies a person."
+      },
+      {
+        "stem": "A blood drop on a wall is long and narrow with its tail pointing right. What does this indicate?",
+        "choices": [
+          "The drop fell straight down at 90 degrees",
+          "The drop traveled left to right at a sharp angle",
+          "The stain is a transfer pattern",
+          "The blood was diluted"
+        ],
+        "answer": 1,
+        "explanation": "Elongated stains form at low impact angles, and the narrow tail points in the direction of travel. A 90-degree impact produces a nearly round stain."
+      },
+      {
+        "stem": "An STR profile shows only one number at a locus. What is the most likely explanation?",
+        "choices": [
+          "The person inherited the same allele from both parents",
+          "The sample is mitochondrial DNA",
+          "The person is a twin",
+          "The lab tested only the mother"
+        ],
+        "answer": 0,
+        "explanation": "A single value means the person is homozygous at that locus. Mitochondrial DNA is analyzed by sequencing, not STR allele counts."
+      },
+      {
+        "stem": "Why is PCR both an advantage and a risk for forensic DNA testing?",
+        "choices": [
+          "It works only on blood",
+          "It copies tiny amounts of DNA, so contaminating DNA is copied too",
+          "It destroys the original sample",
+          "It identifies people without a reference sample"
+        ],
+        "answer": 1,
+        "explanation": "Amplification allows analysis of trace samples but equally amplifies stray DNA from handlers. It does not by itself identify a person without comparison."
+      },
+      {
+        "stem": "Investigators have only a rootless hair shaft. Which analysis is most likely to yield usable DNA results?",
+        "choices": [
+          "Nuclear STR typing",
+          "Mitochondrial DNA sequencing",
+          "Precipitin testing",
+          "Ninhydrin development"
+        ],
+        "answer": 1,
+        "explanation": "Hair shafts lack nuclei but contain many mitochondria. Nuclear STR typing usually needs the root, which contains nucleated cells."
+      },
+      {
+        "stem": "What is the role of an examiner after a fingerprint database search?",
+        "choices": [
+          "Accept the top-ranked candidate automatically",
+          "Compare minutiae and decide whether the prints share a source",
+          "Classify only the pattern type",
+          "Destroy the latent print"
+        ],
+        "answer": 1,
+        "explanation": "Databases return a list of candidates; a trained examiner makes the identification decision. Accepting the top score automatically has led to wrongful identifications."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Minutiae",
+        "definition": "Ridge details such as endings, bifurcations and dots used to individualize a fingerprint."
+      },
+      {
+        "term": "Latent print",
+        "definition": "A fingerprint invisible to the naked eye that must be developed with powder, chemicals or fuming."
+      },
+      {
+        "term": "Presumptive test",
+        "definition": "A sensitive screening test, such as Kastle-Meyer or luminol, that indicates blood may be present but is not conclusive."
+      },
+      {
+        "term": "Short tandem repeat (STR)",
+        "definition": "A short DNA sequence repeated a variable number of times at a locus; the basis of forensic DNA profiles."
+      },
+      {
+        "term": "CODIS",
+        "definition": "The FBI's Combined DNA Index System, which compares STR profiles using 20 core loci."
+      }
+    ]
+  }
+]

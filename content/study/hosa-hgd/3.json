@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Adulthood, aging, and responses to death and dying",
+    "objective": "Analyze developmental tasks of adulthood, distinguish normal aging from disease, and apply grief models to support patients and families.",
+    "body": "Development continues for a lifetime. Adults face new tasks, bodies change with age, and everyone eventually confronts loss. Advanced questions often ask you to separate expected change from warning signs and to choose a supportive response.\n\n**Young adulthood (about 18 to 40).** Physical performance typically peaks. Major tasks include finishing education, starting a career and forming close relationships, matching Erikson's **intimacy versus isolation**.\n\n**Middle adulthood (about 40 to 65).** People often balance careers, children and aging parents, a position nicknamed the **sandwich generation**. Erikson's conflict is **generativity versus stagnation**: contributing to the next generation through parenting, mentoring or community work. Physical changes include presbyopia (difficulty focusing on close objects) and, in women, **menopause**, defined as 12 months without a menstrual period.\n\n**Late adulthood (65 and older).** Erikson's final stage is **integrity versus despair**, a review of whether life was meaningful. Normal aging includes:\n- Reduced muscle mass, bone density and skin elasticity.\n- Slower reaction time and some gradual hearing loss, especially of high-pitched sounds.\n- Mild slowing in recalling names or words.\n\nNormal aging does **not** include dementia, depression or constant confusion. **Dementia** is a progressive decline in memory and thinking that interferes with daily life; Alzheimer disease is its most common cause. **Delirium** is a sudden, often fluctuating confusion usually caused by an underlying problem such as infection, dehydration or medication effects, and it needs prompt reporting. Treating any of these as \"just getting old\" can delay care.\n\n**Death and dying.** Elisabeth Kübler-Ross described five stages of responding to dying or loss:\n1. **Denial**: \"This can't be happening.\"\n2. **Anger**: frustration, sometimes directed at caregivers.\n3. **Bargaining**: \"If I can just see my grandson graduate...\"\n4. **Depression**: sadness as reality sets in.\n5. **Acceptance**: making peace and planning.\nPeople do not move through these stages in a fixed order, may revisit stages and may skip some. **Hospice** care focuses on comfort and quality of life when cure is no longer the goal, while **palliative care** relieves symptoms at any stage of a serious illness, even alongside curative treatment. **Advance directives**, such as a living will and a health care power of attorney, record a person's wishes before they can no longer speak for themselves.\n\n**Supporting patients.** Listen more than you talk, accept emotions without arguing, respect cultural and religious practices, and do not take anger personally.\n\nThe most common mistake students make is treating the Kübler-Ross stages as a strict sequence or assuming hospice and palliative care are identical. Remember that grief is individual and palliative care can begin at diagnosis.",
+    "examples": [
+      "A 48-year-old who coaches youth soccer and mentors new coworkers is showing generativity in middle adulthood.",
+      "An 82-year-old who was alert yesterday is suddenly confused and agitated today; staff report it promptly because sudden change suggests delirium, not normal aging.",
+      "A patient with terminal cancer shouts at the nurse about the hospital food; the nurse recognizes possible anger related to grief and responds calmly."
+    ],
+    "questions": [
+      {
+        "stem": "A 78-year-old resident who was oriented yesterday is now suddenly confused, restless and pulling at her blanket. What is the most appropriate interpretation?",
+        "choices": [
+          "Normal aging that needs no action",
+          "Possible delirium that should be reported promptly",
+          "Expected progression of mild forgetfulness",
+          "A sign of the acceptance stage of grief"
+        ],
+        "answer": 1,
+        "explanation": "Sudden, fluctuating confusion suggests delirium, which often has a treatable cause and must be reported. Normal aging involves mild, gradual changes, not abrupt confusion."
+      },
+      {
+        "stem": "A 52-year-old caring for both her teenage children and her father with heart failure is best described as part of the:",
+        "choices": [
+          "Sandwich generation",
+          "Integrity stage",
+          "Formal operational stage",
+          "Intimacy versus isolation stage"
+        ],
+        "answer": 0,
+        "explanation": "The sandwich generation describes middle-aged adults caring for both children and aging parents. Intimacy versus isolation refers to young adults forming close relationships, not caregiving demands."
+      },
+      {
+        "stem": "A patient newly diagnosed with a terminal illness says, \"If I follow every instruction perfectly, maybe I'll live to see my daughter's wedding.\" Which Kübler-Ross stage does this reflect?",
+        "choices": [
+          "Denial",
+          "Anger",
+          "Bargaining",
+          "Acceptance"
+        ],
+        "answer": 2,
+        "explanation": "Bargaining involves trying to negotiate more time, often with conditions. Acceptance would involve making peace with the outcome rather than negotiating to change it."
+      },
+      {
+        "stem": "A retired teacher reviews his life and tells visitors he is proud of the students he helped. Which Erikson stage is he resolving successfully?",
+        "choices": [
+          "Generativity versus stagnation",
+          "Integrity versus despair",
+          "Industry versus inferiority",
+          "Intimacy versus isolation"
+        ],
+        "answer": 1,
+        "explanation": "Integrity versus despair is the late-adulthood stage of reviewing one's life with a sense of meaning. Generativity is the middle-adulthood task of actively contributing to the next generation, not looking back."
+      },
+      {
+        "stem": "A patient's family member says the patient has moved from anger to acceptance and back to denial. How should a health care worker respond?",
+        "choices": [
+          "Explain that the patient is grieving incorrectly",
+          "Recognize that grief stages are not a fixed sequence",
+          "Report the patient for a psychiatric evaluation",
+          "Encourage the patient to skip to acceptance"
+        ],
+        "answer": 1,
+        "explanation": "Kübler-Ross stages can occur in any order and be revisited. Labeling the patient's grief as incorrect wrongly treats the model as a strict sequence."
+      },
+      {
+        "stem": "A patient with newly diagnosed heart failure is still receiving treatment aimed at improving her condition but wants help with breathlessness and fatigue. Which service fits best?",
+        "choices": [
+          "Hospice care only",
+          "Palliative care",
+          "No services until treatment ends",
+          "Formal advance directive enforcement"
+        ],
+        "answer": 1,
+        "explanation": "Palliative care relieves symptoms at any stage of serious illness and can occur alongside curative treatment. Hospice focuses on comfort when cure is no longer the goal, so it does not fit a patient still pursuing treatment."
+      },
+      {
+        "stem": "A 70-year-old says he sometimes takes a moment to recall a neighbor's name but manages his finances and daily routine independently. This is most consistent with:",
+        "choices": [
+          "Normal age-related change",
+          "Dementia",
+          "Delirium",
+          "Depression"
+        ],
+        "answer": 0,
+        "explanation": "Mild, occasional slowing in name recall without affecting daily function is typical of normal aging. Dementia involves decline that interferes with daily life, which is not present here."
+      },
+      {
+        "stem": "A dying patient angrily accuses the nursing assistant of being slow and careless. What is the best response?",
+        "choices": [
+          "Argue to correct the patient's accusation",
+          "Avoid the patient for the rest of the shift",
+          "Stay calm, acknowledge the feelings and continue providing care",
+          "Tell the patient that anger is not allowed"
+        ],
+        "answer": 2,
+        "explanation": "Anger is a common response to loss, and calm acknowledgment supports the patient without taking it personally. Avoiding the patient withdraws needed care and support."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Generativity versus stagnation",
+        "definition": "Erikson's middle-adulthood stage focused on contributing to future generations."
+      },
+      {
+        "term": "Integrity versus despair",
+        "definition": "Erikson's late-adulthood stage in which people review whether life was meaningful."
+      },
+      {
+        "term": "Delirium",
+        "definition": "Sudden, often fluctuating confusion usually caused by an underlying problem; requires prompt reporting."
+      },
+      {
+        "term": "Palliative care",
+        "definition": "Care that relieves symptoms of serious illness at any stage, including alongside curative treatment."
+      },
+      {
+        "term": "Advance directive",
+        "definition": "Legal document, such as a living will or health care power of attorney, recording care wishes in advance."
+      }
+    ]
+  }
+]

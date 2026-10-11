@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of mental health and mental illness",
+    "objective": "Define mental health, distinguish it from mental illness, explain the biopsychosocial model, and identify common risk and protective factors.",
+    "body": "Behavioral health is the broad field that covers how thoughts, emotions and behaviors affect overall well-being. It includes mental health, substance use and the habits that shape both. Before you can recognize a disorder, you need a clear picture of what healthy functioning looks like and why problems develop.\n\n**Mental health** is a state of well-being in which a person can cope with normal stress, work productively, build relationships and contribute to a community. It is not simply the absence of illness. A **mental illness** (or mental disorder) is a health condition involving significant changes in thinking, emotion or behavior that cause distress or impair functioning at school, work or home. A person can have a diagnosed condition and still have good days and strong coping skills, and a person with no diagnosis can still be struggling.\n\n**Why disorders develop: the biopsychosocial model.** Clinicians rarely point to a single cause. Instead, they look at three interacting areas:\n- **Biological:** genetics, brain chemistry, hormones, physical illness and substance exposure.\n- **Psychological:** thought patterns, coping style, self-esteem and past trauma.\n- **Social:** family relationships, peers, poverty, discrimination, school pressure and access to care.\n\nThe **diathesis-stress model** adds that a vulnerability (diathesis) may stay quiet until enough stress triggers symptoms. Two siblings can share genes yet differ in outcome because their stressors and supports differ.\n\n**Risk and protective factors.** A **risk factor** raises the likelihood of a problem; examples include family history, adverse childhood experiences (ACEs), chronic stress, isolation and early substance use. A **protective factor** lowers that likelihood or buffers its impact; examples include a trusted adult, school connectedness, problem-solving skills, physical activity, adequate sleep and access to care. Prevention programs aim to reduce risks and strengthen protections at the same time.\n\n**How disorders are classified.** In the United States, clinicians use the *DSM-5-TR* (Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision), published by the American Psychiatric Association in 2022. Internationally, the World Health Organization's ICD-11 is used. Both describe criteria such as symptom type, duration and level of impairment, so diagnosis is made by a qualified professional rather than by a checklist alone.\n\n**Stigma** is a major barrier. Public stigma involves negative stereotypes held by others, while self-stigma happens when a person absorbs those beliefs and feels shame. Stigma delays help-seeking, which is why person-first language (\"a person with schizophrenia\" rather than \"a schizophrenic\") matters.\n\nThe most common mistake students make is treating mental health and mental illness as opposite ends of one line. They are related but separate: someone can have a mental illness and good mental health supports, or no diagnosis and poor well-being.",
+    "examples": [
+      "A teen with a family history of depression (biological risk) who also has close friends and a supportive coach (protective factors) may never develop symptoms despite exam stress.",
+      "Saying \"a person living with bipolar disorder\" instead of \"a bipolar\" is person-first language that reduces stigma."
+    ],
+    "questions": [
+      {
+        "stem": "A school counselor explains that a student's anxiety likely comes from a mix of genetics, perfectionistic thinking and family conflict. Which framework is she using?",
+        "choices": [
+          "Biopsychosocial model",
+          "Medical model only",
+          "Behaviorist model",
+          "Psychoanalytic model"
+        ],
+        "answer": 0,
+        "explanation": "The biopsychosocial model combines biological, psychological and social causes. The medical model only would focus on biology alone and ignore the thinking and family factors."
+      },
+      {
+        "stem": "Which item is a protective factor for adolescent mental health?",
+        "choices": [
+          "Early alcohol use",
+          "Strong connection to school",
+          "Family history of depression",
+          "Chronic sleep loss"
+        ],
+        "answer": 1,
+        "explanation": "School connectedness buffers against problems. Family history of depression is a risk factor because it raises vulnerability rather than lowering it."
+      },
+      {
+        "stem": "Maya inherited a vulnerability to depression but had no symptoms until her parents divorced and she changed schools. Which concept best explains the timing?",
+        "choices": [
+          "Self-stigma",
+          "Person-first language",
+          "Diathesis-stress model",
+          "Protective factor"
+        ],
+        "answer": 2,
+        "explanation": "The diathesis-stress model says a vulnerability can remain latent until stress triggers it. A protective factor would lower risk, not explain why symptoms began."
+      },
+      {
+        "stem": "Which statement about mental health is most accurate?",
+        "choices": [
+          "It is the same as having no diagnosis",
+          "It only matters for people with a disorder",
+          "It cannot change over a lifetime",
+          "It includes coping with stress and functioning well"
+        ],
+        "answer": 3,
+        "explanation": "Mental health is a positive state of well-being that includes coping and functioning. Equating it with having no diagnosis is wrong because people without a diagnosis can still struggle."
+      },
+      {
+        "stem": "A clinician in the United States is checking whether a patient's symptoms meet criteria for a disorder. Which reference is she most likely using?",
+        "choices": [
+          "DSM-5-TR",
+          "HIPAA",
+          "ICD-9",
+          "Joint Commission manual"
+        ],
+        "answer": 0,
+        "explanation": "The DSM-5-TR is the current U.S. diagnostic manual. ICD-9 is an outdated version of the international system; current international coding uses ICD-11."
+      },
+      {
+        "stem": "Jordan refuses to tell anyone he feels depressed because he believes it means he is weak. This is an example of:",
+        "choices": [
+          "Public stigma",
+          "Self-stigma",
+          "A protective factor",
+          "Diagnosis"
+        ],
+        "answer": 1,
+        "explanation": "Jordan has internalized negative beliefs, which is self-stigma. Public stigma refers to stereotypes held by others rather than beliefs a person applies to himself."
+      },
+      {
+        "stem": "Which phrase uses person-first language?",
+        "choices": [
+          "The schizophrenic in room 4",
+          "An anorexic student",
+          "A person with schizophrenia",
+          "The mentally ill"
+        ],
+        "answer": 2,
+        "explanation": "Person-first language puts the person before the condition. The other options define the person by the illness."
+      },
+      {
+        "stem": "A health teacher wants to lower risk for a whole grade before problems start. Which approach fits best?",
+        "choices": [
+          "Waiting for students to self-refer",
+          "Diagnosing students with a checklist",
+          "Assigning medication to stressed students",
+          "Teaching coping skills and building connectedness"
+        ],
+        "answer": 3,
+        "explanation": "Prevention strengthens protective factors like coping skills and connectedness. Diagnosing with a checklist is wrong because diagnosis requires a qualified professional and is not prevention."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Mental health",
+        "definition": "A state of well-being in which a person copes with normal stress, functions productively and maintains relationships."
+      },
+      {
+        "term": "Biopsychosocial model",
+        "definition": "A framework explaining behavioral health through interacting biological, psychological and social factors."
+      },
+      {
+        "term": "Diathesis-stress model",
+        "definition": "The idea that an underlying vulnerability produces a disorder only when triggered by sufficient stress."
+      },
+      {
+        "term": "Protective factor",
+        "definition": "A characteristic or condition that lowers the likelihood or impact of a behavioral health problem."
+      },
+      {
+        "term": "Self-stigma",
+        "definition": "Internalizing negative stereotypes about mental illness, leading to shame and reduced help-seeking."
+      }
+    ]
+  }
+]

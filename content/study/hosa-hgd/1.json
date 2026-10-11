@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Principles, domains and major theories of human development",
+    "objective": "Identify the domains and principles of growth and development and apply the stage theories of Piaget, Erikson and Maslow to real situations.",
+    "body": "Human growth and development describes how people change from conception to death. **Growth** refers to measurable physical change, such as height, weight and head circumference. **Development** refers to increasing skill and complexity in how a person functions, such as learning to walk, reason or form relationships. A child can grow taller without developing new skills, so the two words are not interchangeable.\n\nHealth care workers usually describe development across four connected **domains**:\n- **Physical**: body size, motor skills, sensory abilities and organ maturation.\n- **Cognitive**: thinking, memory, language and problem solving.\n- **Emotional**: recognizing, expressing and managing feelings.\n- **Social**: relationships, communication and fitting into groups.\n\nA change in one domain affects the others. A toddler who learns to walk (physical) can explore more, which feeds curiosity and learning (cognitive) and new interactions with others (social).\n\n**Principles of development.** Development follows predictable patterns even though each person moves at an individual rate.\n1. **Cephalocaudal**: development proceeds from head to toe, so infants control their heads before their legs.\n2. **Proximodistal**: development proceeds from the center of the body outward, so arm control comes before finger control.\n3. Development moves from simple to complex and general to specific.\n4. Sequence is predictable, but timing varies; milestones are given as typical age ranges, not deadlines.\n\n**Major theories.** **Jean Piaget** described four stages of cognitive development: sensorimotor (birth to about 2), preoperational (about 2 to 7), concrete operational (about 7 to 11) and formal operational (about 11 and up). Key ideas include **object permanence**, which emerges in the sensorimotor stage, and **conservation**, which is mastered in the concrete operational stage.\n\n**Erik Erikson** described eight psychosocial stages, each built around a conflict, such as trust versus mistrust in infancy and identity versus role confusion in adolescence. Successfully resolving a conflict builds a strength that supports later stages.\n\n**Abraham Maslow** arranged human needs in a hierarchy: physiological, safety, love and belonging, esteem, and self-actualization. In general, lower needs must be reasonably met before a person can focus on higher ones. A hungry, frightened patient is unlikely to care about learning a new hobby.\n\nThe most common mistake students make is mixing up the theorists: Piaget explains how thinking develops, Erikson explains psychosocial conflicts, and Maslow ranks needs. Read the stem for clues such as \"reasoning\" (Piaget), \"crisis\" or \"conflict\" (Erikson) and \"needs\" (Maslow).",
+    "examples": [
+      "A 9-month-old searches under a blanket for a hidden toy, showing object permanence from Piaget's sensorimotor stage.",
+      "A nurse makes sure a newly admitted patient has pain control and a call light before starting discharge teaching, applying Maslow's hierarchy.",
+      "A 15-year-old tries out different friend groups and styles while working out who they are, reflecting Erikson's identity versus role confusion."
+    ],
+    "questions": [
+      {
+        "stem": "A 6-month-old can hold up her head steadily but cannot yet stand. Which principle best explains this pattern?",
+        "choices": [
+          "Proximodistal development",
+          "Cephalocaudal development",
+          "Conservation",
+          "Object permanence"
+        ],
+        "answer": 1,
+        "explanation": "Cephalocaudal development proceeds from head to toe, so head control comes before leg control. Proximodistal describes center-to-extremity development, such as arms before fingers, not head before legs."
+      },
+      {
+        "stem": "A toddler can wave his whole arm but cannot yet pick up a raisin with thumb and finger. Which principle does this show?",
+        "choices": [
+          "Cephalocaudal development",
+          "General-to-specific reversal",
+          "Proximodistal development",
+          "Formal operations"
+        ],
+        "answer": 2,
+        "explanation": "Proximodistal development moves from the trunk outward, so whole-arm movement precedes fine finger control. Cephalocaudal is head-to-toe, which does not describe arm versus finger control."
+      },
+      {
+        "stem": "A 5-year-old insists that a tall, thin glass holds more juice than a short, wide glass, even after watching the same juice poured between them. Which Piaget stage is she in?",
+        "choices": [
+          "Preoperational",
+          "Sensorimotor",
+          "Concrete operational",
+          "Formal operational"
+        ],
+        "answer": 0,
+        "explanation": "Children in the preoperational stage (about 2 to 7) lack conservation. Conservation is mastered in the concrete operational stage, so a concrete operational child would answer correctly."
+      },
+      {
+        "stem": "A patient admitted after a car crash is in severe pain and worried about his safety. A volunteer wants to talk to him about joining a support group. According to Maslow, what should come first?",
+        "choices": [
+          "Building his sense of belonging",
+          "Addressing pain and safety needs",
+          "Boosting self-esteem through praise",
+          "Helping him set personal growth goals"
+        ],
+        "answer": 1,
+        "explanation": "Maslow places physiological and safety needs at the base of the hierarchy, so they are addressed first. Belonging is a higher-level need that is hard to focus on while basic needs are unmet."
+      },
+      {
+        "stem": "A 16-year-old is experimenting with new hobbies, clothing and career ideas to figure out who he is. Which Erikson stage fits?",
+        "choices": [
+          "Industry versus inferiority",
+          "Intimacy versus isolation",
+          "Identity versus role confusion",
+          "Initiative versus guilt"
+        ],
+        "answer": 2,
+        "explanation": "Identity versus role confusion is the adolescent stage focused on forming a sense of self. Intimacy versus isolation belongs to young adulthood and centers on close relationships."
+      },
+      {
+        "stem": "A child has gained 3 inches in height over the past year. This change is best described as:",
+        "choices": [
+          "Growth",
+          "Development",
+          "Maturation of cognition",
+          "Socialization"
+        ],
+        "answer": 0,
+        "explanation": "Growth refers to measurable physical change such as height. Development refers to increasing skill or complexity, which a height change alone does not show."
+      },
+      {
+        "stem": "A preschooler who just learned to ride a tricycle starts playing outside with neighborhood children more often. This best illustrates that:",
+        "choices": [
+          "Development follows only one domain at a time",
+          "Domains of development are interrelated",
+          "Social skills always come before motor skills",
+          "Growth and development are the same thing"
+        ],
+        "answer": 1,
+        "explanation": "A physical gain opened new social opportunities, showing that domains influence one another. Development does not happen in only one domain at a time; domains overlap constantly."
+      },
+      {
+        "stem": "A parent worries because her 13-month-old is not walking yet, while her neighbor's baby walked at 10 months. What is the most accurate response?",
+        "choices": [
+          "Development sequence is fixed but timing varies within a typical range",
+          "All children should walk by exactly 12 months",
+          "Walking late means the child is behind in every domain",
+          "Milestones occur at the same age for every child"
+        ],
+        "answer": 0,
+        "explanation": "Development follows a predictable sequence, but each child moves at an individual rate, and many children walk between about 9 and 15 months. Treating milestones as exact deadlines is a common misconception."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Cephalocaudal",
+        "definition": "Developmental pattern that proceeds from the head downward toward the feet."
+      },
+      {
+        "term": "Proximodistal",
+        "definition": "Developmental pattern that proceeds from the center of the body outward toward the extremities."
+      },
+      {
+        "term": "Object permanence",
+        "definition": "Understanding that objects still exist when out of sight; develops in Piaget's sensorimotor stage."
+      },
+      {
+        "term": "Conservation",
+        "definition": "Understanding that quantity stays the same despite changes in shape or appearance; mastered in the concrete operational stage."
+      },
+      {
+        "term": "Maslow's hierarchy of needs",
+        "definition": "Ranking of needs from physiological and safety up through belonging, esteem and self-actualization."
+      }
+    ]
+  }
+]

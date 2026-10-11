@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Protecting patient information under HIPAA and HITECH",
+    "objective": "Apply the HIPAA Privacy and Security Rules, identify protected health information, and choose appropriate safeguards and breach responses in workplace scenarios.",
+    "body": "Health informatics workers handle some of the most sensitive data people have, so federal law sets firm rules for who may see it and how it must be protected. The **Health Insurance Portability and Accountability Act (HIPAA)** of 1996 is the foundation.\n\n**Who must follow HIPAA.** **Covered entities** are health plans, health care clearinghouses and health care providers that conduct certain transactions electronically. **Business associates** are outside companies that handle protected information for a covered entity, such as a billing service or cloud storage vendor, and they must sign a business associate agreement.\n\n**Protected health information (PHI)** is individually identifiable health information held or transmitted by a covered entity or business associate. It links a person to their health condition, care or payment for care. Names, addresses, birth dates, phone numbers, medical record numbers and full-face photos are among the identifiers. When stored or sent electronically it is called **ePHI**.\n\n**The Privacy Rule** controls use and disclosure of PHI. PHI may be shared without the patient's authorization for **treatment, payment and health care operations**, and in certain other situations such as required public health reporting. Most other uses, such as marketing, require written authorization. The **minimum necessary** standard says staff should use or disclose only the least PHI needed for the task; it does not apply to disclosures to a provider for treatment. Patients also have rights, including the right to access and get copies of their records and to request corrections.\n\n**The Security Rule** protects ePHI with three kinds of safeguards:\n- **Administrative safeguards**: risk analysis, workforce training, security policies and sanctions.\n- **Physical safeguards**: locked server rooms, workstation positioning and device disposal procedures.\n- **Technical safeguards**: unique user IDs, automatic logoff, encryption and **audit logs** that record who accessed what.\n\n**Access control** often uses **role-based access**, meaning users see only the data their job requires. A registration clerk does not need full clinical notes.\n\n**HITECH and breaches.** The **HITECH Act** of 2009 promoted EHR adoption and strengthened HIPAA enforcement. Under the Breach Notification Rule, a covered entity must notify affected individuals without unreasonable delay and no later than 60 days after discovering a breach of unsecured PHI. Breaches affecting 500 or more people must also be reported to the Department of Health and Human Services and, in many cases, to prominent media in the affected state. Properly encrypted data that is lost is generally not considered unsecured PHI.\n\nThe most common mistake students make is assuming that any employee of a hospital may look at any record. Being on the workforce is not enough; access must be tied to a legitimate job need, and curiosity browsing, even of a celebrity or relative, is a privacy violation.",
+    "examples": [
+      "A billing company that processes claims for a pediatric clinic is a business associate and must sign an agreement promising to protect the clinic's PHI.",
+      "An audit log shows that a unit secretary opened a neighbor's chart without a work reason, which leads to sanctions under the hospital's privacy policy.",
+      "A laptop with encrypted ePHI is stolen from a car; because the data were properly encrypted, the loss is generally not a reportable breach of unsecured PHI."
+    ],
+    "questions": [
+      {
+        "stem": "A hospital's IT team configures workstations to log users off after 10 minutes of inactivity. Which type of HIPAA safeguard is this?",
+        "choices": [
+          "Administrative",
+          "Physical",
+          "Organizational",
+          "Technical"
+        ],
+        "answer": 3,
+        "explanation": "Automatic logoff is a technology-based control, so it is a technical safeguard. It is not physical, because physical safeguards protect facilities and hardware, such as locked rooms."
+      },
+      {
+        "stem": "A cloud company stores a dental practice's patient files. What must the practice have in place with the company?",
+        "choices": [
+          "A notice of privacy practices",
+          "A business associate agreement",
+          "A patient authorization form for each patient",
+          "A HITECH certification"
+        ],
+        "answer": 1,
+        "explanation": "Vendors that handle PHI on a covered entity's behalf are business associates and need a business associate agreement. A notice of privacy practices is given to patients, not vendors."
+      },
+      {
+        "stem": "A billing clerk needs to verify insurance for a visit. Under the minimum necessary standard, which information should she access?",
+        "choices": [
+          "The full chart, including psychotherapy notes",
+          "Only the demographic and insurance details needed for verification",
+          "Every visit the patient has ever had",
+          "The complete lab history"
+        ],
+        "answer": 1,
+        "explanation": "Minimum necessary limits access to the least PHI required for the task. Viewing the full chart is the tempting choice, but the clerk's job does not require clinical details."
+      },
+      {
+        "stem": "A clinic discovers that a breach of unsecured PHI affected 1,200 patients. Which response meets federal requirements?",
+        "choices": [
+          "Notify only the patients who complain",
+          "Notify affected individuals within 60 days and also report to HHS, with media notice as required",
+          "Report to HHS at the end of the calendar year only",
+          "No notice is required if the clinic fixes the problem"
+        ],
+        "answer": 1,
+        "explanation": "Breaches of 500 or more require notice to individuals within 60 days of discovery and prompt reporting to HHS, plus media notice in many cases. Year-end reporting applies only to smaller breaches under 500."
+      },
+      {
+        "stem": "A nurse is curious about a famous athlete admitted to another unit and opens his chart. What is the best description of this action?",
+        "choices": [
+          "A permitted use because she is a hospital employee",
+          "A permitted use for health care operations",
+          "An unauthorized access that violates the Privacy Rule",
+          "Acceptable if she does not tell anyone"
+        ],
+        "answer": 2,
+        "explanation": "Access must be tied to a legitimate job need, so curiosity browsing is a violation. Employment alone does not create permission, which is why the first choice is wrong."
+      },
+      {
+        "stem": "Which item is protected health information when held by a hospital?",
+        "choices": [
+          "A statewide average of flu cases by month",
+          "A patient's name linked to her diabetes diagnosis",
+          "A published textbook chapter on diabetes",
+          "A hospital's posted visiting hours"
+        ],
+        "answer": 1,
+        "explanation": "PHI links an identifiable person to health information. The statewide average is aggregate data without identifiers, so it does not identify any individual."
+      },
+      {
+        "stem": "A compliance officer conducts an annual risk analysis and updates staff training. Which category of Security Rule safeguards does this represent?",
+        "choices": [
+          "Physical",
+          "Technical",
+          "Administrative",
+          "Encryption"
+        ],
+        "answer": 2,
+        "explanation": "Risk analysis, policies and training are administrative safeguards. Technical safeguards involve system features like audit logs and encryption, not management processes."
+      },
+      {
+        "stem": "A physician sends a patient's records to a specialist to whom she is referring the patient. Is written patient authorization required under HIPAA?",
+        "choices": [
+          "Yes, all disclosures require written authorization",
+          "No, disclosures for treatment are permitted without authorization",
+          "Yes, unless the specialist works in the same building",
+          "No, but only if the records are faxed"
+        ],
+        "answer": 1,
+        "explanation": "Treatment, payment and health care operations are permitted without authorization. The idea that every disclosure needs authorization is a common misconception; authorization is needed for uses like marketing."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Protected health information (PHI)",
+        "definition": "Individually identifiable health information held or transmitted by a covered entity or business associate."
+      },
+      {
+        "term": "Covered entity",
+        "definition": "A health plan, health care clearinghouse or provider that conducts certain transactions electronically and must follow HIPAA."
+      },
+      {
+        "term": "Business associate",
+        "definition": "An outside person or company that handles PHI on behalf of a covered entity under a business associate agreement."
+      },
+      {
+        "term": "Minimum necessary",
+        "definition": "The HIPAA standard to use or disclose only the least PHI needed to accomplish a task."
+      },
+      {
+        "term": "Audit log",
+        "definition": "A technical safeguard that records who accessed electronic records, what they viewed and when."
+      }
+    ]
+  }
+]

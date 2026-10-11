@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Treatment approaches, care teams and ethical practice",
+    "objective": "Compare evidence-based therapies and levels of care, evaluate roles on a behavioral health team, and apply confidentiality and legal principles to clinical scenarios.",
+    "body": "Advanced questions ask you to match a client to the right treatment, the right professional and the right legal or ethical response. Think of treatment as a combination of therapy type, setting and team.\n\n**Evidence-based psychotherapies.**\n- **Cognitive behavioral therapy (CBT)** teaches clients to identify distorted thoughts (such as catastrophizing) and change the behaviors linked to them. It has strong evidence for depression and anxiety disorders.\n- **Exposure therapy**, a CBT technique, gradually and safely confronts feared situations so anxiety decreases through habituation; it is a first-line approach for phobias and is central to PTSD treatments such as prolonged exposure.\n- **Dialectical behavior therapy (DBT)** combines CBT with mindfulness and teaches distress tolerance, emotion regulation and interpersonal effectiveness. It was developed for borderline personality disorder and chronic suicidal behavior.\n- **Motivational interviewing (MI)** is a collaborative style that resolves ambivalence about change, widely used for substance use.\n\n**Medication** may be combined with therapy. Major classes include antidepressants such as SSRIs, mood stabilizers, antipsychotics and anti-anxiety agents. For opioid use disorder, **medications for opioid use disorder (MOUD)** such as buprenorphine, methadone and naltrexone are evidence-based, and naloxone reverses opioid overdose. Prescribing decisions belong to licensed prescribers.\n\n**The care team.** A **psychiatrist** is a medical doctor who diagnoses and can prescribe medication. A **psychologist** holds a doctoral degree, provides therapy and psychological testing, and in most states does not prescribe. Licensed clinical social workers and licensed professional counselors provide therapy and connect clients to resources. Psychiatric-mental health nurse practitioners can also prescribe. Peer support specialists use lived experience to support recovery.\n\n**Levels of care** range from least to most restrictive: outpatient therapy, intensive outpatient, partial hospitalization, residential treatment and inpatient hospitalization. Clients should receive care in the **least restrictive environment** that keeps them safe.\n\n**Ethics and law.**\n- **Confidentiality** is protected by HIPAA, and substance use treatment records have extra protection under 42 CFR Part 2.\n- Confidentiality has limits: suspected child or elder abuse must be reported, and many states recognize a **duty to warn or protect** when a client makes a serious threat against an identifiable person, a principle from the Tarasoff case.\n- **Informed consent** means the client understands the treatment, risks and alternatives before agreeing.\n- **Involuntary commitment** generally requires that a person be a danger to self or others, or gravely disabled, under state law.\n\nThe most common mistake students make is mixing up psychiatrists and psychologists. Remember that the psychiatrist is the physician who can prescribe, while the psychologist specializes in therapy and testing.",
+    "examples": [
+      "A teen afraid of dogs works with a therapist to look at dog photos, then watch a dog from across a park, then pet a calm dog, an example of graded exposure.",
+      "During a session, a client names a coworker and describes a specific plan to hurt him, so the therapist follows state duty-to-warn procedures despite confidentiality."
+    ],
+    "questions": [
+      {
+        "stem": "A client with depression says, \"I failed one quiz, so I'll never get into college.\" The therapist helps her test that thought against evidence. Which therapy is this?",
+        "choices": [
+          "Cognitive behavioral therapy",
+          "Motivational interviewing",
+          "Psychoanalysis",
+          "Electroconvulsive therapy"
+        ],
+        "answer": 0,
+        "explanation": "Challenging distorted thoughts with evidence is the core of CBT. Motivational interviewing focuses on resolving ambivalence about change, not restructuring thoughts."
+      },
+      {
+        "stem": "A family wants a professional who can both diagnose their son's condition and prescribe medication. Who should they see?",
+        "choices": [
+          "Licensed professional counselor",
+          "Psychologist",
+          "Psychiatrist",
+          "Peer support specialist"
+        ],
+        "answer": 2,
+        "explanation": "A psychiatrist is a physician who can prescribe. A psychologist provides therapy and testing but in most states cannot prescribe."
+      },
+      {
+        "stem": "A teen with repeated self-harm and intense emotional swings is referred for skills in distress tolerance and emotion regulation. Which therapy fits best?",
+        "choices": [
+          "Exposure therapy",
+          "Dialectical behavior therapy",
+          "Hypnotherapy",
+          "Group recreation therapy"
+        ],
+        "answer": 1,
+        "explanation": "DBT specifically teaches distress tolerance and emotion regulation and targets self-harm. Exposure therapy targets fear and avoidance rather than emotion regulation."
+      },
+      {
+        "stem": "A client tells his therapist he plans to shoot a named neighbor this weekend. What principle applies?",
+        "choices": [
+          "Absolute confidentiality",
+          "Informed consent",
+          "Least restrictive environment",
+          "Duty to warn or protect"
+        ],
+        "answer": 3,
+        "explanation": "A serious threat against an identifiable person can trigger a duty to warn or protect under Tarasoff-based laws. Absolute confidentiality is wrong because confidentiality has legal limits for safety."
+      },
+      {
+        "stem": "A client is stable, attends school, and needs weekly therapy for mild anxiety. Which level of care is appropriate?",
+        "choices": [
+          "Outpatient therapy",
+          "Inpatient hospitalization",
+          "Residential treatment",
+          "Partial hospitalization"
+        ],
+        "answer": 0,
+        "explanation": "Outpatient care is the least restrictive setting that meets her needs. Partial hospitalization is for people who need several hours of treatment most days."
+      },
+      {
+        "stem": "A man ambivalent about cutting back on drinking meets a counselor who asks open questions and reflects his own reasons for change. This approach is:",
+        "choices": [
+          "Exposure therapy",
+          "DBT",
+          "Motivational interviewing",
+          "Aversion therapy"
+        ],
+        "answer": 2,
+        "explanation": "MI uses a collaborative style to strengthen a person's own motivation. DBT teaches skills for emotion regulation rather than resolving ambivalence."
+      },
+      {
+        "stem": "Which records receive additional federal confidentiality protection beyond HIPAA?",
+        "choices": [
+          "Dental records",
+          "Substance use disorder treatment records",
+          "School attendance records",
+          "Vaccination records"
+        ],
+        "answer": 1,
+        "explanation": "42 CFR Part 2 adds protection for substance use disorder treatment records. Dental records are covered by HIPAA but have no added protection of this kind."
+      },
+      {
+        "stem": "Before starting a new treatment, a therapist explains its purpose, risks and alternatives, and the client agrees. This process is called:",
+        "choices": [
+          "Duty to warn",
+          "Involuntary commitment",
+          "Mandated reporting",
+          "Informed consent"
+        ],
+        "answer": 3,
+        "explanation": "Informed consent requires understanding of the treatment, risks and alternatives before agreeing. Mandated reporting concerns reporting abuse, not agreeing to treatment."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Cognitive behavioral therapy (CBT)",
+        "definition": "A therapy that identifies and changes distorted thoughts and related behaviors."
+      },
+      {
+        "term": "Dialectical behavior therapy (DBT)",
+        "definition": "A therapy combining CBT and mindfulness that teaches distress tolerance, emotion regulation and interpersonal skills."
+      },
+      {
+        "term": "Psychiatrist",
+        "definition": "A medical doctor who diagnoses mental disorders and can prescribe medication."
+      },
+      {
+        "term": "Duty to warn or protect",
+        "definition": "A legal obligation to take steps when a client makes a serious threat against an identifiable person."
+      },
+      {
+        "term": "Least restrictive environment",
+        "definition": "The principle that clients receive care in the least confining setting that keeps them safe."
+      }
+    ]
+  }
+]

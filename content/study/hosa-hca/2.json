@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Healthcare finance, reimbursement, and the revenue cycle",
+    "objective": "Explain how healthcare is paid for, trace a claim through the revenue cycle, and apply budgeting concepts to departmental decisions.",
+    "body": "Healthcare organizations must collect enough revenue to cover the cost of care, and most of that revenue comes from third parties rather than patients. Administrators who understand who pays, how much and when can protect cash flow and make sound decisions.\n\n**Major payers.** **Medicare** is the federal program for people 65 and older, certain younger people with disabilities, and people with end-stage renal disease. **Medicaid** is a joint federal-state program for eligible people with low incomes, so its rules vary by state. **Private (commercial) insurance** is usually provided through employers or purchased on the Health Insurance Marketplace. Patients also share costs through a **deductible** (the amount paid before insurance begins), **copayments** (fixed amounts per service) and **coinsurance** (a percentage of the allowed amount).\n\n**Reimbursement methods.**\n- **Fee-for-service** pays for each service provided, which can reward volume.\n- **Capitation** pays a fixed amount per member per month regardless of how many services the member uses, shifting financial risk to the provider.\n- **Prospective payment** sets the rate in advance; Medicare pays inpatient stays by **diagnosis-related group (DRG)**, so a hospital keeps the difference if care costs less and absorbs the loss if it costs more.\n- **Value-based payment** ties part of reimbursement to quality and outcomes, as in accountable care organizations.\n\n**The revenue cycle.** The revenue cycle runs from scheduling to final payment:\n1. Patient scheduling, registration and insurance verification, including prior authorization when required.\n2. Charge capture and clinical documentation.\n3. Medical coding with ICD-10-CM for diagnoses and CPT/HCPCS for procedures and services.\n4. Claim submission, often through a clearinghouse that checks for errors.\n5. Payment posting, denial management and patient billing.\n\nA **clean claim** is one that is accurate and complete and can be paid without additional information. Errors at registration, such as a wrong policy number, are a leading cause of denials, so the front end of the cycle matters as much as the billing office.\n\n**Budgeting.** The **operating budget** covers day-to-day revenue and expenses such as salaries and supplies. The **capital budget** covers major long-lived purchases, such as an MRI scanner or a building renovation. Costs are **fixed** if they do not change with volume (rent) or **variable** if they rise with volume (gloves and medications). A **variance** is the difference between budgeted and actual amounts; managers investigate significant unfavorable variances.\n\nThe most common mistake students make is mixing up Medicare and Medicaid. Remember: Medicare is federal and mainly age-based (\"care\" for older adults), while Medicaid is federal-state and income-based (\"aid\").",
+    "examples": [
+      "A 70-year-old retiree's hospital stay is billed to Medicare; the hospital receives a set DRG payment for her diagnosis whether she stays three days or five.",
+      "A clinic paid $40 per member per month under capitation earns the same amount for a patient who visits twice a year as for one who visits twice a month.",
+      "A lab budgeted $20,000 for reagents but spent $26,000 because test volume rose, an unfavorable $6,000 variance driven by a variable cost."
+    ],
+    "questions": [
+      {
+        "stem": "A 45-year-old single parent with a low income qualifies for coverage through a program jointly funded by the federal government and her state. Which program is this?",
+        "choices": [
+          "Medicare Part A",
+          "Medicaid",
+          "TRICARE",
+          "Medicare Advantage"
+        ],
+        "answer": 1,
+        "explanation": "Medicaid is the joint federal-state program based on income eligibility. Medicare is wrong because it is a federal program mainly for people 65 and older or with certain disabilities."
+      },
+      {
+        "stem": "A physician group receives a fixed monthly payment for each enrolled patient, no matter how many visits occur. Which reimbursement method is this?",
+        "choices": [
+          "Fee-for-service",
+          "Prospective payment by DRG",
+          "Capitation",
+          "Cost-based reimbursement"
+        ],
+        "answer": 2,
+        "explanation": "Capitation pays a set amount per member per period, shifting utilization risk to the provider. Fee-for-service is the opposite: it pays more as more services are delivered."
+      },
+      {
+        "stem": "A hospital's claim is denied because the patient's insurance ID number was entered incorrectly. At which revenue cycle stage did the error most likely occur?",
+        "choices": [
+          "Registration and insurance verification",
+          "Medical coding",
+          "Payment posting",
+          "Charge capture"
+        ],
+        "answer": 0,
+        "explanation": "Policy and ID details are collected and verified at registration. Coding is a tempting choice, but coders assign diagnosis and procedure codes and do not enter insurance identifiers."
+      },
+      {
+        "stem": "Under Medicare's inpatient prospective payment system, a patient's stay costs the hospital less than the DRG payment. What happens?",
+        "choices": [
+          "The hospital must refund the difference to Medicare",
+          "The patient receives the difference as a credit",
+          "Medicare lowers the next DRG payment by the same amount",
+          "The hospital keeps the difference"
+        ],
+        "answer": 3,
+        "explanation": "DRG payments are set in advance, so the hospital keeps savings and absorbs losses. Refunding the difference is wrong because that would describe cost-based reimbursement, not prospective payment."
+      },
+      {
+        "stem": "A hospital plans to buy a $2 million CT scanner expected to last ten years. Which budget should include this purchase?",
+        "choices": [
+          "Operating budget",
+          "Capital budget",
+          "Cash budget",
+          "Statistics budget"
+        ],
+        "answer": 1,
+        "explanation": "Major long-lived assets belong in the capital budget. The operating budget is a common distractor but covers recurring day-to-day revenue and expenses like salaries and supplies."
+      },
+      {
+        "stem": "A patient's plan requires her to pay the first $1,500 of covered services each year before the insurer pays. What is this amount called?",
+        "choices": [
+          "Copayment",
+          "Coinsurance",
+          "Premium",
+          "Deductible"
+        ],
+        "answer": 3,
+        "explanation": "A deductible is what the patient pays before coverage begins. Coinsurance is a percentage share paid after the deductible, not a fixed initial amount."
+      },
+      {
+        "stem": "Which code set is used to report a patient's diagnosis on a claim in the United States?",
+        "choices": [
+          "ICD-10-CM",
+          "CPT",
+          "HCPCS Level II",
+          "DRG"
+        ],
+        "answer": 0,
+        "explanation": "ICD-10-CM codes report diagnoses. CPT is the main distractor; it reports procedures and services, not the reason for the visit."
+      },
+      {
+        "stem": "A surgical unit's glove expense rose 20 percent in a month when surgical volume also rose 20 percent. How should the manager classify the glove expense?",
+        "choices": [
+          "Fixed cost",
+          "Sunk cost",
+          "Variable cost",
+          "Capital cost"
+        ],
+        "answer": 2,
+        "explanation": "Gloves are a variable cost because spending rises with volume. Fixed cost is wrong because fixed costs, like rent, stay the same regardless of volume."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Capitation",
+        "definition": "A payment method that pays a provider a fixed amount per enrolled member per period regardless of services used."
+      },
+      {
+        "term": "Diagnosis-related group (DRG)",
+        "definition": "A classification Medicare uses to pay a predetermined amount for an inpatient stay based on diagnosis and treatment."
+      },
+      {
+        "term": "Clean claim",
+        "definition": "A claim that is accurate and complete and can be paid without requesting more information."
+      },
+      {
+        "term": "Capital budget",
+        "definition": "A budget for major long-lived purchases such as equipment or construction."
+      },
+      {
+        "term": "Variance",
+        "definition": "The difference between a budgeted amount and the actual amount."
+      }
+    ]
+  }
+]

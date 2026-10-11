@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Study designs and measures of association in epidemiology",
+    "objective": "Distinguish cohort, case-control, cross-sectional and experimental designs, and calculate and interpret relative risk and odds ratios from a two-by-two table.",
+    "body": "Descriptive data generate hypotheses; **analytic epidemiology** tests them by comparing groups. The key comparison is between people who were exposed to a suspected cause and people who were not.\n\n**Observational designs.** In observational studies the investigator watches but does not assign exposure.\n- A **cohort study** starts with people free of disease, classifies them by exposure, and follows them forward to see who develops disease. It can calculate incidence and is strong for studying rare exposures, but it can be slow and expensive. A **retrospective cohort** uses past records but still moves from exposure to outcome.\n- A **case-control study** starts with people who have the disease (**cases**) and people who do not (**controls**) and looks backward at prior exposures. It is fast and efficient for rare diseases but vulnerable to **recall bias**, because ill people may remember exposures differently.\n- A **cross-sectional study** measures exposure and disease at the same time, like a snapshot survey. It estimates prevalence but cannot show which came first.\n\n**Experimental designs.** In a **randomized controlled trial (RCT)**, investigators randomly assign participants to an intervention or a comparison group. Randomization balances known and unknown factors, and **blinding** keeps participants or researchers from knowing assignments. RCTs give the strongest evidence for cause but can be unethical when the exposure is harmful; no one may be assigned to smoke.\n\n**The two-by-two table.** Label the cells a (exposed, ill), b (exposed, well), c (unexposed, ill) and d (unexposed, well).\n1. **Relative risk (RR)** = [a/(a+b)] / [c/(c+d)], the risk in the exposed divided by the risk in the unexposed. Use it in cohort studies and trials.\n2. **Odds ratio (OR)** = ad/bc. Use it in case-control studies, where true risks cannot be calculated because the researcher chose how many cases and controls to include.\n\n**Interpreting the result.** A ratio of 1 means no association. Above 1 means the exposure is associated with higher risk; below 1 means lower risk, a possible **protective factor**. An RR of 3 means exposed people were three times as likely to develop disease. A **95% confidence interval** that includes 1 means the association is not statistically significant.\n\n**Association versus causation.** A **confounder** is a third factor linked to both exposure and outcome that creates a misleading association. Coffee drinking may appear tied to lung cancer only because coffee drinkers in the study smoke more. Researchers control confounding through randomization, matching, restriction or statistical adjustment.\n\nThe most common mistake students make is choosing relative risk for a case-control study; because the investigator fixes the number of cases, only the odds ratio is valid there.",
+    "examples": [
+      "Researchers enroll 5,000 nurses without heart disease, record their exercise habits, and follow them for 20 years to compare heart attack rates: a prospective cohort study.",
+      "Investigators compare 200 children with a rare cancer to 400 healthy children and ask parents about past pesticide use: a case-control study that reports an odds ratio.",
+      "If 20% of smokers and 5% of nonsmokers in a cohort develop a disease, the relative risk is 0.20/0.05 = 4."
+    ],
+    "questions": [
+      {
+        "stem": "Researchers identify 150 people with a rare liver disease and 300 people without it, then review their past medication use. Which design is this?",
+        "choices": [
+          "Prospective cohort",
+          "Case-control",
+          "Cross-sectional",
+          "Randomized controlled trial"
+        ],
+        "answer": 1,
+        "explanation": "Starting from disease status and looking back at exposure defines a case-control study. A cohort would start from exposure status in disease-free people."
+      },
+      {
+        "stem": "In a cohort, 30 of 100 exposed people and 10 of 100 unexposed people develop illness. What is the relative risk?",
+        "choices": [
+          "2.0",
+          "0.33",
+          "3.0",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "Risk exposed is 0.30 and risk unexposed is 0.10, so RR = 3.0. The value 20 is the difference in case counts, not a ratio of risks."
+      },
+      {
+        "stem": "A case-control table has a = 40, b = 60, c = 20, d = 80. What is the odds ratio?",
+        "choices": [
+          "2.67",
+          "2.0",
+          "0.375",
+          "1.5"
+        ],
+        "answer": 0,
+        "explanation": "OR = ad/bc = (40 x 80)/(60 x 20) = 3,200/1,200 = 2.67. Answering 2.0 compares a to c directly without using the controls."
+      },
+      {
+        "stem": "A study finds RR = 0.6 for flu among vaccinated versus unvaccinated people, with a 95% CI of 0.45 to 0.80. What is the best interpretation?",
+        "choices": [
+          "Vaccination is associated with higher flu risk",
+          "The result is not statistically significant",
+          "Vaccination is associated with about 40% lower flu risk",
+          "Vaccination causes flu in 60% of people"
+        ],
+        "answer": 2,
+        "explanation": "An RR of 0.6 means 40% lower risk, and the interval excludes 1, so it is significant. It would be nonsignificant only if the interval contained 1."
+      },
+      {
+        "stem": "A survey in March asks 2,000 adults whether they currently vape and whether they currently have a cough. What is the main limitation?",
+        "choices": [
+          "It cannot estimate prevalence",
+          "It cannot show whether vaping preceded the cough",
+          "It requires random assignment",
+          "It is too slow for rare diseases"
+        ],
+        "answer": 1,
+        "explanation": "Cross-sectional studies measure exposure and outcome together, so time order is unknown. They are actually well suited to estimating prevalence."
+      },
+      {
+        "stem": "Mothers of babies with birth defects recall medication use during pregnancy more thoroughly than mothers of healthy babies. This is an example of:",
+        "choices": [
+          "Confounding",
+          "Recall bias",
+          "Loss to follow-up",
+          "Random error"
+        ],
+        "answer": 1,
+        "explanation": "Differential memory between cases and controls is recall bias. Confounding involves a third variable, not inaccurate reporting."
+      },
+      {
+        "stem": "A study links carrying matches to lung cancer. Which factor is most likely a confounder?",
+        "choices": [
+          "Smoking",
+          "Lung cancer",
+          "Owning a lighter",
+          "Age at diagnosis being recorded"
+        ],
+        "answer": 0,
+        "explanation": "Smoking is linked to carrying matches and independently causes lung cancer, creating a false association. Lung cancer is the outcome, so it cannot be the confounder."
+      },
+      {
+        "stem": "Which design gives the strongest evidence that a new hand sanitizer reduces classroom absences?",
+        "choices": [
+          "Case-control study of students with absences",
+          "Cross-sectional survey of sanitizer use",
+          "Randomized trial assigning classrooms to sanitizer or usual care",
+          "Ecological comparison of two school districts"
+        ],
+        "answer": 2,
+        "explanation": "Random assignment balances other factors between groups, so differences can be attributed to the sanitizer. Case-control studies are observational and more prone to bias."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Cohort study",
+        "definition": "An observational study that classifies disease-free people by exposure and follows them forward to compare incidence."
+      },
+      {
+        "term": "Case-control study",
+        "definition": "An observational study that compares past exposures of people with a disease to people without it."
+      },
+      {
+        "term": "Relative risk",
+        "definition": "The risk of disease in the exposed group divided by the risk in the unexposed group."
+      },
+      {
+        "term": "Odds ratio",
+        "definition": "The ratio ad/bc from a two-by-two table; the measure of association used in case-control studies."
+      },
+      {
+        "term": "Confounder",
+        "definition": "A third factor associated with both exposure and outcome that distorts the apparent relationship between them."
+      }
+    ]
+  }
+]

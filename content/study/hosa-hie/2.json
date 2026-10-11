@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Social determinants of health and health disparities",
+    "objective": "Identify social determinants of health in real scenarios, classify health disparities, and apply prevention levels to propose targeted public health responses.",
+    "body": "Medical care matters, but much of a person's health is shaped before they ever reach a clinic. Healthcare Issues questions often ask you to look upstream at the conditions people live in.\n\n**Social determinants of health (SDOH)** are the conditions in which people are born, live, learn, work, play and age. Healthy People 2030 groups them into five domains:\n- Economic stability (income, employment, food security)\n- Education access and quality\n- Health care access and quality\n- Neighborhood and built environment (housing, transportation, pollution, safety)\n- Social and community context (discrimination, social support, civic participation)\n\n**Health disparities** are preventable differences in disease, injury or opportunity to achieve good health that are experienced by groups facing social or economic disadvantage. **Health equity** is the state in which everyone has a fair and just opportunity to be as healthy as possible. Equity differs from equality: **equality** gives everyone the same resource, while equity adjusts resources to meet different needs. Free bus passes for patients who lack transportation is an equity approach; mailing every resident the same pamphlet is an equality approach.\n\n**Measuring the problem.** Public health uses data to spot disparities. **Incidence** counts new cases in a population over a period, while **prevalence** counts all existing cases at a point in time. Life expectancy, infant mortality and maternal mortality are common comparison measures, and in the US maternal mortality is markedly higher for Black women than for White women, a gap that persists across income levels.\n\n**Levels of prevention** help match solutions to problems.\n1. **Primary prevention** stops disease before it starts, such as vaccination or removing lead from housing.\n2. **Secondary prevention** detects disease early, such as blood pressure or cancer screening.\n3. **Tertiary prevention** reduces complications of existing disease, such as cardiac rehabilitation.\n\n**Applying the ideas.** When you analyze an issue, trace the chain: identify the affected group, name the determinant driving the gap, pick a measurable outcome, and choose a prevention level. A neighborhood with no full-service grocery store, called a **food desert**, may show higher diabetes prevalence. A primary-prevention response might bring in a farmers market that accepts SNAP benefits, while a secondary response might add mobile glucose screening.\n\nThe most common mistake students make is proposing only more clinical care for a problem rooted in a social determinant. If the cause is unsafe housing or lack of transportation, a new specialist will not close the gap; the solution has to address the upstream condition.",
+    "examples": [
+      "A county finds asthma emergency visits are three times higher near a highway interchange; air pollution in the built environment is the key determinant.",
+      "A clinic offers interpreters and evening hours only in neighborhoods where surveys show these barriers, an equity approach rather than an equality approach."
+    ],
+    "questions": [
+      {
+        "stem": "A rural county has a high rate of missed specialist appointments, and surveys show most patients have no car and no bus service. Which SDOH domain is most directly involved?",
+        "choices": [
+          "Education access and quality",
+          "Neighborhood and built environment",
+          "Social and community context",
+          "Economic stability"
+        ],
+        "answer": 1,
+        "explanation": "Transportation infrastructure falls under neighborhood and built environment. Economic stability could contribute, but the scenario points specifically to absent transit."
+      },
+      {
+        "stem": "A school district gives every student the same tablet, while another district also provides home internet hotspots to students without service. The second approach best reflects which concept?",
+        "choices": [
+          "Equality",
+          "Incidence",
+          "Tertiary prevention",
+          "Equity"
+        ],
+        "answer": 3,
+        "explanation": "Equity adjusts resources to meet different needs. Giving everyone the same tablet is equality, the main distractor."
+      },
+      {
+        "stem": "Health officials report 120 new cases of type 2 diabetes in a town during 2025. Which measure is this?",
+        "choices": [
+          "Incidence",
+          "Prevalence",
+          "Mortality rate",
+          "Life expectancy"
+        ],
+        "answer": 0,
+        "explanation": "Incidence counts new cases over a period. Prevalence would count all existing cases, including people diagnosed before 2025."
+      },
+      {
+        "stem": "A city replaces old lead water pipes in older homes before children show symptoms of lead exposure. Which level of prevention is this?",
+        "choices": [
+          "Secondary",
+          "Tertiary",
+          "Primary",
+          "Quaternary"
+        ],
+        "answer": 2,
+        "explanation": "Removing the hazard before disease occurs is primary prevention. Secondary prevention would be blood lead screening to detect exposure early."
+      },
+      {
+        "stem": "A mobile van offers free blood pressure checks at a community center to find undiagnosed hypertension. Which level of prevention is this?",
+        "choices": [
+          "Primary",
+          "Secondary",
+          "Tertiary",
+          "Rehabilitative"
+        ],
+        "answer": 1,
+        "explanation": "Screening detects disease early, which is secondary prevention. Primary prevention would aim to stop hypertension from developing, such as through nutrition programs."
+      },
+      {
+        "stem": "A neighborhood has no full-service grocery store within a mile and shows high diabetes prevalence. Which intervention best targets the upstream cause?",
+        "choices": [
+          "Hiring an additional endocrinologist at the regional hospital",
+          "Launching a TV ad about diabetes medications",
+          "Expanding hospital dialysis capacity",
+          "Supporting a market that sells fresh produce and accepts SNAP"
+        ],
+        "answer": 3,
+        "explanation": "Improving food access addresses the root determinant. More specialists treat disease after it occurs and do not change the food environment."
+      },
+      {
+        "stem": "A student claims that a racial gap in maternal mortality in the US disappears once income is accounted for. How should this claim be evaluated?",
+        "choices": [
+          "It is accurate because income fully explains the gap",
+          "It is inaccurate because the gap persists across income levels",
+          "It is accurate because maternal mortality is equal across groups",
+          "It is inaccurate because maternal deaths are no longer tracked"
+        ],
+        "answer": 1,
+        "explanation": "Data show the gap persists even among higher-income Black women, pointing to factors such as bias and care quality. Claiming income fully explains it ignores this evidence."
+      },
+      {
+        "stem": "Which pairing correctly matches a determinant to its Healthy People 2030 domain?",
+        "choices": [
+          "Experiencing discrimination: Social and community context",
+          "Food insecurity: Education access and quality",
+          "Air pollution: Economic stability",
+          "High school graduation: Health care access and quality"
+        ],
+        "answer": 0,
+        "explanation": "Discrimination belongs to social and community context. Food insecurity is economic stability, not education, so that option is mismatched."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Social determinants of health",
+        "definition": "The conditions in which people are born, live, learn, work, play and age that affect health outcomes."
+      },
+      {
+        "term": "Health equity",
+        "definition": "The state in which everyone has a fair and just opportunity to be as healthy as possible."
+      },
+      {
+        "term": "Prevalence",
+        "definition": "The total number of existing cases of a condition in a population at a specific point in time."
+      },
+      {
+        "term": "Secondary prevention",
+        "definition": "Early detection of disease, such as screening, to treat it before it worsens."
+      },
+      {
+        "term": "Food desert",
+        "definition": "An area with limited access to affordable, nutritious food such as a full-service grocery store."
+      }
+    ]
+  }
+]

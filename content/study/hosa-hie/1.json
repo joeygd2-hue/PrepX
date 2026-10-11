@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of the US healthcare system: access, cost, quality",
+    "objective": "Explain the three core dimensions of healthcare performance, distinguish major types of health coverage, and identify barriers that limit access to care.",
+    "body": "Almost every healthcare issue, from rising drug prices to rural hospital closures, can be analyzed with one framework. Learn it first, and later topics become variations on a theme.\n\n**The iron triangle.** Health systems are judged on three linked dimensions: **access** (whether people can get needed care when they need it), **cost** (what care costs individuals, employers and governments), and **quality** (whether care is safe, effective and patient-centered). Changes to one usually affect the others. Expanding coverage improves access but can raise total spending; cutting payments can lower cost but may reduce the number of providers willing to serve patients.\n\n**How Americans are covered.** The United States uses a mix of public and private coverage rather than a single national plan.\n- **Employer-sponsored insurance** covers the largest share of people under 65.\n- **Medicare** is a federal program mainly for people 65 and older and some younger people with disabilities or end-stage kidney disease.\n- **Medicaid** is a joint federal-state program for people with low incomes; eligibility rules differ by state.\n- **CHIP** covers children in families that earn too much for Medicaid but cannot afford private coverage.\n- **Marketplace plans**, created by the Affordable Care Act (ACA), let individuals buy coverage, often with income-based subsidies.\n\n**Cost-sharing terms.** A **premium** is the regular payment to keep a plan active. A **deductible** is what the patient pays each year before the plan begins paying for most services. A **copayment** is a fixed fee per visit, while **coinsurance** is a percentage of the bill. An **out-of-pocket maximum** caps what a patient pays in a year for covered in-network care.\n\n**Barriers to access.** Having insurance is not the same as having access. Common barriers include:\n1. Financial barriers, such as high deductibles that lead people to skip care.\n2. Geographic barriers, such as long travel distances in rural areas or shortages of primary care providers.\n3. Structural and cultural barriers, such as limited clinic hours, lack of interpreters, or distrust of the system.\n\nThe ACA, signed in 2010, expanded access by allowing young adults to stay on a parent's plan until age 26, barring insurers from denying coverage for pre-existing conditions, and offering states funding to expand Medicaid. Not every state chose expansion, which is why coverage rates still vary by state.\n\nThe most common mistake students make is treating coverage and access as identical. A person with an insurance card may still face a high deductible, a two-hour drive, or a months-long wait for a specialist, so always check every type of barrier.",
+    "examples": [
+      "A farmworker with Medicaid lives 70 miles from the nearest obstetrician; she is covered but still faces a geographic access barrier.",
+      "A plan has a $2,000 deductible and 20% coinsurance; after the deductible is met, a $500 covered service costs the patient $100."
+    ],
+    "questions": [
+      {
+        "stem": "A state cuts Medicaid payment rates to save money, and several clinics stop accepting new Medicaid patients. Which trade-off does this illustrate?",
+        "choices": [
+          "Lower cost reduced access",
+          "Higher quality reduced cost",
+          "Greater access raised quality",
+          "Lower quality raised access"
+        ],
+        "answer": 0,
+        "explanation": "Cutting payments lowered public cost, but fewer participating providers reduced access. Quality may change indirectly, but the direct effect described is on access."
+      },
+      {
+        "stem": "A 67-year-old retiree with no disability asks which public program is primarily designed for her age group. Which program fits?",
+        "choices": [
+          "Medicaid",
+          "CHIP",
+          "Medicare",
+          "A Marketplace plan with subsidies"
+        ],
+        "answer": 2,
+        "explanation": "Medicare primarily serves people 65 and older. Medicaid is income-based, not age-based, so it is the main distractor but not the program designed for her age group."
+      },
+      {
+        "stem": "Jordan pays $250 every month to keep his health plan active, whether or not he sees a doctor. What is this payment called?",
+        "choices": [
+          "Deductible",
+          "Premium",
+          "Coinsurance",
+          "Copayment"
+        ],
+        "answer": 1,
+        "explanation": "A premium keeps coverage active regardless of use. A deductible is paid only when care is received, before the plan pays."
+      },
+      {
+        "stem": "Maya's plan charges her 20% of the cost of each covered hospital service after her deductible. Which cost-sharing term describes the 20%?",
+        "choices": [
+          "Copayment",
+          "Premium",
+          "Out-of-pocket maximum",
+          "Coinsurance"
+        ],
+        "answer": 3,
+        "explanation": "Coinsurance is a percentage of the bill. A copayment is a fixed dollar amount per service, so it does not describe a percentage."
+      },
+      {
+        "stem": "A family earns too much to qualify for Medicaid but cannot afford private coverage for their two children. Which program was created for this situation?",
+        "choices": [
+          "CHIP",
+          "Medicare Part A",
+          "Employer-sponsored insurance",
+          "Workers' compensation"
+        ],
+        "answer": 0,
+        "explanation": "CHIP covers children in families above Medicaid limits. Employer coverage may exist but is exactly what the family cannot afford, so it is not the targeted program."
+      },
+      {
+        "stem": "A town's only clinic is open 9 a.m. to 4 p.m. on weekdays, and most residents work hourly shifts in that window. Which barrier is most evident?",
+        "choices": [
+          "Financial barrier",
+          "Geographic barrier",
+          "Structural barrier",
+          "Insurance eligibility barrier"
+        ],
+        "answer": 2,
+        "explanation": "Limited operating hours are a structural barrier. Geographic barriers involve distance, which the scenario does not describe."
+      },
+      {
+        "stem": "A 24-year-old graduate loses her student health plan. Under the ACA, which option may let her keep coverage most simply?",
+        "choices": [
+          "Enrolling in Medicare early",
+          "Staying on a parent's plan until age 26",
+          "Waiting until she has a pre-existing condition",
+          "Joining CHIP as a young adult"
+        ],
+        "answer": 1,
+        "explanation": "The ACA allows dependents to remain on a parent's plan until 26. CHIP is for children, so it is not an option for a 24-year-old."
+      },
+      {
+        "stem": "Two states have similar income levels, but one has a much higher uninsured rate among low-income adults. Which ACA-related factor most likely explains the difference?",
+        "choices": [
+          "One state banned copayments",
+          "One state has more Medicare enrollees",
+          "One state did not expand Medicaid",
+          "One state requires employers to offer CHIP"
+        ],
+        "answer": 2,
+        "explanation": "States chose whether to expand Medicaid, which strongly affects coverage of low-income adults. Medicare enrollment relates to age, not low-income adult coverage."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Iron triangle",
+        "definition": "The framework linking access, cost and quality, where changes to one dimension usually affect the others."
+      },
+      {
+        "term": "Medicaid",
+        "definition": "A joint federal-state program that provides coverage to people with low incomes, with eligibility varying by state."
+      },
+      {
+        "term": "Deductible",
+        "definition": "The amount a patient pays each year for covered care before the plan begins paying for most services."
+      },
+      {
+        "term": "Coinsurance",
+        "definition": "The percentage of a covered service's cost that the patient pays after meeting the deductible."
+      },
+      {
+        "term": "Out-of-pocket maximum",
+        "definition": "The yearly cap on what a patient pays for covered in-network care."
+      }
+    ]
+  }
+]

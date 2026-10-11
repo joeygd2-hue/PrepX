@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Specimen collection, safety, and the order of draw",
+    "objective": "Identify blood collection tubes by additive, apply the correct order of draw, and recognize preanalytical errors and safety practices that protect specimen quality.",
+    "body": "Most laboratory errors do not happen inside the analyzer. They happen before testing begins, during the **preanalytical phase**: patient identification, collection, labeling, transport and processing. A perfect instrument cannot rescue a mislabeled or contaminated sample, so this phase is where clinical laboratory scientists and phlebotomists focus their first line of quality.\n\n**Patient identification.** Before any collection, confirm at least two identifiers, such as full name and date of birth, against the requisition and the wristband. Room number is never an acceptable identifier. Tubes are labeled at the bedside, in the patient's presence, immediately after collection.\n\n**Tube additives.** Tube stopper colors signal the additive inside, and the additive determines which tests the tube can serve.\n- **Light blue:** sodium citrate, which binds calcium; used for coagulation tests such as PT and aPTT. It must be filled to the line to keep the 9:1 blood-to-anticoagulant ratio.\n- **Red or gold (SST):** no anticoagulant, so blood clots and yields **serum**; many contain a clot activator and gel separator.\n- **Green:** heparin, which inhibits thrombin; yields **plasma** for many chemistry tests.\n- **Lavender:** EDTA, which binds calcium and preserves cell shape; the standard tube for a complete blood count.\n- **Gray:** sodium fluoride with potassium oxalate; fluoride stops glycolysis so glucose stays stable.\n\n**Order of draw.** Additives can carry over from one tube to the next on the needle, so tubes are filled in a set sequence: 1. blood culture bottles, 2. light blue, 3. red or gold serum tubes, 4. green, 5. lavender, 6. gray. Drawing EDTA before a chemistry tube, for example, can carry potassium EDTA into the sample and falsely raise potassium while falsely lowering calcium.\n\n**Specimen integrity.** **Hemolysis**, the rupture of red cells, releases potassium and other intracellular contents and can invalidate results. Common causes include a small needle with forceful pulling, vigorous shaking and leaving the tourniquet on longer than about one minute. Additive tubes are mixed by gentle inversion, not shaking.\n\n**Safety.** Every specimen is handled under **standard precautions**: treat all blood and body fluids as potentially infectious. Wear gloves, perform hand hygiene, activate the needle safety device immediately and discard sharps into a puncture-resistant container without recapping.\n\nThe most common mistake students make is memorizing stopper colors without the reason behind them. If you know that citrate and EDTA bind calcium and that fluoride blocks glycolysis, you can reason through any order-of-draw or tube-choice question instead of guessing.",
+    "examples": [
+      "A patient needs a PT, a basic metabolic panel in a gold SST and a CBC; the correct sequence is light blue, then gold, then lavender.",
+      "A potassium result of 6.8 mmol/L arrives on a visibly pink serum sample from an otherwise stable patient, so the lab requests a recollection rather than reporting the value as a true finding.",
+      "A fasting glucose collected in a gray-top tube remains accurate even though delivery to the lab was delayed, because fluoride stopped the cells from consuming glucose."
+    ],
+    "questions": [
+      {
+        "stem": "A phlebotomist must collect a light blue, a lavender and a green tube. Which sequence follows the standard order of draw?",
+        "choices": [
+          "Lavender, green, light blue",
+          "Light blue, green, lavender",
+          "Green, light blue, lavender",
+          "Light blue, lavender, green"
+        ],
+        "answer": 1,
+        "explanation": "Citrate (light blue) comes before heparin (green), and EDTA (lavender) follows heparin. Drawing lavender before green would risk EDTA carryover into the chemistry sample."
+      },
+      {
+        "stem": "A patient's serum potassium is critically high and calcium is unexpectedly low, but the patient shows no symptoms. The lavender tube was drawn before the gold tube. What is the most likely explanation?",
+        "choices": [
+          "Dehydration from fasting",
+          "EDTA carryover into the serum tube",
+          "Use of a tube with gel separator",
+          "Excess clot activator"
+        ],
+        "answer": 1,
+        "explanation": "Potassium EDTA carryover raises potassium and chelates calcium, lowering it. Dehydration would not selectively drop calcium while spiking potassium this way."
+      },
+      {
+        "stem": "Which tube is the best choice for a complete blood count?",
+        "choices": [
+          "Gray top",
+          "Light blue top",
+          "Lavender top",
+          "Red top"
+        ],
+        "answer": 2,
+        "explanation": "EDTA in the lavender tube preserves cell morphology and prevents clotting. A red top clots the blood, so cells cannot be counted accurately."
+      },
+      {
+        "stem": "A coagulation tube arrives only half full. Why should the lab reject it?",
+        "choices": [
+          "The blood-to-citrate ratio is wrong, which can falsely prolong clotting times",
+          "Half-full tubes always hemolyze",
+          "The serum will not separate",
+          "Citrate is inactive below the fill line"
+        ],
+        "answer": 0,
+        "explanation": "Coagulation tests require a 9:1 blood-to-citrate ratio; extra citrate relative to blood falsely prolongs results. Hemolysis is not automatically caused by underfilling."
+      },
+      {
+        "stem": "A student nurse asks to identify a patient by room number and bed. What should the phlebotomist do?",
+        "choices": [
+          "Accept it if the chart matches the room",
+          "Verify two identifiers such as name and date of birth against the wristband",
+          "Ask a family member to confirm the name only",
+          "Label tubes before entering the room to save time"
+        ],
+        "answer": 1,
+        "explanation": "Two patient-specific identifiers are required; a room number can change and is not tied to the patient. Labeling before collection risks mislabeled specimens."
+      },
+      {
+        "stem": "A glucose sample will sit for several hours before testing. Which tube best preserves the glucose level?",
+        "choices": [
+          "Green top",
+          "Lavender top",
+          "Gray top",
+          "Red top"
+        ],
+        "answer": 2,
+        "explanation": "Sodium fluoride in the gray top inhibits glycolysis. Heparin in the green top prevents clotting but does not stop cells from consuming glucose."
+      },
+      {
+        "stem": "Which practice is most likely to cause hemolysis?",
+        "choices": [
+          "Gently inverting an additive tube 8 times",
+          "Pulling hard on a syringe plunger through a small needle",
+          "Releasing the tourniquet within one minute",
+          "Allowing the venipuncture site's alcohol to dry"
+        ],
+        "answer": 1,
+        "explanation": "Forceful aspiration through a narrow needle ruptures red cells. Gentle inversion is the correct mixing technique and does not cause hemolysis."
+      },
+      {
+        "stem": "After completing a venipuncture, what should be done with the needle?",
+        "choices": [
+          "Recap it with two hands and then discard it",
+          "Activate the safety device and place it in a sharps container",
+          "Place it in a biohazard bag with the gloves",
+          "Remove it from the holder by hand for reuse of the holder"
+        ],
+        "answer": 1,
+        "explanation": "Activating the safety feature and immediate sharps disposal prevents needlestick injury. Recapping is a leading cause of needlesticks and is not recommended."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Preanalytical phase",
+        "definition": "All steps before testing, including patient identification, collection, labeling, transport and processing; the source of most lab errors."
+      },
+      {
+        "term": "Order of draw",
+        "definition": "Standard tube sequence: blood cultures, light blue, red/gold, green, lavender, gray, designed to prevent additive carryover."
+      },
+      {
+        "term": "Hemolysis",
+        "definition": "Rupture of red blood cells that releases potassium and other cell contents into serum or plasma, distorting results."
+      },
+      {
+        "term": "Serum",
+        "definition": "Fluid portion of clotted blood; it lacks clotting factors such as fibrinogen."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Treating all blood and body fluids as potentially infectious and using gloves, hand hygiene and safe sharps handling."
+      }
+    ]
+  }
+]

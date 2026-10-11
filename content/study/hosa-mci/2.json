@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Applying START, JumpSTART and SALT triage on scene",
+    "objective": "Apply the START, JumpSTART and SALT algorithms to assign triage categories using ambulation, respirations, perfusion and mental status.",
+    "body": "Triage algorithms turn split-second judgments into a repeatable checklist. The most widely taught in the U.S. is **START (Simple Triage and Rapid Treatment)**, which uses a few observations most responders can make in about 30 to 60 seconds.\n\n1. **Ambulation:** Direct everyone who can walk to a collection point. These patients are initially **green**, but they still need assessment later.\n2. **Respirations:** If a patient is not breathing, reposition the airway. If breathing does not start, the patient is **expectant/deceased**. If breathing resumes, tag **red**. If the respiratory rate is over 30 per minute, tag **red**.\n3. **Perfusion:** If there is no radial pulse or **capillary refill** takes longer than 2 seconds, control major bleeding and tag **red**.\n4. **Mental status:** If the patient cannot follow simple commands, tag **red**. If they pass every check, tag **yellow**.\n\nMany instructors summarize START with the memory aid **\"30-2-Can Do\"**: respirations over 30, capillary refill over 2 seconds, or cannot follow commands each means immediate.\n\nChildren need a different approach because their normal vital signs differ and they often stop breathing before their heart stops. **JumpSTART** adapts START for children roughly 1 to 8 years old. Key differences include:\n- A respiratory rate **under 15 or over 45** per minute means red.\n- If a child is not breathing but has a peripheral pulse, give **five rescue breaths**; if breathing starts, tag red.\n- Mental status uses the **AVPU** scale; a child who responds only to pain inappropriately, or is unresponsive, is red.\n\nA newer national guideline, **SALT (Sort, Assess, Lifesaving interventions, Treatment/transport)**, begins with a global sort. Patients who can walk are assessed last; those who wave or move purposefully are second; those who are still and obvious threats to life are first. Each patient then gets **lifesaving interventions** when needed, such as controlling major hemorrhage, opening the airway, giving rescue breaths to children, chest decompression or antidote auto-injectors, before being categorized. SALT adds a separate **expectant** category for patients who are alive but unlikely to survive with current resources, distinct from dead.\n\nIn every algorithm, responders use **triage tags** or ribbons so that the next provider can read the category at a glance and document re-triage.\n\nThe most common mistake students make is continuing past a red finding. In START, once any criterion puts a patient in the immediate category, you tag red and move on rather than finishing the remaining checks.",
+    "examples": [
+      "An adult is breathing 36 times per minute but has a strong radial pulse and follows commands; under START she is red because of the respiratory rate alone.",
+      "A 5-year-old is not breathing but has a palpable pulse; after five rescue breaths he begins breathing, so JumpSTART tags him red.",
+      "Using SALT, a responder applies a tourniquet to a patient with arterial bleeding before categorizing him, because hemorrhage control is a lifesaving intervention."
+    ],
+    "questions": [
+      {
+        "stem": "Using START, an adult is breathing 24 times per minute, has a radial pulse with capillary refill under 2 seconds, but cannot follow the command \"squeeze my hand.\" Which tag is correct?",
+        "choices": [
+          "Minor (green)",
+          "Delayed (yellow)",
+          "Immediate (red)",
+          "Expectant (black)"
+        ],
+        "answer": 2,
+        "explanation": "Failing to follow simple commands makes the patient red under START. Yellow is the main distractor because breathing and perfusion are normal, but mental status alone triggers immediate."
+      },
+      {
+        "stem": "An adult in a collapsed building is not breathing. The responder repositions the airway and the patient begins breathing. What START category applies?",
+        "choices": [
+          "Immediate (red)",
+          "Delayed (yellow)",
+          "Expectant (black)",
+          "Minor (green)"
+        ],
+        "answer": 0,
+        "explanation": "A patient who breathes only after airway repositioning is red. Black would apply only if breathing did not start after repositioning."
+      },
+      {
+        "stem": "Under START, which finding alone places an adult in the immediate category?",
+        "choices": [
+          "Respiratory rate of 22 per minute",
+          "Capillary refill of 3 seconds",
+          "Ability to walk with a limp",
+          "An open fracture of the lower leg"
+        ],
+        "answer": 1,
+        "explanation": "Capillary refill over 2 seconds signals poor perfusion and means red. A rate of 22 is below the over-30 threshold, so it does not trigger immediate."
+      },
+      {
+        "stem": "A 4-year-old is not breathing after airway positioning but has a palpable pulse. Under JumpSTART, what is the next step?",
+        "choices": [
+          "Tag expectant and move on",
+          "Give five rescue breaths and reassess",
+          "Begin full CPR until help arrives",
+          "Tag delayed and return later"
+        ],
+        "answer": 1,
+        "explanation": "JumpSTART calls for five rescue breaths in an apneic child with a pulse, since children often have respiratory arrest first. Tagging expectant immediately is the adult START rule and misses a salvageable child."
+      },
+      {
+        "stem": "Under JumpSTART, which respiratory rate places a child in the immediate category?",
+        "choices": [
+          "20 per minute",
+          "30 per minute",
+          "40 per minute",
+          "50 per minute"
+        ],
+        "answer": 3,
+        "explanation": "JumpSTART uses under 15 or over 45 as red criteria, so 50 qualifies. Applying the adult over-30 rule makes 40 look tempting, but it is within the JumpSTART acceptable range."
+      },
+      {
+        "stem": "At a SALT-based scene, a responder asks everyone who can walk to move to a corner, then asks those remaining to wave. Who should be assessed first?",
+        "choices": [
+          "People who walked to the corner",
+          "People who waved",
+          "People who remained still or have obvious life threats",
+          "Whoever is closest to the ambulance"
+        ],
+        "answer": 2,
+        "explanation": "SALT's global sort assesses still patients and obvious life threats first. Those who waved are second; the walkers are assessed last."
+      },
+      {
+        "stem": "What distinguishes SALT from START in categorizing patients?",
+        "choices": [
+          "SALT never allows interventions before categorizing",
+          "SALT has a separate expectant category apart from dead",
+          "SALT uses only patient age to sort",
+          "SALT does not use color-coded categories"
+        ],
+        "answer": 1,
+        "explanation": "SALT separates expectant (alive but unlikely to survive with available resources) from dead. SALT actually builds in lifesaving interventions before categorizing, so the first choice is wrong."
+      },
+      {
+        "stem": "A walking patient with a scalp laceration is directed to the green collection point under START. What is true about this patient?",
+        "choices": [
+          "They never need further assessment",
+          "They are initially green but must be reassessed later",
+          "They should be tagged yellow because of bleeding",
+          "They should be transported first because they can walk"
+        ],
+        "answer": 1,
+        "explanation": "Walking patients are only initially green and must be re-evaluated, since hidden injuries can emerge. Assuming they need no further assessment ignores re-triage."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "START",
+        "definition": "Simple Triage and Rapid Treatment; adult algorithm using ambulation, respirations, perfusion and mental status."
+      },
+      {
+        "term": "30-2-Can Do",
+        "definition": "START memory aid: respirations over 30, capillary refill over 2 seconds or cannot follow commands means immediate."
+      },
+      {
+        "term": "JumpSTART",
+        "definition": "Pediatric adaptation of START for about ages 1 to 8, using rate limits of 15 and 45 and five rescue breaths."
+      },
+      {
+        "term": "SALT",
+        "definition": "Sort, Assess, Lifesaving interventions, Treatment/transport; a national triage guideline beginning with a global sort."
+      },
+      {
+        "term": "Capillary refill",
+        "definition": "Time for color to return after pressing the nail bed; over 2 seconds suggests poor perfusion."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Fire safety, utility control and light search",
+    "objective": "Classify fires, select and operate the correct extinguisher, and apply safe light search and rescue techniques.",
+    "body": "Fire and collapse are two of the most dangerous conditions CERT members meet. The skills in this unit are deliberately limited: CERT volunteers fight only small fires and rescue only lightly trapped people.\n\n**The fire triangle.** Fire needs **heat**, **fuel** and **oxygen**. Removing any side extinguishes it: water cools heat, a lid smothers oxygen, and clearing debris removes fuel. Fires are classified by fuel:\n- **Class A**: ordinary combustibles such as wood, paper and cloth.\n- **Class B**: flammable liquids and gases such as gasoline and grease in non-kitchen settings.\n- **Class C**: energized electrical equipment.\n- **Class D**: combustible metals such as magnesium.\n- **Class K**: cooking oils and fats in commercial kitchens.\n\nA common **ABC dry chemical extinguisher** handles classes A, B and C. Water must never be used on electrical or grease fires.\n\n**Using an extinguisher.** CERT teaches the acronym **PASS**:\n1. Pull the pin.\n2. Aim at the base of the fire.\n3. Squeeze the handle.\n4. Sweep side to side.\n\nBefore fighting a fire, members confirm it is small and contained, that they have the right extinguisher, and that they have a clear exit behind them. They work with a buddy and back out if the fire grows. If smoke fills the room or the fire spreads to walls or ceiling, they leave and report it.\n\n**Utility control.** After a disaster, CERT members may shut off utilities when there is a clear reason. They turn off gas only if they smell gas, hear a hissing sound or see a damaged line, because only the utility company should turn it back on. Electricity is shut off at the main breaker, and water at the main valve, to protect supplies and prevent flooding.\n\n**Light search and rescue.** Search begins with size-up of the building. CERT members search only lightly damaged structures and use a systematic pattern, such as moving right-hand wall to right-hand wall, calling out and pausing to listen. Searchers mark doors with a single diagonal slash on entry and complete an **X** on exit, writing key information (team, time, hazards, victims) in the quadrants.\n\nTo free lightly trapped victims, rescuers use **leverage** and **cribbing**: lift an object a small amount with a lever, then slide wooden blocks underneath, and repeat (\"lift an inch, crib an inch\"). Victims are removed with carries suited to their condition and the number of rescuers.\n\nThe most common mistake students make is aiming the extinguisher at the flames or smoke instead of the base of the fire, which wastes the agent while the fuel keeps burning.",
+    "examples": [
+      "A small trash can fire in a classroom is put out with an ABC extinguisher using PASS while the CERT member keeps the door at her back.",
+      "A rescue pair raises a fallen bookshelf with a pry bar and slides blocks beneath it after each small lift until the trapped student can slide out."
+    ],
+    "questions": [
+      {
+        "stem": "A small fire starts in a running electric space heater. Which extinguisher is appropriate?",
+        "choices": [
+          "Pressurized water",
+          "ABC dry chemical",
+          "Class K wet chemical",
+          "A bucket of sand mixed with water"
+        ],
+        "answer": 1,
+        "explanation": "Class C (energized electrical) fires are covered by ABC dry chemical. Water conducts electricity and can shock the user."
+      },
+      {
+        "stem": "While using PASS, where should the extinguisher nozzle be aimed?",
+        "choices": [
+          "At the top of the flames",
+          "Into the smoke",
+          "At the base of the fire",
+          "At the nearest wall"
+        ],
+        "answer": 2,
+        "explanation": "Aiming at the base hits the fuel source. Aiming at the flames or smoke lets the fuel keep burning."
+      },
+      {
+        "stem": "A CERT member enters a house after an earthquake and smells no gas, hears no hissing and sees no damaged lines. What should she do with the gas?",
+        "choices": [
+          "Leave it on",
+          "Shut it off as a precaution",
+          "Light a match to check for leaks",
+          "Turn it off and back on to reset it"
+        ],
+        "answer": 0,
+        "explanation": "Gas should be shut off only with signs of a leak because only the utility should restore it. Precautionary shutoff causes needless outages."
+      },
+      {
+        "stem": "Removing oxygen from the fire triangle is best illustrated by which action?",
+        "choices": [
+          "Spraying water on burning wood",
+          "Clearing leaves away from a campfire",
+          "Placing a lid on a burning pan",
+          "Switching off a circuit breaker"
+        ],
+        "answer": 2,
+        "explanation": "A lid smothers the fire by cutting off oxygen. Water mainly removes heat."
+      },
+      {
+        "stem": "A team prepares to fight a fire in a storeroom. Which condition means they should withdraw instead?",
+        "choices": [
+          "The fire is smaller than a wastebasket",
+          "Their exit is behind them",
+          "Smoke is filling the room and flames reach the ceiling",
+          "They have a charged ABC extinguisher"
+        ],
+        "answer": 2,
+        "explanation": "Spreading fire and heavy smoke exceed CERT limits. The other options describe safe conditions for action."
+      },
+      {
+        "stem": "What is the purpose of cribbing in light search and rescue?",
+        "choices": [
+          "To stabilize an object as it is raised",
+          "To cut through debris",
+          "To mark searched rooms",
+          "To carry victims downstairs"
+        ],
+        "answer": 0,
+        "explanation": "Cribbing blocks support a lifted load so it cannot drop back. Marking rooms is done with search markings, not cribbing."
+      },
+      {
+        "stem": "A searcher draws a single diagonal slash next to a door. What does this tell other teams?",
+        "choices": [
+          "The building is safe",
+          "A search team is currently inside",
+          "The search is complete",
+          "A victim was found"
+        ],
+        "answer": 1,
+        "explanation": "A single slash marks entry; completing the X marks exit. A finished search would show a full X."
+      },
+      {
+        "stem": "Which fuel defines a Class K fire?",
+        "choices": [
+          "Gasoline",
+          "Magnesium",
+          "Live wiring",
+          "Commercial cooking oils"
+        ],
+        "answer": 3,
+        "explanation": "Class K covers cooking oils and fats. Gasoline is a Class B flammable liquid."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Fire triangle",
+        "definition": "Heat, fuel and oxygen; removing any one puts out a fire."
+      },
+      {
+        "term": "PASS",
+        "definition": "Pull, Aim at the base, Squeeze, Sweep: the steps for using an extinguisher."
+      },
+      {
+        "term": "Class C fire",
+        "definition": "A fire involving energized electrical equipment."
+      },
+      {
+        "term": "Cribbing",
+        "definition": "Wooden blocks placed under a raised object to stabilize it during lifting."
+      },
+      {
+        "term": "Search marking",
+        "definition": "A diagonal slash on entry, completed to an X on exit, with information in the quadrants."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Parliamentary procedure for HOSA Bowl and chapter meetings",
+    "objective": "Classify motions by type and rank, determine the vote each requires, and apply correct procedure to realistic meeting scenarios.",
+    "body": "Parliamentary procedure is a high-value HOSA Bowl area because questions are precise and rules-based: once you know the logic, you can reason through unfamiliar scenarios. HOSA uses Robert's Rules of Order Newly Revised as its parliamentary authority.\n\n**Core principles.** Parliamentary law protects the rights of the majority to decide, the minority to be heard, absent members, and individuals. Only one main question is considered at a time, and every member has an equal right to speak.\n\n**Quorum.** A **quorum** is the minimum number of voting members who must be present to conduct business. Unless the bylaws set a different number, the default is a majority of the membership. Without a quorum, the group cannot take binding action.\n\n**Classes of motions.** Motions are ranked, and a higher-ranking motion can be made while a lower one is pending.\n1. **Main motion**: brings new business before the assembly; it has the lowest rank.\n2. **Subsidiary motions**: change or dispose of the main motion, such as amend, refer to a committee, postpone definitely, limit debate, previous question and lay on the table.\n3. **Privileged motions**: urgent matters unrelated to pending business, such as recess, adjourn and raise a question of privilege; they rank highest.\n4. **Incidental motions**: arise from procedure itself, such as point of order, appeal and division of the assembly.\n\n**Processing a motion.** A member obtains the floor, makes the motion, another member seconds it, and the chair states the question. Members debate, the chair puts the question to a vote, and the chair announces the result.\n\n**Votes required.** Most motions need a **majority vote**, more than half of the votes cast. Motions that limit members' rights need a **two-thirds vote**, including previous question (to close debate), limit or extend debate, and suspend the rules. A **point of order** needs no second and no vote; the chair rules on it.\n\nExample of reasoning: while a motion to buy fundraiser T-shirts is pending, a member moves to refer it to the finance committee. Refer is subsidiary and outranks the main motion, so it is in order and is voted on first.\n\nThe most common mistake is mixing up which motions need a two-thirds vote. Students often assume adjourning or amending needs two-thirds because it seems important; the rule is about rights, not importance. Ask, \"Does this motion cut off debate or take away a member's right?\" If yes, it is two-thirds.",
+    "examples": [
+      "At a chapter meeting with 30 members and no quorum rule in the bylaws, 16 members must be present to conduct business.",
+      "A member says \"I move the previous question\" during a long debate; if two-thirds of those voting agree, debate ends and the assembly votes on the pending motion."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter of 40 members has no quorum provision in its bylaws. What is the minimum attendance needed to conduct business?",
+        "choices": [
+          "10",
+          "21",
+          "27",
+          "40"
+        ],
+        "answer": 1,
+        "explanation": "The default quorum under Robert's Rules is a majority of the membership, so 21 of 40. Choice 27 reflects a two-thirds figure, which applies to some votes, not quorum."
+      },
+      {
+        "stem": "While a main motion is pending, a member moves to adjourn. Why is this motion in order?",
+        "choices": [
+          "Adjourn is a privileged motion and outranks the main motion",
+          "Adjourn is a main motion and replaces the pending business",
+          "Any motion may interrupt a speaker at any time",
+          "Adjourn is an incidental motion that needs no vote"
+        ],
+        "answer": 0,
+        "explanation": "Privileged motions such as adjourn outrank main and subsidiary motions. It is not incidental, and it still requires a majority vote."
+      },
+      {
+        "stem": "A member wants to end debate immediately and vote on the pending motion. Which motion and vote are required?",
+        "choices": [
+          "Lay on the table, majority vote",
+          "Postpone indefinitely, majority vote",
+          "Previous question, two-thirds vote",
+          "Point of order, no vote"
+        ],
+        "answer": 2,
+        "explanation": "Previous question closes debate, which limits members' rights, so it needs two-thirds. Lay on the table only sets the motion aside temporarily and is often misused to kill debate."
+      },
+      {
+        "stem": "The chair allows a vote without first stating the question, and a member believes the rules were broken. What should the member do?",
+        "choices": [
+          "Move to reconsider",
+          "Move to amend",
+          "Move to adjourn",
+          "Raise a point of order"
+        ],
+        "answer": 3,
+        "explanation": "A point of order calls attention to a rules violation, needs no second, and is ruled on by the chair. Reconsider reopens a decided vote but does not address procedural errors."
+      },
+      {
+        "stem": "Which motion is a subsidiary motion?",
+        "choices": [
+          "Refer to a committee",
+          "Recess",
+          "Appeal from the decision of the chair",
+          "Raise a question of privilege"
+        ],
+        "answer": 0,
+        "explanation": "Refer to a committee changes how the main motion is handled, so it is subsidiary. Recess and question of privilege are privileged, and appeal is incidental."
+      },
+      {
+        "stem": "Out of 50 votes cast on a motion to suspend the rules, 32 are in favor. What is the result?",
+        "choices": [
+          "Adopted, because a majority voted yes",
+          "Lost, because two-thirds of 50 requires at least 34",
+          "Adopted, because 32 exceeds a quorum",
+          "Lost, because suspend the rules requires a unanimous vote"
+        ],
+        "answer": 1,
+        "explanation": "Suspend the rules requires two-thirds; two-thirds of 50 is about 33.3, so at least 34 yes votes are needed. A simple majority is not enough for this motion."
+      },
+      {
+        "stem": "What is the correct order of steps after a member obtains the floor?",
+        "choices": [
+          "Second, motion, debate, vote, chair states question",
+          "Motion, debate, second, vote, result announced",
+          "Motion, second, chair states question, debate, vote, result announced",
+          "Chair states question, motion, second, vote, debate"
+        ],
+        "answer": 2,
+        "explanation": "A motion is made, seconded, and stated by the chair before debate. Debating before the second is a common error because members often start discussing right away."
+      },
+      {
+        "stem": "Which principle of parliamentary procedure is protected by allowing every member an equal opportunity to debate before a vote?",
+        "choices": [
+          "The majority's right to act quickly",
+          "The chair's right to decide alone",
+          "The right of absent members to vote by proxy",
+          "The minority's right to be heard"
+        ],
+        "answer": 3,
+        "explanation": "Equal debate ensures the minority can be heard before the majority decides. Proxy voting is not allowed under Robert's Rules unless the bylaws or law permit it."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Quorum",
+        "definition": "The minimum number of voting members who must be present to conduct business; by default a majority of the membership."
+      },
+      {
+        "term": "Main motion",
+        "definition": "A motion that brings new business before the assembly; it has the lowest rank."
+      },
+      {
+        "term": "Privileged motion",
+        "definition": "A high-ranking motion on urgent matters unrelated to pending business, such as recess or adjourn."
+      },
+      {
+        "term": "Majority vote",
+        "definition": "More than half of the votes cast."
+      },
+      {
+        "term": "Two-thirds vote",
+        "definition": "A vote required for motions that limit members' rights, such as previous question or suspend the rules."
+      }
+    ]
+  }
+]

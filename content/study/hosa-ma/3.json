@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Medication safety, injections, and responding to office emergencies",
+    "objective": "Apply the rights of medication administration, select appropriate injection routes and sites, and respond correctly to anaphylaxis, fainting, and other office emergencies.",
+    "body": "Advanced questions in medical assisting test judgment under pressure: preventing medication errors and recognizing when a routine visit becomes an emergency. Medical assistants administer medications only when ordered by a provider and permitted by state law and employer policy. They never choose a drug or dose themselves.\n\n**The rights of medication administration.** Before giving any medication, verify the right **patient**, **drug**, **dose**, **route**, **time**, and **documentation**. Many programs add right reason and the patient's right to refuse. Confirm identity with **two identifiers**, such as full name and date of birth; a room number is never an identifier. Check the label three times: when taking the medication from storage, when preparing it, and before giving it. Check expiration dates, and ask about allergies every time, even for returning patients.\n\n**Injection routes.** Each route places medication in a different tissue:\n- **Intradermal (ID):** just under the epidermis at a 10 to 15 degree angle, forming a small wheal; used for tuberculin skin testing.\n- **Subcutaneous (subcut):** into fatty tissue at a 45 to 90 degree angle, depending on tissue depth; common for some vaccines and insulin.\n- **Intramuscular (IM):** into muscle at a 90 degree angle. The **deltoid** is the usual site for adult vaccines; the **vastus lateralis** of the thigh is preferred for infants.\n\nAfter any injection, activate the needle's safety device, discard it in the sharps container, and document the drug, dose, route, site, lot number, and the patient's response. For vaccines, the patient also receives the current Vaccine Information Statement before vaccination.\n\n**Office emergencies.** Know the clinic's emergency plan and stay within your training.\n1. **Syncope** (fainting): help the patient lie down, protect the head, loosen tight clothing, and notify the provider. Patients should be seated during injections because fainting afterward is common, especially in adolescents.\n2. **Anaphylaxis:** a severe, rapid allergic reaction with signs such as hives, swelling of the lips or throat, wheezing, and low blood pressure. Call for help and the provider immediately and activate emergency medical services; epinephrine is the first-line treatment and is given per the provider's order or standing protocol.\n3. **Cardiac arrest:** if the patient is unresponsive and not breathing normally, call for help, start high-quality chest compressions, and use an **automated external defibrillator (AED)** as soon as one arrives.\n\n**Incident reports.** If a medication error occurs, care for the patient first, notify the provider, and complete an incident report that states facts objectively. The report is an internal quality tool and is not mentioned in the patient's chart.\n\n**Most common mistake:** students confuse the route with the site, or pick the right site but the wrong angle. Pair them deliberately: ID at 10 to 15 degrees, subcut at 45 to 90 degrees, IM at 90 degrees.",
+    "examples": [
+      "Before a flu vaccine, a medical assistant asks the patient to state her full name and date of birth and compares them with the order, using two identifiers.",
+      "Minutes after an injection, a patient develops hives and wheezing; the medical assistant calls the provider and EMS immediately because these are signs of anaphylaxis.",
+      "A medical assistant gives a tuberculin skin test intradermally at a shallow angle and confirms that a small wheal forms."
+    ],
+    "questions": [
+      {
+        "stem": "Which pair of identifiers is acceptable before giving a medication?",
+        "choices": [
+          "Room number and full name",
+          "Full name and date of birth",
+          "Insurance card color and date of birth",
+          "The diagnosis and the room number"
+        ],
+        "answer": 1,
+        "explanation": "Two personal identifiers such as name and date of birth reliably match the patient to the order. A room number is a location, not an identifier, and patients can be moved."
+      },
+      {
+        "stem": "A tuberculin skin test is ordered. Which route and angle are correct?",
+        "choices": [
+          "Intramuscular at 90 degrees",
+          "Subcutaneous at 45 degrees",
+          "Intradermal at 10 to 15 degrees",
+          "Intramuscular at 45 degrees"
+        ],
+        "answer": 2,
+        "explanation": "The test must stay just under the epidermis to form a wheal, which requires an intradermal injection at a shallow angle. A subcutaneous injection would go too deep to produce a readable result."
+      },
+      {
+        "stem": "A medical assistant is preparing an intramuscular vaccine for a 6-month-old infant. Which site is generally preferred?",
+        "choices": [
+          "Deltoid",
+          "Vastus lateralis",
+          "Ventral forearm",
+          "Abdomen"
+        ],
+        "answer": 1,
+        "explanation": "The vastus lateralis has the most developed muscle mass in infants. The deltoid is preferred for adults but is too small in most infants."
+      },
+      {
+        "stem": "Ten minutes after a vaccine, a teenager feels lightheaded and becomes pale but has no hives or breathing difficulty. What should the medical assistant do first?",
+        "choices": [
+          "Have the patient lie down, protect the head, and notify the provider",
+          "Give the patient a large glass of water while standing",
+          "Prepare epinephrine immediately",
+          "Ask the patient to walk to the restroom"
+        ],
+        "answer": 0,
+        "explanation": "These are signs of impending syncope, and lying down prevents a fall injury and helps restore blood flow to the brain. Epinephrine treats anaphylaxis, and there are no allergic signs here."
+      },
+      {
+        "stem": "A patient develops lip swelling, hives, and wheezing shortly after an injection. Which action is most urgent?",
+        "choices": [
+          "Document the reaction and schedule a follow-up",
+          "Call for the provider and activate emergency medical services",
+          "Apply an ice pack to the injection site",
+          "Have the patient drive to the emergency department"
+        ],
+        "answer": 1,
+        "explanation": "These are signs of anaphylaxis, which can be fatal within minutes and needs immediate provider response and EMS. Applying ice does nothing for the airway or blood pressure."
+      },
+      {
+        "stem": "A medical assistant realizes she gave a medication at the wrong time. What is the correct order of actions?",
+        "choices": [
+          "Complete an incident report, then check the patient",
+          "Assess the patient and notify the provider, then complete an incident report",
+          "Note the incident report in the patient's chart only",
+          "Tell no one unless the patient shows symptoms"
+        ],
+        "answer": 1,
+        "explanation": "Patient safety comes first, then the provider decides on follow-up, and the incident report documents the facts internally. The incident report is not placed or referenced in the chart."
+      },
+      {
+        "stem": "A coworker collapses, is unresponsive, and is not breathing normally. After calling for help, what should the medical assistant do?",
+        "choices": [
+          "Wait for the provider before touching the patient",
+          "Begin chest compressions and use the AED as soon as it arrives",
+          "Give rescue breaths only",
+          "Check blood pressure"
+        ],
+        "answer": 1,
+        "explanation": "Early high-quality compressions and early defibrillation give the best chance of survival in cardiac arrest. Waiting or checking vital signs delays the interventions that matter most."
+      },
+      {
+        "stem": "Which documentation is required after giving a vaccine?",
+        "choices": [
+          "Only the date",
+          "The drug, dose, route, site, lot number, and patient response",
+          "The patient's room number and insurance plan",
+          "Nothing if the patient had no reaction"
+        ],
+        "answer": 1,
+        "explanation": "Complete records allow tracking if a lot is recalled and show what was given. Documenting only the date leaves no proof of what, where, or how much was administered."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Rights of medication administration",
+        "definition": "Checks of the right patient, drug, dose, route, time, and documentation before giving any medication."
+      },
+      {
+        "term": "Intradermal injection",
+        "definition": "An injection just under the epidermis at a 10 to 15 degree angle, used for tuberculin skin tests."
+      },
+      {
+        "term": "Vastus lateralis",
+        "definition": "The thigh muscle preferred for intramuscular injections in infants."
+      },
+      {
+        "term": "Anaphylaxis",
+        "definition": "A severe, rapid allergic reaction that can include hives, swelling, wheezing, and low blood pressure."
+      },
+      {
+        "term": "Syncope",
+        "definition": "A temporary loss of consciousness, or fainting."
+      }
+    ]
+  }
+]

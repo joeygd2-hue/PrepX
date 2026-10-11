@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Interoperability, standards, and clinical decision support in practice",
+    "objective": "Evaluate how coding and messaging standards enable interoperability, and analyze the benefits and risks of clinical decision support, telehealth and health data analytics.",
+    "body": "Advanced health informatics is about making systems work together and turning data into better decisions. **Interoperability** is the ability of different information systems to exchange data and use the data they receive. It is often described in levels: **foundational** (data can be sent and received), **structural** (the format is defined so fields arrive in the right place) and **semantic** (both systems understand the meaning because they use the same codes).\n\n**Terminology and coding standards** make semantic interoperability possible.\n- **ICD-10-CM** codes diagnoses in the United States.\n- **CPT** codes procedures and services performed by providers.\n- **LOINC** identifies laboratory tests and clinical observations.\n- **SNOMED CT** is a detailed clinical terminology used inside EHRs to record findings, problems and diagnoses.\n- **RxNorm** provides normalized names for clinical drugs.\n\n**Messaging standards** define how data travel. **HL7 version 2** messages have long carried admissions, orders and results between hospital systems. **HL7 FHIR** (Fast Healthcare Interoperability Resources) packages data into modular resources, such as Patient or Observation, and exchanges them through modern web APIs, which is why many apps can now pull records with patient permission. **DICOM** is the standard for medical images.\n\n**Exchanging data.** A **health information exchange (HIE)** lets organizations in a region share records electronically. The **21st Century Cures Act** of 2016 prohibits **information blocking**, meaning practices that unreasonably interfere with access to or exchange of electronic health information, and it supports patient access through standardized APIs.\n\n**Clinical decision support (CDS)** gives clinicians knowledge and patient-specific information at the point of care: drug interaction alerts, reminders for overdue screenings, order sets and dosing calculators. CDS works best when it follows the \"five rights\": the right information, to the right person, in the right format, through the right channel, at the right time in the workflow. Too many low-value pop-ups cause **alert fatigue**, where clinicians override warnings out of habit, including important ones.\n\n**Telehealth and analytics.** **Telehealth** includes live video visits, store-and-forward sharing of images, and **remote patient monitoring** of data such as home blood pressure. **Health data analytics** ranges from descriptive (what happened) to predictive (what is likely to happen) to prescriptive (what should be done). Predictive models, including AI tools, must be checked for accuracy and **bias**, because a model trained on unrepresentative data can perform worse for some patient groups.\n\nThe most common mistake students make is believing that sending data is the same as interoperability. Two systems can exchange a file perfectly yet still fail if one calls a test \"GLU\" and the other expects a LOINC code; true interoperability requires shared meaning, not just a connection.",
+    "examples": [
+      "A hospital sends a glucose result labeled with a LOINC code, so a clinic's EHR automatically files it as the correct test in the patient's chart.",
+      "A patient authorizes a smartphone app that uses a FHIR API to download her immunization history from her health system.",
+      "After a hospital removes rarely useful alerts, clinicians start paying closer attention to the remaining serious drug-interaction warnings, reducing alert fatigue."
+    ],
+    "questions": [
+      {
+        "stem": "Two hospitals exchange lab results successfully, but one labels a test with a local abbreviation the other cannot interpret. Which level of interoperability is missing?",
+        "choices": [
+          "Foundational",
+          "Semantic",
+          "Structural",
+          "Physical"
+        ],
+        "answer": 1,
+        "explanation": "Semantic interoperability requires shared meaning, usually through common codes such as LOINC. Foundational is wrong because the data are already being sent and received."
+      },
+      {
+        "stem": "A coder needs to report that a patient was diagnosed with type 2 diabetes. Which code set is used for the diagnosis in the United States?",
+        "choices": [
+          "CPT",
+          "LOINC",
+          "ICD-10-CM",
+          "DICOM"
+        ],
+        "answer": 2,
+        "explanation": "ICD-10-CM codes diagnoses. CPT is the tempting distractor, but it codes procedures and services, not the condition itself."
+      },
+      {
+        "stem": "A developer builds an app that retrieves a patient's medications through a modern web API after the patient grants permission. Which standard is most likely used?",
+        "choices": [
+          "HL7 FHIR",
+          "DICOM",
+          "ICD-10-CM",
+          "CPT"
+        ],
+        "answer": 0,
+        "explanation": "FHIR exchanges modular resources through web APIs. DICOM is a real interoperability standard but is specific to medical imaging."
+      },
+      {
+        "stem": "Physicians at a clinic override 95 percent of EHR pop-up alerts, including a few critical ones. What problem does this illustrate?",
+        "choices": [
+          "Information blocking",
+          "Semantic mismatch",
+          "Alert fatigue",
+          "Data breach"
+        ],
+        "answer": 2,
+        "explanation": "Excessive low-value alerts lead clinicians to ignore warnings, which is alert fatigue. Information blocking concerns interfering with data access, not ignoring alerts."
+      },
+      {
+        "stem": "A health system refuses, without a valid reason, to send records to a competing hospital that is treating the same patient. Which law most directly addresses this?",
+        "choices": [
+          "HITECH Breach Notification Rule",
+          "21st Century Cures Act information blocking provisions",
+          "The HIPAA Security Rule",
+          "The DICOM standard"
+        ],
+        "answer": 1,
+        "explanation": "The Cures Act prohibits information blocking. HITECH breach rules address unauthorized disclosures, which is the opposite problem."
+      },
+      {
+        "stem": "A radiology department needs a standard for storing and transmitting CT scan images between systems. Which should it use?",
+        "choices": [
+          "LOINC",
+          "RxNorm",
+          "SNOMED CT",
+          "DICOM"
+        ],
+        "answer": 3,
+        "explanation": "DICOM is the standard for medical images. LOINC identifies lab tests and observations, not the image files themselves."
+      },
+      {
+        "stem": "A hospital uses a model to estimate which discharged patients are most likely to be readmitted within 30 days. What type of analytics is this?",
+        "choices": [
+          "Descriptive",
+          "Predictive",
+          "Prescriptive",
+          "Diagnostic coding"
+        ],
+        "answer": 1,
+        "explanation": "Estimating future likelihood is predictive analytics. Descriptive analytics would only summarize past readmission rates."
+      },
+      {
+        "stem": "A heart failure patient's home scale automatically sends daily weights to the care team, who call when weight rises quickly. What is this an example of?",
+        "choices": [
+          "Store-and-forward telehealth",
+          "Remote patient monitoring",
+          "A health information exchange",
+          "A personal health record only"
+        ],
+        "answer": 1,
+        "explanation": "Ongoing transmission of home measurements to clinicians is remote patient monitoring. Store-and-forward describes sending recorded images or files for later review, not continuous tracking."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Interoperability",
+        "definition": "The ability of different information systems to exchange data and use the data they receive."
+      },
+      {
+        "term": "HL7 FHIR",
+        "definition": "A standard that packages health data into modular resources and exchanges them through modern web APIs."
+      },
+      {
+        "term": "LOINC",
+        "definition": "A coding standard that identifies laboratory tests and clinical observations."
+      },
+      {
+        "term": "Alert fatigue",
+        "definition": "Desensitization caused by excessive alerts, leading clinicians to override warnings, including important ones."
+      },
+      {
+        "term": "Information blocking",
+        "definition": "A practice that unreasonably interferes with access to, exchange of or use of electronic health information, prohibited by the 21st Century Cures Act."
+      }
+    ]
+  }
+]
