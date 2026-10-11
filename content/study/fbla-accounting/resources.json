@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Accounting, Volume 1: Financial Accounting",
+    "url": "https://openstax.org/books/principles-financial-accounting/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on the accounting cycle, adjusting entries and financial statements; matches most of the test."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Read the financial statement analysis and ratio chapters to prepare for Financial Statement Analysis."
+  },
+  {
+    "title": "Excel Tutorials",
+    "url": "https://edu.gcfglobal.org/en/excel/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Free spreadsheet lessons for practicing journals, ledgers and trial balances the way accountants build them."
+  }
+]

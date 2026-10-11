@@ -1,0 +1,23 @@
+[
+  {
+    "title": "CERT Basic Training",
+    "url": "https://www.ready.gov/cert-basic-training",
+    "publisher": "FEMA (Ready.gov)",
+    "kind": "course",
+    "note": "FEMA CERT materials on triage, disaster medical operations and incident organization."
+  },
+  {
+    "title": "Community Emergency Response Team (CERT)",
+    "url": "https://www.ready.gov/cert",
+    "publisher": "FEMA (Ready.gov)",
+    "kind": "reference",
+    "note": "Overview of CERT teams and how they support responders in large incidents."
+  },
+  {
+    "title": "National EMS Scope of Practice Model 2019",
+    "url": "https://www.ems.gov/assets/National_EMS_Scope_of_Practice_Model_2019.pdf",
+    "publisher": "NHTSA Office of EMS",
+    "kind": "reference",
+    "note": "Defines what each EMS level may do, useful for roles at a mass casualty scene."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Money Smart for Young Adults",
+    "url": "https://www.fdic.gov/consumer-resource-center/money-smart-young-adults",
+    "publisher": "FDIC",
+    "kind": "course",
+    "note": "FDIC curriculum on bank accounts, deposit insurance, credit and loans; good grounding for banking items."
+  },
+  {
+    "title": "Federal Reserve Education",
+    "url": "https://www.federalreserveeducation.org/",
+    "publisher": "Federal Reserve System",
+    "kind": "course",
+    "note": "Federal Reserve lessons on money, banking, monetary policy and how the Fed supervises banks."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free finance textbook on interest rates, financial institutions and markets for the systems side of the test."
+  }
+]

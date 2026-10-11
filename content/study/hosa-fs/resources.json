@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Forensic Science Program",
+    "url": "https://www.nist.gov/spo/forensic-science-program",
+    "publisher": "NIST",
+    "kind": "reference",
+    "note": "NIST's program on the science and standards behind forensic methods such as DNA and trace evidence."
+  },
+  {
+    "title": "Biology 2e",
+    "url": "https://openstax.org/details/books/biology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free biology text; DNA, genetics and cell chapters underlie forensic biology."
+  },
+  {
+    "title": "Chemistry 2e",
+    "url": "https://openstax.org/details/books/chemistry-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free chemistry text for the analysis techniques used in forensic toxicology and trace evidence."
+  }
+]

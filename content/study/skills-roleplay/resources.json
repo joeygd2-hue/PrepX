@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Organizational Behavior",
+    "url": "https://openstax.org/books/organizational-behavior/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Communication, negotiation and conflict chapters help you handle the judge as a client or manager."
+  },
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Selling and customer relationship chapters give structure for sales-style role-plays."
+  },
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Broad business review so you can draw on real concepts quickly in a role-play."
+  }
+]

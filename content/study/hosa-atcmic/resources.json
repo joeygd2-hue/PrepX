@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Microbiology",
+    "url": "https://openstax.org/books/microbiology/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free allied-health microbiology text: microbes, staining, growth, infection control and immunity."
+  },
+  {
+    "title": "Science courses",
+    "url": "https://www.khanacademy.org/science",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Video lessons on bacteria, viruses and the immune system for quick review."
+  },
+  {
+    "title": "WHO Fact Sheets",
+    "url": "https://www.who.int/news-room/fact-sheets",
+    "publisher": "World Health Organization",
+    "kind": "reference",
+    "note": "WHO fact sheets on infectious diseases and antimicrobial resistance for real-world context."
+  }
+]

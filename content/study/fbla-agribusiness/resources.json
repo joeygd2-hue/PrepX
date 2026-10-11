@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Ag and Food Sectors and the Economy",
+    "url": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/ag-and-food-sectors-and-the-economy",
+    "publisher": "USDA Economic Research Service",
+    "kind": "reference",
+    "note": "USDA charts on agriculture's share of the economy, farm income and food spending; good for current context."
+  },
+  {
+    "title": "Principles of Economics 3e",
+    "url": "https://openstax.org/books/principles-economics-3e/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Supply, demand, elasticity and market structure chapters explain commodity prices and farm decisions."
+  },
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook for the agricultural marketing, distribution and pricing questions."
+  }
+]

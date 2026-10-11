@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Business Law I Essentials",
+    "url": "https://openstax.org/details/books/business-law-i-essentials",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free business law textbook: contracts, torts, agency, employment and business organizations."
+  },
+  {
+    "title": "Business Ethics",
+    "url": "https://openstax.org/details/books/business-ethics",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Ethics frameworks and corporate responsibility cases that support the Business Ethics presentation."
+  },
+  {
+    "title": "Introduction to Intellectual Property",
+    "url": "https://openstax.org/books/introduction-intellectual-property/pages/preface-and-foreword",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Patents, copyright, trademarks and trade secrets in plain terms; a frequent business law topic."
+  }
+]

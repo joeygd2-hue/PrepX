@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook covering the business basics in the core: ownership forms, management, marketing, finance and operations."
+  },
+  {
+    "title": "Principles of Economics 3e",
+    "url": "https://openstax.org/books/principles-economics-3e/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Use the early chapters for scarcity, supply and demand, market structures and economic indicators that the core tests."
+  },
+  {
+    "title": "Organizational Behavior",
+    "url": "https://openstax.org/books/organizational-behavior/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Read the communication, perception and motivation chapters to back up emotional intelligence and human resources items."
+  }
+]

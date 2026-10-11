@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Insurance 101",
+    "url": "https://www.iii.org/article/insurance-101",
+    "publisher": "Insurance Information Institute",
+    "kind": "reference",
+    "note": "Explains risk pooling, premiums, deductibles and the main types of insurance in plain terms."
+  },
+  {
+    "title": "Homeowners Insurance Consumer Guide",
+    "url": "https://content.naic.org/consumer/homeowners-insurance.htm",
+    "publisher": "NAIC",
+    "kind": "reference",
+    "note": "State regulators' consumer guide to homeowners coverage, policy forms and shopping questions."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free finance textbook; the risk and return chapters support the risk management side of the test."
+  }
+]

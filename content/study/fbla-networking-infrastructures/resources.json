@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Computers and the Internet: The Internet",
+    "url": "https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Lessons on Ethernet, fiber, Wi-Fi, IP, TCP, UDP, DNS and HTTP; the protocol stack in plain terms."
+  },
+  {
+    "title": "Introduction to Computer Science: Network Design Application of Algorithms",
+    "url": "https://openstax.org/books/introduction-computer-science/pages/a-appendix-a-network-design-application-of-algorithms",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Textbook appendix on routing, bandwidth, latency and client-server design."
+  },
+  {
+    "title": "Introduction to Business: Linking Up: Computer Networks",
+    "url": "https://openstax.org/books/introduction-business/pages/13-2-linking-up-computer-networks",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Short section on LANs, WANs and intranets in a business setting."
+  }
+]

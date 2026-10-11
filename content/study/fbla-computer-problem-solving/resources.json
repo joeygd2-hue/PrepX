@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Computer Basics",
+    "url": "https://edu.gcfglobal.org/en/COMPUTERBASICS/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Free course on hardware, ports, operating systems and basic setup; a base for troubleshooting questions."
+  },
+  {
+    "title": "Introduction to Computer Science: Computer Systems Organization",
+    "url": "https://openstax.org/books/introduction-computer-science/pages/5-1-computer-systems-organization",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Explains how processors, memory, storage and buses fit together, which helps diagnose hardware problems."
+  },
+  {
+    "title": "Computers and the Internet: The Internet",
+    "url": "https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Lessons on IP addresses, DNS, packets and routing for the networking side of computer problem solving."
+  }
+]

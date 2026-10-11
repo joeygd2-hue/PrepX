@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Investing",
+    "url": "https://www.investor.gov/introduction-investing",
+    "publisher": "U.S. SEC (Investor.gov)",
+    "kind": "reference",
+    "note": "SEC primer on stocks, bonds, funds, accounts, fees and risk."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free finance textbook on time value of money, risk and return, and how securities are valued."
+  },
+  {
+    "title": "Saving and Investing for Students",
+    "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/publications/saving-investing-students",
+    "publisher": "U.S. SEC (Investor.gov)",
+    "kind": "reference",
+    "note": "SEC guide for students on saving, investing basics and setting financial goals."
+  }
+]

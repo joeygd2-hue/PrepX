@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Classify Your Medical Device",
+    "url": "https://www.fda.gov/medical-devices/overview-device-regulation/classify-your-medical-device",
+    "publisher": "U.S. FDA",
+    "kind": "reference",
+    "note": "FDA overview of the three device risk classes and the controls each one needs."
+  },
+  {
+    "title": "College Physics 2e",
+    "url": "https://openstax.org/details/books/college-physics-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Electricity, circuits, waves and optics chapters explain how medical equipment works."
+  },
+  {
+    "title": "Compliance Assistance Quick Start: Health Care Industry",
+    "url": "https://www.osha.gov/complianceassistance/quickstarts/health-care",
+    "publisher": "OSHA",
+    "kind": "reference",
+    "note": "OSHA health care hazards, including electrical and equipment safety, for technicians."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Workplace Writers",
+    "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/workplace_writers.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Purdue OWL guides to reports, memos and other workplace writing."
+  },
+  {
+    "title": "APA General Format",
+    "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "APA formatting and citation rules for research-based papers."
+  },
+  {
+    "title": "Memo Format",
+    "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/memos/format.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Memo layout and headings for short written reports."
+  }
+]

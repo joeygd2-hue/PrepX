@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Cybersecurity Basics",
+    "url": "https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics",
+    "publisher": "NIST",
+    "kind": "reference",
+    "note": "NIST basics on identifying, protecting, detecting, responding to and recovering from cyber incidents."
+  },
+  {
+    "title": "Secure Your Business",
+    "url": "https://www.cisa.gov/secure-our-world/secure-your-business",
+    "publisher": "CISA",
+    "kind": "reference",
+    "note": "CISA's practical steps: phishing training, strong passwords, multifactor authentication, updates and backups."
+  },
+  {
+    "title": "Introduction to Computer Science: Cyber Resources Management Frameworks",
+    "url": "https://openstax.org/books/introduction-computer-science/pages/14-1-cyber-resources-management-frameworks",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Textbook section on cybersecurity frameworks for managing risk to systems and data."
+  }
+]

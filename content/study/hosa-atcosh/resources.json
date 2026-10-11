@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Compliance Assistance Quick Start: Health Care Industry",
+    "url": "https://www.osha.gov/complianceassistance/quickstarts/health-care",
+    "publisher": "OSHA",
+    "kind": "reference",
+    "note": "OSHA's starting point for health care hazards: bloodborne pathogens, ergonomics, violence and more."
+  },
+  {
+    "title": "Bloodborne Pathogens: General Guidance",
+    "url": "https://www.osha.gov/bloodborne-pathogens/general",
+    "publisher": "OSHA",
+    "kind": "reference",
+    "note": "OSHA guidance on exposure control plans, sharps, PPE and hepatitis B vaccination."
+  },
+  {
+    "title": "NIOSH A-Z Index",
+    "url": "https://www.cdc.gov/niosh/az/index.html",
+    "publisher": "CDC / NIOSH",
+    "kind": "reference",
+    "note": "CDC index of worker safety topics such as chemicals, heat, noise and falls."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Robert's Rules of Order: Frequently Asked Questions",
+    "url": "https://robertsrules.com/frequently-asked-questions/",
+    "publisher": "Robert's Rules Association",
+    "kind": "reference",
+    "note": "Answers from the official Robert's Rules site for Chapter Team's parliamentary procedure."
+  },
+  {
+    "title": "Exploring Public Speaking",
+    "url": "https://oer.galileo.usg.edu/communication-textbooks/1/",
+    "publisher": "GALILEO Open Learning Materials",
+    "kind": "textbook",
+    "note": "Free public speaking textbook on research, organization and delivery for speeches and debate."
+  },
+  {
+    "title": "APA General Format",
+    "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Purdue OWL on citing sources, useful when you prepare evidence for Debating Technological Issues."
+  }
+]

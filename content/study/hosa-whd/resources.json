@@ -1,0 +1,23 @@
+[
+  {
+    "title": "WHO Fact Sheets",
+    "url": "https://www.who.int/news-room/fact-sheets",
+    "publisher": "World Health Organization",
+    "kind": "reference",
+    "note": "WHO fact sheets on global diseases, risk factors and health systems."
+  },
+  {
+    "title": "Healthy People 2030: Social Determinants of Health",
+    "url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health",
+    "publisher": "U.S. HHS (ODPHP)",
+    "kind": "reference",
+    "note": "Healthy People 2030 on social determinants of health and disparities."
+  },
+  {
+    "title": "Population Health for Nurses",
+    "url": "https://openstax.org/books/population-health/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on community and public health with a focus on health equity."
+  }
+]

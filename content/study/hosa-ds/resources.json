@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Oral Health Information",
+    "url": "https://www.nidcr.nih.gov/health-info",
+    "publisher": "NIDCR (NIH)",
+    "kind": "reference",
+    "note": "NIH pages on tooth decay, gum disease, oral cancer, dry mouth and oral hygiene."
+  },
+  {
+    "title": "MouthHealthy Topics A-Z",
+    "url": "https://www.mouthhealthy.org/all-topics-a-z/",
+    "publisher": "American Dental Association",
+    "kind": "reference",
+    "note": "American Dental Association topics from cavities to braces and dental emergencies."
+  },
+  {
+    "title": "About Oral Health",
+    "url": "https://www.cdc.gov/oral-health/about/index.html",
+    "publisher": "CDC",
+    "kind": "reference",
+    "note": "CDC basics on oral disease prevention, fluoride and sealants."
+  }
+]

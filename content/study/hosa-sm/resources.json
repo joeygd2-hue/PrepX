@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Sports Injuries",
+    "url": "https://www.niams.nih.gov/health-topics/sports-injuries",
+    "publisher": "NIAMS (NIH)",
+    "kind": "reference",
+    "note": "NIH overview of acute and overuse sports injuries, RICE and when to see a provider."
+  },
+  {
+    "title": "Anatomy and Physiology 2e",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free anatomy and physiology text for the musculoskeletal system."
+  },
+  {
+    "title": "Learn Hands-Only CPR",
+    "url": "https://international.heart.org/en/resuscitation/hands-only-cpr",
+    "publisher": "American Heart Association",
+    "kind": "video",
+    "note": "AHA's short Hands-Only CPR lesson for sideline emergencies."
+  }
+]

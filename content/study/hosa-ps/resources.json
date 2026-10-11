@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Pharmacology for Nurses",
+    "url": "https://openstax.org/details/books/pharmacology",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free pharmacology text on drug classes, actions and safe use."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH drug information pages on uses, dosing, side effects and storage."
+  },
+  {
+    "title": "Prealgebra 2e",
+    "url": "https://openstax.org/details/books/prealgebra-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Review ratios, proportions and percents for pharmacy calculations."
+  }
+]

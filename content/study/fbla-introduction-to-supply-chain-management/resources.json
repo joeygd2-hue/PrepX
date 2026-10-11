@@ -1,0 +1,23 @@
+[
+  {
+    "title": "D-Lab: Supply Chains",
+    "url": "https://ocw.mit.edu/courses/15-772j-d-lab-supply-chains-fall-2014/",
+    "publisher": "MIT OpenCourseWare",
+    "kind": "course",
+    "note": "Free MIT undergraduate course materials on designing and improving supply chains."
+  },
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "The operations management chapter covers purchasing, inventory control, logistics and quality."
+  },
+  {
+    "title": "Learn How to Export",
+    "url": "https://www.trade.gov/learn-how-export",
+    "publisher": "International Trade Administration",
+    "kind": "reference",
+    "note": "Commerce Department export steps, including shipping, documentation and compliance in global supply chains."
+  }
+]

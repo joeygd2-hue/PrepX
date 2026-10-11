@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Venipuncture",
+    "url": "https://medlineplus.gov/ency/article/003423.htm",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus description of venipuncture: site selection, steps and risks."
+  },
+  {
+    "title": "What You Need to Know About Blood Testing",
+    "url": "https://medlineplus.gov/lab-tests/what-you-need-to-know-about-blood-testing/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "What patients experience during a blood test and why tests are ordered."
+  },
+  {
+    "title": "Bloodborne Pathogens: General Guidance",
+    "url": "https://www.osha.gov/bloodborne-pathogens/general",
+    "publisher": "OSHA",
+    "kind": "reference",
+    "note": "OSHA rules on sharps, PPE and exposure control for anyone drawing blood."
+  }
+]

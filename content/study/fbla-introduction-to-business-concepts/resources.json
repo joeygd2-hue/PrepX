@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook covering ownership, management, marketing, finance and the business environment."
+  },
+  {
+    "title": "Economics",
+    "url": "https://www.khanacademy.org/science/economics-finance-domain",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Short economics lessons on scarcity, supply and demand and markets that intro business questions assume."
+  },
+  {
+    "title": "Exploring Public Speaking",
+    "url": "https://oer.galileo.usg.edu/communication-textbooks/1/",
+    "publisher": "GALILEO Open Learning Materials",
+    "kind": "textbook",
+    "note": "Public speaking textbook for planning and delivering the Introduction to Business Presentation."
+  }
+]

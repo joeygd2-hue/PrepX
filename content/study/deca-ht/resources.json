@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Tourism and Hospitality in BC, 2nd Edition",
+    "url": "https://opentextbc.ca/introtourism2e/",
+    "publisher": "BCcampus Open Education",
+    "kind": "textbook",
+    "note": "Open textbook on lodging, food and beverage, travel and events; use it for hospitality operations and industry terms."
+  },
+  {
+    "title": "FDA Food Code",
+    "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "publisher": "U.S. FDA",
+    "kind": "reference",
+    "note": "The model code behind restaurant food safety rules; skim the personnel and food chapters for QSRM and RFSM items."
+  },
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook; the services and pricing chapters apply directly to hotels, restaurants and travel."
+  }
+]

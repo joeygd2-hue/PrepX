@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Biology 2e",
+    "url": "https://openstax.org/details/books/biology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free two-semester biology text: cells, genetics, evolution, ecology and animal physiology."
+  },
+  {
+    "title": "Science courses",
+    "url": "https://www.khanacademy.org/science",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Video lessons and practice for high school and AP biology topics."
+  },
+  {
+    "title": "Talking Glossary of Genomic and Genetic Terms",
+    "url": "https://www.genome.gov/genetics-glossary",
+    "publisher": "National Human Genome Research Institute",
+    "kind": "reference",
+    "note": "Short spoken definitions of genetics terms with illustrations; good for vocabulary review."
+  }
+]

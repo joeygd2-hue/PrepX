@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Organizational Behavior",
+    "url": "https://openstax.org/books/organizational-behavior/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on leadership theories, power, motivation, teams and organizational culture."
+  },
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "The leading and organizing chapters connect leadership styles to structure and decision making."
+  },
+  {
+    "title": "Business Ethics",
+    "url": "https://openstax.org/details/books/business-ethics",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Ethical leadership, corporate governance and social responsibility cases."
+  }
+]

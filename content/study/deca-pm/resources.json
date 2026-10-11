@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project Management, 2nd Edition",
+    "url": "https://opentextbc.ca/projectmanagement/",
+    "publisher": "BCcampus Open Education",
+    "kind": "textbook",
+    "note": "Open textbook on initiating, planning, executing, controlling and closing a project; map your written project to it."
+  },
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Use the planning and controlling chapters to describe goals, schedules and how you measured results."
+  },
+  {
+    "title": "Data Visualization Best Practices",
+    "url": "https://owl.purdue.edu/owl/general_writing/visual_rhetoric/data_visualization/index.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Tips for clear charts and tables when presenting timelines, budgets and outcomes in the project report."
+  }
+]

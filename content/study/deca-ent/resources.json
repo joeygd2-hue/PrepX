@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Entrepreneurship",
+    "url": "https://openstax.org/books/entrepreneurship/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on spotting opportunities, business models, funding and launch; the core reading for ENT, ETDM and EIP."
+  },
+  {
+    "title": "Plan Your Business",
+    "url": "https://www.sba.gov/counseling/plan-your-business/",
+    "publisher": "U.S. Small Business Administration",
+    "kind": "reference",
+    "note": "SBA guidance on market research, competitive analysis and business plan formats; use it to structure an Innovation Plan."
+  },
+  {
+    "title": "Introduction to Intellectual Property",
+    "url": "https://openstax.org/books/introduction-intellectual-property/pages/preface-and-foreword",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Covers patents, trademarks, copyright and trade secrets, which entrepreneurship items and innovation plans often touch."
+  }
+]

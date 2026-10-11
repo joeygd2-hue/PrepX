@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Medical Tests",
+    "url": "https://medlineplus.gov/lab-tests/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH descriptions of common clinical lab tests and what abnormal results suggest."
+  },
+  {
+    "title": "What You Need to Know About Blood Testing",
+    "url": "https://medlineplus.gov/lab-tests/what-you-need-to-know-about-blood-testing/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "How blood samples are collected and handled, and the risks of blood testing."
+  },
+  {
+    "title": "Chemistry 2e",
+    "url": "https://openstax.org/details/books/chemistry-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free chemistry text for solutions, concentrations and acid-base balance behind lab values."
+  }
+]

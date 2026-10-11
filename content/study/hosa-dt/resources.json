@@ -1,0 +1,23 @@
+[
+  {
+    "title": "MouthHealthy Glossary",
+    "url": "https://www.mouthhealthy.org/glossary",
+    "publisher": "American Dental Association",
+    "kind": "reference",
+    "note": "American Dental Association glossary of dental terms in plain language."
+  },
+  {
+    "title": "Understanding Medical Words Tutorial",
+    "url": "https://medlineplus.gov/medwords/medicalwords.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "course",
+    "note": "NIH tutorial on breaking medical words into prefixes, roots and suffixes, with quizzes."
+  },
+  {
+    "title": "Oral Health Information",
+    "url": "https://www.nidcr.nih.gov/health-info",
+    "publisher": "NIDCR (NIH)",
+    "kind": "reference",
+    "note": "NIH oral health pages show dental terms used in context."
+  }
+]

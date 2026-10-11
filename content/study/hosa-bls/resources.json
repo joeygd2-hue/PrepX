@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Medical Tests",
+    "url": "https://medlineplus.gov/lab-tests/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH descriptions of nearly 300 lab tests: what each measures and what results mean."
+  },
+  {
+    "title": "Microbiology",
+    "url": "https://openstax.org/books/microbiology/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free microbiology text on lab techniques, staining, culturing and pathogen identification."
+  },
+  {
+    "title": "Bloodborne Pathogens: General Guidance",
+    "url": "https://www.osha.gov/bloodborne-pathogens/general",
+    "publisher": "OSHA",
+    "kind": "reference",
+    "note": "OSHA rules for handling blood and specimens safely in the lab."
+  }
+]

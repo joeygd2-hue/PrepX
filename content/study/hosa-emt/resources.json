@@ -1,0 +1,23 @@
+[
+  {
+    "title": "National EMS Scope of Practice Model 2019",
+    "url": "https://www.ems.gov/assets/National_EMS_Scope_of_Practice_Model_2019.pdf",
+    "publisher": "NHTSA Office of EMS",
+    "kind": "reference",
+    "note": "National model of what EMRs, EMTs, AEMTs and paramedics may do; defines the EMT's skill set."
+  },
+  {
+    "title": "What Is CPR",
+    "url": "https://cpr.heart.org/en/resources/what-is-cpr",
+    "publisher": "American Heart Association",
+    "kind": "reference",
+    "note": "AHA explanation of CPR and the chain of survival for cardiac arrest calls."
+  },
+  {
+    "title": "Anatomy and Physiology 2e",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free anatomy and physiology text for the body systems behind patient assessment."
+  }
+]

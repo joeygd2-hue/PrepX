@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Python Programming",
+    "url": "https://openstax.org/details/books/introduction-python-programming",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free Python textbook with a built-in code runner: variables, loops, functions, data structures and files."
+  },
+  {
+    "title": "Learn Web Development",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "publisher": "MDN Web Docs (Mozilla)",
+    "kind": "course",
+    "note": "Mozilla's free path through HTML, CSS and JavaScript for web-based Coding and Programming entries."
+  },
+  {
+    "title": "Computing courses",
+    "url": "https://www.khanacademy.org/computing",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Free computing courses, including programming and AP Computer Science Principles practice."
+  }
+]

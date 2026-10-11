@@ -1,0 +1,23 @@
+[
+  {
+    "title": "American Government 3e",
+    "url": "https://openstax.org/books/american-government-3e/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on federalism, the branches of government, bureaucracy and public policy."
+  },
+  {
+    "title": "AP US Government and Politics",
+    "url": "https://www.khanacademy.org/humanities/ap-us-government-and-politics",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Video lessons and practice on the Constitution, the branches and how policy is made."
+  },
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Management principles that apply to running public agencies and programs."
+  }
+]

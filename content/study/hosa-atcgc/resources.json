@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Chemistry 2e",
+    "url": "https://openstax.org/details/books/chemistry-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free general chemistry text: atoms, stoichiometry, gases, solutions, equilibrium and acids and bases."
+  },
+  {
+    "title": "Science courses",
+    "url": "https://www.khanacademy.org/science",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Video lessons and practice for high school and AP chemistry."
+  },
+  {
+    "title": "Prealgebra 2e",
+    "url": "https://openstax.org/details/books/prealgebra-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Review ratios, percents and unit conversions that stoichiometry and solution problems rely on."
+  }
+]

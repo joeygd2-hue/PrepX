@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook; branding, pricing and promotion chapters apply to teams, venues and events."
+  },
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Management chapters for organizing staff, facilities and operations at teams and venues."
+  },
+  {
+    "title": "Introduction to Intellectual Property",
+    "url": "https://openstax.org/books/introduction-intellectual-property/pages/preface-and-foreword",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Trademarks and copyright explain licensing of team logos, broadcasts and music."
+  }
+]

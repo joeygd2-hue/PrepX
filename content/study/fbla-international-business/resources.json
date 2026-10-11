@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Learn How to Export",
+    "url": "https://www.trade.gov/learn-how-export",
+    "publisher": "International Trade Administration",
+    "kind": "reference",
+    "note": "Commerce Department steps for exporting: market research, export plans, financing, compliance and shipping."
+  },
+  {
+    "title": "Principles of Economics 3e",
+    "url": "https://openstax.org/books/principles-economics-3e/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "International trade, comparative advantage, exchange rates and trade policy chapters."
+  },
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "The global business chapter covers entry modes, trade barriers and cultural differences."
+  }
+]

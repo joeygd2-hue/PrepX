@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Accounting, Volume 1: Financial Accounting",
+    "url": "https://openstax.org/books/principles-financial-accounting/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free financial accounting text: the accounting cycle, journal entries and financial statements tested in ACT and BFS."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Covers time value of money, financial statement analysis, risk and capital budgeting for the finance cluster."
+  },
+  {
+    "title": "Introduction to Investing",
+    "url": "https://www.investor.gov/introduction-investing",
+    "publisher": "U.S. SEC (Investor.gov)",
+    "kind": "reference",
+    "note": "SEC primer on stocks, bonds, funds and risk; handy background for FTDM and financial services questions."
+  }
+]

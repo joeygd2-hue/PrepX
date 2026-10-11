@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Understanding Medical Words Tutorial",
+    "url": "https://medlineplus.gov/medwords/medicalwords.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "course",
+    "note": "NIH tutorial on breaking medical words into prefixes, roots and suffixes, with quizzes."
+  },
+  {
+    "title": "Word Parts and What They Mean",
+    "url": "https://medlineplus.gov/appendixa.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus list of word parts grouped by body parts, positions and procedures."
+  },
+  {
+    "title": "Understanding Medical Words: Abbreviations",
+    "url": "https://medlineplus.gov/medwords/abbreviations1.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus tutorial on common medical abbreviations."
+  }
+]

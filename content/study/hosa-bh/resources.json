@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Mental Health Topics",
+    "url": "https://www.nimh.nih.gov/health/topics",
+    "publisher": "National Institute of Mental Health",
+    "kind": "reference",
+    "note": "NIMH pages on anxiety, depression, bipolar disorder, ADHD and other conditions and their treatment."
+  },
+  {
+    "title": "Psychology 2e",
+    "url": "https://openstax.org/details/books/psychology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free psychology text; the psychological disorders and therapy chapters fit this test."
+  },
+  {
+    "title": "Psychiatric-Mental Health Nursing",
+    "url": "https://openstax.org/details/books/psychiatric-mental-health",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing text on mental health assessment, psychotropic drugs and therapeutic communication."
+  }
+]

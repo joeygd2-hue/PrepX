@@ -1,0 +1,23 @@
+[
+  {
+    "title": "About FBLA",
+    "url": "https://www.fbla.org/about/",
+    "publisher": "FBLA",
+    "kind": "official",
+    "note": "FBLA's mission, history, founder and divisions, the core facts on this test."
+  },
+  {
+    "title": "FBLA High School Division Bylaws",
+    "url": "https://www.fbla.org/media/2024/10/FBLA-High-School-Division-Bylaws-June-2023.pdf",
+    "publisher": "FBLA",
+    "kind": "official",
+    "note": "The high school division bylaws: membership, officers, meetings and how the division is governed."
+  },
+  {
+    "title": "Robert's Rules of Order: Frequently Asked Questions",
+    "url": "https://robertsrules.com/frequently-asked-questions/",
+    "publisher": "Robert's Rules Association",
+    "kind": "reference",
+    "note": "Answers to common parliamentary questions; FBLA bylaws name Robert's Rules as their authority."
+  }
+]

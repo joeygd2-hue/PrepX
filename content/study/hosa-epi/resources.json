@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Epidemiology in Public Health Practice",
+    "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/index.html",
+    "publisher": "CDC",
+    "kind": "course",
+    "note": "CDC's free six-lesson course on rates, risk, surveillance and outbreak investigation."
+  },
+  {
+    "title": "Healthy People 2030: Browse Objectives by Topic",
+    "url": "https://odphp.health.gov/healthypeople/objectives-and-data/browse-objectives",
+    "publisher": "U.S. HHS (ODPHP)",
+    "kind": "reference",
+    "note": "National health objectives and data by topic; useful for the Public Health presentation."
+  },
+  {
+    "title": "Introductory Statistics 2e",
+    "url": "https://openstax.org/details/books/introductory-statistics-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free statistics text for the measures and charts epidemiology questions use."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "College Physics 2e",
+    "url": "https://openstax.org/details/books/college-physics-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free algebra-based college physics text: mechanics, energy, waves, electricity and optics."
+  },
+  {
+    "title": "Science courses",
+    "url": "https://www.khanacademy.org/science",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Video lessons and practice for high school and AP physics."
+  },
+  {
+    "title": "Beginner's Guide to Aeronautics",
+    "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/",
+    "publisher": "NASA Glenn Research Center",
+    "kind": "reference",
+    "note": "NASA explanations of forces, fluids and Newton's laws, with interactive simulations."
+  }
+]

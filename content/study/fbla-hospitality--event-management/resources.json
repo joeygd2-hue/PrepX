@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Tourism and Hospitality in BC, 2nd Edition",
+    "url": "https://opentextbc.ca/introtourism2e/",
+    "publisher": "BCcampus Open Education",
+    "kind": "textbook",
+    "note": "Open textbook on lodging, food service, attractions and events; use it for industry terms and operations."
+  },
+  {
+    "title": "Project Management, 2nd Edition",
+    "url": "https://opentextbc.ca/projectmanagement/",
+    "publisher": "BCcampus Open Education",
+    "kind": "textbook",
+    "note": "Project management basics for scheduling, budgeting and risk in the Event Planning presentation."
+  },
+  {
+    "title": "FDA Food Code",
+    "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "publisher": "U.S. FDA",
+    "kind": "reference",
+    "note": "The model food code behind safe catering and service rules at hotels and events."
+  }
+]

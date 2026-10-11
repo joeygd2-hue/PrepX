@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Prealgebra 2e",
+    "url": "https://openstax.org/details/books/prealgebra-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free review of fractions, decimals, ratios, proportions and percents for medical math."
+  },
+  {
+    "title": "Pharmacology for Nurses",
+    "url": "https://openstax.org/details/books/pharmacology",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Use its general pharmacology unit for the dosing context behind medication math."
+  },
+  {
+    "title": "Understanding Medical Words: Abbreviations",
+    "url": "https://medlineplus.gov/medwords/abbreviations1.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus tutorial on abbreviations used in prescriptions and orders."
+  }
+]

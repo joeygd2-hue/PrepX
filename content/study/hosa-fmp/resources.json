@@ -1,0 +1,23 @@
+[
+  {
+    "title": "familydoctor.org",
+    "url": "https://familydoctor.org/",
+    "publisher": "American Academy of Family Physicians",
+    "kind": "reference",
+    "note": "AAFP patient education on common conditions, prevention and vaccines seen in family medicine."
+  },
+  {
+    "title": "Anatomy and Physiology 2e",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free anatomy and physiology text for the body systems behind diagnosis."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH consumer library for quick reviews of diseases, tests and medications."
+  }
+]

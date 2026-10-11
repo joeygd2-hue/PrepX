@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Summary of the HIPAA Privacy Rule",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html",
+    "publisher": "U.S. HHS",
+    "kind": "reference",
+    "note": "HHS summary of HIPAA privacy rules, a frequent medical law topic."
+  },
+  {
+    "title": "Fundamentals of Nursing",
+    "url": "https://openstax.org/books/fundamentals-nursing/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing text; the legal and ethical chapters cover consent, scope of practice and documentation."
+  },
+  {
+    "title": "Patient Safety 101",
+    "url": "https://psnet.ahrq.gov/primer/patient-safety-101",
+    "publisher": "AHRQ PSNet",
+    "kind": "reference",
+    "note": "AHRQ primer on patient safety, errors and disclosure."
+  }
+]

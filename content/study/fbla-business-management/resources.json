@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook organized around planning, organizing, leading and controlling, the core of this test."
+  },
+  {
+    "title": "Organizational Behavior",
+    "url": "https://openstax.org/books/organizational-behavior/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Motivation, teams, conflict and leadership chapters help with the human side of management and the role play."
+  },
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Broad review of business ownership, operations and the business environment that management items assume."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Pharmacology for Nurses",
+    "url": "https://openstax.org/details/books/pharmacology",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free pharmacology text on drug classes, mechanisms, side effects and nursing considerations."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH library with drug information pages on uses, dosing and precautions."
+  },
+  {
+    "title": "Understanding Medical Words: Abbreviations",
+    "url": "https://medlineplus.gov/medwords/abbreviations1.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus tutorial on abbreviations used in prescriptions and orders."
+  }
+]

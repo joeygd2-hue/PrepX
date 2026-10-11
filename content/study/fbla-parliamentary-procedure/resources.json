@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Robert's Rules of Order: Frequently Asked Questions",
+    "url": "https://robertsrules.com/frequently-asked-questions/",
+    "publisher": "Robert's Rules Association",
+    "kind": "reference",
+    "note": "Answers from the official Robert's Rules site on motions, quorum, voting and the chair's duties."
+  },
+  {
+    "title": "Robert's Rules of Order: Official Interpretations",
+    "url": "https://robertsrules.com/official-interpretations/",
+    "publisher": "Robert's Rules Association",
+    "kind": "reference",
+    "note": "Official interpretations by the authors; use them to settle edge cases before the role play."
+  },
+  {
+    "title": "FBLA High School Division Bylaws",
+    "url": "https://www.fbla.org/media/2024/10/FBLA-High-School-Division-Bylaws-June-2023.pdf",
+    "publisher": "FBLA",
+    "kind": "official",
+    "note": "Practice applying Robert's Rules to FBLA's own bylaws on officers, meetings and amendments."
+  }
+]

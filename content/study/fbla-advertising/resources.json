@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook; the promotion and integrated marketing communications chapters cover most advertising terms."
+  },
+  {
+    "title": "Advertising and Marketing Basics",
+    "url": "https://www.ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics",
+    "publisher": "Federal Trade Commission",
+    "kind": "reference",
+    "note": "FTC basics on deceptive ads, claim substantiation and endorsements, a common source of advertising law items."
+  },
+  {
+    "title": "Advertising FAQs: A Guide for Small Business",
+    "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+    "publisher": "Federal Trade Commission",
+    "kind": "reference",
+    "note": "Plain-language FTC answers on what small businesses may claim in ads, including pricing and testimonials."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "HOSA Handbook",
+    "url": "https://hosa.org/hosa-handbook/",
+    "publisher": "HOSA-Future Health Professionals",
+    "kind": "official",
+    "note": "HOSA's handbook on the organization, its history and chapter operations, often asked in the Bowl."
+  },
+  {
+    "title": "HOSA Mission, Purpose, Goals, Creed and Core Values",
+    "url": "https://hosa.org/mission-purpose-goals-creed-core-values/",
+    "publisher": "HOSA-Future Health Professionals",
+    "kind": "official",
+    "note": "HOSA's mission, purpose, goals, creed and core values in one place."
+  },
+  {
+    "title": "Anatomy and Physiology 2e",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free anatomy and physiology text for the health science questions in the Bowl."
+  }
+]

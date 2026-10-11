@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Preparing for College Success: Test Taking",
+    "url": "https://openstax.org/books/preparing-for-college-success/pages/5-4-test-taking",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook section on test-day routines, reading directions, test anxiety and learning from graded tests."
+  },
+  {
+    "title": "College Success: Test Taking",
+    "url": "https://openstax.org/books/college-success/pages/6-3-test-taking",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Covers timed practice, answering confident questions first and reviewing answers at the end."
+  },
+  {
+    "title": "College Success: Studying",
+    "url": "https://openstax.org/books/college-success/pages/6-2-studying",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Textbook section on study strategies to use in the weeks before a test."
+  }
+]

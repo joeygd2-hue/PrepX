@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Personal Finance",
+    "url": "https://www.khanacademy.org/college-careers-more/personal-finance",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Free lessons and practice on budgeting, banking, credit, debt, insurance, investing and taxes."
+  },
+  {
+    "title": "Your Money, Your Goals Toolkit",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+    "publisher": "Consumer Financial Protection Bureau",
+    "kind": "tool",
+    "note": "CFPB worksheets for budgets, spending plans, credit reports and debt; practice the tools the PFL role-play expects."
+  },
+  {
+    "title": "Money Smart for Young Adults",
+    "url": "https://www.fdic.gov/consumer-resource-center/money-smart-young-adults",
+    "publisher": "FDIC",
+    "kind": "course",
+    "note": "Free FDIC curriculum for ages 16 to 24 on banking, credit, identity protection and living on your own."
+  }
+]

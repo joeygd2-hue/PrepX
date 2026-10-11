@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook covering the marketing concept, the 4 Ps, segmentation and consumer behavior."
+  },
+  {
+    "title": "Advertising and Marketing Basics",
+    "url": "https://www.ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics",
+    "publisher": "Federal Trade Commission",
+    "kind": "reference",
+    "note": "FTC rules for truthful advertising and endorsements, a common marketing ethics topic."
+  },
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "The marketing chapters give a shorter overview of target markets and the marketing mix."
+  }
+]

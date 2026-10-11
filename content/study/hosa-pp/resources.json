@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Robert's Rules of Order: Frequently Asked Questions",
+    "url": "https://robertsrules.com/frequently-asked-questions/",
+    "publisher": "Robert's Rules Association",
+    "kind": "reference",
+    "note": "Answers from the official Robert's Rules site on motions, quorum, voting and the chair."
+  },
+  {
+    "title": "Robert's Rules of Order: Official Interpretations",
+    "url": "https://robertsrules.com/official-interpretations/",
+    "publisher": "Robert's Rules Association",
+    "kind": "reference",
+    "note": "The authors' official interpretations of tricky parliamentary situations."
+  },
+  {
+    "title": "HOSA Handbook",
+    "url": "https://hosa.org/hosa-handbook/",
+    "publisher": "HOSA-Future Health Professionals",
+    "kind": "official",
+    "note": "HOSA's handbook covers chapter meetings and officer roles where procedure applies."
+  }
+]
