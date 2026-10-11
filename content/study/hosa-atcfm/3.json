@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Ethics, law and the future of family medicine",
+    "objective": "Evaluate ethical and legal scenarios in family practice, apply privacy and consent rules, and analyze trends shaping the specialty's workforce.",
+    "body": "Advanced questions about family medicine careers test judgment: what a professional should do when values, law and patient needs collide.\n\nFour core **principles of medical ethics** guide decisions:\n\n- **Autonomy**: respecting a competent patient's right to make informed choices, even ones the physician disagrees with.\n- **Beneficence**: acting in the patient's best interest.\n- **Nonmaleficence**: avoiding harm.\n- **Justice**: distributing care and resources fairly.\n\n**Informed consent** puts autonomy into practice. Before a procedure, the patient must understand the nature of the procedure, its risks, benefits and reasonable alternatives, and agree voluntarily. Minors generally need a parent or guardian's consent, though state laws allow minors to consent to certain services, such as some reproductive and mental health care.\n\n**HIPAA** (the Health Insurance Portability and Accountability Act) protects **protected health information (PHI)**. Staff may share PHI for treatment, payment and health care operations, but not with a patient's employer, friends or curious coworkers without authorization. Accessing a chart out of curiosity is a violation even if nothing is shared. Legal risk also includes **negligence** and **malpractice**: failing to meet the accepted standard of care in a way that causes harm. Clear documentation in the EHR is a key protection. Professionals must also follow **mandatory reporting** laws for suspected child abuse and certain communicable diseases.\n\nThe specialty itself is changing. Key trends include:\n\n1. **Workforce shortages**, especially in rural and underserved areas, which drive interest in programs like the National Health Service Corps loan repayment.\n2. **Telehealth**, which expanded sharply and now supports follow-up and behavioral health visits.\n3. **Value-based care**, which pays practices for quality outcomes rather than volume of visits, rewarding prevention and coordination.\n4. **Direct primary care**, a model in which patients pay a monthly membership fee to the practice instead of billing insurance for each visit.\n5. **Team-based care** and the growing roles of NPs and PAs.\n\nFamily physicians also address **social determinants of health**, such as housing, food access and transportation, because these drive outcomes as much as clinical care does.\n\nThe most common mistake students make is believing HIPAA forbids all sharing of health information. HIPAA permits sharing for treatment, payment and operations; it forbids unauthorized and unnecessary disclosure.",
+    "examples": [
+      "A competent adult declines a recommended colonoscopy after hearing the risks and benefits; the physician documents the discussion and respects the decision, honoring autonomy.",
+      "A family physician sends a patient's records to a consulting orthopedist without written authorization, which HIPAA allows because it is for treatment."
+    ],
+    "questions": [
+      {
+        "stem": "A receptionist looks up a neighbor's lab results out of curiosity but tells no one. Is this a HIPAA problem?",
+        "choices": [
+          "No, because nothing was disclosed",
+          "Yes, accessing PHI without a work need is a violation",
+          "No, receptionists may view any chart",
+          "Only if the neighbor files a complaint"
+        ],
+        "answer": 1,
+        "explanation": "Unauthorized access itself violates HIPAA. The distractor fails because privacy rules cover access, not just disclosure."
+      },
+      {
+        "stem": "A competent patient refuses insulin after a full explanation of risks. Which principle most supports honoring the refusal?",
+        "choices": [
+          "Beneficence",
+          "Justice",
+          "Nonmaleficence",
+          "Autonomy"
+        ],
+        "answer": 3,
+        "explanation": "Autonomy protects a competent patient's informed choices. Beneficence might push toward treatment, but it does not override a valid refusal."
+      },
+      {
+        "stem": "Which element is required for valid informed consent?",
+        "choices": [
+          "The patient understands risks, benefits and alternatives and agrees voluntarily",
+          "The physician signs the form alone",
+          "A family member approves for any adult patient",
+          "The procedure is free of all risk"
+        ],
+        "answer": 0,
+        "explanation": "Consent requires understanding and voluntary agreement. A family member's approval is not needed for a competent adult."
+      },
+      {
+        "stem": "A family physician notices unexplained bruises in patterns suggesting abuse on a 4-year-old. What is the required action?",
+        "choices": [
+          "Wait to see if bruises recur",
+          "Ask the parent for permission to report",
+          "Report as required by mandatory reporting laws",
+          "Document only, since HIPAA blocks reporting"
+        ],
+        "answer": 2,
+        "explanation": "Clinicians are mandated reporters of suspected child abuse. HIPAA explicitly permits reporting required by law."
+      },
+      {
+        "stem": "A clinic receives bonuses for improving blood pressure control rates across its patients. This reflects which payment trend?",
+        "choices": [
+          "Fee-for-service",
+          "Value-based care",
+          "Direct primary care",
+          "Capitated malpractice"
+        ],
+        "answer": 1,
+        "explanation": "Value-based care rewards outcomes. Fee-for-service pays per visit regardless of results."
+      },
+      {
+        "stem": "Patients pay a practice a flat monthly fee for unlimited office visits instead of billing insurance per visit. This model is:",
+        "choices": [
+          "Direct primary care",
+          "Telehealth",
+          "Medical home",
+          "Managed care referral"
+        ],
+        "answer": 0,
+        "explanation": "That describes direct primary care. A medical home is a coordination model, not a payment arrangement."
+      },
+      {
+        "stem": "A physician forgets to follow up on an abnormal test, and the patient's cancer is diagnosed late, causing harm. This most likely represents:",
+        "choices": [
+          "A HIPAA breach",
+          "Justice",
+          "Malpractice from failing to meet the standard of care",
+          "Mandatory reporting"
+        ],
+        "answer": 2,
+        "explanation": "Failing the standard of care and causing harm is malpractice. No privacy breach occurred, so HIPAA is the wrong frame."
+      },
+      {
+        "stem": "A family physician connects a patient with a food pantry because poor nutrition is worsening his diabetes. This addresses:",
+        "choices": [
+          "Tertiary prevention only",
+          "Social determinants of health",
+          "Informed consent",
+          "Beneficence violations"
+        ],
+        "answer": 1,
+        "explanation": "Food access is a social determinant of health. It is not a consent issue and supports rather than violates beneficence."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Autonomy",
+        "definition": "Ethical principle of respecting a competent patient's right to make informed decisions."
+      },
+      {
+        "term": "Informed consent",
+        "definition": "Voluntary agreement after understanding a procedure's nature, risks, benefits and alternatives."
+      },
+      {
+        "term": "Protected health information (PHI)",
+        "definition": "Individually identifiable health data protected under HIPAA."
+      },
+      {
+        "term": "Malpractice",
+        "definition": "Professional negligence: failing the standard of care in a way that causes harm."
+      },
+      {
+        "term": "Value-based care",
+        "definition": "Payment model rewarding quality outcomes rather than number of services."
+      }
+    ]
+  }
+]

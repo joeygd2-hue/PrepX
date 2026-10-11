@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Environmental hazards, exposure routes, and dose-response basics",
+    "objective": "Classify environmental hazards, trace how exposures reach the body, and apply dose-response principles to judge health risk.",
+    "body": "**Environmental health** is the branch of public health that studies how conditions in the air, water, soil, food and built surroundings affect human health, and how to prevent harm from them. Nearly every test question in this area starts with the same chain: a hazard exists, a person is exposed to it, a dose reaches the body, and an effect may follow. Breaking a scenario into those links is the core skill.\n\n**Types of hazards.** A **hazard** is anything with the potential to cause harm. Environmental health professionals usually sort hazards into groups:\n- **Biological** hazards are living organisms or their products, such as bacteria, viruses, parasites and mold.\n- **Chemical** hazards include lead, pesticides, carbon monoxide, solvents and air pollutants.\n- **Physical** hazards are forms of energy or conditions, such as noise, heat, ionizing radiation and ultraviolet light.\n- Some lists also include **ergonomic** and **psychosocial** hazards, mostly in workplace settings.\n\n**Exposure and routes of entry.** **Exposure** is contact between a person and a hazard. Without exposure there is no risk, no matter how dangerous the substance is. Agents enter the body by four main **routes of exposure**:\n1. **Inhalation**, breathing gases, vapors or particles into the lungs.\n2. **Ingestion**, swallowing contaminated food, water, soil or dust.\n3. **Dermal absorption**, passing through skin or eyes.\n4. **Injection**, entry through a puncture, such as a needlestick or insect bite.\n\nYoung children are especially vulnerable to ingestion because of hand-to-mouth behavior, which is why lead dust in older homes is a major concern.\n\n**Dose and response.** The **dose** is the amount of an agent that actually enters or acts on the body, often adjusted for body weight and time. The founding idea of toxicology is that \"the dose makes the poison\": almost any substance can be harmful at a high enough dose. A **dose-response relationship** describes how the size or frequency of an effect changes as the dose increases. Many effects have a **threshold**, a dose below which no harmful effect is observed. Exposure can be **acute** (short-term, often high level) or **chronic** (repeated or long-term, often low level), and the two can produce very different illnesses.\n\n**Who regulates what.** In the United States, the **Environmental Protection Agency (EPA)** sets standards for outdoor air, drinking water and many chemicals; **OSHA** protects workers on the job; the **CDC** tracks disease and environmental exposures; and state and local health departments inspect restaurants, pools and septic systems.\n\nThe most common mistake students make is confusing a hazard with a risk. A highly toxic chemical sealed in a locked drum is a hazard but poses little risk until a pathway creates exposure; always ask how the agent would actually reach a person.",
+    "examples": [
+      "Lead-based paint flaking in a 1950s house is a chemical hazard; a toddler swallowing the paint dust is ingestion exposure.",
+      "A factory worker who runs a loud press all shift without hearing protection faces a chronic physical hazard that can cause permanent hearing loss.",
+      "A single high exposure to carbon monoxide from a running car in a closed garage is an acute exposure that can be fatal within hours."
+    ],
+    "questions": [
+      {
+        "stem": "A campground's well tests positive for E. coli bacteria. How is this hazard best classified?",
+        "choices": [
+          "Physical",
+          "Chemical",
+          "Biological",
+          "Ergonomic"
+        ],
+        "answer": 2,
+        "explanation": "E. coli is a living organism, so it is a biological hazard. It is not chemical, even though it is found in water, because the harm comes from the microbe itself."
+      },
+      {
+        "stem": "A painter sands old walls without a mask and fine lead dust floats in the air. What is the primary route of exposure for the painter during sanding?",
+        "choices": [
+          "Inhalation",
+          "Injection",
+          "Dermal absorption",
+          "Ingestion"
+        ],
+        "answer": 0,
+        "explanation": "Airborne dust is breathed in, so inhalation is primary. Ingestion can also occur if dust gets on hands and food, but during sanding the main route is the lungs."
+      },
+      {
+        "stem": "Which statement best expresses the principle that \"the dose makes the poison\"?",
+        "choices": [
+          "Only synthetic chemicals can be toxic",
+          "Whether a substance causes harm depends on how much reaches the body",
+          "Natural substances are always safe at any amount",
+          "Any exposure to a chemical causes disease"
+        ],
+        "answer": 1,
+        "explanation": "Toxicity depends on dose; even water or table salt can be harmful in extreme amounts. Saying any exposure causes disease ignores thresholds and the dose-response relationship."
+      },
+      {
+        "stem": "A toxic pesticide is stored in a sealed, locked container in a shed no one enters. Which description is most accurate?",
+        "choices": [
+          "High hazard and high risk",
+          "No hazard and no risk",
+          "Low hazard but high risk",
+          "A hazard is present, but risk is low because there is no exposure pathway"
+        ],
+        "answer": 3,
+        "explanation": "Risk requires exposure. The chemical is still hazardous, so saying there is no hazard is wrong; but with no pathway to people, risk is low."
+      },
+      {
+        "stem": "A farmworker gets a skin rash and headache after handling wet crops recently sprayed with pesticide, without gloves. Which route most likely explains the exposure?",
+        "choices": [
+          "Injection",
+          "Dermal absorption",
+          "Inhalation only",
+          "Ingestion only"
+        ],
+        "answer": 1,
+        "explanation": "Direct skin contact with residue points to dermal absorption. Inhalation could contribute during spraying, but handling wet plants with bare hands makes skin the key route."
+      },
+      {
+        "stem": "A study finds no observed health effects in lab animals below a certain daily dose of a chemical, but effects appear above it. That dose level illustrates which concept?",
+        "choices": [
+          "Threshold",
+          "Acute exposure",
+          "Exposure pathway",
+          "Biological hazard"
+        ],
+        "answer": 0,
+        "explanation": "A threshold is the dose below which no harmful effect is seen. Acute exposure describes duration, not the point where effects begin."
+      },
+      {
+        "stem": "A town wants help because its drinking water system has unusually high nitrate levels. Which federal agency sets national drinking water standards?",
+        "choices": [
+          "OSHA",
+          "FDA",
+          "EPA",
+          "CDC"
+        ],
+        "answer": 2,
+        "explanation": "The EPA sets public drinking water standards under the Safe Drinking Water Act. The CDC investigates disease and exposure, but it does not set those regulatory limits."
+      },
+      {
+        "stem": "Which situation describes a chronic exposure?",
+        "choices": [
+          "A child accidentally swallowing a cleaning product once",
+          "A worker breathing low levels of silica dust every workday for 15 years",
+          "A hiker stung by a bee",
+          "A family exposed to smoke during one house fire"
+        ],
+        "answer": 1,
+        "explanation": "Chronic exposure is repeated or long-term, like years of daily silica dust. A single swallowing incident is an acute exposure, even if serious."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Hazard",
+        "definition": "Anything with the potential to cause harm, such as a microbe, chemical or form of energy."
+      },
+      {
+        "term": "Exposure",
+        "definition": "Contact between a person and a hazard; without it there is no risk."
+      },
+      {
+        "term": "Routes of exposure",
+        "definition": "The ways an agent enters the body: inhalation, ingestion, dermal absorption and injection."
+      },
+      {
+        "term": "Dose-response relationship",
+        "definition": "How the size or frequency of a health effect changes as the dose of an agent increases."
+      },
+      {
+        "term": "Threshold",
+        "definition": "The dose below which no harmful effect is observed."
+      }
+    ]
+  }
+]

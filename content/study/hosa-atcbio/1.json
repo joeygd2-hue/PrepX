@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Cells, organelles, and how materials cross membranes",
+    "objective": "Identify major organelles and their functions, compare prokaryotic and eukaryotic cells, and predict how molecules move across the plasma membrane.",
+    "body": "Almost every biology question eventually traces back to the cell, the smallest unit that carries out all the processes of life. If you can name what each part does and explain how substances get in and out, later topics such as metabolism and genetics make far more sense.\n\n**Prokaryotes vs. eukaryotes.** **Prokaryotic cells**, such as bacteria and archaea, lack a nucleus and membrane-bound organelles; their DNA sits in a region called the nucleoid, and they have ribosomes, a plasma membrane and usually a cell wall. **Eukaryotic cells**, found in animals, plants, fungi and protists, keep their DNA inside a nucleus and divide labor among organelles.\n\n**Key organelles.**\n- **Nucleus**: stores DNA and is the site of transcription.\n- **Ribosomes**: build proteins; free ribosomes make proteins used in the cytoplasm, while those on the rough endoplasmic reticulum make proteins for membranes or export.\n- **Golgi apparatus**: modifies, sorts and packages proteins into vesicles.\n- **Mitochondria**: carry out most of cellular respiration and produce most of the cell's ATP.\n- **Lysosomes**: contain digestive enzymes that break down worn-out parts and engulfed material.\n- **Chloroplasts** (plants and algae): perform photosynthesis.\n\nPlant cells also have a cellulose cell wall and a large central vacuole that maintains turgor pressure.\n\n**The plasma membrane.** The membrane is a phospholipid bilayer with embedded proteins, described by the fluid mosaic model. It is **selectively permeable**: small nonpolar molecules such as oxygen and carbon dioxide slip through easily, while ions and large polar molecules need help.\n\n**Moving materials.** In **passive transport**, substances move down their concentration gradient without using cellular energy. Simple diffusion, **facilitated diffusion** through channel or carrier proteins, and **osmosis** (the diffusion of water across a membrane) are all passive. In **active transport**, the cell spends ATP to move substances against their gradient; the sodium-potassium pump is the classic example. Very large particles enter by endocytosis and leave by exocytosis.\n\n**Tonicity.** When a cell sits in a **hypertonic** solution (more solute outside), water leaves and the cell shrinks. In a **hypotonic** solution (less solute outside), water enters and an animal cell may burst, while a plant cell becomes firm against its wall. In an **isotonic** solution there is no net water movement.\n\nThe most common mistake is reversing tonicity: students think water moves toward the side with more water. Water actually moves toward the side with the higher solute concentration, so always compare solute levels first, then predict the direction of water flow.",
+    "examples": [
+      "A red blood cell placed in distilled water swells and may burst because the water is hypotonic to the cell's cytoplasm.",
+      "Pancreatic cells that secrete digestive enzymes have abundant rough ER and Golgi because they make and export large amounts of protein."
+    ],
+    "questions": [
+      {
+        "stem": "A lab partner places a red blood cell in a 10% salt solution, while the cell's cytoplasm is about 0.9% solute. What will most likely happen?",
+        "choices": [
+          "Water enters the cell and it bursts",
+          "Water leaves the cell and it shrinks",
+          "Salt leaves the cell and it swells",
+          "There is no net movement of water"
+        ],
+        "answer": 1,
+        "explanation": "The solution is hypertonic, so water moves out toward the higher solute concentration and the cell shrinks. Bursting happens in a hypotonic solution, the opposite situation."
+      },
+      {
+        "stem": "A cell biologist notices a cell type packed with mitochondria. Which function is this cell most likely specialized for?",
+        "choices": [
+          "Storing genetic information",
+          "High energy use, such as muscle contraction",
+          "Packaging proteins for export",
+          "Photosynthesis"
+        ],
+        "answer": 1,
+        "explanation": "Mitochondria produce most ATP, so cells with heavy energy demands like muscle cells have many. Packaging proteins is the Golgi's job, not the mitochondria's."
+      },
+      {
+        "stem": "A sample organism has ribosomes, a cell wall and DNA in a nucleoid, but no nucleus. It is best classified as:",
+        "choices": [
+          "A plant cell",
+          "A fungal cell",
+          "A prokaryotic cell",
+          "An animal cell"
+        ],
+        "answer": 2,
+        "explanation": "Lacking a nucleus and having a nucleoid defines a prokaryote. Plant cells also have walls but keep DNA in a nucleus."
+      },
+      {
+        "stem": "Glucose moves into a cell through a carrier protein, from high to low concentration, without ATP. This is:",
+        "choices": [
+          "Active transport",
+          "Facilitated diffusion",
+          "Exocytosis",
+          "Osmosis"
+        ],
+        "answer": 1,
+        "explanation": "Movement down the gradient through a protein with no ATP is facilitated diffusion. Active transport would require energy and move against the gradient."
+      },
+      {
+        "stem": "A toxin blocks ATP production. Which process would stop first?",
+        "choices": [
+          "Diffusion of oxygen into the cell",
+          "Osmosis",
+          "The sodium-potassium pump",
+          "Diffusion of carbon dioxide out of the cell"
+        ],
+        "answer": 2,
+        "explanation": "The sodium-potassium pump is active transport and depends directly on ATP. Diffusion of gases is passive and does not need ATP."
+      },
+      {
+        "stem": "A wilted plant is watered with fresh water, and its leaves become firm again. Which structure is mainly responsible?",
+        "choices": [
+          "The central vacuole filling with water",
+          "Chloroplasts producing more glucose",
+          "Lysosomes digesting old cell parts",
+          "Ribosomes making new proteins"
+        ],
+        "answer": 0,
+        "explanation": "Water entering the central vacuole presses the cell against its wall, restoring turgor. Photosynthesis in chloroplasts does not directly make a wilted cell firm."
+      },
+      {
+        "stem": "A genetic disorder prevents lysosomes from making one digestive enzyme. What is the most likely result?",
+        "choices": [
+          "Undigested material accumulates inside cells",
+          "Cells cannot produce ATP",
+          "DNA cannot be copied",
+          "The plasma membrane becomes impermeable"
+        ],
+        "answer": 0,
+        "explanation": "Lysosomes break down materials, so a missing enzyme lets substances build up, as in lysosomal storage diseases. ATP production depends on mitochondria, not lysosomes."
+      },
+      {
+        "stem": "Which molecule crosses a phospholipid bilayer most easily by simple diffusion?",
+        "choices": [
+          "Sodium ion",
+          "Glucose",
+          "Oxygen",
+          "A large protein"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen is small and nonpolar, so it passes directly through the lipid bilayer. Sodium ions are charged and need channel proteins."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Selectively permeable",
+        "definition": "Describes a membrane that lets some substances cross easily while restricting others."
+      },
+      {
+        "term": "Osmosis",
+        "definition": "The passive diffusion of water across a selectively permeable membrane toward higher solute concentration."
+      },
+      {
+        "term": "Active transport",
+        "definition": "Movement of substances against their concentration gradient using cellular energy, usually ATP."
+      },
+      {
+        "term": "Hypertonic",
+        "definition": "A solution with a higher solute concentration than the cell, causing water to leave the cell."
+      },
+      {
+        "term": "Golgi apparatus",
+        "definition": "Organelle that modifies, sorts and packages proteins into vesicles."
+      }
+    ]
+  }
+]

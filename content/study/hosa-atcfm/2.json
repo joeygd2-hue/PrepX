@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Daily practice: prevention, chronic care and the team",
+    "objective": "Apply preventive screening principles, explain chronic disease management, and identify the roles of each member of the family medicine care team.",
+    "body": "A typical family medicine day mixes three kinds of visits: acute problems such as sore throats or sprains, follow-up for chronic diseases, and preventive care. Understanding how each works is central to the career.\n\n**Preventive care** is organized into levels. **Primary prevention** stops disease before it starts, through vaccines, counseling on tobacco avoidance and exercise. **Secondary prevention** detects disease early, before symptoms, through **screening** such as blood pressure checks, cervical cancer screening and colorectal cancer screening. **Tertiary prevention** limits complications in people who already have a disease, for example foot exams and eye exams for a patient with diabetes. Family physicians follow evidence-based recommendations, especially those of the **U.S. Preventive Services Task Force (USPSTF)**, and vaccine schedules from the CDC's advisory committee.\n\n**Chronic disease management** is a large share of the work. Conditions such as hypertension, type 2 diabetes, asthma, depression and high cholesterol need long-term monitoring, lifestyle counseling, medication review and coordination with specialists. Physicians track measurable goals, such as an **A1C** blood test for average glucose over about three months, and adjust plans at regular visits. Shared decision-making, in which the physician and patient choose goals together, improves follow-through.\n\nThe family physician leads a **care team**, and many careers live inside it:\n\n- **Physician assistants (PAs)** and **nurse practitioners (NPs)** examine, diagnose and prescribe within their state's scope of practice.\n- **Registered nurses** provide patient education, triage and care coordination.\n- **Medical assistants (MAs)** room patients, take vital signs, update histories and perform both clinical and administrative tasks.\n- **Behavioral health specialists**, pharmacists, dietitians and front-office staff round out the team.\n\nEvery visit is documented in the **electronic health record (EHR)**, which supports billing, communication and quality reporting. Documentation often follows the **SOAP note** format: Subjective (what the patient reports), Objective (exam findings and vital signs), Assessment (diagnosis) and Plan (treatment and follow-up).\n\nCommunication is as important as clinical knowledge. Family physicians use open-ended questions, confirm understanding with the **teach-back** method and respect cultural and family context.\n\nThe most common mistake students make is mixing up secondary and tertiary prevention. Screening a healthy person for a hidden disease is secondary; preventing complications in someone already diagnosed is tertiary.",
+    "examples": [
+      "A medical assistant measures a patient's blood pressure and weight and records them in the EHR before the physician enters the room.",
+      "A family physician asks a newly diagnosed patient with asthma to explain, in her own words, how to use her inhaler, confirming understanding through teach-back."
+    ],
+    "questions": [
+      {
+        "stem": "A 13-year-old receives the HPV vaccine at a well visit. Which level of prevention is this?",
+        "choices": [
+          "Secondary",
+          "Tertiary",
+          "Primary",
+          "Quaternary"
+        ],
+        "answer": 2,
+        "explanation": "Vaccination prevents disease before it occurs, so it is primary. Secondary prevention would be screening for existing but silent disease."
+      },
+      {
+        "stem": "A patient with long-standing diabetes gets an annual dilated eye exam to catch retinal damage. Which prevention level applies?",
+        "choices": [
+          "Tertiary",
+          "Primary",
+          "Secondary",
+          "None, it is acute care"
+        ],
+        "answer": 0,
+        "explanation": "The disease already exists and the exam limits complications, which is tertiary. Students often pick secondary because it involves testing."
+      },
+      {
+        "stem": "A healthy 50-year-old with no symptoms is offered colorectal cancer screening. This is an example of:",
+        "choices": [
+          "Primary prevention",
+          "Secondary prevention",
+          "Tertiary prevention",
+          "Palliative care"
+        ],
+        "answer": 1,
+        "explanation": "Screening detects disease early in people without symptoms. It is not primary because it does not stop the disease from forming."
+      },
+      {
+        "stem": "In a SOAP note, where does a measured blood pressure of 148/92 belong?",
+        "choices": [
+          "Subjective",
+          "Assessment",
+          "Plan",
+          "Objective"
+        ],
+        "answer": 3,
+        "explanation": "Measured findings are objective data. The diagnosis of hypertension would go in Assessment."
+      },
+      {
+        "stem": "Which team member typically rooms patients, takes vital signs and updates histories?",
+        "choices": [
+          "Medical assistant",
+          "Pharmacist",
+          "Physician assistant",
+          "Dietitian"
+        ],
+        "answer": 0,
+        "explanation": "MAs handle rooming and vitals. PAs diagnose and treat, which is a different role."
+      },
+      {
+        "stem": "A physician wants to know a diabetic patient's average blood glucose over the past few months. Which test is most useful?",
+        "choices": [
+          "Single fasting glucose",
+          "A1C",
+          "Complete blood count",
+          "Urinalysis"
+        ],
+        "answer": 1,
+        "explanation": "A1C reflects average glucose over roughly three months. A single fasting glucose shows only one moment."
+      },
+      {
+        "stem": "After explaining a new medication schedule, a nurse asks the patient to describe the plan back. This technique is called:",
+        "choices": [
+          "Active listening",
+          "Triage",
+          "Teach-back",
+          "Motivational interviewing"
+        ],
+        "answer": 2,
+        "explanation": "Teach-back confirms understanding by having the patient restate it. Active listening is related but does not check comprehension."
+      },
+      {
+        "stem": "Which group issues widely used evidence-based screening recommendations that family physicians follow?",
+        "choices": [
+          "U.S. Preventive Services Task Force",
+          "American Board of Family Medicine",
+          "Food and Drug Administration",
+          "Joint Commission"
+        ],
+        "answer": 0,
+        "explanation": "The USPSTF reviews evidence and grades screening services. The FDA regulates drugs and devices, not screening schedules."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Primary prevention",
+        "definition": "Measures that prevent disease before it starts, such as vaccines and counseling."
+      },
+      {
+        "term": "Secondary prevention",
+        "definition": "Early detection of disease in people without symptoms through screening."
+      },
+      {
+        "term": "Tertiary prevention",
+        "definition": "Care that limits complications in people who already have a disease."
+      },
+      {
+        "term": "SOAP note",
+        "definition": "Documentation format: Subjective, Objective, Assessment, Plan."
+      },
+      {
+        "term": "Teach-back",
+        "definition": "Asking patients to restate instructions in their own words to confirm understanding."
+      }
+    ]
+  }
+]

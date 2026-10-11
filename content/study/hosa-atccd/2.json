@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Researching careers and building professional application materials",
+    "objective": "Use reliable sources to research a health career, then prepare a targeted résumé, cover letter, and portfolio that match a specific position.",
+    "body": "Choosing a health career should rest on evidence, not impressions from television. Once a student picks a direction, the next skill is presenting qualifications so an employer or program can see the fit quickly.\n\n**Researching a career.** Strong research answers the same core questions for every career: duties, work setting, education and credentials, salary, and job outlook. The best starting source is the **Occupational Outlook Handbook** from the U.S. Bureau of Labor Statistics, which reports median pay and projected employment growth. Professional associations describe credentials and accredited programs, and state licensing boards state legal requirements. Firsthand sources add realism.\n- **Job shadowing** means observing a professional during a workday.\n- An **informational interview** is a short conversation in which a student asks a professional about the career, not for a job.\n- Internships, clinical rotations, and volunteering provide hands-on experience.\n\n**Self-assessment** connects research to the student. Interest inventories, skills checklists, and honest reflection on values (helping people, schedule, stress tolerance, comfort with blood or technology) help narrow choices. A **career ladder** shows how a worker can advance, for example from certified nursing assistant to licensed practical nurse to registered nurse to nurse practitioner, adding education at each step.\n\n**The résumé.** A résumé is a one-page summary of qualifications for a specific opening. Effective health résumés include:\n1. Contact information with a professional email address.\n2. A brief objective or summary aimed at the position.\n3. Education, certifications (such as CPR or BLS), and relevant coursework.\n4. Experience, volunteer work, and leadership, described with action verbs and measurable results.\n5. Skills such as languages or software.\n\n**Tailoring** means adjusting the résumé for each position by matching its wording and priorities to the job posting. Many employers screen with applicant tracking systems that scan for relevant terms, so tailoring matters even before a person reads the document. References are usually provided on a separate page when requested, and only after asking each reference for permission.\n\n**The cover letter** introduces the applicant, names the specific position, explains one or two strengths with evidence, and requests an interview. A **portfolio** collects proof: certificates, evaluations, project samples, and letters of recommendation. It must never contain patient names or other protected health information from shadowing experiences, because privacy laws and ethics protect that information.\n\nThe most common mistake students make is sending one generic résumé to every opening. A résumé that lists duties instead of accomplishments and ignores the posting's requirements looks careless, even when the applicant is qualified.",
+    "examples": [
+      "Instead of writing \"Volunteered at hospital,\" a student writes \"Guided 40+ visitors weekly to departments at Riverside Hospital information desk,\" turning a duty into a measurable accomplishment.",
+      "Before applying to a pharmacy technician program, a student checks the state board of pharmacy website to learn registration requirements and the BLS handbook to compare projected job growth."
+    ],
+    "questions": [
+      {
+        "stem": "Lena wants national data on median pay and projected growth for respiratory therapists. Which source is best?",
+        "choices": [
+          "A hospital's social media page",
+          "The Occupational Outlook Handbook",
+          "A television medical drama",
+          "A classmate's opinion"
+        ],
+        "answer": 1,
+        "explanation": "The BLS Occupational Outlook Handbook reports pay and outlook data. A hospital social media page may be accurate about that hospital but is not national labor data."
+      },
+      {
+        "stem": "Andre spends 20 minutes asking a sonographer about her training and daily tasks, without asking for a job. What is this?",
+        "choices": [
+          "Job shadowing",
+          "An internship",
+          "An informational interview",
+          "A clinical rotation"
+        ],
+        "answer": 2,
+        "explanation": "A conversation to gather career information is an informational interview. Job shadowing is wrong because it involves observing a workday, not just talking."
+      },
+      {
+        "stem": "Which résumé line is strongest?",
+        "choices": [
+          "Responsible for helping patients",
+          "Worked at a nursing home",
+          "Assisted 12 residents daily with meals and mobility as a volunteer",
+          "Hard worker who likes people"
+        ],
+        "answer": 2,
+        "explanation": "It uses an action verb, specifics, and a measurable result. 'Responsible for helping patients' is the main distractor; it lists a vague duty with no evidence."
+      },
+      {
+        "stem": "Priya applies to a medical assistant job whose posting stresses scheduling software and bilingual skills. What should she do?",
+        "choices": [
+          "Send the same résumé she used for a retail job",
+          "Tailor her résumé to highlight her scheduling and Spanish skills",
+          "Leave out skills to keep it short",
+          "Attach every certificate she has ever earned"
+        ],
+        "answer": 1,
+        "explanation": "Tailoring matches the résumé to the posting. Attaching every certificate is tempting but adds clutter rather than addressing the stated requirements."
+      },
+      {
+        "stem": "A student wants to add a shadowing reflection to her portfolio. What must she remove?",
+        "choices": [
+          "The date of the experience",
+          "The name of the department",
+          "The patient's name and identifying details",
+          "Her own reflections"
+        ],
+        "answer": 2,
+        "explanation": "Patient identifiers are protected health information and must not appear. Removing the department name is unnecessary; it does not identify a patient."
+      },
+      {
+        "stem": "Which sequence is an example of a career ladder?",
+        "choices": [
+          "Phlebotomist, coder, chef",
+          "CNA, LPN, RN, nurse practitioner",
+          "RN, CNA, volunteer",
+          "Paramedic, retiree, student"
+        ],
+        "answer": 1,
+        "explanation": "Each step adds education and responsibility in nursing. RN to CNA reverses the direction of advancement."
+      },
+      {
+        "stem": "What should a cover letter do that a résumé usually does not?",
+        "choices": [
+          "List every job in date order",
+          "Name the specific position and explain fit in paragraph form",
+          "Include the applicant's Social Security number",
+          "Replace the need for an interview"
+        ],
+        "answer": 1,
+        "explanation": "A cover letter targets the position and explains fit in prose. Listing jobs in order is the résumé's role, not the letter's."
+      },
+      {
+        "stem": "Before listing Dr. Kim as a reference, a student should first:",
+        "choices": [
+          "Add her name without telling her",
+          "Ask her permission",
+          "Put her phone number in the résumé header",
+          "Ask her to write the résumé"
+        ],
+        "answer": 1,
+        "explanation": "References should agree in advance so they are prepared. Listing her without asking is the main distractor and can surprise the reference and hurt the applicant."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Occupational Outlook Handbook",
+        "definition": "Bureau of Labor Statistics resource reporting duties, education, median pay, and job outlook for occupations."
+      },
+      {
+        "term": "Informational interview",
+        "definition": "A short conversation with a professional to learn about a career, not to request a job."
+      },
+      {
+        "term": "Job shadowing",
+        "definition": "Observing a professional during a workday to see the career firsthand."
+      },
+      {
+        "term": "Tailoring",
+        "definition": "Adjusting a résumé or cover letter to match a specific job posting."
+      },
+      {
+        "term": "Career ladder",
+        "definition": "A sequence of positions allowing advancement with added education and responsibility."
+      }
+    ]
+  }
+]

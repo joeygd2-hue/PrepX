@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Cellular energy, DNA, and protein synthesis",
+    "objective": "Explain how cells capture and release energy, trace information flow from DNA to protein, and apply the genetic code to predict the effects of mutations.",
+    "body": "Once you know the parts of a cell, the next step is understanding what the cell does with energy and information. Two pathways, cellular respiration and protein synthesis, explain a large share of applied biology questions.\n\n**Photosynthesis and respiration.** **Photosynthesis** in chloroplasts uses light energy to convert carbon dioxide and water into glucose and oxygen. **Cellular respiration** reverses the overall equation, breaking glucose down with oxygen to release carbon dioxide, water and energy stored as **ATP**. Respiration has three stages:\n1. **Glycolysis** in the cytoplasm splits glucose into two pyruvate, netting 2 ATP; it does not require oxygen.\n2. The **Krebs (citric acid) cycle** in the mitochondrial matrix releases carbon dioxide and loads electron carriers (NADH and FADH2).\n3. The **electron transport chain** on the inner mitochondrial membrane uses those carriers to make most of the ATP, with oxygen as the final electron acceptor that forms water.\n\nWhen oxygen is scarce, cells rely on **fermentation**. Human muscle cells make lactate, and yeast make ethanol and carbon dioxide. Fermentation regenerates NAD+ so glycolysis can continue, but it yields far less ATP.\n\n**DNA structure.** DNA is a double helix of nucleotides, each with a deoxyribose sugar, a phosphate and a base. Bases pair by **complementary base pairing**: adenine with thymine and guanine with cytosine. Replication is semiconservative, so each new double helix keeps one original strand.\n\n**From gene to protein.** The central dogma describes information flowing from DNA to RNA to protein.\n- **Transcription** occurs in the nucleus: RNA polymerase builds messenger RNA (mRNA) complementary to the DNA template, using uracil in place of thymine.\n- **Translation** occurs at ribosomes: each three-base **codon** on mRNA is matched by a transfer RNA anticodon carrying a specific amino acid. AUG is the start codon, and three stop codons end the chain.\n\n**Mutations.** A **point mutation** changes a single base. It may be silent (same amino acid), missense (different amino acid, as in sickle cell disease) or nonsense (an early stop codon). Insertions or deletions that are not multiples of three cause **frameshift mutations**, which change every codon downstream and usually produce a nonfunctional protein.\n\nThe most common mistake is pairing bases from the wrong strand or forgetting uracil. When converting DNA to mRNA, write the complement of the template strand and replace every T with U; then read the mRNA in triplets starting at AUG.",
+    "examples": [
+      "A sprinter's thigh muscles burn during a 400-meter race partly because oxygen runs short and the cells switch to lactic acid fermentation to keep glycolysis going.",
+      "The DNA template sequence TAC GGA becomes the mRNA sequence AUG CCU, which codes for methionine followed by proline."
+    ],
+    "questions": [
+      {
+        "stem": "A DNA template strand reads 3'-TAC CGT-5'. What is the matching mRNA sequence?",
+        "choices": [
+          "5'-ATG GCA-3'",
+          "5'-AUG GCA-3'",
+          "5'-UAC CGU-3'",
+          "5'-AUC GCU-3'"
+        ],
+        "answer": 1,
+        "explanation": "mRNA is complementary to the template and uses U instead of T, giving AUG GCA. ATG GCA has the right pairing but wrongly keeps thymine."
+      },
+      {
+        "stem": "A cyanide-like poison blocks the electron transport chain. Which stage of ATP production is lost first and most severely?",
+        "choices": [
+          "Glycolysis",
+          "Most ATP made using oxygen as the final electron acceptor",
+          "Transcription",
+          "Photosynthesis"
+        ],
+        "answer": 1,
+        "explanation": "The electron transport chain produces most ATP, so blocking it causes a sharp energy drop. Glycolysis happens in the cytoplasm and can continue briefly."
+      },
+      {
+        "stem": "A single base change converts a codon for glutamic acid into a codon for valine. This mutation is:",
+        "choices": [
+          "Silent",
+          "Missense",
+          "Nonsense",
+          "Frameshift"
+        ],
+        "answer": 1,
+        "explanation": "Changing one amino acid to another is a missense mutation, the type behind sickle cell disease. A frameshift requires an insertion or deletion, not a substitution."
+      },
+      {
+        "stem": "A bread recipe rises because yeast produce gas in a sealed, low-oxygen dough. Which process is responsible?",
+        "choices": [
+          "Alcoholic fermentation",
+          "Lactic acid fermentation",
+          "Photosynthesis",
+          "The Krebs cycle alone"
+        ],
+        "answer": 0,
+        "explanation": "Yeast use alcoholic fermentation, which releases carbon dioxide that makes dough rise. Lactic acid fermentation produces no carbon dioxide."
+      },
+      {
+        "stem": "A DNA sample is 30% adenine. What percentage is guanine?",
+        "choices": [
+          "30%",
+          "40%",
+          "20%",
+          "70%"
+        ],
+        "answer": 2,
+        "explanation": "A pairs with T, so T is also 30%, leaving 40% for G and C combined, or 20% each. Choosing 30% wrongly assumes all bases are equal."
+      },
+      {
+        "stem": "A deletion of one nucleotide occurs near the start of a gene. What is the most likely effect?",
+        "choices": [
+          "Only one amino acid changes",
+          "The protein is unchanged",
+          "The reading frame shifts, altering downstream amino acids",
+          "An extra amino acid is added at the end"
+        ],
+        "answer": 2,
+        "explanation": "Deleting one base shifts every codon after it, typically ruining the protein. A single amino acid change describes a missense substitution."
+      },
+      {
+        "stem": "Where in a eukaryotic cell does transcription take place?",
+        "choices": [
+          "Ribosome",
+          "Nucleus",
+          "Golgi apparatus",
+          "Lysosome"
+        ],
+        "answer": 1,
+        "explanation": "Transcription copies DNA into mRNA inside the nucleus where DNA is stored. Ribosomes carry out translation, the next step."
+      },
+      {
+        "stem": "Which statement correctly compares photosynthesis and cellular respiration?",
+        "choices": [
+          "Both occur only in plant cells",
+          "Photosynthesis stores energy in glucose; respiration releases it as ATP",
+          "Respiration produces oxygen; photosynthesis consumes it",
+          "Both take place only in mitochondria"
+        ],
+        "answer": 1,
+        "explanation": "Photosynthesis builds glucose using light energy, and respiration breaks it down to make ATP. Respiration consumes oxygen rather than producing it."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Glycolysis",
+        "definition": "First stage of cellular respiration in the cytoplasm that splits glucose into two pyruvate, netting 2 ATP without oxygen."
+      },
+      {
+        "term": "Electron transport chain",
+        "definition": "Series of proteins on the inner mitochondrial membrane that makes most ATP, using oxygen as the final electron acceptor."
+      },
+      {
+        "term": "Codon",
+        "definition": "A three-base sequence on mRNA that specifies an amino acid or a stop signal."
+      },
+      {
+        "term": "Transcription",
+        "definition": "Synthesis of mRNA from a DNA template by RNA polymerase in the nucleus."
+      },
+      {
+        "term": "Frameshift mutation",
+        "definition": "An insertion or deletion not in multiples of three that shifts the reading frame of all downstream codons."
+      }
+    ]
+  }
+]
