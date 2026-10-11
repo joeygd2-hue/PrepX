@@ -43,8 +43,8 @@ Sizes:
 | Bank kind | Units | Questions per unit | Flashcards per unit |
 |---|---|---|---|
 | DECA exam banks | 5 | 10 | 6 |
-| Other exam and practice banks | 3 | 10 | 6 |
-| Skills banks | 3 | 5 | 6 |
+| Other exam and practice banks | 3 | 8 | 5 |
+| Skills banks | 3 | 4 | 5 |
 
 ## Writing the lesson
 

@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { env } from "@/lib/env";
-import { PublicPage, Prose } from "@/components/shell/public-page";
+import { PublicPage, PublicTitle, Prose } from "@/components/shell/public-page";
+import { Accent } from "@/components/ui/page";
 
 export const metadata: Metadata = { title: "Accessibility" };
 
 export default function Accessibility() {
   return (
     <PublicPage>
-      <h1 className="text-4xl font-bold tracking-tight">Accessibility</h1>
+      <PublicTitle title={<Accent>Accessibility</Accent>} lead="We want every student to be able to prepare with PrepX. We aim to meet WCAG 2.2 Level AA." />
       <Prose>
-        <p className="mt-6">We want every student to be able to prepare with PrepX. We aim to meet WCAG 2.2 Level AA.</p>
         <h2>What we do</h2>
         <ul>
           <li>Keyboard support throughout, including exam shortcuts (1–4 or A–D to answer, Enter for next).</li>
@@ -25,7 +25,9 @@ export default function Accessibility() {
           <li>We haven&apos;t completed an independent accessibility audit yet.</li>
         </ul>
         <h2>Need an accommodation or found a barrier?</h2>
-        <p>Email <a href={`mailto:${env.supportEmail}`}>{env.supportEmail}</a>. We&apos;ll respond within 5 business days.</p>
+        <p>
+          Email <a href={`mailto:${env.supportEmail}`}>{env.supportEmail}</a>. We&apos;ll respond within 5 business days.
+        </p>
       </Prose>
     </PublicPage>
   );

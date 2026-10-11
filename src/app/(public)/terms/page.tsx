@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
 import { env } from "@/lib/env";
-import { PublicPage, Prose } from "@/components/shell/public-page";
+import { LegalMeta, PublicPage, PublicTitle, Prose } from "@/components/shell/public-page";
+import { Accent } from "@/components/ui/page";
 
 export const metadata: Metadata = { title: "Terms of Service" };
 
 export default function Terms() {
   return (
     <PublicPage>
-      <h1 className="text-4xl font-bold tracking-tight">Terms of Service</h1>
-      <p className="mt-2 text-muted">Effective October 9, 2026 · Draft pending legal review</p>
+      <PublicTitle
+        eyebrow="Legal"
+        title={
+          <>
+            Terms of <Accent>Service</Accent>
+          </>
+        }
+      >
+        <LegalMeta effective="October 9, 2026" />
+      </PublicTitle>
       <Prose>
         <h2>Using PrepX</h2>
         <p>You must be 13 or older. If you&apos;re under 18, you confirm a parent or guardian has agreed to these terms, especially before making purchases.</p>
@@ -25,7 +34,9 @@ export default function Terms() {
         <h2>Changes and availability</h2>
         <p>We may update features and these terms; we&apos;ll notify you of material changes. The service is provided as is, without warranties, to the extent permitted by law.</p>
         <h2>Contact</h2>
-        <p><a href={`mailto:${env.supportEmail}`}>{env.supportEmail}</a></p>
+        <p>
+          <a href={`mailto:${env.supportEmail}`}>{env.supportEmail}</a>
+        </p>
       </Prose>
     </PublicPage>
   );

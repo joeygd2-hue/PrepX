@@ -29,7 +29,7 @@ export default async function SignInPage({ searchParams }: { searchParams: Promi
   const { error, ref } = await searchParams;
   return (
     <div className="relative flex min-h-dvh flex-col overflow-x-clip">
-      <span aria-hidden className="dot-grid pointer-events-none absolute inset-x-0 top-0 h-[520px] text-fg opacity-[0.07] [mask-image:radial-gradient(70%_80%_at_50%_0%,#000_20%,transparent_75%)]" />
+      <span aria-hidden className="dot-grid pointer-events-none absolute inset-x-0 top-0 h-[520px] text-fg opacity-[0.07] [mask-image:radial-gradient(70%_80%_at_50%_0%,#000_20%,transparent_75%)]!" />
       {ref ? <RefCapture code={ref} /> : null}
       <PublicHeader />
       <main id="main" className="relative mx-auto grid w-full max-w-6xl flex-1 content-center gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:gap-x-16 lg:gap-y-0 lg:py-20">
