@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Sound-alike terms, eponyms and tricky clinical vocabulary",
+    "objective": "Distinguish homophones and near-homophones by meaning, spell eponyms and drug-like terms accurately, and select the correct term from clinical context.",
+    "body": "At the advanced level, many medical spelling questions test whether you can choose between two correctly spelled words that sound almost alike. Because the wrong word can change a diagnosis or a body part, you must connect spelling to meaning and use the context of the sentence.\n\n**Homophones and near-homophones.** Learn these as contrasting pairs:\n- **ileum** (part of the small intestine) versus **ilium** (part of the hip bone). Memory aid: il*e*um and *e*ating.\n- **mucus** (the noun, the substance) versus **mucous** (the adjective, as in mucous membrane).\n- **perineal** (the area between the genitals and anus) versus **peroneal** (relating to the fibula, the outer lower leg).\n- **dysphagia** (difficulty swallowing) versus **dysphasia** (difficulty speaking); remember *g* for *gulp*.\n- **prostate** (the gland) versus **prostrate** (lying face down).\n- **aural** (relating to the ear) versus **oral** (relating to the mouth).\n- **palpation** (examining by touch) versus **palpitation** (a sensation of a rapid or pounding heartbeat).\n- **callus** (thickened skin or bone repair tissue) versus **callous** (an adjective meaning hardened).\n\n**Using context.** Read the whole sentence before you decide. A note that says 'fracture of the ___ crest' needs *ilium*, because the iliac crest is on the hip bone. 'Resection of the terminal ___' needs *ileum*, because the terminal ileum is intestine. The same strategy works for every pair: identify the body system the sentence is about, then pick the word that belongs to it.\n\n**Eponyms.** An **eponym** is a term named after a person, and it must be spelled exactly as the name is. Modern style usually drops the possessive, so **Down syndrome**, **Alzheimer disease** and **Parkinson disease** are standard, although Alzheimer's and Parkinson's remain common in everyday use. Names to memorize carefully include **Guillain-Barré syndrome**, **Ménière disease**, **Achilles tendon**, **Hodgkin lymphoma** and **Raynaud phenomenon**. Capitalize the name but not the word *disease* or *syndrome*.\n\n**Tricky clinical vocabulary.** Some common terms are misspelled because of a single unstressed vowel. Memorize **sphygmomanometer** (sphygm/o, pulse), **ophthalmology** (ph-th: oph*th*almo), **asthma**, **auscultation**, **cirrhosis**, **anesthesia** and **defibrillator**. Breaking each into parts reveals the hidden letters: *ophthalm/o* means eye, so the *ph* and *th* must both appear.\n\nThe most common mistake at this level is writing a correctly spelled word that is the wrong word, such as *ilium* for the intestine or *mucous* as a noun. Always check that the meaning matches the context, not just that the letters look right.",
+    "examples": [
+      "'Biopsy of the terminal ileum' refers to the small intestine, while 'bone marrow aspirate from the posterior iliac crest' refers to the ilium.",
+      "A patient who coughs up thick mucus has irritated mucous membranes: noun first, adjective second.",
+      "A stroke patient who cannot find words has dysphasia; one who chokes on liquids has dysphagia."
+    ],
+    "questions": [
+      {
+        "stem": "A colonoscopy report reads 'the scope was advanced into the terminal ___.' Which word belongs in the blank?",
+        "choices": [
+          "ilium",
+          "ileum",
+          "illeum",
+          "ilieum"
+        ],
+        "answer": 1,
+        "explanation": "The terminal ileum is the last section of the small intestine, reached during colonoscopy. Ilium is a correctly spelled distractor but names the hip bone."
+      },
+      {
+        "stem": "A respiratory therapist notes that a patient produced thick, yellow ___. Which word is correct?",
+        "choices": [
+          "mucous",
+          "mucus",
+          "mucuss",
+          "mucos"
+        ],
+        "answer": 1,
+        "explanation": "The noun naming the substance is mucus. Mucous is the adjective, as in mucous membrane, so it does not fit as a noun."
+      },
+      {
+        "stem": "After a stroke, a patient coughs and chokes when drinking water. Which term should be charted?",
+        "choices": [
+          "dysphasia",
+          "dysphagia",
+          "disphagia",
+          "dysphagea"
+        ],
+        "answer": 1,
+        "explanation": "Dysphagia means difficulty swallowing, matching the choking. Dysphasia is the main distractor because it means difficulty speaking."
+      },
+      {
+        "stem": "An orthopedic note describes nerve compression on the outer side of the lower leg near the fibula. Which word fits?",
+        "choices": [
+          "perineal",
+          "peroneal",
+          "perrineal",
+          "paroneal"
+        ],
+        "answer": 1,
+        "explanation": "Peroneal relates to the fibula and the lateral lower leg. Perineal refers to the perineum in the pelvic region, a different body area."
+      },
+      {
+        "stem": "Which spelling of the instrument used to measure blood pressure is correct?",
+        "choices": [
+          "sphygmomanometer",
+          "sphygnomanometer",
+          "sphigmomanometer",
+          "sphygmomonometer"
+        ],
+        "answer": 0,
+        "explanation": "The root sphygm/o (pulse) joins man/o and -meter, giving sphygmomanometer. Sphigmomanometer replaces the y with an i, the most common slip."
+      },
+      {
+        "stem": "A patient tells a nurse she feels her heart racing and pounding. Which term describes this symptom?",
+        "choices": [
+          "palpation",
+          "palpitation",
+          "palpatation",
+          "palpitaion"
+        ],
+        "answer": 1,
+        "explanation": "Palpitation is the sensation of a rapid or pounding heartbeat. Palpation is the examination technique of feeling with the hands."
+      },
+      {
+        "stem": "Which is the correct spelling of the specialty that treats eye disorders?",
+        "choices": [
+          "opthalmology",
+          "ophthalmology",
+          "ophthamology",
+          "ophtalmology"
+        ],
+        "answer": 1,
+        "explanation": "The combining form ophthalm/o contains both ph and th, giving ophthalmology. Opthalmology omits the h after p, the most frequent error."
+      },
+      {
+        "stem": "A neurology note describes an acute immune-mediated paralysis that begins in the legs and ascends. Which eponym is spelled correctly?",
+        "choices": [
+          "Guillan-Barre syndrome",
+          "Guillain-Barré syndrome",
+          "Gillian-Barré syndrome",
+          "Guillain-Barré Syndrome"
+        ],
+        "answer": 1,
+        "explanation": "The correct form is Guillain-Barré syndrome, with syndrome in lowercase. Guillain-Barré Syndrome spells the names correctly but wrongly capitalizes syndrome."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Ileum",
+        "definition": "The final section of the small intestine; not to be confused with the ilium of the hip bone."
+      },
+      {
+        "term": "Mucous",
+        "definition": "Adjective describing tissue that secretes mucus, as in mucous membrane; mucus is the noun."
+      },
+      {
+        "term": "Dysphagia",
+        "definition": "Difficulty swallowing; contrast with dysphasia, difficulty speaking."
+      },
+      {
+        "term": "Eponym",
+        "definition": "A term named after a person, such as Down syndrome, spelled exactly as the name and usually without a possessive."
+      },
+      {
+        "term": "Peroneal",
+        "definition": "Relating to the fibula or outer lower leg; contrast with perineal, relating to the perineum."
+      }
+    ]
+  }
+]

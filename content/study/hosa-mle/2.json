@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Consent, confidentiality, HIPAA and required reporting",
+    "objective": "Apply informed consent rules, protect health information under HIPAA, and identify when the law requires reporting or disclosure.",
+    "body": "Applied questions often present a patient, a request and a choice. To answer them, know who may consent, what information is protected and when the law overrides privacy.\n\n**Consent.** Every competent adult has the right to accept or refuse care.\n- **Implied consent** is shown by actions, such as rolling up a sleeve for a blood pressure check. It also applies in emergencies when an unconscious patient cannot speak and a reasonable person would want treatment.\n- **Expressed consent** is stated in words or writing.\n- **Informed consent** requires the provider to explain the diagnosis, the proposed procedure, its risks and benefits, alternatives, and the risks of refusing, in language the patient understands. The provider performing the procedure is responsible for this discussion; other staff may witness the signature.\n\nMinors usually need a parent or guardian's consent, but exceptions exist. **Emancipated minors** (for example, married or legally independent) consent for themselves, and many states let minors consent to certain services such as sexual health or substance use care; rules vary by state. A patient may withdraw consent at any time, even after signing.\n\n**Confidentiality and HIPAA.** **Confidentiality** is the duty to keep patient information private. The federal **Health Insurance Portability and Accountability Act (HIPAA)** Privacy Rule protects **protected health information (PHI)**, any individually identifiable health data in any form. Key ideas:\n- Information may be shared without authorization for **treatment, payment and health care operations**.\n- Other uses, such as marketing or giving records to an employer, generally need the patient's written **authorization**.\n- The **minimum necessary** standard limits use and disclosure to what a task requires.\n- Patients have the right to access and get copies of their records and to request corrections.\n- The **Security Rule** requires safeguards for electronic PHI, and breaches must be reported.\n\n**Mandatory reporting.** Public safety sometimes outweighs privacy. Health workers must report suspected **child abuse or neglect** (reasonable suspicion is enough; proof is not required), and states also require reporting of elder abuse, certain communicable diseases, births and deaths, and some injuries such as gunshot wounds. Good-faith reporters are generally protected from liability.\n\n**Documentation.** The medical record is a legal document. Correct errors with a single line, the correction, the date and your initials; never erase, use correction fluid or delete entries. Chart only care you actually provided.\n\nThe most common mistake is treating signed paperwork as informed consent. A signature only documents the process; if the risks and alternatives were never explained, consent is not truly informed.",
+    "examples": [
+      "A patient extends her arm when the phlebotomist approaches with a tourniquet; this is implied consent.",
+      "A receptionist calls out a patient's diagnosis in a crowded waiting room, an avoidable disclosure that violates confidentiality.",
+      "A school nurse sees patterned bruises on a child and reports suspected abuse to child protective services without first confirming it."
+    ],
+    "questions": [
+      {
+        "stem": "A patient signs a surgical consent form, but the surgeon never discussed risks or alternatives. What is the problem?",
+        "choices": [
+          "The form needs a second witness",
+          "Consent is not truly informed",
+          "Expressed consent was not given",
+          "The patient must be a minor"
+        ],
+        "answer": 1,
+        "explanation": "Informed consent requires explaining risks, benefits and alternatives; the signature only documents that discussion. Expressed consent was technically given in writing, so that option misses the real defect."
+      },
+      {
+        "stem": "A patient's employer calls the clinic asking whether the employee was treated for depression. The patient has signed no authorization. What should staff do?",
+        "choices": [
+          "Confirm the visit but not the diagnosis",
+          "Share the information since the employer pays for insurance",
+          "Decline to release any information without the patient's written authorization",
+          "Release it if the caller gives the patient's birth date"
+        ],
+        "answer": 2,
+        "explanation": "Disclosure to an employer is not treatment, payment or operations, so HIPAA requires the patient's authorization. Even confirming the visit discloses PHI, so the partial-disclosure option is also wrong."
+      },
+      {
+        "stem": "An unconscious adult arrives at the emergency department after a car crash with no family present. On what basis can staff begin lifesaving care?",
+        "choices": [
+          "Implied consent in an emergency",
+          "Expressed consent",
+          "Consent from the police officer",
+          "Care cannot begin until family is found"
+        ],
+        "answer": 0,
+        "explanation": "In emergencies, the law presumes a reasonable person would want lifesaving treatment. Expressed consent requires the patient to state it, which is impossible here."
+      },
+      {
+        "stem": "A medical assistant realizes she charted the wrong blood pressure. What is the correct way to fix it?",
+        "choices": [
+          "Use correction fluid and write the right value",
+          "Delete the entry and re-enter it",
+          "Draw a single line through the error, write the correction, and add date and initials",
+          "Ask the physician to rewrite the page"
+        ],
+        "answer": 2,
+        "explanation": "A single line keeps the original visible and the change traceable, which protects the record's legal integrity. Deleting or covering an entry looks like tampering."
+      },
+      {
+        "stem": "A billing clerk needs to submit a claim. Under the minimum necessary standard, what should she access?",
+        "choices": [
+          "The full chart including therapy notes",
+          "Only the information needed to bill the visit",
+          "Nothing, since billing requires authorization",
+          "Any records she wishes, since billing is permitted"
+        ],
+        "answer": 1,
+        "explanation": "Payment is a permitted use, but minimum necessary limits access to what the task requires. The option allowing any records ignores that limit."
+      },
+      {
+        "stem": "A teacher's aide notices a 7-year-old flinch and has unexplained burns, but has no proof of abuse. What does the law require of mandatory reporters?",
+        "choices": [
+          "Wait until there is proof",
+          "Report based on reasonable suspicion",
+          "Ask the parents first",
+          "Report only if the child confirms it"
+        ],
+        "answer": 1,
+        "explanation": "Mandatory reporters must report reasonable suspicion; investigating and proving abuse is the agency's job. Waiting for proof can leave a child in danger and violates the duty."
+      },
+      {
+        "stem": "A competent 45-year-old patient signed consent for a colonoscopy but says, just before sedation, \"I've changed my mind.\" What should happen?",
+        "choices": [
+          "Proceed because the form was signed",
+          "Stop and honor the withdrawal of consent",
+          "Sedate first, then discuss",
+          "Get a family member to sign instead"
+        ],
+        "answer": 1,
+        "explanation": "Consent can be withdrawn at any time before or during care. A signed form does not lock a competent patient into treatment, so proceeding would be battery."
+      },
+      {
+        "stem": "Which disclosure is permitted under HIPAA without patient authorization?",
+        "choices": [
+          "Sending records to a specialist who is treating the patient",
+          "Giving a list of diabetic patients to a drug company for marketing",
+          "Posting a patient story on social media without names but with a photo",
+          "Telling a neighbor about the patient's surgery"
+        ],
+        "answer": 0,
+        "explanation": "Sharing PHI for treatment is permitted without authorization. Marketing uses require written authorization, so that option is wrong."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Informed consent",
+        "definition": "Agreement given after the provider explains the procedure, risks, benefits, alternatives and risks of refusing."
+      },
+      {
+        "term": "Implied consent",
+        "definition": "Consent shown by actions or presumed in an emergency when the patient cannot respond."
+      },
+      {
+        "term": "Protected health information (PHI)",
+        "definition": "Individually identifiable health information in any form, protected by HIPAA."
+      },
+      {
+        "term": "Minimum necessary",
+        "definition": "HIPAA standard limiting use or disclosure of PHI to what a task requires."
+      },
+      {
+        "term": "Emancipated minor",
+        "definition": "A person under the age of majority who is legally independent and may consent to their own care."
+      }
+    ]
+  }
+]

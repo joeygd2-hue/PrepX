@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Macronutrients, micronutrients and how the body uses energy",
+    "objective": "Identify the six classes of nutrients, compare the energy each macronutrient supplies, and explain the main functions of key vitamins and minerals.",
+    "body": "Nutrition questions often look like trivia, but most of them test one idea: what a nutrient does in the body and what happens when there is too little or too much of it. Learn the categories first, and individual facts become easier to place.\n\n**The six classes of nutrients.** Nutrients are substances in food that the body needs for energy, growth and regulation. They fall into six classes: carbohydrates, proteins, lipids (fats), vitamins, minerals and water. The first three are **macronutrients**, needed in large amounts and measured in grams. Vitamins and minerals are **micronutrients**, needed in milligrams or micrograms. Water is needed in the largest amount of all but supplies no energy.\n\n**Energy values.** Energy in food is measured in kilocalories (the \"Calories\" on a label).\n- Carbohydrates: 4 kcal per gram\n- Protein: 4 kcal per gram\n- Fat: 9 kcal per gram\n- Alcohol, though not a nutrient, supplies 7 kcal per gram\n\nCarbohydrates are the body's preferred fuel; glucose is the main energy source for the brain. **Dietary fiber** is a carbohydrate humans cannot digest, yet it supports bowel regularity and helps lower blood cholesterol. Proteins are built from **amino acids**; nine are **essential amino acids** because the body cannot make them and must get them from food. Fats insulate the body, cushion organs, form cell membranes and carry the fat-soluble vitamins.\n\n**Vitamins.** Vitamins are organic compounds that regulate body processes. The **fat-soluble vitamins** are A, D, E and K; they are stored in the liver and fatty tissue, so excess intake from supplements can build up to toxic levels. The **water-soluble vitamins** are vitamin C and the B vitamins; extra amounts are generally excreted in urine, so they must be replaced more regularly. Key roles to know: vitamin A for vision, vitamin D for calcium absorption, vitamin K for blood clotting, vitamin C for collagen formation, and folate for cell division and preventing neural tube defects.\n\n**Minerals.** Minerals are inorganic elements. Calcium and phosphorus build bones and teeth, iron carries oxygen as part of hemoglobin, sodium and potassium regulate fluid balance and nerve signals, and iodine is needed to make thyroid hormones.\n\n**Water.** Water makes up roughly 50 to 60 percent of adult body weight. It regulates temperature, transports nutrients and removes waste.\n\nThe most common mistake students make is assuming that all vitamins are harmless in large amounts because \"extra just washes out.\" That is only true, and only partly, for water-soluble vitamins; fat-soluble vitamins are stored and can reach toxic levels.",
+    "examples": [
+      "A snack bar has 10 g carbohydrate, 5 g protein and 4 g fat, so it supplies 40 + 20 + 36 = 96 kcal.",
+      "A person taking high-dose vitamin A supplements for months risks toxicity because vitamin A is fat-soluble and stored in the liver.",
+      "A pregnant patient is encouraged to get enough folate because it helps prevent neural tube defects in the developing baby."
+    ],
+    "questions": [
+      {
+        "stem": "A granola bar contains 20 g of carbohydrate, 6 g of protein and 8 g of fat. About how many kilocalories does it provide?",
+        "choices": [
+          "136 kcal",
+          "176 kcal",
+          "202 kcal",
+          "306 kcal"
+        ],
+        "answer": 1,
+        "explanation": "Carbohydrate 20 x 4 = 80, protein 6 x 4 = 24, fat 8 x 9 = 72, total 176 kcal. 136 comes from using 4 kcal per gram for fat as well, which undercounts fat's energy."
+      },
+      {
+        "stem": "A patient is told to watch intake of supplements of a vitamin that is stored in body fat and can become toxic. Which vitamin is most likely being discussed?",
+        "choices": [
+          "Vitamin C",
+          "Thiamin (B1)",
+          "Vitamin D",
+          "Folate"
+        ],
+        "answer": 2,
+        "explanation": "Vitamin D is fat-soluble and stored, so excess from supplements can accumulate. Vitamin C is water-soluble and excess is mostly excreted, making toxicity far less likely."
+      },
+      {
+        "stem": "A patient on a blood thinner is counseled about consistent intake of leafy green vegetables. Which vitamin explains this advice?",
+        "choices": [
+          "Vitamin K",
+          "Vitamin E",
+          "Vitamin B12",
+          "Vitamin A"
+        ],
+        "answer": 0,
+        "explanation": "Vitamin K is needed to make clotting factors, so large swings in intake can affect some blood thinners. Vitamin E is also fat-soluble but its main role is as an antioxidant, not clotting."
+      },
+      {
+        "stem": "Which nutrient class supplies no energy but is needed by the body in the greatest amount?",
+        "choices": [
+          "Protein",
+          "Minerals",
+          "Fiber",
+          "Water"
+        ],
+        "answer": 3,
+        "explanation": "Water provides no kilocalories yet is required in the largest volume each day. Minerals also supply no energy, but they are needed only in small amounts."
+      },
+      {
+        "stem": "A teen reports fatigue and pale skin, and lab work shows low hemoglobin. Which mineral deficiency is most likely?",
+        "choices": [
+          "Calcium",
+          "Iron",
+          "Iodine",
+          "Potassium"
+        ],
+        "answer": 1,
+        "explanation": "Iron is part of hemoglobin, which carries oxygen, so deficiency causes anemia with fatigue and pallor. Calcium deficiency affects bones, not hemoglobin."
+      },
+      {
+        "stem": "A vegan athlete asks why combining varied plant proteins matters. What is the best explanation?",
+        "choices": [
+          "Plant proteins contain more kilocalories per gram than animal proteins",
+          "Plant proteins cannot be digested without fat",
+          "Eating a variety of plant foods helps supply all nine essential amino acids",
+          "Plant proteins are converted directly into fiber"
+        ],
+        "answer": 2,
+        "explanation": "Essential amino acids must come from food, and eating varied plant proteins across the day supplies all of them. Plant and animal proteins both provide 4 kcal per gram, so the energy option is false."
+      },
+      {
+        "stem": "Which statement about dietary fiber is accurate?",
+        "choices": [
+          "It is a type of protein that builds muscle",
+          "It supplies 9 kcal per gram",
+          "It is fully digested in the small intestine",
+          "It is a carbohydrate humans cannot digest that supports bowel regularity"
+        ],
+        "answer": 3,
+        "explanation": "Fiber is an indigestible carbohydrate that aids regularity and can lower cholesterol. The claim that it is fully digested is wrong; its benefits come from passing through largely undigested."
+      },
+      {
+        "stem": "A child in a region with poor soil iodine develops an enlarged thyroid gland. What is the main role of the missing nutrient?",
+        "choices": [
+          "Making thyroid hormones",
+          "Absorbing calcium",
+          "Forming collagen",
+          "Clotting blood"
+        ],
+        "answer": 0,
+        "explanation": "Iodine is required to make thyroid hormones, and deficiency can cause goiter. Calcium absorption depends on vitamin D, not iodine."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Macronutrients",
+        "definition": "Carbohydrates, proteins and fats, needed in large amounts and supplying energy."
+      },
+      {
+        "term": "Essential amino acids",
+        "definition": "The nine amino acids the body cannot make and must obtain from food."
+      },
+      {
+        "term": "Fat-soluble vitamins",
+        "definition": "Vitamins A, D, E and K, which are stored in the liver and fatty tissue and can reach toxic levels."
+      },
+      {
+        "term": "Water-soluble vitamins",
+        "definition": "Vitamin C and the B vitamins; excess is generally excreted in urine."
+      },
+      {
+        "term": "Dietary fiber",
+        "definition": "A carbohydrate humans cannot digest that supports regularity and can help lower cholesterol."
+      }
+    ]
+  }
+]

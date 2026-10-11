@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Judgment, communication, and emergencies in personal care practice",
+    "objective": "Analyze care situations to determine scope of practice, respond to emergencies, communicate effectively, and protect resident rights.",
+    "body": "Advanced personal care questions rarely ask how to do a skill; they ask what to do when something is not routine. Answering well depends on three ideas: knowing your scope, protecting rights, and recognizing when a situation is an emergency.\n\n**Scope of practice.** A nursing assistant works under the direction of a licensed nurse. Aides observe, measure, assist and report. They do not diagnose, give medications, or change a care plan. When a task falls outside training or the care plan, the correct response is to decline politely and notify the nurse. **Delegation** means the nurse assigns a task, but the nurse remains accountable for the outcome and the aide is accountable for doing it correctly.\n\n**Observation and reporting.** Use your senses: what you see, hear, smell and feel. **Objective data** can be measured or observed, such as a temperature or a bruise. **Subjective data** is what the person tells you, such as \"my chest hurts,\" and should be reported in the person's own words. Sudden changes, such as new confusion, chest pain, shortness of breath or a fall, are reported immediately rather than at the end of the shift.\n\n**Resident rights and ethics.** Residents have the right to privacy, confidentiality, dignity, and to refuse care. If a resident refuses a bath, do not force it; explore the reason, offer another time, and report the refusal. Never discuss residents in public areas or on social media, which violates **HIPAA** privacy protections. Any suspected abuse or neglect must be reported, and you cannot be punished for reporting in good faith.\n\n**Communication.** Face the person, speak clearly, and use short sentences. For a resident with hearing loss, reduce background noise and do not shout. For a resident with dementia, approach from the front, use their name, give one-step directions, and redirect rather than argue.\n\n**Emergencies.** Call for help first and stay with the person.\n- **Falls**: if a resident starts to fall, widen your stance and ease them to the floor while protecting the head. Do not move a fallen resident until the nurse assesses them.\n- **Choking**: a person who can cough forcefully should be encouraged to keep coughing. If they cannot speak, cough or breathe, give abdominal thrusts.\n- **Stroke**: use **BE FAST** (balance, eyes, face drooping, arm weakness, speech difficulty, time to call) and report immediately.\n- **Hypoglycemia** in a diabetic resident can cause shakiness, sweating and confusion; report at once.\n\nThe most common mistake students make is choosing an answer that is helpful but outside scope, such as giving a resident medication from a family member or helping a falling resident stand up immediately. When unsure, the best answer usually involves keeping the person safe and notifying the nurse.",
+    "examples": [
+      "A resident asks an aide for an over-the-counter pain pill from her purse; the aide explains that she cannot give medication and reports the request to the nurse.",
+      "A resident with dementia insists on going home to feed her children; the aide calmly acknowledges her feelings and redirects her to a folding activity rather than arguing."
+    ],
+    "questions": [
+      {
+        "stem": "A resident who was alert yesterday is suddenly confused and cannot recall where she is. What should the nursing assistant do?",
+        "choices": [
+          "Document it at the end of the shift",
+          "Report the change to the nurse immediately",
+          "Reorient her and continue care without reporting",
+          "Call the family to ask if this is normal"
+        ],
+        "answer": 1,
+        "explanation": "Sudden confusion can signal infection, stroke or low blood sugar and must be reported right away. Reorienting is kind but does not replace reporting a change in condition."
+      },
+      {
+        "stem": "A resident starts to fall while walking with an aide. What is the best action?",
+        "choices": [
+          "Catch the resident under the arms and pull upward",
+          "Widen your stance and ease the resident to the floor, protecting the head",
+          "Let go so you are not injured",
+          "Shout for help while holding the resident upright"
+        ],
+        "answer": 1,
+        "explanation": "Easing the resident down while protecting the head reduces injury to both people. Trying to hold the resident upright often causes injury to both the resident and the aide."
+      },
+      {
+        "stem": "A resident refuses his scheduled shower. What is the most appropriate response?",
+        "choices": [
+          "Explain that showers are required and proceed",
+          "Ask why, offer another time or option, and report the refusal",
+          "Skip the shower and say nothing",
+          "Have another aide help hold him in the shower"
+        ],
+        "answer": 1,
+        "explanation": "Residents have the right to refuse care, and refusals must be reported. Proceeding anyway violates resident rights."
+      },
+      {
+        "stem": "A resident says, \"My stomach has been burning since lunch.\" How should the aide report this?",
+        "choices": [
+          "Record it as objective data",
+          "Quote the resident's own words when reporting",
+          "Wait to see if it improves",
+          "Tell the resident it is probably indigestion"
+        ],
+        "answer": 1,
+        "explanation": "This is subjective data and should be reported in the resident's words. Calling it indigestion is diagnosing, which is outside an aide's scope."
+      },
+      {
+        "stem": "A family member asks the aide to give a resident a vitamin they brought from home. What should the aide do?",
+        "choices": [
+          "Give it, since vitamins are harmless",
+          "Politely decline and notify the nurse",
+          "Give half to be safe",
+          "Put it on the meal tray for the resident to take"
+        ],
+        "answer": 1,
+        "explanation": "Nursing assistants do not administer medications or supplements; the nurse must be notified. Placing it on the tray still amounts to giving it without an order."
+      },
+      {
+        "stem": "A resident at lunch grabs her throat and cannot speak or cough. What should the trained aide do?",
+        "choices": [
+          "Give her water to drink",
+          "Encourage her to keep coughing",
+          "Call for help and give abdominal thrusts",
+          "Pat her gently on the back and wait"
+        ],
+        "answer": 2,
+        "explanation": "Inability to speak or cough signals a severe airway obstruction, requiring abdominal thrusts. Encouraging coughing is correct only when the person can still cough forcefully."
+      },
+      {
+        "stem": "An aide notices a resident's face drooping on one side and slurred speech. What does this most likely indicate?",
+        "choices": [
+          "Hypoglycemia",
+          "Possible stroke",
+          "Dehydration",
+          "Normal fatigue"
+        ],
+        "answer": 1,
+        "explanation": "Face drooping and speech difficulty are BE FAST warning signs of stroke and require immediate reporting. Hypoglycemia can cause confusion but typically with shakiness and sweating rather than one-sided drooping."
+      },
+      {
+        "stem": "An aide posts a photo of a resident's birthday party on personal social media without permission. Which principle is violated?",
+        "choices": [
+          "Delegation",
+          "Scope of practice",
+          "Confidentiality and privacy under HIPAA",
+          "Body mechanics"
+        ],
+        "answer": 2,
+        "explanation": "Sharing identifiable resident images without consent violates privacy and confidentiality. Scope of practice relates to tasks performed, not information sharing."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scope of practice",
+        "definition": "The tasks a caregiver is trained and legally allowed to perform."
+      },
+      {
+        "term": "Delegation",
+        "definition": "A nurse assigning a task to an aide while remaining accountable for the outcome."
+      },
+      {
+        "term": "Objective data",
+        "definition": "Information that can be observed or measured, such as vital signs or a bruise."
+      },
+      {
+        "term": "Subjective data",
+        "definition": "Information the person reports that cannot be directly observed, such as pain."
+      },
+      {
+        "term": "BE FAST",
+        "definition": "Stroke warning signs: balance, eyes, face drooping, arm weakness, speech difficulty, time to call."
+      }
+    ]
+  }
+]

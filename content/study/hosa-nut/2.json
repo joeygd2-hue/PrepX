@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Applying dietary guidelines and reading food labels",
+    "objective": "Apply the Dietary Guidelines for Americans and MyPlate to plan meals, interpret Nutrition Facts labels, and evaluate foods using percent Daily Value.",
+    "body": "Knowing what nutrients do is only half the job. Health professionals also need to turn that knowledge into practical advice about real meals and real food packages.\n\n**Dietary Guidelines for Americans.** Published every five years by the USDA and HHS, the guidelines recommend a healthy eating pattern across the lifespan. Core messages include choosing nutrient-dense foods and beverages and limiting foods high in added sugars, saturated fat and sodium. Key limits to remember:\n- Added sugars: less than 10 percent of daily calories (and none for children under 2)\n- Saturated fat: less than 10 percent of daily calories\n- Sodium: less than 2,300 mg per day for ages 14 and older\n\n**Nutrient density** describes how many nutrients a food supplies compared with its calories. Plain yogurt with fruit is nutrient-dense; a sugary soda supplies **empty calories**, energy with few nutrients.\n\n**MyPlate.** MyPlate turns the guidelines into a picture: a plate split into fruits, vegetables, grains and protein, with a dairy cup on the side. Fruits and vegetables fill about half the plate, at least half of grains should be whole grains, and dairy choices should be low-fat or fat-free milk, yogurt, or fortified soy alternatives.\n\n**Reading the Nutrition Facts label.** Work through the label in order:\n1. Check the **serving size** and servings per container. Every number below refers to one serving.\n2. Read calories per serving.\n3. Use **percent Daily Value (%DV)** to judge whether a serving is high or low in a nutrient. As a rule of thumb, 5 percent or less is low and 20 percent or more is high.\n4. Look at nutrients to limit (saturated fat, sodium, added sugars) and nutrients to get more of (fiber, vitamin D, calcium, iron, potassium).\n\nThe %DV is based on a 2,000-calorie reference diet, so it is a general guide, not a personal prescription. **Trans fat** has no %DV because there is no safe level to aim for; partially hydrogenated oils, the main source of artificial trans fat, are no longer permitted in the U.S. food supply.\n\n**Ingredient lists** name ingredients in descending order by weight. If sugar or a syrup appears first, sugar makes up more of the product than any other ingredient.\n\nThe most common mistake students make is reading label numbers as if they describe the whole package. If a bag holds 2.5 servings and a person eats the whole bag, every value on the label must be multiplied by 2.5.",
+    "examples": [
+      "A soup label lists 890 mg sodium per serving with 2 servings per can; eating the whole can supplies 1,780 mg, more than three-quarters of the 2,300 mg limit.",
+      "A cereal with 25 percent DV for fiber is a high-fiber choice, while one with 3 percent DV is low.",
+      "On a 2,000-calorie diet, keeping added sugars under 10 percent means staying below 200 calories, or about 50 g, of added sugar."
+    ],
+    "questions": [
+      {
+        "stem": "A chip bag lists 160 kcal per serving and 3 servings per bag. A student eats the entire bag. How many kilocalories did the student eat?",
+        "choices": [
+          "160 kcal",
+          "320 kcal",
+          "480 kcal",
+          "540 kcal"
+        ],
+        "answer": 2,
+        "explanation": "Label values are per serving, so 160 x 3 = 480 kcal. Choosing 160 kcal is the classic error of treating one serving as the whole package."
+      },
+      {
+        "stem": "A yogurt label shows 22 percent DV for calcium. How should a patient interpret this?",
+        "choices": [
+          "The yogurt is low in calcium",
+          "The yogurt is high in calcium",
+          "The yogurt meets all daily calcium needs",
+          "The value cannot be interpreted without a doctor"
+        ],
+        "answer": 1,
+        "explanation": "20 percent DV or more is considered high, so 22 percent is a high source. It does not meet all daily needs, which would require about 100 percent DV."
+      },
+      {
+        "stem": "A 16-year-old wants to follow current federal sodium guidance. What is the recommended daily limit?",
+        "choices": [
+          "Less than 1,000 mg",
+          "Less than 1,500 mg",
+          "Less than 3,400 mg",
+          "Less than 2,300 mg"
+        ],
+        "answer": 3,
+        "explanation": "The Dietary Guidelines advise less than 2,300 mg sodium per day for ages 14 and older. About 3,400 mg is closer to what many Americans actually eat, not the recommendation."
+      },
+      {
+        "stem": "Two breakfast cereals have the same calories. Cereal A lists whole oats first; Cereal B lists sugar first. What can a student conclude?",
+        "choices": [
+          "Cereal B contains more sugar by weight than any other single ingredient",
+          "Both cereals have equal sugar",
+          "Cereal A contains no sugar",
+          "Cereal B has more fiber"
+        ],
+        "answer": 0,
+        "explanation": "Ingredients are listed in descending order by weight, so sugar is Cereal B's largest ingredient. Cereal A may still contain some sugar further down its list, so claiming it has none is unsupported."
+      },
+      {
+        "stem": "Using MyPlate, a dietary aide is planning a lunch tray. Which plan best follows MyPlate guidance?",
+        "choices": [
+          "Half the plate grains, a small vegetable side, and whole milk",
+          "Half the plate fruits and vegetables, whole-grain bread, lean protein, and fat-free milk",
+          "Mostly protein with a fruit cup for dessert",
+          "Equal portions of refined pasta, cheese, and fruit juice"
+        ],
+        "answer": 1,
+        "explanation": "MyPlate fills about half the plate with fruits and vegetables, favors whole grains, and recommends low-fat or fat-free dairy. Making grains half the plate reverses the recommended proportions."
+      },
+      {
+        "stem": "Which food is the best example of a nutrient-dense choice?",
+        "choices": [
+          "Regular soda",
+          "Frosted toaster pastry",
+          "Steamed broccoli",
+          "Fruit-flavored candy"
+        ],
+        "answer": 2,
+        "explanation": "Broccoli supplies vitamins, minerals and fiber for few calories. A fruit-flavored candy may sound fruity but provides mostly added sugar, making it empty calories."
+      },
+      {
+        "stem": "A person eats 2,000 kcal per day and wants to keep added sugars within the guideline. What is the maximum calories from added sugars?",
+        "choices": [
+          "100 kcal",
+          "300 kcal",
+          "400 kcal",
+          "Just under 200 kcal"
+        ],
+        "answer": 3,
+        "explanation": "Added sugars should be less than 10 percent of calories: 10 percent of 2,000 is 200, so stay below that. 400 kcal would be 20 percent, double the limit."
+      },
+      {
+        "stem": "Why does a Nutrition Facts label show no percent Daily Value for trans fat?",
+        "choices": [
+          "There is no recommended daily amount to aim for because intake should be as low as possible",
+          "Trans fat contains no calories",
+          "Trans fat is a vitamin",
+          "Trans fat is counted under protein"
+        ],
+        "answer": 0,
+        "explanation": "No %DV is set because there is no safe target level of artificial trans fat. Trans fat does supply calories (9 kcal per gram like other fats), so the no-calories choice is false."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Nutrient density",
+        "definition": "The amount of nutrients a food supplies compared with its calories."
+      },
+      {
+        "term": "Empty calories",
+        "definition": "Calories from foods that supply energy but few nutrients, such as sugary drinks."
+      },
+      {
+        "term": "Percent Daily Value",
+        "definition": "The share of a reference daily amount supplied by one serving; 5 percent or less is low, 20 percent or more is high."
+      },
+      {
+        "term": "Serving size",
+        "definition": "The amount of food that all values on a Nutrition Facts label refer to."
+      },
+      {
+        "term": "MyPlate",
+        "definition": "USDA icon showing a plate split into fruits, vegetables, grains and protein with a dairy cup."
+      }
+    ]
+  }
+]

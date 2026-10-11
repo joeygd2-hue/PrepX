@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Measuring vital signs and supporting daily living",
+    "objective": "Measure and report vital signs accurately, assist residents with activities of daily living, and recognize findings that must be reported to the nurse.",
+    "body": "Once the foundations of safety and rights are in place, the core skills of a nursing assistant are measuring the body's signals and helping residents with personal care. Accuracy matters because nurses use these numbers to make decisions.\n\n**Vital signs.** The standard vital signs are temperature, pulse, respirations and blood pressure, and many facilities also record pain and oxygen saturation. Typical adult ranges to remember:\n- **Pulse:** 60 to 100 beats per minute; count the radial pulse for 30 seconds and double it if regular, or a full minute if irregular.\n- **Respirations:** 12 to 20 breaths per minute; count without telling the resident, since people change their breathing when they know it is being watched.\n- **Blood pressure:** current guidelines classify normal as below 120 systolic and below 80 diastolic; readings of 130/80 or higher fall in the hypertension range. Use the correct cuff size, support the arm at heart level, and avoid an arm with an IV, dialysis access or a mastectomy on that side.\n- **Temperature:** oral readings average about 98.6 F (37 C); wait about 15 minutes after the resident eats, drinks or smokes before an oral reading.\n\nAbnormal or sudden changes are reported to the nurse right away, not saved for the end of the shift.\n\n**Activities of daily living (ADLs).** These include bathing, grooming, dressing, eating, toileting and moving. The goal is to **promote independence**: let residents do as much as they safely can, offer choices, and provide only the help the care plan calls for. When dressing a resident with a weak or injured side, put clothing on the **affected side first** and take it off the unaffected side first. During a bed bath, wash from the cleanest area to the dirtiest and clean the perineal area front to back to reduce urinary tract infections.\n\n**Nutrition and fluids.** Assistants measure **intake and output (I&O)** in milliliters (1 ounce is about 30 mL) and record the percentage of meals eaten. For residents with swallowing problems, follow the diet texture and liquid consistency ordered, keep the resident upright during and after meals, and report coughing or choking while eating.\n\n**Skin and positioning.** Pressure injuries form over bony areas such as the sacrum, hips and heels. Reposition residents who cannot move themselves according to the care plan (often at least every 2 hours), keep skin clean and dry, and report any area of redness that does not fade after pressure is relieved.\n\nThe most common mistake students make is mixing up the dressing rule; remember that the affected side goes in first and comes out last, because it has the least range of motion.",
+    "examples": [
+      "An assistant counts a resident's pulse at 112 beats per minute while the resident is resting. Because it is above the normal range and new for this resident, the assistant reports it to the nurse immediately.",
+      "A resident drank an 8-ounce carton of milk and half of a 240 mL cup of juice. The assistant records about 240 mL plus 120 mL, or 360 mL of intake."
+    ],
+    "questions": [
+      {
+        "stem": "A resident had a stroke that weakened her right arm. In what order should the assistant put on her shirt?",
+        "choices": [
+          "Left arm first, then right arm",
+          "Right arm first, then left arm",
+          "Over the head first, then both arms together",
+          "Whichever arm the resident prefers each day"
+        ],
+        "answer": 1,
+        "explanation": "The affected (weak) side is dressed first because it has the least movement. Starting with the strong left arm makes it harder to work the weak arm into the sleeve."
+      },
+      {
+        "stem": "A resident's radial pulse is irregular. How should the assistant count it?",
+        "choices": [
+          "Count for 15 seconds and multiply by 4",
+          "Count for 30 seconds and multiply by 2",
+          "Count for one full minute",
+          "Count until the rhythm becomes regular"
+        ],
+        "answer": 2,
+        "explanation": "An irregular pulse must be counted for a full 60 seconds for accuracy. Counting 30 seconds and doubling works only for a regular rhythm."
+      },
+      {
+        "stem": "Why should an assistant count respirations without telling the resident?",
+        "choices": [
+          "Residents may change their breathing rate when they know it is being counted",
+          "Counting aloud spreads infection",
+          "It is a HIPAA requirement",
+          "Respirations can only be counted while the resident sleeps"
+        ],
+        "answer": 0,
+        "explanation": "Awareness changes breathing patterns, so assistants count while appearing to check the pulse. It has nothing to do with privacy law."
+      },
+      {
+        "stem": "A resident has a dialysis fistula in his left arm. Where should the assistant measure blood pressure?",
+        "choices": [
+          "On the left arm, using a smaller cuff",
+          "On the right arm",
+          "On either arm, as long as it is supported",
+          "On the left arm, but only after asking the nurse to check the fistula"
+        ],
+        "answer": 1,
+        "explanation": "A blood pressure cuff should not be used on an arm with a dialysis access because it can damage it. A smaller cuff on that arm still compresses the fistula."
+      },
+      {
+        "stem": "A resident drinks coffee at 0800. When is the earliest an accurate oral temperature can be taken?",
+        "choices": [
+          "Immediately",
+          "About 0805",
+          "About 0815",
+          "About 0900"
+        ],
+        "answer": 2,
+        "explanation": "Waiting about 15 minutes after hot or cold drinks lets mouth temperature return to baseline. Five minutes is not long enough."
+      },
+      {
+        "stem": "While turning a resident, the assistant finds a red area over the sacrum that stays red 30 minutes after pressure is relieved. What should the assistant do?",
+        "choices": [
+          "Massage the area firmly to improve circulation",
+          "Apply a heating pad to the area",
+          "Report it to the nurse and keep pressure off the area",
+          "Wait until the next turn to see if it fades"
+        ],
+        "answer": 2,
+        "explanation": "Redness that does not fade can be an early pressure injury and must be reported. Massaging reddened bony areas can cause further tissue damage."
+      },
+      {
+        "stem": "A resident with a swallowing disorder coughs repeatedly while eating thickened liquids. What is the assistant's best action?",
+        "choices": [
+          "Switch the resident to thin liquids, which are easier to drink",
+          "Stop the meal, keep the resident upright and report to the nurse",
+          "Lay the resident flat to rest",
+          "Encourage the resident to eat faster to finish"
+        ],
+        "answer": 1,
+        "explanation": "Coughing while eating may signal aspiration and should be reported. Switching to thin liquids changes an ordered diet and increases aspiration risk."
+      },
+      {
+        "stem": "Which approach best promotes independence during morning care?",
+        "choices": [
+          "Complete all care quickly so the resident can rest",
+          "Let the resident wash her face and choose her clothes while you help with the rest",
+          "Choose the resident's clothing to save time",
+          "Do the care while the resident watches so she learns the steps"
+        ],
+        "answer": 1,
+        "explanation": "Promoting independence means letting residents do what they safely can and make choices. Doing everything for them speeds care but reduces function and dignity."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Vital signs",
+        "definition": "Measurements of temperature, pulse, respirations and blood pressure that show how the body is functioning."
+      },
+      {
+        "term": "Activities of daily living (ADLs)",
+        "definition": "Basic self-care tasks such as bathing, grooming, dressing, eating, toileting and moving."
+      },
+      {
+        "term": "Affected side",
+        "definition": "The weak or injured side of the body; dressed first and undressed last."
+      },
+      {
+        "term": "Intake and output (I&O)",
+        "definition": "Measurement in milliliters of all fluids taken in and eliminated by a resident."
+      },
+      {
+        "term": "Pressure injury",
+        "definition": "Damage to skin and underlying tissue, usually over a bony area, caused by prolonged pressure."
+      }
+    ]
+  }
+]

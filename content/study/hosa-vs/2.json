@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Restraint, physical exams, and preventive care routines",
+    "objective": "Apply safe restraint techniques, perform a systematic physical exam, and explain core preventive care including vaccination and parasite control.",
+    "body": "Once a student knows normal values, the next step is gathering them safely and using them to keep animals healthy. Most veterinary visits are preventive, so restraint, examination and wellness plans are daily skills.\n\n**Safe restraint.** Restraint protects the animal, the handler and the veterinarian. The goal is the *least restraint necessary* to complete the procedure. Common dog holds include the **lateral recumbency** hold (animal lying on its side) and the sternal hold (lying on its chest). For cephalic venipuncture, the holder hugs the dog's body and uses the other hand to occlude the vein at the elbow. Cats may be wrapped in a towel ('burrito') to control the legs. A properly fitted **muzzle** is used for dogs that may bite, but it should not be left on a dog that is vomiting or struggling to breathe. Large animals require different tools: a **halter** and lead rope for horses and cattle, and a squeeze chute for cattle. Low-stress handling, such as calm voices and minimizing time held, reduces fear and injury.\n\n**The physical exam.** A systematic, nose-to-tail exam prevents missed findings. A typical sequence is:\n1. Observe attitude, posture and gait from a distance.\n2. Record weight and **body condition score (BCS)**; on a 9-point scale, 4-5 is ideal, with ribs easily felt but not seen.\n3. Check eyes, ears, nose, mouth, teeth and mucous membranes.\n4. Palpate lymph nodes, abdomen and limbs.\n5. Auscult the heart and lungs and record TPR.\n6. Examine skin, coat and the urogenital area.\n\nFindings are recorded in the medical record, often in **SOAP** format: Subjective, Objective, Assessment and Plan.\n\n**Vaccination.** Vaccines are divided into **core vaccines**, recommended for every animal of a species, and **non-core vaccines**, chosen based on lifestyle and risk. For dogs, core vaccines include rabies, distemper, adenovirus and parvovirus; non-core examples include Bordetella, leptospirosis and Lyme. For cats, core vaccines include rabies and the FVRCP combination (panleukopenia, herpesvirus and calicivirus). Puppies and kittens receive a series of boosters because maternal antibodies can block early doses. Rabies vaccination is also regulated by state or local law because rabies is a fatal **zoonotic** disease, meaning it can spread from animals to people.\n\n**Parasite control.** Heartworm, spread by mosquitoes, is prevented with year-round preventive medication prescribed by a veterinarian, and dogs are tested regularly. Flea and tick control and routine fecal exams for intestinal parasites round out a wellness plan. Some intestinal parasites, such as roundworms, are zoonotic, which makes deworming a public health issue as well.\n\nThe most common mistake students make is treating vaccine categories as fixed for every animal, forgetting that non-core vaccines depend on the individual animal's exposure risk.",
+    "examples": [
+      "A dog that hikes in tick-heavy woods is given the non-core Lyme vaccine, while an indoor apartment dog with no tick exposure may skip it.",
+      "A technician wraps a fractious cat in a towel so only its head is exposed, allowing the veterinarian to examine its eyes safely.",
+      "A Labrador whose ribs cannot be felt under a thick fat layer receives a body condition score of 8 out of 9 and a weight-loss plan."
+    ],
+    "questions": [
+      {
+        "stem": "A dog with a history of biting needs a nail trim, but it has just vomited and is breathing heavily. What is the best restraint choice?",
+        "choices": [
+          "Apply a tight basket muzzle and leave it on for an hour",
+          "Avoid muzzling for now and alert the veterinarian about the breathing and vomiting",
+          "Hold the dog by the scruff and lift it off the ground",
+          "Use a squeeze chute"
+        ],
+        "answer": 1,
+        "explanation": "A muzzle can be dangerous for an animal that is vomiting or struggling to breathe, so the veterinarian should be alerted first. Simply applying a muzzle ignores the airway risk."
+      },
+      {
+        "stem": "A cat owner asks which vaccine is considered core for all cats. Which answer is correct?",
+        "choices": [
+          "Feline leukemia for indoor-only adult cats",
+          "Bordetella",
+          "Lyme",
+          "FVRCP"
+        ],
+        "answer": 3,
+        "explanation": "FVRCP (panleukopenia, herpesvirus and calicivirus) is a core feline vaccine. Feline leukemia is generally risk-based for adults, and Lyme and Bordetella are dog-oriented non-core vaccines."
+      },
+      {
+        "stem": "During an exam, a veterinarian records 'Owner reports dog has been coughing for 3 days.' In SOAP format, this belongs under:",
+        "choices": [
+          "Subjective",
+          "Objective",
+          "Assessment",
+          "Plan"
+        ],
+        "answer": 0,
+        "explanation": "History reported by the owner is subjective information. Objective data are measured findings like temperature and heart sounds, which students often confuse with owner reports."
+      },
+      {
+        "stem": "A dog's ribs are visible from across the room, and its hip bones protrude. On a 9-point scale, the BCS is most likely:",
+        "choices": [
+          "5",
+          "7",
+          "2",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "Visible ribs and prominent hip bones indicate an underweight animal, around 1-3 on the 9-point scale. A score of 5 is ideal, with ribs felt but not seen."
+      },
+      {
+        "stem": "Why do puppies receive a series of vaccine boosters rather than a single dose?",
+        "choices": [
+          "Puppies cannot develop immunity before 1 year of age",
+          "Vaccines expire within one week",
+          "Boosters are required only for show dogs",
+          "Maternal antibodies may block early doses, so repeated doses ensure one takes effect"
+        ],
+        "answer": 3,
+        "explanation": "Maternal antibodies from colostrum can interfere with early vaccines, and the timing when they fade varies, so a series is given. Puppies do develop immunity well before a year of age."
+      },
+      {
+        "stem": "A family wants to know why rabies vaccination of their dog is legally required. What is the best explanation?",
+        "choices": [
+          "Rabies is easily cured in animals",
+          "Rabies is a fatal zoonotic disease, so vaccination protects public health",
+          "Rabies is spread only between cats",
+          "It is required only for dogs that travel abroad"
+        ],
+        "answer": 1,
+        "explanation": "Rabies is nearly always fatal and transmissible to humans, so governments regulate vaccination. It is not curable once clinical signs appear, which rules out the first choice."
+      },
+      {
+        "stem": "A cattle producer needs to administer a treatment to an adult cow. Which restraint tool is most appropriate?",
+        "choices": [
+          "Squeeze chute with a halter",
+          "Towel wrap",
+          "Basket muzzle",
+          "Elizabethan collar"
+        ],
+        "answer": 0,
+        "explanation": "A squeeze chute, often with a halter, safely restrains large cattle. A towel wrap works for cats, not a 1,200-pound cow."
+      },
+      {
+        "stem": "How is heartworm disease transmitted to dogs?",
+        "choices": [
+          "Eating infected feces",
+          "Direct contact with infected dogs",
+          "Mosquito bites",
+          "Contaminated water bowls"
+        ],
+        "answer": 2,
+        "explanation": "Heartworm larvae are transmitted by mosquitoes, which is why prevention is recommended year-round. It is not spread by feces, unlike roundworms."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Core vaccine",
+        "definition": "A vaccine recommended for every animal of a species regardless of lifestyle."
+      },
+      {
+        "term": "Non-core vaccine",
+        "definition": "A vaccine given based on an individual animal's exposure risk and lifestyle."
+      },
+      {
+        "term": "Body condition score (BCS)",
+        "definition": "A rating of body fat; on a 9-point scale, 4-5 is ideal."
+      },
+      {
+        "term": "Zoonotic",
+        "definition": "Describes a disease that can spread from animals to humans."
+      },
+      {
+        "term": "SOAP",
+        "definition": "Medical record format: Subjective, Objective, Assessment, Plan."
+      }
+    ]
+  }
+]

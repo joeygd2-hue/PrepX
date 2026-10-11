@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Cell injury, adaptation, and the language of disease",
+    "objective": "Define core pathophysiology terms, distinguish cellular adaptations from irreversible injury, and classify necrosis versus apoptosis in clinical scenarios.",
+    "body": "Pathophysiology is the study of how normal body processes are disrupted by disease. Before you can explain any specific disorder, you need a vocabulary for describing what goes wrong and a model of how cells respond to stress.\n\n**Describing disease.** The **etiology** is the cause of a disease, such as a virus, a genetic mutation, or smoking. **Pathogenesis** is the sequence of events from that cause to the finished disease. **Signs** are objective findings an observer can measure, like a fever of 39 °C or a rash, while **symptoms** are subjective experiences the patient reports, like nausea or pain. An **acute** condition starts suddenly and is usually short; a **chronic** condition develops slowly and persists. **Idiopathic** means the cause is unknown, and **iatrogenic** means the problem was caused by medical treatment.\n\n**Cellular adaptation.** When stress is moderate, cells change to survive. These adaptations are usually reversible if the stress is removed.\n- **Atrophy**: decrease in cell size, as in muscles of a limb in a cast.\n- **Hypertrophy**: increase in cell size, as in the heart muscle of a person with long-standing high blood pressure.\n- **Hyperplasia**: increase in cell number, as in the uterine lining during the menstrual cycle.\n- **Metaplasia**: one mature cell type is replaced by another, as when ciliated columnar cells in a smoker's airway become squamous cells.\n- **Dysplasia**: disordered growth with abnormal size, shape, and organization; it is considered precancerous.\n\n**Cell injury.** Common causes include **hypoxia** (reduced oxygen, the most frequent cause), toxins, infections, physical trauma, and immune reactions. Early injury is reversible: cells swell because failing ATP-dependent sodium-potassium pumps let water in. If the stress continues, membranes rupture and injury becomes irreversible.\n\n**Two ways cells die.**\n1. **Necrosis** is uncontrolled death from severe injury. Cells swell and burst, spilling contents that trigger inflammation. Coagulative necrosis is typical of a heart attack; liquefactive necrosis is typical of brain infarcts and abscesses; caseous necrosis is the cheese-like pattern of tuberculosis.\n2. **Apoptosis** is programmed, energy-requiring cell death. The cell shrinks and breaks into membrane-bound fragments that are removed without inflammation. It shapes fingers during fetal development and eliminates damaged or infected cells.\n\n**Gangrene** is necrosis of a large area of tissue, usually from loss of blood supply; dry gangrene is coagulative, while wet gangrene involves bacterial infection and liquefaction.\n\nThe most common mistake students make is mixing up hyperplasia and hypertrophy: hyperplasia means more cells, hypertrophy means bigger cells. A second frequent error is treating dysplasia as a normal adaptation; unlike the others, it signals risk of cancer.",
+    "examples": [
+      "A bodybuilder's skeletal muscles enlarge through hypertrophy because adult skeletal muscle cells have very limited ability to divide.",
+      "A patient whose coronary artery is blocked develops coagulative necrosis of heart muscle, and the inflammation that follows is part of why troponin and white cell counts rise.",
+      "Long-term acid reflux can cause metaplasia in the lower esophagus, where squamous cells are replaced by intestinal-type columnar cells (Barrett esophagus)."
+    ],
+    "questions": [
+      {
+        "stem": "A patient reports feeling dizzy and nauseated, and the nurse records a heart rate of 118 beats per minute. Which finding is a sign?",
+        "choices": [
+          "Dizziness",
+          "Nausea",
+          "Heart rate of 118",
+          "The patient's worry about fainting"
+        ],
+        "answer": 2,
+        "explanation": "A heart rate is measured objectively, so it is a sign. Dizziness and nausea are subjective symptoms reported by the patient, which is why they are the tempting but wrong choices."
+      },
+      {
+        "stem": "After six weeks in a cast, a student's calf is visibly smaller. Which cellular process best explains this?",
+        "choices": [
+          "Hyperplasia",
+          "Atrophy",
+          "Metaplasia",
+          "Dysplasia"
+        ],
+        "answer": 1,
+        "explanation": "Disuse reduces cell size, which is atrophy. Hyperplasia is the opposite direction (more cells), and metaplasia involves changing cell type, not size."
+      },
+      {
+        "stem": "A biopsy of a long-term smoker's bronchus shows squamous cells where ciliated columnar cells normally line the airway. What is this change called?",
+        "choices": [
+          "Metaplasia",
+          "Hypertrophy",
+          "Apoptosis",
+          "Atrophy"
+        ],
+        "answer": 0,
+        "explanation": "Replacement of one mature cell type by another is metaplasia. Hypertrophy would show the same cell type enlarged, not a different cell type."
+      },
+      {
+        "stem": "Which feature distinguishes apoptosis from necrosis?",
+        "choices": [
+          "Apoptosis causes cell swelling and rupture",
+          "Apoptosis triggers strong inflammation",
+          "Apoptosis produces membrane-bound fragments removed without inflammation",
+          "Apoptosis occurs only after severe hypoxia"
+        ],
+        "answer": 2,
+        "explanation": "Apoptotic cells shrink and fragment into membrane-bound bodies that are cleared quietly. Swelling, rupture, and inflammation describe necrosis, the main distractor."
+      },
+      {
+        "stem": "A pathology report on a cervical sample describes cells with irregular nuclei, variable size, and loss of normal layering. Which term fits, and why does it matter?",
+        "choices": [
+          "Hyperplasia, because cell number increased normally",
+          "Dysplasia, because disordered growth is considered precancerous",
+          "Atrophy, because cells are shrinking",
+          "Hypertrophy, because cells are enlarged from workload"
+        ],
+        "answer": 1,
+        "explanation": "Disorganized, abnormal-looking cells define dysplasia, which carries cancer risk. Hyperplasia is an orderly increase in normal-looking cells and is not by itself precancerous."
+      },
+      {
+        "stem": "A stroke patient's brain tissue in the affected area softens into a fluid-filled cavity. Which type of necrosis is this?",
+        "choices": [
+          "Coagulative",
+          "Caseous",
+          "Liquefactive",
+          "Fat"
+        ],
+        "answer": 2,
+        "explanation": "Brain infarcts typically undergo liquefactive necrosis. Coagulative necrosis is typical of infarcts in the heart and kidney, not the brain."
+      },
+      {
+        "stem": "A patient develops a bleeding stomach ulcer from a medication prescribed for arthritis. How is this complication classified?",
+        "choices": [
+          "Idiopathic",
+          "Iatrogenic",
+          "Congenital",
+          "Chronic"
+        ],
+        "answer": 1,
+        "explanation": "A problem caused by medical treatment is iatrogenic. Idiopathic means the cause is unknown, which does not apply because the cause here is identified."
+      },
+      {
+        "stem": "Early in hypoxic injury, a cell swells. What is the main reason?",
+        "choices": [
+          "The nucleus divides rapidly",
+          "ATP-dependent sodium-potassium pumps fail, so sodium and water enter",
+          "The cell undergoes apoptosis",
+          "Lysosomes stop making protein"
+        ],
+        "answer": 1,
+        "explanation": "Low oxygen reduces ATP, the sodium-potassium pump fails, and water follows sodium into the cell. Apoptosis causes shrinkage, not swelling, so it is incorrect."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Etiology",
+        "definition": "The cause of a disease."
+      },
+      {
+        "term": "Hyperplasia",
+        "definition": "An increase in the number of cells in a tissue."
+      },
+      {
+        "term": "Metaplasia",
+        "definition": "Replacement of one mature cell type with another, often in response to chronic irritation."
+      },
+      {
+        "term": "Necrosis",
+        "definition": "Uncontrolled cell death from severe injury in which cells swell, rupture, and trigger inflammation."
+      },
+      {
+        "term": "Apoptosis",
+        "definition": "Programmed, energy-requiring cell death in which the cell shrinks and fragments without causing inflammation."
+      }
+    ]
+  }
+]

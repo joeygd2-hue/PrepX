@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Pharmacy team roles, drug names and dosage forms",
+    "objective": "Distinguish pharmacy team roles, identify generic and brand drug names, and match dosage forms to their routes of administration.",
+    "body": "Pharmacy Science questions often start with who does what and what a medication actually is. Getting these basics right makes later topics, such as prescriptions and pharmacology, far easier.\n\n**The pharmacy team.** A **pharmacist** is a licensed health professional who holds a Doctor of Pharmacy (PharmD) degree. Pharmacists verify prescriptions, check for interactions, counsel patients and make clinical judgments. A **pharmacy technician** supports the pharmacist by entering prescriptions, counting and measuring, managing inventory and processing insurance claims. Technicians may not counsel patients or make clinical decisions; when a patient asks how a drug will affect them, the technician refers the question to the pharmacist. Pharmacies work in many settings:\n- **Community (retail)** pharmacies serve the public directly.\n- **Hospital (institutional)** pharmacies supply inpatients, often through unit-dose systems and automated dispensing cabinets.\n- **Long-term care, mail-order and specialty** pharmacies serve nursing homes, home delivery and complex therapies.\n\n**Drug names.** Every drug has a **chemical name** describing its molecular structure, a **generic name** that is the official nonproprietary name, and a **brand (trade) name** owned by one manufacturer. Ibuprofen is a generic name; Advil and Motrin are brand names. Generic names are written in lowercase, while brand names are capitalized. A **generic drug** approved by the FDA must be bioequivalent to the brand, meaning it delivers the same active ingredient at the same rate and extent, although inactive ingredients, color and shape may differ.\n\n**Dosage forms and routes.** A **dosage form** is the physical form of a medication; the **route of administration** is how it enters the body.\n1. **Oral** forms include tablets, capsules, solutions and suspensions. Enteric-coated and extended-release tablets should not be crushed, because crushing can destroy the coating or release the whole dose at once.\n2. **Parenteral** routes bypass the digestive tract: intravenous (IV), intramuscular (IM) and subcutaneous (subcut) injections.\n3. **Topical and transdermal** forms act on or through the skin; a transdermal patch delivers drug into the bloodstream over time.\n4. **Sublingual** tablets dissolve under the tongue and **buccal** forms dissolve between cheek and gum, both absorbing quickly into the bloodstream.\n5. **Inhaled, rectal, ophthalmic (eye) and otic (ear)** forms target specific sites.\n\nA **suspension** contains undissolved particles and must be shaken before use, while a **solution** has the drug fully dissolved. Choosing the right form depends on how fast the drug must act, whether the patient can swallow, and where the drug needs to work.\n\nThe most common mistake students make is mixing up generic and brand names, or assuming a generic is a weaker or different drug. A generic contains the same active ingredient and is held to the same FDA standards for quality and bioequivalence.",
+    "examples": [
+      "A patient asks a technician whether her new blood pressure medicine will make her dizzy; the technician correctly asks the pharmacist to counsel her.",
+      "Acetaminophen is the generic name for the active ingredient sold under the brand name Tylenol, so both labels contain the same drug.",
+      "A child who cannot swallow tablets may receive an oral suspension, which the caregiver must shake well before each use."
+    ],
+    "questions": [
+      {
+        "stem": "A customer at a retail pharmacy asks the technician whether it is safe to take her new antibiotic with her birth control pill. What should the technician do?",
+        "choices": [
+          "Answer based on the drug information leaflet",
+          "Refer the question to the pharmacist for counseling",
+          "Tell her to call her prescriber later",
+          "Look up the answer online and relay it"
+        ],
+        "answer": 1,
+        "explanation": "Counseling and drug interaction questions require the pharmacist's clinical judgment. Reading the leaflet aloud is still counseling, which is outside the technician's scope."
+      },
+      {
+        "stem": "Which name is the generic name of a drug?",
+        "choices": [
+          "Advil",
+          "Motrin",
+          "Tylenol",
+          "ibuprofen"
+        ],
+        "answer": 3,
+        "explanation": "Ibuprofen is the nonproprietary generic name. Advil and Motrin are brand names for ibuprofen, and Tylenol is a brand of acetaminophen."
+      },
+      {
+        "stem": "A patient's prescription is filled with a generic version instead of the brand. The patient worries it is a weaker drug. What is the best explanation?",
+        "choices": [
+          "Generics must be bioequivalent to the brand and contain the same active ingredient",
+          "Generics contain a lower dose to cut cost",
+          "Generics are only approved for mild conditions",
+          "Generics have identical inactive ingredients and appearance"
+        ],
+        "answer": 0,
+        "explanation": "FDA-approved generics are bioequivalent to the brand. They may look different because inactive ingredients and shape can differ, so 'identical appearance' is wrong."
+      },
+      {
+        "stem": "Which route of administration bypasses the digestive tract entirely by injecting into a vein?",
+        "choices": [
+          "Sublingual",
+          "Intramuscular",
+          "Intravenous",
+          "Buccal"
+        ],
+        "answer": 2,
+        "explanation": "Intravenous delivers drug directly into a vein. Intramuscular is also parenteral but goes into muscle, not a vein."
+      },
+      {
+        "stem": "A caregiver asks why the label on her son's liquid medicine says 'Shake well.' Which dosage form is it most likely?",
+        "choices": [
+          "Solution",
+          "Elixir",
+          "Syrup",
+          "Suspension"
+        ],
+        "answer": 3,
+        "explanation": "A suspension contains undissolved particles that settle, so it must be shaken. In a solution, syrup or elixir, the drug is already dissolved."
+      },
+      {
+        "stem": "A nursing home patient has trouble swallowing, and staff want to crush his extended-release tablet. Why is this a concern?",
+        "choices": [
+          "Crushing can release the entire dose at once",
+          "Crushing makes the tablet taste bitter only",
+          "Crushing turns it into a transdermal form",
+          "Crushing has no effect on extended-release tablets"
+        ],
+        "answer": 0,
+        "explanation": "Extended-release tablets are designed to release drug slowly; crushing can release it all at once. Taste is a minor issue compared with this safety risk."
+      },
+      {
+        "stem": "A medication is placed between the cheek and gum to dissolve. What is this route called?",
+        "choices": [
+          "Sublingual",
+          "Otic",
+          "Buccal",
+          "Topical"
+        ],
+        "answer": 2,
+        "explanation": "Buccal means between the cheek and gum. Sublingual is under the tongue, a similar but distinct route."
+      },
+      {
+        "stem": "Which pharmacy setting most commonly supplies medications through unit-dose packaging and automated dispensing cabinets for admitted patients?",
+        "choices": [
+          "Community pharmacy",
+          "Hospital pharmacy",
+          "Mail-order pharmacy",
+          "Compounding-only pharmacy"
+        ],
+        "answer": 1,
+        "explanation": "Hospital (institutional) pharmacies serve inpatients with unit-dose systems and dispensing cabinets. Community pharmacies serve walk-in public customers instead."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Pharmacy technician",
+        "definition": "A team member who supports the pharmacist with data entry, counting, inventory and insurance but may not counsel or make clinical decisions."
+      },
+      {
+        "term": "Generic name",
+        "definition": "The official nonproprietary name of a drug, written in lowercase, such as ibuprofen."
+      },
+      {
+        "term": "Bioequivalent",
+        "definition": "Delivering the same active ingredient at the same rate and extent as the brand-name drug."
+      },
+      {
+        "term": "Parenteral",
+        "definition": "Routes that bypass the digestive tract, such as IV, IM and subcutaneous injection."
+      },
+      {
+        "term": "Suspension",
+        "definition": "A liquid dosage form with undissolved particles that must be shaken before use."
+      }
+    ]
+  }
+]

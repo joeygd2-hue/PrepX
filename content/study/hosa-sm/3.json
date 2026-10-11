@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Concussion, heat illness and safe return to play",
+    "objective": "Recognize sport-related concussion and exertional heat illness, choose evidence-based emergency responses, and sequence a graduated return-to-sport progression.",
+    "body": "Some of the most serious conditions in sports medicine are not visible injuries at all. Sport-related concussion and exertional heat illness can look mild at first, yet both can become life-threatening when they are missed.\n\n**Concussion.** A **concussion** is a traumatic brain injury caused by a direct blow to the head or a force transmitted to the head from elsewhere, such as a hit to the chest that whips the neck. It is a functional disturbance, so standard imaging is usually normal. Loss of consciousness occurs in only a minority of cases. Signs and symptoms include headache, dizziness, confusion, nausea, sensitivity to light or noise, balance problems and feeling foggy.\n\nThe rule is simple: **when in doubt, sit them out.** An athlete with a suspected concussion is removed from play and does not return the same day. Red flags that call for emergency care include worsening headache, repeated vomiting, seizure, weakness or numbness, increasing confusion and deteriorating consciousness. Returning too soon risks a second injury before the brain recovers; rarely, this can lead to dangerous brain swelling.\n\n**Return to learn and return to sport.** Current consensus guidance supports a brief period of relative rest, about 24 to 48 hours, followed by light activity that does not markedly worsen symptoms. Return to school usually comes before full return to sport. The **graduated return-to-sport strategy** moves through stages, typically about 24 hours each:\n1. Symptom-limited daily activities.\n2. Light aerobic exercise, such as walking or a stationary bike.\n3. Sport-specific exercise without head-impact risk.\n4. Non-contact training drills.\n5. Full-contact practice after medical clearance.\n6. Return to competition.\n\nIf symptoms clearly worsen, the athlete steps back to the previous stage.\n\n**Exertional heat stroke.** **Exertional heat stroke (EHS)** is a medical emergency marked by central nervous system dysfunction, such as confusion, collapse or irritability, with a core body temperature above about 40 C (104 F). A **rectal temperature** is the accurate field measurement; oral, ear and skin readings are unreliable during exercise. The standard of care is **cool first, transport second**: immerse the athlete in cold water up to the neck immediately, then transport once the temperature reaches about 39 C (102 F), ideally within 30 minutes of collapse. Survival is close to universal when cooling starts quickly.\n\n**Heat exhaustion** is less severe: the athlete is fatigued, dizzy and sweating heavily but has normal mental function and a lower core temperature. Move them to shade, cool them and have them rehydrate. **Heat acclimatization** over the first 10 to 14 days of preseason gradually increases practice length, intensity and equipment to reduce risk.\n\nThe most common mistake students make is choosing immediate ambulance transport for heat stroke. Cooling on site comes first because every minute above critical temperature increases organ damage.",
+    "examples": [
+      "A soccer player heads the ball, then says the lights look too bright and he feels foggy; he is removed from the game and not allowed back that day, even though he never lost consciousness.",
+      "During August practice, a lineman becomes confused and stumbles; the staff measures a rectal temperature of 41 C and immerses him in a tub of ice water before EMS transport.",
+      "A recovering athlete feels fine on a stationary bike, but her headache returns strongly during sprint drills, so she returns to the previous stage the next day."
+    ],
+    "questions": [
+      {
+        "stem": "A rugby player takes a hard hit to the chest, never strikes his head, and afterward reports a headache and dizziness. What is the best interpretation?",
+        "choices": [
+          "A concussion is unlikely because the head was not struck",
+          "A concussion is possible because force was transmitted to the head",
+          "He has heat exhaustion",
+          "He should be cleared if he did not lose consciousness"
+        ],
+        "answer": 1,
+        "explanation": "Concussion can result from force transmitted to the head from a blow elsewhere on the body. Assuming no concussion because the head was not hit is the main error."
+      },
+      {
+        "stem": "A volleyball player who hit her head says she feels fine after 15 minutes, but earlier she was confused about the score. What should happen?",
+        "choices": [
+          "Return to play since symptoms resolved",
+          "Remove her from play for the rest of the day",
+          "Let her finish the set and reassess",
+          "Return her if a sideline balance test is normal"
+        ],
+        "answer": 1,
+        "explanation": "Any athlete with a suspected concussion is removed and does not return the same day. Quick symptom resolution or a single normal test does not rule out concussion."
+      },
+      {
+        "stem": "A football lineman collapses during a hot practice and is confused and combative. What is the most accurate way to measure his core temperature?",
+        "choices": [
+          "Oral thermometer",
+          "Tympanic (ear) thermometer",
+          "Rectal thermometer",
+          "Forehead skin thermometer"
+        ],
+        "answer": 2,
+        "explanation": "Rectal temperature is the accurate field measure of core temperature in exertional heat stroke. Oral and ear readings are affected by breathing and environment and often underestimate the temperature."
+      },
+      {
+        "stem": "A runner shows signs of exertional heat stroke with a rectal temperature of 41.5 C, and a cold-water tub is available. What is the best course of action?",
+        "choices": [
+          "Call an ambulance and transport immediately without cooling",
+          "Begin cold-water immersion immediately, then transport after cooling",
+          "Give fluids by mouth and observe in the shade",
+          "Apply ice packs to the forehead only and wait for EMS"
+        ],
+        "answer": 1,
+        "explanation": "The standard is cool first, transport second, because rapid whole-body immersion minimizes time at a damaging temperature. Transport without cooling delays the treatment that saves lives."
+      },
+      {
+        "stem": "Which finding best distinguishes exertional heat stroke from heat exhaustion?",
+        "choices": [
+          "Heavy sweating",
+          "Fatigue",
+          "Central nervous system dysfunction such as confusion",
+          "Thirst"
+        ],
+        "answer": 2,
+        "explanation": "Heat stroke involves CNS dysfunction with a very high core temperature, while heat exhaustion leaves mental function normal. Heavy sweating can occur in both, so it does not distinguish them."
+      },
+      {
+        "stem": "An athlete is two days past a concussion and has only mild symptoms. According to current consensus, what is most appropriate now?",
+        "choices": [
+          "Strict bed rest in a dark room for two weeks",
+          "Light activity that does not markedly worsen symptoms",
+          "Full-contact practice to test readiness",
+          "Heavy weightlifting to maintain strength"
+        ],
+        "answer": 1,
+        "explanation": "After about 24 to 48 hours of relative rest, light symptom-limited activity is recommended. Prolonged strict rest is no longer advised and may slow recovery."
+      },
+      {
+        "stem": "During the graduated return-to-sport strategy, an athlete's symptoms clearly worsen during non-contact drills. What should happen next?",
+        "choices": [
+          "Skip ahead to full-contact practice",
+          "Restart the entire progression from the first stage",
+          "Drop back to the previous stage",
+          "Stop exercise permanently"
+        ],
+        "answer": 2,
+        "explanation": "Clearly worsening symptoms mean the athlete returns to the previous stage and progresses again when tolerated. Restarting from the very beginning is more than guidance calls for."
+      },
+      {
+        "stem": "Why does a high school football program limit practice length and equipment during the first 10 to 14 days of preseason?",
+        "choices": [
+          "To reduce concussion rates only",
+          "To allow heat acclimatization",
+          "To comply with travel rules",
+          "To increase muscle mass faster"
+        ],
+        "answer": 1,
+        "explanation": "Gradual exposure over 10 to 14 days lets the body adapt to heat, reducing heat illness risk. It is not primarily a concussion measure."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Concussion",
+        "definition": "A traumatic brain injury from a direct or transmitted force to the head that disturbs brain function, often without loss of consciousness."
+      },
+      {
+        "term": "Graduated return-to-sport strategy",
+        "definition": "A stepwise progression from daily activities to full competition, with about 24 hours per stage and medical clearance before contact."
+      },
+      {
+        "term": "Exertional heat stroke",
+        "definition": "A medical emergency with CNS dysfunction and core temperature above about 40 C (104 F) during exercise."
+      },
+      {
+        "term": "Cool first, transport second",
+        "definition": "The heat stroke principle of immediate cold-water immersion on site before ambulance transport."
+      },
+      {
+        "term": "Heat acclimatization",
+        "definition": "A gradual 10 to 14 day increase in practice length, intensity and equipment that helps the body adapt to heat."
+      }
+    ]
+  }
+]

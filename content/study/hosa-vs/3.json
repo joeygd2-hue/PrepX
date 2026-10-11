@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Disease transmission, surgical asepsis, and clinical diagnostics",
+    "objective": "Analyze disease transmission routes, evaluate infection control and aseptic surgical practices, and interpret basic diagnostic findings in clinical scenarios.",
+    "body": "Advanced veterinary work ties together microbiology, infection control and diagnostics. A team that understands how disease spreads can break the chain of infection and choose the right tests.\n\n**The chain of infection.** Disease requires an infectious agent, a reservoir, a portal of exit, a mode of transmission, a portal of entry and a susceptible host. Breaking any link stops spread. Modes of transmission include:\n- **Direct contact**, such as bite wounds spreading rabies.\n- **Fomites**, inanimate objects like leashes, bowls or clippers that carry pathogens; canine parvovirus survives in the environment for months, so it spreads easily this way.\n- **Vectors**, living carriers such as mosquitoes (heartworm) or ticks (Lyme disease).\n- **Airborne or droplet** spread, as in kennel cough complex.\n\n**Infection control.** Sick animals with contagious disease are housed in an **isolation** ward with dedicated equipment and personal protective equipment (PPE). Cleaning and disinfection are separate steps: organic debris must be removed first because it can inactivate many disinfectants. Parvovirus is a non-enveloped virus resistant to many common disinfectants, so clinics choose products labeled as effective against it, such as properly diluted bleach or accelerated hydrogen peroxide, and respect the contact time on the label.\n\n**Surgical asepsis.** **Asepsis** means preventing microorganisms from entering a sterile field. Instruments are sterilized, commonly with steam in an **autoclave**, and indicator tape or strips confirm exposure to sterilizing conditions. The patient's site is clipped and prepped with an antiseptic in a pattern moving from the incision site outward. The surgeon performs a surgical scrub, then dons a sterile gown and gloves. Anything below the waist or behind the back of a gowned person is considered non-sterile. If sterility is in doubt, the item is considered contaminated.\n\n**Diagnostics.** Common in-clinic tests include:\n1. **Complete blood count (CBC)**, which evaluates red cells, white cells and platelets; an elevated white count can suggest infection or inflammation.\n2. Chemistry panels, which assess organs such as the kidneys and liver.\n3. **Urinalysis**, including urine specific gravity to assess concentrating ability.\n4. **Fecal flotation**, which uses a dense solution so parasite eggs float to a coverslip.\n5. Radiographs (x-rays) for bones and dense tissues and ultrasound for soft tissue detail.\n\nRapid antigen tests, such as a parvovirus fecal test or a heartworm antigen test, give results in minutes but are interpreted alongside clinical signs. Radiation safety requires lead aprons, thyroid shields, dosimeter badges and keeping hands out of the primary beam.\n\nThe most common mistake students make is assuming cleaning and disinfection are the same step, spraying disinfectant onto a soiled surface where organic matter prevents it from working.",
+    "examples": [
+      "A parvovirus-positive puppy is moved to isolation, and staff use dedicated gowns, gloves, bowls and leashes that never leave that ward.",
+      "After a surgery pack comes out of the autoclave, the technician checks that the indicator strip changed color before opening it in the operating room.",
+      "A fecal flotation on a lethargic puppy shows roundworm eggs floating on the coverslip, explaining its pot-bellied appearance."
+    ],
+    "questions": [
+      {
+        "stem": "A kennel attendant moves the same food bowl between a parvovirus-positive puppy and healthy puppies. This is an example of transmission by:",
+        "choices": [
+          "Vector",
+          "Airborne droplets",
+          "Fomite",
+          "Vertical transmission"
+        ],
+        "answer": 2,
+        "explanation": "An inanimate object carrying pathogens is a fomite, and parvovirus survives well on such surfaces. A vector is a living carrier such as a mosquito, not a bowl."
+      },
+      {
+        "stem": "A technician sprays disinfectant directly onto a kennel floor covered in feces and walks away. What is the main problem?",
+        "choices": [
+          "Organic matter can inactivate the disinfectant, so the floor should be cleaned first",
+          "Disinfectants work better on dirty surfaces",
+          "The disinfectant should be heated first",
+          "Kennel floors never need disinfecting"
+        ],
+        "answer": 0,
+        "explanation": "Cleaning to remove organic debris must come before disinfection because organic matter inactivates many disinfectants. Simply using more disinfectant does not solve that."
+      },
+      {
+        "stem": "During surgery, a gowned assistant's gloved hand drops below waist level. What should happen?",
+        "choices": [
+          "Nothing; gloves are sterile",
+          "The glove is considered contaminated and should be changed",
+          "The assistant should wipe it with alcohol",
+          "The surgeon should finish quickly"
+        ],
+        "answer": 1,
+        "explanation": "Areas below the waist are considered non-sterile, so the glove is contaminated and must be replaced. Wiping with alcohol does not restore sterility."
+      },
+      {
+        "stem": "Which test is most appropriate to look for intestinal parasite eggs in a puppy with diarrhea?",
+        "choices": [
+          "Urinalysis",
+          "Radiograph of the chest",
+          "Heartworm antigen test",
+          "Fecal flotation"
+        ],
+        "answer": 3,
+        "explanation": "Fecal flotation concentrates parasite eggs so they can be found under a microscope. A heartworm antigen test detects heartworms in blood, not intestinal parasites."
+      },
+      {
+        "stem": "A CBC on a dog with a fever shows an elevated white blood cell count. This finding most commonly suggests:",
+        "choices": [
+          "Infection or inflammation",
+          "Dehydration only",
+          "Normal aging",
+          "Kidney stones"
+        ],
+        "answer": 0,
+        "explanation": "An increased white blood cell count is commonly associated with infection or inflammation. Dehydration more typically affects concentration values like red cell measurements and protein."
+      },
+      {
+        "stem": "Heartworm and Lyme disease share which mode of transmission?",
+        "choices": [
+          "Fomite",
+          "Direct bite from an infected dog",
+          "Vector-borne",
+          "Ingestion of contaminated soil"
+        ],
+        "answer": 2,
+        "explanation": "Mosquitoes transmit heartworm and ticks transmit Lyme disease, so both are vector-borne. Neither is spread by direct dog-to-dog bites."
+      },
+      {
+        "stem": "A surgical pack's indicator tape has not changed color after the autoclave cycle. What should the technician do?",
+        "choices": [
+          "Use it, since it was in the autoclave",
+          "Treat the pack as non-sterile and reprocess it",
+          "Spray the pack with disinfectant",
+          "Use it only for short procedures"
+        ],
+        "answer": 1,
+        "explanation": "An unchanged indicator means sterilizing conditions may not have been reached, so the pack is treated as non-sterile. Disinfectant spray cannot achieve sterility."
+      },
+      {
+        "stem": "While a radiograph is taken of a dog's leg, which practice best protects the person holding the patient?",
+        "choices": [
+          "Holding the leg with bare hands in the beam",
+          "Standing behind the x-ray table without protection",
+          "Closing their eyes during exposure",
+          "Wearing a lead apron, thyroid shield and lead gloves and keeping hands out of the primary beam"
+        ],
+        "answer": 3,
+        "explanation": "Lead PPE and keeping hands out of the primary beam reduce radiation exposure. Lead gloves alone do not make it safe to place hands in the primary beam."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Fomite",
+        "definition": "An inanimate object, such as a bowl or leash, that carries pathogens."
+      },
+      {
+        "term": "Vector",
+        "definition": "A living carrier, such as a mosquito or tick, that transmits disease."
+      },
+      {
+        "term": "Asepsis",
+        "definition": "Preventing microorganisms from entering a sterile field."
+      },
+      {
+        "term": "Autoclave",
+        "definition": "Device that sterilizes instruments using pressurized steam."
+      },
+      {
+        "term": "Fecal flotation",
+        "definition": "Test using a dense solution to float parasite eggs to a coverslip."
+      }
+    ]
+  }
+]

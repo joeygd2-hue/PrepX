@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Drug safety, interactions, and medication error prevention",
+    "objective": "Evaluate drug safety using therapeutic index and adverse reaction types, predict common drug interactions, and apply the rights of medication administration and controlled substance schedules.",
+    "body": "Advanced pharmacology questions ask you to judge risk: how close a drug's effective level is to a harmful one, how drugs affect each other, and what systems prevent errors.\n\n**Therapeutic index.** The **therapeutic index** (TI) compares the dose that causes toxicity with the dose that produces the desired effect. A drug with a **narrow therapeutic index**, such as warfarin, digoxin, lithium, or phenytoin, has little margin between helpful and harmful levels, so these drugs often require blood level or lab monitoring.\n\n**Adverse reactions.** An **adverse drug reaction** is any harmful, unintended response. A **side effect** is predictable and related to the drug's action. An **allergic reaction** involves the immune system; the most severe form, **anaphylaxis**, causes airway swelling, wheezing, and low blood pressure and is treated first with epinephrine. An **idiosyncratic reaction** is unusual and unpredictable for that individual. **Tolerance** means a larger amount is needed for the same effect, while **dependence** means the body adapts so that stopping causes withdrawal.\n\n**Drug interactions.**\n- **Additive or synergistic** effects occur when drugs with similar actions combine; an opioid plus a benzodiazepine or alcohol can dangerously depress breathing.\n- **Antagonistic** effects occur when one drug blocks another; naloxone reverses opioid overdose by displacing opioids from receptors.\n- **Enzyme interactions**: many drugs are metabolized by liver **cytochrome P450 (CYP)** enzymes. An **enzyme inhibitor** slows metabolism of another drug and raises its level; an **enzyme inducer** speeds metabolism and lowers it. Grapefruit juice inhibits CYP3A4 in the gut and can raise levels of some statins.\n- **Food and supplements** matter too. St. John's wort is an inducer that can reduce the effect of many drugs, including some oral contraceptives.\n\n**Special populations.** Older adults often have reduced kidney and liver function and take multiple drugs (**polypharmacy**), raising interaction risk. Pregnancy and childhood also change how drugs behave, so prescribers check current references.\n\n**Error prevention.** Health care workers verify the **rights of medication administration**; the core five are right patient, right drug, right dose, right route, and right time, often expanded to include right documentation, reason, and response. Two patient identifiers, such as name and date of birth, are checked; a room number is never an identifier. Look-alike, sound-alike drugs (hydroxyzine and hydralazine) and **Tall Man lettering** (hydrOXYzine, hydrALAZINE) reduce mix-ups.\n\n**Controlled substances.** In the United States, the DEA assigns drugs with abuse potential to **Schedules I through V**. Schedule I drugs have high abuse potential and no currently accepted medical use in the U.S.; Schedule II drugs, such as oxycodone, have accepted uses but high abuse potential; abuse potential decreases toward Schedule V.\n\nThe most common mistake students make is reversing enzyme effects: an inhibitor raises the level of the other drug, and an inducer lowers it.",
+    "examples": [
+      "A patient on simvastatin who starts drinking grapefruit juice daily may develop higher statin levels and a greater risk of muscle damage.",
+      "A nurse giving a dose asks the patient to state their name and date of birth and compares both to the wristband and medication record before administering.",
+      "Naloxone given to a person with opioid overdose can quickly restore breathing because it competes with the opioid at its receptors."
+    ],
+    "questions": [
+      {
+        "stem": "Which drug is most likely to require routine blood level monitoring because of a narrow therapeutic index?",
+        "choices": [
+          "Amoxicillin",
+          "Loratadine",
+          "Omeprazole",
+          "Lithium"
+        ],
+        "answer": 3,
+        "explanation": "Lithium's toxic level is close to its effective level, so levels are monitored. Amoxicillin has a wide safety margin and does not routinely need levels."
+      },
+      {
+        "stem": "A patient starts a medication that inhibits the CYP enzyme responsible for metabolizing their existing drug. What is the most likely result?",
+        "choices": [
+          "The existing drug's blood level increases",
+          "The existing drug's blood level decreases",
+          "The existing drug is excreted faster by the kidneys",
+          "There is no change"
+        ],
+        "answer": 0,
+        "explanation": "Inhibiting the metabolizing enzyme slows breakdown, so levels rise and toxicity risk grows. A decrease would occur with an enzyme inducer, the classic reversal error."
+      },
+      {
+        "stem": "Minutes after an IV antibiotic, a patient develops hives, wheezing, and a sudden drop in blood pressure. Which is the first-line treatment for this reaction?",
+        "choices": [
+          "Acetaminophen",
+          "Epinephrine",
+          "Naloxone",
+          "A second antibiotic"
+        ],
+        "answer": 1,
+        "explanation": "These signs indicate anaphylaxis, and epinephrine is first-line. Naloxone reverses opioids and has no role in allergic reactions."
+      },
+      {
+        "stem": "A patient taking an opioid for pain is also prescribed a benzodiazepine. Which interaction is the greatest concern?",
+        "choices": [
+          "Antagonism reducing pain relief",
+          "Enzyme induction lowering both drug levels",
+          "Additive central nervous system and respiratory depression",
+          "Increased stomach acid"
+        ],
+        "answer": 2,
+        "explanation": "Both drugs depress the CNS, and combined they can dangerously slow breathing. Antagonism is wrong because the drugs do not block each other."
+      },
+      {
+        "stem": "Before giving a medication, which pair of patient identifiers is appropriate?",
+        "choices": [
+          "Room number and bed number",
+          "Diagnosis and room number",
+          "Physician name and admission date",
+          "Full name and date of birth"
+        ],
+        "answer": 3,
+        "explanation": "Two person-specific identifiers such as name and date of birth are standard. Room numbers change and can be shared, so they are never acceptable identifiers."
+      },
+      {
+        "stem": "Which statement correctly describes a Schedule II controlled substance in the United States?",
+        "choices": [
+          "Accepted medical use with high potential for abuse",
+          "No accepted medical use",
+          "Lowest abuse potential of all schedules",
+          "Available without any prescription"
+        ],
+        "answer": 0,
+        "explanation": "Schedule II drugs such as oxycodone have accepted medical uses but high abuse potential. 'No accepted medical use' describes Schedule I."
+      },
+      {
+        "stem": "A patient on an oral contraceptive begins taking St. John's wort. What is the most likely concern?",
+        "choices": [
+          "Increased contraceptive levels causing toxicity",
+          "Reduced contraceptive effectiveness from enzyme induction",
+          "Anaphylaxis",
+          "Respiratory depression"
+        ],
+        "answer": 1,
+        "explanation": "St. John's wort induces metabolizing enzymes, which can lower contraceptive levels and effectiveness. Increased levels would result from inhibition, not induction."
+      },
+      {
+        "stem": "A patient who has taken an opioid for months needs higher amounts to get the same pain relief. Which term describes this?",
+        "choices": [
+          "Dependence",
+          "Idiosyncratic reaction",
+          "Tolerance",
+          "Anaphylaxis"
+        ],
+        "answer": 2,
+        "explanation": "Tolerance is a reduced response requiring more drug for the same effect. Dependence refers to withdrawal when the drug is stopped, a related but different concept."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Therapeutic index",
+        "definition": "A comparison of the toxic dose to the effective dose; a narrow index means a small safety margin."
+      },
+      {
+        "term": "Anaphylaxis",
+        "definition": "A severe, life-threatening allergic reaction with airway swelling and low blood pressure, treated first with epinephrine."
+      },
+      {
+        "term": "Enzyme inhibitor",
+        "definition": "A drug that slows metabolism of another drug, raising that drug's blood level."
+      },
+      {
+        "term": "Polypharmacy",
+        "definition": "The use of multiple medications at once, which increases the risk of interactions and adverse effects."
+      },
+      {
+        "term": "Tall Man lettering",
+        "definition": "Use of capital letters to highlight differences in look-alike drug names, such as hydrOXYzine and hydrALAZINE."
+      }
+    ]
+  }
+]

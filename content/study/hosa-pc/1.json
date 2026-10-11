@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Infection control and safety in personal care",
+    "objective": "Apply standard precautions, perform proper hand hygiene, and identify safety practices that protect residents and caregivers during personal care.",
+    "body": "Every personal care skill, from bathing to feeding, starts with the same foundation: preventing the spread of infection and keeping the person safe. A personal care worker, such as a nursing assistant or home health aide, spends more hands-on time with patients than almost anyone else on the care team, so their habits directly shape patient outcomes.\n\n**The chain of infection.** Infection spreads when six links connect: an infectious agent, a reservoir, a portal of exit, a mode of transmission, a portal of entry and a susceptible host. Breaking any single link stops the spread. Hand hygiene breaks the mode of transmission link, which is why it is the most important infection control action.\n\n**Hand hygiene.** An alcohol-based hand rub is preferred for routine care when hands are not visibly soiled. Soap and water are required when hands are visibly dirty, after contact with blood or body fluids, and when caring for a patient with *Clostridioides difficile* (C. diff) or norovirus, because alcohol does not reliably kill spores. When washing, scrub all surfaces with friction for at least 20 seconds, keep fingertips pointed down, and turn off the faucet with a clean paper towel.\n\n**Standard precautions** treat the blood, body fluids, nonintact skin and mucous membranes of *every* patient as potentially infectious. They include hand hygiene, wearing **personal protective equipment (PPE)** whenever contact with body fluids is expected, safe handling of linens and sharps, and respiratory etiquette. **Transmission-based precautions** (contact, droplet and airborne) are added on top of standard precautions for patients with known or suspected infections.\n\n**PPE order.** Put on (don) PPE in this order:\n1. Gown\n2. Mask or respirator\n3. Goggles or face shield\n4. Gloves\n\nRemove (doff) gloves first because they are the most contaminated, then goggles, gown and mask, and perform hand hygiene afterward.\n\n**Basic safety.** Before any procedure, knock, introduce yourself, identify the patient with two identifiers, explain the procedure and provide privacy. Lower the bed to its lowest position and keep the call light within reach when you leave. Use **body mechanics**: keep a wide base of support, bend at the knees and hips rather than the waist, and hold loads close to your body.\n\nThe most common mistake students make is believing that gloves replace hand hygiene. Gloves can have tiny defects and hands become contaminated during removal, so hand hygiene is required both before putting gloves on and immediately after taking them off.",
+    "examples": [
+      "An aide caring for a resident with C. diff diarrhea washes with soap and water after removing gloves instead of using hand sanitizer, because alcohol does not kill the spores.",
+      "Before leaving a room after repositioning a patient, a nursing assistant lowers the bed, places the call light within reach, and performs hand hygiene."
+    ],
+    "questions": [
+      {
+        "stem": "A nursing assistant finishes helping a resident with C. diff use the bedpan. Which hand hygiene method is most appropriate after removing gloves?",
+        "choices": [
+          "Alcohol-based hand rub for 20 seconds",
+          "Soap and water with friction for at least 20 seconds",
+          "Putting on a new pair of gloves",
+          "Antiseptic wipes on the palms only"
+        ],
+        "answer": 1,
+        "explanation": "Soap and water physically removes C. diff spores, which alcohol does not reliably kill. Hand rub is preferred for routine care but is not adequate for spores."
+      },
+      {
+        "stem": "Which item of PPE should be removed first when leaving an isolation room?",
+        "choices": [
+          "Gown",
+          "Mask",
+          "Gloves",
+          "Goggles"
+        ],
+        "answer": 2,
+        "explanation": "Gloves are the most contaminated item, so they come off first. The gown is often confused because it is put on first, but donning and doffing orders are not simply reversed."
+      },
+      {
+        "stem": "An aide is about to empty a urinary drainage bag. No infection has been diagnosed. Which principle guides the aide's use of gloves?",
+        "choices": [
+          "Transmission-based precautions",
+          "Airborne precautions",
+          "Standard precautions",
+          "Protective isolation"
+        ],
+        "answer": 2,
+        "explanation": "Standard precautions apply to body fluids from every patient regardless of diagnosis. Transmission-based precautions are added only for known or suspected infections."
+      },
+      {
+        "stem": "Washing hands breaks which link in the chain of infection?",
+        "choices": [
+          "Reservoir",
+          "Mode of transmission",
+          "Susceptible host",
+          "Infectious agent"
+        ],
+        "answer": 1,
+        "explanation": "Clean hands stop germs from being carried between people, which is the mode of transmission. The reservoir is where organisms live and grow, not how they move."
+      },
+      {
+        "stem": "A caregiver needs to lift a box of supplies from the floor. Which technique uses correct body mechanics?",
+        "choices": [
+          "Bend at the waist with legs straight",
+          "Bend at the knees and hips and hold the box close",
+          "Twist the trunk to reach the box faster",
+          "Stand with feet close together for balance"
+        ],
+        "answer": 1,
+        "explanation": "Bending the knees and hips and keeping the load close uses the strong leg muscles and reduces back strain. Bending at the waist is the most common error and stresses the back."
+      },
+      {
+        "stem": "Before beginning a bed bath, what should the nursing assistant do first after entering the room?",
+        "choices": [
+          "Fill the basin with water",
+          "Knock, introduce self, and identify the resident",
+          "Remove the resident's gown",
+          "Raise the side rails"
+        ],
+        "answer": 1,
+        "explanation": "Knocking, introducing yourself and identifying the patient come before any procedure. Filling the basin is part of preparation but should follow identification and explanation."
+      },
+      {
+        "stem": "A resident's skin has an open, draining wound. The aide will change the bed linens. Which action is correct?",
+        "choices": [
+          "Shake the linens to remove debris",
+          "Hold soiled linens away from the uniform and wear gloves",
+          "Place soiled linens on the floor temporarily",
+          "Carry linens against the chest to avoid dropping them"
+        ],
+        "answer": 1,
+        "explanation": "Soiled linens should be handled with gloves and held away from the body to avoid contaminating the uniform. Shaking linens spreads microorganisms into the air."
+      },
+      {
+        "stem": "When leaving a resident's room, which action best promotes safety?",
+        "choices": [
+          "Leave the bed in a raised position for the next caregiver",
+          "Place the call light within the resident's reach",
+          "Turn off all lights",
+          "Close the door completely"
+        ],
+        "answer": 1,
+        "explanation": "The call light lets the resident summon help and must stay within reach. Leaving the bed raised increases fall injury risk."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Chain of infection",
+        "definition": "Six linked steps (agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host) that must connect for infection to spread."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Infection control practices applied to every patient, treating all blood and body fluids as potentially infectious."
+      },
+      {
+        "term": "Transmission-based precautions",
+        "definition": "Contact, droplet or airborne precautions added to standard precautions for known or suspected infections."
+      },
+      {
+        "term": "Personal protective equipment (PPE)",
+        "definition": "Gowns, masks, eye protection and gloves worn to block exposure to infectious material."
+      },
+      {
+        "term": "Body mechanics",
+        "definition": "Using posture and movement, such as a wide base and bent knees, to work safely and prevent injury."
+      }
+    ]
+  }
+]

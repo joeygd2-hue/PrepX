@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Animal species, terminology, and normal vital signs",
+    "objective": "Identify common veterinary species terms, compare normal vital signs across species, and recognize when a value is outside the normal range.",
+    "body": "Veterinary science starts with vocabulary and baselines. Before a veterinary assistant can spot illness, they must know what a healthy animal of that species looks like, what it is called, and what its normal numbers are.\n\n**Species and sex terminology.** Each species has specific names for the male, female, young and neutered animal. For example, a **canine** female is a bitch and the young is a puppy; a **feline** intact male is a tom and a female is a queen; an **equine** young female is a filly and an intact male is a stallion, while a castrated male is a gelding. In cattle, a **bovine** intact male is a bull, a castrated male is a steer, a young female that has not calved is a heifer, and the young is a calf. A female pig that has farrowed is a sow, and a young female that has not is a gilt. Using these terms correctly shows professionalism on the medical record.\n\n**Vital signs.** The core vital signs are temperature, pulse (heart rate) and respiration, often abbreviated **TPR**. Approximate adult resting ranges include:\n- Dog: temperature about 100.5-102.5 F, heart rate roughly 60-140 beats per minute (smaller dogs higher), respiration 10-30 breaths per minute.\n- Cat: temperature about 100.5-102.5 F, heart rate roughly 140-220, respiration 20-30.\n- Horse: temperature about 99-101 F, heart rate roughly 28-44, respiration 8-16.\n- Cow: temperature about 100.5-102.5 F, heart rate roughly 48-84, respiration 26-50.\n\nNotice the pattern: smaller animals generally have faster heart and breathing rates than large animals. Ranges vary somewhat between references, so clinics follow their own charts.\n\n**Taking vitals.** Temperature is taken rectally with a lubricated digital thermometer in most species. Heart rate can be counted with a stethoscope over the left chest or by feeling the **femoral pulse** on the inner thigh of dogs and cats. Respiration is counted by watching the chest rise and fall while the animal is calm; panting or excitement makes the count unreliable.\n\n**Other baseline checks.** **Capillary refill time (CRT)** is measured by pressing on the gum until it blanches and timing the return of pink color; under about two seconds is normal. Pink, moist mucous membranes suggest good perfusion, while pale, blue (cyanotic) or yellow (icteric) gums are warning signs. Skin tenting at the scruff gives a rough check of hydration.\n\nWhen recording vitals, always note the species, the time and the animal's condition (calm, stressed, just exercised). A number without context is hard to interpret.\n\nThe most common mistake students make is applying one species' normal range to another, such as calling a horse's heart rate of 36 dangerously low because it would be low for a dog.",
+    "examples": [
+      "A 4-year-old cat in the exam room has a heart rate of 180 beats per minute, which falls within the normal feline range even though it would be high for a large dog.",
+      "A technician presses on a dog's gum, sees the pink color return in about 1.5 seconds, and records a normal capillary refill time.",
+      "A rancher calls a 2-year-old castrated male bovine a steer and an unbred young female a heifer when describing his herd."
+    ],
+    "questions": [
+      {
+        "stem": "A horse at rest has a heart rate of 36 beats per minute. How should a veterinary assistant interpret this value?",
+        "choices": [
+          "Within the normal adult equine range",
+          "Abnormally low; the horse needs emergency care",
+          "High, suggesting pain or fever",
+          "Impossible to interpret without a blood test"
+        ],
+        "answer": 0,
+        "explanation": "Adult horses normally have resting heart rates of roughly 28-44 beats per minute, so 36 is normal. Calling it dangerously low applies a dog or cat range to a large animal."
+      },
+      {
+        "stem": "A client describes her 3-year-old castrated male horse. What is the correct term?",
+        "choices": [
+          "Stallion",
+          "Colt",
+          "Gelding",
+          "Filly"
+        ],
+        "answer": 2,
+        "explanation": "A castrated male horse is a gelding. A stallion is an intact adult male, and a colt is a young intact male, so neither fits a castrated animal."
+      },
+      {
+        "stem": "While examining a dog, an assistant notes gums that are pale and a capillary refill time of 4 seconds. What does this most likely indicate?",
+        "choices": [
+          "Normal perfusion",
+          "Dehydration only, with no circulation concern",
+          "Jaundice from liver disease",
+          "Possible poor perfusion such as shock or blood loss"
+        ],
+        "answer": 3,
+        "explanation": "A CRT above about two seconds with pale gums suggests poor perfusion, as seen in shock or blood loss. Jaundice would cause yellow (icteric) membranes, not pale ones."
+      },
+      {
+        "stem": "Which reading would be most concerning in a resting adult cat?",
+        "choices": [
+          "Temperature of 101.5 F",
+          "Temperature of 104.5 F",
+          "Respiratory rate of 24 breaths per minute",
+          "Heart rate of 170 beats per minute"
+        ],
+        "answer": 1,
+        "explanation": "A temperature of 104.5 F is well above the normal feline range of about 100.5-102.5 F, indicating fever or hyperthermia. A heart rate of 170 may look high to students but is normal for a cat."
+      },
+      {
+        "stem": "A young female pig that has never farrowed is called a:",
+        "choices": [
+          "Sow",
+          "Barrow",
+          "Gilt",
+          "Boar"
+        ],
+        "answer": 2,
+        "explanation": "A gilt is a young female pig that has not yet farrowed. A sow is a female that has already farrowed, which is the most common confusion."
+      },
+      {
+        "stem": "An assistant tries to count a dog's respiratory rate while the dog is panting heavily after a walk. What is the best action?",
+        "choices": [
+          "Wait until the dog is calm, then count chest movements",
+          "Record the panting rate as the resting rate",
+          "Count breaths for 5 seconds and multiply by 12",
+          "Skip respirations because they are not a vital sign"
+        ],
+        "answer": 0,
+        "explanation": "Respiration should be counted at rest by watching the chest rise and fall; panting gives an unreliable count. A short 5-second count still measures the panting, not a resting rate."
+      },
+      {
+        "stem": "Where is the femoral pulse most commonly palpated in a dog?",
+        "choices": [
+          "Under the jaw",
+          "At the base of the tail",
+          "On the top of the front paw",
+          "On the inner thigh"
+        ],
+        "answer": 3,
+        "explanation": "The femoral artery runs along the inner (medial) thigh, which is the standard pulse site in dogs and cats. The tail base is used for the coccygeal pulse in cattle, not the femoral pulse."
+      },
+      {
+        "stem": "Why does a cat usually have a faster normal heart rate than a cow?",
+        "choices": [
+          "Cats are always more stressed in clinics",
+          "Smaller animals generally have higher metabolic rates and faster heart rates",
+          "Cows have two hearts",
+          "Feline thermometers read higher"
+        ],
+        "answer": 1,
+        "explanation": "Smaller animals tend to have higher metabolic rates, so their heart and breathing rates are faster. Clinic stress can raise a reading, but it does not explain the normal species difference."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "TPR",
+        "definition": "Abbreviation for temperature, pulse and respiration, the core vital signs."
+      },
+      {
+        "term": "Capillary refill time (CRT)",
+        "definition": "Time for gum color to return after pressing; under about two seconds is normal."
+      },
+      {
+        "term": "Gelding",
+        "definition": "A castrated male horse."
+      },
+      {
+        "term": "Heifer",
+        "definition": "A young female bovine that has not yet calved."
+      },
+      {
+        "term": "Femoral pulse",
+        "definition": "Pulse felt over the femoral artery on the inner thigh of dogs and cats."
+      }
+    ]
+  }
+]

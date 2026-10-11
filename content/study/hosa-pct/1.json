@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Patient safety, infection control and the PCT role",
+    "objective": "Explain the patient care technician's scope of practice, apply standard and transmission-based precautions, and perform hand hygiene and patient identification correctly.",
+    "body": "A **patient care technician (PCT)** works under the direction of a licensed nurse to deliver hands-on care: bathing, feeding, ambulating, measuring vital signs, collecting specimens and, in many settings, performing phlebotomy and ECGs. Every task you do sits inside a **scope of practice**, the set of duties your training, certification, state rules and employer policy allow. A PCT does not assess, diagnose, interpret results or give medications. When a nurse **delegates** a task, you may accept it only if it is within your scope and you have been trained; if not, you say so and ask for help rather than guessing.\n\n**Infection control** protects patients and staff by breaking the chain of infection, which links an infectious agent, a reservoir, a portal of exit, a mode of transmission, a portal of entry and a susceptible host. Breaking any one link stops the spread.\n\n**Hand hygiene** is the single most important link-breaker. An alcohol-based hand rub is preferred for most routine moments, such as before and after patient contact and after touching the patient's surroundings. Use soap and water when hands are visibly soiled and when caring for a patient with *C. difficile* or norovirus, because alcohol does not reliably kill spores.\n\n**Standard precautions** apply to every patient, every time: hand hygiene, gloves and other **personal protective equipment (PPE)** whenever contact with blood or body fluids is possible, safe sharps handling, and respiratory hygiene. **Transmission-based precautions** are added for known or suspected infections:\n- **Contact**: gown and gloves (e.g., MRSA, C. diff).\n- **Droplet**: surgical mask within close range (e.g., influenza, pertussis).\n- **Airborne**: fit-tested N95 respirator and a negative-pressure room (e.g., tuberculosis, measles, chickenpox).\n\nPPE order matters. A common donning sequence is gown, mask or respirator, goggles or face shield, then gloves. Doffing removes the most contaminated items first, typically gloves and gown, then eye protection, then the mask, followed by hand hygiene.\n\n**Patient safety** starts with identification. Before any care, specimen or procedure, confirm at least **two identifiers**, such as the patient's full name and date of birth, against the wristband and the order. The room number is never an identifier. Other daily safety habits include keeping the bed low and locked, the call light within reach, and reporting falls, near misses and changes in condition promptly to the nurse.\n\nThe most common mistake students make is treating gloves as a substitute for hand hygiene. Gloves can have tiny defects and hands become contaminated during removal, so you must perform hand hygiene both before putting on gloves and immediately after taking them off.",
+    "examples": [
+      "Before drawing blood, a PCT asks the patient to state her full name and date of birth and compares both to the wristband and requisition, even though the nurse already said which room she is in.",
+      "A patient on contact precautions for C. difficile is discharged; the PCT washes with soap and water rather than using hand sanitizer after removing gloves.",
+      "A nurse asks a PCT to adjust an IV pump rate; the PCT declines because it is outside the PCT scope and notifies the nurse."
+    ],
+    "questions": [
+      {
+        "stem": "A nurse asks a PCT to give a patient his oral pain medication because the nurse is busy. What is the best response?",
+        "choices": [
+          "Give the medication because a nurse delegated it",
+          "Explain that medication administration is outside the PCT's scope and offer help with another task",
+          "Ask the patient whether he wants the medication now",
+          "Leave the pill cup at the bedside for the patient to take later"
+        ],
+        "answer": 1,
+        "explanation": "Medication administration is not within a PCT's scope, so the PCT should decline and offer alternative help. Delegation by a nurse does not expand a PCT's legal scope of practice."
+      },
+      {
+        "stem": "Which situation requires washing hands with soap and water instead of using alcohol-based hand rub?",
+        "choices": [
+          "Before taking a patient's blood pressure",
+          "After touching the bed rail of a patient with a cold",
+          "After caring for a patient with C. difficile diarrhea",
+          "Before entering a patient room to deliver a meal tray"
+        ],
+        "answer": 2,
+        "explanation": "C. difficile forms spores that alcohol does not reliably kill, so soap and water with friction is required. The other moments are routine, and alcohol rub is preferred for them."
+      },
+      {
+        "stem": "A patient with suspected tuberculosis is admitted. Which PPE should the PCT wear when entering the room?",
+        "choices": [
+          "Surgical mask only",
+          "Gown and gloves only",
+          "Fit-tested N95 respirator",
+          "Face shield only"
+        ],
+        "answer": 2,
+        "explanation": "Tuberculosis spreads by the airborne route, which requires a fit-tested N95 respirator and an airborne infection isolation room. A surgical mask is used for droplet precautions and does not filter airborne particles adequately."
+      },
+      {
+        "stem": "Which pair of identifiers is acceptable before collecting a specimen?",
+        "choices": [
+          "Room number and full name",
+          "Full name and date of birth",
+          "Bed number and diagnosis",
+          "Date of birth and room number"
+        ],
+        "answer": 1,
+        "explanation": "Two person-specific identifiers such as full name and date of birth are required. Room and bed numbers are locations, not identifiers, and patients can be moved."
+      },
+      {
+        "stem": "A PCT is caring for a patient with influenza on droplet precautions. What is the minimum respiratory protection when providing close care?",
+        "choices": [
+          "Fit-tested N95 respirator",
+          "Surgical (procedure) mask",
+          "No mask if the patient wears one",
+          "Powered air-purifying respirator"
+        ],
+        "answer": 1,
+        "explanation": "Droplet precautions call for a surgical mask during close contact. An N95 is the requirement for airborne diseases; it is not the minimum for droplet precautions."
+      },
+      {
+        "stem": "While removing PPE after caring for a patient on contact precautions, which item is generally removed first?",
+        "choices": [
+          "Mask",
+          "Goggles",
+          "Gloves",
+          "Hair cover"
+        ],
+        "answer": 2,
+        "explanation": "Gloves are the most contaminated item and are removed first (or together with the gown). Removing the mask early risks touching your face with contaminated gloves."
+      },
+      {
+        "stem": "Breaking which link of the chain of infection is the main purpose of hand hygiene?",
+        "choices": [
+          "Infectious agent",
+          "Reservoir",
+          "Mode of transmission",
+          "Susceptible host"
+        ],
+        "answer": 2,
+        "explanation": "Hands carry microorganisms from one person or surface to another, so hand hygiene interrupts the mode of transmission. Vaccination, by contrast, mainly protects the susceptible host."
+      },
+      {
+        "stem": "After finishing care, a PCT leaves a confused patient's room. Which action best reduces fall risk?",
+        "choices": [
+          "Raise all four side rails",
+          "Leave the bed in its highest position for easy access",
+          "Lower the bed, lock the wheels and place the call light within reach",
+          "Close the door so the patient can rest"
+        ],
+        "answer": 2,
+        "explanation": "A low, locked bed with the call light in reach is a core fall-prevention measure. Raising all four rails can act as a restraint and increase injury risk if the patient climbs over them."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scope of practice",
+        "definition": "The duties a PCT is legally and organizationally permitted to perform based on training, certification, state rules and employer policy."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Infection control practices used for every patient, including hand hygiene, PPE for possible fluid contact, safe sharps handling and respiratory hygiene."
+      },
+      {
+        "term": "Contact precautions",
+        "definition": "Transmission-based precautions requiring a gown and gloves for organisms spread by touch, such as MRSA and C. difficile."
+      },
+      {
+        "term": "Airborne precautions",
+        "definition": "Precautions using a fit-tested N95 respirator and negative-pressure room for diseases such as tuberculosis, measles and chickenpox."
+      },
+      {
+        "term": "Two identifiers",
+        "definition": "Two person-specific data points, such as full name and date of birth, checked before any care or specimen collection."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Range of motion, exercise, and assistive device training",
+    "objective": "Classify range-of-motion exercises, apply therapeutic exercise principles, and select and fit assistive devices with the correct gait pattern.",
+    "body": "Once the PT has evaluated a patient, much of treatment involves restoring motion, building strength and teaching safe mobility. Knowing the vocabulary lets you match an exercise or device to a patient's needs.\n\n**Range of motion (ROM)** is the amount of movement available at a joint, measured in degrees with a **goniometer**. There are three types of ROM exercise:\n1. **Passive ROM (PROM)**: the clinician or a machine moves the limb with no muscle effort from the patient. Used when the patient cannot or should not contract the muscle.\n2. **Active-assisted ROM (AAROM)**: the patient contracts the muscle but needs help to finish the motion.\n3. **Active ROM (AROM)**: the patient moves the joint through the range independently.\n\nStrength is built through resistance using the **overload principle**: muscles adapt when they work harder than usual, and the load is increased gradually over time (progression). Muscle contractions can be **isometric** (tension with no joint movement, like pushing against a wall), **concentric** (muscle shortens while working, like lifting a weight) or **eccentric** (muscle lengthens while controlling a load, like lowering it slowly).\n\n**Manual muscle testing (MMT)** grades strength on a 0 to 5 scale. Grade 3 (fair) means the patient can move through full range against gravity with no added resistance; grade 5 (normal) means full range against gravity with maximal resistance.\n\n**Assistive devices** improve balance or reduce weight on an injured leg:\n- **Canes** give the least support. Hold the cane in the hand *opposite* the weak or painful leg and move it forward with that leg.\n- **Crutches** can allow non-weight-bearing on one leg. The top of axillary crutches should sit about two to three finger widths below the armpit so weight goes through the hands, not the axilla.\n- **Walkers** give the most stability. For a standard walker, lift it forward, step with the weaker leg, then the stronger leg.\n\nFor all three, the handgrip is usually set at the level of the wrist crease when the arm hangs relaxed, giving about 20 to 30 degrees of elbow bend. On stairs, remember \"up with the good, down with the bad\": lead with the stronger leg going up and the weaker leg (with the device) going down.\n\n**Weight-bearing status** is ordered by the surgeon or physician and ranges from non-weight-bearing (NWB) to toe-touch, partial, weight-bearing as tolerated (WBAT) and full weight-bearing.\n\nThe most common mistake students make is placing a cane on the same side as the injured leg; the cane belongs on the stronger side so it widens the base of support and shares load with the weak leg.",
+    "examples": [
+      "A patient with a painful right knee holds a cane in the left hand and steps forward with the cane and the right leg together.",
+      "A stroke patient who can start lifting his arm but cannot finish the motion performs active-assisted ROM while the PTA guides the arm through the rest of the range."
+    ],
+    "questions": [
+      {
+        "stem": "A patient with a weak left hip is learning to use a single-point cane. In which hand should she hold it?",
+        "choices": [
+          "Left hand",
+          "Right hand",
+          "Either hand, based on preference",
+          "Both hands alternately"
+        ],
+        "answer": 1,
+        "explanation": "The cane goes opposite the weak leg, so it belongs in the right hand. Holding it on the left side fails to shift load away from the weak hip."
+      },
+      {
+        "stem": "A patient in a coma has the elbow moved through its full range by a PTA. What type of exercise is this?",
+        "choices": [
+          "Active ROM",
+          "Active-assisted ROM",
+          "Passive ROM",
+          "Resisted exercise"
+        ],
+        "answer": 2,
+        "explanation": "The patient gives no muscle effort, so it is passive ROM. Active-assisted ROM requires the patient to contract the muscle partway."
+      },
+      {
+        "stem": "A patient slowly lowers a dumbbell from shoulder height to her side. What contraction is the biceps performing?",
+        "choices": [
+          "Isometric",
+          "Eccentric",
+          "Concentric",
+          "Isokinetic"
+        ],
+        "answer": 1,
+        "explanation": "The biceps lengthens while controlling the load, which is eccentric. Concentric would be the shortening phase when lifting."
+      },
+      {
+        "stem": "A patient lifts his leg through full range against gravity but cannot hold against any added resistance. What MMT grade fits best?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Full range against gravity with no resistance is grade 3 (fair). Grade 5 requires holding against maximal resistance."
+      },
+      {
+        "stem": "Which device gives the greatest stability for an older adult with poor balance?",
+        "choices": [
+          "Single-point cane",
+          "Standard walker",
+          "Axillary crutches",
+          "Quad cane"
+        ],
+        "answer": 1,
+        "explanation": "A walker has the widest base of support. A quad cane is more stable than a single-point cane but still less stable than a walker."
+      },
+      {
+        "stem": "A patient using axillary crutches reports numbness in her hands and arms. What is the most likely cause?",
+        "choices": [
+          "The handgrips are set too low",
+          "She is leaning on the axillary pads",
+          "The crutch tips are too wide",
+          "She is using a three-point gait"
+        ],
+        "answer": 1,
+        "explanation": "Leaning on the axillary pads compresses nerves in the armpit. Low handgrips change elbow angle but do not typically put pressure on the axilla."
+      },
+      {
+        "stem": "A patient with a weak right leg climbs stairs with a cane. Which sequence is correct going up?",
+        "choices": [
+          "Right leg first, then cane and left leg",
+          "Cane first, then right leg, then left leg",
+          "Left leg first, then cane and right leg",
+          "Both legs together, then the cane"
+        ],
+        "answer": 2,
+        "explanation": "\"Up with the good\": the strong left leg leads, followed by the cane and the weak right leg. Leading with the weak leg asks it to lift the whole body."
+      },
+      {
+        "stem": "The surgeon orders WBAT after a hip repair. What does this mean?",
+        "choices": [
+          "The patient must not put any weight on the leg",
+          "The patient may only touch the toes to the floor",
+          "The patient may put as much weight on the leg as comfort allows",
+          "The patient must use a wheelchair only"
+        ],
+        "answer": 2,
+        "explanation": "Weight-bearing as tolerated lets the patient bear weight up to comfort. No weight at all describes NWB."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Goniometer",
+        "definition": "A tool used to measure joint range of motion in degrees."
+      },
+      {
+        "term": "Active-assisted ROM (AAROM)",
+        "definition": "Exercise in which the patient contracts the muscle but needs outside help to complete the motion."
+      },
+      {
+        "term": "Eccentric contraction",
+        "definition": "A muscle contraction in which the muscle lengthens while controlling a load."
+      },
+      {
+        "term": "Overload principle",
+        "definition": "The idea that muscles grow stronger when they work harder than usual, with the load increased gradually."
+      },
+      {
+        "term": "Weight-bearing as tolerated (WBAT)",
+        "definition": "An order allowing the patient to place as much weight on the limb as comfort allows."
+      }
+    ]
+  }
+]

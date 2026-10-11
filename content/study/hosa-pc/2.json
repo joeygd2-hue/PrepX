@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Performing hygiene, positioning, and vital sign skills",
+    "objective": "Perform and evaluate core personal care skills including bathing, oral care, positioning, and measuring vital signs while protecting dignity and safety.",
+    "body": "Once infection control is automatic, personal care becomes about doing tasks correctly while preserving the person's dignity and independence. Every skill follows the same frame: prepare, identify, explain, provide privacy, perform, then leave the person safe and comfortable and report anything abnormal.\n\n**Bathing and skin care.** Check water temperature with a thermometer or the inside of your wrist before use; it should feel comfortably warm, not hot. Wash from the cleanest area to the dirtiest, starting with the eyes (inner corner to outer, plain water, a clean section of the cloth for each eye). For **perineal care**, wipe from front to back to avoid moving bacteria from the rectal area toward the urethra. Bathing is also an assessment opportunity: look for redness over bony areas, which can be an early sign of a **pressure injury**.\n\n**Oral care.** For an unconscious resident, position them on their side with the head turned, use a minimal amount of liquid on a swab, and never put fingers in the mouth. Dentures are cleaned over a sink lined with a towel or partly filled with water so they do not break if dropped, and stored in a labeled cup.\n\n**Positioning and pressure injury prevention.** Residents who cannot move independently are generally repositioned at least every 2 hours, or more often per the care plan.\n- **Fowler's position**: head of bed raised about 45 to 60 degrees, helpful for breathing and eating.\n- **Lateral (side-lying)**: on one side with pillows supporting the back and between the knees.\n- **Supine**: flat on the back.\n- **Sims'**: a left side-lying position with the upper leg flexed, used for enemas.\nUse a lift or draw sheet to move residents up in bed to reduce **shearing**, the skin damage caused when skin stays in place while deeper tissue slides.\n\n**Vital signs.** Normal adult ranges: oral temperature about 97.6 to 99.6 degrees F, pulse 60 to 100 beats per minute, respirations 12 to 20 breaths per minute. Count respirations without telling the patient, because people change their breathing when they know it is being watched. A normal blood pressure is below 120/80 mm Hg. Report any value outside the normal range, along with changes in the person's condition, to the nurse promptly.\n\nThe most common mistake students make is skipping the *reporting* step. A nursing assistant collects data but does not diagnose or treat; a reading of 104 pulse is only useful if the nurse hears about it.",
+    "examples": [
+      "While bathing a resident, an aide notices a red area over the tailbone that does not fade after pressure is relieved and reports it to the nurse right away.",
+      "An aide counts a patient's respirations for 30 seconds while still appearing to take the pulse, then multiplies by two to get the per-minute rate."
+    ],
+    "questions": [
+      {
+        "stem": "While giving perineal care to a female resident, in which direction should the aide wipe?",
+        "choices": [
+          "Back to front",
+          "Front to back",
+          "In circles from the center outward",
+          "Side to side"
+        ],
+        "answer": 1,
+        "explanation": "Wiping front to back keeps bacteria from the anal area away from the urethra, reducing urinary tract infection risk. Back to front does the opposite."
+      },
+      {
+        "stem": "An aide measures a resident's pulse at 112 beats per minute at rest. What should the aide do?",
+        "choices": [
+          "Record it and recheck tomorrow",
+          "Report it to the nurse promptly",
+          "Give the resident water and recheck in an hour",
+          "Tell the resident their heart is racing"
+        ],
+        "answer": 1,
+        "explanation": "A resting adult pulse above 100 is outside the normal range and must be reported promptly. Simply recording it delays nursing assessment."
+      },
+      {
+        "stem": "Why should an aide avoid telling a patient that respirations are being counted?",
+        "choices": [
+          "It is against facility policy to discuss vital signs",
+          "Patients may change their breathing pattern",
+          "It takes too much time",
+          "Respirations cannot be counted while the patient talks"
+        ],
+        "answer": 1,
+        "explanation": "People tend to alter their breathing when they know it is observed, giving an inaccurate count. Talking does interfere with counting, but the main reason is the conscious change in breathing."
+      },
+      {
+        "stem": "A resident with difficulty breathing asks to sit up in bed. Which position is most appropriate?",
+        "choices": [
+          "Supine",
+          "Sims'",
+          "Fowler's",
+          "Prone"
+        ],
+        "answer": 2,
+        "explanation": "Fowler's position raises the head of the bed and allows the chest to expand more easily. Sims' is a side-lying position used for procedures such as enemas."
+      },
+      {
+        "stem": "An aide is providing mouth care for an unconscious resident. Which action is correct?",
+        "choices": [
+          "Position the resident on their side with the head turned",
+          "Use a large amount of water to rinse",
+          "Place a finger in the mouth to hold it open",
+          "Keep the resident flat on the back"
+        ],
+        "answer": 0,
+        "explanation": "Side-lying with the head turned lets fluid drain out and lowers aspiration risk. Lying flat on the back allows fluid to run into the airway."
+      },
+      {
+        "stem": "Two aides need to move a resident up in bed. Which technique best prevents shearing?",
+        "choices": [
+          "Pull the resident by the arms",
+          "Slide the resident across the sheet",
+          "Use a draw or lift sheet to lift and move",
+          "Ask the resident to push with their heels"
+        ],
+        "answer": 2,
+        "explanation": "A lift sheet raises the body slightly so skin does not drag across the bed. Sliding the resident causes the exact friction and shearing the technique is meant to avoid."
+      },
+      {
+        "stem": "While cleaning dentures, how should the aide protect them from breaking?",
+        "choices": [
+          "Use hot water to soften debris",
+          "Line the sink with a towel or partly fill it with water",
+          "Hold them firmly over the floor",
+          "Soak them in mouthwash only"
+        ],
+        "answer": 1,
+        "explanation": "A towel or water cushions the dentures if dropped. Hot water can warp them, which is a separate risk."
+      },
+      {
+        "stem": "A resident who cannot move independently has been in the same position since breakfast four hours ago. What is the main concern?",
+        "choices": [
+          "Dehydration",
+          "Pressure injury",
+          "Hypertension",
+          "Fever"
+        ],
+        "answer": 1,
+        "explanation": "Prolonged pressure over bony areas reduces blood flow and can cause a pressure injury, which is why repositioning at least every 2 hours is standard. Dehydration is possible but is not caused by lack of position change."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Perineal care",
+        "definition": "Cleaning of the genital and anal area, done front to back to prevent infection."
+      },
+      {
+        "term": "Pressure injury",
+        "definition": "Localized damage to skin and tissue, usually over a bony area, caused by prolonged pressure."
+      },
+      {
+        "term": "Fowler's position",
+        "definition": "Semi-sitting position with the head of the bed raised about 45 to 60 degrees."
+      },
+      {
+        "term": "Shearing",
+        "definition": "Skin damage that occurs when skin stays in place while deeper tissues slide in the opposite direction."
+      },
+      {
+        "term": "Sims' position",
+        "definition": "Left side-lying position with the upper leg flexed, often used for enemas."
+      }
+    ]
+  }
+]

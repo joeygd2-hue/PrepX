@@ -1,0 +1,124 @@
+[
+  {
+    "title": "The global burden of disease and its causes",
+    "objective": "Compare communicable and noncommunicable disease burdens across income levels, explain the epidemiologic transition, and apply this knowledge to identify effective prevention strategies.",
+    "body": "Once you can measure health gaps, the next question is what causes them. The answer differs sharply by country income, and recognizing those patterns is central to world health.\n\n**Communicable vs. noncommunicable diseases.** **Communicable diseases** spread from person to person or through vectors, food or water; examples include tuberculosis, malaria, HIV and diarrheal disease. **Noncommunicable diseases (NCDs)** are not transmitted between people and are usually chronic: cardiovascular disease, cancers, chronic respiratory disease and diabetes. According to the WHO, NCDs cause about three of every four deaths worldwide, and most premature NCD deaths occur in low- and middle-income countries.\n\n**The epidemiologic transition.** As countries gain clean water, sanitation, vaccines and better nutrition, deaths from infections and childhood illness fall and people live longer. The leading causes of death then shift toward NCDs. Many middle-income countries now face a **double burden of disease**: they still fight infections such as tuberculosis while heart disease, diabetes and cancer rise quickly. A similar double burden of malnutrition exists when undernutrition and obesity occur in the same community or even the same household.\n\n**Key communicable threats.**\n- **Malaria** is spread by infected female *Anopheles* mosquitoes; the WHO African Region carries roughly 95% of cases and deaths, most among children under 5. Insecticide-treated nets, indoor spraying, prompt testing and treatment, and malaria vaccines for young children are core tools.\n- **Tuberculosis (TB)** is an airborne bacterial infection and has again become the world's leading cause of death from a single infectious agent. It is curable, but treatment requires months of medication, so interruptions in care fuel drug resistance.\n- **Diarrheal disease** remains a major killer of young children, driven by unsafe water, poor sanitation and poor hygiene. **Oral rehydration solution (ORS)** plus zinc, rotavirus vaccination, and **WASH** (water, sanitation and hygiene) programs prevent most of these deaths.\n\n**Risk factors for NCDs.** Four behavioral risks drive much of the NCD burden: tobacco use, unhealthy diet, physical inactivity and harmful alcohol use. Air pollution is also a leading environmental risk. These behaviors are shaped by environment and policy, such as tobacco taxes, food marketing and safe places to walk, not just by personal choice.\n\n**Matching the intervention to the burden.** Effective programs follow the data. A region with high child mortality from diarrhea benefits most from water, sanitation and vaccines; a region where stroke is rising benefits from blood pressure screening, salt reduction and tobacco control. Low-cost, high-impact measures that reach many people, often called \"best buys\" by the WHO, deliver the greatest gains in low-resource settings.\n\nThe most common mistake students make is assuming that low-income countries face only infectious diseases. In reality, NCDs are already a leading cause of death in most low- and middle-income countries, which is exactly what the double burden describes.",
+    "examples": [
+      "A middle-income country runs TB clinics while also launching a national salt-reduction campaign because strokes are rising, a response to the double burden of disease.",
+      "A village that installs protected wells and latrines and teaches handwashing sees childhood diarrhea cases drop, illustrating the impact of WASH.",
+      "Distributing insecticide-treated bed nets to households with young children in a high-transmission area cuts malaria infections and deaths."
+    ],
+    "questions": [
+      {
+        "stem": "A country has cut child deaths from measles and diarrhea, life expectancy has risen, and heart disease is now its top cause of death. Which concept describes this shift?",
+        "choices": [
+          "Double burden of malnutrition",
+          "Epidemiologic transition",
+          "Health literacy gap",
+          "Herd immunity"
+        ],
+        "answer": 1,
+        "explanation": "The epidemiologic transition is the shift from infectious and childhood causes of death toward chronic NCDs as living conditions improve. The double burden of malnutrition refers to undernutrition and obesity coexisting, not a change in causes of death."
+      },
+      {
+        "stem": "A rural district reports that diarrhea is the leading cause of death in children under 5. Which intervention package would most directly reduce these deaths?",
+        "choices": [
+          "Cholesterol screening and statin campaigns",
+          "Safe water, sanitation, handwashing, ORS with zinc, and rotavirus vaccination",
+          "Mammography programs",
+          "Building a cardiac surgery unit"
+        ],
+        "answer": 1,
+        "explanation": "Diarrheal deaths are prevented by WASH, rotavirus vaccine and treatment with ORS and zinc. Cholesterol screening targets heart disease, which is not the leading problem described here."
+      },
+      {
+        "stem": "Which statement about noncommunicable diseases is accurate?",
+        "choices": [
+          "They cause a small share of deaths in low-income countries",
+          "They cause about three of every four deaths worldwide",
+          "They are mainly spread through contaminated water",
+          "They affect only adults over 70"
+        ],
+        "answer": 1,
+        "explanation": "WHO estimates that NCDs cause roughly 74% of global deaths, many of them premature and in low- and middle-income countries. Spread through water describes communicable diseases such as cholera."
+      },
+      {
+        "stem": "A community health worker in sub-Saharan Africa wants to reduce malaria in children under 5. Which approach is best supported by evidence?",
+        "choices": [
+          "Distributing insecticide-treated bed nets and ensuring prompt testing and treatment",
+          "Teaching families to boil drinking water",
+          "Providing daily antibiotics to all children",
+          "Closing schools during the rainy season"
+        ],
+        "answer": 0,
+        "explanation": "Malaria is spread by mosquitoes, so bed nets and fast diagnosis and treatment are proven tools. Boiling water prevents waterborne disease, not mosquito-borne malaria."
+      },
+      {
+        "stem": "In one household, a toddler is stunted from chronic undernutrition while a parent has obesity and type 2 diabetes. What does this illustrate?",
+        "choices": [
+          "The epidemiologic transition reversing",
+          "A double burden of malnutrition",
+          "A vector-borne disease cluster",
+          "A disability-adjusted life year"
+        ],
+        "answer": 1,
+        "explanation": "Undernutrition and overweight occurring together in the same household is the double burden of malnutrition. The epidemiologic transition describes population-level shifts in causes of death, not this household pattern."
+      },
+      {
+        "stem": "A patient with tuberculosis stops taking medication after feeling better in the second month. Why is this a public health concern?",
+        "choices": [
+          "TB cannot be cured, so treatment is optional",
+          "Interrupted treatment can lead to relapse and drug-resistant TB",
+          "TB is spread mainly by mosquitoes",
+          "Stopping early makes the patient immune"
+        ],
+        "answer": 1,
+        "explanation": "TB treatment lasts months, and stopping early can leave surviving bacteria that develop resistance and continue to spread through the air. TB is curable, so the idea that treatment is optional is wrong."
+      },
+      {
+        "stem": "A government wants a low-cost policy to reduce the four main behavioral NCD risk factors across the whole population. Which option fits best?",
+        "choices": [
+          "Raising taxes on tobacco products",
+          "Building a new specialty hospital",
+          "Expanding organ transplant capacity",
+          "Importing more dialysis machines"
+        ],
+        "answer": 0,
+        "explanation": "Tobacco taxes reduce smoking across the population cheaply and are a WHO-recommended \"best buy.\" Specialty hospitals and dialysis treat disease after it develops and reach far fewer people."
+      },
+      {
+        "stem": "Which pair correctly matches a disease with its primary mode of transmission?",
+        "choices": [
+          "Malaria - contaminated drinking water",
+          "Tuberculosis - airborne droplets from an infected person",
+          "Cholera - mosquito bites",
+          "Type 2 diabetes - person-to-person contact"
+        ],
+        "answer": 1,
+        "explanation": "TB spreads through the air when an infected person coughs or speaks. Malaria spreads through mosquito bites, not water, and diabetes is noncommunicable."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Noncommunicable disease (NCD)",
+        "definition": "A disease not transmitted between people, usually chronic, such as heart disease, cancer, chronic respiratory disease or diabetes."
+      },
+      {
+        "term": "Epidemiologic transition",
+        "definition": "The shift in leading causes of death from infections and childhood illness toward chronic noncommunicable diseases as living conditions improve."
+      },
+      {
+        "term": "Double burden of disease",
+        "definition": "A situation in which a population faces high levels of both communicable and noncommunicable diseases at the same time."
+      },
+      {
+        "term": "WASH",
+        "definition": "Water, sanitation and hygiene programs that prevent diarrheal and other infectious diseases."
+      },
+      {
+        "term": "Oral rehydration solution (ORS)",
+        "definition": "A mixture of clean water, salts and sugar used to replace fluids lost in diarrhea, usually given with zinc."
+      }
+    ]
+  }
+]

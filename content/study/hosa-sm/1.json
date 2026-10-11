@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Classifying sports injuries and the tissues they affect",
+    "objective": "Identify musculoskeletal tissues, classify injuries as acute or overuse, and grade sprains and strains using correct sports medicine terminology.",
+    "body": "Sports medicine begins with naming an injury precisely. A clinician who can say which tissue is hurt, how it was hurt and how badly can choose the right care and communicate clearly with the rest of the team.\n\n**Tissues of the musculoskeletal system.** Bones provide the framework, and joints are where bones meet. **Ligaments** connect bone to bone and stabilize joints. **Tendons** connect muscle to bone and transmit the force of contraction. **Cartilage** cushions joint surfaces, and a **bursa** is a small fluid-filled sac that reduces friction where tendons glide over bone.\n\n**Acute versus overuse.** An **acute injury** results from a single, identifiable traumatic event, such as rolling an ankle when landing on another player's foot. An **overuse injury** develops gradually from repeated stress without enough recovery, such as a stress fracture in a runner who increased mileage too quickly or tendinopathy in a pitcher's elbow. The mechanism matters because overuse injuries are prevented mainly through training changes, while acute injuries are often linked to contact, equipment or technique.\n\n**Sprains and strains.** These two words are the most commonly confused terms in the event.\n- A **sprain** is an injury to a ligament.\n- A **strain** is an injury to a muscle or tendon.\n\nBoth are graded by severity:\n1. Grade I: fibers are stretched or microscopically torn; mild pain, little or no loss of function or joint stability.\n2. Grade II: partial tear; moderate pain, swelling, some loss of function and, for a sprain, some joint laxity.\n3. Grade III: complete rupture; significant loss of function, and for a sprain, marked instability. Pain can paradoxically be less than in Grade II because nerve fibers are torn as well.\n\n**Other key terms.** A **contusion** is a bruise caused by a direct blow that damages soft tissue and small blood vessels. A **fracture** is a break in a bone; it is open (compound) if bone breaks through the skin and closed if it does not. A **dislocation** means the joint surfaces are completely separated, while a **subluxation** is a partial separation that often reduces on its own.\n\n**Directional terms.** Describing location uses anatomical position. Proximal means closer to the trunk, distal farther away; medial is toward the midline and lateral away from it. The common inversion ankle sprain, where the sole turns inward, usually injures the lateral ligaments, most often the anterior talofibular ligament.\n\nThe most common mistake students make is swapping sprain and strain. Remember the letter t: s-t-rain involves the t-endon and muscle, while a sprain involves a ligament.",
+    "examples": [
+      "A volleyball player lands on a teammate's foot, rolls the ankle inward and has swelling over the outside of the ankle but a stable joint: an acute Grade I or II lateral ankle sprain.",
+      "A cross-country runner who jumped from 20 to 40 miles a week develops pinpoint shin pain that worsens with each run: a likely overuse injury such as a tibial stress fracture.",
+      "A soccer player feels a pop in the back of the thigh while sprinting and cannot continue: a hamstring strain, an injury to muscle and tendon."
+    ],
+    "questions": [
+      {
+        "stem": "A basketball player twists her knee and an exam shows the knee joint moves abnormally with no firm end point, though she reports surprisingly little pain. Which grade of sprain is most consistent with these findings?",
+        "choices": [
+          "Grade I",
+          "Grade II",
+          "Grade III",
+          "Grade 0"
+        ],
+        "answer": 2,
+        "explanation": "Gross instability with no firm end point indicates a complete ligament rupture, a Grade III sprain, and pain may be lower because nerve fibers are also torn. Grade II would show some laxity but still a partial tear with an end point."
+      },
+      {
+        "stem": "A swimmer reports shoulder pain that started gradually over six weeks after doubling his training yardage. How should this injury be classified?",
+        "choices": [
+          "Acute injury",
+          "Overuse injury",
+          "Contusion",
+          "Dislocation"
+        ],
+        "answer": 1,
+        "explanation": "Gradual onset tied to increased repetitive load with no single traumatic event defines an overuse injury. An acute injury requires one identifiable event."
+      },
+      {
+        "stem": "Which structure is injured in a strain?",
+        "choices": [
+          "Ligament connecting bone to bone",
+          "Muscle or tendon",
+          "Articular cartilage",
+          "Bursa"
+        ],
+        "answer": 1,
+        "explanation": "A strain involves a muscle or its tendon. A ligament injury is a sprain, the most common confusion."
+      },
+      {
+        "stem": "A football player takes a helmet to the front of the thigh and develops a painful, discolored area with no joint involvement. What is the best term for this injury?",
+        "choices": [
+          "Strain",
+          "Sprain",
+          "Contusion",
+          "Subluxation"
+        ],
+        "answer": 2,
+        "explanation": "A direct blow that damages soft tissue and small vessels produces a contusion. A strain results from overstretching or forceful contraction, not a direct blow."
+      },
+      {
+        "stem": "A wrestler's shoulder briefly slips partly out of the socket and then returns to place on its own. Which term describes this?",
+        "choices": [
+          "Dislocation",
+          "Subluxation",
+          "Closed fracture",
+          "Grade III strain"
+        ],
+        "answer": 1,
+        "explanation": "A partial separation of joint surfaces that often reduces spontaneously is a subluxation. A dislocation is a complete separation that typically stays out of place."
+      },
+      {
+        "stem": "A sprinter suffers an inversion ankle sprain. Which ligament is most likely injured?",
+        "choices": [
+          "Anterior talofibular ligament",
+          "Medial collateral ligament of the knee",
+          "Deltoid ligament",
+          "Anterior cruciate ligament"
+        ],
+        "answer": 0,
+        "explanation": "Inversion stresses the lateral ankle, and the anterior talofibular ligament is the most frequently injured lateral ligament. The deltoid ligament is on the medial side and is stressed by eversion."
+      },
+      {
+        "stem": "On an injury report, an athletic trainer notes swelling 'distal to the knee.' Where is the swelling located?",
+        "choices": [
+          "Above the knee, toward the hip",
+          "Below the knee, toward the foot",
+          "On the inner side of the knee",
+          "On the outer side of the knee"
+        ],
+        "answer": 1,
+        "explanation": "Distal means farther from the trunk, so the swelling is below the knee. 'Toward the hip' would be proximal."
+      },
+      {
+        "stem": "A gymnast falls and a bone end is visible through a wound on her forearm. How is this injury classified?",
+        "choices": [
+          "Closed fracture",
+          "Open fracture",
+          "Subluxation",
+          "Contusion"
+        ],
+        "answer": 1,
+        "explanation": "A fracture in which bone breaks through the skin is an open (compound) fracture, which also carries infection risk. A closed fracture leaves the skin intact."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Sprain",
+        "definition": "An injury to a ligament, the tissue that connects bone to bone."
+      },
+      {
+        "term": "Strain",
+        "definition": "An injury to a muscle or tendon, the tissue that connects muscle to bone."
+      },
+      {
+        "term": "Overuse injury",
+        "definition": "An injury that develops gradually from repeated stress without adequate recovery."
+      },
+      {
+        "term": "Subluxation",
+        "definition": "A partial separation of joint surfaces that often reduces on its own."
+      },
+      {
+        "term": "Contusion",
+        "definition": "A bruise caused by a direct blow that damages soft tissue and small blood vessels."
+      }
+    ]
+  }
+]

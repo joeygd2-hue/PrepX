@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Emergencies, cognitive impairment and end-of-life care",
+    "objective": "Respond to emergencies within the nursing assistant role, adapt communication for residents with dementia, and provide respectful care at the end of life.",
+    "body": "Advanced questions combine several skills at once: a resident with dementia who becomes agitated, a fall in the hallway, or a family member at a dying resident's bedside. The best answer usually protects the resident first, gets help, and keeps the assistant inside their role.\n\n**Responding to emergencies.** When a resident is found on the floor, do not lift them right away. Stay with the resident, call for the nurse, and keep them still until they are assessed for injury. If a resident falls while you are walking with them using a **gait belt**, keep your back straight, widen your stance and ease them to the floor rather than trying to hold them up. For a fire, follow **RACE**: Rescue residents in danger, sound the Alarm, Contain the fire by closing doors, and Extinguish if it is small and safe, or Evacuate. Use a fire extinguisher with **PASS**: Pull the pin, Aim at the base, Squeeze the handle, Sweep side to side.\n\nKnow warning signs that require immediate reporting:\n1. Stroke signs, remembered with **BE FAST**: Balance loss, Eyes (vision change), Face drooping, Arm weakness, Speech difficulty, Time to call for help.\n2. Chest pain or pressure, sudden shortness of breath, or cool, clammy skin.\n3. Choking: a resident who cannot speak or cough needs abdominal thrusts; one who is coughing forcefully should be encouraged to keep coughing.\n\n**Dementia care.** Residents with **dementia**, such as Alzheimer's disease, have progressive memory loss and may become anxious or agitated, often late in the day (**sundowning**). Effective approaches include speaking slowly in short sentences, giving one-step directions, keeping routines consistent and reducing noise. Do not argue with or repeatedly correct a confused resident; use **validation** and redirection by acknowledging feelings and guiding attention to a calming activity. Physical or chemical restraints are not a substitute for care and are used only under specific orders.\n\n**End-of-life care.** As death approaches, breathing may become irregular with pauses, skin may become cool and mottled, and intake decreases. Comfort becomes the focus: frequent mouth care, repositioning, keeping the resident clean and dry, and speaking gently because hearing is believed to be among the last senses lost. Follow the resident's **advance directives**, such as a do-not-resuscitate order, which the nurse confirms. Hospice care supports both the resident and family. After death, **postmortem care** is done with respect, following facility policy and the family's cultural or religious wishes.\n\nThe most common mistake students make is picking an answer that confronts a confused resident with reality, such as telling a woman searching for her late husband that he died, instead of calmly acknowledging her feelings and redirecting.",
+    "examples": [
+      "A resident with Alzheimer's disease insists at 5 p.m. that she must leave to pick up her children from school. The assistant says, \"You really care about your children; tell me about them,\" and walks with her to a quiet area for a snack.",
+      "An assistant finds a resident sitting on the bathroom floor. She stays with him, presses the call light for the nurse, and does not move him until the nurse checks for injuries."
+    ],
+    "questions": [
+      {
+        "stem": "An assistant enters a room and finds a resident lying on the floor beside the bed, awake and talking. What should the assistant do first?",
+        "choices": [
+          "Lift the resident back into bed using a gait belt",
+          "Stay with the resident and call for the nurse",
+          "Help the resident walk to a chair",
+          "Fill out an incident report before anything else"
+        ],
+        "answer": 1,
+        "explanation": "The resident must be assessed for injury before being moved, so the assistant stays and calls for help. Lifting first could worsen a fracture or head injury."
+      },
+      {
+        "stem": "While walking with a resident using a gait belt, the resident's knees buckle. What should the assistant do?",
+        "choices": [
+          "Hold the resident upright by the arms",
+          "Let go and call for help",
+          "Widen the stance and ease the resident to the floor",
+          "Quickly pull the resident toward the nearest chair"
+        ],
+        "answer": 2,
+        "explanation": "Guiding the resident down controls the fall and protects both people. Trying to hold the resident upright risks injury to both."
+      },
+      {
+        "stem": "A resident with dementia repeatedly asks where her husband is. Her husband died three years ago. Which response is most appropriate?",
+        "choices": [
+          "\"Your husband died three years ago; you need to remember that.\"",
+          "\"You miss him. Tell me how you two met.\"",
+          "\"He will be here soon, so wait in your room.\"",
+          "\"I have already answered that question several times.\""
+        ],
+        "answer": 1,
+        "explanation": "Validation acknowledges feelings and redirects without causing repeated grief. Restating the death forces her to relive the loss each time."
+      },
+      {
+        "stem": "A resident suddenly has slurred speech and drooping on one side of his face. What should the assistant do?",
+        "choices": [
+          "Let him rest and recheck in an hour",
+          "Give him water to help him speak",
+          "Stay with him and report to the nurse immediately",
+          "Help him walk to the nurses' station"
+        ],
+        "answer": 2,
+        "explanation": "These are stroke signs, and time to treatment matters, so the nurse must be alerted immediately. Waiting delays treatment, and giving fluids risks choking if swallowing is affected."
+      },
+      {
+        "stem": "A fire starts in a wastebasket in a resident's room. Following RACE, what is the first step?",
+        "choices": [
+          "Sound the alarm",
+          "Close the door",
+          "Remove the resident from danger",
+          "Use the fire extinguisher"
+        ],
+        "answer": 2,
+        "explanation": "RACE begins with Rescue: move residents in immediate danger. Sounding the alarm is the second step."
+      },
+      {
+        "stem": "A resident is eating and begins coughing forcefully but can still speak. What should the assistant do?",
+        "choices": [
+          "Perform abdominal thrusts immediately",
+          "Encourage the resident to keep coughing and stay with them",
+          "Give the resident a drink of water",
+          "Slap the resident firmly on the back"
+        ],
+        "answer": 1,
+        "explanation": "A forceful cough means the airway is partly open and coughing is the best way to clear it. Abdominal thrusts are for a resident who cannot cough, speak or breathe."
+      },
+      {
+        "stem": "A dying resident is unresponsive. Her daughter asks whether she should keep talking to her mother. What is the best reply?",
+        "choices": [
+          "\"No, she cannot hear anything now.\"",
+          "\"Yes, hearing is thought to be one of the last senses lost, so please keep talking to her.\"",
+          "\"Only the nurse should speak with her now.\"",
+          "\"Talking might upset her, so it is better to stay quiet.\""
+        ],
+        "answer": 1,
+        "explanation": "Hearing is believed to remain late in the dying process, so speaking to the resident can comfort both. Saying she cannot hear is inaccurate and discourages connection."
+      },
+      {
+        "stem": "Which approach is most likely to reduce sundowning behaviors in a resident with dementia?",
+        "choices": [
+          "Schedule baths and appointments late in the afternoon",
+          "Keep a consistent routine and a calm, well-lit environment in the evening",
+          "Use restraints when the resident becomes restless",
+          "Change caregivers often so the resident meets new people"
+        ],
+        "answer": 1,
+        "explanation": "Consistent routines and calm, well-lit surroundings reduce late-day confusion. Restraints are not a substitute for care and can increase agitation and injury."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "RACE",
+        "definition": "Fire response steps: Rescue, Alarm, Contain, Extinguish or Evacuate."
+      },
+      {
+        "term": "Dementia",
+        "definition": "A progressive loss of memory and thinking ability, such as Alzheimer's disease, that interferes with daily life."
+      },
+      {
+        "term": "Sundowning",
+        "definition": "Increased confusion, anxiety or agitation in a person with dementia in the late afternoon or evening."
+      },
+      {
+        "term": "Validation",
+        "definition": "Acknowledging a confused resident's feelings and redirecting rather than correcting them with facts."
+      },
+      {
+        "term": "Advance directive",
+        "definition": "A legal document stating a person's wishes about medical care, such as a do-not-resuscitate order."
+      }
+    ]
+  }
+]

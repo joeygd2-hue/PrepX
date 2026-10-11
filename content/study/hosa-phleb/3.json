@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Complications, special collections, and specimen integrity",
+    "objective": "Recognize and respond to venipuncture complications, perform capillary and special collections correctly, and evaluate specimens for rejection.",
+    "body": "Advanced phlebotomy questions shift from \"how do I draw\" to \"what went wrong and what do I do now.\" Strong answers protect the patient first and the specimen second.\n\n**Patient complications.**\n- **Syncope** (fainting): if a patient feels faint, release the tourniquet, remove the needle, lower the head or have them lie down, and alert the nurse. Never let the patient leave until they recover.\n- **Hematoma**: a swelling of blood under the skin. Stop the draw, remove the needle, and apply pressure.\n- **Nerve injury**: sharp, shooting or electric pain means the needle should come out immediately; do not dig or redirect.\n- **Arterial puncture**: bright red, pulsing blood. Remove the needle and hold firm pressure for at least five minutes.\n\nIf no blood flows, small adjustments of needle depth are acceptable, but blind probing is not. After two unsuccessful attempts, most facility policies call for another phlebotomist.\n\n**Site restrictions.** Avoid the arm on the side of a **mastectomy** unless the provider approves, arms with an IV infusion, fistulas, and areas of scarring or edema. If an IV arm must be used, draw below the IV with the infusion stopped per policy, and discard the first tube.\n\n**Capillary puncture.** For infants, a **heel stick** is made on the medial or lateral plantar surface, never the back of the heel, at a depth no greater than 2.0 mm. Warming the site improves flow. Wipe away the **first drop** because it contains tissue fluid. The capillary order differs from venipuncture: EDTA is collected first, because platelets clump quickly at a skin puncture. Avoid heavy squeezing, which hemolyzes the specimen and dilutes it with tissue fluid.\n\n**Special handling.**\n- Chill on ice: ammonia and lactic acid.\n- Protect from light: bilirubin.\n- Keep at body temperature: cold agglutinins.\n- **Blood cultures** require meticulous skin antisepsis, usually chlorhexidine, and cleaning the bottle tops to reduce contamination.\n- Timed draws, such as therapeutic drug levels, must be collected at the requested time and the actual time recorded.\n\n**Specimen rejection.** Labs reject unlabeled or mislabeled tubes, clotted anticoagulated tubes, underfilled citrate tubes, specimens collected in the wrong tube, and many **hemolyzed** samples. Hemolysis, the rupture of red cells, releases potassium and can make the result unreliable. Common causes are a small needle with strong vacuum, shaking tubes, wet alcohol, and squeezing during capillary collection.\n\n**Exposure response.** After a needlestick, wash the site with soap and water, report it to a supervisor immediately, and seek prompt medical evaluation under the facility's exposure plan.\n\nThe most common mistake students make is putting the specimen ahead of the patient, such as finishing the tubes while a patient is fainting or the needle is touching a nerve. When safety and sample conflict, stop the draw first.",
+    "examples": [
+      "A newborn needs a bilirubin test; the phlebotomist performs a lateral plantar heel stick, wipes the first drop, and wraps the microcontainer in foil.",
+      "Midway through a draw, the patient says, \"I feel dizzy.\" The phlebotomist releases the tourniquet, removes the needle, applies pressure, and lowers the patient's head while calling for help.",
+      "An ammonia specimen arrives at the lab at room temperature an hour after collection and is rejected and recollected on ice."
+    ],
+    "questions": [
+      {
+        "stem": "Midway through a draw, a patient becomes pale and says the room is spinning. What should the phlebotomist do first?",
+        "choices": [
+          "Finish filling the remaining tubes quickly",
+          "Release the tourniquet, remove the needle, and lower the patient's head",
+          "Give the patient a sip of water while continuing",
+          "Ask the patient to stand and walk it off"
+        ],
+        "answer": 1,
+        "explanation": "Patient safety comes before the specimen, so the draw is stopped right away. Continuing to fill tubes risks a fall and injury if the patient loses consciousness."
+      },
+      {
+        "stem": "During needle insertion, a patient reports a sharp electric pain shooting down the arm. What is the correct response?",
+        "choices": [
+          "Redirect the needle slightly deeper",
+          "Ask the patient to stay still and continue",
+          "Remove the needle immediately",
+          "Tighten the tourniquet"
+        ],
+        "answer": 2,
+        "explanation": "Shooting pain suggests nerve contact, so the needle must come out at once. Probing or redirecting can make the nerve injury permanent."
+      },
+      {
+        "stem": "A patient had a left-sided mastectomy with lymph node removal. Which site is best for a routine draw?",
+        "choices": [
+          "The right arm",
+          "The left arm, above the surgery site",
+          "The left hand, using a butterfly",
+          "Either arm, as long as the tourniquet is loose"
+        ],
+        "answer": 0,
+        "explanation": "The affected side risks lymphedema and altered results, so the opposite arm is used unless the provider approves otherwise. A loose tourniquet does not remove that risk."
+      },
+      {
+        "stem": "For an infant heel stick, which site and depth are appropriate?",
+        "choices": [
+          "Center of the heel, up to 3 mm",
+          "Back curvature of the heel, up to 2 mm",
+          "Big toe, up to 2.5 mm",
+          "Medial or lateral plantar surface, no deeper than 2.0 mm"
+        ],
+        "answer": 3,
+        "explanation": "The sides of the plantar heel avoid the calcaneus bone. The back of the heel is too close to bone and can cause osteomyelitis."
+      },
+      {
+        "stem": "A potassium result is flagged because the serum is pink-red. The draw used a small butterfly with large vacuum tubes, and the tubes were shaken. What happened?",
+        "choices": [
+          "Lipemia",
+          "Hemolysis",
+          "Hemoconcentration",
+          "Icterus"
+        ],
+        "answer": 1,
+        "explanation": "Pink-red serum signals ruptured red cells, which release potassium; small needles with strong vacuum and shaking both cause it. Hemoconcentration raises values but does not color the serum."
+      },
+      {
+        "stem": "Which specimen should be placed in an ice slurry immediately after collection?",
+        "choices": [
+          "Ammonia",
+          "Bilirubin",
+          "Cold agglutinins",
+          "Complete blood count"
+        ],
+        "answer": 0,
+        "explanation": "Ammonia rises as cells keep metabolizing, so chilling slows that. Cold agglutinins are the opposite and must be kept at body temperature."
+      },
+      {
+        "stem": "In a capillary collection, why is the EDTA microcontainer filled first?",
+        "choices": [
+          "It needs the most blood",
+          "Serum tubes must sit to clot later",
+          "Platelets clump quickly at a skin puncture",
+          "EDTA tubes contain the cleanest additive"
+        ],
+        "answer": 2,
+        "explanation": "Collecting EDTA first gives accurate platelet counts before clumping. The reason is not volume, which is why the venipuncture order differs."
+      },
+      {
+        "stem": "A phlebotomist sustains a needlestick from a used needle. What should be done first?",
+        "choices": [
+          "Finish the shift and report it the next day",
+          "Squeeze the site to bleed it and apply bleach",
+          "Wait to see whether symptoms develop",
+          "Wash the site with soap and water and report it immediately"
+        ],
+        "answer": 3,
+        "explanation": "Washing and prompt reporting start the exposure plan, where timely evaluation matters. Applying bleach or caustic agents is not recommended and damages tissue."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Hemolysis",
+        "definition": "Rupture of red blood cells that releases potassium and can cause a specimen to be rejected."
+      },
+      {
+        "term": "Hematoma",
+        "definition": "A swelling of blood under the skin around a puncture site, often from blood leaking into tissue."
+      },
+      {
+        "term": "Syncope",
+        "definition": "Fainting; the draw should stop and the patient be protected from falling."
+      },
+      {
+        "term": "Heel stick",
+        "definition": "An infant capillary puncture on the medial or lateral plantar surface of the heel, no deeper than 2.0 mm."
+      },
+      {
+        "term": "Specimen rejection",
+        "definition": "A lab's refusal to test a sample that is mislabeled, clotted, underfilled, hemolyzed, or improperly handled."
+      }
+    ]
+  }
+]

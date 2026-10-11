@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Drug names, routes, and how the body handles drugs",
+    "objective": "Distinguish generic, brand, and chemical drug names, compare administration routes, and trace a drug through absorption, distribution, metabolism, and excretion.",
+    "body": "Pharmacology is the study of how drugs interact with living systems. Before you can reason about any specific medication, you need three foundations: how drugs are named, how they enter the body, and what the body does to them once they arrive.\n\n**Drug names.** Every drug has several names. The **chemical name** describes its molecular structure and is rarely used clinically. The **generic name** is the official, nonproprietary name, written in lowercase, such as ibuprofen or acetaminophen. The **brand name** (trade name) is chosen by a manufacturer, is capitalized, and may be trademarked, such as Advil or Tylenol. One generic drug can be sold under many brand names, so health professionals rely on generic names to avoid confusion and accidental duplicate dosing.\n\n**Routes of administration.** The route determines how quickly and how completely a drug reaches the bloodstream.\n- **Enteral** routes use the gastrointestinal tract: oral, sublingual (under the tongue), buccal (against the cheek), and rectal.\n- **Parenteral** routes bypass the GI tract: intravenous (IV), intramuscular (IM), subcutaneous (subcut), and intradermal.\n- **Topical** and other routes include skin, eyes, ears, inhalation, and transdermal patches.\n\nIV drugs act fastest because they enter the blood directly, while oral drugs are slower and less predictable.\n\n**Pharmacokinetics** describes what the body does to a drug, summarized as **ADME**:\n1. **Absorption** moves the drug from the site of administration into the blood.\n2. **Distribution** carries it through the blood to tissues. Drugs bound to plasma proteins such as albumin are temporarily inactive; only the unbound (free) fraction can act.\n3. **Metabolism** (biotransformation) chemically changes the drug, mostly in the liver, often making it easier to eliminate.\n4. **Excretion** removes the drug or its metabolites, mainly through the kidneys in urine.\n\nA key idea tied to oral drugs is the **first-pass effect**: after absorption from the intestine, blood travels through the portal vein to the liver, which can metabolize a large portion of the drug before it reaches general circulation. That is why some drugs are given sublingually or by injection instead of swallowed. **Bioavailability** is the fraction of a dose that reaches systemic circulation unchanged; by definition, IV bioavailability is 100 percent.\n\n**Half-life** is the time it takes for the amount of drug in the body to fall by half. It helps explain how often a drug is given and why it takes roughly four to five half-lives to reach steady state or to be mostly eliminated. Patients with liver or kidney disease may clear drugs more slowly, so drugs can accumulate.\n\nBy contrast, **pharmacodynamics** is what the drug does to the body, such as binding a receptor. The most common mistake students make is mixing these up: pharmacokinetics is the body acting on the drug (ADME), while pharmacodynamics is the drug acting on the body.",
+    "examples": [
+      "Acetaminophen is the generic name; Tylenol is one brand name. A patient taking Tylenol plus a cold medicine that also contains acetaminophen could unknowingly double up on the same drug.",
+      "Nitroglycerin is commonly given under the tongue because swallowing it would expose much of the dose to first-pass metabolism in the liver.",
+      "A drug with a 6-hour half-life will be largely eliminated about 24 to 30 hours after the last dose (four to five half-lives)."
+    ],
+    "questions": [
+      {
+        "stem": "A pharmacy technician sees a bottle labeled 'Motrin (ibuprofen)'. Which term correctly describes 'ibuprofen'?",
+        "choices": [
+          "Brand name",
+          "Generic name",
+          "Chemical name",
+          "Trade classification"
+        ],
+        "answer": 1,
+        "explanation": "Ibuprofen is the lowercase, nonproprietary generic name. Motrin is the capitalized brand name chosen by a manufacturer, so 'brand name' is the tempting but wrong choice."
+      },
+      {
+        "stem": "A patient in cardiac arrest needs a medication to act as quickly as possible. Which route delivers the drug into circulation most directly?",
+        "choices": [
+          "Oral",
+          "Intramuscular",
+          "Intravenous",
+          "Transdermal"
+        ],
+        "answer": 2,
+        "explanation": "IV administration places the drug directly into the bloodstream with no absorption step. Intramuscular is faster than oral but still requires absorption from muscle tissue."
+      },
+      {
+        "stem": "An oral drug is well absorbed from the intestine, yet only a small fraction reaches systemic circulation. What best explains this?",
+        "choices": [
+          "Rapid renal excretion",
+          "High plasma protein binding",
+          "A long half-life",
+          "The first-pass effect in the liver"
+        ],
+        "answer": 3,
+        "explanation": "After intestinal absorption, the drug passes through the liver via the portal vein, where much of it may be metabolized before reaching general circulation. Protein binding affects how much drug is free to act, not how much reaches circulation."
+      },
+      {
+        "stem": "Which organ is the primary site of drug metabolism?",
+        "choices": [
+          "Liver",
+          "Kidney",
+          "Lung",
+          "Stomach"
+        ],
+        "answer": 0,
+        "explanation": "The liver contains most drug-metabolizing enzymes. The kidney is the main organ of excretion, which is why it is a common distractor."
+      },
+      {
+        "stem": "A patient with severe kidney disease receives a drug that is cleared mostly in urine. What is the main concern?",
+        "choices": [
+          "The drug will not be absorbed",
+          "The drug may accumulate to toxic levels",
+          "The drug will bypass first-pass metabolism",
+          "The drug's brand name will change"
+        ],
+        "answer": 1,
+        "explanation": "Reduced kidney function slows excretion, so the drug can build up. Absorption is unaffected by the kidneys, so that choice confuses two different ADME steps."
+      },
+      {
+        "stem": "A drug's half-life is 8 hours. A patient has 400 mg in the body. Assuming no further doses, about how much remains 16 hours later?",
+        "choices": [
+          "200 mg",
+          "50 mg",
+          "100 mg",
+          "0 mg"
+        ],
+        "answer": 2,
+        "explanation": "Sixteen hours is two half-lives: 400 to 200 to 100 mg. Choosing 200 mg reflects counting only one half-life."
+      },
+      {
+        "stem": "A student says, 'Pharmacodynamics is how the liver breaks a drug down.' What is the best correction?",
+        "choices": [
+          "Correct as stated",
+          "Pharmacodynamics only describes excretion",
+          "Pharmacodynamics refers to the drug's brand name",
+          "Metabolism is part of pharmacokinetics; pharmacodynamics is the drug's effect on the body"
+        ],
+        "answer": 3,
+        "explanation": "Metabolism is the M in ADME, a pharmacokinetic process. Pharmacodynamics covers receptor binding and effects, so the statement reverses the two terms."
+      },
+      {
+        "stem": "Two drugs are both in the blood. Drug A is 99 percent bound to albumin; Drug B is 10 percent bound. Which statement is accurate?",
+        "choices": [
+          "Only the unbound fraction of each drug can produce an effect",
+          "Drug A has more free drug available to act",
+          "Protein binding increases first-pass metabolism",
+          "Drug B must be given intravenously"
+        ],
+        "answer": 0,
+        "explanation": "Bound drug is temporarily inactive; only free drug reaches receptors. Drug A actually has much less free drug, so the first choice reverses the relationship."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Generic name",
+        "definition": "The official, nonproprietary name of a drug, written in lowercase, such as ibuprofen."
+      },
+      {
+        "term": "First-pass effect",
+        "definition": "Metabolism of an oral drug by the liver before it reaches systemic circulation, reducing the amount available."
+      },
+      {
+        "term": "Bioavailability",
+        "definition": "The fraction of an administered dose that reaches systemic circulation unchanged; 100 percent for IV drugs."
+      },
+      {
+        "term": "Half-life",
+        "definition": "The time required for the amount of drug in the body to decrease by half."
+      },
+      {
+        "term": "Pharmacokinetics",
+        "definition": "What the body does to a drug: absorption, distribution, metabolism, and excretion (ADME)."
+      }
+    ]
+  }
+]
