@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of OSHA, hazards, and worker rights",
+    "objective": "Identify the major categories of workplace hazards, explain the roles of OSHA and NIOSH, and describe the rights and responsibilities of workers and employers.",
+    "body": "Occupational safety and health is the discipline of preventing work-related injuries, illnesses, and deaths. In the United States, the field is shaped by the **Occupational Safety and Health Act of 1970**, which created two separate agencies with different jobs.\n\n**OSHA** (the Occupational Safety and Health Administration) is part of the Department of Labor. It writes and enforces workplace safety standards, conducts inspections, and issues citations and penalties. **NIOSH** (the National Institute for Occupational Safety and Health) is part of the CDC within the Department of Health and Human Services. NIOSH does research and makes recommendations, but it does not enforce rules or fine employers. Remembering that OSHA enforces while NIOSH researches clears up many test questions.\n\nThe Act includes the **General Duty Clause**, which requires every employer to keep the workplace free from recognized hazards likely to cause death or serious physical harm, even when no specific standard covers the hazard. Workplace hazards are commonly grouped into categories:\n- **Physical**: noise, heat, radiation, vibration, slips and falls\n- **Chemical**: solvents, disinfectants, gases, dusts\n- **Biological**: bacteria, viruses, bloodborne pathogens, mold\n- **Ergonomic**: lifting, awkward postures, repetitive motion\n- **Psychosocial**: stress, fatigue, workplace violence\n\nWorkers have legal rights under the Act. They may receive training in a language they understand, review records of work-related injuries, file a confidential complaint asking OSHA to inspect, and report injuries. Employers may not retaliate against a worker for exercising these rights; a worker who faces **retaliation** generally has only 30 days to file a whistleblower complaint. Employers must also post the OSHA poster, provide required **personal protective equipment (PPE)** at no cost in most cases, and keep injury records. Many employers with more than ten employees must record serious work-related injuries on the **OSHA 300 log**, and any employer must report a work-related fatality to OSHA within 8 hours and an in-patient hospitalization, amputation, or loss of an eye within 24 hours.\n\nThe foundation of all prevention is the **hierarchy of controls**, ranked from most to least effective:\n1. Elimination: physically remove the hazard\n2. Substitution: replace it with something less hazardous\n3. Engineering controls: isolate people from the hazard, such as ventilation or guards\n4. Administrative controls: change how people work, such as training, rotation, or signage\n5. PPE: protect the individual worker with gloves, respirators, or eyewear\n\nThe most common mistake students make is treating PPE as the best solution. PPE is the last line of defense because it depends on correct fit and use every time; a question asking for the *most effective* control almost always points higher up the hierarchy.",
+    "examples": [
+      "A hospital replaces latex gloves with nitrile gloves to protect staff with latex allergies, which is substitution on the hierarchy of controls.",
+      "NIOSH publishes a study recommending a lower noise exposure limit, but only OSHA can cite an employer for exceeding the legal limit."
+    ],
+    "questions": [
+      {
+        "stem": "A nurse aide notices a frayed electrical cord on a patient lift and fears she will be disciplined if she reports it. Which statement about her rights is accurate?",
+        "choices": [
+          "She may report the hazard, and her employer may not legally retaliate against her for doing so",
+          "She must first prove the cord caused an injury before OSHA will accept a complaint",
+          "She may report it only to NIOSH, because NIOSH handles electrical hazards",
+          "She loses whistleblower protection if she reports it to her supervisor first"
+        ],
+        "answer": 0,
+        "explanation": "The OSH Act protects workers who report hazards from retaliation. NIOSH is wrong because it researches and recommends but does not take complaints for enforcement or cite employers."
+      },
+      {
+        "stem": "Which agency can issue a citation and fine to a clinic for failing to provide required eye protection?",
+        "choices": [
+          "NIOSH",
+          "CDC",
+          "OSHA",
+          "FDA"
+        ],
+        "answer": 2,
+        "explanation": "OSHA, within the Department of Labor, enforces standards and issues penalties. NIOSH is the tempting distractor, but it is a research agency without enforcement power."
+      },
+      {
+        "stem": "A dental lab removes a toxic cleaning step entirely by buying parts that arrive already cleaned. Which level of the hierarchy of controls is this?",
+        "choices": [
+          "Substitution",
+          "Elimination",
+          "Engineering control",
+          "Administrative control"
+        ],
+        "answer": 1,
+        "explanation": "The hazard is gone completely, so this is elimination. Substitution would replace the cleaner with a less hazardous one rather than removing the step."
+      },
+      {
+        "stem": "A warehouse has no specific OSHA standard for a newly recognized hazard that could cause serious injury. Under what provision could OSHA still cite the employer?",
+        "choices": [
+          "The Hazard Communication Standard",
+          "The General Duty Clause",
+          "The Bloodborne Pathogens Standard",
+          "The Recordkeeping Rule"
+        ],
+        "answer": 1,
+        "explanation": "The General Duty Clause covers recognized serious hazards with no specific standard. The Hazard Communication Standard applies only to chemical hazards and labeling."
+      },
+      {
+        "stem": "A pharmacy technician develops wrist pain after months of repetitive counting and capping. This hazard is best classified as:",
+        "choices": [
+          "Chemical",
+          "Biological",
+          "Ergonomic",
+          "Psychosocial"
+        ],
+        "answer": 2,
+        "explanation": "Repetitive motion and awkward posture are ergonomic hazards. Psychosocial is tempting because the job may be stressful, but the injury comes from physical repetition."
+      },
+      {
+        "stem": "A worker loses a fingertip in a machine at a hospital laundry. How quickly must the employer report this amputation to OSHA?",
+        "choices": [
+          "Within 8 hours",
+          "Within 24 hours",
+          "Within 7 days",
+          "Only at the end of the year on the 300 log"
+        ],
+        "answer": 1,
+        "explanation": "Amputations, in-patient hospitalizations, and eye losses must be reported within 24 hours. The 8-hour deadline applies to fatalities."
+      },
+      {
+        "stem": "A lab installs a fume hood so technicians no longer breathe chemical vapors. Which control type is this?",
+        "choices": [
+          "Engineering control",
+          "Administrative control",
+          "PPE",
+          "Substitution"
+        ],
+        "answer": 0,
+        "explanation": "A fume hood physically isolates workers from vapors, which is an engineering control. Administrative controls change work practices, not the physical environment."
+      },
+      {
+        "stem": "Which pair correctly matches a hazard with its category?",
+        "choices": [
+          "Mold in an air duct: chemical",
+          "Workplace bullying: ergonomic",
+          "Excessive heat in a kitchen: physical",
+          "Formaldehyde vapor: biological"
+        ],
+        "answer": 2,
+        "explanation": "Heat is a physical hazard. Mold is biological, not chemical, which makes that option the most likely trap."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "OSHA",
+        "definition": "The Department of Labor agency that sets and enforces workplace safety standards, inspects worksites, and issues citations."
+      },
+      {
+        "term": "NIOSH",
+        "definition": "The CDC research institute that studies occupational hazards and recommends limits but has no enforcement power."
+      },
+      {
+        "term": "General Duty Clause",
+        "definition": "The OSH Act requirement that employers keep the workplace free from recognized hazards likely to cause death or serious harm."
+      },
+      {
+        "term": "Hierarchy of controls",
+        "definition": "A ranking of hazard controls from most to least effective: elimination, substitution, engineering, administrative, PPE."
+      },
+      {
+        "term": "OSHA 300 log",
+        "definition": "The employer's record of recordable work-related injuries and illnesses."
+      }
+    ]
+  }
+]

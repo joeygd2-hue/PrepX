@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Advanced exposure assessment, emergency planning, and safety programs",
+    "objective": "Evaluate exposure data against occupational limits, analyze incident rates, and design emergency and safety management programs.",
+    "body": "At the advanced level, occupational safety moves from following rules to measuring risk and managing systems. Professionals in **industrial hygiene** follow a cycle: anticipate, recognize, evaluate, and control hazards.\n\n**Exposure limits.** OSHA's **permissible exposure limits (PELs)** are legally enforceable. NIOSH publishes **recommended exposure limits (RELs)**, and the ACGIH publishes **threshold limit values (TLVs)**; both are guidelines and are often stricter than older PELs. Most limits are expressed as an eight-hour **time-weighted average (TWA)**. Some chemicals also have a short-term exposure limit (usually 15 minutes) or a ceiling that should never be exceeded. To compute a TWA, multiply each concentration by its duration, add the products, and divide by 8 hours.\n\n**Noise.** OSHA's PEL for noise is 90 dBA as an 8-hour TWA, using a 5-dB exchange rate, and a **hearing conservation program** is required when exposures reach an action level of 85 dBA. NIOSH recommends a stricter 85 dBA limit with a 3-dB exchange rate. Because decibels are logarithmic, small numeric increases represent large increases in sound energy.\n\n**Measuring safety performance.** Companies compare themselves using the **total recordable incident rate (TRIR)**:\n- TRIR = (number of recordable cases x 200,000) / total hours worked\n- The 200,000 figure represents 100 full-time employees working 40 hours a week for 50 weeks.\nInjury rates are **lagging indicators** because they measure harm after it happens. **Leading indicators**, such as near-miss reports, completed inspections, and training rates, predict and prevent future harm.\n\n**Job hazard analysis and investigation.** A **job hazard analysis (JHA)** breaks a task into steps, identifies hazards at each step, and assigns controls. When an incident occurs, **root cause analysis** asks why repeatedly until it reaches system failures, such as poor design or missing training, rather than stopping at blaming the worker.\n\n**Emergency planning.** OSHA requires many employers to have an **emergency action plan** covering evacuation routes, reporting procedures, and accounting for employees. Fire responses often use RACE (Rescue, Alarm, Contain, Extinguish or Evacuate) and PASS for extinguishers (Pull, Aim, Squeeze, Sweep). Health care facilities also plan for surge events and infectious disease outbreaks.\n\n**Safety management systems** such as ISO 45001 use a Plan-Do-Check-Act cycle with management commitment and worker participation, aiming for continuous improvement instead of one-time compliance.\n\nThe most common mistake students make is assuming a workplace is safe because it meets the OSHA PEL. Many PELs date from 1971 and are less protective than current NIOSH RELs or ACGIH TLVs, so meeting the legal minimum does not guarantee workers are protected.",
+    "examples": [
+      "A technician is exposed to 100 ppm of a solvent for 4 hours and 20 ppm for 4 hours, giving a TWA of (400 + 80) / 8 = 60 ppm.",
+      "A clinic with 3 recordable injuries and 150,000 hours worked has a TRIR of (3 x 200,000) / 150,000 = 4.0."
+    ],
+    "questions": [
+      {
+        "stem": "A worker is exposed to 50 ppm for 2 hours, 100 ppm for 2 hours, and 0 ppm for 4 hours. What is the 8-hour TWA?",
+        "choices": [
+          "75 ppm",
+          "37.5 ppm",
+          "50 ppm",
+          "18.75 ppm"
+        ],
+        "answer": 1,
+        "explanation": "(50x2 + 100x2 + 0x4) / 8 = 300 / 8 = 37.5 ppm. The 75 ppm answer averages only the exposed hours and ignores the 8-hour divisor."
+      },
+      {
+        "stem": "A hospital had 6 recordable injuries and 400,000 total hours worked. What is its TRIR?",
+        "choices": [
+          "1.5",
+          "6.0",
+          "3.0",
+          "0.3"
+        ],
+        "answer": 2,
+        "explanation": "(6 x 200,000) / 400,000 = 3.0. A result of 1.5 comes from mistakenly using 100,000 as the multiplier."
+      },
+      {
+        "stem": "A factory's noise monitoring shows workers average 87 dBA over 8 hours. What does OSHA require?",
+        "choices": [
+          "Nothing, because the level is below the 90 dBA PEL",
+          "A hearing conservation program, because the exposure exceeds the 85 dBA action level",
+          "Immediate shutdown of the equipment",
+          "Only posting warning signs"
+        ],
+        "answer": 1,
+        "explanation": "The 85 dBA action level triggers a hearing conservation program even though the 90 dBA PEL is not exceeded. Assuming nothing is required confuses the PEL with the action level."
+      },
+      {
+        "stem": "Which of the following is a leading indicator of safety performance?",
+        "choices": [
+          "Number of lost-time injuries",
+          "Workers' compensation costs",
+          "Number of near-miss reports submitted",
+          "Days away from work"
+        ],
+        "answer": 2,
+        "explanation": "Near-miss reporting measures prevention activity before harm occurs. Lost-time injuries are lagging indicators because they count harm already done."
+      },
+      {
+        "stem": "After a fall from a ladder, an investigator concludes 'the worker was careless' and closes the case. What is the main weakness of this investigation?",
+        "choices": [
+          "It failed to calculate the TRIR",
+          "It stopped before finding system-level root causes",
+          "It should have been reported to NIOSH instead",
+          "It did not use the PASS method"
+        ],
+        "answer": 1,
+        "explanation": "Root cause analysis looks past individual blame to failures such as equipment, training, or procedures. Calculating TRIR measures overall rates and does not explain why this incident happened."
+      },
+      {
+        "stem": "A solvent's OSHA PEL is 200 ppm, but the NIOSH REL is 50 ppm. Measured TWA exposure is 120 ppm. What is the best evaluation?",
+        "choices": [
+          "Workers are fully protected because exposure is below the PEL",
+          "The employer is legally compliant, but exposure exceeds the more protective recommended limit and should be reduced",
+          "The employer must be fined because the REL is exceeded",
+          "The measurement is invalid because the limits disagree"
+        ],
+        "answer": 1,
+        "explanation": "The PEL is the legal limit, so the employer is compliant, but the REL reflects newer health evidence. Claiming a fine is due is wrong because NIOSH RELs are not enforceable."
+      },
+      {
+        "stem": "During a fire in a patient room, a nurse follows RACE. What is her first action?",
+        "choices": [
+          "Rescue anyone in immediate danger",
+          "Activate the alarm",
+          "Close doors to contain the fire",
+          "Use an extinguisher"
+        ],
+        "answer": 0,
+        "explanation": "RACE begins with Rescue of those in immediate danger. Activating the alarm comes second, though in practice it should follow right away."
+      },
+      {
+        "stem": "A safety team breaks the task of cleaning an autoclave into steps and lists hazards and controls for each step. What tool are they using?",
+        "choices": [
+          "Root cause analysis",
+          "Emergency action plan",
+          "Job hazard analysis",
+          "Hearing conservation program"
+        ],
+        "answer": 2,
+        "explanation": "A job hazard analysis examines a task step by step before incidents happen. Root cause analysis is used after an incident, not for proactive task review."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Permissible exposure limit (PEL)",
+        "definition": "OSHA's legally enforceable limit on worker exposure to a substance, usually as an 8-hour TWA."
+      },
+      {
+        "term": "Time-weighted average (TWA)",
+        "definition": "The average exposure over a work shift, found by summing concentration x time and dividing by 8 hours."
+      },
+      {
+        "term": "TRIR",
+        "definition": "Total recordable incident rate: recordable cases x 200,000 divided by total hours worked."
+      },
+      {
+        "term": "Leading indicator",
+        "definition": "A proactive safety measure, such as near-miss reports or training completion, that predicts future performance."
+      },
+      {
+        "term": "Job hazard analysis (JHA)",
+        "definition": "A method of breaking a task into steps to identify hazards and controls for each step."
+      }
+    ]
+  }
+]

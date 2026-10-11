@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Waves, electricity and radiation in medical imaging",
+    "objective": "Explain wave properties, analyze simple circuits with Ohm's law, and compare how ultrasound, X-ray and MRI use physics to image the body safely.",
+    "body": "Modern diagnosis depends on physics. Ultrasound uses sound waves, X-rays and CT use ionizing electromagnetic radiation, and every monitor and defibrillator relies on electricity. Understanding these principles lets you predict how a device behaves and why safety rules exist.\n\n**Wave basics.** A wave carries energy without carrying matter along with it. Its **frequency** (f) is the number of cycles per second, in hertz (Hz); its wavelength (λ) is the distance between repeating points. They are linked by the **wave equation**: v = fλ. For a fixed speed, higher frequency means shorter wavelength.\n- **Mechanical waves**, such as sound, need a medium. Sound travels about 343 m/s in air and roughly 1540 m/s in soft tissue.\n- **Electromagnetic waves**, such as light, radio and X-rays, can travel through a vacuum at about 3 × 10⁸ m/s.\n\n**Ultrasound.** Medical ultrasound uses frequencies above human hearing, typically a few megahertz. The probe sends pulses and times the echoes that reflect at boundaries between tissues. Higher frequencies give sharper detail but do not penetrate as deeply, so deep abdominal scans use lower frequencies than superficial scans. Gel removes the air gap, because air reflects almost all of the sound. The **Doppler effect**, a frequency shift caused by motion, lets ultrasound measure blood flow speed and direction.\n\n**Electricity.** Current (I) is the flow of charge, in amperes; voltage (V) is the energy push per charge, in volts; resistance (R) opposes current, in ohms. **Ohm's law** connects them: V = IR. Electrical power is P = VI. In series circuits the same current passes through every component and resistances add; in parallel circuits each branch gets the full voltage. Dry skin has high resistance, while wet or broken skin has much lower resistance, which is why the same voltage can be far more dangerous around water. Grounding and avoiding wet hands near equipment are core safety habits.\n\n**Ionizing radiation and imaging.** X-rays have enough energy to remove electrons from atoms, which is why they are called **ionizing radiation** and can damage DNA. Dense tissue such as bone absorbs more X-rays and appears bright on the image. CT combines many X-ray views into cross-sections and generally delivers a higher dose than a single plain film. Radiation safety follows the ALARA principle (as low as reasonably achievable) using three tools:\n1. Time: minimize exposure time.\n2. Distance: intensity from a point source falls with the square of distance, so doubling distance cuts exposure to one-fourth.\n3. Shielding: use barriers such as lead or concrete where appropriate.\n\nMRI, by contrast, uses a strong magnetic field and radio waves, so it involves no ionizing radiation, though metal objects and some implants are a serious hazard in the scanner room.\n\nThe most common mistake is assuming all medical imaging uses ionizing radiation; ultrasound and MRI do not, while X-ray and CT do.",
+    "examples": [
+      "A 5 MHz ultrasound wave in soft tissue (1540 m/s) has a wavelength of 1540 ÷ 5,000,000 ≈ 0.31 mm.",
+      "A heating pad that draws 0.5 A from a 120 V outlet uses P = 120 × 0.5 = 60 W.",
+      "A technologist who steps from 1 m to 2 m from a small X-ray source reduces her exposure intensity to about one-fourth."
+    ],
+    "questions": [
+      {
+        "stem": "A sonographer switches from a 3 MHz probe to a 10 MHz probe to examine a thyroid near the skin. What is the main trade-off?",
+        "choices": [
+          "Better detail but less penetration depth",
+          "Deeper penetration but blurrier images",
+          "More ionizing radiation dose",
+          "Slower sound speed in tissue"
+        ],
+        "answer": 0,
+        "explanation": "Higher frequency means shorter wavelength, improving resolution but increasing attenuation, so depth decreases. Deeper penetration is the property of lower frequencies, the opposite of this change."
+      },
+      {
+        "stem": "Why is gel applied between an ultrasound probe and the skin?",
+        "choices": [
+          "It cools the probe",
+          "It removes air, which would reflect nearly all the sound",
+          "It increases the frequency of the wave",
+          "It blocks ionizing radiation"
+        ],
+        "answer": 1,
+        "explanation": "Air creates a huge acoustic mismatch that reflects most sound, so gel lets sound enter the body. Ultrasound produces no ionizing radiation, so the blocking answer is irrelevant."
+      },
+      {
+        "stem": "A device has a resistance of 40 Ω and is connected to 120 V. What current flows through it?",
+        "choices": [
+          "4800 A",
+          "0.33 A",
+          "3 A",
+          "160 A"
+        ],
+        "answer": 2,
+        "explanation": "I = V/R = 120/40 = 3 A. The 4800 A answer multiplies instead of dividing."
+      },
+      {
+        "stem": "Which imaging method does NOT expose the patient to ionizing radiation?",
+        "choices": [
+          "CT scan",
+          "Chest X-ray",
+          "Fluoroscopy",
+          "MRI"
+        ],
+        "answer": 3,
+        "explanation": "MRI uses magnetic fields and radio waves, which are non-ionizing. CT also produces cross-sectional images, but it uses X-rays and is ionizing."
+      },
+      {
+        "stem": "A radiology worker moves from 2 m to 6 m away from a point X-ray source. By what factor does the radiation intensity change?",
+        "choices": [
+          "It falls to one-ninth",
+          "It falls to one-third",
+          "It triples",
+          "It falls to one-sixth"
+        ],
+        "answer": 0,
+        "explanation": "Intensity follows the inverse-square law: tripling distance gives 1/3² = 1/9. One-third would apply only if intensity fell linearly with distance."
+      },
+      {
+        "stem": "A Doppler ultrasound shows a higher returning frequency from blood in a vessel. What does this indicate?",
+        "choices": [
+          "The blood is not moving",
+          "The blood is moving toward the probe",
+          "The vessel is blocked completely",
+          "The tissue is denser than bone"
+        ],
+        "answer": 1,
+        "explanation": "A Doppler shift to higher frequency means the reflector is approaching the source. A stationary target would return the same frequency, so 'not moving' is wrong."
+      },
+      {
+        "stem": "Why does the same household voltage pose greater shock danger when a person's hands are wet?",
+        "choices": [
+          "Water raises the voltage",
+          "Wet skin increases resistance",
+          "Wet skin lowers resistance, so more current flows",
+          "Water converts current to radiation"
+        ],
+        "answer": 2,
+        "explanation": "By Ohm's law, I = V/R, so lowering skin resistance raises the current through the body. Wet skin lowers resistance rather than raising it, so the increased-resistance answer reverses the effect."
+      },
+      {
+        "stem": "Two identical lamps are wired in parallel to a 12 V battery. What voltage does each lamp receive?",
+        "choices": [
+          "6 V",
+          "24 V",
+          "0 V",
+          "12 V"
+        ],
+        "answer": 3,
+        "explanation": "Each branch of a parallel circuit receives the full source voltage. Splitting the voltage to 6 V each describes a series circuit of identical lamps."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Frequency",
+        "definition": "The number of wave cycles per second, measured in hertz."
+      },
+      {
+        "term": "Doppler effect",
+        "definition": "A change in observed frequency caused by motion of the source or reflector relative to the observer."
+      },
+      {
+        "term": "Ohm's law",
+        "definition": "The relationship V = IR between voltage, current and resistance."
+      },
+      {
+        "term": "Ionizing radiation",
+        "definition": "Radiation with enough energy to remove electrons from atoms, such as X-rays."
+      },
+      {
+        "term": "Wave equation",
+        "definition": "v = fλ: wave speed equals frequency times wavelength."
+      }
+    ]
+  }
+]
