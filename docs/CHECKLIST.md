@@ -65,13 +65,17 @@ The visual design deliberately departs from the reference ("Graphite & Volt", se
 | Face-to-face judge (voice, timer, optional camera stills) | R8 | ✅ | Stills only with explicit consent, never stored. |
 | Judge questions | R9 | ✅ | One feedback per question per session. |
 | Exam stats (streak, accuracy, questions done) | R10 | ✅ | |
-| Lessons with mastery rule | R11 | 🟡 | Working for the clusters that have original content (DECA Business Administration Core, HOSA Medical Terminology, HOSA Medical Math). Other events show the AI tools and a clear "no question bank yet" note. |
+| Lessons with mastery rule | R11 | ✅ | Every event has a study bank: its official test topic or, for events without a test, a practice knowledge bank (`components.knowledge`). Original lessons, questions and flashcards per bank; see [CONTENT.md](CONTENT.md). |
 | Quick 10 | R12 | ✅ | |
 | Full practice exam (timed, resumable) | R13 | ✅ | Counts against the free allowance (2 per season). |
 | Test-day rehearsal | R14 | ✅ | No pausing, auto-submit, comparison with the last attempt. |
 | Mistake notebook | R15 | ✅ | Cleared after two correct answers. |
 | 60-second sprint | R16 | ✅ | Personal best kept. |
 | Explain it back (AI) | R17 | ✅ | |
+| Format lessons ("Master the format") | E | ✅ | Role-plays, case studies, presentations, written entries, interviews, projects, test-taking; shown for each part of an event. |
+| Study resources | E | ✅ | Official competitive-events page plus curated free resources per bank (open textbooks, public agencies), each found and checked through web search. |
+| Ask AI on highlighted text | E | ✅ | Select text on any study page for an explanation, definition, example or simpler version; type follow-ups; off during timed exams. Own daily allowance, refunded on failure, nothing stored. |
+| Organization themes | E | ✅ | The Study area takes on DECA, FBLA, HOSA or TSA colors (light and dark), animated when switching. |
 | Flashcards (Leitner review, mark difficult) | R18 | ✅ | |
 | Attempt history and topic breakdown | E | ✅ | |
 | Written entry check / presentation check | E | ✅ | Only shown for events with those components. |
@@ -123,6 +127,7 @@ The visual design deliberately departs from the reference ("Graphite & Volt", se
 |---|---|---|---|
 | Free daily allowances shown ("1 left today", "10 messages left") | R33 | ✅ | |
 | Configurable Free/Pro limits | E | ✅ | `/admin/limits`; initial values from the brief. |
+| Free launch period | E | ✅ | Pro for everyone until a date (four weeks after the database migration by default), shown on Home, Study and the plan page; admins change or end it in `/admin/limits`. |
 | Server-side usage tracking; failed AI calls not charged | E | ✅ | Reserve → commit/refund with an advisory lock. |
 | Stripe checkout, portal, webhooks | E | ⛔ | Implemented and tested with signed test events; needs Stripe keys and prices to go live. No fake success states. |
 | Season boost | E | ✅ | Refused while a monthly subscription is active. |

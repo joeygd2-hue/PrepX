@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
-import { CheckCircle2, ChevronLeft, ChevronRight, Flag, Loader2, X, XCircle } from "lucide-react";
+import { CheckCircle2, ChevronLeft, ChevronRight, Flag, Loader2, Timer, X, XCircle } from "lucide-react";
 import { answerAction, saveDraftAction, submitAction } from "@/app/actions/exam";
 import { Button } from "@/components/ui/button";
+import { Chip } from "@/components/ui/badge";
 import { ProgressBar } from "@/components/ui/progress";
 import { cn } from "@/lib/cn";
 
@@ -129,41 +130,60 @@ export function ExamRunner(props: {
   const answeredCount = instant ? Object.keys(feedback).length : Object.keys(draft).length;
   const mm = remaining !== null ? `${Math.floor(Math.max(remaining, 0) / 60)}:${String(Math.max(remaining, 0) % 60).padStart(2, "0")}` : null;
 
+  const urgent = remaining !== null && remaining <= 60;
+  const last = index + 1 >= questions.length;
+  // Ask AI stays off during timed attempts, and elsewhere until the current question is answered.
+  const askOff = mode === "full" || mode === "rehearsal" || sprint || !fb;
+
   return (
-    <main id="main" className="mx-auto flex min-h-dvh max-w-2xl flex-col px-4 pb-8 pt-5 sm:px-6">
+    <main id="main" data-ask-ai={askOff ? "off" : undefined} className="mx-auto flex min-h-dvh max-w-2xl flex-col px-4 pb-[max(env(safe-area-inset-bottom),2rem)] pt-5 sm:px-6 sm:pt-8">
       <header className="flex items-center gap-3">
         <Link
           href="/study"
           aria-label={props.allowPause ? "Save and exit" : "Exit (the clock keeps running)"}
-          className="inline-flex size-11 items-center justify-center rounded-full bg-subtle hover:bg-subtle-2"
+          className="inline-flex size-10 shrink-0 items-center justify-center rounded-[12px] border border-border bg-card shadow-card transition-colors hover:border-border-strong"
           onClick={() => !instant && void saveDraftAction(attemptId, draft, elapsed.current)}
         >
-          <X className="size-5" aria-hidden />
+          <X className="size-[18px]" aria-hidden />
         </Link>
         <div className="min-w-0 flex-1">
-          <p className="truncate font-semibold">{props.label}</p>
-          <p className="text-sm text-muted tabular">
+          <p className="truncate font-semibold leading-tight tracking-[-0.01em]">{props.label}</p>
+          <p className="mt-1 font-mono text-xs text-muted tabular">
             {sprint ? `${sprintScore} correct` : `Question ${index + 1} of ${questions.length}`}
           </p>
         </div>
         {mm ? (
-          <p className={cn("rounded-full px-3 py-1.5 font-semibold tabular", remaining !== null && remaining <= 60 ? "bg-danger text-white" : "bg-subtle")} role="timer" aria-live={remaining !== null && remaining <= 60 ? "polite" : "off"}>
+          <p
+            className={cn(
+              "inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full border px-3.5 font-mono text-sm font-medium tabular transition-colors duration-500",
+              // Sprints run on a 60-second clock, so only their final seconds read as urgent.
+              remaining !== null && remaining <= (sprint ? 10 : 60) ? "border-danger/30 bg-danger/10 text-danger" : "border-border bg-card shadow-card",
+            )}
+            role="timer"
+            aria-live={urgent ? "polite" : "off"}
+          >
+            <Timer className="size-4 opacity-60" aria-hidden />
             {mm}
           </p>
         ) : null}
       </header>
-      <ProgressBar value={sprint ? 60 - (remaining ?? 0) : answeredCount} max={sprint ? 60 : questions.length} className="mt-4" label="Progress" />
+      <ProgressBar value={sprint ? 60 - (remaining ?? 0) : answeredCount} max={sprint ? 60 : questions.length} className="mt-5" label="Progress" />
 
-      <section aria-labelledby="stem" className="mt-8 flex-1">
-        {q.source === "ai_generated" ? <p className="mb-2 text-xs font-medium text-warning">AI-generated practice question</p> : null}
-        <h1 id="stem" className="text-xl font-semibold leading-snug sm:text-2xl">
+      <section aria-labelledby="stem" className="mt-9 flex-1 sm:mt-12">
+        {q.source === "ai_generated" ? (
+          <Chip tone="warning" className="mb-4">
+            AI-generated practice question
+          </Chip>
+        ) : null}
+        <h1 id="stem" className="text-[1.35rem] font-semibold leading-[1.3] tracking-[-0.02em] sm:text-[1.6rem]">
           {q.stem}
         </h1>
-        <div role="radiogroup" aria-labelledby="stem" className="mt-6 space-y-3">
+        <div role="radiogroup" aria-labelledby="stem" className="mt-7 space-y-2.5">
           {q.choices.map((c, i) => {
             const isSel = selected === i;
             const isRight = fb && i === fb.answerIndex;
             const isWrong = fb && isSel && !fb.correct;
+            const tone = fb && !sprint ? (isRight ? "right" : isWrong ? "wrong" : "dim") : isSel ? "selected" : fb ? "dim" : "idle";
             return (
               <button
                 key={i}
@@ -173,103 +193,126 @@ export function ExamRunner(props: {
                 disabled={pending || (instant && Boolean(fb))}
                 onClick={() => choose(i)}
                 className={cn(
-                  "flex w-full items-start gap-3 rounded-2xl border-2 p-4 text-left transition-colors disabled:cursor-default",
-                  !fb && isSel && "border-fg bg-subtle",
-                  !fb && !isSel && "border-border hover:border-fg/40",
-                  isRight && !sprint && "border-success bg-success/10",
-                  isWrong && !sprint && "border-danger bg-danger/10",
-                  fb && !isRight && !isWrong && "border-border opacity-70",
+                  "group/choice flex w-full items-start gap-3.5 rounded-[16px] border p-4 text-left transition-[border-color,background-color,box-shadow,color] duration-200 disabled:cursor-default",
+                  tone === "idle" && "border-border bg-card shadow-card hover:border-border-strong",
+                  tone === "selected" && "border-fg bg-card shadow-card ring-4 ring-accent/30",
+                  tone === "right" && "border-success bg-success/10",
+                  tone === "wrong" && "border-danger bg-danger/10",
+                  tone === "dim" && "border-border bg-card/60 text-muted",
                 )}
               >
-                <span className={cn("inline-flex size-7 shrink-0 items-center justify-center rounded-full border text-sm font-semibold", isSel ? "border-fg bg-fg text-bg" : "border-border")}>{LETTERS[i]}</span>
-                <span className="pt-0.5">{c}</span>
-                {isRight && !sprint ? <CheckCircle2 className="ml-auto size-5 shrink-0 text-success" aria-label="Correct answer" /> : null}
-                {isWrong && !sprint ? <XCircle className="ml-auto size-5 shrink-0 text-danger" aria-label="Your answer" /> : null}
+                <span
+                  aria-hidden
+                  className={cn(
+                    "inline-flex size-8 shrink-0 items-center justify-center rounded-[10px] border font-mono text-[13px] font-semibold transition-colors duration-200",
+                    tone === "idle" && "border-border-strong bg-subtle/70 text-muted group-hover/choice:border-fg group-hover/choice:text-fg",
+                    tone === "selected" && "border-primary bg-primary text-primary-fg",
+                    tone === "right" && "border-success/40 bg-success/15 text-success",
+                    tone === "wrong" && "border-danger/40 bg-danger/15 text-danger",
+                    tone === "dim" && "border-border",
+                  )}
+                >
+                  {LETTERS[i]}
+                </span>
+                <span className="min-w-0 flex-1 pt-1 text-[15px] leading-relaxed sm:text-base">{c}</span>
+                {tone === "right" ? <CheckCircle2 className="pop-in mt-1.5 size-5 shrink-0 text-success" aria-label="Correct answer" /> : null}
+                {tone === "wrong" ? <XCircle className="pop-in mt-1.5 size-5 shrink-0 text-danger" aria-label="Your answer" /> : null}
               </button>
             );
           })}
         </div>
         {fb && !sprint ? (
-          <div role="status" className={cn("mt-5 rounded-2xl p-4", fb.correct ? "bg-success/10" : "bg-danger/10")}>
-            <p className="font-semibold">{fb.correct ? "Correct" : `Not quite. The answer is ${LETTERS[fb.answerIndex]}.`}</p>
-            <p className="mt-1 text-sm">{fb.explanation}</p>
+          <div role="status" className={cn("mt-5 rounded-[16px] border p-4 sm:p-5", fb.correct ? "border-success/25 bg-success/10" : "border-danger/25 bg-danger/10")}>
+            <p className={cn("flex items-center gap-2 font-semibold tracking-[-0.01em]", fb.correct ? "text-success" : "text-danger")}>
+              {fb.correct ? <CheckCircle2 className="size-[18px] shrink-0" aria-hidden /> : <XCircle className="size-[18px] shrink-0" aria-hidden />}
+              {fb.correct ? "Correct" : `Not quite. The answer is ${LETTERS[fb.answerIndex]}.`}
+            </p>
+            <p className="mt-2 text-[15px] leading-relaxed">{fb.explanation}</p>
           </div>
         ) : null}
         {error ? <p role="alert" className="mt-4 text-sm text-danger">{error}</p> : null}
       </section>
 
-      {!instant ? (
-        <nav aria-label="Question navigator" className="mt-8">
-          <div className="flex flex-wrap gap-1.5">
-            {questions.map((qq, i) => (
-              <button
-                key={qq.id}
-                type="button"
-                onClick={() => setIndex(i)}
-                aria-label={`Question ${i + 1}${draft[qq.id] !== undefined ? ", answered" : ""}${flags.has(qq.id) ? ", flagged" : ""}`}
-                aria-current={i === index}
-                className={cn(
-                  "relative size-9 rounded-lg text-xs font-semibold tabular",
-                  i === index ? "bg-fg text-bg" : draft[qq.id] !== undefined ? "bg-subtle-2" : "border border-border",
-                )}
-              >
-                {i + 1}
-                {flags.has(qq.id) ? <span className="absolute -right-0.5 -top-0.5 size-2 rounded-full bg-warning" aria-hidden /> : null}
-              </button>
-            ))}
+      {/* One wrapper so controls that come and go (and the dialog) don't replay the page entrance. */}
+      <div className="mt-8">
+        {!sprint ? (
+          <div className="flex items-center gap-2.5">
+            {!instant ? (
+              <>
+                <Button variant="outline" size="lg" aria-label="Previous question" className="w-14 shrink-0 px-0" disabled={index === 0} onClick={() => setIndex(index - 1)}>
+                  <ChevronLeft className="size-5" aria-hidden />
+                </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  aria-pressed={flags.has(q.id)}
+                  className={cn("w-14 shrink-0 px-0 sm:w-auto sm:px-5", flags.has(q.id) && "border-warning/40 bg-warning/10 text-warning hover:border-warning/60 hover:bg-warning/15")}
+                  onClick={() => setFlags((f) => { const n = new Set(f); if (n.has(q.id)) n.delete(q.id); else n.add(q.id); return n; })}
+                >
+                  <Flag className={cn("size-4", flags.has(q.id) && "fill-current")} aria-hidden /> <span className="sr-only sm:not-sr-only">{flags.has(q.id) ? "Flagged" : "Flag"}</span>
+                </Button>
+              </>
+            ) : null}
+            <Button variant={last ? "accent" : "primary"} className="min-w-0 flex-1" size="lg" disabled={pending || (instant && !fb)} onClick={next}>
+              {pending ? <Loader2 className="size-5 animate-spin" aria-hidden /> : null}
+              {index + 1 < questions.length ? "Next" : instant ? "See results" : "Review & submit"} <ChevronRight className="size-5 transition-transform group-hover/btn:translate-x-0.5" aria-hidden />
+            </Button>
           </div>
-        </nav>
-      ) : null}
+        ) : null}
 
-      {!sprint ? (
-        <div className="mt-6 flex items-center gap-3">
-          {!instant ? (
-            <>
-              <Button variant="subtle" aria-label="Previous question" disabled={index === 0} onClick={() => setIndex(index - 1)}>
-                <ChevronLeft className="size-5" aria-hidden />
-              </Button>
-              <Button
-                variant="subtle"
-                aria-pressed={flags.has(q.id)}
-                onClick={() => setFlags((f) => { const n = new Set(f); if (n.has(q.id)) n.delete(q.id); else n.add(q.id); return n; })}
-              >
-                <Flag className="size-4" aria-hidden /> {flags.has(q.id) ? "Flagged" : "Flag"}
-              </Button>
-            </>
-          ) : null}
-          <Button className="flex-1" size="lg" disabled={pending || (instant && !fb)} onClick={next}>
-            {pending ? <Loader2 className="size-5 animate-spin" aria-hidden /> : null}
-            {index + 1 < questions.length ? "Next" : instant ? "See results" : "Review & submit"} <ChevronRight className="size-5" aria-hidden />
-          </Button>
-        </div>
-      ) : null}
-      {!instant && index + 1 < questions.length ? (
-        <button type="button" className="mt-4 text-center text-sm font-medium underline-offset-2 hover:underline" onClick={() => setConfirming(true)}>
-          Submit exam
-        </button>
-      ) : null}
+        {!instant ? (
+          <nav aria-label="Question navigator" className="mt-8">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(2.25rem,1fr))] gap-1.5">
+              {questions.map((qq, i) => (
+                <button
+                  key={qq.id}
+                  type="button"
+                  onClick={() => setIndex(i)}
+                  aria-label={`Question ${i + 1}${draft[qq.id] !== undefined ? ", answered" : ""}${flags.has(qq.id) ? ", flagged" : ""}`}
+                  aria-current={i === index}
+                  className={cn(
+                    "relative h-9 rounded-[10px] font-mono text-xs font-medium tabular transition-colors",
+                    i === index ? "bg-primary text-primary-fg" : draft[qq.id] !== undefined ? "bg-subtle-2 text-fg" : "border border-border bg-card text-muted hover:border-border-strong hover:text-fg",
+                  )}
+                >
+                  {i + 1}
+                  {flags.has(qq.id) ? <span className="absolute -right-0.5 -top-0.5 size-2 rounded-full bg-warning ring-2 ring-bg" aria-hidden /> : null}
+                </button>
+              ))}
+            </div>
+          </nav>
+        ) : null}
 
-      {confirming ? (
-        <div role="dialog" aria-modal="true" aria-labelledby="confirm-title" className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-4 sm:items-center">
-          <div className="w-full max-w-md rounded-3xl bg-bg p-6">
-            <h2 id="confirm-title" className="text-xl font-semibold">
-              Submit your exam?
-            </h2>
-            <p className="mt-2 text-muted">
-              {questions.length - answeredCount > 0 ? `${questions.length - answeredCount} question${questions.length - answeredCount === 1 ? " is" : "s are"} unanswered and will be marked incorrect.` : "All questions answered."}
-              {flags.size ? ` ${flags.size} flagged for review.` : ""}
-            </p>
-            <div className="mt-6 flex gap-3">
-              <Button variant="outline" className="flex-1" onClick={() => setConfirming(false)}>
-                Keep working
-              </Button>
-              <Button className="flex-1" disabled={pending} onClick={submit}>
-                {pending ? <Loader2 className="size-4 animate-spin" aria-hidden /> : null} Submit
-              </Button>
+        {!instant && index + 1 < questions.length ? (
+          <div className="mt-5 flex justify-center">
+            <Button variant="ghost" size="sm" className="text-muted hover:text-fg" onClick={() => setConfirming(true)}>
+              Submit exam
+            </Button>
+          </div>
+        ) : null}
+
+        {confirming ? (
+          <div role="dialog" aria-modal="true" aria-labelledby="confirm-title" className="fixed inset-0 z-50 flex items-end justify-center bg-hero/50 p-4 backdrop-blur-sm sm:items-center">
+            <div className="w-full max-w-md rounded-[24px] border border-border bg-card p-6 shadow-float">
+              <h2 id="confirm-title" className="text-xl font-semibold tracking-[-0.02em]">
+                Submit your exam?
+              </h2>
+              <p className="mt-2 text-muted">
+                {questions.length - answeredCount > 0 ? `${questions.length - answeredCount} question${questions.length - answeredCount === 1 ? " is" : "s are"} unanswered and will be marked incorrect.` : "All questions answered."}
+                {flags.size ? ` ${flags.size} flagged for review.` : ""}
+              </p>
+              <div className="mt-6 flex gap-3">
+                <Button variant="outline" className="flex-1" onClick={() => setConfirming(false)}>
+                  Keep working
+                </Button>
+                <Button variant="accent" className="flex-1" disabled={pending} onClick={submit}>
+                  {pending ? <Loader2 className="size-4 animate-spin" aria-hidden /> : null} Submit
+                </Button>
+              </div>
             </div>
           </div>
-        </div>
-      ) : null}
+        ) : null}
+      </div>
     </main>
   );
 }

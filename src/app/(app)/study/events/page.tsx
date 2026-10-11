@@ -4,7 +4,9 @@ import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { activeSelection } from "@/server/progress";
 import { isOrg, ORGS, ORG_IDS, type OrgId } from "@/lib/orgs";
-import { Page } from "@/components/ui/page";
+import { cn } from "@/lib/cn";
+import { Accent, Page, PageTitle } from "@/components/ui/page";
+import { OrgScope } from "@/components/app/org-theme";
 import { EventChooser } from "./chooser";
 
 export const metadata: Metadata = { title: "Choose your event" };
@@ -21,19 +23,39 @@ export default async function ChooseEvent({ searchParams }: { searchParams: Prom
   const sel = await activeSelection(user.id, org);
   const season = events.length ? "2026-2027" : "";
   return (
-    <Page>
-      <h1 className="text-[2rem] font-semibold leading-tight tracking-tight">Choose your event</h1>
-      <p className="mt-2 text-muted">
-        {ORGS[org].name} {season} high school events. You can change this anytime.
-      </p>
-      <nav aria-label="Organization" className="mt-5 flex gap-2 overflow-x-auto">
-        {ORG_IDS.map((o) => (
-          <a key={o} href={`/study/events?federation=${o}`} aria-current={o === org ? "page" : undefined} className={`rounded-full px-4 py-2 text-sm font-medium ${o === org ? "bg-fg text-bg" : "bg-subtle"}`}>
-            {ORGS[o].name}
-          </a>
-        ))}
-      </nav>
-      <EventChooser org={org} events={events} selectedId={sel?.event.id ?? null} placeholder={ORGS[org].searchHint} />
-    </Page>
+    <OrgScope org={org}>
+      <Page>
+        <PageTitle
+          eyebrow="Study"
+          title={
+            <>
+              Choose your <Accent>event</Accent>
+            </>
+          }
+          subtitle={
+            <>
+              {ORGS[org].name} {season} high school events. You can change this anytime.
+            </>
+          }
+        />
+        <nav aria-label="Organization" className="grid grid-cols-4 gap-1 rounded-[16px] border border-border bg-subtle/80 p-1">
+          {ORG_IDS.map((o) => (
+            <a
+              key={o}
+              href={`/study/events?federation=${o}`}
+              aria-current={o === org ? "page" : undefined}
+              className={cn(
+                "flex h-10 items-center justify-center gap-2 rounded-[12px] font-mono text-xs font-semibold tracking-wider transition-colors",
+                o === org ? "bg-card text-fg shadow-card" : "text-muted hover:text-fg",
+              )}
+            >
+              <span className="size-1.5 rounded-full" style={{ background: `var(--${o})` }} aria-hidden />
+              {ORGS[o].name}
+            </a>
+          ))}
+        </nav>
+        <EventChooser org={org} events={events} selectedId={sel?.event.id ?? null} placeholder={ORGS[org].searchHint} />
+      </Page>
+    </OrgScope>
   );
 }

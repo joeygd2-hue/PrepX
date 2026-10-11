@@ -44,7 +44,7 @@ npm run build
 npm start                               # or let your host run `next start`
 ```
 
-On Vercel: set the env vars in the project, set the build command to `npm run db:migrate && npm run build` (or run migrations from CI), and run `npm run db:seed` once from your machine against the production database. Re-running the seed is safe: it upserts by stable ids and never overwrites competition dates that admins edited.
+On Vercel: set the env vars in the project, set the build command to `npm run db:migrate && npm run build` (or run migrations from CI), and run `npm run db:seed` once from your machine against the production database. Re-running the seed is safe: it upserts by stable ids and never overwrites competition dates that admins edited. After pulling new study content (`content/study/**`), run `npm run db:seed` again to load it.
 
 Then sign in with an address in `ADMIN_EMAILS`, open `/admin`, and check the Integrations panel.
 
@@ -73,6 +73,10 @@ The callback verifies the OAuth `state` and PKCE verifier, accepts only Google-v
 4. Enable the Customer Portal (cancel at period end) in Stripe settings.
 
 Users see Pro only after the webhook updates the database. Events are deduplicated by id. Account deletion cancels an active subscription.
+
+### Free launch period
+
+The first migration run creates a launch period that gives every student Pro for four weeks (`app_settings.launch_access`). Change the last free day or end it early in `/admin/limits` (admins only). While it's on, Home, Study and the plan page say so; no card is collected and nothing converts to a paid plan when it ends.
 
 ## 7. Scheduled jobs
 

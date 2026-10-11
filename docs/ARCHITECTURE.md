@@ -74,14 +74,14 @@ Admin (staff/admin role)
 | Area | Tables |
 |---|---|
 | Identity | `users`, `sessions` (token hash only), `email_codes` (code hash only), `profiles`, `org_preferences`, `notification_prefs`, `push_subscriptions` |
-| Catalog | `regions`, `exam_clusters`, `units`, `events` (components + practice rubric JSON, verification status, source URL/date), `competitions` (status confirmed/tentative/unconfirmed, source, previous date) |
+| Catalog | `regions`, `exam_clusters` (study banks: `kind` exam / practice / skills), `units`, `study_resources`, `events` (components + practice rubric JSON, verification status, source URL/date), `competitions` (status confirmed/tentative/unconfirmed, source, previous date) |
 | Study | `event_selections` (history; one active per user per org), `plan_tasks`, `season_goals`, `questions` (source: prepx_original / ai_generated / licensed; status published/review/retired), `exam_attempts`, `attempt_answers`, `mistakes`, `lesson_progress`, `flashcards`, `flashcard_reviews` (Leitner), `sprint_bests` |
 | AI | `ai_sessions`, `ai_messages`, `ai_feedback` (score, criteria, rubric basis) |
 | Motivation | `xp_events` (unique per user/reason/ref → no double awards), `activity_days`, `user_achievements`, `buddies` |
 | Chapters | `chapters`, `chapter_members` (unique user+org), `chapter_announcements`, `checkins`, `checkin_records`, `quiz_games`, `quiz_answers` |
 | Communication | `announcements`, `announcement_dismissals`, `notifications` (dedupe key), `email_log`, `family_links` |
 | Billing | `plan_limits` (admin-editable), `usage_records` (reserved/consumed/refunded), `subscriptions`, `billing_events` (webhook idempotency) |
-| Ops | `rate_limits`, `audit_log`, `feedback`, `error_log` |
+| Ops | `rate_limits`, `audit_log`, `feedback`, `error_log`, `app_settings` (e.g. the free launch period) |
 
 Every user-owned row references `users.id` with `ON DELETE CASCADE`; rows that must outlive a user (audit log, billing event ids, chapter announcements) use `SET NULL`. Content that changes by season lives in `/content/*.json` and is upserted by `npm run db:seed`, so requirements can be corrected without code changes (and admins can edit events and dates in the console).
 
@@ -100,12 +100,13 @@ Every user-owned row references `users.id` with `ON DELETE CASCADE`; rows that m
 - `AI_PROVIDER=none` → AI features show "not configured"; `mock` → deterministic test provider (refused in production; every reply is tagged `[Test AI]` and the UI shows a development banner).
 - `src/server/ai/tasks.ts` — coach, scenario, evaluation, judge questions, answer rating, explain-back, question generation. Prompts never include the student's name, email or school. The judge may only rate the event's listed criteria; results are labeled "simulated practice score" and, unless an event's rubric is marked verified, "general practice criteria, not the official rubric".
 - `src/server/ai/run.ts` — `withUsage()` reserves an allowance unit, runs the call, commits on success and refunds on any failure.
+- `src/server/ai/ask.ts` — Ask AI: explains highlighted study text or answers typed questions. Quick actions are mapped to prompts on the server; only the highlighted text and its paragraph are sent; nothing is stored.
 - Retention: transcripts and coach messages kept 180 days (cleanup job), deletable by the student; camera stills are never stored; audio never reaches the server (browser speech recognition).
 
 ## 8. Subscription and usage model
 
 - `plan_limits(feature, free_limit, pro_limit, period)` seeded from `content/plans.json` and editable at `/admin/limits` (-1 = unlimited; periods day/month/season/lifetime). Initial: coach 10/day, judge 1/day, judge questions 1/day, explain-back 5/day, full exams 2/season, entry check 1/season, presentation check 1/season (free).
-- Pro sources: active Stripe subscription, season boost (one-time, ends Jul 31, no renewal), or a chapter with `covers_pro`.
+- Pro sources: active Stripe subscription, season boost (one-time, ends Jul 31, no renewal), a chapter with `covers_pro`, or the free launch period (`app_settings.launch_access`, ends at the end of its last day in UTC−10).
 - `reserveUsage()` takes a per-user/feature advisory lock, counts reserved+consumed in the period, and inserts a reservation; stale reservations (>10 min) are released by the cleanup job.
 - Checkout/portal/webhook routes return to the plan page; the page shows Pro only after the webhook has updated the database (no optimistic "success").
 

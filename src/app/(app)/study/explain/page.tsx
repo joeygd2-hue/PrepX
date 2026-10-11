@@ -28,7 +28,7 @@ export default async function Explain({ searchParams }: { searchParams: Promise<
   return (
     <Page>
       <BackHeader href="/study" title="Explain it back" />
-      {!features.ai() ? <Notice tone="warning" className="mb-4">AI features aren&apos;t configured on this server yet.</Notice> : null}
+      {!features.ai() ? <Notice tone="warning" className="mb-5">AI features aren&apos;t configured on this server yet.</Notice> : null}
       {cards.length ? (
         <ExplainDrill cards={cards} remaining={allowance.unlimited ? null : allowance.remaining} />
       ) : (
