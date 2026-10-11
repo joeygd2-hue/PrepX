@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Applying formulas: flow rates, BMI, and clinical statistics",
+    "objective": "Calculate IV flow and drip rates, compute and classify adult BMI, and interpret measures of central tendency in health data.",
+    "body": "Advanced problems combine conversions, proportions, and formulas in multistep scenarios. The calculations below appear across nursing, pharmacy, and public health, and each depends on careful unit tracking.\n\n**Intravenous flow rates.** When fluid runs through an electronic pump, the **flow rate** is set in milliliters per hour: volume (mL) ÷ time (h). A 1,000 mL infusion ordered over 8 hours runs at 125 mL/h. When fluid runs by gravity, staff count drops in the drip chamber, so they need the **drip rate** in drops per minute (gtt/min):\n\ngtt/min = volume (mL) × drop factor (gtt/mL) ÷ time (min)\n\nThe **drop factor** is printed on the tubing package. **Macrodrip** sets commonly deliver 10, 15, or 20 gtt/mL, while **microdrip** sets deliver 60 gtt/mL. Because a person cannot count partial drops, round drip rates to the nearest whole number. A useful shortcut: with microdrip tubing, gtt/min equals mL/h, since 60 drops per mL cancels 60 minutes per hour.\n\n**Infusion time.** Rearranging gives time = volume ÷ rate. A 750 mL bag at 100 mL/h lasts 7.5 hours, or 7 hours 30 minutes. If it starts at 0800, it finishes at 1530.\n\n**Body mass index.** **BMI** screens adult weight relative to height: BMI = weight (kg) ÷ height (m)². With customary units, BMI = 703 × weight (lb) ÷ height (in)². Adult categories used by the CDC are:\n- below 18.5: underweight\n- 18.5 to 24.9: healthy weight\n- 25.0 to 29.9: overweight\n- 30.0 and above: obesity\n\nBMI is a screening tool, not a diagnosis; it does not distinguish muscle from fat. Children and teens are evaluated with BMI-for-age percentiles instead of these adult cutoffs.\n\n**Clinical statistics.** Health data are summarized with measures of central tendency. The **mean** is the sum divided by the count; the **median** is the middle value of ordered data; the **mode** is the most frequent value; the **range** is the highest minus the lowest. The median resists outliers: in wait times of 10, 12, 14, 15, and 90 minutes, the mean is 28.2 but the median is 14, which better describes a typical visit. Rates are often expressed per 1,000 or per 100,000 people so that populations of different sizes can be compared.\n\nThe most common mistake students make on these problems is mixing time units, such as entering hours into the drip-rate formula, which requires minutes. Converting every quantity into the units the formula demands before substituting prevents answers that are off by a factor of 60.",
+    "examples": [
+      "A 500 mL infusion over 4 hours with 15 gtt/mL tubing: 500 × 15 ÷ 240 = 31.25, rounded to 31 gtt/min.",
+      "An adult who weighs 70 kg and is 1.75 m tall has a BMI of 70 ÷ 3.0625 ≈ 22.9, in the healthy range.",
+      "A town of 40,000 with 120 flu cases has a rate of 3 per 1,000 residents."
+    ],
+    "questions": [
+      {
+        "stem": "A 1,200 mL infusion is ordered over 10 hours on an electronic pump. What rate should be programmed?",
+        "choices": [
+          "12 mL/h",
+          "100 mL/h",
+          "120 mL/h",
+          "200 mL/h"
+        ],
+        "answer": 2,
+        "explanation": "1,200 mL ÷ 10 h = 120 mL/h. 12 mL/h results from also dividing by 10 again, misplacing a decimal."
+      },
+      {
+        "stem": "A gravity infusion of 1,000 mL is to run over 8 hours with tubing labeled 10 gtt/mL. What is the drip rate?",
+        "choices": [
+          "21 gtt/min",
+          "125 gtt/min",
+          "13 gtt/min",
+          "1,250 gtt/min"
+        ],
+        "answer": 0,
+        "explanation": "1,000 × 10 ÷ 480 min = 20.8, rounded to 21 gtt/min. 1,250 gtt/min comes from using 8 hours instead of 480 minutes in the formula."
+      },
+      {
+        "stem": "A 250 mL infusion runs through microdrip tubing at 50 mL/h. What is the drip rate?",
+        "choices": [
+          "50 gtt/min",
+          "5 gtt/min",
+          "83 gtt/min",
+          "300 gtt/min"
+        ],
+        "answer": 0,
+        "explanation": "With 60 gtt/mL tubing, gtt/min equals mL/h, so 50 gtt/min. 300 gtt/min multiplies 50 by 60 without dividing by 60 minutes."
+      },
+      {
+        "stem": "A 600 mL infusion begins at 1300 at 80 mL/h. At what time will it finish?",
+        "choices": [
+          "1930",
+          "2030",
+          "2100",
+          "1830"
+        ],
+        "answer": 1,
+        "explanation": "600 ÷ 80 = 7.5 hours; 1300 + 7 h 30 min = 2030. 1930 adds the time incorrectly, dropping an hour."
+      },
+      {
+        "stem": "An adult is 1.60 m tall and weighs 80 kg. Which BMI category applies?",
+        "choices": [
+          "Healthy weight",
+          "Underweight",
+          "Overweight",
+          "Obesity"
+        ],
+        "answer": 3,
+        "explanation": "BMI = 80 ÷ (1.60 × 1.60) = 80 ÷ 2.56 = 31.25, which is 30 or above. Overweight is the trap for students who divide by 1.60 only once, or who stop estimating near 25 to 30."
+      },
+      {
+        "stem": "An adult is 66 inches tall and weighs 150 lb. What is the BMI to the nearest tenth?",
+        "choices": [
+          "24.2",
+          "34.1",
+          "2.3",
+          "22.7"
+        ],
+        "answer": 0,
+        "explanation": "703 × 150 ÷ (66 × 66) = 105,450 ÷ 4,356 = 24.2. 2.3 results from omitting the 703 factor and misplacing the decimal."
+      },
+      {
+        "stem": "Emergency department wait times (minutes) are 15, 18, 20, 22, and 95. Which measure best represents a typical wait, and what is it?",
+        "choices": [
+          "Mean, 34 minutes",
+          "Median, 20 minutes",
+          "Mode, 15 minutes",
+          "Range, 80 minutes"
+        ],
+        "answer": 1,
+        "explanation": "The 95-minute outlier inflates the mean to 34, so the median, 20, better describes a typical wait. The mean is mathematically correct but misleading here."
+      },
+      {
+        "stem": "County A (population 50,000) reported 150 cases of a disease; County B (population 200,000) reported 400 cases. Which statement is correct?",
+        "choices": [
+          "County B has the higher rate because it has more cases",
+          "Both counties have the same rate",
+          "County A has the higher rate, 3 per 1,000 versus 2 per 1,000",
+          "County A has the higher rate, 3 per 100 versus 2 per 100"
+        ],
+        "answer": 2,
+        "explanation": "150 ÷ 50,000 = 3 per 1,000 and 400 ÷ 200,000 = 2 per 1,000. Choosing County B confuses raw case counts with rates adjusted for population size."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Drip rate",
+        "definition": "Drops per minute for a gravity infusion: volume (mL) × drop factor ÷ time (min)."
+      },
+      {
+        "term": "Drop factor",
+        "definition": "The number of drops per milliliter a tubing set delivers, printed on its package."
+      },
+      {
+        "term": "Microdrip",
+        "definition": "Tubing that delivers 60 gtt/mL, so drops per minute equal milliliters per hour."
+      },
+      {
+        "term": "Body mass index (BMI)",
+        "definition": "Weight in kilograms divided by height in meters squared; an adult screening measure."
+      },
+      {
+        "term": "Median",
+        "definition": "The middle value of ordered data, less affected by outliers than the mean."
+      }
+    ]
+  }
+]

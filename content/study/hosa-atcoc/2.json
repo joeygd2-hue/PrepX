@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Intermolecular forces, acids, bases, and biomolecules",
+    "objective": "Predict physical properties from intermolecular forces, compare organic acid and base strength, and classify the major biological macromolecules.",
+    "body": "Once you can name functional groups, the next step is using them to predict how a molecule behaves: whether it dissolves in blood, crosses a cell membrane, or acts as an acid. These predictions connect organic chemistry directly to health science.\n\n**Polarity and intermolecular forces.** Bonds between atoms of different electronegativity, such as C-O and O-H, are polar. Molecules attract one another through three main forces, from weakest to strongest:\n1. **London dispersion forces**, present in all molecules and larger in bigger molecules.\n2. **Dipole-dipole attractions** between polar molecules.\n3. **Hydrogen bonding**, when H is bonded to N, O, or F and attracted to a lone pair on another N, O, or F.\n\nStronger forces mean higher boiling points. Among molecules of similar size, a carboxylic acid boils higher than an alcohol, which boils higher than a ketone or aldehyde, which boils higher than an alkane.\n\n**Solubility.** \"Like dissolves like.\" Small alcohols, acids, and amines dissolve in water because they hydrogen-bond with it. As the nonpolar carbon chain grows, water solubility drops. This explains why **lipids** are insoluble in blood and travel inside lipoproteins.\n\n**Organic acids and bases.** Carboxylic acids donate H+ to form carboxylate ions; their strength is expressed as **pKa**, where a lower pKa means a stronger acid. Acetic acid has a pKa near 4.8, while ethanol is around 16, so the acid is vastly stronger. Amines act as bases by accepting H+ on nitrogen's lone pair. At the body's pH of about 7.4, most carboxylic acids exist as negative carboxylates and most simple amines as positive ammonium ions, which affects how drugs are absorbed.\n\n**Biomolecules.** The four classes of macromolecules are built from functional groups you already know:\n- **Carbohydrates**: polyhydroxy aldehydes or ketones; glucose is an aldohexose. Monosaccharides join by glycosidic (ether-type) linkages.\n- **Lipids**: triglycerides are esters of glycerol and three fatty acids. Saturated fats have no C=C bonds; unsaturated fats have one or more, usually cis, which kinks the chain and keeps oils liquid.\n- **Proteins**: amino acids joined by amide (peptide) bonds.\n- **Nucleic acids**: nucleotides joined by phosphodiester bonds between sugar and phosphate.\n\n**Condensation and hydrolysis.** Monomers join by **condensation** (dehydration synthesis), releasing water. Digestion reverses this through **hydrolysis**, which uses water and enzymes to break bonds.\n\nThe most common mistake students make is assuming any molecule with oxygen hydrogen-bonds with itself; ketones, aldehydes, and ethers accept hydrogen bonds from water but cannot donate them, so their boiling points stay lower than alcohols of similar size.",
+    "examples": [
+      "Butanoic acid (four carbons) mixes readily with water, but octadecanoic (stearic) acid is insoluble because its long nonpolar tail dominates.",
+      "When you digest table sugar, the enzyme sucrase hydrolyzes the glycosidic bond in sucrose, producing glucose and fructose."
+    ],
+    "questions": [
+      {
+        "stem": "Which compound likely has the highest boiling point: propane, propanal, propan-1-ol, or propanoic acid?",
+        "choices": [
+          "Propane",
+          "Propanal",
+          "Propan-1-ol",
+          "Propanoic acid"
+        ],
+        "answer": 3,
+        "explanation": "Carboxylic acids form strong hydrogen-bonded pairs, giving the highest boiling point. Propan-1-ol hydrogen-bonds too, but less extensively than the acid."
+      },
+      {
+        "stem": "A nutrition student notes olive oil is liquid at room temperature while butter is solid. What best explains this?",
+        "choices": [
+          "Olive oil contains more cis double bonds that kink its fatty acid chains",
+          "Olive oil has longer fatty acid chains",
+          "Butter contains no ester bonds",
+          "Olive oil is a carbohydrate"
+        ],
+        "answer": 0,
+        "explanation": "Cis double bonds bend chains so they pack poorly, lowering the melting point. Longer chains would raise, not lower, the melting point."
+      },
+      {
+        "stem": "Compound A has pKa 4.2 and compound B has pKa 9.8. Which statement is true?",
+        "choices": [
+          "B is the stronger acid",
+          "A is the stronger acid",
+          "They are equally acidic",
+          "pKa does not relate to acid strength"
+        ],
+        "answer": 1,
+        "explanation": "Lower pKa means a stronger acid, so A is stronger. Choosing B reverses the scale."
+      },
+      {
+        "stem": "At blood pH 7.4, a simple amine drug mostly exists as which form?",
+        "choices": [
+          "A neutral molecule",
+          "A negatively charged carboxylate",
+          "A positively charged ammonium ion",
+          "A free radical"
+        ],
+        "answer": 2,
+        "explanation": "Simple amines are basic and become protonated ammonium ions at physiological pH. Carboxylates form from acids, not amines."
+      },
+      {
+        "stem": "Two glucose molecules join to form maltose and a water molecule. What is this reaction called?",
+        "choices": [
+          "Hydrolysis",
+          "Condensation",
+          "Oxidation",
+          "Hydrogenation"
+        ],
+        "answer": 1,
+        "explanation": "Joining monomers with loss of water is condensation (dehydration synthesis). Hydrolysis is the reverse, consuming water."
+      },
+      {
+        "stem": "Why does diethyl ether have a much lower boiling point than butan-1-ol, though both are C4H10O?",
+        "choices": [
+          "Ether molecules cannot donate hydrogen bonds to each other",
+          "Ether is ionic",
+          "Ether has more carbon atoms",
+          "Butan-1-ol has no polar bonds"
+        ],
+        "answer": 0,
+        "explanation": "The ether has no O-H, so its molecules cannot hydrogen-bond to each other. Both have four carbons, so size is not the difference."
+      },
+      {
+        "stem": "Triglycerides in adipose tissue are which type of compound?",
+        "choices": [
+          "Amides of amino acids",
+          "Esters of glycerol and fatty acids",
+          "Ethers of glucose",
+          "Phosphodiesters of nucleotides"
+        ],
+        "answer": 1,
+        "explanation": "Triglycerides are triesters formed from glycerol and three fatty acids. Phosphodiesters link nucleotides in nucleic acids."
+      },
+      {
+        "stem": "Which molecule would be least soluble in water?",
+        "choices": [
+          "Ethanol",
+          "Acetic acid",
+          "Hexane",
+          "Methylamine"
+        ],
+        "answer": 2,
+        "explanation": "Hexane is a nonpolar hydrocarbon with only dispersion forces. The others hydrogen-bond with water and dissolve readily."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Hydrogen bonding",
+        "definition": "A strong attraction between H bonded to N, O, or F and a lone pair on another N, O, or F."
+      },
+      {
+        "term": "pKa",
+        "definition": "A measure of acid strength; the lower the pKa, the stronger the acid."
+      },
+      {
+        "term": "Condensation reaction",
+        "definition": "A reaction that joins two molecules while releasing water."
+      },
+      {
+        "term": "Hydrolysis",
+        "definition": "A reaction that breaks a bond by adding water, as in digestion."
+      },
+      {
+        "term": "Triglyceride",
+        "definition": "An ester formed from glycerol and three fatty acids; the main storage fat."
+      }
+    ]
+  }
+]

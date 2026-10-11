@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Metric, household, and temperature conversions in health care",
+    "objective": "Convert accurately between metric, household, and temperature units and express clinical times in 24-hour format.",
+    "body": "Health care runs on measurement. Heights, weights, fluid intake, and temperatures are recorded by many different people, and a single misplaced decimal can change a chart entry by a factor of ten or a thousand. Strong conversion skills are the foundation for every other calculation in this event.\n\n**The metric system.** Health care uses the metric system because every unit is related by powers of ten. The base units are the **gram** (mass), the **liter** (volume), and the **meter** (length). Prefixes scale them:\n- kilo- = 1,000 (1 kg = 1,000 g)\n- centi- = 1/100 (100 cm = 1 m)\n- milli- = 1/1,000 (1,000 mL = 1 L; 1,000 mg = 1 g)\n- micro- = 1/1,000,000 (1,000 mcg = 1 mg)\n\nA cubic centimeter (cc) holds the same volume as one milliliter. To move to a smaller unit, multiply; to move to a larger unit, divide. Converting 0.25 L to milliliters means multiplying by 1,000 to get 250 mL.\n\n**Household and customary equivalents.** Patients often describe amounts in everyday units, so you must translate them. Common approximate equivalents are 1 teaspoon = 5 mL, 1 tablespoon = 15 mL, 1 fluid ounce = 30 mL, 1 cup = 240 mL, 1 inch = 2.54 cm, and 1 kg = 2.2 lb. These are rounded values used for estimation and charting; the precise figure for an ounce is about 29.6 mL, but 30 mL is the standard working equivalent.\n\n**Temperature.** Two formulas convert between scales:\n1. °F = (°C × 9/5) + 32\n2. °C = (°F − 32) × 5/9\n\nNormal body temperature is about 37 °C, which equals 98.6 °F. A quick sanity check: a Celsius reading should always be a smaller number than the matching Fahrenheit reading at body temperatures.\n\n**24-hour (military) time.** Clinical records use 24-hour time to remove a.m./p.m. confusion. Hours after noon add 12: 3:45 p.m. becomes 1545, and midnight is 0000 (some facilities write 2400 for the end of a day). Morning times keep a leading zero, so 7:05 a.m. is 0705.\n\n**Safe notation habits.** Always place a **leading zero** before a decimal (0.5, not .5) so the decimal point is not missed, and never add a **trailing zero** after a whole number (5, not 5.0), because a missed decimal could be read as 50. These rules come from widely adopted patient-safety guidance.\n\nThe most common mistake students make is choosing the wrong operation when converting: they divide when moving to a smaller unit (or multiply when moving to a larger one), producing answers that are off by a factor of 1,000. Before finalizing, ask whether the number of smaller units should be larger, and check that your answer reflects that.",
+    "examples": [
+      "A patient drinks a 12-ounce bottle of water; at 30 mL per ounce, the intake recorded is 360 mL.",
+      "A child weighs 44 lb; dividing by 2.2 gives a recorded weight of 20 kg.",
+      "A temperature of 39 °C converts to (39 × 9/5) + 32 = 102.2 °F."
+    ],
+    "questions": [
+      {
+        "stem": "A specimen container holds 0.15 L. How many milliliters is this?",
+        "choices": [
+          "1.5 mL",
+          "15 mL",
+          "150 mL",
+          "1,500 mL"
+        ],
+        "answer": 2,
+        "explanation": "Liters to milliliters multiplies by 1,000, so 0.15 × 1,000 = 150 mL. 15 mL results from multiplying by only 100, a centi- factor rather than milli-."
+      },
+      {
+        "stem": "A patient reports drinking 2 cups of tea at breakfast. Using standard equivalents, how much intake should be charted?",
+        "choices": [
+          "240 mL",
+          "480 mL",
+          "500 mL",
+          "60 mL"
+        ],
+        "answer": 1,
+        "explanation": "One cup is 240 mL, so 2 cups = 480 mL. 240 mL is only one cup; the patient drank two."
+      },
+      {
+        "stem": "A lab value is reported as 2,500 mcg. What is this in milligrams?",
+        "choices": [
+          "2.5 mg",
+          "25 mg",
+          "0.25 mg",
+          "250 mg"
+        ],
+        "answer": 0,
+        "explanation": "There are 1,000 mcg in 1 mg, so divide: 2,500 ÷ 1,000 = 2.5 mg. 25 mg would come from dividing by 100, which is not a metric step between micro- and milli-."
+      },
+      {
+        "stem": "A newborn measures 20 inches long. What is the length in centimeters?",
+        "choices": [
+          "7.9 cm",
+          "50.8 cm",
+          "40 cm",
+          "22.54 cm"
+        ],
+        "answer": 1,
+        "explanation": "Multiply by 2.54: 20 × 2.54 = 50.8 cm. 7.9 cm results from dividing by 2.54, which converts the wrong direction since centimeters are smaller than inches."
+      },
+      {
+        "stem": "A thermometer reads 101.3 °F. What is the temperature in Celsius, rounded to the nearest tenth?",
+        "choices": [
+          "38.5 °C",
+          "56.3 °C",
+          "40.2 °C",
+          "35.9 °C"
+        ],
+        "answer": 0,
+        "explanation": "(101.3 − 32) × 5/9 = 69.3 × 5/9 = 38.5 °C. 56.3 °C comes from multiplying by 5/9 without first subtracting 32."
+      },
+      {
+        "stem": "A medical assistant records a vital-sign check done at 9:20 p.m. How is this written in 24-hour time?",
+        "choices": [
+          "0920",
+          "2120",
+          "1920",
+          "2200"
+        ],
+        "answer": 1,
+        "explanation": "Add 12 to p.m. hours: 9 + 12 = 21, giving 2120. 0920 would represent 9:20 a.m."
+      },
+      {
+        "stem": "Which chart entry follows safe decimal notation for a value of one half of a milliliter?",
+        "choices": [
+          ".5 mL",
+          "0.50 mL",
+          "0.5 mL",
+          "1/2.0 mL"
+        ],
+        "answer": 2,
+        "explanation": "A leading zero with no trailing zero (0.5 mL) is the safe format. .5 mL lacks a leading zero, so the decimal point could be overlooked and read as 5."
+      },
+      {
+        "stem": "An adult patient weighs 68 kg. Approximately how many pounds is this?",
+        "choices": [
+          "31 lb",
+          "150 lb",
+          "136 lb",
+          "170 lb"
+        ],
+        "answer": 1,
+        "explanation": "Multiply by 2.2: 68 × 2.2 = 149.6, about 150 lb. 31 lb results from dividing by 2.2, which converts kilograms the wrong direction."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Metric prefix milli-",
+        "definition": "Means one-thousandth; 1,000 mL = 1 L and 1,000 mg = 1 g."
+      },
+      {
+        "term": "Cubic centimeter (cc)",
+        "definition": "A volume equal to one milliliter."
+      },
+      {
+        "term": "Leading zero",
+        "definition": "A zero placed before a decimal point (0.5) so the decimal is not missed."
+      },
+      {
+        "term": "Trailing zero",
+        "definition": "A zero after a decimal in a whole number (5.0); avoided because it can be misread as a tenfold larger value."
+      },
+      {
+        "term": "24-hour time",
+        "definition": "Clock notation from 0000 to 2359 that adds 12 to p.m. hours to remove a.m./p.m. confusion."
+      }
+    ]
+  }
+]

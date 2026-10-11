@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Leadership foundations: traits, styles and power sources",
+    "objective": "Define leadership, compare classic leadership styles, and identify the sources of power a health care leader can draw on.",
+    "body": "Leadership is the process of influencing a group toward a shared goal. It is not the same as holding a title. A charge nurse, a HOSA chapter president and a first-year student who organizes a blood drive can all lead, because each one shapes what others do and why they do it.\n\n**Leadership versus management.** **Management** focuses on planning, organizing, budgeting and controlling so that work gets done efficiently. **Leadership** focuses on direction, vision and motivating people to accept change. Healthy organizations need both: a manager makes sure the clinic schedule works, while a leader helps staff understand why a new patient-safety process matters.\n\n**Classic leadership styles.** Researcher Kurt Lewin described three basic styles that still appear on many tests.\n- **Autocratic (authoritarian)** leaders make decisions alone and expect compliance. This works in emergencies, such as a code team where one person must direct roles quickly.\n- **Democratic (participative)** leaders invite input and often share decisions with the group. This builds commitment and is useful when time allows and members have expertise.\n- **Laissez-faire** leaders give the group almost total freedom. It can work with highly skilled, motivated teams but often leads to confusion when members need direction.\n\nModern **situational leadership** adds that no single style is always best. An effective leader adjusts the amount of direction and support to the readiness of followers: a new volunteer needs clear instructions, while an experienced officer needs mostly encouragement and room to act.\n\n**Sources of power.** French and Raven identified bases of power that explain why people follow.\n1. **Legitimate power** comes from a formal position, such as chapter president.\n2. **Reward power** comes from the ability to give benefits.\n3. **Coercive power** comes from the ability to punish.\n4. **Expert power** comes from knowledge and skill.\n5. **Referent power** comes from being respected and admired.\n\nExpert and referent power tend to produce genuine commitment, while coercive power produces compliance that disappears when the leader is absent.\n\n**Traits and behaviors.** Effective leaders commonly show integrity, self-awareness, communication skill, responsibility and empathy. Many of these are learned behaviors, which is why leadership can be developed through practice, feedback and reflection rather than being something a person is simply born with.\n\nThe most common mistake students make is assuming one style is always \"best.\" Exams frequently describe a situation and ask which style fits; an autocratic approach is correct during a crisis, even though democratic leadership is usually praised in everyday settings.",
+    "examples": [
+      "During a cardiac arrest, the team leader assigns compressions, airway and medication roles without a vote, using an autocratic style appropriate to the emergency.",
+      "A HOSA president asks members to vote on which community service project to adopt, using a democratic style to build ownership.",
+      "A senior nurse is followed by new graduates because of her clinical knowledge, an example of expert power rather than legitimate power."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter officer has no formal title, but members follow her suggestions because they admire her fairness and kindness. Which source of power is she using?",
+        "choices": [
+          "Legitimate power",
+          "Referent power",
+          "Reward power",
+          "Coercive power"
+        ],
+        "answer": 1,
+        "explanation": "Referent power comes from admiration and respect. Legitimate power is the main distractor, but it requires a formal position, which she does not hold."
+      },
+      {
+        "stem": "A rapid response team arrives at a deteriorating patient's bedside. Which leadership style is most appropriate for the team leader?",
+        "choices": [
+          "Laissez-faire",
+          "Democratic",
+          "Autocratic",
+          "Delegative with no follow-up"
+        ],
+        "answer": 2,
+        "explanation": "Emergencies require quick, clear direction, so an autocratic style fits. Democratic leadership is valuable but too slow when seconds matter."
+      },
+      {
+        "stem": "Which statement best distinguishes leadership from management?",
+        "choices": [
+          "Leadership focuses on vision and influencing people; management focuses on planning, organizing and controlling work.",
+          "Leadership requires a formal title; management does not.",
+          "Management motivates change; leadership maintains routines.",
+          "They are identical terms used in different industries."
+        ],
+        "answer": 0,
+        "explanation": "Leadership emphasizes direction and motivation, while management emphasizes efficient execution. The title option is wrong because leadership does not depend on position."
+      },
+      {
+        "stem": "A team of experienced researchers is given full freedom to design their study with minimal supervision. Which style is the supervisor using?",
+        "choices": [
+          "Autocratic",
+          "Laissez-faire",
+          "Transactional",
+          "Coercive"
+        ],
+        "answer": 1,
+        "explanation": "Giving nearly total freedom is laissez-faire. Autocratic is the opposite, since it centralizes decisions with the leader."
+      },
+      {
+        "stem": "A new HOSA member has never planned an event. According to situational leadership, what should the officer provide first?",
+        "choices": [
+          "Minimal direction and full delegation",
+          "High direction with clear, specific instructions",
+          "Only praise with no instructions",
+          "A warning about consequences of failure"
+        ],
+        "answer": 1,
+        "explanation": "Situational leadership matches style to follower readiness; a beginner needs high direction. Full delegation is the main distractor and fits only highly ready followers."
+      },
+      {
+        "stem": "A supervisor threatens to cut volunteer hours if tasks are not finished. Which power base is this, and what is its typical result?",
+        "choices": [
+          "Expert power; long-term commitment",
+          "Coercive power; short-term compliance",
+          "Referent power; loyalty",
+          "Reward power; intrinsic motivation"
+        ],
+        "answer": 1,
+        "explanation": "Threatening punishment is coercive power, which tends to produce compliance only while the leader watches. Reward power is the distractor, but it involves giving benefits, not removing them."
+      },
+      {
+        "stem": "Which trait is most closely linked to a leader admitting a scheduling error to the team and correcting it?",
+        "choices": [
+          "Integrity",
+          "Coercion",
+          "Laissez-faire attitude",
+          "Legitimate authority"
+        ],
+        "answer": 0,
+        "explanation": "Owning mistakes honestly reflects integrity. Legitimate authority describes position, not character."
+      },
+      {
+        "stem": "A chapter adviser says, \"Leaders are born, not made.\" Which response best reflects current leadership understanding?",
+        "choices": [
+          "Correct; leadership traits cannot change.",
+          "Incorrect; many leadership skills can be learned through practice, feedback and reflection.",
+          "Correct, except for people with formal titles.",
+          "Incorrect, because leadership is only about management tasks."
+        ],
+        "answer": 1,
+        "explanation": "Most leadership behaviors are developed through experience and reflection. The first option is the common misconception the question targets."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Leadership",
+        "definition": "The process of influencing a group toward a shared goal, regardless of formal title."
+      },
+      {
+        "term": "Autocratic leadership",
+        "definition": "A style in which the leader makes decisions alone; best suited to emergencies."
+      },
+      {
+        "term": "Democratic leadership",
+        "definition": "A participative style in which the leader seeks group input and shares decisions."
+      },
+      {
+        "term": "Situational leadership",
+        "definition": "An approach that adjusts direction and support to the readiness of followers."
+      },
+      {
+        "term": "Referent power",
+        "definition": "Influence that comes from being respected and admired by others."
+      }
+    ]
+  }
+]

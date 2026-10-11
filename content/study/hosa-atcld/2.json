@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Applying leadership: communication, teams and meetings",
+    "objective": "Apply communication, team-development and parliamentary procedure skills to lead productive health care and chapter teams.",
+    "body": "Knowing leadership theory matters only if a leader can apply it with real people. Most applied leadership questions test three areas: communication, team development and running effective meetings.\n\n**Communication.** Leaders spend much of their time communicating. **Active listening** means giving full attention, asking clarifying questions, paraphrasing what was heard and holding judgment until the speaker finishes. **Constructive feedback** should be specific, timely, focused on behavior rather than personality, and paired with a path forward. Saying \"Your patient handoff skipped the allergy list; let's use the checklist next shift\" is far more useful than \"You were careless.\" In health care, structured tools such as **SBAR** (Situation, Background, Assessment, Recommendation) help team members communicate clearly and reduce errors.\n\n**Team development.** Bruce Tuckman described stages most groups pass through.\n1. **Forming:** members are polite and unsure of roles; the leader provides direction.\n2. **Storming:** conflict appears over ideas and roles; the leader mediates and clarifies.\n3. **Norming:** the group agrees on rules and builds trust.\n4. **Performing:** the team works independently toward goals; the leader delegates.\n5. **Adjourning:** the group wraps up and recognizes accomplishments.\n\nStorming is normal, not a sign of failure. Leaders who suppress all disagreement miss the ideas that conflict can surface.\n\n**Delegation.** Effective delegation assigns the right task to the right person, with clear expectations, needed authority and a follow-up plan. In clinical settings, nurses use the \"five rights of delegation\": right task, right circumstance, right person, right directions and communication, and right supervision and evaluation. The leader remains accountable for the outcome even after delegating.\n\n**Conflict management.** Common approaches include avoiding, accommodating, competing, compromising and collaborating. **Collaborating** seeks a solution that fully meets both sides' needs and is usually best for important, long-term issues, though it takes time.\n\n**Meetings and parliamentary procedure.** HOSA and many organizations follow *Robert's Rules of Order*. A member gains the floor, makes a **main motion**, another member seconds it, the chair states it, the body debates, and then votes. A main motion normally needs a **majority vote**, while motions that limit debate, such as the **previous question**, need a two-thirds vote. An **agenda** keeps meetings focused, and **minutes** record what was done, not everything that was said.\n\nThe most common mistake students make is thinking delegation transfers responsibility. Delegating hands off a task, but the leader still remains accountable for making sure it was done correctly.",
+    "examples": [
+      "A chapter vice president paraphrases a member's concern about event costs before responding, demonstrating active listening.",
+      "A new project committee argues over who will lead fundraising; the adviser recognizes the storming stage and helps the group define roles.",
+      "A member says, \"I move that we hold a CPR awareness day in March,\" another member seconds, and the president states the motion for debate."
+    ],
+    "questions": [
+      {
+        "stem": "A newly formed health-fair committee is arguing over responsibilities and whose idea to use. Which Tuckman stage are they in?",
+        "choices": [
+          "Forming",
+          "Storming",
+          "Norming",
+          "Performing"
+        ],
+        "answer": 1,
+        "explanation": "Conflict over roles and ideas defines storming. Forming is the distractor, but forming is marked by politeness and uncertainty rather than open conflict."
+      },
+      {
+        "stem": "A nurse delegates vital signs to a nursing assistant, who records them incorrectly. Who remains accountable for ensuring the task was done correctly?",
+        "choices": [
+          "Only the nursing assistant",
+          "Only the hospital administrator",
+          "The delegating nurse, who retains accountability for supervision",
+          "No one, since the task was delegated"
+        ],
+        "answer": 2,
+        "explanation": "Delegation transfers the task but not the leader's accountability for supervision and outcome. The assistant is responsible for performing the task, but that does not remove the nurse's accountability."
+      },
+      {
+        "stem": "Which feedback statement is most constructive?",
+        "choices": [
+          "\"You never pay attention.\"",
+          "\"Your report was late twice this month; let's set a reminder two days before the deadline.\"",
+          "\"Everyone else does it better.\"",
+          "\"Try harder next time.\""
+        ],
+        "answer": 1,
+        "explanation": "Constructive feedback is specific, behavior-focused and offers a path forward. \"Try harder\" is the main distractor; it is not hostile but is too vague to act on."
+      },
+      {
+        "stem": "During a chapter meeting, a member wants to end debate and vote immediately. Which motion is used, and what vote does it require?",
+        "choices": [
+          "Previous question; two-thirds vote",
+          "Main motion; majority vote",
+          "Adjourn; unanimous vote",
+          "Table; two-thirds vote"
+        ],
+        "answer": 0,
+        "explanation": "Moving the previous question closes debate and needs two-thirds because it limits members' rights. A main motion starts business rather than ending debate."
+      },
+      {
+        "stem": "Two officers disagree over the budget for an important annual event. Which conflict approach seeks a solution meeting both officers' full needs?",
+        "choices": [
+          "Avoiding",
+          "Compromising",
+          "Collaborating",
+          "Accommodating"
+        ],
+        "answer": 2,
+        "explanation": "Collaborating aims for a win-win outcome. Compromising is the distractor; each side gives up part of what it wants, so neither is fully satisfied."
+      },
+      {
+        "stem": "A paramedic briefs an emergency physician by stating the patient's condition, history, assessment and suggested next step. Which tool is being used?",
+        "choices": [
+          "SMART goals",
+          "SBAR",
+          "SWOT analysis",
+          "Robert's Rules"
+        ],
+        "answer": 1,
+        "explanation": "SBAR stands for Situation, Background, Assessment, Recommendation. SWOT is a planning tool, not a handoff format."
+      },
+      {
+        "stem": "What should chapter meeting minutes primarily contain?",
+        "choices": [
+          "A word-for-word transcript of all discussion",
+          "A record of actions taken, such as motions and their results",
+          "Only the secretary's opinions about the meeting",
+          "The treasurer's full bank statements"
+        ],
+        "answer": 1,
+        "explanation": "Minutes record what was done, not everything said. A full transcript is the common distractor but is not standard practice."
+      },
+      {
+        "stem": "A team that once needed constant direction now plans and runs events independently. What should the leader do?",
+        "choices": [
+          "Return to strict, autocratic control",
+          "Delegate more and focus on support and recognition",
+          "Disband the team",
+          "Remove members who disagree"
+        ],
+        "answer": 1,
+        "explanation": "A performing team benefits from delegation and support. Returning to tight control would undercut a team that has already matured."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Active listening",
+        "definition": "Giving full attention, clarifying and paraphrasing a speaker's message before responding."
+      },
+      {
+        "term": "Storming",
+        "definition": "The team stage in which conflict emerges over ideas, roles and leadership."
+      },
+      {
+        "term": "Delegation",
+        "definition": "Assigning a task to another person while the leader keeps accountability for the outcome."
+      },
+      {
+        "term": "SBAR",
+        "definition": "A structured communication tool: Situation, Background, Assessment, Recommendation."
+      },
+      {
+        "term": "Main motion",
+        "definition": "A formal proposal that brings new business before a group for debate and a vote."
+      }
+    ]
+  }
+]
