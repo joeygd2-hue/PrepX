@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Markets, orders, regulation and evaluating investment returns",
+    "objective": "Explain how securities are issued and traded, select appropriate order types, identify key regulators, and calculate common return measures.",
+    "body": "Knowing what a security is matters less on test day than knowing how it is bought, sold, protected and measured. This unit connects market structure to the numbers investors use.\n\n**Primary versus secondary markets.** A company raises new money in the **primary market**, most famously through an **initial public offering (IPO)**, often with help from an **investment bank** that underwrites the deal. After that, investors trade existing shares with each other in the **secondary market**, such as the New York Stock Exchange or Nasdaq. Secondary trades do not send new money to the company.\n\n**Order types.** Investors place orders through a **broker-dealer**.\n- A **market order** executes immediately at the best available price, but the price is not guaranteed.\n- A **limit order** sets the maximum price to buy or minimum price to sell; it guarantees price but not execution.\n- A **stop order** (stop-loss) becomes a market order once the stock reaches a trigger price, often used to limit losses.\n\nThe gap between the highest price buyers bid and the lowest price sellers ask is the **bid-ask spread**.\n\n**Regulation.** The **Securities and Exchange Commission (SEC)** enforces federal securities laws. The Securities Act of 1933 requires companies to register new public offerings and provide a **prospectus**; the Securities Exchange Act of 1934 created the SEC and governs secondary trading, including bans on **insider trading**, which is trading on material, nonpublic information. **FINRA** is a self-regulatory organization that licenses and oversees brokers. **SIPC** protects customers up to $500,000 (including $250,000 for cash) if a brokerage firm fails, but it does not protect against market losses.\n\n**Measuring returns and value.**\n1. **Dividend yield** = annual dividend per share ÷ price per share.\n2. **Earnings per share (EPS)** = net income available to common shareholders ÷ shares outstanding.\n3. **Price-to-earnings (P/E) ratio** = price per share ÷ EPS; a higher P/E means investors pay more per dollar of earnings, often because they expect growth.\n4. **Current yield** on a bond = annual coupon ÷ current bond price.\n\n**Compounding** is earning returns on prior returns. The **Rule of 72** estimates doubling time: divide 72 by the annual percentage return. At 8%, money doubles in about 9 years.\n\n**Bull markets** are periods of rising prices, and **bear markets** are commonly defined as declines of 20% or more from a recent high. Market indexes such as the S&P 500 (about 500 large U.S. companies) and the Dow Jones Industrial Average (30 large companies) summarize overall performance.\n\nThe most common mistake students make is thinking a limit order guarantees a trade. It guarantees only the price limit; if the market never reaches that price, the order simply does not fill.",
+    "examples": [
+      "A stock trades at $50 and pays $2 a year in dividends, so its dividend yield is 4%; with EPS of $2.50, its P/E ratio is 20.",
+      "Kai places a limit order to buy at $95 while a stock trades at $100; the order fills only if the price drops to $95 or lower."
+    ],
+    "questions": [
+      {
+        "stem": "A startup sells shares to the public for the first time and receives the proceeds. In which market did this occur?",
+        "choices": [
+          "Secondary market",
+          "Primary market",
+          "Over-the-counter derivatives market",
+          "Money market"
+        ],
+        "answer": 1,
+        "explanation": "New shares sold by the issuer, like an IPO, occur in the primary market. The secondary market is where investors trade existing shares and the company receives no new money."
+      },
+      {
+        "stem": "Elena wants to sell her shares right away and accepts whatever the current price is. Which order should she use?",
+        "choices": [
+          "Limit order",
+          "Stop order",
+          "Market order",
+          "Good-till-canceled limit order"
+        ],
+        "answer": 2,
+        "explanation": "A market order executes immediately at the best available price. A limit order protects the price but may never execute."
+      },
+      {
+        "stem": "A stock sells for $80 and earnings per share are $4. What is its P/E ratio?",
+        "choices": [
+          "20",
+          "0.05",
+          "4",
+          "320"
+        ],
+        "answer": 0,
+        "explanation": "P/E = $80 ÷ $4 = 20. The 0.05 result comes from dividing EPS by price, which inverts the formula."
+      },
+      {
+        "stem": "An employee learns her company will announce a surprise merger next week and buys shares before the news is public. What has she likely committed?",
+        "choices": [
+          "Arbitrage",
+          "Dollar-cost averaging",
+          "Short selling",
+          "Insider trading"
+        ],
+        "answer": 3,
+        "explanation": "Trading on material, nonpublic information is illegal insider trading. Arbitrage profits from price differences between markets and does not involve secret information."
+      },
+      {
+        "stem": "A brokerage firm fails, and an investor's stocks are missing from his account. Which organization provides limited protection?",
+        "choices": [
+          "FDIC",
+          "SIPC",
+          "FINRA",
+          "Federal Reserve"
+        ],
+        "answer": 1,
+        "explanation": "SIPC protects brokerage customers up to $500,000 when a member firm fails. The FDIC insures bank deposits, not brokerage securities."
+      },
+      {
+        "stem": "Using the Rule of 72, about how long will an investment earning 6% per year take to double?",
+        "choices": [
+          "6 years",
+          "8 years",
+          "12 years",
+          "72 years"
+        ],
+        "answer": 2,
+        "explanation": "72 ÷ 6 = 12 years. Choosing 6 years confuses the rate with the doubling time."
+      },
+      {
+        "stem": "A bond with a $60 annual coupon is currently priced at $1,200. What is its current yield?",
+        "choices": [
+          "5%",
+          "6%",
+          "12%",
+          "20%"
+        ],
+        "answer": 0,
+        "explanation": "Current yield = $60 ÷ $1,200 = 5%. 6% is the coupon rate based on the $1,000 face value, not the current price."
+      },
+      {
+        "stem": "Owen owns a stock at $40 and wants to automatically sell if it falls to $34 to limit losses. Which order fits?",
+        "choices": [
+          "Buy limit order at $34",
+          "Market order today",
+          "Stop-loss order at $34",
+          "Sell limit order at $46"
+        ],
+        "answer": 2,
+        "explanation": "A stop-loss order triggers a sale once the price reaches $34. A buy limit at $34 would purchase more shares rather than sell."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Initial public offering (IPO)",
+        "definition": "The first sale of a company's stock to the public in the primary market."
+      },
+      {
+        "term": "Limit order",
+        "definition": "An order to buy or sell at a specified price or better; it guarantees price but not execution."
+      },
+      {
+        "term": "Insider trading",
+        "definition": "Illegally trading securities based on material, nonpublic information."
+      },
+      {
+        "term": "Price-to-earnings (P/E) ratio",
+        "definition": "A stock's price per share divided by its earnings per share."
+      },
+      {
+        "term": "Rule of 72",
+        "definition": "A shortcut that estimates years to double money by dividing 72 by the annual percentage return."
+      }
+    ]
+  }
+]

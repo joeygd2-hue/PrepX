@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Security, ethics and strategic value of information systems",
+    "objective": "Evaluate security threats and controls, apply ethical and legal principles to data use, and justify information system investments strategically.",
+    "body": "Advanced questions ask you to judge situations: which control stops a threat, whether a data practice is ethical, or how a system creates competitive advantage.\n\n**The CIA triad.** Security goals are **confidentiality** (only authorized people see data), **integrity** (data is accurate and not altered improperly) and **availability** (systems are usable when needed). A ransomware attack primarily harms availability; an unauthorized change to grades harms integrity.\n\n**Common threats.**\n- **Phishing**: fraudulent messages that trick users into revealing credentials or clicking malicious links.\n- **Malware**, including **ransomware**, which encrypts files and demands payment.\n- **Social engineering**: manipulating people rather than technology.\n- **Denial-of-service attacks** that flood systems to block legitimate users.\n\n**Controls.** **Multi-factor authentication (MFA)** requires two or more factor types, such as a password plus a code from a phone, so a stolen password alone is not enough. **Encryption** makes data unreadable without a key. **Firewalls** filter network traffic. The **principle of least privilege** gives each user only the access their job requires. Regular, tested, offline **backups** are the key defense for recovering from ransomware, and a **disaster recovery plan** documents how operations resume. Because people are often the weakest link, security awareness training matters as much as technology.\n\n**Ethics and law.** Organizations must respect privacy and intellectual property. In the U.S., **FERPA** protects student education records, **HIPAA** protects health information, and **COPPA** governs collecting data from children under 13. In Europe, the **GDPR** requires a lawful basis for processing personal data and grants rights such as access and erasure. Using software beyond its license terms is piracy even inside a company.\n\n**Strategic value.** Information systems can create competitive advantage through cost leadership, differentiation or focus, terms from Porter's competitive strategies. **Business intelligence** and analytics turn stored data into insight, while **ERP** systems integrate functions like finance, HR and supply chain into one database, and **CRM** systems manage customer relationships. Investments are justified with **total cost of ownership (TCO)**, which includes training, support and maintenance, not just purchase price, and with return on investment.\n\nThe most common mistake students make is choosing a technology fix for a people problem; if an employee was tricked by a phishing email, training and MFA address the root cause better than a new firewall.",
+    "examples": [
+      "An employee enters a password on a fake login page, but the attacker still cannot log in because the account requires an approval prompt on the employee's phone, which is MFA working as intended.",
+      "A retailer compares two point-of-sale systems and picks the one with a higher purchase price because its five-year total cost of ownership, including support and training, is lower."
+    ],
+    "questions": [
+      {
+        "stem": "Hackers encrypt a clinic's scheduling files and demand payment, so staff cannot book appointments. Which security goal is most directly harmed?",
+        "choices": [
+          "Confidentiality",
+          "Integrity",
+          "Availability",
+          "Non-repudiation"
+        ],
+        "answer": 2,
+        "explanation": "The files cannot be used, so availability is lost. Confidentiality would be the main concern if data were exposed rather than locked."
+      },
+      {
+        "stem": "An attacker steals an employee's password through a phishing email. Which control would most likely still prevent account access?",
+        "choices": [
+          "A stronger firewall",
+          "Multi-factor authentication",
+          "A larger hard drive",
+          "Data normalization"
+        ],
+        "answer": 1,
+        "explanation": "MFA requires a second factor the attacker lacks. A firewall filters network traffic but does not stop someone logging in with valid credentials."
+      },
+      {
+        "stem": "A summer intern in marketing is given full access to payroll records 'just in case.' Which principle does this violate?",
+        "choices": [
+          "Least privilege",
+          "Parallel conversion",
+          "Data redundancy",
+          "Differentiation"
+        ],
+        "answer": 0,
+        "explanation": "Least privilege limits users to the access their job needs. The other options are unrelated to access control."
+      },
+      {
+        "stem": "A ransomware attack wipes a company's server. What best enables recovery without paying?",
+        "choices": [
+          "Antivirus installed after the attack",
+          "A new password policy",
+          "A faster network",
+          "Recent, tested offline backups"
+        ],
+        "answer": 3,
+        "explanation": "Clean offline backups let the company restore data. A new password policy may prevent future attacks but cannot recover encrypted files."
+      },
+      {
+        "stem": "A school app vendor wants to share students' grades with advertisers. Which U.S. law most directly protects these education records?",
+        "choices": [
+          "HIPAA",
+          "FERPA",
+          "COPPA",
+          "GDPR"
+        ],
+        "answer": 1,
+        "explanation": "FERPA protects student education records. HIPAA covers health information, not grades."
+      },
+      {
+        "stem": "A company selects software by comparing purchase price, training, support and maintenance costs over five years. This analysis is:",
+        "choices": [
+          "Total cost of ownership",
+          "Normalization",
+          "Social engineering",
+          "Business intelligence"
+        ],
+        "answer": 0,
+        "explanation": "TCO includes all costs over the system's life. Business intelligence analyzes business data but is not a cost-comparison method."
+      },
+      {
+        "stem": "A manufacturer wants finance, HR, purchasing and inventory to share one integrated database. Which system fits?",
+        "choices": [
+          "CRM",
+          "DSS",
+          "ERP",
+          "TPS only"
+        ],
+        "answer": 2,
+        "explanation": "ERP integrates functions across the organization. CRM focuses on customer relationships, not company-wide integration."
+      },
+      {
+        "stem": "Someone calls the help desk pretending to be a vice president and pressures a technician to reset a password. This is best classified as:",
+        "choices": [
+          "Denial-of-service attack",
+          "Ransomware",
+          "Encryption failure",
+          "Social engineering"
+        ],
+        "answer": 3,
+        "explanation": "Manipulating a person to bypass security is social engineering. Phishing-like tactics may be involved, but no malware or traffic flooding occurred, ruling out ransomware and denial of service."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "CIA triad",
+        "definition": "The security goals of confidentiality, integrity and availability."
+      },
+      {
+        "term": "Multi-factor authentication",
+        "definition": "A login method requiring two or more types of verification, such as a password plus a phone code."
+      },
+      {
+        "term": "Principle of least privilege",
+        "definition": "Giving each user only the access their job requires."
+      },
+      {
+        "term": "Total cost of ownership",
+        "definition": "All costs of a system over its life, including purchase, training, support and maintenance."
+      },
+      {
+        "term": "Enterprise resource planning",
+        "definition": "A system that integrates functions such as finance, HR and supply chain in one database."
+      }
+    ]
+  }
+]

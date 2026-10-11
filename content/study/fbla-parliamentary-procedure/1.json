@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Core principles, quorum, and handling a main motion",
+    "objective": "Explain the purpose of parliamentary procedure, verify a quorum, and guide a main motion from introduction through the chair's announcement of the vote.",
+    "body": "Parliamentary procedure is a set of rules that lets a group make decisions fairly and efficiently. Most organizations, including FBLA, use **Robert's Rules of Order Newly Revised** (currently the 12th edition) as their parliamentary authority. The rules rest on a few principles: the **majority rules**, the **minority has the right to be heard**, every member has equal rights, and the assembly considers **one item of business at a time**.\n\n**Quorum.** Before any business is transacted, a **quorum** must be present. A quorum is the minimum number of members needed to conduct business legally. If the bylaws are silent, Robert's Rules sets it at a majority of the membership. Without a quorum, the group may only take limited actions such as fixing the time to adjourn, recessing, adjourning, or taking steps to obtain a quorum.\n\n**The main motion.** A **main motion** brings new business before the assembly. It cannot be made while any other motion is pending. A main motion moves through six steps:\n1. A member rises, addresses the chair, and is **recognized** (obtains the floor).\n2. The member states the motion: \"I move that...\"\n3. Another member **seconds** it, showing at least two people want it discussed.\n4. The chair **states the question**, which places the motion before the assembly.\n5. Members **debate** it, speaking through the chair.\n6. The chair **puts the question** to a vote and announces the result, including what happens as a consequence.\n\nOnce the chair states the question, the motion belongs to the assembly, not the maker. A main motion is debatable, amendable, and normally adopted by a **majority vote**, meaning more than half of the votes cast, excluding abstentions.\n\n**Debate rules.** Under Robert's Rules, each member may speak twice on the same question on the same day, up to ten minutes each time, but no one speaks a second time while someone who has not yet spoken wants the floor. The maker of the motion has the first right to speak. Remarks must be confined to the merits of the pending question, and members never attack another member's motives.\n\n**The chair's role.** The presiding officer stays impartial. In a large assembly the chair usually votes only when the vote would change the result, such as to break or create a tie, or when the ballot is secret.\n\nThe most common mistake students make is treating abstentions as \"no\" votes. A majority is calculated on votes actually cast, so a vote of 10 yes, 8 no, and 6 abstaining adopts the motion.",
+    "examples": [
+      "A chapter with 40 members and no quorum rule in its bylaws needs 21 present to do business.",
+      "A member says, \"I move that our chapter host a food drive in November,\" another says, \"Second,\" and the president then states the question before debate begins."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter has 50 members and its bylaws do not define a quorum. How many members must be present to conduct business?",
+        "choices": [
+          "25",
+          "26",
+          "34",
+          "17"
+        ],
+        "answer": 1,
+        "explanation": "Without a bylaw rule, a quorum is a majority of the membership: more than half of 50 is 26. 25 is exactly half, which is not a majority."
+      },
+      {
+        "stem": "A vote on a main motion ends 12 in favor, 10 opposed, and 6 abstaining. What is the result?",
+        "choices": [
+          "The motion fails because 12 is not a majority of 28",
+          "The motion fails because abstentions count as no votes",
+          "The motion is adopted because 12 is more than half of the 22 votes cast",
+          "The vote must be retaken because of the abstentions"
+        ],
+        "answer": 2,
+        "explanation": "Majority vote is based on votes cast, and abstentions are not votes cast. Treating 28 as the base wrongly counts abstentions as opposition."
+      },
+      {
+        "stem": "Immediately after a motion is made and seconded, what should the chair do next?",
+        "choices": [
+          "Take the vote",
+          "State the question",
+          "Ask the maker to speak against it",
+          "Call for amendments only"
+        ],
+        "answer": 1,
+        "explanation": "The chair states the question so the motion is formally before the assembly; only then does debate begin. Voting before debate skips required steps."
+      },
+      {
+        "stem": "A member who made a motion tries to withdraw it without permission after the chair has stated it. Why can't the member simply do this?",
+        "choices": [
+          "Motions can never be withdrawn",
+          "Once stated by the chair, the motion belongs to the assembly",
+          "Only the seconder may withdraw a motion",
+          "Withdrawal requires a two-thirds vote in all cases"
+        ],
+        "answer": 1,
+        "explanation": "After the chair states the question, the motion is the assembly's property, so withdrawal needs the assembly's consent (often by general consent). Motions can be withdrawn, so 'never' is wrong."
+      },
+      {
+        "stem": "Which principle is reflected in allowing members who oppose a motion to speak before the vote?",
+        "choices": [
+          "Majority rule",
+          "One item at a time",
+          "Minority right to be heard",
+          "Equal voting weight"
+        ],
+        "answer": 2,
+        "explanation": "Debate protects the minority's right to be heard even though the majority decides. Majority rule concerns the outcome, not the chance to speak."
+      },
+      {
+        "stem": "During debate, a member who has already spoken once seeks the floor at the same moment as a member who has not spoken. Whom should the chair recognize?",
+        "choices": [
+          "The member who already spoke",
+          "The member who has not yet spoken",
+          "Whoever is closer to the chair",
+          "The officer with higher rank"
+        ],
+        "answer": 1,
+        "explanation": "A member who has not spoken on the question has priority over one who has already spoken. Rank or proximity does not decide recognition."
+      },
+      {
+        "stem": "A member makes a new main motion while another main motion is being debated. How should the chair respond?",
+        "choices": [
+          "Accept it and debate both together",
+          "Rule it out of order because a main motion cannot be made while another question is pending",
+          "Accept it as an amendment",
+          "Put it to an immediate vote"
+        ],
+        "answer": 1,
+        "explanation": "Main motions rank lowest and can only be made when nothing else is pending. Treating it as an amendment changes the member's intent and is not the chair's role."
+      },
+      {
+        "stem": "In a large assembly, when does the presiding officer usually vote on a show-of-hands vote?",
+        "choices": [
+          "On every motion",
+          "Never",
+          "Only when the vote would change the result",
+          "Only on main motions"
+        ],
+        "answer": 2,
+        "explanation": "The chair preserves impartiality by voting only when it would make a difference, such as breaking or creating a tie. 'Never' is wrong because the chair keeps full voting rights."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Quorum",
+        "definition": "The minimum number of members who must be present to legally transact business; a majority of the membership if the bylaws are silent."
+      },
+      {
+        "term": "Main motion",
+        "definition": "A motion that brings new business before the assembly and can be made only when no other question is pending."
+      },
+      {
+        "term": "Majority vote",
+        "definition": "More than half of the votes cast by members present and voting, not counting abstentions."
+      },
+      {
+        "term": "Stating the question",
+        "definition": "The chair's formal announcement of a motion, which places it before the assembly for debate."
+      },
+      {
+        "term": "Putting the question",
+        "definition": "The chair's step of taking the vote on a motion and then announcing the result."
+      }
+    ]
+  }
+]

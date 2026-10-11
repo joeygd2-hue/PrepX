@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Reconsidering, rescinding, and running an efficient demonstration",
+    "objective": "Distinguish motions that bring questions back, apply special voting thresholds, and plan a correct and concise meeting demonstration under time pressure.",
+    "body": "Advanced parliamentary skill means knowing how an assembly can change its mind and how to run business smoothly in front of judges. Robert's Rules provides a group of motions that **bring a question again before the assembly**.\n\n**Reconsider.** This motion lets the assembly vote again on a motion already decided. It may only be made by a member who voted on the **prevailing side** and must be made on the same day the vote was taken (or the next business day in a multi-day session). It needs a second, is debatable if the original motion was, and takes a majority vote, even when the original motion needed two-thirds.\n\n**Rescind or amend something previously adopted.** These change or cancel an action already taken when reconsideration is no longer possible. They require one of three thresholds:\n- a **two-thirds vote**,\n- a majority vote if **previous notice** was given, or\n- a **majority of the entire membership**.\nAny member may make the motion, regardless of how he or she originally voted. It cannot undo actions that can no longer be reversed, such as a contract already signed.\n\n**Take from the table.** This resumes a motion that was laid on the table. It is undebatable, needs a majority, and must generally occur by the end of the next regular session or the motion dies.\n\n**Voting thresholds compared.** Keep the bases straight. A majority of votes cast differs from a majority of members present, which differs from a majority of the entire membership. In a 60-member club with 40 present and 30 voting, these bases are 16, 21, and 31.\n\n**Efficient business techniques.** **General consent** (also called unanimous consent) lets the chair handle routine or uncontested matters by saying, \"If there is no objection...\" A single objection forces a formal vote. **Minutes** record what was done, not what was said: motions, their makers, and results.\n\n**Competition strategy.** In a demonstration, a team must show a sequence of motions within a time limit. Plan an agenda that follows the standard order of business: call to order, reading and approval of minutes, officer reports, standing and special committee reports, unfinished business, new business, and adjournment. Layer motions so that rank is visible, for example: main motion, then amend, then refer, then the previous question. The chair should state each motion, clarify its rank, and announce each result completely.\n\nThe most common mistake students make is letting a member who voted on the losing side move to reconsider. Only someone from the prevailing side can make that motion, because the motion assumes that person has changed his or her mind.",
+    "examples": [
+      "A motion to fund a trip passes 18 to 10; later that meeting, a member who voted yes moves to reconsider, and the chair accepts it.",
+      "At the next meeting, a club that gave previous notice rescinds last month's budget decision by a simple majority vote."
+    ],
+    "questions": [
+      {
+        "stem": "A motion passed 20 to 12. Later that meeting, a member who voted no moves to reconsider. How should the chair rule?",
+        "choices": [
+          "In order, since any member may move to reconsider",
+          "Out of order, since only a member on the prevailing side may make it",
+          "In order if seconded by a yes voter",
+          "Out of order, since reconsider must wait until the next meeting"
+        ],
+        "answer": 1,
+        "explanation": "Only a member who voted with the prevailing side (yes here) may move to reconsider. A second from a yes voter does not fix the maker's ineligibility."
+      },
+      {
+        "stem": "Last month a chapter adopted a policy. No notice was given. Which vote can rescind it at today's meeting?",
+        "choices": [
+          "A simple majority of votes cast",
+          "A two-thirds vote",
+          "A plurality",
+          "A tie vote"
+        ],
+        "answer": 1,
+        "explanation": "Without previous notice, rescind needs two-thirds or a majority of the entire membership. A simple majority suffices only with previous notice."
+      },
+      {
+        "stem": "A club has 60 members; 40 attend and 30 vote on a motion. How many yes votes equal a majority of the entire membership?",
+        "choices": [
+          "16",
+          "21",
+          "30",
+          "31"
+        ],
+        "answer": 3,
+        "explanation": "A majority of 60 members is 31. 16 is a majority of votes cast and 21 a majority of those present, which are different bases."
+      },
+      {
+        "stem": "The chair says, \"If there is no objection, the minutes are approved as read,\" and one member objects. What happens?",
+        "choices": [
+          "The minutes are approved anyway",
+          "The chair must take a formal vote",
+          "The minutes are automatically rejected",
+          "The objecting member must make a motion to rescind"
+        ],
+        "answer": 1,
+        "explanation": "General consent fails with any single objection, so the matter goes to a regular vote. It is not automatically rejected."
+      },
+      {
+        "stem": "A treasurer's contract with a vendor was signed after the assembly approved it. A member moves to rescind the approval. What is the key problem?",
+        "choices": [
+          "Rescind requires a unanimous vote",
+          "Rescind cannot undo actions already carried out, like a signed contract",
+          "Only the treasurer may move to rescind",
+          "Rescind must be made the same day"
+        ],
+        "answer": 1,
+        "explanation": "Rescind cannot reverse something that has already been executed. The same-day limit applies to reconsider, not rescind."
+      },
+      {
+        "stem": "A motion originally requiring two-thirds is reconsidered. What vote does the motion to reconsider itself need?",
+        "choices": [
+          "Two-thirds",
+          "Majority",
+          "Majority of the entire membership",
+          "Unanimous"
+        ],
+        "answer": 1,
+        "explanation": "Reconsider always takes a majority, regardless of the original motion's threshold. The original motion, once reopened, still needs its own two-thirds."
+      },
+      {
+        "stem": "Which item belongs in the minutes?",
+        "choices": [
+          "A summary of each member's argument",
+          "The text of each motion, its maker, and the result",
+          "The secretary's opinion of the debate",
+          "Jokes made during the meeting"
+        ],
+        "answer": 1,
+        "explanation": "Minutes record what was done, not what was said. Summarizing arguments is the most common distractor but is not standard practice."
+      },
+      {
+        "stem": "A team wants to show rank in a short demonstration. Which sequence is properly ordered from first-made to last?",
+        "choices": [
+          "Main motion, amend, refer, previous question",
+          "Previous question, refer, amend, main motion",
+          "Main motion, postpone indefinitely, amend, adjourn while amending",
+          "Refer, main motion, amend, previous question"
+        ],
+        "answer": 0,
+        "explanation": "Each motion in that sequence outranks the one before, so each is in order. Starting with refer fails because subsidiary motions need a pending main motion."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Reconsider",
+        "definition": "A motion, made by a member of the prevailing side on the same day, to vote again on a decided question; needs a majority."
+      },
+      {
+        "term": "Rescind",
+        "definition": "A motion to cancel a previously adopted action, requiring two-thirds, a majority with previous notice, or a majority of the entire membership."
+      },
+      {
+        "term": "Previous notice",
+        "definition": "Advance announcement of a motion to be made, which lowers some vote requirements to a majority."
+      },
+      {
+        "term": "General consent",
+        "definition": "Adopting a routine matter without a formal vote when no member objects."
+      },
+      {
+        "term": "Prevailing side",
+        "definition": "The side of a vote that won: yes if the motion passed, no if it failed."
+      }
+    ]
+  }
+]

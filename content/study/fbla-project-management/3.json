@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Controlling projects: risk, change, earned value, and agile",
+    "objective": "Evaluate project performance with earned value metrics, respond to risks and change requests, and compare predictive and agile approaches.",
+    "body": "Advanced questions ask you to judge how a project is really doing and what to do next. That requires numbers, a disciplined change process, and a plan for uncertainty.\n\n**Earned value management.** EVM compares three values:\n- **Planned value (PV)**: budgeted cost of work scheduled to date.\n- **Earned value (EV)**: budgeted cost of work actually completed.\n- **Actual cost (AC)**: what the completed work really cost.\n\n**Cost variance** CV = EV − AC and **schedule variance** SV = EV − PV; negative means over budget or behind schedule. The indexes CPI = EV ÷ AC and SPI = EV ÷ PV show efficiency; below 1.0 is unfavorable. If the budget at completion (BAC) is $10,000 and CPI is 0.8, a common forecast is EAC = BAC ÷ CPI = $12,500.\n\n**Risk management.** A **risk** is an uncertain event that would affect objectives if it occurred; it can be a threat or an opportunity. Teams list risks in a **risk register** and rate each by probability and impact. Responses to threats include:\n1. **Avoid** – change the plan to eliminate the threat.\n2. **Transfer** – shift the impact to a third party, such as insurance or a vendor contract.\n3. **Mitigate** – reduce probability or impact.\n4. **Accept** – acknowledge it, often with a contingency reserve.\n\nAn **issue** differs from a risk: it has already happened and must be resolved now.\n\n**Change control.** Changes to an approved baseline go through **integrated change control**: document the request, analyze its impact on scope, schedule, cost, and quality, get a decision from the authorized person or change control board, then update the plan. Uncontrolled additions are **scope creep**; adding unrequested extras on the team's own initiative is **gold plating**. Both erode budgets.\n\n**Agile approaches.** Predictive (waterfall) projects plan most scope up front. **Agile** delivers in short iterations and welcomes changing requirements. In **Scrum**, the **product owner** orders the product backlog, the **Scrum Master** coaches the team and removes impediments, and developers build an increment each **sprint** (one month or less). Events include sprint planning, the daily scrum, sprint review, and retrospective. Agile fits uncertain requirements; predictive fits stable, well-defined work like construction.\n\nThe most common mistake students make is mixing up the earned value formulas, especially using PV in the cost variance. Remember: every formula starts with EV, and cost compares to AC while schedule compares to PV.",
+    "examples": [
+      "At month three, PV is $6,000, EV is $5,000, and AC is $5,500, so CV is −$500 and SV is −$1,000: the project is both over budget and behind schedule.",
+      "A chapter buys event cancellation insurance in case of severe weather, transferring the financial impact of that risk to the insurer."
+    ],
+    "questions": [
+      {
+        "stem": "A project has EV of $8,000, AC of $10,000, and PV of $8,000. What is its status?",
+        "choices": [
+          "Under budget and on schedule",
+          "Over budget and behind schedule",
+          "Over budget and on schedule",
+          "Under budget and ahead of schedule"
+        ],
+        "answer": 2,
+        "explanation": "CV = 8,000 − 10,000 = −$2,000 (over budget) and SV = 8,000 − 8,000 = 0 (on schedule). Calling it behind schedule wrongly compares EV to AC."
+      },
+      {
+        "stem": "A project's BAC is $20,000 and its CPI is 0.8. Using the standard forecast, what is the estimate at completion?",
+        "choices": [
+          "$16,000",
+          "$24,000",
+          "$20,800",
+          "$25,000"
+        ],
+        "answer": 3,
+        "explanation": "EAC = BAC ÷ CPI = 20,000 ÷ 0.8 = $25,000. Multiplying by CPI gives $16,000, which wrongly assumes overspending saves money."
+      },
+      {
+        "stem": "Rather than host an outdoor fair during hurricane season, a team moves it to an indoor gym. Which risk response is this?",
+        "choices": [
+          "Avoid",
+          "Transfer",
+          "Mitigate",
+          "Accept"
+        ],
+        "answer": 0,
+        "explanation": "Changing the plan to eliminate the threat is avoidance. Mitigation would only reduce its probability or impact, such as renting tents."
+      },
+      {
+        "stem": "The keynote speaker has just canceled one day before the event. In project terms this is:",
+        "choices": [
+          "A risk to add to the register",
+          "An issue requiring action now",
+          "An opportunity",
+          "Gold plating"
+        ],
+        "answer": 1,
+        "explanation": "It has already occurred, so it is an issue. A risk is uncertain and future; listing it in the risk register does not address the problem."
+      },
+      {
+        "stem": "A teacher asks the web team to add an online store to the chapter site after the baseline is approved. What should the project manager do first?",
+        "choices": [
+          "Add the store immediately to please the stakeholder",
+          "Refuse because baselines can never change",
+          "Submit a change request and analyze its impact",
+          "Ask developers to work overtime quietly"
+        ],
+        "answer": 2,
+        "explanation": "Integrated change control requires documenting and analyzing the change before a decision. Adding it immediately creates scope creep."
+      },
+      {
+        "stem": "A developer adds animated effects the client never requested, hoping to impress. This is called:",
+        "choices": [
+          "Gold plating",
+          "Fast tracking",
+          "Scope validation",
+          "Risk transfer"
+        ],
+        "answer": 0,
+        "explanation": "Adding unrequested extras is gold plating. Scope creep usually comes from uncontrolled requests by others rather than the team's own additions."
+      },
+      {
+        "stem": "In Scrum, who is responsible for ordering the product backlog to maximize value?",
+        "choices": [
+          "Scrum Master",
+          "Project sponsor",
+          "Development team lead",
+          "Product owner"
+        ],
+        "answer": 3,
+        "explanation": "The product owner orders the backlog. The Scrum Master coaches and removes impediments but does not set backlog priorities."
+      },
+      {
+        "stem": "A startup is building an app whose features will change as user feedback arrives. Which approach fits best?",
+        "choices": [
+          "Predictive, with all scope fixed up front",
+          "Agile, with short iterations and frequent feedback",
+          "Predictive, with crashing on every task",
+          "No formal approach at all"
+        ],
+        "answer": 1,
+        "explanation": "Uncertain, evolving requirements suit agile iterations. Predictive planning fits stable requirements and would cause constant re-planning here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Earned value (EV)",
+        "definition": "The budgeted cost of the work actually completed to date."
+      },
+      {
+        "term": "Cost performance index (CPI)",
+        "definition": "EV divided by AC; values below 1.0 mean the project is over budget."
+      },
+      {
+        "term": "Risk register",
+        "definition": "A document listing identified risks with their probability, impact, owner, and planned response."
+      },
+      {
+        "term": "Scope creep",
+        "definition": "Uncontrolled expansion of project scope without adjustments to time, cost, or resources."
+      },
+      {
+        "term": "Sprint",
+        "definition": "A fixed-length Scrum iteration of one month or less that produces a usable increment."
+      }
+    ]
+  }
+]

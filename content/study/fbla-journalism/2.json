@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Interviewing, quoting and AP style in practice",
+    "objective": "Plan and conduct a reporting interview, choose and attribute quotations correctly, and apply common Associated Press style rules to copy.",
+    "body": "Facts make a story accurate, but people make it readable. Applied reporting means gathering information from **sources**, using their words well, and presenting everything in consistent style.\n\n**Sources.** A **primary source** has direct knowledge, such as a coach who made the decision or a student who saw the event. A **secondary source** reports what others know, such as a website summary. Good reporters seek primary sources, use more than one when facts are disputed, and verify claims against documents. Before an interview, research the topic and write open-ended questions that begin with how, why or what, because yes-or-no questions produce flat answers. Always identify yourself as a reporter and tell the source the interview may be published.\n\n**Quotes.** There are three ways to use what a source said:\n- A **direct quote** reproduces the exact words inside quotation marks. Save it for opinion, emotion or vivid language.\n- A **partial quote** places only a short distinctive phrase in quotation marks.\n- A **paraphrase** restates the idea in the reporter's words without quotation marks, and it still needs attribution.\nNever alter words inside quotation marks or invent a quote. Routine facts, such as the time of an event, should be paraphrased rather than quoted.\n\n**Attribution style.** \"Said\" is the preferred attribution verb because it is neutral; verbs like \"claimed\" or \"admitted\" imply judgment. Put the name before the verb in most cases (\"Ortiz said\"), and give a full name and title on first reference, then last name only on later references.\n\n**AP style.** Most U.S. newsrooms follow the **Associated Press Stylebook**. Frequently tested rules include:\n1. Spell out numbers one through nine; use figures for 10 and above. Ages and percentages always take figures (a 7-year-old, 5%).\n2. Use \"a.m.\" and \"p.m.\" with lowercase letters and periods, and write \"noon\" and \"midnight\" rather than 12 p.m.\n3. Capitalize a formal title only directly before a name (\"Principal Dana Ortiz\" but \"Dana Ortiz, the principal\").\n4. Abbreviate months with specific dates when they have more than five letters (Jan. 15, but March 3).\n5. Omit the Oxford comma in a simple series (\"red, white and blue\").\n\n**Accuracy checks.** Before filing, double-check every name spelling, number and quote against your notes or recording. A single wrong name damages credibility more than a dull sentence ever will.\n\nThe most common mistake students make is quoting the wrong material: they fill a story with direct quotes of plain facts (\"The meeting is at 7 p.m.,\" she said) while paraphrasing the colorful, emotional lines that deserve quotation marks.",
+    "examples": [
+      "Instead of quoting \"Tryouts start Monday,\" a reporter paraphrases it and saves the coach's line \"I have never seen this many freshmen show up hungry\" as the direct quote.",
+      "AP-style copy reads: \"Superintendent Lee Park said 9 of the 12 schools will open at 8 a.m. on Sept. 4.\" Note figures for 12, \"Sept.\" abbreviated, and a lowercase \"a.m.\"",
+      "A reporter changes \"Will you raise fees?\" to \"How will the budget cut affect student fees?\" to draw out a fuller answer."
+    ],
+    "questions": [
+      {
+        "stem": "A reporter writes: \"The game starts at 7 p.m.,\" the athletic director said. How should an editor improve this?",
+        "choices": [
+          "Paraphrase the routine fact and save quotes for more vivid comments",
+          "Change \"said\" to \"stated\" for variety",
+          "Remove the attribution since the time is obvious",
+          "Put the time in all capital letters"
+        ],
+        "answer": 0,
+        "explanation": "Routine facts are better paraphrased; direct quotes should carry opinion or emotion. Swapping \"said\" for \"stated\" adds nothing and AP prefers \"said.\""
+      },
+      {
+        "stem": "Which sentence follows AP style?",
+        "choices": [
+          "The meeting begins at 12 p.m. on September 9.",
+          "The meeting begins at noon on Sept. 9.",
+          "The meeting begins at Noon on Sep. 9th.",
+          "The meeting begins at twelve PM on 9 September."
+        ],
+        "answer": 1,
+        "explanation": "AP uses \"noon,\" abbreviates September as \"Sept.\" with a date, and omits ordinal endings. \"12 p.m.\" is discouraged."
+      },
+      {
+        "stem": "A source says the dance was \"a total disaster, the worst night of my senior year.\" The reporter writes that the source \"admitted\" this. What is the problem?",
+        "choices": [
+          "Quotes cannot include opinions",
+          "The quote should be paraphrased",
+          "\"Admitted\" implies a judgment; \"said\" is neutral",
+          "The source must be anonymous"
+        ],
+        "answer": 2,
+        "explanation": "Loaded attribution verbs like \"admitted\" suggest wrongdoing. Opinionated, vivid lines are exactly what direct quotes are for."
+      },
+      {
+        "stem": "Which is a primary source for a story about a bus crash?",
+        "choices": [
+          "A social media post sharing a news link",
+          "A blog summarizing local news",
+          "An encyclopedia entry on bus safety",
+          "The driver who was at the wheel"
+        ],
+        "answer": 3,
+        "explanation": "The driver has direct knowledge. A shared news link only relays what others reported."
+      },
+      {
+        "stem": "Which interview question is most likely to produce a quotable answer?",
+        "choices": [
+          "Did you like the new schedule?",
+          "How has the new schedule changed your mornings?",
+          "Is the schedule starting Monday?",
+          "Are you a junior?"
+        ],
+        "answer": 1,
+        "explanation": "Open-ended how or why questions invite detailed answers. The others can be answered with yes, no or a single fact."
+      },
+      {
+        "stem": "Which version applies AP style to a title correctly?",
+        "choices": [
+          "Dana Ortiz, Principal of Lincoln High, spoke.",
+          "principal Dana Ortiz spoke.",
+          "Principal Dana Ortiz spoke.",
+          "Dana Ortiz, The Principal, spoke."
+        ],
+        "answer": 2,
+        "explanation": "Formal titles are capitalized directly before a name. After a name, the title is lowercase, so the first option is wrong."
+      },
+      {
+        "stem": "A reporter's recording shows a coach said \"we kind of fell apart.\" The draft quotes her as saying \"we collapsed.\" What should happen?",
+        "choices": [
+          "Keep it, since the meaning is similar",
+          "Add \"[sic]\" after the quote",
+          "Change \"said\" to \"suggested\"",
+          "Use the exact words or turn it into a paraphrase"
+        ],
+        "answer": 3,
+        "explanation": "Words inside quotation marks must be exact. A paraphrase without quotation marks can restate the idea; \"[sic]\" marks errors in original text, which does not fix an altered quote."
+      },
+      {
+        "stem": "Which sentence follows AP number style?",
+        "choices": [
+          "Five of the 14 players are 16 years old.",
+          "5 of the fourteen players are sixteen years old.",
+          "Five of the fourteen players are sixteen years old.",
+          "5 of the 14 players are sixteen years old."
+        ],
+        "answer": 0,
+        "explanation": "Spell out numbers under 10 (five), use figures for 10 and above (14), and always use figures for ages (16). Starting a sentence also requires spelling out a number."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Primary source",
+        "definition": "A person or document with direct, firsthand knowledge of the facts."
+      },
+      {
+        "term": "Direct quote",
+        "definition": "A source's exact words placed inside quotation marks with attribution."
+      },
+      {
+        "term": "Paraphrase",
+        "definition": "A source's idea restated in the reporter's words, without quotation marks but still attributed."
+      },
+      {
+        "term": "AP Stylebook",
+        "definition": "The Associated Press guide to usage, punctuation and style followed by most U.S. newsrooms."
+      },
+      {
+        "term": "Partial quote",
+        "definition": "Only a short, distinctive phrase of a source's words placed in quotation marks."
+      }
+    ]
+  }
+]

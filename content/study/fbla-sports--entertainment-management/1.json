@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of the sports and entertainment industry",
+    "objective": "Identify the major segments of the sports and entertainment industry, explain how its products differ from ordinary goods, and classify the revenue streams that fund events and organizations.",
+    "body": "Sports and entertainment management is the business side of games, concerts, festivals, films, theme parks and esports. Managers in this field plan events, sell tickets and sponsorships, market brands, protect intellectual property and keep fans coming back. Before you can manage any of that, you need to understand what makes this industry different.\n\n**Industry segments.** The industry is usually divided into a few broad areas:\n- **Spectator sports**, such as professional leagues, college athletics and esports competitions.\n- **Participation sports and recreation**, such as fitness clubs, golf courses and youth leagues.\n- **Entertainment**, such as live music, theater, film, television, streaming, theme parks and gaming.\n- **Support businesses**, such as venues, ticketing companies, sports agencies, media outlets and licensed merchandise makers.\n\n**A unique product.** A game or concert is an **intangible** service: fans buy an experience, not an object. It is also **perishable**, because an unsold seat for Saturday night has no value on Sunday. The outcome is **unpredictable**, which is part of the appeal but means managers cannot promise a win or a perfect show. Finally, the product is **produced and consumed at the same time**, so the crowd, weather and staff all shape quality. Because of this, managers focus heavily on the parts they can control: cleanliness, food, parking, sound, safety and customer service.\n\n**Revenue streams.** Organizations rarely survive on ticket sales alone. Common streams include:\n1. **Gate receipts** (ticket sales, including premium seating and suites).\n2. **Media rights**, fees paid by broadcasters and streaming platforms to carry events.\n3. **Sponsorship**, where a company pays for association with a property, such as naming rights or jersey patches.\n4. **Licensing and merchandising**, where the property lets other firms use its logos on products in exchange for a **royalty**.\n5. **Concessions and parking**.\n\nFor major professional leagues, media rights are often the largest single source of revenue, while smaller properties such as minor league teams rely more on tickets, sponsorship and concessions.\n\n**Fan identification.** Consumers differ in how strongly they connect with a team or performer. Highly identified fans attend regardless of record and buy merchandise; casual fans respond to promotions, giveaways and star power. Smart managers market differently to each group.\n\nThe most common mistake students make is confusing sponsorship with licensing. In **sponsorship**, a company pays the property for the right to associate its own brand with the event. In **licensing**, the property grants another company permission to put the property's trademarks on products, and the property earns a royalty on sales.",
+    "examples": [
+      "A minor league baseball team holds fireworks nights and dollar-hot-dog promotions because it cannot control wins, but it can control the experience in the ballpark.",
+      "A clothing company pays a university a royalty on every hoodie it sells bearing the school's logo, which is a licensing agreement, not a sponsorship."
+    ],
+    "questions": [
+      {
+        "stem": "A concert promoter has 2,000 unsold seats the morning of a show. Which product characteristic makes this most urgent?",
+        "choices": [
+          "Intangibility",
+          "Perishability",
+          "Unpredictability",
+          "Simultaneous production"
+        ],
+        "answer": 1,
+        "explanation": "Perishability means unsold seats lose all value once the event happens. Intangibility describes the lack of a physical product, not the time pressure."
+      },
+      {
+        "stem": "A bank pays $40 million to put its name on an arena for 20 years. What revenue stream is this?",
+        "choices": [
+          "Licensing",
+          "Media rights",
+          "Naming-rights sponsorship",
+          "Gate receipts"
+        ],
+        "answer": 2,
+        "explanation": "Naming rights are a form of sponsorship: the bank pays for association with the venue. Licensing would involve the arena's marks being placed on someone else's products."
+      },
+      {
+        "stem": "A toy maker produces action figures using a pro league's team logos and pays the league 10% of sales. The 10% is called a:",
+        "choices": [
+          "Royalty",
+          "Sponsorship fee",
+          "Rights fee",
+          "Gate share"
+        ],
+        "answer": 0,
+        "explanation": "A royalty is the payment a licensee makes to the trademark owner based on sales. A sponsorship fee buys association for the sponsor's own brand, not use of the league's marks."
+      },
+      {
+        "stem": "A team has a losing season but its season-ticket holders still renew and buy jerseys. These fans are best described as:",
+        "choices": [
+          "Casual fans",
+          "Highly identified fans",
+          "Bandwagon fans",
+          "Participation consumers"
+        ],
+        "answer": 1,
+        "explanation": "Highly identified fans stay attached regardless of performance. Casual or bandwagon fans would drop off when the team loses."
+      },
+      {
+        "stem": "Which business is an example of a support business in the industry?",
+        "choices": [
+          "A recreational softball league",
+          "A ticketing company",
+          "A Broadway musical",
+          "A professional hockey team"
+        ],
+        "answer": 1,
+        "explanation": "Ticketing companies serve other properties rather than producing the core event. A hockey team or musical is the core product itself."
+      },
+      {
+        "stem": "A streaming service pays a soccer league for the exclusive right to show its matches. This payment is:",
+        "choices": [
+          "Sponsorship",
+          "Licensing revenue",
+          "Media rights revenue",
+          "Concession revenue"
+        ],
+        "answer": 2,
+        "explanation": "Fees paid to carry events are media rights. Sponsorship pays for brand association, not for distribution of the event."
+      },
+      {
+        "stem": "A stadium manager cannot guarantee the home team wins. Which action best addresses the unpredictability of the product?",
+        "choices": [
+          "Raise ticket prices before big games",
+          "Improve food, cleanliness and entertainment between plays",
+          "Reduce the number of games",
+          "Stop selling single-game tickets"
+        ],
+        "answer": 1,
+        "explanation": "Managers improve the controllable parts of the experience so fans enjoy the day even if the team loses. Raising prices does nothing to offset an uncertain outcome."
+      },
+      {
+        "stem": "A city golf course that rents tee times to residents belongs to which segment?",
+        "choices": [
+          "Spectator sports",
+          "Participation sports and recreation",
+          "Entertainment media",
+          "Support businesses"
+        ],
+        "answer": 1,
+        "explanation": "Golfers play the sport themselves, so it is participation. Spectator sports involve watching others compete."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Perishability",
+        "definition": "The characteristic that unsold seats or time slots lose all value once the event occurs."
+      },
+      {
+        "term": "Media rights",
+        "definition": "Fees broadcasters or streaming platforms pay to carry an event or league's games."
+      },
+      {
+        "term": "Sponsorship",
+        "definition": "A company paying a property for the right to associate its own brand with the property."
+      },
+      {
+        "term": "Licensing",
+        "definition": "Granting another company permission to use a property's trademarks on products in exchange for a royalty."
+      },
+      {
+        "term": "Fan identification",
+        "definition": "The strength of a consumer's psychological connection to a team, athlete or performer."
+      }
+    ]
+  }
+]

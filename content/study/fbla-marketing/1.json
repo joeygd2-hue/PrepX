@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Marketing concept, the marketing mix, and exchange",
+    "objective": "Explain the marketing concept, classify decisions within the four Ps, and distinguish needs, wants, and the types of utility marketing creates.",
+    "body": "Marketing is far more than advertising. It is the full process of creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society. Every marketing question starts with one idea: an **exchange** happens only when both sides believe they gain something of greater value than what they give up.\n\n**The marketing concept.** Firms that follow the **marketing concept** identify customer needs and wants first, then build the business around satisfying them profitably. This contrasts with a production orientation (\"make it efficiently and it will sell\") and a sales orientation (\"push hard enough and it will sell\"). A **need** is a basic requirement such as food or shelter; a **want** is the specific way a person chooses to satisfy a need, shaped by culture and personality. Wants become **demand** when backed by the ability and willingness to pay.\n\n**The marketing mix.** Managers control four variables, often called the **four Ps**:\n- **Product**: the good, service, or idea, including features, quality, branding, and packaging.\n- **Price**: what the customer pays, including discounts and credit terms.\n- **Place**: distribution, meaning the channels, locations, and logistics that get the product to buyers.\n- **Promotion**: communication such as advertising, personal selling, sales promotion, and public relations.\n\nThe four Ps must fit together and fit the **target market**, the specific group of customers the firm chooses to serve. A luxury watch sold at a deep discount in a dollar store sends mixed signals, even if each P looks reasonable alone.\n\n**Utility.** Marketing adds value by creating **utility**, the usefulness that satisfies a want.\n1. Form utility: changing raw materials into a finished product (usually production, not marketing).\n2. Place utility: making the product available where customers want it.\n3. Time utility: making it available when customers want it.\n4. Possession utility: making it easy to take ownership, for example through financing.\n5. Information utility: telling customers the product exists and how to use it.\n\n**Marketing functions.** Tests often use seven core functions: channel management, marketing-information management, market planning, pricing, product/service management, promotion, and selling. Recognizing which function a task belongs to is a frequent question type.\n\nThe most common mistake students make is equating marketing with promotion. When a question describes choosing a store location, setting a payment plan, or surveying customers, the answer is usually a marketing activity even though no advertisement is involved.",
+    "examples": [
+      "A bakery that opens at 5 a.m. so commuters can buy breakfast is creating time utility.",
+      "A phone carrier offering 24 monthly payments on a new device is creating possession utility by making ownership easier.",
+      "A sneaker brand that surveys teens before designing a new line is applying the marketing concept rather than a production orientation."
+    ],
+    "questions": [
+      {
+        "stem": "A furniture store begins offering free delivery within 30 miles of its showroom. Which element of the marketing mix is it changing?",
+        "choices": [
+          "Product",
+          "Place",
+          "Price",
+          "Promotion"
+        ],
+        "answer": 1,
+        "explanation": "Delivery is part of distribution, which is Place. Promotion is tempting, but promotion is communication about the offer, not the logistics of getting it to customers."
+      },
+      {
+        "stem": "A company builds a factory to mass-produce a gadget cheaply, assuming low cost alone will drive sales, without studying buyers. This reflects which orientation?",
+        "choices": [
+          "Marketing orientation",
+          "Societal marketing orientation",
+          "Production orientation",
+          "Relationship orientation"
+        ],
+        "answer": 2,
+        "explanation": "Focusing on efficient production while ignoring customer needs is a production orientation. It is not a marketing orientation, which begins with customer research."
+      },
+      {
+        "stem": "A teenager is thirsty and decides she specifically wants a sparkling lemon water from a certain brand. The brand preference is best described as a:",
+        "choices": [
+          "Want",
+          "Need",
+          "Demand",
+          "Utility"
+        ],
+        "answer": 0,
+        "explanation": "Thirst is the need; the specific brand choice is a want. It becomes demand only when backed by ability and willingness to pay, which the stem does not address."
+      },
+      {
+        "stem": "A car dealership advertises 0% financing for 60 months. Which type of utility does the financing primarily create?",
+        "choices": [
+          "Form",
+          "Time",
+          "Place",
+          "Possession"
+        ],
+        "answer": 3,
+        "explanation": "Financing makes it easier to take ownership, which is possession utility. Time utility concerns when a product is available, not how buyers can afford it."
+      },
+      {
+        "stem": "A store manager reviews loyalty-card data to learn which products customers buy together. Which marketing function is this?",
+        "choices": [
+          "Selling",
+          "Marketing-information management",
+          "Channel management",
+          "Product/service management"
+        ],
+        "answer": 1,
+        "explanation": "Gathering and analyzing data to make decisions is marketing-information management. Product management would involve changing the products themselves, which has not happened yet."
+      },
+      {
+        "stem": "A premium skincare brand known for high quality starts selling through discount bins at gas stations. What is the main problem?",
+        "choices": [
+          "The price is too high for the channel",
+          "The product lacks form utility",
+          "The place decision conflicts with the product's positioning",
+          "Promotion has been eliminated"
+        ],
+        "answer": 2,
+        "explanation": "The marketing mix must be consistent; a discount channel undermines a premium image. Price is not described as changing, so the price answer is unsupported."
+      },
+      {
+        "stem": "Which situation is the clearest example of an exchange in marketing?",
+        "choices": [
+          "A student donates old clothes to a charity bin anonymously",
+          "A customer pays $12 for a movie ticket and watches the film",
+          "A company designs a logo internally",
+          "A shopper browses a website without buying"
+        ],
+        "answer": 1,
+        "explanation": "An exchange requires both parties to give and receive something of value: money for a viewing experience. An anonymous donation lacks a return of value to the giver in the marketing sense."
+      },
+      {
+        "stem": "A grocery chain posts recipe cards and nutrition labels next to new produce items. Which utility is mainly being added?",
+        "choices": [
+          "Information utility",
+          "Form utility",
+          "Place utility",
+          "Possession utility"
+        ],
+        "answer": 0,
+        "explanation": "Recipe and nutrition details tell customers how to use the product, creating information utility. Place utility would involve where the produce is sold, which has not changed."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Marketing concept",
+        "definition": "A business philosophy of identifying customer needs and wants first and satisfying them profitably."
+      },
+      {
+        "term": "Marketing mix",
+        "definition": "The four controllable variables of product, price, place, and promotion."
+      },
+      {
+        "term": "Target market",
+        "definition": "The specific group of customers a business chooses to serve."
+      },
+      {
+        "term": "Possession utility",
+        "definition": "Value added by making it easier for customers to take ownership, such as through financing."
+      },
+      {
+        "term": "Exchange",
+        "definition": "A transaction in which both parties give up something of value to receive something they value more."
+      }
+    ]
+  }
+]

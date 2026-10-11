@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Molecular genetics, metabolic regulation and clinical biochemistry",
+    "objective": "Trace the flow of genetic information from DNA to protein, evaluate how mutations and hormones alter metabolism, and interpret common clinical biochemistry findings.",
+    "body": "Advanced biochemistry connects molecules to health. The same principles that govern a single enzyme explain inherited disorders, diabetes and the lab values clinicians use.\n\n**The central dogma.** Information flows from DNA to RNA to protein. During **replication**, DNA polymerase copies each strand in the 5' to 3' direction using complementary base pairing (A with T, G with C). In **transcription**, RNA polymerase builds messenger RNA, substituting uracil for thymine. In eukaryotes the pre-mRNA is processed: introns are spliced out, a 5' cap and a poly-A tail are added. During **translation**, ribosomes read mRNA in three-base **codons**; transfer RNA brings matching amino acids using its anticodon. AUG codes for methionine and serves as the start codon, while UAA, UAG and UGA are stop codons.\n\n**Mutations.**\n- A **point mutation** changes one base. It may be silent (same amino acid), missense (different amino acid) or nonsense (premature stop codon).\n- A **frameshift mutation** inserts or deletes bases in a number not divisible by three, scrambling every codon downstream.\nSickle cell disease results from a single missense change in the beta-globin gene (glutamic acid to valine), which makes hemoglobin polymerize when oxygen is low.\n\n**Inborn errors of metabolism.** When a gene for an enzyme is defective, its substrate builds up and its product runs short. In **phenylketonuria (PKU)**, deficient phenylalanine hydroxylase lets phenylalanine accumulate and harm the developing brain; newborn screening allows early dietary management.\n\n**Hormonal regulation of glucose.** After a meal, the pancreas releases **insulin**, which promotes glucose uptake by muscle and fat cells and storage as glycogen. Between meals, **glucagon** stimulates glycogen breakdown and gluconeogenesis in the liver. In type 1 diabetes, autoimmune destruction of beta cells eliminates insulin; in type 2, cells respond poorly to insulin (insulin resistance). Without adequate insulin action, the body breaks down fat and produces ketone bodies, which in excess cause diabetic ketoacidosis.\n\n**Clinical markers.** Hemoglobin A1c reflects average blood glucose over roughly three months because glucose attaches to hemoglobin for the red cell's lifespan. Elevated troponin indicates heart muscle injury, and high ALT suggests liver cell damage.\n\nThe most common mistake students make is assuming every point mutation changes the protein. Because the genetic code is redundant, many single-base changes are silent and produce the same amino acid.",
+    "examples": [
+      "A deletion of one base early in a gene shifts the reading frame, so every downstream codon changes and the protein is usually nonfunctional.",
+      "A student with type 1 diabetes has an A1c test that summarizes about three months of glucose control, rather than a single moment like a fingerstick reading."
+    ],
+    "questions": [
+      {
+        "stem": "A DNA template strand reads 3'-TAC-5'. What mRNA codon is transcribed?",
+        "choices": [
+          "5'-ATG-3'",
+          "5'-AUG-3'",
+          "5'-UAC-3'",
+          "5'-TAC-3'"
+        ],
+        "answer": 1,
+        "explanation": "RNA pairs A with U and T with A, giving AUG. ATG is the DNA coding sequence, not RNA, because RNA uses uracil."
+      },
+      {
+        "stem": "A point mutation changes codon GAA to GAG, and both code for glutamic acid. What type of mutation is this?",
+        "choices": [
+          "Silent mutation",
+          "Nonsense mutation",
+          "Frameshift mutation",
+          "Missense mutation"
+        ],
+        "answer": 0,
+        "explanation": "The amino acid is unchanged, so the mutation is silent. Missense would require a different amino acid."
+      },
+      {
+        "stem": "A newborn screen shows very high phenylalanine. Which enzyme is most likely deficient?",
+        "choices": [
+          "Lactase",
+          "Hexokinase",
+          "Phenylalanine hydroxylase",
+          "DNA polymerase"
+        ],
+        "answer": 2,
+        "explanation": "PKU results from deficient phenylalanine hydroxylase, so its substrate accumulates. Lactase deficiency affects lactose digestion, not phenylalanine levels."
+      },
+      {
+        "stem": "Several hours after eating, blood glucose begins to fall. Which hormone does the pancreas release to raise it?",
+        "choices": [
+          "Insulin",
+          "Troponin",
+          "Thyroxine",
+          "Glucagon"
+        ],
+        "answer": 3,
+        "explanation": "Glucagon triggers glycogen breakdown and gluconeogenesis to raise glucose. Insulin lowers blood glucose, so it is the opposite of what is needed."
+      },
+      {
+        "stem": "Why does a single-base insertion usually damage a protein more than a single-base substitution?",
+        "choices": [
+          "It shifts the reading frame of all downstream codons",
+          "It always creates a start codon",
+          "It changes the DNA backbone to RNA",
+          "It only affects introns"
+        ],
+        "answer": 0,
+        "explanation": "Insertions not in multiples of three cause frameshifts that alter every later codon. A substitution typically changes at most one codon."
+      },
+      {
+        "stem": "A clinician wants a measure of a patient's average blood glucose over the past several months. Which test fits best?",
+        "choices": [
+          "Serum troponin",
+          "Hemoglobin A1c",
+          "ALT",
+          "Single fasting glucose"
+        ],
+        "answer": 1,
+        "explanation": "A1c reflects glucose bound to hemoglobin over the red cell lifespan, about three months. A single fasting glucose shows only one point in time."
+      },
+      {
+        "stem": "In sickle cell disease, valine replaces glutamic acid in beta-globin. This is an example of:",
+        "choices": [
+          "A nonsense mutation",
+          "A frameshift mutation",
+          "A missense mutation",
+          "A silent mutation"
+        ],
+        "answer": 2,
+        "explanation": "One amino acid is swapped for another, which is missense. Nonsense would introduce a stop codon and truncate the protein."
+      },
+      {
+        "stem": "A patient with untreated type 1 diabetes has high blood ketones. What best explains this?",
+        "choices": [
+          "Excess insulin increases fat storage",
+          "Glucagon is absent",
+          "Ribosomes stop translating",
+          "Lack of insulin action drives fat breakdown into ketone bodies"
+        ],
+        "answer": 3,
+        "explanation": "Without insulin, cells cannot use glucose well, so fat is broken down and the liver makes ketones. Excess insulin would suppress, not cause, ketone production."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Codon",
+        "definition": "A three-nucleotide mRNA sequence that specifies an amino acid or a stop signal."
+      },
+      {
+        "term": "Frameshift mutation",
+        "definition": "An insertion or deletion not in a multiple of three that changes every downstream codon."
+      },
+      {
+        "term": "Phenylketonuria (PKU)",
+        "definition": "An inherited deficiency of phenylalanine hydroxylase causing phenylalanine buildup."
+      },
+      {
+        "term": "Insulin",
+        "definition": "Pancreatic hormone that lowers blood glucose by promoting uptake and glycogen storage."
+      },
+      {
+        "term": "Glucagon",
+        "definition": "Pancreatic hormone that raises blood glucose by stimulating glycogen breakdown and gluconeogenesis."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Managing Public Budgets, Personnel, and Performance",
+    "objective": "Apply budgeting, human resources, and performance measurement tools to solve common problems public managers face.",
+    "body": "Once policy is set, public managers must turn limited money and people into results. Three management systems do most of that work: budgeting, personnel, and performance measurement.\n\nThe **budget cycle** in most governments follows four stages:\n1. **Preparation**: agencies submit requests and the executive builds a proposed budget.\n2. **Adoption**: the legislature reviews, amends, and approves appropriations.\n3. **Execution**: agencies spend funds according to the approved plan.\n4. **Audit and evaluation**: auditors confirm money was spent legally and effectively.\n\nGovernments separate an **operating budget**, which covers recurring costs such as salaries and utilities, from a **capital budget**, which funds long-lived assets such as bridges and buildings, often financed with bonds. Common approaches include **line-item budgeting**, which lists spending by object (personnel, supplies); **performance budgeting**, which ties funding to outputs and outcomes; and **zero-based budgeting**, which requires every program to justify its full request rather than building on last year's amount. Most state and local governments must balance their operating budgets, unlike the federal government.\n\n**Public personnel management** covers recruiting, testing, classifying positions, compensating, and disciplining public employees. Merit principles require open competition and fair treatment. Many public employees have **civil service protections**, meaning they can be removed only for documented cause through due process, and many work under **collective bargaining** agreements negotiated with unions. Managers must also follow equal employment opportunity laws.\n\n**Performance measurement** tracks whether programs work. Strong managers distinguish:\n- **Inputs**: resources used (dollars, staff hours).\n- **Outputs**: work completed (potholes filled, inspections done).\n- **Outcomes**: results for the public (fewer crashes, safer restaurants).\n- **Efficiency**: cost per unit of output.\n\nGoals are often written as SMART objectives (specific, measurable, achievable, relevant, time-bound) and reported publicly through dashboards. A related concept is **span of control**, the number of employees a supervisor directly manages; too wide a span weakens oversight, while too narrow a span adds costly layers.\n\nThe most common mistake students make is confusing outputs with outcomes. Issuing 5,000 inspection reports is an output; reducing foodborne illness is the outcome the public actually cares about.",
+    "examples": [
+      "A parks department reports that it mowed 300 acres (output) at $42 per acre (efficiency), and that park satisfaction rose from 71% to 80% (outcome).",
+      "A school district facing a deficit uses zero-based budgeting, requiring the athletics program to justify every dollar instead of receiving last year's amount plus inflation."
+    ],
+    "questions": [
+      {
+        "stem": "A city wants to build a new fire station that will last 40 years. In which budget should this cost primarily appear?",
+        "choices": [
+          "Operating budget",
+          "Capital budget",
+          "Payroll budget",
+          "Contingency fund only"
+        ],
+        "answer": 1,
+        "explanation": "Long-lived assets belong in the capital budget, often bond-financed. The operating budget covers recurring costs like salaries."
+      },
+      {
+        "stem": "A health department reports that restaurant-related illness complaints fell 25%. What type of measure is this?",
+        "choices": [
+          "Input",
+          "Output",
+          "Outcome",
+          "Efficiency"
+        ],
+        "answer": 2,
+        "explanation": "A change in public conditions is an outcome. The number of inspections conducted would be an output."
+      },
+      {
+        "stem": "A new budget director requires every program to justify its entire request from scratch. Which approach is this?",
+        "choices": [
+          "Incremental budgeting",
+          "Line-item budgeting",
+          "Zero-based budgeting",
+          "Capital budgeting"
+        ],
+        "answer": 2,
+        "explanation": "Zero-based budgeting starts from zero each cycle. Incremental budgeting adjusts last year's base, the opposite assumption."
+      },
+      {
+        "stem": "During which budget stage does the legislature approve appropriations?",
+        "choices": [
+          "Preparation",
+          "Adoption",
+          "Execution",
+          "Audit"
+        ],
+        "answer": 1,
+        "explanation": "Adoption is legislative approval. Preparation is when the executive builds the proposal."
+      },
+      {
+        "stem": "A supervisor wants to dismiss a tenured civil service employee for poor attendance. What should she do first?",
+        "choices": [
+          "Fire the employee immediately to set an example",
+          "Transfer the employee without notice",
+          "Document the attendance problems and follow due process procedures",
+          "Ask the union to choose a replacement"
+        ],
+        "answer": 2,
+        "explanation": "Civil service protections require documented cause and due process. Immediate firing could be overturned and expose the agency to liability."
+      },
+      {
+        "stem": "A road crew filled 1,200 potholes at a total cost of $60,000. What is the efficiency measure?",
+        "choices": [
+          "$50 per pothole",
+          "1,200 potholes",
+          "$60,000",
+          "$5 per pothole"
+        ],
+        "answer": 0,
+        "explanation": "$60,000 divided by 1,200 equals $50 per pothole. The 1,200 figure is the output, not efficiency."
+      },
+      {
+        "stem": "A department head supervises 28 direct reports and cannot meet with each regularly. Which concept best describes the problem?",
+        "choices": [
+          "Span of control is too wide",
+          "Line-item budgeting",
+          "Federalism",
+          "Collective bargaining"
+        ],
+        "answer": 0,
+        "explanation": "Too many direct reports means an overly wide span of control. Collective bargaining relates to union negotiations, not supervisory load."
+      },
+      {
+        "stem": "Which goal is written in SMART form?",
+        "choices": [
+          "Improve library service",
+          "Increase weekday library visits by 10% by June 30",
+          "Make patrons happier",
+          "Work harder on outreach"
+        ],
+        "answer": 1,
+        "explanation": "It is specific, measurable, and time-bound. \"Improve library service\" lacks any measure or deadline."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Capital budget",
+        "definition": "Budget for long-lived assets such as buildings and roads, often financed by bonds."
+      },
+      {
+        "term": "Zero-based budgeting",
+        "definition": "An approach requiring each program to justify its full funding request every cycle."
+      },
+      {
+        "term": "Outcome",
+        "definition": "A measure of the actual result or change produced for the public."
+      },
+      {
+        "term": "Civil service protections",
+        "definition": "Rules allowing removal of public employees only for documented cause through due process."
+      },
+      {
+        "term": "Span of control",
+        "definition": "The number of employees a supervisor directly manages."
+      }
+    ]
+  }
+]

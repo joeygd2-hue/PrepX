@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Subnetting, VLANs and designing a LAN",
+    "objective": "Calculate subnets with CIDR, segment a network with VLANs, and choose a topology and cabling that meet a site's requirements.",
+    "body": "Once you know the building blocks, the next skill is turning a site's requirements into an addressing plan and physical layout. Most applied questions ask you to size subnets, separate traffic, and pick the right media.\n\n**Subnetting with CIDR.** A prefix length tells you how many bits belong to the network. The remaining host bits set the size: a subnet with h host bits has 2^h addresses, and 2^h - 2 usable hosts, because the first address is the **network address** and the last is the **broadcast address**.\n- /24 = 256 addresses, 254 usable hosts\n- /26 = 64 addresses, 62 usable\n- /27 = 32 addresses, 30 usable\n- /30 = 4 addresses, 2 usable (classic point-to-point link)\n\nTo size a subnet, find the smallest block that covers the hosts you need plus growth. Allocating different sizes from one block is called **VLSM** (variable-length subnet masking); assign the largest subnets first so the blocks line up on clean boundaries.\n\n**VLANs.** A **VLAN** splits one physical switch into separate logical broadcast domains. A school might put staff, students, VoIP phones and security cameras on different VLANs, each with its own subnet. This limits broadcast traffic and lets a firewall or Layer 3 switch apply rules between groups. Links that carry several VLANs between switches are **trunk** ports using 802.1Q tags; ports for a single end device are access ports. Devices on different VLANs still need a router or Layer 3 switch to talk to each other.\n\n**Topologies.** Modern LANs use a **star** (or extended star) topology: each device connects to a central switch, so one failed cable affects only one device. Campus networks are often built in tiers: access switches for end devices, distribution switches that aggregate them and apply policy, and a core for fast transport. Smaller sites collapse core and distribution into one layer.\n\n**Cabling and wireless.** Twisted-pair copper such as Cat 6 supports 1 Gbps to 100 meters and 10 Gbps to about 55 meters; Cat 6A supports 10 Gbps to 100 meters. Beyond 100 meters, or between buildings, use **fiber**, which also resists electrical interference. For Wi-Fi, 2.4 GHz has the longest range but only three non-overlapping channels (1, 6, 11) in the US; 5 GHz and 6 GHz (Wi-Fi 6E and Wi-Fi 7) offer more channels and speed at shorter range. **PoE** switches power access points, phones and cameras over the data cable.\n\nThe most common mistake students make is forgetting to subtract the network and broadcast addresses, choosing a /27 for 32 hosts when it only provides 30 usable addresses.",
+    "examples": [
+      "A lab needs 50 hosts: a /26 gives 62 usable addresses, while a /27 would give only 30.",
+      "Splitting 192.168.5.0/24 into four /26 subnets yields networks at .0, .64, .128 and .192, each with 62 usable hosts.",
+      "A warehouse 300 meters from the main office is connected with a fiber link because copper Ethernet is limited to 100 meters per run."
+    ],
+    "questions": [
+      {
+        "stem": "A department needs 100 hosts now and expects 15 more next year. What is the smallest subnet that works?",
+        "choices": [
+          "/25",
+          "/26",
+          "/24",
+          "/27"
+        ],
+        "answer": 0,
+        "explanation": "115 hosts need at least 7 host bits: a /25 gives 126 usable. A /26 provides only 62 usable, which is too small."
+      },
+      {
+        "stem": "What is the broadcast address of 10.4.8.64/27?",
+        "choices": [
+          "10.4.8.96",
+          "10.4.8.95",
+          "10.4.8.63",
+          "10.4.8.127"
+        ],
+        "answer": 1,
+        "explanation": "A /27 block is 32 addresses, so 10.4.8.64 runs through 10.4.8.95, the last address. 10.4.8.96 is the start of the next subnet."
+      },
+      {
+        "stem": "A school wants security cameras isolated from student traffic on the same switches. What is the best approach?",
+        "choices": [
+          "Use a separate hub for cameras",
+          "Place cameras on their own VLAN and subnet",
+          "Give cameras static MAC addresses",
+          "Move cameras to the 2.4 GHz band"
+        ],
+        "answer": 1,
+        "explanation": "A VLAN creates a separate broadcast domain on shared switches, and inter-VLAN rules can restrict access. A hub provides no isolation and is obsolete."
+      },
+      {
+        "stem": "Two switches must carry traffic for the staff, student and voice VLANs over one cable. How should the connecting ports be configured?",
+        "choices": [
+          "As access ports in VLAN 1",
+          "As trunk ports using 802.1Q",
+          "With PoE enabled",
+          "As mirrored ports"
+        ],
+        "answer": 1,
+        "explanation": "Trunk ports tag frames with 802.1Q so multiple VLANs share one link. An access port carries only one VLAN."
+      },
+      {
+        "stem": "A link between two routers needs exactly two usable addresses. Which prefix wastes the fewest addresses?",
+        "choices": [
+          "/29",
+          "/28",
+          "/30",
+          "/24"
+        ],
+        "answer": 2,
+        "explanation": "A /30 has four addresses with two usable, a perfect fit for point-to-point links. A /29 provides six usable, wasting four."
+      },
+      {
+        "stem": "A run from a switch to a new office is 140 meters through an area with heavy electrical equipment. Which medium is best?",
+        "choices": [
+          "Cat 6 UTP",
+          "Cat 5e UTP",
+          "Multimode or single-mode fiber",
+          "Coaxial cable"
+        ],
+        "answer": 2,
+        "explanation": "Fiber exceeds the 100-meter copper Ethernet limit and is immune to electromagnetic interference. Cat 6 is still limited to 100 meters."
+      },
+      {
+        "stem": "Students on VLAN 20 cannot reach a file server on VLAN 30, though each VLAN works internally. What is missing?",
+        "choices": [
+          "A larger subnet mask",
+          "Inter-VLAN routing via a router or Layer 3 switch",
+          "A second access point",
+          "DNS records for the VLANs"
+        ],
+        "answer": 1,
+        "explanation": "VLANs are separate networks, so traffic between them must be routed. DNS only resolves names and cannot move packets between VLANs."
+      },
+      {
+        "stem": "A designer wants ceiling access points powered without new electrical outlets. Which feature should the switch support?",
+        "choices": [
+          "PoE",
+          "Spanning Tree Protocol",
+          "Port mirroring",
+          "Link aggregation"
+        ],
+        "answer": 0,
+        "explanation": "Power over Ethernet sends power on the data cable to APs, phones and cameras. Link aggregation bundles links for bandwidth but supplies no power."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "VLAN",
+        "definition": "A logical broadcast domain that separates groups of ports on shared switches, typically with its own subnet."
+      },
+      {
+        "term": "Trunk port",
+        "definition": "A switch port that carries multiple VLANs using 802.1Q tags."
+      },
+      {
+        "term": "Broadcast address",
+        "definition": "The last address in a subnet, used to reach all hosts in it and not assignable to a host."
+      },
+      {
+        "term": "VLSM",
+        "definition": "Variable-length subnet masking; dividing an address block into subnets of different sizes."
+      },
+      {
+        "term": "PoE",
+        "definition": "Power over Ethernet; delivers electrical power to devices like access points over the network cable."
+      }
+    ]
+  }
+]

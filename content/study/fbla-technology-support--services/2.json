@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Diagnosing hardware, operating system and network problems",
+    "objective": "Diagnose common hardware, operating system and network issues using appropriate tools, and select effective remote and on-site support techniques.",
+    "body": "Once you understand the troubleshooting process, the next step is applying it to real systems. Most support calls fall into three areas: hardware, operating systems and software, and networking.\n\n**Hardware issues.** Start with the physical layer: power, cables and connections. A computer that shows no lights or fans usually has a power or power supply problem, while one that powers on but shows nothing on screen may have a display, cable or memory issue. Beep codes and diagnostic lights during the **POST** (power-on self-test) point to failing components. Always use **ESD** (electrostatic discharge) protection, such as an anti-static wrist strap, when working inside a computer.\n\n**Operating system and software issues.** Many problems appear after an update or a new installation. Useful steps include checking event logs, booting into **Safe Mode** to load only essential drivers, rolling back a recently updated driver, and using system restore points. Task Manager (Windows) or Activity Monitor (macOS) shows which process is consuming CPU or memory when a system is slow.\n\n**Network issues.** Work methodically from the device outward. Key command-line tools include:\n- **ipconfig** (Windows), **ip addr** (Linux) or **ifconfig** (macOS) to view the IP address, subnet mask and default gateway.\n- **ping** to test whether a host is reachable.\n- **tracert** or **traceroute** to show the path packets take and where they stop.\n- **nslookup** to test whether DNS is translating names into IP addresses.\nAn address beginning with 169.254 is an **APIPA** address, meaning the computer failed to get an address from the DHCP server. If you can ping 8.8.8.8 but not a website name, the problem is likely DNS, not the internet connection.\n\n**Remote versus on-site support.** **Remote support** tools let a technician view or control a user's screen over the network, which saves travel time and resolves most software issues. Always get the user's permission before connecting and avoid viewing unrelated private files. Physical problems, such as a broken port or failed drive, still require on-site work or a hardware swap.\n\n**Isolating variables.** Change one thing at a time. If you swap the cable, the port and the network card all at once and the problem disappears, you will not know which one was the cause.\n\nThe most common mistake students make is blaming the internet connection whenever a website will not load, without testing DNS separately. Pinging an IP address versus a domain name quickly separates connectivity problems from name-resolution problems.",
+    "examples": [
+      "A user's PC shows an IP address of 169.254.12.40; the technician recognizes an APIPA address and checks the DHCP server and network cable rather than the browser.",
+      "After a graphics driver update, a laptop's screen flickers; the technician boots into Safe Mode and rolls back the driver, which stops the flicker."
+    ],
+    "questions": [
+      {
+        "stem": "A user can ping 8.8.8.8 successfully but cannot open any websites by name. What is the most likely cause?",
+        "choices": [
+          "A failed network cable",
+          "A dead power supply",
+          "A full hard drive",
+          "A DNS resolution problem"
+        ],
+        "answer": 3,
+        "explanation": "Reaching an IP address proves connectivity works, so failing names points to DNS. A failed cable would prevent the ping from succeeding at all."
+      },
+      {
+        "stem": "A workstation shows an IP address of 169.254.88.5. What does this indicate?",
+        "choices": [
+          "The computer has a valid static address",
+          "The computer could not obtain an address from a DHCP server",
+          "The DNS server is overloaded",
+          "The computer is connected to a VPN"
+        ],
+        "answer": 1,
+        "explanation": "A 169.254.x.x address is APIPA, assigned when DHCP fails. It is not a valid configured static address for normal network access."
+      },
+      {
+        "stem": "A computer powers on with fans spinning but shows nothing on the monitor. Which check is the best first step?",
+        "choices": [
+          "Reinstall the operating system",
+          "Replace the motherboard",
+          "Verify the monitor's power and video cable connections",
+          "Run a virus scan"
+        ],
+        "answer": 2,
+        "explanation": "Starting with simple physical connections is quickest and most likely. Reinstalling the OS is impossible to justify when the display itself shows nothing."
+      },
+      {
+        "stem": "After installing a new printer driver, a PC crashes during startup. Which approach is most appropriate?",
+        "choices": [
+          "Boot into Safe Mode and roll back or remove the driver",
+          "Replace the RAM immediately",
+          "Format the hard drive",
+          "Disable the firewall"
+        ],
+        "answer": 0,
+        "explanation": "Safe Mode loads minimal drivers so the faulty new driver can be removed. Formatting the drive destroys data to fix a problem a rollback can solve."
+      },
+      {
+        "stem": "Which tool shows each network hop between a computer and a remote server, revealing where traffic stops?",
+        "choices": [
+          "nslookup",
+          "ipconfig",
+          "tracert/traceroute",
+          "Task Manager"
+        ],
+        "answer": 2,
+        "explanation": "Tracert/traceroute lists the path hop by hop. Nslookup only tests DNS name resolution, not the route."
+      },
+      {
+        "stem": "A technician plans to replace RAM in a desktop computer. Which precaution is most important?",
+        "choices": [
+          "Leave the computer plugged in to keep it grounded",
+          "Use an anti-static wrist strap and disconnect power",
+          "Work on a carpeted floor",
+          "Spray the memory slots with water to clean them"
+        ],
+        "answer": 1,
+        "explanation": "ESD protection and removing power protect both the technician and components. Leaving it plugged in risks shock and damage."
+      },
+      {
+        "stem": "A remote employee's spreadsheet application keeps freezing. What should the technician do before taking control of the employee's screen with remote support software?",
+        "choices": [
+          "Connect without notice to save time",
+          "Escalate to Tier 3",
+          "Ask the user to ship the computer in",
+          "Obtain the user's permission"
+        ],
+        "answer": 3,
+        "explanation": "Remote sessions require user consent and respect for privacy. Connecting without notice violates trust and often company policy."
+      },
+      {
+        "stem": "A technician swaps the cable, switch port and network card at once, and the connection starts working. What is the main problem with this approach?",
+        "choices": [
+          "It is impossible to know which change fixed the issue",
+          "It takes too little time",
+          "It always voids the warranty",
+          "It requires escalation"
+        ],
+        "answer": 0,
+        "explanation": "Changing one variable at a time identifies the true cause. The fix worked, but the root cause remains unknown, so the problem could recur unexplained."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "APIPA",
+        "definition": "An automatic 169.254.x.x address a device assigns itself when it cannot reach a DHCP server."
+      },
+      {
+        "term": "ping",
+        "definition": "A command that tests whether a host is reachable by sending echo requests."
+      },
+      {
+        "term": "nslookup",
+        "definition": "A command used to test whether DNS translates a domain name into an IP address."
+      },
+      {
+        "term": "Safe Mode",
+        "definition": "A startup mode that loads only essential drivers and services to help isolate software problems."
+      },
+      {
+        "term": "ESD",
+        "definition": "Electrostatic discharge, static electricity that can damage computer components; prevented with grounding tools like wrist straps."
+      }
+    ]
+  }
+]

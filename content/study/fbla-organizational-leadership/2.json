@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Motivating teams, communicating, and building group performance",
+    "objective": "Apply motivation theories, Tuckman's stages of team development and conflict-management styles to diagnose and improve team performance.",
+    "body": "Knowing leadership theory matters only if a leader can turn it into a motivated, productive team. This unit covers the tools leaders use every day.\n\n**Content theories of motivation.** These explain *what* people need.\n- **Maslow's hierarchy of needs**: physiological, safety, belongingness, esteem and self-actualization. Lower needs generally must be met before higher ones motivate.\n- **Herzberg's two-factor theory**: **hygiene factors** such as pay, working conditions and company policy prevent dissatisfaction but do not create real motivation. **Motivators** such as achievement, recognition, responsibility and growth create satisfaction.\n- **McClelland's acquired needs**: people differ in their need for achievement, affiliation and power.\n\n**Process theories.** These explain *how* motivation works. **Expectancy theory** (Vroom) says effort depends on three beliefs: effort will lead to performance (expectancy), performance will lead to a reward (instrumentality), and the reward is valued (valence). If any one is near zero, motivation collapses. **Goal-setting theory** shows that specific, challenging goals with feedback outperform vague goals such as \"do your best,\" which is why leaders use SMART goals.\n\n**Stages of team development.** Bruce Tuckman described five stages:\n1. **Forming**: polite, uncertain, dependent on the leader.\n2. **Storming**: conflict over roles, ideas and authority.\n3. **Norming**: agreed rules and growing cohesion.\n4. **Performing**: high trust and productivity.\n5. **Adjourning**: the team completes its work and disbands.\n\nLeaders should give clear direction while forming, mediate during storming and step back once the team is performing.\n\n**Managing conflict.** The Thomas-Kilmann model maps five styles by assertiveness and cooperativeness: **competing**, **collaborating** (win-win, high on both), **compromising**, **avoiding** and **accommodating**. Collaborating is ideal for important issues when time allows; competing fits emergencies or unpopular but necessary decisions; avoiding can work for trivial issues.\n\n**Communication.** Effective leaders practice **active listening**: giving full attention, paraphrasing, asking clarifying questions and withholding judgment. They also choose rich channels, such as face-to-face conversations, for sensitive or complex messages and lean channels, such as email, for routine information.\n\nThe most common mistake students make is assuming a pay raise fixes every motivation problem. Under Herzberg, pay is a hygiene factor: low pay causes dissatisfaction, but raising it does not by itself create lasting motivation. Look for recognition, responsibility or growth when a question asks what will truly motivate someone.",
+    "examples": [
+      "A sales team was told to \"sell more\" and stalled; when the manager set a goal of 15 new accounts by March 31 with weekly check-ins, results improved, illustrating goal-setting theory.",
+      "A newly formed project group argues about who should lead the presentation; the advisor recognizes the storming stage and helps them agree on roles and ground rules."
+    ],
+    "questions": [
+      {
+        "stem": "Employees at a firm are well paid but say their work feels meaningless. According to Herzberg, what should the leader add?",
+        "choices": [
+          "A larger salary increase",
+          "Better parking and break rooms",
+          "Recognition, responsibility and growth opportunities",
+          "Stricter company policies"
+        ],
+        "answer": 2,
+        "explanation": "Motivators such as recognition and responsibility create satisfaction. A raise is a hygiene factor, so it would not fix meaningless work."
+      },
+      {
+        "stem": "A worker believes hard work will raise her performance but doubts the company will actually give the promised bonus. Which expectancy-theory element is weak?",
+        "choices": [
+          "Expectancy",
+          "Instrumentality",
+          "Valence",
+          "Self-efficacy"
+        ],
+        "answer": 1,
+        "explanation": "Instrumentality is the belief that performance leads to a reward. Expectancy concerns effort leading to performance, which she already believes."
+      },
+      {
+        "stem": "A team has agreed on norms and now works smoothly with little supervision, producing high-quality results. Which stage is it in?",
+        "choices": [
+          "Forming",
+          "Storming",
+          "Norming",
+          "Performing"
+        ],
+        "answer": 3,
+        "explanation": "High trust and productivity mark performing. Norming is the stage when rules are first being accepted, before peak output."
+      },
+      {
+        "stem": "Two department heads disagree about an important budget decision, and there is time to find a solution that meets both of their core needs. Which conflict style fits best?",
+        "choices": [
+          "Avoiding",
+          "Collaborating",
+          "Accommodating",
+          "Competing"
+        ],
+        "answer": 1,
+        "explanation": "Collaborating seeks a win-win outcome on important issues when time allows. Competing would force one side to lose unnecessarily."
+      },
+      {
+        "stem": "Which goal best follows goal-setting theory?",
+        "choices": [
+          "Do your best on customer service",
+          "Improve sales soon",
+          "Raise customer satisfaction scores from 82% to 90% by the end of the quarter",
+          "Work harder than last year"
+        ],
+        "answer": 2,
+        "explanation": "It is specific, measurable and time-bound. \"Do your best\" is the vague kind of goal the theory shows to be less effective."
+      },
+      {
+        "stem": "An employee who strongly enjoys building relationships and working in groups is showing a high need for:",
+        "choices": [
+          "Achievement",
+          "Power",
+          "Affiliation",
+          "Self-actualization"
+        ],
+        "answer": 2,
+        "explanation": "McClelland's need for affiliation centers on relationships. Need for achievement focuses on mastering challenging tasks."
+      },
+      {
+        "stem": "A manager must tell an employee his position is being eliminated. Which channel is most appropriate?",
+        "choices": [
+          "A group email",
+          "A text message",
+          "A private face-to-face meeting",
+          "A note in the company newsletter"
+        ],
+        "answer": 2,
+        "explanation": "Sensitive, complex messages require a rich channel. Email is a lean channel suited only for routine information."
+      },
+      {
+        "stem": "During a meeting a leader repeats back an employee's concern in her own words and asks a follow-up question before responding. She is practicing:",
+        "choices": [
+          "Active listening",
+          "Groupthink",
+          "Accommodating",
+          "Delegating"
+        ],
+        "answer": 0,
+        "explanation": "Paraphrasing and clarifying are core active-listening behaviors. Accommodating is a conflict style of giving in, not a listening skill."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Hygiene factors",
+        "definition": "In Herzberg's theory, job conditions such as pay and policy that prevent dissatisfaction but do not create motivation."
+      },
+      {
+        "term": "Expectancy theory",
+        "definition": "Vroom's theory that motivation depends on expectancy, instrumentality and valence."
+      },
+      {
+        "term": "Storming",
+        "definition": "Tuckman's team stage marked by conflict over roles, ideas and authority."
+      },
+      {
+        "term": "Collaborating",
+        "definition": "A conflict style high in assertiveness and cooperativeness that seeks a win-win solution."
+      },
+      {
+        "term": "Active listening",
+        "definition": "Giving full attention, paraphrasing, asking clarifying questions and withholding judgment."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Marketing, pricing and sponsorship activation for events",
+    "objective": "Apply the marketing mix, segmentation and dynamic pricing to sports and entertainment events, and evaluate sponsorship deals using activation and return on investment.",
+    "body": "Once you understand the product, the next step is selling it. Sports and entertainment marketing has two sides: **marketing of** sports and entertainment (selling tickets, streams and memberships to fans) and **marketing through** sports and entertainment (companies using events to sell their own products, mainly through sponsorship).\n\n**The marketing mix.** The four Ps still apply, with an industry twist.\n- **Product** is the full event experience, including the game, halftime show, food and app.\n- **Price** includes tickets, fees, parking and concessions.\n- **Place** covers the venue, ticket distribution and broadcast or streaming channels.\n- **Promotion** covers advertising, social media, giveaways, public relations and community events.\n\n**Segmentation and targeting.** Managers divide the market by demographics (age, income), geography (local versus traveling fans), psychographics (lifestyle, values) and behavior (season-ticket holder versus first-time buyer). A family-four-pack with hot dogs targets parents on a budget; a premium club seat targets corporate clients entertaining customers.\n\n**Pricing strategies.** Because seats are perishable, many properties use **dynamic pricing**, which adjusts prices in real time based on demand, opponent, weather and day of the week. **Variable pricing** sets different prices in advance for different games, such as charging more for a rivalry game. **Tiered** or **scaled pricing** charges more for better seat locations. The **secondary market** is fans reselling tickets; teams watch resale prices because they reveal what fans are truly willing to pay.\n\n**Sponsorship activation.** Signing a sponsorship is only the start. **Activation** is the sponsor's spending to bring the deal to life, such as fan zones, sampling booths, contests and social campaigns. Industry practice is to budget activation in addition to the rights fee, often matching or exceeding it, because a logo alone rarely changes buyer behavior. Sponsors measure results with **return on investment (ROI)**: (gain from the sponsorship - cost) / cost.\n\n**Ambush marketing.** A company that is not an official sponsor may try to create the impression that it is, for example by running ads near the venue with event-style imagery. Event owners fight this with trademark law, clean-zone rules around venues and by giving official sponsors category exclusivity.\n\nThe most common mistake students make is mixing up dynamic and variable pricing. Variable pricing is set ahead of time by game category; dynamic pricing keeps changing as demand data changes, even after tickets go on sale.",
+    "examples": [
+      "A basketball team sells upper-level seats for $25 against a weak opponent, but its ticketing system automatically raises the price to $60 after a star player announces he will return for that game, an example of dynamic pricing.",
+      "A sports drink sponsor of a marathon spends its own budget on hydration stations, a finish-line photo booth and a social media challenge, which is activation beyond the rights fee."
+    ],
+    "questions": [
+      {
+        "stem": "A theater sets prices in July: Friday and Saturday shows cost more than Tuesday shows all season. This is:",
+        "choices": [
+          "Dynamic pricing",
+          "Variable pricing",
+          "Secondary market pricing",
+          "Bundled pricing"
+        ],
+        "answer": 1,
+        "explanation": "Prices are set in advance by show category, which is variable pricing. Dynamic pricing would keep adjusting prices as demand data changed."
+      },
+      {
+        "stem": "A company pays $500,000 for a sponsorship and spends $250,000 on activation. It attributes $1,125,000 in gross profit to the deal. What is the ROI?",
+        "choices": [
+          "50%",
+          "125%",
+          "225%",
+          "350%"
+        ],
+        "answer": 0,
+        "explanation": "Total cost is $750,000. ROI = (1,125,000 - 750,000) / 750,000 = 50%. Using only the $500,000 rights fee would wrongly give 125%."
+      },
+      {
+        "stem": "A shoe company that is not an Olympic sponsor buys billboards outside the stadium showing athletes with torches. This is best described as:",
+        "choices": [
+          "Licensing",
+          "Activation",
+          "Ambush marketing",
+          "Cause marketing"
+        ],
+        "answer": 2,
+        "explanation": "The company is implying an official connection it did not pay for, which is ambush marketing. Activation is done by official sponsors."
+      },
+      {
+        "stem": "A team creates a $99 package with four tickets, four hot dogs and four drinks aimed at parents. Which segmentation basis is primarily used?",
+        "choices": [
+          "Geographic",
+          "Demographic",
+          "Behavioral loyalty",
+          "Psychographic values"
+        ],
+        "answer": 1,
+        "explanation": "The package targets families with children and limited budgets, a demographic segment. Geographic segmentation would target fans by location."
+      },
+      {
+        "stem": "A soft drink brand uses a college football game to launch a new flavor with free samples. This is marketing:",
+        "choices": [
+          "of sports",
+          "through sports",
+          "by sports agents",
+          "in the secondary market"
+        ],
+        "answer": 1,
+        "explanation": "The brand uses the event to sell its own product, which is marketing through sports. Marketing of sports would be selling the game itself to fans."
+      },
+      {
+        "stem": "A team notices its tickets reselling at twice face value on resale sites. What is the most reasonable conclusion?",
+        "choices": [
+          "Demand exceeds the current price, so prices could rise",
+          "The team should stop selling tickets online",
+          "The venue is too large",
+          "Sponsorship revenue will decline"
+        ],
+        "answer": 0,
+        "explanation": "Resale prices above face value signal fans would pay more. It does not mean online sales should stop; the data simply shows underpricing."
+      },
+      {
+        "stem": "Which tactic best protects an official sponsor against ambush marketing?",
+        "choices": [
+          "Lowering ticket prices",
+          "Category exclusivity and clean-zone rules",
+          "Adding more sponsors in the same category",
+          "Selling broadcast rights"
+        ],
+        "answer": 1,
+        "explanation": "Exclusivity and clean zones limit competitors' presence near the event. Adding sponsors in the same category would weaken the official sponsor's position."
+      },
+      {
+        "stem": "A stadium charges $300 for courtside, $120 for lower bowl and $40 for upper deck. This is:",
+        "choices": [
+          "Tiered or scaled pricing",
+          "Dynamic pricing",
+          "Penetration pricing",
+          "Royalty pricing"
+        ],
+        "answer": 0,
+        "explanation": "Prices differ by seat location, which is tiered or scaled pricing. Dynamic pricing changes with demand over time, not by location."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Dynamic pricing",
+        "definition": "Adjusting ticket prices in real time based on demand, opponent, weather and other factors."
+      },
+      {
+        "term": "Variable pricing",
+        "definition": "Setting different prices in advance for different events, such as charging more for rivalry games."
+      },
+      {
+        "term": "Activation",
+        "definition": "A sponsor's additional spending to bring a sponsorship to life with fan engagement."
+      },
+      {
+        "term": "Ambush marketing",
+        "definition": "A non-sponsor creating the false impression that it is officially associated with an event."
+      },
+      {
+        "term": "Secondary market",
+        "definition": "The resale of tickets by fans or brokers after the original sale."
+      }
+    ]
+  }
+]

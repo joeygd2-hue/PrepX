@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Supply chain basics: flows, partners, and the SCOR model",
+    "objective": "Identify the members and flows of a supply chain, classify activities using the SCOR processes, and distinguish upstream from downstream partners.",
+    "body": "A **supply chain** is the network of organizations, people, activities and resources that moves a product or service from raw materials to the final customer. **Supply chain management (SCM)** is the coordination of that network so the right product reaches the right place, at the right time, in the right quantity, at the lowest total cost. Logistics is only one part of SCM: it covers the movement and storage of goods, while SCM also includes sourcing, production planning and relationships among partners.\n\n**Members of the chain.** A typical chain links suppliers of raw materials, manufacturers, distributors or wholesalers, retailers and end customers. Partners closer to raw materials are **upstream**; partners closer to the end customer are **downstream**. For a bakery, the flour mill is upstream and the grocery store that stocks its bread is downstream.\n\n**Three flows.** Every supply chain manages three flows at once:\n- **Product flow**: physical goods moving downstream, plus returns moving back upstream.\n- **Information flow**: orders, forecasts, inventory levels and shipment tracking moving in both directions.\n- **Financial flow**: payments, credit terms and invoices, usually moving upstream.\n\nWhen any flow breaks down, the others suffer. A truck can be on time, but if the warehouse never received the shipment notice, the dock may have no space or staff ready.\n\n**The SCOR model.** The Supply Chain Operations Reference model, maintained by ASCM, organizes supply chain work into core processes. The classic version lists six: **Plan** (balancing supply and demand), **Source** (buying materials and services), **Make** (producing the product), **Deliver** (managing orders, warehousing and transportation), **Return** (handling defective, excess or recycled items) and **Enable** (managing data, rules, contracts and risk). Newer versions of the framework reorganize these steps, but the six classic processes remain a useful way to classify any activity.\n\n**Why it matters.** Good SCM lowers costs, improves customer service and builds resilience against disruptions such as storms, port congestion or supplier failures. Many companies now also track sustainability, such as emissions from transportation, as a supply chain goal.\n\nThe most common mistake students make is treating supply chain management and logistics as the same thing. Logistics moves and stores goods; supply chain management coordinates the entire network, including suppliers, production, information and money.",
+    "examples": [
+      "A smartphone maker buys chips from a supplier in Taiwan (upstream), assembles phones in a contract factory, and ships them to carrier stores (downstream).",
+      "When a customer sends back a damaged blender and the retailer forwards it to the manufacturer for repair, that activity falls under the SCOR Return process.",
+      "A retailer sharing daily point-of-sale data with its supplier is an example of information flowing upstream."
+    ],
+    "questions": [
+      {
+        "stem": "A furniture company is deciding how many sofas to build next quarter based on sales forecasts and available fabric. Which SCOR process does this describe?",
+        "choices": [
+          "Source",
+          "Plan",
+          "Make",
+          "Deliver"
+        ],
+        "answer": 1,
+        "explanation": "Balancing expected demand against available supply is Plan. Make is tempting, but Make covers actually producing the sofas, not deciding how many to produce."
+      },
+      {
+        "stem": "For a coffee shop chain, which partner is furthest upstream?",
+        "choices": [
+          "The coffee bean farm",
+          "The roasting company",
+          "The regional distributor",
+          "The café customer"
+        ],
+        "answer": 0,
+        "explanation": "Raw material producers sit at the start of the chain, so the farm is furthest upstream. The roaster is upstream of the café but downstream of the farm."
+      },
+      {
+        "stem": "A retailer pays its supplier 30 days after receiving an invoice. Which supply chain flow is this?",
+        "choices": [
+          "Product flow",
+          "Information flow",
+          "Financial flow",
+          "Reverse flow"
+        ],
+        "answer": 2,
+        "explanation": "Payments and credit terms are the financial flow. The invoice itself carries information, but the payment is money moving upstream."
+      },
+      {
+        "stem": "Which statement best distinguishes supply chain management from logistics?",
+        "choices": [
+          "Logistics includes supplier selection, but SCM does not",
+          "SCM coordinates the whole network, while logistics focuses on moving and storing goods",
+          "They are identical terms used in different industries",
+          "Logistics deals only with international shipping"
+        ],
+        "answer": 1,
+        "explanation": "SCM is broader and includes sourcing, production and partner relationships. The idea that the terms are identical is the most common misconception."
+      },
+      {
+        "stem": "An online store's warehouse picks, packs and ships customer orders. Which SCOR process covers these tasks?",
+        "choices": [
+          "Make",
+          "Source",
+          "Return",
+          "Deliver"
+        ],
+        "answer": 3,
+        "explanation": "Order fulfillment, warehousing and transportation to customers belong to Deliver. Make is wrong because no product is being produced."
+      },
+      {
+        "stem": "A clothing brand sends weekly sales data to its fabric mill so the mill can plan production. What is the main benefit?",
+        "choices": [
+          "It eliminates the need for a financial flow",
+          "It improves upstream visibility so supply better matches demand",
+          "It moves the mill downstream of the brand",
+          "It replaces the need for forecasts entirely"
+        ],
+        "answer": 1,
+        "explanation": "Sharing demand information upstream helps partners plan. It reduces forecast error but does not eliminate forecasting altogether."
+      },
+      {
+        "stem": "A toy company signs contracts and evaluates bids from three plastic suppliers. Which SCOR process is this?",
+        "choices": [
+          "Source",
+          "Plan",
+          "Enable",
+          "Deliver"
+        ],
+        "answer": 0,
+        "explanation": "Selecting and buying from suppliers is Source. Enable involves managing supporting rules and data, not the purchasing activity itself."
+      },
+      {
+        "stem": "A hurricane shuts down a port that supplies a car plant with parts. Which supply chain goal is most directly being tested?",
+        "choices": [
+          "Resilience",
+          "Product differentiation",
+          "Brand awareness",
+          "Pricing strategy"
+        ],
+        "answer": 0,
+        "explanation": "The ability to withstand and recover from disruptions is resilience. Pricing strategy is a marketing decision and does not address the interrupted parts supply."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Supply chain management",
+        "definition": "Coordinating the network of suppliers, producers, distributors and retailers so products reach customers efficiently and at the lowest total cost."
+      },
+      {
+        "term": "Upstream",
+        "definition": "Partners and activities closer to raw materials and suppliers."
+      },
+      {
+        "term": "Downstream",
+        "definition": "Partners and activities closer to the end customer."
+      },
+      {
+        "term": "Information flow",
+        "definition": "The two-way movement of orders, forecasts, inventory data and tracking among supply chain partners."
+      },
+      {
+        "term": "SCOR model",
+        "definition": "A framework from ASCM that classifies supply chain work into processes such as Plan, Source, Make, Deliver, Return and Enable."
+      }
+    ]
+  }
+]

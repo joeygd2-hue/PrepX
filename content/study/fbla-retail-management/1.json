@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Retail fundamentals, formats and the retail mix",
+    "objective": "Identify major retail formats, explain the elements of the retail mix, and classify how retailers create value in the distribution channel.",
+    "body": "**Retailing** is the set of business activities that sell goods and services to final consumers for personal, family or household use. A retailer is the last link in the **channel of distribution**, which runs from producer to wholesaler to retailer to consumer. Retailers add value by breaking bulk (buying in large quantities and selling single units), holding inventory close to customers, offering an assortment, and providing services such as returns, credit and advice.\n\n**Retail formats.** Retailers differ by what they carry, how they price and how they serve shoppers.\n- **Department stores** offer broad assortments organized into departments with moderate to high service.\n- **Specialty stores** carry a narrow product line with deep assortment, such as running shoes only.\n- **Discount stores** and **warehouse clubs** compete on low prices, with clubs charging a membership fee and selling in bulk.\n- **Convenience stores** trade higher prices for location and long hours.\n- **Category killers** dominate one category with huge assortment and low prices.\n- **Nonstore retailing** includes e-commerce, catalogs, vending and direct selling.\n\nMany retailers now practice **omnichannel retailing**, giving customers one connected experience across stores, websites, apps and social media, such as buying online and picking up in store.\n\n**Breadth and depth.** Assortment has two dimensions. **Breadth** (or width) is the number of different product lines carried. **Depth** is the number of choices within a line, such as sizes, colors and brands. A specialty store is typically narrow and deep; a convenience store is broad and shallow.\n\n**The retail mix.** Managers combine controllable decisions into a **retail mix** that fits a chosen **target market**:\n1. Merchandise assortment\n2. Pricing\n3. Location\n4. Store design and visual merchandising\n5. Customer service\n6. Promotion and communication\n\nEvery element should send the same message. A luxury boutique with premium prices, attentive staff and an upscale location is consistent; the same boutique with cluttered fixtures and constant clearance signs confuses its positioning.\n\n**Positioning** is the image a retailer wants to hold in customers' minds relative to competitors. Retailers usually win on low price, wide selection, convenience, or superior service, and trying to be best at all four at once rarely works because each costs money.\n\nThe most common mistake students make is mixing up breadth and depth: more product lines means greater breadth, while more options inside a single line means greater depth.",
+    "examples": [
+      "A store selling only board games but stocking 600 titles has a narrow but deep assortment, the profile of a specialty store.",
+      "A shopper orders a jacket in an app, picks it up at the store the same afternoon and returns a different item at the counter, an example of omnichannel retailing."
+    ],
+    "questions": [
+      {
+        "stem": "A shop sells only tea, offering 300 varieties from 20 countries. How would you describe its assortment?",
+        "choices": [
+          "Broad and shallow",
+          "Narrow and deep",
+          "Broad and deep",
+          "Narrow and shallow"
+        ],
+        "answer": 1,
+        "explanation": "One product line with many choices is narrow and deep. Broad and deep is wrong because the store carries only one line."
+      },
+      {
+        "stem": "Which function does a retailer perform when it buys cases of soap and sells single bars?",
+        "choices": [
+          "Breaking bulk",
+          "Positioning",
+          "Vertical integration",
+          "Markdown pricing"
+        ],
+        "answer": 0,
+        "explanation": "Breaking bulk means dividing large quantities into consumer-size units. Positioning concerns image, not quantities."
+      },
+      {
+        "stem": "A retailer charges an annual fee and sells large packages at low unit prices. Which format is it?",
+        "choices": [
+          "Department store",
+          "Convenience store",
+          "Warehouse club",
+          "Specialty store"
+        ],
+        "answer": 2,
+        "explanation": "Membership fees and bulk packs define warehouse clubs. Discount-oriented department stores do not usually require membership."
+      },
+      {
+        "stem": "A customer buys online, picks up in store and gets loyalty points in the app. This best illustrates:",
+        "choices": [
+          "Direct selling",
+          "Breaking bulk",
+          "Category management",
+          "Omnichannel retailing"
+        ],
+        "answer": 3,
+        "explanation": "Connecting channels into one experience is omnichannel retailing. Direct selling is person-to-person selling outside stores."
+      },
+      {
+        "stem": "Which is NOT one of the controllable elements of the retail mix?",
+        "choices": [
+          "Store location",
+          "Customer service level",
+          "The national inflation rate",
+          "Merchandise assortment"
+        ],
+        "answer": 2,
+        "explanation": "Inflation is an external, uncontrollable factor. Location is a classic retail mix decision even though it is long-term."
+      },
+      {
+        "stem": "A gas-station market charges more for milk than a supermarket yet sells plenty. Why do customers accept the price?",
+        "choices": [
+          "They value convenient location and hours",
+          "The milk is a higher grade",
+          "Supermarkets refuse to sell milk",
+          "The store breaks bulk more"
+        ],
+        "answer": 0,
+        "explanation": "Convenience stores trade price for time and place utility. Product quality is usually identical, so the grade explanation fails."
+      },
+      {
+        "stem": "An upscale jeweler with elegant displays starts filling windows with bright 'Everything Must Go' signs. What problem does this create?",
+        "choices": [
+          "It increases assortment depth",
+          "It improves positioning clarity",
+          "It makes the retail mix inconsistent",
+          "It converts the store to nonstore retailing"
+        ],
+        "answer": 2,
+        "explanation": "Clearance signs conflict with the premium image set by other mix elements. It does not change assortment depth at all."
+      },
+      {
+        "stem": "A huge store carries nearly every toy brand at low prices and drives small toy shops out of the area. It is best called a:",
+        "choices": [
+          "Convenience store",
+          "Category killer",
+          "Boutique",
+          "Vending operation"
+        ],
+        "answer": 1,
+        "explanation": "A category killer dominates one category with vast selection and low prices. A boutique is small and usually higher-priced."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Retailing",
+        "definition": "Business activities that sell goods and services to final consumers for personal or household use."
+      },
+      {
+        "term": "Breadth",
+        "definition": "The number of different product lines a retailer carries."
+      },
+      {
+        "term": "Depth",
+        "definition": "The number of choices offered within a single product line."
+      },
+      {
+        "term": "Retail mix",
+        "definition": "The combination of assortment, price, location, store design, service and promotion aimed at a target market."
+      },
+      {
+        "term": "Omnichannel retailing",
+        "definition": "Providing one connected customer experience across stores, websites, apps and other channels."
+      }
+    ]
+  }
+]

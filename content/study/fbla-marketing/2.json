@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Segmentation, targeting, positioning, and the buying process",
+    "objective": "Segment a market using the four common bases, select a targeting strategy, write a positioning statement, and trace consumers through the buying decision process.",
+    "body": "No product can be all things to all people, so marketers divide broad markets into smaller groups and decide which ones to serve. This sequence is often called **STP**: segmentation, targeting, positioning.\n\n**Segmentation.** **Market segmentation** splits a market into groups with similar characteristics or needs. Four bases appear constantly:\n- **Demographic**: age, gender, income, education, family size, occupation.\n- **Geographic**: region, climate, city size, urban versus rural.\n- **Psychographic**: lifestyle, values, attitudes, personality, interests.\n- **Behavioral**: usage rate, brand loyalty, benefits sought, occasion of purchase.\n\nA useful segment must be measurable, large enough to be profitable, reachable, and responsive to a distinct marketing mix. Grouping customers by favorite color is rarely useful because it seldom changes what they buy.\n\n**Targeting.** After evaluating segments, a firm chooses a strategy. **Undifferentiated (mass) marketing** uses one mix for everyone, as with basic table salt. **Differentiated marketing** creates separate mixes for several segments, such as an automaker selling economy, family, and luxury models. **Concentrated (niche) marketing** focuses all resources on one segment, common for small firms. **Micromarketing** tailors offers to individuals or local areas.\n\n**Positioning.** **Positioning** is the place a brand occupies in customers' minds relative to competitors. Marketers often build a **perceptual map** that plots brands on two attributes, such as price and quality, to find open spaces. A positioning statement typically names the target, the category, the key benefit or **point of difference**, and the reason to believe it. Strong positioning rests on a **competitive advantage** that is meaningful to buyers and hard to copy.\n\n**The consumer decision process.** Most purchases move through five stages:\n1. Problem (need) recognition\n2. Information search\n3. Evaluation of alternatives\n4. Purchase decision\n5. Post-purchase behavior\n\nInvolvement shapes how long this takes. Routine purchases like toothpaste skip quickly through the stages, while extensive decisions like choosing a college take weeks. After purchase, buyers may feel **cognitive dissonance**, doubt about whether they chose well. Follow-up emails, warranties, and easy returns reduce it and build loyalty.\n\n**Business buyers.** Organizational buying usually involves several people (a buying center), larger quantities, formal specifications, and derived demand, meaning business demand depends on consumer demand for the final product.\n\nThe most common mistake students make is confusing psychographic and behavioral segmentation. If the grouping is about who people are inside (values, lifestyle), it is psychographic; if it is about how they act toward the product (usage rate, loyalty, benefits sought), it is behavioral.",
+    "examples": [
+      "A gym that offers separate membership plans for college students, busy parents, and retirees is using differentiated targeting.",
+      "A coffee chain that groups customers into heavy, medium, and light users based on visits per week is using behavioral segmentation.",
+      "An electronics retailer that emails setup tips the day after a laptop purchase is reducing cognitive dissonance."
+    ],
+    "questions": [
+      {
+        "stem": "An outdoor gear company targets customers who value adventure, sustainability, and spending weekends hiking. Which segmentation base is it using?",
+        "choices": [
+          "Demographic",
+          "Geographic",
+          "Behavioral",
+          "Psychographic"
+        ],
+        "answer": 3,
+        "explanation": "Values and lifestyle are psychographic. Behavioral is the main distractor, but it would focus on actions toward the product such as usage rate or loyalty."
+      },
+      {
+        "stem": "A small startup sells only gluten-free baking mixes to people with celiac disease. Which targeting strategy is this?",
+        "choices": [
+          "Concentrated marketing",
+          "Undifferentiated marketing",
+          "Differentiated marketing",
+          "Mass customization"
+        ],
+        "answer": 0,
+        "explanation": "Focusing all resources on one segment is concentrated (niche) marketing. Differentiated marketing would require separate mixes for several segments."
+      },
+      {
+        "stem": "After buying an expensive TV, Jordan worries he should have chosen a different brand. A retailer could best reduce this feeling by:",
+        "choices": [
+          "Raising the TV's price",
+          "Sending a follow-up message highlighting the TV's award-winning features",
+          "Launching a new TV model next week",
+          "Ending its return policy"
+        ],
+        "answer": 1,
+        "explanation": "Reassurance after the sale reduces cognitive dissonance in the post-purchase stage. Ending returns would increase anxiety, not reduce it."
+      },
+      {
+        "stem": "A marketer plots competing snack brands on a chart with 'healthiness' on one axis and 'price' on the other to find an unserved space. This tool is a:",
+        "choices": [
+          "Sales forecast",
+          "SWOT analysis",
+          "Perceptual map",
+          "Product life cycle chart"
+        ],
+        "answer": 2,
+        "explanation": "A perceptual map shows brand positions on attributes customers care about. A SWOT analysis reviews internal and external factors, not brand positions in customers' minds."
+      },
+      {
+        "stem": "Demand for steel by an appliance maker rises because consumers are buying more refrigerators. This illustrates:",
+        "choices": [
+          "Derived demand",
+          "Elastic demand",
+          "Primary demand",
+          "Cognitive dissonance"
+        ],
+        "answer": 0,
+        "explanation": "Business demand that depends on consumer demand for end products is derived demand. Elastic demand describes price sensitivity, which is not discussed here."
+      },
+      {
+        "stem": "A shopper notices her running shoes are worn out. Which stage of the decision process has she just entered?",
+        "choices": [
+          "Information search",
+          "Evaluation of alternatives",
+          "Post-purchase behavior",
+          "Problem recognition"
+        ],
+        "answer": 3,
+        "explanation": "Realizing a gap between current and desired state is problem recognition. Information search comes next, once she starts looking for options."
+      },
+      {
+        "stem": "Which proposed segment is LEAST useful to a car insurance company?",
+        "choices": [
+          "Drivers under 25",
+          "Drivers with accident-free records",
+          "Drivers whose favorite season is autumn",
+          "Drivers in areas with frequent hailstorms"
+        ],
+        "answer": 2,
+        "explanation": "A favorite season does not change insurance needs or response to the marketing mix, so the segment is not actionable. Hailstorm regions are geographic and clearly affect risk."
+      },
+      {
+        "stem": "A toothpaste brand's message is: 'For busy families, our toothpaste is the only one with a two-minute flavor timer, proven to help kids brush longer.' The flavor timer is the brand's:",
+        "choices": [
+          "Target market",
+          "Point of difference",
+          "Distribution channel",
+          "Price strategy"
+        ],
+        "answer": 1,
+        "explanation": "The unique feature that separates the brand from competitors is its point of difference. 'Busy families' is the target market, the main distractor."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Market segmentation",
+        "definition": "Dividing a broad market into groups of buyers with similar characteristics or needs."
+      },
+      {
+        "term": "Psychographic segmentation",
+        "definition": "Grouping customers by lifestyle, values, attitudes, interests, or personality."
+      },
+      {
+        "term": "Positioning",
+        "definition": "The place a brand occupies in customers' minds relative to competing brands."
+      },
+      {
+        "term": "Cognitive dissonance",
+        "definition": "Post-purchase doubt about whether a buying decision was correct."
+      },
+      {
+        "term": "Derived demand",
+        "definition": "Business demand that depends on consumer demand for the final product."
+      }
+    ]
+  }
+]

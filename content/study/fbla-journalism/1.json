@@ -1,0 +1,124 @@
+[
+  {
+    "title": "News values, the inverted pyramid and strong leads",
+    "objective": "Identify news values, structure a story in inverted-pyramid order, and write a concise summary lead that answers the most important of the five W's and H.",
+    "body": "Journalism starts with a judgment call: is this news, and what part of it matters most? Reporters answer that question with a shared set of **news values**, then organize the story so readers get the essentials first.\n\n**News values.** Editors weigh several factors when deciding what to cover and how prominently to play it:\n- **Timeliness**: it happened recently or is about to happen.\n- **Proximity**: it is close to the audience, geographically or emotionally.\n- **Impact**: it affects many people or affects some people deeply.\n- **Prominence**: it involves well-known people or institutions.\n- **Conflict** and **novelty**: disagreement, competition, or something unusual.\n- **Human interest**: it stirs emotion or curiosity.\nA story with several values, such as a schedule change that affects every student next week, usually leads the publication.\n\n**The inverted pyramid.** Hard news is written in **inverted pyramid** form: the most important information comes first, followed by supporting details in descending order of importance. This structure lets busy readers stop at any point and still know the key facts, and it lets editors trim from the bottom without losing anything vital. Feature stories often use other structures, but straight news almost always starts with the pyramid.\n\n**The lead.** The first sentence or paragraph is the **lead** (sometimes spelled lede). A **summary lead** packs in the most newsworthy of the five W's and H: who, what, when, where, why and how. Strong summary leads follow a few habits:\n1. Keep it short, usually 25 to 35 words.\n2. Start with the most important element, which is rarely the date or time.\n3. Use active voice and a strong, specific verb.\n4. Leave secondary details, such as full titles or room numbers, for later paragraphs.\n\nAfter the lead comes the **nut graf** in longer stories, a paragraph that explains why the story matters now. Supporting paragraphs then add quotes, background and context. Each paragraph in news style is short, often one to three sentences, so it reads easily in narrow columns and on phones.\n\n**Attribution and objectivity.** Facts that are not common knowledge need **attribution**, a statement of who provided the information, such as \"according to the principal.\" Straight news keeps the reporter's opinions out; words like \"amazing\" or \"unfortunately\" belong in columns and editorials, not news stories.\n\nThe most common mistake students make is burying the lead: opening with background, a date or a dull fact (\"On Tuesday, the school board met\") instead of the news itself (\"The school board voted Tuesday to start classes 30 minutes later next fall\"). Always ask what changed and who is affected, and put that first.",
+    "examples": [
+      "Weak lead: \"On Monday there was a meeting of the student council.\" Strong lead: \"The student council voted Monday to cancel the spring dance after ticket sales fell short by $2,000.\"",
+      "A story about a fire drill gets low play, but a story about a new attendance policy affecting all 1,400 students scores high on impact, proximity and timeliness and leads the front page.",
+      "An editor short on space cuts the last two paragraphs of an inverted-pyramid story, and readers still get every essential fact."
+    ],
+    "questions": [
+      {
+        "stem": "A reporter's story begins: \"The weather was sunny last Friday when students gathered in the gym.\" The news is that the gym will close for six months of repairs. What is the main problem?",
+        "choices": [
+          "The lead buries the news under scene-setting details",
+          "The story lacks a headline",
+          "The lead uses too many quotations",
+          "The story is written in past tense"
+        ],
+        "answer": 0,
+        "explanation": "The lead should open with the most important fact, the six-month closure. Past tense is normal for news, so that is not the problem."
+      },
+      {
+        "stem": "Which news value is strongest in a story about a cafeteria price increase that affects every student next week?",
+        "choices": [
+          "Prominence",
+          "Novelty",
+          "Impact",
+          "Conflict"
+        ],
+        "answer": 2,
+        "explanation": "A change affecting every student is about impact (and timeliness). Prominence would require a well-known person or institution at the center."
+      },
+      {
+        "stem": "Why does the inverted pyramid let editors cut a story quickly?",
+        "choices": [
+          "Quotes are always placed at the top",
+          "The least important information sits at the end",
+          "Every paragraph is the same length",
+          "The conclusion summarizes the whole story"
+        ],
+        "answer": 1,
+        "explanation": "Information is ordered from most to least important, so trimming from the bottom loses the least. News stories do not rely on a summary conclusion."
+      },
+      {
+        "stem": "A student writes: \"The amazing robotics team won the regional title Saturday.\" What should an editor change for a straight news story?",
+        "choices": [
+          "Add the date at the beginning",
+          "Change the verb to passive voice",
+          "Move the sentence to the last paragraph",
+          "Remove the opinion word \"amazing\""
+        ],
+        "answer": 3,
+        "explanation": "Straight news avoids the reporter's opinion, so \"amazing\" goes. Opening with the date would weaken, not fix, the lead."
+      },
+      {
+        "stem": "Which lead best follows summary-lead guidelines?",
+        "choices": [
+          "\"Principal Dana Ortiz announced Thursday that final exams will move online after a water main break flooded the testing center.\"",
+          "\"On Thursday, at 2:15 p.m., in Room 114, an announcement was made by the principal.\"",
+          "\"Have you ever wondered what happens when water floods a building?\"",
+          "\"Final exams. Online. Flooding. Here is what you need to know.\""
+        ],
+        "answer": 0,
+        "explanation": "It is concise, active and opens with who and what. The second option opens with time and place and uses passive voice."
+      },
+      {
+        "stem": "A story says the district will spend $3 million on new buses, but no source is named. What is missing?",
+        "choices": [
+          "A nut graf",
+          "Attribution",
+          "A kicker",
+          "A byline"
+        ],
+        "answer": 1,
+        "explanation": "A specific figure that is not common knowledge needs attribution so readers know who provided it. A byline names the writer, not the source."
+      },
+      {
+        "stem": "In a longer news story, what is the job of the nut graf?",
+        "choices": [
+          "To list every source interviewed",
+          "To give the reporter's opinion",
+          "To explain why the story matters now",
+          "To end the story with a memorable quote"
+        ],
+        "answer": 2,
+        "explanation": "The nut graf states the significance and context of the story. Ending with a memorable quote describes a kicker."
+      },
+      {
+        "stem": "A reporter covers a famous alumna's surprise visit to campus. Which pair of news values most clearly applies?",
+        "choices": [
+          "Impact and conflict",
+          "Proximity and conflict",
+          "Timeliness and impact",
+          "Prominence and novelty"
+        ],
+        "answer": 3,
+        "explanation": "A famous person creates prominence, and a surprise visit is unusual. Conflict does not apply because there is no dispute."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Inverted pyramid",
+        "definition": "News structure that places the most important information first and the least important last."
+      },
+      {
+        "term": "Summary lead",
+        "definition": "An opening sentence that gives the most newsworthy of the five W's and H in about 25 to 35 words."
+      },
+      {
+        "term": "News values",
+        "definition": "Criteria such as timeliness, proximity, impact, prominence, conflict, novelty and human interest used to judge newsworthiness."
+      },
+      {
+        "term": "Nut graf",
+        "definition": "A paragraph in a longer story that explains why the news matters now."
+      },
+      {
+        "term": "Attribution",
+        "definition": "Identifying the source of information that is not common knowledge."
+      }
+    ]
+  }
+]

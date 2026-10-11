@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Transformational leadership, ethics, and leading organizational change",
+    "objective": "Evaluate transformational, transactional, servant and authentic leadership, analyze ethical decisions, and apply Kotter's and Lewin's change models to organizational scenarios.",
+    "body": "Advanced questions ask you to judge which leadership approach fits a complex situation and how leaders guide whole organizations through change while staying ethical.\n\n**Transactional versus transformational leadership.** **Transactional leadership** is an exchange: followers meet expectations and receive rewards, and leaders correct deviations through management by exception. **Transformational leadership**, described by James MacGregor Burns and expanded by Bernard Bass, raises followers' commitment beyond self-interest. Bass identified four components, often called the four I's:\n- **Idealized influence**: acting as a trusted role model.\n- **Inspirational motivation**: communicating a compelling vision.\n- **Intellectual stimulation**: encouraging people to question assumptions and innovate.\n- **Individualized consideration**: coaching each person according to his or her needs.\n\nThe two are not opposites; the best leaders use transactional tools for routine work and transformational behavior to drive commitment.\n\n**Other modern approaches.** **Servant leadership** (Robert Greenleaf) puts followers' growth and wellbeing first, trusting that results follow. **Authentic leadership** emphasizes self-awareness, transparency and consistency between values and actions. **Emotional intelligence**, popularized by Daniel Goleman, includes self-awareness, self-regulation, motivation, empathy and social skill, and strongly predicts leadership effectiveness.\n\n**Ethical leadership.** Leaders shape culture by what they reward and tolerate. A practical test for an ethical dilemma asks: Is it legal? Does it follow company policy and the code of ethics? Would I be comfortable if it appeared in the news? Who is harmed? Leaders should also protect **whistleblowers** who report misconduct in good faith and avoid **conflicts of interest**, where personal gain could influence a decision. **Groupthink**, in which a cohesive group suppresses dissent to preserve harmony, is a major ethical and decision-making risk; leaders counter it by inviting critics or assigning a devil's advocate.\n\n**Leading change.** Kurt Lewin's model has three steps: **unfreeze** (create readiness by showing why the status quo must change), **change** (implement the new behaviors) and **refreeze** (lock them in through policies, training and rewards). John Kotter's eight-step model expands this: create urgency, build a guiding coalition, form a strategic vision, communicate it, remove barriers, generate short-term wins, sustain acceleration and anchor changes in the culture. Resistance often stems from fear of loss, uncertainty or mistrust, so leaders reduce it through communication, participation and support.\n\nThe most common mistake students make is skipping the first step of change. Leaders often announce a new system before employees understand why it is needed. Without urgency, or unfreezing, people see no reason to give up familiar routines, and the change stalls no matter how good the plan is.",
+    "examples": [
+      "A CEO shares a vivid vision of becoming the region's most sustainable grocer, mentors each manager personally and challenges teams to redesign packaging, displaying all four transformational components.",
+      "A hospital explains rising error rates to staff before introducing new software, trains everyone on it, then updates job procedures and rewards, following Lewin's unfreeze-change-refreeze sequence."
+    ],
+    "questions": [
+      {
+        "stem": "A supervisor promises a $200 bonus to any employee who meets the monthly quota and steps in only when errors occur. This is best described as:",
+        "choices": [
+          "Transformational leadership",
+          "Transactional leadership",
+          "Servant leadership",
+          "Authentic leadership"
+        ],
+        "answer": 1,
+        "explanation": "Rewards-for-performance exchanges and management by exception define transactional leadership. Transformational leadership would emphasize vision and commitment beyond the reward."
+      },
+      {
+        "stem": "A leader encourages her team to challenge long-standing procedures and propose creative alternatives. Which component of transformational leadership is this?",
+        "choices": [
+          "Idealized influence",
+          "Inspirational motivation",
+          "Individualized consideration",
+          "Intellectual stimulation"
+        ],
+        "answer": 3,
+        "explanation": "Questioning assumptions and innovating is intellectual stimulation. Inspirational motivation focuses on communicating a vision rather than challenging methods."
+      },
+      {
+        "stem": "A company announces a new scheduling system with no explanation, and employees ignore it. According to Lewin, which step was skipped?",
+        "choices": [
+          "Unfreezing",
+          "Changing",
+          "Refreezing",
+          "Anchoring"
+        ],
+        "answer": 0,
+        "explanation": "Unfreezing creates readiness by explaining why change is needed. Refreezing happens after the change is implemented, so it is not the first gap here."
+      },
+      {
+        "stem": "A board approves a risky merger after every member agrees quickly and no one voices the concerns several privately held. This illustrates:",
+        "choices": [
+          "Servant leadership",
+          "Groupthink",
+          "Collaborating",
+          "Individualized consideration"
+        ],
+        "answer": 1,
+        "explanation": "Suppressing dissent to keep harmony is groupthink. Collaborating would require openly working through the disagreements."
+      },
+      {
+        "stem": "A manager is asked to choose a vendor, and her brother-in-law owns one of the bidding companies. What is the most ethical action?",
+        "choices": [
+          "Choose her brother-in-law's firm if its price is reasonable",
+          "Disclose the relationship and remove herself from the decision",
+          "Keep quiet because she will be objective",
+          "Reject the firm without telling anyone why"
+        ],
+        "answer": 1,
+        "explanation": "Disclosure and recusal properly handle a conflict of interest. Staying quiet hides the conflict even if she believes she is objective."
+      },
+      {
+        "stem": "A leader's top priority is developing her employees and meeting their needs, believing strong performance will follow. This reflects:",
+        "choices": [
+          "Transactional leadership",
+          "Autocratic leadership",
+          "Servant leadership",
+          "Management by exception"
+        ],
+        "answer": 2,
+        "explanation": "Putting followers' growth first is servant leadership. Transactional leadership focuses on exchanging rewards for performance instead."
+      },
+      {
+        "stem": "Midway through a long software rollout, a leader publicizes that one department has already cut processing time by 30%. Which Kotter step is this?",
+        "choices": [
+          "Creating urgency",
+          "Building a guiding coalition",
+          "Generating short-term wins",
+          "Anchoring changes in the culture"
+        ],
+        "answer": 2,
+        "explanation": "Publicizing early successes builds momentum, which is the short-term wins step. Anchoring comes at the end, once the change is embedded."
+      },
+      {
+        "stem": "A manager notices she becomes curt when stressed, so she pauses before responding to tense emails. Which emotional-intelligence component is she using?",
+        "choices": [
+          "Empathy",
+          "Self-regulation",
+          "Social skill",
+          "Motivation"
+        ],
+        "answer": 1,
+        "explanation": "Controlling one's own reactions is self-regulation. Empathy concerns understanding others' feelings, not managing her own."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Transformational leadership",
+        "definition": "Leadership that inspires followers beyond self-interest through idealized influence, inspirational motivation, intellectual stimulation and individualized consideration."
+      },
+      {
+        "term": "Transactional leadership",
+        "definition": "Leadership based on exchanging rewards for performance and correcting deviations through management by exception."
+      },
+      {
+        "term": "Groupthink",
+        "definition": "When a cohesive group suppresses dissent to preserve harmony, leading to poor decisions."
+      },
+      {
+        "term": "Unfreeze",
+        "definition": "The first step of Lewin's change model, creating readiness by showing why the status quo must change."
+      },
+      {
+        "term": "Servant leadership",
+        "definition": "Greenleaf's approach that puts followers' growth and wellbeing first."
+      }
+    ]
+  }
+]

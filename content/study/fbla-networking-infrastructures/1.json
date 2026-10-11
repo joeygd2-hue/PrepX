@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Network models, devices and addressing fundamentals",
+    "objective": "Identify the OSI and TCP/IP layers, match common devices and protocols to the layer where they operate, and interpret IPv4 addresses and subnet masks.",
+    "body": "Almost every networking question starts with one decision: at which layer does this device, protocol or problem live? Once you can place something in the right layer, troubleshooting and design questions become far easier.\n\n**The OSI model.** The **OSI model** divides communication into seven layers. From bottom to top they are:\n1. Physical: cables, connectors, signals and bits.\n2. Data Link: frames and **MAC addresses**, the 48-bit hardware addresses burned into network interfaces.\n3. Network: packets and logical **IP addresses**; routing happens here.\n4. Transport: segments, ports and reliability (TCP and UDP).\n5. Session: setting up and tearing down conversations.\n6. Presentation: formatting, encoding and encryption.\n7. Application: services users touch, such as HTTP, DNS and SMTP.\n\nThe **TCP/IP model** compresses these into four layers: Network Access (Link), Internet, Transport and Application. Exam questions often ask you to translate between the two models.\n\n**Devices by layer.** A **switch** forwards frames inside a local network by reading destination MAC addresses, so it is a Layer 2 device. A **router** connects different networks and forwards packets by IP address, so it works at Layer 3. Older hubs simply repeat signals out every port at Layer 1, which wastes bandwidth and creates collisions. A wireless access point bridges wireless clients onto the wired LAN.\n\n**TCP versus UDP.** TCP is connection-oriented: it uses a three-way handshake (SYN, SYN-ACK, ACK), numbers segments and retransmits lost data. UDP sends datagrams without setup or guarantees, which makes it faster and better for live voice, video and DNS lookups. Well-known **ports** identify services: 80 for HTTP, 443 for HTTPS, 53 for DNS, 22 for SSH, 25 for SMTP.\n\n**IPv4 addressing.** An IPv4 address is 32 bits written as four octets, such as 192.168.10.25. The **subnet mask** (for example 255.255.255.0, or /24 in CIDR notation) marks which bits identify the network and which identify the host. Two hosts can talk directly only if they share the same network portion; otherwise traffic goes to the **default gateway**, the router interface on the local subnet. Private ranges (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) are not routed on the internet and rely on NAT to reach it. IPv6 uses 128-bit addresses written in hexadecimal to solve IPv4 exhaustion.\n\nThe most common mistake students make is mixing up MAC and IP addresses: MAC addresses are used for delivery within one local segment, while IP addresses identify the destination end to end across routers.",
+    "examples": [
+      "A student's laptop at 192.168.1.40/24 can reach a printer at 192.168.1.90 directly, but traffic to a website goes to the default gateway at 192.168.1.1.",
+      "A school replaces an old hub with a switch; collisions disappear because the switch sends each frame only to the port where the destination MAC address lives.",
+      "A video call app uses UDP because a late retransmitted audio packet is useless, while a file download uses TCP so no bytes are lost."
+    ],
+    "questions": [
+      {
+        "stem": "A technician needs a device that will connect the school's LAN to the district's separate network and choose paths based on IP addresses. Which device fits?",
+        "choices": [
+          "Unmanaged switch",
+          "Router",
+          "Hub",
+          "Wireless repeater"
+        ],
+        "answer": 1,
+        "explanation": "Routers forward packets between different networks using Layer 3 IP addresses. A switch forwards frames within one LAN using MAC addresses, so it cannot route between networks."
+      },
+      {
+        "stem": "At which OSI layer would you troubleshoot a damaged Ethernet cable with a bent connector pin?",
+        "choices": [
+          "Data Link",
+          "Network",
+          "Physical",
+          "Transport"
+        ],
+        "answer": 2,
+        "explanation": "Cables, connectors and electrical signals belong to the Physical layer. The Data Link layer handles framing and MAC addressing, not the physical medium itself."
+      },
+      {
+        "stem": "A host has IP 10.4.7.20 with mask 255.255.255.0. Which address is on the same subnet?",
+        "choices": [
+          "10.4.8.20",
+          "10.5.7.20",
+          "10.4.7.200",
+          "10.40.7.20"
+        ],
+        "answer": 2,
+        "explanation": "A /24 mask means the first three octets (10.4.7) are the network, so 10.4.7.200 matches. 10.4.8.20 differs in the third octet and is on a different subnet."
+      },
+      {
+        "stem": "A streaming radio station wants the lowest delay and can tolerate a few lost packets. Which transport protocol should it use?",
+        "choices": [
+          "UDP",
+          "TCP",
+          "ARP",
+          "ICMP"
+        ],
+        "answer": 0,
+        "explanation": "UDP has no handshake or retransmission, so it minimizes delay for real-time media. TCP guarantees delivery but its retransmissions add latency that hurts live audio."
+      },
+      {
+        "stem": "A firewall rule blocks TCP port 443. Which user complaint is most likely?",
+        "choices": [
+          "Secure websites will not load",
+          "Email cannot be sent by SMTP",
+          "Remote SSH sessions fail",
+          "Domain names stop resolving"
+        ],
+        "answer": 0,
+        "explanation": "Port 443 carries HTTPS traffic, so secure websites fail. DNS uses port 53, so name resolution would be unaffected by this rule."
+      },
+      {
+        "stem": "Which TCP/IP model layer corresponds to the OSI Network layer?",
+        "choices": [
+          "Application",
+          "Transport",
+          "Internet",
+          "Network Access"
+        ],
+        "answer": 2,
+        "explanation": "The TCP/IP Internet layer handles IP addressing and routing, matching OSI Layer 3. Network Access matches OSI Layers 1 and 2, not routing."
+      },
+      {
+        "stem": "A laptop shows IP 192.168.5.14/24 but its default gateway is set to 192.168.6.1. What will happen?",
+        "choices": [
+          "It can reach only the internet",
+          "It can reach local hosts but not remote networks",
+          "It cannot reach any device",
+          "It will automatically correct the gateway"
+        ],
+        "answer": 1,
+        "explanation": "Local hosts on 192.168.5.0/24 are reached directly, but the gateway is not on the local subnet, so remote traffic has nowhere to go. It is not a total failure because local delivery does not use the gateway."
+      },
+      {
+        "stem": "Which address type is assigned to a network interface by the manufacturer and used to deliver frames on a local segment?",
+        "choices": [
+          "IPv4 address",
+          "MAC address",
+          "Port number",
+          "Default gateway"
+        ],
+        "answer": 1,
+        "explanation": "MAC addresses are 48-bit hardware identifiers used at Layer 2 for local frame delivery. IPv4 addresses are logical, Layer 3, and used end to end across routers."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "OSI model",
+        "definition": "A seven-layer reference model describing network communication from Physical to Application."
+      },
+      {
+        "term": "MAC address",
+        "definition": "A 48-bit hardware address used at the Data Link layer to deliver frames within a local network."
+      },
+      {
+        "term": "Subnet mask",
+        "definition": "A value that separates the network portion of an IP address from the host portion, such as 255.255.255.0 or /24."
+      },
+      {
+        "term": "Default gateway",
+        "definition": "The router interface on the local subnet that hosts send traffic to when the destination is on another network."
+      },
+      {
+        "term": "Router",
+        "definition": "A Layer 3 device that forwards packets between different networks based on IP addresses."
+      }
+    ]
+  }
+]

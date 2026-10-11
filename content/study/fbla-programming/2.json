@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Functions, arrays, and debugging working programs",
+    "objective": "Design reusable functions with parameters and return values, process arrays and lists, and debug syntax, runtime, and logic errors.",
+    "body": "Once you can write individual statements, the next step is organizing them into programs that are reusable, readable, and correct. Functions and collections do the organizing; debugging keeps the result correct.\n\n**Functions.** A **function** is a named block of code that performs one task and can be called many times. Data goes in through **parameters**, the variables listed in the function definition, and the actual values passed during a call are called **arguments**. A function sends a result back with a **return value**. Printing and returning are different: print shows text to the user, while return hands a value back to the calling code so it can be stored or used in another calculation. Variables created inside a function have **local scope**, meaning they exist only while that function runs and cannot be read from outside it.\n\nGood functions follow a simple rule: one function, one job. A function named calculateTax should calculate tax, not also format a receipt. Small functions are easier to test, reuse, and explain in a presentation to judges.\n\n**Arrays and lists.** An **array** (called a list in Python) stores many values under one name, each reached by an **index**. Indexes usually start at 0, so the last element of a list with n items is at index n - 1. Asking for an index that does not exist causes an index-out-of-range error. Common patterns include:\n- **Accumulating**: loop through the list and add each value to a running total.\n- **Finding a maximum**: start with the first element, then replace it whenever a larger one appears.\n- **Filtering**: build a new list containing only items that meet a condition.\n\n**Types of errors.** Debugging starts by naming the kind of error.\n1. A **syntax error** breaks the language's grammar, such as a missing parenthesis, and stops the program before it runs.\n2. A **runtime error** occurs while the program runs, such as dividing by zero or reading a missing file.\n3. A **logic error** lets the program run but produce wrong output, such as using + where - was needed.\n\nLogic errors are the hardest because nothing crashes. Find them by testing with inputs whose correct answers you already know, including **edge cases** like an empty list, zero, a negative number, or the largest allowed value. Print statements or a debugger's breakpoints let you watch variable values change step by step.\n\n**Input validation** prevents many runtime errors. If a user types \"ten\" where a number is expected, a well-built program catches the problem and asks again rather than crashing, often using try/except in Python or try/catch in Java.\n\nThe most common mistake students make is confusing print with return: a function that prints its answer but never returns it gives the calling code nothing to store, so a later calculation receives an empty value (None in Python) and fails or gives a wrong result.",
+    "examples": [
+      "A function def average(nums): return sum(nums) / len(nums) works for most lists but raises a runtime error when passed an empty list, an edge case that testing should catch.",
+      "A fundraiser tracker loops through a list of daily sales, keeps a running total, and tracks the highest day by replacing a max variable whenever a larger sale appears.",
+      "Typing `print(\"Total\"` without the closing parenthesis is a syntax error, so the program refuses to run at all."
+    ],
+    "questions": [
+      {
+        "stem": "A function is defined as def area(length, width). It is called with area(4, 6). What are 4 and 6?",
+        "choices": [
+          "Parameters",
+          "Arguments",
+          "Return values",
+          "Local constants"
+        ],
+        "answer": 1,
+        "explanation": "Values supplied in a call are arguments; length and width in the definition are the parameters. Choosing parameters mixes up the definition with the call."
+      },
+      {
+        "stem": "A student's function prints the correct sales tax, but total = price + tax(price) crashes. What is the most likely fix?",
+        "choices": [
+          "Rename the function",
+          "Change the function to return the tax instead of printing it",
+          "Add more parameters",
+          "Move the function below the call"
+        ],
+        "answer": 1,
+        "explanation": "Without a return statement the call produces no value (None in Python), so the addition fails. Renaming the function changes nothing about what it hands back."
+      },
+      {
+        "stem": "A list scores holds 8 items. Which index refers to the last item?",
+        "choices": [
+          "8",
+          "7",
+          "-8",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "Indexes start at 0, so 8 items use indexes 0 through 7. Using 8 is the classic off-by-one mistake and causes an index-out-of-range error."
+      },
+      {
+        "stem": "A gradebook program runs without crashing but reports every class average about 10 points too high. What type of error is this?",
+        "choices": [
+          "Syntax error",
+          "Runtime error",
+          "Logic error",
+          "Compilation error"
+        ],
+        "answer": 2,
+        "explanation": "The program runs but produces wrong results, which defines a logic error. A runtime error would stop or crash the program instead of producing output."
+      },
+      {
+        "stem": "Which test input is the best edge case for a function that finds the largest number in a list?",
+        "choices": [
+          "[3, 8, 5]",
+          "[10, 20, 30]",
+          "An empty list",
+          "[7, 2, 9, 4]"
+        ],
+        "answer": 2,
+        "explanation": "An empty list has no largest value, so it tests whether the function handles a boundary condition instead of crashing. The other lists are ordinary cases that most code already handles."
+      },
+      {
+        "stem": "A variable named subtotal is created inside a function. Code outside the function tries to print subtotal and gets an error. Why?",
+        "choices": [
+          "subtotal has local scope",
+          "subtotal is a reserved word",
+          "print cannot display numbers",
+          "The function was never defined"
+        ],
+        "answer": 0,
+        "explanation": "Variables created inside a function exist only within it (local scope). The name is not a reserved word, so that explanation does not apply."
+      },
+      {
+        "stem": "A user types \"abc\" when a program asks for their age, and the program crashes. What is the best improvement?",
+        "choices": [
+          "Remove the input prompt",
+          "Validate the input and ask again if it is not a number",
+          "Convert the program to use floats",
+          "Increase the size of the variable"
+        ],
+        "answer": 1,
+        "explanation": "Input validation, often with try/except, catches bad input and re-prompts instead of crashing. Switching to floats still fails because \"abc\" is not a number of any kind."
+      },
+      {
+        "stem": "A teammate's 120-line function reads a file, calculates totals, formats a report, and emails it. What is the strongest design improvement?",
+        "choices": [
+          "Add comments to every line",
+          "Split it into smaller functions that each do one job",
+          "Rename it to doEverything",
+          "Convert all variables to global"
+        ],
+        "answer": 1,
+        "explanation": "Breaking the work into single-purpose functions makes each part testable and reusable. Comments help readability but leave one hard-to-test function in place."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Parameter",
+        "definition": "A variable listed in a function definition that receives a value when the function is called."
+      },
+      {
+        "term": "Return value",
+        "definition": "The result a function sends back to the code that called it, which can be stored or used."
+      },
+      {
+        "term": "Local scope",
+        "definition": "The rule that a variable created inside a function exists only while that function runs."
+      },
+      {
+        "term": "Logic error",
+        "definition": "A bug that lets a program run but produces incorrect output."
+      },
+      {
+        "term": "Edge case",
+        "definition": "An unusual or boundary input, such as an empty list or zero, used to test whether code handles extremes."
+      }
+    ]
+  }
+]

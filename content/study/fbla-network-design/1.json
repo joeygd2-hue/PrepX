@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Network models, devices and addressing fundamentals",
+    "objective": "Identify the OSI and TCP/IP layers, match network devices to the layer where they operate, and classify IPv4 and IPv6 addresses correctly.",
+    "body": "Every network design decision rests on a shared vocabulary: how data moves in layers, which device handles which job, and how hosts are addressed. Learn these foundations first and design scenarios become much easier to reason through.\n\n**The OSI model.** The **OSI model** divides communication into seven layers. From bottom to top:\n1. Physical: bits on cables, fiber or radio.\n2. Data Link: frames and **MAC addresses** inside one local network.\n3. Network: packets and **IP addresses** across networks.\n4. Transport: segments, ports, and reliability (TCP) or speed (UDP).\n5. Session, 6. Presentation, 7. Application: conversations, formatting and encryption, and user-facing services like HTTP and DNS.\n\nThe **TCP/IP model** compresses this into four layers: Network Access, Internet, Transport and Application. Exams often ask you to map between the two.\n\n**Devices by layer.** A **switch** forwards frames inside a LAN using a MAC address table, so it is a Layer 2 device. A **router** forwards packets between different networks using a routing table, so it works at Layer 3. A **wireless access point** bridges Wi-Fi clients onto the wired LAN. A **firewall** filters traffic based on rules, and modern next-generation firewalls inspect up to Layer 7. Hubs, which simply repeat bits out every port, are Layer 1 and are obsolete in modern designs.\n\n**IPv4 addressing.** An IPv4 address is 32 bits written as four octets, such as 192.168.10.25. The **subnet mask** (for example 255.255.255.0, or /24 in CIDR notation) marks which bits identify the network and which identify the host. **Private address** ranges, defined in RFC 1918, are not routed on the public internet:\n- 10.0.0.0/8\n- 172.16.0.0/12\n- 192.168.0.0/16\n\nRouters use **NAT** to translate private addresses to a public one at the internet edge. A host also needs a **default gateway**, the router address it sends traffic to when the destination is on another network.\n\n**IPv6.** IPv6 addresses are 128 bits written in hexadecimal, such as 2001:db8::1. Leading zeros in a group can be dropped, and one run of all-zero groups can be replaced by ::, but only once per address. Addresses beginning with fe80 are link-local and work only on the local segment.\n\nThe most common mistake students make is calling a switch a Layer 3 device or a router a Layer 2 device. Tie the device to what it reads: switches read MAC addresses in frames, routers read IP addresses in packets.",
+    "examples": [
+      "A student laptop at 192.168.1.40/24 sends a file to a printer at 192.168.1.80; the switch delivers the frame directly using MAC addresses, with no router involved.",
+      "When the same laptop opens a website, the packet goes to the default gateway 192.168.1.1, where the router performs NAT and forwards it to the internet.",
+      "The address 2001:0db8:0000:0000:0000:0000:0000:0001 can be shortened to 2001:db8::1."
+    ],
+    "questions": [
+      {
+        "stem": "A technician needs a device that forwards traffic between the school's 10.1.0.0/16 network and the district's 10.2.0.0/16 network. Which device fits?",
+        "choices": [
+          "Unmanaged switch",
+          "Router",
+          "Wireless access point",
+          "Patch panel"
+        ],
+        "answer": 1,
+        "explanation": "Moving packets between different IP networks is a Layer 3 job for a router. A switch forwards frames within one LAN using MAC addresses, so it cannot route between networks on its own."
+      },
+      {
+        "stem": "At which OSI layer do MAC addresses operate?",
+        "choices": [
+          "Physical",
+          "Network",
+          "Data Link",
+          "Transport"
+        ],
+        "answer": 2,
+        "explanation": "MAC addresses are Layer 2 (Data Link) identifiers in frames. The Network layer uses IP addresses, a frequent mix-up."
+      },
+      {
+        "stem": "Which address can be assigned to an internal host and will not be routed on the public internet?",
+        "choices": [
+          "172.20.5.9",
+          "172.32.5.9",
+          "8.8.8.8",
+          "11.0.0.5"
+        ],
+        "answer": 0,
+        "explanation": "172.20.5.9 falls in the private 172.16.0.0/12 range (172.16 through 172.31). 172.32.5.9 is just outside that range, so it is public."
+      },
+      {
+        "stem": "A user can reach printers in the same office but no websites. Ping to other local hosts works. What is the most likely misconfiguration?",
+        "choices": [
+          "Wrong MAC address",
+          "Faulty cable",
+          "Missing or incorrect default gateway",
+          "Wi-Fi channel overlap"
+        ],
+        "answer": 2,
+        "explanation": "Local traffic works, so the cable and LAN are fine; reaching other networks requires a correct default gateway. A faulty cable would break local traffic too."
+      },
+      {
+        "stem": "Which TCP/IP model layer corresponds to the OSI Network layer?",
+        "choices": [
+          "Application",
+          "Transport",
+          "Network Access",
+          "Internet"
+        ],
+        "answer": 3,
+        "explanation": "The TCP/IP Internet layer handles IP addressing and routing, matching OSI Layer 3. Network Access maps to OSI Layers 1 and 2."
+      },
+      {
+        "stem": "Which is a valid shortened form of 2001:0db8:0000:0000:0abc:0000:0000:0001?",
+        "choices": [
+          "2001:db8::abc::1",
+          "2001:db8::abc:0:0:1",
+          "2001:db8:0:0:abc::1:0",
+          "2001:db8:abc::1"
+        ],
+        "answer": 1,
+        "explanation": "Only one run of zero groups can become ::, and leading zeros drop, giving 2001:db8::abc:0:0:1. Using :: twice is invalid because the address length becomes ambiguous."
+      },
+      {
+        "stem": "A small business uses one public IP address but has 30 devices with 192.168.0.x addresses browsing the web. What makes this possible?",
+        "choices": [
+          "DNS",
+          "NAT",
+          "VLAN tagging",
+          "ARP"
+        ],
+        "answer": 1,
+        "explanation": "NAT translates many private addresses to the single public address at the router. DNS resolves names to addresses but does not share a public IP."
+      },
+      {
+        "stem": "A video streaming app favors speed over guaranteed delivery. Which transport protocol is it most likely using?",
+        "choices": [
+          "TCP",
+          "ICMP",
+          "UDP",
+          "ARP"
+        ],
+        "answer": 2,
+        "explanation": "UDP is connectionless and skips retransmission, which suits real-time media. TCP guarantees delivery but adds delay from acknowledgments and retransmits."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Router",
+        "definition": "A Layer 3 device that forwards packets between different IP networks using a routing table."
+      },
+      {
+        "term": "Switch",
+        "definition": "A Layer 2 device that forwards frames within a LAN using a MAC address table."
+      },
+      {
+        "term": "Subnet mask",
+        "definition": "A value such as 255.255.255.0 (/24) that separates the network portion of an IP address from the host portion."
+      },
+      {
+        "term": "NAT",
+        "definition": "Network Address Translation; maps private internal addresses to a public address at the network edge."
+      },
+      {
+        "term": "Default gateway",
+        "definition": "The router address a host sends traffic to when the destination is on a different network."
+      }
+    ]
+  }
+]

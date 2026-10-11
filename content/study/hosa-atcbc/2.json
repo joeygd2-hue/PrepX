@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Enzymes and cellular metabolism in action",
+    "objective": "Explain how enzymes lower activation energy, analyze factors and inhibitors that change reaction rate, and trace glucose through cellular respiration.",
+    "body": "Metabolism is the sum of all chemical reactions in the body, and nearly every one of them depends on an enzyme. Understanding enzymes lets you predict how temperature, pH, drugs and toxins change what happens inside a cell.\n\n**How enzymes work.** An **enzyme** is a biological catalyst, usually a protein, that speeds a reaction by lowering its **activation energy**. It does not change the overall energy released or the equilibrium point, and it is not consumed. The reactant, called the **substrate**, binds the enzyme's **active site**. In the induced-fit model, the active site shifts shape slightly to grip the substrate snugly. Many enzymes need helpers: inorganic **cofactors** such as zinc or magnesium ions, or organic coenzymes such as NAD+ derived from vitamins.\n\n**Factors that affect rate.**\n- Temperature: rate rises toward an optimum (near 37 C for most human enzymes) and then falls sharply as the enzyme denatures.\n- pH: each enzyme has an optimum. Pepsin works best in the acidic stomach near pH 2; trypsin works in the small intestine near pH 8.\n- Substrate concentration: rate climbs until all active sites are occupied, then levels off at maximum velocity (saturation).\n\n**Inhibition.** A **competitive inhibitor** resembles the substrate and binds the active site; adding more substrate can outcompete it. A **noncompetitive inhibitor** binds elsewhere (an allosteric site) and changes the enzyme's shape, so extra substrate cannot restore full speed. Cells also use **feedback inhibition**, where the end product of a pathway shuts down an early enzyme.\n\n**Cellular respiration.** Cells harvest energy from glucose in stages:\n1. **Glycolysis** in the cytoplasm splits glucose into two pyruvate, netting 2 ATP and 2 NADH without oxygen.\n2. Pyruvate oxidation and the **citric acid (Krebs) cycle** in the mitochondrial matrix release CO2 and load NADH and FADH2.\n3. The **electron transport chain** on the inner mitochondrial membrane passes electrons to oxygen, the final electron acceptor, pumping protons that drive ATP synthase. This stage makes most of the ATP.\n\nWithout oxygen, human cells use lactic acid fermentation to regenerate NAD+ so glycolysis can continue, producing only 2 ATP per glucose.\n\nThe most common mistake students make is saying enzymes provide energy to a reaction or shift its equilibrium. Enzymes only lower activation energy, so they speed up reaching equilibrium without changing where it lies.",
+    "examples": [
+      "A sprinter's muscles run short of oxygen, so pyruvate is converted to lactate to regenerate NAD+, letting glycolysis keep producing a small amount of ATP.",
+      "Methotrexate resembles folate and competes for the active site of dihydrofolate reductase, a classic example of competitive inhibition used in medicine."
+    ],
+    "questions": [
+      {
+        "stem": "A student adds large amounts of substrate to an enzyme reaction and the inhibited rate returns to near normal. What type of inhibitor is most likely present?",
+        "choices": [
+          "Noncompetitive inhibitor",
+          "Competitive inhibitor",
+          "Allosteric activator",
+          "Irreversible heavy metal"
+        ],
+        "answer": 1,
+        "explanation": "Excess substrate outcompetes an inhibitor that binds the active site, which defines competitive inhibition. A noncompetitive inhibitor binds elsewhere, so added substrate cannot restore full rate."
+      },
+      {
+        "stem": "Pepsin is moved from stomach fluid at pH 2 into a solution at pH 8. What is the most likely result?",
+        "choices": [
+          "Its activity drops sharply",
+          "Its activity doubles",
+          "It begins making ATP",
+          "It becomes a competitive inhibitor"
+        ],
+        "answer": 0,
+        "explanation": "Pepsin's optimum is acidic; at pH 8 its shape changes and activity falls. It does not double, because pH 8 is far from its optimum."
+      },
+      {
+        "stem": "Which statement correctly describes what an enzyme does to a reaction?",
+        "choices": [
+          "It increases the energy released",
+          "It shifts equilibrium toward products",
+          "It lowers the activation energy",
+          "It is used up as the reaction proceeds"
+        ],
+        "answer": 2,
+        "explanation": "Enzymes lower activation energy and are regenerated. They do not change the energy released or the equilibrium position."
+      },
+      {
+        "stem": "In a pathway A to B to C to D, product D binds the first enzyme and slows the pathway. This is called:",
+        "choices": [
+          "Competitive saturation",
+          "Denaturation",
+          "Substrate-level phosphorylation",
+          "Feedback inhibition"
+        ],
+        "answer": 3,
+        "explanation": "An end product shutting down an early step is feedback inhibition. Denaturation is unfolding, not a regulatory signal."
+      },
+      {
+        "stem": "A patient's cells are exposed to a toxin that blocks the electron transport chain. Which process is most directly halted?",
+        "choices": [
+          "Most ATP production by oxidative phosphorylation",
+          "Splitting glucose in glycolysis",
+          "Hydrolysis of starch in the mouth",
+          "Formation of peptide bonds"
+        ],
+        "answer": 0,
+        "explanation": "The ETC drives ATP synthase, the source of most ATP. Glycolysis occurs in the cytoplasm and can continue briefly through fermentation."
+      },
+      {
+        "stem": "What is the final electron acceptor in aerobic cellular respiration?",
+        "choices": [
+          "NAD+",
+          "Oxygen",
+          "Pyruvate",
+          "Carbon dioxide"
+        ],
+        "answer": 1,
+        "explanation": "Oxygen accepts electrons at the end of the ETC, forming water. NAD+ is an electron carrier earlier in the process, not the final acceptor."
+      },
+      {
+        "stem": "An enzyme reaction rate stops increasing even as more substrate is added. The best explanation is that:",
+        "choices": [
+          "The enzyme has denatured",
+          "An inhibitor was added",
+          "All active sites are occupied",
+          "The pH dropped to the optimum"
+        ],
+        "answer": 2,
+        "explanation": "At saturation every active site is busy, so rate plateaus at maximum velocity. Denaturation would make the rate fall, not level off."
+      },
+      {
+        "stem": "Where does glycolysis take place?",
+        "choices": [
+          "Mitochondrial matrix",
+          "Inner mitochondrial membrane",
+          "Nucleus",
+          "Cytoplasm"
+        ],
+        "answer": 3,
+        "explanation": "Glycolysis occurs in the cytoplasm. The Krebs cycle, the common distractor, occurs in the mitochondrial matrix."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Activation energy",
+        "definition": "The energy needed to start a reaction, which enzymes lower."
+      },
+      {
+        "term": "Active site",
+        "definition": "The region of an enzyme where the substrate binds and the reaction occurs."
+      },
+      {
+        "term": "Competitive inhibitor",
+        "definition": "A molecule that resembles the substrate and blocks the active site; overcome by more substrate."
+      },
+      {
+        "term": "Feedback inhibition",
+        "definition": "Regulation in which a pathway's end product inhibits an earlier enzyme."
+      },
+      {
+        "term": "Electron transport chain",
+        "definition": "Inner mitochondrial membrane proteins that pass electrons to oxygen and power most ATP synthesis."
+      }
+    ]
+  }
+]

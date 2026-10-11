@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Managing risk, the bullwhip effect, and supply chain performance",
+    "objective": "Diagnose the bullwhip effect, evaluate supply chain risks and mitigation strategies, and interpret performance metrics such as inventory turnover and perfect order rate.",
+    "body": "Advanced supply chain questions ask you to diagnose problems across the whole network and recommend fixes. Three ideas dominate: demand distortion, risk management and performance measurement.\n\n**The bullwhip effect.** The **bullwhip effect** is the growing swing in orders as you move upstream. A small rise in consumer demand leads a retailer to order a bit extra, the distributor pads its order further, and the manufacturer sees a huge spike. Causes include forecasting from orders instead of real demand, **order batching**, price promotions that cause forward buying, and **shortage gaming** (inflating orders when supply is tight). Fixes include sharing point-of-sale data, **vendor-managed inventory (VMI)**, smaller and more frequent orders, everyday low pricing and **collaborative planning, forecasting and replenishment (CPFR)**.\n\n**Risk management.** Supply chains face disruptions such as natural disasters, pandemics, supplier bankruptcy, cyberattacks, tariffs and port congestion. A sound approach is to identify risks, assess their likelihood and impact, then mitigate them. Common strategies:\n- **Dual or multiple sourcing** so one failed supplier does not stop production.\n- **Nearshoring** or **reshoring** to shorten lead times and reduce geographic risk.\n- Strategic buffer inventory for critical parts.\n- **Supply chain visibility** tools, such as real-time tracking and RFID, to spot problems early.\nThe chip shortage of 2021 showed how lean, single-sourced chains can be fragile; many firms now balance efficiency with resilience instead of minimizing inventory at all costs.\n\n**Measuring performance.** Key metrics include:\n1. **Inventory turnover** = cost of goods sold / average inventory. Higher turnover usually means inventory sells quickly.\n2. **Days of inventory** = 365 / inventory turnover.\n3. **Fill rate**: the percentage of customer demand met from stock on hand.\n4. **Perfect order rate**: the percentage of orders delivered complete, on time, undamaged and with correct documentation.\n5. **Cash-to-cash cycle time**: days of inventory plus days of receivables minus days of payables, showing how long cash is tied up.\n\nFor example, a firm with $1,200,000 cost of goods sold and $200,000 average inventory has a turnover of 6, or about 61 days of inventory.\n\n**Sustainability and ethics.** Firms increasingly measure carbon emissions, use **reverse logistics** for recycling and audit suppliers for labor practices. These goals can conflict with cost, so managers weigh trade-offs.\n\nThe most common mistake students make is blaming the bullwhip effect on consumers. Consumer demand is usually stable; the distortion is created by partners upstream who forecast from each other's orders instead of from shared end-customer data.",
+    "examples": [
+      "When stores ran short of toilet paper in 2020, panicked retail orders amplified upstream, a real-world bullwhip effect even though household use had changed only moderately.",
+      "An electronics company that once bought a key component from one factory now qualifies a second supplier in Mexico to reduce disruption risk."
+    ],
+    "questions": [
+      {
+        "stem": "Consumer sales of a detergent vary by about 5% week to week, but the manufacturer sees order swings of 40%. What is the most likely explanation?",
+        "choices": [
+          "Seasonal demand",
+          "The bullwhip effect",
+          "Economies of scale",
+          "Reverse logistics"
+        ],
+        "answer": 1,
+        "explanation": "Growing order variability upstream despite stable consumer demand is the bullwhip effect. Seasonality would show up in consumer sales too, which here are steady."
+      },
+      {
+        "stem": "Which action would best reduce the bullwhip effect between a retailer and its supplier?",
+        "choices": [
+          "Running more frequent deep-discount promotions",
+          "Sharing real-time point-of-sale data with the supplier",
+          "Ordering in larger, less frequent batches",
+          "Inflating orders when supply looks tight"
+        ],
+        "answer": 1,
+        "explanation": "Sharing end-customer demand lets the supplier forecast from real sales. Larger batches and promotions are causes of the bullwhip effect, not cures."
+      },
+      {
+        "stem": "A company's cost of goods sold is $900,000 and its average inventory is $150,000. What is its inventory turnover?",
+        "choices": [
+          "0.17",
+          "6",
+          "60",
+          "750,000"
+        ],
+        "answer": 1,
+        "explanation": "$900,000 / $150,000 = 6. The answer 60 might come from confusing turnover with days of inventory, which would be 365 / 6, or about 61."
+      },
+      {
+        "stem": "A firm relies on one overseas factory for a critical part. Which strategy most directly reduces its disruption risk?",
+        "choices": [
+          "Dual sourcing the part",
+          "Raising product prices",
+          "Increasing advertising",
+          "Switching to air freight for all shipments"
+        ],
+        "answer": 0,
+        "explanation": "A second qualified supplier removes the single point of failure. Air freight speeds shipping but does nothing if the only factory shuts down."
+      },
+      {
+        "stem": "Out of 1,000 orders, 960 arrived on time, but 30 of those had missing items or wrong invoices. What is the perfect order rate?",
+        "choices": [
+          "96%",
+          "97%",
+          "93%",
+          "99%"
+        ],
+        "answer": 2,
+        "explanation": "A perfect order must be on time, complete and correctly documented: 960 - 30 = 930, or 93%. 96% counts only on-time delivery."
+      },
+      {
+        "stem": "Under vendor-managed inventory, who decides when to replenish a retailer's stock?",
+        "choices": [
+          "The end customer",
+          "The retailer's store manager",
+          "The supplier",
+          "A third-party bank"
+        ],
+        "answer": 2,
+        "explanation": "In VMI the supplier monitors the retailer's inventory data and makes replenishment decisions. The store manager no longer places orders directly, which is the point of VMI."
+      },
+      {
+        "stem": "A U.S. apparel company moves production from Asia to Mexico to shorten lead times. What is this called?",
+        "choices": [
+          "Reshoring",
+          "Nearshoring",
+          "Offshoring",
+          "Outsourcing"
+        ],
+        "answer": 1,
+        "explanation": "Moving production to a nearby country is nearshoring. Reshoring would mean bringing production back into the United States itself."
+      },
+      {
+        "stem": "Which change would shorten a company's cash-to-cash cycle time?",
+        "choices": [
+          "Holding more days of inventory",
+          "Giving customers longer payment terms",
+          "Negotiating longer payment terms with suppliers",
+          "Paying suppliers immediately on delivery"
+        ],
+        "answer": 2,
+        "explanation": "Cash-to-cash = days of inventory + days of receivables - days of payables, so more days of payables shortens it. Giving customers longer terms raises receivables and lengthens the cycle."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Bullwhip effect",
+        "definition": "The increasing variability of orders as they move upstream in a supply chain, even when consumer demand is stable."
+      },
+      {
+        "term": "Vendor-managed inventory (VMI)",
+        "definition": "An arrangement in which the supplier monitors a customer's inventory and decides when to replenish it."
+      },
+      {
+        "term": "Inventory turnover",
+        "definition": "Cost of goods sold divided by average inventory; shows how many times inventory is sold and replaced in a period."
+      },
+      {
+        "term": "Perfect order rate",
+        "definition": "The percentage of orders delivered complete, on time, undamaged and with correct documentation."
+      },
+      {
+        "term": "Nearshoring",
+        "definition": "Moving production or sourcing to a nearby country to shorten lead times and reduce risk."
+      }
+    ]
+  }
+]
