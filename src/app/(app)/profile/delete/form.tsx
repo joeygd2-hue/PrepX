@@ -7,7 +7,7 @@ import { deleteMyAccount } from "@/app/actions/profile";
 export function DeleteForm() {
   const [state, action] = useActionState(deleteMyAccount, undefined);
   return (
-    <form action={action} className="mt-6 space-y-3">
+    <form action={action} className="space-y-3">
       <Label htmlFor="confirm">Type DELETE to confirm</Label>
       <Input id="confirm" name="confirm" autoComplete="off" required />
       <FieldError>{state?.error}</FieldError>

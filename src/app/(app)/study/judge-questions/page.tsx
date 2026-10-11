@@ -4,6 +4,7 @@ import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { activeSelection } from "@/server/progress";
 import { getAllowance } from "@/server/entitlements";
+import { answerWindowOpen } from "@/server/ai/sessions";
 import { BackHeader, Page } from "@/components/ui/page";
 import { Notice } from "@/components/ui/form";
 import { features } from "@/lib/env";
@@ -27,13 +28,15 @@ export default async function JudgeQuestions() {
   return (
     <Page>
       <BackHeader href="/study" title="Judge questions" subtitle={sel ? `${sel.event.code} · ${sel.event.name}` : undefined} />
-      {!sel ? <Notice>Choose your event first.</Notice> : null}
-      {!features.ai() ? <Notice tone="warning">AI features aren&apos;t configured on this server yet.</Notice> : null}
+      {!sel ? <Notice className="mb-3">Choose your event first.</Notice> : null}
+      {!features.ai() ? <Notice tone="warning" className="mb-4">AI features aren&apos;t configured on this server yet.</Notice> : null}
       {sel ? (
         <QuestionsDrill
+          key={latest?.id ?? "new"}
           sessionId={latest?.id ?? null}
           questions={sc?.questions ?? []}
           answers={sc?.answers ?? {}}
+          closed={latest ? !answerWindowOpen(latest.createdAt) : false}
           remaining={allowance.unlimited ? null : allowance.remaining}
           resets={allowance.resets}
         />

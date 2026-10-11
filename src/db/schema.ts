@@ -397,7 +397,7 @@ export const aiSessions = pgTable("ai_sessions", {
   eventId: text("event_id").references(() => events.id),
   title: text("title").notNull().default(""),
   scenario: jsonb("scenario").$type<Record<string, unknown>>(),
-  status: text("status").notNull().default("open"), // open | scored | failed
+  status: text("status").notNull().default("open"), // open | scoring | scored | failed
   createdAt: createdAt(),
   updatedAt: updatedAt(),
 }, (t) => [index("ai_sessions_user_idx").on(t.userId, t.kind, t.createdAt)]);

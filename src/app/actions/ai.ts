@@ -9,6 +9,7 @@ import { LimitReachedError } from "@/server/entitlements";
 import { AiFailedError, AiNotConfiguredError, type ImageInput } from "@/server/ai/provider";
 import { checkExplanation, coachReply, evaluatePerformance, generateScenario, likelyQuestions, rateAnswer, type RubricItem, type Scenario } from "@/server/ai/tasks";
 import { withUsage } from "@/server/ai/run";
+import { SessionStateError, claimAnswer, claimJudgeRun, releaseAnswer, releaseJudgeRun, saveAnswer } from "@/server/ai/sessions";
 import { activeSelection, awardXp, recordActivity, syncAchievements } from "@/server/progress";
 import { autoCompleteTask } from "@/server/dashboard";
 import { rateLimit } from "@/server/ratelimit";
@@ -19,7 +20,7 @@ export type AiResult<T = undefined> = { ok: true; data?: T } | { ok: false; erro
 
 function fail(e: unknown): { ok: false; error: string; limit?: boolean } {
   if (e instanceof LimitReachedError) return { ok: false, error: `You've reached today's limit for this feature on your plan. ${e.resetsLabel}.`, limit: true };
-  if (e instanceof AiNotConfiguredError || e instanceof AiFailedError) return { ok: false, error: e.message };
+  if (e instanceof AiNotConfiguredError || e instanceof AiFailedError || e instanceof SessionStateError) return { ok: false, error: e.message };
   console.error("ai action failed", errorDetail(e));
   return { ok: false, error: "Something went wrong. You weren't charged. Please try again." };
 }
@@ -157,15 +158,20 @@ const SubmitSchema = z.object({
     .optional(),
 });
 
-/** Scores a judge run. Retrying after a failure is free: the run was charged when the scenario was delivered. */
+/**
+ * Scores a judge run. Retrying after a failure is free: the run was charged when the scenario was
+ * delivered. The round is claimed before the model call, so concurrent submits can't score it twice.
+ */
 export async function submitJudgeRun(sessionId: string, input: z.infer<typeof SubmitSchema>): Promise<AiResult> {
   const user = await userOrThrow();
   const parsed = SubmitSchema.safeParse(input);
   if (!parsed.success) return { ok: false, error: parsed.error.issues[0].message };
+  let claimed: string | null = null;
   try {
     await guardBurst(user.id);
-    const s = await ownedSession(user.id, sessionId);
-    if (s.status === "scored") return { ok: true };
+    const s = await claimJudgeRun(user.id, sessionId);
+    if (!s) return { ok: true };
+    claimed = s.id;
     const [event] = await db.select().from(schema.events).where(eq(schema.events.id, s.eventId!));
     const sc = s.scenario as Scenario & { performSec?: number };
     const images = parsed.data.images as ImageInput[] | undefined;
@@ -182,18 +188,21 @@ export async function submitJudgeRun(sessionId: string, input: z.infer<typeof Su
       images,
     });
     // Images are used for this evaluation only and are never stored.
-    await db.insert(schema.aiMessages).values({ sessionId: s.id, role: "user", content: parsed.data.transcript });
-    await db.insert(schema.aiFeedback).values({
-      sessionId: s.id,
-      userId: user.id,
-      eventId: event.id,
-      score: result.score,
-      criteria: result.criteria,
-      summary: result.summary + (result.strengths.length ? `\n\nStrengths: ${result.strengths.join("; ")}` : ""),
-      nextSteps: result.nextSteps,
-      rubricBasis: rubric.basis,
+    await db.transaction(async (tx) => {
+      await tx.insert(schema.aiMessages).values({ sessionId: s.id, role: "user", content: parsed.data.transcript });
+      await tx.insert(schema.aiFeedback).values({
+        sessionId: s.id,
+        userId: user.id,
+        eventId: event.id,
+        score: result.score,
+        criteria: result.criteria,
+        summary: result.summary + (result.strengths.length ? `\n\nStrengths: ${result.strengths.join("; ")}` : ""),
+        nextSteps: result.nextSteps,
+        rubricBasis: rubric.basis,
+      });
+      await tx.update(schema.aiSessions).set({ status: "scored", updatedAt: new Date() }).where(eq(schema.aiSessions.id, s.id));
     });
-    await db.update(schema.aiSessions).set({ status: "scored", updatedAt: new Date() }).where(eq(schema.aiSessions.id, s.id));
+    claimed = null;
     const tz = user.profile!.timezone;
     await awardXp(user.id, XP.judgeRun, "judge", s.id);
     await recordActivity(user.id, tz);
@@ -202,6 +211,7 @@ export async function submitJudgeRun(sessionId: string, input: z.infer<typeof Su
     revalidatePath(`/study/judge/${s.id}`);
     return { ok: true };
   } catch (e) {
+    if (claimed) await releaseJudgeRun(claimed).catch((err) => console.error("judge run release failed", errorDetail(err)));
     return fail(e);
   }
 }
@@ -225,25 +235,30 @@ export async function startJudgeQuestions(): Promise<AiResult<{ id: string }>> {
   }
 }
 
+/**
+ * Rates one answer from a judge-questions set. The set was charged when it was generated, so each
+ * question gets one feedback, only while the set is under a day old (see claimAnswer).
+ */
 export async function answerJudgeQuestion(sessionId: string, index: number, answer: string): Promise<AiResult<{ rating: number; feedback: string; strongerAnswer: string }>> {
   const user = await userOrThrow();
   const a = z.string().trim().min(1).max(4000).safeParse(answer);
   if (!a.success) return { ok: false, error: "Add your answer first." };
+  let claimed = false;
   try {
     await guardBurst(user.id);
-    const s = await ownedSession(user.id, sessionId);
-    const sc = s.scenario as { questions: string[]; answers: Record<string, unknown> };
-    if (!sc.questions[index]) return { ok: false, error: "Question not found." };
-    const [event] = await db.select().from(schema.events).where(eq(schema.events.id, s.eventId!));
-    const fb = await rateAnswer(event, sc.questions[index], a.data);
-    sc.answers[index] = { answer: a.data, ...fb };
-    await db.update(schema.aiSessions).set({ scenario: sc, updatedAt: new Date() }).where(eq(schema.aiSessions.id, s.id));
-    if (Object.keys(sc.answers).length === 1) {
+    const claim = await claimAnswer(user.id, sessionId, index);
+    claimed = true;
+    const [event] = await db.select().from(schema.events).where(eq(schema.events.id, claim.eventId!));
+    const fb = await rateAnswer(event, claim.question, a.data);
+    const answered = await saveAnswer(sessionId, index, { answer: a.data, ...fb });
+    claimed = false;
+    if (answered === 1) {
       await recordActivity(user.id, user.profile!.timezone);
-      await awardXp(user.id, XP.explainBack, "judge_questions", s.id);
+      await awardXp(user.id, XP.explainBack, "judge_questions", sessionId);
     }
     return { ok: true, data: fb };
   } catch (e) {
+    if (claimed) await releaseAnswer(sessionId, index).catch((err) => console.error("answer claim release failed", errorDetail(err)));
     return fail(e);
   }
 }

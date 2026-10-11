@@ -3,7 +3,10 @@ import { eq, sql } from "drizzle-orm";
 import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { env } from "@/lib/env";
-import { BackHeader, Page } from "@/components/ui/page";
+import { UserPlus, Zap } from "lucide-react";
+import { Accent, BackHeader, Page } from "@/components/ui/page";
+import { Card, HeroTexture } from "@/components/ui/card";
+import { StatStrip } from "@/components/ui/tile";
 import { ShareLink } from "./share-link";
 
 export const metadata: Metadata = { title: "Invite friends" };
@@ -21,19 +24,23 @@ export default async function Invite() {
   return (
     <Page>
       <BackHeader href="/" title="Invite friends" />
-      <h1 className="text-3xl font-semibold tracking-tight">Study together</h1>
-      <p className="mt-2 text-muted">Earn 100 XP and the Recruiter badge when a friend you invite starts practicing. Only share with people you know.</p>
-      <ShareLink link={link} />
-      <div className="mt-6 grid grid-cols-2 gap-3 text-center">
-        <div className="rounded-3xl bg-subtle p-5">
-          <p className="text-3xl font-semibold tabular">{joined}</p>
-          <p className="text-sm text-muted">joined</p>
+      <Card tone="inverse" className="p-6 shadow-float sm:p-8">
+        <HeroTexture />
+        <div className="relative">
+          <h1 className="text-[2rem] font-semibold leading-[1.05] tracking-[-0.035em] sm:text-[2.5rem]">
+            Study <Accent>together</Accent>
+          </h1>
+          <p className="mt-3 max-w-md text-hero-muted">Earn 100 XP and the Recruiter badge when a friend you invite starts practicing. Only share with people you know.</p>
+          <ShareLink link={link} />
         </div>
-        <div className="rounded-3xl bg-subtle p-5">
-          <p className="text-3xl font-semibold tabular">{active}</p>
-          <p className="text-sm text-muted">started practicing</p>
-        </div>
-      </div>
+      </Card>
+      <StatStrip
+        className="mt-3"
+        items={[
+          { icon: <UserPlus />, value: String(joined), label: "joined" },
+          { icon: <Zap />, value: String(active), label: "started practicing" },
+        ]}
+      />
     </Page>
   );
 }

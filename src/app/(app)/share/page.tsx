@@ -10,7 +10,7 @@ export default async function Share() {
   return (
     <Page>
       <BackHeader href="/" title="Share your wins" />
-      <p className="text-muted">Story-sized cards for your streak, level and personal bests. Cards show your first name only if you turn it on, and never your school or email.</p>
+      <p className="max-w-lg px-1 text-muted">Story-sized cards for your streak, level and personal bests. Cards show your first name only if you turn it on, and never your school or email.</p>
       <ShareCards />
     </Page>
   );

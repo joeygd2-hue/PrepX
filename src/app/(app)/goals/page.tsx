@@ -8,6 +8,7 @@ import { addDays, todayIn } from "@/lib/dates";
 import { BackHeader, Page } from "@/components/ui/page";
 import { ProgressBar } from "@/components/ui/progress";
 import { ButtonLink } from "@/components/ui/button";
+import { Card, HeroTexture } from "@/components/ui/card";
 import { GoalsForm } from "./form";
 
 export const metadata: Metadata = { title: "Season goals" };
@@ -20,10 +21,12 @@ export default async function Goals() {
     return (
       <Page>
         <BackHeader href="/" title="Season goals" />
-        <p className="text-muted">Choose your event to set goals.</p>
-        <ButtonLink href="/study/events" className="mt-4">
-          Choose event
-        </ButtonLink>
+        <Card tone="subtle">
+          <p className="text-muted">Choose your event to set goals.</p>
+          <ButtonLink href="/study/events" className="mt-4">
+            Choose event
+          </ButtonLink>
+        </Card>
       </Page>
     );
   const [goal] = await db.select().from(schema.seasonGoals).where(and(eq(schema.seasonGoals.userId, user.id), eq(schema.seasonGoals.eventId, ctx.event.id)));
@@ -40,40 +43,59 @@ export default async function Goals() {
   return (
     <Page>
       <BackHeader href="/" title="Season goals" subtitle={`${ctx.event.code} · ${ctx.event.name}`} />
-      <section className="rounded-3xl bg-fg p-6 text-bg">
-        <p className="eyebrow !text-bg/70">Weekly pace</p>
-        <p className="mt-2 text-xl font-semibold">
-          {pace === null ? "Set a competition date to get a weekly pace." : pace === 0 ? "You're at your readiness target. Keep it there!" : `Gain about ${pace} readiness points a week to reach ${g.targetReadiness} by competition day.`}
-        </p>
-        <p className="mt-2 text-sm opacity-80">
-          Readiness now: {r.score}
-          {weeks ? ` · ${weeks} week${weeks === 1 ? "" : "s"} left` : ""}
-        </p>
-      </section>
-      <section className="mt-4 space-y-4 rounded-3xl border border-border p-5">
-        <div>
-          <div className="mb-1 flex justify-between text-sm">
-            <span>Questions this week</span>
-            <span className="tabular">
-              {q}/{g.weeklyQuestions}
-            </span>
+      <Card tone="inverse" className="p-6 shadow-float sm:p-8">
+        <HeroTexture />
+        <div className="relative">
+          <p className="eyebrow !text-hero-muted">Weekly pace</p>
+          <p className="mt-5 text-[1.5rem] font-semibold leading-snug tracking-[-0.025em] sm:text-[1.75rem]">
+            {pace === null ? (
+              "Set a competition date to get a weekly pace."
+            ) : pace === 0 ? (
+              "You're at your readiness target. Keep it there!"
+            ) : (
+              <>
+                Gain about <span className="font-mono font-medium tracking-[-0.04em] tabular">{pace}</span> readiness points a week to reach{" "}
+                <span className="font-mono font-medium tracking-[-0.04em] tabular">{g.targetReadiness}</span> by competition day.
+              </>
+            )}
+          </p>
+          <div className="mt-7 border-t border-hero-line pt-5">
+            <ProgressBar inverse value={r.score} max={Math.max(g.targetReadiness, 1)} label="Readiness toward your target" />
+            <p className="mt-3 text-sm text-hero-muted">
+              Readiness now: <span className="font-mono text-hero-fg tabular">{r.score}</span>
+              {weeks ? (
+                <>
+                  {" · "}
+                  <span className="font-mono text-hero-fg tabular">{weeks}</span> week{weeks === 1 ? "" : "s"} left
+                </>
+              ) : null}
+            </p>
           </div>
-          <ProgressBar value={q} max={Math.max(g.weeklyQuestions, 1)} label="Weekly questions" />
         </div>
-        {ctx.shape.judged ? (
-          <div>
-            <div className="mb-1 flex justify-between text-sm">
-              <span>Judge runs this week</span>
-              <span className="tabular">
-                {j}/{g.weeklyJudgeRuns}
-              </span>
-            </div>
-            <ProgressBar value={j} max={Math.max(g.weeklyJudgeRuns, 1)} label="Weekly judge runs" />
-          </div>
-        ) : null}
-      </section>
-      <GoalsForm eventId={ctx.event.id} initial={g} judged={ctx.shape.judged} />
-      <p className="mt-4 text-sm text-muted">Goals are for you. Rest matters too: a steady 20 minutes most days beats cramming.</p>
+      </Card>
+      <Card className="mt-3 space-y-5">
+        <Meter label="Questions this week" value={q} goal={g.weeklyQuestions} aria="Weekly questions" />
+        {ctx.shape.judged ? <Meter label="Judge runs this week" value={j} goal={g.weeklyJudgeRuns} aria="Weekly judge runs" /> : null}
+      </Card>
+      <div className="mt-3">
+        <GoalsForm eventId={ctx.event.id} initial={g} judged={ctx.shape.judged} />
+      </div>
+      <p className="mt-4 px-1 text-sm text-muted">Goals are for you. Rest matters too: a steady 20 minutes most days beats cramming.</p>
     </Page>
+  );
+}
+
+function Meter({ label, value, goal, aria }: { label: string; value: number; goal: number; aria: string }) {
+  return (
+    <div>
+      <div className="mb-2.5 flex items-baseline justify-between gap-3">
+        <span className="font-medium tracking-[-0.01em]">{label}</span>
+        <span className="font-mono text-sm tabular">
+          {value}
+          <span className="text-muted">/{goal}</span>
+        </span>
+      </div>
+      <ProgressBar value={value} max={Math.max(goal, 1)} label={aria} />
+    </div>
   );
 }
