@@ -4,7 +4,7 @@
     "objective": "Identify and classify major cybersecurity threat types and explain the CIA Triad as the foundation of information security policy.",
     "body": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks, unauthorized access, and data damage. At its core, every security decision is measured against three fundamental properties known as the **CIA Triad**: **Confidentiality**, **Integrity**, and **Availability**. Confidentiality ensures that information is accessible only to those authorized to see it. Integrity guarantees that data has not been altered or tampered with, either in transit or at rest. Availability means that authorized users can reliably access systems and data when needed. A failure in any one of these pillars constitutes a security incident.\n\nThreats to information systems come in many forms. A **threat actor** is any individual, group, or entity that poses a potential danger to an organization's assets. Threat actors range from **script kiddies**—unskilled attackers using prewritten tools—to sophisticated **advanced persistent threats (APTs)**, which are often nation-state sponsored groups conducting long-term espionage campaigns. Understanding the motivation behind an attack (financial gain, espionage, disruption, or ideology) helps defenders prioritize their response.\n\nAttacks are typically categorized as **active** or **passive**. Passive attacks, such as **eavesdropping** and **traffic analysis**, involve monitoring communications without altering them; they are hard to detect because no data is changed. Active attacks, such as **man-in-the-middle (MitM)** attacks, **denial-of-service (DoS)**, and **data modification**, directly interfere with systems or data. A **DoS attack** floods a target with requests until it cannot serve legitimate users, while a **Distributed Denial-of-Service (DDoS)** attack coordinates thousands of compromised machines—a **botnet**—to amplify the assault.\n\nSocial engineering exploits human psychology rather than technical vulnerabilities. **Phishing** emails impersonate trusted entities to steal credentials or install malware. **Spear phishing** targets specific individuals using personalized details, while **whaling** targets executives. **Pretexting** involves fabricating a scenario to manipulate victims into revealing information or granting access.\n\nOrganizations manage risk through a layered approach called **defense in depth**, placing multiple overlapping security controls so that failure of one layer does not compromise the entire system. Key controls include:\n\n- **Preventive controls**: firewalls, encryption, access controls\n- **Detective controls**: intrusion detection systems (IDS), log monitoring\n- **Corrective controls**: incident response plans, backups\n\nUnderstanding these fundamentals—threat classification, the CIA Triad, and defense in depth—provides the analytical framework every cybersecurity professional applies when evaluating any security scenario.",
     "examples": [
-      "A hospital's ransomware attack encrypts patient records, violating all three CIA Triad properties: doctors cannot access files (Availability), data may be altered by attackers (Integrity), and private records are exposed (Confidentiality).",
+      "A hospital's ransomware attack encrypts patient records, can violate all three CIA Triad properties: doctors cannot access files (Availability), records are altered without authorization (Integrity), and if attackers also steal copies before encrypting them, as many ransomware groups now do, private records are exposed (Confidentiality).",
       "An attacker sends a carefully crafted email to a CFO pretending to be the company's bank, requesting wire transfer credentials—this is a whaling attack that relies on social engineering rather than exploiting software vulnerabilities.",
       "A competitor floods an e-commerce website with millions of fake requests on Black Friday, preventing real customers from completing purchases—a DDoS attack targeting Availability."
     ],
@@ -54,15 +54,15 @@
         "explanation": "Defense in depth places multiple overlapping controls at different layers so no single point of failure can compromise the whole system. Zero trust is a related but distinct model focused on continuous verification of identity."
       },
       {
-        "stem": "An employee receives an email that appears to be from their CEO, urgently asking for gift card codes. This is an example of what attack?",
+        "stem": "A company's CFO receives a personalized email that appears to come from the CEO, urgently asking her to approve a large wire transfer. This is an example of what attack?",
         "choices": [
-          "Spear phishing (whaling)",
+          "Whaling",
           "Vishing",
           "Watering hole attack",
           "SQL injection"
         ],
         "answer": 0,
-        "explanation": "Whaling is spear phishing targeting executives or their direct reports with personalized, high-value lures. Vishing uses voice calls rather than email."
+        "explanation": "Whaling is spear phishing aimed at senior executives, such as a CFO, using personalized, high-value lures. Vishing uses voice calls rather than email."
       },
       {
         "stem": "Which of the following BEST describes a botnet?",

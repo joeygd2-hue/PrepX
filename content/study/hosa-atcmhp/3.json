@@ -62,7 +62,7 @@
           "Obesity"
         ],
         "answer": 3,
-        "explanation": "BMI = 80 ÷ (1.60 × 1.60) = 80 ÷ 2.56 = 31.25, which is 30 or above. Overweight is the trap for students who divide by 1.60 only once, or who stop estimating near 25 to 30."
+        "explanation": "BMI = 80 ÷ (1.60 × 1.60) = 80 ÷ 2.56 = 31.25, which is 30 or above. Overweight (25.0 to 29.9) is the trap for students who estimate instead of calculating, since 80 kg does not sound extreme."
       },
       {
         "stem": "An adult is 66 inches tall and weighs 150 lb. What is the BMI to the nearest tenth?",

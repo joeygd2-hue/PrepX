@@ -40,7 +40,7 @@
           "7:1"
         ],
         "answer": 2,
-        "explanation": "WCAG 2.1 requires a minimum contrast ratio of 4.5:1 for normal-sized body text to ensure readability for users with low vision. A 3:1 ratio only meets the standard for large text (18pt or larger)."
+        "explanation": "WCAG 2.1 requires a minimum contrast ratio of 4.5:1 for normal-sized body text to ensure readability for users with low vision. A 3:1 ratio only meets the standard for large text (at least 18pt, or 14pt bold)."
       },
       {
         "stem": "A nonprofit wants its annual report to feel formal and trustworthy. Which typeface category is the best primary choice for body text?",

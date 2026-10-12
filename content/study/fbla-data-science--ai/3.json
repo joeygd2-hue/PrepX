@@ -51,7 +51,7 @@
           "Transfer the data to a third-party auditor"
         ],
         "answer": 0,
-        "explanation": "GDPR's Article 22 grants individuals the right to an explanation of automated decisions that significantly affect them. The law requires disclosure of the logic involved, not necessarily deletion of data or model retraining."
+        "explanation": "GDPR (Articles 13–15, together with the Article 22 safeguards on solely automated decisions) gives individuals the right to meaningful information about the logic involved in automated decisions that significantly affect them. The law requires disclosure of the logic involved, not necessarily deletion of data or model retraining."
       },
       {
         "stem": "A company wants to publish aggregate statistics about its customers without allowing anyone to identify individual records from the published data. Which privacy-preserving technique addresses this directly?",

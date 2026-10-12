@@ -90,12 +90,12 @@
         "stem": "Which principle dictates that a junior accountant should only have read access to files relevant to their assigned clients, not the entire finance directory?",
         "choices": [
           "Separation of duties",
-          "Need-to-know principle",
+          "Job rotation",
           "Principle of least privilege",
           "Defense in depth"
         ],
         "answer": 2,
-        "explanation": "Least privilege limits each user's access to the minimum necessary to perform their job, reducing the damage a compromised or malicious account can cause. Need-to-know is a closely related concept but is more specifically tied to classified information contexts."
+        "explanation": "Least privilege limits each user's access to the minimum necessary to perform their job, reducing the damage a compromised or malicious account can cause. Job rotation moves employees between roles and does not limit access."
       }
     ],
     "flashcards": [

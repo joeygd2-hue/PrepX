@@ -90,11 +90,11 @@
         "choices": [
           "Main motion, amend, refer, previous question",
           "Previous question, refer, amend, main motion",
-          "Main motion, postpone indefinitely, amend, adjourn while amending",
+          "Main motion, previous question, amend, refer",
           "Refer, main motion, amend, previous question"
         ],
         "answer": 0,
-        "explanation": "Each motion in that sequence outranks the one before, so each is in order. Starting with refer fails because subsidiary motions need a pending main motion."
+        "explanation": "Each motion in that sequence outranks the one before, so each is in order. Starting with refer fails because subsidiary motions need a pending main motion. Moving amend or refer after the previous question fails because both rank below it."
       }
     ],
     "flashcards": [

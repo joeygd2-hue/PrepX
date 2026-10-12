@@ -94,8 +94,8 @@
           "A MAN (Metropolitan Area Network)",
           "A WAN (Wide Area Network)"
         ],
-        "answer": 2,
-        "explanation": "A LAN typically covers a single building or campus-sized area. A WAN spans cities, countries, or global distances. A campus network falls within LAN scope, though very large campuses sometimes use MAN classification."
+        "answer": 1,
+        "explanation": "A LAN covers a single building or a campus-sized area, even one with several buildings. A MAN spans a city or metropolitan area, and a WAN spans cities, countries or global distances."
       }
     ],
     "flashcards": [

@@ -6,7 +6,7 @@
     "examples": [
       "A restaurant owner buys property insurance for her building; if a kitchen fire causes $80,000 in damage, the indemnity principle means the insurer pays $80,000 — not $100,000, even if she claims the building was worth more.",
       "A shipping company pools premiums with thousands of other fleet owners so that the insurer can statistically predict how many trucks will be in accidents each year, making the coverage financially viable for everyone.",
-      "A bank requires a homeowner to list the bank as an additional insured on the property policy because the bank has an insurable interest in the home it holds as mortgage collateral."
+      "A bank requires a homeowner to list the bank as mortgagee (loss payee) on the property policy because the bank has an insurable interest in the home it holds as mortgage collateral."
     ],
     "questions": [
       {
