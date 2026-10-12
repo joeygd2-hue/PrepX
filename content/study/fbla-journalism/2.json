@@ -68,12 +68,12 @@
         "stem": "Which version applies AP style to a title correctly?",
         "choices": [
           "Dana Ortiz, Principal of Lincoln High, spoke.",
-          "principal Dana Ortiz spoke.",
+          "Principal of Lincoln High School Dana Ortiz spoke.",
           "Principal Dana Ortiz spoke.",
           "Dana Ortiz, The Principal, spoke."
         ],
         "answer": 2,
-        "explanation": "Formal titles are capitalized directly before a name. After a name, the title is lowercase, so the first option is wrong."
+        "explanation": "Formal titles are capitalized directly before a name. A title after a name is lowercase, and long titles belong after the name, so the other options are wrong."
       },
       {
         "stem": "A reporter's recording shows a coach said \"we kind of fell apart.\" The draft quotes her as saying \"we collapsed.\" What should happen?",

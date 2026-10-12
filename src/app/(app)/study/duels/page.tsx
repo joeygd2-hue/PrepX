@@ -74,6 +74,7 @@ export default async function DuelsPage({ searchParams }: { searchParams: Promis
               <Trophy className="size-4 text-accent" aria-hidden />
               <span>
                 <span className="font-mono font-medium tabular text-hero-fg">{wins}</span> {wins === 1 ? "win" : "wins"} in your last {plural(played.length, "finished duel")}
+              </span>
             </p>
           ) : null}
         </div>
