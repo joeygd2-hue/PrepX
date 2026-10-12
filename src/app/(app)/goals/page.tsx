@@ -4,6 +4,7 @@ import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { studyContext } from "@/server/dashboard";
 import { readiness } from "@/lib/plan";
+import { minutesForToday } from "@/lib/planner";
 import { addDays, todayIn } from "@/lib/dates";
 import { BackHeader, Page } from "@/components/ui/page";
 import { ProgressBar } from "@/components/ui/progress";
@@ -16,7 +17,7 @@ export const metadata: Metadata = { title: "Season goals" };
 export default async function Goals() {
   const user = await requireUser();
   const tz = user.profile!.timezone;
-  const ctx = await studyContext(user.id, tz, user.profile!.dailyStudyMinutes);
+  const ctx = await studyContext(user.id, tz, Math.max(10, minutesForToday(user.profile!, tz)));
   if (!ctx)
     return (
       <Page>

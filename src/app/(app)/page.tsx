@@ -18,14 +18,16 @@ import { LevelCard } from "@/components/app/level-card";
 import { InstallCard } from "@/components/app/install-card";
 import { LaunchBanner } from "@/components/app/launch-banner";
 import { getPlanStatus } from "@/server/entitlements";
+import { minutesForToday } from "@/lib/planner";
 
 export default async function Home() {
   const user = await requireUser();
   const p = user.profile!;
   const tz = p.timezone;
   const today = todayIn(tz);
+  const goalMinutes = minutesForToday(p, tz);
   const [ctx, xp, streak, announcements, unread, memberships, plan] = await Promise.all([
-    studyContext(user.id, tz, p.dailyStudyMinutes),
+    studyContext(user.id, tz, Math.max(10, goalMinutes)),
     xpSummary(user.id, tz),
     streakSummary(user.id, tz),
     homeAnnouncements(user.id, p.orgInterests),
@@ -132,7 +134,7 @@ export default async function Home() {
           </Card>
         ) : null}
 
-        {ctx ? <TodayPlan headline={ctx.tasks.headline} tasks={ctx.tasks.tasks} /> : null}
+        {ctx ? <TodayPlan headline={ctx.tasks.headline} tasks={ctx.tasks.tasks} goalMinutes={goalMinutes} /> : null}
 
         <TileGrid>
           {ctx ? (

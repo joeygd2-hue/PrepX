@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { eq, sql } from "drizzle-orm";
-import { ArrowRight, BookOpen, Check, FileText, Flame, Gauge, Globe, GraduationCap, History, Layers, Layers3, Library, Link2, MessageCircle, MessagesSquare, Mic, PlayCircle, Presentation, Repeat, ScrollText, Timer, User, Wrench, Zap } from "lucide-react";
+import { ArrowRight, Bookmark, BookOpen, CalendarDays, Check, FileText, Flame, Gauge, Globe, GraduationCap, History, Layers, Layers3, Library, Link2, MessageCircle, MessagesSquare, Mic, PlayCircle, Presentation, Repeat, ScrollText, Swords, Timer, User, Wrench, Zap } from "lucide-react";
 import { db, schema } from "@/db";
 import { requireUser } from "@/server/auth/session";
 import { bankResources, studyContext } from "@/server/dashboard";
@@ -25,6 +25,9 @@ import { LevelCard } from "@/components/app/level-card";
 import { LaunchBanner } from "@/components/app/launch-banner";
 import { AskAiButton } from "@/components/app/ask-ai";
 import { features } from "@/lib/env";
+import { formatMinutes, formatReminderTime, minutesForToday, weeklyMinutes } from "@/lib/planner";
+import { bookmarkBanks } from "@/server/bookmarks";
+import { DUEL_QUESTIONS } from "@/server/duels";
 
 export const metadata: Metadata = { title: "Study" };
 
@@ -33,7 +36,8 @@ export default async function Study() {
   const p = user.profile!;
   const tz = p.timezone;
   const org = (p.focusOrg ?? p.orgInterests[0] ?? "deca") as OrgId;
-  const ctx = await studyContext(user.id, tz, p.dailyStudyMinutes, org);
+  const goalMinutes = minutesForToday(p, tz);
+  const ctx = await studyContext(user.id, tz, Math.max(10, goalMinutes), org);
   const xp = await xpSummary(user.id, tz);
 
   return (
@@ -54,14 +58,14 @@ export default async function Study() {
           </div>
         </Card>
       ) : (
-        <StudyBody userId={user.id} tz={tz} ctx={ctx} xp={xp} />
+        <StudyBody userId={user.id} tz={tz} ctx={ctx} xp={xp} goalMinutes={goalMinutes} profile={p} />
       )}
       </div>
     </Page>
   );
 }
 
-async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; ctx: NonNullable<Awaited<ReturnType<typeof studyContext>>>; xp: Awaited<ReturnType<typeof xpSummary>> }) {
+async function StudyBody({ userId, tz, ctx, xp, goalMinutes, profile }: { userId: string; tz: string; ctx: NonNullable<Awaited<ReturnType<typeof studyContext>>>; xp: Awaited<ReturnType<typeof xpSummary>>; goalMinutes: number; profile: NonNullable<Awaited<ReturnType<typeof requireUser>>["profile"]> }) {
   const { event, plan, shape, bank, skills } = ctx;
   const r = readiness(shape, ctx.stats);
   const plan$ = await getPlanStatus(userId);
@@ -80,6 +84,8 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
   const [unitCount] = bankId ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.units).where(eq(schema.units.clusterId, bankId)) : [{ n: 0 }];
   const [cardCount] = bankId ? await db.select({ n: sql<number>`count(*)::int` }).from(schema.flashcards).where(eq(schema.flashcards.clusterId, bankId)) : [{ n: 0 }];
   const resources = bankId ? await bankResources(bankId) : [];
+  const saved = bankId ? ((await bookmarkBanks(userId)).find((b) => b.id === bankId)?.count ?? 0) : 0;
+  const weekMin = weeklyMinutes(profile.studyDays, profile.dailyStudyMinutes);
   const exQ = bankId ? `exam=${encodeURIComponent(bankId)}` : "";
   const qCount = Math.min(ctx.cluster?.questionCount ?? 100, bank?.questions ?? 0);
   const bankLabel = bank ? (bank.official ? (ctx.cluster?.name ?? bank.label) : bank.label) : "";
@@ -100,7 +106,7 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
         />
         <PlanCard plan={plan} target={ctx.target} />
         <ReadinessCard score={r.score} label={r.label} parts={r.parts} />
-        <TodayPlan headline={ctx.tasks.headline} tasks={ctx.tasks.tasks} />
+        <TodayPlan headline={ctx.tasks.headline} tasks={ctx.tasks.tasks} goalMinutes={goalMinutes} />
         <LevelCard level={xp.level} total={xp.total} week={xp.week} />
       </div>
 
@@ -150,6 +156,18 @@ async function StudyBody({ userId, tz, ctx, xp }: { userId: string; tz: string; 
           </div>
         </>
       ) : null}
+
+      <SectionLabel>Plan &amp; compete</SectionLabel>
+      <ListGroup>
+        <ListRow href="/study/planner" icon={<CalendarDays />} title="Study planner" subtitle={`${formatMinutes(weekMin)} a week · ${goalMinutes ? `${goalMinutes} min today` : "rest day today"} · reminders at ${formatReminderTime(profile.studyReminderTime)}`} />
+        <ListRow href="/study/focus" icon={<Timer />} title="Focus mode" subtitle="A distraction-free 25-minute session with a countdown ring" />
+        {bank && bank.questions > 0 ? (
+          <ListRow href={`/study/bookmarks?${exQ}`} icon={<Bookmark />} title="Bookmarks" subtitle={saved ? `${saved} saved question${saved === 1 ? "" : "s"} · practice them as a set` : "Tap the bookmark on any answered question to save it here"} />
+        ) : null}
+        {bank && bank.questions >= DUEL_QUESTIONS ? (
+          <ListRow href={`/study/duels?${exQ}`} icon={<Swords />} title="Head-to-head duels" subtitle={`Challenge a friend · same ${DUEL_QUESTIONS} questions, most right wins`} />
+        ) : null}
+      </ListGroup>
 
       <SectionLabel>Practice with AI</SectionLabel>
       <div className="space-y-3">

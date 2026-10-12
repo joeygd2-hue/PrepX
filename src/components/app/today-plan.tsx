@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useOptimistic, useTransition } from "react";
-import { ArrowUpRight, BookOpen, Brain, Check, FileText, Layers, MessageCircle, Mic, Repeat, Timer, Zap } from "lucide-react";
+import { ArrowUpRight, BookOpen, Brain, CalendarDays, Check, FileText, Layers, MessageCircle, Mic, Repeat, Timer, Zap } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { toggleTask } from "@/app/actions/plan";
 
@@ -10,16 +10,18 @@ const ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
   quick10: Zap, judge: Mic, coach: MessageCircle, lesson: BookOpen, flashcards: Layers, mistakes: Repeat, rehearsal: Timer, sprint: Zap, entry: FileText, presentation: FileText,
 };
 
-export function TodayPlan({ headline, tasks }: { headline: string; tasks: Task[] }) {
+/** goalMinutes is today's planner goal; 0 means today is a rest day in the study planner. */
+export function TodayPlan({ headline, tasks, goalMinutes }: { headline: string; tasks: Task[]; goalMinutes?: number }) {
   const [optimistic, setOptimistic] = useOptimistic(tasks, (state, id: string) => state.map((t) => (t.id === id ? { ...t, completedAt: t.completedAt ? null : new Date() } : t)));
   const [, start] = useTransition();
   const minutes = tasks.reduce((a, t) => a + t.minutes, 0);
   const done = optimistic.filter((t) => t.completedAt).length;
+  const restDay = goalMinutes === 0;
   return (
     <section aria-labelledby="today-plan" className="rounded-[24px] border border-border bg-card p-5 shadow-card sm:p-6">
       <div className="flex items-center justify-between gap-3">
         <p id="today-plan" className="eyebrow">
-          Today&apos;s plan · about {minutes} min
+          {restDay ? "Rest day · optional practice" : goalMinutes ? `Today's plan · ${goalMinutes} min goal` : `Today's plan · about ${minutes} min`}
         </p>
         <div className="flex items-center gap-1.5" aria-label={`${done} of ${tasks.length} done`}>
           {optimistic.map((t) => (
@@ -63,7 +65,19 @@ export function TodayPlan({ headline, tasks }: { headline: string; tasks: Task[]
           );
         })}
       </ul>
-      <p className="mt-4 text-xs text-muted">Tasks complete automatically when you finish the activity.</p>
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+        <p className="text-xs text-muted">Tasks complete automatically when you finish the activity.</p>
+        <div className="flex items-center gap-3 text-xs font-medium">
+          <Link href="/study/focus" className="inline-flex items-center gap-1 text-fg underline-offset-2 hover:underline">
+            <Timer className="size-3.5" aria-hidden />
+            Focus mode
+          </Link>
+          <Link href="/study/planner" className="inline-flex items-center gap-1 text-muted underline-offset-2 hover:text-fg hover:underline">
+            <CalendarDays className="size-3.5" aria-hidden />
+            {restDay ? "Edit study days" : "Planner"}
+          </Link>
+        </div>
+      </div>
     </section>
   );
 }
