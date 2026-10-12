@@ -1,0 +1,101 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+#content{transform:translate(0,-30px) scale(.89)!important}
+.ctr{position:absolute;left:0;right:0;text-align:center}
+.hv{font-weight:800;letter-spacing:-.06em;line-height:.98;text-transform:none}
+.mcard{position:absolute;left:70px;width:400px;top:410px;background:linear-gradient(180deg,#151517,#0e0e10);border:1px solid var(--border2);border-radius:28px;padding:24px;box-shadow:0 40px 90px -30px rgba(0,0,0,1)}
+.row{position:absolute;left:0;right:0;height:52px;display:flex;align-items:center;gap:14px;padding:0 16px;border-radius:16px;border:1px solid var(--border);background:var(--subtle);font-size:15px}
+.rank{width:20px;font-family:GeistMono;font-size:12px;color:var(--muted)}
+.pts{margin-left:auto;font-family:GeistMono;font-size:12px;color:var(--muted)}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script src="icons.js"></script>
+<script>
+const B=[0.35,0.77,1.18,1.65,2.07,2.48,2.93,3.34,3.76,4.18,4.6,5.04,5.46,5.9,6.34,6.76,7.17,7.59,8.01,8.45,8.87,9.29,9.73,10.15,10.59,11.01,11.42,11.87,12.28,12.72,13.14,13.56,13.98,14.37,14.84,15.28,15.7,16.11,16.56,16.97,17.39,17.79,18.23,18.67];
+const CUTS=[3.34,4.18,5.04,5.9,6.76,7.17,9.73,10.94,13.14,16.11];
+const H=16.11, END=20.0;
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="s1">
+  <div id="tro" style="position:absolute;left:120px;top:250px;opacity:.06">${icon('trophy',300,'#f2f2ec',1)}</div>
+  <div class="ctr hv" style="top:340px;font-size:54px"><span class="w">Everyone</span><span class="w">wants</span><br><span class="w">the</span><span class="w">trophy.</span></div>
+  <div class="ctr" style="top:480px;font-size:54px;line-height:1"><span class="w hv">Nobody</span><span class="w hv">wants</span><br><span class="w hv">the</span><span class="w serif" style="color:var(--accent);font-size:1.3em">work.</span></div>
+</div>
+<div class="scene" id="s2">
+  <div class="ctr mono" id="daylbl" style="top:340px;font-size:13px;letter-spacing:.2em;color:var(--muted)">DAY 1</div>
+  <div class="mcard" id="m0"><div class="eyebrow" style="color:var(--deca)">Quick 10 · DECA</div><div style="font-size:21px;font-weight:600;letter-spacing:-.03em;margin-top:10px">Which of these is a fixed cost?</div><div style="margin-top:14px;height:54px;border-radius:16px;background:#c6f03a;color:#0c0c0d;display:flex;align-items:center;padding:0 16px;font-weight:600;font-size:17px">Monthly rent<span style="margin-left:auto">✓</span></div><div style="margin-top:12px;display:inline-flex" class="chip mono" id="xp0">+10 XP</div></div>
+  <div class="mcard" id="m1" style="text-align:center"><div class="eyebrow">Day streak</div><div style="margin-top:8px;color:#ff8a3d">${icon('flame',84,'#ff8a3d',1.6)}</div><div style="height:100px;overflow:hidden;margin-top:4px"><div id="roll1" class="num" style="font-size:92px;font-weight:800;letter-spacing:-.06em;line-height:100px"><div>29</div><div style="color:#c6f03a">30</div></div></div></div>
+  <div class="mcard" id="m2" style="height:250px;perspective:900px;background:none;border:0;box-shadow:none;padding:0">
+    <div id="fl" style="position:absolute;inset:0;transform-style:preserve-3d">
+      <div style="position:absolute;inset:0;backface-visibility:hidden;border-radius:28px;background:linear-gradient(180deg,#151517,#0e0e10);border:1px solid var(--border2);display:grid;place-items:center;text-align:center;padding:24px"><div><div class="eyebrow" style="color:var(--fbla)">Flashcard · FBLA</div><div style="font-size:34px;font-weight:700;letter-spacing:-.04em;margin-top:12px">Penetration pricing</div></div></div>
+      <div style="position:absolute;inset:0;backface-visibility:hidden;transform:rotateY(180deg);border-radius:28px;background:#f6c34a;color:#10203f;display:grid;place-items:center;text-align:center;padding:28px"><div style="font-size:22px;font-weight:600;letter-spacing:-.02em;line-height:1.3">A low launch price to win market share fast.</div></div>
+    </div></div>
+  <div class="mcard" id="m3" style="text-align:center"><div class="eyebrow" style="color:var(--deca)">AI judge · practice score</div>
+    <svg width="170" height="170" viewBox="0 0 96 96" style="margin-top:12px"><circle cx="48" cy="48" r="40" fill="none" stroke="#1f1f22" stroke-width="8"/><circle id="ring3" cx="48" cy="48" r="40" fill="none" stroke="#5b9bff" stroke-width="8" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 48 48)"/><text id="sc3" x="48" y="56" text-anchor="middle" fill="#f2f2ec" font-family="Geist" font-weight="800" font-size="26">64</text></svg></div>
+  <div class="mcard" id="m4" style="text-align:center"><div class="eyebrow" style="color:var(--hosa)">Lessons · HOSA</div><div style="margin:14px auto 0;width:96px;height:96px;border-radius:50%;background:#c6f03a;display:grid;place-items:center">${icon('graduation-cap',50,'#0c0c0d',2)}</div><div style="font-size:30px;font-weight:800;letter-spacing:-.04em;margin-top:14px">Unit 5 mastered</div></div>
+</div>
+<div class="scene" id="s3"><div class="ctr hv" style="top:410px;font-size:64px"><span class="w">Let</span><span class="w">them</span><br><span class="w serif" id="doubt" style="color:#ff5c70;font-size:1.3em;font-weight:400">doubt</span><span class="w">you.</span></div></div>
+<div class="scene" id="s4">
+  <div id="tro2" style="position:absolute;left:150px;top:230px">${icon('trophy',240,'#c6f03a',1.2)}</div>
+  <div class="ctr hv" id="by" style="top:470px;font-size:56px">Build your</div>
+  <div class="ctr serif" id="leg" style="top:520px;font-size:150px;line-height:1;color:var(--accent)">legacy.</div>
+  <div id="orgs4" style="position:absolute;left:0;right:0;top:700px;display:flex;justify-content:center"><div class="chip mono" style="font-size:11px;letter-spacing:.12em;gap:10px;color:var(--muted);height:32px;padding:0 16px"><span class="dot" style="background:var(--deca)"></span>DECA<span class="dot" style="background:var(--fbla)"></span>FBLA<span class="dot" style="background:var(--hosa)"></span>HOSA<span class="dot" style="background:var(--tsa)"></span>TSA</div></div>
+</div>
+<div class="scene" id="s5">
+  <div class="ctr hv" id="tb" style="top:180px;font-size:56px"><span class="w">Top</span><span class="w">of</span><span class="w">the</span><br><span class="w serif" style="color:var(--accent);font-size:1.25em;font-weight:400">board.</span></div>
+  <div class="card" id="lb" style="top:370px"><div class="eyebrow">Your chapter · this season</div><div class="title">Leaderboard</div><div id="rows" style="position:relative;height:300px;margin-top:16px"></div></div>
+</div>
+<div class="scene" id="end">${LOGO_HTML}</div>`));
+const people=[['Maya R.',1240],['Daniel K.',1185],['Aisha M.',1105],['You',1060],['Leo P.',990]];
+const rowEls=people.map(([n,pt],i)=>{const d=document.createElement('div');d.className='row';d.innerHTML=`<span class="rank">${i+1}</span><span class="nm">${n}</span><span class="pts">${pt.toLocaleString()} pts</span>`;$('rows').appendChild(d);return d;});
+const stages=[[0,1,2,3,4],[0,1,3,2,4],[0,3,1,2,4],[3,0,1,2,4]],stageT=[13.98,14.84,15.7],youPts=[1060,1120,1200,1275];
+
+function cardIn(el,t,a,b){const e=eo5(p(t,a,.22)),o=p(t,b-.06,.06);const sh=Math.sin(t*90)*7*Math.exp(-(t-a)*14)*(t>=a?1:0);
+  el.style.display=t>=a&&t<b?'block':'none';el.style.opacity=(t<a||t>=b)?0:1;el.style.transform=`translate(${sh.toFixed(1)}px,${((1-e)*40).toFixed(1)}px) scale(${lerp(1.18,1,e).toFixed(3)}) rotate(${((1-e)*-3).toFixed(2)}deg)`;el.style.filter=e<.97?`blur(${((1-e)*12).toFixed(1)}px)`:'none';}
+function slam(el,t,a,k=1.5){const e=eo5(p(t,a,.24));el.style.opacity=(t<a?0:eo(p(t,a,.12))).toFixed(3);el.style.transform=`scale(${lerp(k,1,e).toFixed(3)})`;el.style.filter=e<.97?`blur(${((1-e)*14).toFixed(1)}px)`:'none';}
+
+window.render=function(t){
+  const l=lastBeat(B,t);let cut=-9;for(const c of CUTS)if(c<=t)cut=c;
+  const kick=0.03*Math.exp(-(t-cut)*10)+(t<END-1?0.014*Math.exp(-(t-l)*9):0);
+  const shake=t<H?Math.sin(t*70)*3*Math.exp(-(t-cut)*12):0;
+  $('stage').style.transform=`translate(${shake.toFixed(1)}px,0) scale(${(1+kick).toFixed(4)})`;
+  $('flash').style.background='radial-gradient(80% 60% at 50% 45%,rgba(255,255,255,.55),transparent 75%)';
+  $('flash').style.opacity=(t>=cut&&cut>0?Math.exp(-(t-cut)*16)*.7:0).toFixed(3);
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  // S1 hook
+  if(show('s1',t<3.34)){glow(G[0],270,470,220,'#c6f03a',.06+.1*eo(p(t,2.07,.3)));
+    const ws=[...$('s1').querySelectorAll('.w')];const at=[0.35,0.55,0.77,0.98,1.65,1.86,2.07,2.07];
+    ws.forEach((w,i)=>{const a=at[i];const e=eo5(p(t,a,.22));w.style.opacity=(t<a?0:1);w.style.transform=`scale(${lerp(1.6,1,e).toFixed(3)})`;w.style.filter=e<.97?`blur(${((1-e)*12).toFixed(1)}px)`:'none';});
+    $('tro').style.transform=`scale(${(1+.05*Math.sin(t)).toFixed(3)})`;}
+  // S2 work montage
+  if(show('s2',t>=3.34&&t<7.17)){const day=Math.min(30,1+Math.floor(eio(p(t,3.4,3.6))*29));$('daylbl').textContent='DAY '+day;$('daylbl').style.color=day>=30?'#c6f03a':'';
+    glow(G[0],270,480,220,['#2f6fd6','#ff8a3d','#c99a1c','#2f6fd6','#c23b6a'][Math.max(0,CUTS.indexOf(cut))]||'#c6f03a',.18);
+    const T=[3.34,4.18,5.04,5.9,6.76,7.17];for(let i=0;i<5;i++)cardIn($('m'+i),t,T[i],T[i+1]);
+    $('xp0').style.background=t>3.6?'#c6f03a':'';$('xp0').style.color=t>3.6?'#0c0c0d':'';
+    $('roll1').style.transform=`translateY(${(-100*eo5(p(t,4.6,.3))).toFixed(1)}px)`;
+    const fl=eio(p(t,5.46,.35));$('fl').style.transform=`rotateY(${(fl*180).toFixed(1)}deg)`;
+    const s=eo5(p(t,6.0,.6));$('ring3').style.strokeDashoffset=(100-lerp(64,91,s)).toFixed(2);$('sc3').textContent=Math.round(lerp(64,91,s));}
+  // S3 doubt
+  if(show('s3',t>=7.17&&t<9.73)){glow(G[0],270,470,200,'#ff5c70',.12);const ws=[...$('s3').querySelectorAll('.w')];const at=[7.48,7.59,7.82,8.28];
+    ws.forEach((w,i)=>{const a=at[i];const e=eo5(p(t,a,.22));const out=eio(p(t,9.45,.28));w.style.opacity=((t<a?0:1)*(1-out)).toFixed(3);w.style.transform=`scale(${lerp(1.5,1,e).toFixed(3)}) translateY(${(-out*30).toFixed(1)}px)`;w.style.filter=(e<.97||out>.02)?`blur(${((1-e)*12+out*12).toFixed(1)}px)`:'none';});
+    const g=t>8.0&&t<9.4?(Math.sin(t*53)>0.6?1:0):0;$('doubt').style.textShadow=g?'4px 0 #2af0ff,-4px 0 #ff2a6d':'none';$('doubt').style.transform+=g?' translateX(3px) skewX(-6deg)':'';}
+  // S4 legacy
+  if(show('s4',t>=9.73&&t<13.14)){const lg=t>=10.94;glow(G[0],270,520,240,'#c6f03a',.08+(lg?.22*Math.exp(-(t-10.94)*1.5)+.1:0));glow(G[1],270,330,160,'#f6c34a',lg?.12:0);
+    slam($('by'),t,9.88,1.3);slam($('leg'),t,10.94,2.2);const tr=eo5(p(t,10.94,.5));$('tro2').style.opacity=(.12+.2*tr).toFixed(3);$('tro2').style.transform=`scale(${lerp(.6,1,tr).toFixed(3)}) translateY(${((1-tr)*30).toFixed(1)}px)`;
+    put($('orgs4'),io(t,11.87,13.14,.35,.25,14,20));const out=eio(p(t,12.9,.24));$('s4').style.opacity=(1-out).toFixed(3);}
+  // S5 leaderboard
+  if(show('s5',t>=13.14&&t<H)){glow(G[0],270,520,230,'#c6f03a',.12);
+    const ws=[...$('tb').querySelectorAll('.w')];const at=[13.38,13.56,13.76,14.1];ws.forEach((w,i)=>{const e=eo5(p(t,at[i],.22));w.style.opacity=t<at[i]?0:1;w.style.transform=`scale(${lerp(1.5,1,e).toFixed(3)})`;w.style.filter=e<.97?`blur(${((1-e)*12).toFixed(1)}px)`:'none';});
+    put($('lb'),io(t,13.2,H,.35,.2,50,40));
+    rowEls.forEach((el,person)=>{let y=stages[0].indexOf(person);for(let s=1;s<4;s++)y=lerp(y,stages[s].indexOf(person),back(p(t,stageT[s-1],.32)));el.style.transform=`translateY(${(y*58).toFixed(1)}px)`;el.querySelector('.rank').textContent=Math.round(y)+1;el.style.zIndex=person===3?5:1;});
+    let pts=youPts[0];for(let s=1;s<4;s++)pts=lerp(pts,youPts[s],eo(p(t,stageT[s-1],.32)));const you=rowEls[3];you.querySelector('.pts').textContent=Math.round(pts).toLocaleString()+' pts';
+    you.style.background='#c6f03a';you.style.color='#0c0c0d';you.style.borderColor='transparent';you.querySelector('.pts').style.color='#0c0c0d';you.querySelector('.rank').style.color='#0c0c0d';you.querySelector('.nm').style.fontWeight=700;
+    const lift=Math.max(...stageT.map(s=>t>=s?Math.exp(-(t-s)*8):0));you.style.boxShadow=`0 ${10+14*lift}px ${30+20*lift}px -10px rgba(198,240,58,${(.3+.4*lift).toFixed(2)})`;}
+  // end
+  if(show('end',t>=H)){const k=Math.exp(-(t-H)*2.2);const fade=eio(p(t,19.3,.7));glow(G[0],270,430,240,'#c6f03a',(.12+.25*k)*(1-fade*.6));glow(G[1],270,430,120,'#ffffff',(.05+.18*k)*(1-fade*.6));renderLogo(t,H,END);}
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>

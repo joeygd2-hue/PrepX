@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Geist;src:url(fonts/geist.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:GeistMono;src:url(fonts/geist-mono.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:Instrument;src:url(fonts/InstrumentSerif-Italic.ttf);font-style:italic}
+:root{--bg:#09090a;--fg:#f2f2ec;--muted:#8d8d86;--card:#111113;--subtle:#151517;--subtle2:#1f1f22;--border:rgba(255,255,255,.08);--border2:rgba(255,255,255,.16);--accent:#c6f03a;--success:#4fd18b;--deca:#5b9bff;--fbla:#f6c34a;--hosa:#f0668f;--tsa:#ff5c70}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:540px;height:960px;background:var(--bg);overflow:hidden;font-family:Geist,sans-serif;color:var(--fg);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;inset:0;overflow:hidden;transform-origin:50% 45%}
+.glow{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none}
+#grain{position:absolute;inset:0;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='7'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+#vignette{position:absolute;inset:0;background:radial-gradient(120% 80% at 50% 40%,transparent 55%,rgba(0,0,0,.65))}
+.scene{position:absolute;inset:0;opacity:0}
+.eyebrow{font-family:GeistMono;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.serif{font-family:Instrument;font-style:italic;font-weight:400;letter-spacing:-.01em}
+.head{position:absolute;left:40px;right:40px;top:132px;text-align:center;font-size:40px;font-weight:600;letter-spacing:-.045em;line-height:1.04}
+.w{display:inline-block;margin:0 .1em;will-change:transform,filter,opacity}
+.head .serif{font-size:1.2em}
+.card{position:absolute;left:46px;width:448px;top:300px;background:linear-gradient(180deg,#141416,#0f0f11);border:1px solid var(--border);border-radius:28px;padding:26px;box-shadow:0 1px 0 rgba(255,255,255,.05) inset,0 40px 90px -30px rgba(0,0,0,.95)}
+.title{font-size:26px;font-weight:600;letter-spacing:-.04em;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px;border-radius:99px;border:1px solid var(--border2);font-size:12px;color:var(--fg)}
+.mono{font-family:GeistMono}
+.dot{width:7px;height:7px;border-radius:50%}
+.bubble{margin-top:18px;background:var(--subtle);border:1px solid var(--border);border-radius:18px;padding:14px 16px;font-size:15px;line-height:1.4}
+.opt{position:relative;display:flex;align-items:center;gap:12px;height:50px;border:1px solid var(--border);background:var(--subtle);border-radius:16px;padding:0 14px;font-size:15px;margin-top:9px}
+.letter{width:26px;height:26px;border-radius:9px;display:grid;place-items:center;font-family:GeistMono;font-size:12px;background:var(--subtle2);color:var(--muted)}
+.row{position:absolute;left:0;right:0;height:52px;display:flex;align-items:center;gap:14px;padding:0 16px;border-radius:16px;border:1px solid var(--border);background:var(--subtle);font-size:15px}
+.rank{width:20px;font-family:GeistMono;font-size:12px;color:var(--muted)}
+.pts{margin-left:auto;font-family:GeistMono;font-size:12px;color:var(--muted)}
+.term{padding:0 3px;border-radius:5px;background-repeat:no-repeat;background-position:0 0}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="glow" id="g0"></div><div class="glow" id="g1"></div><div class="glow" id="g2"></div><div class="glow" id="g3"></div><div class="glow" id="g4"></div>
+<div id="content" style="position:absolute;inset:0;transform:translate(-16px,-34px) scale(.93);transform-origin:50% 0">
+
+  <!-- S1 four competitions -->
+  <div class="scene" id="s1">
+    <div class="abs-word" id="o0" style="position:absolute;left:70px;top:300px;font-size:58px;font-weight:600;letter-spacing:-.05em">DECA</div>
+    <div class="abs-word" id="o1" style="position:absolute;left:290px;top:372px;font-size:58px;font-weight:600;letter-spacing:-.05em">FBLA</div>
+    <div class="abs-word" id="o2" style="position:absolute;left:84px;top:470px;font-size:58px;font-weight:600;letter-spacing:-.05em">HOSA</div>
+    <div class="abs-word" id="o3" style="position:absolute;left:316px;top:540px;font-size:58px;font-weight:600;letter-spacing:-.05em">TSA</div>
+    <div id="s1cap" style="position:absolute;left:0;right:0;top:720px;text-align:center;font-size:20px;color:var(--muted);letter-spacing:-.02em">Four competitions.</div>
+  </div>
+
+  <!-- S2 one place -->
+  <div class="scene" id="s2">
+    <div style="position:absolute;left:0;right:0;top:360px;text-align:center;font-size:50px;font-weight:600;letter-spacing:-.05em;line-height:1">
+      <span class="w" id="s2w0">One</span><span class="w" id="s2w1">place</span><span class="w" id="s2w2">to</span>
+    </div>
+    <div style="position:absolute;left:0;right:0;top:420px;text-align:center;font-size:96px;line-height:1;color:var(--accent)" class="serif"><span class="w" id="s2w3">prepare.</span></div>
+    <svg id="s2arrow" width="200" height="40" viewBox="0 0 200 40" style="position:absolute;left:170px;top:540px;overflow:visible"><path d="M8 30 C 70 30, 120 24, 186 8" fill="none" stroke="#c6f03a" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1" id="s2arrowp"/><path d="M170 6 L188 7 L182 24" fill="none" stroke="#c6f03a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" id="s2arrowh"/></svg>
+  </div>
+
+  <!-- S3 roleplay -->
+  <div class="scene" id="s3">
+    <div class="head" id="s3h"><span class="w">Practice</span><span class="w">roleplays</span><br><span class="w serif" style="color:var(--deca)">out</span><span class="w serif" style="color:var(--deca)">loud.</span></div>
+    <div class="card" id="s3c">
+      <div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">AI judge · DECA · Hospitality</span><span class="chip mono" style="font-size:11px" id="s3timer">10:00</span></div>
+      <div class="title">Roleplay</div>
+      <div style="margin-top:12px;display:flex;gap:8px"><span class="chip"><span class="dot" style="background:var(--deca)"></span>Standard judge</span><span class="chip" style="color:var(--muted)">Voice</span></div>
+      <div class="bubble"><div class="eyebrow" style="margin-bottom:6px">Judge</div>“Why should a guest pick your hotel over the one next door?”</div>
+      <div style="position:relative;height:178px;margin-top:16px">
+        <div id="s3wave" style="position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center">
+          <div id="bars" style="display:flex;align-items:center;justify-content:center;gap:4px;height:90px"></div>
+          <div style="display:flex;align-items:center;gap:8px;justify-content:center;margin-top:12px;font-size:12px;color:var(--muted)"><span class="dot" id="s3rec" style="background:#ff5c70"></span>Listening…</div>
+        </div>
+        <div id="s3score" style="position:absolute;inset:0;background:var(--subtle);border:1px solid var(--border);border-radius:18px;padding:16px 18px">
+          <div class="eyebrow">Practice score</div>
+          <div style="display:flex;align-items:baseline;gap:6px;margin-top:4px"><span id="s3num" style="font-size:46px;font-weight:600;letter-spacing:-.05em;font-variant-numeric:tabular-nums">0</span><span style="color:var(--muted);font-size:14px">/100</span></div>
+          <div style="height:5px;border-radius:9px;background:var(--subtle2);margin-top:6px;overflow:hidden"><div id="s3bar" style="height:100%;width:0;background:var(--deca);border-radius:9px"></div></div>
+          <div id="s3checks" style="margin-top:12px;display:grid;gap:7px;font-size:13px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S4 exam -->
+  <div class="scene" id="s4">
+    <div class="head" id="s4h"><span class="w">Full</span><span class="w">practice</span><br><span class="w serif" style="color:var(--fbla)">exams.</span></div>
+    <div class="card" id="s4c">
+      <div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">FBLA · Marketing</span><span class="eyebrow" id="s4q">Q 12 / 100</span></div>
+      <div style="height:4px;border-radius:9px;background:var(--subtle2);margin-top:12px;overflow:hidden"><div id="s4prog" style="height:100%;width:12%;background:var(--fbla)"></div></div>
+      <div style="font-size:19px;font-weight:600;letter-spacing:-.03em;line-height:1.3;margin-top:18px">A new brand launches at a low price to win customers fast. Which strategy is this?</div>
+      <div style="margin-top:12px" id="s4opts">
+        <div class="opt"><span class="letter">A</span>Price skimming</div>
+        <div class="opt"><span class="letter">B</span>Prestige pricing</div>
+        <div class="opt" id="s4ok"><span class="letter" id="s4okl">C</span>Penetration pricing<svg id="s4tick" width="20" height="20" viewBox="0 0 20 20" style="margin-left:auto"><path d="M4 10.5 L8.5 15 L16 6" fill="none" stroke="#f6c34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" id="s4tickp"/></svg><div id="s4ripple" style="position:absolute;left:50%;top:50%;width:40px;height:40px;margin:-20px;border-radius:50%;border:2px solid var(--fbla)"></div></div>
+        <div class="opt"><span class="letter">D</span>Bundle pricing</div>
+      </div>
+      <div id="s4correct" style="margin-top:14px;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--fbla)"><span class="dot" style="background:var(--fbla)"></span>Correct — low launch price, fast share.</div>
+    </div>
+    <div id="s4xp" class="chip mono" style="position:absolute;left:330px;top:640px;background:var(--fbla);color:#10203f;border:0;font-weight:600;font-size:13px">+10 XP</div>
+  </div>
+
+  <!-- S5 lesson -->
+  <div class="scene" id="s5">
+    <div class="head" id="s5h"><span class="w">Learn</span><span class="w">it</span><span class="w">like</span><br><span class="w serif" style="color:var(--hosa)">a</span><span class="w serif" style="color:var(--hosa)">course.</span></div>
+    <div class="card" id="s5c">
+      <div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">HOSA · Medical Terminology</span><span class="eyebrow">4 min</span></div>
+      <div class="title">Word parts</div>
+      <div id="segs" style="display:flex;gap:5px;margin-top:14px"></div>
+      <div style="position:relative;height:186px;margin-top:20px;overflow:hidden">
+        <div id="pg1" style="position:absolute;inset:0;font-size:17px;line-height:1.55;color:#d9d9d2">Medical terms are built from parts. The <span class="term" id="t1">root</span> carries the core meaning, like <i>cardi-</i>, which means heart.</div>
+        <div id="pg2" style="position:absolute;inset:0;font-size:17px;line-height:1.55;color:#d9d9d2">A <span class="term" id="t2">suffix</span> finishes the word. Add <i>-itis</i>, meaning inflammation, and <i>cardi-</i> becomes <i>carditis</i>.</div>
+        <div id="pop" style="position:absolute;left:0;top:92px;width:300px;background:#1b1b1e;border:1px solid var(--border2);border-radius:14px;padding:12px 14px;box-shadow:0 20px 40px -10px rgba(0,0,0,.8)"><div class="eyebrow" style="color:var(--hosa)">Key term</div><div style="font-size:14px;margin-top:4px;line-height:1.35"><b>Suffix</b> — a word ending that changes the meaning, like <i>-itis</i>.</div></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px"><span class="chip" style="color:var(--muted)">← Back</span><span class="eyebrow" id="s5page">Page 2 of 6</span><span class="chip" style="background:var(--hosa);color:#1a0710;border:0;font-weight:600">Next →</span></div>
+    </div>
+  </div>
+
+  <!-- S6 leaderboard -->
+  <div class="scene" id="s6">
+    <div class="head" id="s6h"><span class="w">Climb</span><span class="w">the</span><br><span class="w serif" style="color:var(--tsa)">leaderboard.</span></div>
+    <div class="card" id="s6c">
+      <div class="eyebrow">TSA · Your chapter · This season</div>
+      <div class="title">Leaderboard</div>
+      <div id="rows" style="position:relative;height:358px;margin-top:16px"></div>
+    </div>
+  </div>
+
+  <!-- S7 up up up -->
+  <div class="scene" id="s7">
+    <div id="up0" style="position:absolute;left:0;right:0;text-align:center;font-size:62px;font-weight:600;letter-spacing:-.05em">Scores <span class="serif" style="color:var(--accent);font-size:1.15em">up.</span></div>
+    <div id="up1" style="position:absolute;left:0;right:0;text-align:center;font-size:62px;font-weight:600;letter-spacing:-.05em">Streak <span class="serif" style="color:var(--accent);font-size:1.15em">up.</span></div>
+    <div id="up2" style="position:absolute;left:0;right:0;text-align:center;font-size:62px;font-weight:600;letter-spacing:-.05em">Rank <span class="serif" style="color:var(--accent);font-size:1.15em">up.</span></div>
+  </div>
+
+  <!-- S8 logo -->
+  <div class="scene" id="s8">
+    <div id="lockup" style="position:absolute;left:0;right:0;top:370px;display:flex;align-items:center;justify-content:center;gap:18px">
+      <svg id="mark" width="104" height="104" viewBox="0 0 32 32" style="overflow:visible">
+        <rect width="32" height="32" rx="10" fill="#f2f2ec"/>
+        <path id="mx1" d="M10 10 L14 14 M18 18 L22 22" stroke="#09090a" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1"/>
+        <path id="mx2" d="M10 22 L22 10" stroke="#09090a" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="1"/>
+        <path id="mx3" d="M16.2 10 H22 V15.8" fill="none" stroke="#7fa312" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1"/>
+      </svg>
+      <div id="word" style="font-size:76px;font-weight:600;letter-spacing:-.055em;line-height:1;overflow:hidden;white-space:nowrap">Prep<span class="serif" style="font-size:1.15em;letter-spacing:0;color:var(--accent)">X</span></div>
+    </div>
+    <div id="tag" style="position:absolute;left:0;right:0;top:520px;text-align:center;font-size:24px;color:var(--fg);letter-spacing:-.03em">Free to start.</div>
+    <div id="orgs" style="position:absolute;left:0;right:0;top:572px;display:flex;justify-content:center"><div class="chip mono" style="font-size:11px;letter-spacing:.12em;gap:10px;color:var(--muted);height:32px;padding:0 16px">
+      <span class="dot" style="background:var(--deca)"></span>DECA<span class="dot" style="background:var(--fbla)"></span>FBLA<span class="dot" style="background:var(--hosa)"></span>HOSA<span class="dot" style="background:var(--tsa)"></span>TSA</div></div>
+  </div>
+
+  </div>
+  <div id="flash" style="position:absolute;inset:0;background:radial-gradient(60% 40% at 50% 42%,rgba(198,240,58,.55),transparent 70%);opacity:0"></div>
+  <div id="grain"></div><div id="vignette"></div>
+</div>
+
+<script>
+const B=[0.07,0.49,0.95,1.46,1.95,2.44,2.93,3.41,3.9,4.41,4.9,5.39,5.87,6.36,6.85,7.34,7.85,8.34,8.82,9.31,9.8,10.29,10.77,11.28,11.77,12.26,12.75,13.28];
+const HIT=13.28, END=18;
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const eo5=x=>1-Math.pow(1-x,5);
+const eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c1=1.6,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+function io(t,a,b,din=.42,dout=.26,rise=34,lift=46){const i=eo(p(t,a,din)),o=eio(p(t,b-dout,dout));return{o:i*(1-o),y:(1-i)*rise-o*lift,bl:(1-i)*14+o*16,s:lerp(.96,1,i)};}
+function put(el,s,extra=''){el.style.opacity=s.o.toFixed(3);el.style.transform=`translate3d(0,${s.y.toFixed(2)}px,0) scale(${(s.s??1).toFixed(4)}) ${extra}`;el.style.filter=s.bl>.08?`blur(${s.bl.toFixed(2)}px)`:'none';}
+function show(id,on){$(id).style.opacity=on?1:0;$(id).style.display=on?'block':'none';}
+function words(container,t,a,b,stagger=.07){[...$(container).querySelectorAll('.w')].forEach((w,i)=>put(w,io(t,a+i*stagger,b-(0.0),.42,.26)));}
+
+// build dynamic DOM
+const bars=$('bars');for(let i=0;i<34;i++){const d=document.createElement('div');d.style.cssText='width:4px;border-radius:3px;background:#f2f2ec';bars.appendChild(d);}
+const checks=['Clear, confident opening','Answered the follow-up','Strong close'];
+checks.forEach(c=>{const d=document.createElement('div');d.style.cssText='display:flex;align-items:center;gap:8px';d.innerHTML=`<span style="width:16px;height:16px;border-radius:50%;background:var(--deca);display:grid;place-items:center"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 5.2 L4.2 7.3 L8 3" fill="none" stroke="#0b1220" stroke-width="1.6" stroke-linecap="round"/></svg></span>${c}`;$('s3checks').appendChild(d);});
+for(let i=0;i<6;i++){const d=document.createElement('div');d.style.cssText='flex:1;height:4px;border-radius:9px;background:var(--subtle2);overflow:hidden';d.innerHTML='<div style="height:100%;width:0;background:var(--hosa)"></div>';$('segs').appendChild(d);}
+const people=[['Maya R.',1240],['Daniel K.',1185],['Aisha M.',1105],['Leo P.',990],['You',960],['Sofia T.',940]];
+const rowEls=people.map(([n,pt],i)=>{const d=document.createElement('div');d.className='row';d.innerHTML=`<span class="rank">${i+1}</span><span style="width:30px;height:30px;border-radius:50%;background:${n==='You'?'#1a0509':'var(--subtle2)'};display:grid;place-items:center;font-size:12px;color:${n==='You'?'var(--tsa)':'var(--muted)'}">${n[0]}</span><span class="nm">${n}</span><span class="pts">${pt.toLocaleString()} pts</span>`;$('rows').appendChild(d);return d;});
+// stage orders for "You" climbing on beats 10.29 / 10.77 / 11.28
+const youPts=[960,1110,1200,1265];
+const stages=[[0,1,2,3,4,5],[0,1,4,2,3,5],[0,4,1,2,3,5],[4,0,1,2,3,5]];
+const stageT=[B[21],B[22],B[23]];
+
+function glow(el,x,y,r,color,a){el.style.left=(x-r)+'px';el.style.top=(y-r)+'px';el.style.width=el.style.height=(2*r)+'px';el.style.background=color;el.style.opacity=a.toFixed(3);}
+
+window.render=function(t){
+  // beat pulse + slow push-in
+  let last=-9;for(const b of B)if(b<=t)last=b;
+  const pulse=t<HIT+0.01?0.012*Math.exp(-(t-last)*9):0;
+  const hitKick=t>=HIT?0.05*Math.exp(-(t-HIT)*6):0;
+  $('stage').style.transform=`scale(${(1+pulse+hitKick+0.004*Math.sin(t*.7)).toFixed(4)})`;
+
+  // background glows by scene
+  const sc=t<1.95?1:t<3.9?2:t<5.87?3:t<7.85?4:t<9.8?5:t<11.77?6:t<HIT?7:8;
+  const G=['g0','g1','g2','g3','g4'].map($);
+  G.forEach(g=>g.style.opacity=0);
+  const wob=(k)=>Math.sin(t*1.3+k)*14;
+  if(sc===1){const a=eo(p(t,0,.5))*(1-eio(p(t,1.7,.25)));
+    [['#2f6fd6',150,330],['#d9a520',380,400],['#c23b6a',150,520],['#e0303f',390,580]].forEach(([c,x,y],k)=>glow(G[k],x+wob(k),y+wob(k+2),130,c,a*.55*eo(p(t,B[k],.4))));}
+  else if(sc===2){glow(G[0],270,450,220,'#c6f03a',.16*eo(p(t,1.95,.5))*(1-eio(p(t,3.65,.25))));}
+  else if(sc>=3&&sc<=6){const c=['#2f6fd6','#c99a1c','#c23b6a','#e0303f'][sc-3];const a0=[3.9,5.87,7.85,9.8][sc-3];
+    glow(G[0],270+wob(1),300,230,c,.32*eo(p(t,a0,.5))*(1-eio(p(t,a0+1.7,.27))));glow(G[1],270-wob(2),760,200,'#c6f03a',.05);}
+  else if(sc===7){glow(G[0],270,470,230,'#c6f03a',.14+.05*Math.exp(-(t-last)*6));}
+  else{const k=Math.exp(-(t-HIT)*2.2);glow(G[0],270,430,240,'#c6f03a',.12+.25*k);glow(G[1],270,430,120,'#ffffff',.05+.18*k);}
+  $('flash').style.opacity=(t>=HIT?Math.exp(-(t-HIT)*7)*.9:0).toFixed(3);
+
+  // S1
+  show('s1',t<1.95);
+  if(t<1.95){for(let k=0;k<4;k++){const el=$('o'+k);const i=back(p(t,B[k],.42)),e=eo(p(t,B[k],.42));const out=eio(p(t,1.66,.29));
+      const dx=(270-(parseFloat(el.style.left)+70))*out*.6, dy=(470-(parseFloat(el.style.top)+30))*out*.6;
+      el.style.opacity=(e*(1-out)).toFixed(3);el.style.filter=`blur(${((1-e)*16+out*14).toFixed(2)}px)`;
+      el.style.transform=`translate(${dx}px,${(dy+(1-e)*30+Math.sin(t*1.6+k*1.7)*4).toFixed(2)}px) scale(${(lerp(.7,1,i)).toFixed(3)})`;}
+    put($('s1cap'),io(t,B[1],1.95,.4,.25,16,20));}
+
+  // S2
+  show('s2',t>=1.95&&t<3.9);
+  if(t>=1.95&&t<3.9){['s2w0','s2w1','s2w2'].forEach((id,i)=>put($(id),io(t,1.95+i*.08,3.9)));
+    const s=io(t,B[5],3.9,.5);s.s=lerp(.82,1,back(p(t,B[5],.5)));put($('s2w3'),s);
+    const d=eio(p(t,B[6],.42)),dh=eio(p(t,B[6]+.3,.2)),out=eio(p(t,3.64,.26));
+    $('s2arrowp').style.strokeDashoffset=1-d;$('s2arrowh').style.strokeDashoffset=1-dh;$('s2arrow').style.opacity=1-out;$('s2arrow').style.transform=`translateY(${-out*40}px)`;}
+
+  // S3 roleplay
+  show('s3',t>=3.9&&t<5.87);
+  if(t>=3.9&&t<5.87){words('s3h',t,3.9,5.87);const c=io(t,3.98,5.87,.5,.26,60,46);put($('s3c'),c);
+    const secs=600-Math.floor((t-3.9)*9);$('s3timer').textContent=`${Math.floor(secs/60)}:${String(secs%60).padStart(2,'0')}`;
+    const act=eo(p(t,4.2,.25))*(1-eio(p(t,4.78,.2)));
+    [...$('bars').children].forEach((b,i)=>{const env=Math.sin(Math.PI*(i+.5)/34);const h=6+70*env*act*(0.35+0.65*Math.abs(Math.sin(i*.83+t*11)*Math.cos(i*.37-t*6.3)));b.style.height=h.toFixed(1)+'px';b.style.opacity=(0.35+0.65*env).toFixed(2);});
+    $('s3wave').style.opacity=(1-eio(p(t,4.8,.2))).toFixed(3);$('s3rec').style.opacity=(0.4+0.6*Math.abs(Math.sin(t*6))).toFixed(2);
+    const sp=io(t,B[10],9,.35,.1,20,0);put($('s3score'),sp);
+    const n=eo5(p(t,B[10]+.05,.62));$('s3num').textContent=Math.round(91*n);$('s3bar').style.width=(91*n)+'%';
+    [...$('s3checks').children].forEach((ch,i)=>{const e=eo(p(t,5.12+i*.17,.3));ch.style.opacity=e;ch.style.transform=`translateX(${(1-e)*-14}px)`;});}
+
+  // S4 exam
+  show('s4',t>=5.87&&t<7.85);
+  if(t>=5.87&&t<7.85){words('s4h',t,5.87,7.85);put($('s4c'),io(t,5.95,7.85,.5,.26,60,46));
+    const opts=[...$('s4opts').children];const right=p(t,B[14],.01)>=1;const rp=eo(p(t,B[14],.3));
+    opts.forEach((o,i)=>{const e=eo(p(t,6.1+i*.08,.35));const dim=o.id==='s4ok'?1:1-.55*rp;o.style.opacity=(e*dim).toFixed(3);o.style.transform=`translateY(${(1-e)*14}px) scale(${o.id==='s4ok'?(1+.03*Math.sin(Math.PI*rp)).toFixed(4):1})`;});
+    const ok=$('s4ok');ok.style.borderColor=right?`rgba(246,195,74,${(.25+.6*rp).toFixed(2)})`:'var(--border)';ok.style.background=right?`rgba(246,195,74,${(.1*rp).toFixed(3)})`:'var(--subtle)';
+    $('s4okl').style.background=right?'#f6c34a':'var(--subtle2)';$('s4okl').style.color=right?'#10203f':'var(--muted)';
+    $('s4tickp').style.strokeDashoffset=1-eo(p(t,B[14]+.04,.3));
+    const rip=p(t,6.58,.3);$('s4ripple').style.opacity=(rip>0&&rip<1?(1-rip)*.9:0).toFixed(3);$('s4ripple').style.transform=`scale(${(.4+rip*2.2).toFixed(3)})`;
+    const cs=eo(p(t,B[14]+.1,.3));$('s4correct').style.opacity=cs;$('s4correct').style.transform=`translateY(${(1-cs)*8}px)`;
+    const xp=p(t,7.0,.75);$('s4xp').style.opacity=(xp>0?eo(p(t,7.0,.15))*(1-eio(p(t,7.45,.3))):0).toFixed(3);$('s4xp').style.transform=`translateY(${(-eo(xp)*70).toFixed(1)}px) scale(${lerp(.6,1,back(p(t,7.0,.3))).toFixed(3)})`;
+    $('s4prog').style.width=(12+eio(p(t,B[15],.35))).toFixed(2)+'%';$('s4q').textContent=t>=B[15]?'Q 13 / 100':'Q 12 / 100';}
+
+  // S5 lesson
+  show('s5',t>=7.85&&t<9.8);
+  if(t>=7.85&&t<9.8){words('s5h',t,7.85,9.8);put($('s5c'),io(t,7.93,9.8,.5,.26,60,46));
+    const flip=eio(p(t,B[18],.38));
+    [...$('segs').children].forEach((s,i)=>{const f=i<1?1:i===1?eo(p(t,8.05,.3)):i===2?eo(p(t,B[18]+.1,.35)):0;s.firstChild.style.width=(f*100)+'%';});
+    $('pg1').style.transform=`translateX(${(-flip*70).toFixed(1)}px) rotateY(${(flip*-14).toFixed(2)}deg)`;$('pg1').style.opacity=(1-flip).toFixed(3);$('pg1').style.filter=flip>.02?`blur(${flip*6}px)`:'none';
+    $('pg2').style.transform=`translateX(${((1-flip)*70).toFixed(1)}px)`;$('pg2').style.opacity=flip.toFixed(3);$('pg2').style.filter=flip<.98?`blur(${(1-flip)*6}px)`:'none';
+    const hl=(el,a)=>{const h=eio(p(t,a,.32));el.style.backgroundImage='linear-gradient(rgba(240,102,143,.32),rgba(240,102,143,.32))';el.style.backgroundSize=`${(h*100).toFixed(1)}% 100%`;el.style.boxShadow=`inset 0 -2px 0 rgba(240,102,143,${h.toFixed(2)})`;el.style.color=h>.5?'#fff':'';};
+    hl($('t1'),B[17]);hl($('t2'),B[19]);
+    const pp=eo(p(t,B[19]+.18,.3));$('pop').style.opacity=pp.toFixed(3);$('pop').style.transform=`translateY(${((1-pp)*10).toFixed(1)}px) scale(${lerp(.96,1,pp).toFixed(3)})`;
+    $('s5page').textContent=t>=B[18]+.2?'Page 3 of 6':'Page 2 of 6';}
+
+  // S6 leaderboard
+  show('s6',t>=9.8&&t<11.77);
+  if(t>=9.8&&t<11.77){words('s6h',t,9.8,11.77);put($('s6c'),io(t,9.88,11.77,.5,.26,60,46));
+    const ROW=61;let pos=stages[0].map((_,k)=>0);
+    const posOf=(st,person)=>stages[st].indexOf(person);
+    let pts=youPts[0];
+    rowEls.forEach((el,person)=>{let y=posOf(0,person);for(let s=1;s<4;s++){const e=back(p(t,stageT[s-1],.36));y=lerp(y,posOf(s,person),e);}
+      const enter=eo(p(t,10.0+person*.05,.32));
+      el.style.transform=`translateY(${(y*ROW+(1-enter)*16).toFixed(2)}px)`;el.style.opacity=enter.toFixed(3);el.style.zIndex=people[person][0]==='You'?5:1;
+      el.querySelector('.rank').textContent=Math.round(y)+1;});
+    for(let s=1;s<4;s++)pts=lerp(pts,youPts[s],eo(p(t,stageT[s-1],.36)));
+    const you=rowEls[4];you.querySelector('.pts').textContent=Math.round(pts).toLocaleString()+' pts';
+    you.style.background='#ff5c70';you.style.borderColor='transparent';you.style.color='#1a0509';you.querySelector('.pts').style.color='#1a0509';you.querySelector('.rank').style.color='#1a0509';you.querySelector('.nm').style.fontWeight=600;
+    const lift=Math.max(...stageT.map(s=>Math.exp(-Math.max(0,t-s)*8)*(t>=s?1:0)));you.style.boxShadow=`0 ${10+14*lift}px ${30+20*lift}px -10px rgba(255,92,112,${(.35+.4*lift).toFixed(2)})`;}
+
+  // S7 up up up
+  show('s7',t>=11.77&&t<HIT);
+  if(t>=11.77&&t<HIT){const es=[0,1,2].map(k=>eo5(p(t,B[24+k],.34)));const c=es[0]+es[1]+es[2];const out=eio(p(t,HIT-.2,.2));
+    [0,1,2].forEach(k=>{const el=$('up'+k);const y=(k-(c-1))*82;const dim=cl(1-.5*(c-1-k),.32,1);
+      el.style.top='440px';el.style.opacity=(es[k]*dim*(1-out)).toFixed(3);el.style.filter=`blur(${((1-es[k])*14+out*18).toFixed(2)}px)`;
+      el.style.transform=`translateY(${(y+(1-es[k])*60-out*160).toFixed(2)}px) scale(${lerp(.9,1,es[k]).toFixed(3)})`;});}
+
+  // S8 logo
+  show('s8',t>=HIT);
+  if(t>=HIT){const m=back(p(t,HIT,.5)),me=eo(p(t,HIT,.35));const mark=$('mark');
+    $('mx1').style.strokeDashoffset=1-eio(p(t,HIT+.1,.28));$('mx2').style.strokeDashoffset=1-eio(p(t,HIT+.22,.28));$('mx3').style.strokeDashoffset=1-eo(p(t,HIT+.42,.32));
+    const wv=eo5(p(t,HIT+.62,.55));const word=$('word');word.style.maxWidth=(wv*260).toFixed(1)+'px';word.style.opacity=wv.toFixed(3);word.style.filter=wv<.98?`blur(${((1-wv)*10).toFixed(2)}px)`:'none';
+    mark.style.opacity=me.toFixed(3);mark.style.filter=me<.98?`blur(${((1-me)*14).toFixed(2)}px)`:'none';mark.style.transform=`scale(${lerp(.4,1,m).toFixed(4)}) rotate(${((1-m)*-12).toFixed(2)}deg)`;
+    $('lockup').style.transform=`scale(${(1+.025*eio(p(t,HIT+1,END-HIT-1))).toFixed(4)})`;
+    put($('tag'),io(t,HIT+1.0,99,.5));put($('orgs'),io(t,HIT+1.35,99,.5,.1,18));}
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body>
+</html>
