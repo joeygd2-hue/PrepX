@@ -50,7 +50,7 @@ Season content lives in `content/` and is loaded by `npm run db:seed`:
 
 - `content/events/{deca,fbla,hosa,tsa}.json` — event catalog with formats, practice criteria and a verification status per event
 - `content/competitions.json` — competition dates with status (confirmed/tentative/unconfirmed) and sources, plus regions
-- `content/study/*.json` — original lessons, practice questions and flashcards (DECA Business Administration Core, HOSA Medical Terminology, HOSA Medical Math)
+- `content/study/<bank>/*.json` — original lessons, practice questions and flashcards for every DECA, FBLA, HOSA and TSA study bank plus the cross-organization format (skills) banks: 122 banks, 385 lessons, 3,000+ questions, fact-checked October 2026
 - `content/plans.json` — Free/Pro allowances
 
 Admins can also edit events, dates, announcements, limits and review AI-generated questions in `/admin`.

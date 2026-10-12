@@ -38,10 +38,12 @@ App (bottom nav: Home · Study · Calendar · Chapter · Profile)
   /study                      Your event, plan, readiness, today's plan, tools
     /study/events[?federation=]  chooser   /study/events/[id] details
     /study/target             competition date / custom date
-    /study/learn?exam=, /study/learn/[unitId]       lessons
+    /study/learn?exam=, /study/learn/[unitId]       course overview + flip-through lesson reader
     /study/practice?exam=&mode=   start screen → /study/attempt/[id] (focus) → /review
     /study/flashcards  /study/explain  /study/history
     /study/coach  /study/judge  /study/judge/[id]  /study/judge-questions  /study/check?type=
+    /study/bookmarks[?exam=]  /study/duels[?exam=]  /study/duels/join  /study/duels/[id]  /study/planner
+    /study/focus              focus mode (focus layout, no nav)
   /calendar, /calendar/region
   /chapter, /join (focus), /chapter/new, /chapter/[id]/manage, /chapter/quiz, /chapter/quiz/[id]
   /profile, /profile/plan, /profile/feedback, /profile/ambassador, /profile/delete
@@ -57,7 +59,7 @@ Admin (staff/admin role)
 1. **Sign up** — `/sign-in` → email → code emailed (hash stored, 10-min TTL, 5 attempts enforced atomically) → session cookie → `/welcome` → onboarding (resumable; `profiles.onboarding_step`; the age check is the first step) → `/study/events`.
    Under 13 → account and inputs deleted immediately → `/sign-in/too-young` (the browser can't retry with another date for 24 h). "Cancel sign-up" deletes the account at any step; unfinished sign-ups are deleted after 7 days.
 2. **Choose event** — org switcher → chooser (search + categories) → details (verification status, practice rubric, official source) → "Study this event" (previous selection kept inactive for history).
-3. **Daily study** — Home/Study show countdown (computed per request in the viewer's time zone), milestones and today's 2–4 tasks. Tasks auto-complete when the server records the matching activity; manual ticks are self-tracking only and earn no XP.
+3. **Daily study** — Home/Study show countdown (computed per request in the viewer's time zone), milestones and today's 2–4 tasks, sized from the study planner's minutes for today (`minutesForToday`; rest days get a light optional plan). Tasks auto-complete when the server records the matching activity; manual ticks are self-tracking only and earn no XP.
 4. **Practice exam** — start screen (POST; never on prefetch) → attempt runner → server grading → review with topic breakdown and comparison to last attempt → misses go to the mistake notebook until answered correctly twice.
 5. **AI judge** — scenario generated (allowance reserved → committed on delivery) → prep timer → perform (voice-to-text in browser or typing; optional camera stills) → scoring against the event's practice criteria (re-try is free if scoring fails) → feedback + coach debrief.
 6. **Chapter** — advisor creates chapter → shares 6-char code → student joins at `/join` (one chapter per organization) → announcements, check-ins (points), quiz night.
@@ -66,7 +68,7 @@ Admin (staff/admin role)
 ## 4. Component inventory
 
 `src/components/ui`: Button/ButtonLink, SubmitButton, Card/HeroTexture/IconTile/SectionLabel, Tile/TileGrid/StatStrip, ListGroup/ListRow, Input/Textarea/Select/Label/FieldError/Notice, OrgBadge/Chip/VerificationChip, ProgressBar/Ring, Page/PageTitle/Accent/BackHeader/EmptyState, Toggle/Switch, Markdown (safe subset), ActionForm/ActionButton.
-`src/components/app`: CountdownHero, TodayPlan, PlanCard, ReadinessCard, LevelCard, OrgSwitcher, EventSummary/EventFacts, FeedbackView, SpeechInput, InstallCard, Avatar.
+`src/components/app`: CountdownHero, TodayPlan, CourseReader/UnitRing (`course/`), PlanCard, ReadinessCard, LevelCard, OrgSwitcher, EventSummary/EventFacts, FeedbackView, SpeechInput, InstallCard, Avatar.
 `src/components/shell`: BottomNav, Logo, PublicHeader/Footer/PublicPage, ServiceWorkerRegister.
 
 ## 5. Data model (`src/db/schema.ts`)
@@ -75,7 +77,7 @@ Admin (staff/admin role)
 |---|---|
 | Identity | `users`, `sessions` (token hash only), `email_codes` (code hash only), `profiles`, `org_preferences`, `notification_prefs`, `push_subscriptions` |
 | Catalog | `regions`, `exam_clusters` (study banks: `kind` exam / practice / skills), `units`, `study_resources`, `events` (components + practice rubric JSON, verification status, source URL/date), `competitions` (status confirmed/tentative/unconfirmed, source, previous date) |
-| Study | `event_selections` (history; one active per user per org), `plan_tasks`, `season_goals`, `questions` (source: prepx_original / ai_generated / licensed; status published/review/retired), `exam_attempts`, `attempt_answers`, `mistakes`, `lesson_progress`, `flashcards`, `flashcard_reviews` (Leitner), `sprint_bests` |
+| Study | `event_selections` (history; one active per user per org), `plan_tasks`, `season_goals`, `questions` (source: prepx_original / ai_generated / licensed; status published/review/retired), `exam_attempts`, `attempt_answers`, `mistakes`, `lesson_progress`, `flashcards`, `flashcard_reviews` (Leitner), `sprint_bests`, `question_bookmarks` (private notes), `duels` + `duel_entries` (shared question ids, one attempt per player); planner settings live on `profiles` (`study_days`, `study_reminder_time`) |
 | AI | `ai_sessions`, `ai_messages`, `ai_feedback` (score, criteria, rubric basis) |
 | Motivation | `xp_events` (unique per user/reason/ref → no double awards), `activity_days`, `user_achievements`, `buddies` |
 | Chapters | `chapters`, `chapter_members` (unique user+org), `chapter_announcements`, `checkins`, `checkin_records`, `quiz_games`, `quiz_answers` |
@@ -114,8 +116,8 @@ Every user-owned row references `users.id` with `ON DELETE CASCADE`; rows that m
 
 | Level | Tooling | Scope |
 |---|---|---|
-| Unit | Vitest (`tests/unit`) | Pure logic: countdown/time zones, plan milestones (reproduces the reference's 190-day screenshot), readiness, daily tasks, streaks, levels, achievements, ICS, join codes, age gate. |
-| Integration | Vitest + real Postgres (`tests/integration`, fresh `prepx_test` schema per run) | Entitlements and races, Pro detection, exams (grading, mistakes, drafts, limits, ownership), chapters (codes, expiry, one-per-org, roles, privacy, check-ins, quiz), deletion and export, sign-in codes, AI scoring and refunds, Stripe signature + idempotency, calendar, jobs, referrals. |
-| End-to-end | Playwright on Chromium, desktop + Pixel 7 (`tests/e2e`, `prepx_e2e` database, test AI provider) | Registration/onboarding/event selection, under-13 refusal, Quick 10, AI judge + daily limit, coach + no charge on failure, chapter create/join/roles/check-in, privacy settings, calendar + ICS, account deletion, unauthorized access, empty/offline states, mobile navigation without horizontal overflow. |
+| Unit | Vitest (`tests/unit`) | Pure logic: countdown/time zones, plan milestones (reproduces the reference's 190-day screenshot), readiness, daily tasks, streaks, levels, achievements, ICS, join codes, age gate, course pagination and key terms, planner minutes, study content format (`tests/unit/content.test.ts`). |
+| Integration | Vitest + real Postgres (`tests/integration`, fresh `prepx_test` schema per run) | Entitlements and races, Pro detection, exams (grading, mistakes, drafts, limits, ownership), chapters (codes, expiry, one-per-org, roles, privacy, check-ins, quiz), deletion and export, sign-in codes, AI scoring and refunds, Stripe signature + idempotency, calendar, jobs, referrals, bookmarks (ownership, notes), duels (codes, privacy, results), adaptive Quick 10. |
+| End-to-end | Playwright on Chromium, desktop + Pixel 7 (`tests/e2e`, `prepx_e2e` database, test AI provider) | Registration/onboarding/event selection, under-13 refusal, Quick 10, AI judge + daily limit, coach + no charge on failure, chapter create/join/roles/check-in, privacy settings, calendar + ICS, account deletion, unauthorized access, empty/offline states, mobile navigation without horizontal overflow, study planner + focus mode, course reader, bookmarks from a quiz, creating a duel (`features.spec.ts`). |
 
 Plus `tsc --noEmit`, ESLint (Next + React compiler rules) and `next build`.

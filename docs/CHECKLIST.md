@@ -59,14 +59,15 @@ The visual design deliberately departs from the reference ("Graphite & Volt", se
 | Event catalog fields (org, category, division, format, exam, role-play/presentation/interview, time limits, questions, criteria, levels, source, last verified) | E | 🟡 | Structure complete and admin-editable. Only 25 of 231 events have formats checked against a published reference; the rest are clearly marked "Format unverified" until an admin verifies them against the official guidelines (official sites were unreachable from the build environment). |
 | Smart plan with milestones (6/4/2/1 weeks out) | R2 | ✅ | Built from the real date, event shape and recorded activity; condensed automatically when the date is close; custom target date supported. |
 | Readiness score with weighted parts | R3 | ✅ | Weights depend on the event's format. |
-| Today's plan (2–4 tasks, minutes, rationale, auto-complete) | R4 | ✅ | Tasks complete automatically from server-recorded activity; manual ticks earn no XP. |
+| Today's plan (2–4 tasks, minutes, rationale, auto-complete) | R4 | ✅ | Tasks complete automatically from server-recorded activity; manual ticks earn no XP. Sized from the study planner's minutes for today; rest days show as optional practice. Links to focus mode and the planner. |
 | Role-play / presentation judge (AI) | R6 | ✅ | Prep timer, voice or typing, practice score labeled as simulated, free retry if scoring fails. |
 | AI coach | R7 | ✅ | |
 | Face-to-face judge (voice, timer, optional camera stills) | R8 | ✅ | Stills only with explicit consent, never stored. |
 | Judge questions | R9 | ✅ | One feedback per question per session. |
 | Exam stats (streak, accuracy, questions done) | R10 | ✅ | |
-| Lessons with mastery rule | R11 | ✅ | Every event has a study bank: its official test topic or, for events without a test, a practice knowledge bank (`components.knowledge`). Original lessons, questions and flashcards per bank; see [CONTENT.md](CONTENT.md). |
-| Quick 10 | R12 | ✅ | |
+| Lessons with mastery rule | R11 | ✅ | Every event has a study bank: its official test topic or, for events without a test, a practice knowledge bank (`components.knowledge`). Original lessons, questions and flashcards per bank; see [CONTENT.md](CONTENT.md). All 122 banks (385 lessons, 3,000+ questions) were fact-checked in October 2026: answer keys, calculations, current guidelines (e.g. 2025 AHA choking and infant CPR), and organization facts. |
+| Course reader | E | ✅ | Lessons flip page by page (swipe, keys or buttons) with a segmented progress bar, key-term highlights with definitions, a quick check and a course overview with progress rings per unit. |
+| Quick 10 | R12 | ✅ | Adaptive: weighted toward weak units, includes open mistakes, avoids recently answered questions. |
 | Full practice exam (timed, resumable) | R13 | ✅ | Counts against the free allowance (2 per season). |
 | Test-day rehearsal | R14 | ✅ | No pausing, auto-submit, comparison with the last attempt. |
 | Mistake notebook | R15 | ✅ | Cleared after two correct answers. |
@@ -77,6 +78,10 @@ The visual design deliberately departs from the reference ("Graphite & Volt", se
 | Ask AI on highlighted text | E | ✅ | Select text on any study page for an explanation, definition, example or simpler version; type follow-ups; off during timed exams. Own daily allowance, refunded on failure, nothing stored. |
 | Organization themes | E | ✅ | The Study area takes on DECA, FBLA, HOSA or TSA colors (light and dark), animated when switching. |
 | Flashcards (Leitner review, mark difficult) | R18 | ✅ | |
+| Bookmarks with private notes | E | ✅ | Save any answered question with a note; practice the saved set as its own attempt. Linked from Study. |
+| Head-to-head duels | E | ✅ | Challenge a study buddy or share a 6-character code; both players get the same questions; most right wins, ties go to the faster finish. Linked from Study when the bank has enough questions. |
+| Study planner | E | ✅ | Pick study days, minutes per day and a reminder time; streak reminders go out at the student's chosen hour. |
+| Focus mode | E | ✅ | Distraction-free 25-minute timer (adjustable) with pause/resume, a break, a chime and screen wake lock; shows today's planned minutes. |
 | Attempt history and topic breakdown | E | ✅ | |
 | Written entry check / presentation check | E | ✅ | Only shown for events with those components. |
 | AI-generated questions kept separate from original ones | E | ✅ | Source + review status per question; admins approve before publishing. |
