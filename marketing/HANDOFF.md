@@ -1,6 +1,6 @@
 # PrepX handoff for AI agents (website + social media)
 
-Read this first, then [`BRAND_BRIEF.md`](BRAND_BRIEF.md) (voice, colors, fonts, logo, honesty rules). Everything below reflects the state as of October 12, 2026.
+This file is self-contained: it covers who PrepX is for, the brand and visual theme, the voice, the app, and the social media setup. [`BRAND_BRIEF.md`](BRAND_BRIEF.md) has the same brand rules in more detail. Everything below reflects the state as of October 12, 2026.
 
 ---
 
@@ -12,7 +12,96 @@ Positioning line: **"Every event. One place."** Closing line on every ad: **"Fre
 
 ---
 
-## 2. The website / app
+## 2. Brand, theme and voice
+
+### Audience
+- **Who:** high school students, about 14–18, who compete in DECA (business and marketing), FBLA (business leadership), HOSA (health science) or TSA (technology and engineering). Secondary audiences are chapter officers and advisers.
+- **What they feel:** prep is scattered across old PDFs, random quiz sites and group chats; nobody gets to practice a roleplay out loud before the real thing; and competition day sneaks up on them.
+- **What PrepX promises:** learn it, practice it and rehearse it out loud, in one place, for your exact event, for free.
+
+### Personality
+Confident, calm and a little competitive, like a sharp upperclassman who has already been to nationals. Not corporate, not a hype-bro, never cringe. Encouraging, never shaming. "Quiet until it matters."
+
+### Voice and copy rules
+- **Headlines are 2–5 words, usually ending in a period:** "Practice roleplays out loud." "Climb the leaderboard." "Walk in ready." "Build your legacy."
+- **Emphasize one or two words per headline in the serif italic,** colored with the scene's accent: "Full practice *exams.*"
+- Use "you", present tense and plain words: "practice exam", not "assessment module".
+- Org names are always in caps: DECA, FBLA, HOSA, TSA.
+- Social captions are lowercase and casual, with 1–3 emoji, and end with "free to start".
+- **Lines that fit:** "Four competitions. One place to *prepare.*" · "Scores *up.* Streak *up.* Rank *up.*" · "Ten questions a day. That's the whole trick." · "Prep that actually makes *sense.*" · "Every event. *One place.*"
+
+### Visual theme: "Graphite & Volt"
+Minimal and premium: graphite and paper neutrals do most of the work, and one electric lime accent ("volt") marks the moments that matter, such as the main button, a progress fill or a success mark.
+
+**Ads and social always use the dark theme:**
+
+| Role | Color |
+|---|---|
+| Background | `#09090A` (near black) |
+| Card | `#111113`, gradient to `#141416`; inner panels `#151517` and `#1F1F22` |
+| Hairline borders | white at 8% (16% for stronger lines) |
+| Text | `#F2F2EC` (warm off-white); muted `#8D8D86` |
+| **Volt (brand accent)** | **`#C6F03A`** |
+| Success | `#4FD18B` |
+
+**The app has both themes.** Light mode is warm paper (`#F4F4EF` background, white cards, `#0C0C0D` ink), with volt used only as a fill, never as text on light backgrounds. Dark mode uses the palette above. The app follows the device setting, and users can also pick a theme.
+
+**Organization colors.** The Study area re-themes itself to the selected org, animating when you switch. In ads, an org-specific scene uses that org's color:
+
+| Org | Accent on dark | Glow | Accent on light (in the app) |
+|---|---|---|---|
+| DECA | `#5B9BFF` | `#2F6FD6` | `#2563EB` |
+| FBLA | `#F6C34A` (gold) | `#C99A1C` | `#F4B41A` on navy |
+| HOSA | `#F0668F` | `#C23B6A` | `#A3214B` (maroon) |
+| TSA | `#FF5C70` | `#E0303F` | `#D4213D` |
+
+**Level colors:** as students level up, the dark-mode background glow shifts from volt to periwinkle (Competitor), then orange (Finalist), violet (Champion) and gold (Legend).
+
+**Rule of thumb:** one accent color per scene. Volt means PrepX itself, and org colors are for org moments.
+
+### Type
+- **Geist**, weight 600–800, tight letter-spacing (about −0.045em), for headlines and UI.
+- **Geist Mono**, small uppercase with wide spacing (about 0.16em), for labels ("AI JUDGE · DECA") and numbers.
+- **Instrument Serif *Italic*** for the one or two emphasized words in a headline.
+
+All three are free Google Fonts, and copies are in `marketing/ads/fonts/`.
+
+### Logo
+A rounded square holding an **X whose rising stroke becomes an arrow**, with the arrow in volt. The wordmark is "Prep" in Geist plus an "*X*" in Instrument Serif italic, and the X is colored volt in ads. On dark backgrounds the square is light (`#F2F2EC`) with dark strokes; on light backgrounds it flips. Don't stretch, recolor or rotate it. The SVG for dark backgrounds:
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="10" fill="#F2F2EC"/>
+  <path d="M10 10 L14 14 M18 18 L22 22" stroke="#09090A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M10 22 L22 10" stroke="#09090A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M16.2 10 H22 V15.8" fill="none" stroke="#C6F03A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+```
+
+### How the app looks (and how to mock it in ads)
+- **Cards:** rounded 24–28px, hairline border, deep soft shadow. Options and inner panels use 16px corners, and chips and pills are fully rounded.
+- **Layout:** a small mono "eyebrow" label on top, a short title, then one clear interaction.
+- **Atmosphere:** a soft blurred glow behind the content (volt, or the scene's org color), light film grain and a dark vignette at the edges.
+- **Ad mock-ups:** simplified real screens using invented example data ("Maya R.", "Daniel K.") and original questions.
+
+### Motion
+- **Entrances:** elements blur in and rise, going from about 14px blur to sharp while moving up about 30px, with ease-out. Exits blur out going up.
+- **Headlines** reveal word by word, staggered about 70ms.
+- **Everything lands on the beat:** scene changes on bar lines, small interactions on single beats, a roughly 1% camera pulse on each beat, and a bigger kick plus a volt flash on the drop.
+- **Signature moves:** numbers count up, ranks climb, streaks tick up and checkmarks draw themselves (the "up" motif matches the logo's arrow). The logo reveal goes: square scales in → X strokes draw → volt arrow draws → "Prep*X*" slides out.
+- **In the app:** pages fade and rise in on load, small successes "pop", and everything respects reduced-motion settings.
+
+### Honesty rules (non-negotiable)
+1. Not affiliated with DECA, FBLA, HOSA or TSA, so use their names but never their logos, and never say "official".
+2. AI judge scores are always "practice" scores.
+3. All questions and lessons are original; never claim real past test questions.
+4. No invented testimonials, user counts, winner claims or ratings. Example stats get an "Example" tag.
+5. No competitor names in ads, and never copy another brand's visuals or copy.
+6. No prices or plans: PrepX is free.
+7. The audience is teens: keep it school-appropriate, and mute explicit lyrics.
+
+---
+
+## 3. The website / app
 
 ### Where things are
 - **Repo:** `joeygd2-hue/PrepX`. All work is on branch **`claude/compprep-platform-build-njpezh`**. It is pushed, **not merged, and has no pull request**.
@@ -45,7 +134,7 @@ Domain and hosting, an Anthropic API key, an email provider, Google OAuth creden
 
 ---
 
-## 3. Social media (TikTok)
+## 4. Social media (TikTok)
 
 ### Account rules
 - **Platform:** TikTok first, vertical 9:16 at 1080×1920.
