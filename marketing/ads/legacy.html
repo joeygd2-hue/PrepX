@@ -37,10 +37,11 @@ document.body.insertAdjacentHTML('afterbegin',frameHTML(`
 </div>
 <div class="scene" id="s3"><div class="ctr hv" style="top:410px;font-size:64px"><span class="w">Let</span><span class="w">them</span><br><span class="w serif" id="doubt" style="color:#ff5c70;font-size:1.3em;font-weight:400">doubt</span><span class="w">you.</span></div></div>
 <div class="scene" id="s4">
-  <div id="tro2" style="position:absolute;left:150px;top:230px">${icon('trophy',240,'#c6f03a',1.2)}</div>
-  <div class="ctr hv" id="by" style="top:470px;font-size:56px">Build your</div>
-  <div class="ctr serif" id="leg" style="top:520px;font-size:150px;line-height:1;color:var(--accent)">legacy.</div>
-  <div id="orgs4" style="position:absolute;left:0;right:0;top:700px;display:flex;justify-content:center"><div class="chip mono" style="font-size:11px;letter-spacing:.12em;gap:10px;color:var(--muted);height:32px;padding:0 16px"><span class="dot" style="background:var(--deca)"></span>DECA<span class="dot" style="background:var(--fbla)"></span>FBLA<span class="dot" style="background:var(--hosa)"></span>HOSA<span class="dot" style="background:var(--tsa)"></span>TSA</div></div>
+  <div id="tro2" style="position:absolute;left:180px;top:170px">${icon('trophy',180,'#c6f03a',1.2)}</div>
+  <div class="ctr hv" id="by" style="top:375px;font-size:56px">Build your</div>
+  <div class="ctr serif" id="leg" style="top:425px;font-size:150px;line-height:1;color:var(--accent)">legacy.</div>
+  <div id="orgs4" style="position:absolute;left:0;right:0;top:612px;display:flex;justify-content:center;gap:10px"><div class="ot" style="width:104px;height:64px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(160deg,#5b9bff33,#5b9bff12);border:1.5px solid #5b9bffaa;box-shadow:0 0 40px -8px #2f6fd6;font-size:26px;font-weight:800;letter-spacing:-.04em;color:#5b9bff">DECA</div><div class="ot" style="width:104px;height:64px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(160deg,#f6c34a33,#f6c34a12);border:1.5px solid #f6c34aaa;box-shadow:0 0 40px -8px #c99a1c;font-size:26px;font-weight:800;letter-spacing:-.04em;color:#f6c34a">FBLA</div><div class="ot" style="width:104px;height:64px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(160deg,#f0668f33,#f0668f12);border:1.5px solid #f0668faa;box-shadow:0 0 40px -8px #c23b6a;font-size:26px;font-weight:800;letter-spacing:-.04em;color:#f0668f">HOSA</div><div class="ot" style="width:104px;height:64px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(160deg,#ff5c7033,#ff5c7012);border:1.5px solid #ff5c70aa;box-shadow:0 0 40px -8px #e0303f;font-size:26px;font-weight:800;letter-spacing:-.04em;color:#ff5c70">TSA</div></div>
+  <div class="ctr" id="win4" style="top:700px;font-size:19px;letter-spacing:-.02em;color:#d9d9d2">Prep to <span class="serif" style="color:var(--accent);font-size:1.25em">win</span> at DECA, FBLA, HOSA &amp; TSA.</div>
 </div>
 <div class="scene" id="s5">
   <div class="ctr hv" id="tb" style="top:180px;font-size:56px"><span class="w">Top</span><span class="w">of</span><span class="w">the</span><br><span class="w serif" style="color:var(--accent);font-size:1.25em;font-weight:400">board.</span></div>
@@ -83,7 +84,7 @@ window.render=function(t){
   // S4 legacy
   if(show('s4',t>=9.73&&t<13.14)){const lg=t>=10.94;glow(G[0],270,520,240,'#c6f03a',.08+(lg?.22*Math.exp(-(t-10.94)*1.5)+.1:0));glow(G[1],270,330,160,'#f6c34a',lg?.12:0);
     slam($('by'),t,9.88,1.3);slam($('leg'),t,10.94,2.2);const tr=eo5(p(t,10.94,.5));$('tro2').style.opacity=(.12+.2*tr).toFixed(3);$('tro2').style.transform=`scale(${lerp(.6,1,tr).toFixed(3)}) translateY(${((1-tr)*30).toFixed(1)}px)`;
-    put($('orgs4'),io(t,11.87,13.14,.35,.25,14,20));const out=eio(p(t,12.9,.24));$('s4').style.opacity=(1-out).toFixed(3);}
+    [...$('orgs4').children].forEach((el,i)=>{const at=11.55+i*.14;const e=back(p(t,at,.36)),eb=eo(p(t,at,.22));el.style.opacity=eb.toFixed(3);el.style.transform=`translateY(${((1-eb)*24).toFixed(1)}px) scale(${lerp(.5,1,e).toFixed(3)})`;el.style.filter=eb<.97?`blur(${((1-eb)*10).toFixed(1)}px)`:'none';});put($('win4'),io(t,12.1,13.14,.3,.2,14,20));const out=eio(p(t,12.9,.24));$('s4').style.opacity=(1-out).toFixed(3);}
   // S5 leaderboard
   if(show('s5',t>=13.14&&t<H)){glow(G[0],270,520,230,'#c6f03a',.12);
     const ws=[...$('tb').querySelectorAll('.w')];const at=[13.38,13.56,13.76,14.1];ws.forEach((w,i)=>{const e=eo5(p(t,at[i],.22));w.style.opacity=t<at[i]?0:1;w.style.transform=`scale(${lerp(1.5,1,e).toFixed(3)})`;w.style.filter=e<.97?`blur(${((1-e)*12).toFixed(1)}px)`:'none';});
@@ -95,6 +96,8 @@ window.render=function(t){
   // end
   if(show('end',t>=H)){const k=Math.exp(-(t-H)*2.2);const fade=eio(p(t,19.3,.7));glow(G[0],270,430,240,'#c6f03a',(.12+.25*k)*(1-fade*.6));glow(G[1],270,430,120,'#ffffff',(.05+.18*k)*(1-fade*.6));renderLogo(t,H,END);}
 };
+$('tag').innerHTML='Built to <span class="serif" style="color:#c6f03a;font-size:1.2em">win</span> DECA, FBLA, HOSA &amp; TSA.';$('tag').style.fontSize='22px';
+$('orgs').innerHTML='<span class="chip" style="background:#c6f03a;color:#0c0c0d;border:0;font-weight:600;height:32px;padding:0 16px">Free to start</span>';
 window.DURATION=END;
 window.render(0);
 </script>
