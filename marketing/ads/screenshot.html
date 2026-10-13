@@ -1,0 +1,97 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+#content{transform:translate(0,-30px) scale(.89)!important}
+.big{position:absolute;left:0;right:0;text-align:center;font-weight:600;letter-spacing:-.055em;line-height:1}
+.vf{position:absolute;width:44px;height:44px;border:0 solid var(--accent)}
+.rule{display:flex;align-items:center;gap:14px;height:68px;border:1px solid var(--border);background:var(--subtle);border-radius:18px;padding:0 18px;font-size:23px;letter-spacing:-.025em;margin-top:12px}
+.rn{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;font-family:GeistMono;font-size:14px;background:var(--accent);color:#0c0c0d;flex:none;font-weight:600}
+.cnt{position:absolute;left:0;right:0;top:330px;text-align:center;font-size:220px;font-weight:600;letter-spacing:-.07em;line-height:1}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script>
+const B=[3.41,3.83,4.25,4.67,5.06,5.48,5.9,6.32,6.73,7.15,7.55,7.96,8.38,8.85,9.31,9.8,10.22,10.63,11.05,11.47,11.89,12.28,12.72,13.12,13.54,13.96,14.37,14.79,15.19,15.6,16.02,16.44,16.83,17.25,17.67,18.09,18.51,18.92,19.34,19.74,20.15,20.57,20.99,21.41];
+const DROP=9.8, STOP=15.6, H=18.51, END=21.8, STEP=0.1;
+const OC={DECA:['#5b9bff','#2f6fd6'],FBLA:['#f6c34a','#c99316'],HOSA:['#f0668f','#c23b6a'],TSA:['#ff5c70','#e0303f']};
+const EV={DECA:['Principles of Marketing','Entrepreneurship Series','Business Finance Series','Hotel and Lodging Management','Sports and Entertainment Marketing','Personal Financial Literacy','Marketing Communications Series','Human Resources Management','Business Law and Ethics','Start-Up Business Plan','Principles of Finance','Food Marketing Series','Innovation Plan','Travel and Tourism'],
+FBLA:['Accounting','Business Law','Cybersecurity','Data Science & AI','Economics','Personal Finance','Marketing','Entrepreneurship','International Business','Public Speaking','Sports & Entertainment Management','Business Management','Securities & Investments','Network Design'],
+HOSA:['Medical Terminology','Pharmacology','Pathophysiology','Medical Math','Sports Medicine','Clinical Nursing','Epidemiology','Public Health','CPR / First Aid','Nutrition','Veterinary Science','Phlebotomy','Behavioral Health','Dental Science'],
+TSA:['Coding','Video Game Design','Webmaster','Drone Challenge','Architectural Design','Software Development','Forensic Science','Dragster Design','Biotechnology Design','Music Production','Board Game Design','Debating Tech Issues','Animatronics','Digital Video Production']};
+// deterministic shuffle, never the same org twice in a row
+let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+const POOL=[];const ORGS=['DECA','FBLA','HOSA','TSA'];const left=Object.fromEntries(ORGS.map(o=>[o,[...EV[o]].sort(()=>rnd()-.5)]));
+let prev='';for(let i=0;i<56;i++){let opts=ORGS.filter(o=>o!==prev&&left[o].length);if(!opts.length)opts=ORGS.filter(o=>left[o].length);const o=opts[Math.floor(rnd()*opts.length)];POOL.push([o,left[o].pop()]);prev=o;}
+
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="intro">
+  <div class="big" style="top:300px;font-size:92px"><span class="w" id="i0">Screenshot</span></div>
+  <div class="big serif" style="top:392px;font-size:84px;color:var(--accent);letter-spacing:-.02em"><span class="w" id="i1">to find your event.</span></div>
+  <div style="position:absolute;left:0;right:0;top:540px;display:flex;justify-content:center;gap:8px">
+    ${ORGS.map((o,i)=>`<span class="chip" id="ic${i}" style="height:38px;font-size:16px;padding:0 15px;gap:8px"><span class="dot" style="background:${OC[o][0]}"></span>${o}</span>`).join('')}</div>
+</div>
+<div class="scene" id="rules">
+  <div class="big" style="top:200px;font-size:56px"><span class="w">How</span><span class="w">it</span><span class="w serif" style="color:var(--accent);font-size:1.2em">works</span></div>
+  <div style="position:absolute;left:70px;right:70px;top:300px">
+    <div class="rule" id="r0"><span class="rn">1</span>Events start spinning</div>
+    <div class="rule" id="r1"><span class="rn">2</span>Screenshot whenever</div>
+    <div class="rule" id="r2"><span class="rn">3</span>Comment what you got</div>
+  </div>
+</div>
+<div class="scene" id="count"><div class="cnt num" id="cn">3</div></div>
+<div class="scene" id="spin">
+  <div id="sn" style="position:absolute;left:0;right:0;top:206px;display:flex;justify-content:center"><span class="chip mono" style="height:44px;font-size:16px;padding:0 18px;letter-spacing:.14em;border-color:rgba(255,92,112,.5);color:#ffb3bc;gap:9px"><span class="dot" id="rec" style="background:#ff5c70;width:9px;height:9px"></span>SCREENSHOT NOW</span></div>
+  <div class="card" id="sc" style="top:290px;height:250px;padding:30px;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:center"><span class="chip" id="so" style="height:32px;font-size:14px;font-weight:600"></span><span class="eyebrow">Your event</span></div>
+    <div id="se" style="margin-top:auto;font-size:40px;font-weight:600;letter-spacing:-.045em;line-height:1.05"></div>
+  </div>
+  <div class="vf" id="v0" style="left:28px;top:272px;border-top-width:4px;border-left-width:4px;border-top-left-radius:16px"></div>
+  <div class="vf" id="v1" style="right:28px;top:272px;border-top-width:4px;border-right-width:4px;border-top-right-radius:16px"></div>
+  <div class="vf" id="v2" style="left:28px;top:514px;border-bottom-width:4px;border-left-width:4px;border-bottom-left-radius:16px"></div>
+  <div class="vf" id="v3" style="right:28px;top:514px;border-bottom-width:4px;border-right-width:4px;border-bottom-right-radius:16px"></div>
+</div>
+<div class="scene" id="got">
+  <div class="big" style="top:250px;font-size:100px"><span class="w">Got</span><span class="w serif" style="color:var(--accent);font-size:1.15em">it?</span></div>
+  <div id="gt1" style="position:absolute;left:0;right:0;top:400px;text-align:center;font-size:30px;font-weight:600;letter-spacing:-.035em">Comment your event <span style="color:var(--accent)">↓</span></div>
+  <div id="gt2" style="position:absolute;left:60px;right:60px;top:470px;text-align:center;font-size:20px;color:var(--muted);letter-spacing:-.02em;line-height:1.35">Then go prep for it. Practice questions, lessons and an AI judge.</div>
+</div>
+<div class="scene" id="end">${LOGO_HTML}</div>`));
+
+window.render=function(t){
+  stagePulse(B,t,H+.01,STOP);
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  // intro: quiet section
+  if(show('intro',t<3.83)){glow(G[0],270,430,230,'#c6f03a',.14*eo(p(t,.2,.8))*(1-eio(p(t,3.6,.23))));
+    const s0=io(t,.25,3.83,.5,.24);s0.s=lerp(.8,1,back(p(t,.25,.55)));put($('i0'),s0);
+    const s1=io(t,1.1,3.83,.5,.24);s1.s=lerp(.8,1,back(p(t,1.1,.55)));put($('i1'),s1);
+    ORGS.forEach((o,i)=>{const s=io(t,2.0+i*.18,3.83,.35,.24,18,30);s.s=lerp(.85,1,back(p(t,2.0+i*.18,.35)));put($('ic'+i),s);});}
+  // rules
+  if(show('rules',t>=3.83&&t<8.38)){glow(G[0],270,400,220,'#c6f03a',.1);
+    words($('rules'),t,3.9,8.38,.1);['r0','r1','r2'].forEach((id,i)=>put($(id),io(t,B[2+i*2],8.38,.4,.26,24,30)));}
+  // countdown on the last beats before the drop
+  if(show('count',t>=8.38&&t<DROP)){const marks=[[8.38,'3'],[8.85,'2'],[9.31,'1']];
+    let cur=marks[0];for(const m of marks)if(t>=m[0])cur=m;const k=p(t,cur[0],.3);const cn=$('cn');cn.textContent=cur[1];
+    cn.style.opacity=(eo(k)*(1-eio(p(t,DROP-.1,.1)))).toFixed(3);cn.style.transform=`scale(${lerp(1.5,1,eo5(k)).toFixed(3)})`;cn.style.filter=k<1?`blur(${((1-eo(k))*12).toFixed(1)}px)`:'none';
+    glow(G[0],270,440,180+40*Math.exp(-(t-cur[0])*5),'#ffffff',.08+.1*Math.exp(-(t-cur[0])*5));}
+  // spin: a new event every STEP seconds
+  if(show('spin',t>=DROP&&t<STOP)){const i=Math.floor((t-DROP)/STEP)%POOL.length;const [o,e]=POOL[i];const c=OC[o];
+    glow(G[0],270,410,240,c[1],.34);glow(G[1],270,410,110,'#ffffff',.04);
+    $('so').innerHTML=`<span class="dot" style="background:${c[0]}"></span><span style="color:${c[0]}">${o}</span>`;$('so').style.borderColor=c[0]+'66';
+    $('se').textContent=e;$('sc').style.borderColor=c[0]+'40';
+    const inS=eo(p(t,DROP,.25));$('sc').style.opacity=inS;$('sc').style.transform=`scale(${lerp(.9,1,back(p(t,DROP,.35))).toFixed(4)})`;
+    const v=eo5(p(t,DROP+.05,.4));['v0','v1','v2','v3'].forEach((id,k)=>{const dx=(k%2?1:-1)*(1-v)*30,dy=(k<2?-1:1)*(1-v)*30;$(id).style.opacity=v;$(id).style.transform=`translate(${dx}px,${dy}px) scale(${1+.04*Math.exp(-((t-lastBeat(B,t)))*8)})`;});
+    put($('sn'),io(t,DROP+.15,99,.3,.1,12,0));$('rec').style.opacity=(Math.sin(t*12)>0?1:.25);}
+  // shutter at the stop
+  if(show('got',t>=STOP&&t<H)){glow(G[0],270,420,230,'#c6f03a',.16*eo(p(t,STOP,.4))*(1-eio(p(t,H-.22,.22))));
+    words($('got'),t,STOP+.12,H,.1);put($('gt1'),io(t,B[30],H,.4,.22,18,30));put($('gt2'),io(t,B[31]+.1,H,.4,.22,14,30));}
+  // end
+  if(show('end',t>=H)){const k=Math.exp(-(t-H)*2.2);glow(G[0],270,430,240,'#c6f03a',.12+.25*k);glow(G[1],270,430,120,'#ffffff',.05+.18*k);renderLogo(t,H,END);}
+  // flashes: drop (lime), stop (white camera shutter), end card
+  const f=$('flash');
+  if(t>=STOP&&t<STOP+.6){f.style.background='#ffffff';f.style.opacity=(Math.exp(-(t-STOP)*6)*.95).toFixed(3);}
+  else{f.style.background='';flash(t,t>=H?H:DROP,.75);}
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>

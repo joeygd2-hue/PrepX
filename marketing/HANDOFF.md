@@ -156,6 +156,9 @@ Source pages live in [`marketing/ads/`](ads/). The final MP4s were delivered to 
 | `glowup.html` | Week 1 vs. Competition Week | 20.7s | 112 BPM cars sound, breakdown at 12.9s, drop at 14.54s | A grey week-1 dashboard → "6 weeks later…" → lime stats count up on the drop. Tagged "Example" |
 | `flow.html` | Flow (Arabella narration) | 32s | A product-ad music bed with its narration removed | "Your prep gets messy" → big DECA/FBLA/HOSA/TSA tiles → Start-button click on the drop → 3D app flythrough → orbiting feature icons → logo. Narration by the Everygen voice "Arabella", sped up about 18% |
 | `legacy.html` | Legacy | 20s | A 144 BPM boxing hype edit, explicit line muted (16–19s) | "Everyone wants the trophy. Nobody wants the work." → 30-day grind montage → "Let them doubt you" → "Build your **legacy**" → leaderboard to #1 → logo |
+| `screenshot.html` | Screenshot to find your event (interactive) | 21.8s | The Flow music bed, drop at 9.8s, plus ticks and a camera shutter | "Screenshot to find your event." → how it works → 3-2-1 → 56 real DECA/FBLA/HOSA/TSA events spin, one every 0.1s, with "SCREENSHOT NOW" → shutter → "Got it? Comment your event" → logo |
+| `judge.html` | You're the judge (interactive) | 20.7s | The Glow-up sound, plus countdown ticks and a reveal ding | "You're the judge." → two roleplay openers, A and B → "Comment A or B" with a 5-second countdown → votes locked → AI judge practice scores (A 58, B 91) with reasons → logo |
+| `org.html` | Which org are you? (interactive) | 19.7s | The Speed Round sound, plus a pop on each reveal | "Which org are you? Pick 1–4" → "Your dream Saturday" with 4 picks → each number reveals DECA, FBLA, HOSA or TSA on the drop → all four tiles → "Built to win DECA, FBLA, HOSA & TSA." |
 
 ### How the ads are built
 1. Each ad is one HTML page with a pure `window.render(t)` that sets every element's state at time `t`, plus `window.DURATION`. Shared helpers, fonts and the logo end card are in `common.js` and `common.css`.
@@ -173,6 +176,9 @@ Source pages live in [`marketing/ads/`](ads/). The final MP4s were delivered to 
 - **Flow:** "your prep doesn't have to be this messy 😮‍💨 lessons, practice exams and AI roleplays for every DECA, FBLA, HOSA and TSA event, all in one app. free to start. ✨"
 - **Speed Round:** "3 questions. 2 seconds each. how many did you get? 👀 comment your score 👇 DECA, HOSA and TSA prep in one app. duel your friends on PrepX, free to start."
 - **Habit:** "ten questions a day. that's the whole trick 🔥 keep your streak alive with a Quick 10 that goes straight to your weak spots. DECA, FBLA, HOSA and TSA. free to start."
+- **Screenshot to find your event:** "screenshot to find your event 📸 comment what you got 👇 then go prep for it with practice questions, lessons and an AI judge. DECA, FBLA, HOSA and TSA. free to start."
+- **You're the judge:** "you're the judge 👀 which opener scores higher, A or B? comment before the reveal 👇 practice your roleplays with an AI judge on PrepX. free to start."
+- **Which org are you?:** "which org are you? 1, 2, 3 or 4 👇 DECA, FBLA, HOSA or TSA, PrepX preps you for all four. free to start."
 - **Hashtags:** #DECA #FBLA #HOSA #TSA #studytok #competitionprep #highschool, plus 1–2 that fit the video.
 - Captions are lowercase and casual, end with "free to start", and never include a URL or handle.
 

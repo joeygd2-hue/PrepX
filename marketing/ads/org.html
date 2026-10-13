@@ -1,0 +1,76 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+#content{transform:translate(0,-30px) scale(.89)!important}
+.big{position:absolute;left:0;right:0;text-align:center;font-weight:600;letter-spacing:-.055em;line-height:1}
+.pick{display:flex;align-items:center;gap:14px;height:64px;border:1px solid var(--border);background:var(--subtle);border-radius:18px;padding:0 16px;font-size:20px;letter-spacing:-.02em;margin-top:10px}
+.pn{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;font-family:GeistMono;font-size:16px;font-weight:600;flex:none}
+.rn{position:absolute;left:0;right:0;text-align:center;font-family:GeistMono;font-weight:500;letter-spacing:-.06em;line-height:1}
+.tile{border-radius:22px;padding:16px;height:118px;display:flex;flex-direction:column;justify-content:space-between}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script>
+const B=[0.49,0.93,1.37,1.83,2.28,2.74,3.2,3.69,4.13,4.57,5.02,5.46,5.92,6.36,6.8,7.24,7.69,8.13,8.57,9.03,9.5,9.96,10.43,10.89,11.28,11.73,12.19,12.65,13.12,13.58,14.05,14.51,14.98,15.44,15.91,16.37,16.83,17.3,17.76,18.23,18.69];
+const Q0=4.13, DROP=8.57, ALL=15.91, H=18.23, END=19.7;
+const O=[
+ {n:'DECA',c:'#5b9bff',g:'#2f6fd6',ink:'#0b1220',pick:'Pitching an idea to a judge',line:'Marketing, finance, hospitality and live roleplays.'},
+ {n:'FBLA',c:'#f6c34a',g:'#c99316',ink:'#1a1405',pick:'Leading the team and the numbers',line:'Business, tech and leadership tests and presentations.'},
+ {n:'HOSA',c:'#f0668f',g:'#c23b6a',ink:'#1a0710',pick:'Saving a life in the sim lab',line:'Medical knowledge, health science and clinical skills.'},
+ {n:'TSA', c:'#ff5c70',g:'#e0303f',ink:'#1a0509',pick:'Building a drone from scratch',line:'Engineering, coding, design and tech challenges.'},
+];
+const R=O.map((o,i)=>DROP+i*4*0.4475); // each reveal lasts four beats
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="intro">
+  <div class="big" style="top:300px;font-size:96px"><span class="w" id="i0">Which org</span></div>
+  <div class="big serif" style="top:396px;font-size:130px;color:var(--accent);letter-spacing:-.02em"><span class="w" id="i1">are you?</span></div>
+  <div style="position:absolute;left:0;right:0;top:566px;display:flex;justify-content:center;gap:10px">
+    <span class="chip" id="i2" style="height:40px;font-size:17px;padding:0 18px">Pick 1–4</span><span class="chip" id="i3" style="height:40px;font-size:17px;padding:0 18px">Comment your number</span></div>
+</div>
+<div class="scene" id="ask">
+  <div class="big" style="top:196px;font-size:44px"><span class="w">Your</span><span class="w">dream</span><span class="w serif" style="color:var(--accent);font-size:1.2em">Saturday:</span></div>
+  <div style="position:absolute;left:56px;right:56px;top:270px">
+    ${O.map((o,i)=>`<div class="pick" id="p${i}"><span class="pn" style="background:var(--accent);color:#0c0c0d">${i+1}</span>${o.pick}</div>`).join('')}
+  </div>
+  <div style="position:absolute;left:56px;right:56px;top:590px;height:7px;border-radius:9px;background:var(--subtle2);overflow:hidden" id="abw"><div id="ab" style="height:100%;background:var(--accent);border-radius:9px"></div></div>
+</div>
+${O.map((o,i)=>`<div class="scene" id="r${i}">
+  <div class="rn" id="rn${i}" style="top:190px;font-size:150px;color:${o.c}">${i+1}</div>
+  <div class="big" id="ro${i}" style="top:350px;font-size:120px;color:${o.c}">${o.n}</div>
+  <div id="rl${i}" style="position:absolute;left:70px;right:70px;top:490px;text-align:center;font-size:22px;letter-spacing:-.025em;line-height:1.35;color:var(--fg)">${o.line}</div>
+</div>`).join('')}
+<div class="scene" id="all">
+  <div class="big" style="top:196px;font-size:46px"><span class="w">Whichever</span><span class="w">you</span><span class="w">are,</span></div>
+  <div class="big" style="top:250px;font-size:46px"><span class="w serif" style="color:var(--accent);font-size:1.2em">prep</span><span class="w serif" style="color:var(--accent);font-size:1.2em">here.</span></div>
+  <div style="position:absolute;left:56px;right:56px;top:340px;display:grid;grid-template-columns:1fr 1fr;gap:12px">
+    ${O.map((o,i)=>`<div class="tile" id="t${i}" style="background:${o.c};color:${o.ink}"><span class="mono" style="font-size:14px;font-weight:600;opacity:.7">${i+1}</span><span style="font-size:36px;font-weight:600;letter-spacing:-.05em">${o.n}</span></div>`).join('')}
+  </div>
+</div>
+<div class="scene" id="end">${LOGO_HTML}</div>`));
+$('tag').textContent='Built to win DECA, FBLA, HOSA & TSA.';
+
+window.render=function(t){
+  stagePulse(B,t,H+.01,DROP);
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  if(show('intro',t<Q0)){glow(G[0],270,450,230,'#c6f03a',.16*eo(p(t,.3,.6))*(1-eio(p(t,Q0-.23,.23))));
+    const s0=io(t,B[0],Q0,.4,.24);s0.s=lerp(.8,1,back(p(t,B[0],.45)));put($('i0'),s0);
+    const s1=io(t,B[1],Q0,.4,.24);s1.s=lerp(.7,1,back(p(t,B[1],.5)));put($('i1'),s1);
+    [['i2',B[4]],['i3',B[5]]].forEach(([id,a])=>{const s=io(t,a,Q0,.32,.24,18,30);s.s=lerp(.85,1,back(p(t,a,.35)));put($(id),s);});}
+  if(show('ask',t>=Q0&&t<DROP)){glow(G[0],270,420,220,'#c6f03a',.1);
+    words($('ask'),t,Q0+.02,DROP,.08);O.forEach((o,i)=>put($('p'+i),io(t,B[9+i],DROP,.36,.14,24,0)));
+    $('abw').style.opacity=eo(p(t,B[13],.3))*(1-eio(p(t,DROP-.12,.12)));$('ab').style.width=((1-eio(p(t,B[13],DROP-B[13]-.05)))*100).toFixed(1)+'%';}
+  O.forEach((o,i)=>{const a=R[i],b=i<3?R[i+1]:ALL;if(!show('r'+i,t>=a&&t<b))return;
+    glow(G[0],270,400,250,o.g,.42*eo(p(t,a,.25))*(1-eio(p(t,b-.18,.18))));glow(G[1],270,400,120,'#ffffff',.12*Math.exp(-(t-a)*4));
+    const n=io(t,a,b,.3,.18,0,30);n.s=lerp(1.6,1,eo5(p(t,a,.35)));put($('rn'+i),n);
+    const w=io(t,a+.12,b,.32,.18,30,30);w.s=lerp(.6,1,back(p(t,a+.12,.4)));put($('ro'+i),w);
+    put($('rl'+i),io(t,a+.45,b,.35,.18,14,20));});
+  if(show('all',t>=ALL&&t<H)){glow(G[0],270,440,240,'#c6f03a',.14*eo(p(t,ALL,.4))*(1-eio(p(t,H-.22,.22))));
+    words($('all'),t,ALL,H,.06);O.forEach((o,i)=>{const s=io(t,ALL+.1+i*.09,H,.32,.22,26,30);s.s=lerp(.8,1,back(p(t,ALL+.1+i*.09,.4)));put($('t'+i),s);});}
+  if(show('end',t>=H)){const k=Math.exp(-(t-H)*2.2);glow(G[0],270,430,240,'#c6f03a',.12+.25*k);glow(G[1],270,430,120,'#ffffff',.05+.18*k);renderLogo(t,H,END);}
+  const lastHit=[H,ALL,...R].filter(x=>t>=x).sort((a,b)=>b-a)[0];
+  flash(t,lastHit??99,lastHit===H?.75:.45);
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>
