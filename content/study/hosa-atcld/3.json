@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Advanced leadership: transformational leadership, ethics and change",
+    "objective": "Evaluate transformational and servant leadership, apply ethical decision-making, and lead organizational change in health care settings.",
+    "body": "Advanced leadership questions move beyond styles to ask how leaders inspire lasting change, act ethically under pressure and guide organizations through uncertainty.\n\n**Transactional versus transformational leadership.** **Transactional leadership** relies on exchanges: rewards for meeting goals and corrections for falling short. It keeps routine operations running. **Transformational leadership**, described by James MacGregor Burns and expanded by Bernard Bass, inspires followers to exceed self-interest for a larger purpose. Bass described four components, often called the four I's.\n- **Idealized influence:** the leader models values and earns trust.\n- **Inspirational motivation:** the leader communicates a compelling vision.\n- **Intellectual stimulation:** the leader encourages questioning and new ideas.\n- **Individualized consideration:** the leader coaches each person's growth.\n\n**Servant leadership,** introduced by Robert Greenleaf, puts the needs and development of others first. A servant leader asks, \"What do my team and patients need to succeed?\" This approach fits health care, where the purpose is service to patients.\n\n**Emotional intelligence.** Daniel Goleman popularized **emotional intelligence** as the ability to recognize and manage one's own emotions and to understand and influence others' emotions. Its components include self-awareness, self-regulation, motivation, empathy and social skill. Leaders with high emotional intelligence stay calm in conflict and read team morale accurately.\n\n**Ethical leadership.** Health care leaders apply the four core principles of bioethics: **autonomy** (respecting patients' informed choices), **beneficence** (doing good), **nonmaleficence** (avoiding harm) and **justice** (fair distribution of care and resources). When values conflict, a leader can gather facts, identify stakeholders, consider options against these principles, choose, and then reflect on the outcome. Ethical leaders also protect a **just culture**, in which people report errors and near misses without fear of unfair blame, while reckless behavior is still addressed.\n\n**Leading change.** Kurt Lewin's change model has three stages: **unfreezing** current habits by showing why change is needed, **changing** by introducing and supporting new practices, and **refreezing** so the new behavior becomes standard. John Kotter's eight-step model expands this, beginning with creating a sense of urgency and building a guiding coalition, and ending with anchoring changes in the culture. Resistance is normal; leaders reduce it by involving staff early, communicating honestly and celebrating short-term wins.\n\n**Strategic planning.** Leaders use a **SWOT analysis** to examine internal strengths and weaknesses and external opportunities and threats, then set **SMART goals**: specific, measurable, achievable, relevant and time-bound.\n\nThe most common mistake students make is confusing transformational with transactional leadership. If a scenario centers on rewards for meeting targets, it is transactional; if it centers on vision, inspiration and personal growth, it is transformational.",
+    "examples": [
+      "A hospital unit manager shares a vision of zero preventable falls, coaches each aide individually and invites ideas, displaying transformational leadership.",
+      "After a medication near miss is reported, leaders review the system that allowed it rather than punishing the nurse who reported it, supporting a just culture.",
+      "Before switching to electronic charting, a clinic director shares data on charting errors to create urgency, an example of unfreezing."
+    ],
+    "questions": [
+      {
+        "stem": "A clinic director gives staff a bonus each month they hit patient-wait-time targets and corrects them when they miss. Which style is this?",
+        "choices": [
+          "Transformational",
+          "Transactional",
+          "Servant",
+          "Laissez-faire"
+        ],
+        "answer": 1,
+        "explanation": "Rewards and corrections in exchange for performance define transactional leadership. Transformational is the distractor, but it relies on vision and inspiration rather than exchanges."
+      },
+      {
+        "stem": "A leader encourages team members to challenge old procedures and propose new solutions. Which component of transformational leadership is this?",
+        "choices": [
+          "Idealized influence",
+          "Individualized consideration",
+          "Intellectual stimulation",
+          "Inspirational motivation"
+        ],
+        "answer": 2,
+        "explanation": "Encouraging questioning and new ideas is intellectual stimulation. Inspirational motivation is the distractor; it involves communicating vision, not challenging assumptions."
+      },
+      {
+        "stem": "A patient with decision-making capacity refuses a recommended procedure after being informed of the risks. Respecting this decision reflects which principle?",
+        "choices": [
+          "Beneficence",
+          "Justice",
+          "Autonomy",
+          "Nonmaleficence"
+        ],
+        "answer": 2,
+        "explanation": "Autonomy is respecting an informed, capable patient's choice. Beneficence is the distractor, since the team believes the procedure would help, but it does not override a capable patient's refusal."
+      },
+      {
+        "stem": "A hospital is introducing a new hand-hygiene audit. Staff are comfortable with current habits. Using Lewin's model, what should leaders do first?",
+        "choices": [
+          "Refreeze the new process",
+          "Unfreeze by showing data on why change is needed",
+          "Immediately discipline noncompliant staff",
+          "Skip to training without explanation"
+        ],
+        "answer": 1,
+        "explanation": "Lewin's first stage is unfreezing, creating readiness by showing the need for change. Refreezing comes last, after the change is in place."
+      },
+      {
+        "stem": "A nurse reports a near miss she caused. In a just culture, how should leaders respond?",
+        "choices": [
+          "Terminate the nurse to deter future errors",
+          "Ignore the report to avoid paperwork",
+          "Analyze system factors and support the nurse, while addressing any reckless behavior separately",
+          "Publicly announce the nurse's name as a warning"
+        ],
+        "answer": 2,
+        "explanation": "A just culture encourages reporting by examining systems rather than blaming honest errors. Termination is the punitive distractor and discourages future reporting."
+      },
+      {
+        "stem": "A chapter president notices she is getting frustrated in a heated meeting, pauses and responds calmly. Which emotional intelligence components does this show?",
+        "choices": [
+          "Self-awareness and self-regulation",
+          "Social skill and motivation only",
+          "Empathy and justice",
+          "Coercive and reward power"
+        ],
+        "answer": 0,
+        "explanation": "Recognizing her frustration is self-awareness, and managing it is self-regulation. Empathy is the distractor; it concerns understanding others' feelings rather than her own."
+      },
+      {
+        "stem": "Which goal is written in SMART format?",
+        "choices": [
+          "Improve chapter membership.",
+          "Increase chapter membership from 40 to 55 members by December 1 through two recruitment events.",
+          "Be the best chapter in the state.",
+          "Do more community service soon."
+        ],
+        "answer": 1,
+        "explanation": "It is specific, measurable, achievable, relevant and time-bound. \"Improve chapter membership\" is the distractor; it is relevant but neither measurable nor time-bound."
+      },
+      {
+        "stem": "A leader's main question is, \"What do my team members and patients need from me to succeed?\" This best describes which approach?",
+        "choices": [
+          "Autocratic leadership",
+          "Transactional leadership",
+          "Servant leadership",
+          "Laissez-faire leadership"
+        ],
+        "answer": 2,
+        "explanation": "Putting others' needs and growth first defines servant leadership. Transactional is the distractor, but it focuses on exchanges for performance rather than serving others."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Transformational leadership",
+        "definition": "Leadership that inspires followers through vision, modeling, intellectual stimulation and individual coaching."
+      },
+      {
+        "term": "Transactional leadership",
+        "definition": "Leadership based on exchanging rewards or corrections for performance."
+      },
+      {
+        "term": "Servant leadership",
+        "definition": "An approach that puts the needs and growth of others first."
+      },
+      {
+        "term": "Just culture",
+        "definition": "An environment where errors are reported without unfair blame while reckless behavior is still addressed."
+      },
+      {
+        "term": "Unfreezing",
+        "definition": "The first stage of Lewin's change model, creating readiness by showing why change is needed."
+      }
+    ]
+  }
+]

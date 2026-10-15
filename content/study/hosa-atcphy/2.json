@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Work, energy, levers and fluid pressure in health care",
+    "objective": "Calculate work, power and energy, analyze body levers using torque, and apply pressure and fluid principles to clinical equipment.",
+    "body": "Once you can describe forces, the next step is asking what those forces accomplish. Energy, torque and pressure explain why lifting technique matters, how muscles move bones and why an IV bag is hung above the patient.\n\n**Work and power.** **Work** is done when a force moves an object through a displacement in the direction of the force: W = Fd, measured in joules (J). Holding a heavy box still does no physical work on the box, even though your muscles tire. **Power** is the rate of doing work, P = W/t, measured in watts (W). Climbing stairs quickly requires more power than climbing slowly, though the work is the same.\n\n**Energy.** **Kinetic energy** is energy of motion, KE = ½mv². Because speed is squared, doubling speed quadruples kinetic energy, which is why higher-speed collisions cause much more severe injuries. **Gravitational potential energy** is stored energy of height, PE = mgh. The law of conservation of energy states that energy is not created or destroyed; it changes form, often ending as heat.\n\n**Torque and levers.** **Torque** is the turning effect of a force, τ = F × r, where r is the perpendicular distance from the pivot (fulcrum). The body uses bones as levers and joints as fulcrums.\n1. First class: fulcrum between effort and load, such as the head nodding on the atlas joint.\n2. Second class: load between fulcrum and effort, such as rising onto the toes.\n3. Third class: effort between fulcrum and load, such as the biceps flexing the elbow. Most limb levers are third class, trading force for speed and range of motion.\n\nThis is the physics behind safe lifting: holding a load close to the body shortens its lever arm, lowering the torque the back muscles must resist.\n\n**Pressure.** **Pressure** is force per unit area, P = F/A, measured in pascals (Pa), though medicine often uses mmHg. A sharp needle concentrates force on a tiny area, creating high pressure that pierces skin; a pressure-relieving mattress spreads body weight over more area to help prevent pressure injuries.\n\n**Fluids.** Pressure in a fluid increases with depth: P = ρgh. Raising an IV bag increases the height of fluid above the insertion site and therefore the pressure driving the flow. **Pascal's principle** says pressure applied to an enclosed fluid is transmitted equally throughout it, which is how a syringe or hydraulic bed lift works. In a tube, flow rate is very sensitive to radius; under smooth (laminar) flow, halving a vessel's radius cuts flow to about one-sixteenth if pressure stays the same, which helps explain why narrowed arteries matter so much.\n\nThe most common mistake is forgetting that torque depends on perpendicular distance from the pivot, so students compare forces alone and miss that a small load held far from the body can strain the back more than a heavier load held close.",
+    "examples": [
+      "Lifting a 20 N bag of saline 1.5 m onto a shelf takes W = 20 × 1.5 = 30 J of work.",
+      "A nurse pressing a 4 N force onto a syringe plunger with an area of 0.0002 m² creates 20,000 Pa of pressure in the fluid.",
+      "Holding a 10 kg box 0.5 m from the spine produces about twice the torque on the lower back as holding it 0.25 m away."
+    ],
+    "questions": [
+      {
+        "stem": "A caregiver lifts a 15 kg toddler straight up 1.2 m. About how much work does she do on the child (g ≈ 9.8 m/s²)?",
+        "choices": [
+          "18 J",
+          "176 J",
+          "12.5 J",
+          "147 J"
+        ],
+        "answer": 1,
+        "explanation": "Work against gravity is mgh = 15 × 9.8 × 1.2 ≈ 176 J. The 18 J answer multiplies mass by height and forgets gravity, giving the wrong units."
+      },
+      {
+        "stem": "A cyclist's speed doubles. What happens to her kinetic energy?",
+        "choices": [
+          "It doubles",
+          "It halves",
+          "It quadruples",
+          "It stays the same"
+        ],
+        "answer": 2,
+        "explanation": "KE = ½mv², so doubling v multiplies KE by 2² = 4. Saying it doubles ignores that velocity is squared."
+      },
+      {
+        "stem": "When a person flexes the elbow to lift a cup, the biceps attaches between the elbow and the hand. Which lever class is this?",
+        "choices": [
+          "Third class",
+          "First class",
+          "Second class",
+          "It is not a lever"
+        ],
+        "answer": 0,
+        "explanation": "The effort (biceps) is between the fulcrum (elbow) and the load (cup), defining a third-class lever. A second-class lever would place the load between fulcrum and effort."
+      },
+      {
+        "stem": "Why do back-safety guidelines advise holding a load close to the body?",
+        "choices": [
+          "It reduces the load's mass",
+          "It increases friction under the feet",
+          "It reduces the load's weight",
+          "It shortens the lever arm and reduces torque on the spine"
+        ],
+        "answer": 3,
+        "explanation": "Torque equals force times perpendicular distance, so a shorter distance lowers the torque the back muscles must counter. The weight itself does not change, so the weight-based answer is wrong."
+      },
+      {
+        "stem": "To increase the flow from a gravity-fed IV, which adjustment works by increasing fluid pressure at the site?",
+        "choices": [
+          "Lowering the bag closer to the arm",
+          "Raising the bag higher above the arm",
+          "Using a wider bag of the same volume",
+          "Cooling the fluid"
+        ],
+        "answer": 1,
+        "explanation": "Fluid pressure increases with height (P = ρgh), so raising the bag raises the driving pressure. A wider bag holds fluid differently but does not raise the fluid's height above the site the way raising the bag does."
+      },
+      {
+        "stem": "Pushing a syringe plunger raises the pressure everywhere in the enclosed fluid. Which principle describes this?",
+        "choices": [
+          "Bernoulli's principle",
+          "Archimedes' principle",
+          "Pascal's principle",
+          "Newton's first law"
+        ],
+        "answer": 2,
+        "explanation": "Pascal's principle states that pressure applied to an enclosed fluid is transmitted equally throughout it. Archimedes' principle is about buoyant force, not pressure transmission."
+      },
+      {
+        "stem": "Two people climb the same staircase. One takes 10 s and the other takes 20 s, and both have the same mass. Which is true?",
+        "choices": [
+          "Both do the same work, but the faster climber uses more power",
+          "The faster climber does more work",
+          "The slower climber uses more power",
+          "Both use the same power"
+        ],
+        "answer": 0,
+        "explanation": "Work depends on mass and height, which are equal; power is work divided by time, so the shorter time means more power. Saying the faster climber does more work confuses work with power."
+      },
+      {
+        "stem": "A specialty mattress lowers the risk of pressure injuries mainly because it:",
+        "choices": [
+          "Reduces the patient's weight",
+          "Increases the patient's body temperature",
+          "Adds a force pushing the patient sideways",
+          "Spreads the same force over a larger contact area"
+        ],
+        "answer": 3,
+        "explanation": "Pressure equals force divided by area, so a larger contact area lowers pressure on the skin. The patient's weight does not change, so that distractor misunderstands the formula."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Work",
+        "definition": "Force times displacement in the direction of the force, W = Fd, measured in joules."
+      },
+      {
+        "term": "Kinetic energy",
+        "definition": "Energy of motion, KE = ½mv²."
+      },
+      {
+        "term": "Torque",
+        "definition": "The turning effect of a force about a pivot, equal to force times perpendicular distance."
+      },
+      {
+        "term": "Pressure",
+        "definition": "Force per unit area, P = F/A, measured in pascals."
+      },
+      {
+        "term": "Pascal's principle",
+        "definition": "Pressure applied to an enclosed fluid is transmitted equally throughout the fluid."
+      }
+    ]
+  }
+]

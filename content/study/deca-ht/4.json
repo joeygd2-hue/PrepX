@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Food and beverage operations",
+    "objective": "Control food and labor costs, apply core food safety rules and use menu engineering to manage a restaurant.",
+    "body": "Restaurant and quick-serve management events test two things above all: controlling costs and keeping guests safe. Judges also want to hear that you understand how menus and service styles shape the guest experience.\n\n**Service styles and menus.** Quick-service restaurants emphasize speed and low prices, fast-casual concepts add higher-quality ingredients with counter ordering, casual dining offers table service at moderate prices, and fine dining delivers premium food and highly attentive service. An *à la carte* menu prices each item separately; a *table d'hôte* or *prix fixe* menu offers a complete meal for one price; a *cycle menu* repeats on a set schedule and is common in schools, hospitals and camps. *Standardized recipes* and portion control keep quality and cost the same no matter who is cooking.\n\n**Cost control.**\n- Cost of food sold = beginning inventory + purchases − ending inventory.\n- *Food cost percentage* = cost of food sold ÷ food sales.\n- Target menu price = portion cost ÷ target food cost percentage.\n- *Prime cost* = food and beverage cost + labor cost, the largest controllable expense in most restaurants.\n\nInventory practices support these numbers: rotate stock *first in, first out (FIFO)*, set *par levels* for each item, and check deliveries against purchase orders.\n\n**Food safety.** The FDA Food Code identifies the *temperature danger zone* as 41°F to 135°F, where bacteria multiply rapidly. Hold cold food at 41°F or lower and hot food at 135°F or higher, and cook poultry to at least 165°F. Prevent *cross-contamination* by separating raw and ready-to-eat foods, and prevent allergen *cross-contact* by using cleaned and sanitized equipment for allergy orders; cooking does not destroy allergens. A *HACCP* plan identifies the critical control points where hazards must be prevented, monitored and recorded.\n\n**Menu engineering.** This tool sorts items by popularity and *contribution margin* (selling price minus food cost). *Stars* are popular and profitable; *plowhorses* are popular with low margins; *puzzles* are profitable but rarely ordered; *dogs* are neither and are candidates for removal.\n\nA common mistake is judging a dish only by its food cost percentage. A $40 steak with a 40% food cost earns $24 per plate, while a $15 pasta with a 20% food cost earns only $12.",
+    "examples": [
+      "A café starts the month with $8,000 of food inventory, buys $22,000 more and ends with $6,000. Cost of food sold = $8,000 + $22,000 − $6,000 = $24,000. On $80,000 of food sales, food cost is 30%.",
+      "A burger costs $4.20 to plate, and the manager targets a 30% food cost. Menu price = $4.20 ÷ 0.30 = $14.00."
+    ],
+    "questions": [
+      {
+        "stem": "A restaurant began the month with $5,000 of food inventory, purchased $15,000 of food and ended with $4,000 of inventory. Food sales were $50,000. What is its food cost percentage?",
+        "choices": ["30%", "32%", "40%", "24%"],
+        "answer": 1,
+        "explanation": "Cost of food sold = $5,000 + $15,000 − $4,000 = $16,000, and $16,000 ÷ $50,000 = 32%. Using purchases alone gives 30%."
+      },
+      {
+        "stem": "A dish costs $3.60 in ingredients per plate, and the manager wants a 30% food cost. What menu price should the manager set?",
+        "choices": ["$4.68", "$10.80", "$12.00", "$13.00"],
+        "answer": 2,
+        "explanation": "Menu price = portion cost ÷ target food cost percentage = $3.60 ÷ 0.30 = $12.00. Adding 30% to the cost ($4.68) confuses a markup with a food cost percentage."
+      },
+      {
+        "stem": "According to the FDA Food Code, which temperature range is the danger zone in which bacteria multiply rapidly?",
+        "choices": ["32°F to 100°F", "41°F to 135°F", "50°F to 165°F", "0°F to 41°F"],
+        "answer": 1,
+        "explanation": "The danger zone is 41°F to 135°F. Keeping cold food at 41°F or below and hot food at 135°F or above limits bacterial growth."
+      },
+      {
+        "stem": "A quick-serve kitchen keeps chili in a steam table during service. At what minimum internal temperature must the chili be held?",
+        "choices": ["120°F", "135°F", "145°F", "165°F"],
+        "answer": 1,
+        "explanation": "Hot food must be held at 135°F or higher, the top of the danger zone. 165°F is the temperature for cooking poultry and for reheating food that will be hot-held, not the holding minimum."
+      },
+      {
+        "stem": "A guest with a severe peanut allergy orders a stir-fry. Which kitchen practice best prevents allergen cross-contact?",
+        "choices": ["Pick any visible peanuts off the finished dish", "Cook the dish at a higher heat to destroy the allergen", "Prepare it with cleaned and sanitized equipment and utensils kept apart from peanut dishes", "Rinse the wok with water between orders"],
+        "answer": 2,
+        "explanation": "Only fully cleaned and sanitized equipment and separate utensils keep allergen proteins out of the dish. Heat does not destroy allergens, and a water rinse leaves residue behind."
+      },
+      {
+        "stem": "When stocking the walk-in cooler, staff place new deliveries behind older products so the older items are used first. What is this method called?",
+        "choices": ["Last in, first out (LIFO)", "First in, first out (FIFO)", "Par stocking", "Just-in-time ordering"],
+        "answer": 1,
+        "explanation": "FIFO rotation uses the oldest stock first, which reduces spoilage and waste."
+      },
+      {
+        "stem": "In one month a restaurant had food cost of $36,000, beverage cost of $9,000, labor cost of $45,000 and total sales of $150,000. What is its prime cost as a percentage of sales?",
+        "choices": ["30%", "54%", "60%", "66%"],
+        "answer": 2,
+        "explanation": "Prime cost = $36,000 + $9,000 + $45,000 = $90,000, and $90,000 ÷ $150,000 = 60%."
+      },
+      {
+        "stem": "A menu item sells in high volume but has a low contribution margin. How is it classified in menu engineering?",
+        "choices": ["Star", "Plowhorse", "Puzzle", "Dog"],
+        "answer": 1,
+        "explanation": "Plowhorses are popular but earn little per sale. Managers may raise the price slightly, trim portion cost or pair the item with higher-margin sides."
+      },
+      {
+        "stem": "A restaurant offers a five-course dinner for one set price of $65, with a few choices within each course. What type of menu is this?",
+        "choices": ["À la carte", "Cycle menu", "Table d'hôte (prix fixe)", "Du jour menu"],
+        "answer": 2,
+        "explanation": "A table d'hôte or prix fixe menu offers a complete meal for a single price. An à la carte menu prices each item separately."
+      },
+      {
+        "stem": "Why do quick-serve chains require every location to follow the same standardized recipes and portion sizes?",
+        "choices": ["To let each cook adjust flavors to local tastes", "To keep product quality and food cost consistent across locations", "To remove the need for food safety training", "To raise each location's food cost percentage"],
+        "answer": 1,
+        "explanation": "Standardized recipes produce the same taste, portion and cost every time, which protects the brand and makes costs predictable."
+      }
+    ],
+    "flashcards": [
+      { "term": "Food cost percentage", "definition": "Cost of food sold divided by food sales; shows the share of each sales dollar spent on ingredients." },
+      { "term": "Prime cost", "definition": "Food and beverage cost plus labor cost; usually a restaurant's largest controllable expense." },
+      { "term": "Temperature danger zone", "definition": "The range from 41°F to 135°F in which bacteria multiply rapidly in food." },
+      { "term": "Cross-contact", "definition": "The transfer of an allergen from one food or surface to another, which cooking does not undo." },
+      { "term": "HACCP", "definition": "Hazard Analysis and Critical Control Point; a food safety plan that monitors the points where hazards can be controlled." },
+      { "term": "Menu engineering", "definition": "Analyzing menu items by popularity and contribution margin to classify them as stars, plowhorses, puzzles or dogs." }
+    ]
+  }
+]

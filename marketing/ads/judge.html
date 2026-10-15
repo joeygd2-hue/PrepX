@@ -1,0 +1,89 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+#content{transform:translate(0,-30px) scale(.89)!important}
+.big{position:absolute;left:0;right:0;text-align:center;font-weight:600;letter-spacing:-.055em;line-height:1}
+.pc{position:absolute;left:52px;right:52px;height:160px;border-radius:24px;padding:18px 20px;background:linear-gradient(180deg,#141416,#0f0f11);border:1.5px solid var(--border);box-shadow:0 30px 70px -30px rgba(0,0,0,.95)}
+.pl{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;font-family:GeistMono;font-weight:600;font-size:16px;background:var(--subtle2);color:var(--fg);flex:none}
+.q{font-size:19px;line-height:1.3;letter-spacing:-.02em;margin-top:12px}
+.sc{margin-left:auto;font-family:GeistMono;font-size:34px;letter-spacing:-.05em;font-weight:500;line-height:1}
+.ck{display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 9px;border-radius:99px;font-size:12px;font-weight:600}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script>
+const B=[0.07,0.7,1.25,1.79,2.32,2.86,3.41,3.97,4.53,5.09,5.6,6.13,6.66,7.17,7.71,8.27,8.82,9.4,9.94,10.5,11.03,11.56,12.1,12.63,13.14,13.7,14.26,14.81,15.37,15.91,16.44,17.0,17.53,18.09,18.62,19.18,19.71,20.25];
+const V0=3.41, T0=8.27, LOCK=13.14, REV=14.26, H=17.53, END=20.7;
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="intro">
+  <div class="big" style="top:300px;font-size:84px"><span class="w" id="i0">You're the</span></div>
+  <div class="big serif" style="top:384px;font-size:150px;color:var(--accent);letter-spacing:-.02em"><span class="w" id="i1">judge.</span></div>
+  <div style="position:absolute;left:0;right:0;top:560px;display:flex;justify-content:center"><span class="chip" id="i2" style="height:40px;font-size:17px;padding:0 18px">Which opener scores higher?</span></div>
+</div>
+<div class="scene" id="vote">
+  <div id="vh" style="position:absolute;left:0;right:0;top:178px;text-align:center">
+    <div class="eyebrow" style="font-size:12px">Roleplay · Marketing</div>
+    <div style="margin-top:8px;font-size:21px;font-weight:600;letter-spacing:-.03em">Pitch a loyalty program to a café owner.</div>
+  </div>
+  <div class="pc" id="ca" style="top:250px">
+    <div style="display:flex;align-items:center;gap:10px"><span class="pl" id="la">A</span><span class="eyebrow" id="ea">Opener A</span><span class="sc num" id="sa"></span></div>
+    <div class="q" id="qa">“Hi! So, um, I think a loyalty program would be good for you.”</div>
+    <div id="ka" style="position:absolute;left:20px;bottom:14px;display:flex;gap:6px;opacity:0"><span class="ck" style="background:rgba(255,92,112,.14);color:#ff8a98">✕ No hook</span><span class="ck" style="background:rgba(255,92,112,.14);color:#ff8a98">✕ Vague</span></div>
+  </div>
+  <div class="pc" id="cb" style="top:424px">
+    <div style="display:flex;align-items:center;gap:10px"><span class="pl" id="lb">B</span><span class="eyebrow" id="eb">Opener B</span><span class="sc num" id="sb"></span></div>
+    <div class="q" id="qb">“Your regulars come in twice a week. A punch card could make it three.”</div>
+    <div id="kb" style="position:absolute;left:20px;bottom:14px;display:flex;gap:6px;opacity:0"><span class="ck" style="background:rgba(198,240,58,.16);color:#c6f03a">✓ Hook</span><span class="ck" style="background:rgba(198,240,58,.16);color:#c6f03a">✓ Uses numbers</span><span class="ck" style="background:rgba(198,240,58,.16);color:#c6f03a">✓ Knows the customer</span></div>
+  </div>
+  <div id="vb" style="position:absolute;left:52px;right:52px;top:604px">
+    <div style="display:flex;align-items:center;justify-content:space-between"><span id="vt" style="font-size:20px;font-weight:600;letter-spacing:-.03em">Comment <span style="color:var(--accent)">A</span> or <span style="color:var(--accent)">B</span> ↓</span><span class="mono num" id="vn" style="font-size:22px;color:var(--accent)">5</span></div>
+    <div style="height:7px;border-radius:9px;background:var(--subtle2);overflow:hidden;margin-top:10px"><div id="vbar" style="height:100%;width:100%;background:var(--accent);border-radius:9px"></div></div>
+  </div>
+  <div id="rv" style="position:absolute;left:0;right:0;top:604px;text-align:center;opacity:0">
+    <div style="font-size:24px;font-weight:600;letter-spacing:-.035em"><span class="serif" style="color:var(--accent);font-size:1.25em">B</span> wins. Get scored on <span class="serif" style="font-size:1.2em">yours.</span></div>
+    <div class="eyebrow" style="margin-top:8px">Practice score from PrepX's AI judge</div>
+  </div>
+</div>
+<div class="scene" id="end">${LOGO_HTML}</div>`));
+$('tag').textContent='Practice with an AI judge. Free to start.';
+
+window.render=function(t){
+  stagePulse(B,t,H+.01,REV);
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  if(show('intro',t<V0)){glow(G[0],270,450,230,'#c6f03a',.16*eo(p(t,.1,.6))*(1-eio(p(t,V0-.23,.23))));
+    const s0=io(t,B[0]+.05,V0,.45,.24);s0.s=lerp(.8,1,back(p(t,B[0]+.05,.5)));put($('i0'),s0);
+    const s1=io(t,B[1],V0,.45,.24);s1.s=lerp(.7,1,back(p(t,B[1],.55)));put($('i1'),s1);
+    const s2=io(t,B[3],V0,.4,.24,16,30);s2.s=lerp(.85,1,back(p(t,B[3],.4)));put($('i2'),s2);}
+  if(show('vote',t>=V0&&t<H)){
+    const out=1-eio(p(t,H-.24,.24));
+    glow(G[0],270,360,200,'#5b9bff',.12*eo(p(t,V0,.5))*(t<REV?1:1-eio(p(t,REV,.4)))*out);
+    glow(G[1],270,500,200,'#c6f03a',(t<REV?.1:.1+.22*eo(p(t,REV,.4)))*eo(p(t,V0,.5))*out);
+    put($('vh'),io(t,V0+.05,H,.4,.24,16,30));
+    put($('ca'),io(t,B[7],H,.42,.24,40,40));put($('cb'),io(t,B[9],H,.42,.24,40,40));
+    // countdown 5..1 then lock
+    const left=cl((LOCK-t)/(LOCK-T0));const vo=t<REV?io(t,B[11],REV,.4,.3,16,20):{o:0,y:0,bl:0};put($('vb'),vo);
+    $('vbar').style.width=(t<T0?100:left*100).toFixed(1)+'%';
+    $('vn').textContent=t<T0?'5':t<LOCK?String(Math.max(1,Math.ceil(left*5))):'0';
+    if(t>=LOCK&&t<REV){$('vt').innerHTML='Votes <span style="color:var(--accent)">locked.</span>';}else if(t<LOCK){$('vt').innerHTML='Comment <span style="color:var(--accent)">A</span> or <span style="color:var(--accent)">B</span> ↓';}
+    // lock: both cards breathe in, then reveal
+    const lk=eio(p(t,LOCK,.3))*(1-eio(p(t,REV,.25)));
+    const rp=eo(p(t,REV,.35)),pop=back(p(t,REV,.45));
+    $('ca').style.opacity=(+$('ca').style.opacity*(1-.45*rp)).toFixed(3);
+    $('ca').style.transform+=` scale(${(1-.02*lk-.03*rp).toFixed(4)})`;
+    $('cb').style.transform+=` scale(${(1-.02*lk+.035*Math.sin(Math.PI*cl(p(t,REV,.5)))).toFixed(4)})`;
+    $('cb').style.borderColor=t>=REV?`rgba(198,240,58,${(.85*rp).toFixed(3)})`:'';
+    $('cb').style.boxShadow=t>=REV?`0 0 0 1px rgba(198,240,58,${(.3*rp).toFixed(2)}),0 24px 70px -20px rgba(198,240,58,${(.45*rp).toFixed(2)})`:'';
+    $('lb').style.background=t>=REV?'#c6f03a':'';$('lb').style.color=t>=REV?'#0c0c0d':'';
+    const n=eo5(p(t,REV+.1,.9));$('sa').textContent=t>=REV?Math.round(58*n):'';$('sb').textContent=t>=REV?Math.round(91*n):'';
+    $('sa').style.color='#ff8a98';$('sb').style.color='#c6f03a';
+    $('ea').textContent=t>=REV?'Practice score':'Opener A';$('eb').textContent=t>=REV?'Practice score':'Opener B';
+    $('qa').style.opacity=$('qb').style.opacity=t>=REV?1-.5*eo(p(t,REV+.5,.3)):1;$('qb').style.opacity=1;
+    [['ka',REV+.7],['kb',REV+.55]].forEach(([id,a])=>{const k=eo(p(t,a,.3));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*8}px)`;});
+    if(t>=REV-.0){put($('rv'),io(t,REV+1.0,H,.4,.24,14,30));}else $('rv').style.opacity=0;}
+  if(show('end',t>=H)){const k=Math.exp(-(t-H)*2.2);glow(G[0],270,430,240,'#c6f03a',.12+.25*k);glow(G[1],270,430,120,'#ffffff',.05+.18*k);renderLogo(t,H,END);}
+  flash(t,t>=H?H:REV,t>=H?.75:.45);
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>

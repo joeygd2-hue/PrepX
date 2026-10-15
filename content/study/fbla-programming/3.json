@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Object-oriented design, algorithms, and efficiency for competition",
+    "objective": "Apply object-oriented principles, compare searching and sorting algorithms using Big O notation, and justify design choices for a polished program.",
+    "body": "Advanced programming questions shift from whether code works to whether it is well designed and efficient. Competition judges also look for these qualities when they review a program, so they matter for both the test and the presentation.\n\n**Object-oriented programming.** **Object-oriented programming (OOP)** organizes code around objects that bundle data and behavior. A **class** is a blueprint, and an **object** is one instance built from it; a Student class might define a name and GPA, while each enrolled student is a separate object. Four principles appear often:\n- **Encapsulation**: keeping an object's data private and exposing it only through methods, so a bank balance cannot be set to any value directly.\n- **Inheritance**: a subclass reuses and extends a parent class, as a SavingsAccount extends Account.\n- **Polymorphism**: different classes respond to the same method call in their own way, such as calculateArea() on a Circle and a Rectangle.\n- **Abstraction**: hiding complex details behind a simple interface.\n\n**Searching.** A **linear search** checks items one at a time and works on any list. A **binary search** repeatedly checks the middle of a *sorted* list and discards half the remaining items each step, so 1,000,000 items need only about 20 comparisons.\n\n**Big O notation.** **Big O notation** describes how running time grows as input size n grows, ignoring constants.\n1. O(1): constant, such as reading list[5].\n2. O(log n): halving the problem each step, like binary search.\n3. O(n): one pass through the data, like linear search.\n4. O(n log n): efficient sorts such as merge sort.\n5. O(n²): nested loops over the same data, like bubble sort or selection sort.\n\nFor small lists the difference is negligible, but at a million items an O(n²) sort needs on the order of a trillion steps while an O(n log n) sort needs about twenty million.\n\n**Recursion.** A **recursive** function calls itself on a smaller version of the problem. It must have a **base case** that stops the calls; without one, the program keeps calling until it runs out of stack space and crashes with a stack overflow.\n\n**Choosing data structures.** A **dictionary** (hash map) looks up values by key in roughly constant time, making it ideal for finding a member by ID. A **stack** is last in, first out, which suits an undo feature. A **queue** is first in, first out, which suits a print line or customer waitlist. Picking the right structure often matters more than clever code.\n\n**Professional quality.** Strong programs use meaningful names, consistent formatting, comments that explain why rather than what, input validation, and a clear user interface. Version control such as Git records changes so a team can recover from mistakes.\n\nThe most common mistake students make is using binary search on unsorted data. Binary search assumes order to decide which half to discard, so on an unsorted list it can skip right past the target and wrongly report it missing.",
+    "examples": [
+      "An inventory app defines a Product class with private price data and a setPrice() method that rejects negative values, an example of encapsulation.",
+      "Searching a sorted list of 1,024 member IDs with binary search takes at most about 11 comparisons, while linear search could take 1,024.",
+      "A drawing program stores each action on a stack so that Undo removes the most recent action first."
+    ],
+    "questions": [
+      {
+        "stem": "A developer makes a Vehicle class, then Car and Truck classes that reuse its fields and add their own. Which principle is this?",
+        "choices": [
+          "Encapsulation",
+          "Inheritance",
+          "Polymorphism",
+          "Recursion"
+        ],
+        "answer": 1,
+        "explanation": "Subclasses reusing and extending a parent class is inheritance. Polymorphism would describe Car and Truck responding differently to the same method call, not the reuse itself."
+      },
+      {
+        "stem": "A banking class makes balance private and allows changes only through deposit() and withdraw(), which reject invalid amounts. Which principle does this show?",
+        "choices": [
+          "Abstraction",
+          "Inheritance",
+          "Encapsulation",
+          "Iteration"
+        ],
+        "answer": 2,
+        "explanation": "Protecting data and controlling access through methods is encapsulation. Abstraction is about hiding complexity behind a simple interface rather than guarding data from invalid changes."
+      },
+      {
+        "stem": "A program must repeatedly find student records by a unique ID among 50,000 records. Which structure gives the fastest typical lookup?",
+        "choices": [
+          "An unsorted list",
+          "A dictionary keyed by ID",
+          "A stack",
+          "A queue"
+        ],
+        "answer": 1,
+        "explanation": "A dictionary (hash map) finds a value by key in about constant time. An unsorted list needs a linear search through up to 50,000 items."
+      },
+      {
+        "stem": "Which Big O describes code with a loop over n items nested inside another loop over the same n items?",
+        "choices": [
+          "O(n)",
+          "O(log n)",
+          "O(n log n)",
+          "O(n²)"
+        ],
+        "answer": 3,
+        "explanation": "Each of the n outer passes does n inner passes, giving n × n work, or O(n²). O(n) would apply to a single loop only."
+      },
+      {
+        "stem": "A student runs binary search on the list [8, 2, 15, 4, 11] and it reports that 4 is missing. What is the cause?",
+        "choices": [
+          "Binary search requires sorted data",
+          "The list is too short",
+          "Binary search only works on strings",
+          "4 is an even number"
+        ],
+        "answer": 0,
+        "explanation": "Binary search decides which half to discard based on order, so it fails on unsorted data. The list's length is not the problem; binary search works on short sorted lists."
+      },
+      {
+        "stem": "A recursive factorial function crashes with a stack overflow for every input. What is most likely missing?",
+        "choices": [
+          "A return type",
+          "A base case",
+          "A loop",
+          "A parameter"
+        ],
+        "answer": 1,
+        "explanation": "Without a base case, the function calls itself forever until the call stack runs out of space. Adding a loop is unnecessary because recursion itself provides the repetition."
+      },
+      {
+        "stem": "A help-desk app must serve customer requests in the order they arrive. Which data structure fits best?",
+        "choices": [
+          "Stack",
+          "Queue",
+          "Dictionary",
+          "Tree"
+        ],
+        "answer": 1,
+        "explanation": "A queue is first in, first out, matching arrival order. A stack is last in, first out, which would serve the newest request first."
+      },
+      {
+        "stem": "Shape, Circle, and Square classes each define draw(), and a loop calls draw() on a mixed list of shapes so each draws itself correctly. Which principle is this?",
+        "choices": [
+          "Polymorphism",
+          "Encapsulation",
+          "Inheritance only",
+          "Abstraction only"
+        ],
+        "answer": 0,
+        "explanation": "The same method call producing class-specific behavior is polymorphism. Inheritance may set up the class family, but the varying behavior on one call is what defines polymorphism."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Encapsulation",
+        "definition": "Keeping an object's data private and allowing access only through its methods."
+      },
+      {
+        "term": "Inheritance",
+        "definition": "An OOP feature where a subclass reuses and extends the fields and methods of a parent class."
+      },
+      {
+        "term": "Binary search",
+        "definition": "A search that repeatedly checks the middle of a sorted list and discards half, running in O(log n) time."
+      },
+      {
+        "term": "Big O notation",
+        "definition": "A way to describe how an algorithm's running time grows as the input size increases."
+      },
+      {
+        "term": "Base case",
+        "definition": "The condition in a recursive function that stops further recursive calls."
+      }
+    ]
+  }
+]

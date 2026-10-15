@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Creative Engineering Design (unit)",
+    "url": "https://www.teachengineering.org/curricularunits/view/cub_creative_curricularunit",
+    "publisher": "TeachEngineering",
+    "kind": "course",
+    "note": "Free unit on the engineering design process: identify the need, research, prototype, test, improve."
+  },
+  {
+    "title": "College Physics 2e",
+    "url": "https://openstax.org/details/books/college-physics-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free physics text for forces, energy, motion and circuits in engineering projects."
+  },
+  {
+    "title": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/",
+    "publisher": "MIT OpenCourseWare",
+    "kind": "course",
+    "note": "MIT's free course materials for deeper study of mechanics, design and electronics."
+  }
+]

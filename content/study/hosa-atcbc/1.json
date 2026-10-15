@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Biomolecules: structure, bonds and function basics",
+    "objective": "Identify the four classes of biological macromolecules, describe their monomers and linking bonds, and predict how structure determines function.",
+    "body": "Almost every biochemistry question starts with recognizing which molecule you are looking at and what holds it together. Living things build four major classes of macromolecules from small repeating units, and each class has a signature bond.\n\n**Monomers and polymers.** Large molecules are assembled by **dehydration synthesis**, which joins two monomers and releases a water molecule. They are broken apart by **hydrolysis**, which adds water across the bond. Digestion is mostly hydrolysis; building tissue is mostly dehydration synthesis.\n\n**The four classes.**\n- **Carbohydrates** are built from monosaccharides such as glucose, linked by **glycosidic bonds**. Starch and glycogen store energy; cellulose gives plant cell walls strength.\n- **Proteins** are chains of 20 amino acids joined by **peptide bonds** between the carboxyl group of one amino acid and the amino group of the next. They act as enzymes, transporters, antibodies and structural fibers.\n- **Nucleic acids** (DNA and RNA) are polymers of nucleotides linked by **phosphodiester bonds**. Each nucleotide has a sugar, a phosphate and a nitrogenous base.\n- **Lipids** are not true polymers. Triglycerides form from glycerol and three fatty acids through **ester bonds**; phospholipids make up membranes; steroids such as cholesterol have four fused rings.\n\n**Structure determines function.** A protein folds through four levels. **Primary structure** is the amino acid sequence. Secondary structure (alpha helices and beta sheets) comes from hydrogen bonds along the backbone. **Tertiary structure** is the overall 3-D shape set by side-chain interactions, including disulfide bridges, ionic bonds and hydrophobic clustering. Quaternary structure exists only when several polypeptide chains combine, as in hemoglobin's four subunits. Because shape depends on weak interactions, heat, extreme pH or heavy metals can cause **denaturation**: the protein unfolds and loses function even though its peptide bonds remain intact.\n\n**Water and polarity.** Polar and charged molecules dissolve in water (hydrophilic), while nonpolar fatty acid tails avoid it (hydrophobic). This explains why phospholipids spontaneously form a bilayer with heads facing water and tails tucked inside.\n\nThe most common mistake students make is believing denaturation breaks peptide bonds. It does not: denaturation disrupts the higher-level folding, leaving the primary sequence unchanged, which is why some proteins can refold when conditions return to normal.",
+    "examples": [
+      "Cooking an egg white turns it from clear to opaque because heat denatures the albumin proteins, changing their shape but not their amino acid sequence.",
+      "Lactase hydrolyzes lactose into glucose and galactose by adding water across the glycosidic bond; people with low lactase activity cannot break this bond efficiently."
+    ],
+    "questions": [
+      {
+        "stem": "A lab student mixes two glucose molecules with an enzyme that forms maltose. Which byproduct should she expect?",
+        "choices": [
+          "Carbon dioxide",
+          "Water",
+          "Ammonia",
+          "Oxygen"
+        ],
+        "answer": 1,
+        "explanation": "Joining monomers is dehydration synthesis, which releases water. Carbon dioxide is a product of cellular respiration, not of forming a glycosidic bond."
+      },
+      {
+        "stem": "A protein is heated to 90 C and loses its enzymatic activity. Which level of structure remains intact?",
+        "choices": [
+          "Quaternary",
+          "Tertiary",
+          "Primary",
+          "Secondary"
+        ],
+        "answer": 2,
+        "explanation": "Heat breaks weak interactions but not covalent peptide bonds, so the amino acid sequence (primary structure) survives. Tertiary structure is exactly what heat disrupts."
+      },
+      {
+        "stem": "A molecule contains a sugar, a phosphate group and a nitrogenous base. It is most likely a monomer of which macromolecule?",
+        "choices": [
+          "Protein",
+          "Carbohydrate",
+          "Lipid",
+          "Nucleic acid"
+        ],
+        "answer": 3,
+        "explanation": "Sugar plus phosphate plus base defines a nucleotide, the monomer of DNA and RNA. Carbohydrates contain sugars but lack phosphate and nitrogenous bases."
+      },
+      {
+        "stem": "Which bond links the amino acids in a polypeptide chain?",
+        "choices": [
+          "Peptide bond",
+          "Glycosidic bond",
+          "Ester bond",
+          "Phosphodiester bond"
+        ],
+        "answer": 0,
+        "explanation": "Amino acids join by peptide bonds between a carboxyl and an amino group. Glycosidic bonds link sugars, not amino acids."
+      },
+      {
+        "stem": "Hemoglobin is made of four polypeptide chains working together. This arrangement describes which level of protein structure?",
+        "choices": [
+          "Secondary",
+          "Quaternary",
+          "Primary",
+          "Tertiary"
+        ],
+        "answer": 1,
+        "explanation": "Quaternary structure is the association of multiple polypeptide subunits. Tertiary structure describes the fold of a single chain."
+      },
+      {
+        "stem": "A researcher places phospholipids in water. Which arrangement will they most likely form?",
+        "choices": [
+          "A bilayer with tails facing inward",
+          "A single layer with tails facing water",
+          "Dissolved individual molecules",
+          "A helix held by peptide bonds"
+        ],
+        "answer": 0,
+        "explanation": "Hydrophobic tails avoid water and hydrophilic heads face it, producing a bilayer. Individual dissolution fails because the nonpolar tails cannot interact favorably with water."
+      },
+      {
+        "stem": "During digestion, starch is broken into glucose. Which reaction type is occurring?",
+        "choices": [
+          "Dehydration synthesis",
+          "Oxidation of fatty acids",
+          "Hydrolysis",
+          "Denaturation"
+        ],
+        "answer": 2,
+        "explanation": "Breaking polymers by adding water is hydrolysis. Dehydration synthesis is the reverse, building polymers and releasing water."
+      },
+      {
+        "stem": "Which molecule is a lipid that is NOT built from glycerol and fatty acids?",
+        "choices": [
+          "Triglyceride",
+          "Phospholipid",
+          "Cellulose",
+          "Cholesterol"
+        ],
+        "answer": 3,
+        "explanation": "Cholesterol is a steroid with four fused rings. Phospholipids do contain glycerol and fatty acids, and cellulose is a carbohydrate."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Dehydration synthesis",
+        "definition": "A reaction that joins two monomers by removing a water molecule."
+      },
+      {
+        "term": "Hydrolysis",
+        "definition": "A reaction that breaks a polymer bond by adding water."
+      },
+      {
+        "term": "Peptide bond",
+        "definition": "The covalent bond linking amino acids in a protein."
+      },
+      {
+        "term": "Denaturation",
+        "definition": "Loss of a protein's folded shape and function due to heat, pH or chemicals, without breaking peptide bonds."
+      },
+      {
+        "term": "Tertiary structure",
+        "definition": "The overall 3-D shape of a single polypeptide set by side-chain interactions."
+      }
+    ]
+  }
+]

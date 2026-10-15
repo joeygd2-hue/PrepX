@@ -1,0 +1,124 @@
+[
+  {
+    "title": "AI Ethics, Business Strategy, and Responsible Deployment",
+    "objective": "Analyze a real-world AI deployment scenario to identify ethical risks, propose mitigation strategies, and evaluate how data-driven decisions create measurable business value.",
+    "body": "Deploying artificial intelligence in business contexts is not solely a technical challenge — it demands rigorous ethical judgment, governance frameworks, and strategic thinking. Future business leaders must be equipped to ask not only \"Can we build this?\" but \"Should we, and if so, how?\"\n\n**Algorithmic bias** occurs when an AI system produces systematically unfair outcomes for certain groups. Bias can enter a system through **training data** that reflects historical discrimination, through **feature selection** that uses proxies for protected characteristics, or through **objective functions** that optimize for metrics that inadvertently disadvantage minorities. A famous example is hiring algorithms trained on historical data that underrepresented women in technical roles, causing the model to downgrade female applicants. Identifying and correcting bias requires both technical audits and diverse development teams.\n\n**Fairness** in AI is not one-dimensional. Researchers have defined dozens of formal fairness criteria, many of which are mathematically incompatible. **Demographic parity** requires equal positive prediction rates across groups. **Equalized odds** requires equal true-positive and false-positive rates. Practitioners must choose a fairness definition that aligns with the ethical and legal context of their deployment.\n\n**Transparency** and **explainability** are increasingly demanded by regulators and users alike. A **black-box model** such as a deep neural network may achieve high accuracy but offer no intuitive rationale for its decisions. **Explainable AI (XAI)** techniques like **SHAP (SHapley Additive exPlanations)** and **LIME (Local Interpretable Model-agnostic Explanations)** approximate how much each input feature contributed to a specific prediction, making individual decisions auditable.\n\n**Data privacy** is a legal and ethical obligation. Regulations such as the **General Data Protection Regulation (GDPR)** in Europe and the **California Consumer Privacy Act (CCPA)** in the United States restrict how personal data can be collected, stored, and used in automated decision-making. **Differential privacy** is a mathematical framework for adding statistical noise to queries so that individual records cannot be reverse-engineered from published results.\n\nBeyond ethics, leaders must frame AI investments in terms of **return on investment (ROI)** and strategic positioning. **Predictive analytics** enables proactive business decisions — anticipating customer churn before it happens, optimizing supply chains before disruptions occur. **Prescriptive analytics** goes further, recommending specific actions rather than just forecasts. Companies that embed AI into core processes often achieve **competitive moats** through proprietary data assets that competitors cannot easily replicate.\n\nEffective **AI governance** includes clear policies for model monitoring, retraining schedules, escalation procedures when a model behaves unexpectedly, and assigned human accountability for automated decisions. The principle of **human-in-the-loop** ensures that high-stakes decisions, such as denying a loan or flagging potential criminal activity, involve human review rather than being fully delegated to an algorithm.",
+    "examples": [
+      "A large bank's loan-approval algorithm trained on 20 years of historical data learns to associate ZIP codes that correlate with race with higher default risk, effectively redlining minority neighborhoods — an example of bias introduced through proxy features in training data.",
+      "A healthcare insurer required by regulators to explain every coverage denial uses SHAP values to produce a plain-language summary showing that the top factors in a specific patient's denial were age, diagnosis code, and absence of prior authorization — making the decision auditable and appealable.",
+      "A streaming platform's recommendation engine achieves 15% higher subscription retention by predicting which users are likely to cancel within 30 days and automatically offering them a discounted renewal, directly linking the AI investment to a measurable reduction in churn rate."
+    ],
+    "questions": [
+      {
+        "stem": "A credit-scoring model trained on historical approval data consistently gives lower scores to applicants from certain ZIP codes that correlate with race. This is best described as:",
+        "choices": [
+          "Underfitting due to insufficient training data",
+          "Algorithmic bias introduced through proxy features",
+          "A precision-recall tradeoff in the model's objective",
+          "Variance caused by an overly complex model"
+        ],
+        "answer": 1,
+        "explanation": "Using ZIP code as a feature introduces proxy bias because ZIP codes correlate with race, allowing racial discrimination to enter the model indirectly. This is not an underfitting or variance problem — it is a structural bias in feature design."
+      },
+      {
+        "stem": "A company's AI system approves 40% of majority-group applicants and only 22% of minority-group applicants. Which fairness criterion is most directly violated?",
+        "choices": [
+          "Equalized odds",
+          "Differential privacy",
+          "Demographic parity",
+          "Model explainability"
+        ],
+        "answer": 2,
+        "explanation": "Demographic parity requires equal positive prediction rates across demographic groups; a large gap in approval rates directly violates it. Equalized odds focuses on error rates (true positive and false positive rates), which is a different criterion."
+      },
+      {
+        "stem": "A bank must justify every automated loan denial to regulators. Which type of AI approach best supports this requirement?",
+        "choices": [
+          "A deep neural network maximizing accuracy",
+          "An explainable AI technique such as SHAP",
+          "Unsupervised clustering of applicant profiles",
+          "A reinforcement learning reward function"
+        ],
+        "answer": 1,
+        "explanation": "SHAP quantifies each feature's contribution to a specific prediction, making individual model decisions auditable and explainable in plain language. Deep neural networks are high-accuracy black boxes that typically cannot produce intuitive per-decision rationale."
+      },
+      {
+        "stem": "Under GDPR, an EU citizen asks a company to explain the automated decision that denied their job application. The company is legally required to:",
+        "choices": [
+          "Provide information about the logic and significance of the automated processing",
+          "Delete all data about the applicant immediately",
+          "Retrain its model with additional data about the applicant",
+          "Transfer the data to a third-party auditor"
+        ],
+        "answer": 0,
+        "explanation": "GDPR (Articles 13–15, together with the Article 22 safeguards on solely automated decisions) gives individuals the right to meaningful information about the logic involved in automated decisions that significantly affect them. The law requires disclosure of the logic involved, not necessarily deletion of data or model retraining."
+      },
+      {
+        "stem": "A company wants to publish aggregate statistics about its customers without allowing anyone to identify individual records from the published data. Which privacy-preserving technique addresses this directly?",
+        "choices": [
+          "Data normalization",
+          "Differential privacy",
+          "K-means clustering",
+          "Feature engineering"
+        ],
+        "answer": 1,
+        "explanation": "Differential privacy adds calibrated statistical noise to query results, providing a mathematical guarantee that individual records cannot be reverse-engineered from the published statistics. Normalization rescales feature values and has no privacy-preserving properties."
+      },
+      {
+        "stem": "A logistics company deploys an AI model that predicts supply chain disruptions two weeks in advance and recommends specific rerouting actions. This is an example of:",
+        "choices": [
+          "Descriptive analytics",
+          "Diagnostic analytics",
+          "Predictive analytics only",
+          "Prescriptive analytics"
+        ],
+        "answer": 3,
+        "explanation": "Prescriptive analytics both forecasts what will happen (predicts disruption) AND recommends specific actions (rerouting). A system that only predicts without recommending actions would be predictive analytics alone."
+      },
+      {
+        "stem": "An AI model flags a job applicant for automatic rejection. Under a human-in-the-loop governance framework, the next step should be:",
+        "choices": [
+          "Automatically send the rejection email without further review",
+          "Retrain the model on the new applicant's profile",
+          "Route the decision to a human reviewer before any action is taken",
+          "Replace the model with a simpler rule-based system"
+        ],
+        "answer": 2,
+        "explanation": "Human-in-the-loop ensures that high-stakes automated decisions involve human review before execution. Automatically sending a rejection violates this principle by bypassing the human check that the framework requires."
+      },
+      {
+        "stem": "A subscription service predicts that 8% of customers are likely to cancel next month and proactively offers them a discount. The AI creates business value primarily by:",
+        "choices": [
+          "Increasing model training accuracy above 95%",
+          "Converting reactive customer service into proactive churn prevention",
+          "Satisfying GDPR transparency requirements for automated decisions",
+          "Reducing the number of features needed in the dataset"
+        ],
+        "answer": 1,
+        "explanation": "The strategic value is the shift from reacting to cancellations after they occur to preventing them before they happen, directly reducing churn. This is a business-outcome framing — accuracy improvements and regulatory compliance are operational concerns, not the primary value driver here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Algorithmic Bias",
+        "definition": "Systematic and unfair discrimination in an AI model's outputs, often caused by biased training data, proxy features, or objective functions that disadvantage protected groups."
+      },
+      {
+        "term": "Explainable AI (XAI)",
+        "definition": "A set of techniques and methods that make machine learning model predictions interpretable to humans, enabling auditing of individual decisions."
+      },
+      {
+        "term": "Differential Privacy",
+        "definition": "A mathematical framework that protects individual data records by adding calibrated statistical noise to queries, ensuring that published aggregate results cannot reveal information about any single person."
+      },
+      {
+        "term": "Prescriptive Analytics",
+        "definition": "An advanced form of data analysis that not only forecasts future outcomes but also recommends specific actions to achieve a desired result."
+      },
+      {
+        "term": "Human-in-the-Loop",
+        "definition": "An AI governance principle requiring that a human reviewer be included in high-stakes automated decision processes before any consequential action is taken."
+      }
+    ]
+  }
+]

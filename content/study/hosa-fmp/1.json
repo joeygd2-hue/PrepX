@@ -1,0 +1,123 @@
+[
+  {
+    "title": "The family physician's role in primary care",
+    "objective": "Describe the scope of family medicine, explain continuity and comprehensive care, and identify the members and settings of the primary care team.",
+    "body": "Family medicine is the medical specialty that cares for the whole person across the whole lifespan. A **family medicine physician** treats newborns, teenagers, adults and older adults, managing everything from a sore throat to diabetes to end-of-life planning. Unlike specialists who focus on one organ system, the family physician sees how a patient's illnesses, family, job and community fit together.\n\n**Training path.** After a four-year bachelor's degree, students complete four years of medical school, earning an MD or DO. They then enter a three-year **residency** in family medicine, pass board examinations, and obtain a state license. Board certification in family medicine requires ongoing learning to maintain.\n\n**Core principles.** Several ideas define the specialty:\n- **Primary care**: the first point of contact for most health concerns, handling the large majority of problems without referral.\n- **Continuity of care**: the same physician or practice follows a patient over years, building trust and a detailed history.\n- **Comprehensive care**: addressing acute illness, chronic disease, prevention and mental health rather than one complaint at a time.\n- **Coordination of care**: arranging referrals to specialists, tracking results and making sure information returns to the patient's home practice.\n\nThe idea of a **medical home** (often called the patient-centered medical home) builds on these principles. The practice serves as a team-based hub where the patient's records, care plans and follow-up live, so care does not become fragmented among many providers.\n\n**The care team.** Family physicians rarely work alone. Nurse practitioners and physician assistants see patients and prescribe within their scope; registered nurses and medical assistants take vital signs, give immunizations and educate patients; pharmacists review medication lists; and behavioral health specialists may work in the same clinic. Knowing who does what helps the team give safe care efficiently.\n\n**Settings.** Family physicians practice in outpatient clinics, community health centers, hospitals, urgent care centers, nursing homes and rural areas where they may be the only physician for many miles. Some also deliver babies or perform minor procedures such as skin biopsies and joint injections.\n\n**Ethics and communication.** Because they know patients for years, family physicians must protect confidentiality under **HIPAA**, obtain **informed consent** before procedures, and respect patient autonomy even when a patient chooses differently than advised.\n\nThe most common mistake students make is confusing primary care with \"minor\" care. Family physicians manage complex, serious conditions; what distinguishes them is breadth and continuity, not a lower level of difficulty.",
+    "examples": [
+      "A family physician who delivered a baby continues to see that child for well-child visits, school physicals and adolescent care, demonstrating continuity of care.",
+      "After a patient sees a cardiologist, the family physician reviews the consult note, updates the medication list and schedules follow-up, demonstrating coordination of care."
+    ],
+    "questions": [
+      {
+        "stem": "A 45-year-old patient has seen the same physician for 15 years for colds, a knee injury and high blood pressure. Which principle of family medicine does this best illustrate?",
+        "choices": [
+          "Coordination of care",
+          "Continuity of care",
+          "Specialty referral",
+          "Episodic care"
+        ],
+        "answer": 1,
+        "explanation": "Seeing the same physician over many years is continuity of care. Coordination involves arranging and tracking care among multiple providers, which is not the focus here."
+      },
+      {
+        "stem": "Which pathway correctly describes how a person becomes a board-certified family physician in the United States?",
+        "choices": [
+          "Bachelor's degree, medical school, three-year family medicine residency, board exam",
+          "Bachelor's degree, two-year physician assistant program, board exam",
+          "Medical school only, followed by a state license",
+          "Nursing degree, then a one-year family medicine fellowship"
+        ],
+        "answer": 0,
+        "explanation": "Family physicians finish medical school (MD or DO) and a three-year residency before board certification. The physician assistant route produces a PA, not a physician."
+      },
+      {
+        "stem": "A patient's family physician refers her to a dermatologist, then receives the biopsy report and discusses results with her. This is best described as:",
+        "choices": [
+          "Continuity of care",
+          "Tertiary prevention",
+          "Coordination of care",
+          "Informed consent"
+        ],
+        "answer": 2,
+        "explanation": "Arranging the referral and making sure results return to the patient's home practice is coordination of care. Continuity refers to a long-term relationship, not managing referrals."
+      },
+      {
+        "stem": "A family physician's schedule includes a newborn check, an older adult with heart failure and a teen with anxiety. What does this schedule best demonstrate?",
+        "choices": [
+          "Episodic urgent care",
+          "Care across the lifespan",
+          "Specialty-limited practice",
+          "Tertiary prevention"
+        ],
+        "answer": 1,
+        "explanation": "Family medicine treats patients of every age, so this schedule shows care across the lifespan. Urgent care handles one-time acute problems rather than this mix of ongoing care."
+      },
+      {
+        "stem": "A clinic keeps one shared record, a team care plan and scheduled follow-ups so a patient's care is not scattered among many offices. This model is called a:",
+        "choices": [
+          "Patient-centered medical home",
+          "Urgent care center",
+          "Hospitalist service",
+          "Referral network"
+        ],
+        "answer": 0,
+        "explanation": "A patient-centered medical home is a team-based hub that keeps care organized. An urgent care center treats episodic problems without long-term coordination."
+      },
+      {
+        "stem": "Before performing a skin biopsy, a family physician explains the purpose, risks, benefits and alternatives, then the patient agrees. This process is:",
+        "choices": [
+          "Confidentiality",
+          "Informed consent",
+          "Beneficence",
+          "Advance directive"
+        ],
+        "answer": 1,
+        "explanation": "Explaining risks, benefits and alternatives and obtaining agreement is informed consent. Confidentiality concerns protecting information, not agreeing to a procedure."
+      },
+      {
+        "stem": "A medical assistant in a family practice is most likely to perform which task?",
+        "choices": [
+          "Diagnose pneumonia and prescribe antibiotics",
+          "Perform a joint replacement",
+          "Take vital signs and record them in the chart",
+          "Interpret a cardiac catheterization"
+        ],
+        "answer": 2,
+        "explanation": "Medical assistants commonly obtain vital signs and support the clinical team. Diagnosing and prescribing are done by physicians or other licensed prescribers such as NPs and PAs."
+      },
+      {
+        "stem": "A neighbor asks a family physician whether a mutual friend was seen at the clinic. Which response follows HIPAA?",
+        "choices": [
+          "Confirm the visit but give no details",
+          "Share details because the neighbor is concerned",
+          "Decline to share any information about whether the friend is a patient",
+          "Share only the diagnosis, not the treatment"
+        ],
+        "answer": 2,
+        "explanation": "Even confirming that someone is a patient discloses protected health information without authorization. Confirming the visit 'without details' is the tempting but incorrect choice."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Primary care",
+        "definition": "First-contact care that handles most health concerns and provides ongoing, comprehensive management."
+      },
+      {
+        "term": "Continuity of care",
+        "definition": "A long-term relationship in which the same physician or practice follows a patient over time."
+      },
+      {
+        "term": "Coordination of care",
+        "definition": "Arranging referrals, tracking results and ensuring information returns to the patient's home practice."
+      },
+      {
+        "term": "Patient-centered medical home",
+        "definition": "A team-based practice model that serves as the organized hub for a patient's records, care plans and follow-up."
+      },
+      {
+        "term": "Informed consent",
+        "definition": "Agreement given after a patient learns the purpose, risks, benefits and alternatives of a procedure or treatment."
+      }
+    ]
+  }
+]

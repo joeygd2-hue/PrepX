@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Protecting water, food, and air in communities",
+    "objective": "Apply water treatment, food safety and air quality principles to identify and correct common community health risks.",
+    "body": "Most environmental health work happens at three everyday points of contact: the water people drink, the food they eat and the air they breathe. Each has a set of standard controls, and test scenarios usually ask which control failed.\n\n**Safe drinking water.** Public water systems use a sequence of treatment steps:\n1. **Coagulation and flocculation**, adding chemicals so small particles clump into larger flocs.\n2. **Sedimentation**, letting the heavy flocs settle out.\n3. **Filtration**, passing water through sand, gravel or membranes to remove remaining particles and many microbes.\n4. **Disinfection**, usually with chlorine or chloramine, sometimes with ultraviolet light, to kill remaining pathogens. A small **residual** of disinfectant is kept in the pipes to protect water on its way to homes.\n\nPrivate wells are not regulated by the EPA, so owners are responsible for testing them, typically at least once a year for bacteria. After a flood or a water main break, a utility may issue a **boil water advisory**, telling residents to bring water to a full rolling boil for one minute before drinking.\n\n**Food safety.** **Foodborne illness** results from eating food contaminated with pathogens such as Salmonella, norovirus or E. coli O157:H7, or with toxins. Bacteria multiply fastest in the **temperature danger zone**, 40 °F to 140 °F (about 4 °C to 60 °C). The four core consumer practices are:\n- **Clean**: wash hands and surfaces.\n- **Separate**: keep raw meat away from ready-to-eat foods to prevent **cross-contamination**.\n- **Cook**: reach safe internal temperatures, such as 165 °F for poultry, checked with a food thermometer.\n- **Chill**: refrigerate perishables within two hours, or one hour if the air is above 90 °F.\n\n**Air quality.** Outdoor air is regulated under the **Clean Air Act**, which sets standards for common pollutants including ground-level ozone, **particulate matter** (PM2.5 and PM10), carbon monoxide, sulfur dioxide, nitrogen dioxide and lead. The **Air Quality Index (AQI)** translates pollutant levels into a color-coded scale; values above 100 are unhealthy for sensitive groups such as people with asthma, children and older adults. Indoor air can be worse than outdoor air. Key indoor hazards include **radon**, a colorless, odorless radioactive gas from soil that is a leading cause of lung cancer in nonsmokers, and **carbon monoxide**, from fuel-burning appliances. Radon is found only by testing, and CO alarms should be installed near sleeping areas.\n\nThe most common mistake students make is assuming that water or air that looks, smells and tastes fine is safe. Many of the most dangerous contaminants, including radon, carbon monoxide, nitrates and most pathogens, cannot be detected by the senses and require testing.",
+    "examples": [
+      "At a picnic, potato salad left in the sun for three hours on a 95 °F day should be thrown away, because it exceeded the one-hour limit for hot conditions.",
+      "A family installs a radon test kit in the basement, gets a high result, and hires a contractor to install a soil depressurization (mitigation) system.",
+      "After a hurricane damages a treatment plant, the city issues a boil water advisory until testing shows the water is safe."
+    ],
+    "questions": [
+      {
+        "stem": "A cook cuts raw chicken on a cutting board, then uses the same unwashed board to slice tomatoes for a salad. Which food safety principle was violated?",
+        "choices": [
+          "Chill",
+          "Cook",
+          "Separate",
+          "Thaw"
+        ],
+        "answer": 2,
+        "explanation": "Using the same board lets pathogens move from raw meat to ready-to-eat food, which is cross-contamination, prevented by the Separate practice. Cook does not apply because the tomatoes are eaten raw."
+      },
+      {
+        "stem": "At which treatment step are chemicals added so tiny particles in raw water clump together?",
+        "choices": [
+          "Coagulation",
+          "Disinfection",
+          "Sedimentation",
+          "Filtration"
+        ],
+        "answer": 0,
+        "explanation": "Coagulation adds chemicals that make particles stick together into flocs. Sedimentation comes next and only lets those clumps settle."
+      },
+      {
+        "stem": "Why do water utilities keep a small residual amount of chlorine in water leaving the plant?",
+        "choices": [
+          "To improve the taste",
+          "To protect the water from contamination as it travels through pipes",
+          "To soften hard water",
+          "To remove sediment"
+        ],
+        "answer": 1,
+        "explanation": "A disinfectant residual keeps protecting water in the distribution system. It does not remove sediment; that is the job of sedimentation and filtration."
+      },
+      {
+        "stem": "The AQI in a city reaches 135 because of wildfire smoke. Who should be most concerned about limiting outdoor exertion?",
+        "choices": [
+          "Only construction workers",
+          "No one, since values under 150 are good",
+          "Only people who smoke",
+          "Sensitive groups such as children, older adults and people with asthma"
+        ],
+        "answer": 3,
+        "explanation": "AQI values from 101 to 150 are unhealthy for sensitive groups. Saying no one is affected is wrong because the good range is only 0 to 50."
+      },
+      {
+        "stem": "A family's newly purchased home has a basement bedroom. No one smokes, but the parents want to reduce lung cancer risk. Which step is most appropriate?",
+        "choices": [
+          "Test the home for radon",
+          "Open windows only in summer",
+          "Install a water softener",
+          "Check the AQI daily"
+        ],
+        "answer": 0,
+        "explanation": "Radon is an odorless gas from soil and a leading cause of lung cancer in nonsmokers; testing is the only way to detect it. The AQI measures outdoor air, not radon in a basement."
+      },
+      {
+        "stem": "Leftover chili is kept on the counter overnight at room temperature. What is the main problem?",
+        "choices": [
+          "It was cooked to too high a temperature",
+          "It sat in the temperature danger zone long enough for bacteria to multiply",
+          "Chili cannot be refrigerated",
+          "It was not frozen immediately"
+        ],
+        "answer": 1,
+        "explanation": "Room temperature is within 40 °F to 140 °F, where bacteria grow quickly; perishables should be chilled within two hours. Freezing is not required; refrigeration would have been enough."
+      },
+      {
+        "stem": "A rural family drinks water from a private well. Who is responsible for making sure it is tested?",
+        "choices": [
+          "The EPA",
+          "The local water utility",
+          "The well owner",
+          "OSHA"
+        ],
+        "answer": 2,
+        "explanation": "Private wells are not covered by EPA public water rules, so owners must test them. The EPA regulates public systems, which is the main distractor."
+      },
+      {
+        "stem": "A family is using a gas generator inside the garage during a power outage and several members develop headaches and dizziness. What is the most likely cause?",
+        "choices": [
+          "Radon exposure",
+          "Ground-level ozone",
+          "Foodborne illness",
+          "Carbon monoxide poisoning"
+        ],
+        "answer": 3,
+        "explanation": "Fuel-burning engines in enclosed spaces produce carbon monoxide, which causes headache and dizziness and can be fatal. Radon does not cause sudden symptoms; its harm is long-term lung cancer risk."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Temperature danger zone",
+        "definition": "The range of 40 °F to 140 °F in which bacteria in food multiply most rapidly."
+      },
+      {
+        "term": "Cross-contamination",
+        "definition": "Transfer of pathogens from one food or surface, such as raw meat, to another food."
+      },
+      {
+        "term": "Disinfectant residual",
+        "definition": "A small amount of chlorine or chloramine left in treated water to protect it in the pipes."
+      },
+      {
+        "term": "Air Quality Index (AQI)",
+        "definition": "A color-coded scale that converts outdoor pollutant levels into health guidance; above 100 is unhealthy for sensitive groups."
+      },
+      {
+        "term": "Radon",
+        "definition": "A colorless, odorless radioactive gas from soil that is a leading cause of lung cancer in nonsmokers."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "What family physicians do and how they train",
+    "objective": "Describe the scope of family medicine, trace the education pathway to board certification, and distinguish family physicians from related primary care roles.",
+    "body": "**Family medicine** is the medical specialty that provides continuing, comprehensive care for patients of every age, sex and organ system. A family physician may see a newborn for a well-child visit in the morning, manage an adult's diabetes before lunch and counsel an older patient about advance directives in the afternoon. The defining idea is **continuity of care**: the same physician or team follows a patient and often several generations of a family over many years, so they understand the person's history, values and social situation.\n\nFamily medicine is one of the main **primary care** specialties, along with general internal medicine and general pediatrics. The key difference is breadth. An **internist** cares for adults only, and a **pediatrician** cares for children and adolescents, while a family physician is trained across the whole life span and also receives training in women's health, behavioral health and minor procedures. Many family physicians also deliver babies, although that varies by practice.\n\nThe path to becoming a family physician in the United States is long and structured:\n\n1. Earn a bachelor's degree, usually with science prerequisites, and take the MCAT.\n2. Complete four years of medical school, earning either an **MD** (allopathic) or **DO** (osteopathic) degree. DOs receive additional training in osteopathic manipulative treatment but practice the full scope of medicine.\n3. Pass the licensing exams (USMLE for MDs, COMLEX for DOs) during and after medical school.\n4. Complete a three-year family medicine **residency**, supervised hands-on training in hospitals and clinics.\n5. Obtain a state medical license and pass the board exam of the **American Board of Family Medicine (ABFM)** to become **board certified**, then maintain certification through ongoing learning.\n\nAfter residency, some physicians complete a one-year **fellowship** in areas such as sports medicine, geriatrics, palliative care or obstetrics. Professional support comes from the **American Academy of Family Physicians (AAFP)**, which advocates for the specialty and provides continuing medical education.\n\nFamily physicians work in private offices, community health centers, hospitals, urgent care and rural clinics. Because they handle most common problems themselves, they also coordinate care, referring patients to specialists when needed and keeping the full picture together. This role is often described as the patient's **medical home**.\n\nThe most common mistake students make is treating \"primary care\" and \"family medicine\" as synonyms. Family medicine is one primary care specialty; internal medicine and pediatrics are also primary care but serve narrower age groups.",
+    "examples": [
+      "A family physician in a rural town treats a grandmother's high blood pressure, her daughter's prenatal care and her grandson's ear infection, giving all three continuity of care.",
+      "After finishing a family medicine residency, a DO completes a one-year sports medicine fellowship and becomes team physician for a local high school."
+    ],
+    "questions": [
+      {
+        "stem": "A 70-year-old man, his 40-year-old daughter and her 6-month-old baby want one doctor for the whole family. Which specialist fits best?",
+        "choices": [
+          "General internist",
+          "Pediatrician",
+          "Family physician",
+          "Geriatrician"
+        ],
+        "answer": 2,
+        "explanation": "Family physicians are trained to care for all ages. An internist treats adults only, so the baby would need a different doctor."
+      },
+      {
+        "stem": "Which feature most defines family medicine compared with other specialties?",
+        "choices": [
+          "Focus on a single organ system",
+          "Continuing, comprehensive care across the life span",
+          "Care only for hospitalized patients",
+          "Exclusive focus on surgical procedures"
+        ],
+        "answer": 1,
+        "explanation": "Family medicine is defined by breadth and continuity across ages. Organ-system focus describes subspecialties like cardiology."
+      },
+      {
+        "stem": "A student has finished medical school. What is the next required training step to become a family physician?",
+        "choices": [
+          "A three-year family medicine residency",
+          "A one-year sports medicine fellowship",
+          "A four-year surgical residency",
+          "Immediate independent practice"
+        ],
+        "answer": 0,
+        "explanation": "Graduates enter a three-year family medicine residency. A fellowship is optional and comes after residency."
+      },
+      {
+        "stem": "Which organization certifies family physicians through a board exam?",
+        "choices": [
+          "American Academy of Family Physicians",
+          "American Medical Association",
+          "American Board of Family Medicine",
+          "Centers for Disease Control and Prevention"
+        ],
+        "answer": 2,
+        "explanation": "The ABFM grants board certification. The AAFP is a professional membership and advocacy organization, not the certifying board."
+      },
+      {
+        "stem": "A patient asks whether a DO family physician can prescribe medication and practice full medicine. What is accurate?",
+        "choices": [
+          "DOs may only perform manipulation",
+          "DOs are licensed physicians with full practice rights plus osteopathic manipulative training",
+          "DOs must be supervised by an MD",
+          "DOs cannot complete residency"
+        ],
+        "answer": 1,
+        "explanation": "DOs are fully licensed physicians. Manipulative treatment is additional training, not a limit on scope."
+      },
+      {
+        "stem": "A family physician refers a patient to cardiology but continues to track results and coordinate all of the patient's care. This illustrates what concept?",
+        "choices": [
+          "Medical home",
+          "Fellowship",
+          "Board certification",
+          "Tertiary care"
+        ],
+        "answer": 0,
+        "explanation": "The medical home model centers coordination in primary care. Tertiary care refers to highly specialized hospital care, not coordination."
+      },
+      {
+        "stem": "Which pairing of degree and licensing exam is correct?",
+        "choices": [
+          "MD and COMLEX",
+          "DO and MCAT",
+          "DO and COMLEX",
+          "MD and ABFM residency exam"
+        ],
+        "answer": 2,
+        "explanation": "DOs typically take COMLEX and MDs take USMLE. The MCAT is the medical school admission test, not a licensing exam."
+      },
+      {
+        "stem": "A classmate says family medicine is the only primary care specialty. What is the best correction?",
+        "choices": [
+          "Correct; no other specialty is primary care",
+          "Internal medicine and pediatrics are also primary care specialties",
+          "Only emergency medicine is primary care",
+          "Primary care refers only to nurse practitioners"
+        ],
+        "answer": 1,
+        "explanation": "General internal medicine and pediatrics are also primary care. The error is equating primary care with family medicine alone."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Family medicine",
+        "definition": "Specialty providing continuing, comprehensive care for patients of all ages, sexes and organ systems."
+      },
+      {
+        "term": "Continuity of care",
+        "definition": "An ongoing relationship in which the same physician or team follows a patient over time."
+      },
+      {
+        "term": "Residency",
+        "definition": "Supervised postgraduate training after medical school; three years for family medicine."
+      },
+      {
+        "term": "Board certification",
+        "definition": "Credential earned by passing the ABFM exam and maintaining ongoing requirements."
+      },
+      {
+        "term": "Medical home",
+        "definition": "Primary care model in which one practice coordinates all of a patient's care."
+      }
+    ]
+  }
+]

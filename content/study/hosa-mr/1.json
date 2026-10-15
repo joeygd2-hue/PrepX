@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Active reading strategies for health-science nonfiction books",
+    "objective": "Apply previewing, annotating and summarizing techniques to identify main ideas, supporting details and key people in a health-science book.",
+    "body": "HOSA Medical Reading tests how well you understand assigned health-related books, usually through a written test on main ideas, key people, events and vocabulary. Because the test covers whole books, passive reading is not enough. You need a system that turns hundreds of pages into organized, reviewable knowledge.\n\n**Previewing.** Before reading a chapter, scan the title, headings, first and last paragraphs, and any figures. Previewing builds a mental frame so new details have somewhere to attach. Ask: What question is this chapter trying to answer?\n\n**Main idea versus supporting detail.** The **main idea** is the central point the author wants you to accept; **supporting details** are the facts, stories, statistics and quotations that back it up. A useful test: if you removed the sentence, would the chapter's argument collapse? If yes, it is likely the main idea. If the chapter would still make sense, it is a detail.\n\n**Annotating.** **Annotation** means marking the text with purpose rather than highlighting everything. A simple code works well:\n- Underline claims and conclusions.\n- Circle names of people, institutions and places.\n- Box dates and numbers.\n- Write a question mark beside anything confusing.\n\n**Summarizing each chapter.** After each chapter, write a three-to-five sentence **summary** in your own words: who was involved, what happened or was argued, why it mattered, and what changed as a result. Paraphrasing forces understanding; copying sentences does not.\n\n**Tracking people and timelines.** Health-science books often follow researchers, patients, physicians and families across decades. Keep a running **character list** with each person's role and relationship to others, and a **timeline** of key events. Many test questions ask who did something, when, or in what order.\n\n**Context clues.** When you meet an unfamiliar medical term, use **context clues** before reaching for a dictionary: definitions set off by commas, examples, contrasts (\"unlike benign tumors...\") and word parts. Then confirm the meaning and add it to your vocabulary list.\n\n**Spaced review.** Reread your summaries and lists a day later, a week later and again before competition. Short, repeated reviews beat one long cram session.\n\nThe most common mistake students make is highlighting large blocks of text and calling it studying. Heavy highlighting feels productive but does not force you to decide what matters, so on test day you recognize passages without being able to recall who, what, when or why.",
+    "examples": [
+      "After reading a chapter on a polio vaccine trial, a student writes: \"Researchers ran a large field trial with placebo controls; results showed the vaccine was safe and effective, leading to its approval and mass use.\"",
+      "A student circles every physician's name in a chapter and adds each to a character list with a one-line note, such as \"surgeon who first tried the procedure.\"",
+      "Meeting the word \"metastasized,\" a student notices the next clause says the cancer had \"spread to the liver and lungs\" and infers the meaning from context."
+    ],
+    "questions": [
+      {
+        "stem": "Maya finishes a chapter and wants one sentence that captures its central argument. Which element should that sentence describe?",
+        "choices": [
+          "The main idea",
+          "The most surprising statistic",
+          "The longest quotation",
+          "The first event mentioned"
+        ],
+        "answer": 0,
+        "explanation": "The main idea is the central point the whole chapter supports. A surprising statistic is a supporting detail; it backs the argument but is not the argument."
+      },
+      {
+        "stem": "Before starting a new chapter, Leo reads the headings, the opening and closing paragraphs and the figure captions. What strategy is he using?",
+        "choices": [
+          "Annotating",
+          "Summarizing",
+          "Previewing",
+          "Paraphrasing"
+        ],
+        "answer": 2,
+        "explanation": "Previewing means surveying structure before reading closely. Annotating happens during reading, not before."
+      },
+      {
+        "stem": "A student highlights nearly every sentence on each page. What is the main problem with this approach?",
+        "choices": [
+          "It takes too little time",
+          "It avoids deciding which ideas are most important",
+          "It makes the text harder to reread",
+          "It violates copyright rules"
+        ],
+        "answer": 1,
+        "explanation": "Effective annotation requires choosing what matters; highlighting everything skips that decision. Time spent is not the issue; the lack of selection is."
+      },
+      {
+        "stem": "A sentence reads: \"The patient developed hypoxia, a dangerous shortage of oxygen in the body's tissues.\" Which context clue explains the term?",
+        "choices": [
+          "A contrast clue",
+          "An example clue",
+          "A definition set off by a comma",
+          "A cause-and-effect clue"
+        ],
+        "answer": 2,
+        "explanation": "The meaning follows directly after the comma as a restatement, which is a definition clue. A contrast clue would use words like \"unlike\" or \"however.\""
+      },
+      {
+        "stem": "Which chapter summary is strongest for test review?",
+        "choices": [
+          "A list of every name mentioned in the chapter",
+          "Four sentences in the student's own words covering who, what, why and what changed",
+          "The chapter's first and last paragraphs copied word for word",
+          "A single word describing the chapter's mood"
+        ],
+        "answer": 1,
+        "explanation": "A good summary is concise, paraphrased and covers the key who, what, why and result. Copying paragraphs preserves wording without proving understanding."
+      },
+      {
+        "stem": "A book follows a research team over 40 years. Which study tool best prepares a student for questions about the order of discoveries?",
+        "choices": [
+          "A vocabulary list",
+          "A timeline of key events",
+          "A list of favorite quotations",
+          "A word count of each chapter"
+        ],
+        "answer": 1,
+        "explanation": "A timeline organizes events chronologically, which directly supports sequence questions. A vocabulary list helps with terms, not order."
+      },
+      {
+        "stem": "Priya removes one sentence from a paragraph and the paragraph's point still makes sense. What does this suggest about the removed sentence?",
+        "choices": [
+          "It was likely the main idea",
+          "It was likely a supporting detail",
+          "It was likely a thesis",
+          "It was likely the author's conclusion"
+        ],
+        "answer": 1,
+        "explanation": "If the argument survives without the sentence, it was supporting rather than central. A main idea's removal would leave the paragraph without a point."
+      },
+      {
+        "stem": "Which review schedule best matches research on long-term retention?",
+        "choices": [
+          "Rereading the whole book the night before competition",
+          "Reviewing summaries after one day, one week and again before competition",
+          "Reading each chapter twice in a row immediately",
+          "Reviewing only the final chapter"
+        ],
+        "answer": 1,
+        "explanation": "Spaced review strengthens memory more than cramming. Rereading everything the night before is massed practice and fades quickly."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Main idea",
+        "definition": "The central point an author wants the reader to accept in a chapter or passage."
+      },
+      {
+        "term": "Supporting detail",
+        "definition": "A fact, story, statistic or quotation that backs up the main idea."
+      },
+      {
+        "term": "Annotation",
+        "definition": "Purposeful marking of a text, such as underlining claims and circling names, to organize key information."
+      },
+      {
+        "term": "Previewing",
+        "definition": "Scanning titles, headings, opening and closing paragraphs and figures before reading closely."
+      },
+      {
+        "term": "Context clues",
+        "definition": "Hints in surrounding text, such as definitions, examples or contrasts, that reveal an unfamiliar word's meaning."
+      }
+    ]
+  }
+]

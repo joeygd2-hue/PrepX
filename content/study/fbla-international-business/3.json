@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Market Entry Strategies and International Business Strategy",
+    "objective": "Evaluate and recommend appropriate market entry strategies for companies expanding internationally, weighing risk, control, and resource commitments.",
+    "body": "Once a firm decides to expand beyond its home market, it faces a fundamental strategic question: how much control is worth how much risk and investment? **Market entry mode selection** is among the most consequential decisions an international business makes, because it determines revenue potential, exposure to local market conditions, and the ability to protect proprietary assets.\n\nEntry modes exist on a spectrum from low-commitment to high-commitment:\n\n**Exporting** requires the least investment. Indirect exporting uses domestic intermediaries such as export management companies; direct exporting involves the firm managing foreign distribution itself. Exporting preserves flexibility but limits market intelligence and brand control.\n\n**Licensing and Franchising** allow a firm to grant rights to a foreign company to use its intellectual property — trademarks, patents, or business systems — in exchange for royalties. McDonald's and KFC built global footprints through franchising. The risk is **intellectual property leakage**: the licensee may become a future competitor.\n\n**Strategic Alliances and Joint Ventures (JVs)** involve partnering with a local firm. A JV creates a new entity owned by two or more partners; a strategic alliance is a contractual collaboration without a new legal entity. JVs are common in markets requiring local knowledge or government mandates, such as China's automotive sector, which required foreign automakers to use JVs until those ownership limits were phased out in 2022. The primary challenge is **partner misalignment** — differences in strategic priorities, investment expectations, or exit timelines.\n\n**Wholly Owned Subsidiaries (WOS)** represent maximum control and maximum investment. A **greenfield investment** builds operations from scratch; an **acquisition** buys an existing local firm. Greenfields allow the parent to embed its culture and systems but take longer. Acquisitions provide immediate market access and existing customer relationships but carry **integration risk** — culture clashes and systems incompatibilities are common acquisition killers.\n\nBeyond entry mode, firms must choose a **global strategy**. **Michael Porter's Diamond Model** identifies four determinants of national competitive advantage: factor conditions, demand conditions, related and supporting industries, and firm strategy/rivalry. Countries with strong supporting industry clusters — Silicon Valley in technology, southern Germany in automotive engineering — produce globally competitive firms.\n\n**Porter's generic strategies** apply internationally: **cost leadership** (competing on lowest price, as Walmart does globally), **differentiation** (competing on unique value, as LVMH does with luxury goods), and **focus** (targeting a narrow segment). In international markets, these must be adapted to local conditions — a pure **global strategy** standardizes offerings worldwide for cost efficiency, while a **multidomestic strategy** customizes for each local market, sacrificing scale for responsiveness. **Transnational strategy** seeks both simultaneously through a network of specialized subsidiaries.",
+    "examples": [
+      "When Walmart entered Germany in the late 1990s via acquisition of Wertkauf, it failed to adapt its American store formats, customer service norms, and supply chain to German preferences and regulations, ultimately exiting the market in 2006 — a costly lesson in integration risk and multidomestic strategy requirements.",
+      "Starbucks entered China through a joint venture with local partners who provided knowledge of real estate, government relationships, and consumer preferences, allowing the brand to scale rapidly in a market where a wholly owned subsidiary would have faced far greater regulatory and cultural barriers.",
+      "Toyota's decision to build a greenfield manufacturing plant in Georgetown, Kentucky rather than acquiring an existing U.S. facility allowed it to implement its Toyota Production System from the ground up without inheriting legacy labor contracts or conflicting organizational cultures."
+    ],
+    "questions": [
+      {
+        "stem": "A tech startup holds a patented software platform and wants to enter Brazil with minimal capital at risk. The MOST appropriate entry mode is:",
+        "choices": [
+          "Greenfield wholly owned subsidiary",
+          "Acquisition of a Brazilian software firm",
+          "Licensing the platform to a Brazilian company for royalties",
+          "Joint venture with a Brazilian government agency"
+        ],
+        "answer": 2,
+        "explanation": "Licensing generates revenue from the intellectual property with minimal capital investment or operational exposure, fitting a startup's risk profile. A greenfield or acquisition requires substantial capital commitment, and a government JV introduces political complexity inappropriate for early-stage market entry."
+      },
+      {
+        "stem": "A foreign automaker is required by a host country's government to partner with a local firm in order to manufacture automobiles there. This mandatory partnership is an example of:",
+        "choices": [
+          "A strategic alliance driven by voluntary synergy",
+          "A joint venture imposed by host country regulation",
+          "A licensing agreement under the WTO IP framework",
+          "A wholly owned subsidiary with local management"
+        ],
+        "answer": 1,
+        "explanation": "China, for example, required foreign automakers to form JVs with Chinese firms as a condition of market entry until 2022; a mandated partnership like this is a regulatory JV rather than a voluntarily chosen alliance. The JV still creates a jointly owned legal entity but is driven by host country policy rather than partner preference."
+      },
+      {
+        "stem": "A company builds a brand-new factory in Vietnam to serve Southeast Asian markets. This investment is classified as:",
+        "choices": [
+          "A portfolio investment with indirect ownership",
+          "A greenfield foreign direct investment",
+          "An acquisition with technology transfer",
+          "An export management contract"
+        ],
+        "answer": 1,
+        "explanation": "Greenfield FDI means constructing new facilities from scratch in a foreign market, giving the investor complete control over design, processes, and culture. A portfolio investment involves buying financial securities rather than building productive assets."
+      },
+      {
+        "stem": "LVMH maintains premium prices globally rather than discounting to compete in price-sensitive markets. This reflects which of Porter's generic strategies applied internationally?",
+        "choices": [
+          "Cost leadership",
+          "Multidomestic focus strategy",
+          "Differentiation",
+          "Transnational efficiency strategy"
+        ],
+        "answer": 2,
+        "explanation": "Differentiation strategy competes on unique perceived value — LVMH's brand prestige, craftsmanship, and exclusivity — rather than price. Cost leadership would require LVMH to undercut competitors on price, which would destroy the luxury positioning."
+      },
+      {
+        "stem": "A company sells identical products worldwide with no local customization to maximize scale economies. This approach is called a:",
+        "choices": [
+          "Multidomestic strategy",
+          "Transnational strategy",
+          "Franchising strategy",
+          "Global standardization strategy"
+        ],
+        "answer": 3,
+        "explanation": "A global standardization strategy treats the world as one market with uniform products, messaging, and operations to minimize costs through scale. A multidomestic strategy customizes for each local market, sacrificing scale for local responsiveness."
+      },
+      {
+        "stem": "According to Porter's Diamond Model, why would a Swiss company have a competitive advantage in precision watches?",
+        "choices": [
+          "Switzerland's government subsidizes all manufacturing exports.",
+          "Switzerland benefits from strong related industries, skilled labor, and demanding local consumers reinforcing quality standards.",
+          "Swiss firms avoid competition domestically, concentrating resources on export markets.",
+          "Switzerland's large domestic market generates enough demand to fund global operations."
+        ],
+        "answer": 1,
+        "explanation": "Porter's Diamond highlights how factor conditions (skilled craftspeople), demand conditions (Swiss consumers with high quality expectations), and related/supporting industries (precision tools, luxury retail) cluster to create systemic competitive advantage. Switzerland is not a large domestic market, and its government does not broadly subsidize manufacturing."
+      },
+      {
+        "stem": "A multinational acquires a local competitor in France and immediately replaces all French management with headquarters executives who enforce home-country protocols. The MOST likely consequence is:",
+        "choices": [
+          "Rapid cost reduction through standardized global systems",
+          "Increased brand equity in the local French market",
+          "Integration failure due to cultural clashes and loss of local expertise",
+          "Improved relationships with French regulatory authorities"
+        ],
+        "answer": 2,
+        "explanation": "Replacing local management eliminates institutional knowledge of customer relationships, regulatory norms, and cultural expectations, creating integration risk. Successful acquisitions typically retain key local talent and blend organizational cultures rather than imposing a single cultural framework."
+      },
+      {
+        "stem": "A transnational strategy differs from both global and multidomestic strategies because it seeks to:",
+        "choices": [
+          "Avoid foreign direct investment by using only exporting and licensing",
+          "Operate exclusively in markets with similar cultural profiles",
+          "Achieve global efficiency and local responsiveness simultaneously through a network of specialized subsidiaries",
+          "Standardize all products globally while customizing only marketing messages"
+        ],
+        "answer": 2,
+        "explanation": "Transnational strategy attempts to capture the cost benefits of global integration while remaining responsive to local markets through a distributed network where different subsidiaries hold different global mandates. The global strategy prioritizes efficiency over local responsiveness, and multidomestic does the reverse."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Greenfield Investment",
+        "definition": "A form of foreign direct investment in which a company builds entirely new facilities from scratch in a foreign country, rather than acquiring or partnering with an existing local firm."
+      },
+      {
+        "term": "Joint Venture",
+        "definition": "A market entry mode in which two or more firms create and jointly own a new legal entity in a foreign market, sharing investment, risk, profits, and management control."
+      },
+      {
+        "term": "Transnational Strategy",
+        "definition": "An international business strategy that simultaneously pursues global efficiency through standardization and local responsiveness through customization, using a network of specialized subsidiaries."
+      },
+      {
+        "term": "Porter's Diamond Model",
+        "definition": "A framework identifying four interconnected determinants of national competitive advantage: factor conditions, demand conditions, related and supporting industries, and firm strategy and rivalry."
+      },
+      {
+        "term": "Intellectual Property Leakage",
+        "definition": "The risk in licensing and franchising arrangements that a foreign licensee gains sufficient knowledge of proprietary technology or business systems to become a direct competitor."
+      }
+    ]
+  }
+]

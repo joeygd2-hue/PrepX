@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Interpreting the complete blood count and red cell indices",
+    "objective": "Calculate red cell indices, interpret CBC and differential results, and classify anemias and white cell changes using reference ranges.",
+    "body": "The **complete blood count (CBC)** is the most frequently ordered hematology test. It measures the white cells, red cells and platelets in an EDTA sample and gives clinicians a fast picture of oxygen-carrying capacity, infection response and clotting potential. Knowing how its numbers relate to one another lets you spot patterns rather than memorize isolated values.\n\n**Red cell measurements.** The analyzer reports red blood cell count, **hemoglobin** (the oxygen-carrying protein) and **hematocrit**, the percentage of blood volume occupied by red cells. In healthy samples, hematocrit is roughly three times the hemoglobin, a useful check called the rule of three. Typical adult hemoglobin is about 13.5 to 17.5 g/dL for men and 12 to 15.5 g/dL for women, though each laboratory sets its own reference intervals.\n\n**Red cell indices.** These describe the average red cell.\n1. **MCV** (mean corpuscular volume) = hematocrit (%) x 10 / RBC (millions/uL), reported in femtoliters; normal is about 80 to 100 fL.\n2. **MCH** = hemoglobin (g/dL) x 10 / RBC, reported in picograms.\n3. **MCHC** = hemoglobin / hematocrit x 100, reported in g/dL; normal is about 32 to 36.\n\n**RDW** measures variation in red cell size; a high RDW means the cells are unequal in size, called anisocytosis.\n\n**Classifying anemia by MCV.**\n- **Microcytic** (MCV below 80): iron deficiency is most common, often with a high RDW; thalassemia trait is another cause.\n- **Normocytic** (80 to 100): acute blood loss, chronic disease or kidney disease.\n- **Macrocytic** (above 100): vitamin B12 or folate deficiency, liver disease or alcohol use.\n\n**White cells and the differential.** The white cell count is followed by a differential, the percentage of each type: neutrophils, lymphocytes, monocytes, eosinophils and basophils. Neutrophils usually rise in bacterial infection, lymphocytes in many viral infections and eosinophils in allergy or parasitic infection. A **left shift** means increased immature neutrophils, called bands, which signals the marrow is responding to acute infection. To avoid misleading percentages, convert to an absolute count: total WBC multiplied by the cell's percentage.\n\n**Platelets.** A normal platelet count is roughly 150,000 to 450,000 per microliter. A low count from an analyzer should be checked on a blood smear, because platelet clumping can produce a falsely low result.\n\nThe most common mistake students make is reading each value alone. A low hemoglobin means little until you check the MCV, RDW and smear, and a high lymphocyte percentage may simply reflect a low neutrophil count rather than a true lymphocytosis.",
+    "examples": [
+      "A sample with Hct 30% and RBC 4.0 million/uL has an MCV of 30 x 10 / 4.0 = 75 fL, a microcytic result that points first toward iron deficiency.",
+      "A patient with a WBC of 15,000/uL, 85% neutrophils and increased bands shows a left shift consistent with acute bacterial infection.",
+      "An analyzer reports a platelet count of 40,000/uL, but the smear shows large platelet clumps, so the sample is recollected in a citrate tube."
+    ],
+    "questions": [
+      {
+        "stem": "A sample has hematocrit 42% and RBC 5.0 million/uL. What is the MCV?",
+        "choices": [
+          "84 fL",
+          "119 fL",
+          "42 fL",
+          "8.4 fL"
+        ],
+        "answer": 0,
+        "explanation": "MCV = Hct x 10 / RBC = 420 / 5.0 = 84 fL. 8.4 results from forgetting to multiply hematocrit by 10."
+      },
+      {
+        "stem": "A teenage athlete has low hemoglobin, MCV 72 fL and a high RDW. Which condition is most likely?",
+        "choices": [
+          "Vitamin B12 deficiency",
+          "Iron deficiency anemia",
+          "Acute blood loss within the past hour",
+          "Folate deficiency"
+        ],
+        "answer": 1,
+        "explanation": "Microcytosis with a high RDW is the classic iron deficiency pattern. B12 deficiency produces macrocytic cells, the opposite size change."
+      },
+      {
+        "stem": "Hemoglobin is 10 g/dL, but hematocrit is reported as 45%. What should the lab scientist suspect first?",
+        "choices": [
+          "A normal result",
+          "A possible analytical or specimen problem, because the rule of three is violated",
+          "Polycythemia",
+          "Iron overload"
+        ],
+        "answer": 1,
+        "explanation": "Hematocrit should be close to three times hemoglobin (about 30%); a large mismatch prompts investigation. Polycythemia would raise both values together."
+      },
+      {
+        "stem": "A patient's MCV is 112 fL. Which cause best fits this finding?",
+        "choices": [
+          "Thalassemia trait",
+          "Iron deficiency",
+          "Folate deficiency",
+          "Anemia of acute blood loss"
+        ],
+        "answer": 2,
+        "explanation": "Folate deficiency impairs DNA synthesis and produces macrocytic cells. Thalassemia trait typically causes microcytosis."
+      },
+      {
+        "stem": "A differential shows WBC 4,000/uL with 60% lymphocytes. What is the absolute lymphocyte count?",
+        "choices": [
+          "2,400/uL",
+          "6,000/uL",
+          "600/uL",
+          "24,000/uL"
+        ],
+        "answer": 0,
+        "explanation": "Absolute count = 4,000 x 0.60 = 2,400/uL, which is within a typical normal range despite the high percentage. 24,000 comes from a misplaced decimal."
+      },
+      {
+        "stem": "A smear shows many band neutrophils in a patient with a fever and cough. What term describes this?",
+        "choices": [
+          "Anisocytosis",
+          "Left shift",
+          "Thrombocytosis",
+          "Eosinophilia"
+        ],
+        "answer": 1,
+        "explanation": "A left shift is an increase in immature neutrophils such as bands during acute infection. Anisocytosis refers to red cell size variation, not neutrophils."
+      },
+      {
+        "stem": "An analyzer flags a low platelet count, but the patient has no bleeding. What is the best next step?",
+        "choices": [
+          "Report the count immediately as critical",
+          "Review a blood smear for platelet clumps",
+          "Order a bone marrow biopsy",
+          "Repeat the same sample without review"
+        ],
+        "answer": 1,
+        "explanation": "EDTA-related clumping can falsely lower platelet counts, and a smear confirms it. Reporting without review could lead to unnecessary treatment."
+      },
+      {
+        "stem": "Which value describes the average hemoglobin concentration in a volume of packed red cells?",
+        "choices": [
+          "MCV",
+          "RDW",
+          "MCHC",
+          "MCH"
+        ],
+        "answer": 2,
+        "explanation": "MCHC is hemoglobin divided by hematocrit, a concentration in g/dL. MCH is the hemoglobin weight per cell in picograms, not a concentration."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Hematocrit",
+        "definition": "Percentage of blood volume occupied by red blood cells; normally about three times the hemoglobin value."
+      },
+      {
+        "term": "MCV",
+        "definition": "Mean corpuscular volume, the average red cell size in fL, calculated as hematocrit x 10 divided by RBC count."
+      },
+      {
+        "term": "RDW",
+        "definition": "Red cell distribution width, a measure of variation in red cell size; high in anisocytosis."
+      },
+      {
+        "term": "Left shift",
+        "definition": "An increase in immature neutrophils such as bands, usually signaling acute bacterial infection."
+      },
+      {
+        "term": "Microcytic anemia",
+        "definition": "Anemia with MCV below about 80 fL, most often due to iron deficiency."
+      }
+    ]
+  }
+]

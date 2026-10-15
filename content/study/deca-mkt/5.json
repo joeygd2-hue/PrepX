@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Promotion and the selling process",
+    "objective": "Build an integrated promotional mix, calculate campaign metrics, and guide a customer through each step of a sale.",
+    "body": "Promotion and selling make up a large share of the Marketing exam, and they are the skills you perform live in a role-play or a professional-selling presentation.\n\n**The promotional mix.** Promotion is communication that informs, persuades or reminds. Its elements are:\n- *Advertising*: paid, nonpersonal messages from an identified sponsor.\n- *Personal selling*: one-on-one, two-way communication that adapts to each buyer.\n- *Sales promotion*: short-term incentives such as coupons, samples, contests and loyalty rewards.\n- *Public relations*: activities that build goodwill; *publicity* is unpaid media coverage the company does not control.\n- *Digital and social media*: owned media (website, brand accounts), earned media (shares, reviews, mentions) and paid media (sponsored posts, search ads).\n\n*Integrated marketing communications (IMC)* means every element carries one consistent message and look. A *push strategy* promotes to intermediaries so they push the product toward consumers; a *pull strategy* builds consumer demand that pulls the product through the channel.\n\n**Measuring promotion.** *Reach* is how many different people see a message, and *frequency* is the average number of times each one sees it (total impressions ÷ reach). *CPM*, cost per thousand impressions, = cost ÷ impressions × 1,000. *Click-through rate* = clicks ÷ impressions, and *conversion rate* = purchases ÷ visitors. *Return on marketing investment* = (gain from the campaign − marketing cost) ÷ marketing cost.\n\n**The AIDA model** traces how a message moves a buyer: Attention, Interest, Desire, Action.\n\n**The selling process.**\n1. *Approach*: greet the customer with a service, merchandise or greeting approach.\n2. *Determine needs*: ask open-ended questions and listen.\n3. *Present the product*: turn *features* (what it is) into *benefits* (what it does for this customer).\n4. *Overcome objections*: treat each objection as a request for information; restate it, answer it and confirm.\n5. *Close the sale*: watch for buying signals and choose a fitting close.\n6. *Suggestion selling*: recommend related items that add real value.\n7. *Follow-up*: confirm satisfaction and build the relationship.\n\n**Common mistake:** listing features instead of benefits. \"This jacket has a waterproof shell\" is a feature; \"you'll stay dry walking to school in the rain\" is the benefit that sells.",
+    "examples": [
+      "A $4,500 social-media campaign earns 1,500,000 impressions, so CPM = $4,500 ÷ 1,500,000 × 1,000 = $3.00.",
+      "A customer says, \"This blender costs more than I planned.\" The salesperson restates the concern, then shows how its 10-year warranty lowers the cost per year of ownership.",
+      "A cereal brand's TV ads, in-store coupons and on-box sweepstakes all use the same slogan and mascot: integrated marketing communications."
+    ],
+    "questions": [
+      {
+        "stem": "A local radio campaign costs $3,600 and delivers 450,000 impressions. What is its CPM?",
+        "choices": [
+          "$0.008",
+          "$12.50",
+          "$8.00",
+          "$80.00"
+        ],
+        "answer": 2,
+        "explanation": "CPM = cost ÷ impressions × 1,000 = $3,600 ÷ 450,000 × 1,000 = $8.00 per thousand impressions."
+      },
+      {
+        "stem": "A search ad receives 40,000 impressions and 1,200 clicks, and 60 of those visitors make a purchase. What are the click-through rate and the conversion rate?",
+        "choices": [
+          "3% and 5%",
+          "3% and 0.15%",
+          "5% and 3%",
+          "30% and 5%"
+        ],
+        "answer": 0,
+        "explanation": "Click-through rate = 1,200 ÷ 40,000 = 3%. Conversion rate = 60 purchases ÷ 1,200 visitors = 5%."
+      },
+      {
+        "stem": "A sporting-goods store spends $8,000 on a back-to-school campaign that generates $20,000 in additional gross profit. What is the return on marketing investment?",
+        "choices": [
+          "250%",
+          "60%",
+          "40%",
+          "150%"
+        ],
+        "answer": 3,
+        "explanation": "ROMI = (gain − cost) ÷ cost = ($20,000 − $8,000) ÷ $8,000 = 1.5, or 150%."
+      },
+      {
+        "stem": "A city newspaper runs a free feature story about a teen-run bakery's fundraiser for a children's hospital. Which promotional element is this?",
+        "choices": [
+          "Advertising",
+          "Publicity",
+          "Sales promotion",
+          "Personal selling"
+        ],
+        "answer": 1,
+        "explanation": "Publicity is unpaid media coverage that the business doesn't control. Advertising would be paid for by an identified sponsor."
+      },
+      {
+        "stem": "A snack maker offers grocery chains extra discounts and display allowances so they will feature its new chips at the front of their stores. Which promotional strategy is this?",
+        "choices": [
+          "Pull strategy",
+          "Publicity",
+          "Push strategy",
+          "Product placement"
+        ],
+        "answer": 2,
+        "explanation": "Incentives aimed at channel members are a push strategy. A pull strategy would target consumers so they ask stores for the chips."
+      },
+      {
+        "stem": "Which statement presents a benefit rather than a feature?",
+        "choices": [
+          "This phone has a 5,000 mAh battery",
+          "With this battery, you can stream video all day without hunting for a charger",
+          "The phone's case is made of aluminum",
+          "The phone comes in four colors"
+        ],
+        "answer": 1,
+        "explanation": "A benefit explains what a feature does for the customer. Battery capacity, materials and colors are features."
+      },
+      {
+        "stem": "A shopper says, \"I like this bike helmet, but I need to think about it.\" What is the best next step for the salesperson?",
+        "choices": [
+          "Immediately offer a 20% discount",
+          "Agree and move on to another customer",
+          "Repeat the full product presentation from the beginning",
+          "Ask a question to uncover the concern behind the hesitation, then address it"
+        ],
+        "answer": 3,
+        "explanation": "A stall often hides a specific objection such as price or fit. Questioning uncovers it so the salesperson can answer it; discounting first gives away margin unnecessarily."
+      },
+      {
+        "stem": "A salesperson greets a shopper and then immediately starts demonstrating the most expensive laptop in the store. Which step of the selling process did she skip?",
+        "choices": [
+          "Determining needs",
+          "Closing the sale",
+          "Follow-up",
+          "Suggestion selling"
+        ],
+        "answer": 0,
+        "explanation": "Without determining needs, the salesperson can't know which product or benefits matter to this shopper."
+      },
+      {
+        "stem": "A campaign delivers 80,000 total impressions to 20,000 different people. What is the average frequency?",
+        "choices": [
+          "0.25",
+          "4",
+          "8",
+          "60,000"
+        ],
+        "answer": 1,
+        "explanation": "Frequency = total impressions ÷ reach = 80,000 ÷ 20,000 = 4 times per person on average."
+      },
+      {
+        "stem": "A video ad opens with a sudden, surprising sound to make viewers look up from their phones. Which stage of the AIDA model is it targeting?",
+        "choices": [
+          "Interest",
+          "Desire",
+          "Attention",
+          "Action"
+        ],
+        "answer": 2,
+        "explanation": "Attention is the first stage: the message must be noticed before it can build interest, desire and action."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Integrated marketing communications (IMC)",
+        "definition": "Coordinating all promotional elements so they deliver one consistent message and image."
+      },
+      {
+        "term": "Publicity",
+        "definition": "Unpaid media coverage of a business, product or event that the company doesn't control."
+      },
+      {
+        "term": "Pull strategy",
+        "definition": "Promotion aimed at final consumers to build demand that pulls a product through the channel."
+      },
+      {
+        "term": "CPM",
+        "definition": "Cost per thousand impressions: campaign cost divided by impressions, multiplied by 1,000."
+      },
+      {
+        "term": "Suggestion selling",
+        "definition": "Recommending additional or related items that add value for the customer after the main purchase decision."
+      },
+      {
+        "term": "AIDA model",
+        "definition": "Four stages a message moves a buyer through: Attention, Interest, Desire and Action."
+      }
+    ]
+  }
+]

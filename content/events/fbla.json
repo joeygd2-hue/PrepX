@@ -1,0 +1,2964 @@
+{
+ "org": "fbla",
+ "name": "FBLA",
+ "fullName": "Future Business Leaders of America",
+ "color": "#1F3A73",
+ "season": "2026-2027",
+ "sourceUrl": "https://www.fbla.org/high-school/competitive-events/",
+ "sourceCheckedAt": null,
+ "note": "Event names and formats are from general knowledge and the reference screenshots. Official guideline pages could not be reached from the build environment; every event not marked reference_observed must be checked against the official source before launch.",
+ "clusters": [
+  {
+   "id": "fbla-accounting",
+   "code": "ACCOUN",
+   "name": "Accounting test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-advanced-accounting",
+   "code": "ADVANC",
+   "name": "Advanced Accounting test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-advertising",
+   "code": "ADVERT",
+   "name": "Advertising test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-agribusiness",
+   "code": "AGRIBU",
+   "name": "Agribusiness test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-business-communication",
+   "code": "BUSINE",
+   "name": "Business Communication test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-business-law",
+   "code": "BUSINE",
+   "name": "Business Law test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-computer-problem-solving",
+   "code": "COMPUT",
+   "name": "Computer Problem Solving test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-cybersecurity",
+   "code": "CYBERS",
+   "name": "Cybersecurity test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-data-science--ai",
+   "code": "DATA-S",
+   "name": "Data Science & AI test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-economics",
+   "code": "ECONOM",
+   "name": "Economics test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-healthcare-administration",
+   "code": "HEALTH",
+   "name": "Healthcare Administration test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-human-resource-management",
+   "code": "HUMAN-",
+   "name": "Human Resource Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-insurance--risk-management",
+   "code": "INSURA",
+   "name": "Insurance & Risk Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-journalism",
+   "code": "JOURNA",
+   "name": "Journalism test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-networking-infrastructures",
+   "code": "NETWOR",
+   "name": "Networking Infrastructures test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-organizational-leadership",
+   "code": "ORGANI",
+   "name": "Organizational Leadership test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-personal-finance",
+   "code": "PERSON",
+   "name": "Personal Finance test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-project-management",
+   "code": "PROJEC",
+   "name": "Project Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-public-administration--management",
+   "code": "PUBLIC",
+   "name": "Public Administration & Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-real-estate",
+   "code": "REAL-E",
+   "name": "Real Estate test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-retail-management",
+   "code": "RETAIL",
+   "name": "Retail Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-securities--investments",
+   "code": "SECURI",
+   "name": "Securities & Investments test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-business-communication",
+   "code": "INTROD",
+   "name": "Introduction to Business Communication test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-business-concepts",
+   "code": "INTROD",
+   "name": "Introduction to Business Concepts test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-fbla",
+   "code": "INTROD",
+   "name": "Introduction to FBLA test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-information-technology",
+   "code": "INTROD",
+   "name": "Introduction to Information Technology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-marketing-concepts",
+   "code": "INTROD",
+   "name": "Introduction to Marketing Concepts test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-parliamentary-procedure",
+   "code": "INTROD",
+   "name": "Introduction to Parliamentary Procedure test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-retail--merchandising",
+   "code": "INTROD",
+   "name": "Introduction to Retail & Merchandising test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-introduction-to-supply-chain-management",
+   "code": "INTROD",
+   "name": "Introduction to Supply Chain Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-banking--financial-systems",
+   "code": "BANKIN",
+   "name": "Banking & Financial Systems test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-business-management",
+   "code": "BUSINE",
+   "name": "Business Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-customer-service",
+   "code": "CUSTOM",
+   "name": "Customer Service test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-entrepreneurship",
+   "code": "ENTREP",
+   "name": "Entrepreneurship test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-hospitality--event-management",
+   "code": "HOSPIT",
+   "name": "Hospitality & Event Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-international-business",
+   "code": "INTERN",
+   "name": "International Business test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-management-information-systems",
+   "code": "MANAGE",
+   "name": "Management Information Systems test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-marketing",
+   "code": "MARKET",
+   "name": "Marketing test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-network-design",
+   "code": "NETWOR",
+   "name": "Network Design test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-parliamentary-procedure",
+   "code": "PARLIA",
+   "name": "Parliamentary Procedure test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-sports--entertainment-management",
+   "code": "SPORTS",
+   "name": "Sports & Entertainment Management test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-technology-support--services",
+   "code": "TECHNO",
+   "name": "Technology Support & Services test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-future-business-leader",
+   "code": "FUTURE",
+   "name": "Future Business Leader test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "fbla-computer-applications",
+   "code": "COMPUT",
+   "name": "Computer Applications test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  }
+ ],
+ "events": [
+  {
+   "code": "ACCT",
+   "name": "Accounting",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-accounting",
+     "label": "Accounting test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 0
+  },
+  {
+   "code": "AACT",
+   "name": "Advanced Accounting",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-advanced-accounting",
+     "label": "Advanced Accounting test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 1
+  },
+  {
+   "code": "ADV",
+   "name": "Advertising",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-advertising",
+     "label": "Advertising test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 2
+  },
+  {
+   "code": "AGRI",
+   "name": "Agribusiness",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-agribusiness",
+     "label": "Agribusiness test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 3
+  },
+  {
+   "code": "BC",
+   "name": "Business Communication",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business Communication test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 4
+  },
+  {
+   "code": "BL",
+   "name": "Business Law",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-business-law",
+     "label": "Business Law test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 5
+  },
+  {
+   "code": "CPS",
+   "name": "Computer Problem Solving",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-computer-problem-solving",
+     "label": "Computer Problem Solving test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 6
+  },
+  {
+   "code": "CYB",
+   "name": "Cybersecurity",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-cybersecurity",
+     "label": "Cybersecurity test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 7
+  },
+  {
+   "code": "DSA",
+   "name": "Data Science & AI",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-data-science--ai",
+     "label": "Data Science & AI test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 8
+  },
+  {
+   "code": "ECON",
+   "name": "Economics",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-economics",
+     "label": "Economics test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 9
+  },
+  {
+   "code": "HA",
+   "name": "Healthcare Administration",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-healthcare-administration",
+     "label": "Healthcare Administration test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 10
+  },
+  {
+   "code": "HRM",
+   "name": "Human Resource Management",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-human-resource-management",
+     "label": "Human Resource Management test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 11
+  },
+  {
+   "code": "IRM",
+   "name": "Insurance & Risk Management",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-insurance--risk-management",
+     "label": "Insurance & Risk Management test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 12
+  },
+  {
+   "code": "JOUR",
+   "name": "Journalism",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-journalism",
+     "label": "Journalism test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 13
+  },
+  {
+   "code": "NI",
+   "name": "Networking Infrastructures",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-networking-infrastructures",
+     "label": "Networking Infrastructures test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 14
+  },
+  {
+   "code": "OL",
+   "name": "Organizational Leadership",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-organizational-leadership",
+     "label": "Organizational Leadership test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 15
+  },
+  {
+   "code": "PF",
+   "name": "Personal Finance",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-personal-finance",
+     "label": "Personal Finance test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 16
+  },
+  {
+   "code": "PM",
+   "name": "Project Management",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-project-management",
+     "label": "Project Management test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 17
+  },
+  {
+   "code": "PAM",
+   "name": "Public Administration & Management",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-public-administration--management",
+     "label": "Public Administration & Management test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 18
+  },
+  {
+   "code": "RE",
+   "name": "Real Estate",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-real-estate",
+     "label": "Real Estate test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 19
+  },
+  {
+   "code": "RM",
+   "name": "Retail Management",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-retail-management",
+     "label": "Retail Management test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 20
+  },
+  {
+   "code": "SI",
+   "name": "Securities & Investments",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-securities--investments",
+     "label": "Securities & Investments test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 21
+  },
+  {
+   "code": "IBCOM",
+   "name": "Introduction to Business Communication",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-business-communication",
+     "label": "Introduction to Business Communication test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 22
+  },
+  {
+   "code": "IBCON",
+   "name": "Introduction to Business Concepts",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-business-concepts",
+     "label": "Introduction to Business Concepts test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 23
+  },
+  {
+   "code": "IF",
+   "name": "Introduction to FBLA",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-fbla",
+     "label": "Introduction to FBLA test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 24
+  },
+  {
+   "code": "IIT",
+   "name": "Introduction to Information Technology",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-information-technology",
+     "label": "Introduction to Information Technology test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 25
+  },
+  {
+   "code": "IMC",
+   "name": "Introduction to Marketing Concepts",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-marketing-concepts",
+     "label": "Introduction to Marketing Concepts test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 26
+  },
+  {
+   "code": "IPP",
+   "name": "Introduction to Parliamentary Procedure",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-parliamentary-procedure",
+     "label": "Introduction to Parliamentary Procedure test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 27
+  },
+  {
+   "code": "IRMER",
+   "name": "Introduction to Retail & Merchandising",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-retail--merchandising",
+     "label": "Introduction to Retail & Merchandising test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 28
+  },
+  {
+   "code": "ISCM",
+   "name": "Introduction to Supply Chain Management",
+   "category": "Objective tests",
+   "formatLabel": "Objective test",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-introduction-to-supply-chain-management",
+     "label": "Introduction to Supply Chain Management test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 29
+  },
+  {
+   "code": "BFS",
+   "name": "Banking & Financial Systems",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-banking--financial-systems",
+     "label": "Banking & Financial Systems test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 30
+  },
+  {
+   "code": "BM",
+   "name": "Business Management",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-business-management",
+     "label": "Business Management test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 31
+  },
+  {
+   "code": "CS",
+   "name": "Customer Service",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-customer-service",
+     "label": "Customer Service test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 32
+  },
+  {
+   "code": "ENT",
+   "name": "Entrepreneurship",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-entrepreneurship",
+     "label": "Entrepreneurship test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 33
+  },
+  {
+   "code": "HEM",
+   "name": "Hospitality & Event Management",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-hospitality--event-management",
+     "label": "Hospitality & Event Management test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 34
+  },
+  {
+   "code": "IB",
+   "name": "International Business",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-international-business",
+     "label": "International Business test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 35
+  },
+  {
+   "code": "MIS",
+   "name": "Management Information Systems",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-management-information-systems",
+     "label": "Management Information Systems test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 36
+  },
+  {
+   "code": "MKT",
+   "name": "Marketing",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 37
+  },
+  {
+   "code": "ND",
+   "name": "Network Design",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-network-design",
+     "label": "Network Design test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 38
+  },
+  {
+   "code": "PP",
+   "name": "Parliamentary Procedure",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-parliamentary-procedure",
+     "label": "Parliamentary Procedure test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 39
+  },
+  {
+   "code": "SEM",
+   "name": "Sports & Entertainment Management",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-sports--entertainment-management",
+     "label": "Sports & Entertainment Management test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 40
+  },
+  {
+   "code": "TSS",
+   "name": "Technology Support & Services",
+   "category": "Role plays",
+   "formatLabel": "Objective test + role play",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-technology-support--services",
+     "label": "Technology Support & Services test"
+    },
+    "roleplay": {
+     "count": 1
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 41
+  },
+  {
+   "code": "BJ",
+   "name": "Broadcast Journalism",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-journalism",
+     "label": "Journalism knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 42
+  },
+  {
+   "code": "BE",
+   "name": "Business Ethics",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-law",
+     "label": "Business law and ethics"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 43
+  },
+  {
+   "code": "BP",
+   "name": "Business Plan",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-entrepreneurship",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 44
+  },
+  {
+   "code": "CPORT",
+   "name": "Career Portfolio",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-careers",
+     "label": "Career readiness"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 45
+  },
+  {
+   "code": "CAP",
+   "name": "Coding & Programming",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 46
+  },
+  {
+   "code": "CGSP",
+   "name": "Computer Game & Simulation Programming",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 47
+  },
+  {
+   "code": "DATA",
+   "name": "Data Analysis",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-data-science--ai",
+     "label": "Data science knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 48
+  },
+  {
+   "code": "DANI",
+   "name": "Digital Animation",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 49
+  },
+  {
+   "code": "DVP",
+   "name": "Digital Video Production",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 50
+  },
+  {
+   "code": "EP",
+   "name": "Event Planning",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-hospitality--event-management",
+     "label": "Event management knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 51
+  },
+  {
+   "code": "FP",
+   "name": "Financial Planning",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-personal-finance",
+     "label": "Personal finance knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 52
+  },
+  {
+   "code": "FSA",
+   "name": "Financial Statement Analysis",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-accounting",
+     "label": "Accounting knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 53
+  },
+  {
+   "code": "FBE",
+   "name": "Future Business Educator",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-introduction-to-business-concepts",
+     "label": "Business concepts"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 54
+  },
+  {
+   "code": "GD",
+   "name": "Graphic Design",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 55
+  },
+  {
+   "code": "IBP",
+   "name": "Introduction to Business Presentation",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-introduction-to-business-concepts",
+     "label": "Business concepts"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 56
+  },
+  {
+   "code": "IP",
+   "name": "Introduction to Programming",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 57
+  },
+  {
+   "code": "ISMS",
+   "name": "Introduction to Social Media Strategy",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 58
+  },
+  {
+   "code": "MAD",
+   "name": "Mobile Application Development",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 59
+  },
+  {
+   "code": "PSA",
+   "name": "Public Service Announcement",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 60
+  },
+  {
+   "code": "SP",
+   "name": "Sales Presentation",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing and sales knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 61
+  },
+  {
+   "code": "SMS",
+   "name": "Social Media Strategies",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-marketing",
+     "label": "Marketing knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 62
+  },
+  {
+   "code": "SCM",
+   "name": "Supply Chain Management",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-introduction-to-supply-chain-management",
+     "label": "Supply chain knowledge"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 63
+  },
+  {
+   "code": "VD",
+   "name": "Visual Design",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 64
+  },
+  {
+   "code": "WCD",
+   "name": "Website Coding & Development",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-programming",
+     "label": "Programming fundamentals"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 65
+  },
+  {
+   "code": "WD",
+   "name": "Website Design",
+   "category": "Presentations",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation to judges"
+    },
+    "knowledge": {
+     "clusterId": "fbla-digital-design",
+     "label": "Digital design and media"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 66
+  },
+  {
+   "code": "PS",
+   "name": "Public Speaking",
+   "category": "Speeches",
+   "formatLabel": "Speech",
+   "components": {
+    "presentation": {
+     "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business communication"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 67
+  },
+  {
+   "code": "IS",
+   "name": "Impromptu Speaking",
+   "category": "Speeches",
+   "formatLabel": "Speech",
+   "components": {
+    "presentation": {
+     "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business communication"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 68
+  },
+  {
+   "code": "IPS",
+   "name": "Introduction to Public Speaking",
+   "category": "Speeches",
+   "formatLabel": "Speech",
+   "components": {
+    "presentation": {
+     "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "fbla-business-communication",
+     "label": "Business communication"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 69
+  },
+  {
+   "code": "JI",
+   "name": "Job Interview",
+   "category": "Interviews",
+   "formatLabel": "Application + interview",
+   "components": {
+    "written": {
+     "label": "Application packet"
+    },
+    "interview": {},
+    "knowledge": {
+     "clusterId": "fbla-careers",
+     "label": "Career readiness"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 70
+  },
+  {
+   "code": "FBL",
+   "name": "Future Business Leader",
+   "category": "Interviews",
+   "formatLabel": "Objective test + interview",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-future-business-leader",
+     "label": "Future Business Leader test"
+    },
+    "interview": {}
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 71
+  },
+  {
+   "code": "CA",
+   "name": "Computer Applications",
+   "category": "Production",
+   "formatLabel": "Objective test + production",
+   "components": {
+    "exam": {
+     "clusterId": "fbla-computer-applications",
+     "label": "Computer Applications test"
+    },
+    "production": {
+     "label": "Production test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 72
+  }
+ ]
+}

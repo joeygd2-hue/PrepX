@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Fundamentals of Nursing",
+    "url": "https://openstax.org/books/fundamentals-nursing/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing text on assessment, hygiene, medication administration, wound care and safety."
+  },
+  {
+    "title": "Hand Hygiene for Healthcare Workers",
+    "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+    "publisher": "CDC",
+    "kind": "reference",
+    "note": "CDC rules for when and how healthcare workers clean their hands; a core skills item."
+  },
+  {
+    "title": "Pharmacology for Nurses",
+    "url": "https://openstax.org/details/books/pharmacology",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free pharmacology text for drug classes and safe medication administration."
+  }
+]

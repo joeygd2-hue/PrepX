@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Space planning, building systems and sustainable design",
+    "objective": "Organize a floor plan into logical zones with efficient circulation, explain basic light-frame construction, and justify accessible and climate-responsive design choices.",
+    "body": "Architectural Design and CAD Architecture judges look for buildings that work for the people inside them and that could actually be built. A plan that looks good but sends guests through a bedroom to reach the bathroom, or ignores where the sun rises, signals a beginner.\n\n**Zoning and circulation.** Group spaces into zones: *public* or social spaces (living, dining, entry), *private* spaces (bedrooms, bathrooms) and *service* spaces (kitchen, laundry, garage, mechanical). Keep private zones away from the entry and street noise, and put service spaces where deliveries and utilities arrive. *Circulation* is the path people take between spaces. Efficient plans keep halls short, avoid routing traffic through the middle of rooms, and let every bedroom be reached without passing through another bedroom. *Adjacency* diagrams record which rooms must touch, such as kitchen and dining.\n\n**Accessibility.** *Universal design* makes a building usable by people of all ages and abilities. Typical features include a no-step entrance, wider doorways, lever handles, and a clear turning circle about 5 feet (60 inches) across for a wheelchair in bathrooms and kitchens. Ramps on an accessible route may be no steeper than 1:12, meaning 1 inch of rise for every 12 inches of horizontal run.\n\n**Light-frame construction.** Most North American houses use *platform framing*. Concrete footings and a foundation carry floor joists, a subfloor forms a platform, and walls of 2x4 or 2x6 studs, usually spaced 16 inches on center, stand on that platform. *Headers* span door and window openings and carry the loads from above around them. Roofs are framed with rafters or prefabricated trusses.\n\n**Climate-responsive and sustainable design.**\n- *Orientation*: in the Northern Hemisphere, place large windows on the south side to collect low winter sun, and shade them with overhangs sized to block high summer sun.\n- *Insulation* is rated by *R-value*, its resistance to heat flow; a higher R-value insulates better.\n- *Thermal mass*, such as concrete, tile or masonry, absorbs heat during the day and releases it at night.\n- Cut energy and water use with daylighting, natural cross-ventilation, efficient fixtures and renewable systems such as photovoltaic panels.\n\nA common mistake is listing green features without explaining how each one responds to the site's climate, sun path or the way the building is used. Judges reward reasons, not buzzwords.",
+    "examples": [
+      "A plan lines up the garage, mudroom, laundry and kitchen along the driveway side, so groceries travel a short path from car to pantry, while the bedroom wing sits on the quiet back side of the lot.",
+      "An entry is 24 inches above the sidewalk. At the maximum 1:12 slope, the ramp needs at least 24 x 12 = 288 inches, or 24 feet, of horizontal run, plus level landings.",
+      "A designer in Colorado extends the roof overhang on the south wall so high summer sun is blocked, while low winter sun reaches a tile floor that stores heat into the evening."
+    ],
+    "questions": [
+      {
+        "stem": "A rectangular bedroom measures 13'-6\" by 12'-0\". What is its floor area?",
+        "choices": ["162 square feet", "156 square feet", "51 square feet", "172 square feet"],
+        "answer": 0,
+        "explanation": "13'-6\" is 13.5 feet, and 13.5 x 12 = 162 square feet. 51 feet is the room's perimeter, not its area."
+      },
+      {
+        "stem": "A porch floor is 18 inches above the ground. Using the maximum accessible ramp slope of 1:12, what is the minimum horizontal run of the ramp, not counting landings?",
+        "choices": ["12 feet", "18 feet", "1.5 feet", "9 feet"],
+        "answer": 1,
+        "explanation": "A 1:12 slope needs 12 inches of run per inch of rise: 18 x 12 = 216 inches, which is 216 / 12 = 18 feet."
+      },
+      {
+        "stem": "Which group of rooms belongs in the service zone of a house?",
+        "choices": ["Living room, dining room and foyer", "Bedrooms and their bathrooms", "Kitchen, laundry and garage", "Porch, deck and patio"],
+        "answer": 2,
+        "explanation": "Service spaces support daily work and utilities: kitchen, laundry, garage and mechanical rooms. Living and dining rooms are public; bedrooms are private."
+      },
+      {
+        "stem": "A floor plan requires family members to walk through one child's bedroom to reach the only hall bathroom. What is the main design problem?",
+        "choices": ["The drawing uses the wrong scale", "Circulation routes traffic through a private room", "The exterior walls lack enough insulation", "The house has too many south-facing windows"],
+        "answer": 1,
+        "explanation": "Good circulation lets people reach shared rooms without passing through private spaces. Routing the path through a bedroom destroys its privacy."
+      },
+      {
+        "stem": "For a house in the Northern Hemisphere designed for passive solar heating, where should most of the large windows go?",
+        "choices": ["On the north wall, away from direct sun", "On the south wall, with overhangs sized for summer shade", "On the west wall, to catch late-afternoon sun", "Evenly on all four walls"],
+        "answer": 1,
+        "explanation": "South-facing glass collects low winter sun in the Northern Hemisphere, and a properly sized overhang blocks the high summer sun. West glass tends to overheat rooms on summer afternoons."
+      },
+      {
+        "stem": "Wall assembly A has an R-value of 13 and wall assembly B has an R-value of 21. Which statement is correct?",
+        "choices": ["A insulates better, because a lower R-value means less heat loss", "B resists heat flow better than A", "Both lose heat at the same rate, because R-value measures moisture resistance", "B is stronger, because R-value measures load capacity"],
+        "answer": 1,
+        "explanation": "R-value measures resistance to heat flow, so a higher number means better insulation. It says nothing about structural strength."
+      },
+      {
+        "stem": "In a platform-framed wall, what is the job of a header over a window opening?",
+        "choices": ["To seal the window against air leaks", "To anchor the wall to the foundation", "To carry loads from above around the opening to the framing at each side", "To provide a nailing surface for baseboard trim"],
+        "answer": 2,
+        "explanation": "A header is a beam that spans the opening and transfers roof and floor loads to the studs on either side. Air sealing and anchoring are handled by other parts."
+      },
+      {
+        "stem": "A straight exterior wall is 20 feet long and framed with studs 16 inches on center, with one stud at each end. Not counting extra studs for corners or openings, how many studs are needed?",
+        "choices": ["15", "16", "20", "12"],
+        "answer": 1,
+        "explanation": "20 feet is 240 inches, and 240 / 16 = 15 spaces. A row of 15 spaces needs 15 + 1 = 16 studs."
+      }
+    ],
+    "flashcards": [
+      { "term": "Circulation", "definition": "The paths people use to move between spaces in a building, ideally short and kept out of private rooms." },
+      { "term": "Universal design", "definition": "Designing spaces to be usable by people of all ages and abilities without special adaptation, such as no-step entries and lever handles." },
+      { "term": "Header", "definition": "A beam over a door or window opening that carries loads from above to the framing on each side." },
+      { "term": "R-value", "definition": "A measure of a material's resistance to heat flow; the higher the R-value, the better it insulates." },
+      { "term": "Passive solar design", "definition": "Using building orientation, glazing, overhangs and thermal mass to heat and cool a building without mechanical equipment." }
+    ]
+  }
+]

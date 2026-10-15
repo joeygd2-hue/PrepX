@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Decoding medical vocabulary and analyzing author's purpose",
+    "objective": "Break down medical terms into word parts, determine an author's purpose and tone, and distinguish facts from opinions in health-related texts.",
+    "body": "Once you can track the main ideas of a book, the next step is reading with precision. Medical Reading questions often hinge on a single term or on why the author included a particular passage.\n\n**Word parts.** Most medical terms are built from Greek and Latin parts:\n- A **prefix** comes at the start and modifies meaning (brady- = slow, tachy- = fast, hyper- = above or excessive, hypo- = below or deficient).\n- A **root** carries the core meaning, often a body part (cardi = heart, nephr = kidney, hepat = liver, neur = nerve).\n- A **suffix** comes at the end and names a condition or procedure (-itis = inflammation, -ectomy = surgical removal, -ology = study of, -emia = blood condition).\n\nSo *nephrectomy* is removal of a kidney, *hepatitis* is inflammation of the liver, and *hypoglycemia* is low blood sugar. When a book uses an unfamiliar term, splitting it into parts is often faster and more reliable than guessing.\n\n**Author's purpose.** Ask why the author wrote a passage. The usual purposes are to **inform** (explain facts), to **persuade** (convince you of a position), to **narrate** (tell a story) and to **reflect** (share personal meaning). Many health books blend these: a physician-author may narrate a patient's case to persuade readers that a system needs reform.\n\n**Tone.** **Tone** is the author's attitude toward the subject, revealed through word choice. Words like \"reckless\" and \"shameful\" signal a critical tone; \"remarkable\" and \"tireless\" signal admiration. Tone questions require evidence from specific word choices, not general impressions.\n\n**Fact versus opinion.** A **fact** can be verified with evidence (\"The trial enrolled 1,200 patients\"). An **opinion** expresses a judgment (\"The trial was the most important of the century\"). Authors often place opinions next to facts, so read each sentence on its own terms.\n\n**Inference.** An **inference** is a logical conclusion drawn from evidence the text provides but does not state outright. A strong inference stays close to the text; a weak one adds assumptions the author never supports.\n\nThe most common mistake students make is choosing an answer that is true in the real world but is not supported by the book. Test questions ask what the text says or implies, so always anchor your choice to the passage rather than to outside knowledge.",
+    "examples": [
+      "Splitting \"gastroenterology\" into gastr (stomach) + enter (intestine) + -ology (study of) shows it is the study of the stomach and intestines.",
+      "An author writes that a hospital \"quietly buried\" error reports; the word choice signals a critical tone even though no opinion is stated directly.",
+      "\"The surgery lasted six hours\" is a fact; \"the surgery was a heroic gamble\" is an opinion."
+    ],
+    "questions": [
+      {
+        "stem": "A book describes a patient with \"tachycardia.\" Using word parts, what does the term mean?",
+        "choices": [
+          "Slow heart rate",
+          "Fast heart rate",
+          "Heart inflammation",
+          "Removal of the heart"
+        ],
+        "answer": 1,
+        "explanation": "Tachy- means fast and cardi means heart. \"Slow heart rate\" would be bradycardia, which uses the opposite prefix."
+      },
+      {
+        "stem": "A surgeon-author recounts a patient's case, then argues that hospitals should adopt surgical checklists. What is the author's primary purpose?",
+        "choices": [
+          "To entertain",
+          "To persuade",
+          "To define terms",
+          "To narrate only"
+        ],
+        "answer": 1,
+        "explanation": "The story serves an argument for a change, so the overall purpose is to persuade. Narration is the technique, not the end goal."
+      },
+      {
+        "stem": "Which statement from a book is an opinion?",
+        "choices": [
+          "The study followed 3,000 participants for ten years.",
+          "The vaccine was licensed in 1955.",
+          "The researchers' decision was deeply irresponsible.",
+          "The hospital had 400 beds."
+        ],
+        "answer": 2,
+        "explanation": "\"Deeply irresponsible\" is a judgment that cannot be verified. A licensing date can be checked against records, so it is a fact."
+      },
+      {
+        "stem": "A passage says a scientist \"worked through the night for weeks, refusing to give up.\" Which tone does this most likely convey?",
+        "choices": [
+          "Admiring",
+          "Sarcastic",
+          "Indifferent",
+          "Hostile"
+        ],
+        "answer": 0,
+        "explanation": "Phrases about persistence and dedication signal admiration. Sarcasm would require cues of mockery that the passage lacks."
+      },
+      {
+        "stem": "What does \"nephritis\" mean?",
+        "choices": [
+          "Removal of a kidney",
+          "Study of the kidneys",
+          "Inflammation of a kidney",
+          "Low kidney function"
+        ],
+        "answer": 2,
+        "explanation": "Nephr = kidney and -itis = inflammation. Removal would be nephrectomy, which uses -ectomy instead."
+      },
+      {
+        "stem": "A text states that a clinic's patient wait times doubled after it lost two physicians. Which inference is best supported?",
+        "choices": [
+          "The clinic will close within a year",
+          "Reduced staffing likely contributed to longer waits",
+          "The physicians left because of low pay",
+          "Every clinic in the region had longer waits"
+        ],
+        "answer": 1,
+        "explanation": "The text links the staff loss and longer waits, so this inference stays close to the evidence. Claims about pay or closure add assumptions the text never supports."
+      },
+      {
+        "stem": "A test question asks what a book's author concluded about a treatment. A student picks an answer based on a news article she read last year. What error is she making?",
+        "choices": [
+          "Confusing tone with purpose",
+          "Relying on outside knowledge instead of the text",
+          "Misreading a word part",
+          "Confusing a fact with an opinion"
+        ],
+        "answer": 1,
+        "explanation": "Medical Reading questions are about what the assigned text says or implies. Her answer might be true elsewhere, but it is not anchored to the book."
+      },
+      {
+        "stem": "Which term means surgical removal of the gallbladder?",
+        "choices": [
+          "Cholecystitis",
+          "Cholecystectomy",
+          "Cholecystology",
+          "Cholemia"
+        ],
+        "answer": 1,
+        "explanation": "The suffix -ectomy means surgical removal. Cholecystitis uses -itis, meaning inflammation, not removal."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Prefix",
+        "definition": "A word part at the start of a term that modifies its meaning, such as tachy- (fast)."
+      },
+      {
+        "term": "Suffix",
+        "definition": "A word part at the end of a term that names a condition or procedure, such as -ectomy (surgical removal)."
+      },
+      {
+        "term": "Tone",
+        "definition": "The author's attitude toward a subject, revealed through word choice."
+      },
+      {
+        "term": "Inference",
+        "definition": "A logical conclusion drawn from evidence a text provides but does not state directly."
+      },
+      {
+        "term": "Author's purpose",
+        "definition": "The reason a passage was written: to inform, persuade, narrate or reflect."
+      }
+    ]
+  }
+]

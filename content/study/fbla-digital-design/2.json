@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Color Theory and Typography in Digital Media",
+    "objective": "Select and apply appropriate color schemes and typefaces to create accessible, visually consistent digital designs.",
+    "body": "Color and typography are the two most immediately felt qualities of any design. A viewer forms an emotional impression of a design within milliseconds—before reading a single word—and that impression is driven almost entirely by color and type choices.\n\n**Color theory** begins with the color wheel, which organizes hues by their relationships to one another. A **monochromatic** scheme uses one hue at varying lightness and saturation, producing a calm, unified look. An **analogous** scheme uses colors that sit adjacent on the wheel (e.g., yellow, yellow-green, green), creating harmony. A **complementary** scheme pairs colors directly opposite on the wheel (e.g., blue and orange), producing maximum contrast and energy. A **triadic** scheme uses three evenly spaced colors for a vibrant, balanced feel.\n\nBeyond hue, designers manipulate **saturation** (the intensity of a color) and **value** (its lightness or darkness) to create depth and mood. Highly saturated colors feel energetic and youthful; desaturated colors feel sophisticated or muted. Dark values convey authority and formality, while light values feel open and approachable.\n\n**Accessibility** requires that text maintain sufficient contrast against its background. The Web Content Accessibility Guidelines (**WCAG**) specify a minimum contrast ratio of 4.5:1 for normal body text. Many free tools can check whether a color pair meets this standard.\n\nIn typography, a **typeface** is a complete family of characters sharing a consistent design (e.g., Helvetica), while a **font** is one specific weight and style within that family (e.g., Helvetica Bold Italic). Typefaces fall into broad categories: **serif** fonts have small decorative strokes at the ends of letterforms and are associated with tradition and formality; **sans-serif** fonts lack those strokes and feel clean and modern. **Script** and **display** fonts express personality but should be used sparingly.\n\nFor digital readability, limit a design to **two typefaces**—one for headings, one for body text. Pairing a sans-serif heading with a serif body (or vice versa) creates contrast without visual chaos. **Hierarchy** within type is established through size, weight, and color: the most important text is largest and boldest, supporting text is smaller and lighter. **Leading** (line spacing) and **tracking** (letter spacing) also significantly affect readability at body text sizes.",
+    "examples": [
+      "A sports app uses a triadic color scheme of red, blue, and yellow with high saturation to communicate energy and excitement to a young audience.",
+      "A financial services website pairs a dark navy serif heading font with light gray sans-serif body text, signaling formality and trustworthiness while remaining easy to read on screen.",
+      "A student checks their white-text-on-light-blue button in a contrast checker and discovers it fails WCAG 4.5:1, then switches the button to dark navy to pass accessibility requirements."
+    ],
+    "questions": [
+      {
+        "stem": "A designer pairs blue with orange in a social media graphic to create maximum visual tension. What color scheme is this?",
+        "choices": [
+          "Analogous",
+          "Monochromatic",
+          "Triadic",
+          "Complementary"
+        ],
+        "answer": 3,
+        "explanation": "Complementary colors sit directly opposite each other on the color wheel, such as blue and orange, producing the highest level of contrast and visual energy. An analogous scheme uses neighboring colors with much less contrast."
+      },
+      {
+        "stem": "A student uses three versions of the same blue—light sky blue, medium blue, and deep navy—throughout a brochure. This is an example of which color scheme?",
+        "choices": [
+          "Triadic",
+          "Analogous",
+          "Monochromatic",
+          "Complementary"
+        ],
+        "answer": 2,
+        "explanation": "A monochromatic scheme uses variations of a single hue through changes in lightness and saturation. A triadic scheme would require three distinct hues evenly spaced on the color wheel."
+      },
+      {
+        "stem": "Which WCAG minimum contrast ratio must normal body text meet against its background to be considered accessible?",
+        "choices": [
+          "2:1",
+          "3:1",
+          "4.5:1",
+          "7:1"
+        ],
+        "answer": 2,
+        "explanation": "WCAG 2.1 requires a minimum contrast ratio of 4.5:1 for normal-sized body text to ensure readability for users with low vision. A 3:1 ratio only meets the standard for large text (at least 18pt, or 14pt bold)."
+      },
+      {
+        "stem": "A nonprofit wants its annual report to feel formal and trustworthy. Which typeface category is the best primary choice for body text?",
+        "choices": [
+          "Display",
+          "Script",
+          "Serif",
+          "Decorative"
+        ],
+        "answer": 2,
+        "explanation": "Serif fonts are traditionally associated with formality, authority, and trust, making them appropriate for professional documents like annual reports. Script and display fonts are expressive but difficult to read at body text sizes."
+      },
+      {
+        "stem": "What is the difference between a typeface and a font?",
+        "choices": [
+          "A typeface is digital; a font is physical",
+          "A typeface is the complete design family; a font is one specific weight and style within it",
+          "A font contains more characters than a typeface",
+          "There is no meaningful difference in modern design"
+        ],
+        "answer": 1,
+        "explanation": "A typeface (e.g., Garamond) is the overarching design, while a font (e.g., Garamond Bold 12pt) is one specific instance of that design. This distinction matters when licensing and selecting type for a project."
+      },
+      {
+        "stem": "A student's poster uses five different typefaces. Which principle of typography is most clearly violated?",
+        "choices": [
+          "Leading",
+          "Tracking",
+          "The two-typeface rule",
+          "Kerning"
+        ],
+        "answer": 2,
+        "explanation": "Best practice limits designs to two typefaces to maintain visual cohesion; using five creates confusion and inconsistency. Leading and tracking relate to spacing, not the number of typeface families used."
+      },
+      {
+        "stem": "Which property of color describes how vivid or muted a hue appears?",
+        "choices": [
+          "Value",
+          "Hue",
+          "Saturation",
+          "Tint"
+        ],
+        "answer": 2,
+        "explanation": "Saturation describes the intensity or purity of a color—a fully saturated red is vivid, while a desaturated red appears grayish. Value describes lightness or darkness, not vibrancy."
+      },
+      {
+        "stem": "A tech startup wants a color scheme that feels harmonious and natural rather than energetic. Which scheme best achieves this?",
+        "choices": [
+          "Complementary",
+          "Analogous",
+          "Triadic",
+          "Split-complementary"
+        ],
+        "answer": 1,
+        "explanation": "Analogous schemes use adjacent colors on the color wheel, producing a harmonious, low-tension feel found in nature. Complementary schemes produce the opposite effect—high contrast and visual energy."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Complementary Colors",
+        "definition": "Two colors positioned directly opposite each other on the color wheel, producing maximum contrast when paired together."
+      },
+      {
+        "term": "Saturation",
+        "definition": "The intensity or vividness of a color, ranging from fully saturated (pure hue) to completely desaturated (gray)."
+      },
+      {
+        "term": "WCAG",
+        "definition": "Web Content Accessibility Guidelines: a set of standards that includes a minimum 4.5:1 contrast ratio for normal body text to ensure digital content is accessible."
+      },
+      {
+        "term": "Serif",
+        "definition": "A typeface category characterized by small decorative strokes at the ends of letterforms, traditionally associated with formality and print readability."
+      },
+      {
+        "term": "Leading",
+        "definition": "The vertical space between lines of text, which directly affects readability and the overall density of a text block."
+      }
+    ]
+  }
+]

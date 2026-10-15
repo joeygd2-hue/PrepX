@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Microbial growth, transmission, and infection control in practice",
+    "objective": "Apply growth requirements, the chain of infection, and sterilization and disinfection methods to prevent the spread of pathogens in health care settings.",
+    "body": "Knowing what a microbe is matters only if you can predict where it will grow and how to stop it from reaching the next patient. This unit links growth conditions to the practical work of infection control.\n\n**Growth requirements.** Bacteria divide by **binary fission**, so a population can double in as little as 20 minutes under ideal conditions. A growth curve has four phases: lag (adjusting), log or exponential (rapid division), stationary (nutrients run low and growth equals death) and death or decline. Oxygen needs vary: **obligate aerobes** require oxygen, **obligate anaerobes** are harmed by it, and **facultative anaerobes** grow with or without it. Most human pathogens are **mesophiles** that grow best near body temperature, around 37 °C.\n\n**The chain of infection.** Infection spreads through six linked steps:\n1. Infectious agent\n2. Reservoir (where it lives, such as people, water or soil)\n3. Portal of exit\n4. Mode of transmission (contact, droplet, airborne, vehicle or vector)\n5. Portal of entry\n6. Susceptible host\n\nBreaking any link stops transmission. Hand hygiene interrupts contact transmission, vaccination reduces host susceptibility, and covering coughs blocks a portal of exit.\n\n**Precautions.** CDC **Standard Precautions** apply to every patient: hand hygiene, PPE based on expected exposure, safe injection practices and respiratory hygiene. **Transmission-based precautions** add protection for known or suspected infections. Contact precautions (gown and gloves) are used for organisms like MRSA or Clostridioides difficile. Droplet precautions (surgical mask) fit influenza. Airborne precautions require an airborne infection isolation room and a fit-tested N95 or higher respirator for diseases like tuberculosis and measles.\n\n**Hand hygiene.** Alcohol-based hand rub is preferred for most routine care because it is fast and effective. Soap and water are required when hands are visibly soiled and when caring for patients with C. difficile, because alcohol does not kill its spores.\n\n**Controlling microbes on objects.** The terms are not interchangeable:\n- **Sterilization** destroys all microbial life, including endospores. Steam under pressure in an **autoclave** (commonly 121 °C) is the standard method for heat-tolerant instruments.\n- **Disinfection** kills most pathogens on nonliving surfaces but not necessarily all spores.\n- **Antisepsis** reduces microbes on living tissue, such as chlorhexidine on skin.\n\nThe Spaulding classification matches the method to risk: critical items that enter sterile tissue must be sterilized, semicritical items touching mucous membranes need high-level disinfection, and noncritical items touching intact skin need low-level disinfection.\n\nThe most common mistake is assuming alcohol hand rub works on everything. It does not remove C. difficile spores, so students who choose hand sanitizer in a C. difficile scenario miss one of the most frequently tested exceptions in infection control.",
+    "examples": [
+      "A nurse caring for a patient with C. difficile diarrhea wears a gown and gloves and washes with soap and water after leaving the room.",
+      "Surgical forceps are cleaned and then autoclaved, because they are critical items that will enter sterile tissue.",
+      "A patient with suspected measles is placed in an airborne infection isolation room, and staff wear fit-tested N95 respirators."
+    ],
+    "questions": [
+      {
+        "stem": "A health care worker leaves the room of a patient with confirmed C. difficile infection. Which hand hygiene step is best?",
+        "choices": [
+          "Use alcohol-based hand rub for 20 seconds",
+          "Wash with soap and water",
+          "Apply chlorhexidine lotion only",
+          "Remove gloves without further hand hygiene"
+        ],
+        "answer": 1,
+        "explanation": "C. difficile spores resist alcohol, so mechanical removal with soap and water is required. Alcohol hand rub is the main distractor because it is preferred in most other situations."
+      },
+      {
+        "stem": "A patient is admitted with suspected pulmonary tuberculosis. Which precaution set is required?",
+        "choices": [
+          "Contact precautions with gown and gloves",
+          "Droplet precautions with a surgical mask",
+          "Airborne precautions with an N95 respirator and isolation room",
+          "Standard precautions only"
+        ],
+        "answer": 2,
+        "explanation": "TB spreads by airborne particles that stay suspended, requiring an airborne infection isolation room and a fit-tested N95 or higher respirator. A surgical mask under droplet precautions does not adequately filter these particles."
+      },
+      {
+        "stem": "A clinic offers free flu shots to reduce outbreaks among older patients. Which link in the chain of infection does this target?",
+        "choices": [
+          "Susceptible host",
+          "Reservoir",
+          "Portal of exit",
+          "Mode of transmission"
+        ],
+        "answer": 0,
+        "explanation": "Vaccination makes people less susceptible, breaking the susceptible host link. Mode of transmission is the tempting answer, but vaccines do not stop the virus from traveling; they change how the host responds."
+      },
+      {
+        "stem": "A reusable instrument will be inserted into sterile body tissue during surgery. What level of processing is required?",
+        "choices": [
+          "Low-level disinfection",
+          "Intermediate-level disinfection",
+          "Antisepsis",
+          "Sterilization"
+        ],
+        "answer": 3,
+        "explanation": "Critical items that enter sterile tissue must be sterilized to destroy all microbes including spores. High or intermediate disinfection leaves some spores and is only acceptable for less risky items."
+      },
+      {
+        "stem": "A culture grows in tubes both with and without oxygen, growing best when oxygen is present. How is this organism classified?",
+        "choices": [
+          "Obligate aerobe",
+          "Facultative anaerobe",
+          "Obligate anaerobe",
+          "Microaerophile"
+        ],
+        "answer": 1,
+        "explanation": "Growth with or without oxygen defines a facultative anaerobe. An obligate aerobe would not grow at all without oxygen."
+      },
+      {
+        "stem": "In a lab growth curve, the number of living cells stays roughly constant because nutrients are running out and waste is building up. Which phase is this?",
+        "choices": [
+          "Stationary phase",
+          "Lag phase",
+          "Log phase",
+          "Death phase"
+        ],
+        "answer": 0,
+        "explanation": "In stationary phase, new cell production balances cell death as resources dwindle. The death phase is the main distractor, but in that phase the living population is clearly declining."
+      },
+      {
+        "stem": "A student swabs a patient's skin with chlorhexidine before a blood draw. Which term best describes this action?",
+        "choices": [
+          "Sterilization",
+          "Disinfection",
+          "Antisepsis",
+          "Pasteurization"
+        ],
+        "answer": 2,
+        "explanation": "Reducing microbes on living tissue is antisepsis. Disinfection is close, but that term applies to nonliving surfaces and objects."
+      },
+      {
+        "stem": "Staff in a long-term care facility notice that MRSA cases cluster among residents who share a physical therapy room. What is the most likely mode of transmission to address first?",
+        "choices": [
+          "Airborne spread through ventilation",
+          "Vector spread by insects",
+          "Contaminated food as a vehicle",
+          "Contact via hands and shared equipment"
+        ],
+        "answer": 3,
+        "explanation": "MRSA spreads mainly by direct and indirect contact, so hand hygiene and cleaning shared equipment break the chain. Airborne spread is the main distractor but is not the typical route for MRSA."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Binary fission",
+        "definition": "Asexual division of one bacterial cell into two identical cells, allowing rapid exponential growth."
+      },
+      {
+        "term": "Facultative anaerobe",
+        "definition": "Organism that can grow with or without oxygen, usually growing better when oxygen is present."
+      },
+      {
+        "term": "Chain of infection",
+        "definition": "Six linked steps (agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host) required for infection to spread."
+      },
+      {
+        "term": "Sterilization",
+        "definition": "Process that destroys all forms of microbial life, including endospores, such as steam autoclaving."
+      },
+      {
+        "term": "Antisepsis",
+        "definition": "Reducing the number of microbes on living tissue, such as skin preparation with chlorhexidine."
+      }
+    ]
+  }
+]

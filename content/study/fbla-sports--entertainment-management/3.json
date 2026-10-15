@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Event risk, law, ethics and financial decisions",
+    "objective": "Analyze event risks, apply contract, intellectual property and labor concepts, and evaluate financial decisions such as break-even attendance for sports and entertainment properties.",
+    "body": "Advanced managers must protect people, money and brands. Most high-level test scenarios combine risk management, law and finance into a single decision.\n\n**Risk management.** A common framework identifies risks, assesses their likelihood and severity, and chooses a treatment:\n1. **Avoid** the risk by not doing the activity, such as canceling fireworks during a drought.\n2. **Reduce** it with controls, such as bag checks, crowd barriers, trained staff and weather monitoring.\n3. **Transfer** it, usually through insurance or contract clauses such as **indemnification**, where one party agrees to cover the other's losses.\n4. **Retain** it when the cost is small and the organization can absorb it.\n\nOutdoor events need a written weather plan; lightning guidance commonly calls for suspending play when thunder is heard and waiting 30 minutes after the last thunder or lightning before resuming. Venues owe spectators reasonable care, and **negligence** claims arise when a manager fails to act as a reasonable person would, causing harm.\n\n**Contracts and talent.** Performers and athletes work under contracts that spell out pay, duties and termination. A **force majeure** clause excuses performance when events beyond either party's control, such as a hurricane, make the event impossible. A **rider** lists a performer's technical and hospitality requirements. In pro leagues, players' unions and owners negotiate a **collective bargaining agreement (CBA)** covering salary caps, free agency and working conditions. A **sports agent** represents the athlete, and many states regulate agents who recruit college athletes. College athletes may now earn money from their **name, image and likeness (NIL)** under state laws and NCAA rules.\n\n**Intellectual property.** Team names and logos are protected by **trademarks**; broadcasts, songs and films by **copyright**. Unauthorized merchandise is counterfeiting, and streaming a game without permission infringes copyright.\n\n**Financial decisions.** **Break-even attendance** = fixed costs / (revenue per attendee - variable cost per attendee). The difference in the denominator is the **contribution margin**. If a festival has $180,000 in fixed costs, average revenue of $75 per fan and variable costs of $15 per fan, it needs 3,000 fans to break even. Managers also compare a guaranteed artist fee to a percentage-of-door deal to decide who carries the risk.\n\n**Ethics.** Issues include performance-enhancing drugs, gambling integrity now that sports betting is legal in many states, ticket price gouging and athlete welfare. Codes of conduct and transparent policies protect long-term trust.\n\nThe most common mistake students make in break-even problems is dividing fixed costs by the ticket price alone instead of by the contribution margin per attendee, which understates the attendance needed.",
+    "examples": [
+      "A festival buys event cancellation insurance and requires vendors to sign indemnification clauses, transferring risk rather than retaining it.",
+      "A promoter facing $50,000 in fixed costs, a $40 ticket and $15 in variable costs per guest needs 2,000 guests to break even, since $50,000 / $25 = 2,000."
+    ],
+    "questions": [
+      {
+        "stem": "An arena has $240,000 in fixed costs for a show. Average revenue per attendee is $70 and variable cost is $10. How many attendees are needed to break even?",
+        "choices": [
+          "2,400",
+          "3,000",
+          "3,429",
+          "4,000"
+        ],
+        "answer": 3,
+        "explanation": "$240,000 / ($70 - $10) = 4,000. Dividing by $70 alone gives about 3,429, which ignores variable costs."
+      },
+      {
+        "stem": "A concert is canceled because a hurricane closes the city. Which contract clause most likely excuses both parties?",
+        "choices": [
+          "Indemnification",
+          "Force majeure",
+          "Rider",
+          "Non-compete"
+        ],
+        "answer": 1,
+        "explanation": "Force majeure covers events beyond the parties' control. Indemnification shifts who pays for losses but does not itself excuse performance."
+      },
+      {
+        "stem": "A stadium buys liability insurance for its fan events. Which risk treatment is this?",
+        "choices": [
+          "Avoid",
+          "Reduce",
+          "Transfer",
+          "Retain"
+        ],
+        "answer": 2,
+        "explanation": "Insurance shifts financial loss to the insurer, which is transfer. Reduction would involve controls like barriers or staffing."
+      },
+      {
+        "stem": "Lightning is spotted near a high school football game. Following common guidance, what should the manager do?",
+        "choices": [
+          "Continue unless rain begins",
+          "Suspend play and wait 30 minutes after the last thunder or lightning",
+          "Move fans to the top rows of the bleachers",
+          "Finish the current quarter, then decide"
+        ],
+        "answer": 1,
+        "explanation": "Common lightning guidance is to suspend activity and wait 30 minutes after the last strike or thunder. Waiting for rain or finishing the quarter delays protective action."
+      },
+      {
+        "stem": "A vendor sells unlicensed shirts with a team's logo outside the stadium. Which right is being violated?",
+        "choices": [
+          "Copyright",
+          "Patent",
+          "Trademark",
+          "Trade secret"
+        ],
+        "answer": 2,
+        "explanation": "Team logos are trademarks. Copyright protects creative works like broadcasts and songs, not brand identifiers."
+      },
+      {
+        "stem": "A spill sits in a concourse for two hours without cleanup and a fan slips. The fan's most likely legal claim is:",
+        "choices": [
+          "Breach of a rider",
+          "Negligence",
+          "Trademark infringement",
+          "Force majeure"
+        ],
+        "answer": 1,
+        "explanation": "The venue failed to use reasonable care, which supports negligence. Force majeure concerns events beyond control, not an ignored hazard."
+      },
+      {
+        "stem": "A college soccer player is paid by a local restaurant to appear in its ads. This arrangement is best described as:",
+        "choices": [
+          "A collective bargaining agreement",
+          "An NIL deal",
+          "A licensing royalty to the NCAA",
+          "A sponsorship of the conference"
+        ],
+        "answer": 1,
+        "explanation": "Payment for use of the athlete's name, image and likeness is an NIL deal. A CBA is negotiated between pro players' unions and owners."
+      },
+      {
+        "stem": "A promoter can pay a band a flat $30,000 or 60% of ticket revenue. Expected revenue is uncertain. Which statement is correct?",
+        "choices": [
+          "The flat fee shifts attendance risk to the band",
+          "The percentage deal shifts attendance risk to the band",
+          "Both options leave all risk with the band",
+          "Neither option affects risk"
+        ],
+        "answer": 1,
+        "explanation": "Under a percentage deal, the band's pay falls if attendance is weak, so it shares risk. The flat fee leaves attendance risk with the promoter, not the band."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Force majeure",
+        "definition": "A contract clause excusing performance when events beyond the parties' control make it impossible."
+      },
+      {
+        "term": "Indemnification",
+        "definition": "A contract promise by one party to cover the other party's losses or claims."
+      },
+      {
+        "term": "Break-even attendance",
+        "definition": "Fixed costs divided by the contribution margin per attendee."
+      },
+      {
+        "term": "Collective bargaining agreement",
+        "definition": "A contract negotiated between a players' union and league owners covering pay and working conditions."
+      },
+      {
+        "term": "Name, image and likeness (NIL)",
+        "definition": "An athlete's right to earn money from use of their identity, such as endorsements."
+      }
+    ]
+  }
+]

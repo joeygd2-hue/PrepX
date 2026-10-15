@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Reading prescriptions, controlled substances and medication safety",
+    "objective": "Interpret the parts of a prescription, classify controlled substances by DEA schedule, and apply safety practices that prevent medication errors.",
+    "body": "Once you know the people and products in a pharmacy, the next step is processing a prescription accurately and safely. Many competition questions present a scenario and ask what is missing, what is allowed, or what could cause an error.\n\n**Parts of a prescription.** A complete prescription includes the patient's name and other identifiers such as date of birth, the date written, the drug name, strength and dosage form, the quantity, the **sig** (directions for use), the number of refills, and the prescriber's name and signature. Controlled-substance prescriptions also require the prescriber's **DEA number**. The sig is transcribed into plain language for the label; for example, \"1 tab PO BID\" becomes \"Take one tablet by mouth twice daily.\"\n\n**Common abbreviations.** PO means by mouth, BID twice a day, TID three times a day, QID four times a day, PRN as needed, and NPO nothing by mouth. The Joint Commission's **Do Not Use list** bans error-prone abbreviations such as \"U\" for units and \"QD\" for daily, which are easily misread.\n\n**Controlled substances.** The federal Controlled Substances Act sorts drugs with abuse potential into five **DEA schedules**:\n- **Schedule I**: high abuse potential and no currently accepted medical use under federal law, such as heroin.\n- **Schedule II**: high abuse potential with accepted medical use, such as oxycodone and amphetamine products. No refills are allowed.\n- **Schedules III and IV**: lower abuse potential, such as anabolic steroids (III) and benzodiazepines like alprazolam (IV). Refills are limited to five within six months.\n- **Schedule V**: lowest abuse potential, such as certain low-strength codeine cough preparations.\n\nState laws may be stricter than federal law, and the pharmacy must follow whichever rule is stricter.\n\n**Preventing medication errors.** Pharmacies use the **rights of medication administration**: right patient, right drug, right dose, right route and right time, often expanded to include right documentation. Other safeguards include using two patient identifiers, scanning barcodes, and flagging **look-alike, sound-alike (LASA) drugs**. **Tall Man lettering**, such as hydrOXYzine and hydrALAZINE, highlights the letters that differ. A **leading zero** (0.5 mg) is required, and a **trailing zero** (5.0 mg) is forbidden because a missed decimal can cause a tenfold overdose.\n\nPatient privacy also matters: **HIPAA** protects health information, so staff discuss prescriptions only with the patient or authorized individuals and keep screens and records out of public view.\n\nThe most common mistake students make is mixing up the leading-zero and trailing-zero rules. Always write a zero before a decimal point and never after a whole number.",
+    "examples": [
+      "A label reading \"Take 1 tablet by mouth three times daily as needed for pain\" was translated from the sig \"1 tab PO TID PRN pain.\"",
+      "A prescription for oxycodone written with three refills cannot be refilled, because Schedule II drugs may not have refills.",
+      "A pharmacy shelves hydrOXYzine and hydrALAZINE apart and labels them with Tall Man lettering to prevent a mix-up."
+    ],
+    "questions": [
+      {
+        "stem": "A technician receives a prescription for a Schedule II opioid that lists \"Refills: 2.\" What is the correct action?",
+        "choices": [
+          "Fill it and allow two refills",
+          "Fill it with one refill only",
+          "Convert the refills to a larger quantity",
+          "Fill it but note that no refills are permitted"
+        ],
+        "answer": 3,
+        "explanation": "Schedule II prescriptions cannot be refilled under federal law. Allowing one or two refills would violate the rules; Schedules III-IV are the ones allowing up to five refills in six months."
+      },
+      {
+        "stem": "Which sig correctly translates to \"Take one capsule by mouth four times daily\"?",
+        "choices": [
+          "1 cap PO QID",
+          "1 cap PO TID",
+          "1 cap SL QID",
+          "1 cap PO BID"
+        ],
+        "answer": 0,
+        "explanation": "QID means four times daily and PO means by mouth. TID is three times daily, the most tempting distractor."
+      },
+      {
+        "stem": "An order reads \"Give 5.0 mg.\" Why is this a safety concern?",
+        "choices": [
+          "It lacks a leading zero",
+          "Milligrams should be written as mcg",
+          "Trailing zeros can be misread as 50 mg",
+          "Doses must be written in words"
+        ],
+        "answer": 2,
+        "explanation": "A trailing zero can be misread if the decimal is missed, turning 5.0 into 50. Leading zeros are required only for amounts less than one, so that option does not apply."
+      },
+      {
+        "stem": "A drug has a high potential for abuse but an accepted medical use, and no refills are allowed. Which schedule fits?",
+        "choices": [
+          "Schedule I",
+          "Schedule II",
+          "Schedule IV",
+          "Schedule V"
+        ],
+        "answer": 1,
+        "explanation": "Schedule II drugs have high abuse potential with accepted medical use and no refills. Schedule I drugs have no accepted federal medical use."
+      },
+      {
+        "stem": "Which item must appear on a controlled-substance prescription but is not required on a typical non-controlled one?",
+        "choices": [
+          "Prescriber's DEA number",
+          "Patient name",
+          "Drug strength",
+          "Date written"
+        ],
+        "answer": 0,
+        "explanation": "A DEA number is required for controlled substances. Patient name and date written are needed on every prescription."
+      },
+      {
+        "stem": "A pharmacy stores two drugs with similar names in the same bin, and one is dispensed in error. Which strategy best prevents this?",
+        "choices": [
+          "Storing them alphabetically side by side",
+          "Removing their labels",
+          "Filling them only on weekends",
+          "Using Tall Man lettering and separating them on the shelf"
+        ],
+        "answer": 3,
+        "explanation": "Tall Man lettering and physical separation reduce LASA mix-ups. Alphabetical side-by-side storage is exactly what put them together."
+      },
+      {
+        "stem": "A man calls asking what medications his adult neighbor picks up. How should the pharmacy respond?",
+        "choices": [
+          "Share the list since he is a neighbor",
+          "Share only over-the-counter items",
+          "Decline because of HIPAA privacy rules",
+          "Ask the neighbor's prescriber for permission"
+        ],
+        "answer": 2,
+        "explanation": "HIPAA protects patient health information from unauthorized people. Over-the-counter purchases on a patient profile are still protected information."
+      },
+      {
+        "stem": "Which abbreviation appears on the Joint Commission's Do Not Use list?",
+        "choices": [
+          "PO",
+          "U for units",
+          "PRN",
+          "BID"
+        ],
+        "answer": 1,
+        "explanation": "\"U\" can be misread as a 0 or 4, so it is banned; write \"units.\" PO, PRN and BID are common accepted abbreviations."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Sig",
+        "definition": "The directions for use on a prescription, translated into plain language on the label."
+      },
+      {
+        "term": "DEA schedule",
+        "definition": "A federal category from I to V ranking controlled substances by abuse potential and medical use."
+      },
+      {
+        "term": "Schedule II",
+        "definition": "Controlled substances with high abuse potential and accepted medical use; no refills allowed."
+      },
+      {
+        "term": "Tall Man lettering",
+        "definition": "Capitalizing the differing letters in look-alike drug names, such as hydrOXYzine and hydrALAZINE."
+      },
+      {
+        "term": "Leading zero",
+        "definition": "A zero placed before a decimal point, as in 0.5 mg, to prevent tenfold dosing errors."
+      }
+    ]
+  }
+]

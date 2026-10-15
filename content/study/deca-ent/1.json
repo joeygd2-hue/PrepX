@@ -1,0 +1,82 @@
+[
+  {
+    "title": "The entrepreneurial mindset and finding opportunities",
+    "objective": "Separate ideas from real opportunities, test feasibility before investing, and recognize the traits and venture types tested on the Entrepreneurship exam.",
+    "body": "Entrepreneurship is the process of recognizing an opportunity, gathering resources and accepting risk to create value. On the Entrepreneurship exam and in every ENT role-play, judges want to see you separate a good-sounding idea from a real *opportunity*: a problem enough customers will pay to solve, at a time and price that let you solve it profitably.\n\n**Traits and mindset.** Successful entrepreneurs tend to show initiative, persistence, comfort with uncertainty and a willingness to take *calculated* risks, meaning risks that are researched and limited, not reckless. They treat failure as information. An *intrapreneur* brings the same mindset inside an existing company, such as an employee who launches a new product line with company resources. Every founder also faces *opportunity cost*: the salary, time or other options given up to run the venture.\n\n**Where opportunities come from.** Watch for change: new technology, shifting demographics, new laws, recurring customer frustrations and gaps that existing companies ignore. *Innovation* can be *incremental* (improving an existing product) or *disruptive* (a simpler, cheaper offering that starts with overlooked customers and later displaces established competitors).\n\n**Testing feasibility.** A *feasibility analysis* checks whether an idea can work before you invest heavily:\n- *Market*: Is there enough demand, and who exactly is the customer?\n- *Product*: Can it be built or delivered as promised?\n- *Organizational*: Do you have the skills, people and partners needed?\n- *Financial*: Can it cover its costs and earn a profit?\n\nThe *lean startup* approach builds a *minimum viable product (MVP)*, the simplest version that lets real customers react. Founders measure the results, then *persevere* or *pivot*, changing a major part of the business model based on what they learned.\n\n**Types of ventures.** A *lifestyle business* supports the owner's income and personal goals, like a neighborhood bakery. A *high-growth (scalable) venture* aims to expand quickly and often seeks outside investors. A *social enterprise* pursues a social or environmental mission while earning revenue. Founders can also buy an existing business or a franchise instead of starting from scratch.\n\n**Economic role.** Entrepreneurs create jobs, introduce new products and increase competition, pushing established firms to improve quality and prices.\n\nA common mistake is falling in love with a product before confirming the problem. Start with customers: talk to them, watch how they act and let evidence decide what you build.",
+    "examples": [
+      "A student notices classmates lose half their lunch period waiting in line. Instead of coding an app, she tests a paper pre-order form for one week; 140 orders show real demand, so she moves to a simple online form as her MVP.",
+      "An employee at a sporting-goods chain proposes and runs a new in-store bike repair counter using the company's space and budget. She is acting as an intrapreneur.",
+      "A food-truck owner who wants to stay a two-truck operation runs a lifestyle business; a meal-kit startup raising investor money to reach 20 cities is a high-growth venture."
+    ],
+    "questions": [
+      {
+        "stem": "Which situation best describes a business opportunity rather than just an idea?",
+        "choices": ["Many local pet owners say they would pay for weekend dog walking, and no service covers the area", "A student thinks a glow-in-the-dark backpack would look cool", "An inventor builds a gadget without asking anyone whether they need it", "A friend suggests opening a restaurant because cooking is fun"],
+        "answer": 0,
+        "explanation": "An opportunity combines a real customer need, willingness to pay and an open gap in the market. The other choices start from the founder's tastes with no evidence of demand."
+      },
+      {
+        "stem": "A founder wants to test whether office workers will buy healthy breakfast boxes before she spends money on a delivery van and kitchen. What is the best minimum viable product?",
+        "choices": ["Take preorders in two office buildings and deliver by car for two weeks", "Lease a commercial kitchen and three vans", "Hire a firm to design a full mobile app", "Run a citywide advertising campaign"],
+        "answer": 0,
+        "explanation": "An MVP is the simplest version that lets real customers show whether they will buy. Preorders in two buildings test demand cheaply before major investment."
+      },
+      {
+        "stem": "An app built for students to swap textbooks attracts few users, but teachers keep using it to share classroom supplies. The founders refocus the whole app on teachers. What is this called?",
+        "choices": ["A pivot", "Scope creep", "Vertical integration", "Market saturation"],
+        "answer": 0,
+        "explanation": "A pivot is a deliberate change to a key part of the business model, here the target customer, based on evidence from the market."
+      },
+      {
+        "stem": "A founder checks whether expected sales of 3,000 units at $25 each can cover $60,000 in annual costs and still leave a profit. Which part of a feasibility analysis is this?",
+        "choices": ["Financial feasibility", "Market feasibility", "Organizational feasibility", "Product feasibility"],
+        "answer": 0,
+        "explanation": "Financial feasibility tests whether revenue can cover costs and produce profit. Here 3,000 × $25 = $75,000 in revenue exceeds $60,000 in costs by $15,000."
+      },
+      {
+        "stem": "A startup sells a basic, low-cost device that first appeals to customers ignored by industry leaders, then improves until it takes over the mainstream market. What type of innovation is this?",
+        "choices": ["Disruptive innovation", "Incremental innovation", "Sustaining innovation", "Line extension"],
+        "answer": 0,
+        "explanation": "Disruptive innovation starts with simpler, cheaper offerings for overlooked customers and later displaces established firms. Incremental and sustaining innovation improve products for existing customers."
+      },
+      {
+        "stem": "A bank employee designs and leads a new mobile savings program inside the bank, using the bank's money and staff. She is best described as:",
+        "choices": ["An intrapreneur", "A franchisee", "A sole proprietor", "An angel investor"],
+        "answer": 0,
+        "explanation": "An intrapreneur acts entrepreneurially inside an existing organization, using its resources rather than starting a separate business."
+      },
+      {
+        "stem": "Which action shows a calculated risk rather than a reckless one?",
+        "choices": ["Testing a new menu item at one location before adding it at all five", "Signing a five-year lease before talking to any customers", "Spending all personal savings on inventory without a sales forecast", "Quitting a job to launch a product no one has tried"],
+        "answer": 0,
+        "explanation": "A calculated risk is researched and limited. A one-location test gathers evidence while capping the possible loss; the other actions commit heavily with no evidence."
+      },
+      {
+        "stem": "A company sells reusable water bottles and uses part of each sale to fund clean-water projects, while still aiming to earn a profit. What type of venture is this?",
+        "choices": ["Social enterprise", "Nonprofit charity", "Lifestyle business", "Government agency"],
+        "answer": 0,
+        "explanation": "A social enterprise pursues a social or environmental mission through a revenue-earning business. Because it aims to earn a profit, it is not a nonprofit charity."
+      },
+      {
+        "stem": "A new state law requires every restaurant to list major food allergens on its menus. Which response best treats this change as an entrepreneurial opportunity?",
+        "choices": ["Offer an affordable menu-labeling service to local restaurants", "Open another sit-down restaurant in the same area", "Lower prices at an existing restaurant", "Expand catering hours for weekend events"],
+        "answer": 0,
+        "explanation": "New regulations create needs that businesses must meet. A labeling service solves exactly the problem the law creates for many restaurants at once."
+      },
+      {
+        "stem": "Ana leaves a job paying $42,000 a year to run her own startup, which earns a $30,000 profit in its first year. What was her opportunity cost, and how did she do compared with staying in her job?",
+        "choices": ["$42,000; she is $12,000 behind her old job", "$30,000; she is $12,000 ahead of her old job", "$12,000; she exactly broke even", "$72,000; she is $30,000 ahead of her old job"],
+        "answer": 0,
+        "explanation": "Opportunity cost is the value of the best option given up, the $42,000 salary. Comparing results, $30,000 − $42,000 = −$12,000, so she is $12,000 behind for the year."
+      }
+    ],
+    "flashcards": [
+      { "term": "Business opportunity", "definition": "A customer need that enough people will pay to solve, at a time and price that let a business solve it profitably." },
+      { "term": "Feasibility analysis", "definition": "A study of market, product, organizational and financial factors to judge whether a business idea can work." },
+      { "term": "Minimum viable product (MVP)", "definition": "The simplest version of a product that lets real customers react so the founder can learn quickly and cheaply." },
+      { "term": "Pivot", "definition": "A deliberate change to a major part of a business model, such as the target customer or product, based on evidence." },
+      { "term": "Intrapreneur", "definition": "An employee who acts like an entrepreneur inside an existing company, developing new products or ventures." },
+      { "term": "Disruptive innovation", "definition": "A simpler, cheaper offering that starts with overlooked customers and eventually displaces established competitors." }
+    ]
+  }
+]

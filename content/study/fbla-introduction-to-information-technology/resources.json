@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Computer Basics",
+    "url": "https://edu.gcfglobal.org/en/COMPUTERBASICS/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Free course on hardware, software, operating systems and ports for the basics on this test."
+  },
+  {
+    "title": "Computers and the Internet: The Internet",
+    "url": "https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Lessons on the internet's physical layer, IP, DNS, HTTP and packets."
+  },
+  {
+    "title": "Introduction to Business: Linking Up: Computer Networks",
+    "url": "https://openstax.org/books/introduction-business/pages/13-2-linking-up-computer-networks",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Textbook section on LANs, WANs, intranets and how businesses link computers to share data."
+  }
+]

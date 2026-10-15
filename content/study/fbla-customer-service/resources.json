@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook; the services, customer relationship management and service quality chapters fit this test."
+  },
+  {
+    "title": "Organizational Behavior",
+    "url": "https://openstax.org/books/organizational-behavior/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Communication, conflict and negotiation chapters help with handling difficult customers in the role play."
+  },
+  {
+    "title": "Business Ethics",
+    "url": "https://openstax.org/details/books/business-ethics",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Covers honesty, fairness and stakeholder duties that customer service ethics questions draw on."
+  }
+]

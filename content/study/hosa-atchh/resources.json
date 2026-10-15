@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Help Me Understand Genetics",
+    "url": "https://medlineplus.gov/genetics/understanding/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "Illustrated NIH handbook on DNA, genes, inheritance patterns, variants and genetic testing."
+  },
+  {
+    "title": "Talking Glossary of Genomic and Genetic Terms",
+    "url": "https://www.genome.gov/genetics-glossary",
+    "publisher": "National Human Genome Research Institute",
+    "kind": "reference",
+    "note": "Spoken definitions of genetics terms such as allele, karyotype and penetrance."
+  },
+  {
+    "title": "Biology 2e",
+    "url": "https://openstax.org/details/books/biology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free biology text; the genetics chapters cover Mendel, meiosis and gene expression."
+  }
+]

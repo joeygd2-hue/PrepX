@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Presenting as a team and handling questions",
+    "objective": "Deliver a case solution as a coordinated team and answer the judge's questions with confidence.",
+    "body": "A strong analysis can still lose points if the presentation is disorganized. Judges notice whether partners work as one team, whether the solution is easy to follow and whether both members can defend it.\n\n**Use a clear structure.** A dependable order is:\n1. Greeting, introductions and a one-sentence summary of your recommendation.\n2. The core problem and the key facts behind it.\n3. The recommendation and why it beat the alternatives.\n4. The implementation plan: steps, responsibilities, timeline and budget.\n5. How success will be measured, plus the main risk and its contingency.\n6. A short recap, then an invitation for questions.\n\nStating your recommendation at the start, often called *bottom line up front*, means the judge hears every later point knowing where it leads.\n\n**Share the stage.** Both partners should present meaningful sections, and both should be ready to answer questions. Plan the hand-offs during prep: 'Now Priya will walk you through the timeline and budget.' Smooth transitions make the team look rehearsed and united. While your partner speaks, look at the judge or your partner rather than your notes, and do not interrupt.\n\n**Use simple visuals if allowed.** A neat, hand-drawn timeline, budget table or chart on the paper provided can make your plan easy to grasp. Keep it large and uncluttered, and point to it as you explain.\n\n**Answer questions as a team.** Judges may ask about costs, risks or why you rejected another option. Let the partner who covered that section answer first. Keep answers direct, then add a reason. The other partner can add one brief point if it truly helps, but should never contradict or simply repeat. Settle disagreements during prep, not in front of the judge.\n\n**Watch the clock.** Plan roughly how long each section should take and leave room for questions. Running out of time before the recommendation is fully presented is costly, so rehearse your opening and hand-offs in your heads before prep ends.\n\nA common mistake is one partner doing nearly all the talking. Even when one partner is more confident, an uneven presentation suggests the team did not truly work together.",
+    "examples": [
+      "Hand-off: That covers why we chose the referral program. Marcus will now explain how we will roll it out over the next eight weeks.",
+      "A judge asks why the team did not cut prices. The partner who covered alternatives answers that price cuts would cost about $12,000 in lost revenue, versus $2,000 for referrals, and would attract bargain-seekers rather than loyal members."
+    ],
+    "questions": [
+      {
+        "stem": "What is the main benefit of stating your team's recommendation within the first minute of a case presentation?",
+        "choices": [
+          "It allows the team to skip the implementation plan",
+          "The judge can follow every later point knowing where it leads",
+          "It guarantees that the judge will agree with the plan",
+          "It reduces the total time the team needs to speak"
+        ],
+        "answer": 1,
+        "explanation": "Bottom line up front gives the judge a frame for the rest of the presentation. The team still has to support the recommendation with a plan and evidence."
+      },
+      {
+        "stem": "The judge asks a question about the budget, a section your partner presented. What is the best team response?",
+        "choices": [
+          "You answer immediately to show that you know everything too",
+          "Both partners answer at the same time to show unity",
+          "Your partner answers first, and you add a brief point only if it helps",
+          "Neither partner answers until the judge rephrases the question"
+        ],
+        "answer": 2,
+        "explanation": "The partner who owns the section is best placed to answer, and a short addition only when useful avoids repetition and keeps the team looking coordinated."
+      },
+      {
+        "stem": "During the judge's questions, you notice that you and your partner see a minor detail of the plan differently. What should you do?",
+        "choices": [
+          "Correct your partner openly so the judge hears the right version",
+          "Stay consistent with the plan as presented and discuss it later",
+          "Tell the judge that the team never agreed on that point",
+          "Describe both versions and ask the judge to choose one"
+        ],
+        "answer": 1,
+        "explanation": "Contradicting each other in front of the judge undermines confidence in the whole plan. A minor difference is best kept consistent with what was presented."
+      },
+      {
+        "stem": "In rehearsal, a team reaches its recommendation with almost no time left. What is the best fix?",
+        "choices": [
+          "Shorten the background and state the recommendation earlier",
+          "Plan to speak much faster during the real presentation",
+          "Drop the implementation plan from the presentation entirely",
+          "Skip the greeting and introductions to save a few seconds"
+        ],
+        "answer": 0,
+        "explanation": "Trimming background and leading with the recommendation frees time for the parts judges value most. Rushing or cutting the plan weakens the solution."
+      }
+    ],
+    "flashcards": [
+      { "term": "Bottom line up front", "definition": "Stating your main recommendation at the start so the listener knows where every later point leads." },
+      { "term": "Hand-off", "definition": "A planned transition in which one partner introduces the next section and the other partner takes over." },
+      { "term": "Visual aid", "definition": "A simple, neat chart, table or timeline used to make a case solution easier to follow." },
+      { "term": "Team consistency", "definition": "Partners presenting and defending one agreed plan without contradicting each other in front of the judge." },
+      { "term": "Time budget", "definition": "A plan for how many minutes each section of a presentation should take, leaving room for questions." }
+    ]
+  }
+]

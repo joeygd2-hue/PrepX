@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Legal foundations: sources of law, courts, torts and crimes",
+    "objective": "Distinguish the sources of law, court jurisdiction, civil and criminal cases, the major torts and the main forms of dispute resolution.",
+    "body": "Business Law questions build on core vocabulary: where law comes from, which court hears a case, and whether a wrong is a crime, a tort or both. Master these foundations and contract and employment questions become much easier.\n\n**Sources of law.** In the United States, the *Constitution* is the supreme law; a statute or government action that conflicts with it is invalid. *Statutory law* is passed by legislatures, including Congress, state legislatures and city councils (ordinances). *Administrative law* consists of rules issued by government agencies, such as the Federal Trade Commission or the Occupational Safety and Health Administration. *Common law*, or case law, comes from judges' decisions. Under *stare decisis*, courts follow earlier decisions, called *precedent*, when the facts are similar.\n\n**Courts.** The federal and state systems each have *trial courts*, where evidence is presented and facts are decided, and *appellate courts*, which review the trial record for legal errors instead of hearing new witnesses. Federal courts hear cases that arise under federal law (a *federal question*) or that involve *diversity of citizenship*: parties from different states with more than $75,000 at stake. A court needs *jurisdiction*, the power to hear a case, over both the subject matter and the parties.\n\n**Civil versus criminal law.** In a *criminal* case, the government prosecutes a person for a wrong against society. Guilt must be proved *beyond a reasonable doubt*, and penalties include fines and imprisonment. In a *civil* case, a private *plaintiff* sues a *defendant* for a remedy such as money damages, usually by a *preponderance of the evidence* (more likely than not). One act, such as punching someone, can lead to both a criminal prosecution and a civil lawsuit.\n\n**Torts.** A tort is a civil wrong that injures a person or property.\n- *Intentional torts*: battery (harmful or offensive touching), assault (causing fear of immediate harm), defamation (a false statement of fact that harms reputation; *libel* is written or published, *slander* is spoken), fraud and trespass.\n- *Negligence*: the defendant owed a *duty* of care, *breached* it, the breach *caused* the injury, and the plaintiff suffered *damages*.\n- *Strict liability*: liability without proof of fault, as for defective products or abnormally dangerous activities.\n\n**Alternative dispute resolution (ADR).** In *negotiation*, the parties bargain directly. In *mediation*, a neutral third party helps the parties reach their own agreement. In binding *arbitration*, a neutral arbitrator hears both sides and issues a decision the parties must follow.\n\n**Common mistake:** treating mediation and arbitration as the same thing. A mediator helps the parties agree; an arbitrator decides for them.",
+    "examples": [
+      "A customer trips over a box left in a store aisle. The customer can prove the store owed a duty of care, breached it by leaving the box, caused the fall and the customer's $4,000 in medical bills: all four elements of negligence.",
+      "A city passes an ordinance requiring food trucks to park 100 feet from restaurant doors. That ordinance is statutory law at the local level, and it must still comply with the state and U.S. constitutions.",
+      "Two companies disagree about a late shipment. They first negotiate, then hire a mediator, and only when mediation fails do they go to binding arbitration, which avoids a public trial."
+    ],
+    "questions": [
+      {
+        "stem": "A state legislature passes a law that conflicts with the U.S. Constitution. What is the result?",
+        "choices": ["The law controls because it was passed more recently", "The law is invalid because the Constitution is the supreme law", "The law applies only in that state's federal courts", "The law stands until Congress votes to repeal it"],
+        "answer": 1,
+        "explanation": "The Constitution is the highest source of law, so a conflicting statute is invalid. Being newer does not let a statute override the Constitution."
+      },
+      {
+        "stem": "A judge decides a case by following an earlier decision of a higher court in the same jurisdiction that involved similar facts. Which doctrine is the judge applying?",
+        "choices": ["Stare decisis", "Strict liability", "Diversity of citizenship", "Respondeat superior"],
+        "answer": 0,
+        "explanation": "Stare decisis is the practice of following precedent so the law stays consistent and predictable. Strict liability is a tort concept, not a rule about precedent."
+      },
+      {
+        "stem": "A store owner files a civil lawsuit against a former employee for $40,000 in damages. Which standard of proof must the store usually meet?",
+        "choices": ["Beyond a reasonable doubt", "Probable cause", "Preponderance of the evidence", "Absolute certainty"],
+        "answer": 2,
+        "explanation": "Most civil cases are decided by a preponderance of the evidence, meaning more likely than not. Beyond a reasonable doubt is the higher criminal standard."
+      },
+      {
+        "stem": "A grocery employee mops an aisle and puts out no warning sign. A customer slips and breaks a wrist. Which claim is the customer's strongest?",
+        "choices": ["Defamation", "Battery", "Breach of contract", "Negligence"],
+        "answer": 3,
+        "explanation": "The store owed customers reasonable care, breached that duty by leaving no warning, and caused an injury with real damages. Battery requires an intentional touching."
+      },
+      {
+        "stem": "A former coworker publishes false written claims online that a bakery owner steals from customers, and the bakery loses business. Which tort fits best?",
+        "choices": ["Libel", "Slander", "Assault", "Trespass"],
+        "answer": 0,
+        "explanation": "Defamation that is written or published is libel. Slander is spoken defamation, so it does not fit an online written post."
+      },
+      {
+        "stem": "Two companies in a contract dispute hire a neutral expert who hears both sides and issues a decision they have agreed in advance to follow. Which method is this?",
+        "choices": ["Mediation", "Binding arbitration", "Negotiation", "Small claims litigation"],
+        "answer": 1,
+        "explanation": "A binding arbitrator decides the dispute. A mediator only helps the parties reach their own agreement and cannot impose a decision."
+      },
+      {
+        "stem": "An Ohio company sues a Texas company for $250,000 over a contract governed only by state law. On what basis can a federal court hear the case?",
+        "choices": ["Federal question, because all contract disputes arise under federal law", "Appellate jurisdiction, because federal courts review all state contracts", "Diversity of citizenship, because the parties are from different states and over $75,000 is at stake", "Administrative jurisdiction, because a federal agency regulates every contract"],
+        "answer": 2,
+        "explanation": "Diversity jurisdiction requires parties from different states and more than $75,000 in controversy, and $250,000 meets that amount. Contract law is mainly state law, so there is no federal question."
+      },
+      {
+        "stem": "What is the main role of an appellate court?",
+        "choices": ["Hearing witnesses and deciding the facts for the first time", "Selecting juries for criminal trials", "Writing statutes that trial courts must apply", "Reviewing a trial court's record for errors of law"],
+        "answer": 3,
+        "explanation": "Appellate courts review what happened at trial to decide whether the law was applied correctly. Trial courts hear witnesses and find facts."
+      }
+    ],
+    "flashcards": [
+      { "term": "Stare decisis", "definition": "The doctrine that courts follow precedent from earlier decisions when deciding cases with similar facts." },
+      { "term": "Tort", "definition": "A civil wrong, other than a breach of contract, that injures a person or property and allows a lawsuit for damages." },
+      { "term": "Negligence", "definition": "A tort proved by showing a duty of care, a breach of that duty, causation and actual damages." },
+      { "term": "Defamation", "definition": "A false statement of fact that harms someone's reputation; libel if written or published, slander if spoken." },
+      { "term": "Arbitration", "definition": "Dispute resolution in which a neutral third party hears both sides and issues a decision, often binding." }
+    ]
+  }
+]

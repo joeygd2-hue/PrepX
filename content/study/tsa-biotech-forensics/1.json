@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Biotechnology tools and applications",
+    "objective": "Explain how DNA carries information and how core biotechnology tools such as PCR, gel electrophoresis, recombinant DNA and CRISPR work, then apply them to real problems responsibly.",
+    "body": "Biotechnology Design teams research a real problem and present a biotechnology solution, and interviewers probe whether students understand the science underneath. Knowing how the core lab tools work, and why each one fits a problem, separates a strong entry from a poster full of buzzwords.\n\n**DNA basics.** DNA is a double helix of nucleotides in which adenine pairs with thymine and guanine pairs with cytosine. The *central dogma* describes the flow of information: DNA is *transcribed* into messenger RNA, which is *translated* into protein at the ribosome. A *gene* is a DNA segment that codes for a functional product, and a *mutation* is a change in its sequence.\n\n**Core tools.**\n- *Restriction enzymes* cut DNA at specific recognition sequences, often leaving single-stranded 'sticky ends.' *DNA ligase* seals fragments together.\n- *Recombinant DNA* combines DNA from different sources, such as inserting a human insulin gene into a bacterial *plasmid* so the bacteria produce insulin.\n- *PCR (polymerase chain reaction)* copies a target DNA region through repeated cycles of denaturing (about 95 °C), primer annealing (about 50 to 65 °C) and extension (about 72 °C) by a heat-stable DNA polymerase. Each cycle roughly doubles the target, so 10 cycles turn one molecule into about 2^10 = 1,024 copies.\n- *Gel electrophoresis* separates DNA fragments by size. DNA is negatively charged, so it moves toward the positive electrode, and smaller fragments travel farther through the gel.\n- *CRISPR-Cas9* uses a guide RNA to lead the Cas9 enzyme to a matching DNA sequence, where it cuts so a gene can be disabled or edited.\n\n**Applications.** Medical biotechnology includes vaccines, gene therapy and diagnostic tests. Agricultural biotechnology includes pest-resistant and drought-tolerant crops. Environmental biotechnology includes *bioremediation*, using microbes to break down pollutants. Industrial biotechnology uses enzymes and fermentation to make products such as biofuels and detergents.\n\n**Design and ethics.** Frame your project with a clear problem, a testable hypothesis or design goal, a control group and measurable results. Address ethics directly: safety, consent and privacy for genetic data, release of modified organisms into the environment, and fair access to new treatments.\n\nA common mistake is describing a tool without explaining why it fits the problem. Judges want to hear, for example, why PCR suits a tiny sample or why bioremediation can be cheaper and less disruptive than digging up contaminated soil.",
+    "examples": [
+      "A clinic sample contains 50 copies of a viral gene. After 20 PCR cycles at perfect efficiency it would hold 50 x 2^20 = 52,428,800 copies, enough for a test to detect.",
+      "On a gel, a 300 base-pair fragment ends up farther from the wells than a 1,200 base-pair fragment, because shorter pieces slip through the gel's pores more easily.",
+      "A team proposing drought-tolerant corn explains which gene it would add, how it would compare yield against an unmodified control plot under the same watering, and how it would limit gene flow to nearby plants."
+    ],
+    "questions": [
+      {
+        "stem": "One strand of a DNA segment reads 5'-ATGCCA-3'. What is the complementary strand, written from 3' to 5'?",
+        "choices": ["3'-TACGGT-5'", "3'-ATGCCA-5'", "3'-UACGGU-5'", "3'-TGGCAT-5'"],
+        "answer": 0,
+        "explanation": "A pairs with T and G pairs with C, base by base: ATGCCA becomes TACGGT. Uracil appears only in RNA, so the UACGGU option is wrong for DNA."
+      },
+      {
+        "stem": "A sample starts with 4 copies of a target DNA sequence. Assuming perfect doubling, how many copies are present after 5 PCR cycles?",
+        "choices": ["20", "40", "128", "1,024"],
+        "answer": 2,
+        "explanation": "Each cycle doubles the count: 4 x 2^5 = 4 x 32 = 128. Adding 4 copies per cycle (20) treats growth as linear instead of exponential."
+      },
+      {
+        "stem": "DNA samples are loaded into wells at one end of an agarose gel and current is applied. Which describes what happens?",
+        "choices": ["Fragments move toward the negative electrode, and the largest travel farthest", "Fragments move toward the positive electrode, and the smallest travel farthest", "Fragments move toward the positive electrode, and the largest travel farthest", "Fragments stay in the wells unless they are stained"],
+        "answer": 1,
+        "explanation": "The phosphate backbone gives DNA a negative charge, so it migrates toward the positive electrode. Smaller fragments move through the gel more easily and travel farther."
+      },
+      {
+        "stem": "To make bacteria produce human insulin, scientists cut both the plasmid and the insulin gene with the same restriction enzyme. Why use the same enzyme?",
+        "choices": ["It creates matching sticky ends so ligase can join the gene into the plasmid", "It makes the bacteria resistant to all antibiotics", "It translates the gene directly into insulin", "It copies the gene millions of times"],
+        "answer": 0,
+        "explanation": "One enzyme cuts both pieces at the same recognition sequence, leaving complementary sticky ends that pair up and are sealed by DNA ligase. Copying a gene millions of times is the job of PCR."
+      },
+      {
+        "stem": "A gene in a cell is switched on, and a messenger RNA copy of it leaves the nucleus. Which step of the central dogma produced that mRNA?",
+        "choices": ["Translation", "Replication", "Transcription", "Transformation"],
+        "answer": 2,
+        "explanation": "Transcription copies a gene's DNA sequence into messenger RNA. Translation happens afterward, when ribosomes read the mRNA to build a protein."
+      },
+      {
+        "stem": "A town wants to clean soil contaminated by a small fuel spill without hauling the soil away. Which biotechnology approach fits best?",
+        "choices": ["Gel electrophoresis of soil samples", "Bioremediation with microbes that break down hydrocarbons", "Cloning a plant that grows faster", "DNA fingerprinting of nearby residents"],
+        "answer": 1,
+        "explanation": "Bioremediation uses living organisms, often bacteria, to break pollutants into less harmful substances where they are. The other options do not remove the fuel."
+      },
+      {
+        "stem": "In CRISPR-Cas9 gene editing, what determines where in the genome the Cas9 enzyme cuts?",
+        "choices": ["The temperature of the reaction", "The size of the cell's plasmids", "The sequence of the guide RNA", "The nearest restriction enzyme site"],
+        "answer": 2,
+        "explanation": "The guide RNA is designed to match the target DNA sequence and leads Cas9 there. That programmability is what makes CRISPR more flexible than restriction enzymes, which cut only at fixed sites."
+      },
+      {
+        "stem": "A team tests whether a modified yeast strain produces more ethanol than normal yeast. Which is the best control?",
+        "choices": ["The modified strain grown at a higher temperature", "Unmodified yeast grown under identical conditions", "The modified strain grown with extra sugar", "A flask containing no sugar and no yeast"],
+        "answer": 1,
+        "explanation": "A control should differ from the experimental group only in the variable being tested, here the genetic modification. Changing temperature or sugar would add a second variable."
+      }
+    ],
+    "flashcards": [
+      { "term": "PCR (polymerase chain reaction)", "definition": "A technique that copies a target DNA region through repeated heating and cooling cycles, roughly doubling it each cycle." },
+      { "term": "Gel electrophoresis", "definition": "A method that separates DNA fragments by size as an electric current pulls them through a gel toward the positive electrode." },
+      { "term": "Restriction enzyme", "definition": "A protein that cuts DNA at a specific recognition sequence, often leaving sticky ends." },
+      { "term": "CRISPR-Cas9", "definition": "A gene-editing system in which a guide RNA leads the Cas9 enzyme to a matching DNA sequence to cut it." },
+      { "term": "Bioremediation", "definition": "Using living organisms, usually microbes or plants, to break down or remove pollutants from soil or water." }
+    ]
+  }
+]

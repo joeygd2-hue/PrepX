@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Adjustments, closing and financial statements",
+    "objective": "Record end-of-period adjustments, prepare the three core financial statements in order, close temporary accounts and read key ratios.",
+    "body": "At the end of each fiscal period, accountants adjust the books, prepare statements and reset temporary accounts. Tests love this stage because one missed adjustment changes net income, the balance sheet and the closing entries all at once.\n\n**Adjusting entries.** Some balances drift out of date simply because time passes. Adjustments bring them current so revenue and expenses land in the correct period.\n- *Supplies used*: debit Supplies Expense, credit Supplies for the amount consumed (balance before adjustment minus the count on hand).\n- *Prepaid insurance expired*: debit Insurance Expense, credit Prepaid Insurance.\n- *Depreciation*: debit Depreciation Expense, credit Accumulated Depreciation, a contra-asset account that reduces the equipment's book value.\n- *Accrued items*: record wages employees earned but have not been paid, or revenue earned but not yet billed.\n\nEvery adjustment touches one balance sheet account and one income statement account, and none of them involve Cash.\n\n**The statements, in order.**\n1. *Income statement*: revenue minus expenses equals net income (or net loss) for a period of time.\n2. *Statement of owner's equity*: beginning capital plus investments plus net income minus withdrawals equals ending capital.\n3. *Balance sheet*: assets, liabilities and ending capital on a single date.\n\nEach statement feeds the next, which is why they are prepared in this order. A worksheet or adjusted trial balance is the bridge that sorts every account into the right statement.\n\n**Closing entries.** Revenue, expense and drawing accounts are *temporary*; they measure one period only. Closing entries move their balances into the owner's capital account, often through Income Summary, so they start the next period at zero. Assets, liabilities and capital are *permanent* accounts and are never closed, so a post-closing trial balance lists only permanent accounts.\n\n**Reading the results.** Analysts compare statements with simple ratios:\n- *Current ratio* = current assets ÷ current liabilities, a measure of short-term ability to pay.\n- *Profit margin* = net income ÷ net sales, the share of each sales dollar kept as profit.\n- *Debt ratio* = total liabilities ÷ total assets.\n\nThe most common mistake is forgetting that a skipped expense adjustment overstates net income *and* overstates the related asset, so two statements are wrong, not one.",
+    "examples": [
+      "Supplies had a $900 balance before adjustment, and a count shows $250 on hand. The adjustment debits Supplies Expense $650 and credits Supplies $650.",
+      "Beginning capital is $20,000, net income is $6,500 and withdrawals are $4,000, with no new investment. Ending capital on the statement of owner's equity is $20,000 + $6,500 − $4,000 = $22,500.",
+      "Current assets of $48,000 and current liabilities of $20,000 give a current ratio of 2.4, or $2.40 of current assets for every $1 of short-term debt."
+    ],
+    "questions": [
+      {
+        "stem": "A business paid $1,800 on January 1 for a 12-month insurance policy and debited Prepaid Insurance. Its fiscal period ends June 30. What adjusting entry is needed on June 30?",
+        "choices": ["Debit Prepaid Insurance $900; credit Insurance Expense $900", "Debit Insurance Expense $900; credit Prepaid Insurance $900", "Debit Insurance Expense $1,800; credit Cash $1,800", "Debit Insurance Expense $150; credit Prepaid Insurance $150"],
+        "answer": 1,
+        "explanation": "The policy costs $1,800 ÷ 12 = $150 per month, and 6 months have expired: 6 × $150 = $900. Expense is debited and the prepaid asset is credited."
+      },
+      {
+        "stem": "The Supplies account shows $1,240 before adjustment, and an end-of-period count finds $415 of supplies on hand. What amount is recorded as Supplies Expense?",
+        "choices": ["$415", "$1,240", "$825", "$1,655"],
+        "answer": 2,
+        "explanation": "Supplies used = $1,240 − $415 = $825. The $415 still on hand remains in the Supplies asset account."
+      },
+      {
+        "stem": "In which order are the financial statements prepared at the end of a fiscal period?",
+        "choices": ["Balance sheet, income statement, statement of owner's equity", "Income statement, statement of owner's equity, balance sheet", "Statement of owner's equity, balance sheet, income statement", "Balance sheet, statement of owner's equity, income statement"],
+        "answer": 1,
+        "explanation": "Net income from the income statement is needed for the statement of owner's equity, and ending capital from that statement is needed for the balance sheet."
+      },
+      {
+        "stem": "Beginning capital is $35,000. During the year the owner invested another $5,000, net income was $18,000 and withdrawals were $12,000. What is ending capital?",
+        "choices": ["$58,000", "$41,000", "$70,000", "$46,000"],
+        "answer": 3,
+        "explanation": "Ending capital = $35,000 + $5,000 + $18,000 − $12,000 = $46,000. Leaving out the withdrawals gives $58,000."
+      },
+      {
+        "stem": "Which account is closed at the end of the fiscal period?",
+        "choices": ["Accumulated Depreciation", "Accounts Payable", "Owner's Drawing", "Prepaid Rent"],
+        "answer": 2,
+        "explanation": "Drawing is a temporary account, so it is closed into capital. The other three are permanent balance sheet accounts that carry forward."
+      },
+      {
+        "stem": "A bookkeeper forgets to record $2,000 of depreciation on equipment at year-end. What is the effect on the financial statements?",
+        "choices": ["Net income and total assets are both overstated by $2,000", "Net income is understated and total assets are overstated by $2,000", "Only the balance sheet is affected", "Net income is overstated, but total assets are correct"],
+        "answer": 0,
+        "explanation": "Missing depreciation expense makes net income $2,000 too high, and missing accumulated depreciation leaves the equipment's book value, and so total assets, $2,000 too high."
+      },
+      {
+        "stem": "A company has current assets of $63,000 and current liabilities of $28,000. What is its current ratio?",
+        "choices": ["0.44", "2.25", "35.00", "2.50"],
+        "answer": 1,
+        "explanation": "Current ratio = $63,000 ÷ $28,000 = 2.25. Dividing the other way gives 0.44, and $35,000 is working capital, not the ratio."
+      },
+      {
+        "stem": "Which account would appear on a post-closing trial balance?",
+        "choices": ["Rent Expense", "Service Revenue", "Owner's Drawing", "Cash"],
+        "answer": 3,
+        "explanation": "After closing, only permanent accounts such as Cash still have balances. Revenue, expense and drawing accounts have been closed to zero."
+      }
+    ],
+    "flashcards": [
+      { "term": "Adjusting entry", "definition": "An end-of-period entry that updates an account so revenue and expenses are reported in the correct period." },
+      { "term": "Contra-asset account", "definition": "An account with a credit balance, such as Accumulated Depreciation, that reduces the value of a related asset." },
+      { "term": "Temporary account", "definition": "A revenue, expense or drawing account that measures one period and is closed to capital at period end." },
+      { "term": "Closing entries", "definition": "Entries that transfer temporary account balances into owner's capital so those accounts start the next period at zero." },
+      { "term": "Current ratio", "definition": "Current assets divided by current liabilities; a measure of a business's ability to pay short-term debts." }
+    ]
+  }
+]

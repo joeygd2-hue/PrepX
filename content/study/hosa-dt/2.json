@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Tooth anatomy, surfaces and numbering systems",
+    "objective": "Describe the layers and parts of a tooth, name tooth surfaces by location, and apply the Universal Numbering System to identify permanent and primary teeth.",
+    "body": "Charting is where terminology becomes practical. A dental team member must name a tooth, the surface involved and the tissue affected in a way every colleague reads the same way.\n\n**Tooth structure.** The **crown** is the part covered by enamel, and the **root** is anchored in the jaw and covered by cementum. They meet at the **cementoenamel junction (CEJ)**. From outside in:\n- **Enamel**: the hardest substance in the body, with no living cells, so it cannot regenerate.\n- **Dentin**: the layer under enamel and cementum, containing tubules that can transmit sensation.\n- **Pulp**: soft tissue in the pulp chamber and root canals, holding nerves and blood vessels.\n- **Cementum**: a thin layer covering the root, into which the **periodontal ligament** attaches to hold the tooth in its **alveolus** (socket). The **apex** is the root tip, where vessels enter through the **apical foramen**.\n\n**Tooth types.** Incisors cut, canines (cuspids) tear, premolars (bicuspids) and molars grind. A full permanent dentition has 32 teeth; a primary (deciduous) dentition has 20 and no premolars.\n\n**Surfaces.** Each tooth has five surfaces, named by direction.\n1. **Mesial**: toward the midline of the arch.\n2. **Distal**: away from the midline.\n3. **Facial**: toward the face; called **labial** on anterior teeth and **buccal** on posterior teeth.\n4. **Lingual**: toward the tongue (on upper teeth sometimes called **palatal**).\n5. **Occlusal** on posterior teeth or **incisal** on anterior teeth: the chewing or biting surface.\n\nSurfaces are abbreviated by letter and combined, so an **MOD** restoration covers mesial, occlusal and distal surfaces. Two teeth touch at **proximal** surfaces, where the mesial of one meets the distal of its neighbor.\n\n**Universal Numbering System.** Used most in the United States, it numbers permanent teeth 1 to 32, starting with the maxillary right third molar (1), moving across the upper arch to the maxillary left third molar (16), dropping to the mandibular left third molar (17), and ending at the mandibular right third molar (32). Primary teeth use letters A to T in the same pattern. Internationally, the **FDI** two-digit system is common: the first digit gives the quadrant and the second the tooth, so 11 is the maxillary right central incisor.\n\nThe most common mistake students make is reading 'right' and 'left' from their own point of view. Charts always use the **patient's** right and left, so tooth 1 sits on the patient's upper right, which appears on the viewer's left when facing the patient.",
+    "examples": [
+      "A cavity between the first and second premolars on the upper right is charted as mesial on tooth 4 and distal on tooth 5.",
+      "Tooth 8 is the maxillary right central incisor; in the FDI system it is tooth 11.",
+      "A child's primary mandibular left second molar is labeled K in the Universal system."
+    ],
+    "questions": [
+      {
+        "stem": "A dentist says, 'Prep tooth 30, MO.' Which tooth and surfaces are involved?",
+        "choices": [
+          "Mandibular right first molar, mesial and occlusal",
+          "Maxillary right first molar, mesial and occlusal",
+          "Mandibular left first molar, mesial and occlusal",
+          "Mandibular right first molar, mesial and lingual"
+        ],
+        "answer": 0,
+        "explanation": "Teeth 17-32 are mandibular, counting from the left third molar (17) to the right third molar (32), so 30 is the mandibular right first molar; O means occlusal. Choosing lingual misreads the O abbreviation."
+      },
+      {
+        "stem": "A patient feels a sharp twinge when cold water reaches a spot where the gum has receded and enamel is absent. Which tissue is most likely exposed?",
+        "choices": [
+          "Pulp",
+          "Dentin",
+          "Enamel",
+          "Periodontal ligament"
+        ],
+        "answer": 1,
+        "explanation": "Dentin contains tubules that transmit stimuli to the pulp, causing sensitivity when exposed. The pulp itself is deeper; exposure of the pulp would mean a far more serious injury."
+      },
+      {
+        "stem": "On a lower canine, which surface faces the lips?",
+        "choices": [
+          "Buccal",
+          "Lingual",
+          "Labial",
+          "Occlusal"
+        ],
+        "answer": 2,
+        "explanation": "On anterior teeth, the facial surface is called labial. Buccal is the facial surface on posterior teeth, so it is the closest distractor but the wrong tooth group."
+      },
+      {
+        "stem": "Two adjacent premolars touch each other. What is the general term for these touching surfaces?",
+        "choices": [
+          "Occlusal",
+          "Proximal",
+          "Incisal",
+          "Apical"
+        ],
+        "answer": 1,
+        "explanation": "Mesial and distal surfaces that face neighboring teeth are proximal surfaces. Occlusal is the chewing surface, not the area of contact between teeth."
+      },
+      {
+        "stem": "A student charts a filling on 'tooth 16' after seeing it in the patient's upper left corner from the operator's chair. What is tooth 16?",
+        "choices": [
+          "Maxillary left third molar",
+          "Maxillary right third molar",
+          "Mandibular left third molar",
+          "Maxillary left central incisor"
+        ],
+        "answer": 0,
+        "explanation": "Numbering runs 1 (upper right third molar) to 16 (upper left third molar), using the patient's left. Maxillary right third molar is tooth 1, the mistake made by using the viewer's perspective."
+      },
+      {
+        "stem": "Which structure joins the root's cementum to the bone of the socket?",
+        "choices": [
+          "Apical foramen",
+          "Cementoenamel junction",
+          "Periodontal ligament",
+          "Pulp chamber"
+        ],
+        "answer": 2,
+        "explanation": "Periodontal ligament fibers attach cementum to alveolar bone. The cementoenamel junction is where enamel meets cementum, not a connection to bone."
+      },
+      {
+        "stem": "How many teeth are in a complete primary dentition, and which type is absent?",
+        "choices": [
+          "20; premolars",
+          "20; canines",
+          "24; premolars",
+          "32; third molars"
+        ],
+        "answer": 0,
+        "explanation": "Primary dentition has 20 teeth: incisors, canines and molars, with no premolars. Canines are present in primary teeth, so that distractor is wrong."
+      },
+      {
+        "stem": "A restoration covers the chewing surface and the surface farther from the midline on tooth 19. How is it abbreviated?",
+        "choices": [
+          "MO",
+          "DO",
+          "BO",
+          "OL"
+        ],
+        "answer": 1,
+        "explanation": "D (distal) is the surface away from the midline and O is occlusal, giving DO. MO would wrongly place the restoration toward the midline."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Mesial",
+        "definition": "Tooth surface facing toward the midline of the dental arch."
+      },
+      {
+        "term": "Cementoenamel junction (CEJ)",
+        "definition": "The line where crown enamel meets root cementum."
+      },
+      {
+        "term": "Universal Numbering System",
+        "definition": "US system numbering permanent teeth 1-32 from the maxillary right third molar, and primary teeth A-T."
+      },
+      {
+        "term": "Dentin",
+        "definition": "Tubule-containing tissue beneath enamel and cementum that forms most of the tooth."
+      },
+      {
+        "term": "Occlusal",
+        "definition": "Chewing surface of a posterior tooth."
+      }
+    ]
+  }
+]

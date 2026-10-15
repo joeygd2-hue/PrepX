@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of parliamentary procedure and the main motion",
+    "objective": "Explain the core principles of parliamentary law, identify quorum and voting thresholds, and carry a main motion through all six steps.",
+    "body": "Parliamentary procedure is the set of rules a group uses to make decisions fairly and efficiently. Most organizations, including HOSA chapters, adopt **Robert's Rules of Order Newly Revised** as their parliamentary authority, while their own bylaws take priority wherever the two conflict. Everything in the system serves a few principles: the majority decides, the minority is heard, every member has equal rights, and the assembly handles one item of business at a time.\n\n**Quorum.** A **quorum** is the minimum number of voting members who must be present for business to be legally transacted. If the bylaws are silent, the quorum is a majority of the membership. Without a quorum, the group may only take limited steps such as fixing the time to adjourn, recessing, adjourning, or acting to obtain a quorum.\n\n**Voting thresholds.** A **majority vote** means more than half of the votes cast by members present and voting, ignoring blanks and abstentions. A **two-thirds vote** means at least twice as many yes votes as no votes. Two-thirds is required whenever a motion limits members' rights, such as closing debate or suspending the rules.\n\n**The main motion.** A **main motion** brings a new item of business before the assembly. It can be made only when no other business is pending, and it ranks lowest in precedence. It requires a second, is debatable, is amendable, and normally needs a majority vote. The six steps of handling it are:\n1. A member obtains the floor by rising and being recognized by the chair.\n2. The member makes the motion, beginning \"I move that...\"\n3. Another member seconds it, showing at least two people want it discussed.\n4. The chair states the question, which places the motion before the assembly.\n5. Members debate, with the maker entitled to speak first; each member may speak twice per day on a question, ten minutes per speech, and no one speaks a second time while someone who has not spoken wants the floor.\n6. The chair puts the question to a vote and announces the result, including what happens as a consequence.\n\nAfter the chair states the question, the motion belongs to the assembly, not the maker. The chair stays impartial during debate and, in most assemblies, votes only when the vote is by ballot or when the chair's vote would change the outcome, such as breaking or creating a tie.\n\nThe most common mistake students make is debating a motion before the chair has stated the question. Until the chair formally states it, there is nothing pending to discuss, and comments made too early are out of order.",
+    "examples": [
+      "A chapter of 40 members has bylaws silent on quorum, so at least 21 must be present before the president can open business.",
+      "In a vote of 18 yes, 9 no, and 5 abstentions, a two-thirds vote passes because 18 is exactly twice 9; abstentions do not count."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter has 30 members and no quorum provision in its bylaws. What is the smallest attendance that allows business?",
+        "choices": [
+          "10",
+          "15",
+          "16",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "Without a bylaw provision, quorum is a majority of the membership, so 16 of 30. Fifteen is exactly half, not more than half."
+      },
+      {
+        "stem": "A motion receives 12 yes votes, 11 no votes, and 4 abstentions. Under Robert's Rules, the motion:",
+        "choices": [
+          "fails, because yes votes are less than half of the 27 present",
+          "passes, because yes votes exceed half the votes cast",
+          "fails, because abstentions count as no votes",
+          "must be retaken because of the abstentions"
+        ],
+        "answer": 1,
+        "explanation": "A majority is more than half the votes cast; 12 of 23 qualifies. Counting abstentions against the motion is wrong because abstentions are not votes cast."
+      },
+      {
+        "stem": "Kayla says, \"I move that our chapter host a blood drive in March.\" Before debate begins, what must happen?",
+        "choices": [
+          "The secretary records the motion",
+          "The motion must be seconded and stated by the chair",
+          "The chair votes on whether to allow debate",
+          "The maker explains the motion"
+        ],
+        "answer": 1,
+        "explanation": "A main motion needs a second and then must be stated by the chair before it is pending. The maker may explain it first in debate, but only after the chair states it."
+      },
+      {
+        "stem": "Which vote result passes a motion requiring two-thirds?",
+        "choices": [
+          "20 yes, 11 no",
+          "14 yes, 8 no",
+          "22 yes, 11 no",
+          "30 yes, 16 no"
+        ],
+        "answer": 2,
+        "explanation": "Two-thirds requires yes votes at least double the no votes; 22 is exactly twice 11. The 20-11 result looks close but falls short because 20 is less than 22."
+      },
+      {
+        "stem": "After the chair states a motion, its maker wants to change the wording. Who now controls the motion?",
+        "choices": [
+          "The maker alone",
+          "The chair",
+          "The assembly",
+          "The secretary"
+        ],
+        "answer": 2,
+        "explanation": "Once stated, the motion belongs to the assembly, so changes require the assembly's consent or an amendment. The maker controlled it only before it was stated."
+      },
+      {
+        "stem": "A member has spoken twice on a motion today. Under standard rules, she:",
+        "choices": [
+          "may speak again only after everyone else has spoken twice",
+          "has used her debate rights on that question for the day",
+          "may speak a third time if her speech is under five minutes",
+          "may speak again if the chair finds her points new"
+        ],
+        "answer": 1,
+        "explanation": "Each member may speak twice per day on the same question. Waiting for others to speak is a priority rule for a second speech, not a third."
+      },
+      {
+        "stem": "Which document controls when the chapter bylaws and Robert's Rules disagree?",
+        "choices": [
+          "Robert's Rules, as the parliamentary authority",
+          "The bylaws",
+          "Whichever was adopted most recently",
+          "The chair's ruling"
+        ],
+        "answer": 1,
+        "explanation": "An organization's own rules, such as its bylaws, take precedence over the adopted parliamentary authority. Robert's Rules fills gaps where the bylaws are silent."
+      },
+      {
+        "stem": "A main motion may be made when:",
+        "choices": [
+          "another main motion is being debated",
+          "no other business is pending",
+          "an amendment is pending",
+          "the chair is putting a question to vote"
+        ],
+        "answer": 1,
+        "explanation": "The main motion has the lowest rank and can be introduced only when nothing else is pending. Making it during other debate would create two items at once, violating the one-item-at-a-time principle."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Quorum",
+        "definition": "The minimum number of voting members who must be present to transact business; a majority of the membership unless the bylaws say otherwise."
+      },
+      {
+        "term": "Majority vote",
+        "definition": "More than half of the votes cast by members present and voting, excluding blanks and abstentions."
+      },
+      {
+        "term": "Two-thirds vote",
+        "definition": "At least twice as many affirmative votes as negative votes, used when a motion limits members' rights."
+      },
+      {
+        "term": "Main motion",
+        "definition": "A motion that brings a new item of business before the assembly; requires a second, is debatable and amendable, and needs a majority."
+      },
+      {
+        "term": "Stating the question",
+        "definition": "The chair's formal restatement of a motion, which places it before the assembly for debate."
+      }
+    ]
+  }
+]

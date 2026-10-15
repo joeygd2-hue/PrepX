@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Pacing and test-day execution",
+    "objective": "Manage time, guessing and nerves so your score reflects what you know.",
+    "body": "Knowing the content is only half the job. On test day you also have to finish on time, avoid careless losses and keep a clear head. These habits protect points you have already earned through studying.\n\n**Know your pace.** Divide the time limit by the number of questions to find your average time per question, then set checkpoints. For example, with 100 questions in 90 minutes you have 54 seconds per question, so you should be near question 50 at the 45-minute mark. If you fall behind, speed up on easier questions rather than rushing the hard ones.\n\n**Use two passes.** On the first pass, answer everything you can handle quickly and mark anything that needs more thought. On the second pass, return to the marked questions with the time you saved. A hard question is usually worth the same as an easy one, so never let one problem eat several minutes early in the test.\n\n**Answer every question when blanks score zero.** Many competition tests count only correct answers, so a blank and a wrong answer both earn nothing. Read the rules; if there is no penalty for guessing, make your best elimination-based guess on every item before time runs out.\n\n**Change answers for a reason.** Second-guessing out of nerves can hurt, but research on test-takers consistently finds that changed answers more often go from wrong to right than from right to wrong. Change an answer when you have found a specific reason, such as a misread word or a fact you just remembered, not because of a vague feeling.\n\n**Manage the basics and your nerves.**\n- Sleep well, eat beforehand and arrive early with whatever the rules require, such as an ID or a charged device for an online test.\n- If anxiety spikes, pause for a few slow breaths, then reread the current stem.\n- On a paper answer sheet, check regularly that your answer matches the question number.\n\n**Remember that every point can count.** In some events the test score is combined with other parts of the event or used to decide who advances, so a few careless misses can matter.\n\nThe most common mistake is spending too long on a few hard questions early, then rushing or leaving blanks at the end. Keep moving and come back.",
+    "examples": [
+      "A test has 60 questions and a 45-minute limit. 45 minutes is 2,700 seconds, and 2,700 ÷ 60 = 45 seconds per question, so the halfway checkpoint is question 30 at 22.5 minutes.",
+      "With 3 minutes left and 8 questions untouched, a competitor reads each stem, eliminates what she can and enters a best guess for all 8.",
+      "During review, a student notices he read gross profit as net profit, so he changes his answer: a change based on a specific reason."
+    ],
+    "questions": [
+      {
+        "stem": "A test has 80 questions and a 60-minute time limit. What is the average time available per question?",
+        "choices": [
+          "40 seconds",
+          "45 seconds",
+          "50 seconds",
+          "75 seconds"
+        ],
+        "answer": 1,
+        "explanation": "60 minutes is 3,600 seconds, and 3,600 ÷ 80 = 45 seconds per question."
+      },
+      {
+        "stem": "With five minutes left, you have six unanswered questions. The rules say only correct answers are scored. What is the best plan?",
+        "choices": [
+          "Leave them blank so they cannot lower your score",
+          "Spend all five minutes carefully solving the first one",
+          "Quickly eliminate what you can and answer all six",
+          "Go back and recheck answers you already finished"
+        ],
+        "answer": 2,
+        "explanation": "When only correct answers count, a blank always scores zero while a guess might score. Quick elimination improves the odds on each guess."
+      },
+      {
+        "stem": "Early in a timed test, you spend three minutes on one question and still feel stuck. What should you do?",
+        "choices": [
+          "Make a best guess, mark it and return later if time allows",
+          "Keep working on it, since you have already invested the time",
+          "Skip every remaining question from the same topic area",
+          "Raise your hand and ask the proctor to explain the question"
+        ],
+        "answer": 0,
+        "explanation": "One hard question is usually worth the same as an easy one. Guessing, marking and moving on protects time for questions you can answer."
+      },
+      {
+        "stem": "While reviewing your test, you are thinking about changing an answer. Which situation gives the strongest reason to change it?",
+        "choices": [
+          "You feel uneasy because you chose the same letter three times in a row",
+          "A friend told you that this topic usually has trick questions",
+          "You realize you read an EXCEPT question as a positive question",
+          "You believe your first instinct is always wrong on hard questions"
+        ],
+        "answer": 2,
+        "explanation": "Misreading EXCEPT is a specific, identifiable error, which is the best reason to change an answer. Letter patterns and vague worries are not evidence."
+      }
+    ],
+    "flashcards": [
+      { "term": "Pacing checkpoint", "definition": "A planned point, such as question 50 at minute 45, used to check whether you are on schedule." },
+      { "term": "Two-pass strategy", "definition": "Answering quick questions first and marking harder ones to return to with the remaining time." },
+      { "term": "Guessing penalty", "definition": "A scoring rule that subtracts points for wrong answers; without one, a blank and a wrong answer both score zero." },
+      { "term": "Educated guess", "definition": "A choice made after eliminating clearly wrong options rather than a random pick." },
+      { "term": "Test anxiety", "definition": "Stress before or during a test that disrupts focus; slow breathing and rereading the stem help you reset." }
+    ]
+  }
+]

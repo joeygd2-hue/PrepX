@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Planning a written entry around the rubric",
+    "objective": "Use the current guidelines and evaluation form to plan a written entry that has every required section, in order and within the limits.",
+    "body": "Written entries are scored before you ever meet a judge. In many business and health events, the paper sets the tone for your presentation, and in some events it is the entire score. Judges read quickly with an evaluation form beside them, so an entry that makes their job easy earns more points than a brilliant idea buried in a disorganized one.\n\n**Start with the guidelines and the evaluation form.** Before writing a word, read the current event guidelines and the scoring rubric side by side. List every required section, the order the guidelines give, the page limit, formatting rules (font, margins, spacing, page numbering) and anything that triggers a penalty. Guidelines change, so work from this year's version, never from an old entry.\n\n**Build an outline that mirrors the rubric.** Use the rubric's own section names as headings so a judge can find each scored item in seconds. Under each heading, note the evidence you plan to use. A typical outline includes:\n- Executive summary\n- Introduction or description of the business, problem or issue\n- Research methods and findings\n- Plan, proposal or recommendations\n- Budget or financial details, when required\n- Conclusion, bibliography and any appendix the guidelines allow\n\n**Write the executive summary last.** The summary is a short preview of the whole entry: the purpose, the most important findings, the recommendation and the expected results, ideally with a key number or two. You cannot summarize what you have not written yet, so draft it after the body is finished.\n\n**Respect the limits.** If the body runs long, cut repeated points and wordy sentences instead of shrinking the font or margins below the required settings, which can cost penalty points or even disqualify the entry. Count pages exactly the way the guidelines define them.\n\n**Work backward from the deadline.** Set dates for research, a complete draft, a peer review and final formatting, and leave several days for printing or upload problems.\n\nA common mistake is treating the guidelines as suggestions. A strong paper that skips a required section, runs over the page limit or arrives late can lose more points than weak writing ever would.",
+    "examples": [
+      "A team writing a business research paper copies the evaluation form's headings into its outline. Because the form awards points for research methods, the paper has a section with exactly that title.",
+      "A draft runs two pages over the limit. Instead of narrowing the margins, the team cuts a repeated history section and merges two overlapping charts, bringing the body back within the limit.",
+      "An executive summary opens: 'Our survey of 180 students found that 62% skip breakfast on school days. We propose a $2 grab-and-go breakfast cart projected to serve 75 students each morning.'"
+    ],
+    "questions": [
+      {
+        "stem": "A team has finished the first full draft of its written report. Which step most directly protects its score before the final edit?",
+        "choices": [
+          "Checking every section heading against the current guidelines and evaluation form",
+          "Adding more photos so the report looks longer and more complete",
+          "Switching to a smaller font so more detail fits on each page",
+          "Rewriting the introduction in a more dramatic storytelling style"
+        ],
+        "answer": 0,
+        "explanation": "Judges score against the evaluation form, so confirming that every required section is present and easy to find protects the most points. A smaller font can break formatting rules and trigger penalties."
+      },
+      {
+        "stem": "When is the best time to write the executive summary of a business report?",
+        "choices": [
+          "After the body is complete, so it previews the actual findings and recommendation",
+          "Before any research begins, so it can decide what the team will find",
+          "Halfway through, as a break from writing the financial section",
+          "After the competition, as a reflection on how judging went"
+        ],
+        "answer": 0,
+        "explanation": "An executive summary condenses the finished report, so it must be written once the findings and recommendation exist. Writing it first locks in conclusions before the research supports them."
+      },
+      {
+        "stem": "A team's report body is two pages longer than the limit in the event guidelines. Which fix is best?",
+        "choices": [
+          "Cut repeated points and wordy passages until the body fits the limit",
+          "Reduce the margins below the size the guidelines require",
+          "Use a font size smaller than the guidelines allow",
+          "Delete the bibliography to free up two pages of space"
+        ],
+        "answer": 0,
+        "explanation": "Tightening the writing brings the entry within the rules. Shrinking margins or fonts below required settings can trigger penalties, and dropping citations damages credibility."
+      },
+      {
+        "stem": "Which opening sentence works best in an executive summary?",
+        "choices": [
+          "Our survey of 200 local shoppers found that 58% want weekend hours, so we recommend opening Saturdays from 9 to 3.",
+          "This report took a lot of work, and our team learned a great deal while writing it.",
+          "Since the beginning of commerce, businesses have always tried to keep their customers happy.",
+          "In the following pages, you will read about many interesting parts of our project."
+        ],
+        "answer": 0,
+        "explanation": "A strong summary opens with the purpose, a key finding backed by a number and a clear recommendation. The other openings tell the judge nothing about the findings."
+      }
+    ],
+    "flashcards": [
+      { "term": "Evaluation form", "definition": "The rubric judges use to score an entry; organizing a paper around its headings makes every scored item easy to find." },
+      { "term": "Executive summary", "definition": "A brief preview of an entire report that states its purpose, key findings, recommendation and expected results." },
+      { "term": "Page limit", "definition": "The maximum length the guidelines allow for an entry's body; exceeding it can lead to penalty points." },
+      { "term": "Outline", "definition": "A planned list of headings and supporting points, written before drafting, that sets a paper's structure." },
+      { "term": "Appendix", "definition": "Supporting material placed after the main body, such as survey forms or raw data, when the guidelines allow it." }
+    ]
+  }
+]

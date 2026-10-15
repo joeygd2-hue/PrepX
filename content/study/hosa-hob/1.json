@@ -1,0 +1,123 @@
+[
+  {
+    "title": "HOSA's mission, structure and the HOSA Bowl format",
+    "objective": "Explain HOSA's purpose and organization, identify its official symbols, and apply team strategies for the HOSA Bowl test and buzzer rounds.",
+    "body": "HOSA Bowl rewards teams that know two things cold: the organization itself and the health science knowledge its members are expected to have. This unit covers the first, plus how the event works, so your team can earn easy points and avoid careless losses.\n\n**What HOSA is.** HOSA-Future Health Professionals is a **career and technical student organization (CTSO)** for students preparing for health careers. It was founded in 1976, and its two-part mission is to promote career opportunities in the health care industry and to enhance the delivery of quality health care to all people. HOSA is not an add-on club; it is designed to be integrated into health science education classes, so classroom learning and chapter activities reinforce each other.\n\n**Divisions.** Members compete within their own **division** so that students are measured against peers at a similar level.\n- Middle School division\n- Secondary division (high school)\n- Postsecondary/Collegiate division\n\n**Structure.** HOSA is organized in levels: local **chapters** belong to **chartered state associations**, which belong to the national organization. Competition generally follows the same path, from regional or state leadership conferences to the International Leadership Conference (ILC).\n\n**Symbols and identity.** The official colors are maroon, medical white and navy blue. The motto is \"The hands of HOSA mold the health of tomorrow.\" The emblem's hands represent the role each member plays in shaping the future of health care. Expect quick-recall buzzer questions on these details, and learn them word for word.\n\n**How HOSA Bowl works.** HOSA Bowl is a team event. Teams typically take a written test first, and top-scoring teams advance to buzzer rounds in which a team member must be recognized before answering. Content usually spans HOSA knowledge, health science topics and parliamentary procedure. Always check the current guidelines on the official HOSA website, because team size, round rules and reference lists can change each year.\n\n**Team strategy.**\n1. Assign each member a primary content area, such as HOSA history, medical terminology or parliamentary law, with a backup for each.\n2. Practice buzzer discipline: buzz only when you can finish the answer, since an incorrect or incomplete response can cost points or hand the question to the other team.\n3. Review the official reference list together, not just separately.\n\nThe most common mistake is treating HOSA trivia as \"easy points\" and skipping it. Teams memorize anatomy but stumble on the exact motto wording or the order of the colors, and those are the questions an opponent buzzes in on first.",
+    "examples": [
+      "A new team divides study duties: one member owns HOSA history and symbols, one owns medical terminology, and one owns parliamentary procedure, with each member also backing up a second area.",
+      "During a buzzer round, a student recognizes a question about HOSA's colors but waits to be recognized by the moderator before answering, avoiding a penalty for speaking out of turn."
+    ],
+    "questions": [
+      {
+        "stem": "Your chapter advisor asks you to state HOSA's two-part mission at a recruitment fair. Which statement is correct?",
+        "choices": [
+          "To promote career opportunities in health care and enhance the delivery of quality health care to all people",
+          "To license health care workers and regulate hospital standards",
+          "To fund medical school scholarships and lobby Congress on health policy",
+          "To train students as certified nursing assistants and EMTs"
+        ],
+        "answer": 0,
+        "explanation": "HOSA's mission is to promote health care career opportunities and enhance quality health care for all people. Licensing and regulation are done by state boards and agencies, not a student organization."
+      },
+      {
+        "stem": "A teammate lists HOSA's official colors. Which list is correct?",
+        "choices": [
+          "Navy blue, gold and white",
+          "Maroon, medical white and navy blue",
+          "Red, white and blue",
+          "Maroon, gold and medical white"
+        ],
+        "answer": 1,
+        "explanation": "The official colors are maroon, medical white and navy blue. Gold is a common distractor because many student organizations use it, but it is not a HOSA color."
+      },
+      {
+        "stem": "A buzzer question asks for HOSA's motto. Which answer should you give?",
+        "choices": [
+          "Health care is everyone's business",
+          "Learning to do, doing to learn",
+          "The hands of HOSA mold the health of tomorrow",
+          "Leaders today, healers tomorrow"
+        ],
+        "answer": 2,
+        "explanation": "The motto is \"The hands of HOSA mold the health of tomorrow.\" \"Learning to do, doing to learn\" is associated with a different CTSO, which makes it a tempting but wrong choice."
+      },
+      {
+        "stem": "A college sophomore in a nursing program wants to compete in HOSA. In which division would she compete?",
+        "choices": [
+          "Secondary",
+          "Middle School",
+          "Professional",
+          "Postsecondary/Collegiate"
+        ],
+        "answer": 3,
+        "explanation": "College students compete in the Postsecondary/Collegiate division. The Secondary division is for high school students, so placing her there would mismatch her education level."
+      },
+      {
+        "stem": "Which best describes how HOSA is meant to relate to a high school health science program?",
+        "choices": [
+          "It is integrated into the health science curriculum so chapter activities reinforce classroom learning",
+          "It replaces the health science curriculum with competitive events",
+          "It operates independently with no link to classroom instruction",
+          "It is a hospital volunteer program run by local health systems"
+        ],
+        "answer": 0,
+        "explanation": "As a CTSO, HOSA is designed to be integrated into health science education. Saying it operates independently misses the core CTSO idea of connecting classroom and organization."
+      },
+      {
+        "stem": "In what year was HOSA founded?",
+        "choices": [
+          "1966",
+          "1976",
+          "1986",
+          "1996"
+        ],
+        "answer": 1,
+        "explanation": "HOSA was founded in 1976. The other decades are plausible guesses but are incorrect."
+      },
+      {
+        "stem": "During a HOSA Bowl buzzer round, you buzz in before the moderator finishes reading, but you are only half sure. What is the best practice?",
+        "choices": [
+          "Buzz on every question to keep the other team from answering",
+          "Shout the answer before being recognized to save time",
+          "Buzz only when you can give a complete answer, and wait to be recognized",
+          "Let your captain answer every question regardless of who buzzed"
+        ],
+        "answer": 2,
+        "explanation": "Buzzing only when you can complete the answer and waiting to be recognized avoids penalties and giving opponents the question. Buzzing on everything sounds aggressive but usually costs more points than it wins."
+      },
+      {
+        "stem": "A chapter wants its members to compete at the International Leadership Conference. Through which path does the chapter connect to the national organization?",
+        "choices": [
+          "Directly through the U.S. Department of Health and Human Services",
+          "Through the local hospital's education department",
+          "Through its school district's athletic association",
+          "Through its chartered state association"
+        ],
+        "answer": 3,
+        "explanation": "Local chapters affiliate through chartered state associations, which belong to the national organization. Federal health agencies do not manage student organization membership."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Career and technical student organization (CTSO)",
+        "definition": "A student organization integrated into career and technical education classes, such as HOSA for health science."
+      },
+      {
+        "term": "Division",
+        "definition": "A competition grouping by education level: Middle School, Secondary or Postsecondary/Collegiate."
+      },
+      {
+        "term": "Chapter",
+        "definition": "The local unit of HOSA, usually based at a school, that belongs to a chartered state association."
+      },
+      {
+        "term": "Chartered state association",
+        "definition": "The state-level HOSA organization that links local chapters to the national organization."
+      },
+      {
+        "term": "HOSA motto",
+        "definition": "\"The hands of HOSA mold the health of tomorrow.\""
+      }
+    ]
+  }
+]

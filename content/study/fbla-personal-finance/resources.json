@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Personal Finance",
+    "url": "https://www.khanacademy.org/college-careers-more/personal-finance",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Free lessons on budgeting, credit, debt, insurance, investing, housing and taxes."
+  },
+  {
+    "title": "Your Money, Your Goals Toolkit",
+    "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+    "publisher": "Consumer Financial Protection Bureau",
+    "kind": "tool",
+    "note": "CFPB worksheets for budgets, cash flow and credit reports; useful for the Financial Planning event."
+  },
+  {
+    "title": "Saving and Investing for Students",
+    "url": "https://www.investor.gov/additional-resources/general-resources/publications-research/publications/saving-investing-students",
+    "publisher": "U.S. SEC (Investor.gov)",
+    "kind": "reference",
+    "note": "SEC guide to saving and investing with goal-setting worksheets."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/books/principles-management/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook built on planning, organizing, leading and controlling. Use the HR, structure and strategy chapters to go deeper."
+  },
+  {
+    "title": "Business Law I Essentials 2e: Business Ethics and Social Responsibility",
+    "url": "https://openstax.org/books/business-law-i-essentials-2e/pages/3-introduction",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free business law text; this ethics chapter and the contract and agency chapters support BLTDM cases."
+  },
+  {
+    "title": "Employment Law Guide",
+    "url": "https://webapps.dol.gov/elaws/elg/",
+    "publisher": "U.S. Department of Labor",
+    "kind": "reference",
+    "note": "Plain-language summaries of federal wage, overtime, leave and safety laws that employers must follow."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Scene safety and the primary patient assessment",
+    "objective": "Evaluate scene safety, apply standard precautions, and perform a primary assessment that identifies and treats immediate life threats in the correct order.",
+    "body": "Every EMS call follows a predictable structure, and competition questions reward students who know the order of steps. The sequence protects the rescuer first and then finds the problems most likely to kill the patient in minutes.\n\n**Scene size-up.** Before touching anyone, the EMT performs a **scene size-up**: confirm the scene is safe, take **standard precautions** (gloves at minimum, plus eye protection or a mask when splashing or airborne spread is possible), determine the **mechanism of injury (MOI)** or **nature of illness (NOI)**, count the patients, and request additional resources such as fire, police or more ambulances. If the scene is unsafe, the EMT stays back until it is made safe. An injured rescuer becomes another patient and helps no one.\n\n**Primary assessment.** Once at the patient, the EMT forms a general impression, checks responsiveness and looks for immediate life threats. Responsiveness is often described with the **AVPU** scale:\n- **A**lert: awake and interacting\n- **V**erbal: responds to voice\n- **P**ain: responds only to a painful stimulus\n- **U**nresponsive: no response at all\n\nNext come airway, breathing and circulation. In an unresponsive patient who is not breathing normally, current guidelines prioritize circulation by starting chest compressions first (C-A-B). In a trauma patient with obvious severe external bleeding, that bleeding is controlled immediately, because a person can bleed to death faster than they suffocate. Circulation checks include pulse, skin color, temperature and condition, and capillary refill in young children.\n\n**Priority decision.** The primary assessment ends with a transport decision. A patient with a poor general impression, altered mental status, difficulty breathing, signs of shock, uncontrolled bleeding or severe chest pain is a **high-priority patient** who needs rapid transport, with remaining assessment done en route.\n\n**Secondary assessment and history.** After life threats are managed, the EMT obtains a full set of **baseline vital signs** and a history. The **SAMPLE** mnemonic organizes the history: Signs and symptoms, Allergies, Medications, Past pertinent history, Last oral intake, and Events leading up to the illness or injury. The **OPQRST** mnemonic (Onset, Provocation, Quality, Region and radiation, Severity, Time) explores a complaint such as pain. **Reassessment** is repeated about every 5 minutes for unstable patients and every 15 minutes for stable patients.\n\nThe most common mistake students make is jumping to a detailed history or vital signs before the primary assessment is complete. A test question that offers \"obtain a SAMPLE history\" while the patient still has an open airway problem or major bleeding is a trap: life threats always come first.",
+    "examples": [
+      "An EMT arrives at a car crash where a downed power line touches the vehicle; she keeps the crew back and requests the utility company before approaching, because the scene is not yet safe.",
+      "A patient opens his eyes only when the EMT pinches his trapezius muscle, so he is recorded as P on the AVPU scale and treated as a high-priority patient.",
+      "A stable patient with a sprained ankle has vital signs reassessed every 15 minutes, while a patient with chest pain and pale, sweaty skin is reassessed every 5 minutes."
+    ],
+    "questions": [
+      {
+        "stem": "You are dispatched to a home where a man has fallen. On arrival you hear shouting and see a broken window. What should you do first?",
+        "choices": [
+          "Enter quickly to begin the primary assessment",
+          "Stage at a safe distance and request law enforcement",
+          "Call medical control for permission to enter",
+          "Obtain a SAMPLE history from bystanders outside"
+        ],
+        "answer": 1,
+        "explanation": "Scene safety comes before patient care, so staging and requesting police is correct. Entering immediately is the main distractor; it risks the crew becoming patients."
+      },
+      {
+        "stem": "A teenager responds to your voice by moaning but does not open her eyes spontaneously. How is she classified on the AVPU scale?",
+        "choices": [
+          "Alert",
+          "Pain",
+          "Verbal",
+          "Unresponsive"
+        ],
+        "answer": 2,
+        "explanation": "She responds to a verbal stimulus, so she is V. Pain would apply only if she responded to a painful stimulus and not to voice."
+      },
+      {
+        "stem": "Which step belongs to the scene size-up rather than the primary assessment?",
+        "choices": [
+          "Determining the number of patients",
+          "Checking the radial pulse",
+          "Assessing the airway",
+          "Forming a general impression"
+        ],
+        "answer": 0,
+        "explanation": "Counting patients so you can request resources is part of the scene size-up. Forming a general impression is the first step of the primary assessment, which happens once you reach the patient."
+      },
+      {
+        "stem": "A construction worker has a spurting bleed from his thigh and is talking to you. What is your immediate priority?",
+        "choices": [
+          "Take a full set of vital signs",
+          "Obtain his past medical history",
+          "Splint the leg",
+          "Control the severe bleeding"
+        ],
+        "answer": 3,
+        "explanation": "Life-threatening external hemorrhage is treated immediately in the primary assessment. Vital signs belong to the secondary assessment and would waste critical time."
+      },
+      {
+        "stem": "While taking a history, you ask a patient, \"When did you last eat or drink anything?\" Which part of SAMPLE does this address?",
+        "choices": [
+          "Last oral intake",
+          "Past pertinent history",
+          "Events leading up",
+          "Signs and symptoms"
+        ],
+        "answer": 0,
+        "explanation": "L stands for Last oral intake. Events leading up refers to what the patient was doing before the problem began, not food or drink."
+      },
+      {
+        "stem": "A patient with abdominal pain is stable, alert and has normal vital signs. How often should you reassess her?",
+        "choices": [
+          "Every 2 minutes",
+          "Every 5 minutes",
+          "Every 15 minutes",
+          "Only at the hospital"
+        ],
+        "answer": 2,
+        "explanation": "Stable patients are reassessed about every 15 minutes. Every 5 minutes is the interval for unstable patients."
+      },
+      {
+        "stem": "You ask a chest-pain patient, \"Does the pain move anywhere else?\" Which OPQRST element are you assessing?",
+        "choices": [
+          "Provocation",
+          "Quality",
+          "Severity",
+          "Region and radiation"
+        ],
+        "answer": 3,
+        "explanation": "R covers where the pain is and whether it radiates. Quality describes what the pain feels like, such as sharp or crushing."
+      },
+      {
+        "stem": "Which patient should be identified as high priority for rapid transport?",
+        "choices": [
+          "An alert adult with a minor forearm cut",
+          "A patient with altered mental status and cool, clammy skin",
+          "A child with a twisted ankle and stable vital signs",
+          "An adult requesting a ride for a scheduled appointment"
+        ],
+        "answer": 1,
+        "explanation": "Altered mental status with signs of shock makes this patient high priority. The forearm cut is a minor injury without signs of a life threat."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scene size-up",
+        "definition": "Initial evaluation of a call covering scene safety, standard precautions, MOI or NOI, number of patients and need for additional resources."
+      },
+      {
+        "term": "AVPU",
+        "definition": "Scale for level of responsiveness: Alert, Verbal, Pain, Unresponsive."
+      },
+      {
+        "term": "SAMPLE",
+        "definition": "History mnemonic: Signs and symptoms, Allergies, Medications, Past history, Last oral intake, Events leading up."
+      },
+      {
+        "term": "OPQRST",
+        "definition": "Pain assessment mnemonic: Onset, Provocation, Quality, Region and radiation, Severity, Time."
+      },
+      {
+        "term": "Mechanism of injury",
+        "definition": "The force or event that caused an injury, used to predict the type and severity of trauma."
+      }
+    ]
+  }
+]

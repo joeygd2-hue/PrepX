@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Inventory, procurement, and transportation decisions in practice",
+    "objective": "Calculate reorder points and safety stock, compare inventory strategies such as JIT and EOQ, and select appropriate transportation modes for given shipments.",
+    "body": "Once you understand the structure of a supply chain, the next step is making daily decisions about how much to stock, when to order and how to ship. These choices trade cost against customer service.\n\n**Types of inventory.** Firms hold **raw materials**, **work-in-process (WIP)** and **finished goods**, plus MRO (maintenance, repair and operating) supplies. Inventory protects against uncertainty, but it ties up cash and adds **carrying costs** such as storage, insurance, obsolescence and damage.\n\n**When to reorder.** The **reorder point** tells a buyer when to place an order:\n\nReorder point = (average daily demand x lead time in days) + safety stock\n\n**Lead time** is the time between placing an order and receiving it. **Safety stock** is extra inventory held to cover unexpected demand or late deliveries. If a store sells 40 units a day, the lead time is 5 days and safety stock is 60 units, the reorder point is 40 x 5 + 60 = 260 units.\n\n**How much to order.** The **economic order quantity (EOQ)** balances ordering costs against carrying costs: EOQ = square root of (2 x annual demand x cost per order / annual carrying cost per unit). Ordering larger amounts less often cuts ordering costs but raises carrying costs; EOQ finds the lowest combined total.\n\n**Just-in-time (JIT).** JIT, rooted in the Toyota Production System, receives materials only as they are needed. It reduces waste and carrying costs but depends on reliable suppliers; one late truck can halt a line. **ABC analysis** helps focus attention: A items are the small share of products that make up most inventory value, C items are numerous but low in value.\n\n**Procurement.** Purchasing follows a cycle: identify the need, find and evaluate suppliers, negotiate, issue a **purchase order**, receive goods and pay. Smart buyers look at **total cost of ownership**, not just price, including shipping, quality failures and service.\n\n**Transportation modes.** Each mode has strengths:\n1. **Truck**: flexible, door-to-door, good for short and medium distances.\n2. **Rail**: low cost for heavy bulk goods over long distances.\n3. **Ocean**: cheapest per unit for large international volumes but slow.\n4. **Air**: fastest and most expensive, best for urgent, light or high-value goods.\n5. **Pipeline**: liquids and gases moved continuously.\nShipments combining modes, such as a container moving by ship, rail and truck, are **intermodal**.\n\nThe most common mistake students make is forgetting to add safety stock when calculating the reorder point, which leaves the business exposed to stockouts whenever demand spikes or a shipment runs late.",
+    "examples": [
+      "A hardware store sells 25 hammers a day, waits 4 days for delivery and keeps 30 as safety stock, so it reorders when stock drops to 130.",
+      "A pharmaceutical firm flies temperature-sensitive vaccines by air freight, while a grain cooperative ships corn by rail."
+    ],
+    "questions": [
+      {
+        "stem": "A bike shop sells 6 helmets per day. Lead time is 7 days and it keeps 18 helmets as safety stock. What is the reorder point?",
+        "choices": [
+          "42",
+          "60",
+          "24",
+          "126"
+        ],
+        "answer": 1,
+        "explanation": "6 x 7 = 42, plus 18 safety stock equals 60. Choosing 42 is the classic error of leaving out safety stock."
+      },
+      {
+        "stem": "A company ships 2,000 tons of coal from Wyoming to a power plant in Texas. Which mode is most cost-effective?",
+        "choices": [
+          "Air",
+          "Truck",
+          "Rail",
+          "Pipeline"
+        ],
+        "answer": 2,
+        "explanation": "Rail is low-cost for heavy bulk goods over long overland distances. Truck is flexible but costs far more per ton for this volume."
+      },
+      {
+        "stem": "An auto plant receives seats from a nearby supplier every two hours, timed to the assembly schedule. What strategy is this?",
+        "choices": [
+          "Economic order quantity",
+          "Just-in-time",
+          "ABC analysis",
+          "Safety stock buffering"
+        ],
+        "answer": 1,
+        "explanation": "Delivering materials exactly as needed is JIT. EOQ sets a fixed order size and does not require deliveries timed to production."
+      },
+      {
+        "stem": "Which cost is part of inventory carrying cost?",
+        "choices": [
+          "The clerk's time to prepare a purchase order",
+          "Insurance on goods stored in a warehouse",
+          "The price discount for buying in bulk",
+          "The supplier's cost of raw materials"
+        ],
+        "answer": 1,
+        "explanation": "Insurance on stored goods is a carrying cost. Preparing a purchase order is an ordering cost, the opposite side of the EOQ trade-off."
+      },
+      {
+        "stem": "A buyer chooses Supplier B at $10.50 per unit over Supplier A at $9.80 because A's parts often arrive defective and late. What concept is the buyer applying?",
+        "choices": [
+          "Total cost of ownership",
+          "Bullwhip effect",
+          "Lead time reduction",
+          "Intermodal transport"
+        ],
+        "answer": 0,
+        "explanation": "Total cost of ownership counts quality problems and delays, not just price. Lead time reduction is a possible benefit but not the decision principle described."
+      },
+      {
+        "stem": "In ABC analysis, which items typically receive the closest monitoring?",
+        "choices": [
+          "C items, because there are the most of them",
+          "B items, because they are mid-value",
+          "A items, because they represent the greatest share of value",
+          "All items receive equal attention"
+        ],
+        "answer": 2,
+        "explanation": "A items are few but account for most inventory value, so they deserve tight control. C items are numerous but low value, so loose controls are acceptable."
+      },
+      {
+        "stem": "If annual demand rises while ordering and carrying costs stay the same, what happens to EOQ?",
+        "choices": [
+          "It increases",
+          "It decreases",
+          "It stays the same",
+          "It becomes zero"
+        ],
+        "answer": 0,
+        "explanation": "Annual demand is in the numerator of the EOQ formula, so EOQ rises. It does not stay the same because order size responds to volume."
+      },
+      {
+        "stem": "A shipping container travels from Shanghai by ship, then by train to Chicago, then by truck to a store without being opened. What is this called?",
+        "choices": [
+          "Cross-docking",
+          "Drop shipping",
+          "Intermodal transportation",
+          "Reverse logistics"
+        ],
+        "answer": 2,
+        "explanation": "Moving one container across several modes is intermodal. Cross-docking involves unloading and reloading goods at a facility, which did not happen here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Reorder point",
+        "definition": "The inventory level that triggers a new order: average daily demand times lead time, plus safety stock."
+      },
+      {
+        "term": "Safety stock",
+        "definition": "Extra inventory kept to protect against demand spikes or late deliveries."
+      },
+      {
+        "term": "Economic order quantity (EOQ)",
+        "definition": "The order size that minimizes the combined total of ordering and carrying costs."
+      },
+      {
+        "term": "Just-in-time (JIT)",
+        "definition": "An inventory strategy that receives materials only as they are needed for production."
+      },
+      {
+        "term": "Intermodal transportation",
+        "definition": "Moving freight in one container across two or more modes, such as ship, rail and truck."
+      }
+    ]
+  }
+]

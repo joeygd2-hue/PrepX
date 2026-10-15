@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Health career pathways and the credentials they require",
+    "objective": "Identify the five health science career pathways, classify careers by pathway, and distinguish licensure, certification, and registration.",
+    "body": "Health care employs millions of people, and only a fraction of them are physicians or nurses. Exploring careers well starts with a map of the field and a clear understanding of what each job legally requires before a person can practice.\n\n**The five career pathways.** The National Health Science Standards group health careers into five pathways based on the main work performed.\n- **Therapeutic services** change a patient's health status over time through direct care: registered nurses, physical therapists, dental hygienists, paramedics, pharmacists.\n- **Diagnostic services** create a picture of health status at a single point in time: radiologic technologists, phlebotomists, medical laboratory scientists, sonographers.\n- **Health informatics** manages health data and documentation: medical coders, health information technicians, health care administrators.\n- **Support services** create a safe, therapeutic environment: biomedical equipment technicians, environmental services workers, central supply staff.\n- **Biotechnology research and development** applies science to create new treatments and tools: research scientists, pharmaceutical chemists, bioinformatics specialists.\n\nA useful test is to ask what the worker produces. If the output is treatment, the job is therapeutic; if it is information about the body, diagnostic; if it is managed records, informatics.\n\n**Credentials.** Health careers are regulated because mistakes can harm patients. Three credential types appear constantly on exams.\n1. **Licensure** is granted by a state government agency and is legally required to practice. Practicing a licensed occupation such as registered nursing without a license is illegal. Licenses must be renewed, often with continuing education.\n2. **Certification** is usually granted by a professional organization after a person meets education standards and passes an exam. It shows competence and is often required by employers, though not always by law. Certified nursing assistants are a common exception where states require it.\n3. **Registration** places a qualified person on an official list kept by an agency or professional body, as with a registered dietitian.\n\n**Scope of practice** is the legal range of duties a credentialed worker may perform, defined by state law and regulations. A medical assistant and a registered nurse may both take vital signs, but their scopes differ greatly in assessment and medication tasks, and scopes vary from state to state.\n\n**Education levels** also differ by career: some roles need a short certificate program, others an associate, bachelor's, master's, or doctoral degree. Physical therapists, for example, now complete a Doctor of Physical Therapy degree, while phlebotomists often train in a few months.\n\nThe most common mistake students make is treating licensure and certification as the same thing. Remember: a license comes from the state and grants legal permission to practice; certification usually comes from a professional organization and verifies competence.",
+    "examples": [
+      "A sonographer performs an ultrasound that shows a fetus's growth at that moment, so the job belongs to diagnostic services.",
+      "A registered nurse who moves from Ohio to Texas must hold a license recognized in Texas, either through a multistate compact license or a new state license, before working there."
+    ],
+    "questions": [
+      {
+        "stem": "Maya enjoys repairing complex machines and wants to keep ventilators and infusion pumps working safely in a hospital. Which pathway fits best?",
+        "choices": [
+          "Diagnostic services",
+          "Support services",
+          "Therapeutic services",
+          "Health informatics"
+        ],
+        "answer": 1,
+        "explanation": "Biomedical equipment technicians maintain a safe environment, which is support services. Therapeutic is tempting because the devices treat patients, but Maya would not provide care herself."
+      },
+      {
+        "stem": "A worker assigns standardized codes to diagnoses so a clinic can bill insurance. Which pathway is this?",
+        "choices": [
+          "Health informatics",
+          "Support services",
+          "Diagnostic services",
+          "Biotechnology research and development"
+        ],
+        "answer": 0,
+        "explanation": "Coding manages health data, the core of health informatics. Diagnostic services is wrong because the coder does not produce new information about the patient's body."
+      },
+      {
+        "stem": "Which credential is issued by a state government and legally required to practice?",
+        "choices": [
+          "Certification",
+          "Registration",
+          "Licensure",
+          "Accreditation"
+        ],
+        "answer": 2,
+        "explanation": "Licensure is state-granted legal permission. Certification is the main distractor; it usually comes from a professional organization and verifies competence."
+      },
+      {
+        "stem": "A medical assistant passes a national exam from a professional organization and earns a credential employers prefer. What has the assistant earned?",
+        "choices": [
+          "A state license",
+          "Certification",
+          "Accreditation of the program",
+          "Scope of practice"
+        ],
+        "answer": 1,
+        "explanation": "A credential from a professional organization after an exam is certification. A state license is wrong because no state agency issued it."
+      },
+      {
+        "stem": "Jordan wants a career that tracks a patient's healing over weeks of sessions. Which job matches the therapeutic pathway?",
+        "choices": [
+          "Medical laboratory scientist",
+          "Health information technician",
+          "Occupational therapist",
+          "Phlebotomist"
+        ],
+        "answer": 2,
+        "explanation": "Occupational therapists provide treatment over time, which is therapeutic. Phlebotomist is tempting because it involves patient contact, but drawing blood supports diagnosis."
+      },
+      {
+        "stem": "A dental hygienist asks whether she may perform a task not listed for her role in state law. Which concept answers the question?",
+        "choices": [
+          "Scope of practice",
+          "Certification",
+          "Continuing education",
+          "Career ladder"
+        ],
+        "answer": 0,
+        "explanation": "Scope of practice defines legally permitted duties. Certification is wrong because it verifies competence but does not set the legal limits of the job."
+      },
+      {
+        "stem": "Which career most directly belongs to biotechnology research and development?",
+        "choices": [
+          "Pharmaceutical research scientist",
+          "Paramedic",
+          "Radiologic technologist",
+          "Unit secretary"
+        ],
+        "answer": 0,
+        "explanation": "Developing new drugs is biotechnology R&D. Radiologic technologist is the closest distractor, but imaging is diagnostic services."
+      },
+      {
+        "stem": "A nurse lets her license lapse but keeps working shifts. What is the main problem?",
+        "choices": [
+          "She lost her certification, which is optional",
+          "She is practicing a licensed profession illegally",
+          "She needs to change career pathways",
+          "She must only update her résumé"
+        ],
+        "answer": 1,
+        "explanation": "Practicing a licensed occupation without a current license is illegal. Calling it an optional certification issue confuses licensure with certification."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Therapeutic services",
+        "definition": "Pathway of careers that change a patient's health status over time through direct care."
+      },
+      {
+        "term": "Diagnostic services",
+        "definition": "Pathway of careers that create a picture of health status at one point in time."
+      },
+      {
+        "term": "Licensure",
+        "definition": "State-granted legal permission to practice an occupation, usually requiring renewal."
+      },
+      {
+        "term": "Certification",
+        "definition": "Credential, usually from a professional organization, verifying a person met standards and passed an exam."
+      },
+      {
+        "term": "Scope of practice",
+        "definition": "The legal range of duties a credentialed health worker may perform, set by state law."
+      }
+    ]
+  }
+]

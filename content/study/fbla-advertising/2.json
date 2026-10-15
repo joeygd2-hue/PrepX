@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Creative strategy, copy and layout",
+    "objective": "Build a creative strategy around clear positioning and the right appeal, and write and lay out ads that follow proven copy and design principles.",
+    "body": "A clever ad that sells nothing is a failure. Advertising tests check whether you can connect creative work back to the target audience and a single selling idea.\n\n**Creative strategy.** Before writing a word, agencies prepare a *creative brief* that answers: Who is the target audience? What is the one thing we want them to think, feel or do? Why should they believe it? The answer often rests on a *unique selling proposition* (USP), a benefit competitors do not or cannot claim. *Positioning* is the place a brand occupies in customers' minds relative to competitors, such as the safest, the most affordable or the most fun.\n\n**Appeals.** An appeal is the reason to buy that the ad emphasizes.\n- *Rational appeals* use facts, price, performance and features; they suit high-involvement purchases like cars and laptops.\n- *Emotional appeals* use humor, fear, love, pride or belonging; they suit low-involvement products and brand image.\nFear appeals work best when the ad also gives a clear, doable way to avoid the threat.\n\n**Parts of a print or digital ad.**\n1. *Headline*: the biggest words; it must stop the reader and state or hint at the benefit.\n2. *Subheadline*: expands on the headline.\n3. *Body copy*: supporting details and proof.\n4. *Illustration*: the photo or graphic, often the first thing noticed.\n5. *Signature (logo)* and *slogan*: identify the sponsor and repeat the brand idea.\n6. *Call to action*: tells the reader exactly what to do next.\n\n**Layout principles.** Good layouts use *balance* (formal, which is symmetrical, or informal), *contrast* to highlight key elements, *proportion*, *unity* so all parts feel connected, and *white space* to avoid clutter. A clear *focal point* and a natural eye path, often a Z pattern, lead the reader from headline to logo.\n\n**Copywriting habits.** Write to one person using *you*, lead with benefits rather than features, keep sentences short and match the tone to the brand. Test variations: *A/B testing* compares two versions shown to similar audiences to see which performs better.\n\nThe most common mistake is listing features and hoping the audience translates them. A feature is what the product has; a benefit is what the customer gets.",
+    "examples": [
+      "Feature: a backpack has a padded laptop sleeve. Benefit headline: 'Your laptop survives the bus ride.'",
+      "A public-service ad about texting while driving shows the danger, then gives one simple fix: turn on driving mode before starting the car. That pairs a fear appeal with a clear action.",
+      "Two email subject lines are each sent to 2,000 subscribers. Version A gets 300 opens (15%) and version B gets 380 opens (19%), so B wins the A/B test."
+    ],
+    "questions": [
+      {
+        "stem": "A running-shoe brand claims to sell the only shoe whose sole adjusts its cushioning to the runner's pace. What is this claim best described as?",
+        "choices": ["Institutional message", "Unique selling proposition", "Slogan", "Call to action"],
+        "answer": 1,
+        "explanation": "A USP is a distinctive benefit that competitors do not offer. A slogan is a memorable brand phrase, and a call to action tells the reader what to do next."
+      },
+      {
+        "stem": "Which element of a print ad is designed primarily to stop readers and get them to read further?",
+        "choices": ["Body copy", "Signature", "Headline", "Disclaimer"],
+        "answer": 2,
+        "explanation": "The headline is the largest text and must grab attention and point to the benefit. Body copy supplies details only after the reader is hooked."
+      },
+      {
+        "stem": "A car ad lists crash-test ratings, fuel-efficiency figures and warranty length. Which type of appeal is it using?",
+        "choices": ["Emotional appeal", "Humor appeal", "Bandwagon appeal", "Rational appeal"],
+        "answer": 3,
+        "explanation": "Facts and performance data are a rational appeal, common for high-involvement purchases. An emotional appeal would focus on feelings such as family safety or pride."
+      },
+      {
+        "stem": "Which line of mattress copy states a benefit rather than a feature?",
+        "choices": ["Sleep through the night and wake up without aches", "Made with 3 inches of memory foam", "Available in twin, full, queen and king sizes", "Cover made of 100% cotton"],
+        "answer": 0,
+        "explanation": "Waking without aches is what the customer gets, which is a benefit. The other lines describe what the product has or how it comes."
+      },
+      {
+        "stem": "A designer leaves generous empty areas around the headline and product photo so they stand out and the ad feels uncluttered. Which layout principle is this?",
+        "choices": ["Formal balance", "White space", "Proportion", "Unity"],
+        "answer": 1,
+        "explanation": "White space is intentionally empty area that reduces clutter and draws the eye to key elements. Formal balance means arranging elements symmetrically."
+      },
+      {
+        "stem": "A nonprofit's ad warns teens about the health risks of vaping. Based on research on fear appeals, what should the ad also include to be most effective?",
+        "choices": ["The most frightening images available, with no other message", "Comparisons with rival nonprofits", "A clear, achievable step the viewer can take to avoid the risk", "A celebrity endorsement with no specific advice"],
+        "answer": 2,
+        "explanation": "Fear appeals persuade best when viewers also learn a doable action, such as where to get help quitting. Fear alone can make people tune the message out."
+      },
+      {
+        "stem": "Before the creative team begins writing, which document defines the target audience, the single key message and the support for that message?",
+        "choices": ["Media plan", "Insertion order", "Storyboard", "Creative brief"],
+        "answer": 3,
+        "explanation": "The creative brief guides copywriters and designers. A media plan covers where ads run, an insertion order books space, and a storyboard sketches a video ad scene by scene."
+      },
+      {
+        "stem": "A marketer shows version A of a banner ad to half of a website's visitors and version B to the other half, then compares click-through rates. What is this method called?",
+        "choices": ["A/B testing", "Focus group research", "Aided recall testing", "Frequency capping"],
+        "answer": 0,
+        "explanation": "A/B testing compares two versions under the same conditions to see which performs better. Frequency capping limits how often one person sees an ad."
+      }
+    ],
+    "flashcards": [
+      { "term": "Creative brief", "definition": "A short planning document stating the target audience, key message and support that guides the creative team." },
+      { "term": "Unique selling proposition", "definition": "A distinctive benefit that sets a product apart from competitors and anchors the advertising message." },
+      { "term": "Positioning", "definition": "The place a brand occupies in customers' minds compared with competing brands." },
+      { "term": "Emotional appeal", "definition": "A message that motivates through feelings such as humor, fear, love, pride or belonging." },
+      { "term": "Call to action", "definition": "The part of an ad that tells the audience exactly what to do next, such as visit, call or buy." }
+    ]
+  }
+]

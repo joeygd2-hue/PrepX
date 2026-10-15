@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Periodontal disease, radiography, and dental restorative materials",
+    "objective": "Distinguish gingivitis from periodontitis, interpret probing and radiographic findings, and compare common restorative materials for clinical situations.",
+    "body": "Advanced Dental Science questions combine anatomy, disease, and treatment into one scenario. You may be given probing depths, a radiograph description, and a patient history, then asked for the diagnosis or the best material.\n\n**Gingivitis versus periodontitis.** **Gingivitis** is inflammation of the gums caused by plaque: red, swollen tissue that bleeds on brushing. It involves no loss of attachment or bone and is reversible with good plaque control. **Periodontitis** occurs when chronic inflammation destroys the periodontal ligament and alveolar bone. The attachment migrates down the root, forming **periodontal pockets**. The damage is generally irreversible, though treatment can stop progression.\n\n**Probing.** A periodontal probe measures the depth of the sulcus in millimeters at six sites per tooth. Healthy sulcus depths are about 1 to 3 mm with no bleeding. Readings of 4 mm or more, especially with bleeding on probing, suggest pockets. **Clinical attachment loss** is measured from the CEJ, so it captures destruction even when the gums have receded and pocket depth looks shallow. Risk factors include smoking, poorly controlled diabetes, and genetics. Treatment begins with **scaling and root planing**, which removes calculus and biofilm from root surfaces.\n\n**Radiography.** On radiographs, dense structures absorb more x-rays and appear white (**radiopaque**), while less dense areas appear dark (**radiolucent**). Enamel, metal restorations, and bone are radiopaque; pulp, caries, and abscesses are radiolucent. **Bitewing** images show crowns of both arches and are best for detecting caries between teeth and crestal bone levels. **Periapical** images show the entire tooth to the root tip, so they are used to find apical infections. Teams follow **ALARA** (as low as reasonably achievable): take radiographs only when clinically justified, use fast receptors or digital sensors, and use collimation. Current guidance notes that lead aprons and thyroid collars are generally unnecessary with modern equipment, but many states still require them, so follow local regulations.\n\n**Restorative materials.**\n- **Composite resin** is tooth-colored, bonds to tooth structure, and suits visible areas, but placement is technique-sensitive and requires a dry field.\n- **Amalgam** is a durable metal alloy that tolerates moisture better, but it is silver-colored and requires removing more tooth structure for retention.\n- **Glass ionomer** releases fluoride and bonds chemically, making it useful for root caries and high-risk patients, though it is less wear-resistant.\n- **Ceramic crowns** offer strength and esthetics for extensively damaged teeth.\n\nThe most common mistake is reversing radiopaque and radiolucent. Remember that \"opaque\" blocks x-rays, so the area looks light; a dark shadow under a filling is radiolucent and may signal recurrent decay.",
+    "examples": [
+      "A patient has 6 mm pockets and horizontal bone loss on radiographs, indicating periodontitis rather than gingivitis.",
+      "A dentist chooses glass ionomer for root caries in an older patient with dry mouth because it releases fluoride.",
+      "On a bitewing, a dark triangle just below a white amalgam filling suggests recurrent caries."
+    ],
+    "questions": [
+      {
+        "stem": "A 17-year-old's gums bleed when she brushes. Probing depths are 2 to 3 mm and radiographs show no bone loss. What is the most likely condition?",
+        "choices": [
+          "Periodontitis",
+          "Gingivitis",
+          "Periapical abscess",
+          "Pulpitis"
+        ],
+        "answer": 1,
+        "explanation": "Bleeding with normal depths and no bone loss is gingivitis, which is reversible. Periodontitis requires attachment and bone loss."
+      },
+      {
+        "stem": "On a radiograph, how does a metal amalgam restoration appear?",
+        "choices": [
+          "Radiolucent",
+          "Radiopaque",
+          "Invisible",
+          "Gray like pulp"
+        ],
+        "answer": 1,
+        "explanation": "Metal absorbs x-rays and appears white, or radiopaque. Radiolucent describes dark, less dense areas such as caries."
+      },
+      {
+        "stem": "A dentist suspects decay between two posterior teeth in contact. Which radiograph is preferred?",
+        "choices": [
+          "Panoramic",
+          "Periapical",
+          "Bitewing",
+          "Occlusal"
+        ],
+        "answer": 2,
+        "explanation": "Bitewings show interproximal crowns of both arches with little overlap, ideal for caries between teeth. Periapicals emphasize root tips, not contacts across both arches."
+      },
+      {
+        "stem": "A smoker with poorly controlled diabetes has 5 to 6 mm pockets with bleeding. What is the usual first-line nonsurgical treatment?",
+        "choices": [
+          "Scaling and root planing",
+          "Tooth whitening",
+          "Composite restorations",
+          "Pit and fissure sealants"
+        ],
+        "answer": 0,
+        "explanation": "Scaling and root planing removes calculus and biofilm from roots to reduce inflammation. Sealants prevent caries on grooves and do not treat periodontal pockets."
+      },
+      {
+        "stem": "An older patient with dry mouth has caries on several exposed root surfaces. Which material is especially useful because it releases fluoride?",
+        "choices": [
+          "Amalgam",
+          "Gold alloy",
+          "Porcelain veneer",
+          "Glass ionomer"
+        ],
+        "answer": 3,
+        "explanation": "Glass ionomer releases fluoride and bonds chemically, helping high-risk root caries patients. Amalgam is durable but does not release fluoride."
+      },
+      {
+        "stem": "Why is clinical attachment loss measured from the CEJ instead of relying on pocket depth alone?",
+        "choices": [
+          "Pocket depth includes the crown height",
+          "Recession can make pockets look shallow despite real tissue loss",
+          "The CEJ moves as the patient ages",
+          "Probes cannot reach the gingival margin"
+        ],
+        "answer": 1,
+        "explanation": "When gums recede, pocket depth may be shallow even though attachment is lost; measuring from the fixed CEJ captures total destruction. The CEJ is a fixed landmark, so it does not move."
+      },
+      {
+        "stem": "Which practice best follows the ALARA principle?",
+        "choices": [
+          "Taking a full set of radiographs at every cleaning",
+          "Using digital sensors and collimation, imaging only when clinically justified",
+          "Increasing exposure time to improve contrast",
+          "Repeating images routinely to be safe"
+        ],
+        "answer": 1,
+        "explanation": "ALARA means minimizing dose by justifying each image and using fast receptors and collimation. Routine imaging at every visit adds dose without clinical justification."
+      },
+      {
+        "stem": "A patient wants a tooth-colored restoration on a front tooth, and the field can be kept dry. Which material fits best?",
+        "choices": [
+          "Composite resin",
+          "Amalgam",
+          "Stainless steel crown",
+          "Zinc oxide eugenol temporary"
+        ],
+        "answer": 0,
+        "explanation": "Composite resin is tooth-colored and bonds well in a dry field. Amalgam is durable but silver-colored, a poor esthetic choice for front teeth."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Gingivitis",
+        "definition": "Reversible plaque-induced gum inflammation with bleeding but no attachment or bone loss."
+      },
+      {
+        "term": "Periodontitis",
+        "definition": "Chronic inflammation that destroys periodontal ligament and alveolar bone, forming pockets."
+      },
+      {
+        "term": "Radiopaque",
+        "definition": "Dense structures that block x-rays and appear white, such as enamel and metal."
+      },
+      {
+        "term": "Bitewing",
+        "definition": "Radiograph showing crowns of both arches, best for interproximal caries and crestal bone."
+      },
+      {
+        "term": "ALARA",
+        "definition": "As low as reasonably achievable: keep radiation dose minimal by justifying images and using collimation and fast receptors."
+      }
+    ]
+  }
+]

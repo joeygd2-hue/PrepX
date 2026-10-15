@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Project foundations and initiating a project",
+    "objective": "Define a project, document the need it serves, and set goals, stakeholders and a charter that make success measurable.",
+    "body": "Every DECA Project Management event asks a team to plan and run a real project and then show judges how it followed a structured process. Whether the project raises money, promotes financial literacy or helps a local business, judges reward teams that start with a documented need and measurable goals, not just a good idea.\n\n**What makes a project.** A *project* is a temporary effort with a defined start and finish that creates a unique result, such as a fundraiser, a workshop series or a store makeover. Ongoing, repeated work, like restocking the school store every week, is *operations*. Every project is shaped by the *triple constraint*: scope (what will be delivered), time and cost. Change one, and at least one of the others, or quality, is affected.\n\n**The project life cycle.** Projects move through five process groups: *initiating*, *planning*, *executing*, *monitoring and controlling*, and *closing*. Monitoring and controlling runs alongside the work rather than waiting until the end.\n\n**Initiating well.**\n1. *Identify the need.* A *needs assessment* uses surveys, interviews, observation or existing data to show that a problem exists and how big it is.\n2. *Check feasibility.* Can the team realistically get the time, money, people, venue and approvals required?\n3. *Set SMART goals.* Specific, measurable, achievable, relevant and time-bound goals become the yardstick for the whole project.\n4. *Identify stakeholders.* Stakeholders are anyone who affects or is affected by the project: the team, the chapter advisor, school administrators, partners, donors and the people served. The *sponsor* provides resources or authority and approves major decisions.\n5. *Write a project charter.* The charter formally authorizes the project. It states the purpose, goals, high-level scope, key stakeholders, the project manager, a rough budget and timeline, and success criteria. It also records *assumptions*, things believed true but not yet confirmed, and *constraints*, fixed limits such as a $500 budget.\n\n**Stakeholder analysis.** A power-interest grid sorts stakeholders into four groups: manage *high-power, high-interest* people closely, keep high-power, low-interest people satisfied, keep low-power, high-interest people informed and monitor the rest.\n\nA common mistake is jumping straight into tasks before defining what success looks like. If your goal is 'help the community,' you cannot prove you succeeded; if it is 'collect 2,000 pounds of food by November 20,' you can.",
+    "examples": [
+      "Before choosing a project, a chapter surveys 220 students and finds that 68% cannot explain how a credit score works. That data becomes the documented need for a financial literacy workshop series.",
+      "A team's charter names the chapter president as project manager and a local credit union as sponsor, sets a $600 budget and lists the success criterion: 150 students complete a pre- and post-workshop quiz with an average gain of 20 points.",
+      "Restocking the school store every Friday is operations. Redesigning the store's layout before homecoming, with a start date, an end date and a finished floor plan, is a project."
+    ],
+    "questions": [
+      {
+        "stem": "Which of the following is a project rather than ongoing operations?",
+        "choices": [
+          "Restocking the school store's shelves every Friday",
+          "Processing weekly orders for chapter apparel",
+          "Organizing a one-time 5K run to raise money for a children's hospital",
+          "Answering customer emails for a family business each day"
+        ],
+        "answer": 2,
+        "explanation": "A project is temporary, with a defined start and end, and produces a unique result. The other choices are repeated, ongoing operations."
+      },
+      {
+        "stem": "Midway through planning, the sponsor asks the team to add a second event date, but the budget and deadline cannot change. According to the triple constraint, what is most likely?",
+        "choices": [
+          "The project can absorb the change with no effect on anything else",
+          "Quality or other parts of the scope will need to be adjusted to make room",
+          "The deadline will automatically be extended to fit the new date",
+          "The budget will increase because sponsors must fund every change"
+        ],
+        "answer": 1,
+        "explanation": "Scope, time and cost are linked. If scope grows while time and cost are fixed, something else, usually quality or another part of the scope, must give."
+      },
+      {
+        "stem": "What is the main purpose of a project charter?",
+        "choices": [
+          "To list every task with its exact start and finish dates",
+          "To record what went well and poorly after the project ends",
+          "To track daily spending against each budget line",
+          "To formally authorize the project and state its purpose, goals and project manager"
+        ],
+        "answer": 3,
+        "explanation": "The charter is an initiating document that authorizes the project and sets its high-level direction. Detailed schedules, spending logs and lessons learned come later."
+      },
+      {
+        "stem": "Before choosing a project, a chapter surveys 200 students about how confident they feel managing money and reviews school data on student employment. Which step are they completing?",
+        "choices": ["A needs assessment", "A risk register", "A work breakdown structure", "A lessons-learned review"],
+        "answer": 0,
+        "explanation": "A needs assessment gathers evidence that a problem exists and how large it is, which justifies the project and shapes its goals."
+      },
+      {
+        "stem": "Which project goal is written in SMART form?",
+        "choices": [
+          "Make the community a better place for animals",
+          "Raise as much money as possible for a good cause",
+          "Hold a really successful fundraiser this spring",
+          "Raise $3,000 for the local animal shelter through a dog-wash event and online donations by April 15"
+        ],
+        "answer": 3,
+        "explanation": "It states a specific, measurable amount, a method, a relevant beneficiary and a deadline. The others cannot be measured or have no deadline."
+      },
+      {
+        "stem": "A local credit union agrees to fund a chapter's financial literacy fair and must approve any major changes to the plan. What is the credit union's role?",
+        "choices": ["Project manager", "Project sponsor", "Team member", "End user"],
+        "answer": 1,
+        "explanation": "The sponsor provides resources or authority and approves major decisions. The project manager leads the day-to-day work."
+      },
+      {
+        "stem": "A team has finished its schedule and budget. In which process group will it now carry out the work and produce the project's deliverables?",
+        "choices": ["Initiating", "Monitoring and controlling", "Executing", "Closing"],
+        "answer": 2,
+        "explanation": "Executing is where the team carries out the plan and creates deliverables. Monitoring and controlling runs alongside it, comparing progress with the plan."
+      },
+      {
+        "stem": "A school principal can approve or cancel the event and wants frequent updates on it. Using a power-interest grid, how should the team treat the principal?",
+        "choices": [
+          "Monitor with minimal effort",
+          "Keep informed only after the project ends",
+          "Manage closely with regular communication and involvement",
+          "Keep satisfied but avoid sharing details"
+        ],
+        "answer": 2,
+        "explanation": "High-power, high-interest stakeholders should be managed closely because they can strongly affect the project and care about its progress."
+      },
+      {
+        "stem": "While drafting its charter, a team writes, 'The gym will be available on March 3,' but has not confirmed this with the school. How should the statement be classified?",
+        "choices": [
+          "A constraint that cannot change",
+          "A deliverable of the project",
+          "A milestone that has already been met",
+          "An assumption that should be verified"
+        ],
+        "answer": 3,
+        "explanation": "An assumption is treated as true for planning but is not yet confirmed, so it carries risk and should be verified. A constraint is a known limit, such as a fixed budget."
+      },
+      {
+        "stem": "Before committing to a carnival fundraiser, a team checks whether it can secure a venue, recruit 25 volunteers and cover upfront costs within its $400 budget. What is the team doing?",
+        "choices": ["Assessing feasibility", "Closing the project", "Controlling scope creep", "Writing lessons learned"],
+        "answer": 0,
+        "explanation": "A feasibility check asks whether the project can realistically be done with the available time, money, people and approvals before the team commits."
+      }
+    ],
+    "flashcards": [
+      { "term": "Project", "definition": "A temporary effort with a defined start and finish that creates a unique product, service or result." },
+      { "term": "Triple constraint", "definition": "The link among scope, time and cost; changing one affects at least one of the others or quality." },
+      { "term": "Needs assessment", "definition": "Research such as surveys or data review that shows a problem exists and how large it is." },
+      { "term": "Project charter", "definition": "The initiating document that authorizes a project and states its purpose, goals, scope, leaders and success criteria." },
+      { "term": "Stakeholder", "definition": "Any person or group who affects or is affected by a project or its results." },
+      { "term": "Assumption", "definition": "A planning factor treated as true without proof, which should be verified because it carries risk." }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Measuring vital signs and documenting patient encounters",
+    "objective": "Measure temperature, pulse, respirations, blood pressure, and oxygen saturation accurately, recognize abnormal values, and document findings correctly.",
+    "body": "Rooming a patient is the medical assistant's most frequent clinical task. It combines a brief interview, **vital signs**, and accurate documentation that the provider will rely on. A wrong number recorded confidently can mislead the whole visit, so technique matters as much as knowing normal ranges.\n\n**Typical adult resting values** (always compare with the patient's baseline and the clinic's protocol):\n- **Pulse:** 60 to 100 beats per minute. Below 60 is **bradycardia**; above 100 is **tachycardia**. The radial artery at the thumb side of the wrist is the usual site.\n- **Respirations:** about 12 to 20 breaths per minute. Count without telling the patient, often while still holding the wrist, because people change their breathing when they know it is being watched.\n- **Temperature:** around 97 to 99 degrees F (36.1 to 37.2 degrees C) orally; rectal and temporal readings run slightly higher and axillary readings slightly lower.\n- **Oxygen saturation (SpO2):** usually 95 percent or higher in healthy adults, measured with a pulse oximeter.\n\n**Blood pressure.** Blood pressure is recorded as **systolic** (pressure when the heart contracts) over **diastolic** (pressure when it relaxes). Under the 2017 American College of Cardiology and American Heart Association guideline, adult categories are:\n1. Normal: below 120 and below 80\n2. Elevated: 120 to 129 and below 80\n3. Stage 1 hypertension: 130 to 139 or 80 to 89\n4. Stage 2 hypertension: 140 or higher or 90 or higher\n\nWhen the two numbers fall into different categories, use the higher category. For an accurate reading, the patient should sit with back supported, feet flat, legs uncrossed, and arm supported at heart level after resting about five minutes. The cuff bladder should encircle about 80 percent of the arm; a cuff that is **too small gives a falsely high reading**, and one that is too large gives a falsely low reading.\n\n**Documentation.** The medical record is a legal document. Record what you measured and observed, with the site, method, time, and your identification, and quote the patient's own words for the **chief complaint**, the main reason for the visit. In an electronic health record, correct errors with the system's amendment function so the original remains visible; on paper, draw a single line through the error, write the correction, and initial and date it. Never erase, use correction fluid, or delete. If it was not documented, legally it was not done.\n\n**Most common mistake:** students memorize the ranges but forget patient factors. A reading taken right after the patient walked up stairs, drank coffee, or sat with legs crossed can be falsely high, so the right next step is often to let the patient rest and recheck rather than to label the value abnormal.",
+    "examples": [
+      "An adult's blood pressure is 134/78; because the systolic value is in the 130 to 139 range, it falls in the stage 1 hypertension category.",
+      "A medical assistant records the chief complaint as: Patient states, \"My left ear has hurt for three days.\"",
+      "A muscular patient's upper arm is too large for the standard adult cuff, so the medical assistant switches to a large adult cuff to avoid a falsely high reading."
+    ],
+    "questions": [
+      {
+        "stem": "An adult patient's blood pressure is 126/84. Using the 2017 ACC/AHA categories, how is this classified?",
+        "choices": [
+          "Normal",
+          "Elevated",
+          "Stage 1 hypertension",
+          "Stage 2 hypertension"
+        ],
+        "answer": 2,
+        "explanation": "The diastolic of 84 falls in the 80 to 89 range, and the higher category applies, so this is stage 1. Elevated requires a diastolic below 80, which is why that tempting choice is wrong."
+      },
+      {
+        "stem": "A medical assistant counts a resting adult's radial pulse at 112 beats per minute. Which term describes this?",
+        "choices": [
+          "Bradycardia",
+          "Tachycardia",
+          "Normal sinus rate",
+          "Apnea"
+        ],
+        "answer": 1,
+        "explanation": "A resting adult pulse above 100 is tachycardia. Bradycardia is a rate below 60."
+      },
+      {
+        "stem": "Why should a medical assistant count respirations while appearing to still check the pulse?",
+        "choices": [
+          "Respirations can only be counted at the wrist",
+          "Patients may change their breathing if they know it is being counted",
+          "It is required to calculate oxygen saturation",
+          "It makes the pulse reading more accurate"
+        ],
+        "answer": 1,
+        "explanation": "Breathing is partly voluntary, so awareness can alter the rate. The pulse reading itself is not made more accurate by this technique."
+      },
+      {
+        "stem": "A patient's arm is too large for the cuff being used. What effect will this most likely have?",
+        "choices": [
+          "The reading will be falsely low",
+          "The reading will be falsely high",
+          "The reading will be accurate but take longer",
+          "Only the diastolic number will change"
+        ],
+        "answer": 1,
+        "explanation": "A cuff that is too small needs extra pressure to compress the artery, producing a falsely high reading. A too-large cuff causes the opposite error."
+      },
+      {
+        "stem": "A patient rushes in late, climbs the stairs, and has a first reading of 148/92. What is the best next step?",
+        "choices": [
+          "Record stage 2 hypertension and inform the patient",
+          "Let the patient sit quietly for about five minutes and recheck with proper positioning",
+          "Take the reading on the leg instead",
+          "Skip blood pressure for this visit"
+        ],
+        "answer": 1,
+        "explanation": "Recent exertion raises blood pressure, so resting and remeasuring with correct technique gives a valid value to report. Labeling the patient from a single reading taken right after exertion is premature."
+      },
+      {
+        "stem": "A medical assistant notices she entered the wrong temperature in a paper chart. How should she correct it?",
+        "choices": [
+          "Use correction fluid and write the right value",
+          "Draw a single line through the error, write the correction, and initial and date it",
+          "Tear out the page and recopy it",
+          "Scribble over the error so it cannot be read"
+        ],
+        "answer": 1,
+        "explanation": "A single line keeps the original visible, which protects the record's legal integrity. Correction fluid hides the original entry and suggests tampering."
+      },
+      {
+        "stem": "How should a chief complaint be documented?",
+        "choices": [
+          "In medical terms chosen by the medical assistant, such as otitis media",
+          "As a diagnosis the medical assistant suspects",
+          "In the patient's own words, in quotation marks",
+          "Only after the provider confirms it"
+        ],
+        "answer": 2,
+        "explanation": "Quoting the patient records exactly what was reported without interpretation. Writing a diagnosis like otitis media goes beyond the medical assistant's scope."
+      },
+      {
+        "stem": "A pulse oximeter on a healthy adult at rest reads 97 percent. How should this be interpreted?",
+        "choices": [
+          "Within the usual healthy range",
+          "Severely low, requiring emergency care",
+          "Falsely high and must be repeated",
+          "A sign of tachycardia"
+        ],
+        "answer": 0,
+        "explanation": "Healthy adults usually have saturations of 95 percent or higher, so 97 percent is typical. Oxygen saturation does not measure heart rate, so it cannot indicate tachycardia."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Tachycardia",
+        "definition": "A resting adult heart rate above 100 beats per minute."
+      },
+      {
+        "term": "Bradycardia",
+        "definition": "A resting adult heart rate below 60 beats per minute."
+      },
+      {
+        "term": "Systolic pressure",
+        "definition": "The blood pressure when the heart contracts; the top number of a reading."
+      },
+      {
+        "term": "Diastolic pressure",
+        "definition": "The blood pressure when the heart relaxes between beats; the bottom number."
+      },
+      {
+        "term": "Chief complaint",
+        "definition": "The main reason for the visit, recorded in the patient's own words."
+      }
+    ]
+  }
+]

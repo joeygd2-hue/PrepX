@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Microbial diversity, cell structure, and the Gram stain",
+    "objective": "Classify major microbe groups, compare prokaryotic and eukaryotic cell structures, and interpret Gram stain and morphology results.",
+    "body": "Microbiology studies organisms too small to see clearly without a microscope, plus viruses, which are not cells at all. Almost every test question starts with the same move: identify what kind of microbe you are dealing with, because structure predicts how it grows, causes disease and responds to treatment.\n\n**Major groups.** Microbes fall into a few broad categories:\n- **Bacteria** are prokaryotes: single cells with no nucleus and no membrane-bound organelles. Their DNA sits in a nucleoid region, and their ribosomes are 70S.\n- **Fungi** (yeasts and molds), **protozoa** and **helminths** (parasitic worms, which are multicellular and often included in clinical microbiology) are eukaryotes with a true nucleus and 80S ribosomes.\n- **Viruses** are acellular particles made of nucleic acid (DNA or RNA) inside a protein coat called a capsid, sometimes wrapped in a lipid envelope. They must enter a host cell to replicate.\n- **Prions** are misfolded proteins with no nucleic acid at all.\n\n**Bacterial cell envelope.** Most bacteria have a **cell wall** made of **peptidoglycan** outside the plasma membrane. Gram-positive bacteria have a thick peptidoglycan layer. Gram-negative bacteria have a thin peptidoglycan layer plus an **outer membrane** containing lipopolysaccharide (LPS); the lipid A portion of LPS is **endotoxin**, which can trigger fever and septic shock. Some bacteria add a capsule for resisting phagocytosis, flagella for movement, pili for attachment, or form **endospores**, dormant structures that survive heat, drying and many disinfectants (Bacillus and Clostridioides are classic examples).\n\n**The Gram stain.** This differential stain sorts bacteria by wall structure in four steps:\n1. Crystal violet (primary stain) colors all cells purple.\n2. Iodine (mordant) locks the dye into a complex.\n3. Alcohol or acetone decolorizer washes the dye out of thin-walled Gram-negative cells.\n4. Safranin (counterstain) colors the now-clear Gram-negative cells pink or red.\n\nGram-positive cells stay purple; Gram-negative cells end pink. Mycobacteria have waxy mycolic acid walls that resist the Gram stain, so labs use an **acid-fast stain** instead.\n\n**Shape and arrangement.** Spherical cells are **cocci**, rods are **bacilli**, and spiral forms are spirilla or spirochetes. Arrangement adds detail: cocci in grape-like clusters suggest Staphylococcus, while cocci in chains suggest Streptococcus. A report such as \"Gram-positive cocci in clusters\" gives clinicians an early clue hours or days before culture identification is final.\n\nThe most common mistake is treating the decolorizer step as optional or timing it carelessly. Over-decolorizing can make Gram-positive cells look pink, and under-decolorizing leaves Gram-negative cells purple, so a wrong Gram reaction usually traces back to step 3, not to the organism.",
+    "examples": [
+      "A blood culture smear shows purple spheres in grape-like clusters, which points the team toward Staphylococcus while culture results are pending.",
+      "A urine sample from a patient with a bladder infection shows pink rods on Gram stain, consistent with a Gram-negative organism such as Escherichia coli.",
+      "A sputum sample is sent for acid-fast staining rather than Gram staining because tuberculosis is suspected and mycobacteria resist the Gram stain."
+    ],
+    "questions": [
+      {
+        "stem": "A lab student examines a stained smear and sees pink, rod-shaped cells. Which description is correct?",
+        "choices": [
+          "Gram-positive bacilli",
+          "Gram-negative bacilli",
+          "Gram-negative cocci",
+          "Gram-positive cocci"
+        ],
+        "answer": 1,
+        "explanation": "Pink after the Gram stain means Gram-negative, and rods are bacilli. Gram-positive bacilli would appear purple, which is the main trap."
+      },
+      {
+        "stem": "During a Gram stain, a student accidentally leaves the alcohol on far too long. What result is most likely for a known Gram-positive organism?",
+        "choices": [
+          "It appears pink because the dye was washed out",
+          "It appears purple because the wall cannot lose dye",
+          "It appears green because iodine reacts with alcohol",
+          "It appears colorless because safranin is blocked"
+        ],
+        "answer": 0,
+        "explanation": "Over-decolorizing can strip crystal violet even from thick walls, so the counterstain makes them look pink (a false Gram-negative). The belief that thick walls can never lose dye is the main distractor; excess decolorizer overcomes them."
+      },
+      {
+        "stem": "Which structure is present in bacteria but absent from all human cells?",
+        "choices": [
+          "Ribosomes",
+          "Plasma membrane",
+          "Peptidoglycan cell wall",
+          "DNA"
+        ],
+        "answer": 2,
+        "explanation": "Peptidoglycan is unique to bacterial cell walls, which is why it is a useful drug target. Ribosomes exist in both, although bacterial ribosomes are 70S and human ribosomes are 80S."
+      },
+      {
+        "stem": "A patient with a Gram-negative bloodstream infection develops fever and dangerously low blood pressure. Which bacterial component is most responsible?",
+        "choices": [
+          "Peptidoglycan teichoic acids",
+          "Endospore coat",
+          "Flagellar protein",
+          "Lipid A of lipopolysaccharide"
+        ],
+        "answer": 3,
+        "explanation": "Lipid A of LPS in the Gram-negative outer membrane is endotoxin and can drive septic shock. Teichoic acids belong to Gram-positive walls, not Gram-negative ones."
+      },
+      {
+        "stem": "A sample is suspected of containing an infectious agent that has a protein capsid and RNA but no ribosomes or cell membrane of its own. What is it?",
+        "choices": [
+          "A virus",
+          "A prokaryote",
+          "A fungus",
+          "A prion"
+        ],
+        "answer": 0,
+        "explanation": "A nucleic acid genome inside a capsid with no cellular machinery defines a virus. A prion is the tempting distractor, but prions contain no nucleic acid at all."
+      },
+      {
+        "stem": "A technician needs to stain a sputum sample from a patient with suspected tuberculosis. Which stain is most appropriate?",
+        "choices": [
+          "Gram stain",
+          "Acid-fast stain",
+          "Simple methylene blue stain",
+          "Negative stain"
+        ],
+        "answer": 1,
+        "explanation": "Mycobacteria have waxy mycolic acid walls that resist Gram staining, so the acid-fast stain is used. The Gram stain is the main distractor because it is the default for most bacteria but does not work reliably here."
+      },
+      {
+        "stem": "Spores of a bacterium survive boiling on surgical instruments. Which organism type best fits this property?",
+        "choices": [
+          "Staphylococcus, which forms clusters",
+          "Escherichia coli, a Gram-negative rod",
+          "Clostridioides, an endospore former",
+          "Streptococcus, which forms chains"
+        ],
+        "answer": 2,
+        "explanation": "Clostridioides and Bacillus form endospores that resist heat and many chemicals. Staphylococcus is hardy but does not form endospores."
+      },
+      {
+        "stem": "A report reads \"Gram-positive cocci in chains.\" Which genus does this morphology most suggest?",
+        "choices": [
+          "Staphylococcus",
+          "Neisseria",
+          "Bacillus",
+          "Streptococcus"
+        ],
+        "answer": 3,
+        "explanation": "Cocci in chains is the classic Streptococcus pattern. Staphylococcus is also Gram-positive cocci but arranges in grape-like clusters."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Peptidoglycan",
+        "definition": "Mesh-like polymer forming the bacterial cell wall; thick in Gram-positive and thin in Gram-negative bacteria."
+      },
+      {
+        "term": "Endotoxin",
+        "definition": "Lipid A portion of lipopolysaccharide in the Gram-negative outer membrane that can trigger fever and septic shock."
+      },
+      {
+        "term": "Gram stain",
+        "definition": "Differential stain using crystal violet, iodine, decolorizer and safranin to sort bacteria into Gram-positive (purple) and Gram-negative (pink)."
+      },
+      {
+        "term": "Endospore",
+        "definition": "Dormant, highly resistant bacterial structure that survives heat, drying and many disinfectants."
+      },
+      {
+        "term": "Acid-fast stain",
+        "definition": "Stain used for organisms with waxy mycolic acid walls, such as mycobacteria, that resist the Gram stain."
+      }
+    ]
+  }
+]

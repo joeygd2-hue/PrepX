@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Enterprise Risk Management and Strategic Risk Financing",
+    "objective": "Apply the enterprise risk management framework to evaluate organizational risks, compare risk financing strategies, and recommend optimal risk treatment options for complex business scenarios.",
+    "body": "Modern organizations do not treat risk as a series of isolated incidents to be addressed reactively. Instead, leading companies adopt **Enterprise Risk Management (ERM)**, a holistic, strategic framework that identifies, assesses, and responds to all risks — financial, operational, strategic, and reputational — in an integrated manner. The **Committee of Sponsoring Organizations (COSO)** framework and the ISO 31000 standard are the two most widely recognized ERM models, and FBLA competitors should be familiar with their core components.\n\nThe ERM process begins with **risk identification**, cataloguing every event that could prevent the organization from achieving its objectives. This is followed by **risk assessment**, which evaluates each risk on two dimensions: **likelihood** (probability of occurrence) and **impact** (severity of financial or operational consequences). A **risk matrix** plots these two axes to prioritize where management attention and resources should be directed — high-likelihood, high-impact risks demand immediate treatment, while low-likelihood, low-impact risks may simply be monitored.\n\nOnce risks are assessed, management selects from four fundamental **risk treatment strategies**: **avoid** the risk by discontinuing the activity; **reduce** or mitigate the risk through loss prevention or loss reduction measures; **transfer** the risk to a third party, most commonly through insurance but also through contracts and hedging; or **retain** the risk, accepting potential losses internally. Retention may be either involuntary (unaware of the risk or unable to find affordable coverage) or voluntary through a formal **risk retention program**. Large corporations sometimes establish a **captive insurance company** — a wholly owned subsidiary created solely to insure the parent's risks — as a sophisticated form of planned risk retention that also offers tax and cash-flow advantages.\n\n**Risk financing** refers to the mechanisms used to fund losses when they occur. Beyond traditional insurance transfer, organizations use **self-insurance**, where a company sets aside reserves to pay predictable, high-frequency losses internally, and **finite risk programs**, which blend elements of insurance and financing for losses that are difficult to insure conventionally. **Reinsurance** operates at the insurer level: primary insurers transfer a portion of their risk to reinsurance companies, stabilizing their own balance sheets and enabling them to underwrite larger policies than their capital alone would support.\n\nStrategic risk decisions also involve managing the **total cost of risk (TCOR)**, which includes not only insurance premiums but also retained losses, risk management administrative costs, and the indirect costs of losses such as lost productivity, reputational damage, and regulatory penalties. A sophisticated risk manager optimizes TCOR rather than simply minimizing premium expense — a strategy that may involve accepting higher retentions in exchange for lower premium outlays when the retained exposure is financially manageable.",
+    "examples": [
+      "A pharmaceutical company uses a risk matrix and identifies a product recall as high-likelihood and high-impact; it responds by both purchasing product recall insurance (transfer) and investing in enhanced quality-control processes (reduction) rather than relying on a single treatment.",
+      "A large hotel chain creates a captive insurance company domiciled in Vermont to insure its own property and workers' compensation exposures; over time, the captive accumulates underwriting profits that would otherwise have gone to a commercial insurer.",
+      "An airline's insurer reinsures 70% of every policy it writes with a global reinsurance firm, allowing the airline's insurer to offer $500 million in coverage without holding $500 million in reserves — the reinsurer absorbs most of a catastrophic hull loss."
+    ],
+    "questions": [
+      {
+        "stem": "A risk manager plots risks on a matrix and finds one event with high likelihood but very low financial impact. The most appropriate treatment for this risk is typically:",
+        "choices": [
+          "Immediate transfer to an insurer",
+          "Avoidance by eliminating the business activity",
+          "Retention with internal controls and monitoring",
+          "Purchase of an umbrella liability policy"
+        ],
+        "answer": 2,
+        "explanation": "High-frequency, low-severity losses are generally most cost-efficient to retain internally because insurance premiums for predictable, small losses include significant insurer overhead and profit margin. Transfer is best reserved for low-frequency, high-severity exposures."
+      },
+      {
+        "stem": "A technology firm decides to stop offering a service that exposes it to significant data-breach liability. Which risk treatment strategy does this represent?",
+        "choices": [
+          "Risk reduction",
+          "Risk transfer",
+          "Risk retention",
+          "Risk avoidance"
+        ],
+        "answer": 3,
+        "explanation": "Risk avoidance eliminates the exposure entirely by discontinuing the activity that creates the risk. Risk reduction would involve keeping the service while implementing security measures to lower the probability or severity of a breach."
+      },
+      {
+        "stem": "Which of the following is the best definition of total cost of risk (TCOR)?",
+        "choices": [
+          "The sum of all insurance premiums paid by an organization in a fiscal year",
+          "All insurance premiums plus retained losses, risk administration costs, and indirect loss costs",
+          "The maximum amount an insurer will pay for all claims in a policy year",
+          "The deductible amount multiplied by the number of claims filed"
+        ],
+        "answer": 1,
+        "explanation": "TCOR is a comprehensive measure that encompasses premiums, self-insured losses, internal risk management expenses, and indirect costs; minimizing only premiums can increase total costs if it leads to underinsurance or large unbudgeted retained losses."
+      },
+      {
+        "stem": "A manufacturing conglomerate creates a subsidiary whose sole purpose is to insure the parent company's workers' compensation and property exposures. This subsidiary is called a:",
+        "choices": [
+          "Mutual insurance company",
+          "Captive insurance company",
+          "Reinsurance company",
+          "Risk retention group"
+        ],
+        "answer": 1,
+        "explanation": "A captive insurer is a wholly owned subsidiary formed to insure the risks of its parent, combining the benefits of planned self-insurance with the formal structure of an insurance entity. A reinsurance company insures other insurers, not parent corporations."
+      },
+      {
+        "stem": "Under the ERM framework, after risks have been identified, what is the next step in the process?",
+        "choices": [
+          "Purchasing insurance for all identified risks",
+          "Assessing each risk by likelihood and impact",
+          "Eliminating all high-risk business activities",
+          "Reporting all risks to regulators"
+        ],
+        "answer": 1,
+        "explanation": "Risk assessment — evaluating probability and severity — must follow identification so that management can prioritize treatment efforts. Purchasing insurance is one possible treatment response, which comes after assessment determines which risks warrant transfer."
+      },
+      {
+        "stem": "A regional insurer reinsures 60% of a $10 million commercial property policy with a global reinsurer. If the building suffers a total loss, how much does the regional insurer retain?",
+        "choices": [
+          "$10 million",
+          "$6 million",
+          "$4 million",
+          "$0"
+        ],
+        "answer": 2,
+        "explanation": "The regional insurer retains 40% of the $10 million risk, which equals $4 million; the reinsurer covers the remaining $6 million. Reinsurance transfers a proportional share of both premium and loss to the reinsurer."
+      },
+      {
+        "stem": "A risk manager implements sprinkler systems throughout a warehouse to limit fire damage. This is an example of which risk treatment strategy?",
+        "choices": [
+          "Risk avoidance",
+          "Risk transfer",
+          "Loss reduction",
+          "Risk financing"
+        ],
+        "answer": 2,
+        "explanation": "Loss reduction (a subcategory of risk mitigation/reduction) involves measures taken after a loss event begins to minimize its severity — sprinklers do not prevent fires but limit their spread and damage. Risk avoidance would mean ceasing the warehouse operations entirely."
+      },
+      {
+        "stem": "Company A contracts with a vendor such that the vendor assumes liability for any injuries caused by the vendor's equipment on Company A's premises. Which risk financing technique does this illustrate?",
+        "choices": [
+          "Self-insurance",
+          "Risk transfer via contract",
+          "Captive insurance",
+          "Finite risk program"
+        ],
+        "answer": 1,
+        "explanation": "Contractual risk transfer shifts financial responsibility for a specified exposure to another party through a hold-harmless or indemnification agreement, which is a non-insurance form of risk transfer. Self-insurance involves retaining and internally funding losses, not shifting them contractually."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Enterprise Risk Management (ERM)",
+        "definition": "A strategic, organization-wide framework that identifies, assesses, and responds to all categories of risk in an integrated manner to support the achievement of business objectives."
+      },
+      {
+        "term": "Risk Matrix",
+        "definition": "A two-dimensional analytical tool that plots risks according to their likelihood and potential impact to help prioritize risk treatment decisions."
+      },
+      {
+        "term": "Captive Insurance Company",
+        "definition": "A wholly owned subsidiary created by a parent organization to formally insure the parent's own risks, functioning as a planned form of risk retention with insurance company structure."
+      },
+      {
+        "term": "Reinsurance",
+        "definition": "A transaction in which a primary insurer transfers a portion of its own risk to a reinsurance company in exchange for a share of the premium, stabilizing the primary insurer's financial position."
+      },
+      {
+        "term": "Total Cost of Risk (TCOR)",
+        "definition": "The comprehensive measure of an organization's risk-related expenditures, including insurance premiums, retained losses, risk management administrative costs, and indirect costs of losses."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2719 @@
+{
+ "org": "deca",
+ "name": "DECA",
+ "fullName": "DECA",
+ "color": "#0B5FA5",
+ "season": "2026-2027",
+ "sourceUrl": "https://www.deca.org/compete",
+ "sourceCheckedAt": null,
+ "note": "Event names and formats are from general knowledge and the reference screenshots. Official guideline pages could not be reached from the build environment; every event not marked reference_observed must be checked against the official source before launch.",
+ "clusters": [
+  {
+   "id": "deca-bac",
+   "code": "BAC",
+   "name": "Business Administration Core exam",
+   "questionCount": 100,
+   "minutes": 60,
+   "verification": "reference_observed"
+  },
+  {
+   "id": "deca-bma",
+   "code": "BMA",
+   "name": "Business Management and Administration exam",
+   "questionCount": 100,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "deca-ent",
+   "code": "ENT",
+   "name": "Entrepreneurship exam",
+   "questionCount": 100,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "deca-fin",
+   "code": "FIN",
+   "name": "Finance exam",
+   "questionCount": 100,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "deca-ht",
+   "code": "HT",
+   "name": "Hospitality and Tourism exam",
+   "questionCount": 100,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "deca-mkt",
+   "code": "MKT",
+   "name": "Marketing exam",
+   "questionCount": 100,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "deca-pfl",
+   "code": "PFL",
+   "name": "Personal Financial Literacy exam",
+   "questionCount": 100,
+   "minutes": null,
+   "verification": "unverified"
+  }
+ ],
+ "events": [
+  {
+   "code": "PBM",
+   "name": "Principles of Business Management and Administration",
+   "category": "Principles (first-year members)",
+   "formatLabel": "Exam + role-play",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bac",
+     "label": "Business Administration Core exam",
+     "questions": 100,
+     "minutes": 60
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "indicators": 4,
+     "count": 1
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 0
+  },
+  {
+   "code": "PEN",
+   "name": "Principles of Entrepreneurship",
+   "category": "Principles (first-year members)",
+   "formatLabel": "Exam + role-play",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bac",
+     "label": "Business Administration Core exam",
+     "questions": 100,
+     "minutes": 60
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "indicators": 4,
+     "count": 1
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 1
+  },
+  {
+   "code": "PFN",
+   "name": "Principles of Finance",
+   "category": "Principles (first-year members)",
+   "formatLabel": "Exam + role-play",
+   "cluster": "Finance",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bac",
+     "label": "Business Administration Core exam",
+     "questions": 100,
+     "minutes": 60
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "indicators": 4,
+     "count": 1
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 2
+  },
+  {
+   "code": "PHT",
+   "name": "Principles of Hospitality and Tourism",
+   "category": "Principles (first-year members)",
+   "formatLabel": "Exam + role-play",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bac",
+     "label": "Business Administration Core exam",
+     "questions": 100,
+     "minutes": 60
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "indicators": 4,
+     "count": 1
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 3
+  },
+  {
+   "code": "PMK",
+   "name": "Principles of Marketing",
+   "category": "Principles (first-year members)",
+   "formatLabel": "Exam + role-play",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bac",
+     "label": "Business Administration Core exam",
+     "questions": 100,
+     "minutes": 60
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "indicators": 4,
+     "count": 1
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 4
+  },
+  {
+   "code": "ACT",
+   "name": "Accounting Applications Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Finance",
+   "components": {
+    "exam": {
+     "clusterId": "deca-fin",
+     "label": "Finance exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 5
+  },
+  {
+   "code": "AAM",
+   "name": "Apparel and Accessories Marketing Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 6
+  },
+  {
+   "code": "ASM",
+   "name": "Automotive Services Marketing Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 7
+  },
+  {
+   "code": "BFS",
+   "name": "Business Finance Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Finance",
+   "components": {
+    "exam": {
+     "clusterId": "deca-fin",
+     "label": "Finance exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 8
+  },
+  {
+   "code": "BSM",
+   "name": "Business Services Marketing Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 9
+  },
+  {
+   "code": "ENT",
+   "name": "Entrepreneurship Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 10
+  },
+  {
+   "code": "FMS",
+   "name": "Food Marketing Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 11
+  },
+  {
+   "code": "HLM",
+   "name": "Hotel and Lodging Management Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and Tourism exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 12
+  },
+  {
+   "code": "HRM",
+   "name": "Human Resources Management Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bma",
+     "label": "Business Management and Administration exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 13
+  },
+  {
+   "code": "MCS",
+   "name": "Marketing Communications Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 14
+  },
+  {
+   "code": "QSRM",
+   "name": "Quick Serve Restaurant Management Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and Tourism exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 15
+  },
+  {
+   "code": "RFSM",
+   "name": "Restaurant and Food Service Management Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and Tourism exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 16
+  },
+  {
+   "code": "SEM",
+   "name": "Sports and Entertainment Marketing Series",
+   "category": "Individual series",
+   "formatLabel": "Exam + 2 role-plays",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 2
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 17
+  },
+  {
+   "code": "PFL",
+   "name": "Personal Financial Literacy",
+   "category": "Personal financial literacy",
+   "formatLabel": "Exam + role-play",
+   "cluster": "Finance",
+   "components": {
+    "exam": {
+     "clusterId": "deca-pfl",
+     "label": "Personal Financial Literacy exam",
+     "questions": 100
+    },
+    "roleplay": {
+     "prepMinutes": 10,
+     "performMinutes": 10,
+     "count": 1
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 18
+  },
+  {
+   "code": "BLTDM",
+   "name": "Business Law and Ethics Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "exam": {
+     "clusterId": "deca-bma",
+     "label": "Business Management and Administration exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 19
+  },
+  {
+   "code": "BTDM",
+   "name": "Buying and Merchandising Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 20
+  },
+  {
+   "code": "ETDM",
+   "name": "Entrepreneurship Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 21
+  },
+  {
+   "code": "FTDM",
+   "name": "Financial Services Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Finance",
+   "components": {
+    "exam": {
+     "clusterId": "deca-fin",
+     "label": "Finance exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 22
+  },
+  {
+   "code": "HTDM",
+   "name": "Hospitality Services Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and Tourism exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 23
+  },
+  {
+   "code": "MTDM",
+   "name": "Marketing Management Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 24
+  },
+  {
+   "code": "STDM",
+   "name": "Sports and Entertainment Marketing Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 25
+  },
+  {
+   "code": "TTDM",
+   "name": "Travel and Tourism Team Decision Making",
+   "category": "Team decision making",
+   "formatLabel": "Exam + case study (team of 2)",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and Tourism exam",
+     "questions": 100
+    },
+    "caseStudy": {
+     "prepMinutes": 30,
+     "performMinutes": 15,
+     "team": true
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "pi",
+     "label": "Performance indicators",
+     "description": "How well each performance indicator listed in the scenario is addressed and explained."
+    },
+    {
+     "id": "reason",
+     "label": "Reason effectively and use systems thinking",
+     "description": "Logical analysis that connects the recommendation to the business situation."
+    },
+    {
+     "id": "communicate",
+     "label": "Communicate clearly",
+     "description": "Organized, confident, professional delivery the judge can follow."
+    },
+    {
+     "id": "creativity",
+     "label": "Show evidence of creativity",
+     "description": "Original, practical ideas beyond the obvious answer."
+    },
+    {
+     "id": "overall",
+     "label": "Overall impression",
+     "description": "Professionalism and how well the judge's questions were handled."
+    }
+   ],
+   "position": 26
+  },
+  {
+   "code": "BOR",
+   "name": "Business Services Operations Research",
+   "category": "Business operations research",
+   "formatLabel": "Written paper + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Research paper"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-bma",
+     "label": "Business management knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 27
+  },
+  {
+   "code": "BMOR",
+   "name": "Buying and Merchandising Operations Research",
+   "category": "Business operations research",
+   "formatLabel": "Written paper + presentation",
+   "cluster": "Marketing",
+   "components": {
+    "written": {
+     "label": "Research paper"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 28
+  },
+  {
+   "code": "FOR",
+   "name": "Finance Operations Research",
+   "category": "Business operations research",
+   "formatLabel": "Written paper + presentation",
+   "cluster": "Finance",
+   "components": {
+    "written": {
+     "label": "Research paper"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-fin",
+     "label": "Finance knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 29
+  },
+  {
+   "code": "HTOR",
+   "name": "Hospitality and Tourism Operations Research",
+   "category": "Business operations research",
+   "formatLabel": "Written paper + presentation",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "written": {
+     "label": "Research paper"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and tourism knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 30
+  },
+  {
+   "code": "SEOR",
+   "name": "Sports and Entertainment Marketing Operations Research",
+   "category": "Business operations research",
+   "formatLabel": "Written paper + presentation",
+   "cluster": "Marketing",
+   "components": {
+    "written": {
+     "label": "Research paper"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 31
+  },
+  {
+   "code": "PMBS",
+   "name": "Project Management Business Solutions",
+   "category": "Project management",
+   "formatLabel": "Written project + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Project report"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 32
+  },
+  {
+   "code": "PMCD",
+   "name": "Project Management Career Development",
+   "category": "Project management",
+   "formatLabel": "Written project + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Project report"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 33
+  },
+  {
+   "code": "PMCA",
+   "name": "Project Management Community Awareness",
+   "category": "Project management",
+   "formatLabel": "Written project + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Project report"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 34
+  },
+  {
+   "code": "PMCG",
+   "name": "Project Management Community Giving",
+   "category": "Project management",
+   "formatLabel": "Written project + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Project report"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 35
+  },
+  {
+   "code": "PMFL",
+   "name": "Project Management Financial Literacy",
+   "category": "Project management",
+   "formatLabel": "Written project + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Project report"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 36
+  },
+  {
+   "code": "PMSP",
+   "name": "Project Management Sales Project",
+   "category": "Project management",
+   "formatLabel": "Written project + presentation",
+   "cluster": "Business Management and Administration",
+   "components": {
+    "written": {
+     "label": "Project report"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-pm",
+     "label": "Project management"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 37
+  },
+  {
+   "code": "EIP",
+   "name": "Innovation Plan",
+   "category": "Entrepreneurship",
+   "formatLabel": "Written plan + presentation",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "written": {
+     "label": "Business plan"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 38
+  },
+  {
+   "code": "ESB",
+   "name": "Start-Up Business Plan",
+   "category": "Entrepreneurship",
+   "formatLabel": "Written plan + presentation",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "written": {
+     "label": "Business plan"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 39
+  },
+  {
+   "code": "EIB",
+   "name": "Independent Business Plan",
+   "category": "Entrepreneurship",
+   "formatLabel": "Written plan + presentation",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "written": {
+     "label": "Business plan"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 40
+  },
+  {
+   "code": "IBP",
+   "name": "International Business Plan",
+   "category": "Entrepreneurship",
+   "formatLabel": "Written plan + presentation",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "written": {
+     "label": "Business plan"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 41
+  },
+  {
+   "code": "EBG",
+   "name": "Business Growth Plan",
+   "category": "Entrepreneurship",
+   "formatLabel": "Written plan + presentation",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "written": {
+     "label": "Business plan"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 42
+  },
+  {
+   "code": "EFB",
+   "name": "Franchise Business Plan",
+   "category": "Entrepreneurship",
+   "formatLabel": "Written plan + presentation",
+   "cluster": "Entrepreneurship",
+   "components": {
+    "written": {
+     "label": "Business plan"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    },
+    "knowledge": {
+     "clusterId": "deca-ent",
+     "label": "Entrepreneurship knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 43
+  },
+  {
+   "code": "IMCE",
+   "name": "Integrated Marketing Campaign \u2013 Event",
+   "category": "Integrated marketing campaign",
+   "formatLabel": "Exam + written campaign + presentation",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "written": {
+     "label": "Campaign"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 44
+  },
+  {
+   "code": "IMCP",
+   "name": "Integrated Marketing Campaign \u2013 Product",
+   "category": "Integrated marketing campaign",
+   "formatLabel": "Exam + written campaign + presentation",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "written": {
+     "label": "Campaign"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 45
+  },
+  {
+   "code": "IMCS",
+   "name": "Integrated Marketing Campaign \u2013 Service",
+   "category": "Integrated marketing campaign",
+   "formatLabel": "Exam + written campaign + presentation",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "written": {
+     "label": "Campaign"
+    },
+    "presentation": {
+     "label": "Presentation to judge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 46
+  },
+  {
+   "code": "FCE",
+   "name": "Financial Consulting",
+   "category": "Professional selling and consulting",
+   "formatLabel": "Exam + sales/consulting presentation",
+   "cluster": "Finance",
+   "components": {
+    "exam": {
+     "clusterId": "deca-fin",
+     "label": "Finance exam",
+     "questions": 100
+    },
+    "presentation": {
+     "label": "Sales or consulting presentation"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 47
+  },
+  {
+   "code": "HTPS",
+   "name": "Hospitality and Tourism Professional Selling",
+   "category": "Professional selling and consulting",
+   "formatLabel": "Exam + sales/consulting presentation",
+   "cluster": "Hospitality and Tourism",
+   "components": {
+    "exam": {
+     "clusterId": "deca-ht",
+     "label": "Hospitality and Tourism exam",
+     "questions": 100
+    },
+    "presentation": {
+     "label": "Sales or consulting presentation"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 48
+  },
+  {
+   "code": "PSE",
+   "name": "Professional Selling",
+   "category": "Professional selling and consulting",
+   "formatLabel": "Exam + sales/consulting presentation",
+   "cluster": "Marketing",
+   "components": {
+    "exam": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing exam",
+     "questions": 100
+    },
+    "presentation": {
+     "label": "Sales or consulting presentation"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 49
+  },
+  {
+   "code": "SMG",
+   "name": "Stock Market Game",
+   "category": "Online events",
+   "formatLabel": "Online simulation + presentation",
+   "cluster": "Finance",
+   "components": {
+    "production": {
+     "label": "Online simulation"
+    },
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "deca-fin",
+     "label": "Finance knowledge"
+    }
+   },
+   "team": "1\u20133 members",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 50
+  },
+  {
+   "code": "SBE",
+   "name": "School-based Enterprise",
+   "category": "Chapter and school-based enterprise",
+   "formatLabel": "Written documentation + presentation",
+   "cluster": "Marketing",
+   "components": {
+    "written": {
+     "label": "Certification documentation"
+    },
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "deca-mkt",
+     "label": "Marketing knowledge"
+    }
+   },
+   "team": "chapter",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 51
+  }
+ ]
+}

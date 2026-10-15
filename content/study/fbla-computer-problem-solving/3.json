@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Networks, printers and connectivity troubleshooting",
+    "objective": "Troubleshoot network connections, IP addressing, wireless and printer problems using command-line tools and a layer-by-layer approach.",
+    "body": "When a user says the internet is down, the real cause could be a cable, a Wi-Fi setting, an IP address, a name-resolution failure or a problem far outside the building. Tests check whether you can narrow it down logically instead of guessing.\n\n**Addressing basics.** Every device on a network needs an IP address, a subnet mask and a *default gateway*, the router that leads to other networks. A *DHCP* server hands these settings out automatically. If DHCP fails, Windows assigns itself an *APIPA* address beginning with 169.254, which works only on the local segment, so seeing that address is a strong clue the device never reached the DHCP server. *DNS* translates names such as a school website address into IP addresses; if sites load by IP address but not by name, DNS is the problem.\n\n**Command-line tools.**\n- *ipconfig* (ip or ifconfig on Linux and macOS) shows the current address, mask and gateway. *ipconfig /release* and *ipconfig /renew* request a new DHCP lease.\n- *ping* tests whether a host replies.\n- *tracert* (traceroute) lists each router hop and shows where the path stops.\n- *nslookup* tests DNS name resolution.\n\n**Work in layers.** Start with the physical connection: is the cable plugged in with a link light, or is Wi-Fi on and joined to the right network? Next check the IP settings, then ping the default gateway, then ping an outside IP address, then test a name. Each result tells you which layer failed.\n\n**Wireless issues.** Weak signal comes from distance and obstacles such as concrete or metal. Interference comes from crowded channels and nearby devices. The 2.4 GHz band reaches farther and passes through walls better, while the 5 GHz band is faster but has a shorter range.\n\n**Printers.** Evenly faded laser prints point to low toner. Marks that repeat at the same spacing down the page point to a drum or roller. Streaks or gaps on an inkjet often clear with a nozzle cleaning. If no one can print, look for a stuck job in the queue and restart the print spooler service.\n\nThe most common mistake is replacing hardware for what is really a configuration problem. A 169.254 address or a DNS failure is fixed with settings, not a new network card.",
+    "examples": [
+      "A laptop shows the address 169.254.12.7. Running ipconfig /release and then ipconfig /renew gets a 192.168.1.45 address from the DHCP server, and browsing works again.",
+      "A user can ping a known outside IP address but cannot open any website by name. The connection itself works, so the technician tests name resolution with nslookup and corrects the DNS server setting.",
+      "Every page from a laser printer has a faint smudge repeating every 9 cm. Because the mark repeats at a fixed spacing, the technician inspects the drum and rollers rather than the toner level."
+    ],
+    "questions": [
+      {
+        "stem": "A PC's ipconfig output shows the address 169.254.33.10. What does this most likely indicate?",
+        "choices": ["The PC has a valid static public address", "The PC could not get an address from a DHCP server", "The DNS server has failed", "The PC is connected through a VPN"],
+        "answer": 1,
+        "explanation": "A 169.254.x.x address is self-assigned (APIPA) when no DHCP server answers. It allows only local communication, so the fix is to restore contact with DHCP."
+      },
+      {
+        "stem": "A user can reach websites by typing their IP addresses but not by typing their names. Which service is most likely failing?",
+        "choices": ["DHCP", "The default gateway", "The network cable", "DNS"],
+        "answer": 3,
+        "explanation": "Reaching sites by IP address proves the cable, address and gateway work. Only the translation of names into addresses, which is DNS, is failing."
+      },
+      {
+        "stem": "Which command lists each router hop between a computer and a distant server, revealing where a connection stops?",
+        "choices": ["ipconfig", "nslookup", "tracert", "chkdsk"],
+        "answer": 2,
+        "explanation": "tracert (traceroute on Linux and macOS) reports every hop along the path. ipconfig shows local settings, nslookup tests DNS and chkdsk checks a disk."
+      },
+      {
+        "stem": "A technician can ping the computer's default gateway but cannot ping any address outside the local network. Where is the problem most likely located?",
+        "choices": ["Beyond the local router, such as its internet link or the provider", "In the computer's network cable", "In the computer's network adapter", "In the computer's wireless driver"],
+        "answer": 0,
+        "explanation": "A successful ping to the gateway proves the computer's cable, adapter and driver work. Traffic stops after the router, so the router's outside connection or the provider is next to check."
+      },
+      {
+        "stem": "A laptop gets a weak, unreliable 5 GHz Wi-Fi signal in a room far from the access point, behind two concrete walls. Which change is most likely to improve the connection?",
+        "choices": ["Switch the laptop to a static IP address", "Change the DNS server address", "Clear the DNS cache with ipconfig /flushdns", "Connect on the 2.4 GHz band or add an access point closer to the room"],
+        "answer": 3,
+        "explanation": "The issue is signal strength. The 2.4 GHz band travels farther and through walls better, and a closer access point shortens the distance; IP and DNS settings do not change signal strength."
+      },
+      {
+        "stem": "Laser-printed pages are evenly faded from top to bottom. What is the most likely cause?",
+        "choices": ["The print spooler service has stopped", "The toner cartridge is low", "The printer driver is the wrong version", "The paper tray is overfilled"],
+        "answer": 1,
+        "explanation": "Even fading across the whole page is the classic sign of low toner. A stopped spooler prevents printing entirely, and a wrong driver usually produces garbled output."
+      },
+      {
+        "stem": "No one in an office can print. The queue shows one job stuck with an error and several others waiting behind it. What is the best first step?",
+        "choices": ["Replace the printer's fuser assembly", "Reinstall the operating system on every PC", "Cancel the stuck job and restart the print spooler", "Replace the office network switch"],
+        "answer": 2,
+        "explanation": "A single stuck job can block the whole queue. Clearing it and restarting the spooler is quick and non-destructive, and it tests the most likely theory first."
+      },
+      {
+        "stem": "In what order should a technician test a no-internet complaint to isolate the failing layer most efficiently?",
+        "choices": ["Test a name, ping an outside address, check the cable, then check the IP settings", "Check the link or Wi-Fi, check IP settings, ping the gateway, ping an outside address, then test a name", "Reinstall the network driver, replace the cable, then check the link light", "Ping an outside address, replace the router, then check the IP settings"],
+        "answer": 1,
+        "explanation": "Working from the physical link upward means each passing test rules out a layer, so the first failure pinpoints the problem. Replacing parts before testing wastes time and money."
+      }
+    ],
+    "flashcards": [
+      { "term": "DHCP", "definition": "A service that automatically assigns devices an IP address, subnet mask, default gateway and DNS server." },
+      { "term": "APIPA address", "definition": "A self-assigned 169.254.x.x address used when a device cannot reach a DHCP server; it works only on the local segment." },
+      { "term": "Default gateway", "definition": "The router address a device sends traffic to when the destination is on a different network." },
+      { "term": "DNS", "definition": "The system that translates human-readable domain names into IP addresses." },
+      { "term": "Print spooler", "definition": "The service that queues print jobs and sends them to the printer; restarting it clears many stuck jobs." }
+    ]
+  }
+]

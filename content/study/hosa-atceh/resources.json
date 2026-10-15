@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Environmental Health Topics",
+    "url": "https://www.niehs.nih.gov/health/topics",
+    "publisher": "NIEHS (NIH)",
+    "kind": "reference",
+    "note": "NIH A-Z list on air pollution, toxic chemicals, PFAS and other environmental health hazards."
+  },
+  {
+    "title": "NIOSH A-Z Index",
+    "url": "https://www.cdc.gov/niosh/az/index.html",
+    "publisher": "CDC / NIOSH",
+    "kind": "reference",
+    "note": "CDC index of workplace hazards such as noise, heat, chemicals and falls."
+  },
+  {
+    "title": "WHO Fact Sheets",
+    "url": "https://www.who.int/news-room/fact-sheets",
+    "publisher": "World Health Organization",
+    "kind": "reference",
+    "note": "WHO fact sheets on air quality, water, sanitation and climate-related health risks."
+  }
+]

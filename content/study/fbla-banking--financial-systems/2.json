@@ -1,0 +1,69 @@
+[
+  {
+    "title": "The Federal Reserve, monetary policy and regulation",
+    "objective": "Describe the Federal Reserve's structure and tools, predict the effects of monetary policy, and identify the agencies and laws that protect bank customers.",
+    "body": "Questions about the Federal Reserve and bank regulation appear on nearly every banking test, and they give you credible talking points in a role play when a client asks why rates changed or whether a deposit is safe.\n\n**The Federal Reserve System.** The Fed is the central bank of the United States, created in 1913. It includes a *Board of Governors* in Washington, D.C., whose seven members are appointed by the President and confirmed by the Senate; twelve regional *Federal Reserve Banks*; and the *Federal Open Market Committee* (FOMC), which sets monetary policy. Its *dual mandate* is maximum employment and stable prices. It also supervises many banks and operates key payment systems.\n\n**Monetary policy tools.** The FOMC sets a target range for the *federal funds rate*, the rate banks charge each other for overnight loans of reserves.\n- *Interest on reserve balances*: raising the rate the Fed pays banks on their reserves pushes market rates up.\n- *Open market operations*: buying securities adds reserves and eases policy; selling them drains reserves and tightens it.\n- *Discount rate*: the rate on loans from Reserve Banks to depository institutions.\n- *Reserve requirements*: a classic textbook tool, though the Fed reduced them to zero in 2020.\n*Expansionary* (easy) policy lowers rates to encourage borrowing, spending and hiring; *contractionary* (tight) policy raises rates to slow inflation.\n\n**Who regulates whom.**\n- *FDIC*: insures deposits at member banks up to $250,000 per depositor, per insured bank, for each account ownership category.\n- *NCUA*: charters federal credit unions and insures credit union deposits.\n- *OCC*: charters and supervises national banks.\n- *CFPB*: enforces federal consumer financial protection laws.\nState banking departments charter state banks and supervise them alongside the Fed or the FDIC.\n\n**Key consumer laws.**\n- *Truth in Lending Act*: lenders disclose the APR and finance charge.\n- *Truth in Savings Act*: banks disclose APY and fees on deposit accounts.\n- *Equal Credit Opportunity Act*: bans credit discrimination based on race, color, religion, national origin, sex, marital status, age or receipt of public assistance.\n- *Fair Credit Reporting Act*: governs credit reports and the right to dispute errors.\n- *Bank Secrecy Act*: requires reports on cash transactions over $10,000 and on suspicious activity to fight money laundering.\n\nThe most common mistake is saying the Fed sets mortgage or credit card rates directly. It targets the federal funds rate; banks and markets set the rest.",
+    "examples": [
+      "To fight rising inflation, the FOMC raises its federal funds target range by half a percentage point. Banks raise their prime rates, credit card and auto loan rates climb, and borrowing slows.",
+      "A customer has $180,000 in an individual account and a $200,000 joint account with a sibling at the same FDIC-insured bank. Individual and joint accounts are separate ownership categories, so both balances are fully insured.",
+      "A business deposits $12,000 in cash. The bank files a Currency Transaction Report as the Bank Secrecy Act requires; the report is routine and does not mean the customer did anything wrong."
+    ],
+    "questions": [
+      {
+        "stem": "Which part of the Federal Reserve System sets the target range for the federal funds rate?",
+        "choices": ["Federal Deposit Insurance Corporation", "Federal Open Market Committee", "Office of the Comptroller of the Currency", "U.S. Treasury Department"],
+        "answer": 1,
+        "explanation": "The FOMC is the Fed's monetary policy body and sets the federal funds target range. The FDIC insures deposits, the OCC supervises national banks and the Treasury manages federal finances."
+      },
+      {
+        "stem": "Inflation is running well above the Federal Reserve's goal. Which action is most consistent with contractionary monetary policy?",
+        "choices": ["Lowering the interest rate paid on reserve balances", "Lowering the discount rate", "Selling government securities in open market operations", "Buying large amounts of Treasury bonds"],
+        "answer": 2,
+        "explanation": "Selling securities drains reserves from the banking system and pushes interest rates up, slowing spending. The other three actions ease policy."
+      },
+      {
+        "stem": "A depositor has $300,000 in a single individual savings account at one FDIC-insured bank and no other accounts there. If the bank fails, how much of this balance is covered by FDIC insurance?",
+        "choices": ["$300,000", "$100,000", "$500,000", "$250,000"],
+        "answer": 3,
+        "explanation": "Coverage is $250,000 per depositor, per insured bank, per ownership category. The remaining $50,000 in the single individual account is uninsured."
+      },
+      {
+        "stem": "Which federal agency insures deposits at federally insured credit unions?",
+        "choices": ["National Credit Union Administration", "Federal Deposit Insurance Corporation", "Consumer Financial Protection Bureau", "Securities Investor Protection Corporation"],
+        "answer": 0,
+        "explanation": "The NCUA charters federal credit unions and runs their share insurance fund. The FDIC insures deposits at banks and savings institutions."
+      },
+      {
+        "stem": "Which law requires a lender to disclose the annual percentage rate and the total finance charge before a consumer signs a loan?",
+        "choices": ["Truth in Savings Act", "Truth in Lending Act", "Bank Secrecy Act", "Fair Credit Reporting Act"],
+        "answer": 1,
+        "explanation": "The Truth in Lending Act requires clear disclosure of credit costs so borrowers can compare loans. The Truth in Savings Act covers deposit accounts and APY."
+      },
+      {
+        "stem": "A loan officer denies an applicant because part of the applicant's steady, sufficient income comes from public assistance. Which law does this violate?",
+        "choices": ["Truth in Savings Act", "Fair Debt Collection Practices Act", "Equal Credit Opportunity Act", "Electronic Fund Transfer Act"],
+        "answer": 2,
+        "explanation": "The Equal Credit Opportunity Act forbids credit discrimination based on receipt of public assistance income, along with race, sex, age and other protected traits."
+      },
+      {
+        "stem": "A customer deposits $15,000 in cash at a teller window. What must the bank do under the Bank Secrecy Act?",
+        "choices": ["Refuse the deposit until the customer proves the source", "Freeze the account for 30 days", "Report the customer to the FDIC as a suspected criminal", "File a Currency Transaction Report"],
+        "answer": 3,
+        "explanation": "Banks must file a Currency Transaction Report for cash transactions over $10,000. The report is routine and does not accuse the customer of wrongdoing."
+      },
+      {
+        "stem": "What are the two goals of the Federal Reserve's dual mandate?",
+        "choices": ["Maximum employment and stable prices", "A balanced federal budget and low taxes", "A strong dollar and high stock prices", "Full deposit insurance and zero bank failures"],
+        "answer": 0,
+        "explanation": "Congress directs the Fed to pursue maximum employment and stable prices. Budgets and taxes are set by Congress, not the Fed."
+      }
+    ],
+    "flashcards": [
+      { "term": "Federal funds rate", "definition": "The interest rate banks charge each other for overnight loans of reserves; the FOMC sets a target range for it." },
+      { "term": "Open market operations", "definition": "The Fed's buying and selling of government securities to add or drain bank reserves." },
+      { "term": "FDIC", "definition": "Federal Deposit Insurance Corporation: insures bank deposits up to $250,000 per depositor, per bank, per ownership category." },
+      { "term": "Expansionary monetary policy", "definition": "Central bank actions that lower interest rates and increase the money supply to boost spending and employment." },
+      { "term": "Bank Secrecy Act", "definition": "A federal anti-money-laundering law requiring banks to report large cash transactions and suspicious activity." }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Understanding Medical Words Tutorial",
+    "url": "https://medlineplus.gov/medwords/medicalwords.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "course",
+    "note": "NIH tutorial on decoding medical words, which speeds up reading health texts."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH consumer library to look up unfamiliar conditions and terms while you read."
+  },
+  {
+    "title": "WHO Fact Sheets",
+    "url": "https://www.who.int/news-room/fact-sheets",
+    "publisher": "World Health Organization",
+    "kind": "reference",
+    "note": "WHO fact sheets are short, reliable health readings for practicing comprehension."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Phlebotomy safety, equipment, and the order of draw",
+    "objective": "Identify phlebotomy equipment, select the correct tube for each test, and apply the CLSI order of draw and standard precautions.",
+    "body": "Phlebotomy is the collection of blood for laboratory testing, and nearly every test result a provider sees depends on how well that sample was collected. Before learning to draw blood, a phlebotomist must know the tools, the additives inside each tube, and the safety rules that protect both patient and worker.\n\n**Standard precautions.** Treat all blood and body fluids as potentially infectious. Perform hand hygiene before and after every patient, wear gloves for every collection, and change gloves between patients. The **OSHA Bloodborne Pathogens Standard** requires employers to provide personal protective equipment, hepatitis B vaccination, and **safety-engineered sharps** such as needles with shielding devices. Activate the safety device immediately after withdrawing the needle and discard the whole assembly in a puncture-resistant **sharps container**; never recap a used needle by hand.\n\n**Core equipment.** Most routine draws use the **evacuated tube system**: a double-ended needle, a tube holder, and vacuum tubes that fill automatically. A **winged infusion set** (butterfly) helps with small or fragile veins. Other supplies include a tourniquet, 70% isopropyl alcohol pads, gauze, bandages, and labels.\n\n**Tube additives.** The stopper color signals the additive:\n- Light blue: sodium citrate, for coagulation tests such as PT/INR\n- Red or gold (SST): no anticoagulant or clot activator and gel, for serum chemistry\n- Green: heparin, for plasma chemistry\n- Lavender: EDTA, for the complete blood count\n- Gray: sodium fluoride and potassium oxalate, for glucose and lactate\n\n**Order of draw.** The Clinical and Laboratory Standards Institute (CLSI) order for venipuncture is:\n1. Blood culture bottles or sterile tubes\n2. Light blue (citrate)\n3. Serum tubes, with or without clot activator or gel\n4. Green (heparin)\n5. Lavender (EDTA)\n6. Gray (fluoride/oxalate)\n\nThe order exists to prevent **additive carryover**, in which a trace of one tube's additive rides on the needle into the next tube. EDTA, for example, contains potassium and binds calcium, so carryover into a chemistry tube can produce a falsely high potassium and falsely low calcium. Sterile cultures go first so they are not contaminated. Light blue tubes must be filled to the indicated line because the 9:1 blood-to-citrate ratio matters for clotting results.\n\nAdditive tubes are gently inverted right after filling, never shaken, so the additive mixes without damaging cells. The most common mistake students make is memorizing tube colors without the reason for the order: on exam scenarios, ask which additive could contaminate which test, and the correct sequence follows.",
+    "examples": [
+      "A provider orders a CBC, PT/INR, and basic metabolic panel; the phlebotomist draws light blue, then gold, then lavender.",
+      "After a draw, the phlebotomist snaps the needle's safety shield closed with one hand and drops the full assembly into the sharps container without unscrewing the needle.",
+      "A potassium result of 7.8 with a very low calcium on an otherwise healthy patient suggests EDTA carryover into the chemistry tube."
+    ],
+    "questions": [
+      {
+        "stem": "A phlebotomist must collect a lavender, a light blue, and a green tube. Which sequence follows the CLSI order of draw?",
+        "choices": [
+          "Lavender, green, light blue",
+          "Light blue, green, lavender",
+          "Green, light blue, lavender",
+          "Light blue, lavender, green"
+        ],
+        "answer": 1,
+        "explanation": "Citrate comes before heparin, and heparin before EDTA. Drawing lavender before green risks EDTA carryover that falsely raises potassium in the heparin chemistry sample."
+      },
+      {
+        "stem": "A chemistry report shows an extremely high potassium and low calcium on a patient with no symptoms. The lavender tube was drawn before the gold tube. What is the most likely cause?",
+        "choices": [
+          "The patient was fasting",
+          "The tourniquet was released early",
+          "EDTA carryover into the serum tube",
+          "The gold tube was overfilled"
+        ],
+        "answer": 2,
+        "explanation": "EDTA contains potassium and binds calcium, so carryover produces exactly this pattern. Fasting does not cause dangerous hyperkalemia with low calcium."
+      },
+      {
+        "stem": "Which tube is used most often for a complete blood count?",
+        "choices": [
+          "Lavender (EDTA)",
+          "Gray (sodium fluoride)",
+          "Light blue (sodium citrate)",
+          "Red (no additive)"
+        ],
+        "answer": 0,
+        "explanation": "EDTA preserves cell shape and prevents clotting, making it the CBC tube. Light blue citrate is for coagulation studies, not cell counts."
+      },
+      {
+        "stem": "Blood cultures and a gold SST are ordered. What should be collected first?",
+        "choices": [
+          "The gold SST, because it has gel",
+          "Either one, since order does not matter for two tubes",
+          "A discard tube, then the gold SST",
+          "The blood culture bottles"
+        ],
+        "answer": 3,
+        "explanation": "Sterile cultures come first to avoid contamination. The gold SST is drawn after cultures and citrate, so it never goes first."
+      },
+      {
+        "stem": "Immediately after removing the needle from a patient's arm, what should the phlebotomist do with it?",
+        "choices": [
+          "Recap it using both hands",
+          "Activate the safety device and discard the assembly in a sharps container",
+          "Lay it on the tray until the bandage is applied",
+          "Unscrew the needle from the holder before discarding"
+        ],
+        "answer": 1,
+        "explanation": "OSHA expects immediate activation of the safety feature and disposal of the whole unit. Recapping with two hands is a classic cause of needlestick injuries."
+      },
+      {
+        "stem": "A light blue tube is only half full. Why will the lab likely reject it?",
+        "choices": [
+          "The blood-to-citrate ratio is wrong, which alters clotting times",
+          "Citrate needs air to work",
+          "The gel barrier cannot form",
+          "There is not enough blood for a CBC"
+        ],
+        "answer": 0,
+        "explanation": "Coagulation tests depend on a 9:1 ratio, and underfilling leaves excess citrate that prolongs results. Citrate tubes have no gel barrier, so that distractor confuses them with SSTs."
+      },
+      {
+        "stem": "A glucose specimen will sit for two hours before testing. Which tube best preserves glucose?",
+        "choices": [
+          "Green heparin",
+          "Lavender EDTA",
+          "Gray sodium fluoride",
+          "Red plain"
+        ],
+        "answer": 2,
+        "explanation": "Sodium fluoride inhibits glycolysis so cells stop using up glucose. Heparin prevents clotting but does not stop glucose consumption."
+      },
+      {
+        "stem": "After filling a green heparin tube, how should the phlebotomist mix it?",
+        "choices": [
+          "Shake it vigorously for five seconds",
+          "Leave it upright without mixing",
+          "Roll it between the palms for one minute",
+          "Gently invert it the number of times the manufacturer specifies"
+        ],
+        "answer": 3,
+        "explanation": "Gentle inversion mixes the additive without hemolyzing cells. Vigorous shaking ruptures red cells and ruins potassium and other results."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Order of draw",
+        "definition": "The CLSI sequence for filling tubes: cultures, light blue, serum, green, lavender, gray, designed to prevent additive carryover."
+      },
+      {
+        "term": "Additive carryover",
+        "definition": "Transfer of a tube's additive into the next tube on the needle, which can falsely change test results."
+      },
+      {
+        "term": "Evacuated tube system",
+        "definition": "A collection setup of double-ended needle, holder, and vacuum tubes that fill automatically."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Treating all blood and body fluids as potentially infectious, using hand hygiene and PPE for every patient."
+      },
+      {
+        "term": "Sodium citrate",
+        "definition": "The light blue tube anticoagulant used for coagulation tests, which requires a 9:1 fill ratio."
+      }
+    ]
+  }
+]

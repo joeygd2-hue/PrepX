@@ -1,0 +1,124 @@
+[
+  {
+    "title": "First aid for bleeding, shock, and medical emergencies",
+    "objective": "Control life-threatening bleeding, recognize and manage shock, and prioritize first aid for stroke, heart attack, allergic reactions, seizures and burns.",
+    "body": "Advanced HOSA scenarios combine injuries and illnesses, so you must decide what to treat first. The guiding idea is to fix life threats immediately and then support the person until EMS arrives.\n\n**Bleeding control.** Apply firm, direct pressure with a gauze pad or clean cloth. If blood soaks through, add more dressings on top rather than removing the first layer. For life-threatening bleeding from an arm or leg that direct pressure cannot control, apply a **tourniquet** 2 to 3 inches above the wound (not over a joint), tighten until bleeding stops, and note the time it was applied. Once applied, a tourniquet should be left in place for EMS to remove. **Wound packing** with gauze is used for deep wounds in areas like the groin or armpit where a tourniquet will not work.\n\n**Shock.** **Shock** occurs when the body's organs do not receive enough oxygen-rich blood. Signs include pale, cool, clammy skin, a rapid weak pulse, rapid breathing, restlessness and thirst. Call 911, control bleeding, have the person lie down, keep them warm with a blanket and do not give food or drink.\n\n**Heart attack and stroke.** Chest pressure, pain spreading to the arm, jaw or back, shortness of breath and nausea suggest a heart attack; women and older adults often have less typical symptoms. Call 911 and keep the person resting. For stroke, use the **BE FAST** check:\n- Balance loss\n- Eyes: vision changes\n- Face drooping\n- Arm weakness\n- Speech difficulty\n- Time to call 911 and note when symptoms began\n\n**Allergic reactions.** **Anaphylaxis** is a severe allergic reaction with swelling of the face or throat, hives, wheezing and difficulty breathing. Call 911 and help the person use their own prescribed epinephrine auto-injector, following the device's instructions. Symptoms can return, so the person still needs emergency care.\n\n**Seizures.** Protect the person from injury by moving hard objects away and cushioning the head. Never restrain them or put anything in their mouth. Afterward, roll them onto their side in the **recovery position** if they are breathing. Call 911 if the seizure lasts more than 5 minutes, it is a first seizure, the person is injured or pregnant, or they do not wake normally.\n\n**Burns.** Cool a thermal burn with cool running water for at least 10 minutes, then cover loosely with a clean, dry dressing. Do not apply ice, butter or ointment, and do not break blisters.\n\nThe most common mistake students make is removing blood-soaked dressings to check a wound, which disrupts clotting and restarts heavy bleeding.",
+    "examples": [
+      "A worker's thigh wound spurts blood despite pressure; a coworker applies a tourniquet above the wound and writes the time on it.",
+      "A grandmother's speech suddenly becomes slurred and one side of her face droops; her grandson calls 911 and notes the time symptoms started.",
+      "A student stung by a bee develops throat swelling; a friend calls 911 and helps her use her prescribed epinephrine auto-injector."
+    ],
+    "questions": [
+      {
+        "stem": "Blood soaks through the gauze you are pressing on a forearm wound. What should you do?",
+        "choices": [
+          "Remove the gauze and apply a fresh pad",
+          "Add more gauze on top and keep pressing",
+          "Release pressure to check the wound",
+          "Apply ice directly to the wound"
+        ],
+        "answer": 1,
+        "explanation": "Adding layers keeps clots intact. Removing the soaked gauze disrupts clotting and restarts bleeding."
+      },
+      {
+        "stem": "Direct pressure fails to stop severe bleeding from a lower leg. Where should a tourniquet be placed?",
+        "choices": [
+          "Directly over the wound",
+          "Over the knee joint",
+          "2 to 3 inches above the wound, not over a joint",
+          "Below the wound near the ankle"
+        ],
+        "answer": 2,
+        "explanation": "A tourniquet goes 2 to 3 inches above the wound and avoids joints. Placing it over the knee joint makes it ineffective."
+      },
+      {
+        "stem": "An injured hiker is pale, cool, clammy and restless with a rapid weak pulse. What is the most likely condition?",
+        "choices": [
+          "Heat stroke",
+          "Shock",
+          "Seizure",
+          "Hyperventilation"
+        ],
+        "answer": 1,
+        "explanation": "These signs reflect poor organ perfusion, which is shock. Heat stroke typically causes hot skin and confusion rather than cool, clammy skin."
+      },
+      {
+        "stem": "A man's face droops and his arm drifts down when raised. Besides calling 911, what is the most important information to note?",
+        "choices": [
+          "What he ate for lunch",
+          "The time symptoms began",
+          "His blood type",
+          "His shoe size"
+        ],
+        "answer": 1,
+        "explanation": "Stroke treatments depend on how long ago symptoms started. Other details are far less important for immediate care."
+      },
+      {
+        "stem": "A classmate with a known peanut allergy has hives and is wheezing after lunch. What should you do?",
+        "choices": [
+          "Have her lie down and sleep it off",
+          "Give her water and wait",
+          "Call 911 and help her use her prescribed epinephrine auto-injector",
+          "Induce vomiting"
+        ],
+        "answer": 2,
+        "explanation": "Wheezing with hives suggests anaphylaxis requiring epinephrine and EMS. Waiting allows the airway to swell further."
+      },
+      {
+        "stem": "During a seizure, a bystander tries to place a spoon in the person's mouth. What is the correct response?",
+        "choices": [
+          "Help hold the jaw open",
+          "Stop them; never place objects in the mouth",
+          "Use a wallet instead of a spoon",
+          "Hold the person's arms down"
+        ],
+        "answer": 1,
+        "explanation": "Objects in the mouth can break teeth or block the airway. Restraining the person is also wrong and can cause injury."
+      },
+      {
+        "stem": "A teen spills boiling water on his forearm. What is the best first step?",
+        "choices": [
+          "Apply butter to soothe the skin",
+          "Hold the burn under cool running water for at least 10 minutes",
+          "Cover it with ice",
+          "Pop the blisters to release heat"
+        ],
+        "answer": 1,
+        "explanation": "Cool running water stops the burning process. Ice can damage tissue further, and butter traps heat."
+      },
+      {
+        "stem": "A woman has a minor cut on her hand and a second person nearby is unresponsive and not breathing. Whom do you treat first?",
+        "choices": [
+          "The woman with the cut",
+          "Neither until EMS arrives",
+          "The unresponsive person, starting CPR",
+          "Both equally by alternating"
+        ],
+        "answer": 2,
+        "explanation": "Life-threatening conditions take priority, and cardiac arrest is the greatest threat. A minor cut can wait."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Tourniquet",
+        "definition": "A tight band placed 2 to 3 inches above a limb wound to stop life-threatening bleeding."
+      },
+      {
+        "term": "Shock",
+        "definition": "A condition in which organs do not receive enough oxygen-rich blood, causing pale, cool, clammy skin and a rapid weak pulse."
+      },
+      {
+        "term": "BE FAST",
+        "definition": "Stroke check: Balance, Eyes, Face, Arm, Speech, Time to call 911."
+      },
+      {
+        "term": "Anaphylaxis",
+        "definition": "A severe, life-threatening allergic reaction that can swell the airway and requires epinephrine and EMS."
+      },
+      {
+        "term": "Recovery position",
+        "definition": "Placing a breathing, unresponsive person on their side to keep the airway open and let fluids drain."
+      }
+    ]
+  }
+]

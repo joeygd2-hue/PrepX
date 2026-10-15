@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Resumes, cover letters and research",
+    "objective": "Prepare a targeted resume and cover letter and research the organization so every answer connects to the position.",
+    "body": "In interview events, the impression you make often starts before you walk into the room. Many interview events score a resume, cover letter or application along with the interview, and even when they do not, preparation decides whether your answers sound specific or generic. Judges are really asking one question: would I hire this person for this role?\n\n**Target the resume to the job.** Read the job description and list the skills and qualities it emphasizes, then make sure your resume shows evidence of each one. For most high school students, one page is right. A clear structure works well:\n- Contact information and a short profile or objective aimed at the position\n- Education, with relevant courses, honors or certifications\n- Experience, including jobs, internships, volunteering and leadership roles, in reverse chronological order\n- Skills and activities\n\n**Write accomplishment bullets, not duty lists.** Start each bullet with a strong action verb and include a result, preferably a number. \"Responsible for the club's social media\" tells a judge almost nothing. \"Grew the club's social media following from 300 to 750 in one semester by posting weekly member spotlights\" proves initiative and results.\n\n**Structure the cover letter.** A cover letter is a one-page business letter that connects you to one specific position.\n1. Opening: name the position, how you learned about it and a one-sentence reason you are a strong fit.\n2. Body: one or two paragraphs linking your best two or three accomplishments to the job's requirements.\n3. Closing: restate your interest, ask for an interview and thank the reader.\n\n**Research the organization.** Learn its mission, products or services, customers and recent news. Then prepare three or four stories from your own experience that match what the job requires. Research also gives you material for thoughtful questions at the end of the interview.\n\n**Proofread everything, then have someone else proofread it.** One typo on a one-page document signals carelessness, the opposite of what an applicant wants to show. Keep formatting consistent: one font, aligned dates and bullets that follow the same grammatical pattern.\n\nA common mistake is sending one generic resume and letter to every employer. Judges can tell when materials could have gone to anyone; tailored materials show genuine interest and effort.",
+    "examples": [
+      "Before: 'Worked at a grocery store.' After: 'Trained four new cashiers and kept average checkout time under three minutes during weekend rushes.'",
+      "A student applying for a medical office assistant role sees that the posting stresses scheduling and patient privacy, so the resume highlights managing the volunteer calendar for a blood drive and completing a privacy training module.",
+      "Cover letter opening: 'I am applying for the marketing intern position posted on your website. As my chapter's social media officer, I grew our audience by 150% in one semester, and I would bring that same energy to your team.'"
+    ],
+    "questions": [
+      {
+        "stem": "Which resume bullet would make the strongest impression on an interviewer?",
+        "choices": [
+          "Organized a canned-food drive that collected 1,200 items in three weeks",
+          "Was responsible for helping out with the canned-food drive",
+          "Participated in various community service activities",
+          "Hard-working team player with excellent people skills"
+        ],
+        "answer": 0,
+        "explanation": "The strongest bullet starts with an action verb and shows a measurable result. The others describe duties or traits without any evidence."
+      },
+      {
+        "stem": "A student lists past jobs on a resume in reverse chronological order. Which job appears first?",
+        "choices": [
+          "The most recent position",
+          "The first job the student ever held",
+          "The position with the highest pay",
+          "The job held for the longest time"
+        ],
+        "answer": 0,
+        "explanation": "Reverse chronological order runs from newest to oldest, so the most recent position comes first. Employers usually care most about recent experience."
+      },
+      {
+        "stem": "What belongs in the opening paragraph of a cover letter?",
+        "choices": [
+          "The specific position, how you learned of it and a brief reason you fit",
+          "A complete list of every course you have taken in high school",
+          "Your expected pay and the work schedule you would prefer",
+          "A summary of your hobbies and your favorite sports teams"
+        ],
+        "answer": 0,
+        "explanation": "The opening should tell the reader exactly which job you want and why you are worth reading further. Pay expectations and unrelated details do not belong there."
+      },
+      {
+        "stem": "An applicant has a week before an interview for a pharmacy technician trainee position. Which preparation is most valuable?",
+        "choices": [
+          "Study the job posting and the employer's mission, then prepare stories that match the role's requirements",
+          "Memorize one polished answer and recite it in response to every question",
+          "Focus only on choosing an outfit, since appearance decides the outcome",
+          "Read general interview tips but skip researching this particular employer"
+        ],
+        "answer": 0,
+        "explanation": "Research plus prepared, relevant examples lets the applicant connect every answer to what the employer needs. Generic preparation produces generic answers."
+      }
+    ],
+    "flashcards": [
+      { "term": "Resume", "definition": "A concise summary, usually one page for students, of a candidate's education, experience, skills and accomplishments." },
+      { "term": "Cover letter", "definition": "A one-page business letter that introduces an applicant and connects their strengths to one specific position." },
+      { "term": "Reverse chronological order", "definition": "Listing experiences from most recent to oldest, the standard order for resume sections." },
+      { "term": "Action verb", "definition": "A strong verb such as led, built or increased that begins a resume bullet and shows what the applicant did." },
+      { "term": "Job description", "definition": "An employer's summary of a role's duties and required qualifications, used to tailor application materials." }
+    ]
+  }
+]

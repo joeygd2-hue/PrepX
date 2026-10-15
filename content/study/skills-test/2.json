@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Answering multiple-choice questions",
+    "objective": "Apply a repeatable method to read stems, eliminate distractors and choose the best answer.",
+    "body": "Most competition tests are multiple choice, and every question has the same parts: a *stem* that asks something, one correct *key*, and three *distractors* written to look right to someone who half-knows the topic. A steady method keeps you from falling for them.\n\n1. **Read the whole stem first.** Know exactly what is being asked before you look at the choices. Note the key words, especially negatives like NOT, EXCEPT or LEAST. Missing a single NOT turns a question you know into a wrong answer.\n2. **Predict the answer.** Try to answer in your head before reading the choices. If your prediction appears, it is probably right, and the distractors have less chance to pull you off course.\n3. **Read every choice.** Many tests ask for the *best* answer, so a choice can be partly true and still lose to a better one. Do not stop at the first choice that sounds reasonable.\n4. **Eliminate.** Cross out choices that are clearly wrong. Going from four choices to two doubles your odds even when you are unsure.\n5. **Choose and move on.** Pick the strongest remaining choice, mark the question if you want to revisit it, and keep going.\n\n**Watch for clues and traps.** Choices with absolute words such as *always*, *never* or *only* are often wrong because few business or health rules have no exceptions, but they are not automatically wrong, so check them against what you know. A choice that is true but does not answer the question asked is a classic distractor. In scenario questions, the details in the stem point to the concept being tested, so ask which term or rule the situation describes.\n\n**Calculation questions.** Write out the formula, plug in the numbers and check that your answer has the right units and a sensible size. Test writers often include the answer produced by a common slip, such as dividing by the wrong number in a percentage problem, so finding your number among the choices is not proof that it is right.\n\nThe most common mistake is reading the choices before understanding the stem. Let the question tell you what to look for, then go looking.",
+    "examples": [
+      "Stem: Which is NOT a fixed cost for a cafe? A student who skims picks rent, which is a fixed cost, instead of coffee beans, which rise and fall with sales.",
+      "Unsure on a question, a student eliminates two choices that describe the wrong concept, turning a 25 percent guess into a 50 percent choice.",
+      "An item costs $40 and sells for $50. Markup on cost is $10 ÷ $40 = 25 percent; the distractor of 20 percent comes from dividing by the $50 price instead."
+    ],
+    "questions": [
+      {
+        "stem": "A question reads: Which of the following is LEAST likely to improve customer retention? What should you do first?",
+        "choices": [
+          "Pick the choice that would improve retention the most",
+          "Skip it, because negative questions are designed to trick you",
+          "Choose the longest choice, since it is the most detailed",
+          "Note the word LEAST and look for the weakest option"
+        ],
+        "answer": 3,
+        "explanation": "LEAST reverses the question, so the key is the option with the smallest effect. Picking the strongest option is the trap the negative word sets."
+      },
+      {
+        "stem": "You narrow a question to two choices. One is a true statement that does not address what the stem asks; the other directly answers the stem. Which should you choose?",
+        "choices": [
+          "The true statement, because accurate facts are always correct",
+          "The choice that directly answers what the stem asks",
+          "Whichever of the two choices is longer",
+          "Neither, leaving it blank to avoid a wrong answer"
+        ],
+        "answer": 1,
+        "explanation": "A true but irrelevant statement is a classic distractor. The key must answer the specific question in the stem."
+      },
+      {
+        "stem": "A test asks for the percentage increase when a store's sales rise from $80,000 to $100,000. Which answer is correct?",
+        "choices": [
+          "20 percent",
+          "25 percent",
+          "80 percent",
+          "125 percent"
+        ],
+        "answer": 1,
+        "explanation": "Percentage increase uses the starting value as the base: ($100,000 − $80,000) ÷ $80,000 = 0.25, or 25 percent. The 20 percent distractor comes from dividing by the new value."
+      },
+      {
+        "stem": "One choice says a manager should always use the same leadership style in every situation. How should you treat this choice?",
+        "choices": [
+          "Pick it, because strong wording signals a confident answer",
+          "Treat it with suspicion and check whether exceptions exist",
+          "Ignore the wording and choose based on answer length",
+          "Assume that any absolute word makes a choice correct"
+        ],
+        "answer": 1,
+        "explanation": "Absolute words like always allow no exceptions, and most management ideas depend on the situation, so such choices are often wrong. Check them against what you know rather than rejecting them blindly."
+      }
+    ],
+    "flashcards": [
+      { "term": "Stem", "definition": "The part of a multiple-choice question that presents the problem or asks the question." },
+      { "term": "Key", "definition": "The correct answer choice on a multiple-choice question." },
+      { "term": "Distractor", "definition": "An incorrect answer choice written to seem plausible to someone who partly knows the material." },
+      { "term": "Process of elimination", "definition": "Ruling out clearly wrong choices to raise the odds of picking the correct one." },
+      { "term": "Absolute qualifier", "definition": "A word such as always, never or only that allows no exceptions and often signals a wrong choice." }
+    ]
+  }
+]

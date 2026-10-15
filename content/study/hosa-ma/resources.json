@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Fundamentals of Nursing",
+    "url": "https://openstax.org/books/fundamentals-nursing/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing text on vital signs, infection control, documentation and patient care basics."
+  },
+  {
+    "title": "Medical Tests",
+    "url": "https://medlineplus.gov/lab-tests/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH guides to common lab tests a medical assistant may collect or explain."
+  },
+  {
+    "title": "Understanding Medical Words: Abbreviations",
+    "url": "https://medlineplus.gov/medwords/abbreviations1.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus tutorial on medical abbreviations used in charts and orders."
+  }
+]

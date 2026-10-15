@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Reading the scenario and using prep time",
+    "objective": "Turn a role-play scenario into a clear plan before you meet the judge.",
+    "body": "In a role-play you receive a written scenario, a short prep period and then a conversation with a judge who plays a character, such as a store owner, a client or your manager. The prep period is where most strong performances are won. Formats differ by organization and event, so always check the current guidelines for prep time, interaction time and what notes you may bring in.\n\n**Read for four things.** As you read, find:\n1. **Your role:** who you are, such as a new marketing assistant or an outside consultant.\n2. **The judge's role:** who you are talking to and what they care about, such as costs, customers or staff.\n3. **The task:** what you must deliver, such as a plan, a recommendation or an explanation.\n4. **The performance indicators:** the specific skills listed in the scenario that the judge will score.\n\nUnderline the task sentence. Everything you say should help complete it.\n\n**Plan with an outline, not a script.** Use the prep time to jot a simple structure on your note paper:\n- Opening: greet the judge by their character's role, introduce yourself in your role and state the purpose of the meeting.\n- Body: one section for each performance indicator, with a definition, an explanation and a specific idea for this business.\n- Close: summarize your recommendation, state a next step and invite questions.\n\nWrite key words, not full sentences. Full sentences tempt you to read aloud and lose eye contact.\n\n**Budget your prep time.** Spend the first part reading closely, the largest part building your outline and ideas, and the last minute or so rehearsing your opening line in your head. A confident first 20 seconds sets the tone for the whole conversation.\n\n**Use the details.** Scenarios include facts such as the business's location, size, customers or budget for a reason. Ideas that use those facts sound tailored to the business; generic ideas sound memorized.\n\nA common mistake is spending most of the prep time on one indicator you know well and leaving the others blank. Sketch something for every indicator first, then go back and add depth.",
+    "examples": [
+      "Scenario: you are the assistant manager of a family-owned bike shop, and the owner wants ideas to raise spring sales. Your role is assistant manager, the judge plays the owner, and the task is to present sales ideas.",
+      "A competitor's prep outline: Opening (greet the owner, state the purpose) / Indicator 1: promotion (bundle helmets with bikes) / Indicator 2: target market (local commuters) / Close (recap, next step, questions)."
+    ],
+    "questions": [
+      {
+        "stem": "A scenario says: You are the event coordinator for a community theater. The theater director has asked you to recommend ways to attract younger audiences. Whom will the judge most likely play?",
+        "choices": [
+          "A younger audience member",
+          "A rival event coordinator",
+          "The theater director",
+          "A local newspaper reporter"
+        ],
+        "answer": 2,
+        "explanation": "The judge usually plays the person you are reporting to in the scenario, here the director who asked for the recommendation."
+      },
+      {
+        "stem": "Which note-taking approach during prep time best supports a strong role-play?",
+        "choices": [
+          "Writing a full word-for-word script to read aloud",
+          "Listing key words under each section of a simple outline",
+          "Taking no notes at all so that you appear natural",
+          "Copying the scenario text onto your note paper"
+        ],
+        "answer": 1,
+        "explanation": "Key-word outlines keep you organized while letting you speak naturally and keep eye contact. A full script pulls your eyes to the page."
+      },
+      {
+        "stem": "Partway through prep, you have strong ideas for one performance indicator and nothing yet for the other three. What is the best next move?",
+        "choices": [
+          "Add even more detail to the indicator you know well",
+          "Plan to skip the indicators you feel unsure about",
+          "Use the remaining time to memorize your opening line",
+          "Quickly jot at least one idea for each remaining indicator"
+        ],
+        "answer": 3,
+        "explanation": "Every indicator is scored, so an uncovered one earns little. Sketching something for each indicator first, then adding depth, protects the most points."
+      },
+      {
+        "stem": "A scenario notes that the business is a small cafe near a college campus with a limited marketing budget. How should you use these details?",
+        "choices": [
+          "Tailor your ideas to college students and low-cost tactics",
+          "Set them aside and focus on general marketing theory",
+          "Recommend a national television campaign to grow fast",
+          "Ask the judge to approve a larger budget before you begin"
+        ],
+        "answer": 0,
+        "explanation": "Scenario details are there to be used. Ideas that fit the cafe's customers and budget show judgment, while a costly national campaign ignores the stated limit."
+      }
+    ],
+    "flashcards": [
+      { "term": "Performance indicator", "definition": "A specific skill or knowledge area listed in a role-play scenario that the judge uses to score you." },
+      { "term": "Role-play scenario", "definition": "The written situation describing your role, the judge's role, the business and the task." },
+      { "term": "Task statement", "definition": "The sentence in a scenario that tells you exactly what you must deliver to the judge." },
+      { "term": "Prep outline", "definition": "A key-word plan with an opening, a section for each indicator and a close, written during prep time." },
+      { "term": "Judge character", "definition": "The role the judge plays, such as an owner or client, whose concerns should shape your answers." }
+    ]
+  }
+]

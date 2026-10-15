@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Airway management, breathing support, and adult CPR",
+    "objective": "Apply airway-opening techniques, recognize inadequate breathing, and perform high-quality adult CPR with an AED according to current resuscitation guidelines.",
+    "body": "Without an open airway and adequate breathing, the brain begins to suffer damage within minutes. EMTs therefore learn a small set of basic skills extremely well, and competition scenarios test whether students can choose the right one.\n\n**Opening the airway.** For a patient with no suspected spinal injury, the **head tilt-chin lift** is used. When spinal injury is suspected, the **jaw-thrust maneuver** opens the airway with less neck movement; if it fails, airway patency still takes priority. Fluids such as vomit are removed with **suctioning**, generally limited to about 15 seconds at a time in adults. Simple adjuncts help keep the airway open:\n- An **oropharyngeal airway (OPA)** is used only in unresponsive patients without a gag reflex, sized from the corner of the mouth to the earlobe.\n- A **nasopharyngeal airway (NPA)** can be used in patients who still have a gag reflex, but it is avoided with suspected facial or basal skull fractures.\n\n**Adequate versus inadequate breathing.** Adequate breathing has a regular rate and rhythm, good chest rise and quiet effort. Signs of inadequate breathing include very fast or very slow rates, shallow chest rise, accessory muscle use, cyanosis and altered mental status. A patient breathing inadequately needs **assisted ventilation** with a **bag-valve mask (BVM)**, not just an oxygen mask, because a mask cannot move air into lungs that are not moving it themselves. Each ventilation should take about 1 second and produce visible chest rise; overly forceful breaths inflate the stomach and cause vomiting.\n\n**High-quality adult CPR.** When an adult is unresponsive with no normal breathing and no definite pulse after a check of no more than 10 seconds, the EMT starts CPR. Key elements are:\n1. Compressions at 100 to 120 per minute.\n2. Depth of at least 2 inches (5 cm) but not more than 2.4 inches (6 cm).\n3. Full chest recoil after each compression.\n4. Minimal interruptions, keeping compressions going for most of the resuscitation.\n5. A ratio of 30 compressions to 2 breaths without an advanced airway.\n\n**Agonal gasps** are not normal breathing and should not delay CPR. The **automated external defibrillator (AED)** is applied as soon as it is available; it analyzes the rhythm and advises a shock for ventricular fibrillation or pulseless ventricular tachycardia. Compressions resume immediately after a shock, and rescuers switch compressors about every 2 minutes to prevent fatigue.\n\nThe most common mistake students make is choosing a nonrebreather mask for a patient who is breathing too slowly or too shallowly. Oxygen only helps if air is moving; an inadequately breathing patient needs ventilations with a BVM.",
+    "examples": [
+      "A diver found unresponsive at the bottom of a pool has a suspected neck injury, so the EMT opens his airway with a jaw-thrust maneuver instead of a head tilt-chin lift.",
+      "An overdose patient breathing 6 shallow breaths per minute receives BVM ventilations rather than a nonrebreather mask.",
+      "During a cardiac arrest, the AED advises a shock; after delivery, the EMT immediately resumes compressions instead of checking for a pulse."
+    ],
+    "questions": [
+      {
+        "stem": "A motorcyclist is unresponsive after striking a tree, and you hear snoring respirations. Which technique should you use first to open the airway?",
+        "choices": [
+          "Head tilt-chin lift",
+          "Jaw-thrust maneuver",
+          "Insert an OPA without opening the airway",
+          "Recovery position"
+        ],
+        "answer": 1,
+        "explanation": "The mechanism suggests spinal injury, so the jaw-thrust is preferred. Head tilt-chin lift is the main distractor; it moves the neck more and is used when spinal injury is not suspected."
+      },
+      {
+        "stem": "A semiconscious patient gags when you try to insert an oral airway. What is the best next action?",
+        "choices": [
+          "Force the OPA past the tongue",
+          "Use a smaller OPA",
+          "Remove the OPA and consider an NPA",
+          "Stop all airway management"
+        ],
+        "answer": 2,
+        "explanation": "A gag reflex means an OPA is not tolerated; an NPA may be used if there is no facial or skull trauma. A smaller OPA would still trigger gagging and possible vomiting."
+      },
+      {
+        "stem": "A patient is breathing 6 times per minute with shallow chest rise and blue lips. What is the most appropriate intervention?",
+        "choices": [
+          "Nasal cannula oxygen",
+          "Nonrebreather mask",
+          "Place in a position of comfort",
+          "Ventilate with a bag-valve mask"
+        ],
+        "answer": 3,
+        "explanation": "Inadequate breathing requires assisted ventilation with a BVM. A nonrebreather is the main distractor; it supplies oxygen but cannot move air into lungs that are barely ventilating."
+      },
+      {
+        "stem": "During adult CPR, what is the correct compression rate?",
+        "choices": [
+          "100 to 120 per minute",
+          "60 to 80 per minute",
+          "80 to 100 per minute",
+          "130 to 150 per minute"
+        ],
+        "answer": 0,
+        "explanation": "Current guidelines call for 100 to 120 compressions per minute. 80 to 100 is too slow to generate adequate blood flow."
+      },
+      {
+        "stem": "You are performing compressions on an adult and pushing about 3 inches deep. What feedback should your partner give?",
+        "choices": [
+          "Good depth; keep going",
+          "Push deeper, to at least 3.5 inches",
+          "Reduce depth to 2 to 2.4 inches",
+          "Depth does not matter if rate is correct"
+        ],
+        "answer": 2,
+        "explanation": "Adult depth should be at least 2 inches but no more than 2.4 inches, so 3 inches is too deep and risks injury. Saying depth does not matter is wrong because both depth and rate determine CPR quality."
+      },
+      {
+        "stem": "A collapsed woman is unresponsive and taking occasional gasping breaths. What should you do?",
+        "choices": [
+          "Begin CPR because agonal gasps are not normal breathing",
+          "Wait to see if breathing improves",
+          "Apply a nonrebreather and monitor",
+          "Place her in the recovery position"
+        ],
+        "answer": 0,
+        "explanation": "Agonal gasps signal cardiac arrest, so CPR starts immediately. The recovery position is for patients who are breathing normally."
+      },
+      {
+        "stem": "Immediately after the AED delivers a shock, what should the team do?",
+        "choices": [
+          "Check the pulse for 30 seconds",
+          "Reanalyze the rhythm right away",
+          "Turn off the AED",
+          "Resume chest compressions"
+        ],
+        "answer": 3,
+        "explanation": "Compressions resume immediately to minimize interruptions; the AED reanalyzes after about 2 minutes. Checking a pulse right away is the main distractor and delays perfusion."
+      },
+      {
+        "stem": "What is the compression-to-ventilation ratio for an adult without an advanced airway?",
+        "choices": [
+          "15:2",
+          "30:2",
+          "5:1",
+          "30:1"
+        ],
+        "answer": 1,
+        "explanation": "Adult CPR without an advanced airway uses 30:2 for one or two rescuers. 15:2 is used for two-rescuer CPR on infants and children."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Jaw-thrust maneuver",
+        "definition": "Airway-opening technique that lifts the jaw without tilting the head, used when spinal injury is suspected."
+      },
+      {
+        "term": "Oropharyngeal airway (OPA)",
+        "definition": "Curved adjunct that holds the tongue off the back of the throat; used only in patients without a gag reflex."
+      },
+      {
+        "term": "Bag-valve mask (BVM)",
+        "definition": "Handheld device used to deliver positive-pressure ventilations to a patient who is not breathing adequately."
+      },
+      {
+        "term": "Agonal gasps",
+        "definition": "Irregular, gasping breaths seen in cardiac arrest that are not effective breathing."
+      },
+      {
+        "term": "Automated external defibrillator (AED)",
+        "definition": "Device that analyzes heart rhythm and advises a shock for ventricular fibrillation or pulseless ventricular tachycardia."
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Retail Fundamentals: Channels, Formats, and the Marketing Mix",
+    "objective": "Define retailing, compare store and nonstore retail formats, and apply the retail marketing mix to explain how retailers create value for customers.",
+    "body": "**Retailing** is the set of business activities that sell goods and services directly to final consumers for personal or household use. Retailers sit at the end of the **channel of distribution**, the path products take from producer to wholesaler to retailer to consumer. Their job is to add value: they break bulk into small quantities, assemble an assortment from many suppliers, hold inventory so shoppers do not have to, and provide services such as returns, credit, and advice.\n\n**Retail formats.** Retailers differ in what they sell, how much service they provide, and how they price.\n- **Department stores** carry many product lines organized into departments, with moderate to high service.\n- **Specialty stores** carry a narrow product line with a deep assortment, such as a running-shoe shop.\n- **Discount stores** and **warehouse clubs** sell high volumes at low margins with limited service.\n- **Convenience stores** offer a small assortment, long hours, and convenient locations at higher prices.\n- **Off-price retailers** sell brand-name goods bought opportunistically below regular wholesale cost.\n\n**Nonstore retailing** reaches customers without a physical store: e-commerce websites, mobile apps, catalogs, vending machines, and direct selling. Most large retailers now practice **omnichannel retailing**, which integrates every channel so a customer can, for example, buy online and pick up in store, or return an online order at a counter. Omnichannel differs from multichannel, where channels operate separately and do not share inventory or customer data.\n\n**The retail marketing mix.** Retailers make decisions about the familiar four Ps, adapted to the store setting:\n1. **Product**: the merchandise assortment, including its breadth and depth.\n2. **Price**: price levels, markups, and markdowns.\n3. **Place**: store location, layout, and the channels used.\n4. **Promotion**: advertising, visual displays, sales promotions, and personal selling.\n\nRetailers often add people (customer service staff) and presentation (store atmosphere) because the shopping experience is part of what customers buy. Every decision should fit the **target market**, the specific group of customers the retailer intends to serve. A luxury boutique and a dollar store can both succeed because each aligns its mix with a clearly defined target market.\n\n**Common mistake.** Students often confuse a retailer with a wholesaler. The deciding factor is who the buyer is, not the quantity or the price. A warehouse club selling a case of paper towels to a family is retailing because the buyer is a final consumer; a distributor selling the same case to a restaurant for business use is wholesaling.",
+    "examples": [
+      "A sporting-goods chain lets shoppers check local store inventory in its app, order online, and pick up curbside within two hours, an example of omnichannel retailing.",
+      "A specialty tea shop carries only tea and accessories but stocks 120 varieties, giving it a narrow but deep assortment that a grocery store cannot match."
+    ],
+    "questions": [
+      {
+        "stem": "A family buys a 36-roll pack of paper towels at a warehouse club for use at home. How is this transaction classified?",
+        "choices": [
+          "Wholesaling, because the quantity is large",
+          "Retailing, because the buyer is a final consumer",
+          "Direct marketing, because no salesperson helped",
+          "Industrial selling, because the store is a warehouse"
+        ],
+        "answer": 1,
+        "explanation": "Retailing is defined by selling to final consumers for personal use. Quantity does not make it wholesaling; wholesaling means selling to businesses for resale or business use."
+      },
+      {
+        "stem": "A shop sells only rock-climbing gear but carries dozens of brands and sizes of each item. Which format best describes it?",
+        "choices": [
+          "Department store",
+          "Convenience store",
+          "Off-price retailer",
+          "Specialty store"
+        ],
+        "answer": 3,
+        "explanation": "A specialty store has a narrow product line with deep assortment. A department store would carry many unrelated lines, not just climbing gear."
+      },
+      {
+        "stem": "A customer orders jeans on a retailer's website and returns them at the retailer's mall location, where the clerk sees the online order. What strategy does this show?",
+        "choices": [
+          "Omnichannel retailing",
+          "Multichannel retailing with separate systems",
+          "Scrambled merchandising",
+          "Direct selling"
+        ],
+        "answer": 0,
+        "explanation": "Omnichannel integrates channels so inventory and customer data are shared. In a separate multichannel setup, the store could not see or easily process the online order."
+      },
+      {
+        "stem": "Which function is a retailer performing when it buys pallets of cereal and sells individual boxes?",
+        "choices": [
+          "Assembling an assortment",
+          "Extending credit",
+          "Breaking bulk",
+          "Market research"
+        ],
+        "answer": 2,
+        "explanation": "Breaking bulk means dividing large shipments into consumer-sized quantities. Assembling an assortment refers to gathering many different products, not dividing quantities."
+      },
+      {
+        "stem": "A retailer buys excess inventory of a brand-name jacket from the manufacturer at a deep discount and sells it well below the department store price. This retailer is most likely a(n):",
+        "choices": [
+          "Convenience store",
+          "Specialty boutique",
+          "Warehouse club",
+          "Off-price retailer"
+        ],
+        "answer": 3,
+        "explanation": "Off-price retailers buy brand-name goods opportunistically below regular wholesale cost. Warehouse clubs rely on memberships and bulk packs rather than opportunistic brand-name buys."
+      },
+      {
+        "stem": "A gas-station market charges more for milk than the supermarket but stays open 24 hours near a highway exit. Which mix element is it emphasizing most?",
+        "choices": [
+          "Place and convenience",
+          "Product depth",
+          "Low price",
+          "Personal selling"
+        ],
+        "answer": 0,
+        "explanation": "Its advantage is location and hours, which fall under place. It clearly is not competing on low price, since it charges more."
+      },
+      {
+        "stem": "A store's decision to put seasonal candles in a lit display at the entrance mainly involves which part of the retail mix?",
+        "choices": [
+          "Price",
+          "Distribution channel length",
+          "Presentation and promotion",
+          "Breadth of assortment"
+        ],
+        "answer": 2,
+        "explanation": "Displays are visual merchandising, part of promotion and presentation. The assortment is unchanged; only how the goods are shown is different."
+      },
+      {
+        "stem": "Why might a luxury boutique and a dollar store both be profitable in the same town?",
+        "choices": [
+          "Both use the same pricing strategy",
+          "Each aligns its marketing mix with a distinct target market",
+          "Both rely on nonstore retailing",
+          "Government rules divide customers between them"
+        ],
+        "answer": 1,
+        "explanation": "Success comes from fitting the mix to a defined target market. They use opposite pricing strategies, so a shared pricing approach is not the reason."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Retailing",
+        "definition": "Business activities that sell goods and services directly to final consumers for personal or household use."
+      },
+      {
+        "term": "Channel of distribution",
+        "definition": "The path a product follows from producer through intermediaries such as wholesalers and retailers to the consumer."
+      },
+      {
+        "term": "Specialty store",
+        "definition": "A retailer with a narrow product line and a deep assortment within that line."
+      },
+      {
+        "term": "Omnichannel retailing",
+        "definition": "A strategy that integrates all of a retailer's channels so inventory, orders, and customer data are shared."
+      },
+      {
+        "term": "Off-price retailer",
+        "definition": "A retailer that buys brand-name merchandise below regular wholesale cost and sells it below typical retail prices."
+      }
+    ]
+  }
+]

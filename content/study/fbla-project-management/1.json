@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Project basics: life cycle, constraints, and stakeholders",
+    "objective": "Define a project, distinguish it from ongoing operations, describe the five process groups, and explain how scope, schedule, and cost constraints interact.",
+    "body": "Every project management question starts with a simple test: is this work a project at all? A **project** is a temporary effort undertaken to create a unique product, service, or result. It has a defined start and end. **Operations**, by contrast, are ongoing and repetitive, such as running the school store every day. Planning the store's grand reopening is a project; restocking shelves each week is operations.\n\n**The process groups.** Most projects move through five groups of activity:\n1. **Initiating** – define the project at a high level and get authorization, usually through a **project charter** that names the sponsor, the project manager, the purpose, and high-level goals.\n2. **Planning** – detail the scope, schedule, budget, risks, and communication approach.\n3. **Executing** – do the work and coordinate people and resources.\n4. **Monitoring and controlling** – compare actual progress to the plan and correct variances; this runs alongside the other groups, not just at the end.\n5. **Closing** – deliver the result, get formal acceptance, release the team, and record **lessons learned**.\n\n**The triple constraint.** Scope (what will be delivered), schedule (when), and cost (how much) are linked, and quality sits in the middle. If one changes, at least one other usually must change too. Adding features to a fundraiser app without adding time or money puts quality at risk. Modern frameworks add risk and resources to the list, but the idea is the same: trade-offs are unavoidable and must be decided deliberately.\n\n**Stakeholders.** A **stakeholder** is anyone who affects or is affected by the project: the **sponsor** who funds and champions it, team members, customers, end users, vendors, and even neighbors bothered by construction noise. Good project managers identify stakeholders early, judge their power and interest, and plan how to engage each group. The sponsor provides resources and resolves issues beyond the project manager's authority; the project manager runs the day-to-day work and is accountable for delivering the objectives.\n\n**SMART objectives.** Project goals should be Specific, Measurable, Achievable, Relevant, and Time-bound. \"Raise money\" is weak; \"Raise $3,000 for new chapter blazers by March 15\" can be planned and measured.\n\nThe most common mistake students make is treating monitoring and controlling as a final step that happens after execution. In reality it overlaps the entire project, and catching a variance early is far cheaper than discovering it at closing.",
+    "examples": [
+      "Organizing a one-time regional leadership conference is a project because it is temporary and unique, while processing chapter dues every month is an operation.",
+      "When a principal asks a homecoming committee to add a drone light show without extending the deadline or budget, the committee faces a triple-constraint trade-off and must cut other scope or request more resources."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter officer is asked to classify activities. Which one is a project?",
+        "choices": [
+          "Updating the member roster every Monday",
+          "Answering emails from the state adviser daily",
+          "Launching a new chapter website by October 1",
+          "Collecting monthly dues payments"
+        ],
+        "answer": 2,
+        "explanation": "Launching a website is temporary and produces a unique result. Weekly roster updates are repetitive operations, not a project."
+      },
+      {
+        "stem": "Which document formally authorizes a project and gives the project manager authority to use resources?",
+        "choices": [
+          "Project charter",
+          "Work breakdown structure",
+          "Lessons learned register",
+          "Gantt chart"
+        ],
+        "answer": 0,
+        "explanation": "The charter authorizes the project during initiating. A WBS breaks down scope later in planning and does not grant authority."
+      },
+      {
+        "stem": "A team discovers mid-project that spending is 15% above plan and adjusts purchases. Which process group is this?",
+        "choices": [
+          "Initiating",
+          "Closing",
+          "Planning",
+          "Monitoring and controlling"
+        ],
+        "answer": 3,
+        "explanation": "Comparing actuals to the plan and correcting variances is monitoring and controlling. Planning created the baseline, but responding to variances is control work."
+      },
+      {
+        "stem": "A client adds three deliverables but insists the deadline and budget stay fixed. What is most at risk?",
+        "choices": [
+          "Stakeholder register accuracy",
+          "Quality of the deliverables",
+          "The project charter's validity",
+          "The number of process groups"
+        ],
+        "answer": 1,
+        "explanation": "With scope up and time and cost fixed, quality is squeezed. The charter remains valid; the issue is the trade-off within the triple constraint."
+      },
+      {
+        "stem": "Which objective is best written for a car wash fundraiser?",
+        "choices": [
+          "Make as much money as possible",
+          "Have a successful car wash this spring",
+          "Wash at least 120 cars and net $900 by April 20",
+          "Get everyone involved in fundraising"
+        ],
+        "answer": 2,
+        "explanation": "It is specific, measurable, and time-bound. \"Have a successful car wash this spring\" has a season but no measurable target."
+      },
+      {
+        "stem": "Who typically provides funding and resolves issues beyond the project manager's authority?",
+        "choices": [
+          "The sponsor",
+          "An end user",
+          "A vendor",
+          "A team member"
+        ],
+        "answer": 0,
+        "explanation": "The sponsor funds and champions the project and escalates decisions. End users are affected by the result but do not control resources."
+      },
+      {
+        "stem": "After a successful banquet, the team meets to document what worked and what to change next year. This activity belongs to:",
+        "choices": [
+          "Executing",
+          "Initiating",
+          "Closing",
+          "Planning"
+        ],
+        "answer": 2,
+        "explanation": "Recording lessons learned is a closing activity. Planning for next year's event would be a new project's planning, not this project's."
+      },
+      {
+        "stem": "Residents near a school complain about noise from a weekend stage build. How should the project manager view the residents?",
+        "choices": [
+          "As irrelevant because they are not on the team",
+          "As stakeholders whose concerns should be managed",
+          "As the project sponsor",
+          "As part of operations rather than the project"
+        ],
+        "answer": 1,
+        "explanation": "Anyone affected by the project is a stakeholder. Being off the team does not make them irrelevant; ignoring them can delay the work."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Project",
+        "definition": "A temporary effort undertaken to create a unique product, service, or result."
+      },
+      {
+        "term": "Project charter",
+        "definition": "The initiating document that authorizes a project and names the sponsor, project manager, and high-level goals."
+      },
+      {
+        "term": "Triple constraint",
+        "definition": "The linked trade-off among scope, schedule, and cost, with quality affected by all three."
+      },
+      {
+        "term": "Stakeholder",
+        "definition": "Any person or group who affects or is affected by a project."
+      },
+      {
+        "term": "Lessons learned",
+        "definition": "Knowledge recorded during closing about what worked and what should change on future projects."
+      }
+    ]
+  }
+]

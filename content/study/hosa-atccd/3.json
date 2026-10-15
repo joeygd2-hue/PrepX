@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Interviews, professionalism, and a long-term career plan",
+    "objective": "Apply interview strategies such as the STAR method, demonstrate professional and ethical behavior, and evaluate a long-term health career plan.",
+    "body": "Applications open the door; the interview and day-to-day professionalism decide whether a candidate is hired and keeps advancing. Advanced preparation means anticipating questions, answering with evidence, and showing the habits employers trust.\n\n**Preparing for the interview.** Research the organization's mission and services, review the posting, and prepare questions to ask. Dress in clean, conservative business attire, limit fragrance (many patients are sensitive to scents), arrive about ten minutes early, and bring extra copies of the résumé. Nonverbal communication counts: eye contact, a firm handshake when appropriate, and attentive posture.\n\n**Behavioral questions** ask how a candidate handled real situations, on the idea that past behavior predicts future behavior. Answer them with the **STAR method**:\n1. **Situation**: the context.\n2. **Task**: what the candidate was responsible for.\n3. **Action**: the specific steps the candidate personally took.\n4. **Result**: the outcome, ideally measurable, plus what was learned.\n\nA question about weaknesses should get an honest, job-appropriate weakness and the steps being taken to improve it. Questions about salary are usually best saved for later stages. After the interview, send a brief **thank-you note** within about 24 hours.\n\n**Professionalism and ethics.** Employers screen for **soft skills**: communication, teamwork, dependability, adaptability, and empathy. Health workers also follow legal and ethical duties. **HIPAA** protects patients' health information, so discussing patients in public or on social media is a violation even without naming them if details could identify them. Workers act within their scope of practice, respect **cultural humility**, and report errors honestly. A professional online presence matters, since employers often review public social media.\n\n**The career plan.** A written plan sets **SMART goals**, which are specific, measurable, achievable, relevant, and time-bound, for short-term and long-term steps. A strong plan for a high school student might include earning a CNA or EMT credential, completing prerequisite courses, applying to an accredited program, and maintaining licensure through **continuing education** once working. Plans should include a backup option, such as a related career that uses the same prerequisites.\n\n**Lifelong learning** is built into health care. Guidelines, technology, and laws change, and most licenses and certifications require continuing education credits for renewal.\n\nThe most common mistake students make in interviews is answering behavioral questions with general claims (\"I'm a great team player\") or describing what the group did. Interviewers want the candidate's own actions and a concrete result, which is exactly what STAR provides.",
+    "examples": [
+      "Asked about a conflict, a student explains that two volunteers double-booked a blood drive table (Situation), she was shift lead (Task), she created a shared sign-up sheet (Action), and no further conflicts occurred that semester (Result).",
+      "A SMART goal reads: \"Earn my EMT certification by June of senior year by completing the community college course and passing the national exam.\""
+    ],
+    "questions": [
+      {
+        "stem": "An interviewer asks, \"Tell me about a time you made a mistake at work.\" What type of question is this?",
+        "choices": [
+          "Behavioral question",
+          "Illegal question",
+          "Closed question",
+          "Salary question"
+        ],
+        "answer": 0,
+        "explanation": "It asks for past behavior, so it is behavioral. Closed question is wrong because it cannot be answered with yes or no."
+      },
+      {
+        "stem": "In a STAR answer, Sam says, \"I called the supervisor and rechecked the order against the chart.\" Which part is this?",
+        "choices": [
+          "Situation",
+          "Task",
+          "Action",
+          "Result"
+        ],
+        "answer": 2,
+        "explanation": "These are the steps Sam personally took, the Action. Task is tempting, but Task describes his responsibility, not what he did."
+      },
+      {
+        "stem": "Which answer to \"What is your greatest weakness?\" is most effective?",
+        "choices": [
+          "\"I don't have any weaknesses.\"",
+          "\"I work too hard.\"",
+          "\"I used to hesitate to ask questions, so now I write them down and ask during rounds.\"",
+          "\"I'm often late, but everyone is.\""
+        ],
+        "answer": 2,
+        "explanation": "It is honest and shows improvement. \"I work too hard\" is a disguised strength that interviewers find evasive."
+      },
+      {
+        "stem": "A patient care technician posts on social media about a funny patient, using no name but mentioning the room and diagnosis. What is the issue?",
+        "choices": [
+          "No issue, since no name was used",
+          "Possible HIPAA violation because details could identify the patient",
+          "Only a scope-of-practice issue",
+          "Only a dress code issue"
+        ],
+        "answer": 1,
+        "explanation": "Identifying details can make information protected even without a name. The no-name distractor ignores that room and diagnosis can identify someone."
+      },
+      {
+        "stem": "Which goal is SMART?",
+        "choices": [
+          "Become a better health care worker",
+          "Finish BLS certification by March 1 through the Red Cross course",
+          "Get into medicine someday",
+          "Study more biology"
+        ],
+        "answer": 1,
+        "explanation": "It is specific, measurable, achievable, relevant, and time-bound. \"Get into medicine someday\" lacks a measurable step and deadline."
+      },
+      {
+        "stem": "Two days after an interview, what is the most professional follow-up?",
+        "choices": [
+          "Call daily until hired",
+          "Send a brief thank-you note restating interest",
+          "Post about the interview online",
+          "Do nothing, since follow-up seems pushy"
+        ],
+        "answer": 1,
+        "explanation": "A prompt thank-you note is expected. Doing nothing is the main distractor, but it misses a chance to reinforce interest."
+      },
+      {
+        "stem": "A licensed respiratory therapist must keep her license active. What will most likely be required?",
+        "choices": [
+          "Retaking high school biology",
+          "Continuing education credits and renewal",
+          "Changing pathways every five years",
+          "A new bachelor's degree"
+        ],
+        "answer": 1,
+        "explanation": "Most licenses require continuing education for renewal. A new degree is unnecessary for routine renewal."
+      },
+      {
+        "stem": "Carlos plans to become a physical therapist but wants a backup. Which plan is best?",
+        "choices": [
+          "No backup, to stay focused",
+          "Physical therapist assistant, which shares many prerequisites",
+          "Unrelated retail management",
+          "Choose a career at random later"
+        ],
+        "answer": 1,
+        "explanation": "A related career with overlapping prerequisites keeps progress useful. Having no backup is tempting for focus but leaves him unprepared if admission is delayed."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "STAR method",
+        "definition": "Interview answer structure: Situation, Task, Action, Result."
+      },
+      {
+        "term": "Behavioral question",
+        "definition": "Interview question asking how a candidate handled a real past situation."
+      },
+      {
+        "term": "SMART goal",
+        "definition": "A goal that is specific, measurable, achievable, relevant, and time-bound."
+      },
+      {
+        "term": "HIPAA",
+        "definition": "Federal law protecting the privacy and security of patients' health information."
+      },
+      {
+        "term": "Continuing education",
+        "definition": "Ongoing coursework required to renew many health licenses and certifications."
+      }
+    ]
+  }
+]

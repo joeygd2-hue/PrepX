@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Income, budgeting and banking: building your financial foundation",
+    "objective": "Distinguish gross from net pay, build a balanced budget using fixed and variable expenses, and choose banking tools that protect and grow savings.",
+    "body": "Every personal finance decision starts with knowing how much money actually arrives and where it goes. Students who can trace a paycheck from gross to net, and then into a written budget, can answer a large share of test questions without memorizing anything else.\n\n**Gross pay vs. net pay.** **Gross pay** is total earnings before anything is taken out, such as hourly wage times hours worked. **Net pay**, often called take-home pay, is what remains after **payroll deductions**. Common deductions include:\n- Federal income tax withholding, based on the Form W-4 the employee completes\n- FICA taxes: Social Security (6.2%) and Medicare (1.45%)\n- State or local income tax, where it applies\n- Voluntary deductions such as health insurance premiums or retirement contributions\n\nA budget should always be built on net pay, because gross pay is money the worker never actually receives.\n\n**Building a budget.** A **budget** is a plan that matches expected income to spending and saving. Expenses fall into two groups. **Fixed expenses** stay the same each period, like rent or a car payment. **Variable expenses** change, like groceries, gas or entertainment. Variable expenses are usually the easiest place to cut when a budget does not balance. One popular guideline is the **50/30/20 rule**: about 50% of net income for needs, 30% for wants and 20% for savings and extra debt payments. It is a starting point, not a law; someone with high rent may need to adjust the percentages.\n\n**Pay yourself first.** Treating savings as a bill paid at the start of the month, often through an automatic transfer, makes saving consistent. The first savings goal for most people is an **emergency fund**, commonly three to six months of essential expenses, kept somewhere safe and easy to reach.\n\n**Choosing where to keep money.** A checking account handles everyday spending through a debit card, transfers and bill pay. A savings account, high-yield savings account or money market account pays more interest but is meant for money you are not spending today. Compare accounts using the **annual percentage yield (APY)**, which includes the effect of compounding, and watch for monthly fees and overdraft charges. Deposits at banks insured by the **FDIC**, or at credit unions insured by the NCUA, are protected up to $250,000 per depositor, per institution, per ownership category.\n\n**Opportunity cost** ties these ideas together: every dollar spent on one thing is a dollar that cannot be saved or spent on something else. Good budgeting simply makes those trade-offs on purpose.\n\nThe most common mistake students make is building a budget from gross pay. A worker earning $2,400 a month before deductions might take home closer to $1,900, and a budget that assumes the full $2,400 will run short every single month.",
+    "examples": [
+      "Maya earns $16 an hour for 25 hours a week, so her weekly gross pay is $400; after FICA and income tax withholding, her net pay is about $345.",
+      "Jordan's rent of $850 is a fixed expense, while his $120 to $200 monthly grocery bill is a variable expense he can reduce if his budget runs short.",
+      "Two savings accounts both pay 4% interest, but the one compounding daily has a slightly higher APY, so APY is the fairer comparison."
+    ],
+    "questions": [
+      {
+        "stem": "Lena's paycheck shows $1,200 in earnings, $91.80 in FICA taxes, $85 in federal withholding and $40 for health insurance. What should she use as her monthly budgeting figure for this check?",
+        "choices": [
+          "$1,200.00",
+          "$983.20",
+          "$1,108.20",
+          "$1,075.00"
+        ],
+        "answer": 1,
+        "explanation": "Net pay is $1,200 minus $91.80, $85 and $40, which equals $983.20, and budgets are built on net pay. $1,200 is gross pay, money she never actually receives."
+      },
+      {
+        "stem": "Which expense is the best example of a variable expense?",
+        "choices": [
+          "Monthly apartment rent set by a one-year lease",
+          "A fixed car loan payment of $310",
+          "The monthly electric and grocery bills",
+          "A six-month insurance premium of the same amount each period"
+        ],
+        "answer": 2,
+        "explanation": "Utility and grocery costs change from month to month, which makes them variable. Rent under a lease stays the same, so it is fixed."
+      },
+      {
+        "stem": "Using the 50/30/20 guideline, how much of a $3,000 monthly net income would go toward savings and extra debt payments?",
+        "choices": [
+          "$600",
+          "$900",
+          "$1,500",
+          "$300"
+        ],
+        "answer": 0,
+        "explanation": "Twenty percent of $3,000 is $600. $900 is the 30% share for wants, not savings."
+      },
+      {
+        "stem": "Carlos wants to save regularly but always finds the money gone by month's end. Which strategy best addresses his problem?",
+        "choices": [
+          "Save whatever is left over on the last day of the month",
+          "Set up an automatic transfer to savings on each payday",
+          "Keep all of his money in checking to avoid fees",
+          "Wait until he earns a raise to start saving"
+        ],
+        "answer": 1,
+        "explanation": "An automatic transfer on payday puts 'pay yourself first' into practice so saving happens before spending. Saving the leftovers is exactly what is failing him now."
+      },
+      {
+        "stem": "A student is comparing two savings accounts with the same stated interest rate but different compounding schedules. Which figure gives the most accurate comparison of what each account will earn in a year?",
+        "choices": [
+          "The minimum opening deposit",
+          "The annual percentage rate (APR)",
+          "The annual percentage yield (APY)",
+          "The number of branch locations"
+        ],
+        "answer": 2,
+        "explanation": "APY includes the effect of compounding, so it shows the true yearly return. APR is a borrowing figure that does not reflect compounding the way APY does."
+      },
+      {
+        "stem": "Priya has $310,000 in a single individual savings account at one FDIC-insured bank. If the bank fails, how much of this deposit is insured?",
+        "choices": [
+          "$310,000",
+          "$100,000",
+          "$0, because savings accounts are not covered",
+          "$250,000"
+        ],
+        "answer": 3,
+        "explanation": "FDIC coverage is $250,000 per depositor, per bank, per ownership category, so $60,000 is above the limit. Savings accounts are covered, so $0 is wrong."
+      },
+      {
+        "stem": "Ethan's monthly essential expenses are $2,000. Which emergency fund target fits the common guideline?",
+        "choices": [
+          "$6,000 to $12,000",
+          "$500 to $1,000",
+          "$2,000 exactly",
+          "$24,000 to $48,000"
+        ],
+        "answer": 0,
+        "explanation": "Three to six months of $2,000 in essential expenses equals $6,000 to $12,000. One month, $2,000, is a helpful start but falls short of the guideline."
+      },
+      {
+        "stem": "Ava chooses to spend $200 on concert tickets instead of adding it to her car fund. What does the $200 she did not save represent?",
+        "choices": [
+          "A fixed expense",
+          "A payroll deduction",
+          "Net pay",
+          "The opportunity cost of the tickets"
+        ],
+        "answer": 3,
+        "explanation": "Opportunity cost is the value of the next-best alternative given up, here the $200 for the car fund. It is not a fixed expense, because it is a one-time choice."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Gross pay",
+        "definition": "Total earnings before any taxes or other deductions are taken out."
+      },
+      {
+        "term": "Net pay",
+        "definition": "Take-home pay remaining after all payroll deductions; the correct basis for a budget."
+      },
+      {
+        "term": "Variable expense",
+        "definition": "A cost that changes from period to period, such as groceries or gas."
+      },
+      {
+        "term": "Annual percentage yield (APY)",
+        "definition": "The yearly rate earned on a deposit, including the effect of compounding."
+      },
+      {
+        "term": "Emergency fund",
+        "definition": "Savings set aside for unexpected costs, commonly three to six months of essential expenses."
+      }
+    ]
+  }
+]

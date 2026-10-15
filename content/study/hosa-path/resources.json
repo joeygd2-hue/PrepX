@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Anatomy and Physiology 2e",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free anatomy and physiology text; understand normal function before disease."
+  },
+  {
+    "title": "Science courses",
+    "url": "https://www.khanacademy.org/science",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Khan Academy's health and medicine lessons on disease by body system."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH consumer library for quick summaries of diseases, causes and treatments."
+  }
+]

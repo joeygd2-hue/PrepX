@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Investing, retirement accounts and managing financial risk",
+    "objective": "Evaluate investment choices by risk and return, compare tax-advantaged retirement accounts, and select insurance strategies that protect wealth.",
+    "body": "Once spending is under control and debt is managed, the next step is making money grow and protecting it from setbacks. Advanced questions often test how time, risk and taxes interact.\n\n**Compound growth and time.** **Compound interest** earns returns on both the original principal and past earnings, so time is an investor's biggest advantage. The **Rule of 72** gives a quick estimate: divide 72 by the annual rate of return to find roughly how many years it takes money to double. At 8%, money doubles in about nine years. Someone who starts investing at 22 can end up with far more than someone who contributes larger amounts starting at 35.\n\n**Risk and return.** Investments with higher potential returns carry higher risk.\n- **Stocks** are shares of ownership in a company; they have the highest long-term growth potential and the biggest short-term swings.\n- **Bonds** are loans to a government or company that pay interest; they are generally less volatile than stocks. When interest rates rise, existing bond prices usually fall.\n- **Mutual funds** and **exchange-traded funds (ETFs)** pool many investors' money into many securities. Low-cost **index funds** track a market index such as the S&P 500.\n\n**Diversification** spreads money across many investments and asset classes so that one failure does not sink the portfolio. **Asset allocation** is the mix of stocks, bonds and cash, usually shifting toward safer assets as a goal approaches. **Inflation** is a risk too: cash earning less than inflation loses purchasing power over time.\n\n**Retirement accounts.** A **401(k)** is an employer-sponsored plan; many employers offer a **matching contribution**, which is essentially free money that should not be left behind. Contributions to a traditional 401(k) are made before tax, traditional IRA contributions are often tax-deductible, and withdrawals in retirement are taxed. With a **Roth** 401(k) or Roth IRA, contributions are made with after-tax money, and qualified withdrawals, including all the growth, are tax-free. A Roth often suits young workers in low tax brackets. Withdrawing early generally triggers income tax plus a 10% penalty, with some exceptions.\n\n**Managing risk with insurance.** Insurance transfers the cost of large losses to an insurer in exchange for a **premium**. The **deductible** is what you pay before coverage begins; choosing a higher deductible lowers the premium but raises out-of-pocket risk, so it works best for someone with a solid emergency fund. Term life insurance covers a set period at low cost, while permanent life insurance costs more and builds cash value. Disability, health, auto liability and renters insurance protect the income and assets a plan depends on.\n\nThe most common mistake students make is treating diversification as owning several stocks in the same industry. Five technology stocks can all fall together; real diversification spreads money across industries, company sizes, asset classes and regions.",
+    "examples": [
+      "At a 6% return, the Rule of 72 says $5,000 doubles to about $10,000 in roughly 12 years.",
+      "Liam's employer matches 100% of contributions up to 4% of salary, so contributing 4% of his $50,000 salary adds $2,000 a year from his employer.",
+      "Grace raises her auto deductible from $500 to $1,000 to lower her premium, knowing her emergency fund can cover the higher deductible."
+    ],
+    "questions": [
+      {
+        "stem": "Using the Rule of 72, about how long will it take an investment earning 9% a year to double?",
+        "choices": [
+          "6 years",
+          "8 years",
+          "12 years",
+          "9 years"
+        ],
+        "answer": 1,
+        "explanation": "72 divided by 9 equals 8 years. Choosing 9 years confuses the rate of return with the doubling time."
+      },
+      {
+        "stem": "Zoe, 19, is in a low tax bracket now and expects to earn much more later in her career. Which account choice gives her tax-free qualified withdrawals in retirement?",
+        "choices": [
+          "A Roth IRA",
+          "A traditional IRA",
+          "A regular taxable brokerage account",
+          "A certificate of deposit"
+        ],
+        "answer": 0,
+        "explanation": "Roth contributions use after-tax money, so qualified withdrawals, including growth, are tax-free, which fits someone taxed lightly today. A traditional IRA gives a tax break now but taxes withdrawals later."
+      },
+      {
+        "stem": "Mateo's employer matches 50% of his 401(k) contributions up to 6% of salary. He earns $40,000 and contributes 3%. What should he consider?",
+        "choices": [
+          "Stopping contributions because the match is too small",
+          "Moving all savings into a checking account",
+          "Raising his contribution to 6% to receive the full $1,200 match",
+          "Lowering his contribution to 1% to increase take-home pay"
+        ],
+        "answer": 2,
+        "explanation": "At 6% he contributes $2,400 and his employer adds half, or $1,200; at 3% he leaves $600 in matching money behind. Stopping contributions gives up an immediate 50% return on his money."
+      },
+      {
+        "stem": "An investor owns shares of four different social media companies. Which statement best describes the portfolio?",
+        "choices": [
+          "It is fully diversified because it holds four stocks",
+          "It has no risk because the companies are large",
+          "It is a bond portfolio",
+          "It is poorly diversified because all holdings are in one industry"
+        ],
+        "answer": 3,
+        "explanation": "Companies in the same industry tend to rise and fall together, so this portfolio is concentrated. Owning several stocks is not diversification if they share the same risk."
+      },
+      {
+        "stem": "Interest rates rise sharply after Hana buys a bond paying a fixed 3%. What usually happens to the market price of her bond?",
+        "choices": [
+          "It falls",
+          "It rises",
+          "It stays exactly the same",
+          "It converts to stock"
+        ],
+        "answer": 0,
+        "explanation": "New bonds now pay more, so buyers will pay less for her lower-rate bond. The price rising is the reverse of the actual relationship between rates and existing bond prices."
+      },
+      {
+        "stem": "Ben has almost no savings and is choosing a health plan. Which choice carries the greatest risk for him?",
+        "choices": [
+          "A moderate deductible with a moderate premium",
+          "A very high deductible to get the lowest premium",
+          "Staying on his parent's plan as allowed until age 26",
+          "A plan with a low deductible and higher premium"
+        ],
+        "answer": 1,
+        "explanation": "A high deductible means large out-of-pocket costs before coverage starts, which he could not pay without savings. The low-deductible plan costs more each month but limits his exposure."
+      },
+      {
+        "stem": "Ines, 25, wants inexpensive coverage that would replace income for her young children for the next 20 years. Which policy best fits?",
+        "choices": [
+          "Whole life insurance",
+          "Renters insurance",
+          "A 20-year term life policy",
+          "Collision coverage"
+        ],
+        "answer": 2,
+        "explanation": "Term life covers a set period at a low premium, matching her 20-year need. Whole life also pays a death benefit but costs much more because it builds cash value."
+      },
+      {
+        "stem": "Lucas keeps $20,000 in a checking account earning 0% while inflation runs at 3% a year. What is happening to his money?",
+        "choices": [
+          "It is fully protected because the balance never drops",
+          "It is growing through compounding",
+          "It is diversified across asset classes",
+          "It is losing purchasing power each year"
+        ],
+        "answer": 3,
+        "explanation": "With 0% interest and 3% inflation, the same dollars buy about 3% less each year. The balance staying the same does not protect him from rising prices."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Rule of 72",
+        "definition": "A shortcut that estimates doubling time by dividing 72 by the annual rate of return."
+      },
+      {
+        "term": "Diversification",
+        "definition": "Spreading investments across many holdings, industries and asset classes to reduce risk."
+      },
+      {
+        "term": "Roth IRA",
+        "definition": "A retirement account funded with after-tax money whose qualified withdrawals are tax-free."
+      },
+      {
+        "term": "Deductible",
+        "definition": "The amount a policyholder pays out of pocket before insurance coverage begins."
+      },
+      {
+        "term": "Matching contribution",
+        "definition": "Money an employer adds to an employee's retirement plan based on the employee's own contributions."
+      }
+    ]
+  }
+]

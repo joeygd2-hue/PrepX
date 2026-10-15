@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Property rights, ownership forms, and legal descriptions",
+    "objective": "Distinguish real from personal property, compare ways to hold title, and identify how land is legally described and transferred.",
+    "body": "Every real estate transaction starts with a simple question: what exactly is being bought, and who has the right to sell it? Real estate law answers that question with a precise vocabulary that test writers love to probe.\n\n**Real property versus personal property.** **Real property** is land plus anything permanently attached to it, such as buildings and fences, along with the rights that come with ownership. **Personal property** (also called chattel) is movable, like furniture or a car. An item of personal property that becomes attached to the land becomes a **fixture** and normally transfers with the sale. Courts use tests such as method of attachment, adaptation to the property, and the intent of the person who installed it. A built-in dishwasher is usually a fixture; a freestanding refrigerator usually is not. **Trade fixtures** installed by a commercial tenant for business use remain the tenant's property and may be removed before the lease ends.\n\n**The bundle of rights.** Ownership is often described as a bundle of rights: possession, control, enjoyment, exclusion, and disposition. An owner can transfer some sticks of the bundle, such as leasing possession to a tenant, while keeping others.\n\n**Estates and ownership forms.** The most complete ownership is **fee simple absolute**, which lasts indefinitely and can be sold or inherited. A **life estate** lasts only for the lifetime of a named person. When two or more people own together, the form of co-ownership matters:\n- **Tenancy in common**: each owner holds an undivided share, shares can be unequal, and a share passes to the owner's heirs at death.\n- **Joint tenancy**: owners hold equal shares with a **right of survivorship**, so a deceased owner's share passes to the surviving owners rather than heirs.\n- **Tenancy by the entirety**: a form available to married couples in some states, with survivorship and protection from one spouse acting alone.\n\n**Legal descriptions.** A street address is not precise enough for a deed. Three main methods identify land:\n1. **Metes and bounds**, which traces boundaries by distances and directions from a point of beginning and must return to that point.\n2. The **rectangular survey system** (government survey), which divides land into townships of 36 square miles and sections of 640 acres.\n3. **Lot and block** (recorded plat), which references a subdivision map filed in public records.\n\n**Transferring title.** Ownership moves by a **deed**, a written document signed by the grantor. A **general warranty deed** gives the buyer the strongest guarantees, covering defects back through the property's history, while a **quitclaim deed** transfers only whatever interest the grantor has, with no warranties. Recording the deed in the county records gives public notice of the new owner.\n\nThe most common mistake students make is assuming joint tenants can leave their share to heirs in a will. Survivorship overrides the will, so heirs inherit only under tenancy in common.",
+    "examples": [
+      "A homeowner sells a house but removes the mounted chandelier before closing; because it was attached and intended to stay, the buyer can argue it was a fixture included in the sale.",
+      "Two siblings own a cabin as tenants in common with 60/40 shares; when one dies, her 40 percent goes to her children, not to her sibling.",
+      "A parcel in Kansas is described as the NE 1/4 of Section 12, a description from the rectangular survey system covering 160 acres."
+    ],
+    "questions": [
+      {
+        "stem": "A bakery tenant bolts commercial ovens to the floor of a leased space. When the lease ends, who owns the ovens?",
+        "choices": [
+          "The landlord, because anything bolted down is a fixture",
+          "The tenant, because they are trade fixtures",
+          "The landlord, unless the tenant paid cash for them",
+          "Whoever the county assessor lists"
+        ],
+        "answer": 1,
+        "explanation": "Trade fixtures installed for business use remain the tenant's property and can be removed before the lease ends. The 'bolted down' distractor applies the general fixture test but ignores the trade fixture exception."
+      },
+      {
+        "stem": "Ana, Ben, and Cal own land as joint tenants. Ana dies with a will leaving everything to her daughter. Who owns the land?",
+        "choices": [
+          "Ben, Cal, and Ana's daughter equally",
+          "Ana's daughter alone",
+          "Ben and Cal",
+          "The state, until probate ends"
+        ],
+        "answer": 2,
+        "explanation": "Joint tenancy carries a right of survivorship, so Ana's interest passes automatically to Ben and Cal. Her will cannot pass the share to her daughter; that would only happen under tenancy in common."
+      },
+      {
+        "stem": "Which item is most likely to be treated as personal property in a home sale?",
+        "choices": [
+          "Built-in bookshelves",
+          "A freestanding patio table",
+          "A ceiling fan wired into the electrical system",
+          "An in-ground sprinkler system"
+        ],
+        "answer": 1,
+        "explanation": "A freestanding table is movable and not attached, so it stays personal property. The ceiling fan is wired in, which makes it a fixture that normally transfers."
+      },
+      {
+        "stem": "A seller wants to give a buyer the most protection against past title defects. Which deed should be used?",
+        "choices": [
+          "Quitclaim deed",
+          "Special warranty deed",
+          "General warranty deed",
+          "Lease agreement"
+        ],
+        "answer": 2,
+        "explanation": "A general warranty deed guarantees title against defects throughout the property's history. A special warranty deed covers only the period the grantor owned it, so it offers less protection."
+      },
+      {
+        "stem": "Which legal description method begins at a point of beginning and must return to it?",
+        "choices": [
+          "Lot and block",
+          "Rectangular survey",
+          "Metes and bounds",
+          "Street address"
+        ],
+        "answer": 2,
+        "explanation": "Metes and bounds traces boundaries by distances and directions and closes at the point of beginning. Rectangular survey uses townships and sections rather than a traced boundary."
+      },
+      {
+        "stem": "A grandmother deeds her house to her grandson but keeps the right to live there until she dies. What does she hold?",
+        "choices": [
+          "A fee simple absolute",
+          "A life estate",
+          "A leasehold estate",
+          "A tenancy in common"
+        ],
+        "answer": 1,
+        "explanation": "She keeps an ownership interest measured by her own lifetime, which is a life estate. Fee simple absolute would be unlimited in duration, which she gave away."
+      },
+      {
+        "stem": "How many acres are in a standard section under the rectangular survey system?",
+        "choices": [
+          "36",
+          "160",
+          "640",
+          "5,280"
+        ],
+        "answer": 2,
+        "explanation": "A section is one square mile, or 640 acres. A township, not a section, contains 36 sections; 160 acres is a quarter section."
+      },
+      {
+        "stem": "A neighbor gives up any claim she might have to a strip of land by signing a deed with no warranties. Which deed did she most likely use?",
+        "choices": [
+          "General warranty deed",
+          "Quitclaim deed",
+          "Deed of trust",
+          "Bargain and sale deed with covenants"
+        ],
+        "answer": 1,
+        "explanation": "A quitclaim deed transfers whatever interest the grantor has without promising there is any. A deed of trust is a financing instrument, not a conveyance meant to clear a claim."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Fixture",
+        "definition": "Personal property that has become attached to real property and normally transfers with it."
+      },
+      {
+        "term": "Fee simple absolute",
+        "definition": "The most complete form of ownership, unlimited in duration and freely transferable or inheritable."
+      },
+      {
+        "term": "Joint tenancy",
+        "definition": "Co-ownership in equal shares with a right of survivorship, so a deceased owner's share passes to the surviving owners."
+      },
+      {
+        "term": "Metes and bounds",
+        "definition": "A legal description that traces boundaries by distances and directions from a point of beginning back to that point."
+      },
+      {
+        "term": "Quitclaim deed",
+        "definition": "A deed that transfers whatever interest the grantor has with no warranties of title."
+      }
+    ]
+  }
+]

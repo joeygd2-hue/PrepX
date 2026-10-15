@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Clinical reasoning, modalities, documentation, and special populations",
+    "objective": "Apply SOAP documentation, evaluate indications and contraindications for physical agents, and adapt interventions for specific conditions and populations.",
+    "body": "Advanced questions combine knowledge: you read a short case, decide what is safe and what is not, and record it correctly. Three tools help: SOAP notes, modality safety rules and condition-specific precautions.\n\n**SOAP notes** organize documentation:\n- **S (Subjective)**: what the patient reports, such as \"my pain is 6 out of 10 when I climb stairs.\"\n- **O (Objective)**: measurable findings, such as ROM in degrees, MMT grades, distance walked or vital signs.\n- **A (Assessment)**: the clinician's interpretation of progress toward goals.\n- **P (Plan)**: what will happen next, such as frequency of visits or exercise progression.\n\n**Physical agents (modalities)** support exercise rather than replace it.\n- **Cryotherapy** (cold) reduces pain and swelling in acute injuries. Avoid it over areas of poor sensation or poor circulation, and in people with cold sensitivity such as Raynaud's phenomenon.\n- **Superficial heat** (hot packs) relaxes muscles and improves tissue extensibility for chronic stiffness. Avoid heat on acute inflammation, over areas with impaired sensation and over a known malignancy.\n- **Therapeutic ultrasound** and **electrical stimulation** such as TENS for pain or NMES for muscle re-education require the PT's judgment. Electrical stimulation is generally avoided over the chest of a person with a cardiac pacemaker, over the front of the neck and over a pregnant abdomen.\n\nCheck skin before and after any thermal agent, and stop if the patient reports burning or unusual discomfort.\n\n**Condition-specific precautions** appear often in case questions:\n- After a **total hip replacement** with a posterior approach, typical precautions include no hip flexion past 90 degrees, no crossing the legs (adduction past midline) and no turning the operated leg inward (internal rotation). Surgeons may use other approaches with different precautions, so always follow the specific order.\n- After a **stroke**, patients often have weakness on one side of the body (hemiparesis); therapy emphasizes task-specific practice and safe transfers toward the stronger side when possible.\n- For **older adults**, fall prevention combines balance and strength training with home hazard review.\n- For a recent **anterior cruciate ligament (ACL)** reconstruction, early goals are controlling swelling, regaining knee extension and activating the quadriceps.\n\n**Vital signs** guide exercise safety. Check heart rate and blood pressure before, during and after exercise for patients with cardiac or pulmonary conditions, and stop activity if the patient shows severe shortness of breath, chest pain, dizziness or an abnormal blood pressure response.\n\nThe most common mistake students make is putting measurable findings like ROM degrees in the Subjective section; only what the patient says goes under S, and anything you measure or observe belongs under O.",
+    "examples": [
+      "A note reading \"Knee flexion 95 degrees, walked 200 feet with rolling walker\" belongs in the Objective section, while \"Patient states knee feels tight in the morning\" belongs in Subjective.",
+      "A patient two days after an ankle sprain with swelling receives cold and elevation, not a hot pack, because heat could increase swelling in the acute phase."
+    ],
+    "questions": [
+      {
+        "stem": "Where does \"Patient reports pain is 4/10 after walking\" belong in a SOAP note?",
+        "choices": [
+          "Subjective",
+          "Objective",
+          "Assessment",
+          "Plan"
+        ],
+        "answer": 0,
+        "explanation": "It is the patient's own report, so it is Subjective. It is not Objective because the clinician did not measure it directly."
+      },
+      {
+        "stem": "A PTA records \"Shoulder flexion improved from 100 to 140 degrees.\" Which section is correct?",
+        "choices": [
+          "Subjective",
+          "Assessment",
+          "Objective",
+          "Plan"
+        ],
+        "answer": 2,
+        "explanation": "A goniometric measurement is an Objective finding. Assessment is the interpretation of findings, not the measurement itself."
+      },
+      {
+        "stem": "A patient with a fresh, swollen ankle sprain from yesterday asks for a heat pack. What is the best choice?",
+        "choices": [
+          "Apply heat to relax the area",
+          "Use cold to manage pain and swelling",
+          "Use alternating heat to increase blood flow",
+          "Apply heat followed by vigorous massage"
+        ],
+        "answer": 1,
+        "explanation": "Cold is used for acute swelling. Heat increases blood flow and can worsen swelling in the acute phase."
+      },
+      {
+        "stem": "A patient with a cardiac pacemaker is referred for pain management. Which intervention needs the most caution?",
+        "choices": [
+          "Electrical stimulation over the chest",
+          "Cold pack on the knee",
+          "Walking program",
+          "Active ROM of the ankle"
+        ],
+        "answer": 0,
+        "explanation": "Electrical stimulation near a pacemaker may interfere with it. A cold pack on the knee does not involve electrical current near the device."
+      },
+      {
+        "stem": "A patient with a posterior-approach total hip replacement is sitting in a low chair and leaning forward to tie her shoes. Which precaution is she most likely violating?",
+        "choices": [
+          "Hip flexion past 90 degrees",
+          "Full knee extension",
+          "Ankle dorsiflexion",
+          "Shoulder elevation"
+        ],
+        "answer": 0,
+        "explanation": "Low chairs and bending to the feet push the hip past 90 degrees of flexion. Knee extension is not restricted after a hip replacement."
+      },
+      {
+        "stem": "Which statement belongs in the Assessment section?",
+        "choices": [
+          "Patient walked 150 feet with a cane",
+          "Patient states she is tired today",
+          "Patient is progressing toward the goal of community walking",
+          "Continue gait training 3 times per week"
+        ],
+        "answer": 2,
+        "explanation": "Assessment interprets progress toward goals. Walking 150 feet is an Objective measurement, not an interpretation."
+      },
+      {
+        "stem": "During a treadmill session, a cardiac patient becomes dizzy and short of breath. What should the clinician do?",
+        "choices": [
+          "Raise the incline to finish the set",
+          "Stop the exercise, check vital signs and notify the PT",
+          "Ignore it because some breathlessness is normal",
+          "Switch to a heavier strengthening exercise"
+        ],
+        "answer": 1,
+        "explanation": "Dizziness and marked breathlessness are signs to stop and assess. Raising the incline increases demand on an already stressed heart."
+      },
+      {
+        "stem": "A patient with decreased sensation in both feet from diabetes needs treatment for stiff ankles. Which choice is safest?",
+        "choices": [
+          "Hot pack directly on the feet for 30 minutes",
+          "Active ROM exercises with skin checks",
+          "Ice massage on the feet",
+          "Electrical stimulation at a high intensity"
+        ],
+        "answer": 1,
+        "explanation": "Exercise with skin checks avoids thermal risks. A hot pack is unsafe because impaired sensation means the patient may not feel a burn."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "SOAP note",
+        "definition": "A documentation format with Subjective, Objective, Assessment and Plan sections."
+      },
+      {
+        "term": "Cryotherapy",
+        "definition": "The use of cold to reduce pain and swelling, especially after an acute injury."
+      },
+      {
+        "term": "Contraindication",
+        "definition": "A condition that makes a specific treatment unsafe for a patient."
+      },
+      {
+        "term": "Hemiparesis",
+        "definition": "Weakness on one side of the body, often after a stroke."
+      },
+      {
+        "term": "Hip precautions",
+        "definition": "Movement limits after hip replacement, such as no flexion past 90 degrees, no crossing legs and no inward rotation with a posterior approach."
+      }
+    ]
+  }
+]

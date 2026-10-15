@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Building and defending a recommendation",
+    "objective": "Compare alternatives, choose one and support it with an implementation plan, numbers and risks.",
+    "body": "Judges in case events are looking for a decision. They want to know what you recommend, why it beats the other options, how the business will carry it out and how it will know the plan worked. A clear structure makes all four visible.\n\n**Generate a few alternatives.** List two or three realistic options before choosing. Briefly mentioning the options you rejected, and why, shows the judge you weighed choices instead of grabbing the first idea.\n\n**Choose with criteria.** Compare options against the case's priorities, such as cost, time to launch, fit with the brand and expected impact. Saying 'we chose the loyalty program because it fits the $6,000 budget and can launch in a month' is far stronger than 'we liked it best.'\n\n**Build an implementation plan.** Turn the recommendation into action:\n- *What* will be done, in clear steps.\n- *Who* is responsible, such as the store manager or the marketing staff.\n- *When* each step happens, on a simple timeline.\n- *How much* it costs, with a short budget.\n\n**Show the numbers.** Simple, accurate math builds credibility. Estimate costs and benefits and, where possible, a payback period: if a $4,000 investment is expected to add $1,000 in profit a month, it pays for itself in $4,000 ÷ $1,000 = 4 months. Round sensibly and double-check every figure before you present it.\n\n**Define success.** Name a measurable goal and how you will track it, such as raising repeat visits by 10 percent within six months, measured with loyalty-card data. Clear metrics answer the judge's natural question: how will we know this worked?\n\n**Plan for risk.** Identify the most likely problem with your plan and a contingency. 'If sign-ups are low after six weeks, we will add a first-visit bonus' shows you thought ahead and makes the judge more comfortable approving the plan.\n\nA common mistake is presenting a list of loosely related ideas instead of one integrated recommendation. Five half-developed ideas usually score lower than one plan that is specific, costed and measurable.",
+    "examples": [
+      "A gym losing members considers lowering prices, adding group classes or starting a referral program. The team picks referrals because they cost about $2,000, versus an estimated $12,000 in lost revenue from price cuts, and they reward loyal members.",
+      "A cafe spends $3,000 on an outdoor patio expected to add $750 in profit per month: $3,000 ÷ $750 = 4 months to pay back.",
+      "Success metric: increase online orders from 120 to 150 per week, a (150 − 120) ÷ 120 = 25 percent increase, within 90 days, tracked through the ordering system."
+    ],
+    "questions": [
+      {
+        "stem": "A recommended delivery service costs $6,000 to launch and is expected to add $1,500 in profit each month. What is its payback period?",
+        "choices": [
+          "2 months",
+          "6 months",
+          "4 months",
+          "9 months"
+        ],
+        "answer": 2,
+        "explanation": "Payback period is cost divided by gain per period: $6,000 ÷ $1,500 = 4 months."
+      },
+      {
+        "stem": "Which statement best defines success for a case recommendation?",
+        "choices": [
+          "Customers will really love the new loyalty program",
+          "Increase repeat purchases 15 percent in six months, tracked by loyalty data",
+          "The program will become the best one in the whole industry",
+          "Sales should go up at some point after the program launches"
+        ],
+        "answer": 1,
+        "explanation": "A useful success metric is specific, measurable and time-bound, with a way to track it. The other choices are vague hopes that cannot be checked."
+      },
+      {
+        "stem": "Why should a team briefly mention the alternatives it considered and rejected?",
+        "choices": [
+          "It shows the recommendation was chosen by weighing options",
+          "It lets the judge pick whichever option they prefer",
+          "It fills time when the main plan is too short",
+          "It proves the team could not settle on one plan"
+        ],
+        "answer": 0,
+        "explanation": "Showing that you compared options against criteria makes your final choice more convincing. The team still presents one clear recommendation."
+      },
+      {
+        "stem": "A team's plan reads: Launch a weekend kids' workshop series in April, run by the assistant manager, with a $1,200 budget, aiming for 40 sign-ups per month. Which element is missing?",
+        "choices": [
+          "A timeline for the launch",
+          "A person responsible for it",
+          "A budget for the workshops",
+          "A contingency if sign-ups are low"
+        ],
+        "answer": 3,
+        "explanation": "The plan names a timeline (April), a responsible person, a budget and a measurable goal, but says nothing about what happens if sign-ups fall short."
+      }
+    ],
+    "flashcards": [
+      { "term": "Decision criteria", "definition": "The factors, such as cost, timing and impact, used to compare options and justify a choice." },
+      { "term": "Implementation plan", "definition": "The steps, responsible people, timeline and budget for carrying out a recommendation." },
+      { "term": "Payback period", "definition": "The time needed for a project's gains to recover its cost; cost divided by gain per period." },
+      { "term": "Success metric", "definition": "A specific, measurable, time-bound goal used to judge whether a recommendation worked." },
+      { "term": "Contingency plan", "definition": "A prepared response if a key part of the recommendation does not go as expected." }
+    ]
+  }
+]

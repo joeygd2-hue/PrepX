@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Managing chronic disease and recognizing red flags",
+    "objective": "Apply diagnostic criteria for common chronic conditions, design patient-centered management plans, and recognize red-flag symptoms that require urgent referral.",
+    "body": "Much of a family physician's day is spent managing **chronic diseases**, conditions lasting a year or more that need ongoing attention. Hypertension, type 2 diabetes, high cholesterol, asthma, obesity and depression are among the most common. Success depends less on a single prescription than on a long-term partnership with the patient.\n\n**Diagnosing type 2 diabetes.** The American Diabetes Association criteria include a hemoglobin **A1c** of 6.5 percent or higher, a fasting plasma glucose of 126 mg/dL or higher, a 2-hour glucose of 200 mg/dL or higher on an oral glucose tolerance test, or a random glucose of 200 mg/dL or higher with classic symptoms. Without clear symptoms, a result should be confirmed by repeat testing. An A1c of 5.7 to 6.4 percent indicates **prediabetes**, a key window for lifestyle change.\n\n**Lifestyle first, then medication.** For hypertension, diabetes and obesity, first-line advice includes a heart-healthy diet such as DASH, reduced sodium, at least 150 minutes of moderate activity per week, weight loss when appropriate, limiting alcohol and quitting tobacco. When medication is needed, the physician selects it based on guidelines and the patient's other conditions, then monitors response.\n\n**Patient-centered tools.**\n- **Motivational interviewing** uses open-ended questions and reflective listening to help patients find their own reasons to change, instead of lecturing.\n- **Shared decision-making** presents options, risks and benefits so the patient and physician choose together.\n- **Medication reconciliation** compares every medication a patient takes against the record at each visit, catching duplications and interactions.\n- **Social determinants of health**, such as housing, food access, transportation and income, often explain why a plan is not working.\n\n**Red flags.** Family physicians must recognize when a common complaint signals an emergency:\n- Chest pain with sweating, shortness of breath or pain spreading to the arm or jaw suggests a heart attack.\n- Sudden facial droop, arm weakness or slurred speech suggests stroke (remember **BE FAST**: balance, eyes, face, arms, speech, time).\n- Headache described as the worst of one's life, or with fever and stiff neck, needs urgent evaluation.\n- Thoughts of suicide require same-day safety assessment; the 988 Suicide and Crisis Lifeline is available 24/7.\n\nIn these cases the correct move is immediate emergency care, not a routine follow-up appointment.\n\nThe most common mistake students make is choosing a medication or specialist referral as the first step for a newly identified chronic condition. Unless red flags are present, confirm the diagnosis, address lifestyle and the patient's goals, and then escalate treatment.",
+    "examples": [
+      "A patient with an A1c of 6.1 percent is told she has prediabetes and is referred to a diabetes prevention program focused on diet, activity and modest weight loss.",
+      "Instead of saying 'You must quit smoking,' a physician asks 'What would be different for you if you stopped smoking?', an example of motivational interviewing."
+    ],
+    "questions": [
+      {
+        "stem": "An asymptomatic 50-year-old has an A1c of 6.8 percent. What is the most appropriate next step?",
+        "choices": [
+          "Diagnose type 1 diabetes",
+          "Repeat testing to confirm the diagnosis of diabetes",
+          "Tell the patient the result is normal",
+          "Diagnose prediabetes"
+        ],
+        "answer": 1,
+        "explanation": "Without classic symptoms, a diabetes-range result should be confirmed with repeat testing. Prediabetes is wrong because 6.8 percent is above the 5.7-6.4 range."
+      },
+      {
+        "stem": "A patient with hypertension says, \"I know I should cut back on salt, but I love cooking with my family.\" Which response best reflects motivational interviewing?",
+        "choices": [
+          "\"You need to stop using salt immediately.\"",
+          "\"If you don't change, you'll have a stroke.\"",
+          "\"I'll just increase your medication.\"",
+          "\"What parts of your family's cooking would be easiest to adjust?\""
+        ],
+        "answer": 3,
+        "explanation": "An open-ended question that builds on the patient's own values is motivational interviewing. The directive command is the common distractor; it lectures rather than evokes change."
+      },
+      {
+        "stem": "A 58-year-old calls the clinic with crushing chest pressure, sweating and pain moving into his left arm. What should the staff advise?",
+        "choices": [
+          "Call 911 for emergency care now",
+          "Schedule the next available appointment",
+          "Take an antacid and call back tomorrow",
+          "Come in for an ECG later this week"
+        ],
+        "answer": 0,
+        "explanation": "These are red flags for a heart attack and require emergency services immediately. A routine or delayed visit wastes critical time."
+      },
+      {
+        "stem": "A patient's diabetes remains uncontrolled; she reveals she lives far from a grocery store and has no car. This barrier is best classified as a:",
+        "choices": [
+          "Social determinant of health",
+          "Medication interaction",
+          "Genetic risk factor",
+          "Adverse drug reaction"
+        ],
+        "answer": 0,
+        "explanation": "Food access and transportation are social determinants of health. Medication interaction is unrelated because the barrier is environmental, not pharmacologic."
+      },
+      {
+        "stem": "At each visit a nurse compares a patient's pill bottles, the pharmacy list and the chart, finding two drugs from the same class. This process is:",
+        "choices": [
+          "Shared decision-making",
+          "Informed consent",
+          "Medication reconciliation",
+          "Triage"
+        ],
+        "answer": 2,
+        "explanation": "Comparing all medication sources to catch duplications is medication reconciliation. Shared decision-making concerns choosing treatment together, not verifying the list."
+      },
+      {
+        "stem": "A newly diagnosed patient with stage 1 hypertension and no other risk factors asks what to do first. The best initial plan focuses on:",
+        "choices": [
+          "Immediate referral to a cardiologist",
+          "Emergency department evaluation",
+          "Ignoring it until symptoms appear",
+          "Lifestyle changes such as reduced sodium, regular activity and the DASH diet"
+        ],
+        "answer": 3,
+        "explanation": "Lifestyle modification is first-line for uncomplicated stage 1 hypertension, with medication added based on risk and response. Cardiology referral is premature without complications."
+      },
+      {
+        "stem": "A grandmother suddenly has slurred speech and her right arm is drooping. Which action is correct?",
+        "choices": [
+          "Call 911 and note the time symptoms started",
+          "Have her lie down and recheck in an hour",
+          "Give her water and watch for improvement",
+          "Book a family medicine visit for tomorrow"
+        ],
+        "answer": 0,
+        "explanation": "These are stroke signs, and treatment depends on time since onset, so call 911 and note the time. Waiting to see if symptoms improve is the dangerous common error."
+      },
+      {
+        "stem": "A physician presents two reasonable treatment options for a patient's high cholesterol, explains the risks and benefits of each, and they choose together. This is:",
+        "choices": [
+          "Motivational interviewing",
+          "Medication reconciliation",
+          "Shared decision-making",
+          "Tertiary prevention"
+        ],
+        "answer": 2,
+        "explanation": "Choosing between options together after discussing risks and benefits is shared decision-making. Motivational interviewing focuses on drawing out a patient's motivation to change behavior."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Chronic disease",
+        "definition": "A condition lasting a year or more that requires ongoing medical attention or limits daily activities."
+      },
+      {
+        "term": "Hemoglobin A1c",
+        "definition": "A blood test reflecting average glucose over about three months; 6.5 percent or higher meets diabetes criteria."
+      },
+      {
+        "term": "Motivational interviewing",
+        "definition": "A counseling style using open-ended questions and reflective listening to help patients find their own reasons to change."
+      },
+      {
+        "term": "Medication reconciliation",
+        "definition": "Comparing all medications a patient takes against the record to find errors, duplications and interactions."
+      },
+      {
+        "term": "Social determinants of health",
+        "definition": "Conditions such as housing, food access, transportation and income that shape health outcomes."
+      }
+    ]
+  }
+]

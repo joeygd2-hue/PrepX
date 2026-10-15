@@ -1,0 +1,69 @@
+[
+  {
+    "title": "The accounting equation and recording transactions",
+    "objective": "Analyze transactions with the accounting equation, journalize them with correct debits and credits, and prove the ledger with a trial balance.",
+    "body": "Most questions on an accounting test come down to one skill: deciding which accounts a transaction changes and in which direction. Master that, and journal entries, ledgers and trial balances become routine.\n\n**The accounting equation.** Assets = Liabilities + Owner's equity. Assets are what the business owns, such as cash, supplies and equipment. Liabilities are amounts owed to others, such as accounts payable. Owner's equity is the owner's claim: it rises with investments and revenue and falls with withdrawals and expenses. Every transaction keeps the two sides equal.\n\n**Normal balances.** Each account has a normal balance, the side on which it increases.\n- Assets, expenses and drawing increase with a *debit* (left side).\n- Liabilities, owner's capital and revenue increase with a *credit* (right side).\n\nIn every entry, total debits must equal total credits.\n\n**Analyzing a transaction.** Ask four questions in order: Which accounts are affected? What type is each account? Is each one increasing or decreasing? Which side records that change? Paying cash for supplies increases Supplies (debit) and decreases Cash (credit). Buying supplies *on account* instead credits Accounts Payable, because the business now owes the vendor.\n\n**Journal, ledger and trial balance.**\n1. *Journalize*: record each entry in date order in the general journal, debits first, with a short explanation.\n2. *Post*: copy each amount to its ledger account and note the posting reference.\n3. *Prepare a trial balance*: list every account balance; total debits must equal total credits.\n\nA trial balance that balances does not prove the books are correct. An entry recorded twice, left out entirely or posted to the wrong account on the correct side will not throw the totals out of balance. A difference that divides evenly by 9 often signals a transposition, such as writing 54 as 45.\n\n**Source documents.** Every entry starts with proof: a check stub for cash paid, a receipt for cash received, a sales invoice for a sale on account and a memorandum for internal transactions.\n\nThe most common mistake is treating the owner's withdrawal as an expense. Drawing reduces equity, but it is not a cost of earning revenue, so it never appears on the income statement.",
+    "examples": [
+      "Maya invests $8,000 cash in her new tutoring business. Cash is debited $8,000 and Maya's Capital is credited $8,000, so both sides of the equation rise by $8,000.",
+      "The business buys $600 of supplies on account: debit Supplies $600, credit Accounts Payable $600. When it pays the vendor later: debit Accounts Payable $600, credit Cash $600.",
+      "A trial balance shows debits of $15,480 and credits of $15,390. The $90 difference divides evenly by 9, so the bookkeeper first looks for a transposed number, such as $540 recorded as $450."
+    ],
+    "questions": [
+      {
+        "stem": "A business has total assets of $72,000 and owner's equity of $41,000. What are its total liabilities?",
+        "choices": ["$113,000", "$31,000", "$41,000", "$72,000"],
+        "answer": 1,
+        "explanation": "Liabilities = Assets − Owner's equity = $72,000 − $41,000 = $31,000. Adding the two figures ($113,000) misuses the accounting equation."
+      },
+      {
+        "stem": "A lawn-care business receives $350 cash from a customer for services completed today. Which entry records this transaction?",
+        "choices": ["Debit Service Revenue $350; credit Cash $350", "Debit Cash $350; credit Accounts Receivable $350", "Debit Cash $350; credit Service Revenue $350", "Debit Accounts Receivable $350; credit Service Revenue $350"],
+        "answer": 2,
+        "explanation": "Cash, an asset, increases with a debit, and revenue increases with a credit. Crediting Accounts Receivable would be correct only when collecting an amount billed earlier."
+      },
+      {
+        "stem": "Which of these accounts has a normal debit balance?",
+        "choices": ["Accounts Payable", "Service Revenue", "Owner's Capital", "Owner's Drawing"],
+        "answer": 3,
+        "explanation": "Drawing reduces owner's equity, so it increases on the debit side. Liabilities, revenue and capital all have normal credit balances."
+      },
+      {
+        "stem": "A company buys office equipment for $2,400, paying $400 cash and agreeing to pay the rest in 30 days. How does this transaction change total assets?",
+        "choices": ["Increase of $2,000", "Increase of $2,400", "Decrease of $400", "No change"],
+        "answer": 0,
+        "explanation": "Equipment rises $2,400 and Cash falls $400, a net asset increase of $2,000. Accounts Payable rises $2,000, so the equation stays in balance."
+      },
+      {
+        "stem": "A trial balance shows total debits of $28,640 and total credits of $28,370. Which single error would explain exactly this difference?",
+        "choices": ["A $360 credit to revenue posted as $630", "A complete $270 entry left out of the journal", "A $630 credit to revenue posted as $360", "A $630 debit to supplies posted as $360"],
+        "answer": 2,
+        "explanation": "The difference is $28,640 − $28,370 = $270, and credits are the short side. Posting a $630 credit as $360 understates credits by $630 − $360 = $270; omitting an entire entry leaves the totals equal."
+      },
+      {
+        "stem": "A bookkeeper records a $500 rent payment as a debit to Utilities Expense instead of Rent Expense. What effect does this have on the trial balance?",
+        "choices": ["Debits will exceed credits by $500", "The trial balance will still balance", "Credits will exceed debits by $500", "Debits will exceed credits by $1,000"],
+        "answer": 1,
+        "explanation": "The $500 was still debited, just to the wrong expense account, so the totals stay equal. Errors like this are found by reviewing entries, not by the trial balance."
+      },
+      {
+        "stem": "A business performs services for a customer on account and sends a bill listing the services, price and terms. Which source document supports the journal entry?",
+        "choices": ["Check stub", "Receipt", "Memorandum", "Sales invoice"],
+        "answer": 3,
+        "explanation": "A sales invoice documents a sale on account. A receipt proves cash received, a check stub proves cash paid and a memorandum covers internal transactions."
+      },
+      {
+        "stem": "The owner of a small business withdraws $1,200 cash for personal use. Which statement about this transaction is correct?",
+        "choices": ["It is recorded as a $1,200 expense on the income statement", "It increases liabilities by $1,200", "It decreases owner's equity and cash by $1,200", "It decreases revenue by $1,200"],
+        "answer": 2,
+        "explanation": "The entry debits Drawing and credits Cash, lowering both equity and assets by $1,200. A withdrawal is not an expense, so net income is unaffected."
+      }
+    ],
+    "flashcards": [
+      { "term": "Accounting equation", "definition": "Assets = Liabilities + Owner's equity; every transaction keeps both sides equal." },
+      { "term": "Normal balance", "definition": "The side, debit or credit, on which an account increases and usually carries its balance." },
+      { "term": "Posting", "definition": "Transferring each journal amount to its ledger account and recording the posting reference." },
+      { "term": "Trial balance", "definition": "A list of all ledger balances that proves total debits equal total credits, though it cannot catch every error." },
+      { "term": "Source document", "definition": "Business paper, such as an invoice, receipt or check stub, that proves a transaction happened and supports its entry." }
+    ]
+  }
+]

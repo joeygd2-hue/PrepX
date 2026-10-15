@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Managing store operations, loss prevention and performance",
+    "objective": "Evaluate store performance metrics, design loss prevention and staffing strategies, and recommend data-driven improvements to retail operations.",
+    "body": "Advanced retail management questions ask you to diagnose a store's results and choose the best response. That requires knowing the key metrics and the operational levers that move them.\n\n**Key performance indicators.** Managers track a handful of **KPIs**:\n- **Sales per square foot** = Net sales / Selling square feet. It measures how productively space is used.\n- **Conversion rate** = Transactions / Store visitors. If 2,000 people enter and 500 buy, conversion is 25%.\n- **Average transaction value (ATV)** = Net sales / Number of transactions.\n- **Comparable-store sales** (same-store sales) compare stores open at least a year, removing the effect of new openings.\n\nSales = Traffic × Conversion × ATV. This breakdown tells a manager where a problem lies. Strong traffic with weak conversion points to staffing, stockouts or checkout lines; good conversion with low ATV points to weak add-on selling.\n\n**Shrinkage and loss prevention.** **Shrinkage** is inventory loss not explained by sales: book inventory minus physical inventory. Major sources include shoplifting, employee theft, administrative and paperwork errors, and vendor fraud. **Loss prevention** combines tactics:\n1. Visible, attentive customer service, which deters theft better than many devices\n2. Electronic article surveillance (EAS) tags and cameras\n3. Careful hiring, clear policies and cash-handling procedures\n4. Receiving checks that compare shipments to purchase orders\n5. Regular cycle counts to catch errors early\n\n**Staffing and scheduling.** Labor is usually a retailer's largest controllable expense. Managers schedule to traffic patterns, adding staff at peak hours rather than spreading hours evenly. Too few workers lower conversion and raise theft; too many inflate payroll. Training, recognition and fair scheduling reduce **employee turnover**, which is costly because of hiring and training time.\n\n**Using data.** **Point-of-sale (POS)** systems capture every transaction, feeding inventory, reorder and customer data. Retailers use this data for **category management**, treating each category as a business unit with its own goals, and for **planograms**, diagrams showing exactly where each product goes on a fixture. Placing high-margin or impulse items at eye level and near checkout raises ATV.\n\n**Customer experience.** Return policies, service recovery and loyalty programs build repeat business. Retaining an existing customer is generally cheaper than acquiring a new one, so resolving complaints quickly protects lifetime value.\n\nThe most common mistake students make is treating every sales decline as a traffic problem; always check conversion and average transaction value before choosing to spend more on advertising.",
+    "examples": [
+      "A store has 4,000 visitors, 800 transactions and $36,000 in sales, so conversion is 20% and average transaction value is $45.",
+      "Book inventory shows $250,000 but the physical count finds $245,000, revealing $5,000 of shrinkage, or 2% of book value."
+    ],
+    "questions": [
+      {
+        "stem": "Traffic is up 10% but sales are flat. Shoppers complain about long waits for help in fitting rooms. What should the manager address first?",
+        "choices": [
+          "Add staff during peak hours to raise conversion",
+          "Increase advertising to raise traffic",
+          "Raise prices to lift ATV",
+          "Cut store hours"
+        ],
+        "answer": 0,
+        "explanation": "Traffic is fine; the problem is converting visitors, which staffing fixes. More advertising adds traffic the store already cannot serve."
+      },
+      {
+        "stem": "A store of 5,000 selling square feet has annual net sales of $1,500,000. What are sales per square foot?",
+        "choices": [
+          "$3,333",
+          "$300",
+          "$30",
+          "$7,500"
+        ],
+        "answer": 1,
+        "explanation": "$1,500,000 / 5,000 = $300. $3,333 inverts the calculation."
+      },
+      {
+        "stem": "Which formula correctly breaks down total sales?",
+        "choices": [
+          "Traffic × Shrinkage × ATV",
+          "Conversion × Markup × Traffic",
+          "Traffic × Conversion × Average transaction value",
+          "ATV × Turnover × Square feet"
+        ],
+        "answer": 2,
+        "explanation": "Sales equal visitors times the share who buy times the average spend. Markup affects margin, not sales volume."
+      },
+      {
+        "stem": "Book inventory is $180,000 and the physical count is $175,500. What is the shrinkage percentage of book inventory?",
+        "choices": [
+          "4.5%",
+          "2.6%",
+          "1.5%",
+          "2.5%"
+        ],
+        "answer": 3,
+        "explanation": "$4,500 / $180,000 = 2.5%. 2.6% divides by the physical count instead of book inventory."
+      },
+      {
+        "stem": "A chain wants to know whether existing stores are growing, excluding the 12 stores it opened this year. Which metric fits?",
+        "choices": [
+          "Comparable-store sales",
+          "Gross margin",
+          "Open-to-buy",
+          "Inventory turnover"
+        ],
+        "answer": 0,
+        "explanation": "Comparable-store sales compare only stores open at least a year. Total sales growth would be inflated by new stores."
+      },
+      {
+        "stem": "Shrinkage is rising, and audits show many shipments contain fewer units than invoiced. Which control best addresses this?",
+        "choices": [
+          "Adding EAS tags",
+          "Checking shipments against purchase orders at receiving",
+          "Hiring more cashiers",
+          "Running a loss leader"
+        ],
+        "answer": 1,
+        "explanation": "Short shipments are a receiving and vendor problem, caught by matching deliveries to POs. EAS tags stop shoplifting, not vendor shortages."
+      },
+      {
+        "stem": "A diagram specifying the exact shelf location and facings for each product is a:",
+        "choices": [
+          "Floor plan budget",
+          "Point-of-sale report",
+          "Planogram",
+          "Category killer"
+        ],
+        "answer": 2,
+        "explanation": "A planogram maps product placement on fixtures. A POS report records transactions, not placement."
+      },
+      {
+        "stem": "Conversion is strong but average transaction value is falling. Which action most directly helps?",
+        "choices": [
+          "Spending more on billboards",
+          "Reducing staff hours",
+          "Lowering every price",
+          "Training staff in add-on selling and placing accessories near checkout"
+        ],
+        "answer": 3,
+        "explanation": "Suggestion selling and impulse placement raise spend per transaction. Billboards target traffic, which is not the issue."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Conversion rate",
+        "definition": "The share of store visitors who make a purchase: transactions divided by visitors."
+      },
+      {
+        "term": "Shrinkage",
+        "definition": "Inventory loss not explained by sales, equal to book inventory minus physical inventory."
+      },
+      {
+        "term": "Sales per square foot",
+        "definition": "Net sales divided by selling square feet, a measure of space productivity."
+      },
+      {
+        "term": "Planogram",
+        "definition": "A diagram showing exactly where each product is placed on a fixture."
+      },
+      {
+        "term": "Comparable-store sales",
+        "definition": "Sales growth measured only for stores open at least a year."
+      }
+    ]
+  }
+]

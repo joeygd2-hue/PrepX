@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Whole Building Design",
+    "url": "https://www.wbdg.org/article/resources/whole-building-design",
+    "publisher": "Whole Building Design Guide (WBDG)",
+    "kind": "reference",
+    "note": "WBDG overview of whole building design goals such as accessibility, safety and sustainability."
+  },
+  {
+    "title": "Creative Engineering Design (unit)",
+    "url": "https://www.teachengineering.org/curricularunits/view/cub_creative_curricularunit",
+    "publisher": "TeachEngineering",
+    "kind": "course",
+    "note": "Free unit walking through the engineering design process, from defining the need to testing."
+  },
+  {
+    "title": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/",
+    "publisher": "MIT OpenCourseWare",
+    "kind": "course",
+    "note": "MIT's free course materials, including architecture and structures courses for deeper study."
+  }
+]

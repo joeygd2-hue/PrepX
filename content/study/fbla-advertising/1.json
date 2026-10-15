@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Advertising's role, types and rules",
+    "objective": "Explain how advertising fits the promotional mix, identify the types and objectives of advertising, and recognize agency roles and the rules that keep ads truthful.",
+    "body": "Advertising tests start with the basics: what advertising is, what it is trying to do and what advertisers are allowed to say. These foundations also help you eliminate wrong answers on harder questions.\n\n**Advertising in the promotional mix.** Advertising is paid, nonpersonal communication from an identified sponsor through mass or digital media. It sits beside the other promotional tools:\n- *Personal selling*: one-to-one, paid communication by a salesperson.\n- *Sales promotion*: short-term incentives such as coupons, samples and contests.\n- *Public relations*: managing image and earning unpaid media coverage, called *publicity*.\n- *Direct marketing*: targeted messages that ask for an immediate response.\n*Integrated marketing communications* (IMC) coordinates all of these so customers hear one consistent message.\n\n**Types and objectives.** *Product advertising* sells a specific good or service; *institutional advertising* builds the reputation of the organization itself. Product ads have three classic objectives tied to the product life cycle:\n1. *Informative (pioneering)*: explain a new product and build demand for the whole category.\n2. *Persuasive (competitive)*: build demand for one brand over its rivals; *comparative ads* name or show competitors.\n3. *Reminder*: keep a mature brand top of mind.\nThe *AIDA* model describes how an ad moves a viewer: Attention, Interest, Desire, Action.\n\n**Who makes the ads.** A full-service agency handles research, creative work, media planning and buying. The *account executive* is the liaison with the client, *creatives* (copywriters and art directors) produce the work, and *media planners and buyers* choose and purchase where it runs. Many brands also keep an *in-house* team.\n\n**The rules.** In the United States the Federal Trade Commission (FTC) enforces truth in advertising: claims must be truthful, not misleading and backed by evidence. Endorsers must clearly disclose material connections, such as being paid or receiving free products. *Bait and switch*, advertising a bargain the seller does not intend to sell in order to push a pricier item, is deceptive. *Puffery*, vague exaggeration no reasonable person would treat as fact, such as calling a sandwich the tastiest in town, is generally allowed.\n\nThe most common mistake is confusing publicity with advertising. If the company paid for the space and controls the message, it is advertising; if a reporter chose to cover the story, it is publicity.",
+    "examples": [
+      "A new scooter-rental service runs ads explaining how to unlock a scooter with its app. That is informative advertising building demand for a new category.",
+      "A regional hospital sponsors ads about its free community health fairs without promoting any specific service. That is institutional advertising.",
+      "A creator who receives free headphones posts a review. The post should clearly disclose the gift, for example with a plain statement that the brand sent the headphones for free."
+    ],
+    "questions": [
+      {
+        "stem": "A local newspaper runs a free feature story about a bakery's new gluten-free line after the bakery sends out a news release. What is this an example of?",
+        "choices": ["Product advertising", "Publicity", "Sales promotion", "Personal selling"],
+        "answer": 1,
+        "explanation": "Publicity is unpaid media coverage that the media outlet chooses to run. Advertising would require the bakery to pay for the space and control the message."
+      },
+      {
+        "stem": "A sports drink brand that has been sold for decades runs short ads that simply show its logo and slogan during games. Which advertising objective does this serve?",
+        "choices": ["Informative", "Comparative", "Reminder", "Pioneering"],
+        "answer": 2,
+        "explanation": "Mature, well-known brands use reminder advertising to stay top of mind. Informative or pioneering ads explain new products, and comparative ads name rivals."
+      },
+      {
+        "stem": "An ad shows two laundry detergents side by side, names the rival brand and claims better stain removal. What type of ad is this?",
+        "choices": ["Institutional advertising", "Reminder advertising", "Cooperative advertising", "Comparative advertising"],
+        "answer": 3,
+        "explanation": "Comparative advertising directly names or shows a competitor. Cooperative advertising is an ad whose cost is shared, usually by a manufacturer and a retailer."
+      },
+      {
+        "stem": "Which agency role serves as the main link between the client and the agency's creative and media teams?",
+        "choices": ["Account executive", "Copywriter", "Media buyer", "Art director"],
+        "answer": 0,
+        "explanation": "The account executive manages the client relationship and carries the client's goals to the agency teams. Copywriters and art directors create ads; media buyers purchase space and time."
+      },
+      {
+        "stem": "A store advertises a laptop at a very low price. When shoppers arrive, staff discourage the purchase, call the laptop unreliable and steer everyone to a costlier model. What is this practice called?",
+        "choices": ["Puffery", "Bait and switch", "Loss leader pricing", "Comparative advertising"],
+        "answer": 1,
+        "explanation": "Advertising a bargain the seller does not intend to sell, then pushing a pricier item, is bait and switch, a deceptive practice. A true loss leader is actually sold at the low price."
+      },
+      {
+        "stem": "Which advertising claim is most likely to be treated as puffery rather than as a factual claim that requires proof?",
+        "choices": ["Our battery lasts 20 hours on a single charge", "Clinically proven to reduce acne in 7 days", "Our pizza is the most delicious in the world", "Rated number one in a survey of 1,000 dentists"],
+        "answer": 2,
+        "explanation": "A vague, subjective boast about taste cannot be measured, so it is puffery. The other claims state measurable facts that the advertiser must be able to support."
+      },
+      {
+        "stem": "An online ad ends with the line 'Order today and get free shipping.' Which stage of the AIDA model is this line meant to trigger?",
+        "choices": ["Attention", "Interest", "Desire", "Action"],
+        "answer": 3,
+        "explanation": "A call to action asks the viewer to do something now, which is the Action stage. Attention, Interest and Desire come earlier in the ad."
+      },
+      {
+        "stem": "A brand pays a social media creator to feature its sneakers in a post. Under FTC guidance, what must the post include?",
+        "choices": ["A clear disclosure of the paid relationship", "Approval of the post by the FTC before it is published", "A comparison with at least one competing brand", "A disclaimer that results may vary"],
+        "answer": 0,
+        "explanation": "Endorsers must clearly disclose material connections such as payment or free products so viewers can judge the message. The FTC does not preapprove posts."
+      }
+    ],
+    "flashcards": [
+      { "term": "Integrated marketing communications", "definition": "Coordinating advertising, sales promotion, public relations, personal selling and direct marketing into one consistent message." },
+      { "term": "Publicity", "definition": "Unpaid media coverage of a company or product that the media outlet chooses to run." },
+      { "term": "Institutional advertising", "definition": "Advertising that builds the image or reputation of an organization rather than selling a specific product." },
+      { "term": "AIDA model", "definition": "Attention, Interest, Desire, Action: the stages an effective ad moves a viewer through." },
+      { "term": "Puffery", "definition": "Vague, subjective exaggeration in an ad that no reasonable person would treat as a factual claim." }
+    ]
+  }
+]

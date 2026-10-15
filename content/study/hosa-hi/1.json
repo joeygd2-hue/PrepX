@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Health data, health records, and the people who manage them",
+    "objective": "Distinguish data from information, compare EMRs, EHRs and PHRs, and identify the health informatics roles that collect, code and protect patient data.",
+    "body": "**Health informatics** is the use of information technology, data and communication to improve patient care, research and the operation of health organizations. Nearly every question in this field starts with a simple idea: raw facts only become useful when they are organized, interpreted and delivered to the right person at the right time.\n\n**The DIKW pyramid.** Informatics professionals describe a progression from data to wisdom.\n- **Data** are raw, uninterpreted facts, such as the number 168.\n- **Information** is data placed in context: a blood glucose of 168 mg/dL for a specific patient.\n- **Knowledge** comes from patterns in information: this patient's fasting readings have been high for weeks.\n- **Wisdom** is applying knowledge to act well, such as the care team adjusting the treatment plan.\n\n**Types of records.** An **electronic medical record (EMR)** is the digital chart kept by one practice or organization, used mostly for diagnosis and treatment inside that office. An **electronic health record (EHR)** is broader: it is designed to share a patient's information across organizations, so a hospital, a specialist and a pharmacy can all contribute to and view one longitudinal record. A **personal health record (PHR)** is maintained and controlled by the patient, such as an app where someone tracks immunizations and blood pressure readings. A **patient portal** is a secure website tied to a provider's EHR that lets patients view results, message clinicians and request refills.\n\n**Why records matter.** A complete, accurate health record supports continuity of care, legal documentation, billing and reimbursement, quality measurement and research. Good records follow the qualities of **data quality**: accuracy, completeness, timeliness, consistency and accessibility to authorized users only.\n\n**Who works with health data.** Careers in the field include:\n1. **Health information technicians**, who review records for completeness and assign diagnosis and procedure codes.\n2. **Medical coders**, who translate documentation into standardized codes for billing and statistics.\n3. **Clinical informaticists** (often nurses or physicians), who design workflows and tools inside the EHR.\n4. **Health information managers**, who oversee record systems, privacy policies and release of information.\n5. **Health data analysts**, who study data sets to find trends and improve outcomes.\n\n**Structured versus unstructured data.** Structured data fits defined fields, such as a drop-down allergy list or a coded lab value, and computers can easily search and count it. Unstructured data, such as a free-text progress note or a scanned letter, is rich in detail but hard to analyze automatically. Most organizations need both.\n\nThe most common mistake students make is treating EMR and EHR as exact synonyms. On a test, the deciding feature is sharing: an EMR stays within one organization, while an EHR is built to move with the patient across organizations.",
+    "examples": [
+      "A lab result of 6.8 is data; '6.8% hemoglobin A1c for patient J. Rivera on March 3' is information.",
+      "A family uses a smartphone app to log a child's asthma symptoms and inhaler use; because the family controls it, it is a personal health record.",
+      "A coder reads an emergency department note and assigns the correct diagnosis code so the visit can be billed and counted in state injury statistics."
+    ],
+    "questions": [
+      {
+        "stem": "A school nurse writes down '101.4' on a sticky note without a name or unit. In DIKW terms, what is this?",
+        "choices": [
+          "Data",
+          "Information",
+          "Knowledge",
+          "Wisdom"
+        ],
+        "answer": 0,
+        "explanation": "Without context such as patient, unit or time, 101.4 is a raw fact, so it is data. It is not information because nothing yet tells you what or whom the number describes."
+      },
+      {
+        "stem": "A cardiologist, a primary care office and a hospital in different systems all view and add to one patient's longitudinal record. Which term best describes it?",
+        "choices": [
+          "Electronic medical record",
+          "Personal health record",
+          "Electronic health record",
+          "Patient registry"
+        ],
+        "answer": 2,
+        "explanation": "An EHR is designed to share information across organizations. An EMR is the main distractor, but it is kept within a single practice and is not built to follow the patient elsewhere."
+      },
+      {
+        "stem": "A retired teacher enters her own blood pressure readings and vaccine dates into an app she controls. What kind of record is this?",
+        "choices": [
+          "Electronic health record",
+          "Personal health record",
+          "Electronic medical record",
+          "Master patient index"
+        ],
+        "answer": 1,
+        "explanation": "A PHR is maintained and controlled by the patient. It is not an EHR, because an EHR is created and managed by health care organizations."
+      },
+      {
+        "stem": "A clinic manager notices that the same patient's weight is recorded in pounds in one field and kilograms in another, causing errors. Which data quality characteristic is most affected?",
+        "choices": [
+          "Timeliness",
+          "Accessibility",
+          "Completeness",
+          "Consistency"
+        ],
+        "answer": 3,
+        "explanation": "Consistency means data are recorded the same way everywhere. Completeness is tempting, but the values are present; the problem is that they are not uniform."
+      },
+      {
+        "stem": "An analyst wants to count how many patients have a penicillin allergy. Which data format makes this easiest?",
+        "choices": [
+          "A coded entry selected from a structured allergy list",
+          "A scanned PDF of a referral letter",
+          "A free-text paragraph in a progress note",
+          "A voice recording of the intake interview"
+        ],
+        "answer": 0,
+        "explanation": "Structured, coded fields can be searched and counted automatically. Free-text notes may contain the fact, but computers cannot reliably count them without extra processing."
+      },
+      {
+        "stem": "After reviewing six months of glucose readings, a care team recognizes that a patient's levels rise every weekend. Which DIKW level does this pattern represent?",
+        "choices": [
+          "Data",
+          "Knowledge",
+          "Information",
+          "Wisdom"
+        ],
+        "answer": 1,
+        "explanation": "Recognizing a pattern across information is knowledge. It is not yet wisdom, which would be choosing and carrying out the best action based on that pattern."
+      },
+      {
+        "stem": "Which professional is primarily responsible for translating clinical documentation into standardized codes used for billing?",
+        "choices": [
+          "Clinical informaticist",
+          "Health data analyst",
+          "Medical coder",
+          "Patient portal administrator"
+        ],
+        "answer": 2,
+        "explanation": "Medical coders assign diagnosis and procedure codes from documentation. Clinical informaticists work on EHR design and workflows rather than day-to-day code assignment."
+      },
+      {
+        "stem": "A patient logs into a secure website connected to her doctor's EHR to read lab results and send a message to the nurse. What is she using?",
+        "choices": [
+          "A patient portal",
+          "A personal health record she created",
+          "A health information exchange",
+          "A clinical decision support system"
+        ],
+        "answer": 0,
+        "explanation": "A patient portal is tied to the provider's EHR and offers results, messaging and refills. It differs from a PHR, which the patient builds and controls independently."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Health informatics",
+        "definition": "The use of information technology, data and communication to improve patient care, research and health care operations."
+      },
+      {
+        "term": "Electronic health record (EHR)",
+        "definition": "A digital, longitudinal patient record designed to be shared across multiple health care organizations."
+      },
+      {
+        "term": "Electronic medical record (EMR)",
+        "definition": "A digital chart kept by one practice or organization, used mainly for diagnosis and treatment within that organization."
+      },
+      {
+        "term": "Personal health record (PHR)",
+        "definition": "A health record maintained and controlled by the patient."
+      },
+      {
+        "term": "Structured data",
+        "definition": "Data stored in defined fields or codes so computers can easily search, sort and count it."
+      }
+    ]
+  }
+]

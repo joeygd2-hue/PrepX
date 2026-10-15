@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Inheritance patterns, evolution, and ecological relationships",
+    "objective": "Solve Mendelian and non-Mendelian genetics problems, explain how natural selection changes populations, and analyze energy flow through ecosystems.",
+    "body": "Advanced biology questions ask you to combine rules: predict offspring ratios, explain why a population changes over generations and trace energy through a food web. Each skill relies on careful bookkeeping.\n\n**Mendelian genetics.** Each individual carries two **alleles** for a gene, one from each parent. A **genotype** may be homozygous (AA or aa) or heterozygous (Aa); the **phenotype** is the observable trait. In complete dominance, one dominant allele masks the recessive one. A monohybrid cross of Aa x Aa yields a 1:2:1 genotypic ratio and a 3:1 phenotypic ratio. A dihybrid cross of two heterozygotes (AaBb x AaBb) gives a 9:3:3:1 phenotypic ratio when the genes assort independently.\n\n**Beyond simple dominance.**\n- **Incomplete dominance**: heterozygotes show a blended phenotype, such as pink snapdragons from red and white parents.\n- **Codominance**: both alleles are fully expressed, as in type AB blood.\n- **Multiple alleles**: ABO blood type has three alleles (IA, IB, i).\n- **Sex-linked traits**: genes on the X chromosome, such as those for red-green color blindness and hemophilia, appear more often in males because they have only one X.\n- **Polygenic traits**: height and skin color are controlled by many genes and show continuous variation.\n\n**Evolution by natural selection.** Populations evolve when heritable variation affects survival and reproduction. Individuals with advantageous traits leave more offspring, so those alleles become more common over generations. **Fitness** means reproductive success, not strength. Other mechanisms of evolution include genetic drift, gene flow and mutation. Antibiotic resistance is a modern example: antibiotics kill susceptible bacteria, and resistant ones survive and multiply. Evidence for evolution includes fossils, homologous structures and DNA comparisons.\n\n**Ecology and energy flow.** Energy enters most ecosystems through producers that photosynthesize. It passes to primary consumers, secondary consumers and so on, with **decomposers** recycling nutrients. Only about **10%** of the energy at one **trophic level** is passed to the next; the rest is mostly lost as heat through metabolism. That is why food chains rarely exceed four or five levels. Unlike energy, matter such as carbon and nitrogen cycles through ecosystems. Species interactions include predation, competition and symbiosis (mutualism, commensalism and parasitism).\n\nThe most common mistake is believing individuals evolve during their lifetimes. Natural selection acts on individuals, but only populations evolve; bacteria do not 'become' resistant because they need to, the resistant variants were already present and were selected.",
+    "examples": [
+      "Two parents with type A blood who are both IAi have a 1 in 4 chance of having a child with type O blood.",
+      "If grass in a meadow captures 20,000 kcal of energy, the rabbits that eat it receive roughly 2,000 kcal and the foxes that eat the rabbits roughly 200 kcal."
+    ],
+    "questions": [
+      {
+        "stem": "A carrier mother (XHXh) and an unaffected father (XHY) have a son. What is the chance he has hemophilia?",
+        "choices": [
+          "0%",
+          "25%",
+          "50%",
+          "100%"
+        ],
+        "answer": 2,
+        "explanation": "A son gets his X from the mother, who passes Xh half the time, so the risk is 50%. The 25% figure is the chance for any child before knowing the sex."
+      },
+      {
+        "stem": "A red snapdragon is crossed with a white one and all offspring are pink. This illustrates:",
+        "choices": [
+          "Codominance",
+          "Incomplete dominance",
+          "Sex linkage",
+          "Polygenic inheritance"
+        ],
+        "answer": 1,
+        "explanation": "A blended intermediate phenotype indicates incomplete dominance. Codominance would show both colors separately, such as red and white patches."
+      },
+      {
+        "stem": "A hospital sees a rise in an antibiotic-resistant bacterial strain after years of heavy antibiotic use. The best explanation is:",
+        "choices": [
+          "Bacteria chose to develop resistance",
+          "Antibiotics caused every bacterium to mutate",
+          "Resistant variants survived and reproduced more than susceptible ones",
+          "Resistance was acquired by individual bacteria through practice"
+        ],
+        "answer": 2,
+        "explanation": "Selection favors pre-existing resistant variants, which then become common in the population. The idea that bacteria choose or need to adapt confuses individuals with populations."
+      },
+      {
+        "stem": "Two pea plants heterozygous for both seed color and seed shape (YyRr x YyRr) are crossed. Assuming independent assortment, what fraction of offspring show both recessive traits?",
+        "choices": [
+          "1/16",
+          "3/16",
+          "9/16",
+          "1/4"
+        ],
+        "answer": 0,
+        "explanation": "Each recessive phenotype has a 1/4 chance, and 1/4 x 1/4 = 1/16. The 9/16 fraction is for offspring showing both dominant traits."
+      },
+      {
+        "stem": "A food chain is grass, grasshopper, frog, snake. If the grass stores 50,000 kcal, about how much energy reaches the snake?",
+        "choices": [
+          "5,000 kcal",
+          "500 kcal",
+          "50 kcal",
+          "5 kcal"
+        ],
+        "answer": 2,
+        "explanation": "Applying about 10% transfer at each of three steps gives 50,000 to 5,000 to 500 to 50 kcal. The 500 kcal answer stops one level short, at the frog."
+      },
+      {
+        "stem": "A person with type AB blood has a child with a person who has type O blood. Which blood types are possible for the child?",
+        "choices": [
+          "A or B only",
+          "AB or O only",
+          "A, B, AB or O",
+          "O only"
+        ],
+        "answer": 0,
+        "explanation": "The AB parent passes IA or IB and the O parent passes i, giving IAi (type A) or IBi (type B). Type AB is impossible because the O parent cannot contribute IA or IB."
+      },
+      {
+        "stem": "Clownfish shelter among sea anemone tentacles while helping to clean and defend the anemone. This relationship is:",
+        "choices": [
+          "Parasitism",
+          "Commensalism",
+          "Mutualism",
+          "Competition"
+        ],
+        "answer": 2,
+        "explanation": "Both species benefit, which defines mutualism. Commensalism would require one species to be unaffected."
+      },
+      {
+        "stem": "A small island population loses an allele after a storm randomly kills many individuals. Which mechanism best explains this change?",
+        "choices": [
+          "Natural selection",
+          "Genetic drift",
+          "Gene flow",
+          "Mutation"
+        ],
+        "answer": 1,
+        "explanation": "Random loss of alleles in a small population is genetic drift, specifically a bottleneck. Natural selection would require the survivors to have been favored by their traits."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Codominance",
+        "definition": "Inheritance pattern in which both alleles are fully expressed in the heterozygote, as in type AB blood."
+      },
+      {
+        "term": "Incomplete dominance",
+        "definition": "Inheritance pattern in which the heterozygote shows an intermediate, blended phenotype."
+      },
+      {
+        "term": "Fitness",
+        "definition": "An organism's reproductive success relative to others in its population."
+      },
+      {
+        "term": "Trophic level",
+        "definition": "A feeding position in a food chain, such as producer or primary consumer."
+      },
+      {
+        "term": "Genetic drift",
+        "definition": "A random change in allele frequencies, strongest in small populations."
+      }
+    ]
+  }
+]

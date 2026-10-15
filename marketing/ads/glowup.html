@@ -1,0 +1,95 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+.tile{background:var(--subtle);border:1px solid var(--border);border-radius:18px;padding:14px 16px;height:104px}
+.val{font-size:38px;font-weight:600;letter-spacing:-.05em;line-height:1;margin-top:10px}
+.unit{font-size:15px;color:var(--muted);margin-left:3px;letter-spacing:-.02em}
+.sq{width:30px;height:30px;border-radius:8px;background:var(--subtle2)}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script>
+const B=[0.07,0.7,1.25,1.79,2.32,2.86,3.41,3.97,4.53,5.09,5.6,6.13,6.66,7.17,7.71,8.22,8.75,9.24,9.73,10.22,10.75,11.28,11.82,12.38,12.91,13.42,13.96,14.54,15.09,15.65,16.18,16.72,17.28,17.81,18.34,18.9,19.44,19.97,20.53];
+const BRK=12.91, DROP=14.54, READY=17.28, H=18.34, END=20.74;
+const STATS=[
+ {id:'rd',from:31,to:94,show:3.41,up:14.54},
+ {id:'ac',from:52,to:89,show:4.53,up:15.09},
+ {id:'st',from:0,to:41,show:5.6,up:15.65},
+ {id:'rp',from:64,to:91,show:6.66,up:16.18},
+ {id:'mk',from:47,to:3,show:7.71,up:16.72},
+];
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="hook">
+  <div style="position:absolute;left:0;right:0;top:300px;text-align:center;font-size:84px;font-weight:600;letter-spacing:-.055em;color:#a3a39c"><span class="w" id="h0">Week 1</span></div>
+  <div class="serif" style="position:absolute;left:0;right:0;top:396px;text-align:center;font-size:60px;color:var(--muted)"><span class="w" id="h1">vs.</span></div>
+  <div class="serif" style="position:absolute;left:0;right:0;top:466px;text-align:center;font-size:92px;color:var(--accent);line-height:1"><span class="w" id="h2">Competition</span><br><span class="w" id="h3">week.</span></div>
+</div>
+<div class="scene" id="dash">
+  <div class="head" id="hA" style="top:150px"><span class="w">You,</span><span class="w">week</span><span class="w">1.</span></div>
+  <div class="head" id="hB" style="top:150px"><span class="w">You,</span><span class="w serif" style="color:var(--accent)">competition</span><span class="w serif" style="color:var(--accent)">week.</span></div>
+  <div class="card" id="dc" style="top:270px">
+    <div style="display:flex;justify-content:space-between"><span class="eyebrow">DECA · Marketing</span><span class="eyebrow" style="border:1px solid var(--border2);border-radius:99px;padding:3px 8px;letter-spacing:.12em">Example</span></div>
+    <div style="display:flex;align-items:center;gap:18px;margin-top:16px">
+      <svg width="96" height="96" viewBox="0 0 96 96"><circle cx="48" cy="48" r="40" fill="none" stroke="#1f1f22" stroke-width="9"/><circle id="ring" cx="48" cy="48" r="40" fill="none" stroke="#6b6b65" stroke-width="9" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 48 48)"/></svg>
+      <div><div class="eyebrow">Readiness</div><div class="val num" id="v_rd" style="font-size:48px">0<span class="unit">%</span></div><div id="rdlab" style="font-size:13px;color:var(--muted);margin-top:6px">Not ready yet</div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px">
+      <div class="tile" id="t_ac"><div class="eyebrow">Practice accuracy</div><div class="val num" id="v_ac">0<span class="unit">%</span></div></div>
+      <div class="tile" id="t_st"><div class="eyebrow">Day streak</div><div class="val num" id="v_st">0<span class="unit">days</span></div></div>
+      <div class="tile" id="t_rp"><div class="eyebrow">Roleplay score</div><div class="val num" id="v_rp">0<span class="unit">/100</span></div></div>
+      <div class="tile" id="t_mk"><div class="eyebrow">Mistakes to clear</div><div class="val num" id="v_mk">0</div></div>
+    </div>
+  </div>
+  <div id="cap" style="position:absolute;left:0;right:0;top:770px;text-align:center;font-size:20px;color:var(--muted);letter-spacing:-.02em">Same mistakes. Every week.</div>
+  <div id="cap2" style="position:absolute;left:0;right:0;top:770px;text-align:center;font-size:24px;letter-spacing:-.03em">Something has to <span class="serif" style="color:var(--accent);font-size:1.2em">change.</span></div>
+</div>
+<div class="scene" id="brk">
+  <div class="mono" id="typ" style="position:absolute;left:0;right:0;top:250px;text-align:center;font-size:20px;letter-spacing:.04em;color:var(--fg)"></div>
+  <div id="grid" style="position:absolute;left:50%;top:320px;width:${7*30+6*8}px;margin-left:-${(7*30+6*8)/2}px;display:grid;grid-template-columns:repeat(7,30px);gap:8px"></div>
+  <div class="num" id="day" style="position:absolute;left:0;right:0;top:620px;text-align:center;font-size:44px;font-weight:600;letter-spacing:-.05em">Day 1</div>
+</div>
+<div class="scene" id="ready"><div style="position:absolute;left:0;right:0;top:380px;text-align:center;font-size:84px;font-weight:600;letter-spacing:-.055em;line-height:1"><span class="w">Walk</span><span class="w">in</span><br><span class="w serif" style="color:var(--accent);font-size:1.25em">ready.</span></div></div>
+<div class="scene" id="end">${LOGO_HTML}</div>`));
+for(let i=0;i<42;i++)$('grid').insertAdjacentHTML('beforeend','<div class="sq"></div>');
+const TYP='6 weeks of PrepX later…';
+const mix=(a,b,x)=>{const h=s=>[1,3,5].map(i=>parseInt(s.slice(i,i+2),16));const A=h(a),Bc=h(b);return`rgb(${A.map((v,i)=>Math.round(lerp(v,Bc[i],x))).join(',')})`;};
+
+window.render=function(t){
+  const l=lastBeat(B,t);const ampl=(t>=BRK&&t<DROP)?.004:.012;
+  const kick=(t>=DROP?0.05*Math.exp(-(t-DROP)*6):0)+(t>=H?0.04*Math.exp(-(t-H)*6):0);
+  $('stage').style.transform=`scale(${(1+ampl*Math.exp(-(t-l)*9)+kick+.004*Math.sin(t*.7)).toFixed(4)})`;
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  // hook
+  if(show('hook',t<B[4])){glow(G[0],270,300,200,'#6b6b65',.10);glow(G[1],270,560,230,'#c6f03a',.16*eo(p(t,B[2],.4)));
+    [['h0',B[0]],['h1',B[1]],['h2',B[2]],['h3',B[2]+.12]].forEach(([id,a])=>{const s=io(t,a,B[4],.4,.24);s.s=lerp(.85,1,back(p(t,a,.45)));put($(id),s);});}
+  // dashboard (week 1 → competition week)
+  if(show('dash',t>=B[4]&&t<READY)){
+    const g=eo(p(t,DROP,.35));const dim=eio(p(t,BRK,.4))*(1-eo(p(t,DROP-.05,.15)));
+    glow(G[0],270,300,230,mix('#5a5a55','#c6f03a',g),(.12+.14*g)*(1-dim));glow(G[1],270,720,200,'#c6f03a',.05+.1*g);
+    $('dash').style.filter=dim>.01?`blur(${(dim*14).toFixed(1)}px)`:'none';$('dash').style.opacity=(1-.85*dim).toFixed(3);
+    const hA=$('hA'),hB=$('hB');if(t<DROP){hA.style.display='block';hB.style.display='none';words(hA,t,B[4],DROP,.08);}else{hA.style.display='none';hB.style.display='block';words(hB,t,DROP,READY,.08);}
+    put($('dc'),io(t,B[4]+.1,READY,.45,.26,60,46));
+    $('dc').style.boxShadow=g>0?`0 1px 0 rgba(255,255,255,.05) inset,0 40px 90px -30px rgba(0,0,0,.95),0 0 0 1px rgba(198,240,58,${(.35*g).toFixed(2)})`:'';
+    const accent=mix('#8d8d86','#c6f03a',g);
+    STATS.forEach(s=>{const e=eo(p(t,s.show,.35));const u=eo5(p(t,s.up,.7));const v=Math.round(lerp(s.from,s.to,u));
+      const el=$('v_'+s.id);el.firstChild.nodeValue=String(Math.round(e*v));el.style.color=t>=s.up?'#c6f03a':'#a3a39c';
+      el.style.transform=`scale(${(1+.12*(t>=s.up?Math.exp(-(t-s.up)*7):0)+.06*(t>=s.show&&t<DROP?Math.exp(-(t-s.show)*8):0)).toFixed(3)})`;el.style.transformOrigin='0 80%';
+      const tile=$('t_'+s.id);if(tile){tile.style.opacity=(.25+.75*e).toFixed(3);tile.style.borderColor=t>=s.up?`rgba(198,240,58,${(.5*Math.exp(-(t-s.up)*3)+.12).toFixed(2)})`:'var(--border)';}});
+    const rv=lerp(31,94,eo5(p(t,14.54,.7)))*eo(p(t,3.41,.6));$('ring').style.strokeDashoffset=(100-rv).toFixed(2);$('ring').style.stroke=accent;
+    $('rdlab').textContent=t>=14.8?'Ready to compete':'Not ready yet';$('rdlab').style.color=t>=14.8?'#c6f03a':'';
+    put($('cap'),io(t,B[16],B[20],.4,.25,14,14));put($('cap2'),io(t,B[20],BRK+.1,.4,.3,14,10));}
+  // breakdown: 6 weeks later
+  if(show('brk',t>=BRK+.12&&t<DROP)){const n=Math.floor(cl((t-BRK-.15)/.9)*TYP.length);$('typ').textContent=TYP.slice(0,n)+(t%0.5<0.25&&n<TYP.length?'▍':'');
+    const fill=cl((t-13.25)/1.15);const k=Math.floor(fill*42);[...$('grid').children].forEach((s,i)=>{const on=i<k;s.style.background=on?'#c6f03a':'#1f1f22';s.style.transform=`scale(${on&&i===k-1?1.15:1})`;s.style.opacity=on?1:.7;});
+    $('day').textContent='Day '+Math.max(1,k);$('day').style.color=k>=42?'#c6f03a':'';
+    const o=1-eio(p(t,DROP-.08,.08));$('brk').style.opacity=(eo(p(t,BRK+.12,.25))*o).toFixed(3);glow(G[2],270,450,200,'#c6f03a',.05+.18*fill);}
+  // walk in ready
+  if(show('ready',t>=READY&&t<H)){glow(G[0],270,470,230,'#c6f03a',.18);words($('ready'),t,READY,H,.12);}
+  // end card
+  if(show('end',t>=H)){const k=Math.exp(-(t-H)*2.2);glow(G[0],270,430,240,'#c6f03a',.12+.25*k);glow(G[1],270,430,120,'#ffffff',.05+.18*k);renderLogo(t,H,END);}
+  flash(t,t>=H?H:DROP,t>=H?.75:.9);
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>

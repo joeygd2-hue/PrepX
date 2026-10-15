@@ -1,0 +1,102 @@
+[
+{
+ "title": "Marketing",
+ "objective": "Apply the marketing concept, the four Ps and market segmentation to reach target customers.",
+ "body": "Marketing is the process of creating, communicating and delivering value to customers. The *marketing concept* says a business should focus on satisfying customer needs while making a profit.\n\n**The marketing mix (4 Ps).**\n- *Product*: the good or service, including features, quality, packaging and brand.\n- *Price*: what customers pay; strategies include penetration pricing (low to gain share), skimming (high at launch) and psychological pricing ($9.99).\n- *Place*: how the product reaches customers (channels of distribution such as direct, retail or online).\n- *Promotion*: advertising, personal selling, sales promotion and public relations.\n\n**Target markets.** *Market segmentation* divides a market into groups with similar characteristics: *demographic* (age, income), *geographic* (region, climate), *psychographic* (lifestyle, values) and *behavioral* (usage rate, loyalty). A business then picks one or more *target markets* and positions its product to appeal to them.\n\n**Marketing functions.** DECA's framework groups marketing into functions such as channel management, marketing-information management, pricing, product/service management, promotion and selling.\n\n**Product life cycle.** Products move through introduction, growth, maturity and decline. Strategies change at each stage: heavy promotion at introduction, competing on features during growth, defending share during maturity.",
+ "examples": [
+  "A sneaker brand targets teenage athletes (demographic + behavioral) with social media ads featuring high school players.",
+  "A streaming service launches at a low introductory price to attract subscribers quickly: penetration pricing."
+ ],
+ "questions": [
+  {"stem": "Dividing customers into groups based on lifestyle and values is which type of segmentation?", "choices": ["Demographic", "Geographic", "Psychographic", "Behavioral"], "answer": 2, "explanation": "Psychographic segmentation uses attitudes, values, interests and lifestyles."},
+  {"stem": "Which of the 4 Ps involves decisions about distribution channels?", "choices": ["Product", "Price", "Place", "Promotion"], "answer": 2, "explanation": "Place covers how and where the product gets to customers."},
+  {"stem": "Setting a high initial price for an innovative new product is called:", "choices": ["Penetration pricing", "Price skimming", "Psychological pricing", "Loss-leader pricing"], "answer": 1, "explanation": "Skimming captures early adopters willing to pay more, then lowers price over time."},
+  {"stem": "The marketing concept emphasizes:", "choices": ["Producing as much as possible", "Satisfying customer needs at a profit", "Selling regardless of customer needs", "Lowest possible prices"], "answer": 1, "explanation": "Customer satisfaction is central to the marketing concept."},
+  {"stem": "In which stage of the product life cycle do sales level off and competition is strongest?", "choices": ["Introduction", "Growth", "Maturity", "Decline"], "answer": 2, "explanation": "During maturity, sales peak and businesses defend market share."},
+  {"stem": "Pricing a product at $19.99 instead of $20 is an example of:", "choices": ["Psychological pricing", "Skimming", "Bundling", "Prestige pricing"], "answer": 0, "explanation": "Prices ending in 9 or 99 are perceived as noticeably lower."},
+  {"stem": "Which activity is part of the promotion mix?", "choices": ["Choosing a warehouse", "Public relations", "Setting a production schedule", "Hiring a cashier"], "answer": 1, "explanation": "Promotion includes advertising, personal selling, sales promotion and public relations."}
+ ],
+ "flashcards": [
+  {"term": "Marketing mix", "definition": "The 4 Ps: product, price, place and promotion."},
+  {"term": "Target market", "definition": "The specific group of customers a business aims to reach."},
+  {"term": "Market segmentation", "definition": "Dividing a market into groups with shared characteristics."},
+  {"term": "Penetration pricing", "definition": "Setting a low initial price to gain market share quickly."},
+  {"term": "Product life cycle", "definition": "Stages a product passes through: introduction, growth, maturity, decline."}
+ ]
+},
+{
+ "title": "Operations",
+ "objective": "Explain how businesses plan production, manage inventory and quality, and keep workplaces safe.",
+ "body": "Operations covers the day-to-day activities that turn inputs into the goods and services customers buy.\n\n**Production and process.** Businesses choose processes that balance cost, speed and quality. *Mass production* makes large volumes of identical items; *custom* (job) production makes items to order. Productivity rises when waste falls.\n\n**Inventory.** Too much inventory ties up cash and risks spoilage; too little causes stockouts and lost sales. *Just-in-time (JIT)* systems receive materials only as needed. *Reorder points* trigger new orders before stock runs out. Tracking methods include perpetual systems (updated with every sale) and periodic counts.\n\n**Purchasing and supply chain.** Purchasing selects reliable suppliers based on price, quality, delivery and service. The *supply chain* is every step from raw materials to the final customer.\n\n**Quality.** *Quality control* inspects products to find defects; *quality assurance* designs processes to prevent defects. *Total quality management* makes quality every employee's job.\n\n**Safety and security.** Businesses protect employees and customers with safety training, clear procedures, protective equipment and emergency plans. Workplace safety regulations require employers to provide a safe environment. Loss prevention reduces theft and shrinkage.\n\n**Project management.** Large tasks are broken into steps with timelines, budgets and responsibilities, then monitored until complete.",
+ "examples": [
+  "A car plant receives seats from a supplier hours before they are installed: just-in-time inventory.",
+  "A restaurant posts handwashing procedures and checks fridge temperatures twice daily: quality and safety procedures."
+ ],
+ "questions": [
+  {"stem": "Receiving materials only as they are needed in production describes:", "choices": ["Just-in-time inventory", "Mass production", "Periodic inventory", "Quality control"], "answer": 0, "explanation": "JIT minimizes storage costs by timing deliveries to production needs."},
+  {"stem": "What is a major risk of holding too much inventory?", "choices": ["Stockouts", "Cash tied up and possible spoilage", "Higher customer demand", "Lower storage costs"], "answer": 1, "explanation": "Excess inventory costs money to store and may become obsolete or spoil."},
+  {"stem": "Quality assurance differs from quality control because it:", "choices": ["Only inspects finished goods", "Focuses on preventing defects through process design", "Ignores customer feedback", "Is done only by managers"], "answer": 1, "explanation": "Quality assurance builds quality into the process; quality control detects defects after the fact."},
+  {"stem": "A reorder point is used to:", "choices": ["Set employee schedules", "Trigger a new purchase before stock runs out", "Calculate taxes", "Price new products"], "answer": 1, "explanation": "When inventory falls to the reorder point, a new order is placed."},
+  {"stem": "The supply chain includes:", "choices": ["Only the retail store", "Every step from raw materials to the final customer", "Only advertising activities", "Only the finance department"], "answer": 1, "explanation": "Supply chains connect suppliers, manufacturers, distributors, retailers and customers."},
+  {"stem": "Which is an example of a workplace safety procedure?", "choices": ["Posting emergency exit routes and training staff on them", "Offering a discount", "Increasing advertising", "Hiring a consultant to design a logo"], "answer": 0, "explanation": "Clear emergency procedures and training protect employees and customers."},
+  {"stem": "Shrinkage in retail refers to:", "choices": ["Smaller package sizes", "Inventory lost to theft, damage or errors", "Reduced store hours", "Lower prices"], "answer": 1, "explanation": "Shrinkage is the difference between recorded and actual inventory due to loss."}
+ ],
+ "flashcards": [
+  {"term": "Just-in-time", "definition": "An inventory approach that receives materials only as needed."},
+  {"term": "Supply chain", "definition": "All steps and businesses involved from raw materials to the final customer."},
+  {"term": "Quality control", "definition": "Inspecting products to detect and correct defects."},
+  {"term": "Reorder point", "definition": "The inventory level that triggers a new order."},
+  {"term": "Shrinkage", "definition": "Inventory loss from theft, damage or recording errors."}
+ ]
+},
+{
+ "title": "Professional Development",
+ "objective": "Build career-readiness skills such as goal-setting, ethics, professional image and continuous learning.",
+ "body": "Professional development is the ongoing process of building the skills, knowledge and habits that help you succeed at work.\n\n**Career planning.** Start with self-assessment (interests, strengths, values), explore careers and the education they require, then set *SMART goals*: specific, measurable, achievable, relevant and time-bound.\n\n**Job-seeking tools.** A *résumé* summarizes education, experience and skills; a *cover letter* explains why you fit a specific job. In interviews, research the company, dress appropriately, use specific examples (the STAR method: situation, task, action, result) and send a thank-you note.\n\n**Professional image and etiquette.** Punctuality, appropriate dress, respectful language and a positive attitude build credibility. Online, your digital footprint matters: employers often look at public social media.\n\n**Ethics at work.** Follow company policies, protect confidential information, avoid conflicts of interest and report wrongdoing through proper channels.\n\n**Lifelong learning.** Industries change quickly. Certifications, workshops, mentoring and reading keep skills current. *Networking*, building professional relationships, opens doors to opportunities that are never advertised.\n\n**Time management.** Prioritize by importance and urgency, break big tasks into steps and avoid procrastination.",
+ "examples": [
+  "'Answer 50 BAC practice questions with at least 75% accuracy by Friday' is a SMART goal.",
+  "In an interview, a student explains how they organized a fundraiser (situation), what they had to do (task), the steps they took (action) and the $800 raised (result)."
+ ],
+ "questions": [
+  {"stem": "Which goal is written in SMART format?", "choices": ["Get better at marketing", "Read more", "Complete three marketing lessons by Sunday", "Be successful"], "answer": 2, "explanation": "It is specific, measurable, achievable, relevant and has a deadline."},
+  {"stem": "The STAR method is used mainly for:", "choices": ["Writing invoices", "Answering behavioral interview questions", "Calculating taxes", "Designing logos"], "answer": 1, "explanation": "STAR structures answers: situation, task, action, result."},
+  {"stem": "What is the main purpose of a cover letter?", "choices": ["To list every job you have ever had", "To explain why you are a good fit for a specific position", "To request a salary", "To replace the résumé"], "answer": 1, "explanation": "A cover letter connects your qualifications to a particular job."},
+  {"stem": "Building relationships with professionals in your field is called:", "choices": ["Networking", "Delegating", "Benchmarking", "Outsourcing"], "answer": 0, "explanation": "Networking can lead to mentorship, information and job opportunities."},
+  {"stem": "Which action best protects your professional image online?", "choices": ["Posting complaints about your employer", "Reviewing privacy settings and posting responsibly", "Sharing confidential work documents", "Using offensive language in comments"], "answer": 1, "explanation": "Employers often review public profiles; responsible posting protects your reputation."},
+  {"stem": "Why is lifelong learning important in business careers?", "choices": ["Skills never change", "Industries and technologies change, so skills must stay current", "It is required only for managers", "It replaces work experience"], "answer": 1, "explanation": "Continuous learning keeps you adaptable and valuable."},
+  {"stem": "An employee is offered a gift by a supplier competing for a contract the employee helps decide. What is the most ethical response?", "choices": ["Accept quietly", "Decline and follow company policy on gifts", "Ask for a larger gift", "Accept and favor the supplier"], "answer": 1, "explanation": "Accepting could create a conflict of interest; company policy should be followed."}
+ ],
+ "flashcards": [
+  {"term": "SMART goal", "definition": "A goal that is specific, measurable, achievable, relevant and time-bound."},
+  {"term": "STAR method", "definition": "Interview answer structure: situation, task, action, result."},
+  {"term": "Networking", "definition": "Building professional relationships that create opportunities."},
+  {"term": "Digital footprint", "definition": "The trail of information a person leaves online."},
+  {"term": "Conflict of interest", "definition": "A situation where personal interests could improperly influence work decisions."}
+ ]
+},
+{
+ "title": "Strategic Management",
+ "objective": "Use planning tools such as mission statements, SWOT analysis and the management functions to set business direction.",
+ "body": "Strategic management is how leaders decide where a business is going and how it will get there.\n\n**Mission and vision.** A *mission statement* explains why the business exists and whom it serves. A *vision statement* describes what it hopes to become. Goals and objectives turn these into measurable targets.\n\n**SWOT analysis.** A SWOT looks at internal *Strengths* and *Weaknesses* and external *Opportunities* and *Threats*. Strengths and weaknesses are things the company controls (skilled staff, outdated equipment). Opportunities and threats come from the environment (a growing market, a new competitor, a recession).\n\n**The functions of management.**\n1. *Planning*: setting goals and deciding how to reach them.\n2. *Organizing*: arranging people and resources.\n3. *Staffing*: hiring and developing employees (sometimes grouped with organizing).\n4. *Leading/directing*: motivating and guiding people.\n5. *Controlling*: measuring results against goals and correcting course.\n\n**Levels of planning.** *Strategic* plans are long-term and set by top management. *Tactical* plans are medium-term for departments. *Operational* plans cover daily and weekly activities. *Contingency* plans prepare for what could go wrong.\n\n**Leadership styles.** Autocratic leaders decide alone; democratic leaders involve the team; laissez-faire leaders give wide freedom. Effective leaders adapt their style to the situation.",
+ "examples": [
+  "A bike shop lists 'expert mechanics' as a strength and 'a big-box store opening nearby' as a threat in its SWOT.",
+  "A manager compares monthly sales to the goal and launches a promotion when sales fall short: the controlling function."
+ ],
+ "questions": [
+  {"stem": "In a SWOT analysis, a new competitor entering the market is a(n):", "choices": ["Strength", "Weakness", "Opportunity", "Threat"], "answer": 3, "explanation": "Threats are external factors that could harm the business."},
+  {"stem": "Which management function involves comparing results to goals and making corrections?", "choices": ["Planning", "Organizing", "Leading", "Controlling"], "answer": 3, "explanation": "Controlling monitors performance and corrects deviations from the plan."},
+  {"stem": "A statement explaining why a company exists and whom it serves is its:", "choices": ["Vision statement", "Mission statement", "Budget", "Job description"], "answer": 1, "explanation": "The mission statement defines the organization's purpose."},
+  {"stem": "Plans made by top management for the next three to five years are:", "choices": ["Operational plans", "Strategic plans", "Daily schedules", "Contingency plans"], "answer": 1, "explanation": "Strategic plans are long-term and set overall direction."},
+  {"stem": "A leader who involves employees in decisions uses which style?", "choices": ["Autocratic", "Democratic", "Laissez-faire", "Bureaucratic"], "answer": 1, "explanation": "Democratic (participative) leaders invite team input."},
+  {"stem": "Which of these is an internal factor in a SWOT analysis?", "choices": ["Rising interest rates", "A loyal, well-trained staff", "A new government regulation", "Changing consumer trends"], "answer": 1, "explanation": "Strengths and weaknesses are internal; the others are external."},
+  {"stem": "A plan describing what a business will do if its main supplier closes is a:", "choices": ["Strategic plan", "Contingency plan", "Marketing plan", "Mission statement"], "answer": 1, "explanation": "Contingency plans prepare responses to possible disruptions."}
+ ],
+ "flashcards": [
+  {"term": "SWOT analysis", "definition": "Assessment of internal strengths and weaknesses and external opportunities and threats."},
+  {"term": "Mission statement", "definition": "A statement of why an organization exists and whom it serves."},
+  {"term": "Controlling", "definition": "Management function of measuring performance and correcting deviations."},
+  {"term": "Contingency plan", "definition": "A backup plan for responding to possible problems."},
+  {"term": "Strategic plan", "definition": "A long-term plan set by top management that guides overall direction."}
+ ]
+}
+]

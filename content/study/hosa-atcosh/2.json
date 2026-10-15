@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Applying standards: bloodborne pathogens, HazCom, and ergonomics",
+    "objective": "Apply OSHA's Bloodborne Pathogens and Hazard Communication standards and safe patient handling principles to realistic health care scenarios.",
+    "body": "Health care is one of the most hazardous sectors for workers, and a few OSHA standards appear again and again in practice and on tests.\n\n**Bloodborne Pathogens Standard.** This standard protects workers with reasonably anticipated exposure to blood or **other potentially infectious materials (OPIM)**, with hepatitis B, hepatitis C, and HIV as the main concerns. Employers must have a written **exposure control plan** reviewed at least annually, use **standard precautions** (treating all blood and OPIM as infectious), provide engineering controls such as **sharps with engineered injury protection** and puncture-resistant sharps containers, and offer the hepatitis B vaccine at no cost to exposed employees. Contaminated needles should not be recapped, bent, or broken by hand. After a needlestick, the worker should:\n1. Wash the area with soap and water right away\n2. Report the exposure to a supervisor immediately\n3. Get a confidential medical evaluation promptly, because any post-exposure treatment works best when started quickly\n\n**Hazard Communication Standard (HazCom).** Often called the right-to-know rule, HazCom is aligned with the **Globally Harmonized System (GHS)**. Chemical manufacturers must provide a **Safety Data Sheet (SDS)** with 16 standardized sections, and containers must carry labels with a product identifier, signal word, hazard statements, precautionary statements, pictograms, and supplier information. There are only two signal words: **Danger** for more severe hazards and **Warning** for less severe ones. Pictograms appear as a black symbol inside a red diamond border; for example, the flame means flammable, the skull and crossbones means acute toxicity, and the exclamation mark means irritant or lesser hazards. Employers must keep SDSs readily accessible and train workers on them.\n\n**Safe patient handling.** Manual lifting of patients is a leading cause of back injuries among nurses and aides. NIOSH research suggests that manually lifting more than about 35 pounds of a patient's weight is unsafe in most situations, so facilities increasingly use mechanical lifts, slide sheets, and lift teams. Good body mechanics still matter: keep a wide base of support, hold the load close, bend at the hips and knees, and pivot with the feet instead of twisting the spine.\n\n**Other recurring hazards** include workplace violence (health care workers face high rates of assault), latex allergy, and slips on wet floors. Each is managed with the same hierarchy-of-controls thinking from foundational safety.\n\nThe most common mistake students make is thinking good body mechanics alone make patient lifting safe. Body mechanics reduce risk, but for heavy or dependent patients the correct answer is an engineering control such as a mechanical lift, not simply lifting with the legs.",
+    "examples": [
+      "A phlebotomist uses a needle with a built-in safety shield and drops it directly into a sharps container without recapping it.",
+      "A custodian checks the SDS for a new floor stripper and finds in Section 8 that splash goggles and gloves are required."
+    ],
+    "questions": [
+      {
+        "stem": "An aide is stuck by a used needle while emptying a trash bag. What should she do first?",
+        "choices": [
+          "Wash the site with soap and water",
+          "Wait to see if symptoms develop before reporting",
+          "Squeeze the wound and apply bleach",
+          "Finish the shift and report the next day"
+        ],
+        "answer": 0,
+        "explanation": "Immediate washing with soap and water is the first step, followed by prompt reporting and evaluation. Delaying the report is the main error, because post-exposure treatment is most effective when started quickly."
+      },
+      {
+        "stem": "A container label shows the signal word 'Danger.' What does this tell a worker compared with 'Warning'?",
+        "choices": [
+          "The chemical is flammable",
+          "The hazard is more severe",
+          "The chemical is only harmful if swallowed",
+          "The container is under pressure"
+        ],
+        "answer": 1,
+        "explanation": "Under GHS, 'Danger' marks more severe hazards and 'Warning' less severe ones. The signal word does not identify a specific hazard type such as flammability; pictograms do that."
+      },
+      {
+        "stem": "Under the Bloodborne Pathogens Standard, how must the hepatitis B vaccine be offered to exposed employees?",
+        "choices": [
+          "Only after an exposure incident",
+          "At the employee's own expense",
+          "At no cost to the employee",
+          "Only to employees who request it in writing after one year"
+        ],
+        "answer": 2,
+        "explanation": "Employers must offer the vaccine free of charge to employees with occupational exposure. Offering it only after an exposure would miss the point of preventing infection beforehand."
+      },
+      {
+        "stem": "A nursing assistant needs to move a 220-pound patient who cannot bear weight from bed to chair. Which approach best reflects current safe patient handling practice?",
+        "choices": [
+          "Lift with the legs using good body mechanics",
+          "Ask one coworker to help and lift together",
+          "Use a mechanical lift according to facility protocol",
+          "Have the patient hold the aide's neck during the transfer"
+        ],
+        "answer": 2,
+        "explanation": "A mechanical lift removes the heavy load from workers, which is an engineering control. Two-person manual lifting is the tempting distractor, but it still exceeds safe lifting limits for a dependent patient."
+      },
+      {
+        "stem": "Where would a worker find the recommended PPE for handling a chemical?",
+        "choices": [
+          "On the OSHA 300 log",
+          "In the Safety Data Sheet",
+          "On the exposure control plan only",
+          "On the OSHA poster"
+        ],
+        "answer": 1,
+        "explanation": "The SDS lists exposure controls and personal protection. The exposure control plan addresses bloodborne pathogens, not chemical PPE details."
+      },
+      {
+        "stem": "A student sees a pictogram with a skull and crossbones. What hazard does it indicate?",
+        "choices": [
+          "Acute toxicity",
+          "Corrosive to skin",
+          "Environmental hazard",
+          "Gas under pressure"
+        ],
+        "answer": 0,
+        "explanation": "The skull and crossbones signals acute toxicity that can be fatal or toxic. Corrosion is shown by a different pictogram depicting liquid eating into a hand and a surface."
+      },
+      {
+        "stem": "A clinic manager asks how often the written exposure control plan must be reviewed and updated. What is correct?",
+        "choices": [
+          "Every five years",
+          "Only after an OSHA inspection",
+          "At least annually",
+          "Only when a new employee is hired"
+        ],
+        "answer": 2,
+        "explanation": "OSHA requires review at least annually and whenever procedures change. Waiting for an inspection would leave the plan outdated and out of compliance."
+      },
+      {
+        "stem": "Which practice violates the Bloodborne Pathogens Standard?",
+        "choices": [
+          "Placing a used needle in a puncture-resistant sharps container",
+          "Recapping a used needle with two hands before disposal",
+          "Wearing gloves when drawing blood",
+          "Treating all blood as potentially infectious"
+        ],
+        "answer": 1,
+        "explanation": "Two-handed recapping is prohibited because it causes needlesticks. The other choices are required or recommended practices."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "OPIM",
+        "definition": "Other potentially infectious materials, such as certain body fluids and tissues, covered along with blood by the Bloodborne Pathogens Standard."
+      },
+      {
+        "term": "Exposure control plan",
+        "definition": "An employer's written plan to eliminate or minimize bloodborne pathogen exposure, reviewed at least annually."
+      },
+      {
+        "term": "Safety Data Sheet (SDS)",
+        "definition": "A 16-section document describing a chemical's hazards, safe handling, PPE, and emergency measures."
+      },
+      {
+        "term": "Signal word",
+        "definition": "The GHS label word showing hazard severity: Danger for more severe, Warning for less severe."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Treating all blood and potentially infectious materials as if they are infectious."
+      }
+    ]
+  }
+]

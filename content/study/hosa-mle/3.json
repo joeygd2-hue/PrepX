@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Ethical principles, end-of-life decisions and complex dilemmas",
+    "objective": "Evaluate complex dilemmas using core ethical principles, advance directives and emergency-care laws to justify a defensible decision.",
+    "body": "Advanced questions rarely have a rule that settles everything. Instead, two values collide, and you must identify the principles involved and choose the action that best honors them within the law.\n\n**Four core principles.**\n1. **Autonomy**: respecting a competent patient's right to make their own choices, including refusing care.\n2. **Beneficence**: acting for the patient's good.\n3. **Nonmaleficence**: avoiding harm (\"first, do no harm\").\n4. **Justice**: distributing care and resources fairly.\n\nRelated duties include **veracity** (truthfulness) and **fidelity** (keeping promises and loyalty). **Paternalism** occurs when a provider overrides a competent patient's choice \"for their own good,\" which conflicts with autonomy.\n\n**Advance directives.** These documents let a person guide care if they lose **decision-making capacity**.\n- A **living will** states which treatments a person wants or refuses, such as mechanical ventilation.\n- A **durable power of attorney for health care** names a **health care proxy** (agent) to decide for the patient.\n- A **do-not-resuscitate (DNR) order** is a medical order written by a physician or other authorized clinician that CPR not be attempted; it does not mean other care stops.\n- Many states use **POLST** forms, portable medical orders for seriously ill patients.\n\nThe federal **Patient Self-Determination Act** requires hospitals and other facilities that receive Medicare or Medicaid funds to inform adult patients of their right to make advance directives. A proxy should use **substituted judgment**, choosing what the patient would have wanted, not what the proxy prefers.\n\n**Emergency and justice laws.** **EMTALA** requires hospitals with emergency departments that accept Medicare to screen and stabilize anyone with an emergency condition regardless of ability to pay. **Good Samaritan laws** protect people who give reasonable emergency help in good faith without expecting payment, but not gross negligence. **Triage** and organ allocation apply justice by using medical need and policy rather than wealth or status.\n\n**A decision framework.** When facing a dilemma:\n- Gather the facts, including the patient's wishes and capacity.\n- Identify the principles in conflict.\n- List options and the legal limits on each.\n- Choose and justify the action, and consult an **ethics committee** when disagreement persists.\n\nThe most common mistake is letting beneficence override a competent patient's refusal. If an adult with capacity understands the consequences and refuses a blood transfusion, autonomy controls, even when staff believe treatment is clearly better.",
+    "examples": [
+      "A competent adult with cancer declines chemotherapy after hearing the risks; honoring the choice respects autonomy.",
+      "A daughter serving as health care proxy asks for aggressive treatment that her father's living will rejects; the proxy should follow his documented wishes.",
+      "An off-duty nurse performs CPR at a park and does not charge for it; Good Samaritan laws protect her good-faith actions."
+    ],
+    "questions": [
+      {
+        "stem": "A competent adult refuses a recommended blood transfusion for religious reasons after understanding that she may die. What should the team do?",
+        "choices": [
+          "Give the transfusion under beneficence",
+          "Honor the refusal and document the informed refusal",
+          "Ask a court to order treatment immediately",
+          "Transfuse once she becomes unconscious"
+        ],
+        "answer": 1,
+        "explanation": "An adult with capacity has the right to refuse care, so autonomy controls. Choosing beneficence over a competent refusal is paternalism and could be battery."
+      },
+      {
+        "stem": "A patient with a DNR order develops pneumonia. Which statement is correct?",
+        "choices": [
+          "All treatment must stop",
+          "Antibiotics and comfort care can still be given",
+          "The DNR is void because pneumonia is treatable",
+          "Only the family can approve antibiotics"
+        ],
+        "answer": 1,
+        "explanation": "A DNR addresses CPR only; other appropriate treatment continues. Assuming DNR means stopping all care is a frequent and harmful error."
+      },
+      {
+        "stem": "An uninsured man with chest pain arrives at a hospital emergency department that accepts Medicare. Staff consider sending him to a county hospital before any exam. What does federal law require?",
+        "choices": [
+          "Transfer immediately because he cannot pay",
+          "Provide a medical screening exam and stabilize an emergency condition",
+          "Collect a deposit first",
+          "Treat only if he signs a payment plan"
+        ],
+        "answer": 1,
+        "explanation": "EMTALA requires screening and stabilization regardless of ability to pay. Transferring before screening for financial reasons violates the law."
+      },
+      {
+        "stem": "A hospital must choose between two equally sick patients for one ICU bed. Using the patients' wealth to decide would violate which principle?",
+        "choices": [
+          "Veracity",
+          "Fidelity",
+          "Justice",
+          "Nonmaleficence"
+        ],
+        "answer": 2,
+        "explanation": "Justice requires fair allocation based on need and policy. Veracity concerns truthfulness, which is not the issue here."
+      },
+      {
+        "stem": "A health care proxy says, \"I know Mom wanted no feeding tube, but I can't let her go, so insert one.\" What standard should guide the proxy?",
+        "choices": [
+          "Best interests as the proxy sees them",
+          "Substituted judgment based on the patient's known wishes",
+          "The physician's preference",
+          "Majority vote of family members"
+        ],
+        "answer": 1,
+        "explanation": "Substituted judgment means deciding as the patient would have. The proxy's own preference is not the standard when the patient's wishes are known."
+      },
+      {
+        "stem": "A physician withholds a terminal diagnosis from a competent patient who has asked directly for the truth, because the family requested it. Which principle is most directly compromised?",
+        "choices": [
+          "Veracity",
+          "Justice",
+          "Nonmaleficence",
+          "Beneficence"
+        ],
+        "answer": 0,
+        "explanation": "Veracity is the duty of truthfulness, and the patient asked directly. Nonmaleficence might be cited by the family, but deceiving a patient who wants information undermines autonomy and veracity."
+      },
+      {
+        "stem": "Which law requires hospitals receiving Medicare or Medicaid funds to tell adult patients about their right to create advance directives?",
+        "choices": [
+          "HIPAA",
+          "EMTALA",
+          "Patient Self-Determination Act",
+          "Good Samaritan law"
+        ],
+        "answer": 2,
+        "explanation": "The Patient Self-Determination Act created this requirement. EMTALA concerns emergency screening and stabilization, not advance directives."
+      },
+      {
+        "stem": "Staff and family disagree about continuing life support for a patient whose wishes are unclear. What is the most appropriate next step?",
+        "choices": [
+          "Let the newest staff member decide",
+          "Request an ethics committee consultation",
+          "Remove support immediately",
+          "Follow whatever the hospital attorney prefers"
+        ],
+        "answer": 1,
+        "explanation": "Ethics committees help resolve conflicts by weighing principles, facts and law. Removing support without resolving disagreement or clarifying wishes risks violating the patient's interests."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Autonomy",
+        "definition": "The principle of respecting a competent person's right to make their own decisions."
+      },
+      {
+        "term": "Nonmaleficence",
+        "definition": "The duty to avoid causing harm."
+      },
+      {
+        "term": "Living will",
+        "definition": "An advance directive stating which treatments a person wants or refuses if unable to decide."
+      },
+      {
+        "term": "Health care proxy",
+        "definition": "A person named in a durable power of attorney to make health decisions for a patient who lacks capacity."
+      },
+      {
+        "term": "EMTALA",
+        "definition": "Federal law requiring participating hospitals to screen and stabilize emergency patients regardless of ability to pay."
+      }
+    ]
+  }
+]

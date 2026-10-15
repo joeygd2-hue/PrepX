@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Buying a House: Tools and Resources for Homebuyers",
+    "url": "https://www.consumerfinance.gov/owning-a-home/",
+    "publisher": "Consumer Financial Protection Bureau",
+    "kind": "tool",
+    "note": "CFPB tools and explainers for every homebuying step, from loan estimates to closing disclosures."
+  },
+  {
+    "title": "Homeowners Insurance Consumer Guide",
+    "url": "https://content.naic.org/consumer/homeowners-insurance.htm",
+    "publisher": "NAIC",
+    "kind": "reference",
+    "note": "Consumer guide to homeowners insurance coverage and terms, which real estate questions often include."
+  },
+  {
+    "title": "Business Law I Essentials",
+    "url": "https://openstax.org/details/books/business-law-i-essentials",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Contract law chapters explain offer, acceptance and consideration in purchase and lease agreements."
+  }
+]

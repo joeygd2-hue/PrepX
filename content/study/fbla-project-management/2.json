@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Planning tools: WBS, schedules, and critical path",
+    "objective": "Build a work breakdown structure, sequence activities with dependencies, and calculate the critical path and float for a simple network.",
+    "body": "Once a project is authorized, planning turns broad goals into work that can be assigned, timed, and tracked. Three tools carry most of that load.\n\n**Work breakdown structure.** A **WBS** is a hierarchical decomposition of the total scope into smaller deliverables. The lowest level is the **work package**, small enough to estimate cost and duration and to assign to one owner. A WBS is deliverable-oriented: \"Venue booked\" and \"Programs printed\" rather than a list of verbs. The **100% rule** says the WBS must include all the project's work and nothing outside it. A companion **WBS dictionary** describes each work package's details and acceptance criteria.\n\n**Sequencing and dependencies.** Activities are linked by dependencies. The most common is **finish-to-start**: B cannot start until A finishes (you cannot print programs until the design is approved). Others include start-to-start and finish-to-finish. Teams draw these as a network diagram, then add durations.\n\n**Critical path method.** The **critical path** is the longest path through the network, and its length equals the shortest possible project duration. Any delay on a critical activity delays the whole project. To find it:\n1. List every path from start to finish.\n2. Add the durations on each path.\n3. The path with the largest total is critical.\n\n**Float** (or slack) is how long an activity can slip without delaying the project end date. Critical activities have zero float. If path A-B-D takes 12 days and path A-C-D takes 9 days, activity C has 3 days of float.\n\n**Gantt charts and milestones.** A **Gantt chart** shows activities as horizontal bars on a calendar, making overlaps and progress easy to see. A **milestone** is a significant point with zero duration, such as \"Contract signed.\" Gantt charts communicate the schedule; the network diagram reveals the logic behind it.\n\n**Compressing a schedule.** If the deadline moves up, two techniques help:\n- **Crashing** adds resources to critical activities, which raises cost.\n- **Fast tracking** runs activities in parallel that were planned in sequence, which raises risk of rework.\n\nOnly compressing critical-path activities shortens the project; speeding up an activity with float wastes money.\n\nThe most common mistake students make is choosing the shortest path as the critical path. The critical path is always the longest, because the project cannot finish until every path is complete.",
+    "examples": [
+      "A dance committee's WBS lists Venue, Music, Decorations, and Tickets as level-one deliverables, with \"DJ contract signed\" as a work package under Music.",
+      "Paths A-B-E (5+4+3=12 days) and A-C-E (5+2+3=10 days) make A-B-E critical, so activity C has 2 days of float."
+    ],
+    "questions": [
+      {
+        "stem": "A network has paths Start-A-B-End (3+6 days), Start-C-D-End (4+4 days), and Start-E-End (7 days). What is the minimum project duration?",
+        "choices": [
+          "7 days",
+          "8 days",
+          "9 days",
+          "19 days"
+        ],
+        "answer": 2,
+        "explanation": "The longest path, A-B at 9 days, sets the duration. Choosing 7 days picks the shortest path, which ignores work still unfinished on longer paths."
+      },
+      {
+        "stem": "Using the same network, how much float does activity E have?",
+        "choices": [
+          "0 days",
+          "2 days",
+          "1 day",
+          "9 days"
+        ],
+        "answer": 1,
+        "explanation": "Path E is 7 days versus the 9-day critical path, giving 2 days of float. Zero float applies only to critical activities."
+      },
+      {
+        "stem": "A team cannot print event programs until the principal approves the design. What dependency is this?",
+        "choices": [
+          "Finish-to-start",
+          "Start-to-start",
+          "Finish-to-finish",
+          "Start-to-finish"
+        ],
+        "answer": 0,
+        "explanation": "Printing starts only after approval finishes. Start-to-start would let both begin together, which the approval rule forbids."
+      },
+      {
+        "stem": "A student's WBS includes \"Order pizza for the team's private celebration,\" which is not part of the client's requested deliverables. Which principle is violated?",
+        "choices": [
+          "Finish-to-start logic",
+          "Fast tracking",
+          "The 100% rule",
+          "Crashing"
+        ],
+        "answer": 2,
+        "explanation": "The 100% rule requires the WBS to include all project work and nothing outside scope. Fast tracking is a scheduling technique, not a scope rule."
+      },
+      {
+        "stem": "To finish two weeks early, a manager hires two extra volunteers for critical activities. This technique is:",
+        "choices": [
+          "Fast tracking",
+          "Crashing",
+          "Decomposition",
+          "Resource leveling"
+        ],
+        "answer": 1,
+        "explanation": "Adding resources to shorten critical tasks is crashing. Fast tracking overlaps tasks instead of adding people."
+      },
+      {
+        "stem": "A team starts building booth displays before the booth design is fully finalized. What risk does this technique most increase?",
+        "choices": [
+          "Rework",
+          "Float",
+          "Scope reduction",
+          "Milestone count"
+        ],
+        "answer": 0,
+        "explanation": "This is fast tracking, which raises the chance of rework if the design changes. It does not create float."
+      },
+      {
+        "stem": "Which item is best represented as a milestone?",
+        "choices": [
+          "Painting the backdrop",
+          "Practicing the presentation",
+          "Selling tickets for two weeks",
+          "Final proposal submitted to judges"
+        ],
+        "answer": 3,
+        "explanation": "A milestone marks a point in time with zero duration. Painting the backdrop takes time, so it is an activity."
+      },
+      {
+        "stem": "A manager pays to speed up an activity with 4 days of float. What happens to the project end date?",
+        "choices": [
+          "It moves up by 4 days",
+          "It moves up by the time saved",
+          "It does not change",
+          "It moves later"
+        ],
+        "answer": 2,
+        "explanation": "Non-critical activities do not control the end date, so speeding them up adds cost without shortening the project. Only critical-path compression helps."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Work breakdown structure (WBS)",
+        "definition": "A deliverable-oriented hierarchy that decomposes total project scope into work packages."
+      },
+      {
+        "term": "Critical path",
+        "definition": "The longest path through a project network; it determines the shortest possible project duration."
+      },
+      {
+        "term": "Float",
+        "definition": "The amount of time an activity can be delayed without delaying the project end date."
+      },
+      {
+        "term": "Crashing",
+        "definition": "Shortening the schedule by adding resources to critical-path activities, usually at higher cost."
+      },
+      {
+        "term": "Fast tracking",
+        "definition": "Shortening the schedule by performing sequential activities in parallel, increasing rework risk."
+      }
+    ]
+  }
+]

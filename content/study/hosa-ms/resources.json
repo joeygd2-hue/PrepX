@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Understanding Medical Words Tutorial",
+    "url": "https://medlineplus.gov/medwords/medicalwords.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "course",
+    "note": "NIH tutorial on prefixes, roots and suffixes; spelling follows from knowing word parts."
+  },
+  {
+    "title": "Word Parts and What They Mean",
+    "url": "https://medlineplus.gov/appendixa.html",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus list of word parts and their meanings for spelling drills."
+  },
+  {
+    "title": "Talking Glossary of Genomic and Genetic Terms",
+    "url": "https://www.genome.gov/genetics-glossary",
+    "publisher": "National Human Genome Research Institute",
+    "kind": "reference",
+    "note": "Spoken definitions let you hear how genetics terms are pronounced."
+  }
+]

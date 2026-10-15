@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Portfolio strategy, taxes and advanced investment instruments",
+    "objective": "Construct a diversified portfolio through asset allocation, evaluate tax-advantaged accounts, and analyze the risks of margin, short selling and options.",
+    "body": "Advanced investing is less about picking one winning stock and more about building a plan that fits a person's goals, taxes and tolerance for loss. Competition questions at this level usually give a client profile and ask for the best strategy.\n\n**Asset allocation** is dividing a portfolio among asset classes such as stocks, bonds and cash. It is the main driver of a portfolio's long-run risk. A younger investor with a long time horizon and high **risk tolerance** might hold mostly stocks; someone nearing retirement typically shifts toward bonds and cash. **Target-date funds** automate this by gradually becoming more conservative as the target year approaches. Over time, gains in one class throw the mix off, so investors **rebalance** by selling some of what grew and buying what lagged.\n\n**Dollar-cost averaging** means investing a fixed amount at regular intervals regardless of price. It buys more shares when prices are low and fewer when high, and it removes the temptation to time the market.\n\n**Tax-advantaged accounts** can matter as much as returns.\n- A **traditional 401(k) or IRA** uses pre-tax or deductible contributions; withdrawals in retirement are taxed as ordinary income.\n- A **Roth IRA or Roth 401(k)** uses after-tax contributions; qualified withdrawals, including earnings, are tax-free.\n- An **employer match** is extra money an employer contributes, so contributing enough to earn it is usually a top priority.\n\nIn a regular taxable account, gains on assets held more than one year are **long-term capital gains** and are taxed at lower rates than **short-term capital gains**, which are taxed as ordinary income.\n\n**Leverage and advanced strategies** magnify both gains and losses.\n1. **Buying on margin** means borrowing from a broker to buy securities. If the account value falls too far, the broker issues a **margin call** requiring more cash or a forced sale.\n2. **Short selling** means borrowing shares, selling them, and hoping to buy them back cheaper. Because a price can rise without limit, potential losses are theoretically unlimited.\n3. **Options** are contracts giving the right, but not the obligation, to buy (**call**) or sell (**put**) an asset at a set **strike price** before expiration. The buyer pays a **premium**, which is the most an option buyer can lose.\n\nProfessionals judge performance on a **risk-adjusted** basis. The **Sharpe ratio** divides a portfolio's return above the risk-free rate by its standard deviation, so a higher ratio means more return per unit of risk. **Beta** measures volatility relative to the market: a beta of 1.5 suggests a stock tends to move 50% more than the market.\n\nThe most common mistake students make is confusing the option buyer's and seller's risk. A call buyer can lose only the premium paid, while a short seller, or the writer of an uncovered call, faces potentially unlimited loss.",
+    "examples": [
+      "Rosa invests $200 every month in an index fund; when the price falls from $50 to $40, her $200 buys 5 shares instead of 4.",
+      "Dev pays a $3 premium for a call option with a $60 strike; if the stock rises to $70, he can buy at $60, for a profit of $7 per share after the premium."
+    ],
+    "questions": [
+      {
+        "stem": "A 62-year-old client plans to retire in three years and is uncomfortable with large losses. Which allocation is most appropriate?",
+        "choices": [
+          "90% small-company stocks, 10% bonds",
+          "A larger share in bonds and cash with some diversified stocks",
+          "100% in a single growth stock",
+          "Mostly options to boost income"
+        ],
+        "answer": 1,
+        "explanation": "A short horizon and low risk tolerance call for a conservative, diversified mix. A 90% small-company stock allocation suits a young, aggressive investor, not a near-retiree."
+      },
+      {
+        "stem": "Tia expects to be in a higher tax bracket in retirement than she is today. Which account likely offers her the greatest tax benefit?",
+        "choices": [
+          "Traditional IRA",
+          "Taxable brokerage account",
+          "Roth IRA",
+          "Regular savings account"
+        ],
+        "answer": 2,
+        "explanation": "A Roth uses after-tax money now, while she is in a lower bracket, and allows tax-free qualified withdrawals later. A traditional IRA defers taxes to retirement, when her rate would be higher."
+      },
+      {
+        "stem": "An investor short sells 100 shares at $30, and the stock rises to $45. What is his loss before fees?",
+        "choices": [
+          "$1,500",
+          "$3,000",
+          "$4,500",
+          "$300"
+        ],
+        "answer": 0,
+        "explanation": "Loss = ($45 - $30) x 100 = $1,500 because he must buy back at the higher price. $4,500 is the cost of repurchasing the shares, not the loss."
+      },
+      {
+        "stem": "Marcus buys a put option with a $50 strike for a $2 premium. The stock closes at $55 at expiration. What is his loss per share?",
+        "choices": [
+          "$5",
+          "$2",
+          "$7",
+          "$0"
+        ],
+        "answer": 1,
+        "explanation": "The put is worthless because he would not sell at $50 when the market price is $55, so he loses only the $2 premium. $5 would apply only if he owned the stock and it moved against him, not to an option buyer."
+      },
+      {
+        "stem": "A portfolio began at 60% stocks and 40% bonds. After a strong stock rally, it is 75% stocks. What should the investor do to restore the target?",
+        "choices": [
+          "Buy more stocks",
+          "Rebalance by selling some stocks and buying bonds",
+          "Move everything into cash",
+          "Do nothing because gains are locked in"
+        ],
+        "answer": 1,
+        "explanation": "Rebalancing sells the overweight asset and buys the underweight one to return to 60/40. Buying more stocks would increase risk even further."
+      },
+      {
+        "stem": "Fund A returned 10% with a standard deviation of 8%; Fund B returned 12% with a standard deviation of 16%. The risk-free rate is 2%. Which statement is correct?",
+        "choices": [
+          "Fund B has the better risk-adjusted return",
+          "Both funds have equal Sharpe ratios",
+          "Fund A has the better risk-adjusted return",
+          "Sharpe ratios cannot be compared"
+        ],
+        "answer": 2,
+        "explanation": "Fund A's Sharpe ratio is (10-2)/8 = 1.0 and Fund B's is (12-2)/16 = 0.625, so A earns more per unit of risk. Picking B looks only at raw return."
+      },
+      {
+        "stem": "Jada's employer matches 401(k) contributions up to 4% of salary, but she contributes only 1%. What is the main drawback?",
+        "choices": [
+          "She pays a penalty each year",
+          "She loses her vested pension",
+          "She leaves free employer money unclaimed",
+          "Her contributions become taxable twice"
+        ],
+        "answer": 2,
+        "explanation": "Not contributing enough to get the full match leaves extra compensation on the table. There is no annual penalty for contributing less."
+      },
+      {
+        "stem": "A stock has a beta of 0.6. If the overall market rises 10%, what would the stock be expected to do, all else equal?",
+        "choices": [
+          "Rise about 6%",
+          "Rise about 16%",
+          "Fall about 6%",
+          "Rise exactly 10%"
+        ],
+        "answer": 0,
+        "explanation": "Beta of 0.6 implies about 60% of the market's movement, or roughly 6%. 16% wrongly adds beta to the market return."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Asset allocation",
+        "definition": "Dividing a portfolio among asset classes such as stocks, bonds and cash to match goals and risk tolerance."
+      },
+      {
+        "term": "Dollar-cost averaging",
+        "definition": "Investing a fixed amount at regular intervals regardless of the price."
+      },
+      {
+        "term": "Roth IRA",
+        "definition": "A retirement account funded with after-tax dollars whose qualified withdrawals are tax-free."
+      },
+      {
+        "term": "Margin call",
+        "definition": "A broker's demand for more cash or securities when a margin account's value falls too low."
+      },
+      {
+        "term": "Beta",
+        "definition": "A measure of a security's volatility relative to the overall market."
+      }
+    ]
+  }
+]

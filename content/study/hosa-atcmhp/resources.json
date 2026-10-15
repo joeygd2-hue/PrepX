@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Prealgebra 2e",
+    "url": "https://openstax.org/details/books/prealgebra-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free review of fractions, decimals, ratios, percents and proportions used in health calculations."
+  },
+  {
+    "title": "Pharmacology for Nurses",
+    "url": "https://openstax.org/details/books/pharmacology",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Use its general pharmacology and medication administration content for the dosing context behind drug math."
+  },
+  {
+    "title": "Introductory Statistics 2e",
+    "url": "https://openstax.org/details/books/introductory-statistics-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free statistics text for the data and measurement questions health professionals face."
+  }
+]

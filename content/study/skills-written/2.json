@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Research, evidence and citations",
+    "objective": "Gather credible primary and secondary research, report data accurately and cite every source you use.",
+    "body": "Judges reward entries that prove their claims. A recommendation backed by a survey of 150 customers and a cited industry statistic beats the same idea supported only by opinion. Research is also where many entries lose credibility, through biased surveys, math errors or missing citations.\n\n**Primary and secondary research.** *Primary research* is information you collect yourself for this project: surveys, interviews, observations, focus groups or experiments. *Secondary research* is information someone else already gathered, such as government statistics, trade association reports, journal articles and news coverage. Strong entries use both: secondary research to frame the problem, and primary research to show what is true for your specific school, business or community.\n\n**Design fair surveys.** Ask about one idea per question, use neutral wording and offer balanced answer choices. \"Don't you agree the cafeteria food is overpriced?\" pushes people toward one answer; \"How would you rate the value of cafeteria food?\" with a five-point scale does not. Report how many people responded and how you chose them, because a judge may ask whether your sample represents the group you are describing.\n\n**Report numbers accurately.** Convert counts to percentages correctly (part divided by whole, times 100), round consistently, and give every chart a title, axis labels and units. Each chart should make one point that a sentence in the text explains.\n\n**Judge source credibility.** Ask who published the information, whether they have relevant expertise, whether the data are recent and whether the source has a reason to be biased. Government agencies, universities and peer-reviewed journals usually outrank anonymous web pages and sales brochures.\n\n**Cite everything you did not create.** Use the citation style the guidelines require, often APA, and use it consistently: an in-text citation where the fact appears and a full entry in the reference list or bibliography. Paraphrased ideas still need a citation, and exact wording needs quotation marks as well.\n\nThe most common mistake is the floating statistic: a number dropped into the paper with no source and no explanation of why it matters. Every figure should answer two questions for the judge: where did this come from, and why does it matter to my recommendation?",
+    "examples": [
+      "A team surveys 240 students and finds that 84 would join a peer-tutoring program. Since 84 ÷ 240 = 0.35, the paper reports that 35% of respondents were interested and states the sample size.",
+      "A health-science writer frames a paper on teen sleep with a statistic from a national public-health agency (secondary research), then adds results from a survey of 120 classmates (primary research).",
+      "A biased question, 'How much would you love a new smoothie bar?', is rewritten as 'How likely would you be to buy from a smoothie bar at school?' with five answer choices from very likely to very unlikely."
+    ],
+    "questions": [
+      {
+        "stem": "For its research paper, a team interviews five local restaurant owners about their staffing problems. What type of research is this?",
+        "choices": [
+          "Primary research",
+          "Secondary research",
+          "A literature review",
+          "A meta-analysis"
+        ],
+        "answer": 0,
+        "explanation": "The team collected the information itself for this project, which makes it primary research. Secondary research uses information that others already gathered and published."
+      },
+      {
+        "stem": "Which survey question is the least biased?",
+        "choices": [
+          "How would you rate the variety of snacks in the school store? (1 = very poor, 5 = excellent)",
+          "Don't you think the school store badly needs healthier snacks?",
+          "How much do you love the new snacks in the school store?",
+          "Why is the school store's snack selection so disappointing?"
+        ],
+        "answer": 0,
+        "explanation": "The rating question uses neutral wording and a balanced scale. The others assume an opinion and push respondents toward a particular answer, which makes them leading questions."
+      },
+      {
+        "stem": "In a survey of 180 customers, 153 said they would recommend the business to a friend. What percentage should the report state?",
+        "choices": [
+          "85%",
+          "83%",
+          "78%",
+          "88%"
+        ],
+        "answer": 0,
+        "explanation": "Divide the part by the whole: 153 ÷ 180 = 0.85, and 0.85 × 100 = 85%."
+      },
+      {
+        "stem": "A writer paraphrases a statistic from a government report rather than quoting it word for word. How should the source be credited?",
+        "choices": [
+          "With an in-text citation and a full entry in the reference list",
+          "It needs no credit, since paraphrased material is the writer's own",
+          "Only if a judge asks where the number came from",
+          "With a reference list entry but no in-text citation"
+        ],
+        "answer": 0,
+        "explanation": "Paraphrasing still uses someone else's data, so it needs an in-text citation where it appears and a full reference entry. Leaving out either one makes the source hard to trace."
+      }
+    ],
+    "flashcards": [
+      { "term": "Primary research", "definition": "Information collected firsthand for a specific project, such as surveys, interviews, observations or experiments." },
+      { "term": "Secondary research", "definition": "Information already gathered and published by others, such as government statistics, industry reports and articles." },
+      { "term": "Leading question", "definition": "A survey question worded to push respondents toward a particular answer, which biases the results." },
+      { "term": "Sample", "definition": "The group of people actually surveyed or studied, chosen to represent a larger population." },
+      { "term": "In-text citation", "definition": "A brief reference placed where borrowed information appears, pointing to the full entry in the reference list." }
+    ]
+  }
+]

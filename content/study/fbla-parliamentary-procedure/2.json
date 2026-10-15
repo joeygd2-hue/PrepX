@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Ranking motions: subsidiary, privileged, and incidental motions",
+    "objective": "Classify secondary motions, apply the order of precedence, and determine the second, debate, and vote requirements for common motions.",
+    "body": "Once a main motion is pending, members often want to change it, delay it, or handle an urgent matter. Robert's Rules organizes these **secondary motions** into three classes and ranks them by an **order of precedence**: when a motion is pending, any higher-ranking motion is in order, and lower-ranking ones are not. Pending motions are then voted on in reverse order, highest first.\n\n**Privileged motions** concern urgent matters unrelated to the pending business. From highest to lowest: fix the time to which to adjourn, **adjourn**, **recess**, raise a question of privilege, and call for the orders of the day.\n\n**Subsidiary motions** help the assembly dispose of the main motion. From highest to lowest:\n1. Lay on the table (majority, not debatable)\n2. **Previous question** (two-thirds, not debatable): ends debate and brings an immediate vote\n3. Limit or extend limits of debate (two-thirds, not debatable)\n4. Postpone to a certain time, or postpone definitely (majority, debatable)\n5. Commit or refer to a committee (majority, debatable)\n6. **Amend** (majority, debatable if the motion it amends is debatable)\n7. **Postpone indefinitely** (majority, debatable): kills the main motion without a direct vote\n\nAll the subsidiary motions listed here, and the privileged motions to fix the time to which to adjourn, adjourn and recess, require a second; raising a question of privilege and calling for the orders of the day do not. Notice the pattern: motions that take away members' rights to debate, such as the previous question, need a **two-thirds vote**, meaning at least twice as many yes votes as no votes.\n\n**Amendments.** A **primary amendment** changes the main motion; a **secondary amendment** changes the primary amendment. A third level is not allowed. The three basic forms are inserting or adding words, striking out words, and striking out and inserting. An amendment must be **germane**, meaning closely related to the subject of the motion it amends.\n\n**Incidental motions** arise out of the business at hand and have no fixed rank among themselves; they are taken up as they come. Key examples:\n- **Point of order**: claims a rule is being broken; needs no second, and the chair rules on it.\n- **Appeal**: challenges the chair's ruling; needs a second, and the chair's ruling stands unless a majority votes against it (a tie sustains the chair).\n- **Division of the assembly**: any single member can demand a rising vote when a voice vote seems unclear; no second or vote needed.\n- **Suspend the rules**: two-thirds vote; cannot suspend bylaws.\n\nThe most common mistake students make is mixing up \"lay on the table\" with \"postpone.\" Laying on the table is meant only to set a matter aside temporarily for something urgent; using it to kill a motion is improper, and postpone indefinitely is the motion designed for that.",
+    "examples": [
+      "While a motion to buy new banners is pending, a member moves to refer it to the finance committee; this subsidiary motion outranks amend and is voted on before the main motion.",
+      "After a close voice vote, a member calls out \"Division!\" and the chair must retake the vote by having members rise."
+    ],
+    "questions": [
+      {
+        "stem": "A motion to amend is pending on a main motion. Which motion is NOT in order?",
+        "choices": [
+          "Previous question",
+          "Recess",
+          "Postpone indefinitely",
+          "Refer to a committee"
+        ],
+        "answer": 2,
+        "explanation": "Postpone indefinitely ranks below amend, so it cannot be made while an amendment is pending. Previous question, recess, and refer all rank higher and are in order."
+      },
+      {
+        "stem": "Twenty members vote on ordering the previous question: 13 yes and 7 no. What happens?",
+        "choices": [
+          "It fails because it needed 14 yes votes",
+          "It passes and debate closes",
+          "It passes but debate continues",
+          "It fails because the vote must be unanimous"
+        ],
+        "answer": 0,
+        "explanation": "Previous question requires two-thirds: 13 is less than twice 7 (14), so it fails. A simple majority is not enough for motions that cut off debate."
+      },
+      {
+        "stem": "A member believes the chair allowed an amendment that is not germane. What should the member do?",
+        "choices": [
+          "Move to appeal immediately without a ruling",
+          "Raise a point of order",
+          "Move to rescind",
+          "Move the previous question"
+        ],
+        "answer": 1,
+        "explanation": "A point of order calls the breach to the chair's attention and requires a ruling; an appeal only follows a ruling. Rescinding applies to adopted motions, not procedure."
+      },
+      {
+        "stem": "After the chair rules a motion out of order, a member appeals. The vote is 15 to sustain and 15 to overturn. What is the result?",
+        "choices": [
+          "The ruling is overturned",
+          "The chair votes to break the tie",
+          "The ruling is sustained",
+          "The appeal is revoted"
+        ],
+        "answer": 2,
+        "explanation": "A ruling stands unless a majority votes against it, so a tie sustains the chair. It does not automatically go to a chair tiebreak."
+      },
+      {
+        "stem": "A primary and a secondary amendment are pending. A member proposes to amend the secondary amendment. How should the chair rule?",
+        "choices": [
+          "In order as a tertiary amendment",
+          "Out of order because only two levels of amendment are allowed",
+          "In order if seconded",
+          "In order if it is germane"
+        ],
+        "answer": 1,
+        "explanation": "Robert's Rules permits only primary and secondary amendments. Being germane or seconded does not overcome the limit."
+      },
+      {
+        "stem": "Which motion is used to kill a main motion without a direct vote on it, and is debatable?",
+        "choices": [
+          "Lay on the table",
+          "Postpone indefinitely",
+          "Recess",
+          "Limit debate"
+        ],
+        "answer": 1,
+        "explanation": "Postpone indefinitely is designed to dispose of a motion and opens the merits to debate. Lay on the table is only a temporary set-aside and is not debatable."
+      },
+      {
+        "stem": "A voice vote seems close and one member doubts the result. What can that member do without a second?",
+        "choices": [
+          "Move to reconsider",
+          "Call for a division of the assembly",
+          "Appeal the vote",
+          "Move to suspend the rules"
+        ],
+        "answer": 1,
+        "explanation": "Any single member can demand a division, requiring a rising vote. An appeal challenges a ruling, not a vote count, and needs a second."
+      },
+      {
+        "stem": "A motion to recess and a motion to refer to a committee are both pending. Which is voted on first?",
+        "choices": [
+          "Refer, because it was made first",
+          "Recess, because privileged motions outrank subsidiary motions",
+          "Whichever the chair chooses",
+          "Both at once"
+        ],
+        "answer": 1,
+        "explanation": "Pending motions are voted on in reverse order, highest rank first, and recess is privileged. Order of introduction does not control."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Order of precedence",
+        "definition": "The ranking of motions that determines which may be made while others are pending and the order in which pending motions are voted on."
+      },
+      {
+        "term": "Previous question",
+        "definition": "A subsidiary motion requiring a two-thirds vote that closes debate and brings the pending question to an immediate vote."
+      },
+      {
+        "term": "Germane",
+        "definition": "Closely related to the subject of the motion being amended; amendments must meet this test."
+      },
+      {
+        "term": "Point of order",
+        "definition": "An incidental motion, needing no second, that asks the chair to rule on a claimed breach of the rules."
+      },
+      {
+        "term": "Postpone indefinitely",
+        "definition": "The lowest-ranking subsidiary motion, debatable, used to kill a main motion without a direct vote."
+      }
+    ]
+  }
+]

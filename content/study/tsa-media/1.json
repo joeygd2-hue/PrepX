@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Design principles, color and type for print and screen",
+    "objective": "Apply design principles, color models, typography and file choices to create clear promotional and printed pieces.",
+    "body": "Promotional Design, Children's Stories, Board Game Design and Fashion Design and Technology all end the same way: judges look at something you designed and decide within seconds whether it communicates. Strong entries show deliberate choices you can explain in the interview, not just decoration.\n\n**Elements and principles.** The *elements* are the building blocks: line, shape, color, texture, space, form and value. The *principles* describe how you arrange them:\n- *Contrast:* differences in size, color or weight that make key items stand out.\n- *Hierarchy:* a clear reading order, usually headline, image, details, then call to action.\n- *Alignment:* placing items on shared edges or a grid so the page looks organized.\n- *Repetition:* reusing colors, fonts and shapes so a set of pieces feels unified.\n- *Proximity:* grouping related items so they read as one unit.\n- *Balance:* symmetrical (formal) or asymmetrical (informal but even in visual weight).\n- *White space:* empty area that gives elements room to breathe.\n\n**Color.** Screens mix light in *RGB* (red, green, blue), an *additive* model. Printers mix ink in *CMYK* (cyan, magenta, yellow, key or black), a *subtractive* model. Design for print in CMYK, or convert and proof before printing, because some bright screen colors cannot be printed. On the traditional artist's color wheel, *complementary* colors sit opposite each other and create strong contrast, while *analogous* colors sit side by side and feel calm.\n\n**Type.** *Serif* typefaces have small strokes at the ends of letters; *sans serif* typefaces do not and are common for headlines and screens. Limit a piece to two or three typefaces and keep body text readable. Adjust *kerning* (space between a specific pair of letters), *tracking* (even spacing across a word or line) and *leading* (vertical space between lines).\n\n**Images and files.** *Raster* images such as JPEG and PNG are made of pixels and blur when enlarged. *Vector* graphics such as SVG use math-defined paths and scale to any size, which makes them ideal for logos. For print, plan about 300 pixels per inch at the final printed size; screens need far fewer.\n\n**Rights.** Use only images, fonts and music you created, licensed or that are clearly free to use, and record each source. Creative Commons licenses state what is allowed, such as requiring attribution or forbidding commercial use.\n\nA common mistake is filling every space. Crowded layouts hide the message; one dominant element and generous white space usually win.",
+    "examples": [
+      "A 4 x 6 inch event postcard printed at 300 pixels per inch needs an image of at least 1200 x 1800 pixels. A 600 x 900 pixel web image would print soft and blocky.",
+      "A robotics fundraiser poster uses one large headline, one photo and a grouped block at the bottom right with the date, place and QR code. It uses two typefaces and the school's blue with orange, its complement, as an accent.",
+      "A board game logo is drawn as vector art, so the same file prints sharply on a small card back and on a large box lid."
+    ],
+    "questions": [
+      {
+        "stem": "A flyer will be printed at 8 x 10 inches at 300 pixels per inch. What is the minimum image size needed?",
+        "choices": [
+          "800 x 1000 pixels",
+          "1200 x 1500 pixels",
+          "2400 x 3000 pixels",
+          "3000 x 3600 pixels"
+        ],
+        "answer": 2,
+        "explanation": "Multiply each printed dimension by the resolution: 8 x 300 = 2400 pixels and 10 x 300 = 3000 pixels."
+      },
+      {
+        "stem": "A poster designed on screen in bright RGB colors looks duller when printed. What is the best explanation?",
+        "choices": [
+          "Printers use CMYK inks, which cannot reproduce some bright RGB colors",
+          "The printer converted the raster file into vector paths",
+          "The poster's resolution was too high for the printer",
+          "RGB colors fade whenever a file is saved as a PDF"
+        ],
+        "answer": 0,
+        "explanation": "RGB (light) can display colors that CMYK (ink) cannot print. Converting to CMYK and proofing before printing avoids surprises."
+      },
+      {
+        "stem": "A team's logo must appear on a business card and on a 6-foot banner. Which file type is the best choice?",
+        "choices": [
+          "A low-resolution JPEG",
+          "A vector file such as SVG",
+          "A screenshot saved as PNG",
+          "A GIF exported from a slide"
+        ],
+        "answer": 1,
+        "explanation": "Vector graphics are built from paths, not pixels, so they stay sharp at any size. Raster files such as JPEG, PNG and GIF blur when enlarged."
+      },
+      {
+        "stem": "On a flyer, the event date, time and location are scattered in three different corners. Which principle would most improve the layout?",
+        "choices": [
+          "Repetition, using the same color everywhere",
+          "Contrast, making every item a different size",
+          "Symmetry, centering every element on the page",
+          "Proximity, grouping the related details together"
+        ],
+        "answer": 3,
+        "explanation": "Proximity places related information close together so readers see it as one unit. The date, time and place belong in one group."
+      },
+      {
+        "stem": "Which pair of colors is complementary on the traditional red-yellow-blue artist's color wheel?",
+        "choices": [
+          "Blue and orange",
+          "Blue and green",
+          "Red and orange",
+          "Yellow and green"
+        ],
+        "answer": 0,
+        "explanation": "Complementary colors sit directly opposite each other; on the red-yellow-blue wheel, blue is opposite orange. The other pairs sit next to each other, so they are analogous."
+      },
+      {
+        "stem": "A judge says a poster has no clear starting point because the headline, photo and event details are all the same size and weight. Which principle is missing?",
+        "choices": [
+          "Proximity",
+          "Repetition",
+          "Visual hierarchy",
+          "Alignment"
+        ],
+        "answer": 2,
+        "explanation": "Hierarchy uses size, weight and placement to show what to read first, second and third. When everything is equal, the eye has no entry point."
+      },
+      {
+        "stem": "In a children's book, the lines of body text are so close together that letters on one line nearly touch letters on the next. Which setting should the designer increase?",
+        "choices": [
+          "Kerning",
+          "Leading",
+          "Tracking",
+          "Font weight"
+        ],
+        "answer": 1,
+        "explanation": "Leading is the vertical space between lines of text. Kerning and tracking change horizontal spacing between letters."
+      },
+      {
+        "stem": "A student wants to use a photo found on a website in a promotional design entry. Which approach is appropriate?",
+        "choices": [
+          "Use it freely because it was publicly posted online",
+          "Use it after cropping and recoloring it",
+          "Use it if less than half of the image appears",
+          "Use it only if its license allows that use, and credit it as required"
+        ],
+        "answer": 3,
+        "explanation": "Being online does not make an image free to use, and editing it does not remove the creator's rights. Check the license and follow its terms, such as attribution."
+      }
+    ],
+    "flashcards": [
+      { "term": "CMYK", "definition": "The subtractive color model used for printing, mixing cyan, magenta, yellow and key (black) inks." },
+      { "term": "Vector graphic", "definition": "An image built from math-defined paths that can be resized to any size without losing sharpness." },
+      { "term": "Visual hierarchy", "definition": "Arranging size, weight, color and placement so viewers notice the most important element first." },
+      { "term": "Leading", "definition": "The vertical space between lines of text, measured from one baseline to the next." },
+      { "term": "White space", "definition": "Intentionally empty area in a layout that separates elements and keeps the design from feeling crowded." }
+    ]
+  }
+]

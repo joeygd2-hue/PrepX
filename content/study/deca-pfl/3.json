@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Saving and investing for your goals",
+    "objective": "Calculate interest growth, match savings and investment choices to goals, and explain risk, diversification and retirement accounts.",
+    "body": "Saving and investing questions make up a large share of the Personal Financial Literacy exam because they combine math with judgment. Judges in role-plays look for advice that matches the product to the goal: safe and easy to reach for short-term needs, growth-oriented for long-term ones.\n\n**Saving first.** An *emergency fund* covering about three to six months of essential expenses keeps a car repair or job loss from turning into debt. Keep it in an insured savings or money market account, where it is safe and available. A *certificate of deposit (CD)* pays a fixed rate for a set term but charges a penalty for early withdrawal, so it suits money you won't need until a known date.\n\n**How money grows.** *Simple interest* is earned only on the original principal: interest = principal x rate x time. *Compound interest* is earned on principal plus past interest, so growth speeds up over time. Compare accounts by *annual percentage yield (APY)*, which includes compounding. The *rule of 72* estimates doubling time: divide 72 by the annual rate. Starting early matters more than starting big because compounding needs time.\n\n**Investment basics.** Investing accepts risk in exchange for higher expected returns:\n- *Stocks* are shares of ownership in a company; returns come from rising prices (capital gains) and dividends.\n- *Bonds* are loans to a government or company that pay interest and return the face value at maturity; they usually carry less risk than stocks.\n- *Mutual funds* and *exchange-traded funds (ETFs)* pool money to buy many securities; *index funds* track a market index at low cost.\n\nThe *risk-return tradeoff* means higher potential returns come with a greater chance of loss. *Diversification*, spreading money across many investments, limits the damage any one holding can do. *Dollar-cost averaging*, investing a fixed amount on a regular schedule, removes the temptation to time the market.\n\n**Retirement accounts.** A *401(k)* or *403(b)* is an employer plan, and many employers add a *match*, which is free money you should not leave behind. A *traditional* IRA or 401(k) may lower taxes now, with withdrawals taxed later; a *Roth IRA* uses after-tax money, and qualified withdrawals in retirement are tax-free.\n\n**Inflation** raises prices over time, so money earning less than the inflation rate loses purchasing power even while the balance grows.\n\nA common mistake is investing the emergency fund in stocks or keeping retirement money that is decades away in cash. Match each dollar to its time horizon.",
+    "examples": [
+      "At 6%, the rule of 72 says money doubles in about 72 / 6 = 12 years, so $5,000 invested at age 18 could grow to roughly $10,000 by age 30 and $20,000 by age 42 with no new deposits.",
+      "Ivy's essential expenses are $1,500 a month, so her emergency fund target is $4,500 to $9,000. She keeps it in a high-yield savings account, not in stocks.",
+      "Carlos invests $100 in an index fund every month regardless of market news. When prices are low, his $100 buys more shares; this is dollar-cost averaging."
+    ],
+    "questions": [
+      {
+        "stem": "Ana deposits $2,000 in an account that pays 4% simple interest per year. How much interest will she earn in 3 years?",
+        "choices": ["$80", "$249.73", "$2,240", "$240"],
+        "answer": 3,
+        "explanation": "Simple interest = principal x rate x time = $2,000 x 0.04 x 3 = $240. $2,240 is the ending balance, and $249.73 would be compound interest."
+      },
+      {
+        "stem": "Ben invests $1,000 at 5% interest compounded annually and makes no other deposits or withdrawals. What is the balance after 2 years?",
+        "choices": ["$1,100.00", "$1,050.00", "$1,102.50", "$1,105.00"],
+        "answer": 2,
+        "explanation": "Year 1: $1,000 x 1.05 = $1,050. Year 2: $1,050 x 1.05 = $1,102.50. Simple interest would give only $1,100."
+      },
+      {
+        "stem": "Using the rule of 72, about how long will it take an investment earning 8% a year to double?",
+        "choices": ["6 years", "9 years", "8 years", "12 years"],
+        "answer": 1,
+        "explanation": "Divide 72 by the annual rate: 72 / 8 = 9 years."
+      },
+      {
+        "stem": "Grace's essential living expenses are $1,800 a month. Using the common three-to-six-month guideline, what is a reasonable emergency fund target?",
+        "choices": ["$1,800 to $3,600", "$3,600 to $7,200", "$10,800 to $21,600", "$5,400 to $10,800"],
+        "answer": 3,
+        "explanation": "Three months: 3 x $1,800 = $5,400. Six months: 6 x $1,800 = $10,800."
+      },
+      {
+        "stem": "What happens when an investor buys a corporate bond?",
+        "choices": [
+          "The investor becomes a part owner who can vote on company decisions",
+          "The investor lends money to the company in exchange for interest payments",
+          "The investor buys a share of a fund that holds hundreds of stocks",
+          "The investor deposits money that is insured by the FDIC"
+        ],
+        "answer": 1,
+        "explanation": "A bond is a loan to the issuer, which pays interest and repays the face value at maturity. Ownership and voting rights come with stock, not bonds."
+      },
+      {
+        "stem": "Lucas has all of his savings in one technology company's stock. Which change would best reduce the risk that one company's problems wipe out his savings?",
+        "choices": [
+          "Buy more shares of the same company whenever the price drops",
+          "Switch to the stock of a different single technology company",
+          "Move the money into a broad index fund holding hundreds of companies",
+          "Check the stock price every day and sell after any decline"
+        ],
+        "answer": 2,
+        "explanation": "Diversifying across many companies limits the effect of any single failure. Switching to another single stock keeps the same concentration risk."
+      },
+      {
+        "stem": "Which retirement account is funded with after-tax dollars and allows qualified withdrawals in retirement to be tax-free?",
+        "choices": ["Traditional IRA", "Traditional 401(k)", "Certificate of deposit", "Roth IRA"],
+        "answer": 3,
+        "explanation": "Roth contributions are taxed now, so qualified withdrawals later are tax-free. Traditional accounts may reduce taxes now, but withdrawals are taxed."
+      },
+      {
+        "stem": "Priya earns $50,000. Her employer matches 50% of her 401(k) contributions up to 6% of her salary. If she contributes 6% of her salary, how much will the employer add for the year?",
+        "choices": ["$3,000", "$1,500", "$750", "$6,000"],
+        "answer": 1,
+        "explanation": "She contributes 6% x $50,000 = $3,000. The employer matches 50% of that: 0.50 x $3,000 = $1,500."
+      },
+      {
+        "stem": "Omar's savings account pays 1% interest a year while prices rise 3% a year. What is happening to his savings?",
+        "choices": [
+          "Their purchasing power is falling by about 2% a year",
+          "They are growing faster than prices",
+          "They are losing about 4% of their value each year",
+          "Their value is unaffected because the account is insured"
+        ],
+        "answer": 0,
+        "explanation": "The real return is roughly the interest rate minus inflation: 1% - 3% = -2%. Deposit insurance protects against bank failure, not inflation."
+      },
+      {
+        "stem": "Mia has $3,000 she will not need for 18 months and wants a guaranteed rate. She is willing to accept a penalty if she withdraws early. Which option fits best?",
+        "choices": ["A growth stock mutual fund", "An 18-month certificate of deposit", "A checking account", "A single company's stock"],
+        "answer": 1,
+        "explanation": "A CD locks in a fixed rate for a set term, with a penalty for early withdrawal. Stocks offer no guarantee and could be down when she needs the money."
+      }
+    ],
+    "flashcards": [
+      { "term": "Compound interest", "definition": "Interest earned on both the original principal and the interest already added to it." },
+      { "term": "Rule of 72", "definition": "A shortcut that estimates the years needed to double money by dividing 72 by the annual interest rate." },
+      { "term": "Emergency fund", "definition": "Savings set aside to cover about three to six months of essential expenses in a crisis." },
+      { "term": "Diversification", "definition": "Spreading money across many investments so that a loss in one has less effect on the whole." },
+      { "term": "Bond", "definition": "A loan to a government or company that pays interest and returns the face value at maturity." },
+      { "term": "Roth IRA", "definition": "An individual retirement account funded with after-tax money whose qualified withdrawals are tax-free." }
+    ]
+  }
+]

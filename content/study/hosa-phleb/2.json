@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Performing a routine venipuncture step by step",
+    "objective": "Perform and sequence a routine venipuncture, including patient identification, site selection, tourniquet use, needle insertion, and specimen labeling.",
+    "body": "A routine venipuncture follows a fixed sequence, and HOSA scenarios often test whether you can spot the step that was skipped or done out of order.\n\n**1. Review the requisition and identify the patient.** Use at least **two patient identifiers**, such as full name and date of birth, and compare them to the requisition and wristband. Ask an alert patient to state their name rather than asking \"Are you John Smith?\" A wrong-patient specimen is one of the most dangerous errors in the laboratory because it can lead to a transfusion or treatment meant for someone else.\n\n**2. Prepare and position.** Confirm any requirements such as fasting, explain the procedure, perform hand hygiene, and put on gloves. The patient should be seated in a phlebotomy chair with an arm support or lying down, never standing or on a stool.\n\n**3. Apply the tourniquet and select a vein.** Place the tourniquet 3 to 4 inches above the intended site and leave it on no longer than **one minute**. Prolonged tourniquet time causes **hemoconcentration**, falsely raising values such as protein and potassium. In the antecubital area, the first choice is the **median cubital vein** because it is large, well anchored, and away from major nerves. The cephalic vein is second; the basilic vein is last because it lies near the brachial artery and median nerve. Palpate to feel for a bouncy vein instead of relying on sight.\n\n**4. Clean the site.** Scrub with 70% isopropyl alcohol and let it **air dry** completely, about 30 seconds. Wet alcohol stings and can hemolyze the sample.\n\n**5. Anchor and insert.** Anchor the vein by pulling the skin taut below the site with your thumb. Insert the needle **bevel up** at an angle of about 15 to 30 degrees in one smooth motion.\n\n**6. Fill tubes in order.** Push each tube onto the holder, follow the order of draw, and invert each additive tube as it is removed. Release the tourniquet once blood flow is established, and always before removing the needle.\n\n**7. Withdraw and hold pressure.** Place gauze over the site, withdraw the needle, activate the safety device, and have the patient hold pressure with the arm extended. Bending the elbow can cause a bruise.\n\n**8. Label at the bedside.** Label every tube in the patient's presence with the patient's name, identifier, date, time, and collector's initials. Never prelabel tubes.\n\nThe most common mistake students make is removing the needle before releasing the tourniquet. That trapped pressure forces blood out of the puncture and creates a hematoma, so the rule is always tourniquet off, then needle out.",
+    "examples": [
+      "A phlebotomist asks, \"Please tell me your full name and date of birth,\" then matches the answer to both the wristband and the requisition.",
+      "The tourniquet has been on for 90 seconds while the student searches for a vein, so the student releases it, waits two minutes, and reapplies it before inserting."
+    ],
+    "questions": [
+      {
+        "stem": "A phlebotomist enters a room and asks, \"Are you Maria Lopez?\" The patient nods. What is wrong with this approach?",
+        "choices": [
+          "Nothing, because the patient confirmed it",
+          "A leading question invites a confused patient to agree; the patient should state the identifiers",
+          "Only the room number is needed for inpatients",
+          "The phlebotomist should have checked the chart only"
+        ],
+        "answer": 1,
+        "explanation": "Patients may agree to any name, so they should state name and date of birth. A room number is never an acceptable identifier because patients move."
+      },
+      {
+        "stem": "Which antecubital vein is the first choice for most venipunctures?",
+        "choices": [
+          "Basilic",
+          "Cephalic",
+          "Median cubital",
+          "Radial"
+        ],
+        "answer": 2,
+        "explanation": "The median cubital is large, stable, and away from major nerves and arteries. The basilic is the last choice because it lies near the brachial artery and median nerve."
+      },
+      {
+        "stem": "While searching for a vein, a student leaves the tourniquet on for over two minutes. What effect is most likely on the specimen?",
+        "choices": [
+          "Hemoconcentration that falsely raises some analytes",
+          "Diluted plasma that lowers all results",
+          "Clotting in the lavender tube",
+          "No effect if the draw is fast"
+        ],
+        "answer": 0,
+        "explanation": "Prolonged stasis pushes fluid out of the vein, concentrating cells, proteins, and potassium. It does not dilute the sample, which is the opposite effect."
+      },
+      {
+        "stem": "Why should 70% isopropyl alcohol be allowed to air dry before needle insertion?",
+        "choices": [
+          "Wet alcohol makes the vein collapse",
+          "Drying sterilizes the needle",
+          "It activates the tube additive",
+          "Wet alcohol causes stinging and can hemolyze the specimen"
+        ],
+        "answer": 3,
+        "explanation": "Residual alcohol stings and can damage red cells. It does not affect the needle or additives."
+      },
+      {
+        "stem": "What is the correct needle position for a routine venipuncture?",
+        "choices": [
+          "Bevel down at 45 degrees",
+          "Bevel up at about 15 to 30 degrees",
+          "Bevel up at 90 degrees",
+          "Bevel sideways at 5 degrees"
+        ],
+        "answer": 1,
+        "explanation": "Bevel up at a shallow angle enters the vein cleanly. A 45 degree or steeper angle risks going through the back wall of the vein."
+      },
+      {
+        "stem": "A student finishes filling the last tube and pulls the needle out, then releases the tourniquet. What complication is most likely?",
+        "choices": [
+          "Syncope",
+          "Hemolysis in the first tube",
+          "Hematoma at the site",
+          "Petechiae on the hand"
+        ],
+        "answer": 2,
+        "explanation": "Pressure from the tourniquet forces blood out of the puncture into tissue. Fainting is a patient reaction, not caused by this sequence error."
+      },
+      {
+        "stem": "A busy phlebotomist labels five tubes at the nurses' station before entering the room to save time. What is the main problem?",
+        "choices": [
+          "Prelabeled tubes can be used on the wrong patient",
+          "Labels peel off before use",
+          "The tubes lose vacuum when labeled",
+          "Labels must be printed by the lab"
+        ],
+        "answer": 0,
+        "explanation": "Tubes must be labeled in the patient's presence after collection to prevent misidentification. Labeling does not affect vacuum."
+      },
+      {
+        "stem": "After the needle is withdrawn, which instruction to the patient is best?",
+        "choices": [
+          "Bend your elbow tightly over the gauze",
+          "Lift your arm above your head and leave it",
+          "Shake out your arm to restore circulation",
+          "Hold firm pressure on the gauze with your arm straight"
+        ],
+        "answer": 3,
+        "explanation": "Straight-arm pressure helps the puncture seal. Bending the elbow can reopen the site and cause bruising."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Two patient identifiers",
+        "definition": "Two independent pieces of information, such as full name and date of birth, used to confirm identity before collection."
+      },
+      {
+        "term": "Median cubital vein",
+        "definition": "The first-choice antecubital vein because it is large, well anchored, and away from major nerves."
+      },
+      {
+        "term": "Hemoconcentration",
+        "definition": "An increase in cells and large molecules in a sample, often caused by a tourniquet left on longer than one minute."
+      },
+      {
+        "term": "Bevel up",
+        "definition": "Needle orientation with the slanted opening facing upward, used for venipuncture insertion."
+      },
+      {
+        "term": "Bedside labeling",
+        "definition": "Labeling tubes in the patient's presence immediately after collection, never before."
+      }
+    ]
+  }
+]

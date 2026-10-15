@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Securing, scaling and troubleshooting enterprise network infrastructure",
+    "objective": "Evaluate security controls, routing and wireless design choices for a growing network, and apply a structured troubleshooting methodology to resolve outages.",
+    "body": "Advanced questions describe an organization with real constraints and ask which design, control or diagnostic step is best. The right answer usually balances security, availability and cost rather than maximizing just one.\n\n**Routing at scale.** **Static routes** are typed by hand and suit small networks or a single default route to an ISP. **Dynamic routing protocols** share routes automatically and reconverge after failures. OSPF is a link-state interior protocol that picks paths by cost (based on bandwidth); BGP is the path-vector protocol that connects autonomous systems across the internet. When several routes match, a router chooses the most specific prefix first, known as **longest prefix match**.\n\n**Security layers.** Good infrastructure uses **defense in depth**, several controls so one failure is not fatal.\n- Firewalls filter traffic by rules; next-generation firewalls also inspect applications. A **DMZ** holds public-facing servers on a separate segment from the internal LAN.\n- Access control lists on routers restrict which VLANs can reach which services.\n- 802.1X with a RADIUS server authenticates each user or device before a switch port or Wi-Fi network grants access.\n- A **VPN** encrypts traffic across untrusted networks, linking branch offices (site-to-site) or remote workers (remote access).\n- **Zero trust** assumes no device is trusted by location alone and verifies every request.\n\n**Wireless design.** Current Wi-Fi uses WPA3 for security; WPA2 remains common, while WEP and WPA are obsolete. Wi-Fi 6 (802.11ax) and Wi-Fi 6E add efficiency and the 6 GHz band. In the 2.4 GHz band only channels 1, 6 and 11 do not overlap in North America, so neighboring access points should alternate among them. A site survey identifies coverage gaps and interference.\n\n**Availability.** Redundant power supplies, dual uplinks, link aggregation and gateway redundancy protocols such as VRRP or HSRP remove single points of failure. A UPS keeps equipment running through short outages, and documented backups of device configurations speed recovery.\n\n**Troubleshooting methodology.** Follow a repeatable process:\n1. Identify the problem and gather symptoms.\n2. Establish a theory of probable cause.\n3. Test the theory.\n4. Establish a plan of action and implement it.\n5. Verify full system functionality and add preventive measures.\n6. Document findings, actions and outcomes.\n\nTools support each step: ping tests reachability, traceroute (tracert) shows where a path stops, ipconfig or ip addr shows host settings, and nslookup tests DNS. Working bottom-up through the OSI layers keeps diagnosis organized.\n\nThe most common mistake students make is jumping straight to a fix without testing the theory or documenting the result, which often treats a symptom while the real cause remains.",
+    "examples": [
+      "A clinic places its public web server in a DMZ so that if the server is compromised, attackers still face a firewall before reaching patient systems.",
+      "A router holds routes for 10.0.0.0/8 and 10.20.0.0/16; a packet to 10.20.5.9 uses the /16 route because it is the longest prefix match.",
+      "Remote sales staff connect through a remote-access VPN so their hotel Wi-Fi traffic to the company file server is encrypted."
+    ],
+    "questions": [
+      {
+        "stem": "A company with 40 branch offices wants routes to update automatically when a WAN link fails. Which approach is best?",
+        "choices": [
+          "Static routes on every router",
+          "A dynamic interior protocol such as OSPF",
+          "A larger subnet mask on each LAN",
+          "Disabling the default route"
+        ],
+        "answer": 1,
+        "explanation": "OSPF shares link-state information and reconverges automatically after failures. Static routes would require manual changes at many routers whenever a link goes down."
+      },
+      {
+        "stem": "A router has routes for 172.16.0.0/12, 172.16.8.0/22 and a default route. Which is used for a packet to 172.16.9.40?",
+        "choices": [
+          "The default route",
+          "172.16.0.0/12",
+          "172.16.8.0/22",
+          "The router drops the packet"
+        ],
+        "answer": 2,
+        "explanation": "172.16.8.0/22 covers 172.16.8.0 to 172.16.11.255 and is the most specific match. The /12 also matches but is less specific, so it loses under longest prefix match."
+      },
+      {
+        "stem": "A school wants only authenticated staff devices to gain access when they plug into classroom wall jacks. Which control fits best?",
+        "choices": [
+          "802.1X with a RADIUS server",
+          "WEP encryption",
+          "A DMZ",
+          "Changing the switch's VLAN numbers"
+        ],
+        "answer": 0,
+        "explanation": "802.1X requires each device to authenticate before the port forwards traffic. A DMZ isolates public servers but does nothing to control who plugs into internal jacks."
+      },
+      {
+        "stem": "Users report the internet is down. Ping to the default gateway succeeds, but traceroute to an outside site stops at the ISP's first hop. What is the best next step under the troubleshooting methodology?",
+        "choices": [
+          "Replace all user workstations",
+          "Test the theory that the ISP link or edge router is failing",
+          "Reinstall the DHCP server",
+          "Document the problem as resolved"
+        ],
+        "answer": 1,
+        "explanation": "The evidence points beyond the LAN, so the next step is to test that theory at the edge or with the ISP. Replacing workstations ignores that local connectivity to the gateway already works."
+      },
+      {
+        "stem": "Three access points in a hallway are set to 2.4 GHz channels 1, 2 and 3 and users see poor throughput. What should change?",
+        "choices": [
+          "Set all three to channel 6",
+          "Use channels 1, 6 and 11",
+          "Switch the APs to WEP",
+          "Lower the subnet mask"
+        ],
+        "answer": 1,
+        "explanation": "Channels 1, 6 and 11 are the non-overlapping 2.4 GHz channels in North America, reducing interference. Putting all APs on channel 6 would make them share and contend for the same channel."
+      },
+      {
+        "stem": "An organization wants its single default gateway to keep working if one core router fails. Which technology addresses this?",
+        "choices": [
+          "VRRP or HSRP",
+          "NAT overload",
+          "DNS CNAME records",
+          "Static ARP entries"
+        ],
+        "answer": 0,
+        "explanation": "First-hop redundancy protocols like VRRP and HSRP share a virtual gateway address between routers. NAT translates addresses but provides no gateway failover."
+      },
+      {
+        "stem": "A technician fixes a misconfigured trunk and service returns. According to best practice, what must still be done?",
+        "choices": [
+          "Nothing, the issue is resolved",
+          "Verify full functionality and document the cause and fix",
+          "Immediately reboot every switch",
+          "Remove the VLANs from the trunk"
+        ],
+        "answer": 1,
+        "explanation": "The methodology ends with verifying functionality, adding preventive measures and documenting. Stopping once service returns skips verification and leaves no record for future incidents."
+      },
+      {
+        "stem": "A retailer wants every access request checked for identity and device health even from inside the office network. Which security model is this?",
+        "choices": [
+          "Perimeter-only security",
+          "Zero trust",
+          "Security through obscurity",
+          "Open system authentication"
+        ],
+        "answer": 1,
+        "explanation": "Zero trust verifies every request regardless of network location. Perimeter-only security assumes anything inside the firewall is trusted, the opposite of the requirement."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Longest prefix match",
+        "definition": "The routing rule that selects the most specific matching route when several routes match a destination."
+      },
+      {
+        "term": "Defense in depth",
+        "definition": "A security strategy that layers multiple controls so one failure does not expose the network."
+      },
+      {
+        "term": "DMZ",
+        "definition": "A separate network segment for public-facing servers, isolated from the internal LAN by a firewall."
+      },
+      {
+        "term": "VPN",
+        "definition": "An encrypted tunnel that protects traffic crossing untrusted networks for remote users or branch sites."
+      },
+      {
+        "term": "Zero trust",
+        "definition": "A security model that verifies every request and does not trust devices based on network location alone."
+      }
+    ]
+  }
+]

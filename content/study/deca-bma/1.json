@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Management functions and organizational structure",
+    "objective": "Apply the four functions of management, compare organizational structures and choose a leadership style that fits the situation.",
+    "body": "Business Management and Administration questions ask you to think like a manager: someone who gets work done through other people. Role-play judges reward the same thing. When you can name the management function or structure a situation calls for, you can explain *why* your recommendation works.\n\n**The four functions.** Managers *plan* (set goals and decide how to reach them), *organize* (assign tasks, people and resources), *lead* (motivate and direct employees) and *control* (compare results with standards and correct the gap). Controlling closes the loop: a manager who sets a goal of 95% on-time deliveries, measures 88% and investigates why is controlling.\n\n**Levels and skills.** Top managers set long-range strategy and depend most on *conceptual skills*, the ability to see the whole organization and how its parts fit. Middle managers turn strategy into department plans. First-line supervisors direct daily work and rely heavily on *technical skills*. *Human relations skills* matter at every level.\n\n**Structure.** An organization chart shows the *chain of command* (who reports to whom) and the *span of control* (how many people report to one manager). A wide span creates a flat organization with fewer layers and faster communication; a narrow span allows closer supervision but adds layers. Common designs:\n- *Functional*: grouped by specialty, such as marketing, finance and operations.\n- *Divisional*: grouped by product, customer or region, each with its own functions.\n- *Matrix*: employees report to both a functional manager and a project manager.\n\n*Line* positions carry out the core work and hold direct authority; *staff* positions, such as legal or HR specialists, advise and support. *Centralized* firms keep decisions at the top; *decentralized* firms push them down to the people closest to customers. To *delegate*, a manager gives an employee both the responsibility and the authority to complete a task, while remaining accountable for the result.\n\n**Leadership style.** *Autocratic* leaders decide alone, which suits emergencies or brand-new staff. *Democratic* (participative) leaders involve the team and build commitment. *Laissez-faire* (free-rein) leaders give skilled experts wide freedom. *Situational leadership* says the best style depends on each employee's skill and commitment. Emotional intelligence (self-awareness, self-regulation, empathy and social skill) helps any style succeed.\n\nA common mistake is treating delegation as handing off accountability. The manager still answers for the outcome, so delegation must come with clear expectations, enough authority and follow-up.",
+    "examples": [
+      "A regional retail manager oversees 14 store managers, while a hospital unit supervisor oversees 4 nurses on a complex ward. The retailer has a wide span of control and a flatter structure; the hospital's narrow span allows close supervision of high-risk work.",
+      "A software company assigns a designer to both the design department head and the leader of a new app project. Because she has two bosses, this is a matrix structure, and clear priority rules prevent conflicting instructions.",
+      "A grocery chain lets each store manager choose local products without asking headquarters. That decentralized decision-making speeds responses to local tastes but requires well-trained managers."
+    ],
+    "questions": [
+      {
+        "stem": "A call-center manager sets a standard of answering 90% of calls within 60 seconds. Weekly reports show only 78%, so she reviews staffing schedules to close the gap. Which management function is she mainly performing?",
+        "choices": ["Planning", "Organizing", "Leading", "Controlling"],
+        "answer": 3,
+        "explanation": "Controlling means comparing actual performance (78%) with a standard (90%) and taking corrective action. Setting the standard was planning, but measuring and correcting the gap is control."
+      },
+      {
+        "stem": "A company has 240 frontline employees and gives each supervisor a span of control of 12. If it widens the span to 20, how many fewer supervisors will it need?",
+        "choices": ["8", "12", "20", "4"],
+        "answer": 0,
+        "explanation": "At a span of 12 it needs 240 ÷ 12 = 20 supervisors; at a span of 20 it needs 240 ÷ 20 = 12. That is 20 − 12 = 8 fewer supervisors and a flatter structure."
+      },
+      {
+        "stem": "An engineer at an aerospace firm reports to the head of the engineering department and also to the leader of a satellite project team. Which organizational structure does this describe?",
+        "choices": ["Functional structure", "Divisional structure", "Matrix structure", "Line-and-staff structure"],
+        "answer": 2,
+        "explanation": "In a matrix structure, employees report to both a functional manager and a project manager. A purely functional structure gives each employee one department boss."
+      },
+      {
+        "stem": "A kitchen fire breaks out during a busy dinner service, and the restaurant manager immediately tells each employee exactly what to do. Which leadership style best fits this situation?",
+        "choices": ["Autocratic", "Democratic", "Laissez-faire", "Transformational"],
+        "answer": 0,
+        "explanation": "Emergencies require fast, clear direction, which is the strength of autocratic leadership. Asking for input (democratic) or giving freedom (laissez-faire) would waste critical time."
+      },
+      {
+        "stem": "A research lab manager leads a team of experienced, highly motivated scientists who know their specialties better than she does. Which leadership style would most likely work best?",
+        "choices": ["Autocratic", "Laissez-faire", "Bureaucratic", "Coercive"],
+        "answer": 1,
+        "explanation": "Laissez-faire (free-rein) leadership gives skilled, self-motivated experts the freedom to decide how to do their work. Close control would frustrate them and slow progress."
+      },
+      {
+        "stem": "A supervisor asks an employee to run the quarterly inventory count but requires her to get approval for every supply purchase, even $5 items. Which delegation principle is being ignored?",
+        "choices": ["Responsibility must be matched with enough authority", "Accountability transfers fully to the employee", "Span of control must always be narrow", "Line positions must never advise staff"],
+        "answer": 0,
+        "explanation": "Effective delegation gives the employee authority equal to the responsibility assigned. Accountability does not transfer fully; the supervisor still answers for the result."
+      },
+      {
+        "stem": "A company's chief executive must decide whether to enter a new international market over the next five years. Which type of management skill is most important for this decision?",
+        "choices": ["Technical skills", "Conceptual skills", "Human relations skills", "Clerical skills"],
+        "answer": 1,
+        "explanation": "Conceptual skills let top managers see the whole organization and its environment and think through long-range strategy. Technical skills matter most to first-line supervisors."
+      },
+      {
+        "stem": "A national hotel chain lets each property's general manager set local event pricing and resolve guest complaints without waiting for corporate approval. What is the main benefit of this decentralized approach?",
+        "choices": ["Faster decisions made close to customers", "Lower training costs for managers", "Identical policies at every location", "Fewer managers needed overall"],
+        "answer": 0,
+        "explanation": "Decentralization pushes authority to managers nearest the customer, speeding decisions. It usually raises training needs and produces less uniformity, not more."
+      },
+      {
+        "stem": "In a manufacturing company, which of these is a staff position rather than a line position?",
+        "choices": ["Production supervisor", "Plant manager", "Legal counsel who advises managers", "Assembly team leader"],
+        "answer": 2,
+        "explanation": "Staff positions advise and support line managers, as legal counsel does. The other roles carry out or directly supervise the core production work, so they are line positions."
+      },
+      {
+        "stem": "During a tense meeting, a team leader feels her anger rising at a colleague's criticism, takes a slow breath and waits before replying in a calm tone. Which emotional intelligence component is she using to manage her reaction?",
+        "choices": ["Self-regulation", "Empathy", "Motivation", "Conceptual skill"],
+        "answer": 0,
+        "explanation": "Self-regulation is controlling your own emotional impulses and choosing a measured response. Empathy is understanding other people's feelings, which is not the focus here."
+      }
+    ],
+    "flashcards": [
+      { "term": "Controlling", "definition": "The management function of measuring performance against standards and taking action to correct any gaps." },
+      { "term": "Span of control", "definition": "The number of employees who report directly to one manager; wide spans create flatter organizations." },
+      { "term": "Matrix structure", "definition": "An organization design in which employees report to both a functional manager and a project or product manager." },
+      { "term": "Delegation", "definition": "Assigning a task with matching authority to an employee while the manager stays accountable for the result." },
+      { "term": "Decentralization", "definition": "Pushing decision-making authority down to managers and employees closer to daily operations and customers." },
+      { "term": "Situational leadership", "definition": "The idea that the best leadership style depends on each follower's skill level and commitment to the task." }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Health disparities, equity, and how we measure them",
+    "objective": "Define health disparities and inequities, distinguish equity from equality, and interpret core population health indicators used to compare countries and groups.",
+    "body": "Global health starts with a simple observation: health is not distributed evenly. A child born in Japan can expect to live roughly 84 years, while a child born in several sub-Saharan African countries can expect far fewer. Understanding why requires precise vocabulary and reliable measurements.\n\n**Health disparity vs. health inequity.** A **health disparity** is a measurable difference in health outcomes or access between groups, such as by income, race or ethnicity, gender, geography or disability. A **health inequity** is a disparity that is avoidable, unnecessary and unjust because it stems from unfair social, economic or political conditions. Every inequity is a disparity, but not every disparity is an inequity: older adults have more heart disease than teenagers largely because of age, not injustice.\n\n**Equality vs. equity.** **Equality** gives every person the same resources. **Health equity** means everyone has a fair and just opportunity to be as healthy as possible, which often requires giving more support to groups facing greater barriers. Handing every clinic the same budget is equality; funding a rural clinic more because its patients travel farther and earn less is equity.\n\n**Social determinants of health (SDOH).** The World Health Organization describes SDOH as the conditions in which people are born, grow, live, work and age. The U.S. Healthy People 2030 framework groups them into five domains:\n1. Economic stability\n2. Education access and quality\n3. Health care access and quality\n4. Neighborhood and built environment\n5. Social and community context\n\nThese conditions shape health more than clinical care alone, which is why two people with the same diagnosis can have very different outcomes.\n\n**Measuring the gap.** Analysts compare populations with standard indicators:\n- **Life expectancy at birth**: the average years a newborn would live if current death rates stayed the same.\n- **Infant mortality rate**: deaths before age 1 per 1,000 live births, a sensitive signal of maternal health, sanitation and access to care.\n- **Under-5 mortality rate**: deaths before age 5 per 1,000 live births.\n- **Maternal mortality ratio**: maternal deaths per 100,000 live births.\n- **Disability-adjusted life year (DALY)**: one lost year of healthy life, combining years lost to early death and years lived with disability.\n\nDALYs matter because counting deaths alone hides conditions like depression or chronic back pain that disable without killing. Global goals such as **Sustainable Development Goal 3** (good health and well-being) use these indicators to set targets, for example reducing the global maternal mortality ratio below 70 per 100,000 live births by 2030.\n\nWhen reading data, check the denominator and the unit. A rate per 1,000 and a ratio per 100,000 cannot be compared directly, and absolute counts can mislead when populations differ in size.\n\nThe most common mistake students make is treating \"disparity\" and \"inequity\" as synonyms. A disparity simply describes a difference; calling it an inequity requires showing that the difference is avoidable and rooted in unfair conditions.",
+    "examples": [
+      "Two neighborhoods in the same city differ in life expectancy by 15 years; because the gap tracks income, housing quality and access to clinics, it is a health inequity, not just a disparity.",
+      "A health department gives free bus passes to patients in a transit desert so they can reach prenatal visits, an equity approach rather than equal treatment.",
+      "Country A reports 30 infant deaths per 1,000 live births and Country B reports 4; the gap points to differences in maternal care, sanitation and vaccination coverage."
+    ],
+    "questions": [
+      {
+        "stem": "A report shows that men have a higher rate of prostate cancer than women. How should this difference best be classified?",
+        "choices": [
+          "A health disparity that is not an inequity, because it reflects biology",
+          "A health inequity, because any group difference is unjust",
+          "A social determinant of health, because it involves gender",
+          "An example of health equity, because outcomes differ by need"
+        ],
+        "answer": 0,
+        "explanation": "Prostate cancer occurs only in people with a prostate, so the difference is a disparity driven by biology, not unfair conditions. Calling it an inequity ignores the requirement that the gap be avoidable and unjust."
+      },
+      {
+        "stem": "A school district gives every school the same number of nurses regardless of enrollment or student need. Which concept does this policy illustrate?",
+        "choices": [
+          "Health equity",
+          "Equality",
+          "Proportionate universalism",
+          "Health literacy"
+        ],
+        "answer": 1,
+        "explanation": "Giving identical resources to all is equality. Equity would adjust staffing to need, so a school with more students with chronic conditions would receive more support."
+      },
+      {
+        "stem": "Which indicator would a public health analyst use to capture the burden of a condition that rarely kills but causes long-term disability?",
+        "choices": [
+          "Crude death rate",
+          "Infant mortality rate",
+          "Disability-adjusted life years",
+          "Maternal mortality ratio"
+        ],
+        "answer": 2,
+        "explanation": "DALYs combine years of life lost to early death with years lived with disability, so they capture nonfatal burden. The crude death rate counts only deaths and would miss it."
+      },
+      {
+        "stem": "A student compares Country X's infant mortality rate of 25 with Country Y's maternal mortality ratio of 250 and concludes Country Y is ten times worse off. What is the main error?",
+        "choices": [
+          "Infant mortality is always higher than maternal mortality",
+          "The two indicators measure different events and use different denominators",
+          "Maternal mortality is measured per 1,000 people",
+          "Both indicators should be converted to DALYs first"
+        ],
+        "answer": 1,
+        "explanation": "Infant mortality is deaths per 1,000 live births, while the maternal mortality ratio is maternal deaths per 100,000 live births. They describe different events, so a direct ratio comparison is meaningless; converting to DALYs is not the required fix."
+      },
+      {
+        "stem": "A family lives far from any grocery store, and the only nearby options sell mostly processed snacks. Which Healthy People 2030 domain best fits this barrier?",
+        "choices": [
+          "Education access and quality",
+          "Health care access and quality",
+          "Neighborhood and built environment",
+          "Social and community context"
+        ],
+        "answer": 2,
+        "explanation": "Food access, housing and transportation fall under neighborhood and built environment. Economic factors might contribute, but the defining feature here is the physical environment around the home."
+      },
+      {
+        "stem": "Which statement best defines health equity?",
+        "choices": [
+          "Every person receives identical health services",
+          "Everyone has a fair and just opportunity to attain their highest level of health",
+          "Health outcomes are identical in every population",
+          "Health spending is divided evenly among all regions"
+        ],
+        "answer": 1,
+        "explanation": "Health equity is about fair opportunity, which may require unequal resources. Identical services describe equality, which can leave disadvantaged groups behind."
+      },
+      {
+        "stem": "A ministry of health wants a single indicator that is highly sensitive to sanitation, maternal nutrition and access to newborn care. Which is most appropriate?",
+        "choices": [
+          "Infant mortality rate",
+          "Life expectancy at age 65",
+          "Prevalence of high blood pressure",
+          "Number of hospitals per region"
+        ],
+        "answer": 0,
+        "explanation": "Infant mortality responds quickly to maternal health, clean water and newborn care. Life expectancy at 65 reflects adult chronic disease and would be slow to show these changes."
+      },
+      {
+        "stem": "A city finds that a low-income neighborhood has twice the asthma hospitalization rate of a wealthy one, and the low-income area sits beside a highway and a diesel bus depot. What makes this difference an inequity?",
+        "choices": [
+          "It is a difference that can be measured",
+          "It is linked to avoidable, unfair environmental exposure",
+          "Asthma is a chronic disease",
+          "Hospitalization rates are reported per 100,000 people"
+        ],
+        "answer": 1,
+        "explanation": "An inequity is a disparity rooted in avoidable, unjust conditions, such as placing pollution sources near low-income homes. Measurability alone defines a disparity, not an inequity."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Health disparity",
+        "definition": "A measurable difference in health outcomes or access between groups of people."
+      },
+      {
+        "term": "Health inequity",
+        "definition": "A health disparity that is avoidable, unnecessary and unjust because it arises from unfair social, economic or political conditions."
+      },
+      {
+        "term": "Health equity",
+        "definition": "A state in which everyone has a fair and just opportunity to be as healthy as possible, often requiring more support for groups facing greater barriers."
+      },
+      {
+        "term": "Social determinants of health",
+        "definition": "The conditions in which people are born, grow, live, work and age that shape health outcomes."
+      },
+      {
+        "term": "Disability-adjusted life year (DALY)",
+        "definition": "One lost year of healthy life, combining years lost to early death and years lived with disability."
+      }
+    ]
+  }
+]

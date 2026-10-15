@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Major drug classes and how they work",
+    "objective": "Identify common drug classes by their name stems, explain each class's mechanism of action, and predict typical therapeutic and adverse effects.",
+    "body": "Thousands of drugs exist, but most belong to a manageable number of **drug classes**, groups that share a mechanism of action. Learning classes lets you predict what a new drug does, and many generic names carry a **stem** (a shared suffix) that reveals the class.\n\n**Cardiovascular drugs.**\n- **Beta blockers** (stem -olol, such as metoprolol) block beta-adrenergic receptors, slowing heart rate and lowering blood pressure. A slow pulse and fatigue are common effects.\n- **ACE inhibitors** (-pril, such as lisinopril) block angiotensin-converting enzyme, so less angiotensin II forms and blood vessels relax. A dry, persistent cough is a well-known side effect.\n- **Angiotensin II receptor blockers**, or ARBs (-sartan, such as losartan), block the receptor instead of the enzyme and rarely cause that cough.\n- **Statins** (-statin, such as atorvastatin) inhibit HMG-CoA reductase, an enzyme the liver uses to make cholesterol, lowering LDL cholesterol.\n- **Diuretics** such as furosemide increase urine output to reduce fluid volume; loop diuretics can lower potassium.\n- **Anticoagulants** such as warfarin or apixaban reduce clot formation, so bleeding is the main risk.\n\n**Anti-infectives.** **Antibiotics** treat bacterial infections only; they do not work against viruses such as those that cause colds and flu. Penicillins (-cillin, such as amoxicillin) and cephalosporins (often cef- or ceph-) disrupt bacterial cell walls. Fluoroquinolones (-floxacin) block bacterial DNA enzymes. Finishing therapy as prescribed and avoiding unnecessary use help limit **antibiotic resistance**. **Antivirals** such as oseltamivir target viral replication, and **antifungals** (often -azole) target fungal cells.\n\n**Pain and inflammation.**\n- **NSAIDs** (ibuprofen, naproxen) inhibit cyclooxygenase (COX) enzymes, reducing prostaglandins that drive pain, fever, and inflammation. They can irritate the stomach and affect the kidneys.\n- **Acetaminophen** relieves pain and fever but has little anti-inflammatory effect; excess amounts can damage the liver.\n- **Opioids** (morphine, oxycodone) bind opioid receptors in the central nervous system. Respiratory depression is the most dangerous effect, and constipation is very common.\n\n**Other high-yield classes.** **Proton pump inhibitors** (-prazole, such as omeprazole) reduce stomach acid. **SSRIs** (fluoxetine, sertraline) increase serotonin available in synapses to treat depression and anxiety. **Benzodiazepines** (-pam or -lam, such as lorazepam) enhance the calming neurotransmitter GABA. **Bronchodilators** such as albuterol relax airway smooth muscle for fast asthma relief, while inhaled corticosteroids reduce airway inflammation over time.\n\nEvery drug has a **therapeutic effect** (the intended result) and **side effects** (predictable, often mild unintended effects). Matching each class to its mechanism helps you anticipate both.\n\nThe most common mistake students make is relying on stems blindly. Stems are helpful clues, not guarantees; for example, not every drug ending in -pam is a benzodiazepine, so confirm the class before answering.",
+    "examples": [
+      "A patient taking lisinopril develops a nagging dry cough; switching to losartan, an ARB, is a common alternative because ARBs act on the receptor rather than the enzyme.",
+      "A student with a viral sore throat asks for amoxicillin. Because antibiotics do not treat viruses, it would not help and could contribute to resistance.",
+      "Someone recovering from surgery on oxycodone is monitored for slowed breathing and often given a bowel regimen for constipation."
+    ],
+    "questions": [
+      {
+        "stem": "A patient's medication list includes 'carvedilol' and 'atenolol'. Based on the stem, which class do these belong to?",
+        "choices": [
+          "ACE inhibitors",
+          "Statins",
+          "Beta blockers",
+          "Proton pump inhibitors"
+        ],
+        "answer": 2,
+        "explanation": "The -olol/-ilol stem marks beta blockers, which slow heart rate and lower blood pressure. ACE inhibitors end in -pril, a common confusion among cardiovascular stems."
+      },
+      {
+        "stem": "A patient on enalapril reports a persistent dry cough. Which drug class is most likely to be considered as an alternative?",
+        "choices": [
+          "Loop diuretic",
+          "Benzodiazepine",
+          "Cephalosporin",
+          "Angiotensin II receptor blocker"
+        ],
+        "answer": 3,
+        "explanation": "Enalapril is an ACE inhibitor; ARBs block the angiotensin receptor and rarely cause cough. A loop diuretic lowers blood pressure differently but is not the targeted substitute for the cough problem."
+      },
+      {
+        "stem": "A parent requests antibiotics for a child with a common cold. Which response reflects sound pharmacology?",
+        "choices": [
+          "Colds are usually viral, and antibiotics act only on bacteria",
+          "Antibiotics shorten all colds",
+          "Antibiotics are needed to prevent fever",
+          "Any leftover antibiotic is safe to use"
+        ],
+        "answer": 0,
+        "explanation": "Colds are caused by viruses, which antibiotics do not affect, and unnecessary use promotes resistance. The fever choice is wrong because antibiotics are not fever reducers."
+      },
+      {
+        "stem": "Which effect is the most dangerous adverse effect to monitor in a patient receiving morphine?",
+        "choices": [
+          "Constipation",
+          "Respiratory depression",
+          "Dry cough",
+          "Increased appetite"
+        ],
+        "answer": 1,
+        "explanation": "Respiratory depression can be life-threatening. Constipation is the most common opioid effect, which makes it a tempting distractor, but it is not the most dangerous."
+      },
+      {
+        "stem": "Atorvastatin lowers LDL cholesterol mainly by doing what?",
+        "choices": [
+          "Blocking beta receptors",
+          "Increasing urine output",
+          "Inhibiting HMG-CoA reductase in the liver",
+          "Reducing stomach acid"
+        ],
+        "answer": 2,
+        "explanation": "Statins inhibit the liver enzyme HMG-CoA reductase, decreasing cholesterol synthesis. Increasing urine output describes diuretics, not statins."
+      },
+      {
+        "stem": "A patient wants something for a headache and also has a history of stomach ulcers. Which property of NSAIDs is the main concern?",
+        "choices": [
+          "They are antiviral",
+          "They block GABA",
+          "They are bronchodilators",
+          "They can irritate the stomach lining"
+        ],
+        "answer": 3,
+        "explanation": "NSAIDs inhibit COX enzymes, reducing protective prostaglandins in the stomach and raising ulcer and bleeding risk. They have no GABA or antiviral action."
+      },
+      {
+        "stem": "During an asthma attack, which medication is designed for quick relief of bronchospasm?",
+        "choices": [
+          "Albuterol",
+          "Inhaled corticosteroid",
+          "Omeprazole",
+          "Warfarin"
+        ],
+        "answer": 0,
+        "explanation": "Albuterol is a short-acting bronchodilator that relaxes airway muscle quickly. Inhaled corticosteroids reduce inflammation over time and are used for long-term control, not rescue."
+      },
+      {
+        "stem": "A patient taking warfarin notices easy bruising and bleeding gums. What does this most likely reflect?",
+        "choices": [
+          "A sign the drug is not working",
+          "An expected effect of the drug's anticoagulant action that needs prompt reporting",
+          "An allergic reaction to the brand name",
+          "A normal effect of statins"
+        ],
+        "answer": 1,
+        "explanation": "Warfarin reduces clotting, so bleeding signs reflect its action becoming excessive and should be reported. It does not indicate failure; the opposite (clotting) would."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Drug class",
+        "definition": "A group of drugs that share a mechanism of action and similar effects."
+      },
+      {
+        "term": "Beta blocker",
+        "definition": "A drug (often ending in -olol) that blocks beta-adrenergic receptors to slow heart rate and lower blood pressure."
+      },
+      {
+        "term": "ACE inhibitor",
+        "definition": "A drug (ending in -pril) that blocks angiotensin-converting enzyme, relaxing blood vessels; may cause a dry cough."
+      },
+      {
+        "term": "NSAID",
+        "definition": "A nonsteroidal anti-inflammatory drug that inhibits COX enzymes to reduce pain, fever, and inflammation."
+      },
+      {
+        "term": "Antibiotic resistance",
+        "definition": "The ability of bacteria to survive drugs that once killed them, accelerated by unnecessary or incomplete antibiotic use."
+      }
+    ]
+  }
+]

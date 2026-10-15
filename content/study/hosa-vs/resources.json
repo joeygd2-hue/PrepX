@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Merck Veterinary Manual",
+    "url": "https://www.merckvetmanual.com/",
+    "publisher": "Merck Veterinary Manual",
+    "kind": "reference",
+    "note": "Free veterinary reference on diseases and care of companion, farm and exotic animals."
+  },
+  {
+    "title": "Biology 2e",
+    "url": "https://openstax.org/details/books/biology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free biology text for animal anatomy, physiology and genetics."
+  },
+  {
+    "title": "Microbiology",
+    "url": "https://openstax.org/books/microbiology/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free microbiology text for the infectious diseases and zoonoses vets manage."
+  }
+]

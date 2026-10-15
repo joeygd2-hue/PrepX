@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Sports Injuries",
+    "url": "https://www.niams.nih.gov/health-topics/sports-injuries",
+    "publisher": "NIAMS (NIH)",
+    "kind": "reference",
+    "note": "NIH overview of sprains, strains, fractures and overuse injuries and how they are treated."
+  },
+  {
+    "title": "Anatomy and Physiology 2e",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free anatomy and physiology text for bones, muscles and joints."
+  },
+  {
+    "title": "Physical Activity Guidelines for Americans, 2nd Edition",
+    "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf",
+    "publisher": "U.S. HHS (ODPHP)",
+    "kind": "reference",
+    "note": "Federal physical activity guidelines by age, useful for exercise and rehab questions."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Moles, stoichiometry, and solution concentration calculations",
+    "objective": "Convert between grams, moles, and particles, balance equations, use mole ratios to predict products, and calculate solution concentrations and dilutions.",
+    "body": "Chemistry in a hospital lab or pharmacy is quantitative. Knowing that glucose reacts with oxygen is not enough; you must know how much. The mole and the balanced equation are the tools that turn chemical formulas into real amounts.\n\n**The mole.** A **mole** is 6.022 x 10^23 particles, a number called **Avogadro's number**. The **molar mass** of a substance is the mass of one mole in grams, found by adding atomic masses from the periodic table. Water (H2O) has a molar mass of about 2(1.01) + 16.00 = 18.02 g/mol. To convert grams to moles, divide by molar mass; to convert moles to grams, multiply.\n\n**Balancing equations.** The **law of conservation of mass** says atoms are neither created nor destroyed, so a balanced equation has the same number of each atom on both sides. You balance by changing **coefficients**, never subscripts, because changing a subscript changes the substance itself. For example, CH4 + 2O2 -> CO2 + 2H2O is balanced: one carbon, four hydrogens, and four oxygens on each side.\n\n**Stoichiometry.** The coefficients give the **mole ratio** between substances. A typical problem follows three steps:\n1. Convert the given mass to moles.\n2. Multiply by the mole ratio from the balanced equation.\n3. Convert moles of the target substance back to grams if needed.\n\nWhen two reactants are present, the **limiting reactant** is the one that runs out first and determines how much product forms. The **percent yield** compares the actual amount recovered to the theoretical amount: (actual / theoretical) x 100.\n\n**Solution concentration.** A solution has a **solute** dissolved in a **solvent**. **Molarity (M)** is moles of solute per liter of solution. Dissolving 0.50 mol of NaCl to make 0.25 L of solution gives 2.0 M. Health care also uses percent concentrations: normal saline is 0.9% NaCl weight/volume, meaning 0.9 g of NaCl per 100 mL of solution.\n\n**Dilution.** Adding solvent lowers concentration but leaves the moles of solute unchanged, which gives the equation **M1V1 = M2V2**. To make 500 mL of 1.0 M solution from a 5.0 M stock, you need (1.0)(500) / 5.0 = 100 mL of stock, diluted to a final volume of 500 mL.\n\nThe most common mistake is skipping the mole step: students multiply grams of one substance directly by the coefficient ratio. Mole ratios compare moles, not grams, so always convert to moles first. A close second is forgetting that molarity uses liters, so 250 mL must become 0.250 L before dividing.",
+    "examples": [
+      "To find the moles in 90.1 g of glucose (C6H12O6, about 180.2 g/mol), divide 90.1 by 180.2 to get 0.500 mol.",
+      "A lab needs 200 mL of 0.50 M solution from a 2.0 M stock; M1V1 = M2V2 gives 50 mL of stock diluted with water to a total of 200 mL.",
+      "In 2H2 + O2 -> 2H2O, 4 mol of hydrogen gas requires only 2 mol of oxygen gas, so any extra oxygen is left over."
+    ],
+    "questions": [
+      {
+        "stem": "A student weighs 36.04 g of water. About how many moles is this?",
+        "choices": [
+          "0.50 mol",
+          "2.00 mol",
+          "18.02 mol",
+          "36.04 mol"
+        ],
+        "answer": 1,
+        "explanation": "Divide mass by molar mass: 36.04 / 18.02 = 2.00 mol. Choosing 0.50 mol results from dividing molar mass by mass, which inverts the conversion."
+      },
+      {
+        "stem": "When balancing H2 + O2 -> H2O, a classmate changes the product to H2O2 to balance the oxygens. Why is this wrong?",
+        "choices": [
+          "Hydrogen peroxide cannot exist",
+          "Changing a subscript changes the substance being produced",
+          "Equations only need hydrogen balanced",
+          "Oxygen is always a product"
+        ],
+        "answer": 1,
+        "explanation": "Subscripts define the identity of a compound; H2O2 is hydrogen peroxide, not water. The correct fix is the coefficient change 2H2 + O2 -> 2H2O. Hydrogen peroxide does exist, so that choice is false."
+      },
+      {
+        "stem": "In the reaction N2 + 3H2 -> 2NH3, how many moles of NH3 form from 6 mol of H2 with excess N2?",
+        "choices": [
+          "2 mol",
+          "3 mol",
+          "4 mol",
+          "6 mol"
+        ],
+        "answer": 2,
+        "explanation": "The ratio is 3 mol H2 to 2 mol NH3, so 6 x (2/3) = 4 mol. Answering 6 mol assumes a 1:1 ratio and ignores the coefficients."
+      },
+      {
+        "stem": "A technician dissolves 0.30 mol of KCl in water to make 600 mL of solution. What is the molarity?",
+        "choices": [
+          "0.18 M",
+          "0.50 M",
+          "2.0 M",
+          "0.0005 M"
+        ],
+        "answer": 1,
+        "explanation": "Convert 600 mL to 0.600 L, then 0.30 / 0.600 = 0.50 M. 0.0005 M comes from dividing by 600 without converting milliliters to liters."
+      },
+      {
+        "stem": "A pharmacy lab must prepare 250 mL of 0.40 M solution from a 2.0 M stock. How much stock is needed?",
+        "choices": [
+          "50 mL",
+          "100 mL",
+          "125 mL",
+          "200 mL"
+        ],
+        "answer": 0,
+        "explanation": "M1V1 = M2V2 gives V1 = (0.40)(250)/2.0 = 50 mL, then dilute to 250 mL. 200 mL is the volume of water you add, not the volume of stock."
+      },
+      {
+        "stem": "Normal saline is labeled 0.9% NaCl (w/v). How many grams of NaCl are in 1 L of it?",
+        "choices": [
+          "0.9 g",
+          "9 g",
+          "90 g",
+          "0.09 g"
+        ],
+        "answer": 1,
+        "explanation": "0.9% w/v means 0.9 g per 100 mL, so 1000 mL contains 9 g. 0.9 g would be the amount in only 100 mL."
+      },
+      {
+        "stem": "In 2H2 + O2 -> 2H2O, a reaction vessel holds 4 mol H2 and 3 mol O2. Which is the limiting reactant?",
+        "choices": [
+          "H2",
+          "O2",
+          "Both run out together",
+          "Water"
+        ],
+        "answer": 0,
+        "explanation": "4 mol H2 needs only 2 mol O2, and 3 mol is available, so H2 runs out first. O2 is in excess, which is the common wrong pick because it has the smaller mole number."
+      },
+      {
+        "stem": "A synthesis has a theoretical yield of 50.0 g, but the student recovers 42.0 g. What is the percent yield?",
+        "choices": [
+          "8.0%",
+          "84.0%",
+          "119%",
+          "42.0%"
+        ],
+        "answer": 1,
+        "explanation": "(42.0 / 50.0) x 100 = 84.0%. 119% comes from dividing theoretical by actual, which would wrongly suggest more product than possible."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Mole",
+        "definition": "An amount equal to 6.022 x 10^23 particles of a substance."
+      },
+      {
+        "term": "Molar mass",
+        "definition": "The mass in grams of one mole of a substance, found by summing atomic masses."
+      },
+      {
+        "term": "Limiting reactant",
+        "definition": "The reactant that is used up first and determines the maximum amount of product."
+      },
+      {
+        "term": "Molarity",
+        "definition": "Concentration expressed as moles of solute per liter of solution."
+      },
+      {
+        "term": "Dilution equation",
+        "definition": "M1V1 = M2V2; the moles of solute stay constant when solvent is added."
+      }
+    ]
+  }
+]

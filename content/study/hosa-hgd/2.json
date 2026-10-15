@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Milestones from infancy through adolescence",
+    "objective": "Describe typical physical, cognitive and psychosocial milestones from infancy through adolescence and apply them to assess and support young patients.",
+    "body": "Knowing what is typical at each age lets health care workers spot concerns early and adjust how they communicate. Milestones are given as approximate ranges, and screening tools compare a child to most children of the same age.\n\n**Infancy (birth to 1 year).** Infancy is the period of fastest growth after birth. Many infants double birth weight by about 4 to 6 months and roughly triple it by 12 months. Newborns show **reflexes**, automatic responses that typically fade as the brain matures:\n- **Rooting**: turning toward a touch on the cheek, which helps with feeding.\n- **Moro (startle)**: flinging out the arms when startled.\n- **Palmar grasp**: gripping a finger placed in the palm.\nCommon milestones include social smiling around 2 months, rolling over around 4 to 6 months, sitting without support around 6 to 9 months and first words near 12 months. **Stranger anxiety** often appears around 8 to 9 months and shows a healthy attachment to caregivers.\n\n**Toddlerhood (1 to 3 years).** Toddlers walk, climb and begin feeding themselves. Language expands quickly, and two-word phrases are typical around age 2. The drive for independence fuels Erikson's **autonomy versus shame and doubt**, which explains the frequent \"No!\" Offering simple choices helps.\n\n**Early childhood (3 to 6 years).** Preschoolers refine motor skills such as hopping and drawing shapes, use **egocentric** thinking (difficulty seeing another person's viewpoint) and engage in imaginative play. Erikson's conflict is **initiative versus guilt**.\n\n**Middle childhood (6 to 12 years).** Growth is slow and steady. Children think logically about concrete situations, value rules and compare themselves with peers. Erikson's **industry versus inferiority** means success at school, sports and hobbies builds confidence.\n\n**Adolescence (about 12 to 18 years).** **Puberty** brings a growth spurt and sexual maturation, usually starting earlier in girls than boys. Abstract reasoning develops, peers grow more influential and privacy matters greatly. The brain's prefrontal cortex, which supports planning and impulse control, keeps maturing into the mid-20s.\n\n**Applying milestones in care.** Match communication to stage: use distraction and a parent's presence with toddlers, simple honest words and play with preschoolers, and give adolescents privacy and a chance to talk without parents present when appropriate. Persistent loss of previously learned skills at any age is a warning sign that should be reported.\n\nThe most common mistake students make is assuming normal behavior is a problem, such as treating stranger anxiety or toddler negativism as disorders. Recognize these as expected signs of healthy development.",
+    "examples": [
+      "A medical assistant lets a 2-year-old choose which arm gets the bandage, supporting autonomy during a stressful visit.",
+      "A nurse asks a parent to step out briefly so a 15-year-old can answer health questions privately, respecting adolescent needs for privacy."
+    ],
+    "questions": [
+      {
+        "stem": "A newborn turns her head toward the nurse's finger when her cheek is stroked. Which reflex is this?",
+        "choices": [
+          "Moro",
+          "Palmar grasp",
+          "Rooting",
+          "Babinski"
+        ],
+        "answer": 2,
+        "explanation": "The rooting reflex is turning toward a touch on the cheek, which helps the baby find the nipple. The Moro reflex is a startle response with arms flinging outward, not a head turn."
+      },
+      {
+        "stem": "A 9-month-old cries when a new nurse approaches but calms in his mother's arms. How should this be interpreted?",
+        "choices": [
+          "As a sign of developmental delay",
+          "As expected stranger anxiety",
+          "As evidence of poor attachment",
+          "As a sign of a hearing problem"
+        ],
+        "answer": 1,
+        "explanation": "Stranger anxiety commonly appears around 8 to 9 months and reflects healthy attachment. Poor attachment would be suggested by not seeking comfort from a caregiver, the opposite of what is described."
+      },
+      {
+        "stem": "A 2-year-old refuses to sit on the exam table and shouts \"No!\" What approach best fits his developmental stage?",
+        "choices": [
+          "Offer a simple choice, such as sitting on the table or on mom's lap",
+          "Explain the medical reasons in detail",
+          "Ask the parent to leave the room",
+          "Scold him so he learns to cooperate"
+        ],
+        "answer": 0,
+        "explanation": "Toddlers are working on autonomy versus shame and doubt, so limited choices give a sense of control. Detailed medical explanations exceed a toddler's cognitive ability."
+      },
+      {
+        "stem": "A 4-year-old says her brother's illness happened because she was mean to him. This thinking best reflects:",
+        "choices": [
+          "Abstract reasoning",
+          "Egocentric, magical thinking typical of early childhood",
+          "Concrete logical reasoning",
+          "A sign of serious mental illness"
+        ],
+        "answer": 1,
+        "explanation": "Preschoolers often think egocentrically and link unrelated events to their own actions. Concrete logical reasoning develops later in middle childhood and would not produce this belief."
+      },
+      {
+        "stem": "A 10-year-old is excited to show a nurse the science project ribbon he won. Which Erikson stage is he most likely in?",
+        "choices": [
+          "Trust versus mistrust",
+          "Initiative versus guilt",
+          "Industry versus inferiority",
+          "Identity versus role confusion"
+        ],
+        "answer": 2,
+        "explanation": "Industry versus inferiority, in middle childhood, centers on competence through accomplishments like school projects. Initiative versus guilt is the preschool stage centered on starting play and activities."
+      },
+      {
+        "stem": "A 14-year-old patient seems reluctant to answer questions about her health while her father is in the room. What is the best action?",
+        "choices": [
+          "Ask the father to answer for her",
+          "Offer time to talk privately, following facility policy",
+          "Skip the questions entirely",
+          "Tell her she must answer in front of her parent"
+        ],
+        "answer": 1,
+        "explanation": "Adolescents value privacy, and confidential time helps them share honest information. Having the parent answer for her ignores her developing independence and may miss important information."
+      },
+      {
+        "stem": "A 4-year-old who used to speak in full sentences has stopped talking over the past few months. What should a health care worker do?",
+        "choices": [
+          "Report it, because loss of skills is a warning sign",
+          "Ignore it, since all children regress temporarily",
+          "Assume the child is shy",
+          "Wait until the child starts school"
+        ],
+        "answer": 0,
+        "explanation": "Loss of previously acquired skills is a red flag that should be reported for evaluation. Treating it as ordinary shyness could delay needed assessment."
+      },
+      {
+        "stem": "Why might a 16-year-old take more impulsive risks than a 30-year-old, even when he understands the dangers?",
+        "choices": [
+          "The prefrontal cortex is still maturing",
+          "Adolescents cannot think abstractly",
+          "Puberty ends by age 12",
+          "Peers have no influence in adolescence"
+        ],
+        "answer": 0,
+        "explanation": "The prefrontal cortex, which supports impulse control and planning, continues developing into the mid-20s. Adolescents can think abstractly, so a lack of abstract reasoning is not the explanation."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Rooting reflex",
+        "definition": "Newborn reflex of turning toward a touch on the cheek, which aids feeding."
+      },
+      {
+        "term": "Moro reflex",
+        "definition": "Newborn startle reflex in which the arms fling outward, then draw in."
+      },
+      {
+        "term": "Stranger anxiety",
+        "definition": "Distress around unfamiliar people that often appears near 8 to 9 months and reflects healthy attachment."
+      },
+      {
+        "term": "Egocentric thinking",
+        "definition": "Preschool difficulty seeing situations from another person's point of view."
+      },
+      {
+        "term": "Puberty",
+        "definition": "Period of sexual maturation and rapid growth that marks the start of adolescence."
+      }
+    ]
+  }
+]

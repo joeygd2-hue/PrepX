@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Pricing, markup and merchandise planning math",
+    "objective": "Calculate markup on cost and retail, markdowns, gross margin and inventory turnover, and apply them to buying and pricing decisions.",
+    "body": "Retail managers make money on the gap between what they pay for merchandise and what they sell it for. Getting the math right is essential for both the test and the sales floor.\n\n**Markup.** **Markup** is the dollar difference between retail price and cost: Retail = Cost + Markup. It can be stated as a percentage two ways.\n- **Markup on cost** = Markup / Cost.\n- **Markup on retail** = Markup / Retail price.\n\nRetailers usually use markup on retail because sales, budgets and expenses are measured in retail dollars. A sweater that costs $30 and sells for $50 has a $20 markup: 66.7% on cost but 40% on retail. To find a price from a target markup on retail, divide cost by (1 − markup %). A $30 item with a 40% retail markup sells for $30 / 0.60 = $50.\n\n**Markdowns.** A **markdown** is a reduction from the original retail price, used to clear slow sellers, seasonal goods or damaged stock. **Markdown percentage** (off the original price) = Markdown dollars / Original price. Cutting a $50 sweater to $40 is a $10, or 20%, markdown. Markdowns are a normal planning tool, but excessive markdowns signal buying errors.\n\n**Gross margin.** **Gross margin** = Net sales − Cost of goods sold. It must cover operating expenses such as rent, wages and utilities before any profit remains. A store with $500,000 in sales and $300,000 cost of goods sold has a $200,000 gross margin, or 40% of sales.\n\n**Inventory turnover.** **Inventory turnover** shows how many times average inventory sells during a period: Net sales at retail / Average inventory at retail (or Cost of goods sold / Average inventory at cost). Higher turnover means fresher stock, less markdown risk and less cash tied up, but turnover pushed too high can cause stockouts.\n\n**Open-to-buy.** Buyers control spending with **open-to-buy (OTB)**, the amount still available to purchase for a period: Planned purchases − Merchandise already on order. If a buyer planned $20,000 in purchases and has $14,000 on order, OTB is $6,000.\n\n**Pricing strategies.** Retailers also choose price policies. **Everyday low pricing (EDLP)** keeps prices consistently low with few sales, while **high-low pricing** sets higher regular prices and runs frequent promotions. **Psychological pricing** such as $19.99, **price lining** (offering items at a few set price points), and **loss leaders** (items priced near or below cost to draw traffic) are common tactics.\n\nThe most common mistake students make is dividing markup by the wrong base: a markup on retail divides by the selling price, not the cost, so the two percentages for the same item are never equal.",
+    "examples": [
+      "A buyer purchases lamps for $42 and wants a 40% markup on retail, so she prices them at $42 / 0.60 = $70.",
+      "A store with $900,000 in net sales and an average retail inventory of $225,000 has an inventory turnover of 4."
+    ],
+    "questions": [
+      {
+        "stem": "A backpack costs $24 and sells for $40. What is the markup percentage on retail?",
+        "choices": [
+          "66.7%",
+          "60%",
+          "40%",
+          "16%"
+        ],
+        "answer": 2,
+        "explanation": "Markup is $16; $16 / $40 = 40%. 66.7% is the markup on cost, which divides by $24."
+      },
+      {
+        "stem": "A buyer wants a 50% markup on retail for an item costing $18. What should the retail price be?",
+        "choices": [
+          "$27",
+          "$36",
+          "$9",
+          "$45"
+        ],
+        "answer": 1,
+        "explanation": "$18 / (1 − 0.50) = $36. $27 adds 50% of cost, which is markup on cost, not retail."
+      },
+      {
+        "stem": "A $80 jacket is reduced to $60. What is the markdown percentage?",
+        "choices": [
+          "25%",
+          "33.3%",
+          "20%",
+          "75%"
+        ],
+        "answer": 0,
+        "explanation": "$20 / $80 original = 25%. 33.3% divides by the new $60 price instead of the original price."
+      },
+      {
+        "stem": "A store has net sales of $600,000 and cost of goods sold of $390,000. What is its gross margin percentage?",
+        "choices": [
+          "65%",
+          "39%",
+          "61%",
+          "35%"
+        ],
+        "answer": 3,
+        "explanation": "Gross margin is $210,000; $210,000 / $600,000 = 35%. 65% is the cost of goods sold ratio."
+      },
+      {
+        "stem": "Net sales at retail are $480,000 and average inventory at retail is $120,000. What is inventory turnover?",
+        "choices": [
+          "0.25",
+          "4",
+          "5",
+          "2.5"
+        ],
+        "answer": 1,
+        "explanation": "$480,000 / $120,000 = 4 turns. 0.25 inverts the formula."
+      },
+      {
+        "stem": "A buyer's planned purchases for March are $35,000, and $22,000 is already on order. What is the open-to-buy?",
+        "choices": [
+          "$13,000",
+          "$57,000",
+          "$22,000",
+          "$35,000"
+        ],
+        "answer": 0,
+        "explanation": "OTB = $35,000 − $22,000 = $13,000. $57,000 wrongly adds the figures."
+      },
+      {
+        "stem": "A grocer sells milk below cost to bring shoppers who then buy other items. This tactic is called:",
+        "choices": [
+          "Price lining",
+          "Everyday low pricing",
+          "Loss leader pricing",
+          "Odd pricing"
+        ],
+        "answer": 2,
+        "explanation": "A loss leader sacrifices margin on one item to build traffic. EDLP is a store-wide policy, not a single-item traffic builder."
+      },
+      {
+        "stem": "A clothing store prices all shirts at $25, $40 or $60. Which strategy is it using?",
+        "choices": [
+          "High-low pricing",
+          "Psychological pricing",
+          "Markdown pricing",
+          "Price lining"
+        ],
+        "answer": 3,
+        "explanation": "Grouping goods at a few set price points is price lining. Psychological pricing uses endings like .99 rather than tiers."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Markup on retail",
+        "definition": "Markup dollars divided by the retail selling price."
+      },
+      {
+        "term": "Markdown",
+        "definition": "A reduction from an item's original retail price."
+      },
+      {
+        "term": "Gross margin",
+        "definition": "Net sales minus cost of goods sold, which must cover operating expenses."
+      },
+      {
+        "term": "Inventory turnover",
+        "definition": "The number of times average inventory is sold during a period."
+      },
+      {
+        "term": "Open-to-buy",
+        "definition": "Planned purchases minus merchandise already on order for a period."
+      }
+    ]
+  }
+]

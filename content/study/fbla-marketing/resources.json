@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook: strategy, research, the 4 Ps, digital and social media marketing."
+  },
+  {
+    "title": "Advertising and Marketing Basics",
+    "url": "https://www.ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics",
+    "publisher": "Federal Trade Commission",
+    "kind": "reference",
+    "note": "FTC rules on endorsements and online ads, important for the Social Media Strategy event."
+  },
+  {
+    "title": "Exploring Public Speaking",
+    "url": "https://oer.galileo.usg.edu/communication-textbooks/1/",
+    "publisher": "GALILEO Open Learning Materials",
+    "kind": "textbook",
+    "note": "Persuasive speaking chapters help structure the Sales Presentation and handle questions."
+  }
+]

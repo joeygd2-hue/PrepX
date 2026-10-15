@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Agency, contracts, and financing a home purchase",
+    "objective": "Explain agent duties, evaluate the elements of a valid purchase contract, and calculate key mortgage figures such as down payment, LTV, and commission.",
+    "body": "Once a property is identified, a transaction depends on three working parts: the agent relationship, the contract, and the financing. Each has rules that turn up repeatedly in scenarios.\n\n**Agency.** A real estate **agent** acts on behalf of a **principal**, usually the seller or buyer who signed a listing or buyer agreement. The agent owes **fiduciary duties**, often remembered as OLDCAR:\n- **Obedience** to lawful instructions\n- **Loyalty**, putting the client's interests first\n- **Disclosure** of material facts\n- **Confidentiality** about the client's private information, such as the lowest price they will accept\n- **Accounting** for all money handled\n- **Reasonable care** and skill\n\nA **customer** is a party the agent works with but does not represent; the agent owes them honesty and fair dealing but not loyalty. **Dual agency**, representing both sides, is illegal in some states and elsewhere requires informed written consent from both parties. Since 2024 practice changes, buyers working with an agent generally sign a written buyer agreement that states how that agent is paid.\n\n**Contracts.** A valid contract needs competent parties, mutual agreement (offer and acceptance), **consideration**, and a legal purpose. Under the **statute of frauds**, contracts to sell real estate must be in writing to be enforceable. A **counteroffer** rejects the original offer and creates a new one. Purchase agreements commonly include **contingencies**, such as financing, inspection, or appraisal, that let the buyer cancel if a condition is not met. **Earnest money** shows good faith and is held in escrow until closing.\n\n**Financing.** Most buyers borrow with a **mortgage**, a loan secured by the property. Key calculations:\n1. **Down payment** = price x down payment percentage.\n2. **Loan-to-value (LTV)** = loan amount / appraised value or price, whichever is lower. Conventional loans with LTV above 80 percent usually require **private mortgage insurance (PMI)**.\n3. **Commission** = sale price x commission rate, then split between brokerages and agents as agreed. Commissions are negotiable, never set by law.\n\nA **fixed-rate** mortgage keeps the same interest rate for the life of the loan, while an **adjustable-rate mortgage (ARM)** changes after an initial period based on an index plus a margin. **Amortization** means each payment covers interest first and the rest reduces principal, so early payments are mostly interest. One **discount point** costs 1 percent of the loan amount and buys a lower rate.\n\nThe most common mistake students make is computing points or LTV on the purchase price instead of the loan amount or the lower of price and appraisal. Always check which base the formula uses.",
+    "examples": [
+      "A buyer purchases a $300,000 home with 10 percent down, borrowing $270,000 for an LTV of 90 percent, so a conventional lender will likely require PMI.",
+      "A listing agent knows the seller will accept $15,000 less than the asking price; telling the buyer would breach the duty of confidentiality."
+    ],
+    "questions": [
+      {
+        "stem": "A listing agent learns the seller is in financial trouble and must sell quickly. A buyer asks why the seller is moving. What should the agent do?",
+        "choices": [
+          "Explain the financial situation so the buyer understands",
+          "Keep the seller's financial situation confidential",
+          "Tell the buyer to offer much less",
+          "Refer the buyer to the seller's bank"
+        ],
+        "answer": 1,
+        "explanation": "Confidentiality protects the seller's private information that could weaken their bargaining position. Sharing it to help the buyer violates the loyalty owed to the principal."
+      },
+      {
+        "stem": "A buyer offers $250,000. The seller replies with $260,000. What happened to the original offer?",
+        "choices": [
+          "It remains open until the buyer withdraws it",
+          "It was rejected and replaced by a counteroffer",
+          "It became a binding contract at $255,000",
+          "It is accepted subject to an appraisal"
+        ],
+        "answer": 1,
+        "explanation": "A counteroffer legally rejects the original offer and creates a new one the buyer may accept or reject. The original does not stay open for the seller to accept later."
+      },
+      {
+        "stem": "A home sells for $420,000 with a 5 percent commission split evenly between the two brokerages. How much does the buyer's brokerage receive?",
+        "choices": [
+          "$10,500",
+          "$21,000",
+          "$8,400",
+          "$4,200"
+        ],
+        "answer": 0,
+        "explanation": "Total commission is $420,000 x 0.05 = $21,000; half is $10,500. $21,000 is the full commission before the split."
+      },
+      {
+        "stem": "A home has a price of $350,000 but appraises at $330,000. The buyer borrows $297,000. What is the LTV?",
+        "choices": [
+          "About 84.9 percent",
+          "90 percent",
+          "80 percent",
+          "95 percent"
+        ],
+        "answer": 1,
+        "explanation": "LTV uses the lower of price or appraisal: $297,000 / $330,000 = 90 percent. Dividing by the $350,000 price gives 84.9 percent, the main error."
+      },
+      {
+        "stem": "Why must a contract for the sale of a house be in writing?",
+        "choices": [
+          "Because of the statute of frauds",
+          "Because of the Fair Housing Act",
+          "Because of RESPA",
+          "Because all contracts must be written"
+        ],
+        "answer": 0,
+        "explanation": "The statute of frauds requires real estate sales contracts to be written to be enforceable. Not all contracts must be written, so the last option overstates the rule."
+      },
+      {
+        "stem": "A buyer pays two discount points on a $250,000 loan for a $300,000 home. What do the points cost?",
+        "choices": [
+          "$6,000",
+          "$5,000",
+          "$2,500",
+          "$500"
+        ],
+        "answer": 1,
+        "explanation": "Points are based on the loan: 2 percent of $250,000 is $5,000. Using the $300,000 price gives $6,000, the common error."
+      },
+      {
+        "stem": "A buyer's offer says the purchase depends on a satisfactory home inspection. The inspection reveals a cracked foundation. What clause lets the buyer cancel?",
+        "choices": [
+          "The earnest money clause",
+          "An inspection contingency",
+          "A due-on-sale clause",
+          "An acceleration clause"
+        ],
+        "answer": 1,
+        "explanation": "An inspection contingency lets the buyer withdraw if inspection results are unacceptable. A due-on-sale clause concerns a lender's right when a mortgaged property is sold."
+      },
+      {
+        "stem": "In an amortized 30-year fixed-rate mortgage, how do early monthly payments compare with later ones?",
+        "choices": [
+          "Early payments are mostly principal",
+          "Early payments are mostly interest",
+          "The interest rate rises over time",
+          "Payments shrink each year"
+        ],
+        "answer": 1,
+        "explanation": "Interest is charged on a large balance at first, so early payments are mostly interest. The rate does not change in a fixed-rate loan, so the rising-rate option describes an ARM."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Fiduciary duties",
+        "definition": "The obligations an agent owes a principal: obedience, loyalty, disclosure, confidentiality, accounting, and reasonable care."
+      },
+      {
+        "term": "Statute of frauds",
+        "definition": "The rule that contracts for the sale of real estate must be in writing to be enforceable."
+      },
+      {
+        "term": "Contingency",
+        "definition": "A contract condition that must be met, such as financing or inspection, or the buyer may cancel."
+      },
+      {
+        "term": "Loan-to-value (LTV)",
+        "definition": "The loan amount divided by the lower of the purchase price or appraised value."
+      },
+      {
+        "term": "Discount point",
+        "definition": "A fee equal to 1 percent of the loan amount paid to lower the interest rate."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Acids, bases, buffers, and equilibrium in the body",
+    "objective": "Calculate and interpret pH, explain how buffers resist pH change, and apply Le Chatelier's principle to predict equilibrium shifts in chemical and biological systems.",
+    "body": "Health science depends on chemistry that stays in balance. Blood pH, oxygen transport, and drug absorption all rely on acid-base chemistry and equilibrium, so these advanced topics connect directly to the human body.\n\n**Acids and bases.** In the **Bronsted-Lowry** definition, an **acid** donates a proton (H+) and a **base** accepts one. When an acid gives up a proton, what remains is its **conjugate base**. **Strong acids** such as HCl ionize completely in water, while **weak acids** such as acetic acid or carbonic acid ionize only partly.\n\n**The pH scale.** pH = -log[H+], where [H+] is the hydrogen ion concentration in mol/L. A pH below 7 is acidic, 7 is neutral at 25 C, and above 7 is basic. Because the scale is logarithmic, each whole-number change is a tenfold change in [H+]: a solution at pH 3 has 100 times more H+ than one at pH 5. The **pOH** scale works the same way for hydroxide, and pH + pOH = 14 at 25 C.\n\n**Neutralization.** An acid and a base react to form water and a salt. In a **titration**, a base of known concentration is added to an acid until the **equivalence point**, letting you calculate the unknown concentration.\n\n**Buffers.** A **buffer** is a mixture of a weak acid and its conjugate base that resists changes in pH. Added acid is absorbed by the conjugate base; added base is neutralized by the weak acid. Blood's main buffer is the carbonic acid-bicarbonate system:\n\nCO2 + H2O <-> H2CO3 <-> H+ + HCO3-\n\nNormal arterial blood pH is about 7.35 to 7.45. The lungs adjust CO2 and the kidneys adjust bicarbonate to keep it in range.\n\n**Equilibrium and Le Chatelier's principle.** In a reversible reaction, **dynamic equilibrium** is reached when the forward and reverse rates are equal, so concentrations stay constant even though both reactions continue. **Le Chatelier's principle** states that a system at equilibrium shifts to partly offset a stress:\n- Adding a reactant shifts the reaction toward products; removing a product does the same.\n- For an exothermic reaction, raising temperature shifts it toward reactants.\n- For gases, increasing pressure shifts toward the side with fewer gas molecules.\n\nApplied to blood, slow, shallow breathing (hypoventilation) lets CO2 build up, shifting the buffer equation right, raising [H+], and lowering pH, a condition called respiratory acidosis. Rapid breathing removes CO2 and can raise pH.\n\nThe most common mistake is treating pH as linear. Students assume pH 4 is only slightly more acidic than pH 5, but it has ten times the hydrogen ion concentration. A related error is thinking a catalyst shifts equilibrium; it only speeds up how quickly equilibrium is reached.",
+    "examples": [
+      "Gastric juice at pH 2 has about 100,000 times more hydrogen ions than pure water at pH 7, because the difference is five pH units.",
+      "A patient who hyperventilates exhales extra CO2, shifting the bicarbonate equilibrium left and raising blood pH, which is respiratory alkalosis.",
+      "A solution with [H+] = 1 x 10^-4 M has a pH of 4."
+    ],
+    "questions": [
+      {
+        "stem": "A lab solution has [H+] = 1 x 10^-6 M. What is its pH, and is it acidic or basic?",
+        "choices": [
+          "pH 6, acidic",
+          "pH 8, basic",
+          "pH 6, basic",
+          "pH -6, acidic"
+        ],
+        "answer": 0,
+        "explanation": "pH = -log(10^-6) = 6, which is below 7 and therefore acidic. pH 8 would be the pOH-based answer, which confuses H+ with OH-."
+      },
+      {
+        "stem": "How many times greater is the hydrogen ion concentration of a solution at pH 3 than at pH 6?",
+        "choices": [
+          "3 times",
+          "2 times",
+          "300 times",
+          "1,000 times"
+        ],
+        "answer": 3,
+        "explanation": "Three pH units means a factor of 10^3 = 1,000. Choosing 3 times treats the pH scale as linear, which is the classic error."
+      },
+      {
+        "stem": "Which pair would make the most effective buffer?",
+        "choices": [
+          "HCl and NaCl",
+          "Acetic acid and sodium acetate",
+          "NaOH and water",
+          "HCl and NaOH"
+        ],
+        "answer": 1,
+        "explanation": "A buffer needs a weak acid and its conjugate base; acetic acid and acetate fit. HCl and NaCl fail because HCl is a strong acid and chloride is too weak a base to absorb added acid."
+      },
+      {
+        "stem": "In the reaction CO2 + H2O <-> H2CO3 <-> H+ + HCO3-, a patient's breathing becomes slow and shallow. What happens to blood pH?",
+        "choices": [
+          "It rises because CO2 is removed",
+          "It falls because extra CO2 shifts the equilibrium toward H+",
+          "It stays the same because buffers stop all change",
+          "It rises because bicarbonate increases"
+        ],
+        "answer": 1,
+        "explanation": "Retained CO2 is an added reactant, so the equilibrium shifts right, increasing H+ and lowering pH. pH rising describes hyperventilation, the opposite situation."
+      },
+      {
+        "stem": "A sample has a pOH of 3 at 25 C. What is its pH?",
+        "choices": [
+          "3",
+          "7",
+          "11",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "pH + pOH = 14, so pH = 14 - 3 = 11, a basic solution. Answering 3 mistakes pOH for pH."
+      },
+      {
+        "stem": "For the exothermic reaction N2 + 3H2 <-> 2NH3, which change shifts the equilibrium toward more NH3?",
+        "choices": [
+          "Raising the temperature",
+          "Increasing the pressure",
+          "Removing N2",
+          "Adding a catalyst"
+        ],
+        "answer": 1,
+        "explanation": "Higher pressure favors the side with fewer gas molecules: 2 versus 4, so it shifts toward NH3. A catalyst speeds both directions equally and does not change the equilibrium position."
+      },
+      {
+        "stem": "A student titrates 25.0 mL of HCl with 0.100 M NaOH and reaches the equivalence point at 20.0 mL. What is the HCl concentration?",
+        "choices": [
+          "0.080 M",
+          "0.125 M",
+          "0.100 M",
+          "0.050 M"
+        ],
+        "answer": 0,
+        "explanation": "Moles NaOH = 0.100 x 0.0200 = 0.00200 mol, which equals moles HCl in a 1:1 reaction; 0.00200 / 0.0250 = 0.080 M. 0.125 M comes from inverting the volume ratio."
+      },
+      {
+        "stem": "A reaction at equilibrium shows constant concentrations of reactants and products. Which statement is true?",
+        "choices": [
+          "Both forward and reverse reactions have stopped",
+          "Forward and reverse reactions continue at equal rates",
+          "Reactant and product concentrations must be equal",
+          "Only the forward reaction continues"
+        ],
+        "answer": 1,
+        "explanation": "Equilibrium is dynamic: both reactions continue at equal rates, so concentrations stay constant. Concentrations do not have to be equal, which is the most common misconception."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "pH",
+        "definition": "The negative logarithm of the hydrogen ion concentration; each unit is a tenfold change."
+      },
+      {
+        "term": "Buffer",
+        "definition": "A weak acid and its conjugate base that together resist changes in pH."
+      },
+      {
+        "term": "Conjugate base",
+        "definition": "The species left after an acid donates a proton."
+      },
+      {
+        "term": "Dynamic equilibrium",
+        "definition": "The state in which forward and reverse reaction rates are equal, so concentrations stay constant."
+      },
+      {
+        "term": "Le Chatelier's principle",
+        "definition": "A system at equilibrium shifts to partly offset an applied stress such as a concentration, temperature, or pressure change."
+      }
+    ]
+  }
+]

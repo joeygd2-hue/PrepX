@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Valuation, investment analysis, fair housing, and closing",
+    "objective": "Apply appraisal approaches and investment formulas, recognize fair housing violations, and prorate closing costs accurately.",
+    "body": "Advanced real estate questions combine math with law: what a property is worth, whether it makes a sound investment, how to treat every buyer fairly, and how money is divided at closing.\n\n**Appraisal approaches.** An **appraisal** is an independent estimate of market value. Appraisers use three approaches and reconcile them:\n1. The **sales comparison approach** adjusts recent sales of similar properties (comparables) for differences. If a comp has a feature the subject lacks, subtract its value from the comp's price; if the comp lacks a feature the subject has, add it. This is the main method for homes.\n2. The **cost approach** estimates land value plus the cost to build the improvements new, minus **depreciation**. It suits new or special-purpose buildings such as schools.\n3. The **income approach** divides **net operating income (NOI)** by a **capitalization rate**: Value = NOI / cap rate. It is used for rental and commercial property.\n\n**Investment analysis.** NOI equals effective gross income (potential rent minus vacancy and collection loss) minus operating expenses. Mortgage payments and income taxes are not operating expenses, so they are left out of NOI. A higher cap rate means a lower value for the same income. **Cash-on-cash return** equals annual pre-tax cash flow divided by the cash the investor actually put in. **Leverage** uses borrowed money to raise returns, but it also magnifies losses.\n\n**Fair housing.** The federal **Fair Housing Act** prohibits discrimination in housing based on race, color, religion, sex, national origin, familial status, and disability. Prohibited practices include:\n- **Steering**: guiding buyers toward or away from neighborhoods based on a protected class.\n- **Blockbusting**: urging owners to sell by suggesting a protected group is moving in.\n- **Redlining**: refusing loans or insurance in certain areas based on their makeup.\nLandlords must allow reasonable modifications and accommodations for people with disabilities, such as an assistance animal in a no-pet building. Many states add protected classes.\n\n**Closing.** At closing, the deed and funds change hands, often through an escrow or title company. For most consumer mortgages, the borrower must receive the **Closing Disclosure** at least three business days before closing. **Prorations** divide ongoing costs such as property taxes. If taxes are paid in arrears, the seller owes the buyer for the days the seller owned the home, shown as a debit to the seller and a credit to the buyer.\n\nThe most common mistake students make is subtracting the mortgage payment when calculating NOI. Debt service belongs in cash flow, not NOI, so including it understates value under the income approach.",
+    "examples": [
+      "A small apartment building produces $90,000 of NOI, and similar buildings sell at a 6 percent cap rate, so its indicated value is $90,000 / 0.06 = $1,500,000.",
+      "An agent shows a family with children only homes in a neighborhood with other young families after they asked to see listings citywide, which is steering based on familial status."
+    ],
+    "questions": [
+      {
+        "stem": "A comparable home sold for $310,000 and has a pool worth $20,000. The subject home has no pool. What is the adjusted value of the comparable?",
+        "choices": [
+          "$330,000",
+          "$310,000",
+          "$290,000",
+          "$300,000"
+        ],
+        "answer": 2,
+        "explanation": "Adjust the comparable to look like the subject: it has a feature the subject lacks, so subtract $20,000 to get $290,000. Adding the pool value is the common reversal."
+      },
+      {
+        "stem": "A duplex has potential rent of $48,000, a 5 percent vacancy rate, operating expenses of $12,000, and mortgage payments of $18,000. What is NOI?",
+        "choices": [
+          "$33,600",
+          "$15,600",
+          "$36,000",
+          "$45,600"
+        ],
+        "answer": 0,
+        "explanation": "Effective gross income is $45,600; minus $12,000 of expenses gives NOI of $33,600. Subtracting the $18,000 mortgage gives $15,600, but debt service is excluded from NOI."
+      },
+      {
+        "stem": "A property's NOI is $60,000. If the market cap rate rises from 6 percent to 8 percent, what happens to its value?",
+        "choices": [
+          "It rises from $750,000 to $1,000,000",
+          "It falls from $1,000,000 to $750,000",
+          "It stays at $1,000,000",
+          "It falls from $1,000,000 to $480,000"
+        ],
+        "answer": 1,
+        "explanation": "Value = NOI / cap rate: $60,000 / 0.06 = $1,000,000 and $60,000 / 0.08 = $750,000. A higher cap rate lowers value, so the rising option has the relationship backward."
+      },
+      {
+        "stem": "Which appraisal approach is best for valuing a newly built public library?",
+        "choices": [
+          "Sales comparison approach",
+          "Income approach",
+          "Cost approach",
+          "Gross rent multiplier"
+        ],
+        "answer": 2,
+        "explanation": "Special-purpose buildings rarely sell or produce rent, so the cost approach fits. The sales comparison approach needs comparable sales that usually do not exist for libraries."
+      },
+      {
+        "stem": "An agent tells homeowners they should sell soon because families of a certain national origin are moving into the area. What practice is this?",
+        "choices": [
+          "Steering",
+          "Redlining",
+          "Blockbusting",
+          "Puffing"
+        ],
+        "answer": 2,
+        "explanation": "Blockbusting pressures owners to sell by referencing a protected group moving in. Steering instead directs buyers toward or away from areas."
+      },
+      {
+        "stem": "A landlord with a no-pets policy receives a request from a tenant with a disability for an assistance animal supported by proper documentation. What should the landlord generally do?",
+        "choices": [
+          "Deny it because the policy applies to everyone",
+          "Grant it as a reasonable accommodation",
+          "Grant it only with an extra pet deposit",
+          "Require the tenant to move to a different building"
+        ],
+        "answer": 1,
+        "explanation": "The Fair Housing Act requires reasonable accommodations for people with disabilities, and assistance animals are not treated as pets, so pet fees do not apply. Enforcing the policy uniformly would still be discrimination."
+      },
+      {
+        "stem": "An investor pays $80,000 cash toward a rental property and earns $6,400 in annual pre-tax cash flow. What is the cash-on-cash return?",
+        "choices": [
+          "6.4 percent",
+          "8 percent",
+          "12.5 percent",
+          "80 percent"
+        ],
+        "answer": 1,
+        "explanation": "Cash-on-cash return = $6,400 / $80,000 = 8 percent. Dividing by a larger total price would understate the return the investor earns on cash invested."
+      },
+      {
+        "stem": "Property taxes of $3,650 per year are paid in arrears. The seller owned the home for 100 days of the year before closing. How should this appear on the settlement?",
+        "choices": [
+          "Credit seller $1,000, debit buyer $1,000",
+          "Debit seller $1,000, credit buyer $1,000",
+          "Debit seller $2,650, credit buyer $2,650",
+          "No proration is needed"
+        ],
+        "answer": 1,
+        "explanation": "The daily tax is $10, so the seller owes $1,000 for 100 days; since the buyer will pay the bill later, the seller is debited and the buyer credited. Crediting the seller reverses the direction."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Sales comparison approach",
+        "definition": "An appraisal method that adjusts recent sales of similar properties to estimate the subject's value."
+      },
+      {
+        "term": "Net operating income (NOI)",
+        "definition": "Effective gross income minus operating expenses, excluding mortgage payments and income taxes."
+      },
+      {
+        "term": "Capitalization rate",
+        "definition": "The rate used to convert NOI into value; Value = NOI / cap rate."
+      },
+      {
+        "term": "Steering",
+        "definition": "Directing buyers toward or away from neighborhoods based on a protected class, a Fair Housing Act violation."
+      },
+      {
+        "term": "Proration",
+        "definition": "Dividing ongoing property costs, such as taxes, between buyer and seller based on ownership days."
+      }
+    ]
+  }
+]

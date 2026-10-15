@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Entrepreneurship",
+    "url": "https://openstax.org/books/entrepreneurship/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on opportunity recognition, business models, funding and launching a venture."
+  },
+  {
+    "title": "Plan Your Business",
+    "url": "https://www.sba.gov/counseling/plan-your-business/",
+    "publisher": "U.S. Small Business Administration",
+    "kind": "reference",
+    "note": "SBA steps for market research, competitive analysis and traditional or lean business plans."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Use the financial statement and forecasting chapters to build the projections a Business Plan needs."
+  }
+]

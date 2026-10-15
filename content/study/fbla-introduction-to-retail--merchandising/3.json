@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Store Operations, Visual Merchandising, and Retail Performance Strategy",
+    "objective": "Evaluate store layout, visual merchandising, loss prevention, and key performance metrics to recommend strategies that improve a retailer's profitability and customer experience.",
+    "body": "Advanced retail questions ask you to diagnose a problem and choose the best fix, so you need to connect operations, presentation, and numbers.\n\n**Store layout.** Layout guides traffic and exposure to merchandise.\n- A **grid layout** uses parallel aisles and is efficient for planned shopping, as in supermarkets and pharmacies.\n- A **racetrack (loop) layout** uses a main aisle that circles the store, pulling shoppers past every department.\n- A **free-form layout** places fixtures in flexible groupings to encourage browsing, common in boutiques.\n\nRetailers place **destination items** such as milk toward the back so shoppers pass other goods, and put **impulse items** near the register. The space just inside the entrance, the **decompression zone**, is where shoppers adjust to the store, so important displays usually go a few steps beyond it.\n\n**Visual merchandising.** **Visual merchandising** is the presentation of products to attract attention and drive sales. Tools include window displays, focal points, signage, lighting, and **cross-merchandising**, placing related items from different categories together, such as salsa beside tortilla chips. A **planogram** is a diagram that specifies exactly where each product goes on a fixture so displays are consistent across stores and best sellers get the best positions, often at eye level.\n\n**Loss prevention.** Shrinkage comes from external theft, employee theft, administrative errors, and vendor fraud. Controls include electronic article surveillance tags, cameras, staff training, good customer service (attentive staff deter theft), cash-handling procedures, and regular audits.\n\n**Measuring performance.** Retailers judge decisions with key performance indicators (KPIs):\n1. **Sales per square foot**: net sales divided by selling space, showing space productivity.\n2. **Conversion rate**: transactions divided by store visitors.\n3. **Average transaction value**: net sales divided by number of transactions.\n4. **Gross margin**: net sales minus cost of goods sold, often stated as a percentage of sales.\n5. **GMROI** (gross margin return on inventory investment): gross margin divided by average inventory at cost.\n\nBecause sales = visitors x conversion rate x average transaction value, a retailer can diagnose which lever is weak. Heavy traffic with low conversion points to problems inside the store, such as stockouts, long lines, or too few staff; strong conversion with low average transaction value suggests more add-on selling or cross-merchandising.\n\n**Common mistake.** Students often recommend more advertising for any sales decline. Advertising raises traffic, but if traffic is already high and conversion is low, the problem is inside the store. Always identify the weak KPI first, then match the solution to it.",
+    "examples": [
+      "A hardware store places flashlights, batteries, and weather radios together on an endcap before storm season, a cross-merchandising display that raises average transaction value.",
+      "A store with 2,000 weekly visitors and 300 transactions has a 15% conversion rate; a competitor with similar traffic converts 30%, so the first store should study staffing and stock levels before buying more ads."
+    ],
+    "questions": [
+      {
+        "stem": "A store's traffic counter shows visitors up 20% this month, but sales are flat and conversion fell from 25% to 18%. What should the manager investigate first?",
+        "choices": [
+          "In-store issues such as stockouts, checkout lines, and staffing",
+          "Increasing social media advertising",
+          "Raising prices to boost margin",
+          "Moving to a new location"
+        ],
+        "answer": 0,
+        "explanation": "Traffic rose, so attracting shoppers is not the problem; low conversion points to in-store barriers. More advertising would add traffic that still fails to buy."
+      },
+      {
+        "stem": "A supermarket puts milk and eggs in the back corner. What is the main purpose?",
+        "choices": [
+          "To keep perishables away from heat at the entrance",
+          "To reduce shrinkage of dairy products",
+          "To comply with planogram rules for all stores",
+          "To make shoppers pass other merchandise on the way to destination items"
+        ],
+        "answer": 3,
+        "explanation": "Destination items at the back increase exposure to other goods. Temperature control is handled by refrigerated cases, not by placement at the back."
+      },
+      {
+        "stem": "A boutique wants shoppers to wander and explore displays at a relaxed pace. Which layout fits best?",
+        "choices": [
+          "Grid",
+          "Racetrack",
+          "Free-form",
+          "Straight-line checkout"
+        ],
+        "answer": 2,
+        "explanation": "Free-form layouts encourage browsing with flexible fixture groupings. A grid suits efficient, planned shopping rather than exploration."
+      },
+      {
+        "stem": "A chain wants every location to shelve cereal the same way, with top sellers at eye level. What tool should it use?",
+        "choices": [
+          "Perpetual inventory system",
+          "Planogram",
+          "Reorder point",
+          "Decompression zone"
+        ],
+        "answer": 1,
+        "explanation": "A planogram specifies product placement on fixtures for consistency. Perpetual inventory tracks quantities, not shelf positions."
+      },
+      {
+        "stem": "A store had $900,000 in net sales from 6,000 square feet of selling space. What are its sales per square foot?",
+        "choices": [
+          "$1,500",
+          "$6,667",
+          "$15",
+          "$150"
+        ],
+        "answer": 3,
+        "explanation": "$900,000 / 6,000 = $150. $1,500 results from a decimal error; the formula is simply net sales divided by selling space."
+      },
+      {
+        "stem": "Which display is an example of cross-merchandising?",
+        "choices": [
+          "Placing pasta sauce next to boxed pasta in the pasta aisle",
+          "Stacking 50 identical cans in a pyramid",
+          "Putting clearance items on a back rack",
+          "Grouping all red sweaters together"
+        ],
+        "answer": 0,
+        "explanation": "Cross-merchandising combines related items from different categories. A mass display of one item uses repetition, not cross-category pairing."
+      },
+      {
+        "stem": "Category A has $40,000 gross margin on $20,000 average inventory at cost; Category B has $45,000 gross margin on $45,000 average inventory at cost. Which conclusion is correct?",
+        "choices": [
+          "B is more productive because its gross margin is higher",
+          "Both are equally productive",
+          "A is more productive, with a GMROI of 2.0 versus 1.0",
+          "GMROI cannot be found without sales per square foot"
+        ],
+        "answer": 2,
+        "explanation": "GMROI = gross margin / average inventory at cost: A = 2.0, B = 1.0. B's larger dollar margin required far more inventory investment, so it is less productive."
+      },
+      {
+        "stem": "A store with high conversion notices that most customers buy only one item. Which strategy best targets the weak metric?",
+        "choices": [
+          "Add more parking spaces",
+          "Train staff in suggestion selling and add cross-merchandised displays",
+          "Cut the advertising budget",
+          "Switch from a perpetual to a periodic inventory system"
+        ],
+        "answer": 1,
+        "explanation": "The weak metric is average transaction value, which add-on selling raises. Parking affects traffic, which is not the problem here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Planogram",
+        "definition": "A diagram that specifies where each product is placed on a fixture to keep displays consistent and profitable."
+      },
+      {
+        "term": "Cross-merchandising",
+        "definition": "Displaying related products from different categories together to encourage additional purchases."
+      },
+      {
+        "term": "Conversion rate",
+        "definition": "The percentage of store visitors who make a purchase, found by dividing transactions by visitors."
+      },
+      {
+        "term": "GMROI",
+        "definition": "Gross margin return on inventory investment: gross margin divided by average inventory at cost."
+      },
+      {
+        "term": "Decompression zone",
+        "definition": "The area just inside a store entrance where shoppers adjust to the environment and tend to overlook displays."
+      }
+    ]
+  }
+]

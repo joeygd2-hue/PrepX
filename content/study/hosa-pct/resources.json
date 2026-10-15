@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Fundamentals of Nursing",
+    "url": "https://openstax.org/books/fundamentals-nursing/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing text on vital signs, hygiene, mobility and safety."
+  },
+  {
+    "title": "Venipuncture",
+    "url": "https://medlineplus.gov/ency/article/003423.htm",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "MedlinePlus steps and risks of venipuncture, a patient care technician skill."
+  },
+  {
+    "title": "Standard Precautions",
+    "url": "https://www.cdc.gov/dental-infection-control/hcp/summary/standard-precautions.html",
+    "publisher": "CDC",
+    "kind": "reference",
+    "note": "CDC standard precautions for gloves, gowns, masks and safe sharps handling."
+  }
+]

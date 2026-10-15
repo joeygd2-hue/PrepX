@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Redundancy, routing, security and scalable network design",
+    "objective": "Evaluate designs for redundancy and performance, select routing and security controls, and justify a scalable, resilient architecture for a growing organization.",
+    "body": "Advanced network design questions rarely ask for a single fact. They describe an organization and ask which design best balances availability, security, performance and cost. Think in terms of failure points, traffic flows and growth.\n\n**Redundancy and high availability.** A **single point of failure** is any component whose loss takes down service. Designers remove them with redundant links, devices and power. Two key protocols make redundancy work:\n- **Spanning Tree Protocol (STP)**, or its faster version RSTP, blocks redundant switch paths to prevent Layer 2 loops and broadcast storms, then unblocks a backup path if the active one fails.\n- **First-hop redundancy** protocols such as VRRP or HSRP let two routers share a virtual default gateway address, so hosts keep working if one router fails.\n\n**Link aggregation** (LACP) bundles several physical links into one logical link for more bandwidth and resilience. Dual internet providers and redundant power supplies with UPS protect the edge.\n\n**Routing choices.** **Static routes** are simple and predictable for small or stub networks but must be updated by hand. **Dynamic routing protocols** adapt automatically: **OSPF** is a link-state interior protocol that converges quickly and scales with areas, while **BGP** is the path-vector protocol used between organizations and internet providers. Summarizing routes, such as advertising 10.20.0.0/16 instead of many /24s, keeps routing tables small.\n\n**Security by design.** Apply **defense in depth**, layering controls so one failure does not expose everything.\n1. Segment networks with VLANs and firewall rules between zones.\n2. Place public-facing servers in a **DMZ**, separate from the internal network.\n3. Use **802.1X** with a RADIUS server to authenticate devices before granting port or Wi-Fi access, and WPA3-Enterprise for wireless.\n4. Connect remote users and branches through encrypted VPNs, increasingly under a **zero trust** model that verifies every request rather than trusting the internal network.\n\n**Performance and scale.** **Quality of Service (QoS)** prioritizes latency-sensitive traffic like voice and video. Branch offices are often linked with **SD-WAN**, which steers traffic across several internet links by application policy. Document everything: diagrams, IP plans and change records make networks maintainable as they grow, and capacity planning should leave room for growth.\n\nThe most common mistake students make is adding redundant switch links without considering loop prevention. Redundant Layer 2 paths without STP cause broadcast storms that can take down the whole network.",
+    "examples": [
+      "A hospital pairs two core switches with VRRP so that if the primary gateway fails, clinicians' devices switch to the backup within seconds.",
+      "A retailer places its public web server in a DMZ so that a compromised web server cannot directly reach the internal payment database.",
+      "A company with ten branches uses SD-WAN to send video calls over its fastest link while backups run over a cheaper broadband connection."
+    ],
+    "questions": [
+      {
+        "stem": "After a technician connects a second cable between two switches for backup, the network slows to a crawl with constant broadcast traffic. What was most likely missing?",
+        "choices": [
+          "DHCP snooping",
+          "Spanning Tree Protocol",
+          "NAT",
+          "QoS"
+        ],
+        "answer": 1,
+        "explanation": "Redundant Layer 2 links without STP create loops that cause broadcast storms. QoS prioritizes traffic but does not stop loops."
+      },
+      {
+        "stem": "A school's single core router is its only default gateway. Which addition best removes this single point of failure for hosts?",
+        "choices": [
+          "A second router using VRRP or HSRP",
+          "A larger subnet mask",
+          "Additional access points",
+          "A faster internet plan"
+        ],
+        "answer": 0,
+        "explanation": "First-hop redundancy gives hosts a shared virtual gateway backed by two routers. A faster internet plan does nothing if the gateway router fails."
+      },
+      {
+        "stem": "A company with 40 sites and frequent topology changes needs routing inside its own network that adapts automatically. What fits best?",
+        "choices": [
+          "Static routes on every router",
+          "BGP between all internal routers",
+          "OSPF",
+          "RIP version 1"
+        ],
+        "answer": 2,
+        "explanation": "OSPF is a fast-converging link-state interior protocol that scales with areas. BGP is designed mainly for routing between organizations and providers, not as the primary internal protocol for this case."
+      },
+      {
+        "stem": "Where should a company host its public website server to limit damage if it is compromised?",
+        "choices": [
+          "On the internal user VLAN",
+          "In a DMZ separated by firewall rules",
+          "On the same server as the HR database",
+          "Behind a wireless access point"
+        ],
+        "answer": 1,
+        "explanation": "A DMZ isolates internet-facing systems from internal resources. Placing it on the user VLAN would give an attacker a direct foothold inside."
+      },
+      {
+        "stem": "Staff report choppy voice calls whenever large file backups run during the day. What should the designer implement first?",
+        "choices": [
+          "QoS that prioritizes voice traffic",
+          "More VLANs for file servers",
+          "Static routing",
+          "A second DNS server"
+        ],
+        "answer": 0,
+        "explanation": "QoS gives latency-sensitive voice priority over bulk transfers. Adding VLANs separates broadcast domains but does not prioritize traffic on congested links."
+      },
+      {
+        "stem": "A district wants only authorized devices to receive network access when plugged into any wall jack. Which control fits?",
+        "choices": [
+          "MAC address table aging",
+          "802.1X with a RADIUS server",
+          "Port mirroring",
+          "Spanning Tree PortFast"
+        ],
+        "answer": 1,
+        "explanation": "802.1X authenticates devices or users through RADIUS before the port opens. PortFast only speeds up port activation and provides no authentication."
+      },
+      {
+        "stem": "A network engineer wants two 10 Gbps uplinks between a distribution and core switch to act as one 20 Gbps link with failover. Which technology is this?",
+        "choices": [
+          "VRRP",
+          "Link aggregation with LACP",
+          "NAT overload",
+          "VLAN trunking only"
+        ],
+        "answer": 1,
+        "explanation": "LACP bundles physical links into one logical channel for bandwidth and resilience. VRRP provides gateway redundancy, not link bundling."
+      },
+      {
+        "stem": "A regional ISP must exchange routes with two upstream internet providers. Which protocol is standard for this?",
+        "choices": [
+          "OSPF",
+          "BGP",
+          "STP",
+          "RIP"
+        ],
+        "answer": 1,
+        "explanation": "BGP is the path-vector protocol used to exchange routes between autonomous systems. OSPF is an interior protocol used within a single organization."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Single point of failure",
+        "definition": "Any component whose failure takes down service because there is no backup."
+      },
+      {
+        "term": "Spanning Tree Protocol",
+        "definition": "A Layer 2 protocol that blocks redundant switch paths to prevent loops and enables backup paths on failure."
+      },
+      {
+        "term": "DMZ",
+        "definition": "A separate network zone for public-facing servers, isolated from the internal network by firewall rules."
+      },
+      {
+        "term": "OSPF",
+        "definition": "A link-state interior routing protocol that converges quickly and scales using areas."
+      },
+      {
+        "term": "QoS",
+        "definition": "Quality of Service; prioritizing latency-sensitive traffic such as voice and video over bulk data."
+      }
+    ]
+  }
+]

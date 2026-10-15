@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Economic foundations: resources, scarcity and business ownership",
+    "objective": "Explain scarcity and the factors of production, distinguish goods from services and economic systems, and compare the major forms of business ownership.",
+    "body": "Every business decision starts with one economic fact: **scarcity**. Resources are limited, but human wants are unlimited, so people, businesses and governments must make choices. Every choice has an **opportunity cost**, the value of the next-best alternative given up. If a student spends Saturday working a shift instead of attending a robotics workshop, the workshop is the opportunity cost, not the money earned.\n\n**Factors of production.** Economists group the resources used to make goods and services into four categories:\n- **Land**: natural resources such as soil, water, timber and oil.\n- **Labor**: human effort, both physical and mental, paid with wages.\n- **Capital**: tools, machinery and buildings used to produce other goods (not money itself in the economic sense).\n- **Entrepreneurship**: the initiative to combine the other three and take on risk in pursuit of profit.\n\nBusinesses produce **goods**, which are tangible products, and **services**, which are intangible activities such as a haircut or tax preparation. Services cannot be stored, and their quality often depends on the person delivering them.\n\n**Economic systems.** Societies answer the questions of what to produce, how to produce it and for whom in different ways. In a **market economy**, private individuals own resources and prices set by supply and demand guide decisions. In a **command economy**, the government owns most resources and plans production. A **traditional economy** relies on custom. Most real nations, including the United States, run a **mixed economy** that combines private markets with government regulation and public services.\n\n**Forms of ownership.** A business owner must choose a legal structure.\n1. A **sole proprietorship** is owned by one person. It is easy to start and the owner keeps all profits, but the owner has **unlimited liability**, meaning personal assets can be taken to pay business debts.\n2. A **partnership** has two or more owners who share profits, skills and, in a general partnership, unlimited liability.\n3. A **corporation** is a separate legal entity owned by stockholders. Owners enjoy **limited liability**, but the business faces more regulation and, for a C corporation, profits can be taxed twice: once at the corporate level and again when paid out as dividends.\n4. A **limited liability company (LLC)** blends limited liability with flexible, pass-through taxation.\n\nThe most common mistake students make is treating opportunity cost as every option given up or as the money spent. It is only the single next-best alternative. A close second is calling money a factor of production; in economics, capital means the physical tools used to produce.",
+    "examples": [
+      "A bakery's ovens and mixers are capital, the flour and water come from land, the bakers provide labor, and the owner who opened the shop supplies entrepreneurship.",
+      "Two friends open a landscaping business as a general partnership; when a client sues over property damage, both partners' personal savings can be at risk."
+    ],
+    "questions": [
+      {
+        "stem": "Maya can either babysit for $60 on Friday or attend a paid coding camp session she values more than babysitting or anything else. She chooses the camp. What is her opportunity cost?",
+        "choices": [
+          "The $60 she would have earned babysitting",
+          "The cost of the coding camp session",
+          "Every activity she could have done Friday",
+          "Nothing, because she chose her preferred option"
+        ],
+        "answer": 0,
+        "explanation": "Opportunity cost is the next-best alternative given up, which is babysitting and its $60. The camp fee is the price of her choice, not what she sacrificed."
+      },
+      {
+        "stem": "A pizza shop buys a new conveyor oven. Which factor of production does the oven represent?",
+        "choices": [
+          "Land",
+          "Labor",
+          "Capital",
+          "Entrepreneurship"
+        ],
+        "answer": 2,
+        "explanation": "Capital is the tools and equipment used to produce other goods. Land would be the natural resources, such as the wheat in the flour, not a manufactured oven."
+      },
+      {
+        "stem": "Which of the following is a service rather than a good?",
+        "choices": [
+          "A pair of running shoes",
+          "A car detailing appointment",
+          "A bag of potting soil",
+          "A printed textbook"
+        ],
+        "answer": 1,
+        "explanation": "Car detailing is an intangible activity performed for a customer. Potting soil is tangible, so it is a good even though it comes from natural resources."
+      },
+      {
+        "stem": "Jordan wants to start a mobile phone repair business alone, keep all profits and avoid complex paperwork. Which ownership form best fits?",
+        "choices": [
+          "Corporation",
+          "General partnership",
+          "Cooperative",
+          "Sole proprietorship"
+        ],
+        "answer": 3,
+        "explanation": "A sole proprietorship is the simplest form for one owner and keeps all profits with that owner. A corporation offers limited liability but requires much more formation paperwork."
+      },
+      {
+        "stem": "A country's government decides how many tractors factories will build and sets their prices. What type of economic system is this?",
+        "choices": [
+          "Command economy",
+          "Market economy",
+          "Traditional economy",
+          "Mixed economy"
+        ],
+        "answer": 0,
+        "explanation": "Central government planning of production and prices defines a command economy. A market economy lets supply and demand, not officials, set prices."
+      },
+      {
+        "stem": "Why do many entrepreneurs form an LLC instead of a sole proprietorship?",
+        "choices": [
+          "It eliminates all taxes on profits",
+          "It protects owners' personal assets while allowing pass-through taxation",
+          "It requires no state filing",
+          "It allows the business to sell stock on a public exchange"
+        ],
+        "answer": 1,
+        "explanation": "An LLC offers limited liability with flexible pass-through taxation. It does not eliminate taxes; profits are still taxed on the owners' returns."
+      },
+      {
+        "stem": "A C corporation earns profit, pays corporate income tax, then pays dividends that stockholders report as income. This is called:",
+        "choices": [
+          "Limited liability",
+          "Pass-through taxation",
+          "Double taxation",
+          "Unlimited liability"
+        ],
+        "answer": 2,
+        "explanation": "Profit taxed at the corporate level and again as shareholder dividends is double taxation. Pass-through taxation is the opposite, where profit is taxed only once on owners' returns."
+      },
+      {
+        "stem": "The United States has private businesses but also government regulations, public schools and Social Security. This best describes a:",
+        "choices": [
+          "Pure market economy",
+          "Traditional economy",
+          "Command economy",
+          "Mixed economy"
+        ],
+        "answer": 3,
+        "explanation": "A mix of private markets and government involvement is a mixed economy. A pure market economy would have little or no government role in these areas."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scarcity",
+        "definition": "The condition in which limited resources cannot satisfy unlimited wants, forcing choices."
+      },
+      {
+        "term": "Opportunity cost",
+        "definition": "The value of the next-best alternative given up when making a choice."
+      },
+      {
+        "term": "Capital (factor of production)",
+        "definition": "Tools, machinery and buildings used to produce other goods and services."
+      },
+      {
+        "term": "Unlimited liability",
+        "definition": "Owner responsibility for business debts that extends to personal assets."
+      },
+      {
+        "term": "Mixed economy",
+        "definition": "An economic system combining private markets with government regulation and services."
+      }
+    ]
+  }
+]

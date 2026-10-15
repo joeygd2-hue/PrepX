@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Python Programming",
+    "url": "https://openstax.org/details/books/introduction-python-programming",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free Python textbook with a built-in code runner for Coding and Software Development."
+  },
+  {
+    "title": "Learn Web Development",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+    "publisher": "MDN Web Docs (Mozilla)",
+    "kind": "course",
+    "note": "Mozilla's free path through HTML, CSS and JavaScript for web-based projects."
+  },
+  {
+    "title": "Principles of Data Science",
+    "url": "https://openstax.org/details/books/principles-data-science",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on data analysis, visualization and Python for Data Science and Analytics."
+  }
+]

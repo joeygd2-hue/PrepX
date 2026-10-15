@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project Management, 2nd Edition",
+    "url": "https://opentextbc.ca/projectmanagement/",
+    "publisher": "BCcampus Open Education",
+    "kind": "textbook",
+    "note": "Open textbook on project life cycles, scope, scheduling, budgeting, risk and closeout."
+  },
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Planning, organizing and controlling chapters support stakeholder and team questions."
+  },
+  {
+    "title": "Excel Tutorials",
+    "url": "https://edu.gcfglobal.org/en/excel/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Spreadsheet lessons for building schedules, budgets and simple Gantt-style trackers."
+  }
+]

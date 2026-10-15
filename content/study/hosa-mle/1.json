@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Legal foundations: law, ethics, torts and negligence",
+    "objective": "Distinguish law from ethics, classify civil and criminal wrongs, and apply the four elements of negligence to health care scenarios.",
+    "body": "Medical law and ethics questions usually ask one thing: what rule governs this situation, and who is responsible when something goes wrong? Start by separating the two ideas in the title.\n\n**Law versus ethics.** **Law** is a set of enforceable rules created by legislatures, courts and agencies; breaking it brings penalties such as fines, damages, license loss or jail. **Ethics** is a system of moral principles about right and wrong conduct, often written into professional codes. Ethical violations may lead to discipline by a professional group, but not every unethical act is illegal, and something legal is not automatically ethical. **Bioethics** applies ethical thinking to issues created by medicine and research.\n\n**Sources of law.** **Statutory law** is passed by legislatures. **Administrative law** comes from agencies, such as state licensing boards that define each profession's **scope of practice**, the duties a credentialed worker may legally perform. **Common law**, or case law, grows from court decisions that set precedent.\n\n**Criminal versus civil law.** **Criminal law** handles offenses against society, prosecuted by the government, such as falsifying records to commit fraud. **Civil law** handles disputes between private parties, where the remedy is usually money damages. Most malpractice cases are civil cases built on **torts**, wrongful acts that cause harm to another person.\n\n**Types of torts.**\n- **Intentional torts** are deliberate: **assault** is threatening harmful contact, **battery** is touching without consent, **false imprisonment** is unjustified restraint, and **defamation** is false statements that damage reputation (**slander** if spoken, **libel** if written).\n- **Unintentional torts** are mainly **negligence**, failing to act as a reasonably careful person with the same training would act. **Malpractice** is negligence by a professional.\n\n**The four Ds of negligence.** A plaintiff must prove all four:\n1. **Duty**: a provider-patient relationship created a duty of care.\n2. **Dereliction**: the provider breached the **standard of care**.\n3. **Direct cause**: the breach caused the injury.\n4. **Damages**: the patient suffered actual, measurable harm.\n\nUnder **respondeat superior** (\"let the master answer\"), an employer can be held liable for an employee's negligence on the job, but employees remain responsible for their own acts. Working outside your scope of practice is never protected simply because a supervisor asked.\n\nThe most common mistake is assuming any error equals malpractice. If a medication error causes no injury, the damages element is missing, so a negligence claim fails even though the error still must be reported and corrected.",
+    "examples": [
+      "A nursing assistant restrains a confused resident in a chair without an order or documented need; this can be false imprisonment.",
+      "A medical assistant forgets to check an allergy, gives a medication, and the patient develops a severe reaction requiring hospitalization; all four Ds of negligence are present.",
+      "A pharmacy technician posts a false online claim that a coworker steals drugs; written false statements are libel."
+    ],
+    "questions": [
+      {
+        "stem": "A phlebotomist draws blood from a patient who clearly said, \"I do not want my blood drawn today.\" Which tort is most likely committed?",
+        "choices": [
+          "Assault",
+          "Battery",
+          "Defamation",
+          "False imprisonment"
+        ],
+        "answer": 1,
+        "explanation": "Battery is touching without consent, which happened when the draw proceeded after refusal. Assault is only the threat of harmful contact, not the contact itself."
+      },
+      {
+        "stem": "A nurse gives the wrong oral medication, but the patient suffers no effects and needs no extra care. Why would a malpractice lawsuit most likely fail?",
+        "choices": [
+          "No duty existed",
+          "No damages occurred",
+          "The nurse was not the direct cause",
+          "Respondeat superior protects the nurse"
+        ],
+        "answer": 1,
+        "explanation": "Negligence requires actual harm, and here none occurred. Duty clearly existed because the nurse was caring for the patient."
+      },
+      {
+        "stem": "Which statement best distinguishes law from ethics?",
+        "choices": [
+          "Ethics is enforced by courts; law is enforced by professional groups",
+          "Law is enforceable with legal penalties, while ethics is moral standards that may exceed legal requirements",
+          "Anything legal is also ethical",
+          "Ethics applies only to physicians"
+        ],
+        "answer": 1,
+        "explanation": "Law carries government enforcement; ethics describes moral standards, often stricter than law. The claim that legal equals ethical is wrong because many legal acts can still be unethical."
+      },
+      {
+        "stem": "A state board of nursing issues rules describing which tasks licensed practical nurses may perform. This is an example of:",
+        "choices": [
+          "Common law",
+          "Criminal law",
+          "Administrative law",
+          "Constitutional law"
+        ],
+        "answer": 2,
+        "explanation": "Agency-created rules are administrative law, and they define scope of practice. Common law comes from court decisions, not agencies."
+      },
+      {
+        "stem": "A hospital is sued because an employed radiology technician injured a patient through careless positioning during an exam. Which doctrine allows the hospital to be named?",
+        "choices": [
+          "Res ipsa loquitur",
+          "Respondeat superior",
+          "Good Samaritan law",
+          "Statute of limitations"
+        ],
+        "answer": 1,
+        "explanation": "Respondeat superior makes employers liable for employees' acts within the scope of employment. Res ipsa loquitur is a rule about proving negligence when the harm speaks for itself, not about employer liability."
+      },
+      {
+        "stem": "A medical assistant tells a patient, \"If you don't hold still, I'll strap your arm down,\" and the patient becomes afraid. No contact occurs. This is:",
+        "choices": [
+          "Battery",
+          "Assault",
+          "Slander",
+          "Invasion of privacy"
+        ],
+        "answer": 1,
+        "explanation": "Assault is a threat that creates fear of harmful contact. Battery requires actual touching, which did not happen."
+      },
+      {
+        "stem": "Which case is most likely a criminal matter rather than a civil one?",
+        "choices": [
+          "A patient sues a surgeon for a retained sponge",
+          "A clinic intentionally bills Medicare for visits that never happened",
+          "A patient sues for a billing dispute",
+          "A family sues over a delayed diagnosis"
+        ],
+        "answer": 1,
+        "explanation": "Intentional fraud against a government program is a crime prosecuted by the state. Lawsuits by patients seeking money, like the retained sponge case, are civil."
+      },
+      {
+        "stem": "An EMT student is asked by a busy supervisor to start an IV, which the student is not trained or certified to do. What is the best response?",
+        "choices": [
+          "Start the IV because the supervisor accepts liability",
+          "Start it only if the patient agrees",
+          "Decline and explain the task is outside their scope of practice",
+          "Ask another student to do it"
+        ],
+        "answer": 2,
+        "explanation": "Performing tasks outside scope of practice exposes the worker to liability regardless of who asked. Respondeat superior does not erase personal responsibility, so following the supervisor is wrong."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Negligence",
+        "definition": "Failure to act as a reasonably careful person with similar training would act, causing harm."
+      },
+      {
+        "term": "Four Ds",
+        "definition": "Duty, dereliction, direct cause and damages, the elements needed to prove negligence."
+      },
+      {
+        "term": "Battery",
+        "definition": "Touching a person without their consent."
+      },
+      {
+        "term": "Respondeat superior",
+        "definition": "Doctrine that an employer is liable for employees' acts within the scope of their job."
+      },
+      {
+        "term": "Scope of practice",
+        "definition": "The legally defined duties a credentialed health worker is permitted to perform."
+      }
+    ]
+  }
+]

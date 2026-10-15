@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Business organizations, agency, employment and intellectual property",
+    "objective": "Compare business forms, apply agency and employment rules, and match each type of intellectual property to what it protects.",
+    "body": "Many Business Law questions describe a real business problem and ask who is liable or which protection applies. This unit links four areas that often appear together: choosing a business form, acting through agents, treating employees lawfully and protecting ideas.\n\n**Business organizations.**\n- *Sole proprietorship*: one owner, easy to start, profits taxed once on the owner's personal return, but *unlimited personal liability* for business debts.\n- *General partnership*: two or more co-owners; each partner can bind the firm and is personally liable for its debts.\n- *Limited partnership*: at least one general partner with unlimited liability plus limited partners who invest but do not manage.\n- *Corporation*: a separate legal entity owned by shareholders, who have *limited liability*. A C corporation faces *double taxation*: profits are taxed to the corporation, and dividends are taxed again to shareholders. An S corporation that meets eligibility rules passes income through to its owners.\n- *Limited liability company (LLC)*: limited liability for its members plus pass-through taxation by default and flexible management.\n\n**Agency.** An *agent* acts on behalf of a *principal*. *Actual authority* is granted expressly or implied by the job. *Apparent authority* arises when the principal's conduct leads a third party to reasonably believe the agent has authority. Agents owe *fiduciary duties* of loyalty, obedience and care. Under *respondeat superior*, an employer is liable for torts an employee commits within the scope of employment, but generally not for those of an independent contractor.\n\n**Employment law.** Most U.S. employment is *at will*: either side may end it at any time for any lawful reason. Exceptions include firing for discriminatory reasons or in retaliation for protected acts, such as reporting safety violations. Title VII of the Civil Rights Act of 1964 bans employment discrimination based on race, color, religion, sex and national origin. The Fair Labor Standards Act sets minimum wage, overtime and child labor rules, and the Occupational Safety and Health Act requires workplaces free of recognized serious hazards.\n\n**Intellectual property.**\n- *Patent*: protects an invention; a utility patent generally lasts 20 years from the filing date.\n- *Copyright*: protects original creative works such as writing, music, software and art; for an individual author it generally lasts for the author's life plus 70 years.\n- *Trademark*: protects words, logos or symbols that identify the source of goods; it can last indefinitely with continued use and renewal.\n- *Trade secret*: protects valuable confidential information, such as a formula, for as long as it stays secret.\n\n**Common mistake:** assuming every employee mistake makes the employer liable. Respondeat superior applies only to acts within the scope of employment.",
+    "examples": [
+      "Three friends start a T-shirt business as an LLC. If the business owes a supplier $20,000 it cannot pay, the supplier generally can collect only from business assets, not from the members' personal savings.",
+      "A pizza shop's employee causes a crash while making a scheduled delivery. The shop can be liable under respondeat superior because the driver was acting within the scope of employment.",
+      "A startup writes original app code (copyright), names the app with a distinctive logo (trademark) and keeps its recommendation algorithm confidential under nondisclosure agreements (trade secret)."
+    ],
+    "questions": [
+      {
+        "stem": "Two friends run a food truck as a general partnership. One partner signs a $15,000 equipment lease for the business, and the business cannot pay. Which statement is most accurate?",
+        "choices": ["Only the partner who signed the lease is liable", "Both partners can be held personally liable for the debt", "Neither partner is personally liable because the business owes the debt", "The lessor can collect only from the food truck itself"],
+        "answer": 1,
+        "explanation": "Each general partner can bind the partnership and faces unlimited personal liability for its debts. Limited liability requires a form such as an LLC or corporation."
+      },
+      {
+        "stem": "A group of owners wants limited personal liability, pass-through taxation by default and no need to issue stock. Which business form fits best?",
+        "choices": ["Sole proprietorship", "General partnership", "C corporation", "Limited liability company"],
+        "answer": 3,
+        "explanation": "An LLC gives members limited liability and pass-through taxation by default without issuing shares. A C corporation issues stock and faces double taxation."
+      },
+      {
+        "stem": "A bakery's delivery driver, on a scheduled delivery route, runs a red light and injures a pedestrian. Under respondeat superior, whom can the pedestrian also hold liable?",
+        "choices": ["The bakery, because the driver was acting within the scope of employment", "No one but the driver, because torts are always personal", "The customers who ordered the delivery", "The state agency that issued the driver's license"],
+        "answer": 0,
+        "explanation": "Respondeat superior makes an employer liable for an employee's torts committed within the scope of employment. A delivery on the job route fits that scope."
+      },
+      {
+        "stem": "A store manager has regularly ordered inventory from a supplier for the owner. The owner fires the manager but does not tell the supplier, and the former manager places another order. Why might the owner still be bound?",
+        "choices": ["Express actual authority, because firing grants a final ordering right", "Respondeat superior, because placing an order is a tort", "Apparent authority, because the owner's past conduct led the supplier to reasonably rely on the manager", "Fiduciary duty, because suppliers owe loyalty to store owners"],
+        "answer": 2,
+        "explanation": "Apparent authority continues until third parties who dealt with the agent are notified that the authority ended. The owner should have told the supplier."
+      },
+      {
+        "stem": "A company invents a new battery design. It is willing to publish the design but wants the legal right to stop others from making and selling it for a limited period. Which protection fits best?",
+        "choices": ["Patent", "Copyright", "Trademark", "Trade secret"],
+        "answer": 0,
+        "explanation": "A patent gives the inventor the right to exclude others from making, using or selling an invention for a limited term in exchange for public disclosure. A trade secret requires keeping the design secret."
+      },
+      {
+        "stem": "A coffee shop keeps its cold-brew formula confidential, limits who knows it and has employees sign nondisclosure agreements. Which protection is it relying on?",
+        "choices": ["Patent", "Trademark", "Trade secret", "Copyright"],
+        "answer": 2,
+        "explanation": "A trade secret protects valuable confidential information as long as the owner takes reasonable steps to keep it secret. A patent would require public disclosure."
+      },
+      {
+        "stem": "An employer refuses to hire a qualified applicant because of the applicant's religion. Which federal law is most directly violated?",
+        "choices": ["Fair Labor Standards Act", "Title VII of the Civil Rights Act of 1964", "Occupational Safety and Health Act", "Uniform Commercial Code"],
+        "answer": 1,
+        "explanation": "Title VII prohibits employment discrimination based on race, color, religion, sex and national origin. The FLSA covers wages and hours, not hiring discrimination."
+      },
+      {
+        "stem": "An at-will employee is fired the day after reporting a safety violation to a government agency. Why might the firing still be unlawful?",
+        "choices": ["At-will employees must receive two weeks' notice before any firing", "Employers must prove just cause for every termination", "Employees with more than one year of service are no longer at will", "At-will employment does not permit firing in retaliation for legally protected acts"],
+        "answer": 3,
+        "explanation": "At-will employment allows firing for any lawful reason, but retaliation for protected acts such as reporting safety violations is unlawful. There is no general notice or just-cause requirement."
+      }
+    ],
+    "flashcards": [
+      { "term": "Limited liability", "definition": "Protection that limits an owner's losses to the amount invested, shielding personal assets from business debts." },
+      { "term": "Respondeat superior", "definition": "Doctrine making an employer liable for torts an employee commits within the scope of employment." },
+      { "term": "Apparent authority", "definition": "Authority a third party reasonably believes an agent has because of the principal's words or conduct." },
+      { "term": "At-will employment", "definition": "Employment that either employer or employee may end at any time for any lawful reason, or no reason." },
+      { "term": "Trademark", "definition": "A word, logo or symbol that identifies the source of goods and can be protected indefinitely with use and renewal." }
+    ]
+  }
+]

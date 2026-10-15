@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Atomic structure, the periodic table, and chemical bonding",
+    "objective": "Identify subatomic particles, predict properties from periodic trends, and classify bonds as ionic, polar covalent, or nonpolar covalent.",
+    "body": "Nearly every chemistry question starts with the atom. If you can describe what an atom contains and how it wants to gain, lose, or share electrons, you can predict how elements behave and which compounds they form.\n\n**Subatomic particles.** An atom has a dense nucleus holding **protons** (positive charge) and **neutrons** (no charge), surrounded by **electrons** (negative charge). The **atomic number** is the number of protons and defines the element: every carbon atom has 6. The **mass number** is protons plus neutrons. Atoms of the same element with different numbers of neutrons are **isotopes**; carbon-12 and carbon-14 both have 6 protons, but carbon-14 has 8 neutrons. A neutral atom has equal protons and electrons, while an **ion** has gained or lost electrons.\n\n**Valence electrons and the periodic table.** Electrons in the outermost shell are **valence electrons**, and they control reactivity. Main-group elements in the same group share the same number of valence electrons, which is why sodium and potassium both react vigorously with water. Most atoms react to reach a stable octet of eight valence electrons.\n\n**Periodic trends.** Two trends appear on almost every test:\n- **Atomic radius** increases down a group (more shells) and decreases across a period (more protons pull electrons closer).\n- **Electronegativity**, an atom's pull on shared electrons, increases across a period and decreases down a group. Fluorine is the most electronegative element.\n\nIonization energy, the energy needed to remove an electron, follows the same pattern as electronegativity.\n\n**Chemical bonds.** The difference in electronegativity between two atoms predicts the bond type.\n1. **Ionic bonds** form when a metal transfers electrons to a nonmetal, creating oppositely charged ions held by attraction, as in sodium chloride.\n2. **Polar covalent bonds** form when nonmetals share electrons unequally, giving partial charges, as in the O-H bonds of water.\n3. **Nonpolar covalent bonds** share electrons equally, as in O2 or N2.\n\nMolecular shape matters too. Carbon dioxide has polar bonds, but its linear shape makes the dipoles cancel, so the molecule is nonpolar. Water is bent, so it is polar, which explains why it dissolves salts and many biological molecules. Weaker attractions between molecules, such as **hydrogen bonds**, explain water's high boiling point and help hold DNA strands together.\n\nThe most common mistake is confusing mass number with atomic mass or atomic number. The atomic number counts only protons; the mass number counts protons plus neutrons for one specific isotope; and the atomic mass on the periodic table is a weighted average of all naturally occurring isotopes, which is why it is rarely a whole number.",
+    "examples": [
+      "Iodine-131, used in thyroid imaging and treatment, has 53 protons and 78 neutrons, while stable iodine-127 has 53 protons and 74 neutrons; both are iodine because the proton count matches.",
+      "Sodium (group 1) loses one electron to become Na+, and chlorine (group 17) gains one to become Cl-, so they combine in a 1:1 ratio as NaCl.",
+      "Water molecules form hydrogen bonds with each other, which is why water stays liquid at body temperature while methane, a similar-sized molecule, is a gas."
+    ],
+    "questions": [
+      {
+        "stem": "A lab technician reads that an isotope of potassium has 19 protons and 21 neutrons. What is its mass number?",
+        "choices": [
+          "19",
+          "21",
+          "40",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Mass number equals protons plus neutrons: 19 + 21 = 40. 19 is the atomic number, which counts only protons."
+      },
+      {
+        "stem": "A student compares carbon-12 and carbon-14 in a radiocarbon dating lab. What is different between these two atoms?",
+        "choices": [
+          "Number of protons",
+          "Number of neutrons",
+          "Number of electrons in the neutral atom",
+          "Chemical identity"
+        ],
+        "answer": 1,
+        "explanation": "Isotopes differ only in neutrons: carbon-14 has 8 and carbon-12 has 6. The proton count must stay at 6, or the atom would no longer be carbon."
+      },
+      {
+        "stem": "A calcium atom (atomic number 20) forms the Ca2+ ion found in bone. How many electrons does the ion have?",
+        "choices": [
+          "22",
+          "20",
+          "18",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Losing two electrons gives 20 - 2 = 18. Choosing 22 adds electrons, which would produce a negative ion, not a 2+ ion."
+      },
+      {
+        "stem": "Which element in period 3 would you expect to have the largest atomic radius?",
+        "choices": [
+          "Sodium",
+          "Silicon",
+          "Sulfur",
+          "Chlorine"
+        ],
+        "answer": 0,
+        "explanation": "Radius decreases across a period as more protons pull the same shells inward, so sodium, at the left, is largest. Chlorine is smallest, not largest, because it has the most protons in the period."
+      },
+      {
+        "stem": "A pharmacology student is told that a drug molecule contains a bond between carbon (electronegativity 2.5) and oxygen (3.5). How is this bond best classified?",
+        "choices": [
+          "Ionic",
+          "Polar covalent",
+          "Nonpolar covalent",
+          "Metallic"
+        ],
+        "answer": 1,
+        "explanation": "Two nonmetals sharing electrons with a moderate electronegativity difference (1.0) form a polar covalent bond. It is not ionic because no metal is transferring electrons, and the difference is well below the typical ionic range."
+      },
+      {
+        "stem": "Magnesium reacts with chlorine to form a compound. Based on valence electrons, what is the formula?",
+        "choices": [
+          "MgCl",
+          "Mg2Cl",
+          "MgCl2",
+          "Mg2Cl3"
+        ],
+        "answer": 2,
+        "explanation": "Magnesium loses two electrons to form Mg2+, and each chlorine gains one to form Cl-, so two chloride ions balance one magnesium: MgCl2. MgCl leaves a net charge of +1."
+      },
+      {
+        "stem": "Carbon dioxide contains two polar C=O bonds, yet the molecule is nonpolar. Why?",
+        "choices": [
+          "Carbon and oxygen have equal electronegativity",
+          "The linear shape makes the bond dipoles cancel",
+          "The bonds are actually ionic",
+          "CO2 has no valence electrons"
+        ],
+        "answer": 1,
+        "explanation": "In a linear molecule the two equal dipoles point in opposite directions and cancel. The bonds themselves are polar because oxygen is more electronegative than carbon, so equal electronegativity is wrong."
+      },
+      {
+        "stem": "Why does chlorine's atomic mass on the periodic table read about 35.45 rather than a whole number?",
+        "choices": [
+          "Electrons add fractional mass",
+          "It is a weighted average of chlorine-35 and chlorine-37",
+          "Neutrons have fractional charges",
+          "The value is rounded incorrectly"
+        ],
+        "answer": 1,
+        "explanation": "Atomic mass averages naturally occurring isotopes by abundance, mostly chlorine-35 with some chlorine-37. Electrons are far too light to account for the 0.45 difference."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Atomic number",
+        "definition": "The number of protons in an atom's nucleus; it defines the element."
+      },
+      {
+        "term": "Isotope",
+        "definition": "Atoms of the same element with the same protons but different numbers of neutrons."
+      },
+      {
+        "term": "Valence electrons",
+        "definition": "Electrons in an atom's outermost shell that determine its bonding and reactivity."
+      },
+      {
+        "term": "Electronegativity",
+        "definition": "An atom's ability to attract shared electrons in a bond; increases across a period and decreases down a group."
+      },
+      {
+        "term": "Polar covalent bond",
+        "definition": "A bond in which nonmetal atoms share electrons unequally, creating partial positive and negative charges."
+      }
+    ]
+  }
+]

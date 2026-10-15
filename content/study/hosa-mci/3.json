@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Command, scene organization and hospital surge in MCIs",
+    "objective": "Organize an MCI response using the Incident Command System, design scene and decontamination zones, and evaluate how hospitals manage patient surge.",
+    "body": "Good triage fails without good organization. U.S. responders use the **Incident Command System (ICS)**, part of the **National Incident Management System (NIMS)**, to give every MCI a predictable structure regardless of size or agency.\n\nThe **Incident Commander (IC)** has overall responsibility. The IC is supported by **command staff**: a **Public Information Officer**, a **Safety Officer** and a **Liaison Officer**. Below them, **general staff** lead four sections:\n- **Operations:** carries out the tactical work, including triage, treatment and transport.\n- **Planning:** tracks resources and situation status and writes the incident action plan.\n- **Logistics:** obtains supplies, equipment, food and facilities.\n- **Finance/Administration:** tracks costs, time and claims.\n\nICS relies on **span of control**, keeping each supervisor responsible for about three to seven people, with five considered ideal, and on **common terminology** in plain language instead of agency codes. When several agencies share authority, such as fire, EMS and police at a shooting, they form **unified command** so leaders make joint decisions under one plan.\n\nIn a medical branch, typical units include **triage**, **treatment** (with red, yellow and green areas), **transport** and sometimes a **morgue**. The transport officer coordinates with hospitals so that no single emergency department receives every patient. Distributing patients by hospital capability and capacity prevents the closest facility from being overwhelmed.\n\nHazardous materials events add **scene zones**:\n1. The **hot zone** is the contaminated area; only properly protected responders enter.\n2. The **warm zone** contains the decontamination corridor and limited lifesaving care.\n3. The **cold zone** is clean; full treatment, triage and command post operate here.\n\nPatients should be decontaminated before entering the cold zone or a hospital, because contaminated patients can injure staff and shut down an emergency department.\n\nHospitals use a parallel structure, the **Hospital Incident Command System (HICS)**, and prepare for **surge capacity**, the ability to expand care quickly. Strategies include canceling elective procedures, discharging stable patients early, opening alternate care areas and calling in extra staff. Many patients arrive on their own, not by ambulance, and often go to the nearest hospital, so receiving facilities must triage again at the door.\n\nAfter the event, responders conduct **after-action reviews** and attend to **psychological first aid** and stress management for victims and staff.\n\nThe most common mistake students make is confusing command staff with general staff. The Public Information, Safety and Liaison officers advise the IC directly, while Operations, Planning, Logistics and Finance/Administration are the four sections.",
+    "examples": [
+      "At a train derailment, fire, EMS and the railroad's police form unified command so their chiefs sign one incident action plan.",
+      "During a chlorine release, decontamination tents are placed in the warm zone so patients are clean before entering the cold-zone treatment area.",
+      "A hospital activates HICS after a tornado, postpones elective surgeries and opens its cafeteria as an alternate care area for green patients."
+    ],
+    "questions": [
+      {
+        "stem": "At a multi-vehicle crash, the EMS supervisor managing the triage, treatment and transport groups works under which ICS section?",
+        "choices": [
+          "Planning",
+          "Logistics",
+          "Operations",
+          "Finance/Administration"
+        ],
+        "answer": 2,
+        "explanation": "Operations directs tactical work such as triage, treatment and transport. Logistics is the main distractor because it supplies resources, but it does not direct patient care."
+      },
+      {
+        "stem": "A reporter approaches the incident command post. Which position should handle the media?",
+        "choices": [
+          "Public Information Officer",
+          "Liaison Officer",
+          "Safety Officer",
+          "Planning Section Chief"
+        ],
+        "answer": 0,
+        "explanation": "The Public Information Officer manages communication with the media and public. The Liaison Officer coordinates with other agencies, not the press."
+      },
+      {
+        "stem": "A supervisor is directly overseeing eleven team leaders during an MCI. What ICS principle is being violated?",
+        "choices": [
+          "Unified command",
+          "Common terminology",
+          "Chain of custody",
+          "Span of control"
+        ],
+        "answer": 3,
+        "explanation": "Span of control recommends about three to seven direct reports, ideally five. Unified command concerns shared authority among agencies, not the number of reports per supervisor."
+      },
+      {
+        "stem": "Fire, police and EMS arrive at an active shooter scene, each with legal authority. What ICS structure lets them make decisions jointly?",
+        "choices": [
+          "Single command",
+          "Unified command",
+          "Area command",
+          "Mutual aid"
+        ],
+        "answer": 1,
+        "explanation": "Unified command allows multiple agencies with jurisdiction to lead together under one plan. Mutual aid supplies extra resources but does not define shared leadership."
+      },
+      {
+        "stem": "At a pesticide spill, where should the decontamination corridor be located?",
+        "choices": [
+          "Hot zone",
+          "Warm zone",
+          "Cold zone",
+          "Inside the receiving hospital's emergency department"
+        ],
+        "answer": 1,
+        "explanation": "Decontamination occurs in the warm zone, between the contaminated hot zone and the clean cold zone. Placing it in the cold zone would let contamination reach the clean treatment area."
+      },
+      {
+        "stem": "The transport officer sends all red patients to the closest trauma center while two other hospitals receive none. What is the main problem?",
+        "choices": [
+          "It violates span of control",
+          "It should have sent green patients first",
+          "It risks overwhelming one hospital instead of distributing patients by capacity",
+          "Transport officers may not contact hospitals"
+        ],
+        "answer": 2,
+        "explanation": "Distributing patients by capability and capacity prevents overloading one facility. Sending green patients first is wrong because red patients still have transport priority."
+      },
+      {
+        "stem": "After a bombing, many walking patients arrive at a community hospital by private car before any ambulances. What does this illustrate?",
+        "choices": [
+          "Hospitals must triage again at the door and prepare for self-referred surge",
+          "Field triage makes hospital triage unnecessary",
+          "Private arrivals should be turned away",
+          "Only ambulance patients count as MCI victims"
+        ],
+        "answer": 0,
+        "explanation": "Many MCI patients self-transport to the nearest hospital, so hospitals must triage at arrival. Assuming field triage makes hospital triage unnecessary ignores these untriaged arrivals."
+      },
+      {
+        "stem": "A hospital's incident commander cancels elective surgeries and discharges stable inpatients early. What goal do these actions serve?",
+        "choices": [
+          "Reducing finance section costs",
+          "Establishing unified command",
+          "Completing the after-action review",
+          "Increasing surge capacity"
+        ],
+        "answer": 3,
+        "explanation": "These steps free beds and staff to expand surge capacity. Cost tracking belongs to Finance/Administration and is not the purpose of these clinical decisions."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Incident Command System (ICS)",
+        "definition": "Standardized structure for managing incidents of any size, part of NIMS."
+      },
+      {
+        "term": "Unified command",
+        "definition": "ICS arrangement in which multiple agencies with authority share leadership under one plan."
+      },
+      {
+        "term": "Span of control",
+        "definition": "Number of people one supervisor manages; about three to seven, ideally five."
+      },
+      {
+        "term": "Warm zone",
+        "definition": "Area between hot and cold zones where decontamination and limited lifesaving care occur."
+      },
+      {
+        "term": "Surge capacity",
+        "definition": "A hospital's ability to rapidly expand care for a sudden influx of patients."
+      }
+    ]
+  }
+]

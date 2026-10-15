@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Types of Insurance Coverage and Business Applications",
+    "objective": "Distinguish among major categories of business and personal insurance, select appropriate coverage types for given risk scenarios, and calculate basic coverage outcomes.",
+    "body": "Businesses face a wide spectrum of risks, and the insurance marketplace has developed specialized products to address each category. Understanding which policy fits which exposure is a core competency in risk management. The major lines of business insurance fall into property, liability, life and health, and specialty categories.\n\n**Property insurance** protects tangible assets against physical damage or loss. Policies may be written on a **named-perils** basis, covering only those causes of loss explicitly listed, or on an **open-perils** (all-risk) basis, covering all causes except those excluded. A critical concept within property insurance is the difference between **actual cash value (ACV)** and **replacement cost value (RCV)**. ACV pays the depreciated value of damaged property — what it was worth at the time of loss. RCV pays what it costs to replace the item with a new one of like kind and quality, without deducting for depreciation. Businesses that want full restoration after a loss should choose RCV coverage and be prepared to pay higher premiums.\n\n**Liability insurance** protects the insured when they are legally responsible for bodily injury or property damage to others. **General liability (GL)** insurance covers common business exposures such as a customer slipping and falling on the premises or an advertisement causing reputational harm. **Professional liability insurance**, also called **errors and omissions (E&O)**, covers claims arising from professional advice or services — critical for accountants, consultants, and real estate agents. **Directors and officers (D&O) liability** protects executives from personal financial loss resulting from decisions made in their corporate capacity.\n\nWhen the limits of a primary policy are insufficient for a catastrophic claim, a **commercial umbrella policy** provides additional coverage above those limits. The umbrella kicks in once the underlying policy is exhausted, offering a cost-effective way to dramatically increase total protection.\n\n**Business interruption insurance** is often overlooked but can be the difference between a business surviving a disaster or closing permanently. It covers lost income and ongoing expenses — such as rent, salaries, and loan payments — during the period a business cannot operate due to a covered property loss. The coverage period typically runs while the damaged property is repaired or replaced (the *period of restoration*), subject to the policy limit; an optional *extended period of indemnity* can continue benefits while sales recover to pre-loss levels.\n\nOn the personal lines side, **homeowner's insurance** bundles property and liability coverage, while **auto insurance** combines collision, comprehensive, and liability components. Understanding how **deductibles** interact with coverage is essential: the deductible is the amount the insured pays out of pocket before the insurer's obligation begins, and choosing a higher deductible lowers the premium in exchange for greater personal financial exposure on smaller losses.",
+    "examples": [
+      "A bakery's commercial oven worth $20,000 new is destroyed in a fire; with ACV coverage and 50% depreciation, the insurer pays $10,000, leaving the owner to fund the rest, but with RCV coverage the insurer pays the full $20,000 replacement cost.",
+      "A management consultant gives a client incorrect financial advice that leads to a $500,000 loss; her E&O policy covers the legal defense costs and the eventual settlement, which a general liability policy would not cover.",
+      "A restaurant closed for four months after a kitchen fire collects business interruption benefits that cover its $18,000 monthly payroll and $6,000 rent until it reopens, preventing staff layoffs and lease default."
+    ],
+    "questions": [
+      {
+        "stem": "A retailer's inventory is damaged in a flood. The store chooses actual cash value coverage. The inventory cost $40,000 new and is 30% depreciated. How much will the insurer pay?",
+        "choices": [
+          "$40,000",
+          "$28,000",
+          "$12,000",
+          "$52,000"
+        ],
+        "answer": 1,
+        "explanation": "$40,000 × (1 − 0.30) = $28,000. ACV deducts accumulated depreciation from replacement cost; the $12,000 figure represents only the depreciation amount, not the ACV payment."
+      },
+      {
+        "stem": "A financial advisor is sued because a client lost money following the advisor's recommendation. Which policy is specifically designed to cover this claim?",
+        "choices": [
+          "General liability insurance",
+          "Commercial umbrella policy",
+          "Errors and omissions insurance",
+          "Directors and officers liability"
+        ],
+        "answer": 2,
+        "explanation": "E&O (professional liability) insurance covers claims arising from professional services or advice. General liability covers bodily injury and property damage to third parties but typically excludes professional service claims."
+      },
+      {
+        "stem": "A homeowner's policy covers fire, theft, and windstorm but not flooding. This type of coverage is written on a:",
+        "choices": [
+          "Replacement cost basis",
+          "Named-perils basis",
+          "Open-perils basis",
+          "Umbrella basis"
+        ],
+        "answer": 1,
+        "explanation": "A named-perils policy covers only the specific causes of loss listed in the policy; if a peril is not named, it is not covered. An open-perils policy covers all causes of loss except those explicitly excluded."
+      },
+      {
+        "stem": "After a warehouse fire, a manufacturer cannot produce goods for six months. Which coverage pays the lost profits and ongoing fixed expenses during this shutdown?",
+        "choices": [
+          "Commercial umbrella insurance",
+          "Business interruption insurance",
+          "Product liability insurance",
+          "Inland marine insurance"
+        ],
+        "answer": 1,
+        "explanation": "Business interruption insurance replaces lost revenue and covers ongoing expenses while a business recovers from a covered property loss. Commercial umbrella only provides excess limits above primary liability policies."
+      },
+      {
+        "stem": "A company's general liability policy has a $1 million limit, but a jury awards $3 million in a lawsuit. Which policy would cover the remaining $2 million?",
+        "choices": [
+          "Workers' compensation policy",
+          "Professional liability policy",
+          "Commercial umbrella policy",
+          "Business interruption policy"
+        ],
+        "answer": 2,
+        "explanation": "A commercial umbrella policy provides excess coverage above the limits of underlying primary policies, covering the $2 million gap. Workers' compensation covers employee injuries on the job, an entirely different exposure."
+      },
+      {
+        "stem": "A business owner raises her property insurance deductible from $500 to $2,500. What is the most likely immediate effect?",
+        "choices": [
+          "Her coverage limits will increase automatically",
+          "Her annual premium will decrease",
+          "The insurer will add more exclusions to her policy",
+          "Her replacement cost coverage will convert to actual cash value"
+        ],
+        "answer": 1,
+        "explanation": "A higher deductible transfers more of the financial risk to the insured, reducing the insurer's expected payout per claim and allowing a lower premium. Deductible changes do not alter coverage limits or valuation methods."
+      },
+      {
+        "stem": "Which type of liability insurance would best protect a corporate CEO from a lawsuit alleging she made a poor acquisition decision that harmed shareholders?",
+        "choices": [
+          "General liability insurance",
+          "Errors and omissions insurance",
+          "Directors and officers liability insurance",
+          "Employment practices liability insurance"
+        ],
+        "answer": 2,
+        "explanation": "D&O liability insurance protects corporate executives from personal financial loss related to managerial decisions made on behalf of the corporation. E&O insurance addresses professional service providers, not corporate governance decisions."
+      },
+      {
+        "stem": "A jewelry store buys open-perils property insurance. A break-in results in stolen merchandise. How does the insurer most likely treat this claim?",
+        "choices": [
+          "It is denied because theft is a named peril, not an open-peril event",
+          "It is covered unless theft is specifically listed as an exclusion",
+          "It is covered only up to the deductible amount",
+          "It triggers the business interruption clause automatically"
+        ],
+        "answer": 1,
+        "explanation": "Open-perils (all-risk) policies cover all causes of loss except those specifically excluded; if theft is not excluded, it is covered. Named-perils policies work the opposite way, covering only listed causes."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Actual Cash Value (ACV)",
+        "definition": "A property loss payment method that reimburses the depreciated market value of damaged property at the time of loss, rather than its replacement cost."
+      },
+      {
+        "term": "Replacement Cost Value (RCV)",
+        "definition": "A property coverage option that pays the full cost to repair or replace damaged property with a new item of like kind and quality, without a deduction for depreciation."
+      },
+      {
+        "term": "Business Interruption Insurance",
+        "definition": "Coverage that replaces lost revenue and pays ongoing fixed expenses while a business is unable to operate due to a covered property loss."
+      },
+      {
+        "term": "Errors and Omissions (E&O) Insurance",
+        "definition": "Professional liability coverage that protects service providers from claims arising from negligent advice, errors, or failure to perform professional duties."
+      },
+      {
+        "term": "Commercial Umbrella Policy",
+        "definition": "An excess liability policy that provides additional coverage limits above those of underlying primary insurance policies when a claim exhausts the primary limits."
+      }
+    ]
+  }
+]

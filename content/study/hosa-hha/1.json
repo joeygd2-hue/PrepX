@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Role, scope of practice, and infection control basics",
+    "objective": "Explain the home health aide's role and scope of practice, apply client rights, and use standard precautions and hand hygiene to prevent infection in the home.",
+    "body": "A **home health aide (HHA)** provides personal care and basic support to clients in their own homes, working under the supervision of a registered nurse or therapist who writes the **care plan**. Because the aide often works alone, good judgment about what is and is not part of the job matters as much as hands-on skill.\n\n**Scope of practice.** An aide's scope of practice is the set of tasks the aide is trained and legally allowed to perform. Typical HHA tasks include:\n- Bathing, grooming, dressing, toileting and feeding assistance\n- Measuring and recording vital signs, intake and output, and weight\n- Ambulation, transfers and range-of-motion exercises as assigned\n- Light housekeeping, laundry and meal preparation related to the client's care\n\nAides generally do not give medications, change sterile dressings, perform invasive procedures, or make care decisions. Many agencies allow aides to remind clients to take their own medications, but the aide never decides what or how much to take. When asked to do something outside the care plan, the aide politely declines and contacts the supervisor.\n\n**Client rights and professionalism.** Clients keep the right to dignity, privacy, confidentiality, and to refuse care. Under **HIPAA**, health information is shared only with those who need it for care. A client who refuses a bath is not forced; the aide respects the choice, tries to learn the reason, and reports the refusal. Aides also follow professional boundaries: no accepting money or gifts, no borrowing, and no sharing personal problems with the client.\n\n**Infection control.** Germs spread through the **chain of infection**: an infectious agent, a reservoir, a portal of exit, a mode of transmission, a portal of entry, and a susceptible host. Breaking any link stops the spread. The most important tool is **hand hygiene**. Wash with soap and water for at least 20 seconds when hands are visibly soiled, after toileting care, and around clients with diarrheal illness such as *C. difficile*; otherwise an alcohol-based rub with at least 60 percent alcohol is effective.\n\n**Standard precautions** treat all blood, body fluids, secretions, excretions, non-intact skin and mucous membranes as potentially infectious, for every client. They include hand hygiene, gloves when touching body fluids, gowns or masks when splashing is likely, safe handling of sharps, and cleaning shared equipment. **Personal protective equipment (PPE)** is removed in an order that avoids contaminating yourself, with gloves usually removed first and hand hygiene performed afterward.\n\nIn the home, aides also bag soiled linens, hold them away from their uniform, and wash them separately in hot water when the care plan allows.\n\nThe most common mistake students make is thinking gloves replace hand washing. Gloves can have tiny holes and hands become contaminated during removal, so hand hygiene is required before putting gloves on and immediately after taking them off.",
+    "examples": [
+      "A client's daughter asks the aide to trim her father's ingrown toenail; because he has diabetes and this is outside the care plan, the aide declines and notifies the supervising nurse.",
+      "After helping a client clean up from diarrhea, the aide removes gloves, then washes with soap and water rather than using hand sanitizer."
+    ],
+    "questions": [
+      {
+        "stem": "A client asks the aide to pour her pills from the bottle and decide which ones she needs this morning. What should the aide do?",
+        "choices": [
+          "Choose the pills listed on the bottle labels",
+          "Explain this is outside the aide's role and contact the supervisor",
+          "Give only the pills the client usually takes",
+          "Ask a neighbor to help sort the pills"
+        ],
+        "answer": 1,
+        "explanation": "Deciding which medication to take is outside an HHA's scope, so the aide declines and reports. Reading the labels does not make it within scope; the aide still would be making a medication decision."
+      },
+      {
+        "stem": "Which task is most clearly within a home health aide's scope of practice?",
+        "choices": [
+          "Changing a sterile surgical dressing",
+          "Adjusting a client's oxygen flow rate",
+          "Measuring and recording a client's pulse",
+          "Inserting a urinary catheter"
+        ],
+        "answer": 2,
+        "explanation": "Measuring vital signs is a standard aide task. Oxygen flow changes require an order and licensed staff, so adjusting it is not an aide task even though it seems simple."
+      },
+      {
+        "stem": "A client refuses his scheduled shower, saying he feels cold. What is the best response?",
+        "choices": [
+          "Insist gently because the care plan requires it",
+          "Skip care without mentioning it",
+          "Respect the refusal, offer an alternative such as a warm sponge bath, and report it",
+          "Tell the family so they can persuade him"
+        ],
+        "answer": 2,
+        "explanation": "Clients have the right to refuse; the aide respects it, offers options, and reports. Insisting violates client rights even when the care plan lists the shower."
+      },
+      {
+        "stem": "An aide is caring for a client with C. difficile diarrhea. Which hand hygiene method is best after care?",
+        "choices": [
+          "Alcohol-based hand rub",
+          "Soap and water handwashing",
+          "Wearing a second pair of gloves",
+          "Antibacterial wipes only"
+        ],
+        "answer": 1,
+        "explanation": "Alcohol does not reliably kill C. difficile spores, so soap and water is needed. Alcohol rub is the main distractor because it is preferred in many other situations."
+      },
+      {
+        "stem": "Which action breaks the 'mode of transmission' link in the chain of infection?",
+        "choices": [
+          "Giving the client a nutritious diet",
+          "Performing hand hygiene between tasks",
+          "Treating the client's infection with antibiotics",
+          "Keeping the client's vaccinations current"
+        ],
+        "answer": 1,
+        "explanation": "Hand hygiene stops germs from traveling between people and surfaces. Vaccination protects the susceptible host, a different link."
+      },
+      {
+        "stem": "According to standard precautions, which client's body fluids should be treated as potentially infectious?",
+        "choices": [
+          "Only clients with a known infection",
+          "Only clients with HIV or hepatitis",
+          "Every client",
+          "Only clients with open wounds"
+        ],
+        "answer": 2,
+        "explanation": "Standard precautions apply to all clients because infections are often undiagnosed. Limiting them to known infections is the most common misunderstanding."
+      },
+      {
+        "stem": "A client offers the aide $50 as a thank-you for extra help. What should the aide do?",
+        "choices": [
+          "Accept it if the client insists",
+          "Accept it and tell the supervisor later",
+          "Politely decline and explain agency policy",
+          "Accept it but give it to charity"
+        ],
+        "answer": 2,
+        "explanation": "Accepting money crosses professional boundaries and is against agency policy. Telling the supervisor afterward does not make accepting it appropriate."
+      },
+      {
+        "stem": "The aide's neighbor asks how a mutual acquaintance, who is the aide's client, is doing. What is the correct response?",
+        "choices": [
+          "Share only the client's diagnosis",
+          "Say the client is doing fine",
+          "Explain that client information is confidential",
+          "Suggest the neighbor call the client's doctor"
+        ],
+        "answer": 2,
+        "explanation": "Under HIPAA and confidentiality rules, the aide does not discuss clients with anyone who is not involved in care. Even 'doing fine' confirms that the person is a client."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scope of practice",
+        "definition": "The tasks an aide is trained and legally permitted to perform."
+      },
+      {
+        "term": "Care plan",
+        "definition": "The supervising nurse's written plan listing the client's assigned care tasks."
+      },
+      {
+        "term": "Chain of infection",
+        "definition": "Six links (agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host) that allow infection to spread."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Infection control practices applied to all clients, treating body fluids as potentially infectious."
+      },
+      {
+        "term": "HIPAA",
+        "definition": "Federal law protecting the privacy of a client's health information."
+      }
+    ]
+  }
+]

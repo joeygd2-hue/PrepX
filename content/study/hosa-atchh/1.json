@@ -1,0 +1,124 @@
+[
+  {
+    "title": "DNA, genes, chromosomes and the basics of inheritance",
+    "objective": "Describe how DNA, genes and chromosomes are organized, distinguish genotype from phenotype, and predict single-gene crosses with a Punnett square.",
+    "body": "Human heredity begins with a simple chain: **DNA** is packaged into **chromosomes**, chromosomes carry **genes**, and genes carry the instructions that help shape traits. Understanding that chain makes nearly every genetics question easier.\n\n**From DNA to chromosomes.** DNA is a double helix built from four bases: adenine (A), thymine (T), guanine (G) and cytosine (C). A pairs with T and G pairs with C. A **gene** is a segment of DNA that codes for a product, usually a protein. Human body cells hold 46 chromosomes in 23 pairs: 22 pairs of **autosomes** and one pair of **sex chromosomes** (XX in typical females, XY in typical males). Each pair has one chromosome from each parent, so these partners are called **homologous chromosomes**.\n\n**Alleles, genotype and phenotype.** Different versions of the same gene are **alleles**. Because you inherit two copies of each autosomal gene, your **genotype** is the pair of alleles you carry, such as Bb. Your **phenotype** is the observable trait, such as brown eyes or a measurable blood protein.\n- **Homozygous** means two identical alleles (BB or bb).\n- **Heterozygous** means two different alleles (Bb).\n- A **dominant** allele shows its effect with one copy; a **recessive** allele shows its effect only when two copies are present.\n\n**Meiosis and Mendel's laws.** Sex cells (gametes) are made by **meiosis**, which halves the chromosome number to 23. Gregor Mendel's **law of segregation** says the two alleles of a gene separate so each gamete gets only one. His **law of independent assortment** says genes on different chromosomes sort into gametes independently. Crossing over during meiosis adds further variety.\n\n**Using a Punnett square.** To predict offspring:\n1. Write each parent's genotype.\n2. List the possible gametes for each parent along the top and side.\n3. Fill each box by combining one allele from each parent.\n4. Count genotypes and phenotypes to get ratios.\n\nA cross of two heterozygotes (Aa x Aa) gives a 1 AA : 2 Aa : 1 aa genotype ratio and a 3 : 1 dominant-to-recessive phenotype ratio. Each box represents a probability for each child, not a guaranteed count in a family.\n\n**Most common mistake:** treating a Punnett square as a prediction of exact family outcomes. A 1-in-4 chance applies independently to every pregnancy, so two carriers who already have one affected child still face a 25% chance with the next child.",
+    "examples": [
+      "Two parents who both carry one allele for cystic fibrosis (Ff) each pass F or f to a child, giving each pregnancy a 25% chance of an ff child who has the condition.",
+      "A person with genotype Bb for eye color has the phenotype of brown eyes because the brown allele is dominant over the blue allele in this simplified model.",
+      "A human egg cell contains 23 chromosomes, including one X, because meiosis halved the 46 chromosomes found in body cells."
+    ],
+    "questions": [
+      {
+        "stem": "A couple are both heterozygous (Tt) for a recessive trait. What is the probability that their next child will show the recessive phenotype?",
+        "choices": [
+          "50%",
+          "25%",
+          "75%",
+          "0%"
+        ],
+        "answer": 1,
+        "explanation": "Tt x Tt gives 1 TT : 2 Tt : 1 tt, so only tt (1 in 4) shows the recessive trait. 75% is the chance of the dominant phenotype, not the recessive one."
+      },
+      {
+        "stem": "A lab report lists a patient's alleles for a gene as Hh. Which term describes this genotype?",
+        "choices": [
+          "Homozygous dominant",
+          "Hemizygous",
+          "Heterozygous",
+          "Homozygous recessive"
+        ],
+        "answer": 2,
+        "explanation": "Two different alleles make the genotype heterozygous. Hemizygous describes having only one copy of a gene, as with X-linked genes in males."
+      },
+      {
+        "stem": "A student counts the chromosomes in a normal human skin cell. How many should she expect?",
+        "choices": [
+          "46",
+          "23",
+          "44",
+          "92"
+        ],
+        "answer": 0,
+        "explanation": "Somatic cells are diploid with 46 chromosomes (23 pairs). 23 is the number in a gamete after meiosis, not in a body cell."
+      },
+      {
+        "stem": "Which statement best describes the law of segregation?",
+        "choices": [
+          "Genes on different chromosomes are always inherited together",
+          "Dominant alleles are more common in the population",
+          "Chromosomes copy themselves before cell division",
+          "The two alleles of a gene separate so each gamete carries one"
+        ],
+        "answer": 3,
+        "explanation": "Segregation means allele pairs split during meiosis so each gamete gets one allele. Inheriting genes on different chromosomes independently is the separate law of independent assortment, and it says they are not linked."
+      },
+      {
+        "stem": "Two carriers of a recessive condition already have one affected child. What is the chance their second child will also be affected?",
+        "choices": [
+          "0%, because it already happened once",
+          "25%",
+          "50%",
+          "100%"
+        ],
+        "answer": 1,
+        "explanation": "Each pregnancy is an independent event, so the chance stays 1 in 4. Believing a previous outcome changes the odds is the gambler's fallacy."
+      },
+      {
+        "stem": "A child's observable blood type is A, while her alleles are I^A and i. What is 'type A' an example of?",
+        "choices": [
+          "Phenotype",
+          "Genotype",
+          "Allele",
+          "Karyotype"
+        ],
+        "answer": 0,
+        "explanation": "The observable trait is the phenotype. The allele pair I^A i is the genotype, which produces that phenotype."
+      },
+      {
+        "stem": "A cross between Pp and pp parents is performed. What phenotype ratio is expected among offspring?",
+        "choices": [
+          "3 dominant : 1 recessive",
+          "All dominant",
+          "1 dominant : 1 recessive",
+          "1 : 2 : 1"
+        ],
+        "answer": 2,
+        "explanation": "Pp x pp gives half Pp (dominant) and half pp (recessive), a 1:1 ratio. The 3:1 ratio applies only to a cross between two heterozygotes."
+      },
+      {
+        "stem": "Which pair correctly matches DNA bases in a double helix?",
+        "choices": [
+          "Adenine with guanine",
+          "Cytosine with thymine",
+          "Adenine with cytosine",
+          "Guanine with cytosine"
+        ],
+        "answer": 3,
+        "explanation": "In DNA, G pairs with C and A pairs with T. A with G pairs two purines, which does not occur in standard base pairing."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Allele",
+        "definition": "One of the different versions of the same gene."
+      },
+      {
+        "term": "Genotype",
+        "definition": "The pair of alleles a person carries for a gene, such as Bb."
+      },
+      {
+        "term": "Phenotype",
+        "definition": "The observable or measurable trait that results from a genotype and environment."
+      },
+      {
+        "term": "Heterozygous",
+        "definition": "Having two different alleles for a gene."
+      },
+      {
+        "term": "Law of segregation",
+        "definition": "Mendel's principle that the two alleles of a gene separate so each gamete receives only one."
+      }
+    ]
+  }
+]

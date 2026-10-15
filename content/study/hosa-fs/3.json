@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Death investigation, toxicology, and expert courtroom testimony",
+    "objective": "Estimate time since death from postmortem changes, distinguish cause, mechanism and manner of death, interpret toxicology findings, and evaluate evidence under admissibility standards.",
+    "body": "Advanced forensic problems combine many findings into one conclusion that must hold up in court. Death investigation is where this integration matters most.\n\n**Cause, mechanism and manner.** The **cause of death** is the injury or disease that started the fatal chain, such as a gunshot wound. The **mechanism** is the physiological derangement that resulted, such as exsanguination. The **manner of death** is the classification on the death certificate: natural, accident, suicide, homicide, or undetermined (some jurisdictions add pending). One cause can fit several manners; a gunshot wound might be a homicide, suicide or accident.\n\n**Estimating time since death.** Every method gives a range, not an exact time, and each is affected by temperature, body size, clothing and activity before death.\n1. **Algor mortis** is cooling of the body toward the surrounding temperature. Older rules of thumb, such as 1.5 degrees Fahrenheit per hour, are rough; examiners now use nomograms that account for conditions.\n2. **Livor mortis** is pooling of blood in dependent areas. It appears within about 30 minutes to 2 hours and becomes fixed after roughly 8 to 12 hours, so livor inconsistent with the body's position suggests the body was moved.\n3. **Rigor mortis** is stiffening caused by muscle chemistry after death. It typically begins within 2 to 6 hours, peaks around 12 hours, and fades over 24 to 48 hours, faster in heat.\n4. **Forensic entomology** uses the developmental stage of insects, especially blow fly larvae, to estimate the minimum time since colonization when days have passed.\n\n**Toxicology.** Labs screen samples, often by immunoassay, and confirm with **gas chromatography-mass spectrometry (GC-MS)** or liquid chromatography-tandem mass spectrometry. Interpreting a concentration requires context: tolerance, the sample site, and **postmortem redistribution**, in which some drugs move from organs into blood after death and raise measured levels, especially in heart blood. That is why peripheral (femoral) blood and vitreous humor are preferred.\n\n**The courtroom.** Experts must meet admissibility standards. Federal courts and most states use the **Daubert standard**, under which the judge acts as gatekeeper, considering testability, peer review, known error rate, standards and general acceptance. Some states still use the older **Frye standard**, which asks only whether a method is generally accepted in its field. Good experts state limits, use measured language rather than claiming certainty, and stay objective regardless of which side hired them.\n\nThe most common mistake students make is confusing cause and manner of death, for example writing homicide as a cause; homicide is a manner, while the gunshot wound is the cause.",
+    "examples": [
+      "A body found face-up has fixed livor along the front of the torso, suggesting it lay face-down for many hours before being moved.",
+      "A medical examiner lists cause as blunt force head injury, mechanism as brain swelling, and manner as accident after a ladder fall.",
+      "A judge holds a Daubert hearing to decide whether a new digital analysis method has a known error rate and peer-reviewed support."
+    ],
+    "questions": [
+      {
+        "stem": "A body is found in a cool room with full rigor in the limbs and livor that blanches under pressure. What is the most reasonable estimate?",
+        "choices": [
+          "Less than 1 hour",
+          "Roughly 6 to 12 hours",
+          "More than 3 days",
+          "Exactly 18 hours"
+        ],
+        "answer": 1,
+        "explanation": "Full rigor appears within several hours and livor that still blanches has not fixed, fitting a range near 6 to 12 hours. An exact time like 18 hours overstates what these methods can show."
+      },
+      {
+        "stem": "A death certificate lists 'homicide' in the cause-of-death line. What is wrong?",
+        "choices": [
+          "Homicide is a mechanism",
+          "Homicide is a manner, not a cause",
+          "Homicide must be listed as undetermined",
+          "Nothing is wrong"
+        ],
+        "answer": 1,
+        "explanation": "Cause is the injury or disease, such as a stab wound; homicide is a manner. A mechanism would be a process such as exsanguination."
+      },
+      {
+        "stem": "Fixed livor is on a victim's back, but the body was found face-down. What does this suggest?",
+        "choices": [
+          "The body was moved after livor fixed",
+          "Death occurred within the last hour",
+          "The victim died of poisoning",
+          "Rigor has passed"
+        ],
+        "answer": 0,
+        "explanation": "Fixed livor forms where blood settles, so livor on the back means the body lay on its back for hours before being turned. Recent death would show unfixed, shifting livor."
+      },
+      {
+        "stem": "A body has been outdoors for six days in summer. Which method is most useful for estimating time since death?",
+        "choices": [
+          "Algor mortis",
+          "Rigor mortis",
+          "Forensic entomology",
+          "Livor blanching"
+        ],
+        "answer": 2,
+        "explanation": "Insect development continues for days and weeks. Rigor has typically resolved by 48 hours, and the body has reached ambient temperature, ending algor's usefulness."
+      },
+      {
+        "stem": "Heart blood shows a much higher drug level than femoral blood from the same body. What best explains this?",
+        "choices": [
+          "Lab error",
+          "Postmortem redistribution",
+          "Tolerance",
+          "Livor mortis"
+        ],
+        "answer": 1,
+        "explanation": "Some drugs diffuse from organs into central blood after death, raising heart levels. Tolerance affects how a living person responds, not where the drug is measured after death."
+      },
+      {
+        "stem": "Which technique confirms the identity of a drug found by an immunoassay screen?",
+        "choices": [
+          "Precipitin test",
+          "GC-MS",
+          "Kastle-Meyer test",
+          "Ninhydrin"
+        ],
+        "answer": 1,
+        "explanation": "GC-MS separates compounds and identifies them by mass spectrum, making it a confirmatory method. Kastle-Meyer is a presumptive test for blood."
+      },
+      {
+        "stem": "In a federal case, a judge evaluates an expert's method for testability, error rate and peer review. Which standard is being applied?",
+        "choices": [
+          "Frye",
+          "Daubert",
+          "Miranda",
+          "Locard"
+        ],
+        "answer": 1,
+        "explanation": "Daubert lists these factors and makes the judge a gatekeeper. Frye asks only whether the method is generally accepted."
+      },
+      {
+        "stem": "Asked whether a fiber 'definitely' came from the defendant's car, what response best reflects good expert practice?",
+        "choices": [
+          "Yes, with absolute certainty",
+          "The fiber is consistent with the car's carpet but could share a source with similar products",
+          "No comment",
+          "Whatever the prosecutor prefers"
+        ],
+        "answer": 1,
+        "explanation": "Fiber color and type are usually class characteristics, so a careful expert states consistency and limits. Claiming absolute certainty overstates the science."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Manner of death",
+        "definition": "The classification of how a death came about: natural, accident, suicide, homicide or undetermined."
+      },
+      {
+        "term": "Livor mortis",
+        "definition": "Settling of blood in the lowest parts of the body after death, which becomes fixed after about 8 to 12 hours."
+      },
+      {
+        "term": "Rigor mortis",
+        "definition": "Postmortem muscle stiffening that begins within hours, peaks around 12 hours and fades over 24 to 48 hours."
+      },
+      {
+        "term": "Postmortem redistribution",
+        "definition": "Movement of drugs from organs into blood after death, which can raise measured concentrations in central blood."
+      },
+      {
+        "term": "Daubert standard",
+        "definition": "Admissibility test in which the judge evaluates an expert method's testability, peer review, error rate, standards and acceptance."
+      }
+    ]
+  }
+]

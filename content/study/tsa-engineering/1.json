@@ -1,0 +1,69 @@
+[
+  {
+    "title": "The engineering design process and technical drawing",
+    "objective": "Apply the engineering design process with criteria, constraints and a decision matrix, document work in an engineering notebook, and read and create multiview drawings and CAD models.",
+    "body": "Engineering Design, CAD Engineering, Manufacturing Prototype and Technology Problem Solving all reward a documented, repeatable process. Judges want to see how you defined the problem, why you chose your solution and how testing changed it.\n\n**The design process.** Most models follow these steps, looping back whenever testing reveals a problem:\n1. Define the problem and identify who will use the solution.\n2. Research existing solutions, patents and the relevant science.\n3. Set *criteria*, the goals a design should meet (such as weighing under 2 kg), and *constraints*, the fixed limits it must respect (such as a $40 budget or only the materials supplied at the event).\n4. Brainstorm many ideas without judging them.\n5. Choose a solution with a *decision matrix* that scores each idea against weighted criteria.\n6. Build a prototype, test it, analyze the results and iterate.\n7. Communicate the solution.\n\n**Documentation.** An *engineering notebook* is a dated record of ideas, sketches, calculations, test data and decisions, including failures. Record results in tables with units, and change one variable at a time so you know what caused an improvement.\n\n**Technical drawing.** *Orthographic projection* shows an object in separate 2D views. The standard three are the front, top and right side views; in the third-angle projection used in the United States, the top view sits directly above the front view and the right side view sits to its right. Hidden edges are drawn as dashed lines, and center lines mark the axes of holes and cylinders. *Isometric* drawings show three faces at once, with axes 120° apart. Every manufactured dimension needs a *tolerance*, the allowed variation: 25.0 ± 0.1 mm means any size from 24.9 to 25.1 mm is acceptable.\n\n**CAD modeling.** Parametric CAD starts with a 2D *sketch* controlled by dimensions and *geometric constraints* such as parallel, tangent and equal. Features turn the sketch into a solid: *extrude* pushes a profile straight out, *revolve* spins a profile around an axis, and fillets and chamfers round or bevel edges. *Assemblies* join parts with mates that define how they fit and move. A fully constrained sketch updates predictably when a dimension changes.\n\nA common mistake is presenting only the final design. Judges score the journey: rejected ideas, failed tests and the data behind each change show genuine engineering.",
+    "examples": [
+      "Decision matrix with cost weighted 3 and durability weighted 2: Idea A scores 4 and 2, for 4 x 3 + 2 x 2 = 16. Idea B scores 3 and 4, for 3 x 3 + 4 x 2 = 17, so Idea B moves forward.",
+      "A shaft is specified at 12.00 ± 0.05 mm. A part measuring 12.04 mm passes, while one measuring 11.94 mm fails because the lower limit is 11.95 mm.",
+      "To model a drinking cup, a designer sketches half of its cross section and revolves it 360° around the center axis instead of stacking several extrusions."
+    ],
+    "questions": [
+      {
+        "stem": "A design brief says a device 'must fit inside a 30 cm cube' and 'should be as quiet as possible.' How are these two requirements classified?",
+        "choices": ["Both are criteria", "Both are constraints", "The size limit is a constraint; quiet operation is a criterion", "The size limit is a criterion; quiet operation is a constraint"],
+        "answer": 2,
+        "explanation": "A constraint is a fixed limit the design must meet, like the 30 cm size. A criterion is a goal used to judge how well a design performs, like being quiet."
+      },
+      {
+        "stem": "A decision matrix weights cost at 3 and safety at 5. Design X scores 4 for cost and 3 for safety. Design Y scores 2 for cost and 5 for safety. Which design wins, and with what weighted total?",
+        "choices": ["Design X, 27", "Design Y, 31", "Design X, 33", "Design Y, 7"],
+        "answer": 1,
+        "explanation": "X: 4 x 3 + 3 x 5 = 12 + 15 = 27. Y: 2 x 3 + 5 x 5 = 6 + 25 = 31. Y wins; 7 is Y's unweighted total."
+      },
+      {
+        "stem": "A hole is dimensioned 8.0 ± 0.2 mm. Which measured diameter is outside the tolerance?",
+        "choices": ["7.85 mm", "8.15 mm", "8.25 mm", "8.00 mm"],
+        "answer": 2,
+        "explanation": "The acceptable range is 8.0 − 0.2 = 7.8 mm to 8.0 + 0.2 = 8.2 mm. Only 8.25 mm falls outside it."
+      },
+      {
+        "stem": "In the third-angle orthographic projection used in the United States, where is the top view placed?",
+        "choices": ["Directly below the front view", "Directly above the front view", "To the left of the front view", "In place of the front view"],
+        "answer": 1,
+        "explanation": "Third-angle projection places the top view above the front view and the right side view to the right of the front view, aligned so features project between views."
+      },
+      {
+        "stem": "A designer has sketched half the cross section of a lampshade and wants a round, symmetrical solid. Which CAD feature should be used?",
+        "choices": ["Extrude", "Revolve", "Chamfer", "Linear pattern"],
+        "answer": 1,
+        "explanation": "Revolve spins a 2D profile around an axis, producing a symmetrical round solid. Extrude only pushes a profile in a straight line."
+      },
+      {
+        "stem": "Which entry best follows engineering notebook practice?",
+        "choices": ["A dated page with a sketch, a test-data table with units and a note explaining why version 2 failed", "A loose sheet with the final design only, added the night before judging", "A page of neat notes with failed ideas erased", "A photo of the finished prototype with no date or explanation"],
+        "answer": 0,
+        "explanation": "Notebooks should be dated, record data with units and capture failures and reasoning, because judges evaluate the process as well as the result."
+      },
+      {
+        "stem": "A team changes the propeller size, the motor and the battery at the same time, and its drone flies longer. What is the main problem with this test?",
+        "choices": ["The drone should have flown shorter", "Several variables changed at once, so the cause of the improvement is unknown", "Testing should wait until the design is final", "The team should have changed even more parts"],
+        "answer": 1,
+        "explanation": "Changing one variable at a time isolates its effect. With three changes, the team cannot tell which one made the difference."
+      },
+      {
+        "stem": "A hole is drilled partway into a solid block and cannot be seen in the front view. How should it appear in that view of a multiview drawing?",
+        "choices": ["It should be left out entirely", "With solid object lines", "With dashed hidden lines and a center line", "With section hatching on the whole block"],
+        "answer": 2,
+        "explanation": "Edges behind the visible surface are drawn as dashed hidden lines, and the hole's axis is marked with a center line."
+      }
+    ],
+    "flashcards": [
+      { "term": "Criteria", "definition": "The goals a design should meet, used to judge and compare solutions, such as being light, quiet or low cost." },
+      { "term": "Constraint", "definition": "A fixed limit a design must respect, such as a maximum size, a budget or the materials allowed." },
+      { "term": "Decision matrix", "definition": "A table that scores design ideas against weighted criteria to choose the best option objectively." },
+      { "term": "Tolerance", "definition": "The allowed variation in a dimension, such as 25.0 ± 0.1 mm, within which a part is acceptable." },
+      { "term": "Orthographic projection", "definition": "A drawing method that shows an object in separate 2D views, usually front, top and right side, aligned with each other." }
+    ]
+  }
+]

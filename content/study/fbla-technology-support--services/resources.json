@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Computer Basics",
+    "url": "https://edu.gcfglobal.org/en/COMPUTERBASICS/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Free course on hardware, operating systems and setup for help desk troubleshooting."
+  },
+  {
+    "title": "Introduction to Computer Science: Computer Systems Organization",
+    "url": "https://openstax.org/books/introduction-computer-science/pages/5-1-computer-systems-organization",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Explains processors, memory, storage and input/output so you can reason about hardware faults."
+  },
+  {
+    "title": "Secure Your Business",
+    "url": "https://www.cisa.gov/secure-our-world/secure-your-business",
+    "publisher": "CISA",
+    "kind": "reference",
+    "note": "CISA steps such as updates, multifactor authentication and backups that support staff help users with."
+  }
+]

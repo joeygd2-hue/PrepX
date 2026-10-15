@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Scene safety, assessment, and activating emergency response",
+    "objective": "Evaluate scene safety, assess responsiveness and breathing, and activate emergency medical services in the correct order for an adult emergency.",
+    "body": "Every first aid and CPR scenario starts the same way, and judges watch closely to see whether you follow the sequence. A rescuer who skips a step, even with good intentions, can become a second victim or delay care that matters most.\n\n**Scene safety.** Before touching anyone, stop and look for hazards such as traffic, fire, downed power lines, unstable structures, aggressive animals or toxic fumes. If the scene is unsafe and you cannot make it safe, stay back and call for help. Put on **personal protective equipment (PPE)**, especially disposable gloves, whenever you might contact blood or body fluids. These steps follow **standard precautions**, which means treating all body fluids as potentially infectious.\n\n**Checking the person.** Tap the shoulder and shout, \"Are you okay?\" to check **responsiveness**. If there is no response, shout for nearby help and activate emergency services. Then check breathing by scanning the chest for rise and fall for no more than 10 seconds. A person who is unresponsive with no breathing or only **agonal breathing** (irregular gasps) needs CPR. Agonal gasps are not normal breathing; they are a sign of cardiac arrest.\n\n**Activating EMS.** Call 911 (or the local emergency number) and send someone to get an **AED** (automated external defibrillator). If you are alone with a phone, put it on speaker so you can call and start care at the same time. The dispatcher can coach you through CPR.\n\n**Consent.** A responsive adult must give permission before you help. Identify yourself, state your training level and ask. **Implied consent** applies when a person is unresponsive or cannot answer, because a reasonable person would want help. For a child, ask a parent or guardian when one is present. If a responsive adult refuses care, respect the refusal, stay nearby and still call EMS if the situation is serious.\n\n**Legal protection.** Most states have **Good Samaritan laws** that protect people who give reasonable care in good faith, within their training, without expecting payment. Once you begin care, do not abandon the person until someone with equal or higher training takes over.\n\nThe usual order to remember:\n1. Check the scene for safety and put on PPE.\n2. Check responsiveness and shout for help.\n3. Call 911 and get an AED.\n4. Check breathing for no more than 10 seconds.\n5. Begin care based on what you find.\n\nThe most common mistake students make is rushing straight to the person and starting compressions before checking that the scene is safe, which test writers frequently reward as the wrong answer.",
+    "examples": [
+      "A student sees a cyclist down in a busy intersection; she waits for traffic to stop and puts on gloves before approaching.",
+      "An unresponsive man is making occasional snoring gasps; the rescuer recognizes agonal breathing, calls 911 on speaker and begins CPR.",
+      "A conscious adult with a cut hand says no to help; the rescuer respects the refusal and remains nearby."
+    ],
+    "questions": [
+      {
+        "stem": "You arrive at a car crash and see a person slumped in the driver's seat. Smoke is coming from the engine. What should you do first?",
+        "choices": [
+          "Open the door and check for breathing",
+          "Assess whether the scene is safe to approach",
+          "Start chest compressions in the seat",
+          "Ask the person for consent to help"
+        ],
+        "answer": 1,
+        "explanation": "Scene safety always comes first; smoke signals a possible fire hazard. Checking breathing is important but only after you confirm you can approach safely."
+      },
+      {
+        "stem": "An adult collapses in a cafeteria. You tap and shout, and there is no response. What is your next action?",
+        "choices": [
+          "Check for a pulse for 30 seconds",
+          "Shout for help and have someone call 911 and get an AED",
+          "Give two rescue breaths",
+          "Place the person in the recovery position"
+        ],
+        "answer": 1,
+        "explanation": "After finding unresponsiveness, activate help and get an AED. A 30-second pulse check is too long and wastes time before CPR."
+      },
+      {
+        "stem": "An unresponsive woman takes an irregular gasp every several seconds. How should you interpret this?",
+        "choices": [
+          "She is breathing normally and needs monitoring",
+          "She is likely in cardiac arrest and needs CPR",
+          "She is choking and needs abdominal thrusts",
+          "She is having a seizure and should be restrained"
+        ],
+        "answer": 1,
+        "explanation": "Agonal gasps are not normal breathing and signal cardiac arrest. Treating them as normal breathing is a classic error that delays CPR."
+      },
+      {
+        "stem": "What is the maximum time you should spend checking for breathing in an unresponsive adult?",
+        "choices": [
+          "5 seconds",
+          "30 seconds",
+          "10 seconds",
+          "1 minute"
+        ],
+        "answer": 2,
+        "explanation": "Guidelines limit the breathing check to no more than 10 seconds to avoid delaying compressions; 30 seconds wastes critical time."
+      },
+      {
+        "stem": "A teenager at a track meet is unconscious after falling. No parent is nearby. Which type of consent allows you to help?",
+        "choices": [
+          "Expressed consent",
+          "Informed refusal",
+          "Implied consent",
+          "Parental consent by phone"
+        ],
+        "answer": 2,
+        "explanation": "Implied consent applies when a person cannot respond. Expressed consent requires the person to agree verbally, which is impossible here."
+      },
+      {
+        "stem": "A conscious adult with a sprained ankle refuses your help. What should you do?",
+        "choices": [
+          "Treat the injury anyway because it is minor",
+          "Respect the refusal and stay nearby, calling EMS if needed",
+          "Leave the scene immediately",
+          "Wait until the person faints and then treat"
+        ],
+        "answer": 1,
+        "explanation": "A competent adult may refuse care. Treating anyway ignores the refusal and could be considered battery."
+      },
+      {
+        "stem": "You are alone with an unresponsive, non-breathing adult and have a cell phone. What is the best approach?",
+        "choices": [
+          "Run to find a landline",
+          "Start CPR for five minutes before calling",
+          "Call 911 on speakerphone and begin CPR",
+          "Drive the person to the hospital"
+        ],
+        "answer": 2,
+        "explanation": "Speakerphone lets you activate EMS and start CPR without delay. Waiting five minutes to call delays defibrillation and advanced care."
+      },
+      {
+        "stem": "Which situation is most likely to be protected by Good Samaritan laws?",
+        "choices": [
+          "A trained bystander gives reasonable CPR at no charge",
+          "A bystander performs surgery to remove an object",
+          "A rescuer charges a fee for first aid",
+          "A rescuer leaves a victim mid-care to go home"
+        ],
+        "answer": 0,
+        "explanation": "Good Samaritan laws protect reasonable, good-faith care within one's training and without payment. Acting beyond training, such as surgery, is not protected."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Standard precautions",
+        "definition": "Treating all blood and body fluids as potentially infectious and using PPE such as gloves."
+      },
+      {
+        "term": "Agonal breathing",
+        "definition": "Irregular, gasping breaths in an unresponsive person that signal cardiac arrest, not normal breathing."
+      },
+      {
+        "term": "Implied consent",
+        "definition": "Permission assumed when a person is unresponsive or unable to respond, because a reasonable person would want help."
+      },
+      {
+        "term": "Good Samaritan laws",
+        "definition": "State laws protecting people who give reasonable, good-faith emergency care within their training without pay."
+      },
+      {
+        "term": "AED",
+        "definition": "Automated external defibrillator; a portable device that analyzes heart rhythm and delivers a shock if needed."
+      }
+    ]
+  }
+]

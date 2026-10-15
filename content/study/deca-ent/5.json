@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Growing, protecting and exiting a business",
+    "objective": "Choose growth strategies, judge unit economics, manage early hiring and risk, and plan a realistic exit.",
+    "body": "The Business Growth Plan, the role-plays and the hardest exam questions focus on what happens after launch: how to grow without breaking the business, how to protect it and how owners eventually move on.\n\n**Growth strategies.** The *Ansoff matrix* sorts growth into four options:\n- *Market penetration*: sell more of current products to current customers, such as with loyalty programs.\n- *Market development*: take current products to new markets, such as new cities or customer groups.\n- *Product development*: create new products for current customers.\n- *Diversification*: new products for new markets, the riskiest option.\n\nCompanies grow *organically* from their own operations or *inorganically* through mergers, acquisitions, licensing, franchising their concept or strategic alliances. *Vertical integration* takes over a step in the supply chain, either *backward* toward suppliers or *forward* toward customers; *horizontal integration* combines with a competitor at the same level.\n\n**Unit economics.** Growth helps only if each customer is profitable. *Customer acquisition cost (CAC)* = sales and marketing spending ÷ new customers gained. *Customer lifetime value (LTV)* is the gross profit a customer brings over the whole relationship, such as monthly gross profit × average months retained. A common rule of thumb is that LTV should be at least about three times CAC. A *scalable* business can grow revenue faster than its costs.\n\n**People and operations.** Early hires should fill skill gaps the founder lacks. Owners choose between *employees* (more control, payroll taxes and benefits) and *independent contractors* (flexibility, less control). As the company grows, the founder shifts from doing the work to building systems, written procedures and a management team.\n\n**Risk.** Small businesses face property, liability, cyber and key-person risks. Common coverage includes general liability, commercial property, *business interruption insurance* (replaces lost income while a business is closed after covered damage) and workers' compensation where required. *Key-person insurance* pays the business if a vital owner or employee dies.\n\n**Exit strategies.** Owners can sell to a larger company (*acquisition*), sell to managers or employees, pass the business on through a *succession plan*, take it public through an *initial public offering (IPO)*, or close and sell the assets (*liquidation*). Investors want a realistic exit because that is how they earn their return.\n\nA common mistake is growing sales faster than cash and systems can support. Rapid growth needs more inventory, staff and working capital before the extra revenue arrives.",
+    "examples": [
+      "Unit economics: A meal-kit startup spends $30,000 on marketing to gain 600 customers, so CAC = $50. Each customer brings $20 of gross profit a month and stays 9 months, so LTV = $180, a healthy 3.6-to-1 ratio.",
+      "Ansoff: A popular taco shop in one city opens a second location in a nearby city with the same menu. Same product, new market: market development.",
+      "A coffee roaster that buys its own coffee farm is integrating backward; one that opens its own cafés is integrating forward."
+    ],
+    "questions": [
+      {
+        "stem": "A fitness app spent $24,000 on ads and promotions last quarter and gained 800 new subscribers. What was its customer acquisition cost?",
+        "choices": ["$30", "$33.33", "$300", "$3"],
+        "answer": 0,
+        "explanation": "CAC = marketing spending ÷ new customers = $24,000 ÷ 800 = $30 per subscriber."
+      },
+      {
+        "stem": "A subscription box earns $15 in gross profit per customer each month, customers stay 12 months on average, and customer acquisition cost is $45. What is the LTV-to-CAC ratio?",
+        "choices": ["4 to 1", "3 to 1", "1 to 4", "12 to 1"],
+        "answer": 0,
+        "explanation": "LTV = $15 × 12 = $180. LTV ÷ CAC = $180 ÷ $45 = 4, a 4-to-1 ratio, above the common 3-to-1 benchmark."
+      },
+      {
+        "stem": "A pizza shop launches a punch-card loyalty program to get its existing customers to order more often. Which Ansoff growth strategy is this?",
+        "choices": ["Market penetration", "Market development", "Product development", "Diversification"],
+        "answer": 0,
+        "explanation": "Selling more of the current product to current customers is market penetration, the lowest-risk quadrant of the Ansoff matrix."
+      },
+      {
+        "stem": "A dog-treat company starts selling dog shampoo to the same pet owners who already buy its treats. Which Ansoff growth strategy is this?",
+        "choices": ["Product development", "Market penetration", "Market development", "Diversification"],
+        "answer": 0,
+        "explanation": "A new product for the existing customer base is product development. Diversification would mean a new product for a new market."
+      },
+      {
+        "stem": "According to the Ansoff matrix, which growth move by a bike shop carries the most risk?",
+        "choices": ["Launching a coffee subscription for office workers", "Offering a tune-up discount to current customers", "Opening the same store format in a nearby town", "Adding e-bikes for its existing customers"],
+        "answer": 0,
+        "explanation": "A coffee subscription for office workers is a new product in a new market, which is diversification, the riskiest quadrant. The others build on current products or customers."
+      },
+      {
+        "stem": "A clothing brand that sells through department stores buys the factory that sews its shirts. What type of growth is this?",
+        "choices": ["Backward vertical integration", "Forward vertical integration", "Horizontal integration", "Market development"],
+        "answer": 0,
+        "explanation": "Buying a supplier moves the company back up its supply chain, which is backward vertical integration. Opening its own stores would be forward integration."
+      },
+      {
+        "stem": "At a small engineering firm, the founder brings in most clients and holds key technical knowledge. Which insurance protects the business financially if the founder dies?",
+        "choices": ["Key-person life insurance", "Workers' compensation insurance", "Commercial property insurance", "Product liability insurance"],
+        "answer": 0,
+        "explanation": "Key-person insurance pays the business when a vital owner or employee dies, giving it money to recruit a replacement and cover lost income."
+      },
+      {
+        "stem": "A bakery's ovens are destroyed in a kitchen fire, and it must close for two months while repairs are made. Which coverage replaces the income it loses during the closure?",
+        "choices": ["Business interruption insurance", "General liability insurance", "Key-person insurance", "Workers' compensation insurance"],
+        "answer": 0,
+        "explanation": "Business interruption insurance replaces lost income and helps pay ongoing expenses while a business is closed after covered damage. Property insurance covers the ovens themselves."
+      },
+      {
+        "stem": "A store owner who plans to retire arranges for her longtime manager to take over and buy the business gradually over five years. What type of exit is this?",
+        "choices": ["A planned sale to management through succession", "An initial public offering", "Liquidation of the business assets", "A horizontal merger with a competitor"],
+        "answer": 0,
+        "explanation": "Selling to an insider such as a manager, guided by a succession plan, keeps the business running under new ownership. Liquidation closes it; an IPO sells shares to the public."
+      },
+      {
+        "stem": "After a video goes viral, a startup's orders triple overnight, but it must pay for materials 60 days before customers pay. What is the greatest immediate danger?",
+        "choices": ["Running out of cash to fund the extra production", "Being unable to find interested customers", "Its gross margin automatically falling to zero", "Losing its trademark protection"],
+        "answer": 0,
+        "explanation": "Fast growth requires paying for materials and labor before revenue arrives, so a profitable but growing firm can run out of cash. Demand is clearly not the problem here."
+      }
+    ],
+    "flashcards": [
+      { "term": "Ansoff matrix", "definition": "A growth framework with four options: market penetration, market development, product development and diversification." },
+      { "term": "Customer acquisition cost (CAC)", "definition": "Total sales and marketing spending divided by the number of new customers gained." },
+      { "term": "Customer lifetime value (LTV)", "definition": "The total gross profit a business expects from one customer over the whole relationship." },
+      { "term": "Vertical integration", "definition": "Growing by taking over a step in the supply chain, either backward toward suppliers or forward toward customers." },
+      { "term": "Business interruption insurance", "definition": "Coverage that replaces lost income and ongoing expenses while a business is closed after covered damage." },
+      { "term": "Exit strategy", "definition": "An owner's plan to leave the business, such as selling it, passing it on, going public or liquidating." }
+    ]
+  }
+]

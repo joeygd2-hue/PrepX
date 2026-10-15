@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Spreadsheets: formulas, functions and charts",
+    "objective": "Build accurate spreadsheet formulas with the right references and functions, interpret error values and choose a fitting chart.",
+    "body": "Spreadsheet items are among the most common on the Computer Applications test, and many ask you to predict a formula's result. Work them like math problems: read every cell reference, apply the order of operations and check your answer.\n\n**Formulas and order of operations.** Every formula begins with an equal sign. Spreadsheets follow the order of operations: parentheses first, then exponents (^), then multiplication and division from left to right, then addition and subtraction from left to right. So =2+3*4 returns 14, while =(2+3)*4 returns 20.\n\n**Cell references.** When a formula is copied, a *relative reference* such as A1 adjusts to its new position. An *absolute reference* such as $A$1 stays fixed, which you need when every row must use one tax rate or one grand total. A *mixed reference* locks only the column ($A1) or only the row (A$1). A *range* such as B2:B10 includes every cell from B2 through B10.\n\n**Core functions.**\n- SUM, AVERAGE, MIN and MAX work on a range of numbers.\n- COUNT counts cells that contain numbers; COUNTA counts cells that are not empty.\n- IF(test, value_if_true, value_if_false) returns one of two results, as in =IF(B2>=70,\"Pass\",\"Retake\").\n- VLOOKUP and XLOOKUP find a value in a table, such as the price that matches a product code.\n- ROUND(number, digits) rounds a value to a set number of decimal places.\n\n**Error values.** *#DIV/0!* means a formula divided by zero or by an empty cell. *#NAME?* means the program does not recognize text in the formula, often a misspelled function. *#REF!* means a referenced cell was deleted. *#VALUE!* means the wrong type of data, such as text in a math formula. *#N/A* means a lookup found no match. A cell filled with ##### usually just needs a wider column.\n\n**Organizing and presenting data.** *Sort* reorders rows; *filter* temporarily hides rows that do not meet criteria without deleting them. *Freeze panes* keeps headings visible while you scroll. *Conditional formatting* changes a cell's appearance when its value meets a rule. Choose charts by purpose: a *column or bar chart* compares categories, a *line chart* shows change over time, a *pie chart* shows the parts of one whole, and a *scatter chart* shows the relationship between two numeric variables.\n\n**Common mistake:** forgetting the dollar signs. Copying =B2*D1 down a column turns D1 into D2, D3 and so on; =B2*$D$1 keeps every row pointed at the rate in D1.",
+    "examples": [
+      "Sales tax: prices are in B2:B20 and the 6% rate is in E1. Entering =B2*$E$1 in C2 and copying it down to C20 calculates tax for every row; a $25.00 item shows $1.50.",
+      "Grades: =IF(AVERAGE(B2:E2)>=90,\"A range\",\"Below A\") checks a student whose four scores are 92, 88, 95 and 89. Their sum is 364, the average is 364 ÷ 4 = 91, so the cell shows \"A range.\"",
+      "A pie chart works for one month's budget split into rent, food and savings, but a line chart is better for showing savings growth from January through June."
+    ],
+    "questions": [
+      {
+        "stem": "What value does the formula =4+6*2-8/4 return?",
+        "choices": ["18", "3", "14", "2"],
+        "answer": 2,
+        "explanation": "Multiplication and division come first: 6*2 = 12 and 8/4 = 2. Then 4 + 12 − 2 = 14."
+      },
+      {
+        "stem": "Cell C2 contains =B2*$E$1. If the formula is copied down to C5, what will C5 contain?",
+        "choices": ["=B5*$E$1", "=B2*$E$1", "=B5*$E$4", "=B5*E4"],
+        "answer": 0,
+        "explanation": "The relative reference B2 shifts three rows to B5, while the absolute reference $E$1 stays fixed."
+      },
+      {
+        "stem": "Cells A1:A6 contain 12, the text \"pending\", 8, an empty cell, 20 and 0. What does =COUNT(A1:A6) return?",
+        "choices": ["5", "6", "3", "4"],
+        "answer": 3,
+        "explanation": "COUNT counts only cells holding numbers: 12, 8, 20 and 0, which is 4. COUNTA would also count the text cell and return 5."
+      },
+      {
+        "stem": "Cell B2 holds 65. What does =IF(B2>=70,\"Pass\",\"Retake\") display?",
+        "choices": ["Pass", "Retake", "FALSE", "#VALUE!"],
+        "answer": 1,
+        "explanation": "The test 65 >= 70 is false, so the function returns the value_if_false argument, \"Retake.\""
+      },
+      {
+        "stem": "A user types =SUMM(B2:B9) into a cell. Which error value appears?",
+        "choices": ["#NAME?", "#REF!", "#DIV/0!", "#VALUE!"],
+        "answer": 0,
+        "explanation": "#NAME? appears when the program does not recognize a function name, such as the misspelled SUMM. #REF! signals a reference to a deleted cell."
+      },
+      {
+        "stem": "Which chart best shows how a store's monthly sales changed from January through December?",
+        "choices": ["Pie chart", "Scatter chart", "Doughnut chart", "Line chart"],
+        "answer": 3,
+        "explanation": "Line charts show trends over time. Pie and doughnut charts show parts of a single whole, not change across months."
+      },
+      {
+        "stem": "A sales worksheet has 2,000 rows. A manager wants to see only the rows for the West region without deleting any data. Which feature should be used?",
+        "choices": ["Sort", "Freeze panes", "Filter", "Merge cells"],
+        "answer": 2,
+        "explanation": "A filter temporarily hides rows that do not match the criteria and leaves all data intact. Sorting reorders rows but still shows every region."
+      },
+      {
+        "stem": "Cells B2:B5 contain 80, 90, 70 and 100. What does =ROUND(AVERAGE(B2:B5)/3,1) return?",
+        "choices": ["28.33", "28.3", "85", "28"],
+        "answer": 1,
+        "explanation": "The average is (80 + 90 + 70 + 100) ÷ 4 = 340 ÷ 4 = 85. Then 85 ÷ 3 = 28.333..., which rounds to one decimal place as 28.3."
+      }
+    ],
+    "flashcards": [
+      { "term": "Absolute reference", "definition": "A cell reference with dollar signs, such as $A$1, that stays fixed when a formula is copied." },
+      { "term": "Mixed reference", "definition": "A cell reference that locks only the column ($A1) or only the row (A$1) when a formula is copied." },
+      { "term": "COUNTA", "definition": "A spreadsheet function that counts all non-empty cells in a range, including text as well as numbers." },
+      { "term": "#REF! error", "definition": "An error value showing that a formula refers to a cell that is no longer valid, often because it was deleted." },
+      { "term": "Conditional formatting", "definition": "Formatting that changes a cell's appearance automatically when its value meets a set rule." }
+    ]
+  }
+]

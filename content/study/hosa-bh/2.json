@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Recognizing common disorders and supporting someone in crisis",
+    "objective": "Identify key features of anxiety, mood, trauma-related and substance use disorders, and apply safe steps to support a person showing warning signs of suicide.",
+    "body": "Once you understand risk and protective factors, the next skill is recognizing patterns. Many disorders share symptoms, so focus on the defining feature of each group and on how long symptoms last.\n\n**Anxiety disorders** involve fear or worry that is excessive and hard to control. **Generalized anxiety disorder (GAD)** features persistent worry about many topics on most days for at least six months, often with restlessness, fatigue and muscle tension. **Panic disorder** involves recurrent, unexpected panic attacks (sudden surges of fear with racing heart, shortness of breath or dizziness) plus ongoing worry about future attacks. Specific phobias and social anxiety disorder center on particular situations.\n\n**Mood disorders** affect emotional state. **Major depressive disorder** requires at least two weeks of depressed mood or loss of interest (**anhedonia**) plus other symptoms such as sleep or appetite change, low energy, poor concentration, feelings of worthlessness or thoughts of death. **Bipolar disorder** involves episodes of mania or hypomania, periods of elevated or irritable mood, decreased need for sleep and risky behavior, usually alternating with depression.\n\n**Trauma-related disorders.** **Post-traumatic stress disorder (PTSD)** can follow exposure to actual or threatened death, serious injury or sexual violence. Its four symptom clusters are intrusion (flashbacks, nightmares), avoidance, negative changes in thinking and mood, and changes in arousal and reactivity, lasting more than one month.\n\n**Substance use disorders** are diagnosed by a pattern such as loss of control, continued use despite harm, craving, **tolerance** (needing more for the same effect) and **withdrawal** (symptoms when use stops). Severity is rated mild, moderate or severe based on how many criteria are met.\n\n**Responding to suicide warning signs.** Warning signs include talking about wanting to die or being a burden, giving away possessions, withdrawing, sudden calm after deep depression, and searching for means. A helpful sequence is:\n1. Ask directly: \"Are you thinking about killing yourself?\" Research shows asking does not plant the idea.\n2. Listen without judgment and take every statement seriously.\n3. Help keep them safe by reducing access to lethal means.\n4. Connect them to help, such as a trusted adult, counselor, or the **988 Suicide & Crisis Lifeline** (call or text 988 in the U.S.). Call 911 if danger is immediate.\n5. Follow up afterward.\n\nNever promise to keep suicidal thoughts secret; safety outranks confidentiality between friends.\n\nThe most common mistake students make is confusing ordinary sadness or nervousness with a disorder. The deciding factors are duration, intensity and impairment: a bad week after a breakup is not major depression, but two weeks of anhedonia that disrupts school may be.",
+    "examples": [
+      "A student who has worried daily for eight months about grades, health and family, with tension headaches and trouble sleeping, shows a pattern consistent with GAD.",
+      "A friend texts that everyone would be better off without her; you ask directly about suicide, stay with her, and together call 988 while telling a trusted adult."
+    ],
+    "questions": [
+      {
+        "stem": "Liam has had sudden episodes of pounding heart, chest tightness and fear of dying, and he now avoids the mall in case it happens again. Which condition best fits?",
+        "choices": [
+          "Generalized anxiety disorder",
+          "Panic disorder",
+          "Bipolar disorder",
+          "Specific phobia of malls"
+        ],
+        "answer": 1,
+        "explanation": "Recurrent unexpected panic attacks plus worry about future attacks define panic disorder. GAD involves broad ongoing worry, not discrete surges of fear."
+      },
+      {
+        "stem": "Which symptom is required for a diagnosis of major depressive disorder?",
+        "choices": [
+          "Depressed mood or loss of interest for at least two weeks",
+          "Hallucinations lasting one month",
+          "A panic attack",
+          "Elevated mood for four days"
+        ],
+        "answer": 0,
+        "explanation": "MDD requires depressed mood or anhedonia for at least two weeks. Elevated mood describes hypomania, which points to bipolar disorder."
+      },
+      {
+        "stem": "A veteran has nightmares, avoids crowds and startles easily for three months after combat. Which diagnosis is most consistent?",
+        "choices": [
+          "Panic disorder",
+          "Generalized anxiety disorder",
+          "Post-traumatic stress disorder",
+          "Major depressive disorder"
+        ],
+        "answer": 2,
+        "explanation": "Intrusion, avoidance and hyperarousal after trauma lasting over a month fit PTSD. Panic disorder lacks the trauma link and symptom clusters."
+      },
+      {
+        "stem": "A friend tells you she has been thinking about ending her life but begs you not to tell anyone. What is the best response?",
+        "choices": [
+          "Promise secrecy so she keeps trusting you",
+          "Change the subject to cheer her up",
+          "Tell her she is overreacting",
+          "Stay with her and connect her with a trusted adult or 988"
+        ],
+        "answer": 3,
+        "explanation": "Safety outranks secrecy, so connect her to help. Promising secrecy is the tempting choice, but it leaves her at risk without support."
+      },
+      {
+        "stem": "Someone needs more and more alcohol to feel the same effect. This describes:",
+        "choices": [
+          "Withdrawal",
+          "Craving",
+          "Tolerance",
+          "Relapse"
+        ],
+        "answer": 2,
+        "explanation": "Tolerance means a larger amount is needed for the same effect. Withdrawal describes symptoms when use stops, not reduced effect."
+      },
+      {
+        "stem": "Which is a recognized suicide warning sign?",
+        "choices": [
+          "Sudden calm after a long period of deep depression",
+          "Joining a new club",
+          "Asking for homework help",
+          "Sleeping in on a weekend"
+        ],
+        "answer": 0,
+        "explanation": "A sudden calm can signal a decision to die. The other choices are normal behaviors without added concern."
+      },
+      {
+        "stem": "A peer worries that asking a friend directly about suicide could give him the idea. Which response is accurate?",
+        "choices": [
+          "Asking is risky and should be avoided",
+          "Asking directly does not increase risk and can open a conversation",
+          "Only doctors are allowed to ask",
+          "Hint at the topic instead of asking"
+        ],
+        "answer": 1,
+        "explanation": "Research shows direct asking does not plant the idea and can lower distress. Hinting is less effective because it leaves the person unsure whether it is safe to answer honestly."
+      },
+      {
+        "stem": "Ana has had a week of sleeping three hours a night, racing ideas, and spending her savings, after months of depression. What should a health worker suspect?",
+        "choices": [
+          "Generalized anxiety disorder",
+          "PTSD",
+          "Substance tolerance",
+          "Bipolar disorder"
+        ],
+        "answer": 3,
+        "explanation": "Decreased need for sleep, racing thoughts and risky spending suggest mania, part of bipolar disorder. GAD involves worry, not elevated energy and impulsivity."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Anhedonia",
+        "definition": "Loss of interest or pleasure in activities once enjoyed; a core symptom of depression."
+      },
+      {
+        "term": "Panic disorder",
+        "definition": "Recurrent unexpected panic attacks followed by persistent worry about future attacks."
+      },
+      {
+        "term": "Tolerance",
+        "definition": "Needing increasing amounts of a substance to achieve the same effect."
+      },
+      {
+        "term": "Withdrawal",
+        "definition": "Physical or psychological symptoms that occur when regular substance use is reduced or stopped."
+      },
+      {
+        "term": "988 Suicide & Crisis Lifeline",
+        "definition": "The U.S. three-digit number to call or text for immediate support during a suicidal or mental health crisis."
+      }
+    ]
+  }
+]

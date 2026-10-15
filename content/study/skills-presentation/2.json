@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Designing visual aids and slides",
+    "objective": "Create slides and visuals that support your message without competing with you.",
+    "body": "Many presentation events allow slides, posters, displays or models, and judges score whether visuals help the audience understand. Good visuals clarify; poor ones distract, weaken your credibility and pull eyes away from you.\n\n**You are the presentation; slides are support.** If the audience can get everything by reading your slides, they do not need you. Put key words, images and data on the slide, and say the explanation aloud.\n\n**One idea per slide.** Give each slide a headline that states its point, such as 'Wait times fell 40 percent in the pilot,' rather than a vague label like 'Results.' A short, specific headline tells judges what to take away even if they only glance at it.\n\n**Make it readable from the back.** Use large text (a common guideline is at least 24-point for body text), only a few words per line and high contrast, such as dark text on a light background. Avoid busy backgrounds and stick to one or two fonts. Test a slide by stepping well back from your screen; if you have to squint, so will the judges.\n\n**Choose the right chart.** Match the chart to the message:\n- *Bar chart* for comparing amounts across categories.\n- *Line chart* for showing change over time.\n- *Pie chart* for parts of one whole, with only a few slices.\nLabel axes, remove clutter and highlight the one bar or point that matters most.\n\n**Use images with purpose and permission.** A strong photo can replace a paragraph, but use images you created, have permission to use or that are openly licensed, and credit sources when required. Many rubrics check for proper citation.\n\n**Plan for technical failure.** Bring your file in more than one form if the rules permit, check the setup early and know your talk well enough to deliver it without the screen. A calm recovery earns more respect than a perfect slide deck.\n\n**Rehearse with the slides.** Practice advancing through them so transitions feel natural and you face the audience, not the screen.\n\nA common mistake is reading slides word for word with your back to the judges. Glance at the slide, then turn and talk to people.",
+    "examples": [
+      "Before: a slide titled Survey with six full-sentence bullets. After: the headline 7 in 10 students skip breakfast above a single bar chart comparing grades 9 through 12.",
+      "Monthly app downloads from January to June call for a line chart, while downloads compared across four schools call for a bar chart."
+    ],
+    "questions": [
+      {
+        "stem": "You want to show how a club's membership changed each month across a school year. Which visual fits best?",
+        "choices": [
+          "Pie chart",
+          "Organizational chart",
+          "Line chart",
+          "Venn diagram"
+        ],
+        "answer": 2,
+        "explanation": "Line charts show how a value changes over time. A pie chart shows parts of one whole at a single moment, not a trend."
+      },
+      {
+        "stem": "Which slide headline is most effective for a results slide?",
+        "choices": [
+          "Results",
+          "Pilot program cut wait times 40 percent",
+          "Some data from our study this year",
+          "Slide 6: Information"
+        ],
+        "answer": 1,
+        "explanation": "A headline that states the takeaway tells judges exactly what the slide proves. The others name a topic without making a point."
+      },
+      {
+        "stem": "Your slides contain full paragraphs that you plan to read aloud. What is the best revision?",
+        "choices": [
+          "Shrink the font so that more text fits on each slide",
+          "Add more paragraphs so judges can see every fact",
+          "Cut slides to key words and visuals and speak the details",
+          "Turn toward the screen so you can read more accurately"
+        ],
+        "answer": 2,
+        "explanation": "Slides should support the speaker, not replace them. Key words and visuals keep the audience listening to you instead of reading ahead."
+      },
+      {
+        "stem": "Minutes before you present, the projector stops working. Which response best shows preparation?",
+        "choices": [
+          "Deliver the talk from your notes and use printed visuals if allowed",
+          "Ask the judges to move your presentation to a later time",
+          "Spend your presentation time trying to fix the projector",
+          "Apologize repeatedly and shorten your talk to a quick summary"
+        ],
+        "answer": 0,
+        "explanation": "Knowing your content well enough to present without the screen, with a permitted backup, turns a failure into a show of composure."
+      }
+    ],
+    "flashcards": [
+      { "term": "Slide headline", "definition": "A short sentence at the top of a slide that states the slide's main point, not just its topic." },
+      { "term": "Contrast", "definition": "The difference between text and background colors; high contrast keeps slides readable from a distance." },
+      { "term": "Bar chart", "definition": "A chart that compares amounts across separate categories using bars of different lengths." },
+      { "term": "Line chart", "definition": "A chart that shows how a value changes over time by connecting data points." },
+      { "term": "Openly licensed image", "definition": "An image whose creator allows reuse under stated conditions, such as giving credit." }
+    ]
+  }
+]

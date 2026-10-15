@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Personal Health Records vs. EHRs vs. EMRs",
+    "url": "https://www.healthit.gov/faq/what-difference-between-personal-health-record-electronic-health-record-and-electronic-medical",
+    "publisher": "HealthIT.gov (ONC)",
+    "kind": "reference",
+    "note": "How EHRs, EMRs and personal health records differ, a core health informatics distinction."
+  },
+  {
+    "title": "Summary of the HIPAA Privacy Rule",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html",
+    "publisher": "U.S. HHS",
+    "kind": "reference",
+    "note": "HHS summary of HIPAA privacy rules for protected health information."
+  },
+  {
+    "title": "Principles of Data Science",
+    "url": "https://openstax.org/details/books/principles-data-science",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on data collection, analysis, visualization and ethics, with health examples."
+  }
+]

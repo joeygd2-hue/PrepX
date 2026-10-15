@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Foundations of Data Science and the Data Lifecycle",
+    "objective": "Explain the stages of the data science lifecycle and identify appropriate data types, collection methods, and cleaning techniques for a given business scenario.",
+    "body": "**Data science** is the interdisciplinary field that uses statistical methods, programming, and domain knowledge to extract actionable insights from data. At its core, every data science project follows a repeatable process called the **data science lifecycle**, which guides practitioners from raw, messy information to reliable conclusions.\n\nThe lifecycle typically begins with **problem definition** — articulating a clear, measurable business question. Without a well-scoped question, even the most sophisticated analysis produces noise. Next comes **data collection**, which may involve scraping websites, querying databases, conducting surveys, or using APIs to pull records from external services. The source and method of collection directly affect the quality of everything that follows.\n\nData rarely arrives in a usable state. The **data wrangling** or **data cleaning** stage addresses missing values, duplicate records, inconsistent formatting, and outliers. Analysts might use **imputation** to fill gaps, remove rows that cannot be recovered, or flag anomalies for human review. This stage typically consumes 60–80% of a project's time.\n\nData comes in several fundamental types. **Structured data** fits neatly into rows and columns, like a spreadsheet of sales transactions. **Unstructured data** — emails, images, audio files — requires additional processing before analysis. **Semi-structured data**, such as JSON or XML files, has some organizational tags but doesn't conform to a strict schema. Understanding data type matters because it dictates which tools and algorithms are appropriate.\n\nVariables are further classified as **quantitative** (numeric, measurable) or **qualitative** (categorical, descriptive). Quantitative data subdivides into **continuous** (any value within a range, like temperature) and **discrete** (countable integers, like number of customers). Qualitative data may be **nominal** (no inherent order, like product color) or **ordinal** (ranked categories, like customer satisfaction levels).\n\nAfter cleaning, **exploratory data analysis (EDA)** uses summary statistics and visualizations to uncover patterns, spot anomalies, and generate hypotheses. Measures of **central tendency** — mean, median, and mode — describe a typical value, while measures of **spread** — range, variance, and **standard deviation** — describe how much values vary. A distribution that is pulled by extreme values is called **skewed**, and knowing its direction informs which summary statistic to trust.\n\nFinally, cleaned and explored data feeds into modeling or reporting, and conclusions loop back to refine the original question. This iterative nature is what makes data science both a discipline and a craft.",
+    "examples": [
+      "A retail company downloads point-of-sale records from 50 stores but finds that 3% of rows have null values in the 'price' column and 200 rows are exact duplicates — a data scientist applies imputation and deduplication before any analysis begins.",
+      "A student survey asks respondents to rate their stress level as Low, Medium, or High, producing ordinal qualitative data, while their hours of sleep per night produces continuous quantitative data.",
+      "During EDA on housing prices, an analyst notices the mean sale price is $420,000 but the median is $310,000, suggesting a right-skewed distribution caused by a small number of luxury properties pulling the average upward."
+    ],
+    "questions": [
+      {
+        "stem": "A dataset of customer ages contains several blank entries. Which data cleaning technique fills those gaps with an estimated value?",
+        "choices": [
+          "Deduplication",
+          "Normalization",
+          "Imputation",
+          "Binning"
+        ],
+        "answer": 2,
+        "explanation": "Imputation replaces missing values with an estimate such as the mean, median, or a model-predicted value. Deduplication removes duplicate rows and has no effect on missing values."
+      },
+      {
+        "stem": "An analyst finds the mean monthly revenue is much higher than the median. What does this most likely indicate about the distribution?",
+        "choices": [
+          "The data is normally distributed",
+          "The distribution is right-skewed",
+          "The distribution is left-skewed",
+          "The standard deviation is zero"
+        ],
+        "answer": 1,
+        "explanation": "When the mean exceeds the median, a few extremely high values are pulling the average up, which is the definition of a right-skewed distribution. A left-skewed distribution would show the mean below the median."
+      },
+      {
+        "stem": "Which stage of the data science lifecycle typically consumes the greatest proportion of a project's total time?",
+        "choices": [
+          "Problem definition",
+          "Model training",
+          "Data wrangling and cleaning",
+          "Result presentation"
+        ],
+        "answer": 2,
+        "explanation": "Data wrangling and cleaning often accounts for 60–80% of project time because real-world data is messy and must be made reliable before analysis. Model training, while computationally intensive, is usually faster once clean data is prepared."
+      },
+      {
+        "stem": "Customer satisfaction rated as 'Poor,' 'Fair,' 'Good,' or 'Excellent' is best classified as which data type?",
+        "choices": [
+          "Continuous quantitative",
+          "Nominal qualitative",
+          "Ordinal qualitative",
+          "Discrete quantitative"
+        ],
+        "answer": 2,
+        "explanation": "The categories have a meaningful rank order (Poor < Fair < Good < Excellent) but no consistent numeric difference between them, which defines ordinal qualitative data. Nominal data would have categories with no inherent order, such as color."
+      },
+      {
+        "stem": "A business analyst needs to understand the typical customer lifetime value AND how much that value varies across customers. Which two statistics best serve this combined need?",
+        "choices": [
+          "Mode and range",
+          "Mean and standard deviation",
+          "Median and skewness",
+          "Frequency and percentile"
+        ],
+        "answer": 1,
+        "explanation": "The mean measures central tendency (the typical value) while standard deviation measures spread (how much values deviate from that typical value). Mode describes the most frequent value, not spread, so that pair is incomplete."
+      },
+      {
+        "stem": "A social media platform stores each post as a mix of text, hashtags, timestamps, and like counts. This data is best described as:",
+        "choices": [
+          "Purely structured",
+          "Purely unstructured",
+          "Semi-structured",
+          "Ordinal"
+        ],
+        "answer": 2,
+        "explanation": "Semi-structured data has some organizational markers (timestamps, like counts in defined fields) alongside unstructured elements (free-form text). Purely structured data would fit entirely into rigid rows and columns."
+      },
+      {
+        "stem": "Which step in the data science lifecycle should directly precede data collection to ensure the project produces actionable results?",
+        "choices": [
+          "Model evaluation",
+          "Exploratory data analysis",
+          "Problem definition",
+          "Feature engineering"
+        ],
+        "answer": 2,
+        "explanation": "Problem definition establishes what question the data must answer, which determines what data to collect and from where. Collecting data before defining the problem often results in gathering irrelevant or insufficient information."
+      },
+      {
+        "stem": "A hospital records each patient's blood type (A, B, AB, O). Blood type is best classified as:",
+        "choices": [
+          "Continuous quantitative",
+          "Discrete quantitative",
+          "Nominal qualitative",
+          "Ordinal qualitative"
+        ],
+        "answer": 2,
+        "explanation": "Blood type categories have no inherent numerical value or meaningful rank order, making them nominal qualitative data. Ordinal data would require a meaningful ordering, such as severity levels, which blood type lacks."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Data Science Lifecycle",
+        "definition": "A repeatable, iterative process guiding a project from problem definition through data collection, cleaning, analysis, modeling, and result communication."
+      },
+      {
+        "term": "Imputation",
+        "definition": "A data cleaning technique that fills missing values with an estimate such as the mean, median, or a value predicted by a model."
+      },
+      {
+        "term": "Exploratory Data Analysis (EDA)",
+        "definition": "The practice of using summary statistics and visualizations to examine a dataset's structure, patterns, and anomalies before formal modeling."
+      },
+      {
+        "term": "Standard Deviation",
+        "definition": "A measure of spread that quantifies how much individual data values typically deviate from the dataset's mean."
+      },
+      {
+        "term": "Ordinal Data",
+        "definition": "A qualitative data type whose categories have a meaningful rank order but no consistent numeric difference between adjacent ranks."
+      }
+    ]
+  }
+]

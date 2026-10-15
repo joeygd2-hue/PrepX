@@ -1,0 +1,23 @@
+[
+  {
+    "title": "familydoctor.org",
+    "url": "https://familydoctor.org/",
+    "publisher": "American Academy of Family Physicians",
+    "kind": "reference",
+    "note": "The AAFP's patient education site; shows the conditions and preventive care family physicians handle."
+  },
+  {
+    "title": "Healthcare Occupations (Occupational Outlook Handbook)",
+    "url": "https://www.bls.gov/ooh/healthcare/",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "kind": "reference",
+    "note": "Physician training, duties, pay and outlook for the career side of the test."
+  },
+  {
+    "title": "MedlinePlus",
+    "url": "https://medlineplus.gov/",
+    "publisher": "MedlinePlus (NIH)",
+    "kind": "reference",
+    "note": "NIH consumer health library for quick reviews of common diseases, tests and drugs."
+  }
+]

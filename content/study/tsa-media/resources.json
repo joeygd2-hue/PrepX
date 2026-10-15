@@ -1,0 +1,23 @@
+[
+  {
+    "title": "What Is Copyright?",
+    "url": "https://www.copyright.gov/what-is-copyright/",
+    "publisher": "U.S. Copyright Office",
+    "kind": "reference",
+    "note": "U.S. Copyright Office basics on who owns creative work and what protection covers."
+  },
+  {
+    "title": "Fair Use FAQ",
+    "url": "https://www.copyright.gov/help/faq/faq-fairuse.html",
+    "publisher": "U.S. Copyright Office",
+    "kind": "reference",
+    "note": "When using clips, music or images in podcasts and videos may count as fair use."
+  },
+  {
+    "title": "Pixar in a Box",
+    "url": "https://www.khanacademy.org/partner-content/pixar",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Free Pixar course on storytelling, character and animation for video and story entries."
+  }
+]

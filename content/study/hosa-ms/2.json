@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Plurals, double letters and silent letter patterns",
+    "objective": "Apply Greek and Latin plural rules, recognize double-letter and silent-letter patterns, and correct frequently misspelled clinical terms.",
+    "body": "Once you can build words from parts, the next challenge is the set of spelling patterns that do not follow ordinary English habits. Medical terms keep the plural endings, doubled consonants and silent letters of their Greek and Latin origins, and these are exactly where competitors lose points.\n\n**Greek and Latin plurals.** Many singular endings change form in the plural instead of simply adding *-s*.\n- *-a* becomes *-ae*: vertebra, **vertebrae**; bursa, **bursae**.\n- *-us* becomes *-i*: bronchus, **bronchi**; alveolus, **alveoli**. (Virus and sinus are exceptions that take -es.)\n- *-um* becomes *-a*: bacterium, **bacteria**; ovum, **ova**.\n- *-is* becomes *-es*: diagnosis, **diagnoses**; metastasis, **metastases**.\n- *-ix* or *-ex* becomes *-ices*: appendix, **appendices**; cortex, **cortices**.\n- *-oma* becomes *-omata* or simply *-omas*: carcinomas and carcinomata are both accepted.\n- *-nx* becomes *-nges*: phalanx, **phalanges**; larynx, **larynges**.\n\nA classic trap is treating a plural as a singular. *Bacteria* is already plural, and *diagnoses* is the plural of *diagnosis*.\n\n**Double letters.** The suffixes beginning with *rrh* always double the r: **hemorrhage**, **diarrhea**, **hemorrhoid**, **amenorrhea**. Other words to memorize include **occlusion**, **accommodation**, **ellipsis**, **dissect** (dis + sect, two s's) and **innocuous**. When a word is built with a prefix ending in the same letter the root begins with, both letters stay, as in *dis* + *sect*. Conversely, avoid adding doubles that are not there: **desiccate** has one s and two c's, and **parallel** has a double l in the middle only.\n\n**Silent and unexpected letters.** Greek beginnings keep letters you do not hear:\n- *pn-* sounds like n: **pneumonia**, **pneumothorax**.\n- *ps-* sounds like s: **psychiatry**, **psoriasis**.\n- *pt-* sounds like t: **ptosis**.\n- *rh-* sounds like r: **rheumatoid**, **rhinitis**.\n- *ph* sounds like f: **phlebitis**, **esophagus**.\n- *ch* often sounds like k: **cholesterol**, **chronic**, **ischemia**.\n\nA reliable habit is to ask, when you hear an initial n, s, t, r, f or k sound, whether a Greek letter pair is hiding in front.\n\n**American versus British spelling.** U.S. competitions generally expect American forms: **hemoglobin** not haemoglobin, **esophagus** not oesophagus, **edema** not oedema, **anemia** not anaemia. Know both so you recognize them, but write the American version unless told otherwise.\n\nThe most common mistake is spelling by sound alone, which produces errors such as *numonia*, *diarhea* and *hemorage*. Always picture the Greek letter pair and the double *rr* before writing.",
+    "examples": [
+      "One vertebra, two vertebrae; one diagnosis, several diagnoses.",
+      "Diarrhea follows the -rrhea pattern: dia + rrhea, with a double r and an h.",
+      "Pneumonia begins with a silent p, so a student who hears 'new-MO-nee-uh' must remember pn-."
+    ],
+    "questions": [
+      {
+        "stem": "A radiology report notes injuries to more than one vertebra. Which plural is correct?",
+        "choices": [
+          "vertebras",
+          "vertebrae",
+          "vertebri",
+          "vertebraes"
+        ],
+        "answer": 1,
+        "explanation": "Latin -a becomes -ae, so the plural is vertebrae. Vertebras applies an English -s rule; the -ae form is the standard plural."
+      },
+      {
+        "stem": "A pathologist reviews a tumor that has spread to several sites. Which plural of metastasis is correct?",
+        "choices": [
+          "metastasises",
+          "metastasi",
+          "metastases",
+          "metastasae"
+        ],
+        "answer": 2,
+        "explanation": "The -is ending becomes -es, giving metastases. Metastasi wrongly applies the -us to -i rule."
+      },
+      {
+        "stem": "A patient reports frequent loose stools. Which spelling is correct?",
+        "choices": [
+          "diarhea",
+          "diarrhea",
+          "diarrhia",
+          "diarreah"
+        ],
+        "answer": 1,
+        "explanation": "The -rrhea suffix keeps a double r followed by h, giving diarrhea. Diarhea drops one r, the most frequent error."
+      },
+      {
+        "stem": "Which spelling of the lung infection is correct?",
+        "choices": [
+          "neumonia",
+          "pnuemonia",
+          "pneumonia",
+          "pneumonya"
+        ],
+        "answer": 2,
+        "explanation": "The Greek pneum- begins with a silent p and the vowels run e-u, giving pneumonia. Pnuemonia reverses the e and u."
+      },
+      {
+        "stem": "A competition word list uses American spelling. Which spelling should a student write for fluid swelling in tissues?",
+        "choices": [
+          "oedema",
+          "edema",
+          "edemma",
+          "aedema"
+        ],
+        "answer": 1,
+        "explanation": "American spelling drops the British o, giving edema. Oedema is correct in British English but not the expected form here."
+      },
+      {
+        "stem": "A lab technician describes more than one bacterium. Which statement is accurate?",
+        "choices": [
+          "Bacterias is the correct plural",
+          "Bacteria is the plural of bacterium",
+          "Bacteria is singular and bacterias is plural",
+          "Bacteriums is the plural used in charts"
+        ],
+        "answer": 1,
+        "explanation": "Latin -um becomes -a, so bacteria is already plural. Treating bacteria as singular and adding -s is the main distractor."
+      },
+      {
+        "stem": "A dermatology note describes scaly, silvery skin plaques. Which spelling is correct?",
+        "choices": [
+          "soriasis",
+          "psoriasis",
+          "psoryasis",
+          "psoriosis"
+        ],
+        "answer": 1,
+        "explanation": "Psoriasis begins with the Greek ps- pair, where the p is silent. Soriasis spells the word by sound alone."
+      },
+      {
+        "stem": "Which term correctly names the plural of 'phalanx', a finger or toe bone?",
+        "choices": [
+          "phalanxes",
+          "phalanges",
+          "phalangi",
+          "phalanxae"
+        ],
+        "answer": 1,
+        "explanation": "The -nx ending becomes -nges, giving phalanges. Phalanxes adds an English -es, which is not the form used in anatomy."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "-a to -ae",
+        "definition": "Latin plural rule: a singular ending in -a becomes -ae, as in vertebra to vertebrae."
+      },
+      {
+        "term": "-is to -es",
+        "definition": "Plural rule: a singular ending in -is becomes -es, as in diagnosis to diagnoses."
+      },
+      {
+        "term": "pn-",
+        "definition": "Greek beginning in which the p is silent, as in pneumonia."
+      },
+      {
+        "term": "Hemorrhage",
+        "definition": "Bursting forth of blood; spelled with a double r and h from the -rrhage suffix."
+      },
+      {
+        "term": "American spelling",
+        "definition": "The form expected in U.S. competitions, such as edema, anemia and esophagus rather than oedema, anaemia and oesophagus."
+      }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Résumés, cover letters and career portfolios",
+    "objective": "Create a targeted résumé, cover letter and portfolio that prove your qualifications with specific, measurable evidence.",
+    "body": "Your résumé, cover letter and portfolio are the first evidence a judge or employer sees. In Job Interview your application documents make the first impression before you say a word, and in Career Portfolio your evidence shapes the whole presentation. Clean, targeted documents earn credibility immediately.\n\n**Résumé essentials.** For a student, a résumé is usually one page. Typical sections are contact information (name, phone, professional email, city and state), an optional summary or objective, education, experience, skills, and activities, honors or leadership. Choose a format:\n- *Reverse chronological*: most recent experience first; the most common format and the one most employers prefer.\n- *Functional*: groups skills by theme; useful with limited work history, but it can raise questions about gaps.\n- *Combination*: a skills summary followed by a chronological history.\n\n**Writing strong bullets.** Start each bullet with an *action verb*, such as organized, analyzed, trained or increased, and quantify the result: *Increased club membership from 18 to 30 in one year* beats *In charge of membership*. Use present tense for current roles and past tense for past ones, and keep formatting consistent. In the United States, leave out personal details such as age, a photo, religion or marital status. Many employers use an *applicant tracking system (ATS)* that scans for keywords, so mirror the wording of the job posting where it truthfully applies and use a simple layout with standard section headings.\n\n**Cover letters.** A cover letter is a one-page persuasive letter tailored to one job.\n1. Opening: name the position and where you found it, plus a hook that links you to the role.\n2. Body: connect two or three of your strongest qualifications to the employer's needs, with brief examples.\n3. Closing: request an interview, thank the reader and give your contact information.\n\nAddress a specific person when possible and proofread every word.\n\n**References and portfolios.** References usually go on a separate page, and you should ask each person's permission first. Choose teachers, advisers, coaches or supervisors who have seen your work rather than relatives. A *career portfolio* collects evidence of your growth: résumé, work samples, certificates, awards, letters of recommendation and short reflections explaining what each item shows. Organize it around your goals or skills and label every artifact.\n\n**Common mistake:** listing duties instead of accomplishments. *Responsible for the cash register* says what you were assigned; *Handled about $1,500 in daily transactions with no cash-drawer errors* proves how well you did it.",
+    "examples": [
+      "Weak bullet: \"Helped at the food bank.\" Strong bullet: \"Sorted and packed 2,400 pounds of donations over 12 Saturday shifts, leading a team of 5 new volunteers.\"",
+      "A posting asks for \"customer service\" and \"cash handling.\" A student who has done both uses those exact phrases in her skills section so an applicant tracking system recognizes them.",
+      "A portfolio section on leadership holds a meeting agenda the student wrote, a certificate from a leadership conference and a three-sentence reflection on what running meetings taught her."
+    ],
+    "questions": [
+      {
+        "stem": "Which résumé bullet is strongest?",
+        "choices": ["Responsible for training", "Trained four new hires on the point-of-sale system in their first week", "Was a really hard worker at the store", "Helped out with various tasks as needed"],
+        "answer": 1,
+        "explanation": "It starts with an action verb and gives a specific, measurable accomplishment. The others are vague or describe duties rather than results."
+      },
+      {
+        "stem": "A student has two years of part-time retail work and a current internship. Which résumé format is most widely expected by employers?",
+        "choices": ["Functional", "Infographic with photos", "Alphabetical by employer name", "Reverse chronological"],
+        "answer": 3,
+        "explanation": "Reverse chronological lists the most recent experience first and is the most common, preferred format. Functional formats suit limited work history."
+      },
+      {
+        "stem": "An employer screens applications with an applicant tracking system. What is the best way to prepare a résumé for it?",
+        "choices": ["Use relevant keywords from the job posting and a simple, standard layout", "Put key skills inside images so they stand out", "Paste the entire job description in hidden white text", "Use creative section headings so the résumé seems unique"],
+        "answer": 0,
+        "explanation": "Tracking systems read plain text and match keywords, so honest use of posting language and standard headings helps. Images and odd headings may not be read at all."
+      },
+      {
+        "stem": "Which information should usually be left off a student résumé in the United States?",
+        "choices": ["A professional email address", "Relevant coursework", "Date of birth and a personal photo", "Leadership roles in clubs"],
+        "answer": 2,
+        "explanation": "Personal details such as age and photos are not job qualifications and can invite bias. Contact information, coursework and leadership are relevant."
+      },
+      {
+        "stem": "Which opening sentence is best for a cover letter?",
+        "choices": ["My name is Sam and I need a job.", "To whom it may concern, I am writing this letter.", "I saw your ad somewhere and want whatever position is open.", "I am applying for the part-time bank teller position on your website, and two years as club treasurer prepared me to handle cash accurately."],
+        "answer": 3,
+        "explanation": "A strong opening names the specific position, where it was found and a relevant qualification. The others are vague or focus only on the writer."
+      },
+      {
+        "stem": "What should the closing paragraph of a cover letter do?",
+        "choices": ["Request an interview, thank the reader and provide contact information", "List every job duty from past positions", "Explain salary expectations in detail", "Repeat the full résumé word for word"],
+        "answer": 0,
+        "explanation": "The closing asks for the next step, shows courtesy and makes it easy to respond. The résumé already lists experience."
+      },
+      {
+        "stem": "Who is generally the best choice as a professional reference for a high school student?",
+        "choices": ["A cousin who has known the student since birth", "A supervisor or teacher who has seen the student's work and agreed to serve", "A classmate from one shared class", "A family friend who has never seen the student work"],
+        "answer": 1,
+        "explanation": "A reference should be able to speak about work habits from direct experience, and should agree in advance. Relatives and casual contacts lack that credibility."
+      },
+      {
+        "stem": "A career portfolio includes a certificate from a spreadsheet course. What makes this artifact most effective?",
+        "choices": ["Placing it unlabeled at the back of the portfolio", "Including three copies to fill space", "Removing the date so it does not look old", "Adding a short reflection on the skill gained and how it supports the career goal"],
+        "answer": 3,
+        "explanation": "Reflections connect each artifact to a skill and a goal, which is what judges and employers want to see. Unlabeled or padded items weaken the portfolio."
+      }
+    ],
+    "flashcards": [
+      { "term": "Reverse chronological résumé", "definition": "A résumé format that lists experience starting with the most recent; the most widely preferred format." },
+      { "term": "Action verb", "definition": "A strong verb such as organized, analyzed or increased that begins a résumé bullet and shows what you did." },
+      { "term": "Applicant tracking system (ATS)", "definition": "Software employers use to collect résumés and screen them for keywords that match a job posting." },
+      { "term": "Cover letter", "definition": "A one-page persuasive letter tailored to a specific job that links your qualifications to the employer's needs." },
+      { "term": "Career portfolio", "definition": "An organized collection of documents, work samples and reflections that shows a person's skills and growth." }
+    ]
+  }
+]

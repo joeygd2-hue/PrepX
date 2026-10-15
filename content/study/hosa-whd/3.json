@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Root causes and designing interventions to reduce disparities",
+    "objective": "Analyze structural drivers of health disparities, evaluate interventions using equity criteria, and recommend strategies that address root causes rather than symptoms.",
+    "body": "Advanced questions in world health ask you to move beyond describing a gap to explaining it and proposing a fix. That requires looking upstream at the systems that produce unequal health.\n\n**Upstream vs. downstream.** **Downstream** interventions treat individuals after problems appear, such as hospital care for a diabetic emergency. **Upstream** interventions change the conditions that create risk, such as housing policy, minimum wages, school quality or clean air rules. Upstream action usually reaches more people, but results take longer to appear.\n\n**Structural drivers.** **Structural racism** refers to laws, policies and practices across housing, education, employment and health care that systematically disadvantage some racial and ethnic groups. Historic housing discrimination in the United States, for example, concentrated many Black families in neighborhoods with less investment, more pollution and fewer clinics, and those patterns still affect health today. In the U.S., Black women die from pregnancy-related causes at roughly three times the rate of White women, and CDC data indicate that most pregnancy-related deaths are preventable. Income, education level and rural residence also predict outcomes; rural areas face hospital and maternity-unit closures and longer travel times.\n\n**Barriers at the individual level.** **Health literacy** is the ability to find, understand and use health information to make decisions. Language barriers, low health literacy, lack of insurance and distrust built by past medical abuse all reduce use of care even when services exist.\n\n**Proven strategies.**\n- **Universal health coverage (UHC)**: everyone can get the quality services they need without financial hardship. It is a target of Sustainable Development Goal 3.\n- **Community health workers (CHWs)**: trusted members of the community trained to provide outreach, education and links to care. They extend services in places with few clinicians.\n- **Culturally and linguistically appropriate services**: professional interpreters and materials written in plain language.\n- **Data disaggregation**: breaking data down by race, ethnicity, income, gender and location so hidden gaps become visible.\n\n**Evaluating an intervention.** Ask four questions in order:\n1. Does it target the group with the greatest burden?\n2. Does it address a root cause or only a symptom?\n3. Was the community involved in its design?\n4. Will it be measured with disaggregated data to show whether the gap narrows?\n\nA program can improve the average while widening a gap, for instance if an online appointment system helps people with internet access but leaves others behind. Success in equity work means the gap shrinks, not just that the overall number improves.\n\nThe most common mistake students make is blaming disparities mainly on individual behavior or genetics. Behaviors matter, but they are shaped by income, environment and policy, and race is primarily a social category, so the strongest answers point to structural causes and upstream solutions.",
+    "examples": [
+      "A county trains community health workers from local churches to visit pregnant patients at home, connecting them with prenatal care and reducing missed appointments.",
+      "A hospital moves all patient portal sign-ups online and its overall usage rises, but use among older and low-income patients falls, widening the gap.",
+      "A state reports maternal deaths by race and county for the first time and discovers that one rural region has rates far above the state average."
+    ],
+    "questions": [
+      {
+        "stem": "A city wants to lower asthma attacks among children in public housing. Which intervention is most upstream?",
+        "choices": [
+          "Giving each child a new inhaler",
+          "Adding pediatric beds to the emergency department",
+          "Requiring landlords to fix mold and pest problems in housing units",
+          "Teaching children to recognize early asthma symptoms"
+        ],
+        "answer": 2,
+        "explanation": "Fixing mold and pests removes the environmental trigger for everyone in the housing, which addresses the root cause. Inhalers are valuable but are a downstream treatment of symptoms."
+      },
+      {
+        "stem": "A clinic launches an online-only scheduling system. Overall visit numbers rise, but visits by elderly and low-income patients fall. How should this program be judged from an equity perspective?",
+        "choices": [
+          "A success, because the average improved",
+          "A failure on equity, because the gap between groups widened",
+          "Neutral, because the clinic offers the same system to everyone",
+          "A success, because online tools always improve health literacy"
+        ],
+        "answer": 1,
+        "explanation": "Equity is measured by whether the gap shrinks. An improving average that hides worse access for disadvantaged groups widens disparities, even though everyone technically received the same tool."
+      },
+      {
+        "stem": "U.S. data show Black women have roughly three times the pregnancy-related death rate of White women, and the gap persists across education levels. Which explanation is best supported?",
+        "choices": [
+          "Genetic differences between racial groups",
+          "Individual choices about prenatal vitamins",
+          "Structural factors such as racism, unequal access to quality care and chronic stress",
+          "Random variation in reporting"
+        ],
+        "answer": 2,
+        "explanation": "A gap that persists even among college-educated women points to structural causes, including bias in care and unequal access. Race is primarily a social category, so attributing the gap to genetics is not supported."
+      },
+      {
+        "stem": "A rural region has few physicians, and many residents distrust outside health agencies. Which strategy is most likely to increase blood pressure screening?",
+        "choices": [
+          "Mailing pamphlets written at a college reading level",
+          "Training trusted local residents as community health workers",
+          "Opening a specialty clinic in the nearest large city",
+          "Raising clinic fees to fund advertising"
+        ],
+        "answer": 1,
+        "explanation": "CHWs share the community's language and trust and can deliver screening and referrals locally. Pamphlets at a college reading level ignore health literacy and distrust."
+      },
+      {
+        "stem": "A state health agency reports only statewide averages for diabetes complications. What change would best reveal hidden disparities?",
+        "choices": [
+          "Reporting data broken down by race, ethnicity, income and county",
+          "Switching to reporting deaths only",
+          "Publishing the averages more often",
+          "Reducing the number of indicators tracked"
+        ],
+        "answer": 0,
+        "explanation": "Disaggregating data exposes gaps that averages conceal. Publishing averages more frequently still hides differences between groups."
+      },
+      {
+        "stem": "Which policy most directly advances universal health coverage?",
+        "choices": [
+          "Allowing insurers to deny coverage for pre-existing conditions",
+          "Ensuring everyone can access essential services without financial hardship",
+          "Building hospitals only in wealthy urban areas",
+          "Requiring full payment before emergency treatment"
+        ],
+        "answer": 1,
+        "explanation": "UHC means everyone can obtain needed, quality care without financial hardship. Requiring payment before treatment creates the very financial barrier UHC aims to remove."
+      },
+      {
+        "stem": "A patient nods during discharge instructions but later cannot explain how to care for a wound. A nurse wants to address the likely barrier. What is the best approach?",
+        "choices": [
+          "Repeat the same instructions more loudly",
+          "Use plain language and have the patient explain the steps back in their own words",
+          "Give a longer printed handout with medical terms",
+          "Assume the patient is not motivated"
+        ],
+        "answer": 1,
+        "explanation": "Plain language and the teach-back method address low health literacy and confirm understanding. Assuming low motivation blames the individual and ignores a common communication barrier."
+      },
+      {
+        "stem": "A nonprofit plans a nutrition program for a low-income neighborhood. Which step best reflects equity-focused design?",
+        "choices": [
+          "Copying a program from a wealthy suburb without changes",
+          "Involving residents in planning and measuring results by subgroup",
+          "Focusing only on teaching residents to cook",
+          "Choosing the area with the least disease to show quick success"
+        ],
+        "answer": 1,
+        "explanation": "Community involvement and disaggregated evaluation ensure the program fits local needs and shows whether gaps shrink. Cooking lessons alone ignore root causes such as food access and cost."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Upstream intervention",
+        "definition": "An action that changes the social, economic or environmental conditions that create health risk, such as housing or clean air policy."
+      },
+      {
+        "term": "Structural racism",
+        "definition": "Laws, policies and practices across systems such as housing, education and health care that systematically disadvantage some racial and ethnic groups."
+      },
+      {
+        "term": "Health literacy",
+        "definition": "The ability to find, understand and use health information and services to make informed decisions."
+      },
+      {
+        "term": "Universal health coverage (UHC)",
+        "definition": "A situation in which everyone can get the quality health services they need without suffering financial hardship."
+      },
+      {
+        "term": "Community health worker (CHW)",
+        "definition": "A trusted member of a community trained to provide health outreach, education and links to care."
+      }
+    ]
+  }
+]

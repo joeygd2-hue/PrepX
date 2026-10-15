@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Receivables, inventory and depreciation",
+    "objective": "Estimate uncollectible accounts, calculate note interest, value inventory with FIFO, LIFO and weighted average, and compute depreciation by several methods.",
+    "body": "Advanced accounting tests expect you to value assets, not just record them. Most of these questions are calculations, so learning each method's steps is the fastest way to earn points.\n\n**Uncollectible accounts.** Under the *allowance method*, a business estimates bad debts at the end of each period so the expense matches the sales that caused it. The entry debits Bad Debts Expense and credits Allowance for Uncollectible Accounts, a contra-asset. There are two common ways to estimate:\n- *Percentage of sales*: expense equals a percentage of credit sales, and any existing allowance balance is ignored.\n- *Aging of receivables*: the analysis sets the target ending allowance balance, and the adjustment is whatever amount reaches that target.\nWhen a specific account is later written off, debit the Allowance and credit Accounts Receivable; total assets do not change. The *direct write-off method* skips the estimate and is not acceptable under GAAP when bad debts are material.\n\n**Notes receivable.** Interest = principal × rate × time. Using a 360-day year, a $6,000, 8%, 90-day note earns $6,000 × 0.08 × 90/360 = $120, so its maturity value is $6,120.\n\n**Inventory costing.** When identical goods are bought at different prices, the cost flow assumption decides cost of goods sold.\n- *FIFO*: the oldest costs go to cost of goods sold first, so ending inventory reflects recent prices.\n- *LIFO*: the newest costs go to cost of goods sold first; it is allowed under U.S. GAAP but not under IFRS.\n- *Weighted average*: total cost of goods available ÷ total units available.\nWhen prices are rising, FIFO reports the highest net income and LIFO the lowest.\n\n**Depreciation.** Depreciable cost = cost − salvage value.\n- *Straight-line*: depreciable cost ÷ useful life, the same amount each year.\n- *Units-of-production*: depreciable cost ÷ total estimated units, times the units used this year.\n- *Double-declining-balance*: beginning book value × (2 ÷ useful life). Salvage value is ignored in the calculation, but book value may never fall below it.\nLand is never depreciated.\n\nThe most common mistake is subtracting salvage value before applying the double-declining rate. Apply the rate to the full book value, then stop depreciating once book value reaches salvage.",
+    "examples": [
+      "A store has $80,000 of receivables. Aging suggests $3,200 will be uncollectible, and the Allowance already has a $700 credit balance, so the adjustment is $3,200 − $700 = $2,500.",
+      "A company buys 100 units at $10 and then 100 units at $12, and sells 150. FIFO cost of goods sold = 100 × $10 + 50 × $12 = $1,600; LIFO = 100 × $12 + 50 × $10 = $1,700.",
+      "A $50,000 machine has a $5,000 salvage value and a 5-year life. Straight-line depreciation is $45,000 ÷ 5 = $9,000 per year; double-declining-balance in year 1 is $50,000 × 40% = $20,000."
+    ],
+    "questions": [
+      {
+        "stem": "Credit sales for the year are $400,000, and the company estimates bad debts at 1.5% of credit sales. The Allowance for Uncollectible Accounts has a $1,200 credit balance before adjustment. What is Bad Debts Expense for the year?",
+        "choices": ["$4,800", "$6,000", "$7,200", "$600"],
+        "answer": 1,
+        "explanation": "Under the percentage-of-sales method, expense = $400,000 × 1.5% = $6,000, and the existing allowance balance is ignored. Subtracting it ($4,800) applies the aging approach by mistake."
+      },
+      {
+        "stem": "An aging schedule estimates that $9,500 of receivables will be uncollectible. Before adjustment, the Allowance for Uncollectible Accounts has a $2,300 credit balance. What amount is recorded as Bad Debts Expense?",
+        "choices": ["$9,500", "$11,800", "$7,200", "$2,300"],
+        "answer": 2,
+        "explanation": "Aging sets the target ending allowance of $9,500. With $2,300 already there, the adjustment is $9,500 − $2,300 = $7,200."
+      },
+      {
+        "stem": "Under the allowance method, a company writes off a $1,500 customer account as uncollectible. What is the effect on total assets?",
+        "choices": ["Decrease of $1,500", "Increase of $1,500", "Decrease of $3,000", "No change"],
+        "answer": 3,
+        "explanation": "Accounts Receivable and its contra account, the Allowance, both fall by $1,500, so net receivables and total assets are unchanged. The expense was recorded earlier when it was estimated."
+      },
+      {
+        "stem": "A company accepts a $9,000, 120-day, 6% note receivable. Using a 360-day year, what is the maturity value of the note?",
+        "choices": ["$9,180", "$9,540", "$9,090", "$9,720"],
+        "answer": 0,
+        "explanation": "Interest = $9,000 × 0.06 × 120/360 = $180, so maturity value = $9,000 + $180 = $9,180. $9,540 would be a full year of interest."
+      },
+      {
+        "stem": "A business starts with 200 units costing $5 each and then buys 300 units at $6 each. It sells 350 units. Using FIFO, what is the cost of ending inventory?",
+        "choices": ["$750", "$900", "$840", "$1,900"],
+        "answer": 1,
+        "explanation": "500 units were available and 350 sold, leaving 150. Under FIFO the oldest units are sold first, so the 150 left are from the $6 purchase: 150 × $6 = $900."
+      },
+      {
+        "stem": "During a period of steadily rising purchase prices, which inventory costing method reports the highest net income?",
+        "choices": ["LIFO", "Weighted average", "FIFO", "All three methods always report the same net income"],
+        "answer": 2,
+        "explanation": "FIFO assigns the older, cheaper costs to cost of goods sold, so cost of goods sold is lowest and net income is highest. LIFO reports the lowest net income when prices rise."
+      },
+      {
+        "stem": "Equipment costs $42,000, has a salvage value of $2,000 and a useful life of 8 years. What is annual straight-line depreciation?",
+        "choices": ["$5,250", "$10,500", "$4,750", "$5,000"],
+        "answer": 3,
+        "explanation": "Depreciable cost = $42,000 − $2,000 = $40,000, and $40,000 ÷ 8 = $5,000. Dividing the full cost by 8 ($5,250) forgets the salvage value."
+      },
+      {
+        "stem": "A delivery van costs $30,000, has a $3,000 salvage value and a 5-year useful life. Using the double-declining-balance method, what is depreciation in year 2?",
+        "choices": ["$7,200", "$12,000", "$6,480", "$5,400"],
+        "answer": 0,
+        "explanation": "The rate is 2 ÷ 5 = 40%. Year 1: $30,000 × 40% = $12,000, leaving $18,000. Year 2: $18,000 × 40% = $7,200. Subtracting salvage first gives the wrong $6,480."
+      }
+    ],
+    "flashcards": [
+      { "term": "Allowance method", "definition": "Estimating bad debts each period with a contra-asset allowance so the expense matches the sales that caused it." },
+      { "term": "Aging of accounts receivable", "definition": "Grouping receivables by how long they are past due to estimate the ending balance needed in the allowance." },
+      { "term": "Maturity value", "definition": "The principal of a note plus the interest due when it matures." },
+      { "term": "FIFO", "definition": "First-in, first-out: the oldest inventory costs are assigned to cost of goods sold first." },
+      { "term": "Double-declining-balance", "definition": "An accelerated method that applies twice the straight-line rate to beginning book value, never going below salvage." }
+    ]
+  }
+]

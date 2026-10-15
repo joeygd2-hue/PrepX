@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Managing risk with insurance and identity protection",
+    "objective": "Choose risk strategies and insurance coverages, calculate what a policyholder pays, and protect personal information from fraud.",
+    "body": "A single accident, illness or stolen identity can undo years of careful budgeting, which is why the Personal Financial Literacy exam devotes a full area to managing risk. Judges want to hear you match the right protection to the risk and explain the trade-offs in plain numbers.\n\n**Four ways to handle risk.**\n- *Avoid* it by not doing the risky activity.\n- *Reduce* it with safer behavior, such as wearing a seat belt or installing smoke detectors.\n- *Retain* (accept) it when the possible loss is small enough to cover yourself, often from an emergency fund.\n- *Transfer* it by paying an insurer to take on large losses you could not afford.\n\n**Insurance vocabulary.** The *premium* is the price of the policy. The *deductible* is what you pay on a claim before the insurer pays. In health plans, a *copay* is a flat fee for a service, *coinsurance* is your percentage share after the deductible, and the *out-of-pocket maximum* caps what you pay for covered care in a year. A higher deductible lowers the premium but raises what you pay when something happens, so choose one your emergency fund can handle.\n\n**Key coverages.**\n- *Auto*: *liability* pays for injuries and property damage you cause to others and is required in nearly every state; *collision* pays to repair your car after a crash; *comprehensive* covers non-crash damage such as theft, hail or a falling tree.\n- *Health*: helps pay for medical care; young adults can generally stay on a parent's plan until age 26.\n- *Renters* or *homeowners*: protects your belongings and provides personal liability coverage. A landlord's policy covers the building, not the tenant's possessions.\n- *Life*: *term life* covers a set period at a lower cost with no cash value; *permanent* (whole) life lasts a lifetime and builds cash value at a higher premium.\n- *Disability*: replaces part of your income if illness or injury keeps you from working.\n\n**Protecting your identity.** Identity theft happens when someone uses your personal information to open accounts or make purchases. Use strong, unique passwords and multifactor authentication, shred documents with account numbers, and treat unexpected messages that ask for information as suspicious; this *phishing* imitates trusted companies. Check your credit reports regularly. A *credit freeze*, free at each bureau, blocks new accounts from being opened in your name until you lift it. Victims can report the theft and get a recovery plan at IdentityTheft.gov.\n\nA common mistake is buying the lowest premium without checking the deductible and coverage limits. Cheap coverage that leaves you with a huge bill is not a bargain.",
+    "examples": [
+      "Hail damages Sofia's parked car, causing $1,800 in repairs. Her comprehensive coverage has a $250 deductible, so she pays $250 and the insurer pays $1,550.",
+      "Malik compares two renters policies: $14 a month with a $250 deductible or $10 a month with a $1,000 deductible. The second saves $48 a year but would cost him $750 more on a claim.",
+      "A text message claims a package can't be delivered and asks for a card number to pay a fee. Instead of tapping the link, Jada checks her order directly on the retailer's website, which shows no problem."
+    ],
+    "questions": [
+      {
+        "stem": "Buying an insurance policy is an example of which risk management strategy?",
+        "choices": ["Risk avoidance", "Risk reduction", "Risk retention", "Risk transfer"],
+        "answer": 3,
+        "explanation": "Paying a premium shifts the cost of a large potential loss to the insurer, which is risk transfer. Retention means covering the loss yourself."
+      },
+      {
+        "stem": "After a crash she caused, Hana's car needs $3,200 in repairs. Her collision coverage has a $500 deductible. How much does the insurer pay?",
+        "choices": ["$3,200", "$3,700", "$2,700", "$500"],
+        "answer": 2,
+        "explanation": "Hana pays the $500 deductible, and the insurer pays the rest: $3,200 - $500 = $2,700."
+      },
+      {
+        "stem": "Raj has a $2,000 covered medical bill. His plan has a $1,000 deductible he has not met yet, followed by 20% coinsurance. How much does Raj pay?",
+        "choices": ["$400", "$1,200", "$1,000", "$1,400"],
+        "answer": 1,
+        "explanation": "Raj pays the first $1,000 as his deductible. Of the remaining $1,000, he pays 20%, or $200. Total: $1,000 + $200 = $1,200."
+      },
+      {
+        "stem": "During a storm, a tree branch falls on Leah's parked car. Which auto coverage pays for the damage, minus her deductible?",
+        "choices": ["Liability", "Collision", "Comprehensive", "Uninsured motorist"],
+        "answer": 2,
+        "explanation": "Comprehensive covers non-collision damage such as falling objects, weather, fire and theft. Collision covers damage from crashing into another vehicle or object."
+      },
+      {
+        "stem": "Theo runs a red light and damages another driver's car. Which part of his auto policy pays for the other driver's repairs?",
+        "choices": ["Property damage liability coverage", "Collision coverage", "Comprehensive coverage", "Personal injury protection"],
+        "answer": 0,
+        "explanation": "Liability coverage pays for damage or injuries you cause to other people. Collision would pay to repair Theo's own car."
+      },
+      {
+        "stem": "Jess rents an apartment. A burst pipe ruins her laptop and furniture. Which statement is accurate?",
+        "choices": [
+          "The landlord's insurance automatically replaces tenants' belongings",
+          "Her renters insurance, not the landlord's policy, is what covers her belongings",
+          "Her auto insurance covers personal property kept in her home",
+          "Renters insurance covers only the building's walls and floors"
+        ],
+        "answer": 1,
+        "explanation": "A landlord's policy covers the building, while a renters policy covers the tenant's personal belongings and liability."
+      },
+      {
+        "stem": "A parent of two young children wants the largest death benefit for the lowest premium over the next 20 years, until the children are grown. Which policy fits best?",
+        "choices": ["A whole life policy", "A disability insurance policy", "A long-term care policy", "A 20-year term life policy"],
+        "answer": 3,
+        "explanation": "Term life provides coverage for a set period at a much lower premium than permanent coverage. Whole life builds cash value but costs significantly more for the same death benefit."
+      },
+      {
+        "stem": "Ava raises her auto insurance deductible from $250 to $1,000. What is the most likely result?",
+        "choices": [
+          "Her premium goes down, but she pays more out of pocket on each claim",
+          "Her premium goes up, and she pays less on each claim",
+          "Her premium and her claim costs both go down",
+          "Her coverage limits double automatically"
+        ],
+        "answer": 0,
+        "explanation": "Accepting a higher deductible means retaining more risk, so the insurer charges a lower premium. She should keep enough savings to cover the $1,000 if needed."
+      },
+      {
+        "stem": "Kofi gets an email that looks like it is from his bank. It says his account is locked and asks him to click a link and enter his password. What should he do?",
+        "choices": [
+          "Click the link but enter only his username",
+          "Reply to the email to ask whether it is real",
+          "Ignore the link and contact the bank using the number on his card or its official app",
+          "Enter his password quickly so the account is not closed"
+        ],
+        "answer": 2,
+        "explanation": "Unexpected messages that create urgency and ask for credentials are classic phishing. Contacting the bank through a known, trusted channel verifies the message without exposing his login."
+      },
+      {
+        "stem": "After a data breach exposes her Social Security number, Lina wants to stop anyone from opening new credit accounts in her name. Which step does this most directly?",
+        "choices": [
+          "Change the password on her email account",
+          "Place a credit freeze with each of the three nationwide credit bureaus",
+          "Pay off her credit card balance",
+          "Close her checking account"
+        ],
+        "answer": 1,
+        "explanation": "A credit freeze blocks lenders from viewing her report, so new accounts generally can't be opened until she lifts it. Freezes are free at each bureau."
+      }
+    ],
+    "flashcards": [
+      { "term": "Premium", "definition": "The amount paid, usually monthly or yearly, to keep an insurance policy in force." },
+      { "term": "Deductible", "definition": "The amount the policyholder pays on a covered claim before the insurer begins paying." },
+      { "term": "Coinsurance", "definition": "The percentage of covered costs the insured person pays after meeting the deductible." },
+      { "term": "Liability coverage", "definition": "Insurance that pays for injuries or property damage you cause to other people." },
+      { "term": "Term life insurance", "definition": "Life insurance that covers a set period at a relatively low cost and builds no cash value." },
+      { "term": "Credit freeze", "definition": "A free block at a credit bureau that stops new creditors from accessing your report until you lift it." }
+    ]
+  }
+]

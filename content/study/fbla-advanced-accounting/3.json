@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Cost and managerial accounting",
+    "objective": "Classify manufacturing costs, compute cost of goods manufactured, and use cost-volume-profit analysis and budgets to make decisions.",
+    "body": "Managerial accounting turns records into decisions: what a product really costs, how many units must sell to break even and whether a department stayed on budget. These questions mix vocabulary with quick math.\n\n**Manufacturing costs.** A manufacturer has three product costs:\n- *Direct materials*: raw materials that become part of the product and can be traced to it.\n- *Direct labor*: wages of the workers who build the product.\n- *Factory overhead*: all other factory costs, such as indirect materials, supervisors' salaries, factory utilities and equipment depreciation.\nOverhead is usually *applied* with a predetermined rate, such as estimated overhead ÷ estimated direct labor hours, because actual totals are not known until year-end. Selling and administrative costs are *period costs*, expensed as incurred rather than added to products.\n\n**Cost of goods manufactured.** Manufacturers track three inventories: raw materials, work in process and finished goods. Cost of goods manufactured = beginning work in process + total manufacturing costs added − ending work in process. *Job order costing* tracks costs for each custom job; *process costing* averages costs over many identical units moving through departments.\n\n**Cost behavior.** *Variable costs* change in total with activity but stay the same per unit. *Fixed costs* stay the same in total within a relevant range, so fixed cost per unit falls as volume rises.\n\n**Cost-volume-profit analysis.**\n- *Contribution margin per unit* = selling price − variable cost per unit.\n- *Break-even units* = fixed costs ÷ contribution margin per unit.\n- *Units for a target profit* = (fixed costs + target profit) ÷ contribution margin per unit.\n- *Contribution margin ratio* = contribution margin ÷ selling price; break-even sales dollars = fixed costs ÷ that ratio.\n\n**Budgeting and variances.** The *master budget* starts with the sales budget, which drives the production, purchases and cash budgets. A *flexible budget* restates costs for the actual level of activity, so managers compare like with like. A variance is *favorable* when actual costs are below budget or actual revenue is above it.\n\nThe most common mistake is dividing fixed costs by the selling price instead of the contribution margin. Each unit's variable cost must be covered before anything is left over to pay fixed costs.",
+    "examples": [
+      "A shop sells birdhouses for $40 with a $24 variable cost per unit and $8,000 in monthly fixed costs. Contribution margin is $16, so break-even is $8,000 ÷ $16 = 500 birdhouses.",
+      "Beginning work in process of $12,000, manufacturing costs added of $95,000 and ending work in process of $9,000 give cost of goods manufactured of $12,000 + $95,000 − $9,000 = $98,000.",
+      "Estimated overhead is $180,000 and estimated direct labor hours are 12,000, so overhead is applied at $15 per hour. A job using 40 hours receives 40 × $15 = $600 of overhead."
+    ],
+    "questions": [
+      {
+        "stem": "A furniture factory classifies its costs. Which cost is factory overhead?",
+        "choices": ["Wood used to build tables", "Salary of the factory supervisor", "Wages of assembly-line workers who build tables", "Sales commissions paid to the sales staff"],
+        "answer": 1,
+        "explanation": "A supervisor's salary is a factory cost that cannot be traced to specific tables, so it is overhead. Wood is direct materials, assembly wages are direct labor and commissions are period costs."
+      },
+      {
+        "stem": "Beginning work in process is $18,000, direct materials used are $40,000, direct labor is $35,000, factory overhead is $25,000 and ending work in process is $22,000. What is cost of goods manufactured?",
+        "choices": ["$100,000", "$104,000", "$96,000", "$140,000"],
+        "answer": 2,
+        "explanation": "Manufacturing costs added = $40,000 + $35,000 + $25,000 = $100,000. Cost of goods manufactured = $18,000 + $100,000 − $22,000 = $96,000."
+      },
+      {
+        "stem": "A product sells for $50 and has a variable cost of $30 per unit. Fixed costs are $60,000. How many units must be sold to break even?",
+        "choices": ["1,200", "2,000", "750", "3,000"],
+        "answer": 3,
+        "explanation": "Contribution margin = $50 − $30 = $20 per unit, so break-even = $60,000 ÷ $20 = 3,000 units. Dividing by the $50 price (1,200) ignores variable costs."
+      },
+      {
+        "stem": "A company sells a product for $25 with a variable cost of $15 per unit and fixed costs of $40,000. How many units must it sell to earn a target profit of $10,000?",
+        "choices": ["5,000", "4,000", "3,000", "2,000"],
+        "answer": 0,
+        "explanation": "Contribution margin = $25 − $15 = $10. Units = ($40,000 + $10,000) ÷ $10 = 5,000. The 4,000 figure is only the break-even point."
+      },
+      {
+        "stem": "A company's contribution margin ratio is 40% and its fixed costs are $120,000. What sales revenue is needed to break even?",
+        "choices": ["$48,000", "$300,000", "$200,000", "$168,000"],
+        "answer": 1,
+        "explanation": "Break-even sales = $120,000 ÷ 0.40 = $300,000. Check: 40% of $300,000 is $120,000 of contribution margin, exactly covering fixed costs."
+      },
+      {
+        "stem": "As production increases within the relevant range, what happens to fixed cost per unit and variable cost per unit?",
+        "choices": ["Both fall", "Fixed cost per unit stays the same; variable cost per unit rises", "Fixed cost per unit falls; variable cost per unit stays the same", "Both stay the same"],
+        "answer": 2,
+        "explanation": "Total fixed cost is spread over more units, so the per-unit amount falls. Variable cost per unit is constant; only its total changes with volume."
+      },
+      {
+        "stem": "A cabinet maker builds every cabinet to each customer's own design and wants to know the cost of each order. Which costing system fits best?",
+        "choices": ["Process costing", "Break-even analysis", "Flexible budgeting", "Job order costing"],
+        "answer": 3,
+        "explanation": "Job order costing collects materials, labor and overhead for each distinct job. Process costing suits large runs of identical units, such as paint or cereal."
+      },
+      {
+        "stem": "A department's flexible budget for its actual output allows $52,000 for materials, and actual materials cost was $49,500. How is this variance described?",
+        "choices": ["$2,500 favorable", "$2,500 unfavorable", "$101,500 favorable", "$49,500 unfavorable"],
+        "answer": 0,
+        "explanation": "The variance is $52,000 − $49,500 = $2,500. Actual cost was below the budget allowance, so the variance is favorable."
+      }
+    ],
+    "flashcards": [
+      { "term": "Factory overhead", "definition": "All manufacturing costs other than direct materials and direct labor, such as factory utilities and supervision." },
+      { "term": "Cost of goods manufactured", "definition": "Beginning work in process plus manufacturing costs added minus ending work in process." },
+      { "term": "Contribution margin", "definition": "Selling price minus variable cost per unit; the amount each unit contributes toward fixed costs and profit." },
+      { "term": "Break-even point", "definition": "The sales level, in units or dollars, at which total revenue equals total costs and profit is zero." },
+      { "term": "Flexible budget", "definition": "A budget adjusted to the actual level of activity so actual results can be compared fairly." }
+    ]
+  }
+]

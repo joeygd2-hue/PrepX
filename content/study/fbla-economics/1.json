@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Scarcity, choices and economic systems",
+    "objective": "Apply scarcity, opportunity cost, marginal analysis and comparative advantage, and compare how economic systems answer the basic economic questions.",
+    "body": "Nearly every economics test opens with the same foundation: resources are limited, wants are not, so every choice has a cost. If you can name that cost precisely, you can answer questions on production, trade and economic systems.\n\n**Scarcity and the factors of production.** Scarcity means a society cannot produce everything people want. The four factors of production are:\n- *Land*: natural resources such as water, minerals and farmland.\n- *Labor*: human effort, physical or mental.\n- *Capital*: tools, machines and buildings used to make other goods (money itself is not capital in this sense).\n- *Entrepreneurship*: the initiative to combine the other factors and bear the risk.\n\n**Opportunity cost.** The opportunity cost of a choice is the value of the *next best alternative* given up, not every alternative combined. A production possibilities curve (PPC) shows the maximum combinations of two goods an economy can make with its resources and technology. Points on the curve are efficient, points inside are inefficient (resources are idle or misused), and points outside are unattainable for now. A curve bowed outward reflects increasing opportunity cost, because resources are not equally suited to every use. Economic growth, from more resources or better technology, shifts the whole curve outward.\n\n**Thinking at the margin.** Rational decision-makers compare the *marginal benefit* of one more unit with its *marginal cost*, and keep going while the benefit is at least as large as the cost. *Sunk costs*, money already spent that cannot be recovered, should not affect the decision.\n\n**Comparative advantage and trade.** A producer has an *absolute advantage* if it can make more of a good with the same resources. It has a *comparative advantage* if it can make the good at a lower opportunity cost. When each side specializes in its comparative advantage and trades, both can consume beyond their own PPC, even if one side has an absolute advantage in everything.\n\n**Economic systems.** Every society must decide what to produce, how to produce it and for whom. A *traditional* economy relies on custom, a *command* economy on central government planning, and a *market* economy on prices and voluntary exchange. Real nations are *mixed* economies; the United States leans toward the market end, with government providing public goods, enforcing contracts and regulating.\n\nThe most common mistake is adding up every alternative when computing opportunity cost. Count only the single best option you gave up.",
+    "examples": [
+      "Maya could work a 4-hour shift paying $15 per hour or babysit for 4 hours at $12 per hour, but she goes to a free concert instead. Her opportunity cost is $60, the value of the best alternative (the shift), not $108 for both options.",
+      "In one day, Country A can make 10 tablets or 20 shirts, and Country B can make 4 tablets or 16 shirts. A tablet costs A 2 shirts but costs B 4 shirts, so A has the comparative advantage in tablets; a shirt costs B only 0.25 tablet versus 0.5 tablet for A, so B has the comparative advantage in shirts."
+    ],
+    "questions": [
+      {
+        "stem": "A city uses a vacant lot for a park. Its next best use was a parking garage, and its third choice was a community garden. What is the opportunity cost of the park?",
+        "choices": ["The parking garage that was not built", "The garage and the garden combined", "The money spent building the park", "The community garden that was not planted"],
+        "answer": 0,
+        "explanation": "Opportunity cost is only the next best alternative given up, which is the garage. Adding every alternative overstates the cost, and the money spent is an accounting cost, not the forgone option."
+      },
+      {
+        "stem": "A bakery buys a new commercial oven to increase its output. In economics, the oven is classified as which factor of production?",
+        "choices": ["Land", "Labor", "Capital", "Entrepreneurship"],
+        "answer": 2,
+        "explanation": "Capital is a manufactured good used to produce other goods. The money used to buy the oven is financial capital, but the oven itself is the productive resource."
+      },
+      {
+        "stem": "An economy is producing at a point inside its production possibilities curve. What does this most likely indicate?",
+        "choices": ["The economy has reached maximum efficiency", "Some resources are unemployed or used inefficiently", "The economy has just experienced rapid growth", "The output combination is currently unattainable"],
+        "answer": 1,
+        "explanation": "Points inside the curve mean the economy could produce more of both goods with the resources it already has. Points outside the curve, not inside, are unattainable."
+      },
+      {
+        "stem": "Which event would most likely shift a nation's production possibilities curve outward?",
+        "choices": ["A drop in consumer demand for both goods", "A recession that raises unemployment", "A new technology that raises worker productivity", "Moving workers from one good to the other"],
+        "answer": 2,
+        "explanation": "Better technology increases what the economy can produce, shifting the curve outward. A recession moves the economy inside the curve, and moving workers between goods is a movement along it."
+      },
+      {
+        "stem": "In one hour, Jordan can write 6 ads or design 3 logos. Priya can write 4 ads or design 4 logos. Who has the comparative advantage in designing logos?",
+        "choices": ["Priya, because each logo costs her only 1 ad", "Jordan, because each logo costs him only 0.5 ad", "Jordan, because he has an absolute advantage in ads", "Neither, since each has an absolute advantage in one good"],
+        "answer": 0,
+        "explanation": "Jordan gives up 6 ÷ 3 = 2 ads per logo, while Priya gives up 4 ÷ 4 = 1 ad per logo. Priya's lower opportunity cost gives her the comparative advantage in logos."
+      },
+      {
+        "stem": "A student paid a nonrefundable $40 for a workshop ticket. On the day of the workshop, a tutoring job she values at $50 conflicts with it, and she values attending the workshop at $30. What should a rational decision-maker do?",
+        "choices": ["Attend the workshop so the $40 is not wasted", "Take the tutoring job, because the $40 is a sunk cost", "Attend the workshop, because $40 + $30 is more than $50", "Skip both, because neither option recovers the ticket price"],
+        "answer": 1,
+        "explanation": "The $40 is spent either way, so it is a sunk cost and should be ignored. Comparing only future benefits, the $50 job beats the $30 workshop."
+      },
+      {
+        "stem": "In which type of economic system do government planners mainly decide what goods are produced and what prices they sell for?",
+        "choices": ["Traditional economy", "Market economy", "Command economy", "Mixed economy"],
+        "answer": 2,
+        "explanation": "In a command economy, central planners answer what, how and for whom. A market economy leaves those decisions to buyers and sellers through prices."
+      },
+      {
+        "stem": "Why is a production possibilities curve usually bowed outward from the origin?",
+        "choices": ["Resources are not equally suited to producing both goods", "Consumers prefer one good over the other", "Technology improves as output rises", "Prices fall as more of a good is produced"],
+        "answer": 0,
+        "explanation": "As an economy shifts toward one good, it must use resources less suited to it, so each extra unit costs more of the other good. This is the law of increasing opportunity cost."
+      }
+    ],
+    "flashcards": [
+      { "term": "Scarcity", "definition": "The basic economic problem that limited resources cannot satisfy unlimited wants, so people and societies must make choices." },
+      { "term": "Opportunity cost", "definition": "The value of the next best alternative given up when a choice is made." },
+      { "term": "Production possibilities curve", "definition": "A graph of the maximum combinations of two goods an economy can produce with its current resources and technology." },
+      { "term": "Comparative advantage", "definition": "The ability to produce a good at a lower opportunity cost than another producer, which is the basis for gains from trade." },
+      { "term": "Mixed economy", "definition": "An economic system that combines market decisions by individuals and businesses with some government planning and regulation." }
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Product, service and channel management",
+    "objective": "Manage a product through its life cycle, build a product mix and brand, and choose the channel that gets it to customers.",
+    "body": "Product questions ask what to sell and how to manage it over time; channel questions ask how it reaches the customer. Both appear constantly on the exam and in buying, merchandising and service role-plays.\n\n**Product levels and the product mix.** A product is a bundle of benefits: the *core* benefit (what the customer really buys, such as transportation), the *actual* product (features, design, brand, packaging) and the *augmented* product (warranty, delivery, installation, service). A company's *product mix* is everything it sells. *Width* is the number of product lines; *depth* is the number of versions within a line. Adding a new flavor to an existing line is a *line extension*; putting an established brand name on a new category is a *brand extension*.\n\n**Branding and packaging.** Strong brands build recognition and loyalty. *Brand equity* is the extra value a well-known name adds, which lets a firm charge more and launch new products more easily. A *manufacturer (national) brand* is owned by the producer; a *private (store) brand* is owned by the retailer. Packaging protects, promotes and informs, and labels must meet legal requirements.\n\n**Product life cycle (PLC).**\n1. *Introduction*: low sales, high costs, informative promotion to build awareness.\n2. *Growth*: sales climb quickly, competitors enter, profits rise.\n3. *Maturity*: sales level off and competition is fiercest; firms defend share with promotion, pricing and small improvements.\n4. *Decline*: sales fall; firms cut costs, harvest remaining profit or drop the product.\n\n**Services.** Services are *intangible* (they can't be touched before purchase), *inseparable* (produced and consumed at the same time), *perishable* (an empty seat can't be stored and sold later) and *variable* (quality depends on who delivers it and when). Marketers respond with tangible cues, staff training, scheduling and demand-based pricing.\n\n**Channels of distribution.** A *direct channel* goes from producer to consumer; an *indirect channel* adds intermediaries such as wholesalers, retailers or agents. Intermediaries add value by breaking bulk, storing goods, financing, sharing risk and building assortments. *Distribution intensity* fits the product: *intensive* (everywhere, for convenience goods like gum), *selective* (some outlets, for shopping goods like jeans) or *exclusive* (one dealer per area, for luxury or specialty goods). Disagreements among channel members are *channel conflict*.\n\n**Common mistake:** treating the PLC as a calendar. Products move through stages based on sales and competition, not time, and smart management can extend maturity for decades.",
+    "examples": [
+      "A company with 4 product lines (shampoo, conditioner, body wash, lotion) offering 6 scents each has a product-mix width of 4 and a depth of 6 in every line.",
+      "A luxury watchmaker allows only one authorized dealer per metro area. Exclusive distribution protects its premium image and gives dealers a reason to invest in service.",
+      "A theater sells discounted rush tickets an hour before the show because an unsold seat is worth nothing once the curtain rises: service perishability."
+    ],
+    "questions": [
+      {
+        "stem": "Sales of a smartwatch model have leveled off, many competitors offer similar features, and the brand is spending more on promotion to defend its share. Which life-cycle stage is it in?",
+        "choices": [
+          "Introduction",
+          "Growth",
+          "Maturity",
+          "Decline"
+        ],
+        "answer": 2,
+        "explanation": "Flat sales, crowded competition and spending to defend share are signs of maturity. In growth, sales would still be climbing quickly."
+      },
+      {
+        "stem": "Customers of a hair salon get noticeably different results depending on which stylist they see. Which characteristic of services does this show?",
+        "choices": [
+          "Variability",
+          "Intangibility",
+          "Perishability",
+          "Inseparability"
+        ],
+        "answer": 0,
+        "explanation": "Variability means service quality depends on who provides it and when. Salons reduce it with training and standard procedures."
+      },
+      {
+        "stem": "A gum manufacturer wants its product sold in grocery stores, gas stations, vending machines, pharmacies and airport kiosks. Which distribution strategy is this?",
+        "choices": [
+          "Selective distribution",
+          "Exclusive distribution",
+          "Direct distribution",
+          "Intensive distribution"
+        ],
+        "answer": 3,
+        "explanation": "Convenience goods such as gum need intensive distribution, meaning as many outlets as possible, because shoppers won't search for them."
+      },
+      {
+        "stem": "A snack company has 3 product lines: chips in 8 flavors, pretzels in 4 varieties and popcorn in 6 varieties. What are the width of its product mix and the average depth of its lines?",
+        "choices": [
+          "Width 18, average depth 3",
+          "Width 3, average depth 6",
+          "Width 6, average depth 3",
+          "Width 3, average depth 18"
+        ],
+        "answer": 1,
+        "explanation": "Width is the number of lines, 3. Average depth is the total number of items divided by lines: (8 + 4 + 6) ÷ 3 = 18 ÷ 3 = 6."
+      },
+      {
+        "stem": "A well-known sports-drink brand launches a line of protein bars under the same brand name. What is this called?",
+        "choices": [
+          "Line extension",
+          "Private labeling",
+          "Brand extension",
+          "Co-branding"
+        ],
+        "answer": 2,
+        "explanation": "Using an established brand name in a new product category is a brand extension. A line extension would be a new flavor of the same sports drink."
+      },
+      {
+        "stem": "A supermarket chain sells canned vegetables under its own store name at lower prices than the national brands beside them. These products are examples of:",
+        "choices": [
+          "Manufacturer brands",
+          "Licensed brands",
+          "Co-brands",
+          "Private brands"
+        ],
+        "answer": 3,
+        "explanation": "Private (store) brands are owned by the retailer rather than the producer. Manufacturer brands are owned by the company that makes the product."
+      },
+      {
+        "stem": "A wholesaler buys 10,000 cases of paper towels from a manufacturer and resells them to small neighborhood stores in batches of 20 cases. Which marketing function is the wholesaler performing?",
+        "choices": [
+          "Breaking bulk",
+          "Assorting",
+          "Financing",
+          "Grading"
+        ],
+        "answer": 0,
+        "explanation": "Breaking bulk means dividing large quantities into smaller amounts that buyers can use. Assorting would combine products from several producers into one offering."
+      },
+      {
+        "stem": "A clothing brand begins selling online at prices lower than its retail partners charge, and the retailers complain that they are losing sales. What is this an example of?",
+        "choices": [
+          "Vertical integration",
+          "Channel conflict",
+          "Exclusive distribution",
+          "Product recall"
+        ],
+        "answer": 1,
+        "explanation": "Channel conflict is disagreement among members of a distribution channel, often caused when a producer competes with its own retailers."
+      },
+      {
+        "stem": "A laptop seller includes free setup, a two-year warranty and next-day delivery with every purchase. These extras belong to which product level?",
+        "choices": [
+          "Core benefit",
+          "Actual product",
+          "Product line",
+          "Augmented product"
+        ],
+        "answer": 3,
+        "explanation": "The augmented product adds services and support beyond the physical item. The actual product is the laptop's features, design and brand."
+      },
+      {
+        "stem": "A DVD player's sales have fallen about 30% a year for three straight years. Which action best fits this stage of the product life cycle?",
+        "choices": [
+          "Spend heavily on informative ads to build awareness",
+          "Cut costs and promotion, then decide whether to harvest or discontinue it",
+          "Add many new models to win rivals' customers",
+          "Raise the price to skim early adopters"
+        ],
+        "answer": 1,
+        "explanation": "Steady, steep sales declines mark the decline stage, where firms reduce costs and either harvest remaining profits or drop the product."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Product mix width",
+        "definition": "The number of different product lines a company sells."
+      },
+      {
+        "term": "Product line depth",
+        "definition": "The number of versions, such as sizes, flavors or models, offered within one product line."
+      },
+      {
+        "term": "Brand equity",
+        "definition": "The added value a well-known brand name gives a product, allowing higher prices and easier launches."
+      },
+      {
+        "term": "Product life cycle",
+        "definition": "The stages a product moves through in the market: introduction, growth, maturity and decline."
+      },
+      {
+        "term": "Service perishability",
+        "definition": "Services can't be stored for later sale, so unused capacity such as an empty seat is lost revenue."
+      },
+      {
+        "term": "Selective distribution",
+        "definition": "Selling through a limited number of chosen outlets in an area, common for shopping goods."
+      }
+    ]
+  }
+]

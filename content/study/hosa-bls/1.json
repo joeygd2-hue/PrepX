@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Laboratory safety, specimen collection and the testing process",
+    "objective": "Identify laboratory safety controls, apply standard precautions, and sequence the pre-analytical, analytical and post-analytical phases of testing.",
+    "body": "A clinical laboratory turns a sample from a patient into a result a provider can act on. Every result depends on two things: a safe workplace and a specimen that was handled correctly from the moment it was collected. Most competition questions in this area test whether you can spot where in that chain something went wrong.\n\n**Standard precautions.** Treat all blood and body fluids as potentially infectious, regardless of the patient's diagnosis. This principle comes from the OSHA **Bloodborne Pathogens Standard**, which targets hepatitis B, hepatitis C and HIV. Core practices include:\n- Hand hygiene before and after patient contact and after removing gloves.\n- **Personal protective equipment (PPE)** such as gloves, lab coats and face protection when splashes are possible.\n- Engineering controls such as safety needles and puncture-resistant **sharps containers**; never recap a used needle by hand.\n- No eating, drinking or applying cosmetics in the lab.\n\n**Chemical and physical hazards.** Each chemical has a **Safety Data Sheet (SDS)** describing its hazards, PPE and first aid; the OSHA Hazard Communication Standard requires SDSs to be available to workers. Centrifuges must be balanced and kept closed until they stop. A **biological safety cabinet** protects workers when handling organisms that could form aerosols.\n\n**The three phases of testing.**\n1. **Pre-analytical:** test ordering, patient identification, collection, labeling, transport and processing.\n2. **Analytical:** the actual measurement, including instrument calibration and quality control.\n3. **Post-analytical:** reporting results, notifying providers of critical values and storing specimens.\n\nStudies of laboratory error consistently find that most errors happen in the pre-analytical phase, not on the instrument. That is why patient identification uses at least **two identifiers**, such as full name and date of birth, and why tubes are labeled at the bedside in the patient's presence.\n\n**Tubes and order of draw.** Additives determine what a tube can be used for. A light blue top contains sodium citrate for coagulation tests, a lavender top contains EDTA for a complete blood count, and a red or gold top yields serum for chemistry. The recommended **order of draw** for venipuncture is blood cultures, light blue, red/gold serum tubes, green (heparin), lavender (EDTA), then gray (sodium fluoride/potassium oxalate). The order prevents additive carryover; for example, EDTA carried into a chemistry tube can falsely raise potassium and lower calcium.\n\n**Specimen rejection.** Labs reject specimens that are unlabeled or mislabeled, clotted when whole blood was required, underfilled citrate tubes, or grossly **hemolyzed** samples for tests that hemolysis affects.\n\nThe most common mistake students make is assuming a strange result means the analyzer failed. In practice, check the pre-analytical phase first: identification, tube type, order of draw and specimen condition.",
+    "examples": [
+      "A phlebotomist draws a lavender tube before a green tube and the potassium comes back extremely high; EDTA carryover is the likely cause, so the sample should be redrawn in the correct order.",
+      "A technician spills a reagent and checks its Safety Data Sheet to find which gloves and cleanup procedure to use.",
+      "A specimen arrives labeled only with a room number, so the lab rejects it because it lacks two patient identifiers."
+    ],
+    "questions": [
+      {
+        "stem": "A tube for a prothrombin time arrives only half full. What should the laboratory do?",
+        "choices": [
+          "Run the test and add a comment",
+          "Reject the specimen and request a recollection",
+          "Pour off plasma to adjust the ratio",
+          "Run the test on serum instead"
+        ],
+        "answer": 1,
+        "explanation": "Citrate tubes require a correct blood-to-anticoagulant ratio (about 9:1); an underfilled tube dilutes the plasma and falsely prolongs clotting times. Adding a comment does not fix a result that is already wrong."
+      },
+      {
+        "stem": "Which phase of testing produces the largest share of laboratory errors?",
+        "choices": [
+          "Analytical",
+          "Post-analytical",
+          "Pre-analytical",
+          "Calibration"
+        ],
+        "answer": 2,
+        "explanation": "Most errors occur before measurement, during ordering, identification, collection and handling. The analytical phase is tightly controlled by calibration and QC, so it is not the main source."
+      },
+      {
+        "stem": "A phlebotomist needs a blood culture, a lavender tube and a light blue tube. What is the correct order?",
+        "choices": [
+          "Lavender, light blue, blood culture",
+          "Light blue, blood culture, lavender",
+          "Blood culture, lavender, light blue",
+          "Blood culture, light blue, lavender"
+        ],
+        "answer": 3,
+        "explanation": "Blood cultures come first for sterility, then citrate, then EDTA. Drawing lavender before light blue risks carrying EDTA into the coagulation tube."
+      },
+      {
+        "stem": "A student wants to recap a used needle to carry it to a sharps container across the room. What is the best practice?",
+        "choices": [
+          "Recap it using two hands carefully",
+          "Bend the needle before recapping",
+          "Activate the safety device and discard it immediately in a sharps container at the point of use",
+          "Place it on the tray and dispose of it later"
+        ],
+        "answer": 2,
+        "explanation": "Sharps containers should be at the point of use and safety devices activated right away. Two-handed recapping is a leading cause of needlestick injuries."
+      },
+      {
+        "stem": "Where should a worker look first to find the PPE required for handling a new chemical reagent?",
+        "choices": [
+          "The instrument's operator manual",
+          "The reagent's Safety Data Sheet",
+          "The lab's QC log",
+          "The patient's chart"
+        ],
+        "answer": 1,
+        "explanation": "The SDS lists hazards, required PPE and first aid for that chemical. An instrument manual covers operation, not chemical hazards."
+      },
+      {
+        "stem": "A serum potassium is unexpectedly high and the specimen appears red-tinged after centrifugation. What is the most likely explanation?",
+        "choices": [
+          "The patient was fasting",
+          "The specimen was hemolyzed",
+          "The analyzer needs a new lamp",
+          "The tube was a gold top"
+        ],
+        "answer": 1,
+        "explanation": "Ruptured red cells release potassium, falsely raising the result. A gold top is a correct tube for chemistry and does not cause this."
+      },
+      {
+        "stem": "Which pair of identifiers is acceptable before drawing blood?",
+        "choices": [
+          "Room number and bed number",
+          "Diagnosis and physician name",
+          "Full name and date of birth",
+          "Wristband color and room number"
+        ],
+        "answer": 2,
+        "explanation": "Two patient-specific identifiers, such as name and date of birth, are required. Room numbers change and are not unique to the patient."
+      },
+      {
+        "stem": "A provider must be notified of a critically low glucose result. Which phase of testing does this step belong to?",
+        "choices": [
+          "Post-analytical",
+          "Pre-analytical",
+          "Analytical",
+          "Calibration"
+        ],
+        "answer": 0,
+        "explanation": "Reporting and communicating critical values happens after measurement. The analytical phase ends once the value is produced."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Standard precautions",
+        "definition": "Treating all blood and body fluids as potentially infectious regardless of diagnosis."
+      },
+      {
+        "term": "Safety Data Sheet (SDS)",
+        "definition": "Document describing a chemical's hazards, required PPE, handling and first aid."
+      },
+      {
+        "term": "Pre-analytical phase",
+        "definition": "Testing steps before measurement: ordering, identification, collection, labeling, transport and processing."
+      },
+      {
+        "term": "Order of draw",
+        "definition": "Recommended tube sequence that prevents additive carryover: cultures, light blue, serum, green, lavender, gray."
+      },
+      {
+        "term": "Hemolysis",
+        "definition": "Rupture of red blood cells that releases contents such as potassium and can falsely alter results."
+      }
+    ]
+  }
+]

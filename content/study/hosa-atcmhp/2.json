@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Ratios, proportions, percentages, and dimensional analysis",
+    "objective": "Set up and solve ratio-proportion and dimensional analysis problems and interpret percent strength in health care solutions.",
+    "body": "Once you can convert single units, the next step is solving problems that link several quantities at once. Health careers use three closely related tools for this: ratios and proportions, percentages, and dimensional analysis.\n\n**Ratios and proportions.** A **ratio** compares two quantities, such as 1 nurse to 4 patients (1:4). A **proportion** states that two ratios are equal, such as 1/4 = 3/12. When one value is unknown, **cross-multiply**: in 2/5 = x/40, multiply 2 × 40 = 80, then divide by 5 to get x = 16. Always keep matching units in matching positions; if the numerator on the left is milliliters, the numerator on the right must be milliliters too.\n\n**Percentages.** Percent means \"per hundred.\" To find a percent of a number, convert the percent to a decimal and multiply (15% of 200 = 0.15 × 200 = 30). To find percent change, use (new − old) ÷ old × 100. A patient whose weight drops from 80 kg to 76 kg has lost 4 ÷ 80 = 5% of body weight.\n\n**Percent strength of solutions.** In health care, a **weight/volume (w/v) percent** tells the grams of solute in 100 mL of solution. Normal saline is 0.9% sodium chloride, meaning 0.9 g of sodium chloride in every 100 mL. A 1,000 mL bag therefore contains 9 g. A **ratio strength** such as 1:1,000 means 1 g in 1,000 mL. Converting between the two is a proportion problem: 1 g/1,000 mL equals 0.1 g/100 mL, or 0.1%.\n\n**Dimensional analysis.** Also called the factor-label method, **dimensional analysis** multiplies the starting quantity by a chain of **conversion factors**, each written as a fraction equal to one, arranged so unwanted units cancel. To convert 3 cups to liters:\n1. Start with 3 cups.\n2. Multiply by 240 mL / 1 cup (cups cancel).\n3. Multiply by 1 L / 1,000 mL (mL cancels).\n4. Result: 3 × 240 ÷ 1,000 = 0.72 L.\n\nThe strength of this method is that the units themselves tell you whether the setup is correct. If the leftover unit is not the one you want, a factor is upside down.\n\n**Estimation.** Before calculating, estimate. If a container holds about a liter and you need a quarter of it, the answer should be near 250 mL. Estimation catches setup errors that a calculator will not.\n\nThe most common mistake students make is flipping a conversion factor or placing units in mismatched positions in a proportion. The arithmetic is then perfect, but the answer is wrong by a large factor. Writing every unit on every number, and confirming that the units cancel to the one requested, prevents this error.",
+    "examples": [
+      "A clinic schedules 3 patients every 20 minutes; by proportion, it can see 3/20 = x/120, so x = 18 patients in two hours.",
+      "A 500 mL bag of 5% dextrose solution contains 5 g per 100 mL, so it holds 25 g of dextrose.",
+      "Converting 90 minutes to hours by dimensional analysis: 90 min × (1 h / 60 min) = 1.5 h."
+    ],
+    "questions": [
+      {
+        "stem": "A lab mixes a cleaning solution in a ratio of 1 part concentrate to 9 parts water. How much concentrate is needed for 2,000 mL of finished solution?",
+        "choices": [
+          "222 mL",
+          "200 mL",
+          "180 mL",
+          "1,800 mL"
+        ],
+        "answer": 1,
+        "explanation": "1 + 9 = 10 total parts, so concentrate is 1/10 of 2,000 = 200 mL. 222 mL comes from dividing by 9, treating the water alone as the total."
+      },
+      {
+        "stem": "How many grams of sodium chloride are in 250 mL of 0.9% sodium chloride solution?",
+        "choices": [
+          "0.225 g",
+          "22.5 g",
+          "2.25 g",
+          "9 g"
+        ],
+        "answer": 2,
+        "explanation": "0.9% w/v means 0.9 g per 100 mL; 250 mL is 2.5 × 100 mL, so 0.9 × 2.5 = 2.25 g. 9 g is the amount in a full 1,000 mL."
+      },
+      {
+        "stem": "A solution is labeled 1:2,000. What is its percent strength?",
+        "choices": [
+          "0.05%",
+          "0.5%",
+          "2%",
+          "0.2%"
+        ],
+        "answer": 0,
+        "explanation": "1 g in 2,000 mL equals 0.05 g in 100 mL, which is 0.05%. 0.5% would mean 1 g in 200 mL, a tenfold stronger solution."
+      },
+      {
+        "stem": "A patient's resting heart rate falls from 90 to 72 beats per minute after a fitness program. What is the percent decrease?",
+        "choices": [
+          "18%",
+          "25%",
+          "20%",
+          "80%"
+        ],
+        "answer": 2,
+        "explanation": "Change is 18; 18 ÷ 90 (the original) × 100 = 20%. 25% results from dividing by the new value, 72, instead of the original."
+      },
+      {
+        "stem": "A student converts 6 tablespoons to milliliters and writes 6 tbsp × (1 tbsp / 15 mL). What is wrong?",
+        "choices": [
+          "Nothing; the answer is 0.4 mL",
+          "The factor is inverted, so tablespoons do not cancel",
+          "Tablespoons should be converted to ounces first",
+          "The factor should be 1 tbsp / 5 mL"
+        ],
+        "answer": 1,
+        "explanation": "Units cancel only when tbsp is in the denominator: 6 tbsp × 15 mL/1 tbsp = 90 mL. Choosing 1 tbsp/5 mL fixes nothing, because 5 mL is a teaspoon and the factor is still upside down."
+      },
+      {
+        "stem": "A pharmacy technician needs to know how many 250 mL bottles can be filled from a 4 L stock container. What is the answer?",
+        "choices": [
+          "16",
+          "1.6",
+          "160",
+          "62.5"
+        ],
+        "answer": 0,
+        "explanation": "4 L = 4,000 mL, and 4,000 ÷ 250 = 16 bottles. 1.6 results from dividing 4 by 2.5 without converting liters to milliliters."
+      },
+      {
+        "stem": "In a survey, 36 of 240 clinic patients reported missing a follow-up appointment. What percentage is that?",
+        "choices": [
+          "6.7%",
+          "36%",
+          "15%",
+          "24%"
+        ],
+        "answer": 2,
+        "explanation": "36 ÷ 240 = 0.15, or 15%. 6.7% comes from dividing 240 by 36 and misplacing the decimal."
+      },
+      {
+        "stem": "A recipe for oral rehydration practice in a lab calls for 30 mL of syrup per 120 mL of water. Using a proportion, how much syrup goes with 500 mL of water?",
+        "choices": [
+          "150 mL",
+          "100 mL",
+          "125 mL",
+          "120 mL"
+        ],
+        "answer": 2,
+        "explanation": "30/120 = x/500, so x = 30 × 500 ÷ 120 = 125 mL. 150 mL comes from adding the 30 mL difference repeatedly rather than scaling proportionally."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Proportion",
+        "definition": "A statement that two ratios are equal, solved for an unknown by cross-multiplying."
+      },
+      {
+        "term": "Weight/volume percent",
+        "definition": "Grams of solute per 100 mL of solution."
+      },
+      {
+        "term": "Ratio strength",
+        "definition": "Solution strength written as grams of solute to milliliters of solution, such as 1:1,000."
+      },
+      {
+        "term": "Dimensional analysis",
+        "definition": "A method that multiplies by conversion factors arranged so unwanted units cancel."
+      },
+      {
+        "term": "Conversion factor",
+        "definition": "A fraction equal to one, such as 1 L / 1,000 mL, used to change units."
+      }
+    ]
+  }
+]

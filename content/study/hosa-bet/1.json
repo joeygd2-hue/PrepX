@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Electrical fundamentals and patient safety for biomedical technicians",
+    "objective": "Apply Ohm's law, distinguish macroshock from microshock, and identify grounding and lockout practices that protect patients and technicians.",
+    "body": "Every piece of medical equipment, from a bedside monitor to an infusion pump, runs on electricity, and every repair a biomedical equipment technician (BMET) makes starts with understanding how current moves and how it can hurt someone. Learn the basic relationships first, then connect them to hospital safety rules.\n\n**Ohm's law.** Voltage equals current times resistance (V = I x R). **Voltage** is electrical pressure measured in volts, **current** is the flow of charge measured in amperes, and **resistance** opposes that flow and is measured in ohms. Power, measured in watts, equals voltage times current (P = V x I). If resistance drops while voltage stays the same, current rises, which is why wet skin or a damaged insulator makes a shock more dangerous.\n\n**AC and DC.** Wall outlets in the United States supply **alternating current** at about 120 volts and 60 hertz, meaning the direction reverses 60 times per second. Batteries supply **direct current**, which flows in one direction. Many devices convert AC to low-voltage DC with an internal power supply, so a technician often checks both sides.\n\n**How current harms the body.** It is current, not voltage alone, that injures tissue.\n- **Macroshock** is current that enters and leaves through the skin, such as hand to hand. Roughly 1 milliampere is perceptible, and somewhere around 100 milliamperes across the chest can cause ventricular fibrillation.\n- **Microshock** is current delivered directly to the heart through a conductive path such as a central line or pacing wire. Because skin resistance is bypassed, currents in the microampere range can be dangerous, which is why equipment connected near the heart has the strictest leakage limits.\n\n**Grounding and leakage.** **Leakage current** is small unintended current that flows from a device's internal circuits to its chassis or patient leads. A three-prong **hospital-grade** plug, often marked with a green dot, gives that current a low-resistance path to ground through the ground pin instead of through a person. A broken ground pin, a cheater adapter or a frayed cord removes that protection.\n\n**Working safely.** Before opening equipment, unplug it and follow **lockout/tagout** procedures so no one can re-energize it while you work. Remember that capacitors in power supplies and defibrillators can hold a dangerous charge after the device is unplugged, so discharge or verify them before touching. Use one hand when probing live circuits when practical, and remove jewelry.\n\nThe most common mistake students make is assuming high voltage is what kills. A shock's danger depends on the current that actually flows and the path it takes, so a low-voltage fault connected directly to the heart can be more lethal than a higher-voltage tingle across the hand.",
+    "examples": [
+      "A 120 V circuit with 60 ohms of resistance draws 2 A, so it uses 240 W of power.",
+      "A technician finds a monitor's power cord with the ground pin snapped off and removes the device from service until the cord is replaced.",
+      "A patient with a temporary pacing wire is at risk of microshock, so staff avoid touching the exposed wire and a faulty bed at the same time."
+    ],
+    "questions": [
+      {
+        "stem": "A device draws 3 A from a 120 V outlet. What is its power consumption?",
+        "choices": [
+          "40 W",
+          "123 W",
+          "360 W",
+          "3,600 W"
+        ],
+        "answer": 2,
+        "explanation": "P = V x I = 120 x 3 = 360 W. 40 W comes from dividing instead of multiplying, which is the formula for resistance, not power."
+      },
+      {
+        "stem": "A technician measures 12 V across a resistor and 0.004 A through it. What is the resistance?",
+        "choices": [
+          "3,000 ohms",
+          "48 ohms",
+          "300 ohms",
+          "0.048 ohms"
+        ],
+        "answer": 0,
+        "explanation": "R = V / I = 12 / 0.004 = 3,000 ohms. 0.048 ohms comes from multiplying V and I, which gives watts, not ohms."
+      },
+      {
+        "stem": "A patient in the ICU has a central venous catheter filled with saline. Which hazard is most specific to this situation?",
+        "choices": [
+          "Macroshock through intact skin",
+          "Microshock through a direct path to the heart",
+          "Radiation burns from the catheter",
+          "Hearing damage from alarms"
+        ],
+        "answer": 1,
+        "explanation": "A fluid-filled line can conduct tiny currents straight to the heart, bypassing skin resistance. Macroshock involves current through the skin and requires far larger current."
+      },
+      {
+        "stem": "During rounds, a technician sees a nurse using a two-prong adapter to plug a three-prong infusion pump into an old outlet. What is the main problem?",
+        "choices": [
+          "The pump will run on DC instead of AC",
+          "The adapter doubles the line voltage",
+          "The ground path for leakage current is lost",
+          "The pump's battery cannot charge"
+        ],
+        "answer": 2,
+        "explanation": "Cheater adapters remove the equipment ground, so leakage current may flow through a person. The adapter does not change voltage, which is the most tempting wrong idea."
+      },
+      {
+        "stem": "Before replacing a power supply board, what should a BMET do first?",
+        "choices": [
+          "Unplug the device and apply lockout/tagout",
+          "Measure leakage current with the device running",
+          "Remove the battery while the device is powered",
+          "Tape the power switch in the on position"
+        ],
+        "answer": 0,
+        "explanation": "De-energizing and locking out prevents someone from restoring power during the repair. Leakage testing is done on an assembled, powered device, not before opening it."
+      },
+      {
+        "stem": "A technician has unplugged a defibrillator for repair. Why is it still unsafe to touch internal parts immediately?",
+        "choices": [
+          "The wall outlet still feeds it through the case",
+          "Its energy-storage capacitor may still hold a charge",
+          "The ground pin keeps current flowing",
+          "DC current cannot be switched off"
+        ],
+        "answer": 1,
+        "explanation": "Capacitors store charge after power is removed and must be discharged or verified safe. The device is no longer connected to the outlet, so the outlet is not the hazard."
+      },
+      {
+        "stem": "Which statement best explains why wet hands make a shock more dangerous?",
+        "choices": [
+          "Water raises the voltage of the outlet",
+          "Water converts AC into DC",
+          "Water lowers skin resistance so more current flows",
+          "Water increases the frequency of the current"
+        ],
+        "answer": 2,
+        "explanation": "By Ohm's law, lower resistance at the same voltage means higher current. Water does not change the supply voltage; that is the main misconception."
+      },
+      {
+        "stem": "A hospital-grade plug is commonly identified by which marking?",
+        "choices": [
+          "A red stripe on the cord",
+          "A green dot on the plug",
+          "A yellow lightning bolt",
+          "A blue ground pin"
+        ],
+        "answer": 1,
+        "explanation": "Hospital-grade plugs and receptacles in the U.S. are commonly marked with a green dot, showing they meet stricter grounding reliability requirements. The other markings are not standard identifiers."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Ohm's law",
+        "definition": "V = I x R; voltage equals current times resistance."
+      },
+      {
+        "term": "Macroshock",
+        "definition": "Current that enters and exits the body through the skin; larger currents are needed to cause harm."
+      },
+      {
+        "term": "Microshock",
+        "definition": "Very small current delivered directly to the heart through a conductive path such as a catheter or pacing wire."
+      },
+      {
+        "term": "Leakage current",
+        "definition": "Unintended current flowing from a device's circuits to its chassis or patient connections."
+      },
+      {
+        "term": "Lockout/tagout",
+        "definition": "Procedure that de-energizes equipment and labels it so no one restores power during service."
+      }
+    ]
+  }
+]

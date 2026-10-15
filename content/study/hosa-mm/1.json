@@ -1,0 +1,25 @@
+[
+{
+ "title": "Conversions, Ratios and Dosage Basics",
+ "objective": "Convert between common units and use ratio-proportion to solve basic dosage and intake problems.",
+ "body": "Health care math is about accuracy: a misplaced decimal can cause harm.\n\n**Metric conversions.** 1 kilogram (kg) = 1,000 grams (g); 1 g = 1,000 milligrams (mg); 1 mg = 1,000 micrograms (mcg); 1 liter (L) = 1,000 milliliters (mL). Moving to a smaller unit, multiply; moving to a larger unit, divide.\n\n**Household and weight.** 1 kg ≈ 2.2 lb; 1 teaspoon (tsp) = 5 mL; 1 tablespoon (Tbsp) = 15 mL; 1 fluid ounce (oz) = 30 mL; 1 inch = 2.54 cm.\n\n**Temperature.** °C = (°F − 32) × 5/9 and °F = (°C × 9/5) + 32.\n\n**Ratio and proportion.** Set up known ratio = unknown ratio and cross-multiply. Example: an order is 250 mg; tablets are 125 mg each. 125 mg/1 tab = 250 mg/x tabs, so x = 2 tablets.\n\n**Formula method.** Dose = (Desired ÷ Have) × Quantity. Desired 500 mg, have 250 mg per 5 mL: (500 ÷ 250) × 5 = 10 mL.\n\n**Military time.** 1:00 p.m. = 1300; 11:45 p.m. = 2345; midnight = 0000.\n\nAlways label units in every step and double-check that the answer is reasonable.",
+ "examples": ["A 132-lb patient weighs 132 ÷ 2.2 = 60 kg.", "8 oz of water = 8 × 30 = 240 mL of intake."],
+ "questions": [
+  {"stem": "How many milligrams are in 2.5 grams?", "choices": ["25 mg", "250 mg", "2,500 mg", "25,000 mg"], "answer": 2, "explanation": "1 g = 1,000 mg, so 2.5 × 1,000 = 2,500 mg."},
+  {"stem": "A patient weighs 176 lb. What is the weight in kilograms?", "choices": ["70 kg", "80 kg", "88 kg", "387 kg"], "answer": 1, "explanation": "176 ÷ 2.2 = 80 kg."},
+  {"stem": "The order is 500 mg. Tablets contain 250 mg each. How many tablets?", "choices": ["1", "2", "3", "4"], "answer": 1, "explanation": "500 ÷ 250 = 2 tablets."},
+  {"stem": "Convert 98.6 °F to Celsius.", "choices": ["35 °C", "36 °C", "37 °C", "38 °C"], "answer": 2, "explanation": "(98.6 − 32) × 5/9 = 37 °C."},
+  {"stem": "How many milliliters are in 2 tablespoons?", "choices": ["10 mL", "15 mL", "30 mL", "60 mL"], "answer": 2, "explanation": "1 Tbsp = 15 mL, so 2 Tbsp = 30 mL."},
+  {"stem": "What is 9:30 p.m. in military time?", "choices": ["0930", "1930", "2130", "2330"], "answer": 2, "explanation": "Add 12 to p.m. hours: 9 + 12 = 21, so 2130."},
+  {"stem": "Desired dose 300 mg; available 150 mg per 5 mL. How many mL?", "choices": ["2.5 mL", "5 mL", "10 mL", "15 mL"], "answer": 2, "explanation": "(300 ÷ 150) × 5 = 10 mL."},
+  {"stem": "A patient drinks 6 fl oz of juice. What is the intake in mL?", "choices": ["60 mL", "120 mL", "180 mL", "240 mL"], "answer": 2, "explanation": "6 × 30 mL = 180 mL."}
+ ],
+ "flashcards": [
+  {"term": "1 kg", "definition": "≈ 2.2 lb; 1,000 g."},
+  {"term": "1 tsp", "definition": "5 mL."},
+  {"term": "1 fl oz", "definition": "30 mL."},
+  {"term": "Formula method", "definition": "Dose = (Desired ÷ Have) × Quantity."},
+  {"term": "°C from °F", "definition": "(°F − 32) × 5/9."}
+ ]
+}
+]

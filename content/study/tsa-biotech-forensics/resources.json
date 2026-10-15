@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Forensic Science Program",
+    "url": "https://www.nist.gov/spo/forensic-science-program",
+    "publisher": "NIST",
+    "kind": "reference",
+    "note": "NIST's program on forensic science standards, DNA analysis and evidence reliability."
+  },
+  {
+    "title": "Biology 2e",
+    "url": "https://openstax.org/details/books/biology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free biology text; molecular biology and biotechnology chapters support project research."
+  },
+  {
+    "title": "Talking Glossary of Genomic and Genetic Terms",
+    "url": "https://www.genome.gov/genetics-glossary",
+    "publisher": "National Human Genome Research Institute",
+    "kind": "reference",
+    "note": "Spoken definitions of genetics and biotechnology terms for your documentation."
+  }
+]

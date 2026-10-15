@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Quality control, blood bank compatibility, and microbiology basics",
+    "objective": "Apply Westgard quality control rules, determine ABO and Rh compatibility for transfusion, and interpret Gram stain results to guide laboratory decisions.",
+    "body": "Advanced laboratory work asks you to decide whether a result can be trusted and what it means for the patient. Three areas test that judgment most often: quality control, blood banking and microbiology.\n\n**Quality control (QC).** Before patient samples are reported, labs run control materials with known target values. Results are plotted on a **Levey-Jennings chart** showing the mean and lines at plus or minus 1, 2 and 3 standard deviations (SD). **Westgard rules** decide whether a run is accepted.\n- **1-2s:** one control beyond 2 SD; a warning to inspect, not by itself a rejection.\n- **1-3s:** one control beyond 3 SD; reject the run, usually random error.\n- **2-2s:** two consecutive controls beyond 2 SD on the same side; reject, suggesting systematic error.\n- **R-4s:** one control above +2 SD and another below -2 SD in the same run, a spread of more than 4 SD; reject for random error.\n- **10x:** ten consecutive results on one side of the mean; a **shift** or **trend** from systematic error such as a deteriorating reagent.\n\nWhen a run is rejected, patient results are held, the cause is fixed and controls are rerun before reporting.\n\n**ABO and Rh compatibility.** Red cells carry A, B, both or neither antigen, and plasma contains the opposite naturally occurring antibodies. Type A has anti-B, type B has anti-A, type AB has neither and type O has both. For red cell transfusion, the donor cells must lack antigens the recipient's antibodies would attack. Group O red cells are the **universal donor** for red cells; group AB patients are universal recipients. Plasma follows the reverse logic, making AB plasma universal. Rh-negative patients, especially females of childbearing potential, should receive Rh-negative red cells to avoid forming anti-D. A **crossmatch** tests donor cells against recipient plasma before release.\n\n**Gram stain.** This stain sorts bacteria by cell wall. The steps are crystal violet, iodine, decolorizer and safranin counterstain. **Gram-positive** organisms have a thick peptidoglycan layer that holds crystal violet and appear purple; **gram-negative** organisms have a thin layer with an outer membrane, lose the violet and appear pink. Shape matters too: gram-positive cocci in clusters suggest Staphylococcus, while gram-positive cocci in chains suggest Streptococcus. Gram stain results are preliminary; culture and identification follow.\n\nThe most common mistake students make is treating every 1-2s violation as a rejection, or mixing up red cell and plasma compatibility. Remember: 1-2s is a warning, and O is universal for red cells while AB is universal for plasma.",
+    "examples": [
+      "A glucose control falls at +2.4 SD on Monday and +2.2 SD on the following run, violating 2-2s, so the lab holds patient results and recalibrates.",
+      "A trauma patient of unknown type receives group O Rh-negative red cells while typing is performed.",
+      "A blood culture Gram stain shows purple cocci in grape-like clusters, prompting a preliminary report of gram-positive cocci in clusters."
+    ],
+    "questions": [
+      {
+        "stem": "A single control value falls at +2.5 SD while the other control is within 1 SD. Under Westgard rules, what is the correct response?",
+        "choices": [
+          "Reject the run immediately",
+          "Treat it as a warning and check the other rules before accepting",
+          "Report patients and ignore the control",
+          "Discard the control lot"
+        ],
+        "answer": 1,
+        "explanation": "A 1-2s result is a warning that triggers evaluation of the rejection rules. Immediate rejection is only required when a rule such as 1-3s or 2-2s is violated."
+      },
+      {
+        "stem": "In one run, the level 1 control is at +2.3 SD and the level 2 control is at -2.1 SD. Which rule is violated?",
+        "choices": [
+          "2-2s",
+          "10x",
+          "R-4s",
+          "1-3s"
+        ],
+        "answer": 2,
+        "explanation": "The range between the two controls exceeds 4 SD in one run, an R-4s violation pointing to random error. 2-2s requires both on the same side of the mean."
+      },
+      {
+        "stem": "Over ten days, a cholesterol control stays slightly above the mean each day, within 2 SD. What does this pattern most likely indicate?",
+        "choices": [
+          "Random error",
+          "Systematic error such as a shift",
+          "Acceptable precision with no action needed",
+          "Clerical error"
+        ],
+        "answer": 1,
+        "explanation": "Ten consecutive results on one side of the mean (10x) suggest systematic error such as a calibration or reagent change. Random error produces scattered, not one-sided, values."
+      },
+      {
+        "stem": "A group B Rh-positive patient needs red cells, and group B units are unavailable. Which unit is compatible?",
+        "choices": [
+          "Group A Rh-positive",
+          "Group AB Rh-positive",
+          "Group O Rh-positive",
+          "Group A Rh-negative"
+        ],
+        "answer": 2,
+        "explanation": "Group O red cells lack A and B antigens, so the patient's anti-A will not react. Group AB cells carry A antigen, which the recipient's anti-A would attack."
+      },
+      {
+        "stem": "Which antibodies are normally present in the plasma of a group A person?",
+        "choices": [
+          "Anti-A",
+          "Anti-B",
+          "Anti-A and anti-B",
+          "Neither anti-A nor anti-B"
+        ],
+        "answer": 1,
+        "explanation": "Group A individuals have A antigen and naturally produce anti-B. Anti-A would attack their own cells, so it is absent."
+      },
+      {
+        "stem": "A group AB patient needs plasma. Which plasma group is the safest universal choice?",
+        "choices": [
+          "Group O",
+          "Group A",
+          "Group B",
+          "Group AB"
+        ],
+        "answer": 3,
+        "explanation": "AB plasma contains neither anti-A nor anti-B, so it will not react with any recipient's red cells. Group O plasma contains both antibodies, the opposite of what is needed for plasma."
+      },
+      {
+        "stem": "During a Gram stain, a technician skips the decolorizer step. How will gram-negative bacteria most likely appear?",
+        "choices": [
+          "Purple",
+          "Pink",
+          "Colorless",
+          "Green"
+        ],
+        "answer": 0,
+        "explanation": "Without decolorizing, gram-negative cells retain crystal violet and falsely appear purple. They appear pink only when the decolorizer removes the violet before safranin."
+      },
+      {
+        "stem": "A wound culture smear shows purple cocci arranged in chains. Which genus is most consistent?",
+        "choices": [
+          "Staphylococcus",
+          "Escherichia",
+          "Streptococcus",
+          "Neisseria"
+        ],
+        "answer": 2,
+        "explanation": "Gram-positive cocci in chains suggest Streptococcus. Staphylococcus is also gram-positive but forms grape-like clusters."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Levey-Jennings chart",
+        "definition": "A QC graph plotting control results against the mean and plus or minus 1, 2 and 3 SD limits."
+      },
+      {
+        "term": "Westgard rules",
+        "definition": "Statistical rules such as 1-3s, 2-2s and R-4s used to accept or reject an analytical run."
+      },
+      {
+        "term": "Universal donor",
+        "definition": "Group O red cells, which lack A and B antigens and can be given to recipients of any ABO type."
+      },
+      {
+        "term": "Crossmatch",
+        "definition": "A compatibility test of donor red cells against recipient plasma before transfusion."
+      },
+      {
+        "term": "Gram-positive",
+        "definition": "Bacteria with a thick peptidoglycan wall that retain crystal violet and stain purple."
+      }
+    ]
+  }
+]

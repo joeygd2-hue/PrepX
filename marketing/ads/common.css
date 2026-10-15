@@ -1,0 +1,26 @@
+@font-face{font-family:Geist;src:url(fonts/geist.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:GeistMono;src:url(fonts/geist-mono.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:Instrument;src:url(fonts/InstrumentSerif-Italic.ttf);font-style:italic}
+:root{--bg:#09090a;--fg:#f2f2ec;--muted:#8d8d86;--card:#111113;--subtle:#151517;--subtle2:#1f1f22;--border:rgba(255,255,255,.08);--border2:rgba(255,255,255,.16);--accent:#c6f03a;--success:#4fd18b;--deca:#5b9bff;--fbla:#f6c34a;--hosa:#f0668f;--tsa:#ff5c70}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:540px;height:960px;background:var(--bg);overflow:hidden;font-family:Geist,sans-serif;color:var(--fg);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;inset:0;overflow:hidden;transform-origin:50% 45%}
+#content{position:absolute;inset:0;transform:translate(-16px,-34px) scale(.93);transform-origin:50% 0}
+.glow{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;opacity:0}
+#grain{position:absolute;inset:0;opacity:.07;mix-blend-mode:overlay;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='7'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+#vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 80% at 50% 40%,transparent 55%,rgba(0,0,0,.65))}
+#flash{position:absolute;inset:0;pointer-events:none;background:radial-gradient(60% 40% at 50% 42%,rgba(198,240,58,.55),transparent 70%);opacity:0}
+.scene{position:absolute;inset:0;opacity:0;display:none}
+.eyebrow{font-family:GeistMono;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.serif{font-family:Instrument;font-style:italic;font-weight:400;letter-spacing:-.01em}
+.mono{font-family:GeistMono}
+.head{position:absolute;left:30px;right:30px;top:132px;text-align:center;font-size:42px;font-weight:600;letter-spacing:-.045em;line-height:1.04}
+.w{display:inline-block;margin:0 .1em}
+.head .serif{font-size:1.2em}
+.card{position:absolute;left:46px;width:448px;top:300px;background:linear-gradient(180deg,#141416,#0f0f11);border:1px solid var(--border);border-radius:28px;padding:26px;box-shadow:0 1px 0 rgba(255,255,255,.05) inset,0 40px 90px -30px rgba(0,0,0,.95)}
+.title{font-size:26px;font-weight:600;letter-spacing:-.04em;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px;border-radius:99px;border:1px solid var(--border2);font-size:12px;color:var(--fg);white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+.opt{position:relative;display:flex;align-items:center;gap:12px;height:52px;border:1px solid var(--border);background:var(--subtle);border-radius:16px;padding:0 14px;font-size:16px;margin-top:9px}
+.letter{width:26px;height:26px;border-radius:9px;display:grid;place-items:center;font-family:GeistMono;font-size:12px;background:var(--subtle2);color:var(--muted);flex:none}
+.num{font-variant-numeric:tabular-nums}

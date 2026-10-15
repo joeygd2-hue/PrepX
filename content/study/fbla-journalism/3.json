@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Media law, ethics and editorial judgment for journalists",
+    "objective": "Evaluate stories for libel risk, apply ethical standards to sourcing and images, and distinguish news from opinion when making editorial decisions.",
+    "body": "Advanced journalism is about judgment under pressure: what can legally be published, what should be published, and how to label it. These decisions protect both readers and the publication.\n\n**Libel.** **Libel** is a published false statement of fact that damages someone's reputation. To win, a plaintiff generally must show the statement was published, identified them, was false and defamatory, and resulted from fault. Under ***New York Times v. Sullivan*** (1964), **public officials** must prove **actual malice**, meaning the publisher knew the statement was false or showed reckless disregard for the truth; later cases extended this standard to public figures. Private individuals usually need only show negligence. The strongest defense is **truth**; opinion that cannot be proved true or false and fair reports of official proceedings are also protected. Calling someone \"an alleged thief\" does not make an unproven accusation safe.\n\n**Student press law.** ***Tinker v. Des Moines*** (1969) held that students keep free-expression rights at school unless their speech substantially disrupts it. ***Hazelwood v. Kuhlmeier*** (1988) let principals censor school-sponsored newspapers for legitimate educational reasons. Many states have since passed **New Voices** laws that give student journalists stronger protection than Hazelwood requires, so the rules depend on where you publish.\n\n**Copyright and images.** Facts cannot be copyrighted, but someone's photos, writing and graphics can. Finding an image online does not grant permission to publish it. **Fair use** allows limited use for purposes such as commentary or news reporting, weighed by four factors: purpose, the nature of the work, the amount used and the effect on its market. Credit is not the same as permission.\n\n**Ethics.** The Society of Professional Journalists' code centers on four principles:\n1. Seek truth and report it.\n2. Minimize harm.\n3. Act independently.\n4. Be accountable and transparent.\nIn practice, that means avoiding conflicts of interest (a reporter should not cover a club they lead), granting **anonymity** only when a source faces real risk and the information cannot be obtained otherwise, never altering news photos in misleading ways, and correcting errors promptly and visibly.\n\n**News versus opinion.** An **editorial** expresses the publication's institutional opinion and is usually unsigned; a **column** carries one writer's signed opinion. Both belong on the opinion page and should be clearly labeled. A news story should never slip in the staff's viewpoint, and an editorial should still rest on accurate, verifiable facts and offer a solution.\n\nThe most common mistake students make is assuming that attribution or hedging words eliminate legal risk: writing \"sources say\" or \"allegedly\" before an unverified accusation still publishes a potentially false and damaging claim. Verify first, or leave it out.",
+    "examples": [
+      "A staff writer wants to print a rumor that a named teacher changed grades for athletes. Without documents or on-record sources, the editor kills the claim, because \"allegedly\" would not protect against libel.",
+      "A sports editor who is also team captain hands the game recap to another reporter to avoid a conflict of interest.",
+      "A yearbook designer wants a band's concert photo from a website; the staff contacts the photographer for permission instead of assuming a credit line is enough."
+    ],
+    "questions": [
+      {
+        "stem": "A student newspaper prints that a named classmate \"allegedly stole from the bookstore,\" based only on hallway rumors. What is the main concern?",
+        "choices": [
+          "Possible libel, since an unverified damaging claim was published",
+          "Copyright infringement",
+          "A conflict of interest",
+          "Violating the inverted pyramid"
+        ],
+        "answer": 0,
+        "explanation": "Publishing an unproven, reputation-damaging claim risks libel; \"allegedly\" is not a shield. Copyright concerns creative works, not accusations."
+      },
+      {
+        "stem": "Under New York Times v. Sullivan, what must a public official prove to win a libel case?",
+        "choices": [
+          "That the statement was in an editorial",
+          "Actual malice: knowledge of falsity or reckless disregard for the truth",
+          "Only that the statement embarrassed them",
+          "That the reporter did not interview them"
+        ],
+        "answer": 1,
+        "explanation": "Sullivan set the actual-malice standard for public officials. Embarrassment alone is not enough; the statement must also be false and defamatory."
+      },
+      {
+        "stem": "A principal removes a story from a school-sponsored newspaper, citing a legitimate educational concern, in a state without a New Voices law. Which case most likely supports the principal?",
+        "choices": [
+          "Tinker v. Des Moines",
+          "New York Times v. Sullivan",
+          "Hazelwood v. Kuhlmeier",
+          "Miranda v. Arizona"
+        ],
+        "answer": 2,
+        "explanation": "Hazelwood allows review of school-sponsored publications for legitimate educational reasons. Tinker protects student expression that is not disruptive and favors the students."
+      },
+      {
+        "stem": "The yearbook staff finds a great photo online and adds a credit line to the photographer. What is still missing?",
+        "choices": [
+          "A caption",
+          "A pull quote",
+          "A byline",
+          "Permission to use the copyrighted image"
+        ],
+        "answer": 3,
+        "explanation": "Credit does not equal permission; the photo is protected by copyright. A caption is good practice but does not solve the legal problem."
+      },
+      {
+        "stem": "A source tells a reporter the cafeteria serves expired food but wants to stay anonymous because she fears losing her job. What is the best ethical approach?",
+        "choices": [
+          "Publish immediately with \"sources say\"",
+          "Grant anonymity only if her risk is real and the claim is independently verified",
+          "Name her anyway because readers deserve to know",
+          "Refuse to report the issue at all"
+        ],
+        "answer": 1,
+        "explanation": "SPJ guidance reserves anonymity for real risk and still requires verification. Publishing with \"sources say\" skips verification."
+      },
+      {
+        "stem": "How does an editorial differ from a column?",
+        "choices": [
+          "An editorial represents the publication's view and is usually unsigned",
+          "An editorial is always on the front page",
+          "A column never uses facts",
+          "A column represents the whole staff's view"
+        ],
+        "answer": 0,
+        "explanation": "Editorials are the institution's opinion, typically unsigned; columns are signed by one writer and reflect that writer's view."
+      },
+      {
+        "stem": "The student council president also writes for the paper and volunteers to cover council elections. What principle is at stake?",
+        "choices": [
+          "Fair use",
+          "Minimize harm",
+          "Act independently",
+          "Prior review"
+        ],
+        "answer": 2,
+        "explanation": "Covering an organization you lead is a conflict of interest, violating the duty to act independently. Minimize harm concerns treatment of sources and subjects."
+      },
+      {
+        "stem": "A paper misspells a donor's name and states the wrong donation amount. What is the accountable response?",
+        "choices": [
+          "Delete the online story silently",
+          "Wait to see whether anyone notices",
+          "Blame the source in a follow-up story",
+          "Publish a clear, prompt correction"
+        ],
+        "answer": 3,
+        "explanation": "Being accountable and transparent means correcting errors visibly and quickly. Silently deleting hides the mistake from readers."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Libel",
+        "definition": "A published false statement of fact that damages a person's reputation."
+      },
+      {
+        "term": "Actual malice",
+        "definition": "Publishing with knowledge of falsity or reckless disregard for the truth; the standard public officials must prove."
+      },
+      {
+        "term": "Fair use",
+        "definition": "A limited right to use copyrighted material for purposes such as news or commentary, judged by four factors."
+      },
+      {
+        "term": "Editorial",
+        "definition": "An unsigned opinion article expressing the publication's institutional view."
+      },
+      {
+        "term": "New Voices laws",
+        "definition": "State laws that give student journalists more press freedom than Hazelwood v. Kuhlmeier requires."
+      }
+    ]
+  }
+]

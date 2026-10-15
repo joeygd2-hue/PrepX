@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Service management, security and professional customer communication",
+    "objective": "Apply service level agreements, change management and security best practices, and communicate professionally with frustrated or nontechnical users.",
+    "body": "Advanced technology support connects technical skill to business goals. At this level, technicians must meet service commitments, protect systems and data, and keep users confident even when problems are serious.\n\n**IT service management.** Many organizations follow **ITIL**, a framework of best practices for delivering IT services. It distinguishes between an **incident**, an unplanned interruption that must be restored quickly, and a **problem**, the underlying cause of one or more incidents. Restoring service with a workaround closes the incident; finding and removing the root cause resolves the problem.\n\n**Service level agreements.** An **SLA** is a documented commitment between a service provider and its customers. It typically defines response time (how quickly someone acknowledges the ticket) and resolution time (how quickly it is fixed), often by priority level. Metrics such as **first contact resolution**, average resolution time and customer satisfaction scores show whether the help desk is meeting its goals.\n\n**Change management.** Changes to production systems, such as server patches, follow a controlled process: request the change, assess risk, get approval, schedule it (often during a maintenance window), communicate it to users, prepare a **rollback plan**, implement, and review. Unplanned changes are a leading cause of outages.\n\n**Security responsibilities.** Support staff are often the first line of defense.\n- Verify identity before resetting passwords; attackers use **social engineering**, such as pretending to be an executive on the phone, to trick help desks.\n- Apply the **principle of least privilege**: give users only the access they need for their jobs.\n- Encourage **multifactor authentication (MFA)** and report suspected phishing promptly.\n- Keep systems patched and follow the backup rule of 3-2-1: three copies of data, on two types of media, one stored offsite.\n\n**Professional communication.** Users judge support by how they are treated as much as by the fix. Use **active listening**: let the user finish, paraphrase the problem back, and ask clarifying questions. Avoid jargon; say \"your computer could not get a network address\" rather than \"DHCP lease failure.\" With an angry user, stay calm, acknowledge the frustration, avoid blame, and set realistic expectations about next steps and timing. Follow up after resolution to confirm satisfaction.\n\nThe most common mistake students make is treating a fast workaround as a complete solution. Restoring service closes the incident, but unless the root cause is investigated as a problem, the same failure will return.",
+    "examples": [
+      "A caller claiming to be the CFO demands an urgent password reset; the technician follows policy and verifies identity through a callback to the number on file, stopping a social engineering attempt.",
+      "A help desk restores email by restarting a stuck service, then opens a problem record that later traces the failures to a misconfigured update."
+    ],
+    "questions": [
+      {
+        "stem": "An email server crashes and a technician restarts it, restoring service. In ITIL terms, what has been resolved?",
+        "choices": [
+          "The problem",
+          "The change request",
+          "The SLA",
+          "The incident"
+        ],
+        "answer": 3,
+        "explanation": "Restoring service resolves the incident. The problem, the underlying root cause, still needs investigation, so it is not resolved."
+      },
+      {
+        "stem": "A caller says they are a vice president traveling overseas and need their password reset immediately, but cannot answer the verification questions. What should the technician do?",
+        "choices": [
+          "Reset the password because the request is urgent",
+          "Follow identity verification policy and decline until identity is confirmed",
+          "Email the new password to a personal address the caller provides",
+          "Disable multifactor authentication for the account"
+        ],
+        "answer": 1,
+        "explanation": "Urgency and authority are classic social engineering pressure tactics; verification must come first. Resetting anyway hands an attacker access."
+      },
+      {
+        "stem": "An SLA states that high-priority tickets must be acknowledged within 15 minutes. Which metric does this describe?",
+        "choices": [
+          "Resolution time",
+          "First contact resolution",
+          "Response time",
+          "Customer satisfaction score"
+        ],
+        "answer": 2,
+        "explanation": "Acknowledging the ticket is the response time. Resolution time measures how long it takes to actually fix the issue."
+      },
+      {
+        "stem": "A team plans to install a major database patch. Which element of change management protects the business if the patch causes failures?",
+        "choices": [
+          "A rollback plan",
+          "A larger monitor",
+          "A new SLA",
+          "A customer survey"
+        ],
+        "answer": 0,
+        "explanation": "A rollback plan lets the team return to the previous working state. A customer survey measures satisfaction after the fact and cannot undo a failure."
+      },
+      {
+        "stem": "A new marketing intern requests administrator rights on the company file server to save time. Which principle should guide the response?",
+        "choices": [
+          "Least privilege",
+          "First contact resolution",
+          "Active listening",
+          "Change freeze"
+        ],
+        "answer": 0,
+        "explanation": "Least privilege grants only the access required for the job. Active listening matters for communication but does not decide access rights."
+      },
+      {
+        "stem": "An angry user says, \"This is the third time my laptop has crashed this week!\" What is the best first response?",
+        "choices": [
+          "Explain that crashes are usually user error",
+          "Transfer the call without explanation",
+          "Read the technical error codes aloud",
+          "Acknowledge their frustration and confirm the details of the crashes"
+        ],
+        "answer": 3,
+        "explanation": "Acknowledging feelings and gathering details calms the user and moves toward a fix. Blaming the user escalates conflict."
+      },
+      {
+        "stem": "Which backup approach follows the 3-2-1 rule?",
+        "choices": [
+          "One copy on the main server only",
+          "Two copies on the same external drive",
+          "Three copies, on two media types, with one stored offsite",
+          "Three copies, all stored in the same office"
+        ],
+        "answer": 2,
+        "explanation": "The 3-2-1 rule requires three copies, two media types and one offsite. Keeping all copies in one office loses everything in a fire or flood."
+      },
+      {
+        "stem": "A help desk resolves 70% of calls during the first interaction without escalation or callbacks. Which metric is this?",
+        "choices": [
+          "First contact resolution",
+          "Mean time between failures",
+          "Response time",
+          "Uptime percentage"
+        ],
+        "answer": 0,
+        "explanation": "Solving issues during the first contact is first contact resolution. Response time only measures how quickly a ticket is acknowledged."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Incident",
+        "definition": "An unplanned interruption to an IT service that must be restored as quickly as possible."
+      },
+      {
+        "term": "Service level agreement (SLA)",
+        "definition": "A documented commitment defining expected response and resolution times for support."
+      },
+      {
+        "term": "Rollback plan",
+        "definition": "A prepared procedure for returning a system to its previous working state if a change fails."
+      },
+      {
+        "term": "Social engineering",
+        "definition": "Manipulating people, such as help desk staff, into revealing information or granting access."
+      },
+      {
+        "term": "Principle of least privilege",
+        "definition": "Giving users only the minimum access they need to perform their jobs."
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Healthy People 2030: Browse Objectives by Topic",
+    "url": "https://odphp.health.gov/healthypeople/objectives-and-data/browse-objectives",
+    "publisher": "U.S. HHS (ODPHP)",
+    "kind": "reference",
+    "note": "National health objectives by topic; a source of real problems to analyze and solve."
+  },
+  {
+    "title": "WHO Fact Sheets",
+    "url": "https://www.who.int/news-room/fact-sheets",
+    "publisher": "World Health Organization",
+    "kind": "reference",
+    "note": "WHO fact sheets give quick, reliable data on health problems worldwide."
+  },
+  {
+    "title": "Patient Safety 101",
+    "url": "https://psnet.ahrq.gov/primer/patient-safety-101",
+    "publisher": "AHRQ PSNet",
+    "kind": "reference",
+    "note": "AHRQ primer on patient safety concepts, error analysis and systems thinking."
+  }
+]

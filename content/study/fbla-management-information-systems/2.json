@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Databases, networks and the systems development life cycle",
+    "objective": "Apply relational database concepts, compare network and cloud options, and sequence the phases of the systems development life cycle.",
+    "body": "Once you know what an information system is, the next step is understanding how organizations store data, connect users and build new systems.\n\n**Relational databases.** A **relational database** stores data in tables of rows and columns. Each table has a **primary key**, a field whose value uniquely identifies each row, such as a StudentID. A **foreign key** is a field in one table that refers to the primary key of another, linking the tables. **SQL** (Structured Query Language) is used to query and update the data. A **database management system (DBMS)** such as MySQL or Microsoft Access manages storage, security and access.\n\n**Normalization** organizes tables to reduce **data redundancy**, the same fact stored in several places. Redundancy causes update anomalies: change a customer's address in one table but not another and the data becomes inconsistent. Keeping integrity high is why designers split repeating data into separate related tables.\n\n**Networks.** A **LAN** connects devices in one building or campus; a **WAN** spans large distances, and the internet is the largest WAN. Organizations use an **intranet** for internal employees and an **extranet** to give selected outsiders, such as suppliers, controlled access.\n\n**Cloud computing models.**\n- **SaaS**: complete applications delivered over the internet, such as web-based email or CRM.\n- **PaaS**: a platform for developers to build and run their own applications.\n- **IaaS**: rented virtual servers, storage and networking.\n\nThe cloud shifts costs from large up-front capital purchases to ongoing operating expenses and makes scaling easier.\n\n**The systems development life cycle (SDLC).** Traditional projects follow these phases:\n1. Planning: define the problem and check feasibility.\n2. Analysis: gather and document user requirements.\n3. Design: specify how the system will meet requirements.\n4. Development: build and test.\n5. Implementation: install, train users and convert.\n6. Maintenance: fix and improve over time.\n\nConversion options include **direct** (switch all at once, risky), **parallel** (run old and new together, safest but costly), **pilot** (one location first) and **phased** (one module at a time). **Agile** development instead delivers working software in short iterations with frequent user feedback.\n\nThe most common mistake students make is confusing analysis with design: analysis determines *what* the system must do, while design determines *how* it will do it.",
+    "examples": [
+      "An Orders table includes CustomerID as a foreign key that points to the CustomerID primary key in the Customers table.",
+      "A hospital runs its old and new billing systems side by side for a month to compare results before shutting off the old one, which is a parallel conversion."
+    ],
+    "questions": [
+      {
+        "stem": "A school database must uniquely identify each student even when two students share a name. Which field should be the primary key?",
+        "choices": [
+          "Last name",
+          "Birth date",
+          "Student ID number",
+          "Homeroom"
+        ],
+        "answer": 2,
+        "explanation": "A student ID is unique for each row. Last name fails because duplicates are common, which defeats the purpose of a primary key."
+      },
+      {
+        "stem": "A business stores customer addresses in both the Orders table and the Customers table. After a customer moves, only one table is updated. What problem does this illustrate?",
+        "choices": [
+          "Data redundancy causing inconsistency",
+          "A missing foreign key",
+          "Insufficient bandwidth",
+          "Lack of encryption"
+        ],
+        "answer": 0,
+        "explanation": "Storing the same fact twice creates redundancy, which leads to inconsistent data when updates miss a copy. A missing foreign key is a design issue but is not what caused the mismatch."
+      },
+      {
+        "stem": "A team is interviewing users to document exactly what reports the new system must produce. Which SDLC phase is this?",
+        "choices": [
+          "Design",
+          "Implementation",
+          "Planning",
+          "Analysis"
+        ],
+        "answer": 3,
+        "explanation": "Gathering requirements is analysis. Design is wrong because it decides how the system will meet those requirements after they are known."
+      },
+      {
+        "stem": "A company wants to give its suppliers secure web access to inventory levels without exposing internal HR pages. What should it use?",
+        "choices": [
+          "A public website",
+          "An extranet",
+          "A LAN only",
+          "An intranet only"
+        ],
+        "answer": 1,
+        "explanation": "An extranet provides controlled access to selected outsiders. An intranet is limited to employees, so suppliers could not use it."
+      },
+      {
+        "stem": "A small business wants web-based accounting software it can use immediately without installing or maintaining servers. Which cloud model fits?",
+        "choices": [
+          "IaaS",
+          "PaaS",
+          "SaaS",
+          "On-premises hosting"
+        ],
+        "answer": 2,
+        "explanation": "SaaS delivers complete ready-to-use applications. IaaS only provides infrastructure the business would still have to configure and manage."
+      },
+      {
+        "stem": "A bank cannot afford any downtime and wants to verify a new system's output against the old one before switching. Which conversion method is best?",
+        "choices": [
+          "Parallel",
+          "Direct",
+          "Phased",
+          "Pilot"
+        ],
+        "answer": 0,
+        "explanation": "Parallel conversion runs both systems together so results can be compared, minimizing risk. Direct conversion is the riskiest because there is no fallback."
+      },
+      {
+        "stem": "Which language is primarily used to retrieve and update data in a relational database?",
+        "choices": [
+          "HTML",
+          "SQL",
+          "CSS",
+          "XML"
+        ],
+        "answer": 1,
+        "explanation": "SQL is the standard query language for relational databases. HTML structures web pages and does not query databases."
+      },
+      {
+        "stem": "A software team releases a working version every two weeks and adjusts features based on user feedback after each release. This approach is:",
+        "choices": [
+          "Waterfall development",
+          "Parallel conversion",
+          "Normalization",
+          "Agile development"
+        ],
+        "answer": 3,
+        "explanation": "Short iterations with frequent feedback define Agile. Waterfall moves through phases sequentially with little revisiting."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Primary key",
+        "definition": "A field whose value uniquely identifies each row in a table."
+      },
+      {
+        "term": "Foreign key",
+        "definition": "A field in one table that refers to the primary key of another table to link them."
+      },
+      {
+        "term": "Normalization",
+        "definition": "Organizing database tables to reduce data redundancy and improve integrity."
+      },
+      {
+        "term": "Extranet",
+        "definition": "A private network that gives selected outside parties controlled access to an organization's systems."
+      },
+      {
+        "term": "Parallel conversion",
+        "definition": "Running the old and new systems at the same time until the new one is verified."
+      }
+    ]
+  }
+]

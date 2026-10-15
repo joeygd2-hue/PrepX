@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Architectural drawings, scale and the design process",
+    "objective": "Read and produce the standard architectural drawing types, use architectural scales and dimensions correctly, and follow the phases of a design project.",
+    "body": "Every TSA architecture and CAD event is judged largely on drawings. A judge flipping through your portfolio decides in seconds whether your plans are readable, correctly scaled and complete, so drawing conventions are worth as many points as a creative idea.\n\n**The core drawing set.** Each drawing type answers a different question:\n- A *floor plan* is a horizontal cut taken roughly 4 feet above the floor, looking down. It shows walls, doors, windows, stairs and room names.\n- A *site plan* shows the building footprint on the lot, with property lines, setbacks, driveways, a north arrow and contours.\n- An *elevation* is a straight-on view of one exterior face, named for the direction that face points (north elevation, south elevation).\n- A *section* is a vertical cut through the building that reveals how the foundation, walls, floors and roof fit together.\n- *Details* enlarge small areas, such as the spot where a wall meets the foundation.\n\n**Scale.** Drawings are reduced by a fixed ratio. In the common residential scale 1/4\" = 1'-0\", every quarter inch on paper equals one foot, a ratio of 1:48. Larger buildings use smaller scales such as 1/8\" = 1'-0\" (1:96), and site plans often use engineer's scales such as 1\" = 20'. Note the scale on every sheet, and add a *graphic scale* bar whenever a drawing might be printed at a different size.\n\n**Dimensions and lines.** Architectural dimensions are written in feet and inches (12'-6\"), and dimension strings should follow one consistent rule, such as running to the face of framing and to the center of openings. Line weight carries meaning: thick object lines for cut walls, thin dimension and extension lines, dashed hidden lines for items above or behind the cutting plane, and long-short center lines.\n\n**The design process.** Professional projects move through phases:\n1. *Programming*: list the spaces, sizes and relationships the client needs.\n2. *Schematic design*: bubble diagrams and rough plans test different arrangements.\n3. *Design development*: the chosen scheme is refined with materials and building systems.\n4. *Construction documents*: complete, dimensioned drawings and specifications a builder could follow.\n\nIn CAD, organize the work on *layers* (walls, doors, dimensions, text, furniture) so you can control visibility, color and line weight by category.\n\nA common mistake is presenting beautiful renderings with no dimensions, scale notes or title block. Judges read your drawings the way a builder would, and missing information costs points.",
+    "examples": [
+      "A living room measures 16'-0\" by 14'-0\". At 1/4\" = 1'-0\", it is drawn 4\" by 3 1/2\" on the sheet, because 16 x 1/4 = 4 and 14 x 1/4 = 3.5.",
+      "A client wants the kitchen near the garage for carrying groceries and the bedrooms away from a busy street. The designer records both needs in the program and tests them with a bubble diagram before drawing a single wall.",
+      "A team puts walls, doors, furniture and dimensions on separate CAD layers. When it needs a clean presentation plan, it turns off the furniture and dimension layers instead of erasing anything."
+    ],
+    "questions": [
+      {
+        "stem": "On a floor plan drawn at 1/4\" = 1'-0\", a wall measures 5 1/2 inches. How long is the actual wall?",
+        "choices": ["22'-0\"", "11'-0\"", "20'-6\"", "44'-0\""],
+        "answer": 0,
+        "explanation": "Each 1/4 inch represents 1 foot, so 5.5 / 0.25 = 22 feet. 11 feet would be the result at 1/2\" = 1'-0\", and 44 feet at 1/8\" = 1'-0\"."
+      },
+      {
+        "stem": "Which drawing best shows a builder how the footing, foundation wall, floor framing, wall and roof connect from bottom to top?",
+        "choices": ["Floor plan", "South elevation", "Building section", "Site plan"],
+        "answer": 2,
+        "explanation": "A section is a vertical cut through the building, so it reveals the stacked construction from footing to roof. A floor plan is a horizontal cut and an elevation shows only the outside face."
+      },
+      {
+        "stem": "A sheet in a drawing set is labeled 'East Elevation.' What does it show?",
+        "choices": ["A horizontal cut through the east wing of the house", "The exterior face of the building that points east, viewed straight on", "The property line and setbacks on the east side of the lot", "The interior walls of the easternmost bedroom"],
+        "answer": 1,
+        "explanation": "Elevations are named for the direction the building face points. An east elevation is an orthographic view of the east-facing exterior wall."
+      },
+      {
+        "stem": "The architectural scale 1/8\" = 1'-0\" is equivalent to which ratio?",
+        "choices": ["1:8", "1:48", "1:96", "1:100"],
+        "answer": 2,
+        "explanation": "One foot is 12 inches, and 12 / (1/8) = 96, so the ratio is 1:96. The 1:48 ratio belongs to the 1/4\" = 1'-0\" scale."
+      },
+      {
+        "stem": "A designer interviews a family and produces a list of the rooms they need, the approximate square footage of each, and which rooms should be next to each other. Which design phase is this?",
+        "choices": ["Construction documents", "Design development", "Programming", "Construction administration"],
+        "answer": 2,
+        "explanation": "Programming defines the client's needs, space sizes and relationships before any design is drawn. Design development and construction documents come later and refine a chosen scheme."
+      },
+      {
+        "stem": "On a floor plan, kitchen wall cabinets mounted above the cutting plane are usually drawn with which line type?",
+        "choices": ["Thick solid object lines", "Dashed hidden lines", "Long-short center lines", "Thin dimension lines"],
+        "answer": 1,
+        "explanation": "Items above or behind the imaginary cutting plane are shown with dashed lines so the reader knows they are not cut at counter height."
+      },
+      {
+        "stem": "Why should a CAD architecture entry place walls, dimensions, furniture and text on separate layers?",
+        "choices": ["So the software automatically calculates structural loads", "So the model is permanently locked to one drawing scale", "So visibility, color and line weight can be controlled by category without deleting objects", "So the file renders photo-realistic textures without materials"],
+        "answer": 2,
+        "explanation": "Layers group objects by category so a designer can hide, lock or restyle a whole category at once, such as turning off furniture for a presentation plan."
+      },
+      {
+        "stem": "A team's presentation board will be reduced to fit a smaller printed page. What should the designer add so viewers can still measure the drawing accurately?",
+        "choices": ["A graphic scale bar", "A written note saying 1/4\" = 1'-0\"", "A thicker border around the sheet", "A larger north arrow"],
+        "answer": 0,
+        "explanation": "A graphic scale shrinks along with the drawing, so it stays accurate at any print size. A written ratio becomes wrong once the sheet is reduced."
+      }
+    ],
+    "flashcards": [
+      { "term": "Floor plan", "definition": "A horizontal section cut about 4 feet above the floor, viewed from above, showing walls, openings, stairs and room names." },
+      { "term": "Elevation", "definition": "A straight-on orthographic view of one exterior face of a building, named for the direction that face points." },
+      { "term": "Building section", "definition": "A vertical cut through a building that shows how foundation, walls, floors and roof are assembled." },
+      { "term": "Graphic scale", "definition": "A drawn scale bar that stays accurate when a drawing is enlarged or reduced, unlike a written ratio." },
+      { "term": "Programming", "definition": "The first design phase, which records the client's required spaces, sizes, adjacencies and goals." }
+    ]
+  }
+]

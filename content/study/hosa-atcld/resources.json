@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Organizational Behavior",
+    "url": "https://openstax.org/books/organizational-behavior/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on leadership styles, motivation, teams, conflict and decision making."
+  },
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Planning, organizing and leading chapters connect leadership to how health organizations run."
+  },
+  {
+    "title": "HOSA Handbook",
+    "url": "https://hosa.org/hosa-handbook/",
+    "publisher": "HOSA-Future Health Professionals",
+    "kind": "official",
+    "note": "HOSA's own handbook on the organization, chapter officers and leadership roles."
+  }
+]

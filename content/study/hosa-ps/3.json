@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Pharmacokinetics, drug classes and sterile compounding fundamentals",
+    "objective": "Explain how ADME shapes drug action, classify medications by common name stems, and evaluate safe practices in sterile and nonsterile compounding.",
+    "body": "Advanced Pharmacy Science questions ask why a drug behaves the way it does in the body and how pharmacies prepare medications that are not available commercially. These ideas connect directly to the dosage forms and safety rules from earlier units.\n\n**Pharmacokinetics** describes what the body does to a drug, summarized as **ADME**:\n1. **Absorption**: movement of the drug into the bloodstream. IV drugs skip this step and have 100 percent bioavailability.\n2. **Distribution**: travel through the blood to tissues. Protein binding and barriers such as the blood-brain barrier affect where a drug goes.\n3. **Metabolism**: chemical change, mostly in the liver by cytochrome P450 enzymes. Many oral drugs lose part of their dose to the **first-pass effect** before reaching circulation.\n4. **Excretion**: removal from the body, mainly by the kidneys in urine.\n\nThe **half-life** is the time for the drug concentration in the body to fall by half. It takes about four to five half-lives to reach steady state or to clear most of a drug. By contrast, **pharmacodynamics** describes what the drug does to the body, such as binding receptors. An **agonist** activates a receptor, while an **antagonist** blocks it.\n\n**Drug classes and stems.** Generic names often share a stem that reveals the class:\n- **-olol**: beta blockers (metoprolol)\n- **-pril**: ACE inhibitors (lisinopril)\n- **-sartan**: angiotensin II receptor blockers (losartan)\n- **-statin**: cholesterol-lowering HMG-CoA reductase inhibitors (atorvastatin)\n- **-prazole**: proton pump inhibitors (omeprazole)\n- **-cillin**: penicillin antibiotics (amoxicillin)\n\n**Compounding** is preparing a customized medication when no commercial product meets a patient's need, such as a dye-free liquid. **USP <795>** sets standards for nonsterile compounding, **USP <797>** for sterile compounding, and **USP <800>** for handling hazardous drugs such as many chemotherapy agents. Sterile preparations, including IV admixtures, are made using **aseptic technique** inside a primary engineering control such as a laminar airflow workbench or biological safety cabinet, located in a cleanroom suite. Staff perform garbing and hand hygiene, disinfect surfaces with sterile 70 percent isopropyl alcohol, and avoid blocking the **first air**, the HEPA-filtered air that reaches the critical site before anything else. Hazardous drugs are prepared in a biological safety cabinet or compounding aseptic containment isolator under negative pressure to protect workers.\n\nThe most common mistake students make is confusing pharmacokinetics with pharmacodynamics. Remember: kinetics is the body acting on the drug (ADME), and dynamics is the drug acting on the body.",
+    "examples": [
+      "Recognizing the stem -sartan, a student correctly classifies valsartan as an angiotensin II receptor blocker without memorizing it individually.",
+      "A technician preparing an IV bag keeps her hands out of the path between the HEPA filter and the needle so first air reaches the critical site.",
+      "A pharmacy compounds a dye-free oral liquid for a child who is allergic to a dye in the commercial product."
+    ],
+    "questions": [
+      {
+        "stem": "A patient's oral medication is heavily broken down by the liver before reaching systemic circulation. Which concept explains the reduced amount available?",
+        "choices": [
+          "Distribution",
+          "Renal excretion",
+          "First-pass effect",
+          "Receptor antagonism"
+        ],
+        "answer": 2,
+        "explanation": "The first-pass effect is metabolism in the gut wall and liver before the drug reaches circulation. Renal excretion removes drug later, after it has circulated."
+      },
+      {
+        "stem": "Which route provides 100 percent bioavailability because it skips absorption?",
+        "choices": [
+          "Intravenous",
+          "Oral",
+          "Transdermal",
+          "Rectal"
+        ],
+        "answer": 0,
+        "explanation": "IV drugs enter the bloodstream directly. Transdermal and other routes must still be absorbed through tissue."
+      },
+      {
+        "stem": "A student sees the drug name 'pantoprazole.' Which class should she predict?",
+        "choices": [
+          "Beta blocker",
+          "ACE inhibitor",
+          "Statin",
+          "Proton pump inhibitor"
+        ],
+        "answer": 3,
+        "explanation": "The -prazole stem marks proton pump inhibitors. The -pril stem, not -prazole, marks ACE inhibitors."
+      },
+      {
+        "stem": "A drug binds a receptor and blocks it from being activated by the body's own chemicals. What is the drug called?",
+        "choices": [
+          "Agonist",
+          "Antagonist",
+          "Prodrug",
+          "Enzyme inducer"
+        ],
+        "answer": 1,
+        "explanation": "An antagonist blocks a receptor. An agonist binds and activates the receptor, the opposite effect."
+      },
+      {
+        "stem": "Which USP chapter primarily governs the preparation of sterile IV admixtures?",
+        "choices": [
+          "USP <797>",
+          "USP <795>",
+          "USP <800>",
+          "USP <71>"
+        ],
+        "answer": 0,
+        "explanation": "USP <797> covers sterile compounding. USP <795> covers nonsterile compounding, a common mix-up."
+      },
+      {
+        "stem": "During sterile compounding, a technician places a vial between the HEPA filter and the syringe needle. What problem does this create?",
+        "choices": [
+          "It speeds up laminar airflow",
+          "It sterilizes the vial further",
+          "It has no effect inside a hood",
+          "It blocks first air from reaching the critical site"
+        ],
+        "answer": 3,
+        "explanation": "Objects upstream of the critical site block first air and can carry contaminants onto it. Airflow inside the hood is not improved by obstructions."
+      },
+      {
+        "stem": "A drug has a half-life of 6 hours. About how long will it take for most of the drug to be eliminated after it is stopped?",
+        "choices": [
+          "6 hours",
+          "24 to 30 hours",
+          "12 hours",
+          "72 hours"
+        ],
+        "answer": 1,
+        "explanation": "About four to five half-lives clears most of a drug: 4 x 6 to 5 x 6 = 24 to 30 hours. Twelve hours is only two half-lives, leaving about a quarter of the drug."
+      },
+      {
+        "stem": "A pharmacy is preparing a chemotherapy drug classified as hazardous. Which setup best protects workers?",
+        "choices": [
+          "A positive-pressure laminar airflow workbench in an open room",
+          "A countertop in the dispensing area",
+          "A biological safety cabinet in a negative-pressure room",
+          "A refrigerator used as a clean area"
+        ],
+        "answer": 2,
+        "explanation": "USP <800> calls for containment, such as a biological safety cabinet under negative pressure. A positive-pressure workbench blows air toward the worker, increasing exposure."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "ADME",
+        "definition": "Absorption, distribution, metabolism and excretion, the four processes of pharmacokinetics."
+      },
+      {
+        "term": "First-pass effect",
+        "definition": "Metabolism of an oral drug in the gut and liver before it reaches systemic circulation."
+      },
+      {
+        "term": "Half-life",
+        "definition": "The time for the amount of drug in the body to decrease by half."
+      },
+      {
+        "term": "Antagonist",
+        "definition": "A drug that binds a receptor and blocks its activation."
+      },
+      {
+        "term": "First air",
+        "definition": "The HEPA-filtered air that reaches the critical site first and must not be blocked during sterile compounding."
+      }
+    ]
+  }
+]

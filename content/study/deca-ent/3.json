@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Business plans, legal structures and protecting ideas",
+    "objective": "Organize a business plan, choose a legal form of ownership, protect intellectual property, and weigh franchising or buying an existing business.",
+    "body": "Every DECA business-plan event uses the same basic skeleton, and the Entrepreneurship exam tests the legal choices that come with launching. Knowing both helps you answer quickly and write a tighter plan.\n\n**The business plan.** A traditional plan includes an *executive summary* (written last but placed first), company description, industry and market analysis, competitive analysis, marketing plan, operations plan, management and organization, financial plan with projections, and the funding request. A one-page *business model canvas* maps the same thinking in nine blocks: customer segments, value proposition, channels, customer relationships, revenue streams, key resources, key activities, key partners and cost structure.\n\n**Legal forms of ownership.**\n- *Sole proprietorship*: easiest and cheapest to start; the owner keeps all profit but has unlimited personal liability.\n- *General partnership*: pools skills and money, but each partner can be personally liable for all business debts, including ones another partner created. A written *partnership agreement* should cover ownership shares, duties and what happens if a partner leaves.\n- *Limited liability company (LLC)*: limited liability with pass-through taxation and flexible management.\n- *C corporation*: limited liability and the ability to sell shares to many investors, but profits can be taxed twice, once at the corporate level and again as dividends. Venture capital investors usually require this form.\n- *S corporation*: limited liability with pass-through taxation, but with limits on the number and type of shareholders and only one class of stock.\n\nMost startups also need local business licenses and permits, an employer identification number if they hire, and a bank account separate from the owner's.\n\n**Intellectual property.** A *utility patent* protects a new, useful and non-obvious invention for 20 years from the filing date, but the invention must be publicly described. A *trademark* protects names, logos and slogans that identify a brand and can last indefinitely while in use and properly renewed. *Copyright* protects original creative works automatically once they are fixed in a tangible form. A *trade secret*, such as a recipe or formula, is protected only while it stays secret, often with *non-disclosure agreements (NDAs)*.\n\n**Franchising and buying.** A *franchisee* pays the *franchisor* an initial *franchise fee* plus ongoing *royalties*, usually a percentage of sales, in exchange for a proven brand, system and training. The trade-off is less control. The FTC Franchise Rule requires franchisors to give buyers a *Franchise Disclosure Document (FDD)* at least 14 days before they sign or pay. Buying an existing business brings customers and cash flow on day one but requires *due diligence*, a careful check of its records, debts and contracts.\n\nA common mistake is starting a partnership with friends on a handshake. Without a written agreement, disputes over money and roles can end both the business and the friendship.",
+    "examples": [
+      "Royalty math: A franchisee's sandwich shop has $600,000 in annual sales. With a 6% royalty and a 2% advertising fee, she pays $36,000 + $12,000 = $48,000 a year to the franchisor.",
+      "A founder creates a unique spice blend. A patent would require publishing the recipe and would expire after 20 years, so she keeps it a trade secret and has employees sign NDAs.",
+      "Three friends start a car-detailing business as a general partnership. When one partner signs a $5,000 equipment lease for the business, all three can be personally liable if the business cannot pay."
+    ],
+    "questions": [
+      {
+        "stem": "A franchisee's coffee shop has annual sales of $450,000. The franchise agreement requires a 5% royalty and a 3% marketing fee, both based on sales. How much does she pay the franchisor in these fees for the year?",
+        "choices": ["$36,000", "$22,500", "$13,500", "$3,600"],
+        "answer": 0,
+        "explanation": "Royalty = 5% × $450,000 = $22,500; marketing fee = 3% × $450,000 = $13,500. Total = $22,500 + $13,500 = $36,000."
+      },
+      {
+        "stem": "A team finishes every section of its business plan, then writes a two-page overview of the opportunity, market, team, financial highlights and funding request to place at the very front. Which section is this?",
+        "choices": ["Executive summary", "Company description", "Marketing plan", "Financial plan"],
+        "answer": 0,
+        "explanation": "The executive summary is written last because it condenses the whole plan, but it appears first because many readers decide whether to keep reading based on it."
+      },
+      {
+        "stem": "Two founders plan to raise money from venture capital funds and later give stock options to dozens of employees. Which legal form best fits their plans?",
+        "choices": ["C corporation", "Sole proprietorship", "General partnership", "S corporation"],
+        "answer": 0,
+        "explanation": "A C corporation can issue different classes of stock to unlimited investors, which venture capital funds require. An S corporation is limited to one class of stock and restricts who can own shares."
+      },
+      {
+        "stem": "In a two-person general partnership, one partner signs a $20,000 business loan without telling the other. The business cannot repay it. What is most likely true?",
+        "choices": ["Both partners can be personally liable for the debt", "Only the partner who signed is liable", "Neither partner is liable because it is a business debt", "The lender can collect only from business assets"],
+        "answer": 0,
+        "explanation": "General partners have unlimited personal liability for partnership debts, including obligations another partner takes on for the business."
+      },
+      {
+        "stem": "A beverage startup's most valuable asset is its secret flavor formula. It wants protection with no time limit and without publicly revealing the formula. Which protection fits best?",
+        "choices": ["Trade secret protection backed by NDAs", "A utility patent", "A copyright", "A trademark"],
+        "answer": 0,
+        "explanation": "Trade secrets last as long as they stay secret and require no public disclosure. A patent would require publishing the formula and would expire after 20 years."
+      },
+      {
+        "stem": "A solo founder of a landscaping company wants to protect her personal savings and home from business debts while keeping taxes simple, with profits reported on her personal return. Which legal form fits best?",
+        "choices": ["Limited liability company", "Sole proprietorship", "C corporation", "General partnership"],
+        "answer": 0,
+        "explanation": "An LLC gives limited liability with pass-through taxation. A sole proprietorship has unlimited liability, and a C corporation's profits are taxed at the corporate level."
+      },
+      {
+        "stem": "An inventor creates a new reusable shipping-container latch that works better than any existing design. Which protection gives her the exclusive right to make and sell it for 20 years from filing?",
+        "choices": ["Utility patent", "Trademark", "Copyright", "Service mark"],
+        "answer": 0,
+        "explanation": "A utility patent protects new, useful and non-obvious inventions for 20 years from the filing date. Trademarks and service marks protect brand identifiers, and copyright protects creative works."
+      },
+      {
+        "stem": "Before signing with a franchisor, what must a prospective franchisee receive under the FTC Franchise Rule, and when?",
+        "choices": ["A Franchise Disclosure Document, at least 14 days before signing or paying", "A business license, on the day the store opens", "A copy of the franchisor's tax return, after the first year", "A patent certificate, before training begins"],
+        "answer": 0,
+        "explanation": "The FTC Franchise Rule requires the franchisor to provide the Franchise Disclosure Document at least 14 days before the buyer signs a binding agreement or pays any money."
+      },
+      {
+        "stem": "Which is the main disadvantage of buying a franchise compared with starting an independent business?",
+        "choices": ["Less control over products, suppliers and operating methods", "No brand recognition with customers", "No training or support from anyone", "Unlimited personal liability in every case"],
+        "answer": 0,
+        "explanation": "Franchisees must follow the franchisor's system and rules. Brand recognition and training are advantages of franchising, and liability depends on the legal form chosen."
+      },
+      {
+        "stem": "On a business model canvas for a dog-walking app, the monthly subscription fees and a 15% commission on each booked walk belong in which block?",
+        "choices": ["Revenue streams", "Cost structure", "Key partners", "Value proposition"],
+        "answer": 0,
+        "explanation": "Revenue streams show how the business earns money from each customer segment, such as subscriptions and commissions. Cost structure lists what it spends."
+      }
+    ],
+    "flashcards": [
+      { "term": "Executive summary", "definition": "A short overview at the front of a business plan, written last, that condenses the opportunity, team, finances and request." },
+      { "term": "Business model canvas", "definition": "A one-page tool mapping nine building blocks of a business, from customer segments to cost structure." },
+      { "term": "Franchise royalty", "definition": "An ongoing fee, usually a percentage of sales, that a franchisee pays the franchisor for using its brand and system." },
+      { "term": "Franchise Disclosure Document", "definition": "A document the FTC requires franchisors to give buyers at least 14 days before they sign or pay." },
+      { "term": "Trade secret", "definition": "Valuable business information, such as a formula, protected only as long as the company keeps it secret." },
+      { "term": "Due diligence", "definition": "A careful investigation of a business's records, debts, contracts and condition before buying or investing in it." }
+    ]
+  }
+]

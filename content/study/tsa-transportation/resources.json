@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Beginner's Guide to Aeronautics",
+    "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/",
+    "publisher": "NASA Glenn Research Center",
+    "kind": "reference",
+    "note": "NASA's guide to lift, drag, thrust and propulsion for Flight Endurance and Dragster Design."
+  },
+  {
+    "title": "Pilot's Handbook of Aeronautical Knowledge",
+    "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+    "publisher": "Federal Aviation Administration",
+    "kind": "reference",
+    "note": "FAA handbook on aerodynamics, flight controls, weather and airspace."
+  },
+  {
+    "title": "Recreational Flyers and Drones",
+    "url": "https://www.faa.gov/uas/recreational_flyers",
+    "publisher": "Federal Aviation Administration",
+    "kind": "reference",
+    "note": "FAA rules for recreational drone flyers, including registration and the TRUST safety test."
+  }
+]

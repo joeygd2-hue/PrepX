@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Accounting, Volume 1: Financial Accounting",
+    "url": "https://openstax.org/books/principles-financial-accounting/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Review the full financial accounting cycle; the preface also points to Volume 2 for managerial and cost topics."
+  },
+  {
+    "title": "Principles of Finance",
+    "url": "https://openstax.org/books/principles-finance/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Covers financial statements, ratios and capital budgeting that advanced accounting questions build on."
+  },
+  {
+    "title": "Excel Tutorials",
+    "url": "https://edu.gcfglobal.org/en/excel/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Free spreadsheet lessons; practice cost schedules, depreciation tables and budgets with formulas."
+  }
+]

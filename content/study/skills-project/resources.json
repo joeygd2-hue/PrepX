@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project Management, 2nd Edition",
+    "url": "https://opentextbc.ca/projectmanagement/",
+    "publisher": "BCcampus Open Education",
+    "kind": "textbook",
+    "note": "Open textbook on planning, scheduling, budgeting and closing out a project."
+  },
+  {
+    "title": "APA General Format",
+    "url": "https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Purdue OWL on formatting and citing sources in written project documentation."
+  },
+  {
+    "title": "Data Visualization Best Practices",
+    "url": "https://owl.purdue.edu/owl/general_writing/visual_rhetoric/data_visualization/index.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "How to present results in clear charts and tables."
+  }
+]

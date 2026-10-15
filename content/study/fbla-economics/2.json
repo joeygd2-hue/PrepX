@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Supply, demand and market structures",
+    "objective": "Predict how shifts in supply and demand change equilibrium price and quantity, interpret elasticity and price controls, and identify market structures.",
+    "body": "Supply and demand questions make up a big share of any economics test, and most of them test one distinction: a change in the good's own price moves along a curve, while a change in anything else shifts the curve.\n\n**Demand.** The law of demand says that as price rises, quantity demanded falls, other things equal. The demand curve shifts when a non-price factor changes:\n- Consumer income (demand for *normal goods* rises with income; demand for *inferior goods* falls)\n- Prices of related goods (*substitutes* replace each other; *complements* are used together)\n- Tastes and preferences, buyers' expectations, and the number of buyers\n\n**Supply.** The law of supply says that as price rises, quantity supplied rises. Supply shifts with input costs, technology, taxes and subsidies, producer expectations and the number of sellers. A cheaper input or better technology shifts supply to the right.\n\n**Equilibrium.** The market clears where quantity demanded equals quantity supplied. Above equilibrium there is a *surplus*, which pushes price down; below it there is a *shortage*, which pushes price up. To predict a change, decide which curve shifts and in which direction, then read the new intersection. An increase in demand raises both price and quantity; an increase in supply lowers price and raises quantity.\n\n**Elasticity.** Price elasticity of demand measures how strongly buyers respond to price: percent change in quantity demanded divided by percent change in price (ignore the minus sign). A result greater than 1 is *elastic*; less than 1 is *inelastic*. Demand is more elastic when many substitutes exist, the good is a luxury, or it takes a large share of the budget. When demand is inelastic, a price increase raises total revenue; when it is elastic, a price increase lowers it.\n\n**Price controls.** A *price ceiling* is a legal maximum; set below equilibrium, it causes a shortage. A *price floor* is a legal minimum; set above equilibrium, it causes a surplus.\n\n**Market structures.**\n1. *Perfect competition*: many sellers, identical products, no control over price.\n2. *Monopolistic competition*: many sellers with differentiated products and easy entry, such as restaurants.\n3. *Oligopoly*: a few large, interdependent firms, such as commercial aircraft makers.\n4. *Monopoly*: one seller, no close substitutes, high barriers to entry.\n\nThe most common mistake is saying a change in a good's own price shifts its demand curve. A higher price changes quantity demanded, not demand.",
+    "examples": [
+      "When a popular video promotes the health benefits of oat milk, demand for oat milk shifts right, so its price and quantity both rise. Demand for dairy milk, a substitute, may shift left.",
+      "A theater raises ticket prices from $10 to $11 (10%), and attendance falls from 1,000 to 950 (5%). Elasticity is 5% ÷ 10% = 0.5, so demand is inelastic, and revenue rises from $10,000 to $10,450."
+    ],
+    "questions": [
+      {
+        "stem": "The price of peanut butter falls sharply. What happens in the market for jelly, which consumers often use with peanut butter?",
+        "choices": ["Demand for jelly increases", "Demand for jelly decreases", "Supply of jelly increases", "Quantity of jelly supplied falls"],
+        "answer": 0,
+        "explanation": "Peanut butter and jelly are complements. Cheaper peanut butter means people buy more of it and want more jelly to go with it, so the demand curve for jelly shifts right."
+      },
+      {
+        "stem": "A new machine cuts the cost of producing bicycles. If demand is unchanged, what happens to the equilibrium price and quantity of bicycles?",
+        "choices": ["Price rises and quantity falls", "Price falls and quantity rises", "Price and quantity both rise", "Price and quantity both fall"],
+        "answer": 1,
+        "explanation": "Lower production costs shift supply to the right. Along the unchanged demand curve, the new intersection has a lower price and a higher quantity."
+      },
+      {
+        "stem": "When a café raises the price of a smoothie by 20%, the quantity sold falls by 30%. What is the price elasticity of demand, and how is demand classified?",
+        "choices": ["0.67, inelastic", "1.5, elastic", "1.5, inelastic", "0.67, elastic"],
+        "answer": 1,
+        "explanation": "Elasticity = 30% ÷ 20% = 1.5. Because the result is greater than 1, demand is elastic: buyers responded more than proportionally to the price change."
+      },
+      {
+        "stem": "Demand for a prescription medicine with no close substitutes is highly inelastic. If the seller raises its price, what happens to total revenue?",
+        "choices": ["It rises, because quantity falls by a smaller percentage than price rises", "It falls, because buyers switch to substitutes", "It stays the same, because demand does not change", "It falls, because quantity drops by a larger percentage than price rises"],
+        "answer": 0,
+        "explanation": "With inelastic demand, the percentage drop in quantity is smaller than the percentage rise in price, so total revenue (price × quantity) increases."
+      },
+      {
+        "stem": "A city caps apartment rents at $900 per month when the market equilibrium rent is $1,200. What is the most likely result?",
+        "choices": ["A surplus of apartments", "A shortage of apartments", "A rightward shift in supply", "No effect on the market"],
+        "answer": 1,
+        "explanation": "A price ceiling set below equilibrium raises quantity demanded and lowers quantity supplied, creating a shortage. A ceiling above equilibrium would have no effect."
+      },
+      {
+        "stem": "At a price of $8, sellers offer 500 units of a product, but buyers want only 300 units. How will price change as the market adjusts?",
+        "choices": ["Price will rise because of a shortage", "Price will fall because of a surplus", "Price will stay at $8 because the market clears", "Price will rise because quantity supplied exceeds quantity demanded"],
+        "answer": 1,
+        "explanation": "Quantity supplied exceeds quantity demanded by 500 − 300 = 200 units, which is a surplus. Sellers cut prices to clear unsold goods until the market reaches equilibrium."
+      },
+      {
+        "stem": "A town has dozens of hair salons, each offering slightly different styles, service and atmosphere, and new salons can open easily. Which market structure is this?",
+        "choices": ["Perfect competition", "Monopolistic competition", "Oligopoly", "Monopoly"],
+        "answer": 1,
+        "explanation": "Many sellers, differentiated products and easy entry define monopolistic competition. Perfect competition would require identical products."
+      },
+      {
+        "stem": "Which event causes a movement along the demand curve for concert tickets rather than a shift of the curve?",
+        "choices": ["A rise in the price of concert tickets", "A rise in fans' incomes", "A drop in the price of music streaming services", "A new trend that makes live concerts more popular"],
+        "answer": 0,
+        "explanation": "A change in the good's own price changes quantity demanded, which is a movement along the curve. Income, related-good prices and tastes are non-price factors that shift the curve."
+      }
+    ],
+    "flashcards": [
+      { "term": "Law of demand", "definition": "The principle that, other things equal, quantity demanded falls as price rises and rises as price falls." },
+      { "term": "Equilibrium price", "definition": "The price at which quantity demanded equals quantity supplied, so there is no shortage or surplus." },
+      { "term": "Price elasticity of demand", "definition": "The percent change in quantity demanded divided by the percent change in price; above 1 is elastic, below 1 is inelastic." },
+      { "term": "Price ceiling", "definition": "A legal maximum price; when set below equilibrium, it causes a shortage." },
+      { "term": "Oligopoly", "definition": "A market structure with a few large, interdependent firms whose decisions affect one another." }
+    ]
+  }
+]

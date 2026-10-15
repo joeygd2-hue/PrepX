@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Marketing fundamentals: concept, functions, and the marketing mix",
+    "objective": "Define marketing, identify the seven marketing functions, and classify business decisions into the four Ps of the marketing mix.",
+    "body": "**Marketing** is the process of creating, communicating, delivering and exchanging offerings that have value for customers, clients, partners and society. It is far more than advertising. Marketing begins before a product exists, when a business studies what people need, and continues after the sale, when the business works to keep customers satisfied and coming back.\n\n**The marketing concept.** Modern businesses follow the **marketing concept**, a philosophy that says a firm should satisfy customer needs and wants while still earning a profit. Older approaches focused on production (make it cheaply and people will buy) or selling (push whatever we made). A customer-focused company asks first what buyers want, then designs products, prices and messages around those wants.\n\n**The seven marketing functions.** Most marketing work falls into seven functions:\n- **Channel management**: getting products to customers through distribution.\n- **Marketing-information management**: gathering and using data about customers and markets.\n- **Market planning**: setting goals and choosing target markets.\n- **Pricing**: setting and adjusting what customers pay.\n- **Product/service management**: developing, improving and dropping products.\n- **Promotion**: informing, persuading and reminding customers.\n- **Selling**: direct, personal contact to meet a customer's needs.\n\n**The marketing mix.** Decisions a marketer controls are grouped into the **marketing mix**, often called the four Ps:\n1. **Product**: the good or service, including features, brand, packaging and warranty.\n2. **Price**: the amount charged, including discounts and payment terms.\n3. **Place**: how and where the product reaches the customer, including stores, websites and shipping.\n4. **Promotion**: communication such as advertising, social media, public relations and sales promotions.\n\nEach P must fit the others and fit the target customer. A luxury watch sold at a discount warehouse with coupon promotions sends mixed signals; a consistent mix makes the offer believable.\n\n**Utility.** Marketing adds **utility**, the usefulness that makes a product satisfy wants. Form utility comes from changing raw materials into a finished product. Place utility means the product is where customers want it, time utility means it is available when they want it, possession utility means customers can take ownership (for example, through financing), and information utility comes from telling customers what they need to know.\n\n**Common mistake.** Students often treat marketing and promotion as the same thing. On a test, if a scenario involves choosing a store location, setting a price, or researching customers, the answer is still marketing, just not promotion. Read each scenario and ask which P or which function the decision actually belongs to.",
+    "examples": [
+      "A smoothie shop that surveys students about flavors before adding a menu item is practicing marketing-information management, not promotion.",
+      "A furniture store that lets customers pay over twelve months creates possession utility, because more buyers can take ownership."
+    ],
+    "questions": [
+      {
+        "stem": "A sneaker company decides to sell its new shoe only through its own app and three flagship stores. Which element of the marketing mix is this decision about?",
+        "choices": [
+          "Product",
+          "Place",
+          "Promotion",
+          "Price"
+        ],
+        "answer": 1,
+        "explanation": "Choosing where and how customers can buy is place (distribution). Promotion is a tempting distractor, but no message to customers is being created."
+      },
+      {
+        "stem": "A bakery owner asks customers which breads they want before planning next month's menu. This best reflects which philosophy?",
+        "choices": [
+          "The production concept",
+          "The selling concept",
+          "The marketing concept",
+          "The societal pricing concept"
+        ],
+        "answer": 2,
+        "explanation": "Starting with customer wants and building offerings around them is the marketing concept. The selling concept pushes existing products rather than asking first."
+      },
+      {
+        "stem": "A grocery store stays open until midnight so shift workers can shop after work. Which type of utility does this add?",
+        "choices": [
+          "Time utility",
+          "Form utility",
+          "Possession utility",
+          "Information utility"
+        ],
+        "answer": 0,
+        "explanation": "Being available when customers want to buy is time utility. Place utility is close but concerns location, not hours."
+      },
+      {
+        "stem": "A lumber mill turns logs into finished tabletops. What type of utility is created?",
+        "choices": [
+          "Place utility",
+          "Information utility",
+          "Time utility",
+          "Form utility"
+        ],
+        "answer": 3,
+        "explanation": "Changing raw materials into a usable product creates form utility. Place utility would involve moving the tabletops to where buyers are."
+      },
+      {
+        "stem": "A phone retailer's employee meets one-on-one with a customer to recommend a plan that fits her budget. Which marketing function is this?",
+        "choices": [
+          "Promotion",
+          "Channel management",
+          "Selling",
+          "Market planning"
+        ],
+        "answer": 2,
+        "explanation": "Direct personal communication to meet an individual customer's needs is selling. Promotion is broader, impersonal communication aimed at many people."
+      },
+      {
+        "stem": "A company launches a cheaper version of its headphones with fewer features. Which two parts of the marketing mix changed most directly?",
+        "choices": [
+          "Product and price",
+          "Place and promotion",
+          "Promotion and price",
+          "Place and product"
+        ],
+        "answer": 0,
+        "explanation": "Removing features changes the product, and the lower cost changes the price. Promotion may follow, but the core decision is about product and price."
+      },
+      {
+        "stem": "A car dealership offers in-house financing so buyers without cash can drive away today. What utility is created?",
+        "choices": [
+          "Form utility",
+          "Possession utility",
+          "Information utility",
+          "Place utility"
+        ],
+        "answer": 1,
+        "explanation": "Financing makes ownership possible, creating possession utility. Time utility is a distractor, but the key barrier removed is the ability to own, not timing."
+      },
+      {
+        "stem": "Which activity belongs to marketing-information management?",
+        "choices": [
+          "Running a TV commercial",
+          "Negotiating with a trucking company",
+          "Analyzing loyalty-card purchase data",
+          "Setting a holiday sale price"
+        ],
+        "answer": 2,
+        "explanation": "Collecting and analyzing customer data is marketing-information management. The commercial is promotion, and trucking is channel management."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Marketing concept",
+        "definition": "The philosophy that a business should satisfy customer needs and wants while making a profit."
+      },
+      {
+        "term": "Marketing mix",
+        "definition": "The four controllable decisions of product, price, place and promotion."
+      },
+      {
+        "term": "Utility",
+        "definition": "The usefulness of a product that lets it satisfy customer wants: form, place, time, possession or information."
+      },
+      {
+        "term": "Channel management",
+        "definition": "The marketing function concerned with distributing products to customers."
+      },
+      {
+        "term": "Selling",
+        "definition": "The marketing function involving direct, personal communication to meet a customer's needs."
+      }
+    ]
+  }
+]

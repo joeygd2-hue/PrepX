@@ -1,0 +1,124 @@
+[
+  {
+    "title": "The communication process and business writing basics",
+    "objective": "Identify the parts of the communication process, recognize common barriers, and apply audience analysis and the qualities of effective business messages.",
+    "body": "Every business message, from a text to a customer to a formal report, follows the same basic path. Understanding that path helps you predict where a message might break down and how to prevent it.\n\n**The communication process.** A **sender** has an idea and **encodes** it into words, images or gestures. The message travels through a **channel**, such as email, a phone call, a meeting or a printed letter. The **receiver** then **decodes** the message, interpreting what it means. Finally, the receiver provides **feedback**, a response that shows whether the message was understood. Communication is only complete when feedback confirms shared meaning; sending a message is not the same as communicating it.\n\n**Barriers.** Anything that interferes with understanding is called **noise**. Noise can be physical, like a loud room or a dropped call, or it can be psychological, semantic or cultural.\n- *Physical barriers*: distance, background sound, poor connections.\n- *Semantic barriers*: jargon, slang or words with more than one meaning.\n- *Psychological barriers*: stress, bias or assumptions about the sender.\n- *Cultural barriers*: different norms for directness, gestures or time.\n\n**Audience analysis.** Before writing, effective communicators ask who will read the message, what they already know, how they will feel about it, and what action the writer wants them to take. A message to a new customer needs more background than one to a coworker on the same project. Thinking about the reader also leads to the **you-attitude**, which frames a message around the reader's needs and benefits rather than the writer's. \"You will receive your refund in three days\" is more effective than \"We have processed your refund.\"\n\n**Qualities of effective messages.** Strong business messages share several traits, often called the Cs of communication:\n1. *Clear*: one main idea per paragraph, familiar words.\n2. *Concise*: no filler phrases or repeated points.\n3. *Correct*: accurate facts, grammar, spelling and names.\n4. *Complete*: answers the reader's likely questions.\n5. *Courteous*: polite, positive and respectful in tone.\n\n**Formal and informal communication.** Formal communication follows official channels, such as a memo from a manager to a department. Informal communication, sometimes called the **grapevine**, spreads through casual conversations. The grapevine is fast but often inaccurate, so important information should always be confirmed through formal channels.\n\nThe most common mistake students make is treating communication as one-way. They focus on how a message is sent and forget that the process is not finished until the receiver decodes it correctly and gives feedback. On test questions, if a message was sent but misunderstood, the breakdown is usually in decoding or in the lack of feedback, not in the channel.",
+    "examples": [
+      "A manager emails a schedule change, and an employee replies asking whether it affects weekend shifts; that reply is feedback showing the message was only partly decoded.",
+      "A software company writes \"Your account now backs up automatically, so you will never lose a file\" instead of \"We added an automatic backup feature,\" applying the you-attitude.",
+      "A new hire misunderstands the phrase \"circle back on the deliverables,\" an example of a semantic barrier caused by jargon."
+    ],
+    "questions": [
+      {
+        "stem": "Jada explains a new return policy to a customer, and the customer repeats the policy back in her own words. Which part of the communication process is the customer demonstrating?",
+        "choices": [
+          "Encoding",
+          "Feedback",
+          "Channel selection",
+          "Noise"
+        ],
+        "answer": 1,
+        "explanation": "Repeating the message back is feedback, which confirms understanding. Encoding is what Jada did when she put the policy into words, not what the customer did."
+      },
+      {
+        "stem": "A supervisor tells a trainee to \"push the SKU updates to prod by EOD.\" The trainee has no idea what this means. What type of barrier is this?",
+        "choices": [
+          "Physical",
+          "Psychological",
+          "Semantic",
+          "Cultural"
+        ],
+        "answer": 2,
+        "explanation": "Jargon and abbreviations the receiver does not understand create a semantic barrier. It is not physical because the trainee heard the words clearly; the problem is meaning."
+      },
+      {
+        "stem": "Which sentence best demonstrates the you-attitude?",
+        "choices": [
+          "We are pleased to announce our new extended hours.",
+          "Our store has decided to open earlier on weekdays.",
+          "You can now shop with us from 7 a.m. to 10 p.m. every weekday.",
+          "We worked hard to make extended hours possible."
+        ],
+        "answer": 2,
+        "explanation": "The correct choice centers on the reader and the benefit they receive. The first choice sounds positive but still focuses on what 'we' are pleased about."
+      },
+      {
+        "stem": "Marcus hears from a coworker that the company is closing his branch. What is the best response?",
+        "choices": [
+          "Tell other employees so they can prepare",
+          "Confirm the information with his manager or an official announcement",
+          "Ignore it because rumors are always false",
+          "Post about it on social media to get answers"
+        ],
+        "answer": 1,
+        "explanation": "Grapevine information is fast but often inaccurate, so it should be confirmed through formal channels. Spreading it to others repeats the problem without verifying it."
+      },
+      {
+        "stem": "During a video call, an employee's internet keeps freezing so she misses parts of the instructions. This is an example of:",
+        "choices": [
+          "Physical noise",
+          "Semantic noise",
+          "Poor audience analysis",
+          "Lack of the you-attitude"
+        ],
+        "answer": 0,
+        "explanation": "A bad connection is an external, physical interference with the channel. Semantic noise would involve confusing word meanings, which is not the issue here."
+      },
+      {
+        "stem": "Before writing a proposal to the school board, Priya asks what the board already knows about the topic and what decision she wants them to make. Priya is performing:",
+        "choices": [
+          "Decoding",
+          "Feedback analysis",
+          "Audience analysis",
+          "Channel selection"
+        ],
+        "answer": 2,
+        "explanation": "Asking what readers know and what action they should take is audience analysis. Channel selection is choosing how to send the message, which is a separate decision."
+      },
+      {
+        "stem": "A customer email says, \"In regard to the matter of your inquiry, at this point in time we are currently in the process of reviewing it.\" Which quality does it most clearly lack?",
+        "choices": [
+          "Correctness",
+          "Conciseness",
+          "Courtesy",
+          "Completeness"
+        ],
+        "answer": 1,
+        "explanation": "The sentence is full of filler phrases and could be shortened to 'We are reviewing your inquiry.' It is not discourteous, so courtesy is not the main problem."
+      },
+      {
+        "stem": "In the communication process, a sales rep choosing to call a client rather than send a letter is deciding on the:",
+        "choices": [
+          "Encoding",
+          "Receiver",
+          "Channel",
+          "Feedback"
+        ],
+        "answer": 2,
+        "explanation": "The channel is the medium that carries the message, such as a phone call or letter. Encoding is turning the idea into words, which happens regardless of the medium chosen."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Encoding",
+        "definition": "The sender's step of turning an idea into words, images or gestures that form a message."
+      },
+      {
+        "term": "Decoding",
+        "definition": "The receiver's step of interpreting a message to determine its meaning."
+      },
+      {
+        "term": "Feedback",
+        "definition": "The receiver's response that shows whether a message was understood; it completes the communication process."
+      },
+      {
+        "term": "Noise",
+        "definition": "Anything that interferes with understanding a message, including physical, semantic, psychological and cultural barriers."
+      },
+      {
+        "term": "You-attitude",
+        "definition": "A writing approach that frames a message around the reader's needs and benefits rather than the writer's."
+      }
+    ]
+  }
+]

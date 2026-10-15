@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Resident rights, infection control and safe care basics",
+    "objective": "Explain the nursing assistant's scope of practice, protect resident rights and privacy, and apply standard precautions and hand hygiene in every interaction.",
+    "body": "Nursing assistants spend more time at the bedside than almost anyone else on the care team, so their everyday habits decide whether residents stay safe, comfortable and respected. Nearly every test question in this area asks the same thing: what should a nursing assistant do *first*, and is it within their role?\n\n**Scope of practice.** A nursing assistant works under the supervision of a licensed nurse and performs tasks that have been delegated and that they were trained to do. Nursing assistants do not diagnose, give medications, take verbal orders from a physician or change a care plan. When a resident's condition changes, such as new confusion, pain, or a blood pressure far outside the usual range, the correct action is to **report** it promptly to the nurse and **document** what was observed. Objective observations (what you see, hear, measure) are recorded factually; subjective statements are quoted in the resident's own words.\n\n**Resident rights.** Federal rules for long-term care protect each resident's right to dignity, privacy, confidentiality, informed choices and freedom from abuse and restraints. In practice this means:\n- Knock, introduce yourself and explain each procedure before starting.\n- Close the curtain or door and drape the resident during care.\n- Respect a **refusal** of care: do not force it, try to learn why, and tell the nurse.\n- Share health information only with team members who need it, consistent with **HIPAA**.\n\nAny suspected abuse or neglect must be reported immediately, even if the resident asks you to keep it secret.\n\n**Infection control.** **Standard precautions** treat blood, body fluids (except sweat), non-intact skin and mucous membranes as potentially infectious for every resident. **Hand hygiene** is the single most important way to stop the spread of infection. An alcohol-based hand rub is preferred for routine care when hands are not visibly soiled; wash with soap and water for at least 20 seconds when hands are visibly dirty or after caring for a resident with *C. difficile* diarrhea, because alcohol does not reliably kill its spores. Gloves are worn when contact with body fluids is expected and are removed and followed by hand hygiene, since gloves can have tiny holes. **Transmission-based precautions** (contact, droplet and airborne) are added on top of standard precautions when a specific infection is known or suspected.\n\n**Safety basics.** Before leaving any resident, use a simple check: bed in the lowest position with wheels locked, call light within reach, personal items nearby and side rails as ordered in the care plan. Always confirm identity with two identifiers, such as name and date of birth, before care.\n\nThe most common mistake students make is choosing an answer in which the nursing assistant solves a clinical problem alone, such as adjusting a treatment, instead of the in-scope action of observing, reporting to the nurse and documenting.",
+    "examples": [
+      "A resident tells a nursing assistant she feels dizzy and her pulse is 48. The assistant helps her sit safely, stays with her, and reports the finding to the nurse right away rather than waiting until the end of the shift.",
+      "A resident on contact precautions for MRSA needs a bed bath. The assistant performs hand hygiene and puts on a gown and gloves before entering the room, then removes them and cleans hands before leaving."
+    ],
+    "questions": [
+      {
+        "stem": "A resident refuses his morning shower and says he is too tired. What should the nursing assistant do?",
+        "choices": [
+          "Insist gently, since showers are part of the care plan",
+          "Respect the refusal, ask about his reason, and report it to the nurse",
+          "Skip the shower and chart it as completed to avoid problems",
+          "Ask another assistant to help give the shower anyway"
+        ],
+        "answer": 1,
+        "explanation": "Residents have the right to refuse care; the assistant explores the reason and informs the nurse. Insisting violates the right to make choices, and charting care that was not done is falsification."
+      },
+      {
+        "stem": "Which situation requires washing hands with soap and water rather than using alcohol-based hand rub?",
+        "choices": [
+          "Before taking a resident's blood pressure",
+          "After touching a bed rail in a standard room",
+          "After caring for a resident with C. difficile diarrhea",
+          "Before entering a room to deliver a meal tray"
+        ],
+        "answer": 2,
+        "explanation": "Alcohol does not reliably kill C. difficile spores, so friction with soap and water is needed. For routine contacts like taking a blood pressure, hand rub is preferred when hands are not visibly soiled."
+      },
+      {
+        "stem": "A physician on the unit tells a nursing assistant to give a resident an extra dose of pain medication. What is the best response?",
+        "choices": [
+          "Give the medication because a physician ordered it",
+          "Ask the resident whether they want the dose",
+          "Politely explain it is outside your scope and refer the physician to the nurse",
+          "Write the order in the chart for the nurse to see later"
+        ],
+        "answer": 2,
+        "explanation": "Nursing assistants cannot give medications or take orders; the nurse must handle it. Following the order directly is outside scope even if the source is a physician."
+      },
+      {
+        "stem": "While bathing a resident, an assistant notices bruises on her upper arms shaped like fingers. The resident asks the assistant not to tell anyone. What should the assistant do?",
+        "choices": [
+          "Keep the secret to protect the resident's trust",
+          "Report the observation to the nurse immediately",
+          "Ask the resident's family who caused the bruises",
+          "Wait to see if more bruises appear before reporting"
+        ],
+        "answer": 1,
+        "explanation": "Suspected abuse must be reported immediately regardless of the resident's request. Investigating by questioning family is not the assistant's role, and waiting can allow further harm."
+      },
+      {
+        "stem": "Which documentation entry is written correctly?",
+        "choices": [
+          "Resident seemed upset and probably did not like lunch.",
+          "Resident ate 25% of lunch and stated, \"My stomach hurts.\"",
+          "Resident was difficult and uncooperative all morning.",
+          "Resident is depressed and needs medication."
+        ],
+        "answer": 1,
+        "explanation": "Correct charting is factual and quotes the resident's own words. The other entries are opinions or diagnoses, which assistants should not record as facts."
+      },
+      {
+        "stem": "Before leaving a resident's room after care, which action best protects safety?",
+        "choices": [
+          "Raise the bed to working height for the next caregiver",
+          "Place the call light within reach and lower the bed",
+          "Turn off the room light so the resident can rest",
+          "Move the walker across the room to keep the path clear"
+        ],
+        "answer": 1,
+        "explanation": "A low, locked bed and a call light in reach reduce falls and let the resident get help. Leaving the bed high increases fall injury risk."
+      },
+      {
+        "stem": "A visitor at the nurses' station asks an assistant what illness the resident in room 12 has. The visitor says she is a neighbor. What should the assistant do?",
+        "choices": [
+          "Share the diagnosis since the visitor seems caring",
+          "Explain that information is confidential and refer her to the nurse",
+          "Tell her only the general reason for the admission",
+          "Show her the care plan so she can read it herself"
+        ],
+        "answer": 1,
+        "explanation": "HIPAA and resident rights limit health information to those who need it; the nurse can verify authorization. Even a general reason for admission is protected information."
+      },
+      {
+        "stem": "Why must an assistant perform hand hygiene after removing gloves?",
+        "choices": [
+          "Glove powder irritates the skin",
+          "Gloves can have small holes and hands can be contaminated during removal",
+          "Hand hygiene is only required if the gloves were torn",
+          "It replaces the need to wear gloves next time"
+        ],
+        "answer": 1,
+        "explanation": "Gloves are not a perfect barrier and removal can contaminate hands, so hand hygiene always follows. Limiting it to visibly torn gloves misses invisible defects."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scope of practice",
+        "definition": "The tasks a nursing assistant is trained and allowed to perform under the supervision of a licensed nurse."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Infection control practices used for every resident that treat blood, body fluids, non-intact skin and mucous membranes as potentially infectious."
+      },
+      {
+        "term": "Hand hygiene",
+        "definition": "Cleaning hands with alcohol-based rub or soap and water; the most important way to prevent the spread of infection."
+      },
+      {
+        "term": "Transmission-based precautions",
+        "definition": "Contact, droplet or airborne precautions added to standard precautions for a known or suspected infection."
+      },
+      {
+        "term": "Refusal of care",
+        "definition": "A resident's right to decline a procedure; the assistant respects it, seeks the reason and reports it to the nurse."
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Business: Linking Up: Computer Networks",
+    "url": "https://openstax.org/books/introduction-business/pages/13-2-linking-up-computer-networks",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Textbook section on business networks, intranets and how companies share information."
+  },
+  {
+    "title": "Principles of Data Science",
+    "url": "https://openstax.org/details/books/principles-data-science",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Covers collecting, cleaning, analyzing and protecting data, the information side of MIS."
+  },
+  {
+    "title": "Cybersecurity Basics",
+    "url": "https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics",
+    "publisher": "NIST",
+    "kind": "reference",
+    "note": "NIST basics on protecting company systems and data, which MIS questions often include."
+  }
+]

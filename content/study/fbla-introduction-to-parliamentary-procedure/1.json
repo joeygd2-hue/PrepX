@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Principles, quorum and the order of business",
+    "objective": "Explain the core principles of parliamentary procedure, identify officer roles and quorum rules, and sequence a standard order of business.",
+    "body": "Parliamentary procedure is a set of rules that lets a group make decisions fairly and efficiently. Most American organizations, including FBLA, use **Robert's Rules of Order Newly Revised (RONR)**, in its current edition, as their **parliamentary authority**, the book that governs whenever the group's own rules are silent.\n\n**Core principles.** Every rule traces back to a few ideas:\n- The **majority** decides, but the **minority** has the right to be heard.\n- Every member has equal rights to make motions, debate and vote.\n- Only **one question** is considered at a time.\n- Members deserve full and free discussion before a vote.\n- Business is conducted with courtesy and in good faith.\n\n**Rules hierarchy.** An organization's rules rank in order of authority: laws that apply to the group, the corporate charter if one exists, the **bylaws** (or constitution), special rules of order, the parliamentary authority, and finally customs. A lower rule cannot conflict with a higher one, so a custom gives way to RONR, and RONR gives way to the bylaws.\n\n**Officers.** The **presiding officer** (often called the chair or president) runs the meeting impartially, recognizes speakers, states and puts questions to a vote, and announces results. The **secretary** keeps the **minutes**, the official record of what was *done*, not everything that was said. A **parliamentarian** advises the chair on procedure, but only the chair rules.\n\n**Quorum.** A **quorum** is the minimum number of voting members who must be present to transact business. If the bylaws do not set a number, RONR's default is a majority of the membership. Without a quorum, the group may only take limited actions such as fixing the time to adjourn, recessing, adjourning, or taking steps to obtain a quorum.\n\n**Standard order of business.** RONR suggests this sequence for a regular meeting:\n1. Reading and approval of minutes\n2. Reports of officers, boards and standing committees\n3. Reports of special committees\n4. Special orders\n5. Unfinished business and general orders\n6. New business\n\nThe meeting is called to order before step 1 and adjourns after new business; many groups add opening ceremonies and announcements. Note that \"unfinished business\" is the correct term; RONR discourages the label \"old business,\" because it suggests anything ever discussed can be reopened.\n\n**Getting the floor.** A member must rise or raise a hand, address the chair, and be **recognized** before speaking or making a motion. The member who is recognized has the **floor**, and others should not interrupt except for the few motions that permit it.\n\nThe most common mistake students make is assuming the parliamentarian makes rulings. The parliamentarian only advises; the presiding officer makes every ruling, and the assembly can overrule the chair by appeal.",
+    "examples": [
+      "A chapter of 40 members whose bylaws are silent on quorum needs 21 voting members present before it can adopt any motion.",
+      "After the treasurer's report, the chair moves to unfinished business and takes up a fundraiser motion that was postponed at the last meeting."
+    ],
+    "questions": [
+      {
+        "stem": "A chapter's bylaws state that a quorum is 15 members, but a long-standing custom has been to proceed with 10. Twelve members attend. What should the chair do?",
+        "choices": [
+          "Proceed, because custom has been followed for years",
+          "Recognize that no quorum is present, since the bylaws outrank custom",
+          "Ask the parliamentarian to set a new quorum for the meeting",
+          "Proceed only if the twelve members vote unanimously"
+        ],
+        "answer": 1,
+        "explanation": "Bylaws rank above customs, so the 15-member quorum controls. A custom, no matter how old, cannot override a written bylaw, and even a unanimous vote cannot waive a quorum requirement."
+      },
+      {
+        "stem": "A club has 30 members and no quorum provision in its bylaws. What is the quorum under RONR?",
+        "choices": [
+          "10 members",
+          "15 members",
+          "16 members",
+          "20 members"
+        ],
+        "answer": 2,
+        "explanation": "RONR's default quorum is a majority of the membership, and a majority of 30 is 16. Fifteen is exactly half, which is not a majority."
+      },
+      {
+        "stem": "During a meeting, the parliamentarian disagrees with how the president handled a motion. Who decides the point?",
+        "choices": [
+          "The parliamentarian, because procedure is their area",
+          "The secretary, who records the action",
+          "The adviser, who has final authority",
+          "The president, as presiding officer, after any advice"
+        ],
+        "answer": 3,
+        "explanation": "The presiding officer makes all rulings; the parliamentarian only advises. Members unhappy with a ruling can appeal to the assembly, but the parliamentarian cannot overrule the chair."
+      },
+      {
+        "stem": "Which item comes FIRST in RONR's standard order of business after the call to order?",
+        "choices": [
+          "Reading and approval of minutes",
+          "Reports of standing committees",
+          "Unfinished business",
+          "Special orders"
+        ],
+        "answer": 0,
+        "explanation": "Approval of minutes is step one in the standard order. Committee reports follow it, so they are a tempting but incorrect answer."
+      },
+      {
+        "stem": "A member jumps up and begins arguing for a motion without waiting. What should have happened first?",
+        "choices": [
+          "The member should have seconded the motion",
+          "The secretary should have read the motion aloud",
+          "The chair should have called for a vote",
+          "The member should have obtained the floor by being recognized by the chair"
+        ],
+        "answer": 3,
+        "explanation": "A member must address the chair and be recognized to obtain the floor before debating. Seconding applies to motions, not to gaining the right to speak."
+      },
+      {
+        "stem": "The secretary wants to include a full summary of every speech in the minutes. What is the better practice under RONR?",
+        "choices": [
+          "Record only what was done, such as motions and their results",
+          "Record every speech word for word",
+          "Record only the motions that passed",
+          "Record the secretary's opinion of each debate"
+        ],
+        "answer": 0,
+        "explanation": "Minutes record what was done, including motions made and their disposition, not what was said in debate. Lost motions are still recorded, so recording only adopted motions is wrong."
+      },
+      {
+        "stem": "Only 8 of a chapter's 25 members show up to a meeting. Which action may the group still properly take?",
+        "choices": [
+          "Adopt a new budget",
+          "Elect a new vice president",
+          "Adjourn",
+          "Amend the bylaws"
+        ],
+        "answer": 2,
+        "explanation": "Without a quorum, the group may only adjourn, recess, fix the time to adjourn, or take measures to obtain a quorum. Substantive business such as a budget cannot be transacted."
+      },
+      {
+        "stem": "A member suggests the agenda heading \"old business\" for items carried over from last meeting. Which term does RONR prefer?",
+        "choices": [
+          "Previous business",
+          "Unfinished business",
+          "Tabled business",
+          "Pending business"
+        ],
+        "answer": 1,
+        "explanation": "RONR uses \"unfinished business\" because \"old business\" implies any topic ever discussed may be reopened. \"Pending\" describes a question currently before the assembly, not a heading."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Parliamentary authority",
+        "definition": "The book of procedural rules, such as RONR, that an organization adopts to govern when its own rules are silent."
+      },
+      {
+        "term": "Quorum",
+        "definition": "The minimum number of voting members who must be present to transact business; by default a majority of the membership."
+      },
+      {
+        "term": "Minutes",
+        "definition": "The official record of the actions taken at a meeting, not a transcript of what was said."
+      },
+      {
+        "term": "Obtaining the floor",
+        "definition": "Being recognized by the chair, which gives a member the right to speak or make a motion."
+      },
+      {
+        "term": "Unfinished business",
+        "definition": "Items carried over from a previous meeting, such as a motion pending at adjournment; preferred over \"old business.\""
+      }
+    ]
+  }
+]

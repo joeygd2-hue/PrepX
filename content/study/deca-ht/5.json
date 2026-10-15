@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Hospitality marketing, pricing and selling",
+    "objective": "Segment hospitality markets, choose channels and pricing, and move a client through the selling process to a signed group contract.",
+    "body": "Professional selling and team decision-making events in hospitality ask you to sell an experience, price it wisely and promote it through the right channels. Exams focus on segmentation, distribution, pricing, promotion and the steps of the sale.\n\n**Segmenting the market.** Hospitality businesses divide customers into groups with similar needs: *transient* business and leisure travelers, corporate groups, association conventions and *SMERF* groups (social, military, educational, religious and fraternal), which are often price-sensitive and flexible on dates. A clear *position* tells each segment why the property is the best choice for them.\n\n**Distribution and pricing.** *Direct* channels, such as the brand website and call center, cost less than *indirect* channels like online travel agencies (OTAs), which charge commissions. Hotels use loyalty perks to encourage direct booking while still using OTAs to reach new guests. Common pricing approaches include dynamic pricing based on demand, *bundle pricing* for packages that combine lodging, meals and activities, and negotiated rates for frequent corporate clients.\n\n**Promotion.** The promotional mix includes advertising, public relations, sales promotion, personal selling, and digital and social media. *Destination marketing organizations (DMOs)*, often called convention and visitors bureaus, promote an entire city or region. Partnerships with influencers must be clearly disclosed in their posts under federal endorsement guidelines.\n\n**The selling process.** Prospect for qualified leads, prepare by researching the client, open with rapport, *determine needs* with open-ended questions, present features as benefits, handle objections, close and follow up. A *feature* is a fact about the product; a *benefit* is what that fact does for this customer. *Upselling* offers a higher-priced version of what the guest is buying, while *cross-selling* adds related products, such as a spa treatment. Handle price objections by acknowledging the concern and showing total value rather than immediately cutting the rate.\n\n**Group sales.** A *room block* reserves a set number of rooms for a group until a *cutoff date*, after which unbooked rooms return to general inventory. An *attrition clause* requires the group to pay for rooms below an agreed percentage of the block.\n\nA common mistake is reciting features. A planner does not buy 20,000 square feet of meeting space; they buy sessions that start on time and attendees who stay engaged.",
+    "examples": [
+      "Feature to benefit: 'Our ballroom has built-in audiovisual equipment, so your team skips outside rental fees and can rehearse the morning of the event.'",
+      "A conference blocks 100 rooms at $150 with an 80% attrition clause. Attendees book only 70 rooms, so the group pays for 80 − 70 = 10 rooms, or $1,500."
+    ],
+    "questions": [
+      {
+        "stem": "A wedding group blocks 50 rooms at $140 per night for one night. The contract's attrition clause requires the group to use at least 80% of the block. If guests book only 34 rooms, how much does the group owe for attrition?",
+        "choices": ["$560", "$840", "$1,400", "$2,240"],
+        "answer": 1,
+        "explanation": "Required pickup = 80% × 50 = 40 rooms. The shortfall is 40 − 34 = 6 rooms, and 6 × $140 = $840. Charging for all 16 unused rooms ($2,240) ignores the 20% allowance."
+      },
+      {
+        "stem": "A front desk agent offers a guest who booked a standard room an upgrade to an ocean-view room for $30 more per night. Which sales technique is this?",
+        "choices": ["Cross-selling", "Upselling", "Bundling", "Prospecting"],
+        "answer": 1,
+        "explanation": "Upselling offers a higher-priced version of the product the guest is already buying. Cross-selling would add a related product, such as a dinner reservation."
+      },
+      {
+        "stem": "Which statement presents a benefit, rather than a feature, to a meeting planner?",
+        "choices": ["The hotel has 20,000 square feet of meeting space", "Every session room is a two-minute walk from the ballroom, so breaks stay on schedule", "The ballroom has eight crystal chandeliers", "The property opened recently and has 300 guest rooms"],
+        "answer": 1,
+        "explanation": "A benefit explains what a feature does for the customer, here keeping the program on time. The other options state facts without connecting them to the planner's needs."
+      },
+      {
+        "stem": "During a sales call with a corporate travel manager, which question would best help a hotel salesperson determine the client's needs?",
+        "choices": ["Are you ready to sign an agreement today?", "Is your nightly budget above $150?", "What has worked well or poorly for your travelers at past hotels?", "Have you heard of our hotel before?"],
+        "answer": 2,
+        "explanation": "Open-ended questions invite detailed answers that reveal needs and priorities. The other options are closed questions answered with a simple yes or no."
+      },
+      {
+        "stem": "A meeting planner says, 'Your group rate is higher than the hotel down the street.' What is the best response?",
+        "choices": ["Immediately match the competitor's rate to keep the business", "Point out problems with the competing hotel", "Acknowledge the concern and show how included breakfast and free parking lower the total cost", "Explain that price should not matter for an important event"],
+        "answer": 2,
+        "explanation": "Effective objection handling acknowledges the concern and reframes it around total value. Cutting the rate at once gives away revenue, and criticizing competitors looks unprofessional."
+      },
+      {
+        "stem": "Why do many hotels encourage guests to book on the hotel's own website rather than through an online travel agency?",
+        "choices": ["Direct bookings avoid OTA commissions and let the hotel own the guest relationship", "Online travel agencies are not allowed to display room photos", "Direct bookings are exempt from lodging taxes", "Online travel agencies cannot sell rooms at chain hotels"],
+        "answer": 0,
+        "explanation": "OTAs charge the hotel a commission on each booking and control much of the customer data. Direct bookings cost less and let the hotel build loyalty."
+      },
+      {
+        "stem": "Which organization's main job is to promote a city or region to leisure travelers and meeting planners?",
+        "choices": ["Online travel agency", "Destination marketing organization", "Global distribution system", "Property management system"],
+        "answer": 1,
+        "explanation": "A destination marketing organization, often called a convention and visitors bureau, markets the whole destination rather than a single business."
+      },
+      {
+        "stem": "A hotel targets religious retreats, school band trips and family reunions. Which market segment do these groups belong to?",
+        "choices": ["Corporate groups", "SMERF groups", "Government travelers", "Transient business travelers"],
+        "answer": 1,
+        "explanation": "SMERF stands for social, military, educational, religious and fraternal groups, which are often price-sensitive but flexible on dates."
+      },
+      {
+        "stem": "A ski resort sells one package that includes lodging, lift tickets and equipment rental for less than the cost of buying each separately. Which pricing strategy is this?",
+        "choices": ["Price skimming", "Bundle pricing", "Cost-plus pricing", "Odd-even pricing"],
+        "answer": 1,
+        "explanation": "Bundle pricing combines several products at one price, usually below the separate prices, to add value and increase total spending."
+      },
+      {
+        "stem": "A resort gives a travel influencer a free stay in exchange for social media posts about the visit. What should happen?",
+        "choices": ["The influencer should clearly disclose the free stay in the posts", "The resort should require the posts to be positive", "The posts should hide the arrangement so they seem authentic", "No disclosure is needed because no money changed hands"],
+        "answer": 0,
+        "explanation": "Federal endorsement guidelines require clear disclosure of material connections, including free products or stays. A free stay counts even without a cash payment."
+      }
+    ],
+    "flashcards": [
+      { "term": "Room block", "definition": "A set number of rooms reserved for a group at an agreed rate until a cutoff date." },
+      { "term": "Attrition clause", "definition": "Contract term requiring a group to pay for rooms it fails to use below an agreed percentage of its block." },
+      { "term": "Upselling", "definition": "Encouraging a guest to buy a higher-priced version of the product they are already purchasing." },
+      { "term": "Cross-selling", "definition": "Suggesting related products, such as a spa treatment or dinner, in addition to the original purchase." },
+      { "term": "Destination marketing organization (DMO)", "definition": "A group, often a convention and visitors bureau, that promotes a city or region to travelers and meeting planners." },
+      { "term": "Online travel agency (OTA)", "definition": "A website that sells travel from many suppliers and usually charges the supplier a commission." }
+    ]
+  }
+]

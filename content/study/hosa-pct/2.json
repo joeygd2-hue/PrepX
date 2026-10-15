@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Vital signs, ECG basics and accurate measurement",
+    "objective": "Measure and record vital signs accurately, recognize abnormal values to report, and perform a standard 12-lead ECG setup with correct electrode placement.",
+    "body": "Much of a PCT's day is spent gathering data the nurse uses to make decisions, so accuracy matters more than speed. You measure and report; the nurse interprets.\n\n**Vital signs** in a resting adult typically fall in these ranges:\n- **Temperature**: about 97.8 to 99.1 F (36.5 to 37.3 C) orally.\n- **Pulse**: 60 to 100 beats per minute.\n- **Respirations**: 12 to 20 breaths per minute.\n- **Blood pressure**: under 120/80 mm Hg is normal under current American Heart Association categories.\n- **Oxygen saturation (SpO2)**: generally 95 percent or higher on room air.\n\nA pulse below 60 is **bradycardia** and above 100 is **tachycardia**. Count an irregular pulse for a full 60 seconds, ideally apically. Count respirations without telling the patient, often while still holding the wrist, because people change their breathing when they know it is being watched.\n\n**Blood pressure accuracy** depends on technique. Seat the patient with feet flat, back supported and arm at heart level, after a few minutes of rest. Choose a cuff whose bladder covers about 80 percent of the arm's circumference: a cuff that is **too small reads falsely high**, and one that is too large reads falsely low. The first clear tapping sound is the systolic pressure; the point where sounds disappear is the diastolic.\n\n**Pulse oximetry** can be falsely low with cold fingers, poor circulation, motion or some nail polish. Reposition or warm the site, but always report a low reading rather than assuming the device is wrong.\n\n**Electrocardiograms (ECGs)** record the heart's electrical activity. A standard **12-lead ECG** uses 10 electrodes: four on the limbs and six on the chest. Chest placement:\n1. V1: fourth intercostal space, right sternal border.\n2. V2: fourth intercostal space, left sternal border.\n3. V3: midway between V2 and V4.\n4. V4: fifth intercostal space, midclavicular line.\n5. V5: anterior axillary line, level with V4.\n6. V6: midaxillary line, level with V4.\n\nPrepare skin by cleaning and drying it and clipping hair if needed. Ask the patient to lie still, breathe normally and not talk. **Artifact**, the interference that makes a tracing messy, often comes from movement, shivering, loose electrodes or nearby electrical equipment. A flat line on one lead with a calm, talking patient is almost always a loose lead, but any patient who looks unwell needs immediate help, not troubleshooting.\n\nThe most common mistake students make is grabbing whatever cuff is handy. Using a standard adult cuff on a large arm produces a falsely high blood pressure that can lead to unnecessary worry or treatment, so always size the cuff first.",
+    "examples": [
+      "A PCT counts a patient's pulse at 112 beats per minute at rest and reports tachycardia to the nurse instead of rechecking it later on her own schedule.",
+      "A PCT places V1 and V2 in the second intercostal space by mistake; the tracing is misleading, so the electrodes must be moved to the fourth intercostal space and the ECG repeated."
+    ],
+    "questions": [
+      {
+        "stem": "A PCT measures a blood pressure of 158/94 on a patient with a large upper arm using a standard adult cuff. What is the best next step?",
+        "choices": [
+          "Record the value and move on",
+          "Repeat the measurement with a correctly sized large adult cuff",
+          "Take the reading on the leg instead",
+          "Tell the patient he has high blood pressure"
+        ],
+        "answer": 1,
+        "explanation": "A cuff that is too small produces a falsely high reading, so the PCT should remeasure with a properly sized cuff. Telling the patient a diagnosis is outside the PCT role."
+      },
+      {
+        "stem": "An adult's resting pulse is 52 beats per minute. How should this be described?",
+        "choices": [
+          "Tachycardia",
+          "Normal",
+          "Bradycardia",
+          "Arrhythmia"
+        ],
+        "answer": 2,
+        "explanation": "A resting adult pulse below 60 is bradycardia. Arrhythmia refers to an irregular rhythm, which a rate alone does not show."
+      },
+      {
+        "stem": "Why should a PCT count respirations while appearing to still check the pulse?",
+        "choices": [
+          "Respirations are easier to count with a hand on the wrist",
+          "Patients may change their breathing if they know it is being counted",
+          "It allows the PCT to finish in 15 seconds",
+          "Pulse and respirations are always equal"
+        ],
+        "answer": 1,
+        "explanation": "Awareness of observation alters breathing rate, so counting discreetly gives an accurate value. Shortening counting time is not the purpose and can reduce accuracy."
+      },
+      {
+        "stem": "Where is the V4 electrode placed for a 12-lead ECG?",
+        "choices": [
+          "Fourth intercostal space, left sternal border",
+          "Fifth intercostal space, midclavicular line",
+          "Fifth intercostal space, midaxillary line",
+          "Second intercostal space, right sternal border"
+        ],
+        "answer": 1,
+        "explanation": "V4 goes in the fifth intercostal space at the midclavicular line. The fourth intercostal space at the left sternal border is V2."
+      },
+      {
+        "stem": "A pulse oximeter reads 88 percent on a patient whose fingers are cold. What should the PCT do?",
+        "choices": [
+          "Ignore it because cold fingers cause errors",
+          "Remove the probe and document 95 percent",
+          "Warm or reposition the probe, recheck, and report the reading to the nurse",
+          "Apply oxygen at the highest flow"
+        ],
+        "answer": 2,
+        "explanation": "Cold fingers can lower readings, but a low value must still be rechecked and reported. Starting or adjusting oxygen is a nursing or provider decision, not a PCT action."
+      },
+      {
+        "stem": "During an ECG, the tracing shows irregular, jagged baseline interference while the patient is shivering. What is the most likely cause?",
+        "choices": [
+          "A heart attack",
+          "Somatic tremor artifact",
+          "Reversed limb leads",
+          "Low battery"
+        ],
+        "answer": 1,
+        "explanation": "Shivering creates muscle tremor artifact. Warming the patient and asking them to relax usually improves the tracing; reversed limb leads cause abnormal wave directions, not jagged interference."
+      },
+      {
+        "stem": "How many electrodes are used for a standard 12-lead ECG?",
+        "choices": [
+          "12",
+          "6",
+          "10",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "A 12-lead ECG uses 10 electrodes (4 limb, 6 chest); the 12 'leads' are views calculated from them. Choosing 12 confuses leads with electrodes."
+      },
+      {
+        "stem": "Which position gives the most accurate seated blood pressure?",
+        "choices": [
+          "Legs crossed and arm hanging at the side",
+          "Feet flat, back supported, arm supported at heart level",
+          "Standing with arm raised above the head",
+          "Lying with arm below the bed level"
+        ],
+        "answer": 1,
+        "explanation": "Back support, uncrossed legs and an arm at heart level reduce error. An arm hanging below heart level falsely raises the reading."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Bradycardia",
+        "definition": "A resting adult heart rate below 60 beats per minute."
+      },
+      {
+        "term": "Tachycardia",
+        "definition": "A resting adult heart rate above 100 beats per minute."
+      },
+      {
+        "term": "12-lead ECG",
+        "definition": "A recording of the heart's electrical activity from 12 views using 10 electrodes, 4 on the limbs and 6 on the chest."
+      },
+      {
+        "term": "Artifact",
+        "definition": "Interference on an ECG tracing from movement, shivering, loose electrodes or electrical equipment rather than the heart."
+      },
+      {
+        "term": "SpO2",
+        "definition": "Oxygen saturation measured by pulse oximetry, generally 95 percent or higher on room air in healthy adults."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Shock, hemorrhage control, and mass-casualty triage",
+    "objective": "Recognize the stages of shock, select appropriate bleeding-control techniques, and prioritize multiple patients using START triage.",
+    "body": "Advanced EMT scenarios combine several skills under pressure: a patient who is bleeding, slipping into shock, and sometimes one of many victims. Success depends on recognizing problems early and acting in the right order.\n\n**Shock.** **Shock**, or hypoperfusion, is inadequate delivery of oxygenated blood to the tissues. Common types include **hypovolemic** (blood or fluid loss), **cardiogenic** (pump failure), **distributive** (widespread vessel dilation, as in anaphylaxis, sepsis or spinal injury) and **obstructive** (blocked blood flow, as in tension pneumothorax). In **compensated shock**, the body maintains blood pressure by increasing the heart rate and constricting vessels, producing anxiety or restlessness, pale, cool, clammy skin and a rapid pulse. In **decompensated shock**, those mechanisms fail and blood pressure falls. Because a dropping blood pressure is a late sign, EMTs treat shock based on early signs. Care includes controlling bleeding, maintaining the airway, giving oxygen when indicated, keeping the patient warm and providing rapid transport.\n\n**Hemorrhage control.** For external bleeding the first step is firm **direct pressure**, ideally with a dressing. If pressure does not control life-threatening bleeding from an arm or leg, a **tourniquet** is applied high and tight, or 2 to 3 inches above the wound, and tightened until bleeding stops; the application time is recorded and the tourniquet is not loosened in the field. For junctional wounds such as the groin or armpit, where a tourniquet cannot be placed, the wound is **packed** with gauze, preferably hemostatic, followed by direct pressure. Elevation and pressure points are no longer emphasized because evidence for them is weak.\n\n**Mass-casualty triage.** When patients outnumber rescuers, **START triage** (Simple Triage and Rapid Treatment) sorts adults quickly:\n1. Anyone who can walk is tagged **green** (minor).\n2. A patient not breathing after the airway is opened is **black** (deceased or expectant); one who begins breathing is **red**.\n3. Respirations over 30 per minute: **red** (immediate).\n4. Absent radial pulse or capillary refill over 2 seconds: **red**.\n5. Unable to follow simple commands: **red**.\n6. Otherwise: **yellow** (delayed).\n\nDuring triage, rescuers only open airways and control major bleeding; full care waits. **JumpSTART** adapts the process for children, including a short trial of rescue breaths for a child who is not breathing but has a pulse.\n\nThe most common mistake students make is waiting for low blood pressure before treating for shock. Restlessness, a rising heart rate and cool, pale skin appear first, and a test question describing those signs with a normal blood pressure is describing compensated shock that needs immediate care.",
+    "examples": [
+      "A woodworker with a deep forearm laceration keeps bleeding through direct pressure, so the EMT applies a tourniquet above the wound and writes the time on it.",
+      "At a bus crash, a passenger walking toward the EMT is tagged green, while a passenger breathing 36 times per minute is tagged red.",
+      "A runner stung by a bee develops hives, wheezing and low blood pressure, an example of distributive shock from anaphylaxis."
+    ],
+    "questions": [
+      {
+        "stem": "A patient with a femur fracture is anxious, has a pulse of 118 and pale, cool skin, but his blood pressure is normal. What is the most accurate assessment?",
+        "choices": [
+          "He is not in shock because his blood pressure is normal",
+          "He is in decompensated shock",
+          "He is in compensated shock",
+          "He is having an anxiety attack"
+        ],
+        "answer": 2,
+        "explanation": "Tachycardia, anxiety and cool, pale skin with a normal blood pressure indicate compensated shock. Saying he is not in shock is the main distractor; falling blood pressure is a late sign."
+      },
+      {
+        "stem": "Direct pressure fails to stop bright red bleeding from a lower-leg wound. What is the next step?",
+        "choices": [
+          "Apply a tourniquet above the wound",
+          "Elevate the leg and wait",
+          "Apply pressure to the femoral pressure point",
+          "Remove the soaked dressing and start over"
+        ],
+        "answer": 0,
+        "explanation": "A tourniquet is indicated when direct pressure fails on extremity bleeding. Pressure points are no longer recommended because evidence does not support them."
+      },
+      {
+        "stem": "After applying a tourniquet, what should the EMT do?",
+        "choices": [
+          "Loosen it every 10 minutes",
+          "Cover it so the hospital cannot see it",
+          "Remove it once bleeding stops",
+          "Record the time of application"
+        ],
+        "answer": 3,
+        "explanation": "Documenting the time is essential for hospital care. Loosening it periodically is the main distractor; it allows renewed blood loss."
+      },
+      {
+        "stem": "A shooting victim has heavy bleeding from the groin, where a tourniquet cannot be placed. What is the best technique?",
+        "choices": [
+          "Elevate both legs",
+          "Pack the wound with gauze and hold pressure",
+          "Apply a cold pack",
+          "Place a loose dressing and transport"
+        ],
+        "answer": 1,
+        "explanation": "Junctional wounds are controlled by packing with gauze, preferably hemostatic, plus direct pressure. A loose dressing would not stop major bleeding."
+      },
+      {
+        "stem": "During START triage, an adult is breathing 34 times per minute. Which tag is assigned?",
+        "choices": [
+          "Red",
+          "Yellow",
+          "Green",
+          "Black"
+        ],
+        "answer": 0,
+        "explanation": "Respirations above 30 per minute make a patient red, or immediate. Yellow applies only when breathing, perfusion and mental status are all within START limits."
+      },
+      {
+        "stem": "At a mass-casualty incident, an adult is not breathing. You reposition the airway and he still does not breathe. How is he tagged?",
+        "choices": [
+          "Red",
+          "Yellow",
+          "Black",
+          "Green"
+        ],
+        "answer": 2,
+        "explanation": "No breathing after the airway is opened means black under START. Red would apply only if he began breathing after repositioning."
+      },
+      {
+        "stem": "A patient has a radial pulse, breathes 20 times per minute and follows commands but cannot walk because of a broken ankle. What is her START category?",
+        "choices": [
+          "Green",
+          "Red",
+          "Black",
+          "Yellow"
+        ],
+        "answer": 3,
+        "explanation": "She meets all START limits but cannot walk, so she is yellow. Green is only for those who can walk."
+      },
+      {
+        "stem": "Which type of shock results from widespread dilation of blood vessels, as in severe allergic reactions?",
+        "choices": [
+          "Hypovolemic",
+          "Distributive",
+          "Cardiogenic",
+          "Obstructive"
+        ],
+        "answer": 1,
+        "explanation": "Anaphylaxis causes distributive shock through vessel dilation. Hypovolemic shock is caused by fluid or blood loss, not dilation."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Shock (hypoperfusion)",
+        "definition": "Inadequate delivery of oxygenated blood to the body's tissues."
+      },
+      {
+        "term": "Compensated shock",
+        "definition": "Early shock in which the body maintains blood pressure through a faster heart rate and vessel constriction."
+      },
+      {
+        "term": "Tourniquet",
+        "definition": "Band applied above an extremity wound and tightened to stop life-threatening bleeding when direct pressure fails."
+      },
+      {
+        "term": "START triage",
+        "definition": "Simple Triage and Rapid Treatment; sorts adult patients by walking ability, breathing, perfusion and mental status."
+      },
+      {
+        "term": "Distributive shock",
+        "definition": "Shock caused by widespread blood vessel dilation, as in anaphylaxis, sepsis or spinal injury."
+      }
+    ]
+  }
+]

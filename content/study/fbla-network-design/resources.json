@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Introduction to Computer Science: Network Design Application of Algorithms",
+    "url": "https://openstax.org/books/introduction-computer-science/pages/a-appendix-a-network-design-application-of-algorithms",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Textbook appendix on routing, bandwidth, latency, TCP/IP and packet switching in network design."
+  },
+  {
+    "title": "Computers and the Internet: The Internet",
+    "url": "https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Lessons on network topologies, IP addressing, DNS and routing with redundancy."
+  },
+  {
+    "title": "Cybersecurity Basics",
+    "url": "https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics",
+    "publisher": "NIST",
+    "kind": "reference",
+    "note": "NIST security basics to address in a network design, from access control to backups."
+  }
+]

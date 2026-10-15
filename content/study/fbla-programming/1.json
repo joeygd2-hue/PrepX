@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Variables, data types, and control flow fundamentals",
+    "objective": "Identify data types, trace variable assignments, and predict the output of conditionals and loops in short programs.",
+    "body": "Every program, no matter how large, is built from a few core ideas: storing data, making decisions, and repeating work. If you can trace those three by hand, you can read almost any code a judge or test puts in front of you.\n\n**Variables and data types.** A **variable** is a named storage location that holds a value, and assignment (such as `score = 10`) replaces whatever was stored before. Every value has a **data type** that determines what operations make sense.\n- **Integer**: whole numbers such as 42 or -7.\n- **Float**: numbers with a decimal part, such as 3.14.\n- **String**: text such as \"FBLA\", stored as a sequence of characters.\n- **Boolean**: exactly two values, true or false.\n\nType matters. Adding two integers gives a sum, but joining the strings \"4\" and \"2\" gives \"42\". Many languages also perform **integer division** when both operands are integers, so 7 / 2 can produce 3 in Java or C++, while Python's `/` produces 3.5 and its `//` produces 3. The **modulus** operator (%) returns the remainder, so 17 % 5 is 2, which makes it the standard tool for checking whether a number is even.\n\n**Conditionals.** An **if statement** runs a block only when its condition is true; `else if` and `else` branches handle the remaining cases. Conditions are checked from top to bottom and only the first true branch runs, so order matters. Boolean operators combine conditions: AND is true only when both sides are true, OR is true when at least one side is true, and NOT flips a value.\n\n**Loops.** A **loop** repeats a block of code.\n1. A **for loop** is best when you know how many times to repeat, such as visiting every item in a list.\n2. A **while loop** repeats as long as its condition stays true, which suits situations like asking for input until it is valid.\n\nEvery while loop needs something inside it that eventually makes the condition false; otherwise you create an **infinite loop**. When tracing a loop, keep a small table with one column per variable and one row per pass. This habit turns confusing code into straightforward bookkeeping and catches errors that reading alone misses.\n\n**Putting it together.** A grade calculator might store a score in an integer variable, loop through a list of assignments to total the points, and use an if / else if chain to assign a letter. Each piece is simple; the skill is following them in the exact order the computer does.\n\nThe most common mistake students make is the **off-by-one error**: miscounting how many times a loop runs. In most languages, ranges and indexes start at 0 and the end value is excluded, so a loop over range(5) runs for 0 through 4, five times in total, never reaching 5.",
+    "examples": [
+      "A loop that runs `for i in range(1, 4): total = total + i`, starting from total = 0, ends with total equal to 6 because it adds 1, 2 and 3.",
+      "A school store app uses `if quantity % 2 == 0` to apply a buy-one-get-one deal only when a student orders an even number of items.",
+      "In Java, `int avg = 7 / 2;` stores 3, not 3.5, because both operands are integers and the decimal part is discarded."
+    ],
+    "questions": [
+      {
+        "stem": "A student writes x = 5, then y = x, then x = 9. What is the value of y?",
+        "choices": [
+          "9",
+          "5",
+          "14",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "Assignment copies the value 5 into y at that moment; changing x afterward does not change y. Choosing 9 assumes y stays linked to x, which is not how assignment of a simple number works."
+      },
+      {
+        "stem": "A club app must store whether a member has paid dues. Which data type fits best?",
+        "choices": [
+          "String",
+          "Float",
+          "Boolean",
+          "Integer"
+        ],
+        "answer": 2,
+        "explanation": "Paid or not paid is a yes/no fact, which is exactly what a Boolean stores. A string such as \"yes\" would work but invites typos and comparison errors."
+      },
+      {
+        "stem": "What does 23 % 6 evaluate to?",
+        "choices": [
+          "3",
+          "5",
+          "3.83",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "23 divided by 6 is 3 with a remainder of 5, and % returns the remainder. Answering 3 confuses modulus with integer division."
+      },
+      {
+        "stem": "Code checks: if score >= 90 print A, else if score >= 80 print B, else print C. What prints for a score of 95?",
+        "choices": [
+          "A only",
+          "A and B",
+          "B only",
+          "C"
+        ],
+        "answer": 0,
+        "explanation": "Only the first true branch in an if / else if chain runs, so A prints and the rest are skipped. A and B would print only if they were separate if statements."
+      },
+      {
+        "stem": "A while loop is written as: count = 1; while count < 5: print(count). The program never stops. What is the most likely cause?",
+        "choices": [
+          "The condition should use <=",
+          "count is never changed inside the loop",
+          "print cannot be used in a loop",
+          "count should start at 0"
+        ],
+        "answer": 1,
+        "explanation": "Nothing inside the loop changes count, so count < 5 stays true forever, creating an infinite loop. Changing < to <= would still loop forever because count still never changes."
+      },
+      {
+        "stem": "A program needs to ask the user for a password until they type the correct one. Which structure fits best?",
+        "choices": [
+          "A for loop over range(3)",
+          "A single if statement",
+          "A while loop",
+          "A list of passwords"
+        ],
+        "answer": 2,
+        "explanation": "The number of attempts is unknown in advance, so a while loop that repeats until the condition is met is the natural fit. A for loop over range(3) would stop after a fixed three tries."
+      },
+      {
+        "stem": "In Python, what is the result of \"7\" + \"3\"?",
+        "choices": [
+          "10",
+          "\"73\"",
+          "An error",
+          "\"10\""
+        ],
+        "answer": 1,
+        "explanation": "Using + on two strings joins them (concatenation), producing \"73\". Answering 10 treats the values as numbers, but the quotes make them strings."
+      },
+      {
+        "stem": "A loop runs for i in range(2, 10, 3). Which values does i take?",
+        "choices": [
+          "2, 5, 8",
+          "2, 5, 8, 11",
+          "3, 6, 9",
+          "2, 4, 6, 8"
+        ],
+        "answer": 0,
+        "explanation": "The range starts at 2, steps by 3, and stops before 10, giving 2, 5 and 8. Including 11 ignores that the stop value is exclusive and 11 is past it."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Variable",
+        "definition": "A named storage location that holds a value, which assignment can replace."
+      },
+      {
+        "term": "Boolean",
+        "definition": "A data type with exactly two values, true or false."
+      },
+      {
+        "term": "Modulus (%)",
+        "definition": "An operator that returns the remainder after division, such as 17 % 5 = 2."
+      },
+      {
+        "term": "Infinite loop",
+        "definition": "A loop whose condition never becomes false, so it never stops running."
+      },
+      {
+        "term": "Off-by-one error",
+        "definition": "A mistake where a loop or index runs one time too many or too few, often from forgetting indexes start at 0."
+      }
+    ]
+  }
+]

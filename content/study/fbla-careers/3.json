@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Interviews and workplace professionalism",
+    "objective": "Prepare for, perform in and follow up after a job interview, and show the professional behaviors employers expect on the job.",
+    "body": "The Job Interview event and every real hiring decision come down to whether you can show, in a short conversation, that you are prepared, capable and professional. Preparation is what separates confident, specific answers from rambling ones.\n\n**Before the interview.** Research the organization's products or services, mission and recent news, and reread the job description so you can link your experience to its requirements. Prepare short stories for common questions, plus two or three thoughtful questions of your own about the role, training or team. Plan to arrive 10 to 15 minutes early, dressed a step more formally than the everyday dress at that workplace, with copies of your résumé.\n\n**Question types.**\n- *Traditional*: \"Tell me about yourself\" or \"What is your greatest strength?\" Answer in about a minute, focused on qualifications for this job.\n- *Behavioral*: \"Tell me about a time you...\" Past behavior is used to predict future behavior.\n- *Situational*: \"What would you do if...\" You explain how you would handle a hypothetical problem.\n\n**The STAR method.** Answer behavioral questions with **S**ituation (brief context), **T**ask (your responsibility), **A**ction (what *you* did, usually the longest part) and **R**esult (the outcome, measurable if possible, and what you learned). For a weakness question, name a real but non-critical weakness and the steps you are taking to improve.\n\n**During the interview.** Greet the interviewer by name, make eye contact, sit up straight and listen to the whole question before answering. Avoid filler words and negative comments about past employers or teachers. U.S. law bars employers from making hiring decisions based on protected characteristics such as religion, national origin, disability, pregnancy or age (for workers 40 and older). If you are asked an improper personal question, you may politely redirect to your ability to do the job.\n\n**After the interview.** Send a brief thank-you email or note within 24 hours that thanks the interviewer by name, restates your interest and mentions something specific from the conversation. If you receive an offer, review pay, schedule and duties before accepting.\n\n**Workplace professionalism.** Employers consistently rank dependability, punctuality, a positive attitude, teamwork, communication and willingness to learn among the most valued qualities. Follow policies, protect confidential information and keep your online presence appropriate.\n\n**Common mistake:** answering a behavioral question with a hypothetical. When asked \"Tell me about a time...,\" describe a real past event, not what you *would* do.",
+    "examples": [
+      "STAR answer: \"Our group's slideshow was due in two days and one member was sick (Situation). I was the project lead (Task). I redivided the slides, set a check-in for the next evening and built the missing charts myself (Action). We submitted on time and earned a 94 (Result).\"",
+      "Thank-you email: \"Thank you for meeting with me today about the sales associate role. I especially enjoyed hearing about your new-hire mentoring program, and I am excited about the chance to join your team.\"",
+      "Asked \"Where do you see yourself in five years?\", a candidate links the answer to the role: building customer service skills here, earning a management certificate and leading a team."
+    ],
+    "questions": [
+      {
+        "stem": "An interviewer says, \"Tell me about a time you had to meet a tight deadline.\" What type of question is this?",
+        "choices": ["Situational", "Behavioral", "Traditional", "Technical"],
+        "answer": 1,
+        "explanation": "Behavioral questions ask about real past experiences to predict future performance. Situational questions ask what you would do in a hypothetical case."
+      },
+      {
+        "stem": "In a STAR interview answer, which part should usually receive the most detail?",
+        "choices": ["Situation", "Task", "Result", "Action"],
+        "answer": 3,
+        "explanation": "The Action step shows the specific steps you personally took, which is what the interviewer is evaluating. The situation and task should be brief context."
+      },
+      {
+        "stem": "An interviewer asks, \"What would you do if a customer demanded a refund that violated store policy?\" What type of question is this?",
+        "choices": ["Situational", "Behavioral", "Traditional", "Closed-ended"],
+        "answer": 0,
+        "explanation": "Asking how you would handle a hypothetical problem makes it situational. A behavioral question would ask about a time it actually happened."
+      },
+      {
+        "stem": "When is the best time to send a thank-you message after a job interview?",
+        "choices": ["Only after the company makes an offer", "About a month later, to show patience", "Within 24 hours, mentioning something specific from the conversation", "Never, because follow-up can seem pushy"],
+        "answer": 2,
+        "explanation": "A prompt, specific thank-you shows courtesy and keeps you memorable while decisions are being made. Waiting weeks misses that window."
+      },
+      {
+        "stem": "Asked \"What is your greatest weakness?\", which answer is strongest?",
+        "choices": ["I'm a perfectionist who works too hard.", "I used to hesitate to speak up in groups, so I volunteered to lead club meetings and now share ideas confidently.", "I don't really have any weaknesses.", "I'm often late, but it has never been a big deal."],
+        "answer": 1,
+        "explanation": "It names a genuine, non-critical weakness and shows concrete steps to improve. Claiming no weaknesses or disguising a strength sounds rehearsed, and lateness is a critical flaw."
+      },
+      {
+        "stem": "An interviewer asks a candidate, \"Are you planning to have children soon?\" What is a professional way to respond?",
+        "choices": ["Share detailed family plans to seem friendly", "Leave the interview immediately without a word", "Ask the interviewer the same question in return", "Politely redirect: \"I'm fully committed to meeting the schedule this role requires.\""],
+        "answer": 3,
+        "explanation": "Family plans are not a lawful basis for hiring, so a calm redirect to job-related ability keeps the interview professional. The candidate may also note the question for later follow-up."
+      },
+      {
+        "stem": "Which question is best for a candidate to ask at the end of an interview?",
+        "choices": ["What does success look like for someone in this role in the first 90 days?", "How soon can I take vacation?", "What does this company do?", "How strict are you about arriving on time?"],
+        "answer": 0,
+        "explanation": "It shows interest in performing well and helps the candidate understand expectations. Asking what the company does reveals a lack of research."
+      },
+      {
+        "stem": "A new employee finishes her assigned tasks two hours before her shift ends. Which action best shows workplace professionalism?",
+        "choices": ["Leave early without telling anyone", "Ask her supervisor whether there is another task she can help with", "Browse personal social media at her desk until the shift ends", "Start redoing a coworker's project without asking"],
+        "answer": 1,
+        "explanation": "Checking in with the supervisor shows initiative, dependability and respect for the chain of command. Acting on a coworker's work without asking can cause conflict."
+      }
+    ],
+    "flashcards": [
+      { "term": "STAR method", "definition": "A way to answer behavioral questions by describing the Situation, Task, Action taken and Result." },
+      { "term": "Behavioral question", "definition": "An interview question about a real past experience, often starting with \"Tell me about a time...\"" },
+      { "term": "Situational question", "definition": "An interview question that asks how you would handle a hypothetical workplace problem." },
+      { "term": "Thank-you follow-up", "definition": "A brief message sent within a day of an interview that thanks the interviewer and restates interest." },
+      { "term": "Dependability", "definition": "Reliably showing up on time, meeting commitments and completing work without constant supervision." }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Competitive Events, Awards, and Strategic Preparation",
+    "objective": "Develop a preparation strategy for FBLA competitive events by analyzing event formats, award structures, and the skills that distinguish top performers.",
+    "body": "Competing in FBLA is the moment where chapter learning transforms into measurable achievement. The **competitive events program** covers more than 70 distinct events spanning individual, team, and chapter categories — from objective tests to presentations, from case studies to performance events. Understanding how the system works is itself a testable competency in Introduction to FBLA.\n\nEvents are organized into several **categories**:\n- **Objective tests**: timed multiple-choice exams covering a defined topic outline (e.g., Introduction to FBLA, Business Calculations)\n- **Production events**: tasks requiring a finished work product such as a spreadsheet or document\n- **Performance events**: judged presentations, role plays, or interviews conducted before a panel\n- **Chapter events**: assessed at the chapter level based on submitted reports and community impact\n\nThe **competitive pathway** moves from local → state → national. To advance, competitors must typically place in the top tier at the state level. At the **National Leadership Conference (NLC)**, only the top qualifiers from each state compete, making state performance the primary filter. National placements are awarded as **1st, 2nd, 3rd place** and a series of **top-ten** recognitions.\n\nFBLA also maintains a formal **awards program** independent of competitions. The **Business Achievement Awards (BAA)** offer a tiered progression — **Contributor**, **Leader**, **Advocate**, and **Capstone** levels — each requiring members to complete increasingly rigorous activities in leadership, business knowledge, and community service. These awards are submitted and verified through the national online system.\n\nHigh scorers on objective tests do not simply memorize facts — they develop **conceptual fluency**, meaning they can apply knowledge to novel scenarios. For Introduction to FBLA specifically, the topic outline published by the national office defines exactly what content is fair game. **Studying the topic outline first** prevents wasted effort on out-of-scope content.\n\nEffective preparation involves three phases. In the **acquisition phase**, students read content sources, build flashcards, and map key terms. In the **application phase**, students work through practice questions, especially scenario-based stems that require reasoning rather than recall. In the **simulation phase**, students take timed mock tests under realistic conditions to build pacing and reduce test anxiety.\n\nUnderstanding the **scoring and tie-breaking rules** also matters: most objective tests are scored by number correct, and ties are broken using the procedure stated in the official event guidelines, so read those rules before you compete. Arriving early, reading directions carefully, and flagging uncertain questions for review are habits that separate top finishers from the rest.",
+    "examples": [
+      "A student studying for Introduction to FBLA downloads the official topic outline from the national website and discovers that 'chapter operations' is explicitly listed — she prioritizes that section in her study schedule over general business trivia.",
+      "Two competitors both answer 47 of 60 questions correctly on an objective test; the tie is resolved using the tie-breaking procedure in the official event guidelines, which is why top competitors read those rules before conference.",
+      "A junior who earned the Contributor and Leader levels of the Business Achievement Awards as a sophomore is now working on the Advocate level, completing its required activities before the national deadline."
+    ],
+    "questions": [
+      {
+        "stem": "A student places second at her state leadership conference in an objective test event. What is her next competitive step?",
+        "choices": [
+          "She automatically receives a national award",
+          "She advances to compete at the National Leadership Conference",
+          "She must re-qualify at the regional level first",
+          "She is ineligible to compete again until next year"
+        ],
+        "answer": 1,
+        "explanation": "Placing in the top tier at state qualifies a competitor for the NLC; there is no regional re-qualification step between state and nationals in the standard pathway."
+      },
+      {
+        "stem": "Which award program rewards members for completing a structured progression of leadership, service, and business activities outside of competitive events?",
+        "choices": [
+          "NLC Top-Ten Recognition",
+          "A competitive event medal",
+          "FBLA-PBL Business Achievement Awards",
+          "State Chapter of Excellence Award"
+        ],
+        "answer": 2,
+        "explanation": "The Business Achievement Awards (Contributor through Capstone levels) are the structured progression program; medals and NLC top-ten placements are competitive event results, not a progression of activities."
+      },
+      {
+        "stem": "A competitor is unsure whether a specific topic will appear on the Introduction to FBLA exam. What is the BEST first resource to consult?",
+        "choices": [
+          "A former competitor's personal notes",
+          "The official national topic outline published by FBLA",
+          "A general business textbook",
+          "The state association newsletter"
+        ],
+        "answer": 1,
+        "explanation": "The national topic outline defines exactly what is testable; personal notes and textbooks may be outdated or off-scope, and a state newsletter does not govern national event content."
+      },
+      {
+        "stem": "Two students tie on an Introduction to FBLA objective test. Where should they look to learn how the tie will be broken?",
+        "choices": [
+          "Their home school GPA records",
+          "Their length of FBLA membership",
+          "The official competitive event guidelines",
+          "Their community service logs"
+        ],
+        "answer": 2,
+        "explanation": "Tie-breaking procedures are set in the official competitive event guidelines; GPA, membership length and service hours are not factors in objective test scoring."
+      },
+      {
+        "stem": "A chapter is preparing a submitted report for a chapter competitive event. This type of event is best categorized as which format?",
+        "choices": [
+          "Objective test",
+          "Performance event",
+          "Production event",
+          "Chapter event"
+        ],
+        "answer": 3,
+        "explanation": "Chapter events are assessed at the chapter level through submitted reports documenting activities and impact; performance events involve live judged presentations by individuals or teams."
+      },
+      {
+        "stem": "During the application phase of preparation, a student should primarily focus on which activity?",
+        "choices": [
+          "Building a new set of flashcards for every chapter",
+          "Reading the FBLA history section repeatedly",
+          "Working through scenario-based practice questions",
+          "Watching recordings of past NLC opening ceremonies"
+        ],
+        "answer": 2,
+        "explanation": "The application phase is defined by active problem-solving with practice questions, especially scenario-based ones; flashcard building belongs to the acquisition phase."
+      },
+      {
+        "stem": "A first-time competitor finishes her objective test with 15 minutes remaining, reviews her work and changes three answers she now has a clear reason to believe are wrong. Research on test-taking strategy suggests this habit most likely:",
+        "choices": [
+          "Improves her score, because reasoned answer changes more often go from wrong to right",
+          "Has no effect since all questions carry equal weight",
+          "Reduces her score because first instincts are always more reliable",
+          "Disqualifies her for exceeding the review time limit"
+        ],
+        "answer": 0,
+        "explanation": "Studies of answer changing consistently find that more changes go from wrong to right than from right to wrong, so 'always trust your first instinct' is a myth; reviewing and changing an answer for a clear reason tends to help. There is no 'review time limit' rule in FBLA events."
+      },
+      {
+        "stem": "A student wants to earn the highest tier of the FBLA Business Achievement Awards. Which level must she complete LAST?",
+        "choices": [
+          "Contributor",
+          "Leader",
+          "Advocate",
+          "Capstone"
+        ],
+        "answer": 3,
+        "explanation": "The four tiers progress in order — Contributor, Leader, Advocate, Capstone — making Capstone the final and most rigorous tier."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Performance events",
+        "definition": "Competitive events judged live by a panel, such as presentations, role plays and interviews."
+      },
+      {
+        "term": "Business Achievement Awards",
+        "definition": "A tiered FBLA recognition program with Contributor, Leader, Advocate, and Capstone levels that rewards members for completing structured activities in leadership, business knowledge, and service."
+      },
+      {
+        "term": "Objective test",
+        "definition": "A timed multiple-choice competitive event format covering a defined topic outline, scored by number of correct answers with ties broken according to the official event guidelines."
+      },
+      {
+        "term": "Topic outline",
+        "definition": "The official document published by the national FBLA organization that specifies every content area eligible to appear on a given competitive event exam."
+      },
+      {
+        "term": "Competitive pathway",
+        "definition": "The progression from local chapter activities through state leadership conference qualifiers to the National Leadership Conference that governs how FBLA competitors advance."
+      }
+    ]
+  }
+]

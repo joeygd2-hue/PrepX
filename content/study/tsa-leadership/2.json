@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Arguments, evidence and debating technology issues",
+    "objective": "Build an evidence-based argument on a technology issue, weigh impacts and refute an opponent's points.",
+    "body": "Debating Technological Issues asks teams to argue one side of a current question about technology, such as data privacy, automation or artificial intelligence, and you should be ready to argue either side. Judges reward clear arguments backed by credible evidence, direct responses to the other team and professional conduct. Volume and confidence alone do not win rounds.\n\n**Build arguments in three parts.** A strong argument has a *claim* (what you assert), *evidence* (data, examples or expert findings) and a *warrant*, the reasoning that explains why the evidence proves the claim. Many weak arguments skip the warrant and expect the judge to connect the dots.\n\n**Research both sides.** Build a file of evidence for and against the resolution. For each source, note who published it, when, and what qualifies them. Prefer peer-reviewed studies, government data and recognized experts over anonymous posts, and check dates, since technology changes quickly.\n\n**Weigh impacts.** Judges decide between competing harms and benefits, so tell them how to compare. Explain *magnitude* (how big), *probability* (how likely), *timeframe* (how soon) and who is affected. A likely harm to millions of people this year outweighs a vague, possible benefit someday.\n\n**Refute directly.** Use a four-step pattern: restate the opponent's point ('They said...'), give your answer ('But...'), support it with evidence or reasoning ('Because...') and explain why it matters ('Therefore...'). Answering their strongest argument beats picking off their weakest.\n\n**Spot fallacies.**\n- *Ad hominem:* attacking the person instead of the argument.\n- *Straw man:* distorting a position so it is easier to attack.\n- *Slippery slope:* claiming one step will inevitably lead to extreme results without showing the links.\n- *False dilemma:* presenting only two options when more exist.\n- *Hasty generalization:* drawing a broad conclusion from too few examples.\n- *Correlation as causation:* assuming that because two things occur together, one causes the other.\n\n**Stay professional.** Speak to the judges, keep a respectful tone, cite sources clearly and use your full speaking time.\n\nA common mistake is reading prepared evidence without responding to what the other team actually said. Listen, take notes in columns that match their points (a *flow*), and answer each one in order.",
+    "examples": [
+      "Claim: middle schools should teach coding. Evidence: a state labor report projects strong growth in software jobs. Warrant: early exposure gives students years to build the skills those jobs require.",
+      "An opponent says self-driving cars will end traffic deaths. Rebuttal: 'They said crashes will disappear. But testing reports show the software still struggles in snow and construction zones. Therefore, the safety benefit is real but smaller than they claim.'",
+      "A team notices that cities with more electric-scooter rentals also have more coffee shops. Concluding that scooters cause coffee shops to open confuses correlation with causation; both probably reflect busy downtown areas."
+    ],
+    "questions": [
+      {
+        "stem": "Which part of an argument explains why the evidence supports the claim?",
+        "choices": [
+          "The citation",
+          "The claim",
+          "The rebuttal",
+          "The warrant"
+        ],
+        "answer": 3,
+        "explanation": "The warrant is the reasoning that connects evidence to the claim. The claim is the assertion itself, and the citation only identifies the source."
+      },
+      {
+        "stem": "In a debate on facial recognition, a speaker says, 'My opponent's argument doesn't matter; he doesn't even own a smartphone.' Which fallacy is this?",
+        "choices": [
+          "Ad hominem",
+          "Straw man",
+          "False dilemma",
+          "Hasty generalization"
+        ],
+        "answer": 0,
+        "explanation": "The speaker attacks the opponent personally instead of answering the argument, which is ad hominem."
+      },
+      {
+        "stem": "One team argues for limits on how long apps may store users' location data. The other team responds, 'They want to ban all location services, so nobody could use maps.' Which fallacy is this?",
+        "choices": [
+          "Ad hominem",
+          "Straw man",
+          "Hasty generalization",
+          "False dilemma"
+        ],
+        "answer": 1,
+        "explanation": "The response distorts a limit on data storage into a total ban, an easier position to attack. That is a straw man."
+      },
+      {
+        "stem": "A debater says, 'If the school allows AI tools for brainstorming, students will soon stop writing entirely, and then nobody will be able to read.' What is the main weakness of this argument?",
+        "choices": [
+          "It attacks the character of the person who proposed the policy",
+          "It turns the opponent's position into a weaker version of itself",
+          "It predicts extreme results without showing how each step follows",
+          "It draws a conclusion from a single statistic"
+        ],
+        "answer": 2,
+        "explanation": "This is a slippery slope: it chains together increasingly extreme outcomes without evidence that one step leads to the next."
+      },
+      {
+        "stem": "Which source would be the most credible evidence about the share of rural households with broadband internet?",
+        "choices": [
+          "A recent federal agency report that explains its data methods",
+          "An anonymous post on a discussion forum",
+          "An internet provider's ad claiming its service reaches everyone",
+          "A comment under a video from a viewer who works in tech"
+        ],
+        "answer": 0,
+        "explanation": "A current government report with stated methods is authoritative, dated and checkable. The others are anonymous, self-interested or unverifiable."
+      },
+      {
+        "stem": "Team A argues a policy will likely prevent a data breach affecting 2 million users next year. Team B argues the policy might slightly slow app updates at some point. Using impact weighing, why is Team A's impact larger?",
+        "choices": [
+          "Team A presented its impact first in the round",
+          "Team A's impact is bigger, more probable and sooner",
+          "Team A used more technical vocabulary",
+          "Team A delivered its speech with more confidence"
+        ],
+        "answer": 1,
+        "explanation": "Impact weighing compares magnitude, probability and timeframe. Team A's harm is larger, more likely and nearer; speaking order and delivery style do not decide impact."
+      },
+      {
+        "stem": "Your opponent claims a school-wide app ban will improve grades. What is the best way to respond?",
+        "choices": [
+          "Ignore the claim and read your next prepared argument",
+          "Point out that the opponent seems nervous",
+          "Repeat your own first argument more forcefully",
+          "Restate their point, answer it, support your answer and explain why it matters"
+        ],
+        "answer": 3,
+        "explanation": "Direct refutation addresses the opponent's actual claim with reasoning or evidence and shows the judge why it changes the round. Ignoring it concedes the point."
+      },
+      {
+        "stem": "A student finds that schools with more 3D printers have higher average test scores and concludes that 3D printers raise scores. What is the flaw?",
+        "choices": [
+          "The conclusion attacks the people who collected the data",
+          "The argument offers only two possible options",
+          "Correlation does not prove causation; better-funded schools may have both",
+          "The sample of schools is too large to be useful"
+        ],
+        "answer": 2,
+        "explanation": "Two things rising together does not show one causes the other. A third factor, such as school funding, could explain both."
+      }
+    ],
+    "flashcards": [
+      { "term": "Warrant", "definition": "The reasoning that explains why a piece of evidence proves the claim it supports." },
+      { "term": "Impact weighing", "definition": "Comparing arguments by magnitude, probability, timeframe and who is affected to show which matters more." },
+      { "term": "Straw man", "definition": "A fallacy that misrepresents an opponent's position as something weaker or more extreme so it is easier to attack." },
+      { "term": "Ad hominem", "definition": "A fallacy that attacks the person making an argument instead of the argument itself." },
+      { "term": "False dilemma", "definition": "A fallacy that presents only two choices when other reasonable options exist." }
+    ]
+  }
+]

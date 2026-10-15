@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Analyzing health policy, ethics, and evidence",
+    "objective": "Evaluate a healthcare issue using ethical principles, assess the strength of evidence, and construct a balanced policy recommendation with stakeholders and trade-offs.",
+    "body": "Advanced Healthcare Issues work asks you to do more than recall facts: you must weigh competing values, judge evidence and defend a position the way a policy analyst would.\n\n**The four principles of biomedical ethics** give a shared vocabulary.\n- **Autonomy**: respecting a capable person's right to make informed decisions about their own care, which is the basis of informed consent.\n- **Beneficence**: acting to benefit the patient or public.\n- **Nonmaleficence**: avoiding harm, often summarized as \"first, do no harm.\"\n- **Justice**: distributing benefits, risks and resources fairly.\n\nReal issues place these principles in tension. Mandatory vaccination policies for healthcare workers pit individual autonomy against beneficence and nonmaleficence toward vulnerable patients. Allocating scarce organs raises justice questions about who receives them first.\n\n**Privacy and law.** **HIPAA** protects identifiable health information held by covered entities such as providers and insurers, and gives patients the right to access their records. It does not cover all health data; information a person enters into many consumer fitness apps falls outside HIPAA, which is a growing policy debate.\n\n**Judging evidence.** Not all sources deserve equal weight. A rough hierarchy, strongest first:\n1. Systematic reviews and meta-analyses of randomized trials\n2. **Randomized controlled trials (RCTs)**, which randomly assign participants to reduce bias\n3. Cohort and case-control studies, which are observational\n4. Case reports and expert opinion\n\nObservational studies can show **correlation**, but confounding variables may explain the link, so they rarely prove **causation** alone. Also check who funded a study, sample size, and whether results were peer-reviewed.\n\n**Building a recommendation.** A strong analysis follows a sequence: define the problem with data, identify **stakeholders** (patients, providers, payers, government, industry), list at least two options, compare them on access, cost, quality and ethics, then recommend one and acknowledge its trade-offs. For example, telehealth expansion improves rural access and convenience, but it may widen the digital divide for patients without broadband and raises questions about payment parity and licensing across state lines.\n\nThe most common mistake students make is presenting only one side. Judges reward analyses that name the strongest counterargument and explain why the recommendation still holds, or how it would be adjusted to reduce harm to the group most affected.",
+    "examples": [
+      "A hospital requires staff influenza vaccination with medical and religious exemptions, balancing autonomy against nonmaleficence toward immunocompromised patients.",
+      "A news story links coffee drinking to longer life using a cohort study; an analyst notes that income and exercise could confound the result."
+    ],
+    "questions": [
+      {
+        "stem": "A competent adult patient refuses a recommended surgery after hearing the risks and benefits. The team respects the decision. Which principle is primarily honored?",
+        "choices": [
+          "Beneficence",
+          "Justice",
+          "Autonomy",
+          "Nonmaleficence"
+        ],
+        "answer": 2,
+        "explanation": "Respecting an informed, capable person's choice is autonomy. Beneficence would push toward the surgery's benefits, which is exactly the principle in tension here."
+      },
+      {
+        "stem": "A state must decide how to distribute a limited supply of a new treatment across regions. Which ethical principle is most central?",
+        "choices": [
+          "Justice",
+          "Autonomy",
+          "Fidelity",
+          "Veracity"
+        ],
+        "answer": 0,
+        "explanation": "Fair distribution of scarce resources is the core of justice. Autonomy concerns individual choice, not allocation across populations."
+      },
+      {
+        "stem": "A teen logs heart rate and sleep data in a free consumer fitness app not connected to any provider. Which statement about HIPAA is most accurate?",
+        "choices": [
+          "HIPAA fully protects all health-related data on phones",
+          "HIPAA applies only to paper records",
+          "HIPAA bans all fitness apps from collecting data",
+          "HIPAA generally does not cover this data because the app is not a covered entity"
+        ],
+        "answer": 3,
+        "explanation": "HIPAA applies to covered entities such as providers and insurers and their business associates. Claiming it covers all health data on phones is a common misconception."
+      },
+      {
+        "stem": "Which study design gives the strongest single-study evidence that a new school nutrition program causes lower BMI?",
+        "choices": [
+          "A case report about one student",
+          "A randomized controlled trial assigning schools to the program or not",
+          "A survey of parents' opinions",
+          "A cohort study observing schools that chose the program"
+        ],
+        "answer": 1,
+        "explanation": "Random assignment in an RCT reduces confounding, supporting causal claims. A cohort study is observational; schools that self-select may differ in other ways."
+      },
+      {
+        "stem": "An observational study finds that people who own dogs have lower blood pressure. What is the best critique?",
+        "choices": [
+          "Dog owners may be more active or wealthier, so confounding could explain the link",
+          "The study proves dogs lower blood pressure",
+          "Blood pressure cannot be measured in observational studies",
+          "The sample must have been too large"
+        ],
+        "answer": 0,
+        "explanation": "Confounders like activity level could explain the correlation. Claiming proof of causation overstates what observational evidence shows."
+      },
+      {
+        "stem": "A student proposes expanding telehealth to rural areas. Which concern best represents a trade-off a judge would expect the analysis to address?",
+        "choices": [
+          "Telehealth eliminates the need for any in-person care",
+          "Telehealth always costs more than in-person visits",
+          "Patients without reliable broadband may be left behind",
+          "Telehealth is illegal in all states"
+        ],
+        "answer": 2,
+        "explanation": "The digital divide is a real equity trade-off. Saying telehealth eliminates in-person care is an overstatement, not a balanced consideration."
+      },
+      {
+        "stem": "In a policy brief on drug pricing, which group is a stakeholder rather than an evaluation criterion?",
+        "choices": [
+          "Quality",
+          "Pharmaceutical manufacturers",
+          "Cost",
+          "Access"
+        ],
+        "answer": 1,
+        "explanation": "Manufacturers are a stakeholder affected by policy. Access, cost and quality are criteria used to compare options."
+      },
+      {
+        "stem": "A hospital policy requires staff flu vaccination but allows medical exemptions. Which pair of principles is it mainly balancing?",
+        "choices": [
+          "Justice and veracity",
+          "Beneficence and fidelity",
+          "Autonomy and nonmaleficence",
+          "Nonmaleficence and veracity"
+        ],
+        "answer": 2,
+        "explanation": "The mandate protects patients from harm (nonmaleficence) while exemptions respect some individual choice (autonomy). Veracity concerns truth-telling, which is not at issue."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Autonomy",
+        "definition": "The ethical principle of respecting a capable person's right to make informed decisions about their own care."
+      },
+      {
+        "term": "Justice",
+        "definition": "The ethical principle of distributing health benefits, risks and resources fairly."
+      },
+      {
+        "term": "HIPAA",
+        "definition": "A federal law protecting identifiable health information held by covered entities and giving patients access to their records."
+      },
+      {
+        "term": "Randomized controlled trial",
+        "definition": "A study that randomly assigns participants to groups to reduce bias and test cause and effect."
+      },
+      {
+        "term": "Stakeholder",
+        "definition": "Any person or group affected by or able to influence a health policy decision."
+      }
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Market planning, segmentation and positioning",
+    "objective": "Segment a market, choose a target, position a brand and turn the analysis into a measurable marketing plan.",
+    "body": "On the Marketing exam and in every marketing role-play, judges want to see that you start with the customer. Market planning is deciding *who* you will serve, *what* you will offer them and *how* you will measure success.\n\n**The marketing concept.** Businesses that follow the marketing concept find out what customers want first, then build the offer around it while earning a profit. A company that makes a product first and then pushes it with heavy selling is following a production or sales orientation instead.\n\n**Segmentation.** A market segment is a group of customers who share needs and respond similarly to marketing. The four classic bases are:\n- *Demographic*: age, income, gender, family size, education\n- *Geographic*: region, climate, city size, population density\n- *Psychographic*: lifestyle, values, interests, personality\n- *Behavioral*: usage rate, benefits sought, brand loyalty, purchase occasion\n\nA useful segment is *measurable*, *substantial* (large enough to be profitable), *accessible* (reachable through media or channels) and *differentiable* (it responds differently from other segments).\n\n**Targeting.** *Undifferentiated (mass) marketing* uses one mix for everyone. *Differentiated marketing* builds a separate mix for each of several segments. *Concentrated (niche) marketing* puts all resources into one segment, which suits small firms with limited budgets.\n\n**Positioning.** Positioning is the place a brand holds in customers' minds compared with competitors. A positioning statement names the target, the category, the key point of difference and the proof. A *perceptual map* plots brands on two attributes, such as price and quality, to reveal crowded areas and open gaps.\n\n**Planning tools.** A *SWOT analysis* lists internal strengths and weaknesses and external opportunities and threats. The *Ansoff matrix* sorts growth strategies:\n1. Market penetration: existing product, existing market.\n2. Market development: existing product, new market.\n3. Product development: new product, existing market.\n4. Diversification: new product, new market.\n\nA plan ends with SMART objectives (specific, measurable, attainable, relevant, time-bound), a budget and a way to track results such as market share. *Market share* = company sales ÷ total market sales.\n\n**Common mistake:** mixing up internal and external factors in a SWOT. A new competitor opening nearby is a threat, not a weakness; an outdated website is a weakness, not a threat.",
+    "examples": [
+      "A climbing gym targets adventure-seeking young professionals who value fitness and community: that combines demographic (age, career stage) and psychographic (values, lifestyle) segmentation.",
+      "A juice brand already sold in Texas starts selling the same juices in Arizona. On the Ansoff matrix that is market development.",
+      "Total smoothie sales in a city are $4,000,000 and one chain sells $600,000, so its market share is $600,000 ÷ $4,000,000 = 15%."
+    ],
+    "questions": [
+      {
+        "stem": "A sporting-goods retailer groups its customers into heavy, medium and light buyers based on how often they purchase. Which segmentation base is it using?",
+        "choices": [
+          "Demographic",
+          "Behavioral",
+          "Psychographic",
+          "Geographic"
+        ],
+        "answer": 1,
+        "explanation": "Usage rate is a behavioral variable because it describes how customers act toward the product. Psychographic segmentation would group them by lifestyle or values instead."
+      },
+      {
+        "stem": "Total athletic-sock sales in a region are $12,500,000. StrideCo sells $1,875,000 worth of socks there. What is StrideCo's market share?",
+        "choices": [
+          "12.5%",
+          "18.75%",
+          "15%",
+          "6.7%"
+        ],
+        "answer": 2,
+        "explanation": "Market share = company sales ÷ total market sales = $1,875,000 ÷ $12,500,000 = 0.15, or 15%."
+      },
+      {
+        "stem": "A cereal company develops a new protein bar and sells it through the same grocery stores to its existing breakfast customers. Which Ansoff growth strategy is this?",
+        "choices": [
+          "Market penetration",
+          "Market development",
+          "Diversification",
+          "Product development"
+        ],
+        "answer": 3,
+        "explanation": "A new product offered to the existing market is product development. Diversification would require both a new product and a new market."
+      },
+      {
+        "stem": "A family-owned pizza shop is preparing a SWOT analysis. Which item belongs under threats?",
+        "choices": [
+          "A national pizza chain plans to open two blocks away",
+          "The shop's ovens are old and slow",
+          "The owners have strong ties to local schools",
+          "The shop has a loyal weekday lunch crowd"
+        ],
+        "answer": 0,
+        "explanation": "Threats are external conditions that could hurt the business, such as a new competitor. Old ovens are an internal weakness, while school ties and a loyal lunch crowd are strengths."
+      },
+      {
+        "stem": "A small company makes premium left-handed golf clubs and markets only to left-handed golfers. Which targeting strategy is it using?",
+        "choices": [
+          "Undifferentiated marketing",
+          "Concentrated marketing",
+          "Differentiated marketing",
+          "Market penetration"
+        ],
+        "answer": 1,
+        "explanation": "Concentrated (niche) marketing focuses all resources on one segment. Differentiated marketing would serve several segments with separate mixes."
+      },
+      {
+        "stem": "A perceptual map of a town's coffee shops shows no shop positioned as both low-priced and high-quality. What does this gap most likely suggest?",
+        "choices": [
+          "The market is saturated and should be avoided",
+          "Every shop should immediately lower its prices",
+          "A possible positioning opportunity, if enough customers want that combination",
+          "Price and quality are unrelated in this market"
+        ],
+        "answer": 2,
+        "explanation": "Empty spaces on a perceptual map can signal unmet demand, but a marketer should confirm that enough customers value that position before moving into it."
+      },
+      {
+        "stem": "Which action best reflects the marketing concept?",
+        "choices": [
+          "Producing as many backpacks as possible to lower the unit cost",
+          "Surveying target customers about features before designing a new backpack",
+          "Training salespeople to push leftover backpacks harder",
+          "Copying a rival's backpack and matching its price"
+        ],
+        "answer": 1,
+        "explanation": "The marketing concept starts with customer needs and builds the product around them. The other choices start with production or selling, not the customer."
+      },
+      {
+        "stem": "A marketer identifies a large, measurable group of shoppers who respond strongly to eco-friendly packaging, but no media outlet, website or store reaches them separately from other shoppers. Which segment criterion is the problem?",
+        "choices": [
+          "Measurable",
+          "Substantial",
+          "Differentiable",
+          "Accessible"
+        ],
+        "answer": 3,
+        "explanation": "A segment must be reachable through specific media or channels. The stem says the group is large, measurable and responds differently, so accessibility is what fails."
+      },
+      {
+        "stem": "Which marketing objective is written in SMART form?",
+        "choices": [
+          "Increase online sales of the spring collection by 12% over last spring by June 30",
+          "Become the most popular clothing brand in town",
+          "Improve social-media engagement as much as possible",
+          "Sell more jackets than we did last year"
+        ],
+        "answer": 0,
+        "explanation": "It is specific, measurable (12%), relevant and time-bound (June 30). The others lack a measurable target, a deadline or both."
+      },
+      {
+        "stem": "A sneaker brand holds a 20% share of a $50 million market. If the market grows to $60 million and the brand keeps the same share, by how much will its sales increase?",
+        "choices": [
+          "$10 million",
+          "$1 million",
+          "$12 million",
+          "$2 million"
+        ],
+        "answer": 3,
+        "explanation": "Sales rise from 20% × $50 million = $10 million to 20% × $60 million = $12 million, an increase of $2 million."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Market segmentation",
+        "definition": "Dividing a total market into smaller groups of customers who share needs and respond similarly to marketing."
+      },
+      {
+        "term": "Psychographic segmentation",
+        "definition": "Grouping customers by lifestyle, values, interests, attitudes or personality."
+      },
+      {
+        "term": "Concentrated marketing",
+        "definition": "Targeting one market segment with a single marketing mix; also called niche marketing."
+      },
+      {
+        "term": "Positioning",
+        "definition": "The image a brand holds in customers' minds relative to competing brands."
+      },
+      {
+        "term": "Perceptual map",
+        "definition": "A chart that plots competing brands on two attributes, such as price and quality, to show positions and gaps."
+      },
+      {
+        "term": "Ansoff matrix",
+        "definition": "A grid of four growth strategies: market penetration, market development, product development and diversification."
+      }
+    ]
+  }
+]

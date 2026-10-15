@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Help desk fundamentals and the troubleshooting methodology",
+    "objective": "Explain how a tiered help desk works, apply a structured troubleshooting methodology, and document tickets so issues can be tracked and resolved efficiently.",
+    "body": "Technology support is less about knowing every answer and more about following a reliable process. A support technician who works methodically, communicates clearly and documents everything will outperform one who simply guesses quickly.\n\n**The help desk and support tiers.** Most organizations route problems through a **help desk** or **service desk**, the single point of contact where users report issues. Requests are organized into tiers:\n- **Tier 1** handles common, well-documented problems such as password resets, printer queues and basic software questions.\n- **Tier 2** takes issues that need deeper technical knowledge, such as network configuration or application errors.\n- **Tier 3** involves specialists, engineers or vendors who can change systems or fix root causes.\nMoving a ticket to a higher tier is called **escalation**. Escalation is appropriate when an issue is beyond your skill, authority or time limit, not as a way to avoid work.\n\n**Tickets and documentation.** Every request should become a **ticket** in a ticketing system. A good ticket records who reported the problem, when, the exact symptoms and error messages, the device and software involved, every step attempted, and the final resolution. Documentation lets another technician pick up the work, helps spot recurring problems, and builds a **knowledge base** of reusable solutions.\n\n**A structured troubleshooting methodology.** The widely taught CompTIA model uses these steps:\n1. Identify the problem: gather information, question the user, identify symptoms, determine what changed, and back up data before making changes.\n2. Establish a theory of probable cause, questioning the obvious first.\n3. Test the theory to determine the cause; if it is wrong, form a new theory or escalate.\n4. Establish a plan of action to resolve the problem and identify potential effects.\n5. Implement the solution or escalate as needed.\n6. Verify full system functionality and, if applicable, implement preventive measures.\n7. Document findings, actions and outcomes.\n\n**Priority.** Tickets are prioritized by **impact** (how many people or how critical a system is affected) and **urgency** (how quickly it must be fixed). A server outage that stops a whole office outranks one user's slow mouse, even if the mouse ticket arrived first.\n\nThe most common mistake students make is jumping straight to a fix before identifying the problem, for example reinstalling software without asking the user what changed or backing up data. Skipping the identification step wastes time and can make the problem worse.",
+    "examples": [
+      "A user reports that email stopped working this morning; the technician asks what changed and learns the user changed their password yesterday on another device, pointing quickly to a saved-credential problem.",
+      "A Tier 1 agent cannot fix a failing database connection within the 30-minute target, so they escalate the ticket to Tier 2 with full notes on every step already tried."
+    ],
+    "questions": [
+      {
+        "stem": "A user says their laptop will not connect to Wi-Fi. Following the standard troubleshooting methodology, what should the technician do first?",
+        "choices": [
+          "Reinstall the wireless adapter driver",
+          "Ask the user what symptoms they see and whether anything changed recently",
+          "Replace the laptop's wireless card",
+          "Restart the office wireless access point"
+        ],
+        "answer": 1,
+        "explanation": "Identifying the problem by questioning the user and learning what changed comes first. Reinstalling the driver is a solution step taken before the cause is known."
+      },
+      {
+        "stem": "Which task is most appropriate for a Tier 1 support agent?",
+        "choices": [
+          "Rewriting a company application's source code",
+          "Redesigning the corporate network",
+          "Negotiating a hardware warranty claim with the manufacturer's engineers",
+          "Resetting a user's forgotten password"
+        ],
+        "answer": 3,
+        "explanation": "Password resets are common, well-documented requests suited to Tier 1. Code changes and network redesign require Tier 3 specialists."
+      },
+      {
+        "stem": "A technician's first theory about a printer problem turns out to be wrong after testing. What is the correct next step?",
+        "choices": [
+          "Close the ticket as unresolved",
+          "Implement the original fix anyway",
+          "Establish a new theory or escalate",
+          "Tell the user to buy a new printer"
+        ],
+        "answer": 2,
+        "explanation": "When a theory fails testing, the methodology says to form a new theory or escalate. Implementing the disproven fix ignores the test result."
+      },
+      {
+        "stem": "Two tickets arrive: one user's keyboard has a sticky key, and the sales department's shared file server is down. How should they be prioritized?",
+        "choices": [
+          "The keyboard first, because it arrived first",
+          "The file server first, because its impact and urgency are higher",
+          "Both equally, in alphabetical order",
+          "Whichever the technician knows how to fix faster"
+        ],
+        "answer": 1,
+        "explanation": "Priority is based on impact and urgency; a department-wide outage outranks a single minor issue. First-come, first-served ignores business impact."
+      },
+      {
+        "stem": "After replacing a failed network cable, what should the technician do before documenting the ticket?",
+        "choices": [
+          "Verify full system functionality with the user",
+          "Immediately close the ticket",
+          "Escalate the ticket to Tier 2",
+          "Delete the ticket notes to save space"
+        ],
+        "answer": 0,
+        "explanation": "Verifying full functionality confirms the fix worked and nothing else broke. Closing the ticket immediately skips verification, so a remaining problem could go unnoticed."
+      },
+      {
+        "stem": "Why is it valuable to record every attempted step in a ticket, even ones that failed?",
+        "choices": [
+          "It makes tickets longer for audits",
+          "It prevents other technicians from repeating work and helps build the knowledge base",
+          "It is required only for hardware tickets",
+          "It lets the user fix the problem without help"
+        ],
+        "answer": 1,
+        "explanation": "Complete notes let others continue efficiently and turn solutions into reusable knowledge. Documentation is not limited to hardware issues."
+      },
+      {
+        "stem": "A technician is about to reimage a user's computer to fix a corrupted operating system. What should happen before making this change?",
+        "choices": [
+          "Update the help desk phone greeting",
+          "Escalate to Tier 3 automatically",
+          "Disable the user's account",
+          "Back up the user's data"
+        ],
+        "answer": 3,
+        "explanation": "The methodology calls for backing up data before making changes that could destroy it. Escalating is not required just because a change is significant."
+      },
+      {
+        "stem": "A help desk notices that 40 tickets this month involve the same VPN error. Which practice best addresses this pattern?",
+        "choices": [
+          "Fix each ticket separately and never look at trends",
+          "Write a knowledge base article and investigate the root cause",
+          "Stop accepting VPN tickets",
+          "Ask users to restart their computers daily"
+        ],
+        "answer": 1,
+        "explanation": "Recurring issues call for knowledge base entries and root-cause investigation to prevent repeats. Handling each ticket in isolation keeps the problem coming back."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Help desk",
+        "definition": "The single point of contact where users report technology problems and request support."
+      },
+      {
+        "term": "Escalation",
+        "definition": "Moving a ticket to a higher support tier when it exceeds the current agent's skill, authority or time limit."
+      },
+      {
+        "term": "Ticket",
+        "definition": "A tracked record of a support request, including symptoms, steps taken and resolution."
+      },
+      {
+        "term": "Knowledge base",
+        "definition": "A searchable collection of documented solutions that support staff and users can reuse."
+      },
+      {
+        "term": "Impact and urgency",
+        "definition": "The two factors used to set ticket priority: how widely a problem affects the business and how quickly it must be fixed."
+      }
+    ]
+  }
+]

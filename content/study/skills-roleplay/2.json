@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Covering the performance indicators",
+    "objective": "Address every performance indicator with a definition, an explanation and an application to the business.",
+    "body": "Judges score role-plays with a rubric built around the performance indicators in your scenario, plus general skills such as communication and professionalism. If you never clearly address an indicator, the judge has little to score. Covering each one in a way the judge can hear is the most reliable path to a high score.\n\n**Use the define, explain, apply pattern.** For each indicator:\n1. **Define** the concept in a sentence, so the judge knows you understand it.\n2. **Explain** why it matters for this business or situation.\n3. **Apply** it with a specific, realistic idea, ideally with a number, a timeline or a named group of customers.\n\nFor an indicator about positioning, you might say: Positioning is the image we want our shop to hold in customers' minds compared with competitors. It matters here because two chain stores nearby compete on price. I recommend we position ourselves as the expert local shop, with free fittings and same-week repairs.\n\n**Say the indicator out loud.** Judges are listening for the concept. Using the indicator's own words, such as 'To explain our pricing strategy...', works like a signpost and makes it easy for the judge to give you credit. Then move clearly to the next one.\n\n**Go beyond the definition.** A definition alone shows memorization. The higher rubric levels usually reward ideas that are specific, realistic and connected to the scenario's facts. Ask yourself what the business would actually do on Monday morning.\n\n**Support ideas with simple numbers.** A quick estimate, such as 'if 10 percent of our 2,000 newsletter subscribers use the coupon, that is 200 extra visits,' makes a recommendation concrete. Keep the math simple enough to say aloud accurately.\n\n**Connect to what the judge's character wants.** Linking each idea to a benefit for the person the judge plays, such as lower costs, happier staff or more loyal customers, shows business judgment and keeps the conversation focused on their goals.\n\nA common mistake is covering indicators out of order or blending them so the judge cannot tell which one you are addressing. Signpost each one, finish it, then move on.",
+    "examples": [
+      "Indicator: explain the role of customer service. Define: meeting customer needs before, during and after a sale. Explain: repeat members drive most of a gym's revenue. Apply: a follow-up call within 48 hours for every new member.",
+      "Number support: a hotel adds a $15 breakfast package. If 40 of its 200 nightly guests buy it, that is 40 × $15 = $600 in extra revenue per night."
+    ],
+    "questions": [
+      {
+        "stem": "An indicator reads: describe the use of target marketing. The scenario involves a dance studio. Which response best follows the define, explain, apply pattern?",
+        "choices": [
+          "Target marketing is a key idea that helps every business grow, so it is something your studio should definitely consider using soon.",
+          "It means focusing on one customer group; your best prospects are busy parents, so I suggest weekend family classes promoted in school newsletters.",
+          "I would run ads on every social platform and local radio station so that as many people as possible hear about the studio.",
+          "Target marketing became popular when large companies began studying customers, and it is now taught in most business classes."
+        ],
+        "answer": 1,
+        "explanation": "This response defines the concept, explains who matters for this studio and applies it with a specific action. The others are vague, ignore targeting or give history instead of application."
+      },
+      {
+        "stem": "Why is it helpful to say an indicator's wording aloud, for example, Now, to explain our pricing strategy?",
+        "choices": [
+          "It fills time so the role-play reaches the time limit",
+          "It signals to the judge which indicator you are addressing",
+          "It replaces the need to apply the concept to the business",
+          "It lets you skip defining the concept for the judge"
+        ],
+        "answer": 1,
+        "explanation": "Naming the indicator acts as a signpost, so the judge can match what you say to the rubric. It does not replace explaining or applying the concept."
+      },
+      {
+        "stem": "In a role-play, you propose a $5 add-on service for a car wash that serves 300 cars a week. If 20 percent of customers buy it, how much weekly revenue does it add?",
+        "choices": [
+          "$60",
+          "$150",
+          "$1,500",
+          "$300"
+        ],
+        "answer": 3,
+        "explanation": "20 percent of 300 cars is 0.20 × 300 = 60 buyers, and 60 × $5 = $300 per week. $60 is the number of buyers, and $1,500 assumes every car buys it."
+      },
+      {
+        "stem": "A competitor gives a perfect textbook definition for every indicator but offers no ideas specific to the business in the scenario. What is the most likely result?",
+        "choices": [
+          "Top scores, since definitions prove full understanding",
+          "A perfect score as long as each definition is word for word",
+          "Partial credit, since higher levels reward specific, applied ideas",
+          "A lower score only if the judge asks a follow-up question"
+        ],
+        "answer": 2,
+        "explanation": "Definitions show basic knowledge, but rubrics typically reserve the highest levels for realistic ideas applied to the scenario's business."
+      }
+    ],
+    "flashcards": [
+      { "term": "Define, explain, apply", "definition": "A three-step pattern for an indicator: state the concept, say why it matters here, then give a specific idea." },
+      { "term": "Signposting", "definition": "Using words that tell the listener which point you are on, such as naming the indicator before covering it." },
+      { "term": "Rubric", "definition": "The scoring sheet judges use, listing what is evaluated and what earns each score level." },
+      { "term": "Application", "definition": "Using a concept to solve the scenario's problem with a specific, realistic action for that business." },
+      { "term": "Supporting estimate", "definition": "A quick, simple calculation that makes a recommendation concrete, such as projected extra sales." }
+    ]
+  }
+]

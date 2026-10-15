@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Writing emails, memos, and letters that work",
+    "objective": "Select appropriate channels, format business emails, memos and letters correctly, and organize messages using direct and indirect approaches.",
+    "body": "Knowing the communication process is the foundation; applying it means producing documents that look professional and get results. Most workplace writing falls into three formats, and each has its own conventions.\n\n**Choosing a channel.** **Channel richness** describes how much information a medium can carry, including tone of voice and body language. Face-to-face conversation is the richest channel; a printed flyer is one of the leanest. Use rich channels for sensitive, complex or emotional topics, such as discussing a performance problem. Use lean channels, such as email, for routine information that people need to reference later.\n\n**Emails.** A business email needs a specific **subject line** that tells the reader what the message is about, such as \"Agenda for Friday's budget meeting\" rather than \"Hi.\" Start with a greeting, state the purpose in the first sentence or two, keep paragraphs short, and close with a clear request and a signature block. Use **CC** for people who need to stay informed and **BCC** to hide recipient addresses, for example when emailing a large customer list. Avoid all capital letters, which readers interpret as shouting.\n\n**Memos.** A **memo** is an internal document sent within an organization. It begins with guide words, typically TO, FROM, DATE and SUBJECT, and it has no salutation or complimentary close. Memos are useful for policies and announcements that need a formal record.\n\n**Business letters.** Letters usually go to people outside the organization. The most common layout is **block style**, in which every line starts at the left margin. Standard parts appear in this order:\n1. Return address or letterhead and date\n2. Inside address (the recipient's name and address)\n3. Salutation, such as \"Dear Ms. Lopez:\"\n4. Body\n5. Complimentary close, such as \"Sincerely,\"\n6. Signature and typed name\n\nIn **modified block style**, the date, complimentary close and signature begin near the center of the page.\n\n**Direct and indirect approaches.** The **direct approach** puts the main idea first and is best for good news, routine requests and neutral information: \"Your application has been approved.\" The **indirect approach** opens with a neutral **buffer**, explains the reasons, then states the bad news and ends with a goodwill closing. It is best for refusals or unwelcome news because readers accept a decision more easily after they understand why.\n\n**Proofreading.** Before sending anything, check names, dates, numbers and attachments. Spell-check will not catch a correctly spelled wrong word, such as \"manger\" for \"manager.\"\n\nThe most common mistake students make is using the indirect approach for every message or the direct approach for bad news. Match the approach to how the reader will react: likely pleased or neutral means direct; likely disappointed means indirect.",
+    "examples": [
+      "An HR team sends a memo with TO, FROM, DATE and SUBJECT lines announcing a new parking policy, with no 'Dear' greeting or 'Sincerely' closing.",
+      "A store declining a refund request begins by thanking the customer for her loyalty, explains the 30-day policy, states the decision, and offers a store credit, following the indirect approach.",
+      "A team lead chooses a face-to-face meeting rather than email to tell her staff about a reorganization, because the topic is sensitive and needs a rich channel."
+    ],
+    "questions": [
+      {
+        "stem": "A manager must tell an employee that his request for a promotion was denied. Which channel is most appropriate?",
+        "choices": [
+          "A group email to the department",
+          "A private face-to-face conversation",
+          "A memo posted on the break room board",
+          "A text message"
+        ],
+        "answer": 1,
+        "explanation": "Sensitive, emotional news calls for a rich, private channel where tone and questions can be handled. A memo is lean and public, which would be inappropriate."
+      },
+      {
+        "stem": "Which subject line is most effective for an email asking a coworker to review a report?",
+        "choices": [
+          "Hey",
+          "Important!!!",
+          "Please review Q3 sales report by Thursday",
+          "Report"
+        ],
+        "answer": 2,
+        "explanation": "An effective subject line is specific about the topic and action. 'Report' is too vague to tell the reader what is needed or when."
+      },
+      {
+        "stem": "Elena is sending a holiday promotion to 200 customers and wants to protect their privacy. Where should she put their email addresses?",
+        "choices": [
+          "To",
+          "CC",
+          "BCC",
+          "Subject line"
+        ],
+        "answer": 2,
+        "explanation": "BCC hides recipients' addresses from each other. CC would show every customer's address to all 200 people."
+      },
+      {
+        "stem": "Which element appears in a memo but NOT in a standard business letter?",
+        "choices": [
+          "Date",
+          "Guide words such as TO and FROM",
+          "Body paragraphs",
+          "The sender's name"
+        ],
+        "answer": 1,
+        "explanation": "Memos use guide words in their heading instead of an inside address and salutation. Both formats include a date, so that is not the difference."
+      },
+      {
+        "stem": "A letter has every line, including the date and closing, starting at the left margin. What format is this?",
+        "choices": [
+          "Modified block",
+          "Block style",
+          "Memo format",
+          "Indented style"
+        ],
+        "answer": 1,
+        "explanation": "Block style aligns all lines at the left margin. Modified block moves the date, closing and signature toward the center."
+      },
+      {
+        "stem": "A college admissions office is notifying a student that she was accepted. Which approach should the letter use?",
+        "choices": [
+          "Indirect, starting with a buffer",
+          "Direct, stating the acceptance first",
+          "Indirect, ending with the decision",
+          "Persuasive, starting with an attention getter"
+        ],
+        "answer": 1,
+        "explanation": "Good news should be stated first using the direct approach. Opening with a buffer would delay information the reader is happy to receive."
+      },
+      {
+        "stem": "In an indirect bad-news message, what is the purpose of the buffer?",
+        "choices": [
+          "To state the refusal immediately",
+          "To open with neutral or positive content before the reasons",
+          "To demand a response from the reader",
+          "To list legal disclaimers"
+        ],
+        "answer": 1,
+        "explanation": "A buffer is a neutral, relevant opening that prepares the reader for the explanation. Stating the refusal immediately is the direct approach, the opposite of a buffer."
+      },
+      {
+        "stem": "Darnell proofreads his letter with spell-check, which finds no errors, but the letter thanks the \"manger\" of a store. What lesson does this show?",
+        "choices": [
+          "Spell-check is all a writer needs",
+          "Spell-check misses correctly spelled wrong words, so manual proofreading is needed",
+          "Letters should not mention job titles",
+          "Errors in titles do not matter"
+        ],
+        "answer": 1,
+        "explanation": "'Manger' is a real word, so spell-check accepts it, which is why careful reading is essential. Saying spell-check is enough ignores exactly this type of error."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Channel richness",
+        "definition": "How much information a medium can carry, such as tone and body language; face-to-face is richest."
+      },
+      {
+        "term": "Memo",
+        "definition": "An internal document with TO, FROM, DATE and SUBJECT guide words and no salutation or complimentary close."
+      },
+      {
+        "term": "Block style",
+        "definition": "A letter format in which every line begins at the left margin."
+      },
+      {
+        "term": "Direct approach",
+        "definition": "An organization that states the main idea first; best for good news and routine messages."
+      },
+      {
+        "term": "Buffer",
+        "definition": "A neutral or positive opening in an indirect message that comes before the reasons and the bad news."
+      }
+    ]
+  }
+]

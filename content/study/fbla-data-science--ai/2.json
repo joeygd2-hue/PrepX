@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Machine Learning Models: Supervised, Unsupervised, and Evaluation",
+    "objective": "Select and justify an appropriate machine learning approach for a described business problem and interpret common model evaluation metrics to assess performance.",
+    "body": "**Machine learning (ML)** enables computers to learn patterns from data without being explicitly programmed for every possible outcome. Understanding the major learning paradigms and how to measure model quality is essential for anyone working in data science.\n\n**Supervised learning** trains a model on labeled data — examples where both the input features and the correct output are known. There are two primary supervised tasks. **Classification** predicts a discrete category (spam or not spam, approved or denied loan). **Regression** predicts a continuous numeric value (tomorrow's stock price, expected delivery time). Common supervised algorithms include **linear regression**, **decision trees**, **random forests**, and **support vector machines (SVMs)**.\n\n**Unsupervised learning** finds hidden structure in data that has no labels. The algorithm must discover groupings on its own. **Clustering** is the most common unsupervised task: algorithms like **k-means** partition records into k groups based on similarity. **Dimensionality reduction** techniques such as **Principal Component Analysis (PCA)** compress many features into fewer, retaining as much variance as possible. This is useful for visualization and for speeding up downstream models.\n\n**Reinforcement learning** trains an **agent** to take actions in an environment by maximizing a cumulative **reward** signal. Though less common in everyday business analytics, it underlies breakthroughs in robotics and game-playing AI.\n\nBefore evaluating a model, practitioners split data into a **training set** (used to fit the model), a **validation set** (used to tune hyperparameters), and a **test set** (used only once, at the end, to estimate real-world performance). Evaluating on the same data used for training produces inflated results and can hide **overfitting**, where the model memorizes training examples rather than learning generalizable patterns. The opposite, **underfitting**, occurs when the model is too simple to capture the true relationship.\n\nFor classification models, a **confusion matrix** tallies true positives, true negatives, false positives, and false negatives. From it, practitioners compute **precision** (of all predicted positives, how many were actually positive?), **recall** (of all actual positives, how many did the model find?), and the **F1 score**, which is the harmonic mean of precision and recall. When false negatives are especially costly — as in disease screening — high recall is prioritized. When false positives are costly — as in fraud freezes that block legitimate customers — precision matters more.\n\nFor regression models, **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** measure average prediction distance from the true value. RMSE penalizes large errors more heavily, making it sensitive to outliers.\n\nThe **bias-variance tradeoff** captures the tension between underfitting and overfitting: increasing model complexity reduces bias but raises variance, and the optimal model balances both.",
+    "examples": [
+      "A bank uses a supervised classification model trained on thousands of past loan applications (labeled 'defaulted' or 'repaid') to predict whether a new applicant will default, enabling automated credit decisions.",
+      "An e-commerce company applies k-means clustering to customer purchase histories with no labels, discovering four natural customer segments — bargain hunters, brand loyalists, seasonal shoppers, and high-value frequent buyers — which then guide targeted email campaigns.",
+      "A medical imaging startup evaluates its tumor-detection model using recall as the primary metric because a false negative (missing a real tumor) is far more dangerous than a false positive (flagging a benign spot for further review)."
+    ],
+    "questions": [
+      {
+        "stem": "A model trained to predict whether a patient has diabetes based on medical test results is an example of which machine learning task?",
+        "choices": [
+          "Unsupervised clustering",
+          "Supervised classification",
+          "Dimensionality reduction",
+          "Reinforcement learning"
+        ],
+        "answer": 1,
+        "explanation": "Predicting a discrete category (diabetic or not) from labeled training data is supervised classification. Unsupervised learning would require no labels and would discover groupings on its own."
+      },
+      {
+        "stem": "A data scientist trains a model and achieves 98% accuracy on training data but only 62% on new test data. This pattern is most indicative of:",
+        "choices": [
+          "Underfitting",
+          "High bias",
+          "Overfitting",
+          "A balanced bias-variance tradeoff"
+        ],
+        "answer": 2,
+        "explanation": "Overfitting occurs when a model memorizes training data and fails to generalize, producing high training accuracy but poor test accuracy. Underfitting (high bias) would show poor performance on both training and test sets."
+      },
+      {
+        "stem": "A hospital's cancer-screening model incorrectly labels 5 cancerous samples as healthy. These are classified in the confusion matrix as:",
+        "choices": [
+          "True positives",
+          "True negatives",
+          "False positives",
+          "False negatives"
+        ],
+        "answer": 3,
+        "explanation": "A false negative occurs when the model predicts the negative class (healthy) but the true label is positive (cancerous). False positives would be the reverse — predicting cancer when the patient is healthy."
+      },
+      {
+        "stem": "Which metric is most appropriate when false positives are very costly and should be minimized, such as incorrectly flagging a customer's legitimate transaction as fraud?",
+        "choices": [
+          "Recall",
+          "Precision",
+          "F1 score",
+          "Mean Absolute Error"
+        ],
+        "answer": 1,
+        "explanation": "Precision measures what fraction of flagged positives are truly positive, directly penalizing false positives. Recall measures the fraction of actual positives that were caught, which is more relevant when false negatives are the costly error."
+      },
+      {
+        "stem": "A retailer wants to group its 50,000 customers by purchasing behavior without any predefined categories. Which technique is most appropriate?",
+        "choices": [
+          "Linear regression",
+          "K-means clustering",
+          "Support vector machine",
+          "Random forest classification"
+        ],
+        "answer": 1,
+        "explanation": "K-means clustering is an unsupervised technique that partitions unlabeled data into k groups based on feature similarity. The other options are supervised methods that require labeled training data."
+      },
+      {
+        "stem": "RMSE and MAE are both used to evaluate regression models. In which situation does RMSE provide a more informative signal than MAE?",
+        "choices": [
+          "When the target variable is categorical",
+          "When every prediction error matters equally",
+          "When large individual errors must be penalized heavily",
+          "When the training set is very small"
+        ],
+        "answer": 2,
+        "explanation": "RMSE squares each error before averaging, which amplifies the effect of large mistakes relative to small ones. MAE treats all errors proportionally, so RMSE is preferred when large outliers in prediction error represent serious failures."
+      },
+      {
+        "stem": "Principal Component Analysis (PCA) is used in a machine learning pipeline primarily to:",
+        "choices": [
+          "Label unlabeled data automatically",
+          "Reduce the number of input features while preserving variance",
+          "Increase model training accuracy by adding more variables",
+          "Convert categorical variables to numeric values"
+        ],
+        "answer": 1,
+        "explanation": "PCA is a dimensionality reduction technique that creates new composite features (principal components) that capture the most variance in fewer dimensions. It does not label data or add features; it compresses them."
+      },
+      {
+        "stem": "A data science team splits their dataset into 70% training, 15% validation, and 15% test. What is the primary purpose of the validation set?",
+        "choices": [
+          "To measure final real-world performance once the model is complete",
+          "To tune hyperparameters and select the best model configuration",
+          "To generate new training examples through augmentation",
+          "To check for data quality issues before model training begins"
+        ],
+        "answer": 1,
+        "explanation": "The validation set is used during development to compare different model configurations and tune hyperparameters without touching the test set. The test set is held out until the very end to provide an unbiased estimate of final performance."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Overfitting",
+        "definition": "A modeling failure where a model learns the training data's noise and specific examples so well that it cannot generalize accurately to new, unseen data."
+      },
+      {
+        "term": "Confusion Matrix",
+        "definition": "A table that summarizes a classification model's predictions by counting true positives, true negatives, false positives, and false negatives."
+      },
+      {
+        "term": "Recall",
+        "definition": "A classification metric measuring the proportion of actual positive cases that the model correctly identified, calculated as true positives divided by the sum of true positives and false negatives."
+      },
+      {
+        "term": "K-Means Clustering",
+        "definition": "An unsupervised machine learning algorithm that partitions a dataset into k groups by iteratively assigning each point to its nearest cluster centroid."
+      },
+      {
+        "term": "Bias-Variance Tradeoff",
+        "definition": "The tension in model selection where increasing complexity reduces underfitting bias but increases overfitting variance, requiring a balance to achieve good generalization."
+      }
+    ]
+  }
+]

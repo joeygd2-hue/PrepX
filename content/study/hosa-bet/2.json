@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Preventive maintenance, test equipment and systematic troubleshooting",
+    "objective": "Plan preventive maintenance, select the correct test instrument, and troubleshoot a failed device using a step-by-step method with complete documentation.",
+    "body": "Most of a BMET's day is not dramatic repair. It is scheduled inspection, measurement and record keeping that keeps devices from failing during patient care. When something does fail, a disciplined method finds the fault faster than guessing.\n\n**Preventive maintenance (PM).** PM is scheduled inspection and servicing done before a failure occurs. A typical PM includes a visual inspection of the case, cords and connectors, cleaning, replacing wear items such as filters or batteries, an **electrical safety test**, and a **performance verification** that confirms the device still meets the manufacturer's specifications. PM intervals usually follow the manufacturer's recommendations or a hospital's documented, risk-based alternative program, and high-risk devices such as defibrillators and ventilators get the closest attention.\n\n**Corrective maintenance** is repair after a reported problem. Hospitals track both types in a **computerized maintenance management system (CMMS)**, which stores each device's asset tag, service history, PM due dates and recall status.\n\n**Choosing test equipment.**\n- **Digital multimeter (DMM):** measures voltage, current, resistance and continuity.\n- **Electrical safety analyzer:** measures ground resistance and leakage current.\n- **Patient simulator:** generates ECG, blood pressure or SpO2 signals so a monitor can be checked without a patient.\n- **Oscilloscope:** displays a signal's shape over time, useful for noise or timing problems.\n- **Defibrillator analyzer:** measures delivered energy into a test load.\n\nTo measure current with a DMM, the meter goes in series with the circuit; to measure voltage, it goes in parallel. Resistance and continuity are checked only with power off.\n\n**A troubleshooting method.**\n1. Gather information: talk to the user, read error codes, and try to reproduce the problem.\n2. Check the simple things: power, cords, batteries, settings and accessories such as leads or probes.\n3. Isolate the fault by swapping known-good parts or following the signal path section by section.\n4. Repair using manufacturer-approved parts and service documentation.\n5. Verify with a full safety and performance test before returning the device.\n6. Document the problem, cause, parts and test results in the CMMS.\n\nAccessories cause a large share of complaints. A monitor reading \"leads off\" is far more often a broken lead wire or dried electrode than a failed circuit board.\n\nThe most common mistake students make is jumping straight to replacing internal parts. Skipping the user interview and accessory checks wastes time and parts, and skipping the final verification test can return an unsafe device to a patient.",
+    "examples": [
+      "During a PM on an infusion pump, a technician cleans the case, replaces a swollen battery, runs a safety test and verifies flow accuracy before signing the work order.",
+      "A monitor shows a noisy ECG trace; swapping in a known-good patient cable clears the noise, so the old cable is replaced and the fix is logged in the CMMS."
+    ],
+    "questions": [
+      {
+        "stem": "A nurse reports that a pulse oximeter shows no reading on any patient. What should the technician check first?",
+        "choices": [
+          "The main processor board",
+          "The sensor and its cable",
+          "The device's firmware version",
+          "The internal power transformer"
+        ],
+        "answer": 1,
+        "explanation": "Accessories are the most common failure point and the easiest to check, so start with the sensor and cable. Replacing a board first skips simple checks and wastes parts."
+      },
+      {
+        "stem": "Which instrument is best for confirming that a bedside monitor correctly displays a 60 beats-per-minute ECG without connecting a patient?",
+        "choices": [
+          "Oscilloscope",
+          "Electrical safety analyzer",
+          "Patient simulator",
+          "Digital multimeter"
+        ],
+        "answer": 2,
+        "explanation": "A patient simulator generates a known ECG signal to verify the monitor's reading. A safety analyzer measures leakage and ground resistance, not physiologic accuracy."
+      },
+      {
+        "stem": "A technician needs to measure the current drawn by a circuit with a digital multimeter. How must the meter be connected?",
+        "choices": [
+          "In series with the circuit",
+          "In parallel across the load",
+          "Across the ground pin only",
+          "With the circuit powered off"
+        ],
+        "answer": 0,
+        "explanation": "Current must flow through the meter, so it goes in series. Connecting an ammeter in parallel is the classic error and can blow the meter's fuse."
+      },
+      {
+        "stem": "After repairing a defibrillator, what must happen before it returns to the clinical floor?",
+        "choices": [
+          "The repair is noted verbally to the charge nurse",
+          "The device is used once on a patient to confirm it works",
+          "A safety and performance verification is completed and documented",
+          "The case is cleaned and relabeled"
+        ],
+        "answer": 2,
+        "explanation": "Every repair ends with verification testing and documentation. Testing on a patient is never acceptable; verification uses an analyzer and test load."
+      },
+      {
+        "stem": "Which task is an example of preventive rather than corrective maintenance?",
+        "choices": [
+          "Replacing a cracked screen after a drop",
+          "Replacing a ventilator's filter on its scheduled date",
+          "Repairing a pump that alarms constantly",
+          "Fixing a broken caster reported by staff"
+        ],
+        "answer": 1,
+        "explanation": "Scheduled replacement before failure is preventive maintenance. The other choices respond to reported problems, which makes them corrective."
+      },
+      {
+        "stem": "A hospital wants to know which devices are overdue for inspection and which are affected by a recall. Where should a BMET look?",
+        "choices": [
+          "The device's operator manual",
+          "The CMMS records",
+          "The patient's chart",
+          "The purchasing invoice"
+        ],
+        "answer": 1,
+        "explanation": "The CMMS tracks PM schedules, service history and recall status by asset. The operator manual describes the device but does not track the hospital's inventory."
+      },
+      {
+        "stem": "A technician must check whether a power cord has a broken conductor. Which setup is correct?",
+        "choices": [
+          "DMM on continuity with the cord unplugged",
+          "DMM on AC volts with the cord plugged in",
+          "Oscilloscope on the live cord",
+          "Safety analyzer with the cord removed"
+        ],
+        "answer": 0,
+        "explanation": "Continuity and resistance tests are done with power off. Measuring a live cord only shows voltage at the outlet, not whether the conductor is intact all along its length."
+      },
+      {
+        "stem": "An oscilloscope is most useful for which problem?",
+        "choices": [
+          "Recording a device's asset tag",
+          "Seeing intermittent noise on a signal over time",
+          "Measuring the weight of a device",
+          "Checking the expiration date of electrodes"
+        ],
+        "answer": 1,
+        "explanation": "An oscilloscope displays waveform shape over time, revealing noise and timing problems. A multimeter gives a single value and would miss the waveform's shape."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Preventive maintenance",
+        "definition": "Scheduled inspection and servicing performed before a device fails."
+      },
+      {
+        "term": "Corrective maintenance",
+        "definition": "Repair performed after a problem has been reported."
+      },
+      {
+        "term": "CMMS",
+        "definition": "Computerized maintenance management system that tracks assets, work orders, PM schedules and recalls."
+      },
+      {
+        "term": "Performance verification",
+        "definition": "Testing that confirms a device still meets manufacturer specifications."
+      },
+      {
+        "term": "Patient simulator",
+        "definition": "Test device that generates physiologic signals such as ECG or SpO2 to check monitors."
+      }
+    ]
+  }
+]

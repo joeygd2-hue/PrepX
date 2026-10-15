@@ -1,0 +1,2715 @@
+{
+ "org": "hosa",
+ "name": "HOSA",
+ "fullName": "HOSA-Future Health Professionals",
+ "color": "#7A1E3A",
+ "season": "2026-2027",
+ "sourceUrl": "https://hosa.org/guidelines/",
+ "sourceCheckedAt": null,
+ "note": "Event names and formats are from general knowledge and the reference screenshots. Official guideline pages could not be reached from the build environment; every event not marked reference_observed must be checked against the official source before launch.",
+ "clusters": [
+  {
+   "id": "hosa-bh",
+   "code": "BH",
+   "name": "Behavioral Health test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-bet",
+   "code": "BET",
+   "name": "Biomedical Equipment Technician test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-dt",
+   "code": "DT",
+   "name": "Dental Terminology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-hi",
+   "code": "HI",
+   "name": "Health Informatics test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-hca",
+   "code": "HCA",
+   "name": "Healthcare Administration test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-hgd",
+   "code": "HGD",
+   "name": "Human Growth & Development test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-mle",
+   "code": "MLE",
+   "name": "Medical Law & Ethics test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-mm",
+   "code": "MM",
+   "name": "Medical Math test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-mr",
+   "code": "MR",
+   "name": "Medical Reading test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-ms",
+   "code": "MS",
+   "name": "Medical Spelling test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-mt",
+   "code": "MT",
+   "name": "Medical Terminology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-nut",
+   "code": "NUT",
+   "name": "Nutrition test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-path",
+   "code": "PATH",
+   "name": "Pathophysiology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-pharm",
+   "code": "PHARM",
+   "name": "Pharmacology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-whd",
+   "code": "WHD",
+   "name": "World Health & Disparities test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-bls",
+   "code": "BLS",
+   "name": "Biomedical Laboratory Science test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-cls",
+   "code": "CLS",
+   "name": "Clinical Laboratory Science test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-cn",
+   "code": "CN",
+   "name": "Clinical Nursing test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-ds",
+   "code": "DS",
+   "name": "Dental Science test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-fmp",
+   "code": "FMP",
+   "name": "Family Medicine Physician test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-hha",
+   "code": "HHA",
+   "name": "Home Health Aide test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-ma",
+   "code": "MA",
+   "name": "Medical Assisting test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-na",
+   "code": "NA",
+   "name": "Nursing Assisting test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-pct",
+   "code": "PCT",
+   "name": "Patient Care Technician test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-pc",
+   "code": "PC",
+   "name": "Personal Care test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-ps",
+   "code": "PS",
+   "name": "Pharmacy Science test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-phleb",
+   "code": "PHLEB",
+   "name": "Phlebotomy test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-pt",
+   "code": "PT",
+   "name": "Physical Therapy test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-sm",
+   "code": "SM",
+   "name": "Sports Medicine test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-vs",
+   "code": "VS",
+   "name": "Veterinary Science test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-cert",
+   "code": "CERT",
+   "name": "CERT Skills test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-cprfa",
+   "code": "CPRFA",
+   "name": "CPR/First Aid test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-emt",
+   "code": "EMT",
+   "name": "Emergency Medical Technician test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-epi",
+   "code": "EPI",
+   "name": "Epidemiology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-mci",
+   "code": "MCI",
+   "name": "Mass Casualty Incident test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-cps",
+   "code": "CPS",
+   "name": "Creative Problem Solving test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-fs",
+   "code": "FS",
+   "name": "Forensic Science test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-hie",
+   "code": "HIE",
+   "name": "Healthcare Issues Exam test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-hob",
+   "code": "HOB",
+   "name": "HOSA Bowl test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-pp",
+   "code": "PP",
+   "name": "Parliamentary Procedure test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcbio",
+   "code": "ATCBIO",
+   "name": "ATC: Biology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcbc",
+   "code": "ATCBC",
+   "name": "ATC: Biochemistry test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atccd",
+   "code": "ATCCD",
+   "name": "ATC: Career Development test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atceh",
+   "code": "ATCEH",
+   "name": "ATC: Environmental Health test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcgc",
+   "code": "ATCGC",
+   "name": "ATC: General Chemistry test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atchh",
+   "code": "ATCHH",
+   "name": "ATC: Human Heredity test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcmhp",
+   "code": "ATCMHP",
+   "name": "ATC: Math for Health Professionals test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcmic",
+   "code": "ATCMIC",
+   "name": "ATC: Microbiology test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcoc",
+   "code": "ATCOC",
+   "name": "ATC: Organic Chemistry test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcphy",
+   "code": "ATCPHY",
+   "name": "ATC: Physics College test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcfm",
+   "code": "ATCFM",
+   "name": "ATC: AAFP Family Medicine Career Test test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcld",
+   "code": "ATCLD",
+   "name": "ATC: Leadership test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  },
+  {
+   "id": "hosa-atcosh",
+   "code": "ATCOSH",
+   "name": "ATC: Occupational Safety & Health test",
+   "questionCount": null,
+   "minutes": null,
+   "verification": "unverified"
+  }
+ ],
+ "events": [
+  {
+   "code": "BH",
+   "name": "Behavioral Health",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-bh",
+     "label": "Behavioral Health test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 0
+  },
+  {
+   "code": "BET",
+   "name": "Biomedical Equipment Technician",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-bet",
+     "label": "Biomedical Equipment Technician test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 1
+  },
+  {
+   "code": "DT",
+   "name": "Dental Terminology",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-dt",
+     "label": "Dental Terminology test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 2
+  },
+  {
+   "code": "HI",
+   "name": "Health Informatics",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-hi",
+     "label": "Health Informatics test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 3
+  },
+  {
+   "code": "HCA",
+   "name": "Healthcare Administration",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-hca",
+     "label": "Healthcare Administration test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 4
+  },
+  {
+   "code": "HGD",
+   "name": "Human Growth & Development",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-hgd",
+     "label": "Human Growth & Development test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 5
+  },
+  {
+   "code": "MLE",
+   "name": "Medical Law & Ethics",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-mle",
+     "label": "Medical Law & Ethics test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 6
+  },
+  {
+   "code": "MM",
+   "name": "Medical Math",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-mm",
+     "label": "Medical Math test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 7
+  },
+  {
+   "code": "MR",
+   "name": "Medical Reading",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-mr",
+     "label": "Medical Reading test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 8
+  },
+  {
+   "code": "MS",
+   "name": "Medical Spelling",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test + Spelldown",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-ms",
+     "label": "Medical Spelling test"
+    },
+    "spelldown": true
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 9
+  },
+  {
+   "code": "MT",
+   "name": "Medical Terminology",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-mt",
+     "label": "Medical Terminology test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 10
+  },
+  {
+   "code": "NUT",
+   "name": "Nutrition",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-nut",
+     "label": "Nutrition test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 11
+  },
+  {
+   "code": "PATH",
+   "name": "Pathophysiology",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-path",
+     "label": "Pathophysiology test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 12
+  },
+  {
+   "code": "PHARM",
+   "name": "Pharmacology",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-pharm",
+     "label": "Pharmacology test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 13
+  },
+  {
+   "code": "WHD",
+   "name": "World Health & Disparities",
+   "category": "Health Science",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-whd",
+     "label": "World Health & Disparities test"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 14
+  },
+  {
+   "code": "BLS",
+   "name": "Biomedical Laboratory Science",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-bls",
+     "label": "Biomedical Laboratory Science test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 15
+  },
+  {
+   "code": "CLS",
+   "name": "Clinical Laboratory Science",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-cls",
+     "label": "Clinical Laboratory Science test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 16
+  },
+  {
+   "code": "CN",
+   "name": "Clinical Nursing",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-cn",
+     "label": "Clinical Nursing test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 17
+  },
+  {
+   "code": "DS",
+   "name": "Dental Science",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-ds",
+     "label": "Dental Science test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 18
+  },
+  {
+   "code": "FMP",
+   "name": "Family Medicine Physician",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-fmp",
+     "label": "Family Medicine Physician test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 19
+  },
+  {
+   "code": "HHA",
+   "name": "Home Health Aide",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-hha",
+     "label": "Home Health Aide test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 20
+  },
+  {
+   "code": "MA",
+   "name": "Medical Assisting",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-ma",
+     "label": "Medical Assisting test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 21
+  },
+  {
+   "code": "NA",
+   "name": "Nursing Assisting",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-na",
+     "label": "Nursing Assisting test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 22
+  },
+  {
+   "code": "PCT",
+   "name": "Patient Care Technician",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-pct",
+     "label": "Patient Care Technician test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 23
+  },
+  {
+   "code": "PC",
+   "name": "Personal Care",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-pc",
+     "label": "Personal Care test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 24
+  },
+  {
+   "code": "PS",
+   "name": "Pharmacy Science",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-ps",
+     "label": "Pharmacy Science test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 25
+  },
+  {
+   "code": "PHLEB",
+   "name": "Phlebotomy",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-phleb",
+     "label": "Phlebotomy test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 26
+  },
+  {
+   "code": "PT",
+   "name": "Physical Therapy",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-pt",
+     "label": "Physical Therapy test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 27
+  },
+  {
+   "code": "SM",
+   "name": "Sports Medicine",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-sm",
+     "label": "Sports Medicine test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 28
+  },
+  {
+   "code": "VS",
+   "name": "Veterinary Science",
+   "category": "Health Professions",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-vs",
+     "label": "Veterinary Science test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 29
+  },
+  {
+   "code": "CERT",
+   "name": "CERT Skills",
+   "category": "Emergency Preparedness",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-cert",
+     "label": "CERT Skills test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 30
+  },
+  {
+   "code": "CPRFA",
+   "name": "CPR/First Aid",
+   "category": "Emergency Preparedness",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-cprfa",
+     "label": "CPR/First Aid test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 31
+  },
+  {
+   "code": "EMT",
+   "name": "Emergency Medical Technician",
+   "category": "Emergency Preparedness",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-emt",
+     "label": "Emergency Medical Technician test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 32
+  },
+  {
+   "code": "EPI",
+   "name": "Epidemiology",
+   "category": "Emergency Preparedness",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-epi",
+     "label": "Epidemiology test"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [],
+   "position": 33
+  },
+  {
+   "code": "MCI",
+   "name": "Mass Casualty Incident",
+   "category": "Emergency Preparedness",
+   "formatLabel": "Knowledge Test + Skills",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-mci",
+     "label": "Mass Casualty Incident test"
+    },
+    "production": {
+     "label": "Skills performance"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "procedure",
+     "label": "Follows correct procedure",
+     "description": "Performs steps in the expected order."
+    },
+    {
+     "id": "safety",
+     "label": "Safety and infection control",
+     "description": "Observes safety and standard precautions."
+    },
+    {
+     "id": "communication",
+     "label": "Communication",
+     "description": "Explains actions clearly and professionally."
+    },
+    {
+     "id": "knowledge",
+     "label": "Applied knowledge",
+     "description": "Explains why each step matters."
+    }
+   ],
+   "position": 34
+  },
+  {
+   "code": "PH",
+   "name": "Public Health",
+   "category": "Emergency Preparedness",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-epi",
+     "label": "Public health and epidemiology"
+    }
+   },
+   "team": "individual or team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 35
+  },
+  {
+   "code": "EHP",
+   "name": "Extemporaneous Health Poster",
+   "category": "Leadership",
+   "formatLabel": "Poster",
+   "components": {
+    "presentation": {
+     "label": "Poster"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 36
+  },
+  {
+   "code": "EW",
+   "name": "Extemporaneous Writing",
+   "category": "Leadership",
+   "formatLabel": "Writing",
+   "components": {
+    "written": {
+     "label": "Essay"
+    },
+    "presentation": {
+     "label": "Writing"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 37
+  },
+  {
+   "code": "HCP",
+   "name": "Health Career Photography",
+   "category": "Leadership",
+   "formatLabel": "Photography",
+   "components": {
+    "presentation": {
+     "label": "Photography"
+    },
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Health careers"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 38
+  },
+  {
+   "code": "HL",
+   "name": "Healthy Living",
+   "category": "Leadership",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-nut",
+     "label": "Nutrition and healthy living"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 39
+  },
+  {
+   "code": "IS",
+   "name": "Interviewing Skills",
+   "category": "Leadership",
+   "formatLabel": "Interview",
+   "components": {
+    "interview": {},
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Career development"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 40
+  },
+  {
+   "code": "JSS",
+   "name": "Job Seeking Skills",
+   "category": "Leadership",
+   "formatLabel": "Interview",
+   "components": {
+    "interview": {},
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Career development"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 41
+  },
+  {
+   "code": "PSP",
+   "name": "Prepared Speaking",
+   "category": "Leadership",
+   "formatLabel": "Speech",
+   "components": {
+    "presentation": {
+     "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 42
+  },
+  {
+   "code": "RPSW",
+   "name": "Researched Persuasive Speaking & Writing",
+   "category": "Leadership",
+   "formatLabel": "Writing + Speech",
+   "components": {
+    "written": {
+     "label": "Essay"
+    },
+    "presentation": {
+     "label": "Writing + Speech"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 43
+  },
+  {
+   "code": "SS",
+   "name": "Speaking Skills",
+   "category": "Leadership",
+   "formatLabel": "Speech",
+   "components": {
+    "presentation": {
+     "label": "Speech"
+    },
+    "knowledge": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare issues"
+    }
+   },
+   "team": "individual",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 44
+  },
+  {
+   "code": "CA",
+   "name": "Community Awareness",
+   "category": "Teamwork",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "Community and world health"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 45
+  },
+  {
+   "code": "CPS",
+   "name": "Creative Problem Solving",
+   "category": "Teamwork",
+   "formatLabel": "Test + Presentation",
+   "components": {
+    "presentation": {
+     "label": "Test + Presentation"
+    },
+    "exam": {
+     "clusterId": "hosa-cps",
+     "label": "Creative Problem Solving test"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 46
+  },
+  {
+   "code": "FS",
+   "name": "Forensic Science",
+   "category": "Teamwork",
+   "formatLabel": "Test + Skills",
+   "components": {
+    "presentation": {
+     "label": "Test + Skills"
+    },
+    "exam": {
+     "clusterId": "hosa-fs",
+     "label": "Forensic Science test"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 47
+  },
+  {
+   "code": "HCD",
+   "name": "Health Career Display",
+   "category": "Teamwork",
+   "formatLabel": "Display + Presentation",
+   "components": {
+    "presentation": {
+     "label": "Display + Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-atccd",
+     "label": "Health careers"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 48
+  },
+  {
+   "code": "HE",
+   "name": "Health Education",
+   "category": "Teamwork",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "Community and world health"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 49
+  },
+  {
+   "code": "HIE",
+   "name": "Healthcare Issues Exam",
+   "category": "Teamwork",
+   "formatLabel": "Knowledge Test",
+   "components": {
+    "presentation": {
+     "label": "Knowledge Test"
+    },
+    "exam": {
+     "clusterId": "hosa-hie",
+     "label": "Healthcare Issues Exam test"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 50
+  },
+  {
+   "code": "HOB",
+   "name": "HOSA Bowl",
+   "category": "Teamwork",
+   "formatLabel": "Test + Bowl",
+   "components": {
+    "presentation": {
+     "label": "Test + Bowl"
+    },
+    "exam": {
+     "clusterId": "hosa-hob",
+     "label": "HOSA Bowl test"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 51
+  },
+  {
+   "code": "MI",
+   "name": "Medical Innovation",
+   "category": "Teamwork",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-bet",
+     "label": "Biomedical technology"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 52
+  },
+  {
+   "code": "PP",
+   "name": "Parliamentary Procedure",
+   "category": "Teamwork",
+   "formatLabel": "Test + Presentation",
+   "components": {
+    "presentation": {
+     "label": "Test + Presentation"
+    },
+    "exam": {
+     "clusterId": "hosa-pp",
+     "label": "Parliamentary Procedure test"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 53
+  },
+  {
+   "code": "PSA",
+   "name": "Public Service Announcement",
+   "category": "Teamwork",
+   "formatLabel": "Video + Presentation",
+   "components": {
+    "presentation": {
+     "label": "Video + Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "Community and world health"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 54
+  },
+  {
+   "code": "GHI",
+   "name": "Global Health Issues",
+   "category": "Teamwork",
+   "formatLabel": "Presentation",
+   "components": {
+    "presentation": {
+     "label": "Presentation"
+    },
+    "knowledge": {
+     "clusterId": "hosa-whd",
+     "label": "World health"
+    }
+   },
+   "team": "team",
+   "verification": "unverified",
+   "rubric": [
+    {
+     "id": "requirements",
+     "label": "Addresses event requirements",
+     "description": "Covers every required element of the event guidelines."
+    },
+    {
+     "id": "content",
+     "label": "Content knowledge",
+     "description": "Accurate, relevant application of concepts."
+    },
+    {
+     "id": "organization",
+     "label": "Organization and clarity",
+     "description": "Logical structure that is easy to follow."
+    },
+    {
+     "id": "evidence",
+     "label": "Supporting evidence",
+     "description": "Uses data, examples or research to back up claims."
+    },
+    {
+     "id": "delivery",
+     "label": "Professional communication",
+     "description": "Delivery, eye contact, voice, poise."
+    },
+    {
+     "id": "qa",
+     "label": "Response to questions",
+     "description": "Answers judge questions directly and accurately."
+    }
+   ],
+   "position": 55
+  },
+  {
+   "code": "ATCBIO",
+   "name": "ATC: Biology",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcbio",
+     "label": "Biology test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 56
+  },
+  {
+   "code": "ATCBC",
+   "name": "ATC: Biochemistry",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcbc",
+     "label": "Biochemistry test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 57
+  },
+  {
+   "code": "ATCCD",
+   "name": "ATC: Career Development",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atccd",
+     "label": "Career Development test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 58
+  },
+  {
+   "code": "ATCEH",
+   "name": "ATC: Environmental Health",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atceh",
+     "label": "Environmental Health test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 59
+  },
+  {
+   "code": "ATCGC",
+   "name": "ATC: General Chemistry",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcgc",
+     "label": "General Chemistry test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 60
+  },
+  {
+   "code": "ATCHH",
+   "name": "ATC: Human Heredity",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atchh",
+     "label": "Human Heredity test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 61
+  },
+  {
+   "code": "ATCMHP",
+   "name": "ATC: Math for Health Professionals",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcmhp",
+     "label": "Math for Health Professionals test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 62
+  },
+  {
+   "code": "ATCMIC",
+   "name": "ATC: Microbiology",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcmic",
+     "label": "Microbiology test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 63
+  },
+  {
+   "code": "ATCOC",
+   "name": "ATC: Organic Chemistry",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcoc",
+     "label": "Organic Chemistry test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 64
+  },
+  {
+   "code": "ATCPHY",
+   "name": "ATC: Physics College",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcphy",
+     "label": "Physics College test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 65
+  },
+  {
+   "code": "ATCFM",
+   "name": "ATC: AAFP Family Medicine Career Test",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcfm",
+     "label": "AAFP Family Medicine Career Test test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 66
+  },
+  {
+   "code": "ATCLD",
+   "name": "ATC: Leadership",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcld",
+     "label": "Leadership test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 67
+  },
+  {
+   "code": "ATCOSH",
+   "name": "ATC: Occupational Safety & Health",
+   "category": "Academic Test Center",
+   "formatLabel": "Online Knowledge Test",
+   "components": {
+    "exam": {
+     "clusterId": "hosa-atcosh",
+     "label": "Occupational Safety & Health test"
+    }
+   },
+   "team": "individual",
+   "verification": "reference_observed",
+   "rubric": [],
+   "position": 68
+  }
+ ]
+}

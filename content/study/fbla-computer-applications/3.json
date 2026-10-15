@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Databases, presentations and file management",
+    "objective": "Design simple databases, build clear presentations, and manage and share files across applications.",
+    "body": "The Computer Applications test also checks that you can store information in a database, present it with slides and move it safely between programs. These items reward precise vocabulary.\n\n**Database structure.** A *database* is an organized collection of related data. A *table* stores data about one subject. Each *record* (row) describes one item, such as one customer, and each *field* (column) holds one attribute, such as a phone number. Every field has a *data type*, such as short text, number, currency, date/time or yes/no. Store ZIP codes and phone numbers as text, because they are never used in math and may begin with a zero. A *primary key* uniquely identifies each record, such as a customer ID. A *foreign key* in another table refers to that key, creating a *relationship*; in a *one-to-many* relationship, one customer can have many orders.\n\n**Database objects.**\n- *Query*: asks a question of the data, such as all orders over $100 placed in May, using *criteria* and sorting.\n- *Form*: a user-friendly screen for entering and viewing one record at a time.\n- *Report*: a formatted printout or summary of data, often grouped with subtotals.\n\n**Presentations.** Plan the message before the slides. Keep text short, using a guideline such as *6x6* (no more than about six bullets of about six words each), choose high-contrast colors and readable fonts, generally 24 points or larger for body text, and present one main idea per slide. The *slide master* controls the layout, fonts and logo on every slide, so a change there updates the whole deck. A *transition* is the effect between slides; an *animation* is an effect applied to an object on a slide. *Speaker notes* hold your talking points without cluttering the screen.\n\n**Files and integration.** A *file extension* identifies the file type: .docx (word processing), .xlsx (spreadsheet), .pptx (presentation), .pdf (fixed layout for sharing) and .csv (plain-text data separated by commas, easy to import into a spreadsheet or database). When you place spreadsheet data in a report, *linking* keeps a connection so the report updates when the source file changes, while *embedding* stores a separate copy that does not update. Use clear file names and folders, and protect work with regular backups, such as the 3-2-1 rule: three copies, on two types of storage, with one kept off-site or in the cloud.\n\n**Common mistake:** confusing a record with a field. A record is a whole row about one item; a field is one category of data that appears in every row.",
+    "examples": [
+      "A school store database has a Products table (primary key ProductID) and a Sales table that stores ProductID as a foreign key. One product can appear in many sales: a one-to-many relationship.",
+      "A query with the criteria Grade = 11 and Hours >= 20 lists every junior who has logged at least 20 volunteer hours, and a report then groups them by homeroom with totals.",
+      "A treasurer links a budget chart from a spreadsheet into the monthly slide deck. When the spreadsheet is updated, the chart in the presentation updates too."
+    ],
+    "questions": [
+      {
+        "stem": "In a customer table, which field is the best choice for the primary key?",
+        "choices": ["Last name", "City", "Customer ID number", "Date of first purchase"],
+        "answer": 2,
+        "explanation": "A primary key must be unique for every record, and an assigned ID guarantees that. Many customers can share a last name, city or purchase date."
+      },
+      {
+        "stem": "Which data type is best for a ZIP code field that includes values such as 02134?",
+        "choices": ["Short text", "Number", "Currency", "Yes/No"],
+        "answer": 0,
+        "explanation": "ZIP codes are never used in calculations, and a number field would drop the leading zero. Text stores the code exactly as entered."
+      },
+      {
+        "stem": "A manager wants to retrieve only the orders over $100 placed in May, sorted by amount. Which database object should be created?",
+        "choices": ["Form", "Table", "Report", "Query"],
+        "answer": 3,
+        "explanation": "A query uses criteria to select and sort specific records. A form is for entering or viewing one record at a time, and a report formats data for printing."
+      },
+      {
+        "stem": "One customer can place many orders, and each order belongs to exactly one customer. Which relationship exists between the Customers and Orders tables?",
+        "choices": ["One-to-one", "One-to-many", "Many-to-many", "No relationship"],
+        "answer": 1,
+        "explanation": "Each customer record can match many order records, but each order matches only one customer, which is a one-to-many relationship."
+      },
+      {
+        "stem": "A designer wants the company logo in the same position on every slide and wants to update it in only one place if the logo changes. Which tool should be used?",
+        "choices": ["Slide transition", "Animation pane", "Slide master", "Speaker notes"],
+        "answer": 2,
+        "explanation": "Items placed on the slide master appear on every slide that uses its layouts, so one change updates the whole presentation."
+      },
+      {
+        "stem": "Which statement correctly describes the difference between a transition and an animation?",
+        "choices": ["A transition is the effect between slides; an animation is an effect on an object within a slide", "An animation is the effect between slides; a transition moves an object within a slide", "Transitions appear only in printed handouts; animations appear only on screen", "Animations can be applied only to the title slide of a presentation"],
+        "answer": 0,
+        "explanation": "Transitions control how one slide changes to the next. Animations make individual objects, such as a bullet or chart, enter, exit or move."
+      },
+      {
+        "stem": "Monthly figures in a spreadsheet change often, and a report must always show the latest numbers. How should the data be placed in the report?",
+        "choices": ["As an embedded object", "As a screenshot image", "As a retyped table", "As a linked object"],
+        "answer": 3,
+        "explanation": "A linked object stays connected to the source file and updates when the spreadsheet changes. An embedded object is a separate copy that does not update."
+      },
+      {
+        "stem": "A team must send a finished brochure that should look the same on any device and be hard to change by accident. Which file format is best?",
+        "choices": [".csv", ".pdf", ".xlsx", ".txt"],
+        "answer": 1,
+        "explanation": "PDF files keep a fixed layout across devices and are not easily edited by accident. CSV and TXT files hold plain text and lose all design."
+      }
+    ],
+    "flashcards": [
+      { "term": "Record", "definition": "One row in a database table containing all the fields of data about a single item, such as one customer." },
+      { "term": "Primary key", "definition": "A field whose value uniquely identifies each record in a database table, such as a student ID." },
+      { "term": "Query", "definition": "A database object that retrieves records meeting set criteria, often sorted or combined from several tables." },
+      { "term": "Slide master", "definition": "The top-level slide that controls layouts, fonts, colors and logos for every slide in a presentation." },
+      { "term": "Linked object", "definition": "Data placed in a file that stays connected to its source file and updates when the source changes." }
+    ]
+  }
+]

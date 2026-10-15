@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Chromosomal disorders, genetic testing and ethical issues",
+    "objective": "Explain how nondisjunction and structural changes cause chromosomal disorders, compare genetic testing methods, and evaluate ethical and privacy issues in human genetics.",
+    "body": "Some genetic conditions come from changes in a single gene, but others involve whole chromosomes or large chromosome segments. Recognizing these errors and the tools used to detect them is central to modern genetic health care.\n\n**Mutations.** A **mutation** is a change in DNA sequence. A **point mutation** alters one base: a **missense** change swaps one amino acid (as in sickle cell disease), a **nonsense** change creates an early stop codon, and a **frameshift** from an insertion or deletion shifts the reading frame. Mutations can be inherited (germline) or arise in body cells (somatic), as in many cancers.\n\n**Numerical chromosome changes.** **Nondisjunction** is the failure of chromosomes to separate during meiosis, producing gametes with an extra or missing chromosome. The result is **aneuploidy**.\n- **Trisomy 21 (Down syndrome):** three copies of chromosome 21; risk rises with maternal age.\n- **Trisomy 18 (Edwards) and trisomy 13 (Patau):** severe and often life-limiting.\n- **Turner syndrome (45,X):** one X chromosome in a female; short stature and ovarian insufficiency are common.\n- **Klinefelter syndrome (47,XXY):** an extra X in a male; often reduced fertility.\n\n**Structural changes** include deletions (cri-du-chat is a deletion on chromosome 5), duplications, inversions and **translocations**, where segments move between chromosomes. A balanced translocation carrier is usually healthy but can have pregnancies with unbalanced chromosomes.\n\n**Detecting genetic changes.**\n- A **karyotype** is an organized picture of a cell's chromosomes, used to spot aneuploidy and large structural changes.\n- **Chromosomal microarray** finds smaller deletions and duplications.\n- **DNA sequencing**, including exome and genome sequencing, detects single-base changes.\n- **Prenatal screening**, such as cell-free DNA testing of maternal blood, estimates risk; **diagnostic tests** such as amniocentesis and chorionic villus sampling confirm results.\n- **Newborn screening** uses a heel-prick blood spot to catch treatable conditions like phenylketonuria (PKU) early.\n\n**Ethics and privacy.** **Genetic counselors** help families understand risk, testing options and results without directing their choices. In the United States, the **Genetic Information Nondiscrimination Act (GINA)** of 2008 bars health insurers and most employers from using genetic information to discriminate, but it does not cover life, disability or long-term care insurance. Informed consent, privacy of direct-to-consumer test data and gene-editing tools like CRISPR raise ongoing debate.\n\n**Most common mistake:** treating a screening result as a diagnosis. A high-risk cell-free DNA screen only flags a pregnancy for follow-up; a diagnostic test such as amniocentesis is needed to confirm a chromosomal condition.",
+    "examples": [
+      "A karyotype of a newborn shows 47 chromosomes with three copies of chromosome 21, confirming trisomy 21 caused most often by nondisjunction in the egg.",
+      "A newborn's heel-prick screen flags high phenylalanine, prompting confirmatory testing for PKU so dietary treatment can start early.",
+      "An employee learns GINA prevents her employer from using her BRCA1 test result in hiring, but she discovers GINA does not stop a life insurer from asking about it."
+    ],
+    "questions": [
+      {
+        "stem": "A karyotype shows 45 chromosomes with a single X and no Y. Which condition does this indicate?",
+        "choices": [
+          "Klinefelter syndrome",
+          "Turner syndrome",
+          "Down syndrome",
+          "Cri-du-chat syndrome"
+        ],
+        "answer": 1,
+        "explanation": "45,X is Turner syndrome. Klinefelter is 47,XXY, which has an extra X rather than a missing sex chromosome."
+      },
+      {
+        "stem": "During meiosis, a pair of chromosome 21 homologs fails to separate. What process is this?",
+        "choices": [
+          "Crossing over",
+          "Translocation",
+          "Nondisjunction",
+          "Frameshift mutation"
+        ],
+        "answer": 2,
+        "explanation": "Failure of chromosomes to separate is nondisjunction, which produces aneuploid gametes. A translocation moves a segment between chromosomes rather than changing the count."
+      },
+      {
+        "stem": "A single DNA base change replaces glutamic acid with valine in a hemoglobin chain. What kind of mutation is this?",
+        "choices": [
+          "Missense mutation",
+          "Nonsense mutation",
+          "Frameshift mutation",
+          "Chromosomal deletion"
+        ],
+        "answer": 0,
+        "explanation": "One amino acid swapped for another is a missense mutation, the cause of sickle cell disease. A nonsense mutation would create a stop codon and shorten the protein."
+      },
+      {
+        "stem": "A pregnant patient receives a high-risk cell-free DNA screening result for trisomy 18. What is the most appropriate next step?",
+        "choices": [
+          "Treat the result as a confirmed diagnosis",
+          "Repeat the same screen until it is negative",
+          "Ignore it because screens are unreliable",
+          "Offer genetic counseling and a diagnostic test such as amniocentesis"
+        ],
+        "answer": 3,
+        "explanation": "Screening estimates risk; diagnosis requires a test like amniocentesis or CVS, ideally after counseling. Treating the screen as a diagnosis is the classic error the counselor must prevent."
+      },
+      {
+        "stem": "A job applicant worries her employer will see her genetic test results. Under GINA, which statement is accurate?",
+        "choices": [
+          "Employers with 15 or more employees generally cannot use genetic information in hiring",
+          "GINA protects her from life insurance discrimination",
+          "GINA bans all genetic testing in the workplace",
+          "GINA only applies to federal employees"
+        ],
+        "answer": 0,
+        "explanation": "GINA bars most employers (15+ employees) and health insurers from using genetic information. It does not cover life, disability or long-term care insurance, so that distractor is wrong."
+      },
+      {
+        "stem": "A healthy woman has had several miscarriages. Her karyotype shows chromosome segments exchanged between chromosomes 14 and 21 with no missing material. What best explains her history?",
+        "choices": [
+          "Trisomy 13",
+          "Turner syndrome",
+          "Balanced translocation",
+          "Point mutation"
+        ],
+        "answer": 2,
+        "explanation": "A balanced translocation carrier is usually healthy but can produce gametes with unbalanced chromosomes, leading to miscarriage. Trisomy 13 would affect her own development, not just her pregnancies."
+      },
+      {
+        "stem": "A lab needs to detect a single-base change in the CFTR gene. Which test is best suited?",
+        "choices": [
+          "Standard karyotype",
+          "DNA sequencing",
+          "Chromosome count",
+          "Blood typing"
+        ],
+        "answer": 1,
+        "explanation": "Sequencing reads individual bases, so it detects point mutations. A karyotype only shows large changes in chromosome number or structure."
+      },
+      {
+        "stem": "Why does newborn screening include phenylketonuria (PKU)?",
+        "choices": [
+          "It is the most common chromosomal disorder",
+          "It can only be detected in adults",
+          "It is caused by an extra chromosome",
+          "Early detection allows treatment that prevents serious harm"
+        ],
+        "answer": 3,
+        "explanation": "PKU is a treatable autosomal recessive metabolic disorder, and early dietary management prevents intellectual disability. It is a single-gene condition, not a chromosomal disorder."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Nondisjunction",
+        "definition": "The failure of homologous chromosomes or sister chromatids to separate during cell division, causing aneuploidy."
+      },
+      {
+        "term": "Aneuploidy",
+        "definition": "Having an abnormal number of chromosomes, such as 45 or 47 instead of 46."
+      },
+      {
+        "term": "Karyotype",
+        "definition": "An organized image of a cell's chromosomes used to detect changes in number and large structural changes."
+      },
+      {
+        "term": "Translocation",
+        "definition": "A structural change in which a chromosome segment moves to a different chromosome."
+      },
+      {
+        "term": "GINA",
+        "definition": "A 2008 U.S. law that bars health insurers and most employers from discriminating based on genetic information."
+      }
+    ]
+  }
+]

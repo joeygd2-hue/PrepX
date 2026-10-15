@@ -1,0 +1,233 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+.ctr{position:absolute;left:0;right:0;text-align:center}
+.t1{font-size:50px;font-weight:600;letter-spacing:-.05em;line-height:1.05}
+.chaos{position:absolute;display:flex;align-items:center;gap:8px;font-size:14px;padding:10px 14px;border-radius:14px;white-space:nowrap;box-shadow:0 20px 40px -14px rgba(0,0,0,.8)}
+.emo{position:absolute;font-size:40px;font-family:'Noto Color Emoji';filter:drop-shadow(0 0 14px rgba(255,200,60,.65))}
+.fcard{position:absolute;width:236px;background:linear-gradient(180deg,#161618,#101012);border:1px solid var(--border2);border-radius:20px;padding:14px;box-shadow:0 30px 60px -20px rgba(0,0,0,.95)}
+.fcard .eyebrow{font-size:8.5px}
+.scr{position:absolute;left:50%;top:0;width:400px;margin-left:-200px;background:#0b0b0c;border:1px solid var(--border2);border-radius:34px;padding:22px 18px;box-shadow:0 60px 120px -30px rgba(0,0,0,1),0 0 0 6px #18181b}
+.tl{background:var(--subtle);border:1px solid var(--border);border-radius:18px;padding:14px;height:112px;display:flex;flex-direction:column;justify-content:space-between}
+.tl .ic{width:32px;height:32px;border-radius:10px;background:var(--subtle2);display:grid;place-items:center;color:var(--fg)}
+.tl b{font-size:15px;letter-spacing:-.02em}
+.tl span{font-size:11px;color:var(--muted)}
+.term{padding:0 3px;border-radius:5px;background-repeat:no-repeat}
+.orb{position:absolute;width:46px;height:46px;margin:-23px;border-radius:14px;background:#f2f2ec;color:#0c0c0d;display:grid;place-items:center;box-shadow:0 10px 30px -6px rgba(0,0,0,.8)}
+#content{transform:translate(0,-30px) scale(.89)!important}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script src="icons.js"></script>
+<script>
+const B=[3.41,3.83,4.25,4.67,5.06,5.48,5.9,6.32,6.73,7.15,7.55,7.96,8.38,8.85,9.31,9.8,10.22,10.63,11.05,11.47,11.89,12.28,12.72,13.12,13.54,13.96,14.37,14.79,15.19,15.6,16.02,16.44,16.83,17.25,17.67,18.09,18.51,18.92,19.34,19.74,20.15,20.57,20.99,21.41,21.8,22.24,22.66,23.08,23.5,23.89,24.31,24.73,25.15,25.54,25.96,26.38,26.8,27.21,27.63,28.05,28.44,28.86,29.28];
+const DROP=9.8, H=25.15, END=32.0;
+const CURSOR=`<svg width="30" height="34" viewBox="0 0 20 22" style="filter:drop-shadow(0 4px 8px rgba(0,0,0,.6))"><path d="M3 2 L3 18.5 L7.4 14.4 L10.4 21 L13.3 19.7 L10.4 13.2 L16.4 13.2 Z" fill="#fff" stroke="#111" stroke-width="1.2" stroke-linejoin="round"/></svg>`;
+const MARK=s=>`<svg width="${s}" height="${s}" viewBox="0 0 32 32"><rect width="32" height="32" rx="10" fill="#f2f2ec"/><path d="M10 10 L14 14 M18 18 L22 22" stroke="#09090a" stroke-width="3" stroke-linecap="round"/><path d="M10 22 L22 10" stroke="#09090a" stroke-width="3" stroke-linecap="round"/><path d="M16.2 10 H22 V15.8" fill="none" stroke="#7fa312" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const tile=(ic,title,sub,tone='')=>`<div class="tl" style="${tone==='accent'?'background:#c6f03a;color:#0c0c0d;border-color:transparent':tone==='hero'?'background:#18181b':''}"><div class="ic" style="${tone==='accent'?'background:rgba(0,0,0,.12);color:#0c0c0d':''}">${icon(ic,17)}</div><div><b>${title}</b><br><span style="${tone==='accent'?'color:rgba(12,12,13,.7)':''}">${sub}</span></div></div>`;
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="s1">
+  <div class="ctr t1" style="top:330px"><span class="w">Your</span><span class="w">prep</span><span class="w">gets</span></div>
+  <div class="ctr serif" style="top:392px;font-size:124px;line-height:1"><span class="w" id="messy" style="color:#ff5c70">messy.</span></div>
+  <div class="chaos" id="c0" style="left:40px;top:200px;background:#1b1b1e;border:1px solid var(--border2)">${icon('file-text',16,'#8d8d86')}practice_test_2019 (3).pdf</div>
+  <div class="chaos" id="c1" style="left:250px;top:560px;background:#2a2a30;border-radius:18px 18px 4px 18px">anyone have the rubric??</div>
+  <div class="chaos" id="c2" style="left:60px;top:610px;background:#f6c34a;color:#2a2000;font-weight:600;transform:rotate(-5deg)">states is WHEN</div>
+  <div class="chaos" id="c3" style="left:300px;top:250px;background:#1b1b1e;border:1px solid var(--border2)">47 tabs open</div>
+  <div class="emo" id="e0" style="left:70px;top:270px">😩</div><div class="emo" id="e1" style="left:440px;top:230px">🤯</div><div class="emo" id="e2" style="left:230px;top:520px">😵</div>
+  <div id="cur1" style="position:absolute;left:0;top:0">${CURSOR}</div>
+</div>
+<div class="scene" id="s2"><div id="s2in" style="position:absolute;inset:0">
+  <div class="ctr t1" style="top:380px"><span class="w">What</span><span class="w">if</span><span class="w">it</span><span class="w">didn't</span></div>
+  <div class="ctr t1" style="top:438px"><span class="w">have</span><span class="w">to</span><span class="w serif" style="color:var(--accent);font-size:1.2em">be?</span></div></div>
+</div>
+<div class="scene" id="s3">
+  <div class="ctr t1" style="top:390px;font-size:58px" id="w0">Lessons.</div>
+  <div class="ctr serif" style="top:446px;font-size:76px;color:var(--accent);line-height:1" id="w1">Practice.</div>
+  <div class="ctr t1" style="top:530px;font-size:58px" id="w2">Roleplays.</div>
+  <div class="fcard" id="f0" style="left:270px;top:150px"><div class="eyebrow" style="color:var(--hosa)">HOSA · Lesson 3</div><div style="font-size:15px;font-weight:600;margin-top:6px">Word parts</div><div style="font-size:12px;color:#c9c9c2;margin-top:6px;line-height:1.45">A <span style="background:rgba(240,102,143,.3);border-radius:4px;padding:0 3px;color:#fff">suffix</span> finishes the word, like <i>-itis</i>.</div></div>
+  <div class="fcard" id="f1" style="left:30px;top:640px"><div class="eyebrow" style="color:var(--fbla)">FBLA · Practice exam</div><div style="font-size:13px;font-weight:600;margin-top:6px">Assets = Liabilities + ?</div><div style="margin-top:8px;height:30px;border-radius:10px;background:#f6c34a;color:#10203f;font-size:12px;font-weight:600;display:flex;align-items:center;padding:0 10px">C · Owner's equity <span style="margin-left:auto">✓</span></div></div>
+  <div class="fcard" id="f2" style="left:24px;top:170px;width:210px"><div class="eyebrow" style="color:var(--deca)">AI judge · DECA</div><div style="display:flex;align-items:baseline;gap:4px;margin-top:6px"><span style="font-size:30px;font-weight:600;letter-spacing:-.05em">91</span><span style="font-size:11px;color:var(--muted)">/100 practice score</span></div><div id="f2w" style="display:flex;gap:3px;align-items:center;height:20px;margin-top:4px"></div></div>
+</div>
+<div class="scene" id="s4">
+  <div class="ctr t1" style="top:300px;font-size:52px"><span class="w">For</span><span class="w">every</span><span class="w serif" id="evt" style="color:var(--accent);font-size:1.25em">event.</span></div>
+  <div class="orgt" data-x="70" data-y="392" style="position:absolute;left:70px;top:392px;width:190px;height:100px;border-radius:24px;background:linear-gradient(160deg,#5b9bff2e,#5b9bff10);border:1.5px solid #5b9bff99;box-shadow:0 0 50px -6px #2f6fd6aa,0 20px 40px -16px rgba(0,0,0,.9);padding:16px 18px"><div style="font-size:44px;font-weight:700;letter-spacing:-.05em;line-height:1;color:#5b9bff">DECA</div><div class="mono" style="margin-top:10px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#d9d9d2">Business &amp; marketing</div></div><div class="orgt" data-x="280" data-y="392" style="position:absolute;left:280px;top:392px;width:190px;height:100px;border-radius:24px;background:linear-gradient(160deg,#f6c34a2e,#f6c34a10);border:1.5px solid #f6c34a99;box-shadow:0 0 50px -6px #c99a1caa,0 20px 40px -16px rgba(0,0,0,.9);padding:16px 18px"><div style="font-size:44px;font-weight:700;letter-spacing:-.05em;line-height:1;color:#f6c34a">FBLA</div><div class="mono" style="margin-top:10px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#d9d9d2">Business leadership</div></div><div class="orgt" data-x="70" data-y="506" style="position:absolute;left:70px;top:506px;width:190px;height:100px;border-radius:24px;background:linear-gradient(160deg,#f0668f2e,#f0668f10);border:1.5px solid #f0668f99;box-shadow:0 0 50px -6px #c23b6aaa,0 20px 40px -16px rgba(0,0,0,.9);padding:16px 18px"><div style="font-size:44px;font-weight:700;letter-spacing:-.05em;line-height:1;color:#f0668f">HOSA</div><div class="mono" style="margin-top:10px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#d9d9d2">Health science</div></div><div class="orgt" data-x="280" data-y="506" style="position:absolute;left:280px;top:506px;width:190px;height:100px;border-radius:24px;background:linear-gradient(160deg,#ff5c702e,#ff5c7010);border:1.5px solid #ff5c7099;box-shadow:0 0 50px -6px #e0303faa,0 20px 40px -16px rgba(0,0,0,.9);padding:16px 18px"><div style="font-size:44px;font-weight:700;letter-spacing:-.05em;line-height:1;color:#ff5c70">TSA</div><div class="mono" style="margin-top:10px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#d9d9d2">Tech &amp; engineering</div></div>
+  <div id="seed" style="position:absolute;left:270px;top:452px;width:18px;height:18px;margin:-9px;border-radius:50%;background:var(--accent);box-shadow:0 0 30px #c6f03a"></div>
+</div>
+<div class="scene" id="s5">
+  <div id="btn" style="position:absolute;left:270px;top:452px;width:260px;height:64px;margin:-32px -130px;border-radius:99px;background:var(--accent);color:#0c0c0d;display:flex;align-items:center;justify-content:center;gap:10px;font-size:20px;font-weight:600;letter-spacing:-.03em;box-shadow:0 0 60px -10px #c6f03a,0 20px 40px -14px rgba(0,0,0,.9);overflow:hidden;white-space:nowrap"><span id="btxt">Start prepping →</span></div>
+  <div id="cur2" style="position:absolute;left:0;top:0">${CURSOR}</div>
+</div>
+<div class="scene" id="s6" style="perspective:1300px">
+  <div id="p1" style="position:absolute;left:0;top:0;width:540px;height:960px;transform-style:preserve-3d">
+    <div class="scr" id="scr1">
+      <div style="display:flex;align-items:center;justify-content:space-between"><div style="font-size:30px;font-weight:600;letter-spacing:-.05em">Study</div><span class="chip"><span class="dot" style="background:var(--deca)"></span>DECA · Marketing</span></div>
+      <div style="margin-top:16px;border-radius:24px;padding:18px;background:#18181b;border:1px solid var(--border);display:flex;align-items:center;gap:16px">
+        <svg width="78" height="78" viewBox="0 0 96 96"><circle cx="48" cy="48" r="40" fill="none" stroke="#26262a" stroke-width="10"/><circle id="ring1" cx="48" cy="48" r="40" fill="none" stroke="#c6f03a" stroke-width="10" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 48 48)"/></svg>
+        <div><div class="eyebrow">Readiness</div><div class="num" id="rd1" style="font-size:38px;font-weight:600;letter-spacing:-.05em">0%</div><div style="font-size:12px;color:var(--muted)">States in 23 days</div></div></div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px">
+        <div class="tl" style="height:74px"><span class="eyebrow">Streak</span><b class="num" style="font-size:22px">23 days</b></div><div class="tl" style="height:74px"><span class="eyebrow">Accuracy</span><b class="num" style="font-size:22px">86%</b></div><div class="tl" style="height:74px"><span class="eyebrow">Level</span><b class="num" style="font-size:22px">12</b></div></div>
+      <div class="eyebrow" style="margin:18px 0 10px">Practice</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">${tile('zap','Quick 10','Adaptive · your weak spots','accent')}${tile('book-open','Lessons','5 units · flip-through course')}${tile('file-text','Full practice exam','100 questions · timed')}${tile('repeat','Mistake notebook','12 to clear')}${tile('layers','Flashcards','86 key terms')}${tile('timer','60-second sprint','Beat your best: 14')}</div>
+      <div class="eyebrow" style="margin:18px 0 10px">Practice with AI</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">${tile('mic','AI judge','Roleplay out loud','hero')}${tile('swords','Duels','Challenge a friend')}${tile('target','Planner','5 days · 30 min')}${tile('trophy','Leaderboard','#2 in your chapter')}</div>
+    </div>
+  </div>
+  <div id="p2" style="position:absolute;left:0;top:0;width:540px;height:960px;transform-style:preserve-3d">
+    <div class="scr" id="scr2" style="top:120px">
+      <div style="display:flex;justify-content:space-between"><span class="eyebrow" style="color:var(--hosa)">HOSA · Medical Terminology</span><span class="eyebrow">4 min</span></div>
+      <div style="font-size:28px;font-weight:600;letter-spacing:-.04em;margin-top:8px">Word parts</div>
+      <div style="display:flex;gap:5px;margin-top:14px">${[1,1,0,0,0,0].map((f,i)=>`<div style="flex:1;height:4px;border-radius:9px;background:#1f1f22;overflow:hidden"><div class="sg" style="height:100%;width:${f*100}%;background:var(--hosa)"></div></div>`).join('')}</div>
+      <div style="font-size:18px;line-height:1.6;color:#d9d9d2;margin-top:20px">Medical terms are built from parts. A <span class="term" id="k0">prefix</span> comes first, the <span class="term" id="k1">root</span> carries the meaning, and a <span class="term" id="k2">suffix</span> finishes the word.</div>
+      <div id="pop2" style="margin-top:16px;background:#1b1b1e;border:1px solid var(--border2);border-radius:14px;padding:12px 14px"><div class="eyebrow" style="color:var(--hosa)">Key term</div><div style="font-size:14px;margin-top:4px"><b>Suffix</b> — a word ending that changes the meaning, like <i>-itis</i>.</div></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:18px"><span class="chip" style="color:var(--muted)">← Back</span><span class="eyebrow">Page 2 of 6</span><span class="chip" style="background:var(--hosa);color:#1a0710;border:0;font-weight:600">Next →</span></div>
+    </div>
+  </div>
+  <div id="p3" style="position:absolute;left:0;top:0;width:540px;height:960px;transform-style:preserve-3d">
+    <div class="scr" id="scr3" style="top:130px">
+      <div style="display:flex;justify-content:space-between;align-items:center"><span class="eyebrow" style="color:var(--deca)">AI judge · DECA · Hospitality</span><span class="chip mono" style="font-size:11px">Voice</span></div>
+      <div style="font-size:28px;font-weight:600;letter-spacing:-.04em;margin-top:8px">Roleplay</div>
+      <div style="margin-top:14px;background:var(--subtle);border:1px solid var(--border);border-radius:16px;padding:12px 14px;font-size:14px;line-height:1.4"><div class="eyebrow" style="margin-bottom:4px">Judge</div>“Why should a guest pick your hotel over the one next door?”</div>
+      <div id="wave3" style="display:flex;gap:4px;align-items:center;justify-content:center;height:60px;margin-top:12px"></div>
+      <div style="margin-top:8px;background:var(--subtle);border:1px solid var(--border);border-radius:18px;padding:16px">
+        <div class="eyebrow">Practice score</div><div style="display:flex;align-items:baseline;gap:6px"><span class="num" id="sc3" style="font-size:46px;font-weight:600;letter-spacing:-.05em">0</span><span style="color:var(--muted)">/100</span></div>
+        <div style="height:5px;border-radius:9px;background:#1f1f22;overflow:hidden;margin-top:6px"><div id="sb3" style="height:100%;width:0;background:var(--deca)"></div></div>
+        <div id="ck3" style="display:grid;gap:7px;margin-top:12px;font-size:13px">${['Clear, confident opening','Answered the follow-up','Strong close'].map(c=>`<div style="display:flex;gap:8px;align-items:center"><span style="width:16px;height:16px;border-radius:50%;background:var(--deca);display:grid;place-items:center;color:#0b1220;font-size:10px;font-weight:700">✓</span>${c}</div>`).join('')}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="scene" id="s7">
+  <div class="ctr t1" style="top:390px"><span class="w">Prep</span><span class="w">that</span><span class="w">actually</span></div>
+  <div class="ctr t1" style="top:452px;font-size:58px"><span class="w">makes</span> <span class="w" id="sense" style="position:relative;padding:0 6px;border-radius:8px">sense.<i id="hA" style="position:absolute;left:-2px;top:-6px;width:12px;height:12px;border-radius:50%;background:#c6f03a"></i><i id="hB" style="position:absolute;right:-2px;bottom:-6px;width:12px;height:12px;border-radius:50%;background:#c6f03a"></i></span></div>
+</div>
+<div class="scene" id="s8">
+  <div class="ctr t1" style="top:400px;font-size:64px" id="q10">Quick 10s.</div>
+  <div class="ctr" style="top:480px" id="q10s"><span class="chip">${icon('zap',13)} 10 questions · 3 minutes</span></div>
+  <div class="ctr t1" style="top:400px;font-size:64px" id="fx">Full <span class="serif" style="color:var(--accent);font-size:1.2em">exams.</span></div>
+  <div class="ctr" style="top:480px" id="fxs"><span class="chip">${icon('file-text',13)} 100 questions · just like test day</span></div>
+</div>
+<div class="scene" id="s9">
+  <svg id="rings" width="540" height="960" viewBox="0 0 540 960" style="position:absolute;left:0;top:0">
+    <defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c6f03a"/><stop offset=".35" stop-color="#5b9bff"/><stop offset=".7" stop-color="#f0668f"/><stop offset="1" stop-color="#f6c34a"/></linearGradient><filter id="rgb"><feGaussianBlur stdDeviation="6"/></filter></defs>
+    ${[115,175,235].map((r,i)=>`<g class="rg" data-i="${i}"><circle cx="270" cy="450" r="${r}" fill="none" stroke="url(#rg)" stroke-width="10" opacity=".35" filter="url(#rgb)" stroke-dasharray="${r*4.2} ${r*2.1}"/><circle cx="270" cy="450" r="${r}" fill="none" stroke="url(#rg)" stroke-width="2" stroke-dasharray="${r*4.2} ${r*2.1}" stroke-linecap="round"/></g>`).join('')}
+  </svg>
+  <div id="orbs"></div>
+  <div id="omark" style="position:absolute;left:270px;top:450px;width:78px;height:78px;margin:-39px;filter:drop-shadow(0 0 30px rgba(198,240,58,.6))">${MARK(78)}</div>
+  <div class="ctr t1" id="aio" style="top:425px"><span class="w">All</span><span class="w">in</span><span class="w">one</span><span class="w serif" style="color:var(--accent);font-size:1.2em">place.</span></div>
+</div>
+<div class="scene" id="s10">
+  <div id="lk" style="position:absolute;left:0;right:0;top:380px;display:flex;align-items:center;justify-content:center;gap:16px">
+    <div id="lkm">${MARK(92)}</div>
+    <div id="lkw" style="font-size:70px;font-weight:600;letter-spacing:-.055em;line-height:1.1;overflow:hidden;white-space:nowrap">Prep<span class="serif" style="font-size:1.15em;letter-spacing:0;color:var(--accent)">X</span></div>
+  </div>
+  <div class="ctr" id="tg" style="top:506px;font-size:22px;letter-spacing:-.03em;color:#c9c9c2;height:30px"></div>
+  <div class="ctr" id="fr" style="top:552px"><span class="chip" style="background:var(--accent);color:#0c0c0d;border:0;font-weight:600">Free to start</span></div>
+</div>`));
+// waveform bars & orbit icons
+for(let i=0;i<14;i++)$('f2w').insertAdjacentHTML('beforeend','<div style="width:3px;border-radius:2px;background:#5b9bff"></div>');
+for(let i=0;i<30;i++)$('wave3').insertAdjacentHTML('beforeend','<div style="width:4px;border-radius:3px;background:#f2f2ec"></div>');
+const ORB=[['book-open',0,0],['mic',1,1.2],['layers',2,2.3],['trophy',0,3.4],['calendar',1,4.4],['flame',2,5.3],['swords',1,2.9],['target',2,0.9],['timer',0,1.7]];
+ORB.forEach(([n])=>$('orbs').insertAdjacentHTML('beforeend',`<div class="orb">${icon(n,22,'#0c0c0d',2.2)}</div>`));
+[['#5b9bff',0,.6],['#f6c34a',1,3.6],['#f0668f',2,4.0],['#ff5c70',0,5.2]].forEach(([c,r,a])=>{$('orbs').insertAdjacentHTML('beforeend',`<div class="odot" data-r="${r}" data-a="${a}" style="position:absolute;width:16px;height:16px;margin:-8px;border-radius:50%;background:${c};box-shadow:0 0 18px ${c}"></div>`)});
+const TAG='Every event. One place.';
+
+window.render=function(t){
+  const l=lastBeat(B,t);const pulse=(t>=DROP&&t<END-1)?0.012*Math.exp(-(t-l)*9):0;const kick=t>=DROP?0.06*Math.exp(-(t-DROP)*6):0;
+  $('stage').style.transform=`scale(${(1+pulse+kick+.003*Math.sin(t*.7)).toFixed(4)})`;
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  // S1 messy
+  if(show('s1',t<1.75)){glow(G[0],270,450,200,'#ff5c70',.14*eo(p(t,.55,.3)));glow(G[1],150,300,120,'#f6c34a',.08*eo(p(t,.8,.3)));
+    [...$('s1').querySelectorAll('.ctr.t1 .w')].forEach((w,i)=>put(w,io(t,i*.18,99,.3,.1,20)));
+    const m=io(t,.58,99,.3,.1,10);m.s=lerp(.6,1,back(p(t,.58,.4)));put($('messy'),m);
+    const g=p(t,1.42,.33);const jit=g>0?Math.sin(t*97)*10*g:0;
+    $('messy').style.textShadow=g>0?`${(6*g+jit*.3).toFixed(1)}px 0 #ff2a6d,${(-6*g).toFixed(1)}px 0 #2af0ff`:'0 0 40px rgba(255,92,112,.5)';
+    $('s1').style.transform=g>0?`translateX(${jit.toFixed(1)}px) skewX(${(Math.sin(t*61)*8*g).toFixed(2)}deg)`:'none';$('s1').style.opacity=(1-eio(p(t,1.6,.15))).toFixed(3);
+    ['c0','c1','c2','c3'].forEach((id,i)=>{const a=.72+i*.13;const e=back(p(t,a,.4)),eb=eo(p(t,a,.25));const el=$(id);const base=id==='c2'?-5:0;
+      el.style.opacity=eb;el.style.transform=`translateY(${((1-eb)*20+Math.sin(t*2+i)*4).toFixed(1)}px) rotate(${(base+Math.sin(t*1.7+i)*2).toFixed(2)}deg) scale(${lerp(.6,1,e).toFixed(3)})`;});
+    ['e0','e1','e2'].forEach((id,i)=>{const a=.78+i*.12;const e=back(p(t,a,.4));$(id).style.opacity=eo(p(t,a,.2));$(id).style.transform=`translateY(${(Math.sin(t*3+i*2)*6).toFixed(1)}px) scale(${lerp(.3,1,e).toFixed(3)}) rotate(${(Math.sin(t*2.4+i)*10).toFixed(1)}deg)`;});
+    const cm=eio(p(t,.45,.5));const cx=lerp(470,300,cm),cy=lerp(760,470,cm);$('cur1').style.transform=`translate(${(cx+Math.sin(t*9)*2*(t>1)).toFixed(1)}px,${cy.toFixed(1)}px)`;$('cur1').style.opacity=eo(p(t,.4,.15));}
+  // S2 what if
+  if(show('s2',t>=1.75&&t<3.5)){words($('s2'),t,1.75,99,.13);const ex=eio(p(t,3.08,.4));
+    $('s2in').style.transform=`perspective(700px) rotateX(${(ex*62).toFixed(1)}deg) translateY(${(-ex*40).toFixed(1)}px) scale(${(1-.3*ex).toFixed(3)})`;$('s2in').style.opacity=(1-ex).toFixed(3);$('s2in').style.filter=ex>.02?`blur(${(ex*8).toFixed(1)}px)`:'none';}
+  // S3 lessons/practice/roleplays + floating cards
+  if(show('s3',t>=3.5&&t<6.45)){glow(G[0],270,470,210,'#c6f03a',.10*eo(p(t,4.55,.4))*(1-eio(p(t,6.2,.25))));
+    [['w0',3.6],['w1',4.55],['w2',5.4]].forEach(([id,a])=>{const s=io(t,a,6.45,.38,.25,26,30);s.s=lerp(.8,1,back(p(t,a,.45)));put($(id),s);});
+    [['f0',3.72,40,-30],['f1',4.62,-40,30],['f2',5.45,-40,-30]].forEach(([id,a,dx,dy],i)=>{const e=eo(p(t,a,.55)),o=eio(p(t,6.1,.35));const el=$(id);
+      el.style.opacity=(eo(p(t,a,.3))*(1-o)).toFixed(3);el.style.filter=e<.97||o>.02?`blur(${((1-e)*10+o*10).toFixed(1)}px)`:'none';
+      el.style.transform=`translate(${((1-e)*dx+o*dx*2+Math.sin(t*1.1+i)*4).toFixed(1)}px,${((1-e)*dy+o*dy*2+Math.cos(t*1.3+i)*5).toFixed(1)}px) rotate(${((1-e)*(i%2?-6:6)+Math.sin(t+i)*1.2).toFixed(2)}deg)`;});
+    [...$('f2w').children].forEach((b,i)=>b.style.height=(4+14*Math.abs(Math.sin(i*.9+t*9))).toFixed(1)+'px');}
+  // S4 for every event: four big org tiles, one per beat
+  if(show('s4',t>=6.5&&t<8.5)){const out=eio(p(t,8.04,.24));glow(G[0],270,450,200,'#c6f03a',.10*(1-out*.5));
+    [['#2f6fd6',165,442],['#c99a1c',375,442],['#c23b6a',165,556],['#e0303f',375,556]].forEach(([c,x,y],i)=>glow(G[i+1>3?3:i+1],x,y,95,c,.0));
+    [...$('s4').querySelectorAll('.ctr .w')].forEach((w,i)=>{const s=io(t,6.5+i*.12,99,.32,.1,24);s.o*=(1-out);s.bl+=out*14;s.s=(s.s??1)*(1-out*.4);put(w,s);});
+    [...$('s4').querySelectorAll('.orgt')].forEach((el,i)=>{const a=6.85+i*.15;const e=back(p(t,a,.42)),eb=eo(p(t,a,.28));
+      const cx=270-(+el.dataset.x+95),cy=452-(+el.dataset.y+50);const hit=t>=a?Math.exp(-(t-a)*7):0;
+      el.style.opacity=(eb*(1-out)).toFixed(3);el.style.filter=eb<.97||out>.02?`blur(${((1-eb)*12+out*10).toFixed(1)}px)`:'none';
+      el.style.transform=`translate(${(cx*out).toFixed(1)}px,${((1-eb)*30+cy*out+Math.sin(t*2.2+i)*2).toFixed(1)}px) scale(${(lerp(.55,1,e)*(1-out*.85)+.06*hit).toFixed(3)}) rotate(${((1-eb)*(i%2?6:-6)).toFixed(2)}deg)`;});
+    const sd=eo(p(t,8.08,.25));$('seed').style.opacity=sd.toFixed(3);$('seed').style.transform=`scale(${lerp(.2,1,sd).toFixed(3)})`;}
+  // S5 start button + cursor click on the drop
+  if(show('s5',t>=8.3&&t<DROP+.32)){glow(G[0],270,452,200,'#c6f03a',.16+.3*eo(p(t,DROP,.15)));
+    const bw=eo5(p(t,8.32,.5));const btn=$('btn');btn.style.width=lerp(18,260,bw).toFixed(1)+'px';btn.style.height=lerp(18,64,bw).toFixed(1)+'px';btn.style.marginLeft=(-lerp(18,260,bw)/2).toFixed(1)+'px';btn.style.marginTop=(-lerp(18,64,bw)/2).toFixed(1)+'px';
+    $('btxt').style.opacity=eo(p(t,8.6,.25));
+    const hov=eo(p(t,9.15,.15)),press=Math.sin(Math.PI*p(t,9.5,.22));const grow=eio(p(t,DROP,.32));
+    btn.style.transform=`scale(${(1+.05*hov-.08*press+grow*9).toFixed(3)})`;btn.style.opacity=(1-eio(p(t,DROP+.12,.18))).toFixed(3);
+    const cm=eio(p(t,8.7,.5));const cx=lerp(480,330,cm),cy=lerp(820,462,cm);$('cur2').style.transform=`translate(${cx.toFixed(1)}px,${(cy+press*4).toFixed(1)}px) scale(${(1-.12*press).toFixed(3)})`;$('cur2').style.opacity=(eo(p(t,8.65,.15))*(1-eo(p(t,DROP,.1)))).toFixed(3);}
+  flash(t,DROP,.9);
+  // S6 3D app flythrough
+  if(show('s6',t>=DROP&&t<16.5)){glow(G[0],270,300,240,'#c6f03a',.12);glow(G[1],420,760,200,'#5b9bff',.10);
+    const w1=eio(p(t,12.9,.28)),w2=eio(p(t,14.85,.28));
+    // screen 1: Study page, camera pans down
+    const e1=eo5(p(t,DROP,.7));const pan=eio(p(t,10.3,2.6));
+    $('p1').style.display=t<13.2?'block':'none';
+    $('p1').style.transform=`translate3d(${(-w1*700).toFixed(1)}px,${(lerp(260,-560,pan)+(1-e1)*300).toFixed(1)}px,${((1-e1)*-400).toFixed(1)}px) rotateX(${(lerp(34,26,pan)).toFixed(2)}deg) rotateZ(${(lerp(-14,-9,pan)).toFixed(2)}deg) rotateY(${(8+w1*20).toFixed(2)}deg) scale(${(lerp(.95,1.1,pan)).toFixed(3)})`;
+    $('p1').style.filter=w1>.02?`blur(${(w1*14).toFixed(1)}px)`:'none';
+    const rv=eo5(p(t,10.4,.9));$('ring1').style.strokeDashoffset=(100-78*rv).toFixed(2);$('rd1').textContent=Math.round(78*rv)+'%';
+    // screen 2: lesson reader
+    const e2=eo5(p(t,12.95,.4));$('p2').style.display=t>=12.95&&t<15.1?'block':'none';
+    $('p2').style.transform=`translate3d(${((1-e2)*700-w2*700).toFixed(1)}px,${(lerp(40,-40,p(t,13,1.9))).toFixed(1)}px,0) rotateX(${22}deg) rotateZ(${(10-w2*4).toFixed(2)}deg) rotateY(${(-10-w2*18).toFixed(2)}deg)`;
+    $('p2').style.filter=(e2<.97||w2>.02)?`blur(${((1-e2)*14+w2*14).toFixed(1)}px)`:'none';
+    [['k0',13.54],['k1',13.96],['k2',14.37]].forEach(([id,a])=>{const h=eio(p(t,a,.3));const el=$(id);el.style.backgroundImage='linear-gradient(rgba(240,102,143,.35),rgba(240,102,143,.35))';el.style.backgroundSize=`${(h*100).toFixed(1)}% 100%`;el.style.boxShadow=`inset 0 -2px 0 rgba(240,102,143,${h.toFixed(2)})`;el.style.color=h>.5?'#fff':'';});
+    const pp=eo(p(t,14.45,.3));$('pop2').style.opacity=pp;$('pop2').style.transform=`translateY(${(1-pp)*10}px)`;
+    // screen 3: AI judge score
+    const e3=eo5(p(t,14.9,.4));const out=eio(p(t,16.2,.3));$('p3').style.display=t>=14.9?'block':'none';
+    $('p3').style.transform=`translate3d(${((1-e3)*700).toFixed(1)}px,${(lerp(20,-30,p(t,15,1.4))-out*120).toFixed(1)}px,${(out*-300).toFixed(1)}px) rotateX(${(24+out*20).toFixed(2)}deg) rotateZ(${(-8).toFixed(2)}deg) rotateY(${(10).toFixed(2)}deg)`;
+    $('p3').style.filter=(e3<.97||out>.02)?`blur(${((1-e3)*14+out*12).toFixed(1)}px)`:'none';$('p3').style.opacity=(1-out).toFixed(3);
+    const act=eo(p(t,15.0,.2))*(1-eio(p(t,15.5,.2)));[...$('wave3').children].forEach((b,i)=>{const env=Math.sin(Math.PI*(i+.5)/30);b.style.height=(5+44*env*act*(.35+.65*Math.abs(Math.sin(i*.8+t*11)))).toFixed(1)+'px';b.style.opacity=(.4+.6*env).toFixed(2);});
+    const n=eo5(p(t,15.55,.6));$('sc3').textContent=Math.round(92*n);$('sb3').style.width=(92*n)+'%';
+    [...$('ck3').children].forEach((c,i)=>{const e=eo(p(t,15.75+i*.14,.25));c.style.opacity=e;c.style.transform=`translateX(${(1-e)*-12}px)`;});}
+  // S7 makes sense
+  if(show('s7',t>=16.55&&t<18.85)){glow(G[0],270,460,200,'#c6f03a',.12);const out=eio(p(t,18.55,.28));
+    [...$('s7').querySelectorAll('.w')].forEach((w,i)=>{const s=io(t,16.6+i*.16,99,.36,.1,22);s.o*=(1-out);s.bl+=out*14;s.y-=out*30;put(w,s);});
+    const sel=eio(p(t,17.55,.35));const se=$('sense');se.style.background=`linear-gradient(90deg,rgba(198,240,58,.9) ${(sel*100).toFixed(1)}%,transparent ${(sel*100).toFixed(1)}%)`;se.style.color=sel>.55?'#0c0c0d':'';
+    $('hA').style.opacity=eo(p(t,17.55,.15));$('hB').style.opacity=eo(p(t,17.85,.15));}
+  // S8 quick / full
+  if(show('s8',t>=18.95&&t<21.85)){glow(G[0],270,450,190,'#c6f03a',.10);
+    const a=io(t,19.0,20.45,.38,.22,24,30);a.s=lerp(.85,1,back(p(t,19,.4)));put($('q10'),a);put($('q10s'),io(t,19.25,20.45,.35,.22,14,20));
+    const b=io(t,20.55,21.85,.38,.22,24,30);b.s=lerp(.85,1,back(p(t,20.55,.4)));put($('fx'),b);put($('fxs'),io(t,20.8,21.85,.35,.22,14,20));}
+  // S9 orbit
+  if(show('s9',t>=21.85&&t<H)){const ein=eo5(p(t,21.85,.6));const col=eio(p(t,23.45,.35));const sc=lerp(.55,1,ein)*(1-col*.92);
+    glow(G[0],270,450,230,'#5b9bff',.14*ein*(1-col));glow(G[1],270,450,170,'#c6f03a',.12+.25*Math.exp(-Math.max(0,t-24.75)*5)*(t>=24.75?1:0));glow(G[2],270,450,260,'#f0668f',.08*ein*(1-col));
+    $('rings').style.opacity=(ein*(1-col)).toFixed(3);$('rings').style.transform=`scale(${sc.toFixed(3)})`;$('rings').style.transformOrigin='270px 450px';$('rings').style.filter=ein<.97||col>.02?`blur(${((1-ein)*10+col*10).toFixed(1)}px)`:'none';
+    [...$('rings').querySelectorAll('.rg')].forEach((g,i)=>g.setAttribute('transform',`rotate(${((t-21.85)*(i%2?-38:30)+i*40).toFixed(2)} 270 450)`));
+    const R=[115,175,235],SP=[.9,-.6,.45];
+    [...$('orbs').children].forEach((o,i)=>{let r,a0;if(o.classList.contains('orb')){r=ORB[i][1];a0=ORB[i][2];}else{r=+o.dataset.r;a0=+o.dataset.a;}
+      const ang=a0+(t-21.85)*SP[r];const e=back(p(t,21.95+i*.05,.45));const rr=R[r]*sc;
+      o.style.transform=`translate(${(270+Math.cos(ang)*rr).toFixed(1)}px,${(450+Math.sin(ang)*rr).toFixed(1)}px) scale(${(lerp(.2,1,e)*(1-col*.8)).toFixed(3)})`;o.style.opacity=(eo(p(t,21.95+i*.05,.3))*(1-col)).toFixed(3);});
+    const mk=back(p(t,21.9,.5));$('omark').style.transform=`scale(${(lerp(.4,1,mk)*(1-col)).toFixed(3)})`;$('omark').style.opacity=(eo(p(t,21.9,.3))*(1-col)).toFixed(3);
+    const aio=$('aio');[...aio.querySelectorAll('.w')].forEach((w,i)=>{const s=io(t,23.7+i*.12,H,.38,.3,22,0);s.s=lerp(.85,1,back(p(t,23.7+i*.12,.4)));put(w,s);});}
+  // S10 logo
+  if(show('s10',t>=H)){const k=Math.exp(-(t-H)*2.2);const fade=eio(p(t,31.0,.8));glow(G[0],270,430,240,'#c6f03a',(.12+.25*k)*(1-fade));glow(G[1],270,430,120,'#ffffff',(.05+.18*k)*(1-fade));
+    const m=back(p(t,H,.5)),me=eo(p(t,H,.35));const lkm=$('lkm');lkm.style.opacity=me;lkm.style.filter=me<.98?`blur(${((1-me)*14).toFixed(1)}px)`:'none';
+    const solo=eio(p(t,28.86,.55));
+    const wv=eo5(p(t,H+.45,.5))*(1-solo);const lkw=$('lkw');lkw.style.maxWidth=(wv*240).toFixed(1)+'px';lkw.style.opacity=wv.toFixed(3);lkw.style.filter=wv<.98?`blur(${((1-wv)*10).toFixed(1)}px)`:'none';
+    lkm.style.transform=`scale(${(lerp(.4,1,m)*(1+.3*solo)).toFixed(4)}) rotate(${((1-m)*-12).toFixed(2)}deg)`;
+    $('lk').style.gap=(16*(1-solo)).toFixed(1)+'px';
+    const n=Math.floor(cl((t-26.3)/1.0)*TAG.length);$('tg').innerHTML=TAG.slice(0,n).replace('One place.','<span class="serif" style="color:#c6f03a;font-size:1.15em">One place.</span>')+(n>0&&n<TAG.length&&t%.5<.25?'<span style="color:#c6f03a">▍</span>':'');
+    $('tg').style.opacity=(1-solo).toFixed(3);
+    const fr=io(t,27.6,99,.4,.1,14);fr.o*=(1-solo);fr.s=lerp(.8,1,back(p(t,27.6,.4)));put($('fr'),fr);
+    $('s10').style.opacity=(1-fade).toFixed(3);}
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>

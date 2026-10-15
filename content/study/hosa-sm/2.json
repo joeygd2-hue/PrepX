@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Evaluating injuries and delivering immediate on-field care",
+    "objective": "Apply a primary and secondary survey, use the HOPS evaluation sequence, and select appropriate immediate care and referral for common athletic injuries.",
+    "body": "When an athlete goes down, the first minutes shape the outcome. Sports medicine professionals follow a set order so that life-threatening problems are never missed while attention goes to an obvious but less dangerous injury.\n\n**Emergency action plan.** Every venue should have a written **emergency action plan (EAP)** that assigns roles, lists emergency numbers, identifies the location of the AED and describes how emergency vehicles reach the field. It should be rehearsed before the season.\n\n**Primary survey.** The **primary survey** checks for immediately life-threatening conditions: responsiveness, airway, breathing and circulation, including severe bleeding. If the athlete is unresponsive and not breathing normally, activate EMS, start CPR and get the AED. If a head or neck injury is suspected, do not move the athlete unnecessarily; manually stabilize the head and neck while waiting for trained help.\n\n**Secondary survey with HOPS.** Once life threats are ruled out, the **secondary survey** evaluates the specific injury. A common framework is **HOPS**:\n1. History: what happened, the mechanism, what the athlete felt or heard, and any previous injury.\n2. Observation: swelling, deformity, discoloration and how the athlete is moving, compared with the uninjured side.\n3. Palpation: gently feeling for point tenderness, deformity, temperature and crepitus.\n4. Special tests: range of motion, strength and ligament stress tests, done only when fracture or dislocation has been ruled out.\n\n**Immediate care.** For many soft-tissue injuries the first goals are to protect the area and limit pain and swelling. The traditional acronym is RICE (rest, ice, compression, elevation), and many clinicians now teach **PEACE & LOVE**: protection, elevation, avoiding anti-inflammatories early, compression and education in the first days, then load, optimism, vascularization and exercise as healing progresses. The shift reflects evidence that prolonged complete rest slows recovery, so safe, gradual loading is encouraged. Suspected fractures and dislocations are **splinted in the position found**, and circulation, sensation and movement are checked distal to the injury before and after splinting.\n\n**Referral.** Signs that call for immediate referral include obvious deformity, loss of pulse or sensation below the injury, inability to bear weight, and any change in consciousness. Athletes should not return to play the same day if they cannot show full, pain-free function.\n\nThe most common mistake students make is jumping straight to the injured limb. The primary survey always comes first, even when a deformed ankle is the most dramatic thing on the field.",
+    "examples": [
+      "A lacrosse player collides with an opponent and lies still; the athletic trainer checks responsiveness and breathing before looking at his visibly bent wrist.",
+      "A runner with a suspected forearm fracture has her arm splinted in the position found, and the trainer confirms she can feel and wiggle her fingers before and after the splint is applied."
+    ],
+    "questions": [
+      {
+        "stem": "A field hockey player is struck by a ball and is lying motionless. Her lower leg looks deformed. What should the athletic trainer do first?",
+        "choices": [
+          "Splint the lower leg in the position found",
+          "Check responsiveness, airway and breathing",
+          "Ask her to describe how the injury happened",
+          "Apply ice and compression to the leg"
+        ],
+        "answer": 1,
+        "explanation": "The primary survey for life threats always comes first. Splinting is important but belongs to the secondary survey once airway, breathing and circulation are confirmed."
+      },
+      {
+        "stem": "During a secondary survey, a trainer asks an athlete whether he heard a pop and whether he has hurt this knee before. Which HOPS step is this?",
+        "choices": [
+          "History",
+          "Observation",
+          "Palpation",
+          "Special tests"
+        ],
+        "answer": 0,
+        "explanation": "Questions about mechanism, sensations and previous injury make up the history. Observation involves looking at the injury, not questioning the athlete."
+      },
+      {
+        "stem": "Why should ligament stress tests be postponed until a fracture has been ruled out?",
+        "choices": [
+          "They are only valid on the uninjured side",
+          "Stressing an unstable fracture could cause further damage",
+          "They must be performed by a physician",
+          "They cannot be done on the field"
+        ],
+        "answer": 1,
+        "explanation": "Stressing a joint near an unrecognized fracture can displace bone fragments and injure nearby vessels or nerves. These tests are commonly done by athletic trainers, so they do not require a physician."
+      },
+      {
+        "stem": "A trainer splints a suspected tibia fracture. What should be checked both before and after applying the splint?",
+        "choices": [
+          "Range of motion at the knee",
+          "Circulation, sensation and movement distal to the injury",
+          "Grip strength",
+          "Blood pressure in the injured leg"
+        ],
+        "answer": 1,
+        "explanation": "Distal circulation, sensation and movement confirm that the injury or the splint is not compromising blood flow or nerves. Testing range of motion would move the fracture."
+      },
+      {
+        "stem": "Which item is a core element of a school's emergency action plan?",
+        "choices": [
+          "The team's practice schedule",
+          "Location of the AED and access route for emergency vehicles",
+          "Each athlete's playing position",
+          "The athlete's preferred pain reliever"
+        ],
+        "answer": 1,
+        "explanation": "An EAP specifies equipment locations such as the AED, roles, emergency contacts and venue access for EMS. Practice schedules do not guide an emergency response."
+      },
+      {
+        "stem": "A football player is down after a tackle and reports neck pain and tingling in both arms. What is the most appropriate action?",
+        "choices": [
+          "Help him walk to the sideline for evaluation",
+          "Manually stabilize the head and neck and activate EMS",
+          "Remove his helmet immediately to check the airway",
+          "Have him perform neck range-of-motion tests"
+        ],
+        "answer": 1,
+        "explanation": "Neck pain with bilateral tingling suggests a possible spinal injury, so the head and neck are stabilized and EMS is activated. Walking him off risks worsening a spinal cord injury."
+      },
+      {
+        "stem": "An athlete sprained her ankle four days ago. Swelling has decreased, and pain is mild with walking. Which approach best reflects current soft-tissue guidance?",
+        "choices": [
+          "Keep the ankle completely immobile for several more weeks",
+          "Begin gradual, pain-guided loading and exercise",
+          "Return to full competition immediately",
+          "Avoid all movement until there is no pain at rest or with activity"
+        ],
+        "answer": 1,
+        "explanation": "Modern frameworks such as PEACE & LOVE encourage early protection followed by gradual loading, because prolonged rest slows tissue healing. Immediate full competition skips the progression and risks reinjury."
+      },
+      {
+        "stem": "Which finding requires immediate referral to a physician or emergency care?",
+        "choices": [
+          "Mild tenderness over a thigh bruise",
+          "No pulse in the foot after a knee injury",
+          "Muscle soreness the day after practice",
+          "Minor swelling that resolves with compression"
+        ],
+        "answer": 1,
+        "explanation": "Loss of a distal pulse signals compromised blood flow, a limb-threatening emergency. Routine muscle soreness is expected after training and does not need emergency care."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Primary survey",
+        "definition": "The initial check for life-threatening conditions: responsiveness, airway, breathing and circulation, including severe bleeding."
+      },
+      {
+        "term": "Secondary survey",
+        "definition": "The detailed evaluation of a specific injury after life threats have been ruled out."
+      },
+      {
+        "term": "HOPS",
+        "definition": "An injury evaluation sequence: history, observation, palpation and special tests."
+      },
+      {
+        "term": "Emergency action plan (EAP)",
+        "definition": "A written, rehearsed plan that assigns roles, lists contacts, locates the AED and describes EMS access for a venue."
+      },
+      {
+        "term": "PEACE & LOVE",
+        "definition": "A soft-tissue care framework emphasizing early protection and education, followed by progressive loading and exercise."
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Fundamentals of Nursing",
+    "url": "https://openstax.org/books/fundamentals-nursing/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing text on hygiene, mobility, vital signs and safety, the core of nursing assisting."
+  },
+  {
+    "title": "Hand Hygiene for Healthcare Workers",
+    "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+    "publisher": "CDC",
+    "kind": "reference",
+    "note": "CDC hand hygiene rules for healthcare workers; a must-know skill."
+  },
+  {
+    "title": "About STEADI (Older Adult Fall Prevention)",
+    "url": "https://www.cdc.gov/steadi/about/index.html",
+    "publisher": "CDC",
+    "kind": "reference",
+    "note": "CDC fall prevention resources for older adults in care settings."
+  }
+]

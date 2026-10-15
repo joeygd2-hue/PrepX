@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Answering interview questions with STAR",
+    "objective": "Recognize common interview question types and answer each with specific, well-structured examples.",
+    "body": "Interviewers and judges cannot see how you will perform in the future, so they judge it by how you talk about your past. The strongest candidates answer with real, specific examples that are easy to follow and end with a result. Weak candidates speak in generalities such as \"I'm a hard worker and a people person.\"\n\n**Know the question types.**\n- *Traditional* questions ask about you directly: \"Why do you want this position?\" or \"What are your strengths?\"\n- *Behavioral* questions ask what you did in a real past situation: \"Tell me about a time you resolved a conflict on a team.\"\n- *Situational* questions ask what you would do in a hypothetical case: \"What would you do if a customer became upset about a long wait?\"\n\n**Use STAR for behavioral questions.** STAR keeps an answer focused:\n1. *Situation*: the context, in one or two sentences.\n2. *Task*: your responsibility or goal.\n3. *Action*: the specific steps *you* took, so say \"I,\" not only \"we.\"\n4. *Result*: what happened, ideally with a number, and what you learned.\nMost of the answer should be Action and Result. Many candidates spend too long setting the scene and forget the result entirely.\n\n**Answer situational questions with a process.** Show your reasoning: listen, gather the facts, act within policy and the customer's or patient's needs, follow up, and know when to involve a supervisor.\n\n**Prepare for the classic questions.**\n- \"Tell me about yourself\": a 60- to 90-second answer that moves from present (who you are now) to past (the experiences that prepared you) to future (why this role fits your goals). It is not your life story.\n- \"What is your greatest weakness?\": name a real but non-essential weakness and the concrete steps you are taking to improve. Avoid disguised strengths such as \"I work too hard.\"\n- \"Why should we hire you?\": connect two or three of your strengths directly to the job's requirements.\n\n**Keep most answers to one or two minutes.** Pausing for a moment before you answer looks thoughtful; rambling looks unprepared.\n\nA common mistake is preparing answers instead of stories. Build a bank of five or six experiences, such as leading a group, working on a team, making a mistake, facing a challenge and achieving a success, that you can adapt to many different questions.",
+    "examples": [
+      "STAR answer: 'Two weeks before our fundraiser, ticket sales were 40% below goal (Situation). As treasurer, I had to close the gap (Task). I set up a lunch table and asked each member to sell five tickets to family (Action). We beat our goal by 15% and raised $900 (Result).'",
+      "Situational question: 'A patient's family member is upset about a delay.' A strong answer: listen without interrupting, acknowledge the frustration, share only what privacy rules allow, and bring in the nurse or supervisor if the issue is beyond your role.",
+      "Weakness answer: 'I used to wait until the last minute on big projects. Now I break them into weekly milestones in a planner, and I finished my last research paper four days early.'"
+    ],
+    "questions": [
+      {
+        "stem": "Which of these is a behavioral interview question?",
+        "choices": [
+          "Tell me about a time you had to meet a tight deadline.",
+          "What would you do if two coworkers asked for help at once?",
+          "Where do you see yourself in five years?",
+          "What interests you about our organization?"
+        ],
+        "answer": 0,
+        "explanation": "Behavioral questions ask about a real past experience, often starting with 'Tell me about a time.' The question about two coworkers is situational because it describes a hypothetical."
+      },
+      {
+        "stem": "A candidate answers: 'Our team project was falling behind, and I was the group leader. I made a shared schedule and checked in with each member twice a week.' Which STAR element is missing?",
+        "choices": [
+          "Result",
+          "Situation",
+          "Task",
+          "Action"
+        ],
+        "answer": 0,
+        "explanation": "The answer gives the situation (project behind), the task (group leader) and the action (schedule and check-ins), but never says what happened as a result."
+      },
+      {
+        "stem": "Which response to 'What is your greatest weakness?' is strongest?",
+        "choices": [
+          "Public speaking made me nervous, so I joined the debate team and now present in class every month.",
+          "I am a perfectionist who simply cares too much about doing my work well.",
+          "I honestly cannot think of any weakness that would affect my work here.",
+          "I am often late, but I always make up the time by staying after my shift."
+        ],
+        "answer": 0,
+        "explanation": "It names a real weakness that is not essential to the job and shows concrete steps toward improvement. A disguised strength sounds rehearsed, and frequent lateness raises a serious concern."
+      },
+      {
+        "stem": "How should a candidate structure an answer to 'Tell me about yourself'?",
+        "choices": [
+          "Briefly cover who they are now, the experiences that prepared them and why this role fits their goals",
+          "Tell their life story in order, starting from early childhood",
+          "Read the main sections of their resume aloud word for word",
+          "Ask the interviewer which part of their life they would like to hear about"
+        ],
+        "answer": 0,
+        "explanation": "A present-past-future structure keeps the answer short, relevant and focused on the role. A full life story or a resume recital wastes the interviewer's time."
+      }
+    ],
+    "flashcards": [
+      { "term": "STAR method", "definition": "A structure for answering behavioral questions: Situation, Task, Action, Result." },
+      { "term": "Behavioral question", "definition": "An interview question about how you handled a real past situation, often starting with 'Tell me about a time.'" },
+      { "term": "Situational question", "definition": "An interview question that describes a hypothetical scenario and asks what you would do." },
+      { "term": "Traditional question", "definition": "A direct interview question about your background, goals or qualities, such as 'Why do you want this job?'" },
+      { "term": "Story bank", "definition": "A set of five or six prepared personal experiences that can be adapted to answer many different questions." }
+    ]
+  }
+]

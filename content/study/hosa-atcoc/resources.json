@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Organic Chemistry",
+    "url": "https://openstax.org/details/books/organic-chemistry",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free organic chemistry text: structure, stereochemistry, functional groups and mechanisms."
+  },
+  {
+    "title": "Science courses",
+    "url": "https://www.khanacademy.org/science",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Khan Academy's organic chemistry course with videos and practice on reactions and spectroscopy."
+  },
+  {
+    "title": "Chemistry 2e",
+    "url": "https://openstax.org/details/books/chemistry-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Review bonding, molecular shape and acids and bases from general chemistry first."
+  }
+]

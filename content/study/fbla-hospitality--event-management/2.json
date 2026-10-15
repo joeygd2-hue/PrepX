@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Budgeting, Venues, and Vendor Contracts in Event Planning",
+    "objective": "Construct an event budget, evaluate venue options against event requirements, and identify the essential elements of a vendor contract.",
+    "body": "Financial management is the backbone of professional event planning. An **event budget** is a living document that tracks all projected and actual income and expenses. Income sources typically include client fees, ticket sales, sponsorships, and exhibitor fees. Expenses fall into categories such as venue, catering, audiovisual (AV), décor, entertainment, marketing, staffing, and contingency. A well-built budget always includes a **contingency reserve** — typically 10–15% of total projected costs — to absorb unexpected expenses without derailing the event.\n\nPlanners use two key financial metrics to monitor health: **variance analysis** (the difference between budgeted and actual figures) and **return on investment (ROI)**, calculated as (Net Profit ÷ Total Cost) × 100. For nonprofit or corporate events where financial profit is not the goal, planners may instead measure **return on objectives (ROO)**, tracking non-monetary outcomes like attendee satisfaction scores or media impressions.\n\n**Venue selection** is one of the most consequential decisions in event planning. Planners commonly weigh five **venue selection criteria**: capacity (can the space hold the expected attendance safely?), cost (does the rental fee align with the budget?), convenience (is the location accessible to the target audience?), condition (is the facility clean, well-maintained, and properly equipped?), and coordination (will the venue staff collaborate effectively with the planning team?).\n\nVenues are typically classified as **purpose-built** (convention centers, arenas designed specifically for events) or **adaptive reuse** (museums, historic buildings, rooftop gardens repurposed for events). Each type has tradeoffs in flexibility, exclusivity, and cost.\n\nOnce a venue is selected, event planners negotiate and execute **vendor contracts**. A professionally drafted vendor contract should include: scope of services, total cost and payment schedule, cancellation and attrition clauses, force majeure provisions, liability and indemnification terms, and delivery deadlines. The **attrition clause** is particularly critical in hotel contracts — it requires the client to pay for a minimum percentage of reserved room blocks or catering covers if actual usage falls short. Understanding attrition exposure protects clients from unexpected fees.\n\nPlanners should always request a **certificate of insurance (COI)** from every vendor, confirming that the vendor carries adequate liability coverage. This protects the event host from being held financially responsible for vendor-caused incidents.",
+    "examples": [
+      "A planner budgets $50,000 for a gala and sets aside $5,000 (10%) as a contingency reserve; when the floral vendor increases pricing two weeks before the event, the reserve absorbs the overage without requiring the client to approve additional funds.",
+      "A hotel contract for a conference includes an attrition clause requiring the client to fill 80% of 200 reserved room nights; when only 140 guests book rooms (70%), the client owes the hotel a penalty fee for the 20 unfilled rooms below the threshold.",
+      "A corporate planner evaluates two venues for a 300-person dinner: a convention center (purpose-built, flexible layout, lower per-person cost) versus a historic mansion (adaptive reuse, premium ambiance, limited kitchen capacity) — the client's priority for guest experience drives the choice toward the mansion despite higher cost."
+    ],
+    "questions": [
+      {
+        "stem": "An event's total projected cost is $80,000 and net profit is $16,000. What is the event's ROI?",
+        "choices": [
+          "12.5%",
+          "16%",
+          "20%",
+          "25%"
+        ],
+        "answer": 2,
+        "explanation": "ROI = (Net Profit ÷ Total Cost) × 100 = ($16,000 ÷ $80,000) × 100 = 20%. The distractor of 16% confuses net profit as a raw percentage without applying the formula correctly."
+      },
+      {
+        "stem": "A nonprofit gala planner wants to measure success by tracking donor engagement scores rather than profit. The appropriate metric is:",
+        "choices": [
+          "ROI",
+          "Variance analysis",
+          "Return on objectives (ROO)",
+          "Attrition rate"
+        ],
+        "answer": 2,
+        "explanation": "Return on objectives (ROO) measures non-monetary outcomes aligned with the event's strategic goals, making it ideal for nonprofits. ROI specifically measures financial return and is less meaningful when profit is not the primary goal."
+      },
+      {
+        "stem": "A venue can safely seat 200 guests for a dinner but the client expects 300 attendees. Which venue selection criterion identifies this problem?",
+        "choices": [
+          "Cost",
+          "Convenience",
+          "Condition",
+          "Capacity"
+        ],
+        "answer": 3,
+        "explanation": "Capacity refers to whether the space can safely accommodate the expected attendance — 200-seat capacity for 300 guests is a direct capacity mismatch. This is distinct from cost, which addresses budget alignment."
+      },
+      {
+        "stem": "A hotel contract states the client must fill at least 75% of 400 reserved rooms or pay a penalty. This clause is called:",
+        "choices": [
+          "Force majeure clause",
+          "Indemnification clause",
+          "Attrition clause",
+          "Cancellation clause"
+        ],
+        "answer": 2,
+        "explanation": "An attrition clause specifies the minimum percentage of reserved space or rooms a client must use or pay a penalty. A cancellation clause governs the terms if the event itself is called off entirely."
+      },
+      {
+        "stem": "Which budget item is specifically designed to cover unexpected expenses that arise during event planning or execution?",
+        "choices": [
+          "Vendor deposit line item",
+          "Contingency reserve",
+          "Variance analysis allocation",
+          "Sponsorship buffer"
+        ],
+        "answer": 1,
+        "explanation": "A contingency reserve (typically 10–15% of total costs) is intentionally set aside for unforeseen expenses. Variance analysis is a measurement tool, not a budget line item for surprises."
+      },
+      {
+        "stem": "Before signing a contract with a lighting company, the event planner requests a document proving the vendor carries liability insurance. This document is called a:",
+        "choices": [
+          "Letter of intent",
+          "Scope of services agreement",
+          "Certificate of insurance (COI)",
+          "Performance bond"
+        ],
+        "answer": 2,
+        "explanation": "A certificate of insurance (COI) confirms that a vendor holds adequate liability coverage, protecting the event host from financial exposure due to vendor-caused incidents. A letter of intent signals negotiation intent but does not confirm insurance."
+      },
+      {
+        "stem": "A museum rented out for a corporate dinner is an example of which venue type?",
+        "choices": [
+          "Purpose-built venue",
+          "Adaptive reuse venue",
+          "Exclusive-use convention center",
+          "Destination resort venue"
+        ],
+        "answer": 1,
+        "explanation": "An adaptive reuse venue is a space originally designed for another purpose (like a museum) that is repurposed for events. Purpose-built venues like convention centers are designed from the ground up for event hosting."
+      },
+      {
+        "stem": "An event budget shows a $3,000 favorable variance in catering. This means:",
+        "choices": [
+          "Catering costs exceeded the budget by $3,000",
+          "The catering vendor charged $3,000 more than expected",
+          "Actual catering costs came in $3,000 below the budgeted amount",
+          "The contingency reserve absorbed $3,000 of catering overruns"
+        ],
+        "answer": 2,
+        "explanation": "A favorable variance means actual costs were lower than budgeted — in this case, catering came in $3,000 under budget. An unfavorable variance would indicate costs exceeded projections."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Contingency Reserve",
+        "definition": "A budget allocation, typically 10–15% of total projected costs, set aside to cover unexpected expenses without requiring additional client approval."
+      },
+      {
+        "term": "Attrition Clause",
+        "definition": "A contract provision requiring the client to use a minimum percentage of reserved venue space or hotel rooms or pay a financial penalty for the shortfall."
+      },
+      {
+        "term": "Return on Objectives (ROO)",
+        "definition": "A performance metric that measures event success against non-monetary goals such as attendee satisfaction, brand awareness, or media coverage."
+      },
+      {
+        "term": "Certificate of Insurance (COI)",
+        "definition": "A document issued by a vendor's insurance provider confirming that the vendor carries adequate liability coverage for the scope of services being provided."
+      },
+      {
+        "term": "Venue Selection Criteria",
+        "definition": "Common factors planners use to evaluate event venues, including capacity, cost, convenience, condition, and coordination."
+      }
+    ]
+  }
+]

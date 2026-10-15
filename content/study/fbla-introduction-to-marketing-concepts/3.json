@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Product life cycle, pricing strategies, and promotional planning",
+    "objective": "Analyze a product's life-cycle stage, recommend a pricing strategy, and design a coordinated promotional mix that supports marketing goals.",
+    "body": "Advanced marketing questions ask you to combine ideas: recognize where a product stands, then recommend the price and promotion that fit that situation.\n\n**Product life cycle.** Products move through four stages:\n1. **Introduction**: sales are low, costs are high, and promotion builds awareness.\n2. **Growth**: sales rise quickly, competitors enter, and profits often peak.\n3. **Maturity**: sales level off, competition is intense, and firms defend share with price cuts, new features or new uses.\n4. **Decline**: sales fall; firms may harvest, reposition or discontinue the product.\n\nThe stage changes the right strategy. Promotion in introduction informs; in maturity it reminds and persuades customers to choose one brand over similar rivals.\n\n**Pricing strategies.** Price must cover costs, match the target market and support positioning.\n- **Penetration pricing** sets a low introductory price to win market share quickly.\n- **Price skimming** sets a high initial price to capture early adopters, then lowers it over time.\n- **Psychological pricing** uses perception, such as $9.99 instead of $10 or prestige pricing for luxury goods.\n- **Competitive pricing** sets prices at, above or below rivals.\n- **Bundle pricing** sells several items together for one price.\n\nPrice also interacts with **demand elasticity**. When demand is elastic, a price cut raises total revenue because buyers respond strongly; when demand is inelastic, as with many necessities, quantity changes little.\n\n**Promotional mix.** The **promotional mix** combines advertising (paid, nonpersonal messages), personal selling, sales promotion (short-term incentives such as coupons and contests), public relations (managing image and earning publicity), and direct and digital marketing (email, social media and search ads). Using all elements with one consistent message is called **integrated marketing communications**.\n\n**Planning a campaign.** A sound promotional plan follows a logical order:\n- Identify the target market.\n- Set measurable objectives, for example, increase website sign-ups by 15 percent in three months.\n- Set a budget.\n- Choose the mix and media.\n- Measure results using metrics such as sales, click-through rate and return on investment.\n\nPromotion must also be legal and ethical. In the United States, the Federal Trade Commission requires that advertising be truthful and that paid influencer endorsements be clearly disclosed.\n\n**Common mistake.** Students often recommend heavy price cuts for any product with weak sales. First identify the life-cycle stage and the cause. A new product with low sales may need awareness, not a discount, and a luxury product cut too deeply can damage its prestige positioning.",
+    "examples": [
+      "A game console launched at $499 and reduced to $399 a year later after early fans had bought it shows price skimming.",
+      "A streaming service offering a first month for $1 to attract many subscribers quickly uses penetration pricing."
+    ],
+    "questions": [
+      {
+        "stem": "A brand of laundry detergent has flat sales and many nearly identical competitors. Which life-cycle stage is it most likely in?",
+        "choices": [
+          "Introduction",
+          "Growth",
+          "Maturity",
+          "Decline"
+        ],
+        "answer": 2,
+        "explanation": "Leveled sales and intense competition signal maturity. Decline is the tempting distractor, but sales would be falling, not flat."
+      },
+      {
+        "stem": "A tech firm releases a cutting-edge VR headset at a high price, planning to lower it once enthusiasts have bought. Which strategy is this?",
+        "choices": [
+          "Price skimming",
+          "Penetration pricing",
+          "Bundle pricing",
+          "Competitive pricing"
+        ],
+        "answer": 0,
+        "explanation": "Starting high for early adopters and lowering later is skimming. Penetration pricing does the opposite by starting low to gain share."
+      },
+      {
+        "stem": "A new energy drink sells poorly because few people have heard of it. What should the promotion focus on first?",
+        "choices": [
+          "Reminder advertising to loyal users",
+          "Deep, permanent price cuts",
+          "Discontinuing the product",
+          "Informative promotion to build awareness"
+        ],
+        "answer": 3,
+        "explanation": "In the introduction stage the main problem is awareness, so informative promotion fits. A permanent price cut does not fix the fact that buyers do not know the product exists."
+      },
+      {
+        "stem": "A restaurant sells a burger, fries and drink together for less than their separate prices. This is:",
+        "choices": [
+          "Psychological pricing",
+          "Bundle pricing",
+          "Price skimming",
+          "Prestige pricing"
+        ],
+        "answer": 1,
+        "explanation": "Combining items for one price is bundle pricing. Psychological pricing relies on perception, like $9.99, not on packaging items together."
+      },
+      {
+        "stem": "Which campaign objective is written most effectively?",
+        "choices": [
+          "Make more people like our brand",
+          "Be the best store in town",
+          "Increase online orders by 10 percent by June 30",
+          "Advertise more on social media"
+        ],
+        "answer": 2,
+        "explanation": "A good objective is specific, measurable and time-bound. Advertising more on social media is an activity, not a measurable result."
+      },
+      {
+        "stem": "A clothing brand's TV ads, Instagram posts, store displays and emails all share the same slogan and visuals. This approach is called:",
+        "choices": [
+          "Integrated marketing communications",
+          "Mass segmentation",
+          "Penetration promotion",
+          "Personal selling"
+        ],
+        "answer": 0,
+        "explanation": "Coordinating all promotional elements around one consistent message is integrated marketing communications. Personal selling is only one element of the mix."
+      },
+      {
+        "stem": "A local bakery's donation to a school fundraiser earns a story in the town newspaper. Which promotional element produced this coverage?",
+        "choices": [
+          "Advertising",
+          "Sales promotion",
+          "Personal selling",
+          "Public relations"
+        ],
+        "answer": 3,
+        "explanation": "Earned media coverage that builds image is public relations. Advertising would require paying for the space or time."
+      },
+      {
+        "stem": "An influencer is paid to post about a skincare product. To follow FTC guidelines, what must happen?",
+        "choices": [
+          "The post must include a coupon",
+          "The paid relationship must be clearly disclosed",
+          "The product must be priced below competitors",
+          "The post can appear only on the brand's website"
+        ],
+        "answer": 1,
+        "explanation": "The FTC requires clear disclosure of material connections such as payment. Coupons and pricing are unrelated to the disclosure rule."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Product life cycle",
+        "definition": "The stages of introduction, growth, maturity and decline that a product passes through."
+      },
+      {
+        "term": "Price skimming",
+        "definition": "Setting a high initial price for early adopters, then lowering it over time."
+      },
+      {
+        "term": "Penetration pricing",
+        "definition": "Setting a low introductory price to gain market share quickly."
+      },
+      {
+        "term": "Promotional mix",
+        "definition": "The combination of advertising, personal selling, sales promotion, public relations and direct/digital marketing."
+      },
+      {
+        "term": "Integrated marketing communications",
+        "definition": "Coordinating all promotional elements to deliver one consistent message."
+      }
+    ]
+  }
+]

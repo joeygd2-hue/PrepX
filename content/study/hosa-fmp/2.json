@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Patient assessment, the SOAP note, and preventive care",
+    "objective": "Organize a patient encounter into a SOAP note, interpret vital signs, and apply current preventive screening and vaccination recommendations.",
+    "body": "Every family medicine visit follows a logical flow: gather information, examine, decide and plan. Documenting that flow clearly is how the team communicates and how the patient stays safe.\n\n**History and physical.** The visit begins with the **chief complaint**, the reason for the visit in the patient's own words, followed by the history of present illness, past medical history, medications, allergies, family history and social history (tobacco, alcohol, activity, work). The physical exam follows, guided by the complaint.\n\n**The SOAP note.** Most outpatient documentation uses four parts:\n1. **Subjective**: what the patient reports, such as symptoms and history.\n2. **Objective**: measurable findings, including vital signs, exam findings and test results.\n3. **Assessment**: the diagnosis or list of likely diagnoses (the differential diagnosis).\n4. **Plan**: tests, treatments, education, referrals and follow-up.\n\nA patient saying \"my throat hurts\" is subjective; a temperature of 101.5 F and swollen tonsils are objective.\n\n**Vital signs.** Typical adult resting values are a heart rate of 60 to 100 beats per minute, respiratory rate of 12 to 20 breaths per minute, and oxygen saturation of about 95 percent or higher. Under the 2017 ACC/AHA guideline, blood pressure below 120/80 mm Hg is normal, 120-129 systolic with diastolic under 80 is elevated, 130-139 or 80-89 is stage 1 hypertension, and 140/90 or higher is stage 2. Blood pressure is classified using the average of readings on separate occasions, not a single measurement.\n\n**Levels of prevention.** **Primary prevention** stops disease before it starts (vaccines, tobacco avoidance). **Secondary prevention** detects disease early, before symptoms (screening tests). **Tertiary prevention** limits complications of established disease (cardiac rehabilitation, diabetic foot exams).\n\n**Screening recommendations.** Family physicians rely on the **U.S. Preventive Services Task Force (USPSTF)**. Current examples include colorectal cancer screening for adults 45 to 75, biennial mammography for women 40 to 74, and blood pressure screening for adults. Immunization schedules come from the CDC's Advisory Committee on Immunization Practices, such as an annual influenza vaccine for nearly everyone 6 months and older.\n\nThe most common mistake students make is mixing up subjective and objective data, or calling a screening test primary prevention. If the patient says it, it is subjective; if it is measured or observed, it is objective. Screening finds existing disease, so it is secondary prevention.",
+    "examples": [
+      "A note reading 'S: cough for 5 days; O: temp 100.8 F, crackles in right lower lung; A: suspected pneumonia; P: chest X-ray, follow up in 48 hours' follows SOAP order.",
+      "Giving a 12-year-old the HPV vaccine is primary prevention, while a colonoscopy for a healthy 50-year-old is secondary prevention."
+    ],
+    "questions": [
+      {
+        "stem": "A patient states, \"I've felt dizzy every morning this week.\" In a SOAP note, this statement belongs under:",
+        "choices": [
+          "Objective",
+          "Assessment",
+          "Subjective",
+          "Plan"
+        ],
+        "answer": 2,
+        "explanation": "Information the patient reports is subjective. Students often place it under objective because it is specific, but it was not measured or observed."
+      },
+      {
+        "stem": "A 52-year-old's blood pressure averages 134/84 mm Hg over two visits. Under the 2017 ACC/AHA categories, this is:",
+        "choices": [
+          "Normal",
+          "Elevated",
+          "Stage 1 hypertension",
+          "Stage 2 hypertension"
+        ],
+        "answer": 2,
+        "explanation": "Systolic 130-139 or diastolic 80-89 is stage 1 hypertension. 'Elevated' requires a diastolic below 80, so it does not fit."
+      },
+      {
+        "stem": "Which activity is an example of secondary prevention?",
+        "choices": [
+          "A mammogram for a woman with no symptoms",
+          "A tetanus booster",
+          "Physical therapy after a stroke",
+          "Teaching teens about helmet use"
+        ],
+        "answer": 0,
+        "explanation": "Screening an asymptomatic person to find disease early is secondary prevention. Physical therapy after a stroke limits complications of existing disease, which is tertiary."
+      },
+      {
+        "stem": "A physician writes 'Order rapid strep test; return if symptoms worsen.' Which SOAP section is this?",
+        "choices": [
+          "Subjective",
+          "Objective",
+          "Assessment",
+          "Plan"
+        ],
+        "answer": 3,
+        "explanation": "Ordered tests and follow-up instructions are the plan. The test result, once available, would be objective, but the order itself is plan."
+      },
+      {
+        "stem": "A healthy 46-year-old asks whether she is due for colorectal cancer screening. Based on current USPSTF guidance, the best answer is:",
+        "choices": [
+          "She is not due until age 50",
+          "She is within the recommended screening age range of 45 to 75",
+          "Screening is only for people with symptoms",
+          "Screening begins at 60"
+        ],
+        "answer": 1,
+        "explanation": "The USPSTF lowered the start age to 45 in 2021. Age 50 was the older recommendation and is the most common outdated answer."
+      },
+      {
+        "stem": "A resting adult has a heart rate of 118 beats per minute. How should this be described?",
+        "choices": [
+          "Bradycardia",
+          "Within normal limits",
+          "Tachycardia",
+          "Hypotension"
+        ],
+        "answer": 2,
+        "explanation": "A resting adult heart rate over 100 is tachycardia. Bradycardia is below 60, the opposite finding."
+      },
+      {
+        "stem": "A patient with diabetes receives a yearly foot exam to prevent ulcers and amputation. This is:",
+        "choices": [
+          "Primary prevention",
+          "Secondary prevention",
+          "Tertiary prevention",
+          "Health promotion only"
+        ],
+        "answer": 2,
+        "explanation": "The disease already exists, and the exam prevents its complications, which is tertiary prevention. It is not secondary because the goal is not detecting diabetes itself."
+      },
+      {
+        "stem": "After reviewing the history, exam and lab results, a physician lists 'acute bronchitis, rule out pneumonia.' This belongs in the:",
+        "choices": [
+          "Assessment",
+          "Plan",
+          "Objective",
+          "Chief complaint"
+        ],
+        "answer": 0,
+        "explanation": "The working diagnosis and differential belong in the assessment. 'Rule out pneumonia' may lead to a test in the plan, but the diagnostic reasoning itself is assessment."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Chief complaint",
+        "definition": "The main reason for the visit, usually recorded in the patient's own words."
+      },
+      {
+        "term": "SOAP note",
+        "definition": "A documentation format with Subjective, Objective, Assessment and Plan sections."
+      },
+      {
+        "term": "Differential diagnosis",
+        "definition": "The list of possible conditions that could explain a patient's findings."
+      },
+      {
+        "term": "Secondary prevention",
+        "definition": "Detecting disease early, before symptoms, usually through screening."
+      },
+      {
+        "term": "USPSTF",
+        "definition": "The U.S. Preventive Services Task Force, an expert panel that issues evidence-based screening and prevention recommendations."
+      }
+    ]
+  }
+]

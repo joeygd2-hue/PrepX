@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Servicing critical devices and meeting regulatory reporting requirements",
+    "objective": "Explain how key life-support and monitoring devices work, evaluate their failure modes, and determine the correct reporting and recall response when a device harms or could harm a patient.",
+    "body": "Advanced BMET work means knowing how specific high-risk devices operate, what tends to go wrong with each, and what the law requires when a device is involved in patient harm.\n\n**Electrocardiograph (ECG) monitors.** Electrodes detect the heart's electrical activity, which is only about 1 millivolt, so the monitor uses a high-gain **differential amplifier** that rejects signals common to both inputs, such as 60 Hz power-line interference. Monitoring mode uses a narrower filter to steady the trace, while diagnostic mode uses a wider bandwidth to preserve details such as ST segments. Noise usually traces back to electrodes, cables or nearby equipment.\n\n**Pulse oximeters** shine red and infrared light through tissue and compare how much of each is absorbed to estimate oxygen saturation. Motion, poor perfusion, nail polish and bright ambient light can produce false readings, so the technician checks the probe before the electronics.\n\n**Infusion pumps** deliver fluids at programmed rates. Key safety features include **occlusion** alarms that detect blocked tubing, air-in-line detectors, and drug libraries with dose limits. Flow accuracy is checked during PM with a flow analyzer.\n\n**Defibrillators** store energy in a capacitor and deliver it as a shock, and most modern units use a **biphasic** waveform that reverses direction during the shock. Testing uses a defibrillator analyzer containing a 50 ohm load that represents a patient, and the delivered energy must fall within the manufacturer's tolerance. Battery failure is a leading cause of problems, so daily user checks and battery management matter.\n\n**Electrosurgical units (ESU)** cut and coagulate with high-frequency current. In monopolar mode, current returns through a **dispersive (return) electrode** on the patient. If that pad partially peels away, current concentrates on a small area and can burn the skin, which is why many units use a return electrode monitoring system that stops output when pad contact is poor.\n\n**Regulation and reporting.** In the United States, the FDA regulates medical devices. Under the **Safe Medical Devices Act**, hospitals must report device-related deaths to the FDA and the manufacturer, and serious injuries to the manufacturer (or the FDA if the manufacturer is unknown). When an incident occurs:\n1. Remove the device from service and tag it.\n2. Preserve the device, accessories and settings exactly as found; do not repair or reset it.\n3. Notify risk management and follow the facility's reporting process.\n\nManufacturers announce **recalls** that the CMMS helps match to affected serial numbers. Accrediting bodies such as The Joint Commission review whether maintenance is documented and complete.\n\nThe most common mistake students make is fixing or resetting a device right after an incident. That destroys the evidence needed to find the cause and meet reporting requirements; the device must be sequestered as found.",
+    "examples": [
+      "After a patient receives a burn under an ESU return pad, the technician quarantines the ESU, pad and cable without changing settings and notifies risk management.",
+      "During a defibrillator PM, a 200 J setting delivers 196 J into the analyzer's 50 ohm load, which is within the manufacturer's tolerance, so the result is recorded as a pass."
+    ],
+    "questions": [
+      {
+        "stem": "A ventilator alarmed and a patient was harmed. The charge nurse asks the BMET to reboot it and check if it works. What is the correct response?",
+        "choices": [
+          "Reboot it to clear the error log",
+          "Sequester the ventilator and accessories as found and notify risk management",
+          "Replace the ventilator's main board immediately",
+          "Return it to service if it passes a quick self-test"
+        ],
+        "answer": 1,
+        "explanation": "Incident devices must be preserved unchanged for investigation and reporting. Rebooting can erase logs and settings, which is the most tempting but wrong choice."
+      },
+      {
+        "stem": "A monitor shows a heavy, regular 60 Hz pattern on the ECG. Which device feature is designed to reject this kind of interference?",
+        "choices": [
+          "The differential amplifier's common-mode rejection",
+          "The SpO2 infrared emitter",
+          "The occlusion sensor",
+          "The return electrode monitor"
+        ],
+        "answer": 0,
+        "explanation": "Power-line noise appears equally on both inputs, and the differential amplifier rejects common-mode signals. Return electrode monitoring belongs to electrosurgical units, not ECG."
+      },
+      {
+        "stem": "During surgery, the ESU stops delivering power and alarms after the patient shifts position. What is the most likely cause?",
+        "choices": [
+          "The ECG lead fell off",
+          "The return electrode lost good contact with the skin",
+          "The pulse oximeter probe is loose",
+          "The infusion pump detected air"
+        ],
+        "answer": 1,
+        "explanation": "Return electrode monitoring halts output when pad contact becomes poor to prevent burns. ECG leads do not control ESU output."
+      },
+      {
+        "stem": "A pulse oximeter gives low readings only on one patient with cold hands and dark nail polish. What should the technician conclude first?",
+        "choices": [
+          "The oximeter's processor has failed",
+          "The reading is likely affected by poor perfusion and nail polish",
+          "The device needs a new power supply",
+          "The oximeter must be reported to the FDA"
+        ],
+        "answer": 1,
+        "explanation": "Poor perfusion and nail polish interfere with light absorption, so the patient factors explain the result. A failed processor would affect every patient, not one."
+      },
+      {
+        "stem": "What load is commonly used inside a defibrillator analyzer to represent the patient?",
+        "choices": [
+          "5 ohms",
+          "50 ohms",
+          "500 ohms",
+          "5,000 ohms"
+        ],
+        "answer": 1,
+        "explanation": "Defibrillator analyzers use a 50 ohm test load as the standard patient simulation. 500 ohms is closer to some dry-skin estimates but is not the test standard."
+      },
+      {
+        "stem": "Under the Safe Medical Devices Act, a device-related patient death must be reported to whom?",
+        "choices": [
+          "Only the hospital's purchasing office",
+          "The FDA and the manufacturer",
+          "Only the device's sales representative",
+          "The state electrical inspector"
+        ],
+        "answer": 1,
+        "explanation": "Deaths are reported to both the FDA and the manufacturer. Serious injuries go to the manufacturer, so choosing the manufacturer alone would be incomplete for a death."
+      },
+      {
+        "stem": "An infusion pump keeps alarming \"downstream occlusion\" on one patient. What should be checked first?",
+        "choices": [
+          "Whether the tubing is kinked or a clamp is closed",
+          "The pump's network firmware",
+          "The defibrillator battery",
+          "The ECG filter setting"
+        ],
+        "answer": 0,
+        "explanation": "An occlusion alarm means flow is blocked, most often by a clamp or kink. Firmware problems are much less likely and would not be the first check."
+      },
+      {
+        "stem": "A manufacturer issues a recall for certain serial numbers of a patient monitor. What tool helps the BMET department find affected units fastest?",
+        "choices": [
+          "The oscilloscope",
+          "The CMMS inventory",
+          "The electrical safety analyzer",
+          "The operator's manual"
+        ],
+        "answer": 1,
+        "explanation": "The CMMS lists every asset by model and serial number, so affected units can be located quickly. A safety analyzer tests devices but cannot identify which serial numbers the hospital owns."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Differential amplifier",
+        "definition": "ECG amplifier that boosts the difference between two inputs while rejecting signals common to both, such as 60 Hz noise."
+      },
+      {
+        "term": "Return electrode",
+        "definition": "Dispersive pad that carries electrosurgical current back from the patient in monopolar mode."
+      },
+      {
+        "term": "Biphasic waveform",
+        "definition": "Defibrillation shock that reverses direction partway through delivery."
+      },
+      {
+        "term": "Occlusion alarm",
+        "definition": "Infusion pump alarm that signals blocked tubing."
+      },
+      {
+        "term": "Safe Medical Devices Act",
+        "definition": "U.S. law requiring facilities to report device-related deaths and serious injuries."
+      }
+    ]
+  }
+]

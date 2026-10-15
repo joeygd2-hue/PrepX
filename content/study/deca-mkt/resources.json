@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Marketing",
+    "url": "https://openstax.org/details/books/principles-marketing",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free marketing textbook covering the marketing mix, segmentation, pricing, promotion and selling across the cluster."
+  },
+  {
+    "title": "Advertising and Marketing Basics",
+    "url": "https://www.ftc.gov/business-guidance/advertising-marketing/advertising-marketing-basics",
+    "publisher": "Federal Trade Commission",
+    "kind": "reference",
+    "note": "FTC rules on truthful ads, substantiation and endorsements; useful for promotion and marketing ethics items."
+  },
+  {
+    "title": "Introductory Business Statistics 2e",
+    "url": "https://openstax.org/books/introductory-business-statistics-2e/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free statistics text for the marketing-information management items: sampling, surveys and reading data."
+  }
+]

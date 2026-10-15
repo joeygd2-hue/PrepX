@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Branding, Workflow, and Competitive Digital Design Strategy",
+    "objective": "Develop a consistent brand identity system and execute a competition-ready digital design project using an effective planning and revision workflow.",
+    "body": "At the advanced level, digital design is no longer about individual attractive elements—it is about building a coherent system and executing it efficiently under pressure. FBLA Digital Design competitors who score at the top do not just produce pretty graphics; they demonstrate strategic thinking through consistent branding, purposeful layout decisions, and clean technical execution.\n\nA **brand identity system** is a collection of visual rules that govern how an organization appears across all materials. The foundation is the **logo**, which should work at multiple sizes and in both color and single-color versions. Supporting elements include a **color palette** (typically two to four primary colors with defined hex or Pantone values), a **type system** (defined heading and body typefaces with size rules), and optional graphic elements like icons, patterns, or photography style guides. When all these elements are codified in a **brand style guide**, anyone working on the project can produce consistent materials without guessing.\n\nIn competition settings, judges evaluate work against a rubric that typically includes **relevance** (does the design address the stated purpose?), **design quality** (are principles applied correctly?), **consistency** (does every piece feel like it belongs to the same brand?), and **technical execution** (are files clean, properly sized, and free of artifacts?). Understanding the rubric before you begin designing is as important as any design skill.\n\nA professional workflow follows five stages: **research and brief analysis** (understand the audience, purpose, and constraints), **ideation and sketching** (generate multiple concepts quickly on paper before opening software), **digital execution** (build the strongest concept with precision), **critique and revision** (compare your work against the design principles and rubric, then revise), and **export and delivery** (prepare finals in the correct formats and resolutions). Many students skip the sketching stage and jump directly to software—this is a common mistake that leads to designs that solve the wrong problem.\n\n**File hygiene** is often overlooked but critically important. Layers should be named and organized, fonts should be embedded or outlined before export, and images should be placed at the correct resolution (72 ppi for screen, 300 ppi for print). A final design delivered in the wrong format—a JPEG when a PNG with transparency was needed, for instance—can undermine otherwise excellent work.\n\nFinally, effective competitors practice **self-critique** using a checklist tied to CARP principles, brand consistency, accessibility, and rubric criteria before submitting. Distance yourself from the work—close the file, rest, then reopen it—to see it the way a judge will see it for the first time.",
+    "examples": [
+      "Before designing a campaign for a fictional company, a competitor reads the event prompt twice and lists the required deliverables, target audience, and mood keywords before sketching a single idea.",
+      "A student exports a web banner as a PNG-24 at 72 ppi with a transparent background rather than a JPEG, ensuring the logo sits cleanly on any background color without white boxes around it.",
+      "After completing a three-piece brand package, a competitor runs through a checklist—consistent color hex values, same two typefaces used everywhere, logo clear of busy backgrounds—and catches that one flyer used a slightly different blue before submission."
+    ],
+    "questions": [
+      {
+        "stem": "A competitor skips sketching and goes directly to design software after reading the prompt. What is the most likely consequence?",
+        "choices": [
+          "The design will render faster due to less planning overhead",
+          "The design may solve the wrong problem because concepts were not explored first",
+          "The final colors will be more accurate in digital form",
+          "Judges reward speed and digital proficiency over conceptual planning"
+        ],
+        "answer": 1,
+        "explanation": "Skipping ideation means committing to the first digital idea rather than evaluating multiple concepts, which increases the risk of misinterpreting the brief. Judges evaluate strategic relevance, not speed of execution."
+      },
+      {
+        "stem": "A brand style guide specifies the logo, primary colors with hex values, and heading and body typefaces. What does this document primarily ensure?",
+        "choices": [
+          "That designs can be produced more quickly by removing all creative decisions",
+          "That every piece of branded material looks consistent regardless of who creates it",
+          "That the brand is legally protected from imitation",
+          "That all designers use the same software"
+        ],
+        "answer": 1,
+        "explanation": "A brand style guide codifies visual rules so any designer can produce consistent materials that feel like part of the same identity. It governs consistency, not software choice or legal protection."
+      },
+      {
+        "stem": "A student exports a logo for a website and saves it as a JPEG. What problem might this cause?",
+        "choices": [
+          "The file size will be too small to use",
+          "The logo may appear with a white box around it instead of a transparent background",
+          "JPEG files cannot display color accurately",
+          "The logo will be automatically resized by the browser"
+        ],
+        "answer": 1,
+        "explanation": "JPEG does not support transparency, so any transparent area in the original is filled with white upon export. PNG supports transparency and is the correct format for logos placed over varied backgrounds."
+      },
+      {
+        "stem": "When designing for print, what resolution should placed images be to avoid appearing pixelated in the final output?",
+        "choices": [
+          "72 ppi",
+          "150 ppi",
+          "300 ppi",
+          "96 ppi"
+        ],
+        "answer": 2,
+        "explanation": "Print requires 300 ppi (pixels per inch) for sharp output because printers lay ink at high density. Screen designs use 72 or 96 ppi, which is insufficient for print and will appear blurry when physically output."
+      },
+      {
+        "stem": "A rubric awards points for 'relevance.' A student creates a visually stunning design that ignores the stated target audience. How will this likely affect the score?",
+        "choices": [
+          "It will not affect the score because design quality is judged independently",
+          "It will earn full marks because visual quality outweighs relevance",
+          "The relevance category will score low, reducing the overall score significantly",
+          "Judges disqualify entries that miss the audience entirely"
+        ],
+        "answer": 2,
+        "explanation": "Rubrics are structured so that each category contributes to the total; a low relevance score reduces overall points regardless of design quality. Understanding and addressing the brief is a scored requirement, not optional."
+      },
+      {
+        "stem": "Which stage of a professional design workflow involves comparing the finished design against the rubric before submission?",
+        "choices": [
+          "Research and brief analysis",
+          "Ideation and sketching",
+          "Digital execution",
+          "Critique and revision"
+        ],
+        "answer": 3,
+        "explanation": "The critique and revision stage is when designers step back to evaluate the work against principles and criteria, then make improvements. Research and analysis happen before design begins, not after."
+      },
+      {
+        "stem": "A student notices that three different shades of blue appear across their brand package—each slightly different because they eyedropped from different sources. What file hygiene practice would have prevented this?",
+        "choices": [
+          "Using only black and white to avoid color inconsistencies",
+          "Defining exact hex color values in a style guide and applying them consistently",
+          "Exporting all files as PDFs to lock the colors",
+          "Increasing the saturation of all blues to make differences less visible"
+        ],
+        "answer": 1,
+        "explanation": "Defining and consistently applying exact hex values from a style guide ensures every instance of a color is identical. Eyedropping from screen captures introduces sampling errors because color values shift depending on context."
+      },
+      {
+        "stem": "A competitor wants to see their design the way a judge will see it for the first time. What technique is most effective for achieving this perspective?",
+        "choices": [
+          "Ask a teammate to describe the design verbally",
+          "Zoom the view to 200% to see fine detail",
+          "Close the file, rest, and reopen it with fresh eyes before the final check",
+          "Print the design in black and white to check contrast"
+        ],
+        "answer": 2,
+        "explanation": "Stepping away from a design and returning to it cold mimics the experience of a first-time viewer, making it easier to spot issues that familiarity obscures. Zooming in actually reduces perspective by showing less of the composition at once."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Brand Style Guide",
+        "definition": "A document that codifies a brand's visual rules—including logo usage, color values, and typeface specifications—to ensure consistency across all materials."
+      },
+      {
+        "term": "File Hygiene",
+        "definition": "The practice of organizing, naming, and exporting design files correctly, including properly named layers, embedded fonts, and appropriate resolution and format for the intended output."
+      },
+      {
+        "term": "PNG-24",
+        "definition": "A lossless image format that supports full 24-bit color and transparency, making it the standard for logos and graphics placed over varied backgrounds on screen."
+      },
+      {
+        "term": "Design Brief",
+        "definition": "A document or prompt that defines the purpose, audience, deliverables, and constraints of a design project, which the designer must analyze before beginning work."
+      },
+      {
+        "term": "Ideation",
+        "definition": "The early phase of a design workflow in which multiple concepts are generated quickly—usually through sketching—before committing to digital execution."
+      }
+    ]
+  }
+]

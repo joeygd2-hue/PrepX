@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Software process, web development and game design",
+    "objective": "Plan, build and test software with a professional process, structure accessible responsive websites, and apply core game and simulation design principles.",
+    "body": "Software Development, Webmaster, Video Game Design and Virtual Reality Simulation entries are judged as finished products and as evidence of a professional process. Judges ask how you gathered requirements, how you tested and how you made the product usable for everyone.\n\n**Development life cycle.** The *software development life cycle* (SDLC) runs through requirements, design, implementation, testing, deployment and maintenance. *Waterfall* completes each phase before starting the next; *agile* methods such as Scrum build the product in short iterations called *sprints*, review working features with users and adjust the plan. Write requirements as testable statements or *user stories*: 'As a student, I want to filter events by date so I can plan my week.'\n\n**Version control.** Git records every change. Developers *commit* small, clearly described changes, work on *branches* so experiments cannot break the main version, and *merge* finished features back in. The commit history also documents your process for judges.\n\n**Testing.** *Unit tests* check single functions, *integration tests* check that parts work together, and *user acceptance testing* checks that the product meets real users' needs. Test normal, boundary and invalid inputs: for an age field that accepts 13 to 18, try 13, 18, 12, 19 and a word such as 'abc.'\n\n**Web structure.** HTML defines structure and meaning, CSS controls presentation and layout, and JavaScript adds behavior. *Responsive design* uses flexible layouts and media queries so one site works on phones and desktops. Accessibility follows the WCAG principles (perceivable, operable, understandable, robust): give meaningful images alt text, keep a contrast ratio of at least 4.5:1 for normal text, support keyboard navigation and use headings in a logical order.\n\n**Game and simulation design.** A game runs a *game loop* that repeatedly reads input, updates the game state and renders a frame. Multiply movement by *delta time*, the time since the last frame, so speed stays the same at any frame rate. Strong designs define a *core mechanic*, clear goals, feedback and a difficulty curve, then refine them through *playtesting* with people who did not build the game. VR adds comfort concerns: keep the frame rate high and avoid moving the camera in ways the player did not cause, which can trigger motion sickness.\n\nA common mistake is letting only the builders test. Fresh testers quickly find confusing menus, unclear goals and accessibility barriers that the team no longer notices.",
+    "examples": [
+      "A Webmaster team checks its home page with a contrast tool and finds gray text on white at 3.1:1. Darkening the text to reach 5.2:1 meets the 4.5:1 minimum for normal text.",
+      "A game character moves 5 pixels every frame, which is 150 pixels per second at 30 frames per second but 300 at 60. Setting a speed of 150 pixels per second and multiplying by delta time keeps movement identical on both machines.",
+      "A Software Development team plans three two-week sprints: login and profiles, then event search, then reminders. After each sprint two classmates try the app, and the team reorders its backlog based on what confused them."
+    ],
+    "questions": [
+      {
+        "stem": "An order form accepts quantities from 1 to 50. Which set of test inputs best checks the boundaries?",
+        "choices": ["10, 20, 30, 40", "0, 1, 50, 51", "25 only", "5, 15, 25, 35"],
+        "answer": 1,
+        "explanation": "Boundary testing checks the edges and the values just outside them: 1 and 50 should be accepted, while 0 and 51 should be rejected. Mid-range values miss most off-by-one bugs."
+      },
+      {
+        "stem": "A Webmaster wants every button on a 20-page site to change color and corner shape without editing each page's content. What is the best approach?",
+        "choices": ["Edit the HTML table markup on every page", "Update a shared external CSS stylesheet", "Add a JavaScript alert to each page", "Replace the buttons with images of styled buttons"],
+        "answer": 1,
+        "explanation": "CSS controls presentation, and one external stylesheet linked by every page changes the look everywhere at once. Images of buttons also hurt accessibility."
+      },
+      {
+        "stem": "Which practice is most characteristic of agile development?",
+        "choices": ["Freezing all requirements before any code is written", "Testing only after the entire product is finished", "Delivering working features in short iterations and adjusting based on feedback", "Avoiding contact with users until launch day"],
+        "answer": 2,
+        "explanation": "Agile methods such as Scrum work in short sprints, show working software to users and adapt the plan. Freezing requirements up front describes waterfall."
+      },
+      {
+        "stem": "A product photo on a website shows information that is not repeated in the text. What should the developer add so screen-reader users get that information?",
+        "choices": ["Descriptive alt text on the image", "A larger version of the image", "A brighter background color", "An automatic slideshow"],
+        "answer": 0,
+        "explanation": "Screen readers read alt text aloud, so meaningful images need a concise description of what they convey."
+      },
+      {
+        "stem": "In a game, an enemy moves 4 pixels per frame. Players with 120 frames-per-second monitors see it move twice as fast as players at 60 frames per second. What is the best fix?",
+        "choices": ["Lock every player's monitor to 30 frames per second", "Set a speed in pixels per second and multiply it by the time elapsed since the last frame", "Move the enemy 8 pixels per frame for everyone", "Skip rendering every other frame"],
+        "answer": 1,
+        "explanation": "Delta-time movement ties speed to real time instead of frame count, so the enemy covers the same distance per second on any machine."
+      },
+      {
+        "stem": "A developer wants to try a risky new feature without breaking the version of the app that already works. What is the best Git practice?",
+        "choices": ["Edit the main branch directly and undo changes if something breaks", "Copy the project folder and rename it with today's date", "Create a feature branch, commit there, and merge after it is tested", "Turn off version control until the feature is done"],
+        "answer": 2,
+        "explanation": "A branch isolates experimental work from the main version, and merging after testing keeps the working app safe while preserving history."
+      },
+      {
+        "stem": "A team writes an automated test that checks only whether its validatePassword function returns false for a password that is too short. What kind of test is this?",
+        "choices": ["Unit test", "User acceptance test", "Integration test", "Load test"],
+        "answer": 0,
+        "explanation": "A unit test exercises one small piece of code, such as a single function, in isolation. Integration tests check how parts work together."
+      },
+      {
+        "stem": "Which text-to-background contrast ratio meets the WCAG AA minimum for normal-size body text?",
+        "choices": ["2.8:1", "3.2:1", "4.1:1", "5.1:1"],
+        "answer": 3,
+        "explanation": "WCAG AA requires at least 4.5:1 for normal text, so only 5.1:1 passes. 3:1 is the lower minimum allowed only for large text."
+      }
+    ],
+    "flashcards": [
+      { "term": "User story", "definition": "A short requirement written from a user's view: As a [user], I want [goal] so that [reason]." },
+      { "term": "Branch (version control)", "definition": "A separate line of development in Git that lets work proceed without affecting the main version until it is merged." },
+      { "term": "Responsive design", "definition": "Building web layouts that adapt to different screen sizes using flexible grids, flexible images and media queries." },
+      { "term": "Game loop", "definition": "The repeating cycle in a game that reads input, updates the game state and renders a frame." },
+      { "term": "Playtesting", "definition": "Watching people who did not build a game play it to find confusing, unbalanced or broken parts." }
+    ]
+  }
+]

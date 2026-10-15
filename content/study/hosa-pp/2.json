@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Subsidiary motions, amendments, and the order of precedence",
+    "objective": "Classify subsidiary and privileged motions, apply the order of precedence, and process primary and secondary amendments correctly.",
+    "body": "Once a main motion is pending, members often want to change it, delay it, or end discussion. **Subsidiary motions** do this: they are applied to another motion to modify it or decide how it is handled. **Privileged motions** are urgent matters about the meeting itself rather than any pending question. All of them fit into a ranking called the **order of precedence**: a motion can be made while a lower-ranking motion is pending, and the higher-ranking motion is voted on first.\n\nFrom highest to lowest, the ranking is:\n1. Fix the time to which to adjourn (privileged)\n2. Adjourn (privileged)\n3. Recess (privileged)\n4. Raise a question of privilege (privileged)\n5. Call for the orders of the day (privileged)\n6. Lay on the table (subsidiary)\n7. Previous question (subsidiary)\n8. Limit or extend limits of debate (subsidiary)\n9. Postpone to a certain time, or postpone definitely (subsidiary)\n10. Commit or refer (subsidiary)\n11. Amend (subsidiary)\n12. Postpone indefinitely (subsidiary)\n13. Main motion\n\nKey rules for the subsidiary motions:\n- **Postpone indefinitely** kills the main motion without a direct vote; it is debatable, opens the main motion to debate, and needs a majority.\n- **Amend** changes wording by inserting, striking out, or striking out and inserting; it needs a majority even when the main motion needs two-thirds.\n- **Commit or refer** sends the motion to a committee; it is debatable and amendable.\n- **Postpone definitely** delays the motion to a set time; it is debatable and amendable.\n- **Limit or extend debate** and the **previous question** both restrict rights, so each requires two-thirds and is not debatable. Adopting the previous question ends debate and moves to an immediate vote.\n- **Lay on the table** sets a motion aside temporarily for something urgent; it needs a majority and is not debatable. Using it to kill a motion is improper.\n\n**Amendments.** A **primary amendment** changes the main motion; a **secondary amendment** changes the primary amendment. No third level is allowed. Votes are taken in reverse order of making: secondary amendment first, then the primary amendment as it stands, then the main motion as amended. An amendment must be **germane**, meaning closely related to the subject of the motion it would change.\n\nThe most common mistake students make is treating \"Call the question!\" shouted from the floor as an automatic end of debate. It is only a request for the previous question, which needs recognition, a second, and a two-thirds vote before debate stops.",
+    "examples": [
+      "While a motion to buy new CPR manikins is pending, a member moves to refer it to the finance committee, which ranks higher and is handled first.",
+      "A main motion to fund a trip of $500 has a primary amendment to strike $500 and insert $800 and a secondary amendment to strike $800 and insert $650; the $650 change is voted on first."
+    ],
+    "questions": [
+      {
+        "stem": "A main motion and a primary amendment are pending. A member moves to postpone the main motion to the next meeting. Is this in order?",
+        "choices": [
+          "No, because amendments must be settled first",
+          "Yes, because postpone definitely ranks above amend",
+          "No, because only the maker can postpone",
+          "Yes, but only with unanimous consent"
+        ],
+        "answer": 1,
+        "explanation": "Postpone definitely ranks above amend, so it may be made while the amendment is pending. Settling amendments first would be required only for a lower-ranking motion."
+      },
+      {
+        "stem": "A member shouts \"Question!\" during debate. The chair should:",
+        "choices": [
+          "immediately take the vote",
+          "ignore the comment, since a member must be recognized to move the previous question",
+          "declare debate closed",
+          "ask the secretary to record the objection"
+        ],
+        "answer": 1,
+        "explanation": "Calling out does not close debate; the previous question must be properly moved, seconded, and adopted by two-thirds. Voting immediately would deny the minority's rights."
+      },
+      {
+        "stem": "A main motion, a primary amendment, a secondary amendment, and a motion to commit are all pending. Which is voted on first?",
+        "choices": [
+          "Main motion",
+          "Primary amendment",
+          "Secondary amendment",
+          "Motion to commit"
+        ],
+        "answer": 3,
+        "explanation": "Commit ranks higher than amend and the main motion, so it is voted on before them. The secondary amendment ranks with amend, below commit, so it is not first here."
+      },
+      {
+        "stem": "What vote does the previous question require?",
+        "choices": [
+          "Majority, debatable",
+          "Two-thirds, not debatable",
+          "Majority, not debatable",
+          "Two-thirds, debatable"
+        ],
+        "answer": 1,
+        "explanation": "It cuts off members' right to debate, so it needs two-thirds and cannot itself be debated. A majority would be enough only for motions that do not limit rights."
+      },
+      {
+        "stem": "A secondary amendment proposes to amend a secondary amendment. The chair should rule it:",
+        "choices": [
+          "in order if germane",
+          "out of order, since only two levels of amendment are allowed",
+          "in order if seconded",
+          "out of order unless two-thirds agree"
+        ],
+        "answer": 1,
+        "explanation": "Robert's Rules allows only primary and secondary amendments. Germaneness does not matter here because the third level is never permitted."
+      },
+      {
+        "stem": "Members oppose a motion and want it killed without voting on it directly. The most appropriate motion is to:",
+        "choices": [
+          "lay it on the table",
+          "postpone indefinitely",
+          "limit debate",
+          "recess"
+        ],
+        "answer": 1,
+        "explanation": "Postpone indefinitely exists to dispose of a motion without a direct vote. Laying on the table is meant only for temporary set-asides and is improper as a way to kill a motion."
+      },
+      {
+        "stem": "Which motion is privileged rather than subsidiary?",
+        "choices": [
+          "Commit",
+          "Recess",
+          "Lay on the table",
+          "Postpone definitely"
+        ],
+        "answer": 1,
+        "explanation": "Recess concerns the meeting itself and ranks among the privileged motions. Lay on the table is a high-ranking subsidiary motion, which makes it a tempting but wrong choice."
+      },
+      {
+        "stem": "An amendment to a motion about a health fair would add a requirement to change chapter dues. The chair should rule it:",
+        "choices": [
+          "in order, since any amendment can be made",
+          "out of order because it is not germane",
+          "in order if it gets two-thirds",
+          "out of order because amendments must strike words"
+        ],
+        "answer": 1,
+        "explanation": "Amendments must be germane to the motion's subject, and dues are unrelated. Higher vote thresholds cannot make a non-germane amendment acceptable."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Order of precedence",
+        "definition": "The rank of motions determining which may be made while others are pending and which is voted on first."
+      },
+      {
+        "term": "Previous question",
+        "definition": "A subsidiary motion to end debate and vote immediately; requires a second and two-thirds and is not debatable."
+      },
+      {
+        "term": "Secondary amendment",
+        "definition": "An amendment to a primary amendment; the highest level of amendment allowed and voted on first."
+      },
+      {
+        "term": "Germane",
+        "definition": "Closely related to the subject of the motion being amended; required of all amendments."
+      },
+      {
+        "term": "Postpone indefinitely",
+        "definition": "A subsidiary motion that kills the main motion without a direct vote; debatable and needs a majority."
+      }
+    ]
+  }
+]

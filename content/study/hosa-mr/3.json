@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Evaluating evidence, ethics and themes in medical books",
+    "objective": "Evaluate the quality of research evidence described in a book, analyze ethical issues using core bioethics principles, and synthesize recurring themes across chapters.",
+    "body": "Advanced Medical Reading questions move beyond recall. They ask you to judge the evidence an author presents, recognize ethical conflicts and connect ideas across an entire book.\n\n**Judging research evidence.** Health books often describe studies. Know the basic hierarchy of strength:\n1. **Anecdotes** and single case reports are vivid but cannot prove cause.\n2. **Observational studies** follow people without assigning treatments; they can show associations but may be distorted by confounding variables.\n3. **Randomized controlled trials** randomly assign participants to treatment or control groups, which balances hidden differences and gives stronger evidence of cause.\n4. **Systematic reviews and meta-analyses** combine many studies and generally sit at the top.\n\nA **confounding variable** is a third factor linked to both the exposure and the outcome. If coffee drinkers have more heart disease, smoking might be the true cause if coffee drinkers smoke more. Remember that **correlation does not prove causation**.\n\n**Bioethics principles.** Many medical books center on ethical conflicts. Four widely used principles help you analyze them:\n- **Autonomy**: respecting a patient's right to make informed decisions, including through **informed consent**.\n- **Beneficence**: acting in the patient's best interest.\n- **Nonmaleficence**: avoiding harm.\n- **Justice**: distributing benefits, risks and resources fairly.\n\nHistorical cases such as the U.S. Public Health Service syphilis study at Tuskegee, in which Black men were left untreated and deceived for decades, violated autonomy, nonmaleficence and justice. Reactions to such abuses led to the Belmont Report (1979) and modern institutional review boards, which oversee research with human participants.\n\n**Themes and synthesis.** A **theme** is a broad message that recurs across a book, such as the tension between scientific progress and individual rights. To identify a theme, look for ideas the author returns to in different chapters, then state it as a complete sentence, not a single word. Synthesis questions may ask how an early event connects to a later outcome, so review your timeline alongside your summaries.\n\n**Bias and perspective.** Consider who is telling the story. A memoir by a physician, a journalist's investigation and a family member's account will emphasize different facts. Recognizing perspective helps you answer questions about what the author emphasizes or omits.\n\nThe most common mistake students make is treating a dramatic anecdote in a book as proof that a treatment works or causes harm. A single story can illustrate a point, but only well-designed studies can establish cause.",
+    "examples": [
+      "A book reports that people who ate more vegetables lived longer; a careful reader notes they may also have exercised more, a possible confounding variable.",
+      "A patient's tissue is used for research without her knowledge; this raises a conflict with autonomy and informed consent.",
+      "A student states a theme as \"Medical advances can come at a cost to the individuals who make them possible\" instead of writing only \"sacrifice.\""
+    ],
+    "questions": [
+      {
+        "stem": "A book describes one patient who recovered after taking an herbal remedy. What is the strongest conclusion a careful reader can draw?",
+        "choices": [
+          "The remedy cures the disease",
+          "The remedy should replace standard treatment",
+          "The case is an anecdote and cannot prove the remedy caused recovery",
+          "The remedy works for most patients"
+        ],
+        "answer": 2,
+        "explanation": "A single case cannot separate the remedy's effect from chance or other causes. Claiming it cures the disease overstates what one anecdote can show."
+      },
+      {
+        "stem": "Researchers randomly assign 500 volunteers to a new drug or a placebo. What type of study is this?",
+        "choices": [
+          "Observational study",
+          "Case report",
+          "Randomized controlled trial",
+          "Meta-analysis"
+        ],
+        "answer": 2,
+        "explanation": "Random assignment to treatment and control groups defines a randomized controlled trial. An observational study does not assign treatments."
+      },
+      {
+        "stem": "A study finds that people who carry lighters have higher lung cancer rates. Which explanation identifies a confounding variable?",
+        "choices": [
+          "Lighters emit cancer-causing fumes",
+          "Lighter carriers are more likely to smoke",
+          "Lung cancer causes people to buy lighters",
+          "The finding proves lighters cause cancer"
+        ],
+        "answer": 1,
+        "explanation": "Smoking is linked to both carrying lighters and lung cancer, making it a confounder. Treating the lighter as the cause confuses correlation with causation."
+      },
+      {
+        "stem": "A physician pressures a competent adult to accept surgery after the patient has clearly refused. Which principle is most directly violated?",
+        "choices": [
+          "Justice",
+          "Autonomy",
+          "Beneficence",
+          "Nonmaleficence"
+        ],
+        "answer": 1,
+        "explanation": "Autonomy protects a competent patient's right to make informed decisions, including refusal. The physician may believe he is acting with beneficence, but that does not override a valid refusal."
+      },
+      {
+        "stem": "A book describes a hospital that gave a scarce treatment only to wealthy patients. Which principle is most at issue?",
+        "choices": [
+          "Justice",
+          "Autonomy",
+          "Informed consent",
+          "Beneficence"
+        ],
+        "answer": 0,
+        "explanation": "Justice concerns fair distribution of benefits and resources. Autonomy relates to individual decision-making, not how resources are allocated across patients."
+      },
+      {
+        "stem": "Which statement is the best example of a theme?",
+        "choices": [
+          "Chapter 4 takes place in 1951",
+          "Ethics",
+          "Scientific progress can conflict with the rights of individual patients",
+          "The researcher worked at a university hospital"
+        ],
+        "answer": 2,
+        "explanation": "A theme is a recurring message expressed as a complete idea. \"Ethics\" names a topic but does not state a message about it."
+      },
+      {
+        "stem": "Which development is most directly connected to public reaction against unethical studies such as the one at Tuskegee?",
+        "choices": [
+          "The Belmont Report and institutional review boards",
+          "The invention of the stethoscope",
+          "The discovery of penicillin",
+          "The creation of medical terminology"
+        ],
+        "answer": 0,
+        "explanation": "The Belmont Report and modern IRB oversight emerged in response to research abuses. Penicillin was relevant because it was withheld, but it was not a protection created in response."
+      },
+      {
+        "stem": "Two books describe the same medical breakthrough, one written by the lead researcher and one by a journalist. Why might their accounts differ?",
+        "choices": [
+          "One book must contain false facts",
+          "Each author's perspective shapes what is emphasized or omitted",
+          "Journalists cannot write about science",
+          "Researchers never write memoirs"
+        ],
+        "answer": 1,
+        "explanation": "Authors with different roles emphasize different details, so accounts can differ without either being false. Assuming one is false ignores the role of perspective."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Confounding variable",
+        "definition": "A third factor linked to both an exposure and an outcome that can create a misleading association."
+      },
+      {
+        "term": "Randomized controlled trial",
+        "definition": "A study that randomly assigns participants to treatment or control groups, giving strong evidence of cause."
+      },
+      {
+        "term": "Autonomy",
+        "definition": "The bioethics principle of respecting a patient's right to make informed decisions about their own care."
+      },
+      {
+        "term": "Justice",
+        "definition": "The bioethics principle of distributing benefits, risks and resources fairly."
+      },
+      {
+        "term": "Theme",
+        "definition": "A broad message that recurs across a book, stated as a complete idea."
+      }
+    ]
+  }
+]

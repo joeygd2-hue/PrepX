@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Healthcare Finance Revenue Cycle and Financial Management",
+    "objective": "Analyze the healthcare revenue cycle and apply core financial management principles to improve an organization's fiscal performance.",
+    "body": "Healthcare financial management is the discipline of acquiring, allocating, and controlling the monetary resources of a health services organization. Unlike most industries, healthcare organizations must navigate complex reimbursement rules, negotiate contracts with dozens of payers, and balance the financial imperative of solvency against a mission of community service.\n\nThe **revenue cycle** is the end-to-end process by which a healthcare organization earns and collects payment for services. It begins before a patient even arrives. **Pre-authorization** is the process by which a provider requests advance approval from an insurer for a planned service. Failing to obtain pre-authorization is one of the leading causes of claim denials. At registration, staff collect accurate **demographic and insurance information**; errors here cascade through the entire cycle.\n\nOnce care is delivered, clinical staff document services using standardized codes. **ICD-10-CM codes** (International Classification of Diseases, 10th Revision, Clinical Modification) describe diagnoses. **CPT codes** (Current Procedural Terminology), maintained by the American Medical Association, describe procedures. Accurate coding is both a compliance requirement and a revenue driver: **upcoding** (billing for a more intensive service than was provided) is fraud; **undercoding** risks leaving legitimate revenue uncaptured.\n\nThe coded claim is submitted to the payer. Payers adjudicate claims and may pay, deny, or request additional information. The **clean claim rate** — the percentage of claims accepted on first submission — is a key performance indicator. Denials must be tracked and appealed within strict timelines. The **accounts receivable (AR) days** metric measures how long, on average, it takes to collect payment after a service is rendered; lower AR days generally indicate a more efficient revenue cycle.\n\n**Charity care** and **bad debt** reduce net revenue. Charity care is free or discounted care provided to qualifying patients; bad debt is care provided to patients who were expected to pay but did not. Both must be tracked for financial reporting and tax-exempt status compliance.\n\nOn the expense side, administrators use **operating budgets**, **capital budgets**, and **cash flow statements**. The **operating margin** — operating income divided by operating revenue — signals whether day-to-day operations are financially sustainable. Health systems also monitor the **debt-to-equity ratio** and **days cash on hand**, which measures how many days the organization could operate using only its current liquid assets. Strategic decisions such as service line expansion or facility renovation depend on rigorous **break-even analysis** and return on investment calculations.",
+    "examples": [
+      "A hospital's revenue cycle team discovers that 18% of denied claims stem from missing pre-authorization for elective MRI scans; they implement an automated pre-auth reminder workflow and reduce that denial category by 60% within one quarter.",
+      "A small physician practice has AR days of 75, well above the industry benchmark of 40; the administrator audits the billing workflow and finds that claims are being held for 20 days before submission due to a staffing gap.",
+      "A nonprofit hospital provides $4 million in charity care annually; it must document this service to justify its tax-exempt status under IRS Form 990 Schedule H."
+    ],
+    "questions": [
+      {
+        "stem": "A hospital submits 1,000 claims in a month and 870 are accepted without correction on the first submission. What is the clean claim rate?",
+        "choices": [
+          "13%",
+          "87%",
+          "870 claims",
+          "78%"
+        ],
+        "answer": 1,
+        "explanation": "Clean claim rate is accepted-on-first-submission divided by total claims: 870 / 1,000 = 87%. The 13% figure is the denial rate, not the clean claim rate."
+      },
+      {
+        "stem": "A coder assigns a higher-complexity evaluation and management code than the physician's documentation supports in order to increase reimbursement. This practice is called:",
+        "choices": [
+          "Undercoding",
+          "Upcoding",
+          "Bundling",
+          "Downcoding"
+        ],
+        "answer": 1,
+        "explanation": "Upcoding means billing for a more resource-intensive service than was actually documented or provided, which is healthcare fraud. Undercoding is the opposite — billing for a lower level than warranted."
+      },
+      {
+        "stem": "A hospital wants to know how quickly it is converting services into cash. Which metric best answers this question?",
+        "choices": [
+          "Operating margin",
+          "Debt-to-equity ratio",
+          "Accounts receivable days",
+          "Days cash on hand"
+        ],
+        "answer": 2,
+        "explanation": "Accounts receivable (AR) days measures the average time from service delivery to payment collection, directly reflecting how quickly revenue is converted to cash. Days cash on hand measures liquidity reserves, not collection speed."
+      },
+      {
+        "stem": "A procedure requires advance insurer approval before it is performed. Failing to obtain this approval most directly risks:",
+        "choices": [
+          "A HIPAA privacy violation",
+          "Claim denial for that service",
+          "Loss of hospital licensure",
+          "A CPT coding audit"
+        ],
+        "answer": 1,
+        "explanation": "Pre-authorization is required by many payers for elective and high-cost services; performing the service without it typically results in claim denial. HIPAA violations and licensure issues involve separate regulatory frameworks."
+      },
+      {
+        "stem": "A clinic provides free care to uninsured patients who cannot afford services and documents this on its 990 filing. This is classified as:",
+        "choices": [
+          "Bad debt",
+          "Capitation shortfall",
+          "Charity care",
+          "An operating loss"
+        ],
+        "answer": 2,
+        "explanation": "Charity care is intentionally provided free or discounted care to qualifying patients, documented as a community benefit. Bad debt is care that was expected to be paid for but was not — a different financial category."
+      },
+      {
+        "stem": "A health system's operating margin falls from 4.2% to 0.8% over one fiscal year. What does this most directly indicate?",
+        "choices": [
+          "The system is taking on too much charity care",
+          "Day-to-day operations are becoming less financially sustainable",
+          "The capital budget is overextended",
+          "AR days have increased"
+        ],
+        "answer": 1,
+        "explanation": "Operating margin measures profitability of day-to-day operations; a sharp decline signals that expenses are rising faster than revenue or revenue is falling, threatening operational sustainability. AR days are a cycle-efficiency metric, not directly reflected in margin."
+      },
+      {
+        "stem": "CPT codes are primarily used to describe which aspect of a patient encounter?",
+        "choices": [
+          "The patient's diagnosis",
+          "The procedures and services performed",
+          "The severity of the illness",
+          "The patient's insurance status"
+        ],
+        "answer": 1,
+        "explanation": "CPT (Current Procedural Terminology) codes describe procedures and services rendered. ICD-10-CM codes, not CPT codes, are used to document diagnoses."
+      },
+      {
+        "stem": "A hospital administrator calculates how many days the organization could continue operations using only its liquid assets. Which metric is this?",
+        "choices": [
+          "Current ratio",
+          "Debt-to-equity ratio",
+          "Days cash on hand",
+          "Operating margin"
+        ],
+        "answer": 2,
+        "explanation": "Days cash on hand measures the number of days an organization could cover expenses using its unrestricted liquid assets. The current ratio compares current assets to current liabilities but does not express the answer in operational days."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Revenue cycle",
+        "definition": "The complete administrative and clinical process by which a healthcare organization identifies, captures, and collects patient service revenue, from scheduling through final payment."
+      },
+      {
+        "term": "ICD-10-CM",
+        "definition": "The International Classification of Diseases, 10th Revision, Clinical Modification — the standardized coding system used to document patient diagnoses on healthcare claims."
+      },
+      {
+        "term": "Accounts receivable (AR) days",
+        "definition": "A performance metric that measures the average number of days between service delivery and receipt of payment, used to evaluate revenue cycle efficiency."
+      },
+      {
+        "term": "Upcoding",
+        "definition": "The fraudulent practice of submitting a billing code for a more complex or resource-intensive service than was actually documented or provided."
+      },
+      {
+        "term": "Days cash on hand",
+        "definition": "A liquidity metric that indicates how many days a healthcare organization could sustain operations using only its current unrestricted liquid assets."
+      }
+    ]
+  }
+]

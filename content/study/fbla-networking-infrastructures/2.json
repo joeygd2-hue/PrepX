@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Designing LANs with subnets, VLANs and core services",
+    "objective": "Calculate subnets with CIDR, segment a LAN with VLANs, and explain how DHCP, DNS and NAT support a working network.",
+    "body": "Knowing the layers is the start; real infrastructure questions ask you to build a network that fits a building, a budget and a security policy. That means dividing address space, separating traffic and running the services every client depends on.\n\n**Subnetting with CIDR.** **CIDR** notation writes the number of network bits after a slash. A /24 leaves 8 host bits, giving 2^8 = 256 addresses, minus 2 (the network address and broadcast address), so 254 usable hosts. Each bit you borrow halves the block: a /25 gives 126 usable hosts, a /26 gives 62, a /27 gives 30, a /28 gives 14 and a /30 gives 2, which suits a point-to-point router link. To find the subnet a host belongs to, use the **block size** (256 minus the mask's interesting octet). For 192.168.1.77/26 the mask is 255.255.255.192, the block size is 64, so the subnets start at .0, .64, .128 and .192. The host sits in 192.168.1.64, with broadcast 192.168.1.127.\n\n**VLANs.** A **VLAN** (virtual LAN) splits one physical switch into separate logical broadcast domains. Staff, students, guests and security cameras can share the same hardware yet stay isolated. Ports that carry one VLAN are **access ports**; links between switches or to a router carry many VLANs using **802.1Q trunking**, which tags each frame with its VLAN ID. Hosts in different VLANs need a router or Layer 3 switch to communicate, which lets administrators apply access control lists at that point.\n\n**Core services.**\n- **DHCP** automatically leases IP address, mask, gateway and DNS server to clients through the Discover, Offer, Request, Acknowledge exchange. Each VLAN needs its own scope, and a DHCP relay (ip helper) forwards requests when the server is on another subnet.\n- **DNS** translates names such as www.example.com into IP addresses. A records map to IPv4, AAAA to IPv6, MX to mail servers and CNAME creates aliases.\n- **NAT**, usually port address translation, lets many private addresses share one public address on the internet.\n\n**Topology choices.** Most LANs use a star topology centered on switches, often in a hierarchy of access, distribution and core layers. Redundant links add fault tolerance, and the Spanning Tree Protocol blocks loops those links would otherwise create.\n\nThe most common mistake students make is forgetting to subtract the network and broadcast addresses, answering 64 hosts for a /26 instead of the correct 62.",
+    "examples": [
+      "A library needs 50 hosts per floor; a /26 (62 usable) fits each floor without wasting a full /24.",
+      "A school puts cameras on VLAN 30 and students on VLAN 10 so a compromised student laptop cannot directly reach the camera recorders.",
+      "A new phone joins the guest Wi-Fi, completes the DHCP DORA exchange, and receives 172.16.40.55 along with the gateway and DNS server it needs."
+    ],
+    "questions": [
+      {
+        "stem": "A department needs 25 hosts and the admin wants the smallest subnet that fits. Which prefix should be used?",
+        "choices": [
+          "/26",
+          "/28",
+          "/27",
+          "/29"
+        ],
+        "answer": 2,
+        "explanation": "A /27 provides 30 usable hosts, enough for 25. A /28 provides only 14 usable hosts, too few."
+      },
+      {
+        "stem": "A host has the address 10.1.1.150/26. What is its network address?",
+        "choices": [
+          "10.1.1.128",
+          "10.1.1.64",
+          "10.1.1.192",
+          "10.1.1.0"
+        ],
+        "answer": 0,
+        "explanation": "A /26 has a block size of 64, so subnets start at .0, .64, .128 and .192; 150 falls in the .128 block. 10.1.1.192 is the next subnet, which begins after 150."
+      },
+      {
+        "stem": "Users on a newly created VLAN 40 receive 169.254.x.x addresses while other VLANs work. The DHCP server sits on a different subnet. What is the most likely fix?",
+        "choices": [
+          "Replace the users' network cards",
+          "Configure a DHCP relay or scope for VLAN 40",
+          "Change DNS servers to a public resolver",
+          "Disable Spanning Tree Protocol"
+        ],
+        "answer": 1,
+        "explanation": "169.254 addresses mean DHCP failed; a new VLAN needs a scope and a relay to forward broadcasts to the remote server. Changing DNS will not help because clients never got an IP lease at all."
+      },
+      {
+        "stem": "Two switches must carry traffic for VLANs 10, 20 and 30 across a single cable. How should that link be configured?",
+        "choices": [
+          "As an access port on VLAN 10",
+          "As an 802.1Q trunk",
+          "As a hub uplink",
+          "With NAT enabled"
+        ],
+        "answer": 1,
+        "explanation": "An 802.1Q trunk tags frames so multiple VLANs share one link. An access port carries only one VLAN, so VLANs 20 and 30 would be cut off."
+      },
+      {
+        "stem": "Employees can reach websites by IP address but not by name. Which service is failing?",
+        "choices": [
+          "DHCP",
+          "NAT",
+          "DNS",
+          "STP"
+        ],
+        "answer": 2,
+        "explanation": "DNS resolves names to addresses, so working IPs with failing names points to DNS. NAT is working because traffic to IP addresses already reaches the internet."
+      },
+      {
+        "stem": "Which DNS record type tells other servers where to deliver email for a domain?",
+        "choices": [
+          "CNAME",
+          "MX",
+          "AAAA",
+          "A"
+        ],
+        "answer": 1,
+        "explanation": "MX records identify mail exchangers for a domain. A CNAME only creates an alias for another name and does not direct mail."
+      },
+      {
+        "stem": "A network engineer adds a second link between two switches for redundancy. What prevents a broadcast loop?",
+        "choices": [
+          "DHCP relay",
+          "Spanning Tree Protocol",
+          "Port address translation",
+          "An MX record"
+        ],
+        "answer": 1,
+        "explanation": "Spanning Tree Protocol blocks redundant paths until needed, preventing loops. NAT translates addresses and has nothing to do with Layer 2 loops."
+      },
+      {
+        "stem": "How many usable host addresses does a /30 subnet provide, and where is it typically used?",
+        "choices": [
+          "4, for small offices",
+          "2, for point-to-point router links",
+          "6, for printer groups",
+          "14, for guest Wi-Fi"
+        ],
+        "answer": 1,
+        "explanation": "A /30 has 4 addresses minus network and broadcast, leaving 2, perfect for a link between two routers. Saying 4 forgets to subtract the network and broadcast addresses."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "CIDR",
+        "definition": "Notation that writes the number of network bits after a slash, such as /26, replacing classful addressing."
+      },
+      {
+        "term": "VLAN",
+        "definition": "A logical broadcast domain created on a switch so groups of ports are isolated from each other."
+      },
+      {
+        "term": "802.1Q trunking",
+        "definition": "A standard that tags frames with a VLAN ID so one link can carry traffic for many VLANs."
+      },
+      {
+        "term": "DHCP",
+        "definition": "A service that automatically leases IP configuration to clients using the Discover, Offer, Request, Acknowledge exchange."
+      },
+      {
+        "term": "NAT",
+        "definition": "Translation that lets hosts with private addresses share one or more public addresses to reach the internet."
+      }
+    ]
+  }
+]

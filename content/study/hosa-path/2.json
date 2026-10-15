@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Inflammation, immunity, and fluid balance in disease",
+    "objective": "Explain the cardinal signs and stages of inflammation, compare hypersensitivity reactions, and apply Starling forces to explain how edema develops.",
+    "body": "Many diseases share the same underlying processes. Once you understand inflammation, abnormal immune responses, and fluid shifts, you can explain conditions as different as appendicitis, asthma, and heart failure.\n\n**Acute inflammation** is the body's rapid, nonspecific response to injury or infection. Damaged cells and mast cells release chemical mediators such as **histamine** and prostaglandins. Arterioles dilate and capillaries become leaky, so plasma and white blood cells move into the tissue. **Neutrophils** arrive first and engulf invaders by phagocytosis; macrophages follow and clean up debris. The five **cardinal signs** are redness, heat, swelling, pain, and loss of function. Systemic effects can include fever and an elevated white blood cell count. **Chronic inflammation** lasts weeks to years, is dominated by lymphocytes and macrophages, and causes ongoing tissue damage and fibrosis, as in rheumatoid arthritis.\n\n**Healing** occurs by regeneration, in which tissue is replaced with the same cell type, or by repair with scar tissue made of collagen. Tissues like liver can regenerate; heart muscle and neurons largely heal by scarring.\n\n**Hypersensitivity reactions** are immune responses that harm the host.\n1. **Type I (immediate)**: IgE on mast cells triggers histamine release within minutes. Examples are hay fever, allergic asthma, and anaphylaxis.\n2. **Type II (cytotoxic)**: antibodies bind antigens on cell surfaces, as in a transfusion reaction to mismatched blood.\n3. **Type III (immune complex)**: antigen-antibody complexes deposit in tissues such as kidneys and joints, as in lupus.\n4. **Type IV (delayed)**: T cells cause the reaction 24 to 72 hours later, as in poison ivy or a positive tuberculin skin test.\n\n**Autoimmunity** occurs when the immune system loses self-tolerance; type 1 diabetes, for example, involves immune destruction of insulin-producing beta cells.\n\n**Fluid balance and edema.** Fluid movement across capillaries depends on **hydrostatic pressure**, which pushes fluid out, and **oncotic pressure**, created mainly by the plasma protein albumin, which pulls fluid back in. **Edema** is excess fluid in the interstitial space and has four main mechanisms:\n- Increased capillary hydrostatic pressure, as in heart failure.\n- Decreased plasma oncotic pressure, as in liver failure or kidney disease that loses protein.\n- Increased capillary permeability, as in inflammation and burns.\n- Blocked lymphatic drainage, as after lymph node removal.\n\nThe most common mistake students make is confusing hypersensitivity types by memorizing examples without the timing and mechanism: type I is fast and IgE-driven, while type IV is delayed and T cell-driven, even though both can affect the skin.",
+    "examples": [
+      "A patient with severe liver cirrhosis makes too little albumin, so low oncotic pressure lets fluid collect in the abdomen and legs.",
+      "A camper develops an itchy, blistering rash two days after touching poison ivy, a classic type IV delayed hypersensitivity reaction.",
+      "Within minutes of a bee sting, a person with an allergy develops hives, wheezing, and low blood pressure, which reflects massive IgE-mediated histamine release in anaphylaxis."
+    ],
+    "questions": [
+      {
+        "stem": "A student sprains an ankle. The joint is red, warm, swollen, painful, and difficult to move. What causes the swelling?",
+        "choices": [
+          "Neutrophils dividing inside the joint",
+          "Capillaries becoming more permeable so plasma leaks into tissue",
+          "Decreased production of albumin",
+          "Blockage of lymph nodes by scar tissue"
+        ],
+        "answer": 1,
+        "explanation": "Inflammatory mediators make capillaries leaky, so fluid moves into the tissue. Low albumin causes edema in liver disease, not in a local acute injury."
+      },
+      {
+        "stem": "Which white blood cell is typically the first to arrive at a site of acute bacterial inflammation?",
+        "choices": [
+          "Lymphocyte",
+          "Neutrophil",
+          "Eosinophil",
+          "Plasma cell"
+        ],
+        "answer": 1,
+        "explanation": "Neutrophils are the first responders in acute inflammation. Lymphocytes dominate chronic inflammation and adaptive immunity, which is why they are a tempting but wrong choice."
+      },
+      {
+        "stem": "A nurse reads a tuberculin skin test 48 hours after placement and notes a firm raised area. What type of hypersensitivity does this represent?",
+        "choices": [
+          "Type I",
+          "Type II",
+          "Type III",
+          "Type IV"
+        ],
+        "answer": 3,
+        "explanation": "A delayed reaction appearing 48 to 72 hours later and mediated by T cells is type IV. Type I reactions occur within minutes and are IgE-driven."
+      },
+      {
+        "stem": "A patient receives a unit of ABO-incompatible blood and develops fever, back pain, and dark urine as red cells are destroyed. Which mechanism is involved?",
+        "choices": [
+          "Antibodies binding antigens on red blood cell surfaces",
+          "IgE triggering mast cell release",
+          "Immune complexes depositing in joints",
+          "T cells reacting after several days"
+        ],
+        "answer": 0,
+        "explanation": "Antibodies directed against cell-surface antigens define type II cytotoxic hypersensitivity. IgE and mast cells describe type I, which is not the mechanism of a transfusion reaction."
+      },
+      {
+        "stem": "A patient with heart failure has swelling in both ankles. Which mechanism best explains this edema?",
+        "choices": [
+          "Increased capillary permeability",
+          "Increased capillary hydrostatic pressure from venous congestion",
+          "Increased plasma oncotic pressure",
+          "Excess lymphatic drainage"
+        ],
+        "answer": 1,
+        "explanation": "A failing heart backs up blood in the veins, raising capillary hydrostatic pressure and pushing fluid out. Increased permeability is the inflammation mechanism, not the main cause in heart failure."
+      },
+      {
+        "stem": "A child with kidney disease is losing large amounts of protein in the urine and has puffy eyelids and swollen legs. Why?",
+        "choices": [
+          "Plasma oncotic pressure falls, so less fluid is pulled back into capillaries",
+          "Histamine makes capillaries leak",
+          "Lymphatic vessels are surgically removed",
+          "Hydrostatic pressure in capillaries falls"
+        ],
+        "answer": 0,
+        "explanation": "Loss of albumin lowers oncotic pressure, so fluid stays in tissues. Histamine-related leakiness is an inflammatory mechanism and does not explain protein loss."
+      },
+      {
+        "stem": "After a heart attack, the damaged area of the heart wall heals. What is the expected result?",
+        "choices": [
+          "Complete regeneration with new cardiac muscle",
+          "Replacement with collagen scar tissue",
+          "Conversion to smooth muscle through metaplasia",
+          "Fluid-filled cyst from liquefaction"
+        ],
+        "answer": 1,
+        "explanation": "Cardiac muscle has very limited ability to regenerate, so it heals by scar formation. Complete regeneration happens in tissues such as liver, not heart muscle."
+      },
+      {
+        "stem": "A patient with lupus develops joint pain and kidney inflammation. Which process best explains damage to multiple organs?",
+        "choices": [
+          "IgE-mediated mast cell release",
+          "Immune complexes depositing in tissues and activating inflammation",
+          "Delayed T-cell reactions to a skin allergen",
+          "Neutrophils failing to arrive at injury sites"
+        ],
+        "answer": 1,
+        "explanation": "Lupus is a classic type III disease in which antigen-antibody complexes lodge in kidneys, joints, and vessels. IgE and mast cells describe type I allergy, which does not explain multi-organ immune complex damage."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Cardinal signs of inflammation",
+        "definition": "Redness, heat, swelling, pain, and loss of function."
+      },
+      {
+        "term": "Oncotic pressure",
+        "definition": "The pulling force created by plasma proteins, mainly albumin, that draws fluid back into capillaries."
+      },
+      {
+        "term": "Edema",
+        "definition": "Excess fluid in the interstitial space."
+      },
+      {
+        "term": "Type I hypersensitivity",
+        "definition": "An immediate, IgE-mediated allergic reaction that releases histamine from mast cells."
+      },
+      {
+        "term": "Type IV hypersensitivity",
+        "definition": "A delayed reaction caused by T cells that appears 24 to 72 hours after exposure."
+      }
+    ]
+  }
+]

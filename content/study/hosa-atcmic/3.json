@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Antimicrobial action, resistance, and clinical laboratory identification",
+    "objective": "Explain how antimicrobial drugs target microbes, analyze how resistance develops and spreads, and interpret susceptibility and identification results from the clinical laboratory.",
+    "body": "Advanced microbiology questions ask you to connect structure, drug action and lab data. The key idea is **selective toxicity**: a good antimicrobial harms the microbe while sparing the host, which works best when it targets something the microbe has and human cells do not.\n\n**Drug targets.** Major antibacterial classes act on different structures:\n- **Cell wall synthesis**: beta-lactams (penicillins, cephalosporins, carbapenems) and vancomycin block peptidoglycan construction.\n- **Protein synthesis**: tetracyclines, aminoglycosides and macrolides target the bacterial 70S ribosome.\n- **Nucleic acid synthesis**: fluoroquinolones block DNA gyrase; rifampin blocks RNA polymerase.\n- **Metabolic pathways**: sulfonamides and trimethoprim block folic acid synthesis.\n\nAntibiotics do not work on viruses, which lack these structures. Antivirals target viral steps such as entry, genome replication or release, and antifungals often target ergosterol in fungal membranes.\n\n**How resistance develops.** Resistance arises from random mutations or from genes acquired by **horizontal gene transfer**: conjugation (plasmid passed through a pilus), transformation (uptake of free DNA) and transduction (DNA carried by a bacteriophage). Antibiotic use then **selects** for resistant cells: susceptible bacteria die, and survivors multiply. Common mechanisms include enzymes that destroy the drug (beta-lactamases), altered targets (the altered penicillin-binding protein in **MRSA**), efflux pumps that push drugs out, and reduced entry. Antimicrobial stewardship programs fight this by matching the right drug, dose and duration to confirmed infections and avoiding antibiotics for viral illnesses.\n\n**Reading lab results.** After a specimen is cultured, the lab identifies the organism and tests susceptibility.\n- In **Kirby-Bauer disk diffusion**, antibiotic disks sit on an agar lawn; a larger **zone of inhibition** generally means greater susceptibility, but zones must be compared with standardized breakpoints for each drug and organism.\n- **Minimum inhibitory concentration (MIC)** is the lowest drug concentration that prevents visible growth. A lower MIC means less drug is needed, yet MICs are interpreted as susceptible, intermediate or resistant only against each drug's own breakpoints, so raw numbers from different drugs are not directly compared.\n- Selective media suppress some organisms (MacConkey agar inhibits most Gram-positives), while differential media reveal traits (lactose fermenters turn pink on MacConkey; blood agar shows hemolysis patterns).\n- Modern labs also use MALDI-TOF mass spectrometry and PCR for fast identification.\n\n**Specimen quality.** Results are only as good as the sample. Cultures should be collected before antibiotics start when possible, labeled correctly and transported promptly, because contamination or delay can create misleading results.\n\nThe most common mistake is choosing the antibiotic with the biggest zone or the smallest MIC number across different drugs. Each drug has its own breakpoints, so a result must first be interpreted as susceptible or resistant before drugs are compared.",
+    "examples": [
+      "A wound culture grows Staphylococcus aureus with an altered penicillin-binding protein, so the lab reports it as MRSA and beta-lactams like oxacillin are not effective.",
+      "Two E. coli strains share a resistance gene because one passed a plasmid to the other through a pilus during conjugation.",
+      "On MacConkey agar, a urine isolate forms pink colonies, showing it is a Gram-negative lactose fermenter."
+    ],
+    "questions": [
+      {
+        "stem": "A patient with a common cold asks for antibiotics. Which response best reflects microbiology principles?",
+        "choices": [
+          "Antibiotics will shorten the cold because they kill all germs",
+          "Antibiotics do not act on viruses and can promote resistance",
+          "Antibiotics are needed to prevent the virus from mutating",
+          "Antibiotics work on viruses only if started within 24 hours"
+        ],
+        "answer": 1,
+        "explanation": "Colds are viral, and antibiotics target bacterial structures viruses lack, while unnecessary use selects for resistance. The idea that early antibiotics work on viruses is the main misconception."
+      },
+      {
+        "stem": "A bacterium produces an enzyme that breaks the ring structure of penicillin. Which resistance mechanism is this?",
+        "choices": [
+          "Efflux pump",
+          "Altered target site",
+          "Drug inactivation by beta-lactamase",
+          "Reduced membrane permeability"
+        ],
+        "answer": 2,
+        "explanation": "Beta-lactamases destroy beta-lactam drugs, an example of enzymatic inactivation. Altered target is the main distractor; it describes MRSA's changed penicillin-binding protein, not drug destruction."
+      },
+      {
+        "stem": "Why does a drug that blocks peptidoglycan synthesis have little effect on human cells?",
+        "choices": [
+          "Human cells lack peptidoglycan",
+          "Human cells pump the drug out",
+          "Human cells have 70S ribosomes",
+          "Human cells divide too slowly"
+        ],
+        "answer": 0,
+        "explanation": "Selective toxicity works because peptidoglycan exists only in bacteria. The 70S ribosome option is wrong because human cytoplasmic ribosomes are 80S, and the drug does not target ribosomes anyway."
+      },
+      {
+        "stem": "A bacteriophage carries a resistance gene from one bacterium and delivers it to another. What process occurred?",
+        "choices": [
+          "Conjugation",
+          "Transformation",
+          "Binary fission",
+          "Transduction"
+        ],
+        "answer": 3,
+        "explanation": "Gene transfer carried by a virus that infects bacteria is transduction. Conjugation also transfers genes but requires direct cell contact through a pilus."
+      },
+      {
+        "stem": "On a Kirby-Bauer plate, drug A has a 22 mm zone and drug B has a 15 mm zone against the same isolate. What should the technician do next?",
+        "choices": [
+          "Report drug A as better because its zone is larger",
+          "Report both as resistant because zones are under 25 mm",
+          "Compare each zone with that drug's own breakpoints",
+          "Repeat the test without the agar lawn"
+        ],
+        "answer": 2,
+        "explanation": "Each antibiotic has standardized breakpoints, so zones are interpreted per drug before comparing. Choosing the bigger zone outright is the classic error, because a 15 mm zone may be susceptible for one drug while 22 mm is intermediate for another."
+      },
+      {
+        "stem": "An isolate grows on blood agar but not on MacConkey agar. What is the most reasonable conclusion?",
+        "choices": [
+          "It is likely Gram-positive",
+          "It is a lactose fermenter",
+          "It is an obligate anaerobe",
+          "It is a virus"
+        ],
+        "answer": 0,
+        "explanation": "MacConkey agar inhibits most Gram-positive bacteria, so growth only on blood agar suggests a Gram-positive organism. Lactose fermentation can only be judged if the organism grows on MacConkey, so that option does not fit."
+      },
+      {
+        "stem": "A hospital notices rising resistance after heavy use of broad-spectrum antibiotics. Which action best addresses the root cause?",
+        "choices": [
+          "Switch all patients to newer antibiotics",
+          "Shorten hand hygiene to save time",
+          "Stop collecting cultures to reduce lab costs",
+          "Start an antimicrobial stewardship program"
+        ],
+        "answer": 3,
+        "explanation": "Stewardship reduces the selective pressure that drives resistance by using the right drug only when needed. Switching everyone to newer drugs is the main distractor because it simply selects for resistance to those drugs next."
+      },
+      {
+        "stem": "Which statement about a minimum inhibitory concentration (MIC) is correct?",
+        "choices": [
+          "It is the highest drug level a patient can tolerate",
+          "It is the lowest concentration that prevents visible growth",
+          "It measures the diameter of the clear zone in millimeters",
+          "It identifies the organism's genus"
+        ],
+        "answer": 1,
+        "explanation": "MIC is the lowest drug concentration that stops visible growth in the test. The zone diameter option describes disk diffusion, a different method."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Selective toxicity",
+        "definition": "Ability of an antimicrobial to harm the microbe while causing minimal harm to the host, often by targeting structures humans lack."
+      },
+      {
+        "term": "Horizontal gene transfer",
+        "definition": "Movement of genes between existing bacteria by conjugation, transformation or transduction, a major route for spreading resistance."
+      },
+      {
+        "term": "Beta-lactamase",
+        "definition": "Bacterial enzyme that breaks the beta-lactam ring and inactivates drugs such as penicillins."
+      },
+      {
+        "term": "Minimum inhibitory concentration (MIC)",
+        "definition": "Lowest concentration of an antimicrobial that prevents visible growth of an organism, interpreted against drug-specific breakpoints."
+      },
+      {
+        "term": "Zone of inhibition",
+        "definition": "Clear area around an antibiotic disk in Kirby-Bauer testing where bacterial growth is prevented."
+      }
+    ]
+  }
+]

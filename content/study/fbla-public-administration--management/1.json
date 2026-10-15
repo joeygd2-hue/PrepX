@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of Public Administration and Government Structure",
+    "objective": "Define public administration, distinguish it from private management, and identify how government levels and branches divide administrative responsibility.",
+    "body": "**Public administration** is the implementation of government policy and the management of public agencies that deliver services to citizens. Where elected officials decide *what* government should do, public administrators figure out *how* to do it: hiring staff, writing procedures, managing budgets, and measuring results. The field matters because almost every interaction a citizen has with government, from renewing a driver's license to calling 911, runs through an administrative system.\n\nPublic organizations differ from private businesses in several important ways:\n- **Accountability** runs to the public, elected officials, and courts rather than to owners or shareholders.\n- Success is measured by **public value** (safety, equity, service quality) rather than profit.\n- Agencies operate under **legal authority**; they may only do what statutes and constitutions permit.\n- Decisions are subject to **transparency** requirements such as open-meetings and public-records laws.\n\nThe United States uses **federalism**, a system in which power is shared between the national government and the states. Local governments such as counties, cities, school districts, and special districts are created by the states and carry out much of the day-to-day service delivery. Within each level, the **separation of powers** divides authority among legislative, executive, and judicial branches. Most public administrators work in the executive branch, carrying out laws that legislatures pass and that courts may review.\n\nAgencies are commonly organized as a **bureaucracy**, a term sociologist Max Weber used to describe organizations with a clear hierarchy, written rules, specialized roles, and hiring based on merit. Although \"bureaucracy\" is often used as an insult, Weber's model was designed to make government predictable and fair. The **merit system**, established federally by the Pendleton Civil Service Reform Act of 1883, replaced the spoils system, in which jobs were handed out as political rewards.\n\nLocal governments use different structures. In a **council-manager** form, an elected council sets policy and hires a professional city manager to run operations. In a **mayor-council** form, an elected mayor may serve as the chief executive, with \"strong mayor\" systems giving the mayor broad hiring and budget power.\n\nThe most common mistake students make is treating public administration as identical to business management. Efficiency matters in government, but administrators must also balance legality, fairness, and accountability, which sometimes means a slower process is the correct one.",
+    "examples": [
+      "A state department of motor vehicles adopting online renewals to cut wait times is an example of administrators deciding how to implement a law the legislature already passed.",
+      "A city using the council-manager form has its elected council approve the budget while a hired city manager supervises the police, parks, and public works departments."
+    ],
+    "questions": [
+      {
+        "stem": "A city council passes an ordinance requiring curbside recycling. Who is primarily responsible for designing the pickup routes and schedules?",
+        "choices": [
+          "The city's public works department",
+          "The state supreme court",
+          "The city council's legislative clerk",
+          "Voters through a referendum"
+        ],
+        "answer": 0,
+        "explanation": "Executive agencies such as public works implement policy. The council made the policy decision, but its clerk does not run operations."
+      },
+      {
+        "stem": "Which characteristic most clearly distinguishes a public agency from a private company?",
+        "choices": [
+          "It uses written procedures",
+          "It must act within authority granted by law and answer to the public",
+          "It employs specialized staff",
+          "It tracks its expenses"
+        ],
+        "answer": 1,
+        "explanation": "Legal authority and public accountability define public agencies. Written procedures exist in many private firms too, so they do not distinguish the sectors."
+      },
+      {
+        "stem": "A newly elected governor fires hundreds of qualified state workers and replaces them with campaign volunteers. This practice most resembles which system?",
+        "choices": [
+          "Merit system",
+          "Council-manager system",
+          "Spoils system",
+          "Federalism"
+        ],
+        "answer": 2,
+        "explanation": "Awarding jobs as political rewards is the spoils system. The merit system, which the Pendleton Act promoted, is the opposite."
+      },
+      {
+        "stem": "Under federalism, which statement is accurate?",
+        "choices": [
+          "Cities hold sovereignty independent of states",
+          "The national government directly runs all schools",
+          "Power is shared between the national and state governments",
+          "Courts write the budgets for executive agencies"
+        ],
+        "answer": 2,
+        "explanation": "Federalism divides power between national and state governments. Cities are created by states and do not have independent sovereignty."
+      },
+      {
+        "stem": "A town hires a professional with a public administration degree to oversee all departments, while elected officials set policy. Which form of government is this?",
+        "choices": [
+          "Strong mayor-council",
+          "Council-manager",
+          "Commission",
+          "Weak mayor-council"
+        ],
+        "answer": 1,
+        "explanation": "A hired manager running operations under an elected council is the council-manager form. In a strong mayor-council system, the elected mayor is the chief executive."
+      },
+      {
+        "stem": "Max Weber's model of bureaucracy emphasizes which feature?",
+        "choices": [
+          "Hiring based on personal loyalty",
+          "Flexible, unwritten rules",
+          "Clear hierarchy and written rules",
+          "Elimination of specialized roles"
+        ],
+        "answer": 2,
+        "explanation": "Weber stressed hierarchy, written rules, specialization, and merit. Loyalty-based hiring contradicts his model."
+      },
+      {
+        "stem": "A county agency is asked to post meeting agendas in advance and release records on request. These requirements primarily support which value?",
+        "choices": [
+          "Profit maximization",
+          "Transparency",
+          "Federalism",
+          "Specialization"
+        ],
+        "answer": 1,
+        "explanation": "Open-meetings and records laws promote transparency. Profit is not a goal of public agencies."
+      },
+      {
+        "stem": "Which law is most associated with establishing the federal merit system?",
+        "choices": [
+          "Pendleton Civil Service Reform Act",
+          "Freedom of Information Act",
+          "Sherman Antitrust Act",
+          "Social Security Act"
+        ],
+        "answer": 0,
+        "explanation": "The Pendleton Act of 1883 created merit-based federal hiring. FOIA deals with access to records, not hiring."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Public administration",
+        "definition": "The implementation of government policy and management of public agencies that deliver services."
+      },
+      {
+        "term": "Federalism",
+        "definition": "A system sharing power between the national government and the states."
+      },
+      {
+        "term": "Bureaucracy",
+        "definition": "Weber's model of organization with hierarchy, written rules, specialization, and merit hiring."
+      },
+      {
+        "term": "Merit system",
+        "definition": "Hiring and promoting public employees based on qualifications rather than political loyalty."
+      },
+      {
+        "term": "Council-manager form",
+        "definition": "Local government in which an elected council sets policy and hires a professional manager to run operations."
+      }
+    ]
+  }
+]

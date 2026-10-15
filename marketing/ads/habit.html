@@ -1,0 +1,106 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+.notif{position:absolute;left:40px;right:40px;top:320px;border-radius:24px;padding:16px 18px;background:rgba(38,38,42,.78);border:1px solid rgba(255,255,255,.1);box-shadow:0 30px 60px -20px rgba(0,0,0,.9);backdrop-filter:blur(20px)}
+.seg{flex:1;height:5px;border-radius:9px;background:var(--subtle2);overflow:hidden}
+.qcard{position:absolute;left:0;right:0;top:0;background:linear-gradient(180deg,#141416,#0f0f11);border:1px solid var(--border);border-radius:26px;padding:24px;box-shadow:0 30px 70px -30px rgba(0,0,0,.95)}
+.ans{display:flex;align-items:center;gap:12px;height:60px;border-radius:16px;border:1px solid var(--border);background:var(--subtle);padding:0 18px;font-size:19px;margin-top:12px}
+</style></head>
+<body>
+<script src="common.js"></script>
+<script>
+const B=[0.19,0.7,1.16,1.63,2.11,2.6,3.07,3.55,4.04,4.53,4.99,5.48,5.97,6.43,6.92,7.41,7.89,8.36,8.85,9.33,9.8];
+const STRONG=[3.07,4.99,6.92,8.85];
+const END=10.0;
+const ORG={DECA:'#5b9bff',FBLA:'#f6c34a',HOSA:'#f0668f',TSA:'#ff5c70'};
+const Q=[['HOSA','Medical terminology','The suffix -itis means…','Inflammation','Pain'],['DECA','Finance','Monthly rent is a ___ cost.','Fixed','Variable'],['TSA','Electronics','Voltage = current × ?','Resistance','Power'],['HOSA','Medical terminology','The prefix brady- means…','Slow','Fast'],['FBLA','Accounting','Assets = Liabilities + ?','Equity','Revenue'],['DECA','Marketing','Product, price, place and…','Promotion','People'],['FBLA','Parliamentary procedure','Most motions need a…','Second','Vote'],['HOSA','Medical terminology','The prefix tachy- means…','Fast','Slow'],['TSA','Computing','CPU stands for…','Central processing unit','Computer power unit'],['FBLA','Economics','Supply rises, demand holds. Price…','Falls','Rises']];
+const QT=B.slice(5,15);
+const MARK=`<svg width="S" height="S" viewBox="0 0 32 32"><rect width="32" height="32" rx="9" fill="#f2f2ec"/><path d="M10 10 L14 14 M18 18 L22 22" stroke="#09090a" stroke-width="3" stroke-linecap="round"/><path d="M10 22 L22 10" stroke="#09090a" stroke-width="3" stroke-linecap="round"/><path d="M16.2 10 H22 V15.8" fill="none" stroke="#7fa312" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const mark=s=>MARK.replaceAll('"S"',`"${s}"`);
+document.body.insertAdjacentHTML('afterbegin',frameHTML(`
+<div class="scene" id="lock">
+  <div style="position:absolute;left:0;right:0;top:120px;text-align:center"><svg width="14" height="18" viewBox="0 0 14 18" style="opacity:.8"><rect x="1" y="8" width="12" height="9" rx="2.5" fill="#f2f2ec"/><path d="M3.5 8 V5.5 a3.5 3.5 0 0 1 7 0 V8" fill="none" stroke="#f2f2ec" stroke-width="1.8"/></svg></div>
+  <div style="position:absolute;left:0;right:0;top:150px;text-align:center;font-size:18px;font-weight:500;color:rgba(242,242,236,.8)">Tuesday, March 3</div>
+  <div class="num" style="position:absolute;left:0;right:0;top:172px;text-align:center;font-size:118px;font-weight:600;letter-spacing:-.05em;line-height:1">7:42</div>
+  <div class="notif" id="nt">
+    <div style="display:flex;align-items:center;gap:10px">${mark(30)}<span class="mono" style="font-size:11px;letter-spacing:.14em;color:rgba(242,242,236,.7)">PREPX</span><span style="margin-left:auto;font-size:12px;color:rgba(242,242,236,.55)">now</span></div>
+    <div style="margin-top:10px;font-size:18px;font-weight:600;letter-spacing:-.02em">Keep your 23-day streak</div>
+    <div style="margin-top:3px;font-size:15px;color:rgba(242,242,236,.72)">10 questions today · about 3 minutes</div>
+    <div id="tap" style="position:absolute;left:58%;top:52%;width:60px;height:60px;margin:-30px;border-radius:50%;background:rgba(255,255,255,.35)"></div>
+  </div>
+</div>
+<div class="scene" id="app">
+  <div id="hdr" style="position:absolute;left:44px;right:44px;top:190px">
+    <div style="display:flex;align-items:center;gap:12px">${mark(34)}<div><div style="font-size:22px;font-weight:600;letter-spacing:-.04em">Quick 10</div><div class="eyebrow" style="margin-top:2px">Adaptive · your weak spots first</div></div>
+      <div class="chip mono num" id="xp" style="margin-left:auto;background:var(--accent);color:#0c0c0d;border:0;font-weight:600">+0 XP</div></div>
+    <div id="segs" style="display:flex;gap:5px;margin-top:20px"></div>
+  </div>
+  <div id="qwrap" style="position:absolute;left:44px;right:44px;top:340px;height:340px"></div>
+</div>
+<div class="scene" id="done">
+  <div class="card" id="score" style="top:150px;text-align:center;padding:22px">
+    <div class="eyebrow">Quick 10 complete</div>
+    <div style="display:flex;align-items:baseline;justify-content:center;gap:6px;margin-top:6px"><span class="num" style="font-size:56px;font-weight:600;letter-spacing:-.05em">10</span><span style="color:var(--muted);font-size:18px">/10</span><span class="chip mono" style="margin-left:12px;background:var(--accent);color:#0c0c0d;border:0;font-weight:600">+100 XP</span></div>
+  </div>
+  <div id="flame" style="position:absolute;left:0;right:0;top:330px;display:flex;justify-content:center">
+    <svg width="120" height="140" viewBox="0 0 60 70"><defs><linearGradient id="fg" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff7a2f"/><stop offset=".6" stop-color="#ffb23f"/><stop offset="1" stop-color="#ffe27a"/></linearGradient></defs>
+      <path d="M30 2 C34 16 50 22 50 42 C50 57 41 67 30 67 C19 67 10 57 10 44 C10 32 18 26 21 16 C24 24 27 27 30 28 C29 20 28 10 30 2 Z" fill="url(#fg)"/>
+      <path d="M30 34 C33 42 40 45 40 54 C40 61 35 65 30 65 C25 65 20 61 20 55 C20 48 26 45 30 34 Z" fill="#fff3c2" opacity=".85"/></svg>
+  </div>
+  <div id="burst" style="position:absolute;left:270px;top:400px"></div>
+  <div style="position:absolute;left:0;right:0;top:478px;text-align:center;height:96px;overflow:hidden"><div id="roll" class="num" style="font-size:88px;font-weight:600;letter-spacing:-.05em;line-height:96px"><div>23</div><div style="color:var(--accent)">24</div></div></div>
+  <div id="dsub" class="eyebrow" style="position:absolute;left:0;right:0;top:580px;text-align:center;font-size:12px">day streak</div>
+  <div id="line1" style="position:absolute;left:0;right:0;top:640px;text-align:center;font-size:30px;font-weight:600;letter-spacing:-.04em">Ten questions a day.</div>
+  <div id="brand" style="position:absolute;left:0;right:0;top:760px;display:flex;justify-content:center;align-items:center;gap:10px">${mark(30)}<span style="font-size:24px;font-weight:600;letter-spacing:-.05em">Prep<span class="serif" style="font-size:1.15em;letter-spacing:0;color:var(--accent)">X</span></span><span class="chip" style="margin-left:6px;color:var(--muted)">Free to start</span></div>
+  <div id="line2" style="position:absolute;left:0;right:0;top:680px;text-align:center;font-size:36px;color:var(--accent)" class="serif">That's the whole trick.</div>
+</div>
+<div id="off" style="position:absolute;inset:-60px;background:#000;opacity:0"></div>`));
+// build segments, cards, particles
+for(let i=0;i<10;i++)$('segs').insertAdjacentHTML('beforeend','<div class="seg"><div style="height:100%;width:0;background:var(--accent)"></div></div>');
+Q.forEach(([org,topic,stem,a,b],i)=>{const right=i%2===0;const opts=right?[[a,1],[b,0]]:[[b,0],[a,1]];
+  $('qwrap').insertAdjacentHTML('beforeend',`<div class="qcard" id="qc${i}"><div style="display:flex;align-items:center;gap:8px"><span class="dot" style="background:${ORG[org]}"></span><span class="eyebrow" style="color:${ORG[org]}">${org}</span><span class="eyebrow">· ${topic}</span><span class="eyebrow num" style="margin-left:auto">${i+1}/10</span></div>
+  <div style="font-size:29px;font-weight:600;letter-spacing:-.04em;line-height:1.18;margin-top:16px">${stem}</div>
+  ${opts.map(([txt,ok])=>`<div class="ans" ${ok?`id="ok${i}"`:''}><span>${txt}</span>${ok?`<svg width="20" height="20" viewBox="0 0 20 20" style="margin-left:auto"><path id="tk${i}" d="M4 10.5 L8.5 15 L16 6" fill="none" stroke="#0c0c0d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>`:''}</div>`).join('')}</div>`);});
+for(let i=0;i<16;i++){const a=i/16*Math.PI*2;$('burst').insertAdjacentHTML('beforeend',`<div class="pt" data-a="${a}" data-r="${110+((i*37)%5)*18}" style="position:absolute;width:${i%3?8:12}px;height:${i%3?8:12}px;margin:-5px;border-radius:50%;background:${i%4===0?'#ffb23f':'#c6f03a'}"></div>`);}
+
+window.render=function(t){
+  // beat pulse, stronger on accent hits
+  const l=lastBeat(B,t);const strong=STRONG.includes(l);
+  $('stage').style.transform=`scale(${(1+(strong?.03:.012)*Math.exp(-(t-l)*9)+.004*Math.sin(t*.7)).toFixed(4)})`;
+  hideGlows();const G=['g0','g1','g2','g3'].map($);
+  // lock screen
+  if(show('lock',t<2.4)){glow(G[0],140,260,260,'#4b3cff',.22);glow(G[1],420,700,260,'#c6f03a',.12);glow(G[2],300,420,180,'#ff7a2f',.08);
+    const n=$('nt');const e=back(p(t,B[0],.5)),eb=eo(p(t,B[0],.35));const tp=p(t,B[3],.35);const open=eio(p(t,B[4],.3));
+    n.style.opacity=(eb*(1-open)).toFixed(3);n.style.filter=eb<.98?`blur(${((1-eb)*12).toFixed(1)}px)`:'none';
+    n.style.transform=`translateY(${((1-e)*-60-open*40).toFixed(1)}px) scale(${(1-.03*Math.sin(Math.PI*tp)+open*.25).toFixed(4)})`;
+    $('tap').style.opacity=(tp>0&&tp<1?(1-tp)*.9:0).toFixed(3);$('tap').style.transform=`scale(${(.3+tp*1.4).toFixed(3)})`;
+    $('lock').style.opacity=(1-eio(p(t,B[4]+.05,.28))).toFixed(3);}
+  // app
+  if(show('app',t>=B[4]&&t<B[15]+.05)){glow(G[0],270,360,240,'#c6f03a',.08);
+    const ai=eo(p(t,B[4],.35)),ao=eio(p(t,B[15]-.15,.2));$('app').style.opacity=(ai*(1-ao)).toFixed(3);$('app').style.transform=`scale(${lerp(1.08,1,ai).toFixed(4)})`;$('app').style.filter=ai<.98?`blur(${((1-ai)*10).toFixed(1)}px)`:'none';
+    let done=0;
+    QT.forEach((q0,i)=>{const c=$('qc'+i);const nx=QT[i+1]??B[15];
+      const inn=eo5(p(t,q0-.06,.2)),out=eio(p(t,nx-.08,.16));
+      c.style.opacity=(t<q0-.06?0:inn*(1-out)).toFixed(3);c.style.transform=`translateX(${((1-inn)*90-out*90).toFixed(1)}px) rotate(${((1-inn)*3-out*3).toFixed(2)}deg)`;c.style.filter=(inn<.98||out>.02)?`blur(${((1-inn)*10+out*10).toFixed(1)}px)`:'none';
+      const hit=p(t,q0+.16,.14);const ok=$('ok'+i);const on=hit>0;
+      ok.style.background=on?'#c6f03a':'var(--subtle)';ok.style.color=on?'#0c0c0d':'';ok.style.fontWeight=on?600:400;ok.style.borderColor=on?'transparent':'var(--border)';ok.style.transform=`scale(${(1+.04*Math.sin(Math.PI*hit)).toFixed(4)})`;
+      $('tk'+i).style.strokeDashoffset=1-eo(hit);if(t>=q0+.16)done=i+1;
+      $('segs').children[i].firstChild.style.width=(eo(p(t,q0+.16,.15))*100).toFixed(1)+'%';});
+    $('xp').textContent=`+${done*10} XP`;const xl=QT.map(q=>q+.16).filter(x=>x<=t).pop()??-9;$('xp').style.transform=`scale(${(1+.12*Math.exp(-(t-xl)*10)).toFixed(3)})`;}
+  // done: score + streak
+  if(show('done',t>=B[15])){glow(G[0],270,420,230,'#ff9a3d',.10+.18*eo(p(t,B[16],.4))*Math.max(.55,Math.exp(-(t-B[17])*1.5)*(t>=B[17]?1:0)+.55));glow(G[1],270,620,220,'#c6f03a',.10);
+    put($('score'),io(t,B[15],99,.35,.1,40));
+    const f=back(p(t,B[16],.45)),fe=eo(p(t,B[16],.3));const pop=t>=B[17]?Math.exp(-(t-B[17])*6):0;
+    $('flame').style.opacity=fe;$('flame').style.transform=`scale(${(lerp(.3,1,f)+.25*pop+.02*Math.sin(t*14)).toFixed(4)})`;$('flame').style.transformOrigin='50% 90%';
+    const r=eo5(p(t,B[17],.38));$('roll').style.transform=`translateY(${(-96*r).toFixed(1)}px)`;$('roll').parentElement.style.opacity=fe;
+    put($('dsub'),io(t,B[16]+.1,99,.3,.1,10));
+    [...$('burst').children].forEach(d=>{const a=+d.dataset.a,R=+d.dataset.r;const k=p(t,B[17],.75);const e=eo(k);d.style.opacity=(k>0&&k<1?1-k:0).toFixed(3);d.style.transform=`translate(${(Math.cos(a)*R*e).toFixed(1)}px,${(Math.sin(a)*R*e).toFixed(1)}px) scale(${(1-k*.6).toFixed(3)})`;});
+    put($('line1'),io(t,B[17]+.12,99,.35,.1,24));const s2=io(t,B[18],99,.4,.1,24);s2.s=lerp(.85,1,back(p(t,B[18],.4)));put($('line2'),s2);put($('brand'),io(t,B[19]-.1,99,.35,.1,16));}
+  flash(t,B[17],.5);
+  // screen off → loop back to the lock screen
+  $('off').style.opacity=Math.max(eio(p(t,9.72,.24)),1-eo(p(t,0,.16))).toFixed(3);
+};
+window.DURATION=END;
+window.render(0);
+</script>
+</body></html>

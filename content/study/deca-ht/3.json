@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Lodging operations and revenue management",
+    "objective": "Describe how hotel departments and front office procedures work, and calculate and interpret occupancy, ADR and RevPAR.",
+    "body": "Lodging management events reward competitors who understand how a hotel runs behind the scenes and who can read its performance numbers. Expect questions on departments, front office procedures and the three key rooms metrics.\n\n**How a hotel is organized.** The *rooms division* includes the front office, reservations, housekeeping and uniformed services such as bell staff and the concierge. Other departments include food and beverage, sales and marketing, engineering (maintenance), accounting, human resources and security. Front-of-house staff serve guests directly; back-of-house staff support them out of sight.\n\n**Front office essentials.** A *guaranteed reservation* is secured with a payment card or deposit, so the hotel holds the room all night and may charge a no-show fee. A *non-guaranteed reservation* is released at a set cancellation hour. The *property management system (PMS)* stores reservations, room status and guest folios. The *night audit* posts room charges and taxes to each folio, reconciles the day's transactions and produces reports for management. Housekeeping and the front desk share room status, such as occupied, vacant dirty, vacant clean (inspected) and out of order.\n\n**Key performance metrics.**\n- *Occupancy rate* = rooms sold ÷ rooms available.\n- *Average daily rate (ADR)* = rooms revenue ÷ rooms sold.\n- *Revenue per available room (RevPAR)* = rooms revenue ÷ rooms available, which also equals ADR × occupancy.\n\nRevPAR is the most widely used single measure because it balances price and volume.\n\n**Revenue management.** Because room nights are perishable, hotels forecast demand and adjust rates and restrictions to maximize revenue. They raise rates when a citywide event fills the market, offer promotions in slow periods and may require minimum lengths of stay on peak nights. Many also overbook slightly, based on historical no-show and cancellation rates. If a guest with a confirmed reservation cannot be accommodated, best practice is to *walk* the guest: arrange and pay for a comparable nearby hotel and transportation, apologize and invite the guest back.\n\nA common mistake is chasing occupancy alone. Filling every room at a deep discount can produce lower RevPAR than selling fewer rooms at a stronger rate.",
+    "examples": [
+      "A 200-room hotel sells 150 rooms for $24,000 of room revenue. Occupancy = 150 ÷ 200 = 75%, ADR = $24,000 ÷ 150 = $160, and RevPAR = $24,000 ÷ 200 = $120 (also $160 × 0.75).",
+      "A downtown hotel sees about 4% of Friday reservations no-show, so on a sold-out Friday it accepts a few extra bookings and keeps a nearby partner hotel on standby in case it must walk a guest."
+    ],
+    "questions": [
+      {
+        "stem": "A 240-room hotel sold 192 rooms last night. What was its occupancy rate?",
+        "choices": ["75%", "80%", "48%", "125%"],
+        "answer": 1,
+        "explanation": "Occupancy = rooms sold ÷ rooms available = 192 ÷ 240 = 0.80, or 80%."
+      },
+      {
+        "stem": "A 250-room hotel sold 210 rooms and earned $31,500 in room revenue. What was its average daily rate (ADR)?",
+        "choices": ["$126", "$150", "$105", "$184"],
+        "answer": 1,
+        "explanation": "ADR = room revenue ÷ rooms sold = $31,500 ÷ 210 = $150. Dividing by all 250 rooms gives $126, which is RevPAR."
+      },
+      {
+        "stem": "A hotel's ADR is $180 and its occupancy rate is 70%. What is its RevPAR?",
+        "choices": ["$180", "$126", "$54", "$250"],
+        "answer": 1,
+        "explanation": "RevPAR = ADR × occupancy = $180 × 0.70 = $126."
+      },
+      {
+        "stem": "Hotel A ran 90% occupancy at an ADR of $100. Hotel B ran 75% occupancy at an ADR of $130. Which hotel performed better on RevPAR?",
+        "choices": ["Hotel A, with RevPAR of $90.00", "Hotel B, with RevPAR of $97.50", "Hotel A, because its occupancy was higher", "Neither, because their RevPAR was equal"],
+        "answer": 1,
+        "explanation": "Hotel A: $100 × 0.90 = $90.00. Hotel B: $130 × 0.75 = $97.50. Hotel B earned more per available room despite lower occupancy."
+      },
+      {
+        "stem": "A guest with a guaranteed reservation neither arrives nor cancels. What typically happens?",
+        "choices": ["The room is released at 6 p.m. with no charge", "The hotel holds the room all night and may charge a no-show fee", "The reservation moves automatically to the next night", "The hotel must refund any deposit the guest paid"],
+        "answer": 1,
+        "explanation": "A guaranteed reservation is secured with payment, so the hotel holds the room through the night and can charge for the no-show. Release at a set hour applies to non-guaranteed reservations."
+      },
+      {
+        "stem": "Which front office process posts room charges and taxes to guest folios and reconciles the day's transactions?",
+        "choices": ["Night audit", "Room blocking", "Yield forecasting", "Pre-registration"],
+        "answer": 0,
+        "explanation": "The night audit closes out each business day by posting charges, balancing accounts and producing management reports."
+      },
+      {
+        "stem": "A room has been cleaned, inspected by a supervisor and is ready to sell to the next guest. What is its housekeeping status?",
+        "choices": ["Occupied", "Vacant dirty", "Out of order", "Vacant clean (inspected)"],
+        "answer": 3,
+        "explanation": "Vacant clean, or inspected, means the room is empty, cleaned and approved for sale. Out of order means it cannot be sold because of repairs."
+      },
+      {
+        "stem": "An overbooked hotel cannot provide a room to a guest who holds a confirmed reservation. What is the best practice?",
+        "choices": ["Ask the guest to wait in the lobby until a room opens up", "Cancel the reservation and refund any deposit", "Arrange and pay for a comparable nearby hotel and transportation", "Offer a discount on a future stay and nothing more"],
+        "answer": 2,
+        "explanation": "Walking a guest properly means securing and paying for comparable lodging and transportation, apologizing and inviting the guest back."
+      },
+      {
+        "stem": "A hotel raises rates when forecasts show a citywide convention and lowers them during slow weeks to maximize total room revenue. What is this practice called?",
+        "choices": ["Cost-plus pricing", "Revenue management", "Rack-rate pricing", "Prestige pricing"],
+        "answer": 1,
+        "explanation": "Revenue management adjusts prices and restrictions based on forecast demand to earn the most from perishable room inventory. A rack rate is a fixed published price."
+      },
+      {
+        "stem": "A guest reports that the air conditioner in her room is not working. Which department is responsible for the repair?",
+        "choices": ["Housekeeping", "Engineering", "Front office", "Sales and marketing"],
+        "answer": 1,
+        "explanation": "Engineering, also called maintenance, repairs building systems and equipment. The front office takes the report and passes it on."
+      }
+    ],
+    "flashcards": [
+      { "term": "Occupancy rate", "definition": "Rooms sold divided by rooms available, expressed as a percentage." },
+      { "term": "Average daily rate (ADR)", "definition": "Rooms revenue divided by the number of rooms sold; the average price paid per occupied room." },
+      { "term": "Revenue per available room (RevPAR)", "definition": "Rooms revenue divided by rooms available, or ADR multiplied by occupancy." },
+      { "term": "Revenue management", "definition": "Forecasting demand and adjusting rates and restrictions to earn the most from perishable inventory." },
+      { "term": "Night audit", "definition": "End-of-day process that posts room charges, reconciles transactions and produces management reports." },
+      { "term": "Guaranteed reservation", "definition": "A booking secured with a payment card or deposit; the hotel holds the room all night and may charge a no-show fee." }
+    ]
+  }
+]

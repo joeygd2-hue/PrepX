@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Economics 3e",
+    "url": "https://openstax.org/books/principles-economics-3e/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free principles textbook covering micro and macro topics: markets, GDP, inflation, money and trade."
+  },
+  {
+    "title": "Economics",
+    "url": "https://www.khanacademy.org/science/economics-finance-domain",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Video lessons and practice for supply and demand, elasticity, market structures and macro models."
+  },
+  {
+    "title": "Federal Reserve Education",
+    "url": "https://www.federalreserveeducation.org/",
+    "publisher": "Federal Reserve System",
+    "kind": "course",
+    "note": "Federal Reserve lessons on money, interest rates and monetary policy, a regular part of the test."
+  }
+]

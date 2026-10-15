@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Incidental motions, reconsideration, and running a demonstration",
+    "objective": "Apply incidental motions and motions that bring a question again, and execute rulings, appeals, and transitions accurately during a timed demonstration.",
+    "body": "Advanced parliamentary skill means handling the motions that arise unexpectedly and those that revisit decisions already made. **Incidental motions** deal with questions of procedure that come up from other business; they have no fixed rank and are decided immediately.\n\n- **Point of order**: a member who believes a rule is being broken interrupts, without a second, and the chair rules on it.\n- **Appeal**: two members (maker plus a seconder) can challenge the chair's ruling. The chair states the question as \"Shall the decision of the chair be sustained?\" A majority or a tie sustains the chair.\n- **Suspend the rules**: temporarily sets aside a rule of order; needs a second and two-thirds. Bylaws cannot be suspended except for provisions that clearly allow it.\n- **Division of the assembly**: any single member may demand a rising vote when a voice vote seems unclear; no second or vote is needed.\n- **Objection to consideration**: raised immediately after a main motion is stated, before debate; consideration is blocked if two-thirds vote against considering it.\n- **Parliamentary inquiry** and **request for information** let members ask procedural or factual questions through the chair.\n\n**Bringing a question again.** Several motions let the assembly revisit business:\n1. **Take from the table** resumes a tabled motion; it needs a majority and is not debatable.\n2. **Reconsider** can be made only by a member who voted on the prevailing side, and only on the same day as the original vote or the next day of a multi-day session. It needs a majority and, if adopted, returns the motion to the floor as it was before the vote.\n3. **Rescind** or **amend something previously adopted** changes an earlier decision; it needs two-thirds, a majority with previous notice, or a majority of the entire membership.\n\n**Running the demonstration.** In a competitive team demonstration, judges watch for accuracy, smooth transitions, and the chair's command of language. Strong teams have the chair state each question exactly, announce votes with the result and its effect, and resolve every pending motion in the correct order before the time limit. Members should address the chair, use members' titles rather than first names, and keep debate on the merits rather than on personalities. Plan where each motion appears in the script so higher-ranking motions interrupt naturally, and rehearse rulings on points of order so the chair can cite the rule briefly.\n\nThe most common mistake students make is letting anyone move to reconsider. Only a member who voted on the winning side may make the motion, although any member may second it.",
+    "examples": [
+      "After the chair rules a member's amendment not germane, two members appeal; the vote is 14 to sustain and 14 to overturn, so the chair's ruling stands.",
+      "A member who voted yes on a passed motion learns the venue is unavailable and moves to reconsider at the same meeting, which is in order."
+    ],
+    "questions": [
+      {
+        "stem": "A motion passed 20 to 12. Which member may move to reconsider it at the same meeting?",
+        "choices": [
+          "Anyone who voted no",
+          "Anyone who voted yes",
+          "Only the chair",
+          "Any member present"
+        ],
+        "answer": 1,
+        "explanation": "Reconsider must be made by someone on the prevailing side, here the yes voters. No voters cannot make it, though any member may second it."
+      },
+      {
+        "stem": "On an appeal, the vote is 15 to sustain the chair and 15 to overturn. The result is that:",
+        "choices": [
+          "the chair's ruling is overturned",
+          "the chair's ruling is sustained",
+          "the chair votes to break the tie",
+          "the appeal is retaken by ballot"
+        ],
+        "answer": 1,
+        "explanation": "A tie sustains the chair, because a majority is needed to overturn the ruling. A chair may vote on an appeal, but a tie already sustains the ruling."
+      },
+      {
+        "stem": "A voice vote sounds close and a member calls \"Division!\" The chair must:",
+        "choices": [
+          "ask for a second",
+          "take a two-thirds vote on whether to divide",
+          "retake the vote by rising vote",
+          "rule the call out of order"
+        ],
+        "answer": 2,
+        "explanation": "Division of the assembly is a demand by one member; no second or vote is needed, and the chair retakes the vote as a rising vote."
+      },
+      {
+        "stem": "Last month the chapter adopted a fundraiser plan. Tonight, without previous notice, members want to cancel it. What vote is required to rescind?",
+        "choices": [
+          "Majority of votes cast",
+          "Two-thirds, or a majority of the entire membership",
+          "Unanimous consent",
+          "A tie vote"
+        ],
+        "answer": 1,
+        "explanation": "Without previous notice, rescinding needs two-thirds of votes cast or a majority of the entire membership. A simple majority suffices only with previous notice."
+      },
+      {
+        "stem": "A member believes the chair allowed a vote without a quorum present. The member should:",
+        "choices": [
+          "move to reconsider",
+          "raise a point of order",
+          "move to rescind",
+          "move to postpone indefinitely"
+        ],
+        "answer": 1,
+        "explanation": "A point of order calls attention to a rules violation for the chair to rule on. Reconsider revisits a vote on its merits, not a procedural breach."
+      },
+      {
+        "stem": "A main motion has just been stated and a member finds the subject inappropriate for the chapter. Before debate, she can:",
+        "choices": [
+          "object to consideration of the question",
+          "move to rescind",
+          "call for division",
+          "move to take from the table"
+        ],
+        "answer": 0,
+        "explanation": "Objection to consideration must be raised before debate begins, and two-thirds against consideration blocks the motion. Rescind applies only to motions already adopted."
+      },
+      {
+        "stem": "A team wants to set aside the agenda order to hear a guest speaker early. Which motion and vote fit?",
+        "choices": [
+          "Lay on the table, majority",
+          "Suspend the rules, two-thirds",
+          "Recess, majority",
+          "Reconsider, majority"
+        ],
+        "answer": 1,
+        "explanation": "Changing the agenda order sets aside a rule of order, so suspend the rules with two-thirds is correct. Laying on the table does not change the agenda order."
+      },
+      {
+        "stem": "During a demonstration, the chair announces only \"The motion carries.\" What improvement would judges most expect?",
+        "choices": [
+          "Repeating the motion's maker",
+          "Stating the vote result and its effect, such as what action will follow",
+          "Asking for a second after the vote",
+          "Calling for division automatically"
+        ],
+        "answer": 1,
+        "explanation": "A complete announcement states the result and its consequence so members know what was decided. Seconds are needed before debate, not after a vote."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Point of order",
+        "definition": "An incidental motion, needing no second, that asks the chair to rule on a possible rules violation."
+      },
+      {
+        "term": "Appeal",
+        "definition": "An incidental motion challenging the chair's ruling; a majority or a tie sustains the chair."
+      },
+      {
+        "term": "Reconsider",
+        "definition": "A motion, made only by a member of the prevailing side, to bring a decided question back before the assembly."
+      },
+      {
+        "term": "Rescind",
+        "definition": "A motion to cancel a previously adopted action; requires two-thirds, a majority with previous notice, or a majority of the entire membership."
+      },
+      {
+        "term": "Division of the assembly",
+        "definition": "A demand by any single member for a rising vote when the result of a voice vote seems unclear."
+      }
+    ]
+  }
+]

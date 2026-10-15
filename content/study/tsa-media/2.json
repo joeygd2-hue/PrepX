@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Photography and video: exposure, composition and editing",
+    "objective": "Control exposure, compose shots, and plan and edit video that tells a clear story.",
+    "body": "In Photographic Technology, Digital Video Production and On Demand Video, judges notice technical control first: sharp focus, correct exposure, steady shots and clean edits. Then they judge storytelling. Knowing why each setting matters also helps you answer interview questions about your choices.\n\n**The exposure triangle.** Three settings control how bright an image is, and each has a side effect.\n- *Aperture* (the f-stop) is the size of the lens opening. A smaller f-number such as f/2.8 is a wider opening that lets in more light and creates a *shallow depth of field* (a blurred background). A larger number such as f/16 lets in less light and keeps more of the scene sharp.\n- *Shutter speed* is how long the sensor is exposed. Fast speeds such as 1/1000 s freeze motion; slow speeds such as 1/15 s blur motion and need a steady camera.\n- *ISO* is the sensor's sensitivity. A higher ISO brightens dim scenes but adds *noise*, a grainy look.\nEach full *stop* doubles or halves the light: 1/500 s to 1/250 s doubles it, and f/8 to f/5.6 doubles it.\n\n**White balance** corrects color casts so white objects look white under warm indoor bulbs or cool shade.\n\n**Composition.** The *rule of thirds* places subjects along imaginary lines that divide the frame into thirds. *Leading lines* guide the eye, and *framing* uses doorways or branches to surround a subject. Leave *lead room*, extra space in the direction a subject faces or moves.\n\n**Shots and continuity.** Vary *wide* (establishing), *medium* and *close-up* shots. The *180-degree rule* keeps the camera on one side of an imaginary line between two subjects so their screen directions stay consistent. Record plenty of *B-roll*, supporting footage you can cut to.\n\n**Workflow.** Video moves through *pre-production* (script, storyboard, shot list, permissions), *production* (shooting and recording clean audio) and *post-production* (editing, color correction, sound mix, titles and export). In timed events such as On Demand Video, a quick storyboard and shot list save more time than anything else.\n\n**Editing.** Cut on action to hide edits. In an *L-cut*, audio from one shot continues over the next shot; in a *J-cut*, the next shot's audio starts before its picture appears. Common frame rates are 24, 30 and 60 frames per second.\n\nA common mistake is neglecting audio. Viewers forgive slightly soft footage far sooner than muddy or noisy sound, so use an external microphone and monitor it with headphones.",
+    "examples": [
+      "A runner photographed at 1/125 s is blurred. Changing to 1/1000 s is three stops faster (1/125 to 1/250 to 1/500 to 1/1000), so the photographer opens the aperture or raises the ISO by a total of three stops to keep the same brightness.",
+      "A 30-second video at 24 frames per second contains 30 x 24 = 720 frames.",
+      "In a two-person interview, both cameras stay on the same side of the line between interviewer and guest, so the interviewer always faces screen-right and the guest screen-left."
+    ],
+    "questions": [
+      {
+        "stem": "A portrait photographer wants a sharp subject in front of a softly blurred background. Which setting change helps most?",
+        "choices": [
+          "Use a narrower aperture such as f/16",
+          "Raise the ISO to 3200",
+          "Use a wider aperture such as f/2.8",
+          "Use a slower shutter speed"
+        ],
+        "answer": 2,
+        "explanation": "A wide aperture (small f-number) creates a shallow depth of field, blurring the background. f/16 does the opposite, and ISO and shutter speed do not control background blur."
+      },
+      {
+        "stem": "A correct exposure is f/8 at 1/250 s. The photographer switches to 1/1000 s to freeze motion and keeps the ISO the same. Which aperture keeps the same exposure?",
+        "choices": [
+          "f/4",
+          "f/5.6",
+          "f/11",
+          "f/16"
+        ],
+        "answer": 0,
+        "explanation": "1/250 to 1/500 to 1/1000 is two stops less light. Opening two stops, f/8 to f/5.6 to f/4, restores it."
+      },
+      {
+        "stem": "Indoor gym photos look grainy after the photographer raised the ISO to 12800. What causes the grain?",
+        "choices": [
+          "A fast shutter speed adds grain to every image",
+          "High ISO increases digital noise",
+          "A wide aperture always produces grain",
+          "An incorrect white balance creates grain"
+        ],
+        "answer": 1,
+        "explanation": "Raising ISO amplifies the sensor signal, and the noise along with it. Shutter speed, aperture and white balance affect motion, depth of field and color instead."
+      },
+      {
+        "stem": "In a two-person interview, the editor cuts between camera angles and the two speakers suddenly appear to face the same direction. Which guideline was broken?",
+        "choices": [
+          "The rule of thirds",
+          "The 30-degree rule",
+          "The lead room guideline",
+          "The 180-degree rule"
+        ],
+        "answer": 3,
+        "explanation": "Crossing the imaginary line between two subjects flips their screen directions. The 180-degree rule keeps the camera on one side so they continue to face each other."
+      },
+      {
+        "stem": "A 45-second On Demand Video is exported at 30 frames per second. How many frames does it contain?",
+        "choices": [
+          "750",
+          "1080",
+          "1350",
+          "1500"
+        ],
+        "answer": 2,
+        "explanation": "Multiply duration by frame rate: 45 x 30 = 1350 frames. 1080 would be the count at 24 frames per second."
+      },
+      {
+        "stem": "In an edit, an interviewee's voice keeps playing while the picture changes from her face to footage of her workshop. What is this edit called?",
+        "choices": [
+          "An L-cut",
+          "A J-cut",
+          "A jump cut",
+          "A match cut"
+        ],
+        "answer": 0,
+        "explanation": "In an L-cut, audio from the first shot continues under the next shot. In a J-cut, the next shot's audio begins before its picture."
+      },
+      {
+        "stem": "Which task belongs to pre-production?",
+        "choices": [
+          "Color-correcting the final footage",
+          "Drawing a storyboard and writing a shot list",
+          "Mixing music under the dialogue",
+          "Exporting the video for submission"
+        ],
+        "answer": 1,
+        "explanation": "Pre-production is planning before the camera rolls. Color correction, mixing and exporting all happen in post-production."
+      },
+      {
+        "stem": "Footage shot under warm indoor lamps looks orange even though the walls are white. Which adjustment best fixes the problem while shooting?",
+        "choices": [
+          "Lower the shutter speed",
+          "Raise the frame rate",
+          "Close the aperture to f/16",
+          "Set the white balance for tungsten (indoor) light"
+        ],
+        "answer": 3,
+        "explanation": "White balance tells the camera what color the light is so it can make whites neutral. The other settings change brightness or motion, not color cast."
+      }
+    ],
+    "flashcards": [
+      { "term": "Depth of field", "definition": "The range of distance in a photo that appears acceptably sharp; wide apertures make it shallow." },
+      { "term": "ISO", "definition": "A camera's sensitivity to light; higher values brighten dim scenes but add digital noise." },
+      { "term": "180-degree rule", "definition": "Keeping the camera on one side of an imaginary line between subjects so their screen directions stay consistent." },
+      { "term": "B-roll", "definition": "Supporting footage cut into a video to illustrate what a speaker says or to cover edits." },
+      { "term": "L-cut", "definition": "An edit in which audio from one shot continues after the picture has changed to the next shot." }
+    ]
+  }
+]

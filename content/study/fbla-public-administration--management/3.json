@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Ethics, Policy Implementation, and Modern Public Management Challenges",
+    "objective": "Evaluate ethical dilemmas, implementation strategies, and service delivery options to recommend sound decisions in complex public management cases.",
+    "body": "Advanced public managers face problems with no single right answer. They must weigh ethics, choose how services are delivered, and lead change while keeping public trust.\n\n**Public service ethics** begins with avoiding **conflicts of interest**, situations in which a personal interest could influence an official decision. Standard responses include disclosure, recusal (stepping away from the decision), and divestment. Most governments also restrict gifts, require financial disclosure, and protect **whistleblowers** who report waste, fraud, or illegal activity. The federal Hatch Act limits certain political activities by executive branch employees to keep administration nonpartisan.\n\n**Policy implementation** is where good laws often fail. Implementation suffers when goals are vague, funding is inadequate, many agencies must coordinate, or frontline workers lack guidance. Political scientist Michael Lipsky called those frontline workers **street-level bureaucrats**: teachers, police officers, and caseworkers whose daily discretion effectively shapes policy. Smart managers pilot programs, train staff, and gather feedback before scaling up.\n\nGovernments choose among several **service delivery** options:\n- Direct provision by public employees.\n- **Contracting out** (outsourcing) to private or nonprofit firms.\n- **Public-private partnerships (P3s)**, in which a private partner shares design, financing, or operating risk on a long-term project.\n- Intergovernmental agreements, such as two towns sharing a dispatch center.\n\nContracting can lower costs through competition, but the government remains accountable for results. Good contracts include clear performance standards, monitoring, and penalties. The **New Public Management** movement of the 1980s and 1990s pushed market-style tools like these and treated citizens as customers; critics responded with **New Public Service**, which stresses democratic citizenship and serving the public interest rather than steering only for efficiency.\n\nModern challenges include cybersecurity, digital service delivery, emergency management, and workforce retirements. The National Incident Management System (NIMS) and its **Incident Command System** give agencies a common structure for emergencies, with one incident commander and standardized roles so multiple jurisdictions can work together. **Stakeholder engagement** through public hearings, surveys, and advisory boards helps managers build legitimacy before major changes.\n\nThe most common mistake students make is assuming that outsourcing a service also outsources responsibility. When a contractor fails, the public and elected officials still hold the government accountable, so monitoring the contract is a core management duty.",
+    "examples": [
+      "A procurement officer whose brother owns a bidding paving company discloses the relationship and recuses herself from scoring the bids.",
+      "After a tornado, fire, police, and public works from three counties operate under a single incident commander using the Incident Command System."
+    ],
+    "questions": [
+      {
+        "stem": "A city council member owns land next to a proposed highway interchange that would raise its value. What is the most appropriate action?",
+        "choices": [
+          "Vote in favor since the project helps the city",
+          "Disclose the interest and recuse from the vote",
+          "Vote against to avoid the appearance of bias",
+          "Sell the land to a relative before voting"
+        ],
+        "answer": 1,
+        "explanation": "Disclosure and recusal address a conflict of interest. Voting either way still lets a personal interest touch the decision."
+      },
+      {
+        "stem": "A county contracts out jail food service, and inmates receive spoiled meals. Who is ultimately accountable to the public?",
+        "choices": [
+          "Only the contractor",
+          "The inmates' families",
+          "The county government",
+          "The food suppliers' trade association"
+        ],
+        "answer": 2,
+        "explanation": "Government remains accountable for contracted services. The contractor is liable under the contract, but responsibility to the public stays with the county."
+      },
+      {
+        "stem": "A social worker decides which families get priority for limited emergency funds. Lipsky would describe this worker as a:",
+        "choices": [
+          "Street-level bureaucrat",
+          "Incident commander",
+          "Whistleblower",
+          "Political appointee"
+        ],
+        "answer": 0,
+        "explanation": "Frontline workers using discretion are street-level bureaucrats. A political appointee is a leadership position filled by appointment from elected officials, not a frontline worker."
+      },
+      {
+        "stem": "A state partners with a private firm that designs, finances, and operates a toll bridge for 35 years in exchange for toll revenue. This is best described as a:",
+        "choices": [
+          "Line-item contract",
+          "Public-private partnership",
+          "Intergovernmental agreement",
+          "Direct provision"
+        ],
+        "answer": 1,
+        "explanation": "Long-term shared risk with a private partner defines a P3. An intergovernmental agreement is between governments."
+      },
+      {
+        "stem": "An agency launches a new benefits system statewide without testing, and errors overwhelm call centers. What implementation step would most likely have prevented this?",
+        "choices": [
+          "Increasing the agency's advertising budget",
+          "Running a pilot program and training staff first",
+          "Switching to zero-based budgeting",
+          "Holding a single press conference"
+        ],
+        "answer": 1,
+        "explanation": "Pilots and training catch problems before scaling. Advertising would only increase demand on a broken system."
+      },
+      {
+        "stem": "Which approach emphasizes treating citizens as customers and using market competition in government?",
+        "choices": [
+          "New Public Service",
+          "New Public Management",
+          "Spoils system",
+          "Weberian bureaucracy"
+        ],
+        "answer": 1,
+        "explanation": "New Public Management applied market tools and customer framing. New Public Service was a critique emphasizing citizenship."
+      },
+      {
+        "stem": "An employee reports to the inspector general that a supervisor is falsifying grant reports. Laws protecting this employee from retaliation are called:",
+        "choices": [
+          "Hatch Act provisions",
+          "Whistleblower protections",
+          "Recusal rules",
+          "Collective bargaining rights"
+        ],
+        "answer": 1,
+        "explanation": "Whistleblower laws protect people who report wrongdoing. The Hatch Act restricts political activity, not reporting fraud."
+      },
+      {
+        "stem": "During a multi-county flood response, agencies argue over who is in charge. Which framework is designed to resolve this?",
+        "choices": [
+          "Incident Command System",
+          "Performance budgeting",
+          "Council-manager form",
+          "Span of control analysis"
+        ],
+        "answer": 0,
+        "explanation": "ICS provides unified command and standard roles across jurisdictions. Council-manager form is a local government structure, not an emergency framework."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Conflict of interest",
+        "definition": "A situation where an official's personal interest could influence a public decision."
+      },
+      {
+        "term": "Street-level bureaucrat",
+        "definition": "A frontline public worker whose daily discretion effectively shapes how policy is delivered."
+      },
+      {
+        "term": "Public-private partnership",
+        "definition": "A long-term arrangement in which a private partner shares design, financing, or operating risk on a public project."
+      },
+      {
+        "term": "New Public Management",
+        "definition": "A reform movement applying market tools and customer focus to government."
+      },
+      {
+        "term": "Incident Command System",
+        "definition": "A standardized emergency management structure with a single command and defined roles across agencies."
+      }
+    ]
+  }
+]

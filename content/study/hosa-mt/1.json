@@ -1,0 +1,49 @@
+[
+{
+ "title": "Word Parts: Prefixes, Roots and Suffixes",
+ "objective": "Break medical terms into prefixes, roots and suffixes to decode unfamiliar words.",
+ "body": "Most medical terms are built from Greek and Latin parts. If you know the parts, you can decode words you have never seen.\n\n**Root (combining form).** The core meaning, usually a body part: *cardi/o* (heart), *gastr/o* (stomach), *hepat/o* (liver), *nephr/o* and *ren/o* (kidney), *oste/o* (bone), *derm/o* (skin), *neur/o* (nerve), *pulmon/o* (lung).\n\n**Prefix.** Comes before the root and changes its meaning: *brady-* (slow), *tachy-* (fast), *hyper-* (above/excessive), *hypo-* (below/deficient), *peri-* (around), *intra-* (within), *sub-* (under), *poly-* (many).\n\n**Suffix.** Comes at the end and usually describes a condition or procedure: *-itis* (inflammation), *-ectomy* (surgical removal), *-otomy* (cutting into), *-ostomy* (creating an opening), *-algia* (pain), *-logy* (study of), *-emia* (blood condition), *-scopy* (visual examination).\n\n**Decode from the end.** Read the suffix first, then the prefix, then the root. *Gastritis* = inflammation (-itis) of the stomach (gastr). *Tachycardia* = fast (tachy-) heart (cardi) condition (-ia).",
+ "examples": ["Appendectomy: surgical removal (-ectomy) of the appendix.", "Hypoglycemia: below-normal (hypo-) sugar (glyc) in the blood (-emia)."],
+ "questions": [
+  {"stem": "What does the suffix -itis mean?", "choices": ["Surgical removal", "Inflammation", "Pain", "Study of"], "answer": 1, "explanation": "-itis means inflammation, as in tonsillitis or arthritis."},
+  {"stem": "Bradycardia describes a heart rate that is:", "choices": ["Fast", "Slow", "Irregular", "Normal"], "answer": 1, "explanation": "Brady- means slow; cardi refers to the heart."},
+  {"stem": "Which combining form refers to the kidney?", "choices": ["hepat/o", "nephr/o", "oste/o", "gastr/o"], "answer": 1, "explanation": "nephr/o (and ren/o) mean kidney; hepat/o means liver."},
+  {"stem": "A nephrectomy is:", "choices": ["Inflammation of the kidney", "Surgical removal of a kidney", "X-ray of the kidney", "Pain in the kidney"], "answer": 1, "explanation": "-ectomy means surgical removal."},
+  {"stem": "The prefix peri- means:", "choices": ["Within", "Around", "Under", "Many"], "answer": 1, "explanation": "Pericardium is the sac around the heart."},
+  {"stem": "Hyperglycemia means:", "choices": ["Low blood sugar", "High blood sugar", "No blood sugar", "Normal blood sugar"], "answer": 1, "explanation": "Hyper- means excessive; glyc means sugar; -emia means blood condition."},
+  {"stem": "Which suffix means 'visual examination'?", "choices": ["-scopy", "-otomy", "-logy", "-algia"], "answer": 0, "explanation": "-scopy, as in endoscopy or colonoscopy."},
+  {"stem": "Osteoarthritis involves inflammation of:", "choices": ["Bone and joint", "Skin and nerve", "Heart and lung", "Stomach and liver"], "answer": 0, "explanation": "oste/o = bone, arthr/o = joint, -itis = inflammation."}
+ ],
+ "flashcards": [
+  {"term": "-ectomy", "definition": "Surgical removal."},
+  {"term": "-itis", "definition": "Inflammation."},
+  {"term": "tachy-", "definition": "Fast or rapid."},
+  {"term": "hepat/o", "definition": "Liver."},
+  {"term": "-algia", "definition": "Pain."},
+  {"term": "sub-", "definition": "Under or below."}
+ ]
+},
+{
+ "title": "Body Systems, Directions and Abbreviations",
+ "objective": "Use anatomical directions, body-system vocabulary and common abbreviations accurately.",
+ "body": "**Directional terms** describe location relative to the body in anatomical position (standing, facing forward, palms forward).\n- *Anterior/ventral*: front. *Posterior/dorsal*: back.\n- *Superior*: above. *Inferior*: below.\n- *Medial*: toward the midline. *Lateral*: away from the midline.\n- *Proximal*: closer to where a limb attaches. *Distal*: farther from it.\n\n**Body planes.** The *sagittal* plane divides left and right, the *frontal (coronal)* plane divides front and back, and the *transverse* plane divides top and bottom.\n\n**System vocabulary.** Cardiovascular (heart, vessels), respiratory (lungs, airway), digestive (stomach, intestines, liver), musculoskeletal (bones, muscles), nervous (brain, spinal cord, nerves), integumentary (skin, hair, nails), urinary (kidneys, bladder), endocrine (glands and hormones).\n\n**Common abbreviations.** *BP* blood pressure; *HR* heart rate; *NPO* nothing by mouth; *PRN* as needed; *STAT* immediately; *b.i.d.* twice a day; *t.i.d.* three times a day; *PO* by mouth. Facilities keep 'do not use' lists of error-prone abbreviations, so always follow local policy.",
+ "examples": ["The wrist is distal to the elbow.", "A patient marked NPO before surgery should not eat or drink."],
+ "questions": [
+  {"stem": "The knee is ____ to the ankle.", "choices": ["Distal", "Proximal", "Lateral", "Anterior"], "answer": 1, "explanation": "Proximal means closer to the point of attachment (the hip)."},
+  {"stem": "Which plane divides the body into left and right portions?", "choices": ["Transverse", "Frontal", "Sagittal", "Coronal"], "answer": 2, "explanation": "The sagittal plane runs front to back, dividing left and right."},
+  {"stem": "The abbreviation NPO means:", "choices": ["As needed", "Nothing by mouth", "Immediately", "By mouth"], "answer": 1, "explanation": "NPO is from the Latin nil per os."},
+  {"stem": "Which system includes the skin, hair and nails?", "choices": ["Integumentary", "Endocrine", "Lymphatic", "Urinary"], "answer": 0, "explanation": "The integumentary system covers and protects the body."},
+  {"stem": "A medication ordered 't.i.d.' is given:", "choices": ["Once a day", "Twice a day", "Three times a day", "As needed"], "answer": 2, "explanation": "t.i.d. means ter in die, three times a day."},
+  {"stem": "The term 'medial' means:", "choices": ["Toward the midline", "Away from the midline", "Toward the head", "Toward the back"], "answer": 0, "explanation": "Medial is toward the body's midline; lateral is away from it."},
+  {"stem": "Hormone-producing glands belong to which system?", "choices": ["Nervous", "Endocrine", "Digestive", "Respiratory"], "answer": 1, "explanation": "The endocrine system regulates the body with hormones."},
+  {"stem": "STAT means:", "choices": ["Immediately", "Every hour", "At bedtime", "Before meals"], "answer": 0, "explanation": "STAT comes from the Latin statim, immediately."}
+ ],
+ "flashcards": [
+  {"term": "Distal", "definition": "Farther from the point of attachment or origin."},
+  {"term": "Sagittal plane", "definition": "Divides the body into left and right portions."},
+  {"term": "PRN", "definition": "As needed."},
+  {"term": "Anterior", "definition": "Toward the front of the body."},
+  {"term": "Integumentary system", "definition": "Skin, hair, nails and associated glands."}
+ ]
+}
+]

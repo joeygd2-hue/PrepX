@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of leadership and classic leadership theories",
+    "objective": "Distinguish leadership from management, identify the major trait, behavioral and contingency theories, and apply French and Raven's power bases to workplace scenarios.",
+    "body": "Organizational leadership is the process of influencing a group of people toward shared goals. It overlaps with management but is not the same thing, and many test questions hinge on the difference.\n\n**Leadership versus management.** **Management** focuses on planning, organizing, staffing, directing and controlling resources so work gets done efficiently. **Leadership** focuses on setting direction, aligning people and inspiring change. John Kotter summarized it this way: managers cope with complexity, while leaders cope with change. Effective organizations need both, and one person often plays both roles.\n\n**Trait theories.** Early research asked whether leaders are born with special qualities. The **trait approach** looked for characteristics such as intelligence, self-confidence, determination, integrity and sociability. Traits help explain who emerges as a leader, but no single list predicts success in every situation.\n\n**Behavioral theories.** Researchers then studied what leaders *do*. The Ohio State and University of Michigan studies identified two broad behavior types:\n- **Task-oriented** (initiating structure): defining roles, setting deadlines and monitoring performance.\n- **Relationship-oriented** (consideration): showing trust, respect and concern for followers' needs.\n\nKurt Lewin's classic styles fit here too: **autocratic** leaders decide alone, **democratic** leaders involve the group, and **laissez-faire** leaders provide little direction.\n\n**Contingency theories.** Later models argue the best style depends on the situation. Fiedler's contingency model holds that a leader's style is relatively fixed, so the situation should be matched to the leader. Hersey and Blanchard's **situational leadership** model says the leader should adapt, moving among telling, selling, participating and delegating based on followers' readiness, meaning their ability and willingness.\n\n**Sources of power.** French and Raven described five bases of power:\n1. **Legitimate**: authority from a formal position.\n2. **Reward**: ability to give raises, praise or perks.\n3. **Coercive**: ability to punish.\n4. **Expert**: specialized knowledge or skill.\n5. **Referent**: admiration and personal identification.\n\nLegitimate, reward and coercive power come from the position; expert and referent power come from the person, which is why someone with no title can still be highly influential.\n\nThe most common mistake students make is treating one style as always best. Democratic leadership is not automatically correct; in an emergency or with an inexperienced team, a more directive style is often the right call. Read every scenario for clues about the followers and the situation before choosing an answer.",
+    "examples": [
+      "A new hire who has never used the inventory system needs step-by-step instructions, so the supervisor uses a telling style; six months later she delegates the weekly count entirely.",
+      "A chapter member with no officer title persuades the group to change its fundraiser because everyone respects her and wants her approval, an example of referent power."
+    ],
+    "questions": [
+      {
+        "stem": "A store manager can schedule shifts and approve time off only because of her job title. Which power base is she using?",
+        "choices": [
+          "Expert power",
+          "Legitimate power",
+          "Referent power",
+          "Coercive power"
+        ],
+        "answer": 1,
+        "explanation": "Legitimate power comes from a formal position. Expert power would require specialized knowledge, which the scenario does not mention."
+      },
+      {
+        "stem": "A team of highly skilled, motivated engineers is given a goal and left to decide how to meet it. Under situational leadership, which style is the leader using?",
+        "choices": [
+          "Telling",
+          "Selling",
+          "Participating",
+          "Delegating"
+        ],
+        "answer": 3,
+        "explanation": "High ability and high willingness call for delegating. Participating fits followers who are able but somewhat unwilling or unsure, which is not the case here."
+      },
+      {
+        "stem": "Which statement best captures the difference between management and leadership?",
+        "choices": [
+          "Managers inspire change while leaders control budgets",
+          "Management handles complexity and efficiency, while leadership sets direction and drives change",
+          "Leadership exists only at the executive level",
+          "Management relies on influence rather than authority"
+        ],
+        "answer": 1,
+        "explanation": "This mirrors Kotter's distinction. The first option reverses the roles."
+      },
+      {
+        "stem": "During a building fire alarm, a supervisor gives direct orders without discussion. Which style is most appropriate here and why?",
+        "choices": [
+          "Laissez-faire, because employees know the exits",
+          "Democratic, because buy-in increases safety",
+          "Autocratic, because quick, clear decisions are needed in a crisis",
+          "Participating, because the team is experienced"
+        ],
+        "answer": 2,
+        "explanation": "Emergencies demand fast, directive decisions. Democratic leadership wastes critical time when there is no room for discussion."
+      },
+      {
+        "stem": "A researcher argues that leaders succeed mainly because of self-confidence, integrity and determination. Which approach is this?",
+        "choices": [
+          "Trait approach",
+          "Behavioral approach",
+          "Contingency approach",
+          "Transactional approach"
+        ],
+        "answer": 0,
+        "explanation": "Focusing on personal characteristics is the trait approach. The behavioral approach looks at actions, not inherent qualities."
+      },
+      {
+        "stem": "A senior analyst with no supervisory role is consulted on every data decision because she knows the software best. Her influence comes mainly from:",
+        "choices": [
+          "Legitimate power",
+          "Reward power",
+          "Expert power",
+          "Coercive power"
+        ],
+        "answer": 2,
+        "explanation": "Specialized knowledge is expert power. She has no position, so legitimate power does not apply."
+      },
+      {
+        "stem": "Fiedler's contingency model differs from Hersey and Blanchard's model mainly because Fiedler assumes:",
+        "choices": [
+          "Leaders should change style frequently",
+          "A leader's style is fairly fixed, so the situation should be matched to the leader",
+          "Followers' readiness is the only factor",
+          "No style is ever effective"
+        ],
+        "answer": 1,
+        "explanation": "Fiedler sees style as stable and recommends changing or selecting situations. Hersey and Blanchard, by contrast, expect the leader to adapt."
+      },
+      {
+        "stem": "A manager sets clear deadlines, assigns specific roles and checks progress daily but rarely asks how employees are doing. Her behavior is best described as:",
+        "choices": [
+          "High consideration, low structure",
+          "Laissez-faire",
+          "High initiating structure, low consideration",
+          "Referent leadership"
+        ],
+        "answer": 2,
+        "explanation": "Defining roles and monitoring work is initiating structure; ignoring wellbeing means low consideration. Laissez-faire would involve little direction at all."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Situational leadership",
+        "definition": "Hersey and Blanchard's model in which leaders shift among telling, selling, participating and delegating based on follower readiness."
+      },
+      {
+        "term": "Referent power",
+        "definition": "Influence that comes from followers' admiration and personal identification with the leader."
+      },
+      {
+        "term": "Initiating structure",
+        "definition": "Task-oriented leader behavior such as defining roles, setting deadlines and monitoring performance."
+      },
+      {
+        "term": "Laissez-faire leadership",
+        "definition": "A hands-off style in which the leader provides little direction and leaves decisions to the group."
+      },
+      {
+        "term": "Legitimate power",
+        "definition": "Authority that comes from holding a formal position in an organization."
+      }
+    ]
+  }
+]

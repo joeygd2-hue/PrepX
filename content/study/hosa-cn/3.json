@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Nursing process, clinical judgment and SBAR communication",
+    "objective": "Use the nursing process to organize care, prioritize patient needs with ABCs and Maslow's hierarchy, and communicate changes clearly using SBAR.",
+    "body": "Advanced clinical nursing questions rarely ask for a single fact. They describe a patient and ask what the nurse should do *first*. Answering well requires a systematic method and a clear way to prioritize.\n\n**The nursing process** has five steps, often remembered as ADPIE:\n1. **Assessment**: collect subjective data (what the patient says, such as \"my chest hurts\") and objective data (what you observe or measure, such as a pulse of 118).\n2. **Diagnosis**: analyze the data to identify the patient's health problems and responses, such as impaired gas exchange or risk for falls.\n3. **Planning**: set measurable, patient-centered goals and select interventions.\n4. **Implementation**: carry out the interventions and document them.\n5. **Evaluation**: determine whether the goals were met and revise the plan if not.\n\nThe process is cyclical. If a patient's condition changes, the nurse returns to assessment. When a question asks for the first action and you lack information, assessment is usually the best choice.\n\n**Prioritizing.** Use the **ABCs**: airway, breathing and circulation come before everything else. A patient with a blocked airway outranks one with severe but stable pain. **Maslow's hierarchy of needs** extends this idea: physiological needs come first, followed by safety, love and belonging, esteem and self-actualization. Acute problems generally come before chronic ones, and actual problems before potential ones.\n\n**Scope and delegation.** Registered nurses assess, plan and evaluate; these responsibilities are not delegated to assistive personnel. Stable, routine tasks with predictable outcomes, such as vital signs on a stable patient or ambulation, may be delegated using the five rights of delegation: right task, circumstance, person, directions and communication, and supervision.\n\n**SBAR** is a structured tool for reporting a change in condition:\n- **Situation**: who you are, the patient, and the immediate concern.\n- **Background**: relevant history, diagnosis and recent treatment.\n- **Assessment**: your findings and what you think is happening.\n- **Recommendation**: what you need, such as an evaluation at the bedside.\n\nSBAR keeps urgent communication brief and complete, which reduces errors during handoffs and calls to providers.\n\n**Documentation** should be accurate, objective, timely and factual. Write what you observed, such as \"patient grimacing, rates pain 8 of 10,\" rather than opinions like \"patient seems dramatic.\" Never chart care before you perform it.\n\nThe most common mistake students make is jumping to an intervention before assessing. When a patient reports a new symptom, such as sudden shortness of breath, the nurse first assesses (for example, checks respiratory status and oxygen saturation) rather than immediately calling for a treatment or reassuring the patient.",
+    "examples": [
+      "A nurse calls a provider: \"This is Jordan on 4 West about Mr. Lee in 412; his oxygen saturation dropped to 88 percent. He is two days post-op from hip surgery. His breathing is labored at 28 per minute. I'd like you to evaluate him now.\"",
+      "A charge nurse assigns a nursing assistant to take vital signs on a stable post-op patient but keeps the assessment of a newly admitted patient for the RN."
+    ],
+    "questions": [
+      {
+        "stem": "A nurse has four patients. Which one should be seen first?",
+        "choices": [
+          "A patient with chronic back pain asking for repositioning",
+          "A patient with stridor and difficulty breathing",
+          "A patient requesting discharge teaching",
+          "A patient with a stable blood glucose asking for a snack"
+        ],
+        "answer": 1,
+        "explanation": "Stridor signals a threatened airway, the top priority under the ABCs. Chronic pain matters but does not threaten life immediately."
+      },
+      {
+        "stem": "A patient says, \"I feel dizzy.\" In the nursing process, this is:",
+        "choices": [
+          "Objective data",
+          "Subjective data",
+          "An evaluation",
+          "An intervention"
+        ],
+        "answer": 1,
+        "explanation": "Information the patient reports is subjective data. Objective data would be something measured or observed, such as a blood pressure of 88/50."
+      },
+      {
+        "stem": "A patient who was ambulating normally suddenly reports shortness of breath. What should the nurse do first?",
+        "choices": [
+          "Reassure the patient that it will pass",
+          "Assess respiratory rate, effort and oxygen saturation",
+          "Document the complaint at the end of the shift",
+          "Ask the nursing assistant to walk the patient"
+        ],
+        "answer": 1,
+        "explanation": "A new symptom requires assessment before any other action. Reassurance without assessment could miss a serious problem like a pulmonary embolism."
+      },
+      {
+        "stem": "Which task is appropriate for an RN to delegate to a nursing assistant?",
+        "choices": [
+          "Performing the admission assessment of a new patient",
+          "Evaluating a patient's response to pain medication",
+          "Taking vital signs on a stable patient",
+          "Creating the patient's care plan"
+        ],
+        "answer": 2,
+        "explanation": "Routine vital signs on a stable patient are predictable and within assistive scope. Admission assessment and evaluation require nursing judgment and stay with the RN."
+      },
+      {
+        "stem": "In SBAR, the statement \"I think the patient may be developing an infection\" belongs in which section?",
+        "choices": [
+          "Situation",
+          "Background",
+          "Assessment",
+          "Recommendation"
+        ],
+        "answer": 2,
+        "explanation": "Assessment contains findings and the nurse's interpretation. Recommendation would be what the nurse is asking for, such as ordering labs."
+      },
+      {
+        "stem": "A goal states, \"The patient will walk 50 feet with a walker by Friday.\" When the nurse checks on Friday whether this happened, the nurse is in which step?",
+        "choices": [
+          "Assessment",
+          "Planning",
+          "Implementation",
+          "Evaluation"
+        ],
+        "answer": 3,
+        "explanation": "Checking whether a goal was met is evaluation. Planning is when the goal was originally written."
+      },
+      {
+        "stem": "Using Maslow's hierarchy, which need should the nurse address first?",
+        "choices": [
+          "A patient's wish to call family",
+          "A patient's request for help with self-esteem after surgery",
+          "A patient's need for oxygen with low saturation",
+          "A patient's interest in learning a new hobby"
+        ],
+        "answer": 2,
+        "explanation": "Oxygenation is a physiological need at the base of the hierarchy. Belonging and esteem needs follow once physiological needs are met."
+      },
+      {
+        "stem": "Which documentation entry best follows professional standards?",
+        "choices": [
+          "Patient was being difficult again",
+          "Patient refused lunch, stated \"I am not hungry,\" ate 2 crackers",
+          "Patient will probably refuse dinner",
+          "Charted bath completed before giving the bath to save time"
+        ],
+        "answer": 1,
+        "explanation": "Objective, factual entries with the patient's own words are correct. Labels like \"difficult\" are opinions, and charting before care is falsification."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Nursing process",
+        "definition": "The five-step cycle of assessment, diagnosis, planning, implementation and evaluation (ADPIE)."
+      },
+      {
+        "term": "Subjective data",
+        "definition": "Information the patient reports, such as symptoms or feelings."
+      },
+      {
+        "term": "Objective data",
+        "definition": "Information that can be observed or measured, such as vital signs."
+      },
+      {
+        "term": "ABCs",
+        "definition": "The priority order of airway, breathing and circulation."
+      },
+      {
+        "term": "SBAR",
+        "definition": "A communication structure of Situation, Background, Assessment and Recommendation."
+      }
+    ]
+  }
+]

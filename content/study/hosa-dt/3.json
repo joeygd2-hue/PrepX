@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Dental conditions, procedures and diagnostic terms in practice",
+    "objective": "Distinguish common oral diseases, match them to the correct treatment terms, and interpret occlusion and radiograph vocabulary in clinical scenarios.",
+    "body": "Advanced terminology questions describe a patient and ask you to choose the condition, the procedure or the image that fits. Success depends on knowing what each term includes and, just as important, what it excludes.\n\n**Caries and the pulp.** **Dental caries** is tooth decay caused when bacteria in **plaque** ferment sugars into acids that demineralize enamel. An early **white spot lesion** can remineralize with fluoride; once a cavity forms, it needs a **restoration**, such as a **composite** (tooth-colored resin) or **amalgam** (a metal alloy). If decay reaches the pulp, **pulpitis** results. **Reversible pulpitis** causes brief pain that stops when the stimulus is removed; **irreversible pulpitis** causes lingering or spontaneous pain and usually requires **root canal therapy** (endodontic treatment) or extraction. A collection of pus at the root tip is a **periapical abscess**.\n\n**Gum disease.** **Gingivitis** is inflammation of the gingiva, with redness, swelling and bleeding, and it is reversible with good plaque control. **Periodontitis** involves loss of attachment and alveolar bone, shown by deepened **periodontal pockets**. Hardened plaque is **calculus** (tartar), removed by **scaling**; smoothing root surfaces is **root planing**.\n\n**Replacing and covering teeth.**\n- **Crown**: a cap covering the entire visible tooth.\n- **Fixed bridge**: a false tooth (**pontic**) attached to crowns on neighboring **abutment** teeth.\n- **Implant**: a post placed in bone that supports a crown.\n- **Denture**: a removable replacement, complete or partial.\n\n**Occlusion.** **Occlusion** is how upper and lower teeth meet; **malocclusion** is a faulty bite. Angle's classification uses the first molars: **Class I** has a normal molar relationship (crowding may still exist), **Class II** has the lower molar positioned distally, often with a retruded chin, and **Class III** has the lower molar positioned mesially, often with a prominent chin (**prognathism**). Other bite terms include **overjet** (horizontal overlap), **overbite** (vertical overlap) and **crossbite**.\n\n**Radiographs.** A **bitewing** shows the crowns of upper and lower posterior teeth together and is used to detect caries between teeth. A **periapical** image shows an entire tooth, including the root tip. A **panoramic** image shows both jaws, the sinuses and the temporomandibular joints on one film. On radiographs, dense structures such as enamel and metal appear **radiopaque** (light), while decay and soft tissue appear **radiolucent** (dark).\n\nThe most common mistake students make is treating gingivitis and periodontitis as the same disease. Bleeding alone points to gingivitis; bone loss and attachment loss are what make it periodontitis.",
+    "examples": [
+      "A patient with bleeding gums but normal pocket depths and no bone loss on radiographs has gingivitis, not periodontitis.",
+      "A three-unit bridge replacing tooth 19 uses teeth 18 and 20 as abutments and a pontic in the 19 position.",
+      "An amalgam filling appears bright white (radiopaque) on a bitewing, while recurrent decay beneath it appears dark (radiolucent)."
+    ],
+    "questions": [
+      {
+        "stem": "A patient reports a throbbing toothache that wakes him at night and lasts long after a hot drink. Which term best fits?",
+        "choices": [
+          "Reversible pulpitis",
+          "Irreversible pulpitis",
+          "Gingivitis",
+          "Dentin hypersensitivity"
+        ],
+        "answer": 1,
+        "explanation": "Spontaneous, lingering pain points to irreversible pulpitis. Reversible pulpitis is the main distractor, but its pain is brief and stops when the stimulus is removed."
+      },
+      {
+        "stem": "Which radiograph would a dentist choose to check for decay between the back teeth of both arches at once?",
+        "choices": [
+          "Periapical",
+          "Panoramic",
+          "Bitewing",
+          "Occlusal"
+        ],
+        "answer": 2,
+        "explanation": "Bitewings show upper and lower posterior crowns together and are the standard for interproximal caries. A panoramic image shows both jaws but with less detail for small proximal lesions."
+      },
+      {
+        "stem": "A hygienist records 5 mm pockets and the radiograph shows horizontal bone loss. Which diagnosis term fits?",
+        "choices": [
+          "Gingivitis",
+          "Periodontitis",
+          "Stomatitis",
+          "Pericoronitis"
+        ],
+        "answer": 1,
+        "explanation": "Pocketing with bone loss means loss of attachment, which defines periodontitis. Gingivitis involves inflamed gums without bone or attachment loss."
+      },
+      {
+        "stem": "In a three-unit fixed bridge, what is the artificial tooth that replaces the missing one?",
+        "choices": [
+          "Abutment",
+          "Implant",
+          "Pontic",
+          "Coping"
+        ],
+        "answer": 2,
+        "explanation": "The pontic is the suspended replacement tooth. Abutments are the natural teeth or implants that support the bridge, the most common confusion."
+      },
+      {
+        "stem": "An orthodontist notes the patient's lower first molars are positioned mesially relative to the upper first molars and the chin is prominent. Which classification is this?",
+        "choices": [
+          "Class I",
+          "Class II",
+          "Class III",
+          "Class IV"
+        ],
+        "answer": 2,
+        "explanation": "Class III means the mandibular molar is mesial, often with prognathism. Class II is the reverse, with the lower molar distal and the chin often retruded."
+      },
+      {
+        "stem": "On a bitewing, a dark shadow appears under the edge of an existing metal filling. How is this area described?",
+        "choices": [
+          "Radiopaque",
+          "Radiolucent",
+          "Calcified",
+          "Opaque restoration"
+        ],
+        "answer": 1,
+        "explanation": "Decay is less dense, lets X-rays pass, and appears dark, or radiolucent. The metal filling itself is radiopaque, which is why that term is tempting but wrong for the shadow."
+      },
+      {
+        "stem": "A child's front teeth stick out horizontally far beyond the lower incisors when biting. Which term describes this horizontal overlap?",
+        "choices": [
+          "Overbite",
+          "Overjet",
+          "Crossbite",
+          "Open bite"
+        ],
+        "answer": 1,
+        "explanation": "Overjet is horizontal projection of upper incisors beyond the lower ones. Overbite is vertical overlap, the closest distractor."
+      },
+      {
+        "stem": "After scaling, a hygienist smooths the root surfaces below the gumline to help the tissue reattach. What is this procedure called?",
+        "choices": [
+          "Root planing",
+          "Apicoectomy",
+          "Gingivoplasty",
+          "Pulpotomy"
+        ],
+        "answer": 0,
+        "explanation": "Root planing smooths cementum after calculus removal. An apicoectomy is surgical removal of the root tip, an unrelated endodontic surgery."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Irreversible pulpitis",
+        "definition": "Pulp inflammation with lingering or spontaneous pain that will not heal on its own; usually treated with root canal therapy or extraction."
+      },
+      {
+        "term": "Pontic",
+        "definition": "The artificial tooth in a fixed bridge that replaces a missing tooth."
+      },
+      {
+        "term": "Bitewing radiograph",
+        "definition": "Image showing upper and lower posterior crowns together, used to detect decay between teeth."
+      },
+      {
+        "term": "Radiolucent",
+        "definition": "Appearing dark on a radiograph because X-rays pass through, as with decay or soft tissue."
+      },
+      {
+        "term": "Class III malocclusion",
+        "definition": "Angle class in which the mandibular first molar is mesial to the maxillary first molar, often with a prominent chin."
+      }
+    ]
+  }
+]

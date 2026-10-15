@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Validating the market and pricing a new venture",
+    "objective": "Size a target market, position against competitors, and set prices that pass a break-even test.",
+    "body": "Business plans and Entrepreneurship role-plays are judged heavily on whether the founder knows the customer and the numbers. A clear target market, a believable market size and a price that covers costs make every other part of the plan credible.\n\n**Research.** *Primary research* is information you collect yourself: surveys, interviews, observation and test sales. *Secondary research* uses information someone else already collected, such as government statistics and industry reports. Start with secondary research for the big picture, then use primary research for questions only your own customers can answer.\n\n**Target market and sizing.** Segment customers by demographics, geography, psychographics (lifestyle and values) and behavior (how often and why they buy). Then estimate size from the top down:\n- *Total addressable market (TAM)*: everyone who could use this kind of product.\n- *Serviceable available market (SAM)*: the part of the TAM your business model and location can actually reach.\n- *Serviceable obtainable market (SOM)*: the share of the SAM you can realistically win in the near term.\n\nInvestors distrust plans that claim a huge share of the TAM; a modest, well-reasoned SOM is far more convincing.\n\n**Competition and positioning.** *Direct competitors* sell the same kind of product; *indirect competitors* meet the same need in a different way. A *unique selling proposition (USP)* states the specific benefit that makes customers choose you. A positioning map plots competitors on two attributes, such as price and convenience, to reveal open space.\n\n**Pricing.** *Cost-plus pricing* adds a markup to cost, and markup on cost = (price − cost) ÷ cost. *Value-based pricing* starts from what customers will pay. *Penetration pricing* starts low to win share quickly; *price skimming* starts high for eager early adopters. Test every price with *break-even analysis*:\n- Contribution margin per unit = price − variable cost per unit\n- Break-even units = fixed costs ÷ contribution margin per unit\n- Units for a target profit = (fixed costs + target profit) ÷ contribution margin per unit\n\n**Promotion on a budget.** Startups lean on *guerrilla marketing* (low-cost, creative tactics), social media, referrals and publicity rather than expensive advertising.\n\nA common mistake is claiming a business has no competition. Every customer already solves the problem somehow, even if the answer is doing nothing, and judges expect you to name those alternatives.",
+    "examples": [
+      "Market sizing: A town has 12,000 households, the TAM for a gutter-cleaning service. About 7,500 are single-family homes inside the service area (SAM). Winning 4% of those in year one gives a SOM of 300 households.",
+      "Break-even: A candle maker sells candles for $18, and wax, wick and jar cost $6. Fixed costs are $9,600 a year. Contribution margin = $12, so break-even = $9,600 ÷ $12 = 800 candles.",
+      "Markup: A reseller buys phone cases for $8 and sells them for $14. Markup on cost = $6 ÷ $8 = 75%."
+    ],
+    "questions": [
+      {
+        "stem": "A smoothie stand sells drinks for $6. Ingredients and cups cost $2.50 per drink, and fixed costs are $1,400 per month. How many smoothies must it sell each month to break even?",
+        "choices": ["400", "234", "560", "280"],
+        "answer": 0,
+        "explanation": "Contribution margin = $6.00 − $2.50 = $3.50. Break-even = $1,400 ÷ $3.50 = 400 smoothies. Dividing by the full $6 price ignores variable costs."
+      },
+      {
+        "stem": "A screen-printing startup charges $20 per shirt, and each shirt has a variable cost of $8. Fixed costs are $6,000. How many shirts must it sell to earn a $3,000 profit?",
+        "choices": ["750", "500", "450", "250"],
+        "answer": 0,
+        "explanation": "Contribution margin = $20 − $8 = $12. Units = ($6,000 + $3,000) ÷ $12 = 750 shirts. 500 shirts only breaks even."
+      },
+      {
+        "stem": "A boutique buys scarves for $15 each and sells them for $24. What is the markup percentage based on cost?",
+        "choices": ["60%", "37.5%", "40%", "62.5%"],
+        "answer": 0,
+        "explanation": "Markup = $24 − $15 = $9. Markup on cost = $9 ÷ $15 = 60%. Dividing by the $24 selling price gives the 37.5% markup on retail instead."
+      },
+      {
+        "stem": "A tutoring startup's city has 40,000 high-school students (TAM). About 10,000 attend schools inside its service area (SAM). If it expects to win 2% of the SAM in year one, what is its SOM?",
+        "choices": ["200 students", "800 students", "2,000 students", "500 students"],
+        "answer": 0,
+        "explanation": "SOM is a share of the SAM: 2% × 10,000 = 200 students. Taking 2% of the whole TAM (800) overstates what the startup can reach."
+      },
+      {
+        "stem": "Which is an example of primary research for a new pet-grooming business?",
+        "choices": ["Surveying 150 local pet owners about their grooming habits", "Reading a government report on pet ownership", "Reviewing an industry association's sales statistics", "Looking up census data for the neighborhood"],
+        "answer": 0,
+        "explanation": "Primary research is gathered firsthand for your own purpose, like a survey you run. Reports, association statistics and census data are secondary research."
+      },
+      {
+        "stem": "A founder is opening a new movie theater. Which of these is an indirect competitor?",
+        "choices": ["A video streaming service", "Another movie theater across town", "A drive-in theater showing new releases", "A theater chain opening nearby"],
+        "answer": 0,
+        "explanation": "Indirect competitors meet the same need, entertainment, with a different kind of product. The other choices are theaters, which are direct competitors."
+      },
+      {
+        "stem": "A new meal-prep service prices its plans well below rivals for the first six months to attract customers quickly and build volume. Which pricing strategy is this?",
+        "choices": ["Penetration pricing", "Price skimming", "Prestige pricing", "Cost-plus pricing"],
+        "answer": 0,
+        "explanation": "Penetration pricing sets a low introductory price to win market share fast. Skimming does the opposite, starting high for early adopters."
+      },
+      {
+        "stem": "Which statement is the strongest unique selling proposition for a new laundry service?",
+        "choices": ["Wash-and-fold pickup with clothes back within 24 hours, or the order is free", "We offer laundry services at fair prices", "Our team cares about your clothes", "We are a new local business you can trust"],
+        "answer": 0,
+        "explanation": "A strong USP names a specific, meaningful benefit competitors do not offer, here a 24-hour guarantee. The others are vague claims any competitor could make."
+      },
+      {
+        "stem": "A skate shop with a tiny budget creates chalk art of its logo outside the local skate park and hosts a free trick contest that draws a crowd. This is an example of:",
+        "choices": ["Guerrilla marketing", "Institutional advertising", "Personal selling", "Trade promotion"],
+        "answer": 0,
+        "explanation": "Guerrilla marketing uses low-cost, creative, attention-grabbing tactics in unexpected places, which suits startups with small budgets."
+      },
+      {
+        "stem": "A business has $40,000 in yearly fixed costs and a $10 variable cost per unit. At a $30 price it expects to sell 2,500 units; at $25 it expects to sell 3,000 units. Which price earns more profit?",
+        "choices": ["$30, with $10,000 profit", "$25, with $5,000 profit", "$25, with $35,000 profit", "$30, with $35,000 profit"],
+        "answer": 0,
+        "explanation": "At $30: ($30 − $10) × 2,500 − $40,000 = $50,000 − $40,000 = $10,000. At $25: ($25 − $10) × 3,000 − $40,000 = $45,000 − $40,000 = $5,000. The higher price wins."
+      }
+    ],
+    "flashcards": [
+      { "term": "Primary research", "definition": "Information a business collects firsthand for its own purpose, such as surveys, interviews, observation and test sales." },
+      { "term": "Serviceable obtainable market (SOM)", "definition": "The realistic share of the reachable market (SAM) a new business expects to win in the near term." },
+      { "term": "Unique selling proposition (USP)", "definition": "A specific benefit that sets a business apart from competitors and gives customers a reason to choose it." },
+      { "term": "Contribution margin", "definition": "Selling price minus variable cost per unit; the amount each sale contributes toward fixed costs and profit." },
+      { "term": "Break-even point", "definition": "The sales volume at which total revenue equals total costs: fixed costs divided by contribution margin per unit." },
+      { "term": "Guerrilla marketing", "definition": "Low-cost, creative and unconventional promotion designed to get attention and word of mouth." }
+    ]
+  }
+]

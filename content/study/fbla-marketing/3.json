@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Pricing strategy, product life cycle, and marketing metrics",
+    "objective": "Calculate break-even and markup, match pricing and promotion strategies to product life cycle stages, and evaluate campaigns with digital marketing metrics.",
+    "body": "Advanced marketing questions combine strategy with numbers. You will often be asked to pick a strategy for a situation and then justify it with a calculation.\n\n**Product life cycle.** Most products pass through four stages:\n1. **Introduction**: low sales, high costs, heavy spending to build awareness; profits are usually negative.\n2. **Growth**: sales climb quickly, competitors enter, and the firm builds brand preference.\n3. **Maturity**: sales level off, competition peaks, and firms defend share with price cuts, new features, or new uses.\n4. **Decline**: sales fall; firms harvest, reposition, or discontinue the product.\n\n**Pricing strategies.** At introduction, a firm may use **price skimming**, setting a high price to capture early adopters willing to pay more, as with new gaming consoles. **Penetration pricing** sets a low initial price to win share quickly, useful when buyers are price-sensitive and scale lowers costs. Other common strategies include **psychological pricing** ($19.99), **prestige pricing**, bundle pricing, and price lining. Demand is **elastic** when a small price change causes a large change in quantity demanded, which favors penetration; inelastic demand gives more room for skimming.\n\n**Key calculations.**\n- **Break-even point (units)** = Fixed costs / (Price - Variable cost per unit). The denominator is the contribution margin per unit.\n- **Markup on cost** = (Price - Cost) / Cost. **Markup on retail (selling price)** = (Price - Cost) / Price.\n\nIf fixed costs are $30,000, price is $25, and variable cost is $10, break-even is 30,000 / 15 = 2,000 units.\n\n**Promotion and the customer journey.** The **AIDA** model (attention, interest, desire, action) guides message design. **Push strategies** promote to channel members such as retailers; **pull strategies** promote directly to consumers so they request the product. Integrated marketing communications (IMC) keeps every channel's message consistent.\n\n**Digital metrics.** Modern campaigns are judged by data:\n- **Click-through rate (CTR)** = clicks / impressions.\n- **Conversion rate** = conversions / visitors (or clicks).\n- **Customer acquisition cost (CAC)** = marketing spend / new customers.\n- **Return on ad spend (ROAS)** = revenue from ads / ad spend.\n- **Customer lifetime value (CLV)** estimates total profit from a customer over the relationship; a healthy business keeps CLV well above CAC.\n\nAlways connect a metric to the goal. High CTR with low conversions suggests the ad attracts clicks but the landing page or offer fails.\n\nThe most common mistake students make is mixing up the two markup bases. A $60 item that cost $40 has a 50% markup on cost but only a 33.3% markup on retail, so always check which base the question names.",
+    "examples": [
+      "A company launching a new VR headset at $999, then cutting the price a year later, is using price skimming.",
+      "An ad shown 50,000 times that earns 1,000 clicks has a 2% click-through rate.",
+      "A cereal brand running TV ads so children ask parents to buy it at the store is using a pull strategy."
+    ],
+    "questions": [
+      {
+        "stem": "A startup sells phone cases for $20 each. Variable cost is $8 per case and fixed costs are $24,000. How many cases must it sell to break even?",
+        "choices": [
+          "1,200",
+          "3,000",
+          "2,000",
+          "1,714"
+        ],
+        "answer": 2,
+        "explanation": "Break-even = 24,000 / (20 - 8) = 2,000. The 1,200 answer divides by the full price, ignoring variable cost."
+      },
+      {
+        "stem": "A retailer buys a jacket for $50 and sells it for $80. What is the markup on retail (selling price)?",
+        "choices": [
+          "37.5%",
+          "60%",
+          "30%",
+          "62.5%"
+        ],
+        "answer": 0,
+        "explanation": "(80 - 50) / 80 = 37.5%. The 60% choice is markup on cost, (80 - 50) / 50, the most common base mix-up."
+      },
+      {
+        "stem": "A streaming service enters a crowded market with very price-sensitive buyers and offers its first year at a deeply discounted rate to build subscribers fast. This is:",
+        "choices": [
+          "Price skimming",
+          "Prestige pricing",
+          "Price lining",
+          "Penetration pricing"
+        ],
+        "answer": 3,
+        "explanation": "A low initial price to win share quickly is penetration pricing. Skimming is the opposite, starting high to capture buyers willing to pay more."
+      },
+      {
+        "stem": "Sales of a soft drink have leveled off, and many competitors offer similar products. The brand adds new flavors and runs price promotions. Which life cycle stage is it in?",
+        "choices": [
+          "Introduction",
+          "Maturity",
+          "Growth",
+          "Decline"
+        ],
+        "answer": 1,
+        "explanation": "Flat sales, peak competition, and defensive tactics signal maturity. Growth involves rapidly rising sales, which the stem rules out."
+      },
+      {
+        "stem": "A digital ad had 200,000 impressions, 4,000 clicks, and 160 purchases. What was the conversion rate from clicks?",
+        "choices": [
+          "4%",
+          "0.08%",
+          "2%",
+          "40%"
+        ],
+        "answer": 0,
+        "explanation": "160 / 4,000 = 4%. The 2% choice is the click-through rate (4,000 / 200,000), a different metric."
+      },
+      {
+        "stem": "A campaign spends $5,000 on ads and generates $20,000 in revenue from those ads. What is the return on ad spend?",
+        "choices": [
+          "$15,000",
+          "25%",
+          "4:1",
+          "1:4"
+        ],
+        "answer": 2,
+        "explanation": "ROAS = revenue / spend = 20,000 / 5,000 = 4:1. The $15,000 answer is net gain, not the ROAS ratio."
+      },
+      {
+        "stem": "A snack maker offers retailers extra discounts and display allowances to stock its new chips prominently. This is an example of a:",
+        "choices": [
+          "Pull strategy",
+          "Push strategy",
+          "Penetration strategy",
+          "Skimming strategy"
+        ],
+        "answer": 1,
+        "explanation": "Promoting to channel members so they push the product toward consumers is a push strategy. A pull strategy would target consumers directly so they request the chips."
+      },
+      {
+        "stem": "An online store's CAC is $90, while the average customer generates $60 in lifetime profit. What is the best conclusion?",
+        "choices": [
+          "The store should spend more on acquisition immediately",
+          "The store's CTR must be too low",
+          "CLV is high enough to justify current spending",
+          "The store loses money on each new customer and must cut CAC or raise CLV"
+        ],
+        "answer": 3,
+        "explanation": "When CAC exceeds CLV, each new customer costs more than they return. Increasing acquisition spend would only enlarge the losses."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Break-even point",
+        "definition": "Fixed costs divided by contribution margin per unit (price minus variable cost)."
+      },
+      {
+        "term": "Price skimming",
+        "definition": "Setting a high initial price to capture buyers willing to pay more, then lowering it over time."
+      },
+      {
+        "term": "Penetration pricing",
+        "definition": "Setting a low initial price to gain market share quickly."
+      },
+      {
+        "term": "Return on ad spend (ROAS)",
+        "definition": "Revenue generated by advertising divided by the cost of that advertising."
+      },
+      {
+        "term": "Push strategy",
+        "definition": "Promotion aimed at channel members such as wholesalers and retailers to move a product toward consumers."
+      }
+    ]
+  }
+]

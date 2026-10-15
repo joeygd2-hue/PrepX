@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Disaster medical operations, triage and team psychology",
+    "objective": "Perform simple triage, prioritize life-threatening conditions, conduct a head-to-toe assessment, and manage responder stress during disaster operations.",
+    "body": "When victims outnumber rescuers, CERT members must do the greatest good for the greatest number. Disaster medical operations focus on finding and treating the conditions that kill fastest.\n\n**The three killers.** CERT training identifies three immediate threats to life: **airway obstruction**, **excessive bleeding** and **shock**. Opening an airway with the head-tilt/chin-lift, controlling bleeding with direct pressure and tourniquets when trained, and keeping victims warm and positioned comfortably address these threats.\n\n**Triage.** Triage means sorting victims by urgency. CERT uses a simple method based on **RPM**: respiration, perfusion and mental status. Victims receive one of four categories:\n- **Immediate (I)**: life-threatening problems; needs help now.\n- **Delayed (D)**: injured but stable; treatment can wait.\n- **Minor**: walking wounded who can move on their own.\n- **Dead (DEAD)**: no breathing after airway is opened.\n\nA victim is tagged Immediate if breathing is faster than about **30 breaths per minute**, if capillary refill takes longer than **2 seconds** (or no radial pulse is present), or if the person cannot follow simple commands. Each assessment should take only seconds; rescuers open airways and control severe bleeding as they go, then move on. Triage is repeated because conditions change.\n\n**Treatment area and assessment.** Victims are moved to a treatment area with zones for each category. There, CERT members perform a **head-to-toe assessment**, checking the head, neck, shoulders, chest, arms, abdomen, pelvis, legs and back for bleeding, swelling, deformity or pain. They look, listen and feel, and they wear **body substance isolation (BSI)** gear such as gloves and eye protection.\n\n**Documentation.** Every victim's condition, treatment and location is recorded so professionals can continue care. Good records also help reunite families.\n\n**Disaster psychology.** Responders and survivors experience stress. Signs include irritability, trouble sleeping and difficulty concentrating. CERT leaders rotate workers, encourage rest, food and water, and hold debriefings. With survivors, members provide **psychological first aid**: listen, offer practical help, and connect people to support, without forcing them to relive events.\n\n**Advanced scenarios.** CERT members may also face terrorist incidents or hazardous materials. Warning signs such as multiple people collapsing with no obvious cause mean responders should leave, move upwind and uphill, and report rather than enter.\n\nThe most common mistake students make is stopping to give full treatment to the first victim they find during triage. Triage is for rapid sorting; lengthy care at one victim leaves others with treatable airway or bleeding problems unassessed.",
+    "examples": [
+      "A victim breathing 36 times per minute is tagged Immediate after a quick RPM check, and the rescuer moves to the next person.",
+      "After a 12-hour shift, a team leader rotates exhausted members out and schedules a short debriefing to share feelings and concerns."
+    ],
+    "questions": [
+      {
+        "stem": "During triage, a victim's breathing rate is 34 breaths per minute. What tag is assigned?",
+        "choices": [
+          "Delayed",
+          "Minor",
+          "Immediate",
+          "Dead"
+        ],
+        "answer": 2,
+        "explanation": "A rate above about 30 indicates a life threat, so the victim is Immediate. Delayed is for stable victims."
+      },
+      {
+        "stem": "A victim has no breathing; the rescuer opens the airway and breathing still does not begin. What is the CERT triage category?",
+        "choices": [
+          "Immediate",
+          "Dead",
+          "Delayed",
+          "Minor"
+        ],
+        "answer": 1,
+        "explanation": "No breathing after the airway is opened is tagged Dead in CERT triage. Immediate applies when breathing resumes or other criteria apply."
+      },
+      {
+        "stem": "Which set lists the three killers emphasized in CERT medical operations?",
+        "choices": [
+          "Fractures, burns and shock",
+          "Fever, dehydration and bleeding",
+          "Airway obstruction, excessive bleeding and shock",
+          "Head injury, poisoning and burns"
+        ],
+        "answer": 2,
+        "explanation": "CERT focuses on airway obstruction, excessive bleeding and shock. Fractures and burns are serious but not the three immediate killers."
+      },
+      {
+        "stem": "A rescuer presses a victim's fingernail and color returns in 4 seconds. What does this suggest?",
+        "choices": [
+          "Normal perfusion",
+          "Inadequate perfusion",
+          "Normal breathing",
+          "Good mental status"
+        ],
+        "answer": 1,
+        "explanation": "Capillary refill over 2 seconds suggests poor perfusion, which leads to an Immediate tag. Refill within 2 seconds would be normal."
+      },
+      {
+        "stem": "A conscious victim walks to the collection point and can follow instructions. What is the likely category?",
+        "choices": [
+          "Minor",
+          "Immediate",
+          "Dead",
+          "Delayed with priority"
+        ],
+        "answer": 0,
+        "explanation": "Walking wounded who follow commands are Minor. Immediate requires a breathing, perfusion or mental-status problem."
+      },
+      {
+        "stem": "Why should a rescuer avoid giving full treatment during initial triage?",
+        "choices": [
+          "Treatment is illegal for volunteers",
+          "It delays assessing other victims who may be saved",
+          "Victims prefer to wait",
+          "Supplies must be saved for professionals"
+        ],
+        "answer": 1,
+        "explanation": "Triage aims to sort quickly so all salvageable victims are found. Lengthy care at one victim leaves others unassessed."
+      },
+      {
+        "stem": "Several people in a subway station collapse with no visible cause. What should CERT members do?",
+        "choices": [
+          "Rush in to begin triage",
+          "Move upwind and uphill and report",
+          "Open windows and enter to ventilate",
+          "Begin a head-to-toe assessment"
+        ],
+        "answer": 1,
+        "explanation": "Unexplained mass collapse may signal a hazardous agent, so responders retreat and report. Entering risks adding rescuers to the casualties."
+      },
+      {
+        "stem": "A team member has been irritable and cannot sleep after days of response work. What is the best leadership action?",
+        "choices": [
+          "Assign extra shifts to keep him busy",
+          "Ignore it because stress is normal",
+          "Tell him to keep his feelings private",
+          "Rotate him out to rest and offer a debriefing"
+        ],
+        "answer": 3,
+        "explanation": "Rotation, rest and debriefing reduce responder stress. Adding shifts increases exhaustion."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Triage",
+        "definition": "Rapidly sorting victims by urgency so the greatest number can be helped."
+      },
+      {
+        "term": "RPM",
+        "definition": "Respiration, perfusion and mental status: the checks used in CERT triage."
+      },
+      {
+        "term": "Capillary refill",
+        "definition": "Time for color to return after pressing a nail bed; over 2 seconds suggests poor perfusion."
+      },
+      {
+        "term": "Head-to-toe assessment",
+        "definition": "A systematic check of the whole body for injuries in the treatment area."
+      },
+      {
+        "term": "Psychological first aid",
+        "definition": "Listening, offering practical help and connecting survivors to support."
+      }
+    ]
+  }
+]

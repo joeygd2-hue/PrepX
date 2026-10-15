@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Applying pathophysiology to shock, diabetes, and cancer",
+    "objective": "Analyze multisystem disorders by linking mechanism to signs, compare types of shock, and differentiate diabetes types and benign versus malignant neoplasms.",
+    "body": "Advanced pathophysiology questions present a patient and ask you to reason from the clinical picture back to the mechanism. Three high-yield topics show how the earlier concepts of cell injury, inflammation, and fluid balance combine.\n\n**Shock** is a state of inadequate tissue perfusion, so cells shift to anaerobic metabolism, lactate rises, and organs begin to fail. The body compensates with a fast heart rate, vasoconstriction that makes skin cool and pale, and reduced urine output.\n- **Hypovolemic shock**: loss of blood or fluid volume, as in hemorrhage or severe burns.\n- **Cardiogenic shock**: the heart cannot pump effectively, often after a large heart attack.\n- **Distributive shock**: widespread vasodilation makes the vessels too large for the blood volume. It includes **septic shock** from infection, anaphylactic shock, and neurogenic shock after a spinal cord injury. Early septic shock can cause warm, flushed skin, and neurogenic shock often causes a slow heart rate rather than a fast one.\n- **Obstructive shock**: a physical blockage of blood flow, such as a massive pulmonary embolism or tension pneumothorax.\n\n**Diabetes mellitus** is a group of disorders of high blood glucose. In **type 1 diabetes**, autoimmune destruction of pancreatic beta cells causes absolute insulin deficiency. Without insulin, cells cannot take up glucose, so the body burns fat and produces ketones, which can lead to **diabetic ketoacidosis (DKA)** with deep rapid breathing and fruity breath. In **type 2 diabetes**, the main problem is **insulin resistance** combined with progressive decline in insulin secretion; it is strongly linked to obesity and inactivity. High glucose spills into the urine and pulls water with it, producing the classic triad of **polyuria**, **polydipsia**, and polyphagia. Long-term high glucose damages small vessels in the eyes, kidneys, and nerves and accelerates atherosclerosis in large vessels.\n\n**Neoplasia** is uncontrolled cell growth driven by accumulated genetic mutations, typically activation of **oncogenes** and loss of **tumor suppressor genes** such as TP53.\n1. **Benign tumors** are well differentiated, grow slowly, are often encapsulated, and do not invade or spread.\n2. **Malignant tumors** (cancer) show poor differentiation, invade surrounding tissue, and can **metastasize** through lymph or blood to distant sites.\n\nCarcinomas arise from epithelial tissue, sarcomas from connective tissue such as bone or muscle. Staging systems like TNM describe tumor size, lymph node involvement, and metastasis, while grading describes how abnormal the cells look.\n\nThe most common mistake students make is assuming every type of shock looks the same: they expect a fast pulse and cool, clammy skin in every case and miss neurogenic shock, which commonly causes a slow pulse with warm, dry skin below the injury.",
+    "examples": [
+      "A trauma patient who has lost a large amount of blood has a fast weak pulse, cool clammy skin, and low urine output, the compensating pattern of hypovolemic shock.",
+      "A 12-year-old with recent weight loss, extreme thirst, frequent urination, and fruity breath has a presentation consistent with type 1 diabetes progressing to DKA.",
+      "A smooth, encapsulated fatty lump that has grown slowly for years is typical of a benign lipoma, whereas an irregular mass invading nearby muscle suggests malignancy."
+    ],
+    "questions": [
+      {
+        "stem": "A patient has a cervical spinal cord injury and has low blood pressure, a heart rate of 50, and warm, dry skin. What type of shock is most likely?",
+        "choices": [
+          "Hypovolemic",
+          "Cardiogenic",
+          "Neurogenic",
+          "Obstructive"
+        ],
+        "answer": 2,
+        "explanation": "Loss of sympathetic tone causes vasodilation and an unopposed slow heart rate, the hallmark of neurogenic shock. Hypovolemic shock produces a fast pulse and cool, clammy skin instead."
+      },
+      {
+        "stem": "A patient develops sudden shortness of breath and shock after a large clot lodges in the pulmonary arteries. How is this shock classified?",
+        "choices": [
+          "Distributive",
+          "Obstructive",
+          "Hypovolemic",
+          "Neurogenic"
+        ],
+        "answer": 1,
+        "explanation": "A clot physically blocks blood flow through the lungs, making this obstructive shock. Distributive shock results from vasodilation, not a mechanical blockage."
+      },
+      {
+        "stem": "Why does a patient in shock develop elevated blood lactate?",
+        "choices": [
+          "Kidneys produce extra lactate to raise blood pressure",
+          "Poorly perfused cells switch to anaerobic metabolism",
+          "Insulin levels drop sharply",
+          "White blood cells release lactate during inflammation"
+        ],
+        "answer": 1,
+        "explanation": "Without enough oxygen delivery, cells rely on anaerobic metabolism, producing lactate. Insulin changes are not the cause of lactate buildup in shock."
+      },
+      {
+        "stem": "A teenager with type 1 diabetes has missed several insulin doses and now has deep, rapid breathing and fruity-smelling breath. What explains the breathing pattern?",
+        "choices": [
+          "The lungs are compensating for metabolic acidosis from ketones",
+          "Fluid has collected in the lungs from heart failure",
+          "Airways are narrowed by histamine",
+          "High glucose directly stimulates the diaphragm"
+        ],
+        "answer": 0,
+        "explanation": "Ketone buildup causes metabolic acidosis, and the body blows off carbon dioxide with deep rapid breathing. Airway narrowing from histamine describes an allergic reaction, not DKA."
+      },
+      {
+        "stem": "Which statement best describes the main mechanism of type 2 diabetes?",
+        "choices": [
+          "Autoimmune destruction of all beta cells",
+          "Insulin resistance combined with gradually declining insulin secretion",
+          "Excess production of glucagon by a tumor",
+          "A viral infection of the liver"
+        ],
+        "answer": 1,
+        "explanation": "Type 2 diabetes is defined by insulin resistance plus progressive beta-cell dysfunction. Autoimmune destruction describes type 1, the most common distractor."
+      },
+      {
+        "stem": "Why does a person with uncontrolled diabetes urinate frequently?",
+        "choices": [
+          "Glucose in the urine draws water with it by osmosis",
+          "Insulin directly stimulates the bladder",
+          "Ketones damage the bladder wall",
+          "Low blood pressure increases kidney filtration"
+        ],
+        "answer": 0,
+        "explanation": "Glucose that exceeds the kidney's reabsorption capacity spills into the urine and pulls water osmotically. Ketones do not cause polyuria by damaging the bladder."
+      },
+      {
+        "stem": "A biopsy shows a mass of poorly differentiated cells invading nearby blood vessels. Which feature most clearly indicates malignancy?",
+        "choices": [
+          "Slow growth",
+          "A fibrous capsule",
+          "Invasion of surrounding tissue",
+          "Cells that closely resemble normal tissue"
+        ],
+        "answer": 2,
+        "explanation": "Invasion of surrounding structures is a defining feature of malignancy. A fibrous capsule and well-differentiated cells are features of benign tumors."
+      },
+      {
+        "stem": "A tumor arising from bone tissue would be classified as which of the following?",
+        "choices": [
+          "Carcinoma",
+          "Sarcoma",
+          "Lymphoma",
+          "Adenoma"
+        ],
+        "answer": 1,
+        "explanation": "Malignancies of connective tissue such as bone are sarcomas. Carcinomas arise from epithelial tissue, which makes them the main distractor."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Shock",
+        "definition": "A state of inadequate tissue perfusion that leads to anaerobic metabolism and organ dysfunction."
+      },
+      {
+        "term": "Distributive shock",
+        "definition": "Shock caused by widespread vasodilation, including septic, anaphylactic, and neurogenic shock."
+      },
+      {
+        "term": "Insulin resistance",
+        "definition": "Reduced response of body cells to insulin, the central problem in type 2 diabetes."
+      },
+      {
+        "term": "Diabetic ketoacidosis",
+        "definition": "A complication of insulin deficiency in which fat breakdown produces ketones that cause metabolic acidosis."
+      },
+      {
+        "term": "Metastasis",
+        "definition": "Spread of malignant cells through lymph or blood to distant sites in the body."
+      }
+    ]
+  }
+]

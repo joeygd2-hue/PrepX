@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Precedence, subsidiary, privileged and incidental motions",
+    "objective": "Classify motions by type, apply the order of precedence, and select the correct motion to reconsider, rescind or take from the table in complex scenarios.",
+    "body": "Advanced parliamentary questions test whether you can choose the right motion at the right moment. Motions fall into four groups, and their **order of precedence** decides which can be made while others are pending.\n\n**Privileged motions** concern urgent matters unrelated to the pending business. From highest to lowest: **fix the time to which to adjourn**, **adjourn**, **recess**, **raise a question of privilege**, and **call for the orders of the day**.\n\n**Subsidiary motions** help the assembly dispose of the main motion. From highest to lowest: **lay on the table**, **previous question** (close debate and vote immediately), **limit or extend limits of debate**, **postpone to a certain time** (postpone definitely), **commit or refer** to a committee, **amend**, and **postpone indefinitely**.\n\nThe **main motion** ranks lowest. A motion is in order only if it ranks higher than the immediately pending question, and higher-ranking motions are voted on first.\n\n**Key thresholds.** Most motions need a second and a majority vote. Previous question and limit or extend debate need **two-thirds**, because they restrict members' right to debate. Privileged motions such as adjourn and recess are generally undebatable. Postpone indefinitely, despite ranking lowest among subsidiaries, is debatable and opens debate on the main motion; adopting it effectively kills the motion for the session.\n\n**Incidental motions** have no rank; they arise from the business at hand and are decided as they come up. Important ones include:\n- **Point of order**: a member claims a rule is being broken; the chair rules on it. It needs no second.\n- **Appeal**: a member challenges the chair's ruling; it needs a second, and the assembly decides.\n- **Suspend the rules**: lets the group do something its rules of order normally prevent; needs two-thirds. Bylaws cannot be suspended unless they provide for it.\n- **Division of the assembly** and **parliamentary inquiry**, which ask for a verified vote or procedural information.\n\n**Motions that bring a question again.** **Lay on the table** is meant only to set business aside *temporarily* for something urgent; using it to kill a motion is improper. **Take from the table** resumes it, generally at the same or next session. **Reconsider** can be moved only by a member who voted on the **prevailing side**, and only on the same day the vote was taken (or the next day in a multi-day session). **Rescind** (or **amend something previously adopted**) cancels or changes an earlier action; it needs a two-thirds vote, a majority with previous notice, or a majority of the entire membership.\n\nFor example, if the chapter adopted a budget last month and now wants to cancel it, reconsider is no longer available; rescind is the right tool.\n\nThe most common mistake students make is using lay on the table to kill a motion. The correct motion to dispose of a main motion without a direct vote is postpone indefinitely, and the correct way to stop debate is the previous question by two-thirds.",
+    "examples": [
+      "While a motion to amend is pending, a member moves to refer the main motion to the fundraising committee; this is in order because commit ranks above amend.",
+      "A member who voted yes on a field-trip motion earlier in the meeting moves to reconsider after learning the bus is unavailable."
+    ],
+    "questions": [
+      {
+        "stem": "A motion to amend is pending. Which motion would be OUT of order?",
+        "choices": [
+          "Previous question",
+          "Commit to a committee",
+          "Postpone indefinitely",
+          "Recess"
+        ],
+        "answer": 2,
+        "explanation": "Postpone indefinitely ranks below amend, so it cannot be made while an amendment is pending. Previous question, commit and recess all rank higher than amend."
+      },
+      {
+        "stem": "A member wants to end debate and vote right away on a pending motion. Which motion and vote are required?",
+        "choices": [
+          "Previous question, two-thirds",
+          "Lay on the table, majority",
+          "Adjourn, majority",
+          "Postpone indefinitely, majority"
+        ],
+        "answer": 0,
+        "explanation": "The previous question closes debate and requires two-thirds because it limits members' rights. Laying on the table only sets a motion aside temporarily and is improper for suppressing debate."
+      },
+      {
+        "stem": "Last month the chapter adopted a motion to attend a regional conference. Members now want to cancel that decision, and no previous notice was given. What is needed?",
+        "choices": [
+          "Reconsider, majority vote",
+          "Take from the table, majority",
+          "Point of order, chair's ruling",
+          "Rescind, two-thirds vote"
+        ],
+        "answer": 3,
+        "explanation": "Reconsider must be made on the same day as the vote, so it is unavailable a month later. Without previous notice, rescind needs a two-thirds vote (or a majority of the entire membership)."
+      },
+      {
+        "stem": "The chair rules a member's amendment out of order. The member believes the ruling is wrong. What should the member do?",
+        "choices": [
+          "Raise a point of order against the chair",
+          "Appeal from the decision of the chair",
+          "Move to suspend the rules",
+          "Move to reconsider the amendment"
+        ],
+        "answer": 1,
+        "explanation": "An appeal lets the assembly decide whether the chair's ruling stands. A point of order is used to raise a rule violation in the first place; once the chair has ruled, the remedy is an appeal."
+      },
+      {
+        "stem": "A member who voted NO on a motion that passed wants to move to reconsider it later in the same meeting. How should the chair respond?",
+        "choices": [
+          "Accept the motion, since any member may reconsider",
+          "Accept it only if seconded by a yes voter",
+          "Refer it to the parliamentarian for a decision",
+          "Rule it out of order, because only a member on the prevailing side may move to reconsider"
+        ],
+        "answer": 3,
+        "explanation": "Reconsider may be moved only by someone who voted with the prevailing side, here a yes voter. A second can come from any member, but that does not cure who made the motion."
+      },
+      {
+        "stem": "A member realizes the meeting room is too hot to continue and wants it addressed immediately while a motion is being debated. Which motion fits best?",
+        "choices": [
+          "Raise a question of privilege",
+          "Call for the orders of the day",
+          "Postpone definitely",
+          "Division of the assembly"
+        ],
+        "answer": 0,
+        "explanation": "A question of privilege handles urgent matters affecting members' rights or comfort. Calling for the orders of the day demands that the agenda be followed, which does not address the room."
+      },
+      {
+        "stem": "A member moves to lay a controversial motion on the table, saying, \"This will kill it permanently.\" What is the best guidance?",
+        "choices": [
+          "Proper, since tabling always kills a motion",
+          "Improper, since tabling is for temporary interruptions; postpone indefinitely is the proper way to dispose of the motion without a direct vote",
+          "Proper, if two-thirds agree",
+          "Improper, because tabling requires a committee report"
+        ],
+        "answer": 1,
+        "explanation": "RONR intends lay on the table only for setting business aside temporarily. Postpone indefinitely is the correct motion to dispose of a main motion without a direct vote on it."
+      },
+      {
+        "stem": "The chapter wants to let a guest speaker address the meeting, which its standing rules normally forbid. Which motion and vote apply?",
+        "choices": [
+          "Amend the bylaws, majority vote",
+          "Point of order, chair's ruling",
+          "Suspend the rules, two-thirds vote",
+          "Recess, majority vote"
+        ],
+        "answer": 2,
+        "explanation": "Suspending the rules temporarily sets aside a rule of order or standing rule and needs two-thirds. Amending bylaws is a permanent change with its own notice requirements and is unnecessary here."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Order of precedence",
+        "definition": "The ranking of privileged, subsidiary and main motions that determines which can be made while others are pending."
+      },
+      {
+        "term": "Previous question",
+        "definition": "A subsidiary motion that closes debate and orders an immediate vote; requires a two-thirds vote."
+      },
+      {
+        "term": "Point of order",
+        "definition": "An incidental motion claiming that a rule is being violated, which the chair rules on."
+      },
+      {
+        "term": "Reconsider",
+        "definition": "A motion to bring a decided question back for a new vote, made only by a prevailing-side voter on the same day."
+      },
+      {
+        "term": "Rescind",
+        "definition": "A motion to cancel a previously adopted action; requires two-thirds, a majority with previous notice, or a majority of the entire membership."
+      }
+    ]
+  }
+]

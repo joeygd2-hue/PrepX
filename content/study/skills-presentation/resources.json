@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Exploring Public Speaking",
+    "url": "https://oer.galileo.usg.edu/communication-textbooks/1/",
+    "publisher": "GALILEO Open Learning Materials",
+    "kind": "textbook",
+    "note": "Free public speaking textbook on organizing, visual aids, delivery and handling nerves."
+  },
+  {
+    "title": "Visual Rhetoric",
+    "url": "https://owl.purdue.edu/owl/general_writing/visual_rhetoric/index.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Purdue OWL on visual design and effective slides."
+  },
+  {
+    "title": "Data Visualization Best Practices",
+    "url": "https://owl.purdue.edu/owl/general_writing/visual_rhetoric/data_visualization/index.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "How to choose and design charts that judges can read in seconds."
+  }
+]

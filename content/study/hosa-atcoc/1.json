@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Carbon bonding, functional groups, and naming basics",
+    "objective": "Explain how carbon forms bonds, identify common functional groups, and name simple organic molecules using IUPAC rules.",
+    "body": "Organic chemistry is the chemistry of carbon compounds, and nearly every molecule in the human body, from glucose to DNA to drugs, belongs to it. Success starts with understanding why carbon is so versatile and learning to recognize the reactive parts of a molecule.\n\n**Carbon's bonding.** Carbon has four valence electrons, so it forms four covalent bonds. It can bond to itself in chains and rings and can form single, double, or triple bonds. The shape around a carbon follows its **hybridization**:\n- **sp3** carbon (four single bonds) is tetrahedral, about 109.5 degrees.\n- **sp2** carbon (one double bond) is trigonal planar, about 120 degrees.\n- **sp** carbon (a triple bond or two double bonds) is linear, 180 degrees.\n\n**Hydrocarbons.** Molecules containing only carbon and hydrogen are hydrocarbons. **Alkanes** have only single bonds and are saturated; **alkenes** contain at least one C=C double bond; **alkynes** contain a C≡C triple bond. **Aromatic** compounds such as benzene contain a planar ring of delocalized electrons, which makes them unusually stable.\n\n**Functional groups.** A **functional group** is an atom or group of atoms that gives a molecule its characteristic reactions. Learn these on sight:\n1. Alcohol: -OH bonded to an sp3 carbon (ethanol).\n2. Aldehyde: C=O at the end of a chain, bonded to H (formaldehyde).\n3. Ketone: C=O between two carbons (acetone).\n4. Carboxylic acid: -COOH (acetic acid).\n5. Ester: -COO- linking two carbon groups (fats, aspirin).\n6. Amine: nitrogen bonded to carbon (many neurotransmitters).\n7. Amide: C=O bonded to nitrogen (the peptide bond in proteins).\n8. Ether: oxygen between two carbons.\n\n**IUPAC naming.** Find the longest continuous carbon chain containing the main functional group; its length gives the root (meth-, eth-, prop-, but-, pent-, hex-). Number the chain so the main functional group, then multiple bonds, then substituents get the lowest numbers. Add the suffix for the highest-priority group: -ane, -ene, -yne, -ol, -al, -one, or -oic acid. So CH3CH2CH2OH is propan-1-ol, and CH3COCH3 is propan-2-one (acetone).\n\n**Isomers.** Molecules with the same formula but different structures are **isomers**. Structural (constitutional) isomers differ in connectivity, such as butane and 2-methylpropane, both C4H10. Their properties differ, which is why formula alone never identifies a compound.\n\nThe most common mistake students make is confusing aldehydes with ketones, or esters with ethers: always check what is attached to the carbonyl carbon or the oxygen before naming the group.",
+    "examples": [
+      "Ethanol (CH3CH2OH) and dimethyl ether (CH3OCH3) share the formula C2H6O, but the alcohol hydrogen-bonds and boils near 78 C while the ether boils near -24 C.",
+      "Acetone, a ketone, appears in the breath of a person in diabetic ketoacidosis because the body is producing ketone bodies from fat."
+    ],
+    "questions": [
+      {
+        "stem": "A molecule contains a carbon double-bonded to oxygen and also bonded to an -OH group. Which functional group is present?",
+        "choices": [
+          "Ketone",
+          "Carboxylic acid",
+          "Alcohol",
+          "Ester"
+        ],
+        "answer": 1,
+        "explanation": "C=O plus -OH on the same carbon is a carboxylic acid (-COOH). It is not an alcohol because the -OH is on a carbonyl carbon, not an sp3 carbon."
+      },
+      {
+        "stem": "A lab label reads CH3CH2CH2CH3. Which name is correct?",
+        "choices": [
+          "Propane",
+          "Butene",
+          "Butane",
+          "2-methylpropane"
+        ],
+        "answer": 2,
+        "explanation": "Four carbons in a chain with only single bonds is butane. 2-methylpropane has the same formula but a branched structure."
+      },
+      {
+        "stem": "What is the approximate bond angle around a carbon in ethene (H2C=CH2)?",
+        "choices": [
+          "120 degrees",
+          "109.5 degrees",
+          "180 degrees",
+          "90 degrees"
+        ],
+        "answer": 0,
+        "explanation": "Each carbon in ethene is sp2 hybridized and trigonal planar, about 120 degrees. 109.5 degrees applies to sp3 carbons with only single bonds."
+      },
+      {
+        "stem": "A student sees R-O-R' with no carbonyl. Which group is this?",
+        "choices": [
+          "Ester",
+          "Ketone",
+          "Aldehyde",
+          "Ether"
+        ],
+        "answer": 3,
+        "explanation": "Oxygen bridging two carbons with no C=O is an ether. An ester would have a C=O next to that oxygen."
+      },
+      {
+        "stem": "Proteins are held together by links between amino acids. Which functional group forms that link?",
+        "choices": [
+          "Amine",
+          "Ester",
+          "Amide",
+          "Ether"
+        ],
+        "answer": 2,
+        "explanation": "The peptide bond is an amide: a carbonyl carbon bonded to nitrogen. An amine has nitrogen but no adjacent carbonyl."
+      },
+      {
+        "stem": "Which pair are structural isomers?",
+        "choices": [
+          "Ethane and ethene",
+          "Butane and 2-methylpropane",
+          "Methanol and ethanol",
+          "Benzene and cyclohexane"
+        ],
+        "answer": 1,
+        "explanation": "Butane and 2-methylpropane are both C4H10 with different connectivity. Methanol and ethanol differ by a CH2, so they have different formulas."
+      },
+      {
+        "stem": "A compound named pentan-2-one contains which group, and where?",
+        "choices": [
+          "An aldehyde on carbon 1",
+          "An alcohol on carbon 2",
+          "A ketone carbonyl on carbon 2",
+          "A carboxylic acid on carbon 5"
+        ],
+        "answer": 2,
+        "explanation": "The -one suffix means a ketone, and 2 places the carbonyl on carbon 2. An aldehyde would use the -al suffix and always sit at carbon 1."
+      },
+      {
+        "stem": "Why can carbon form so many different compounds?",
+        "choices": [
+          "It has eight valence electrons",
+          "It forms four covalent bonds, including bonds to other carbons",
+          "It readily forms ionic bonds",
+          "It is the most electronegative element"
+        ],
+        "answer": 1,
+        "explanation": "Four bonds and the ability to catenate into chains and rings create enormous structural variety. Carbon forms covalent, not ionic, bonds in organic molecules."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Functional group",
+        "definition": "An atom or group of atoms that gives a molecule its characteristic reactions."
+      },
+      {
+        "term": "Alkane",
+        "definition": "A saturated hydrocarbon containing only carbon-carbon single bonds."
+      },
+      {
+        "term": "Hybridization",
+        "definition": "The mixing of atomic orbitals that sets geometry: sp3 tetrahedral, sp2 trigonal planar, sp linear."
+      },
+      {
+        "term": "Structural isomers",
+        "definition": "Compounds with the same molecular formula but different atom connectivity."
+      },
+      {
+        "term": "Aromatic compound",
+        "definition": "A compound with a planar ring of delocalized electrons, such as benzene, that is unusually stable."
+      }
+    ]
+  }
+]

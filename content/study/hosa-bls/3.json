@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Microbiology, blood banking and laboratory quality control",
+    "objective": "Evaluate microbiology and blood bank findings and apply quality control rules to decide whether patient results can be released.",
+    "body": "Advanced questions combine several skills: identifying an organism, choosing safe blood products, and deciding whether an instrument run can be trusted. These areas carry the highest stakes because a single error can harm a patient directly.\n\n**Microbiology.** Identification starts with the **Gram stain**. Gram-positive bacteria have a thick peptidoglycan wall that keeps crystal violet and appear purple; gram-negative bacteria have a thin wall plus an outer membrane, lose the dye during decolorization, and appear pink from the safranin counterstain. Shape is reported too: cocci (spheres) or bacilli (rods). Gram-positive cocci in clusters suggest *Staphylococcus*, while those in chains suggest *Streptococcus*. Organisms are then grown on media and identified biochemically or by mass spectrometry. **Antimicrobial susceptibility testing** reports whether an organism is susceptible or resistant to drugs; in disk diffusion, a larger **zone of inhibition** generally means greater susceptibility, interpreted against published breakpoints. Blood cultures must be collected with careful skin antisepsis, because skin flora contamination causes false positives.\n\n**Immunohematology (blood bank).** Blood type depends on antigens on red cells:\n- Type A has A antigen and anti-B antibodies; type B has B antigen and anti-A; type AB has both antigens and neither antibody; type O has neither antigen and both antibodies.\n- **Rh(D)** positive cells carry the D antigen.\n\nFor red cell transfusion, **O negative** is the universal red cell donor and AB positive is the universal red cell recipient. For plasma the rule reverses: **AB plasma** is universal because it lacks anti-A and anti-B. Before transfusion, the lab performs a **type and screen** and a **crossmatch** to confirm compatibility. The most dangerous transfusion error is an ABO mismatch, usually caused by misidentification rather than a testing failure.\n\n**Quality control (QC).** Labs run **control materials** with known target values alongside patient samples. Results are plotted on a **Levey-Jennings chart** using the mean and standard deviation (SD). Common **Westgard rules** include:\n1. **1-2s**: one control beyond 2 SD is a warning to inspect further.\n2. **1-3s**: one control beyond 3 SD rejects the run, usually random error.\n3. **2-2s**: two consecutive controls beyond 2 SD on the same side reject the run, suggesting systematic error.\n4. **10x**: ten consecutive results on one side of the mean signal a shift or bias.\n\n**Accuracy** is closeness to the true value; **precision** is reproducibility. A method can be precise but inaccurate. When QC fails, patient results are held, the problem is corrected, and affected samples are rerun. Labs also participate in **proficiency testing**, analyzing unknown samples from an outside agency, as required under CLIA.\n\nThe most common mistake students make is mixing up red cell and plasma compatibility. O negative is universal for red cells, but AB is universal for plasma; reason from which antigens or antibodies are being transfused.",
+    "examples": [
+      "A Gram stain of a wound sample shows purple cocci in clusters, so the scientist suspects Staphylococcus while culture is pending.",
+      "A trauma patient of unknown type receives O negative red cells until type-specific blood is available.",
+      "Two consecutive glucose controls fall above +2 SD, violating the 2-2s rule, so the technologist holds patient results and recalibrates."
+    ],
+    "questions": [
+      {
+        "stem": "A Gram stain shows pink rods. How should the organism be described?",
+        "choices": [
+          "Gram-positive cocci",
+          "Gram-negative bacilli",
+          "Gram-positive bacilli",
+          "Gram-negative cocci"
+        ],
+        "answer": 1,
+        "explanation": "Pink means gram-negative and rods are bacilli. Gram-positive organisms keep crystal violet and look purple."
+      },
+      {
+        "stem": "A patient with type A positive blood needs red cells. Which unit is compatible?",
+        "choices": [
+          "B positive",
+          "AB positive",
+          "O positive",
+          "AB negative"
+        ],
+        "answer": 2,
+        "explanation": "Type A patients have anti-B, so they can receive A or O red cells; O positive works for an Rh-positive patient. AB cells carry B antigen and would react."
+      },
+      {
+        "stem": "A burn patient needs plasma but the blood type is not yet known. Which plasma is safest?",
+        "choices": [
+          "O plasma",
+          "AB plasma",
+          "A plasma",
+          "B plasma"
+        ],
+        "answer": 1,
+        "explanation": "AB plasma has no anti-A or anti-B, so it is universal plasma. O plasma contains both antibodies and could attack the patient's red cells."
+      },
+      {
+        "stem": "One control value falls beyond +3 SD. What should the technologist do?",
+        "choices": [
+          "Release patient results with a comment",
+          "Reject the run, investigate and rerun patients after correction",
+          "Ignore it because only one control failed",
+          "Change the target mean to include the value"
+        ],
+        "answer": 1,
+        "explanation": "A 1-3s violation rejects the run. Releasing results risks reporting errors, and shifting the mean hides the problem."
+      },
+      {
+        "stem": "Ten consecutive control results fall slightly above the mean but within 2 SD. What does this indicate?",
+        "choices": [
+          "Random error only",
+          "A systematic shift requiring investigation",
+          "Perfect performance",
+          "A pre-analytical labeling error"
+        ],
+        "answer": 1,
+        "explanation": "The 10x rule flags a shift or bias even when values are within limits. Random error appears as scattered, isolated outliers instead."
+      },
+      {
+        "stem": "A blood culture grows a common skin organism in one of four bottles. What is the most likely explanation?",
+        "choices": [
+          "Contamination during collection",
+          "A resistant infection",
+          "Incorrect Gram stain reagents",
+          "An ABO mismatch"
+        ],
+        "answer": 0,
+        "explanation": "Skin flora in a single bottle often reflects contamination from inadequate antisepsis. A true infection would usually appear in multiple sets."
+      },
+      {
+        "stem": "Repeated measurements of a control are tightly clustered but all well above the known target. How is the method best described?",
+        "choices": [
+          "Accurate and precise",
+          "Accurate but imprecise",
+          "Neither accurate nor precise",
+          "Precise but inaccurate"
+        ],
+        "answer": 3,
+        "explanation": "Tight clustering shows precision, but distance from the target shows inaccuracy. Accuracy would require results near the true value."
+      },
+      {
+        "stem": "In disk diffusion testing, organism X shows a large clear zone around an antibiotic disk. What does this generally suggest?",
+        "choices": [
+          "The organism is resistant",
+          "The disk was contaminated",
+          "The organism is likely susceptible, pending breakpoint interpretation",
+          "The organism is gram-positive"
+        ],
+        "answer": 2,
+        "explanation": "A larger zone of inhibition generally means the drug stopped growth, indicating susceptibility when compared to breakpoints. Resistance shows a small or absent zone."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Gram stain",
+        "definition": "Differential stain where gram-positive bacteria appear purple and gram-negative bacteria appear pink."
+      },
+      {
+        "term": "Universal red cell donor",
+        "definition": "O negative red cells, which lack A, B and D antigens."
+      },
+      {
+        "term": "Crossmatch",
+        "definition": "Test confirming compatibility between donor blood and recipient before transfusion."
+      },
+      {
+        "term": "Levey-Jennings chart",
+        "definition": "Plot of control results against the mean and standard deviations used to monitor QC."
+      },
+      {
+        "term": "Precision",
+        "definition": "Reproducibility of repeated measurements, regardless of closeness to the true value."
+      }
+    ]
+  }
+]

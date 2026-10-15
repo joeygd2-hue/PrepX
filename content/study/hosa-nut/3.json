@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Therapeutic diets, life stages and nutrition-related disease",
+    "objective": "Analyze patient scenarios to select appropriate therapeutic diets, explain nutritional needs across life stages, and evaluate nutrition-related health risks.",
+    "body": "In health care, nutrition becomes treatment. Dietitians and care teams modify a patient's regular diet to manage disease, prepare for procedures or support recovery. These modified plans are called **therapeutic diets**, and choosing the right one depends on the patient's condition.\n\n**Common therapeutic diets.**\n- **Clear liquid diet:** fluids you can see through, such as broth, apple juice and gelatin; used briefly before or after procedures because it leaves little residue.\n- **Full liquid diet:** adds milk, pudding, cream soups and strained cereals; a step between clear liquids and soft foods.\n- **Mechanical soft diet:** foods chopped, ground or mashed for patients with chewing difficulties.\n- **Sodium-restricted diet:** limits salt and processed foods for hypertension, heart failure and some kidney disease.\n- **Consistent carbohydrate diet:** spreads carbohydrate evenly through the day to help manage diabetes.\n- **Renal diet:** may limit protein, sodium, potassium and phosphorus depending on kidney function.\n\nPatients with **dysphagia**, or difficulty swallowing, are at risk of **aspiration**, food or liquid entering the airway. They may need texture-modified foods and thickened liquids as determined by a speech-language pathologist.\n\n**Life stages.** Needs change across the lifespan. Infants are recommended exclusive breastfeeding (or iron-fortified formula) for about the first six months, with solid foods introduced around six months. Adolescents need extra calcium and iron during rapid growth. Pregnancy increases needs for folate, iron and protein. Older adults often need fewer calories but the same or more of certain nutrients, such as vitamin B12, vitamin D and calcium, while thirst sensation may decline, raising dehydration risk.\n\n**Nutrition-related disease.** Poor diet contributes to leading chronic diseases. Diets high in sodium raise blood pressure; diets high in saturated fat raise LDL cholesterol and heart disease risk. Type 2 diabetes is linked to excess body weight and inactivity. **Osteoporosis** risk rises with low lifetime calcium and vitamin D intake. **Malnutrition** includes both undernutrition and overnutrition.\n\n**Eating disorders** are serious mental illnesses, not lifestyle choices. Anorexia nervosa involves restriction and intense fear of weight gain; bulimia nervosa involves binge eating followed by compensatory behaviors such as vomiting; binge-eating disorder involves recurrent binges without compensation. Severe restriction can cause dangerous electrolyte imbalances and heart problems, and treatment requires a professional team.\n\n**Food safety** also matters: keep cold foods at 40°F or below and hot foods at 140°F or above to stay out of the temperature danger zone where bacteria multiply quickly.\n\nThe most common mistake students make is confusing clear liquid and full liquid diets. If it contains milk or you cannot see through it, such as pudding or cream soup, it belongs on a full liquid diet, not a clear liquid diet.",
+    "examples": [
+      "A patient preparing for a colonoscopy is placed on a clear liquid diet of broth, apple juice and plain gelatin the day before.",
+      "An 82-year-old who rarely feels thirsty is encouraged to drink fluids on a schedule to prevent dehydration.",
+      "A stroke patient with dysphagia receives thickened liquids after a swallowing evaluation to reduce aspiration risk."
+    ],
+    "questions": [
+      {
+        "stem": "A patient is ordered a clear liquid diet after surgery. Which tray item should the nursing assistant remove?",
+        "choices": [
+          "Chicken broth",
+          "Apple juice",
+          "Vanilla pudding",
+          "Lemon gelatin"
+        ],
+        "answer": 2,
+        "explanation": "Pudding contains milk and is opaque, so it belongs on a full liquid diet. Gelatin is allowed on a clear liquid diet because it is clear and liquid at body temperature."
+      },
+      {
+        "stem": "A patient with heart failure is gaining fluid and has high blood pressure. Which diet modification is most appropriate?",
+        "choices": [
+          "Sodium-restricted diet",
+          "High-protein diet",
+          "Clear liquid diet",
+          "High-fiber diet"
+        ],
+        "answer": 0,
+        "explanation": "Sodium restriction helps control fluid retention and blood pressure in heart failure. A clear liquid diet is a short-term procedural diet and would not address the underlying problem."
+      },
+      {
+        "stem": "An elderly stroke patient coughs and chokes while drinking water. What is the primary concern?",
+        "choices": [
+          "Lactose intolerance",
+          "Aspiration from dysphagia",
+          "Iron deficiency",
+          "Hyperglycemia"
+        ],
+        "answer": 1,
+        "explanation": "Coughing while drinking suggests dysphagia with aspiration risk, so a swallowing evaluation and texture modification are needed. Lactose intolerance causes digestive symptoms after dairy, not choking on water."
+      },
+      {
+        "stem": "A patient with type 2 diabetes asks why meals should have similar carbohydrate amounts each day. What is the best explanation?",
+        "choices": [
+          "It eliminates the need for any diabetes medication",
+          "Carbohydrates contain more calories than fat",
+          "It prevents vitamin deficiencies",
+          "Spreading carbohydrates evenly helps keep blood glucose more stable"
+        ],
+        "answer": 3,
+        "explanation": "A consistent carbohydrate diet helps avoid large blood glucose swings. It does not replace prescribed treatment, so claiming it eliminates medication is incorrect."
+      },
+      {
+        "stem": "A 15-year-old in a growth spurt asks which nutrients are especially important now. Which pair is best?",
+        "choices": [
+          "Calcium and iron",
+          "Sodium and vitamin K",
+          "Vitamin C and iodine",
+          "Fat and potassium"
+        ],
+        "answer": 0,
+        "explanation": "Adolescents need more calcium for bone growth and iron for expanding blood volume and, in menstruating teens, blood loss. Vitamin C and iodine matter but are not the classic adolescent priority."
+      },
+      {
+        "stem": "A teen restricts food severely, fears weight gain and has a very low body weight. Which condition best fits this description?",
+        "choices": [
+          "Bulimia nervosa",
+          "Binge-eating disorder",
+          "Anorexia nervosa",
+          "Osteoporosis"
+        ],
+        "answer": 2,
+        "explanation": "Restriction with intense fear of weight gain and low weight describes anorexia nervosa. Bulimia involves bingeing with compensatory behaviors and often normal weight."
+      },
+      {
+        "stem": "A cafeteria worker finds chicken salad that has been held at 70°F for several hours. Why is this unsafe?",
+        "choices": [
+          "Cold temperatures destroy protein",
+          "The food is in the temperature danger zone where bacteria multiply quickly",
+          "Chicken salad must be held above 200°F",
+          "The food has lost all of its vitamins"
+        ],
+        "answer": 1,
+        "explanation": "Between 40°F and 140°F bacteria multiply rapidly, so cold foods must stay at 40°F or below. Vitamin loss does not create the food-safety hazard."
+      },
+      {
+        "stem": "An 80-year-old needs fewer calories than when younger. Which statement about her nutrient needs is accurate?",
+        "choices": [
+          "She needs less of every nutrient",
+          "She no longer needs calcium",
+          "She should avoid all fluids at night to protect her kidneys",
+          "She still needs nutrient-dense foods because needs for nutrients such as vitamin B12 and vitamin D stay the same or rise"
+        ],
+        "answer": 3,
+        "explanation": "Calorie needs fall with age, but needs for nutrients like vitamin D, calcium and B12 stay the same or increase, so nutrient density matters. Assuming every nutrient need drops is the main misconception."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Therapeutic diet",
+        "definition": "A modified diet ordered to manage a disease, prepare for a procedure or support recovery."
+      },
+      {
+        "term": "Clear liquid diet",
+        "definition": "A short-term diet of see-through fluids such as broth, apple juice and gelatin."
+      },
+      {
+        "term": "Dysphagia",
+        "definition": "Difficulty swallowing, which raises the risk of aspiration."
+      },
+      {
+        "term": "Aspiration",
+        "definition": "Food or liquid entering the airway instead of the esophagus."
+      },
+      {
+        "term": "Temperature danger zone",
+        "definition": "40°F to 140°F, the range where bacteria multiply quickly in food."
+      }
+    ]
+  }
+]

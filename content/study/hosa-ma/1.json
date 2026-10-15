@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Medical assistant scope, ethics, and infection control basics",
+    "objective": "Explain the medical assistant's scope of practice, apply confidentiality and consent rules, and perform standard precautions and hand hygiene correctly.",
+    "body": "A medical assistant works in an ambulatory setting, such as a physician's office or clinic, and splits time between **administrative duties** (scheduling, records, billing) and **clinical duties** (vital signs, rooming patients, assisting with exams). Nearly every test question in this area asks the same thing: is this task inside the medical assistant's role, and is it being done safely and legally?\n\n**Scope of practice.** Scope of practice is the set of tasks a worker is trained and legally permitted to do. Medical assistants work under the supervision of a licensed provider and do not diagnose, prescribe, or independently interpret test results. State law and employer policy set the exact limits, so a medical assistant who is unsure should ask the supervising provider rather than guess.\n\n**Confidentiality and HIPAA.** The **Health Insurance Portability and Accountability Act (HIPAA)** protects **protected health information (PHI)**: any individually identifiable health information, from a diagnosis to an appointment time. Share PHI only with people who need it for treatment, payment, or operations, or whom the patient has authorized. Discussing a patient in the elevator or leaving a chart open on a counter are violations even when no harm is intended.\n\n**Consent.** **Informed consent** means the provider has explained a procedure, its risks, benefits, and alternatives, and the patient agrees. Obtaining informed consent is the provider's responsibility; the medical assistant may witness the signature. **Implied consent** is shown by action, such as a patient rolling up a sleeve for a blood pressure reading. Minors generally need a parent or guardian's consent except where state law allows otherwise.\n\n**Standard precautions.** **Standard precautions** treat blood, body fluids (except sweat), nonintact skin, and mucous membranes from every patient as potentially infectious. Core elements include:\n- **Hand hygiene** before and after patient contact, after removing gloves, and after touching contaminated surfaces. Alcohol-based rub is preferred when hands are not visibly soiled; use soap and water when hands are visibly dirty or after caring for a patient with *C. difficile* or norovirus.\n- Personal protective equipment (PPE) matched to the expected exposure.\n- Safe sharps handling: never recap a used needle by hand and discard it immediately in a puncture-resistant sharps container.\n\n**The chain of infection** links an infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, and susceptible host. Breaking any link stops the spread, and hand hygiene breaks the transmission link more reliably than any other single action.\n\n**Most common mistake:** students assume gloves replace hand hygiene. Gloves can have tiny defects and hands are contaminated during removal, so hand hygiene is still required after gloves come off.",
+    "examples": [
+      "A patient extends her arm when the medical assistant approaches with a blood pressure cuff; this action shows implied consent for the measurement.",
+      "A medical assistant removes gloves after a dressing change and immediately uses alcohol-based hand rub before charting, because glove removal can contaminate the hands.",
+      "A caller says he is a patient's coworker and asks whether she came in today; the medical assistant declines because the caller is not authorized to receive PHI."
+    ],
+    "questions": [
+      {
+        "stem": "A patient asks the medical assistant whether his lab results mean he has diabetes. What is the best response?",
+        "choices": [
+          "Explain that the provider will review and discuss the results with him",
+          "Tell him the results look normal so he does not worry",
+          "Read the reference ranges and tell him whether he is diabetic",
+          "Suggest he search the lab values online"
+        ],
+        "answer": 0,
+        "explanation": "Interpreting results and diagnosing are outside the medical assistant's scope, so the provider must discuss them. Telling him the results are normal is still an interpretation and could be wrong."
+      },
+      {
+        "stem": "Which item is protected health information under HIPAA?",
+        "choices": [
+          "A clinic's posted office hours",
+          "A patient's name paired with her appointment date",
+          "A de-identified count of flu cases in the county",
+          "The provider's medical school diploma"
+        ],
+        "answer": 1,
+        "explanation": "A name linked to an appointment identifies a person's health care, so it is PHI. De-identified aggregate counts no longer identify any individual."
+      },
+      {
+        "stem": "Before a minor surgical procedure, who is responsible for explaining the risks, benefits, and alternatives to the patient?",
+        "choices": [
+          "The medical assistant",
+          "The receptionist",
+          "The provider performing the procedure",
+          "The patient's insurance company"
+        ],
+        "answer": 2,
+        "explanation": "Informed consent is the provider's duty because it requires medical knowledge of the procedure. The medical assistant may witness the signature but does not obtain informed consent."
+      },
+      {
+        "stem": "A medical assistant has just finished caring for a patient with confirmed C. difficile diarrhea. Which hand hygiene method is best?",
+        "choices": [
+          "Alcohol-based hand rub only",
+          "Gloves only, without washing",
+          "Soap and water handwashing",
+          "Antiseptic wipe on the fingertips"
+        ],
+        "answer": 2,
+        "explanation": "C. difficile spores are not reliably killed by alcohol, so soap and running water are needed to physically remove them. Alcohol rub is preferred in most other situations, which makes it the tempting wrong choice."
+      },
+      {
+        "stem": "After giving an injection, what should the medical assistant do with the used needle?",
+        "choices": [
+          "Recap it carefully with two hands",
+          "Discard it immediately into a sharps container",
+          "Place it on the tray to dispose of later",
+          "Bend it so it cannot be reused"
+        ],
+        "answer": 1,
+        "explanation": "Immediate disposal in a puncture-resistant sharps container prevents needlestick injuries. Two-handed recapping is a leading cause of needlesticks and is prohibited."
+      },
+      {
+        "stem": "Covering a cough with a tissue and then performing hand hygiene interrupts which link in the chain of infection?",
+        "choices": [
+          "Reservoir",
+          "Susceptible host",
+          "Mode of transmission",
+          "Infectious agent"
+        ],
+        "answer": 2,
+        "explanation": "These actions block droplets and contaminated hands from carrying germs, which is the mode of transmission. They do not change the host's susceptibility, which is changed by measures such as vaccination."
+      },
+      {
+        "stem": "A medical assistant overhears two coworkers discussing a celebrity patient's diagnosis in the break room. Which statement is accurate?",
+        "choices": [
+          "This is acceptable because they both work at the clinic",
+          "This is a confidentiality breach because neither needs the information for their duties",
+          "This is acceptable if no patients can hear",
+          "It only becomes a violation if the information is written down"
+        ],
+        "answer": 1,
+        "explanation": "HIPAA limits PHI to those who need it for treatment, payment, or operations. Being an employee does not by itself create a need to know."
+      },
+      {
+        "stem": "Which task is generally within a medical assistant's scope of practice when delegated by the supervising provider?",
+        "choices": [
+          "Choosing which medication to prescribe",
+          "Measuring and recording vital signs",
+          "Diagnosing a rash",
+          "Deciding whether a patient needs surgery"
+        ],
+        "answer": 1,
+        "explanation": "Measuring and recording vital signs is a core clinical duty for medical assistants. Prescribing, diagnosing, and treatment decisions require a licensed provider's judgment."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Scope of practice",
+        "definition": "The tasks a health care worker is trained and legally permitted to perform."
+      },
+      {
+        "term": "Protected health information (PHI)",
+        "definition": "Individually identifiable health information protected by HIPAA."
+      },
+      {
+        "term": "Informed consent",
+        "definition": "Patient agreement given after the provider explains a procedure's risks, benefits, and alternatives."
+      },
+      {
+        "term": "Implied consent",
+        "definition": "Consent shown by a patient's actions rather than spoken or written words."
+      },
+      {
+        "term": "Standard precautions",
+        "definition": "Infection control practices that treat blood, body fluids, nonintact skin, and mucous membranes from all patients as potentially infectious."
+      }
+    ]
+  }
+]

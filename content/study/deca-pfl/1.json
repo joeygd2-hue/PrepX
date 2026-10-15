@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Earning income: paychecks, taxes and benefits",
+    "objective": "Calculate gross and net pay, read the key payroll tax forms, and compare job offers by total compensation.",
+    "body": "Income is where every personal finance plan starts, and the Personal Financial Literacy exam expects you to move comfortably between a job offer, a pay stub and a tax form. In role-plays, judges reward advice that looks past the headline wage to what a person actually takes home and the full value of the job.\n\n**Gross pay versus net pay.** *Gross pay* is everything earned before deductions: hourly wages, salary, commissions, tips and bonuses. Hourly workers covered by federal overtime rules earn at least 1.5 times their regular rate for hours over 40 in a workweek. A salary is divided by the number of pay periods: 52 for weekly, 26 for biweekly, 24 for semimonthly and 12 for monthly. *Net pay*, or take-home pay, is what remains after deductions.\n\n**Payroll deductions.** Common deductions include:\n- *Federal income tax withholding*, based on the Form W-4 the employee completes when hired.\n- *State and local income taxes*, where they apply.\n- *FICA taxes*: 6.2% for Social Security (up to an annual wage cap) and 1.45% for Medicare. Employers pay a matching share; self-employed people pay both halves through *self-employment tax*.\n- Voluntary deductions such as health insurance premiums and retirement contributions.\n\n**Tax forms and filing.** By the end of January, employers send each employee a *Form W-2* summarizing the year's wages and withholding. Clients who pay an independent contractor report it on a *Form 1099-NEC*, and no tax is withheld, so the contractor must set money aside. Individuals file a federal return on *Form 1040*, usually by mid-April. A *refund* means too much was withheld during the year; it is your own money coming back, not a bonus.\n\n**Progressive taxes.** Federal income tax is *progressive*: income is taxed in layers called brackets. Your *marginal tax rate* applies only to the last dollars you earn, so a raise never lowers your total take-home pay. Your *effective tax rate* is total tax divided by income, and once your income reaches more than one bracket, it is lower than your top bracket rate.\n\n**Total compensation.** Benefits such as employer-paid health insurance, retirement matching, paid time off and tuition help have real dollar value. Building *human capital* through education, certifications and experience is the most reliable way to raise future earnings.\n\nA common mistake is comparing jobs by hourly wage or salary alone. Add the value of benefits and subtract costs such as commuting before deciding.",
+    "examples": [
+      "Marcus earns $16 an hour and works 44 hours in one week. His gross pay is 40 x $16 = $640 plus 4 overtime hours x $24 = $96, for $736 before deductions.",
+      "Lena earns $800 gross in a pay period. After $64 federal withholding, $24 state tax, $49.60 Social Security (6.2%) and $11.60 Medicare (1.45%), her net pay is $800 - $149.20 = $650.80.",
+      "One offer pays $45,000 with no retirement match; another pays $43,000 plus a 4% match worth $1,720. With identical health plans, the first is still worth more in total, but only by $280."
+    ],
+    "questions": [
+      {
+        "stem": "Devon earns $14 per hour and is covered by federal overtime rules. Last week he worked 46 hours. What was his gross pay for the week?",
+        "choices": [
+          "$644",
+          "$686",
+          "$560",
+          "$966"
+        ],
+        "answer": 1,
+        "explanation": "Regular pay is 40 x $14 = $560. Overtime is 6 hours x $21 (1.5 x $14) = $126. Total gross pay = $560 + $126 = $686."
+      },
+      {
+        "stem": "Aaliyah accepts a job with a $52,000 annual salary paid biweekly. What is her gross pay per paycheck?",
+        "choices": [
+          "$2,166.67",
+          "$4,333.33",
+          "$2,000.00",
+          "$1,000.00"
+        ],
+        "answer": 2,
+        "explanation": "Biweekly means every two weeks, or 26 paychecks a year: $52,000 / 26 = $2,000. $2,166.67 would be semimonthly pay (24 checks)."
+      },
+      {
+        "stem": "A pay stub shows gross pay of $600, federal income tax withholding of $48, state income tax of $18, Social Security tax of 6.2% and Medicare tax of 1.45%. What is the net pay?",
+        "choices": [
+          "$534.00",
+          "$554.10",
+          "$442.20",
+          "$488.10"
+        ],
+        "answer": 3,
+        "explanation": "FICA = 6.2% + 1.45% = 7.65% of $600 = $45.90. Total deductions = $48 + $18 + $45.90 = $111.90, so net pay = $600 - $111.90 = $488.10."
+      },
+      {
+        "stem": "On her first day at a new job, Rosa fills out a form that tells her employer how much federal income tax to withhold from each paycheck. Which form is it?",
+        "choices": [
+          "Form W-2",
+          "Form W-4",
+          "Form 1040",
+          "Form 1099-NEC"
+        ],
+        "answer": 1,
+        "explanation": "The W-4 gives the employer the information needed to calculate withholding. The W-2 is the year-end wage and tax statement the employer sends after the year ends."
+      },
+      {
+        "stem": "Sam earns $2,000 editing videos as an independent contractor, and the client reports the payments on Form 1099-NEC. Compared with an employee earning the same amount, what extra responsibility does Sam have?",
+        "choices": [
+          "He pays both the employee and employer shares of Social Security and Medicare through self-employment tax",
+          "He can skip reporting the income because no tax was withheld from it",
+          "His client must withhold income tax and file his tax return for him",
+          "He pays only Medicare tax because contractors do not pay into Social Security"
+        ],
+        "answer": 0,
+        "explanation": "Contractors have no employer paying the matching FICA share, so they pay both halves as self-employment tax. Contractor income must be reported even though nothing was withheld."
+      },
+      {
+        "stem": "Using a simplified tax schedule, the first $10,000 of taxable income is taxed at 10% and income above $10,000 up to $40,000 is taxed at 12%. How much tax is owed on taxable income of $30,000?",
+        "choices": [
+          "$3,600",
+          "$3,000",
+          "$3,400",
+          "$2,400"
+        ],
+        "answer": 2,
+        "explanation": "Tax the first $10,000 at 10% ($1,000) and the next $20,000 at 12% ($2,400), for a total of $3,400. Applying 12% to all $30,000 ($3,600) ignores how brackets work."
+      },
+      {
+        "stem": "Jordan's raise moves part of his income into a higher tax bracket. Which statement is accurate?",
+        "choices": [
+          "All of his income is now taxed at the higher rate",
+          "Only the income above the bracket threshold is taxed at the higher rate",
+          "His take-home pay will fall because of the higher bracket",
+          "His effective tax rate becomes equal to his new marginal rate"
+        ],
+        "answer": 1,
+        "explanation": "In a progressive system, each bracket's rate applies only to the dollars inside that bracket. A raise always increases take-home pay, and the effective rate stays below the top marginal rate."
+      },
+      {
+        "stem": "Kayla receives a $900 federal income tax refund after filing her return. What does the refund mean?",
+        "choices": [
+          "The government paid her a bonus for filing early",
+          "She underpaid her taxes and must now pay interest",
+          "More tax was withheld from her pay during the year than she owed",
+          "Her employer made a payroll error she must report"
+        ],
+        "answer": 2,
+        "explanation": "A refund returns money that was overwithheld. Updating her W-4 could put that money in her paychecks during the year instead."
+      },
+      {
+        "stem": "Offer A pays a $42,000 salary, and the employer pays $2,000 toward health insurance. Offer B pays $40,000, the employer pays $4,500 toward health insurance, and it matches retirement contributions up to 3% of salary, which the worker would fully use. Which offer has higher total compensation, and by how much?",
+        "choices": [
+          "Offer A, by $2,000",
+          "Offer B, by $500",
+          "Offer A, by $300",
+          "Offer B, by $1,700"
+        ],
+        "answer": 3,
+        "explanation": "Offer A = $42,000 + $2,000 = $44,000. Offer B = $40,000 + $4,500 + $1,200 (3% of $40,000) = $45,700, which is $1,700 more. Forgetting the match gives only $500."
+      },
+      {
+        "stem": "Which choice is the best example of investing in human capital?",
+        "choices": [
+          "Buying a newer car to commute to the same job",
+          "Putting a work bonus into a savings account",
+          "Earning a professional certification that qualifies you for a higher-paying role",
+          "Purchasing shares of your employer's stock"
+        ],
+        "answer": 2,
+        "explanation": "Human capital is the knowledge, skills and experience that increase earning power. Saving or buying stock builds financial capital, not skills."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Gross pay",
+        "definition": "Total earnings before any taxes or other deductions are taken out."
+      },
+      {
+        "term": "Net pay",
+        "definition": "Take-home pay left after taxes and other deductions are subtracted from gross pay."
+      },
+      {
+        "term": "FICA",
+        "definition": "Federal payroll taxes for Social Security and Medicare, withheld from wages and matched by employers."
+      },
+      {
+        "term": "Form W-4",
+        "definition": "The form a new employee completes so the employer knows how much federal income tax to withhold."
+      },
+      {
+        "term": "Form W-2",
+        "definition": "The year-end statement an employer sends showing an employee's wages and the taxes withheld."
+      },
+      {
+        "term": "Marginal tax rate",
+        "definition": "The tax rate applied to your last dollar of taxable income; only income within that bracket pays it."
+      }
+    ]
+  }
+]

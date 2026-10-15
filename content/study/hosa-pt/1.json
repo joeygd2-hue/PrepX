@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Foundations of physical therapy practice and team roles",
+    "objective": "Describe the scope of physical therapy, distinguish the roles of the PT, PTA and PT aide, and apply basic body mechanics and safety principles.",
+    "body": "Physical therapy helps people restore, maintain and improve movement and function after injury, surgery or illness, and helps prevent future problems. Before learning any treatment technique, you need to know who does what on the rehabilitation team and how to keep patients and yourself safe.\n\n**The physical therapist (PT)** is a licensed professional who examines patients, evaluates findings, establishes a diagnosis related to movement, sets goals and writes the **plan of care**. New PTs in the United States graduate with a **Doctor of Physical Therapy (DPT)** degree and must pass a national licensure exam. Many states allow patients to see a PT without a physician referral, a policy called **direct access**, although the rules and limits vary by state.\n\n**The physical therapist assistant (PTA)** earns an associate degree, passes a licensure exam and provides treatment under the supervision of a PT. The PTA carries out interventions in the plan of care, tracks progress and reports changes, but cannot perform the initial evaluation, change the plan of care or discharge the patient.\n\n**The physical therapy aide** is trained on the job and performs support tasks such as cleaning equipment, preparing treatment areas and transporting patients. Aides do not provide skilled care.\n\n**Body mechanics** protect the caregiver's back during lifting and transfers:\n- Keep a wide base of support with feet about shoulder-width apart.\n- Bend at the hips and knees, not the waist, and keep the back in a neutral position.\n- Hold the load close to your center of gravity.\n- Pivot with your feet instead of twisting the trunk.\n\n**Patient safety** starts with identifying the patient with two identifiers (such as name and date of birth), performing hand hygiene, explaining the procedure and getting consent, locking wheelchair and bed brakes, and using a **gait belt** when assisting with transfers or walking. Watch for signs that a patient is not tolerating activity, such as dizziness, unusual shortness of breath or chest pain, and stop and report them.\n\nInterventions in physical therapy commonly include **therapeutic exercise**, functional and gait training, manual therapy, patient education and physical agents such as heat or cold. Every intervention ties back to measurable functional goals, such as walking 150 feet independently or climbing a flight of stairs.\n\nThe most common mistake students make is mixing up the PT and PTA roles: remember that only the PT evaluates, writes or changes the plan of care and discharges the patient, while the PTA treats within that plan.",
+    "examples": [
+      "After knee surgery, a PT evaluates a patient's range of motion and strength, sets a goal of independent stair climbing, and a PTA then leads the daily exercise sessions in that plan.",
+      "Before helping a patient from a wheelchair to a mat table, the clinician locks the wheelchair brakes, fastens a gait belt and pivots with the feet rather than twisting."
+    ],
+    "questions": [
+      {
+        "stem": "A PTA notices that a patient's exercises are too easy and believes the goals should be changed. What should the PTA do?",
+        "choices": [
+          "Rewrite the goals in the plan of care",
+          "Discharge the patient and refer back to the physician",
+          "Report the findings to the supervising PT",
+          "Ask the PT aide to update the chart"
+        ],
+        "answer": 2,
+        "explanation": "Only the PT may change the plan of care, so the PTA reports progress to the PT. Rewriting the goals is wrong because modifying the plan of care is outside the PTA's scope."
+      },
+      {
+        "stem": "Which task is appropriate for a physical therapy aide?",
+        "choices": [
+          "Performing a manual muscle test",
+          "Cleaning the treatment tables between patients",
+          "Progressing a patient's exercise program",
+          "Teaching a patient crutch gait"
+        ],
+        "answer": 1,
+        "explanation": "Aides perform non-skilled support tasks like cleaning equipment. Progressing exercise is a skilled intervention reserved for a PT or PTA."
+      },
+      {
+        "stem": "A clinician must lift a box of weights from the floor. Which technique is safest?",
+        "choices": [
+          "Keep the legs straight and bend at the waist",
+          "Hold the box at arm's length to see the path",
+          "Bend the hips and knees and keep the box close",
+          "Twist the trunk to place the box on a shelf"
+        ],
+        "answer": 2,
+        "explanation": "Bending at the hips and knees with the load close protects the back. Bending at the waist with straight legs places high stress on the lumbar spine."
+      },
+      {
+        "stem": "Before assisting a patient to stand from a wheelchair, what should the clinician do first after identifying the patient?",
+        "choices": [
+          "Lock the wheelchair brakes",
+          "Remove the gait belt",
+          "Raise the footrests to the highest position",
+          "Ask the patient to lean back"
+        ],
+        "answer": 0,
+        "explanation": "Locking the brakes keeps the chair from rolling during the transfer. Removing the gait belt is wrong because the belt is used during transfers to help control the patient."
+      },
+      {
+        "stem": "A patient walks into an outpatient clinic in a state that permits it and is evaluated by a PT without a physician referral. This is called:",
+        "choices": [
+          "Plan of care",
+          "Direct access",
+          "Supervision",
+          "Discharge planning"
+        ],
+        "answer": 1,
+        "explanation": "Direct access means seeing a PT without a referral. The plan of care is the treatment document the PT writes, not the way a patient enters care."
+      },
+      {
+        "stem": "During a walking session, a patient reports chest pain and appears pale. What is the best response?",
+        "choices": [
+          "Encourage the patient to finish the distance",
+          "Increase the walking speed to finish faster",
+          "Stop the activity, keep the patient safe and report it right away",
+          "Document it at the end of the day"
+        ],
+        "answer": 2,
+        "explanation": "Chest pain during exercise is a warning sign, so the activity stops and the clinician gets help right away. Encouraging the patient to continue risks a serious cardiac event."
+      },
+      {
+        "stem": "Which degree do new physical therapists in the United States earn before licensure?",
+        "choices": [
+          "Associate degree in physical therapy",
+          "Bachelor of Science in kinesiology",
+          "Doctor of Physical Therapy",
+          "Master of Occupational Therapy"
+        ],
+        "answer": 2,
+        "explanation": "Entry-level PT programs now award the DPT. An associate degree is the education level for a PTA, not a PT."
+      },
+      {
+        "stem": "Which of the following is a measurable functional goal?",
+        "choices": [
+          "Patient will feel better",
+          "Patient will walk 150 feet independently with a cane in 3 weeks",
+          "Patient will try hard in therapy",
+          "Patient will understand exercise"
+        ],
+        "answer": 1,
+        "explanation": "This goal names the activity, distance, level of assistance, device and time frame, so it can be measured. 'Feel better' cannot be measured objectively."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Plan of care",
+        "definition": "The document written by the PT that lists goals, interventions and the expected frequency and duration of treatment."
+      },
+      {
+        "term": "Physical therapist assistant (PTA)",
+        "definition": "A licensed clinician with an associate degree who provides treatment under PT supervision but cannot evaluate, change the plan of care or discharge."
+      },
+      {
+        "term": "Direct access",
+        "definition": "The ability of patients to see a physical therapist without a physician referral, with limits set by each state."
+      },
+      {
+        "term": "Gait belt",
+        "definition": "A belt placed around the patient's waist that the clinician holds to help control the patient during transfers and walking."
+      },
+      {
+        "term": "Body mechanics",
+        "definition": "Safe ways to position and move your body when lifting or transferring, such as bending the knees and keeping loads close."
+      }
+    ]
+  }
+]

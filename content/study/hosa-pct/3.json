@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Phlebotomy, specimen integrity and responding to emergencies",
+    "objective": "Perform venipuncture using the correct order of draw, protect specimen integrity, and respond appropriately to complications and patient emergencies.",
+    "body": "Advanced PCT practice combines technical skill with judgment: drawing blood that gives reliable results, recognizing when something is going wrong, and acting quickly within your role.\n\n**Venipuncture** usually uses the median cubital vein in the antecubital area because it is large and stable. Apply the **tourniquet** 3 to 4 inches above the site and release it within about **one minute**; leaving it on longer causes **hemoconcentration**, which can falsely raise values such as potassium and protein. Clean with 70 percent isopropyl alcohol and let it air-dry so it does not sting or hemolyze the sample. Insert the needle bevel up at a shallow angle of about 15 to 30 degrees.\n\n**Order of draw** prevents additive carryover between tubes. The current CLSI sequence is:\n1. Blood culture bottles or tubes.\n2. Light blue (sodium citrate, coagulation).\n3. Red or gold serum tubes (with or without gel).\n4. Green (heparin).\n5. Lavender (EDTA).\n6. Gray (sodium fluoride/potassium oxalate).\n\nIf a light-blue tube is the first tube drawn with a winged (butterfly) set, draw a **discard tube** first to fill the tubing's air space so the tube's blood-to-additive ratio is correct. Gently invert additive tubes the number of times the manufacturer specifies; never shake them.\n\n**Specimen integrity** also depends on labeling at the bedside, in front of the patient, after the draw, with at least two identifiers, date, time and your initials. **Hemolysis**, the rupture of red cells, can come from a small needle, vigorous mixing, or forcing blood through a syringe, and it can make potassium appear dangerously high.\n\n**Complications** need prompt action:\n- A **hematoma** forming during the draw: release the tourniquet, remove the needle and apply pressure.\n- **Syncope** (fainting): stop the draw, remove the tourniquet and needle, lower the patient's head or help them lie down, and call for help.\n- Sharp, shooting pain or tingling suggests nerve contact: remove the needle immediately.\n\n**Emergencies** require recognizing and escalating. For an unresponsive adult who is not breathing normally, call for help and the code team, start chest compressions at 100 to 120 per minute and at least 2 inches deep, and use an AED as soon as it arrives. Sudden face drooping, arm weakness or slurred speech suggests a **stroke**; note the time symptoms started and notify the nurse immediately, since treatment depends on timing.\n\nThe most common mistake students make is memorizing the order of draw by color without understanding why. Remember that EDTA in lavender tubes binds calcium and contains potassium, so if it contaminates a later tube, calcium can read falsely low and potassium falsely high. That is why lavender comes after the serum and heparin tubes.",
+    "examples": [
+      "A PCT drawing coagulation studies with a butterfly needle fills a discard tube before the light-blue tube so the citrate-to-blood ratio stays accurate.",
+      "A patient becomes pale and sweaty mid-draw; the PCT removes the tourniquet and needle, applies pressure, lowers the patient's head and calls for the nurse.",
+      "A PCT labels tubes at the bedside after confirming the patient's name and date of birth, instead of labeling at the nurses' station."
+    ],
+    "questions": [
+      {
+        "stem": "A PCT must draw a lavender, a light blue and a gold tube. What is the correct order?",
+        "choices": [
+          "Lavender, gold, light blue",
+          "Gold, light blue, lavender",
+          "Light blue, gold, lavender",
+          "Light blue, lavender, gold"
+        ],
+        "answer": 2,
+        "explanation": "Under CLSI order of draw, citrate (light blue) precedes serum (gold), and EDTA (lavender) comes later. Drawing lavender early could carry EDTA into the serum tube, falsely raising potassium and lowering calcium."
+      },
+      {
+        "stem": "A tourniquet was left on for three minutes while the PCT searched for a vein. Which effect is most likely?",
+        "choices": [
+          "Hemoconcentration that can falsely raise some test values",
+          "Falsely low glucose",
+          "Clotting of the EDTA tube",
+          "No effect if the draw is successful"
+        ],
+        "answer": 0,
+        "explanation": "Prolonged tourniquet time causes hemoconcentration, raising values like protein and potassium. Successful needle entry does not undo the effect."
+      },
+      {
+        "stem": "Midway through a blood draw, the patient says he feels faint and looks pale. What should the PCT do first?",
+        "choices": [
+          "Finish filling the tube quickly",
+          "Remove the tourniquet and needle and help lower the patient's head",
+          "Give the patient juice and continue",
+          "Ask the patient to stand and walk it off"
+        ],
+        "answer": 1,
+        "explanation": "Stopping the procedure and positioning the patient protects against injury from fainting. Continuing the draw risks needle injury if the patient loses consciousness."
+      },
+      {
+        "stem": "Why is a discard tube drawn before a light-blue tube when using a butterfly set?",
+        "choices": [
+          "To remove skin bacteria",
+          "To fill the tubing's air space so the tube fills to the correct ratio",
+          "To warm the blood",
+          "To prevent hemolysis in later tubes"
+        ],
+        "answer": 1,
+        "explanation": "Butterfly tubing contains air that would underfill the citrate tube and distort the blood-to-anticoagulant ratio. Removing skin bacteria is the reason blood cultures come first, not the reason for a discard tube."
+      },
+      {
+        "stem": "A potassium result comes back very high on a sample that was drawn through a small needle and shaken vigorously. What is the most likely explanation?",
+        "choices": [
+          "Kidney failure",
+          "Hemolysis of the specimen",
+          "Too much alcohol on the skin",
+          "Wrong patient identifiers"
+        ],
+        "answer": 1,
+        "explanation": "Rupturing red cells release potassium, so hemolysis can falsely elevate it. Kidney disease could raise potassium too, but the technique described points to a collection error that should be reported."
+      },
+      {
+        "stem": "During a draw, a patient reports a sudden shooting, electric pain down the arm. What should the PCT do?",
+        "choices": [
+          "Redirect the needle deeper",
+          "Remove the needle immediately and notify the nurse",
+          "Ask the patient to hold still for 30 seconds",
+          "Tighten the tourniquet"
+        ],
+        "answer": 1,
+        "explanation": "Shooting or electric pain suggests nerve contact, so the needle must come out immediately. Probing or redirecting can worsen nerve injury."
+      },
+      {
+        "stem": "A PCT finds an adult patient unresponsive and not breathing normally. After calling for help, what should the PCT do next?",
+        "choices": [
+          "Check blood pressure",
+          "Begin chest compressions at 100 to 120 per minute",
+          "Take the patient's temperature",
+          "Wait for the nurse to arrive"
+        ],
+        "answer": 1,
+        "explanation": "Immediate high-quality compressions are the priority for cardiac arrest, followed by an AED as soon as it arrives. Measuring vital signs delays life-saving CPR."
+      },
+      {
+        "stem": "A patient suddenly has slurred speech and a drooping face while being bathed. What information is most important to give the nurse?",
+        "choices": [
+          "The patient's last meal",
+          "The time the symptoms started",
+          "The patient's bath water temperature",
+          "The patient's preferred name"
+        ],
+        "answer": 1,
+        "explanation": "Stroke treatment options depend on the time of symptom onset, so it must be noted and reported immediately. The other details do not affect urgent stroke decisions."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Order of draw",
+        "definition": "The CLSI tube sequence: blood cultures, light blue, red/gold, green, lavender, gray, used to prevent additive carryover."
+      },
+      {
+        "term": "Hemoconcentration",
+        "definition": "An increase in concentration of blood components caused by leaving a tourniquet on too long, falsely raising some results."
+      },
+      {
+        "term": "Hemolysis",
+        "definition": "Rupture of red blood cells in a specimen, which can falsely raise potassium and invalidate results."
+      },
+      {
+        "term": "Discard tube",
+        "definition": "A tube drawn first with a butterfly set before a light-blue tube to clear air from the tubing."
+      },
+      {
+        "term": "Syncope",
+        "definition": "A temporary loss of consciousness (fainting) that requires stopping the procedure and protecting the patient."
+      }
+    ]
+  }
+]

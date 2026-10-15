@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Marketing research and information management",
+    "objective": "Plan a research project, choose the right data and method, and interpret results without falling for bias.",
+    "body": "Marketing decisions are only as good as the information behind them. Exam questions in this area ask which data source fits a problem, which method answers a question and what a result actually means.\n\n**The marketing-information system (MkIS).** A business gathers data continuously from *internal records* (sales by product, purchase histories, loyalty-program data), *marketing intelligence* (tracking competitors and trends) and formal *research projects*. A good system turns raw data into information managers can act on, and it protects customer data with clear privacy practices.\n\n**The research process.**\n1. Define the problem or question precisely.\n2. Look for secondary data first.\n3. Collect primary data if gaps remain.\n4. Analyze and interpret the data.\n5. Recommend actions and follow up on results.\n\n*Secondary data* already exists because someone collected it for another purpose: census figures, trade-association reports, last year's sales. It is fast and cheap but may be outdated or too general. *Primary data* is collected for the current problem through surveys, observation, focus groups, interviews or experiments. It is specific and current but costs more time and money.\n\n**Qualitative vs. quantitative.** *Qualitative* research, such as focus groups and in-depth interviews, explores the \"why\" behind attitudes with small samples. *Quantitative* research, such as structured surveys, experiments and sales tracking, produces numbers that can be measured and generalized. An *experiment* changes one variable, such as price or an ad version, while holding the others constant. An A/B test of two email subject lines is a simple experiment.\n\n**Sampling and bias.** In a *probability sample* (simple random, stratified, systematic) every member of the population has a known chance of selection, so results can be generalized. A *convenience sample* is cheap but risky. Watch for *leading questions* that push an answer, *double-barreled questions* that ask two things at once and *nonresponse bias*, which occurs when the people who answer differ from those who don't.\n\n**Reading the numbers.** Know the *mean* (average), *median* (middle value) and *mode* (most common value). The median resists extreme values, which matters with incomes, prices and spending. Always report the sample size so readers can judge reliability.\n\n**Common mistake:** jumping straight to an expensive survey. Test writers and judges expect you to check existing secondary data first because it is faster and cheaper.",
+    "examples": [
+      "A store emails half its list a \"15% off\" subject line and the other half \"Free shipping,\" then compares open rates: an A/B test, which is a simple experiment.",
+      "Survey scores of 2, 4, 4, 5 and 10 have a mean of 25 ÷ 5 = 5, a median of 4 and a mode of 4.",
+      "Before paying for a survey, a juice bar reviews free census data on the ages and incomes of nearby households: secondary research comes first."
+    ],
+    "questions": [
+      {
+        "stem": "A restaurant owner wants to understand why lunch traffic fell. She starts by reviewing her own point-of-sale records and a report published by the local business association. What type of data is she using?",
+        "choices": [
+          "Primary data",
+          "Experimental data",
+          "Secondary data",
+          "Focus-group data"
+        ],
+        "answer": 2,
+        "explanation": "Both sources already existed and were collected for other purposes, so they are secondary data. Primary data would be collected specifically for this question."
+      },
+      {
+        "stem": "Which survey question is double-barreled?",
+        "choices": [
+          "How many times did you visit our store last month?",
+          "How satisfied are you with our prices and our staff?",
+          "Which flavor did you buy most recently?",
+          "How likely are you to recommend us to a friend?"
+        ],
+        "answer": 1,
+        "explanation": "It asks about two things (prices and staff) in one question, so a single answer can't show which one the respondent means."
+      },
+      {
+        "stem": "Seven customers report spending $8, $10, $10, $12, $14, $15 and $71 on a visit. Which measure best describes a typical customer's spending, and what is its value?",
+        "choices": [
+          "Mean, $20",
+          "Mode, $10",
+          "Mean, $12",
+          "Median, $12"
+        ],
+        "answer": 3,
+        "explanation": "The $71 outlier pulls the mean up to $140 ÷ 7 = $20. The median, the middle of the seven sorted values, is $12 and better represents a typical customer."
+      },
+      {
+        "stem": "A researcher divides a school's students by grade level and then randomly selects 50 students from each grade. Which sampling method is this?",
+        "choices": [
+          "Stratified random sampling",
+          "Convenience sampling",
+          "Quota sampling",
+          "Systematic sampling"
+        ],
+        "answer": 0,
+        "explanation": "Stratified sampling splits the population into groups and draws a random sample from each. Quota sampling also uses groups but fills them without random selection."
+      },
+      {
+        "stem": "A cosmetics brand wants to understand the feelings teens connect with its packaging before it writes a large survey. Which method fits best?",
+        "choices": [
+          "A nationwide structured survey",
+          "A focus group",
+          "A review of last year's sales data",
+          "A price experiment in ten stores"
+        ],
+        "answer": 1,
+        "explanation": "Focus groups are qualitative and explore attitudes and emotions in depth, which helps shape the questions for a later quantitative survey."
+      },
+      {
+        "stem": "A bakery wants to know whether a $0.50 price cut will raise muffin sales. It cuts the price in one store, keeps it unchanged in a similar store and compares sales for four weeks. Which research method is this?",
+        "choices": [
+          "Observation",
+          "Survey",
+          "Experiment",
+          "Secondary research"
+        ],
+        "answer": 2,
+        "explanation": "An experiment changes one variable (price) while keeping other conditions similar, then measures the effect on an outcome (sales)."
+      },
+      {
+        "stem": "An online satisfaction survey is answered mostly by customers who had very bad experiences, while satisfied customers ignore it. Which problem is most likely?",
+        "choices": [
+          "A leading question",
+          "A double-barreled question",
+          "Too small a population",
+          "Nonresponse bias"
+        ],
+        "answer": 3,
+        "explanation": "When the people who respond differ systematically from those who don't, results are skewed by nonresponse bias. The problem is who answered, not how the questions were worded."
+      },
+      {
+        "stem": "A marketing manager has clearly defined the research problem. What should normally come next in the research process?",
+        "choices": [
+          "Search for existing secondary data",
+          "Design a questionnaire for primary research",
+          "Present recommendations to executives",
+          "Analyze the primary data"
+        ],
+        "answer": 0,
+        "explanation": "After defining the problem, researchers check secondary data because it is faster and cheaper. Primary research fills only the gaps that remain."
+      },
+      {
+        "stem": "A company mails 1,600 surveys and receives 280 completed responses. What is the response rate?",
+        "choices": [
+          "28%",
+          "17.5%",
+          "5.7%",
+          "16%"
+        ],
+        "answer": 1,
+        "explanation": "Response rate = completed responses ÷ surveys sent = 280 ÷ 1,600 = 0.175, or 17.5%."
+      },
+      {
+        "stem": "A grocery chain uses loyalty-card purchase histories to send baby-product coupons to shoppers who recently started buying diapers. Which source of marketing information is it using?",
+        "choices": [
+          "Marketing intelligence about competitors",
+          "A focus group",
+          "Internal customer records",
+          "Government census data"
+        ],
+        "answer": 2,
+        "explanation": "Loyalty-card data is part of the company's own internal records within its marketing-information system."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Primary data",
+        "definition": "Information collected first-hand for the current research problem, such as surveys, observation or experiments."
+      },
+      {
+        "term": "Secondary data",
+        "definition": "Information that already exists because it was collected for another purpose, such as census data or past sales reports."
+      },
+      {
+        "term": "Qualitative research",
+        "definition": "Research that explores attitudes, motives and feelings in depth, usually with small groups or interviews."
+      },
+      {
+        "term": "Probability sample",
+        "definition": "A sample in which every member of the population has a known chance of being chosen, so results can be generalized."
+      },
+      {
+        "term": "Nonresponse bias",
+        "definition": "Distortion that occurs when the people who answer a survey differ in important ways from those who don't."
+      },
+      {
+        "term": "A/B test",
+        "definition": "An experiment that shows two versions of a message or page to similar groups and compares their results."
+      }
+    ]
+  }
+]

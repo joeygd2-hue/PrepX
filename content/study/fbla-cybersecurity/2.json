@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Network Security, Cryptography, and Access Control Essentials",
+    "objective": "Apply cryptographic concepts and network security controls to design an access-control strategy that protects data in transit and at rest.",
+    "body": "Protecting data requires understanding both how it moves across networks and how it is stored. **Cryptography** is the science of encoding information so that only authorized parties can read it. The two principal cryptographic models are **symmetric encryption** and **asymmetric encryption**. In symmetric encryption, the same key is used to both encrypt and decrypt data; **AES (Advanced Encryption Standard)** is the dominant symmetric algorithm. Its main challenge is **key distribution**—how do two parties securely share a secret key? Asymmetric encryption solves this with a **key pair**: a **public key** anyone can use to encrypt a message, and a **private key** only the owner holds to decrypt it. **RSA** and **Elliptic Curve Cryptography (ECC)** are widely used asymmetric algorithms. **TLS (Transport Layer Security)** combines both: asymmetric encryption is used to securely exchange a symmetric session key, then symmetric encryption handles the bulk data transfer for efficiency.\n\nA **hash function** converts data of any size into a fixed-length **digest** (fingerprint). Hashes are one-way: you cannot reverse a hash to get the original data. They are used to verify file integrity and store passwords. **SHA-256** is the current standard. A weakness called a **collision** occurs when two different inputs produce the same hash; modern algorithms are designed to make collisions computationally infeasible.\n\nOn the network layer, several controls protect traffic and segment resources:\n\n- **Firewalls** filter traffic based on rules (IP address, port, protocol). A **stateful firewall** tracks the state of connections and is more intelligent than a simple packet filter.\n- **Intrusion Detection Systems (IDS)** monitor traffic and alert on suspicious patterns; **Intrusion Prevention Systems (IPS)** can also block threats automatically.\n- A **DMZ (Demilitarized Zone)** is a network segment that sits between the public internet and the internal network, hosting public-facing servers (web, email) to limit exposure of internal systems.\n- A **VPN (Virtual Private Network)** creates an encrypted tunnel over a public network, allowing remote workers to access internal resources securely.\n\n**Access control** determines who can use which resources. The three main models are **DAC (Discretionary Access Control)**, where owners grant permissions; **MAC (Mandatory Access Control)**, where a central authority enforces policies based on classification labels; and **RBAC (Role-Based Access Control)**, where permissions are assigned to roles and users inherit them by role membership. The **principle of least privilege** states that users should be granted only the minimum access needed for their job. **Multi-factor authentication (MFA)** strengthens identity verification by requiring at least two of the three factors: something you **know** (password), something you **have** (token), and something you **are** (biometric).",
+    "examples": [
+      "When you visit a bank website and see the padlock icon, TLS is active: your browser used the bank's public key to negotiate a shared session key, and all subsequent traffic is symmetrically encrypted with AES.",
+      "A hospital assigns nurses the 'Nursing Staff' role in its EHR system; that role can view patient charts but not prescribe medication—this is RBAC ensuring least privilege across hundreds of employees.",
+      "A file downloaded from the internet is checked against a published SHA-256 hash; if even one bit was altered during download or by malware, the computed hash will not match, revealing tampering."
+    ],
+    "questions": [
+      {
+        "stem": "A user encrypts a file with a recipient's public key. Which key must the recipient use to decrypt the file?",
+        "choices": [
+          "The same public key used to encrypt it",
+          "The sender's private key",
+          "The recipient's private key",
+          "A shared symmetric session key"
+        ],
+        "answer": 2,
+        "explanation": "In asymmetric cryptography, a message encrypted with a recipient's public key can only be decrypted with the corresponding private key, which only the recipient holds. The public key cannot decrypt what it encrypted."
+      },
+      {
+        "stem": "Which cryptographic primitive would BEST be used to verify that a downloaded software file has not been modified?",
+        "choices": [
+          "RSA encryption",
+          "Symmetric key encryption",
+          "Cryptographic hash function",
+          "Digital certificate"
+        ],
+        "answer": 2,
+        "explanation": "A hash function produces a fixed-length digest; any alteration to the file changes the digest, making it easy to detect tampering. Encryption conceals content but is not designed for integrity verification alone."
+      },
+      {
+        "stem": "An organization hosts its public website on a server isolated from its internal network. Which network architecture concept does this describe?",
+        "choices": [
+          "VPN tunnel",
+          "Demilitarized Zone (DMZ)",
+          "Network Address Translation (NAT)",
+          "Zero trust network"
+        ],
+        "answer": 1,
+        "explanation": "A DMZ places public-facing servers in a buffer zone between the internet and the internal network, limiting attackers' ability to reach sensitive internal systems. A VPN creates encrypted remote-access tunnels, not server isolation."
+      },
+      {
+        "stem": "A company requires employees to enter a password AND approve a push notification on their phone before logging in. This is an example of what?",
+        "choices": [
+          "Single sign-on (SSO)",
+          "Multi-factor authentication (MFA)",
+          "Role-based access control (RBAC)",
+          "Certificate-based authentication"
+        ],
+        "answer": 1,
+        "explanation": "MFA combines two or more factors from different categories (know/have/are). Here, the password is 'something you know' and the phone approval is 'something you have.' SSO is about logging into multiple systems with one credential."
+      },
+      {
+        "stem": "Which access control model assigns permissions to job functions rather than directly to individual users?",
+        "choices": [
+          "Discretionary Access Control (DAC)",
+          "Mandatory Access Control (MAC)",
+          "Role-Based Access Control (RBAC)",
+          "Attribute-Based Access Control (ABAC)"
+        ],
+        "answer": 2,
+        "explanation": "RBAC groups permissions into roles that reflect job functions; users inherit permissions by being assigned to a role. DAC lets resource owners grant permissions individually, which is harder to manage at scale."
+      },
+      {
+        "stem": "AES is classified as which type of encryption algorithm?",
+        "choices": [
+          "Asymmetric",
+          "Hashing",
+          "Symmetric",
+          "Elliptic curve"
+        ],
+        "answer": 2,
+        "explanation": "AES uses the same key for both encryption and decryption, making it symmetric. Asymmetric algorithms like RSA use a key pair (public and private)."
+      },
+      {
+        "stem": "A firewall that tracks the full state of active connections and makes filtering decisions based on that context is called what?",
+        "choices": [
+          "Packet-filtering firewall",
+          "Stateful inspection firewall",
+          "Application-layer firewall",
+          "Proxy firewall"
+        ],
+        "answer": 1,
+        "explanation": "A stateful inspection firewall maintains a connection state table and can distinguish legitimate return traffic from unsolicited packets. A simple packet-filtering firewall evaluates each packet in isolation without tracking session state."
+      },
+      {
+        "stem": "Which principle dictates that a junior accountant should only have read access to files relevant to their assigned clients, not the entire finance directory?",
+        "choices": [
+          "Separation of duties",
+          "Job rotation",
+          "Principle of least privilege",
+          "Defense in depth"
+        ],
+        "answer": 2,
+        "explanation": "Least privilege limits each user's access to the minimum necessary to perform their job, reducing the damage a compromised or malicious account can cause. Job rotation moves employees between roles and does not limit access."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Asymmetric Encryption",
+        "definition": "A cryptographic method using a mathematically related key pair—a public key to encrypt and a private key to decrypt—eliminating the need to share a secret key beforehand."
+      },
+      {
+        "term": "Hash Function",
+        "definition": "A one-way mathematical algorithm that converts input data of any size into a fixed-length digest used to verify data integrity."
+      },
+      {
+        "term": "DMZ (Demilitarized Zone)",
+        "definition": "A network segment between the public internet and the internal network that hosts public-facing servers, limiting direct attacker access to internal systems."
+      },
+      {
+        "term": "Principle of Least Privilege",
+        "definition": "The security policy that users, systems, and processes should be granted only the minimum access permissions required to perform their authorized functions."
+      },
+      {
+        "term": "Multi-Factor Authentication (MFA)",
+        "definition": "An identity verification method requiring at least two independent factors from the categories of something you know, something you have, and something you are."
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Hospitality and tourism industry foundations",
+    "objective": "Classify hospitality and tourism businesses and explain how the unique traits of services shape management decisions.",
+    "body": "Hospitality and tourism exams expect you to speak the industry's language, and role-play judges notice when you know exactly what kind of business you are advising. Start with how the industry is organized and why selling services is different from selling products.\n\n**Industry segments.** The industry is usually grouped into lodging (hotels, resorts, campgrounds), food and beverage (restaurants, catering, bars), travel and transportation (airlines, cruise lines, rail, car rental), recreation and attractions (theme parks, museums, sporting venues) and meetings and events. Many travelers use all five on a single trip.\n\n**The four characteristics of services.**\n- *Intangibility*: guests cannot touch or test a stay before buying it, so businesses use photos, videos, reviews and guarantees to reduce uncertainty.\n- *Inseparability*: the service is produced and consumed at the same time, often with the employee present, so staff behavior is part of the product.\n- *Perishability*: an unsold room night, airline seat or dinner reservation cannot be stored and sold later, which is why prices change with demand.\n- *Variability*: quality can differ by employee, day and location, so companies write service standards and train consistently.\n\n**Lodging types.** Full-service hotels offer restaurants, meeting space and room service. Limited-service hotels focus on rooms and perhaps a simple breakfast. Resorts make recreation a main attraction. Extended-stay properties offer kitchens and weekly rates. Boutique hotels are small and design-focused, and bed-and-breakfasts are small, often owner-operated inns.\n\n**Ownership and operation.** An *independent* property has no brand affiliation. In a *franchise*, the owner pays fees and royalties to use a brand's name, reservation system and standards. Under a *management contract*, the owner hires a management company to run daily operations for a fee while keeping the financial risk. One hotel can be both franchised and professionally managed.\n\n**Travel distribution and tourism types.** *Tour operators* assemble transportation, lodging and activities into packages. *Travel advisors* (travel agents) sell travel to the public. *Online travel agencies* sell many suppliers' inventory on websites, and *global distribution systems (GDS)* let agents view and book airline, hotel and car inventory in real time. Tourism is also grouped by purpose: leisure, business, MICE (meetings, incentives, conventions and exhibitions), ecotourism, and cultural and heritage tourism.\n\nA common mistake is mixing up a franchise and a management contract. A franchise is about using a brand; a management contract is about who runs the building.",
+    "examples": [
+      "At 9 p.m. a hotel still has 15 empty rooms. Because those room nights vanish at midnight (perishability), it releases a discounted last-minute rate on its app.",
+      "An investor owns a hotel that flies a national brand's flag and pays that brand royalties (franchise), but hires a separate hotel management company to run daily operations (management contract).",
+      "A tour operator bundles round-trip flights, four hotel nights and a guided canyon hike into one package, then sells it through travel advisors and its own website."
+    ],
+    "questions": [
+      {
+        "stem": "A flight departs with 12 empty seats, and the airline can never sell those seats for that flight again. Which characteristic of services does this illustrate?",
+        "choices": ["Intangibility", "Perishability", "Inseparability", "Variability"],
+        "answer": 1,
+        "explanation": "Perishability means unused service capacity cannot be stored for later sale. That is why airlines and hotels adjust prices to fill remaining inventory."
+      },
+      {
+        "stem": "A travel advisor uses one system to view and book real-time airline seats, hotel rooms and rental cars from many different suppliers. What is this system?",
+        "choices": ["Property management system", "Global distribution system", "Point-of-sale system", "Destination marketing organization"],
+        "answer": 1,
+        "explanation": "A global distribution system (GDS) links travel sellers to many suppliers' live inventory. A property management system runs a single hotel's operations."
+      },
+      {
+        "stem": "A hotel chain writes detailed check-in standards and trains every front desk agent on them so guests get the same experience at any location. Which service characteristic is the chain managing?",
+        "choices": ["Perishability", "Intangibility", "Variability", "Seasonality"],
+        "answer": 2,
+        "explanation": "Variability means service quality can differ from employee to employee and place to place. Standards and training make service more consistent."
+      },
+      {
+        "stem": "An entrepreneur pays an initial fee and ongoing royalties to operate a restaurant using a national brand's name, recipes and systems. Which arrangement is this?",
+        "choices": ["Management contract", "Franchise", "Independent ownership", "Joint venture"],
+        "answer": 1,
+        "explanation": "In a franchise, the owner pays fees and royalties for the right to use the brand and its systems. An independent restaurant has no brand affiliation."
+      },
+      {
+        "stem": "A hotel owner hires a specialized company to run daily operations for a fee, while the owner keeps the property and its profits or losses. Which arrangement is this?",
+        "choices": ["Franchise", "Management contract", "Referral group", "Timeshare"],
+        "answer": 1,
+        "explanation": "Under a management contract, an operating company manages the hotel on the owner's behalf while the owner keeps the financial risk and return."
+      },
+      {
+        "stem": "A consultant on a three-week assignment wants a room with a kitchenette and a discounted weekly rate. Which type of lodging best fits these needs?",
+        "choices": ["Resort", "Extended-stay hotel", "Boutique hotel", "Bed-and-breakfast"],
+        "answer": 1,
+        "explanation": "Extended-stay properties are designed for longer visits, with in-room kitchens and weekly pricing."
+      },
+      {
+        "stem": "Which business combines transportation, lodging and activities into a single vacation package that it sells to travelers?",
+        "choices": ["Tour operator", "Global distribution system", "Destination marketing organization", "Concierge service"],
+        "answer": 0,
+        "explanation": "Tour operators assemble and sell packaged trips. Destination marketing organizations promote a place but do not usually package and sell trips."
+      },
+      {
+        "stem": "A city's convention center hosts a four-day conference for 5,000 members of a medical association. Which tourism segment does this event represent?",
+        "choices": ["Ecotourism", "Agritourism", "Meetings, incentives, conventions and exhibitions (MICE)", "Heritage tourism"],
+        "answer": 2,
+        "explanation": "Association conferences are a core part of the MICE segment, which focuses on business-related meetings and events."
+      },
+      {
+        "stem": "Which trip best illustrates ecotourism?",
+        "choices": ["A small-group rainforest tour led by local guides that helps fund conservation", "A cruise featuring nightly casino events and shows", "A weekend shopping trip to a large outlet mall", "A theme park vacation with character dining"],
+        "answer": 0,
+        "explanation": "Ecotourism is responsible travel to natural areas that supports conservation and benefits local people."
+      },
+      {
+        "stem": "Why does a spa guest's experience depend so heavily on the therapist who performs the treatment?",
+        "choices": ["Services can be stored and checked for quality before use", "The service is produced and consumed at the same time with the provider present", "Services are identical every time they are delivered", "Guests own the service after they purchase it"],
+        "answer": 1,
+        "explanation": "Inseparability means production and consumption happen together, so the employee's skill and behavior become part of the product."
+      }
+    ],
+    "flashcards": [
+      { "term": "Perishability", "definition": "The service trait that unused capacity, like an empty room night or seat, cannot be stored and sold later." },
+      { "term": "Intangibility", "definition": "The service trait that guests cannot see, touch or test an experience before buying it." },
+      { "term": "Franchise", "definition": "An agreement in which an owner pays fees and royalties to operate under a brand's name, systems and standards." },
+      { "term": "Management contract", "definition": "An agreement in which a property owner pays an operating company to run the business's daily operations." },
+      { "term": "Global distribution system (GDS)", "definition": "A network that lets travel sellers view and book many suppliers' airline, hotel and car inventory in real time." },
+      { "term": "Tour operator", "definition": "A company that assembles transportation, lodging and activities into packages sold to travelers." }
+    ]
+  }
+]

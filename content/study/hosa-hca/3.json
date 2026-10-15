@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Legal compliance, quality improvement, and strategic decision-making",
+    "objective": "Apply HIPAA, EMTALA and other regulations to administrative scenarios, evaluate quality using improvement tools, and analyze strategic choices with SWOT and risk management.",
+    "body": "Advanced questions in this event rarely ask for a definition alone; they describe a situation and ask what an administrator should do. Success depends on linking laws, quality tools and strategy to a concrete decision.\n\n**Key laws.**\n- **HIPAA** (Health Insurance Portability and Accountability Act) includes the **Privacy Rule**, which limits use and disclosure of protected health information (PHI), and the **Security Rule**, which requires administrative, physical and technical safeguards for electronic PHI. Disclosures generally follow the **minimum necessary** standard, though treatment-related sharing between providers is permitted. Breaches affecting 500 or more people must be reported to HHS and the media without unreasonable delay and no later than 60 days after discovery.\n- **EMTALA** requires hospitals with emergency departments that participate in Medicare to provide a medical screening exam and stabilizing treatment to anyone who comes to the emergency department, regardless of ability to pay, before asking about payment in a way that delays care.\n- The **Anti-Kickback Statute** prohibits paying or receiving anything of value for referrals of federal health program business, and the **Stark Law** limits physician self-referral to entities in which the physician or a family member has a financial interest.\n\n**Accreditation and quality.** **The Joint Commission** accredits hospitals and publishes National Patient Safety Goals; accreditation can be used to show Medicare compliance. Quality improvement often uses the **PDSA cycle** (Plan-Do-Study-Act) to test small changes. A **root cause analysis** investigates a sentinel event, an unexpected event resulting in death or serious harm, by focusing on systems and processes rather than blaming individuals. Tools such as fishbone diagrams, Pareto charts and run charts help teams find causes and track progress.\n\n**Risk management.** Risk managers identify, analyze and reduce threats such as falls, medication errors and liability claims. An **incident report** documents an unusual event for internal review; it is not placed in the patient's medical record.\n\n**Strategic planning.** A **SWOT analysis** sorts internal **strengths** and **weaknesses** from external **opportunities** and **threats**. A new competitor opening an urgent care nearby is a threat; an outdated scheduling system is a weakness. Administrators then choose strategies, such as partnering, expanding services or adopting telehealth, that use strengths to capture opportunities.\n\nThe most common mistake students make is placing items in the wrong SWOT quadrant. Ask one question: does the organization control it? If yes, it is a strength or weakness; if it comes from the outside environment, it is an opportunity or threat.",
+    "examples": [
+      "An uninsured man with chest pain walks into an ED; under EMTALA, staff must perform a medical screening exam and stabilize him before any discussion of payment that would delay care.",
+      "After a wrong-site surgery, a hospital's root cause analysis finds that the surgical time-out was routinely rushed, and it redesigns the process instead of only disciplining the surgeon.",
+      "A rural hospital lists its loyal community reputation as a strength and a new state telehealth reimbursement rule as an opportunity."
+    ],
+    "questions": [
+      {
+        "stem": "An uninsured patient arrives at a hospital emergency department with severe abdominal pain. The registration clerk wants to transfer him to a county hospital before evaluation because he cannot pay. What does federal law require?",
+        "choices": [
+          "Transfer him immediately, since the county hospital serves uninsured patients",
+          "Collect a deposit before any evaluation",
+          "Provide a medical screening exam and stabilizing treatment first",
+          "Refer him to a primary care clinic for the next available appointment"
+        ],
+        "answer": 2,
+        "explanation": "EMTALA requires a medical screening exam and stabilization regardless of ability to pay. Transferring him first is the tempting wrong choice; an unstable patient may be transferred only under strict EMTALA conditions, never for financial reasons."
+      },
+      {
+        "stem": "A hospital laptop containing unencrypted records of 1,200 patients is stolen. Under HIPAA breach rules, what must the hospital do?",
+        "choices": [
+          "Notify affected individuals, HHS and the media within 60 days of discovery",
+          "Report the breach only in its annual summary to HHS",
+          "Notify only the patients who request information",
+          "Take no action because the theft was a crime by an outside party"
+        ],
+        "answer": 0,
+        "explanation": "Breaches affecting 500 or more individuals require notice to individuals, HHS and prominent media no later than 60 days after discovery. The annual summary option applies only to breaches affecting fewer than 500 people."
+      },
+      {
+        "stem": "A medical equipment company offers a physician a vacation for every 20 Medicare patients she refers for its products. Which law does this most directly violate?",
+        "choices": [
+          "EMTALA",
+          "HIPAA Security Rule",
+          "Anti-Kickback Statute",
+          "Americans with Disabilities Act"
+        ],
+        "answer": 2,
+        "explanation": "Offering anything of value in exchange for federal program referrals violates the Anti-Kickback Statute. Stark is not listed, and HIPAA is wrong because no patient information is being disclosed."
+      },
+      {
+        "stem": "A hospital's strategic team notes that a large competitor plans to open an outpatient surgery center two miles away. In a SWOT analysis, this is a(n):",
+        "choices": [
+          "Weakness",
+          "Threat",
+          "Opportunity",
+          "Strength"
+        ],
+        "answer": 1,
+        "explanation": "A competitor's action comes from the external environment and could harm the hospital, so it is a threat. Weakness is the main distractor, but weaknesses are internal factors the organization controls."
+      },
+      {
+        "stem": "After a patient dies from a medication error, leadership wants to understand how the error happened and prevent recurrence. What is the most appropriate approach?",
+        "choices": [
+          "Terminate the nurse who gave the medication and close the case",
+          "Conduct a root cause analysis focused on systems and processes",
+          "Record the event only in the patient's medical record",
+          "Wait for a lawsuit before investigating"
+        ],
+        "answer": 1,
+        "explanation": "A sentinel event calls for a root cause analysis that examines systems, not just individuals. Firing the nurse is tempting, but it ignores process failures that would let the error happen again."
+      },
+      {
+        "stem": "A clinic team tests a new check-in process for two weeks at one front desk, measures wait times, and then decides whether to expand it. Which quality improvement model are they using?",
+        "choices": [
+          "SWOT analysis",
+          "Root cause analysis",
+          "Pareto analysis",
+          "PDSA cycle"
+        ],
+        "answer": 3,
+        "explanation": "Plan-Do-Study-Act tests small changes, studies results and acts on them. Root cause analysis is wrong because it investigates why an adverse event occurred rather than testing a change."
+      },
+      {
+        "stem": "A nurse completes an incident report after a patient slips in the bathroom without injury. Where should the incident report be kept?",
+        "choices": [
+          "In the hospital's risk management files, separate from the medical record",
+          "In the patient's medical record",
+          "In the nurse's personnel file",
+          "With the patient's insurance claim"
+        ],
+        "answer": 0,
+        "explanation": "Incident reports are internal quality and risk documents kept separate from the chart. Filing it in the medical record is the common error; the chart should document the facts of the fall and the care given, not the report itself."
+      },
+      {
+        "stem": "A billing clerk asks to view a patient's entire medical record to process one outpatient lab claim. Which HIPAA principle should the privacy officer apply?",
+        "choices": [
+          "Patient right of access",
+          "Treatment exception",
+          "Minimum necessary standard",
+          "Business associate agreement"
+        ],
+        "answer": 2,
+        "explanation": "For payment and operations, staff should access only the minimum information necessary to do the job. The treatment exception is wrong because a billing clerk is not providing treatment."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "EMTALA",
+        "definition": "A federal law requiring Medicare-participating hospitals with emergency departments to screen and stabilize anyone with an emergency condition regardless of ability to pay."
+      },
+      {
+        "term": "Minimum necessary standard",
+        "definition": "The HIPAA principle that uses and disclosures of PHI for non-treatment purposes should be limited to what is needed for the task."
+      },
+      {
+        "term": "Root cause analysis",
+        "definition": "A structured investigation of a sentinel event that identifies underlying system and process causes."
+      },
+      {
+        "term": "PDSA cycle",
+        "definition": "A quality improvement model, Plan-Do-Study-Act, used to test small changes and learn from results."
+      },
+      {
+        "term": "SWOT analysis",
+        "definition": "A strategic planning tool that sorts internal strengths and weaknesses from external opportunities and threats."
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Chemistry 2e",
+    "url": "https://openstax.org/details/books/chemistry-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free general chemistry text for bonding, thermodynamics, kinetics, equilibrium and acids and bases."
+  },
+  {
+    "title": "Biology 2e",
+    "url": "https://openstax.org/details/books/biology-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Chapters on macromolecules, enzymes, cellular respiration and photosynthesis cover core biochemistry."
+  },
+  {
+    "title": "Organic Chemistry",
+    "url": "https://openstax.org/details/books/organic-chemistry",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Functional groups and reaction mechanisms behind amino acids, lipids and carbohydrates."
+  }
+]

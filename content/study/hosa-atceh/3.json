@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Risk assessment, outbreak investigation, and environmental justice",
+    "objective": "Evaluate environmental health problems using the four-step risk assessment, the hierarchy of controls and outbreak investigation methods, and analyze equity concerns.",
+    "body": "Advanced environmental health questions ask you to move from naming a hazard to deciding what to do about it. That requires a structured way to estimate risk, a ranked set of solutions and an eye for who carries the burden.\n\n**Risk assessment.** Agencies such as the EPA use a four-step **risk assessment** process:\n1. **Hazard identification**: Can this agent cause harm, and what kind?\n2. **Dose-response assessment**: How does the likelihood or severity of harm change with dose?\n3. **Exposure assessment**: Who is exposed, by what route, how much and for how long?\n4. **Risk characterization**: Combining the first three steps into an overall estimate of risk, including its uncertainty.\n\nRisk assessment is science-based. **Risk management** comes afterward and decides what action to take, weighing cost, feasibility, law and public values. **Risk communication** explains the findings to the public honestly and clearly.\n\n**Hierarchy of controls.** When a hazard must be reduced, the **hierarchy of controls** ranks options from most to least effective:\n- **Elimination**: remove the hazard entirely.\n- **Substitution**: replace it with something less hazardous.\n- **Engineering controls**: isolate people from the hazard, such as ventilation or machine guards.\n- **Administrative controls**: change how people work, such as training or shorter shifts.\n- **Personal protective equipment (PPE)**: respirators, gloves and earplugs, which depend on correct use every time.\n\n**Outbreak investigation.** When illnesses cluster, investigators use epidemiology. They confirm the diagnosis and that cases exceed expected levels, write a **case definition**, find and count cases, and describe them by person, place and time. An **epidemic curve** graphs cases by date of onset; a sharp peak suggests a **point source** such as one contaminated meal, while cases spread out over a long period suggest a continuing or person-to-person source. Investigators then form and test hypotheses, often by comparing **attack rates** between people who did and did not eat a food, and put controls in place.\n\n**Environmental justice.** **Environmental justice** is the fair treatment and meaningful involvement of all people in environmental decisions regardless of race, income or national origin. Low-income communities and communities of color have historically been more likely to live near highways, landfills and industrial sites, increasing their exposure and health burden. Climate change adds new risks, including more frequent heat waves, wildfire smoke and expanded ranges for disease-carrying ticks and mosquitoes, which also fall hardest on vulnerable groups.\n\nThe most common mistake students make is jumping straight to PPE as the answer. PPE is the least effective control because it protects only the wearer and fails when used incorrectly; tests usually reward choosing elimination, substitution or engineering controls when they are feasible.",
+    "examples": [
+      "A school replaces a solvent-based floor cleaner with a less toxic water-based product, which is substitution in the hierarchy of controls.",
+      "After a wedding banquet, 40 of 120 guests develop vomiting within a 12-hour window, and the sharp epidemic curve points investigators toward a single contaminated dish.",
+      "A community group maps asthma hospitalizations and finds the highest rates in neighborhoods next to a truck-heavy freight corridor, raising an environmental justice concern."
+    ],
+    "questions": [
+      {
+        "stem": "Scientists measure how much of a solvent residents near a factory breathe each day and for how many years. Which risk assessment step is this?",
+        "choices": [
+          "Hazard identification",
+          "Exposure assessment",
+          "Risk characterization",
+          "Dose-response assessment"
+        ],
+        "answer": 1,
+        "explanation": "Estimating who is exposed, how much and for how long is exposure assessment. Dose-response assessment instead asks how effects change with dose, usually from toxicology studies."
+      },
+      {
+        "stem": "A city council debates whether to spend money removing lead service lines after a report estimates the health risk. This decision is part of:",
+        "choices": [
+          "Risk management",
+          "Hazard identification",
+          "Exposure assessment",
+          "Dose-response assessment"
+        ],
+        "answer": 0,
+        "explanation": "Deciding what action to take, considering cost and values, is risk management. The four assessment steps produce the estimate the council is now using; they do not make the policy decision."
+      },
+      {
+        "stem": "A woodshop has high sawdust levels. Which control is most effective among those listed?",
+        "choices": [
+          "Requiring workers to wear dust masks",
+          "Posting warning signs",
+          "Installing local exhaust ventilation at each saw",
+          "Training workers to sweep often"
+        ],
+        "answer": 2,
+        "explanation": "Local exhaust ventilation is an engineering control, which ranks above administrative controls and PPE. Dust masks are PPE, the least effective level because they rely on consistent, correct use."
+      },
+      {
+        "stem": "An epidemic curve for a gastrointestinal outbreak shows cases rising and falling sharply within one day. What does this pattern most suggest?",
+        "choices": [
+          "A person-to-person spread over weeks",
+          "A chronic chemical exposure",
+          "A vector-borne disease",
+          "A point source exposure, such as a single contaminated meal"
+        ],
+        "answer": 3,
+        "explanation": "A sharp, single peak indicates many people were exposed at about the same time from one source. Person-to-person spread produces cases spread out in successive waves."
+      },
+      {
+        "stem": "Among picnic attendees, 60% of those who ate egg salad became ill compared with 8% of those who did not. What does this comparison of attack rates suggest?",
+        "choices": [
+          "Egg salad is a likely source of the outbreak",
+          "Egg salad protected people from illness",
+          "The outbreak was caused by the weather",
+          "No food can be implicated"
+        ],
+        "answer": 0,
+        "explanation": "A much higher attack rate among those who ate a food points to that food as the likely source. The data show the opposite of protection, since eaters became ill far more often."
+      },
+      {
+        "stem": "Before counting cases in an outbreak, investigators agree on standard criteria for who counts as a case, including symptoms, time and place. What is this called?",
+        "choices": [
+          "Epidemic curve",
+          "Attack rate",
+          "Case definition",
+          "Risk characterization"
+        ],
+        "answer": 2,
+        "explanation": "A case definition sets the criteria for counting cases consistently. An epidemic curve is a graph made after cases are identified."
+      },
+      {
+        "stem": "A state plans a new waste incinerator and proposes three sites, all in low-income neighborhoods that already host two landfills. Which concept is most directly raised?",
+        "choices": [
+          "Substitution",
+          "Environmental justice",
+          "Point source outbreak",
+          "Threshold"
+        ],
+        "answer": 1,
+        "explanation": "Concentrating additional pollution sources in already burdened low-income communities is an environmental justice issue. Substitution is a hazard control, not a fairness principle."
+      },
+      {
+        "stem": "Which change in the hierarchy of controls is an example of elimination?",
+        "choices": [
+          "Giving workers respirators for asbestos removal",
+          "Rotating workers so each spends less time near asbestos",
+          "Enclosing asbestos behind sealed panels",
+          "Completely removing asbestos-containing materials from a building by licensed abatement"
+        ],
+        "answer": 3,
+        "explanation": "Fully removing the hazard from the building is elimination. Sealing it behind panels is an engineering control because the hazard remains in place."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Risk assessment",
+        "definition": "A four-step scientific process: hazard identification, dose-response assessment, exposure assessment and risk characterization."
+      },
+      {
+        "term": "Risk management",
+        "definition": "Deciding what action to take on an assessed risk, weighing cost, feasibility, law and public values."
+      },
+      {
+        "term": "Hierarchy of controls",
+        "definition": "A ranking of hazard controls from most to least effective: elimination, substitution, engineering, administrative, PPE."
+      },
+      {
+        "term": "Epidemic curve",
+        "definition": "A graph of outbreak cases by date of onset that helps reveal the type of source."
+      },
+      {
+        "term": "Environmental justice",
+        "definition": "Fair treatment and meaningful involvement of all people in environmental decisions regardless of race, income or national origin."
+      }
+    ]
+  }
+]

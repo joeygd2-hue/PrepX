@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Workplace Software and Skills",
+    "url": "https://openstax.org/books/workplace-software-skills/pages/preface",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free textbook on Word, Excel and PowerPoint plus Google Docs, Sheets and Slides; mirrors the production tasks."
+  },
+  {
+    "title": "Excel Tutorials",
+    "url": "https://edu.gcfglobal.org/en/excel/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Step-by-step Excel lessons on formulas, functions, formatting and charts to practice for the production test."
+  },
+  {
+    "title": "GCFGlobal LearnFree",
+    "url": "https://edu.gcfglobal.org/en/",
+    "publisher": "GCFGlobal",
+    "kind": "course",
+    "note": "Free tutorials for Word, PowerPoint and other office apps; use them to drill formatting and document skills."
+  }
+]

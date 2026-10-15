@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Clear, persuasive writing and timed essays",
+    "objective": "Write concise, well-organized and persuasive prose, edit it efficiently, and manage time on an on-site writing prompt.",
+    "body": "Whether you have three months to polish a business plan or one hour to answer an on-site prompt, judges reward the same qualities: a clear main point, logical organization, convincing support and clean mechanics. Good writing is not about sounding impressive; it is about making the reader's job easy.\n\n**Lead with the point.** State your thesis or recommendation early, then begin each paragraph with a topic sentence that supports it. A judge who skims only the first sentence of each paragraph should still be able to follow your argument.\n\n**Write concisely and actively.** Prefer active voice (\"The committee approved the budget\") over passive voice (\"The budget was approved by the committee\") unless the person acting truly does not matter. Cut filler: \"due to the fact that\" becomes \"because,\" and \"at this point in time\" becomes \"now.\" Replace vague words like \"many\" or \"a lot\" with specific numbers.\n\n**Persuade with claim, evidence and reasoning.** Each argument should make a *claim*, support it with *evidence* such as data, examples or expert sources, and explain the *reasoning* that connects the two. Then address the strongest objection. Acknowledging a counterargument and answering it shows judges you have thought the issue through, which makes your position more convincing, not less.\n\n**Manage time on prompted writing.** For a 60-minute prompt, a simple split works well:\n1. About 10 minutes reading the prompt closely, marking every task it asks for, and outlining a thesis and three main points.\n2. About 40 minutes writing an introduction, body paragraphs that each develop one point, and a conclusion.\n3. About 10 minutes proofreading for missing words, spelling and agreement errors, and any part of the prompt you skipped.\n\n**Edit in passes.** Check structure first (does every section serve the thesis?), then sentences (clarity and length), then mechanics (spelling, punctuation and consistent formatting). Reading aloud catches errors your eyes skip, and a fresh reader spots assumptions you did not notice.\n\nA common mistake is answering the question you wish you had been asked. If a prompt asks you to recommend and justify one policy, an essay that only describes the problem, however well written, misses the task the judges are scoring.",
+    "examples": [
+      "Wordy: 'Due to the fact that sales were low at this point in time, a decision was made by the team to lower prices.' Revised: 'Because sales were low, the team lowered prices.'",
+      "A writer arguing for a later school start time adds: 'Critics worry that a later start will crowd after-school sports; our plan answers this by moving practices to 4:30 and using the lighted field.'",
+      "Given 60 minutes for a prompt, a competitor spends 9 minutes outlining a thesis and three supporting points, writes for 41 minutes, and saves the last 10 minutes to proofread and confirm every part of the prompt was answered."
+    ],
+    "questions": [
+      {
+        "stem": "Which revision of 'The decision to raise prices was made by the managers due to the fact that costs had increased' is clearest and most concise?",
+        "choices": [
+          "The managers raised prices because costs had increased.",
+          "Prices were raised by the managers due to increasing costs.",
+          "Due to the fact of rising costs, a price increase was decided on by managers.",
+          "The managers, due to the fact that costs had gone up, made the decision to raise prices."
+        ],
+        "answer": 0,
+        "explanation": "The first choice uses active voice, replaces 'due to the fact that' with 'because' and keeps the full meaning in the fewest words. The others stay passive or keep the filler phrase."
+      },
+      {
+        "stem": "A competitor has 60 minutes to answer an on-site writing prompt. What is the best use of the first several minutes?",
+        "choices": [
+          "Read the prompt closely, mark each required task and outline a thesis with main points",
+          "Start writing the introduction immediately so that no time is wasted",
+          "Write the conclusion first so the essay is guaranteed to have an ending",
+          "Copy the prompt word for word to serve as the opening paragraph"
+        ],
+        "answer": 0,
+        "explanation": "A few minutes of planning ensures the essay answers every part of the prompt and stays organized. Writing without a plan often leads to rambling or missed tasks."
+      },
+      {
+        "stem": "Why should a persuasive paper address the strongest argument against its position?",
+        "choices": [
+          "It shows the issue was considered fully and makes the position more convincing",
+          "It adds length so the paper is more likely to reach the page limit",
+          "It lets the writer switch sides if the opposing argument seems stronger",
+          "It is needed only when the judges are known to disagree with the thesis"
+        ],
+        "answer": 0,
+        "explanation": "Answering the strongest objection shows thorough thinking and removes a reason for the reader to doubt the claim. Padding length or switching positions weakens a paper."
+      },
+      {
+        "stem": "A prompt asks writers to recommend one solution to a hospital staffing shortage and justify it. Which plan best fits the task?",
+        "choices": [
+          "A thesis naming one solution, body paragraphs with evidence for it, and a response to a likely objection",
+          "A detailed history of staffing shortages that ends without a recommendation",
+          "A list of ten possible solutions, each described in a single sentence",
+          "A personal story about a hospital visit followed by a summary of the prompt"
+        ],
+        "answer": 0,
+        "explanation": "The prompt asks for one recommendation plus justification, so the essay needs a clear thesis, supporting evidence and reasoning. The other plans describe or list instead of recommending and defending."
+      }
+    ],
+    "flashcards": [
+      { "term": "Thesis", "definition": "The single main claim or recommendation that a paper sets out to prove." },
+      { "term": "Topic sentence", "definition": "The first sentence of a paragraph, stating the one point that the paragraph develops." },
+      { "term": "Active voice", "definition": "Sentence structure in which the subject performs the action, as in 'The team launched the campaign.'" },
+      { "term": "Counterargument", "definition": "An opposing view that a persuasive writer acknowledges and answers to strengthen the argument." },
+      { "term": "Claim, evidence, reasoning", "definition": "An argument structure: state a point, support it with facts, then explain how the facts prove the point." }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Human resources management",
+    "objective": "Plan staffing, select and develop employees, calculate pay and turnover, and apply key federal employment laws.",
+    "body": "Human resources management (HRM) is the core of the Human Resources Management Series, and HR scenarios appear throughout the BMA exam. Think of HR as a cycle: plan, acquire, develop, reward and retain.\n\n**Planning and recruiting.** HR planning forecasts how many people with which skills the company will need. A *job analysis* studies a job and produces a *job description* (duties and responsibilities) and a *job specification* (education, skills and experience the person needs). *Internal recruiting* (promotions and transfers) is cheaper and rewards loyalty; *external recruiting* brings in new skills and ideas.\n\n**Selection.** Typical steps are screening applications, interviewing, testing, checking references and backgrounds, then making an offer. A *structured interview* asks every candidate the same job-related questions and scores answers on a rubric, which improves fairness. *Behavioral* questions ask about past actions, such as *tell me about a time you handled an upset customer*, because past behavior predicts future behavior.\n\n**Development and appraisal.** *Orientation* (onboarding) introduces new hires to the company and its culture; *on-the-job training* builds skills while working. Performance appraisals compare work with clear standards. A *360-degree review* gathers feedback from supervisors, peers, direct reports and sometimes customers.\n\n**Compensation.** Pay can be an hourly wage, a salary, commission or incentives such as bonuses and profit sharing. Under the federal Fair Labor Standards Act (FLSA), *nonexempt* employees must receive at least 1.5 times their regular rate for hours worked over 40 in a workweek. Benefits such as health insurance, retirement plans and paid leave are part of total compensation.\n\n**Key federal laws.**\n- *Title VII of the Civil Rights Act*: bans job discrimination based on race, color, religion, sex or national origin.\n- *Age Discrimination in Employment Act (ADEA)*: protects workers age 40 and older.\n- *Americans with Disabilities Act (ADA)*: requires reasonable accommodations for qualified people with disabilities unless they cause undue hardship.\n- *Family and Medical Leave Act (FMLA)*: up to 12 weeks of unpaid, job-protected leave a year for eligible employees.\n- *Occupational Safety and Health Act*: requires workplaces free of recognized serious hazards.\n\n**Retention.** *Turnover rate* = employees who left ÷ average number of employees × 100. High turnover raises recruiting and training costs, so HR tracks it and uses exit interviews to find causes.\n\nA common mistake is asking interview questions about age, religion, family plans or national origin. Keep every question tied to whether the candidate can do the job.",
+    "examples": [
+      "Overtime: Jordan earns $18 an hour and works 46 hours in one week. Regular pay is 40 × $18 = $720, overtime is 6 × $27 = $162, and total gross pay is $882.",
+      "Turnover: A warehouse averaged 80 employees during the year and 20 left. Turnover rate = 20 ÷ 80 × 100 = 25%.",
+      "A forklift-operator posting requires a current forklift certification and the ability to lift 50 pounds. Those are job specifications; loading trucks and counting stock belong in the job description."
+    ],
+    "questions": [
+      {
+        "stem": "Priya is a nonexempt employee who earns $16 per hour. Last week she worked 44 hours. Under the FLSA overtime rule, what is her gross pay for the week?",
+        "choices": ["$704", "$736", "$768", "$720"],
+        "answer": 1,
+        "explanation": "Regular pay is 40 × $16 = $640. Overtime is 4 hours × $24 (1.5 × $16) = $96. Total = $640 + $96 = $736; $704 wrongly pays all 44 hours at the regular rate."
+      },
+      {
+        "stem": "A clothing store averaged 50 employees last year, and 15 employees left during that time. What was its annual turnover rate?",
+        "choices": ["15%", "30%", "33%", "3.3%"],
+        "answer": 1,
+        "explanation": "Turnover rate = separations ÷ average employees × 100 = 15 ÷ 50 × 100 = 30%."
+      },
+      {
+        "stem": "A job posting states that applicants must have a bachelor's degree in accounting and two years of payroll experience. This information comes from the:",
+        "choices": ["Job description", "Job specification", "Performance appraisal", "Compensation plan"],
+        "answer": 1,
+        "explanation": "A job specification lists the qualifications a person needs. The job description lists the duties and responsibilities of the job itself."
+      },
+      {
+        "stem": "A hiring manager wants to compare five finalists fairly and reduce personal bias. Which approach is best?",
+        "choices": ["Ask each candidate the same job-related questions and score answers on a rubric", "Let each conversation flow naturally based on rapport", "Ask about family plans to predict future attendance", "Choose the candidate who made the strongest first impression"],
+        "answer": 0,
+        "explanation": "A structured interview uses identical, job-related questions and consistent scoring, making comparisons fair and defensible. Unstructured chats and first impressions invite bias."
+      },
+      {
+        "stem": "Which interview question is appropriate for an employer to ask an applicant?",
+        "choices": ["Can you work the required Saturday shifts?", "What year did you graduate from high school?", "Do you plan to have children soon?", "What country were your parents born in?"],
+        "answer": 0,
+        "explanation": "Asking whether someone can meet the job's schedule is job-related. The other questions reveal age, family status or national origin, which can lead to discrimination claims."
+      },
+      {
+        "stem": "An employee who uses a wheelchair needs her desk raised four inches to do her job. The change costs $150. Under the ADA, what should the employer most likely do?",
+        "choices": ["Make the change as a reasonable accommodation", "Refuse, because accommodations are optional", "Move her to a lower-paying role", "Require her to pay for the change"],
+        "answer": 0,
+        "explanation": "The ADA requires reasonable accommodations for qualified employees with disabilities unless they cause undue hardship. A $150 desk adjustment is clearly reasonable."
+      },
+      {
+        "stem": "An eligible employee needs eight weeks off to care for a parent with a serious health condition and wants his job held for his return. Which law most directly protects this leave?",
+        "choices": ["Family and Medical Leave Act", "Fair Labor Standards Act", "Age Discrimination in Employment Act", "Occupational Safety and Health Act"],
+        "answer": 0,
+        "explanation": "The FMLA gives eligible employees up to 12 weeks of unpaid, job-protected leave a year, including to care for a parent with a serious health condition."
+      },
+      {
+        "stem": "A company advertises that it is seeking recent graduates under age 30. A qualified 52-year-old applicant is rejected because of her age. Which law is most directly violated?",
+        "choices": ["Age Discrimination in Employment Act", "Americans with Disabilities Act", "Family and Medical Leave Act", "Equal Pay Act"],
+        "answer": 0,
+        "explanation": "The ADEA protects applicants and employees age 40 and older from age-based discrimination in hiring and other employment decisions."
+      },
+      {
+        "stem": "A manager receives performance feedback from her supervisor, five peers, the eight employees she supervises and two key clients. What kind of appraisal is this?",
+        "choices": ["360-degree feedback", "Management by objectives", "Forced ranking", "Self-appraisal"],
+        "answer": 0,
+        "explanation": "360-degree feedback collects ratings from people all around the employee: above, beside, below and outside the organization."
+      },
+      {
+        "stem": "A firm spent $18,000 on job ads, $6,000 on recruiter fees and $3,000 on background checks to hire 9 new employees. What was its cost per hire?",
+        "choices": ["$2,000", "$2,667", "$3,000", "$3,333"],
+        "answer": 2,
+        "explanation": "Total hiring cost = $18,000 + $6,000 + $3,000 = $27,000. Cost per hire = $27,000 ÷ 9 = $3,000. Leaving out the background checks gives the $2,667 distractor."
+      }
+    ],
+    "flashcards": [
+      { "term": "Job specification", "definition": "The education, skills, experience and abilities a person needs to perform a particular job." },
+      { "term": "Structured interview", "definition": "An interview in which every candidate answers the same job-related questions, scored the same way." },
+      { "term": "Nonexempt employee", "definition": "A worker covered by FLSA overtime rules who must earn at least 1.5 times the regular rate for hours over 40 a week." },
+      { "term": "Turnover rate", "definition": "The percentage of employees who leave in a period: separations divided by average headcount, times 100." },
+      { "term": "Reasonable accommodation", "definition": "A change to a job or workplace that lets a qualified person with a disability do the work without undue hardship to the employer." },
+      { "term": "360-degree feedback", "definition": "A performance review that gathers input from supervisors, peers, direct reports and sometimes customers." }
+    ]
+  }
+]

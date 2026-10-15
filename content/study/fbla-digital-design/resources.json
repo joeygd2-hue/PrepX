@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Pixar in a Box",
+    "url": "https://www.khanacademy.org/partner-content/pixar",
+    "publisher": "Khan Academy",
+    "kind": "course",
+    "note": "Free Pixar course on storytelling, character, animation and lighting for Digital Animation and Video Production."
+  },
+  {
+    "title": "Visual Rhetoric",
+    "url": "https://owl.purdue.edu/owl/general_writing/visual_rhetoric/index.html",
+    "publisher": "Purdue OWL",
+    "kind": "reference",
+    "note": "Purdue OWL on visual rhetoric and design principles that judges look for in graphic design entries."
+  },
+  {
+    "title": "What Is Copyright?",
+    "url": "https://www.copyright.gov/what-is-copyright/",
+    "publisher": "U.S. Copyright Office",
+    "kind": "reference",
+    "note": "U.S. Copyright Office basics so the images, music and fonts in your project are used legally."
+  }
+]

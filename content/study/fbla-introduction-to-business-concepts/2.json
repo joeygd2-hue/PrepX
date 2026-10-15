@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Running the business: management, marketing and finance functions",
+    "objective": "Apply the functions of management, the marketing mix and basic financial calculations to solve everyday business problems.",
+    "body": "Once a business exists, it must be run. Most organizations divide the work into core functions: management, marketing, finance and operations. Test questions often describe a manager's action and ask you to name the function involved.\n\n**Functions of management.** Managers carry out four functions:\n1. **Planning**: setting goals and deciding how to reach them, such as writing a yearly sales target.\n2. **Organizing**: arranging people and resources, such as assigning tasks and building an organizational chart.\n3. **Leading** (also called directing): motivating and guiding employees.\n4. **Controlling**: measuring performance against goals and correcting problems.\n\nManagers work at different levels. **Top managers** set long-term strategy, **middle managers** turn strategy into department plans, and **supervisors** oversee daily work.\n\n**Marketing.** Marketing is the process of creating, communicating and delivering value to customers. Businesses combine the **marketing mix**, or four Ps:\n- **Product**: the good or service, including features, quality and packaging.\n- **Price**: what customers pay.\n- **Place**: how the product reaches customers, also called distribution.\n- **Promotion**: communication such as advertising, social media and sales promotions.\n\nA business also chooses a **target market**, the specific group of customers it aims to serve, often defined by demographics, location or interests.\n\n**Supply and demand.** When price rises, consumers usually buy less, which is the law of demand; producers want to sell more, which is the law of supply. The price where quantity demanded equals quantity supplied is the **equilibrium price**. A surplus pushes prices down, and a shortage pushes them up.\n\n**Finance basics.** **Revenue** is money earned from sales. **Profit** equals revenue minus expenses; when expenses exceed revenue, the result is a loss. Businesses track **fixed costs**, such as rent, which stay the same regardless of output, and **variable costs**, such as materials, which rise with production. The **break-even point** in units equals fixed costs divided by the price minus variable cost per unit. A **budget** plans future income and spending so managers can control cash.\n\nThe most common mistake students make is confusing revenue with profit. A business with $500,000 in sales is not necessarily successful; if its expenses are $520,000, it lost $20,000.",
+    "examples": [
+      "A student-run coffee cart with $300 in monthly fixed costs sells drinks for $4 that cost $1.50 each to make, so it breaks even at $300 / $2.50 = 120 drinks per month.",
+      "A store manager compares weekly sales to the goal, notices a 15% shortfall and schedules extra staff training; that comparison and correction is the controlling function."
+    ],
+    "questions": [
+      {
+        "stem": "A restaurant manager reviews monthly food waste reports, sees waste is above target and changes portioning procedures. Which management function is this?",
+        "choices": [
+          "Planning",
+          "Organizing",
+          "Leading",
+          "Controlling"
+        ],
+        "answer": 3,
+        "explanation": "Measuring performance against a target and correcting it is controlling. Planning sets the target in the first place but does not compare results."
+      },
+      {
+        "stem": "A sneaker company decides to sell only through its own website instead of department stores. Which of the four Ps changed?",
+        "choices": [
+          "Place",
+          "Product",
+          "Price",
+          "Promotion"
+        ],
+        "answer": 0,
+        "explanation": "Place covers distribution channels, so switching from stores to its website is a place decision. Promotion would involve how the company communicates, such as ads."
+      },
+      {
+        "stem": "A T-shirt business has fixed costs of $2,000, sells shirts for $20 and spends $12 per shirt on materials. How many shirts must it sell to break even?",
+        "choices": [
+          "100",
+          "250",
+          "167",
+          "400"
+        ],
+        "answer": 1,
+        "explanation": "Break-even units = $2,000 / ($20 - $12) = 250. Dividing by the $20 price alone gives 100, which ignores variable costs."
+      },
+      {
+        "stem": "A store had sales of $80,000 and total expenses of $86,000 last quarter. What was the result?",
+        "choices": [
+          "$80,000 profit",
+          "$6,000 profit",
+          "$6,000 loss",
+          "$166,000 revenue"
+        ],
+        "answer": 2,
+        "explanation": "Profit = revenue minus expenses = $80,000 - $86,000 = -$6,000, a loss. Calling $80,000 profit confuses revenue with profit."
+      },
+      {
+        "stem": "Concert tickets sell out in minutes and resale prices climb far above face value. This situation best illustrates:",
+        "choices": [
+          "A surplus",
+          "A shortage",
+          "Equilibrium",
+          "Falling demand"
+        ],
+        "answer": 1,
+        "explanation": "When quantity demanded exceeds quantity supplied at the set price, there is a shortage, and prices rise. A surplus would push prices down instead."
+      },
+      {
+        "stem": "Which of the following is a variable cost for a candle maker?",
+        "choices": [
+          "Monthly studio rent",
+          "Annual business insurance",
+          "Wax used in each candle",
+          "The owner's website subscription"
+        ],
+        "answer": 2,
+        "explanation": "Wax increases as more candles are made, so it is a variable cost. Rent stays the same regardless of output, making it a fixed cost."
+      },
+      {
+        "stem": "A regional vice president turns the CEO's five-year growth strategy into yearly goals for each store district. What level of management is she?",
+        "choices": [
+          "Top management",
+          "Supervisory management",
+          "Frontline management",
+          "Middle management"
+        ],
+        "answer": 3,
+        "explanation": "Middle managers translate top-level strategy into department or regional plans. Top managers create the overall strategy rather than translating it."
+      },
+      {
+        "stem": "A fitness app designs its features, ads and pricing specifically for college students ages 18 to 22. This group is the app's:",
+        "choices": [
+          "Target market",
+          "Marketing mix",
+          "Equilibrium market",
+          "Distribution channel"
+        ],
+        "answer": 0,
+        "explanation": "A target market is the specific customer group a business aims to serve. The marketing mix is the set of four Ps tailored to that group, not the group itself."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Controlling",
+        "definition": "The management function of measuring performance against goals and taking corrective action."
+      },
+      {
+        "term": "Marketing mix",
+        "definition": "The four Ps: product, price, place and promotion."
+      },
+      {
+        "term": "Equilibrium price",
+        "definition": "The price at which quantity demanded equals quantity supplied."
+      },
+      {
+        "term": "Break-even point",
+        "definition": "The output where revenue equals total costs; fixed costs divided by price minus variable cost per unit."
+      },
+      {
+        "term": "Variable cost",
+        "definition": "A cost that changes with the level of production, such as materials."
+      }
+    ]
+  }
+]

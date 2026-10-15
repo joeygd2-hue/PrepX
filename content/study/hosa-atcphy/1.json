@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Motion, forces and Newton's laws in the body",
+    "objective": "Describe motion with displacement, velocity and acceleration, apply Newton's three laws to everyday and clinical situations, and convert between SI units correctly.",
+    "body": "Physics questions in health science almost always start with the same tools: describing how something moves and explaining what force made it move that way. Learn these ideas well and later topics such as energy, pressure and torque become much easier.\n\n**Describing motion.** **Displacement** is the straight-line change in position, including direction, while distance is the total path length. **Velocity** is displacement divided by time, so it is a vector; speed is its size without direction. **Acceleration** is the rate of change of velocity, measured in meters per second squared (m/s²). An object can have a large velocity and zero acceleration if it moves steadily, and it can be momentarily at rest while still accelerating, like a ball at the top of its toss.\n\n**SI units.** Scientists use the International System of Units: meters for length, kilograms for mass, seconds for time. Converting before you calculate prevents most arithmetic errors.\n- 1 km = 1000 m; 1 cm = 0.01 m\n- 1 g = 0.001 kg\n- 1 hour = 3600 s, so to change km/h to m/s, divide by 3.6\n\n**Newton's three laws.**\n1. **Inertia (first law):** an object keeps its state of rest or constant velocity unless a net external force acts on it. An unbelted passenger keeps moving forward when a car stops suddenly.\n2. **F = ma (second law):** net force equals mass times acceleration, measured in newtons (N). Doubling the net force on the same mass doubles the acceleration.\n3. **Action-reaction (third law):** forces come in equal and opposite pairs acting on different objects. When you push down on crutches, the crutches push up on you.\n\n**Mass and weight.** Mass is the amount of matter, in kilograms, and does not change from place to place. **Weight** is the gravitational force on that mass, W = mg, where g is about 9.8 m/s² near Earth's surface. A 70 kg person weighs about 686 N on Earth but would weigh far less on the Moon while keeping the same mass.\n\n**Friction** opposes sliding between surfaces. Static friction holds a resting object in place, and kinetic friction acts once it slides; kinetic friction is usually smaller, which is why a patient's foot that starts to slip on a wet floor tends to keep slipping. Non-slip socks and dry floors increase friction and reduce fall risk.\n\n**Free-body thinking.** To solve a force problem, list every force on one object, add them as vectors to find the net force, and only then apply F = ma. If the object moves at constant velocity, the net force is zero even though individual forces are present.\n\nThe most common mistake is treating mass and weight as the same quantity, for example reporting a weight in kilograms or forgetting to multiply by g before using a force in newtons.",
+    "examples": [
+      "A wheelchair pushed with a net force of 30 N has a combined mass of 100 kg, so its acceleration is 30/100 = 0.3 m/s².",
+      "An ambulance traveling at 72 km/h is moving at 72/3.6 = 20 m/s.",
+      "A patient standing still on a scale feels the scale push up with a force equal to their weight, so the net force on them is zero."
+    ],
+    "questions": [
+      {
+        "stem": "A therapist pushes a 50 kg patient on a rolling stool with a net force of 25 N. What is the stool's acceleration?",
+        "choices": [
+          "0.5 m/s²",
+          "2 m/s²",
+          "1250 m/s²",
+          "25 m/s²"
+        ],
+        "answer": 0,
+        "explanation": "a = F/m = 25/50 = 0.5 m/s². Choosing 2 m/s² comes from dividing mass by force instead of force by mass."
+      },
+      {
+        "stem": "An astronaut with a mass of 80 kg travels from Earth to the Moon. Which statement is true?",
+        "choices": [
+          "Her mass and weight both decrease",
+          "Her mass stays 80 kg but her weight decreases",
+          "Her weight stays the same but her mass decreases",
+          "Neither her mass nor her weight changes"
+        ],
+        "answer": 1,
+        "explanation": "Mass is the amount of matter and does not depend on location, while weight depends on local gravity, which is weaker on the Moon. Saying both decrease confuses mass with weight."
+      },
+      {
+        "stem": "During a sudden stop, an unrestrained gurney slides forward in an ambulance. Which law best explains this?",
+        "choices": [
+          "Newton's third law",
+          "Newton's second law",
+          "Newton's first law",
+          "Law of conservation of charge"
+        ],
+        "answer": 2,
+        "explanation": "The gurney keeps its forward motion (inertia) because no force stopped it, which is the first law. The third law is about force pairs, not about an object continuing its motion."
+      },
+      {
+        "stem": "A patient walks 3 m east, then 4 m north. What is the size of the displacement?",
+        "choices": [
+          "7 m",
+          "1 m",
+          "12 m",
+          "5 m"
+        ],
+        "answer": 3,
+        "explanation": "Displacement is the straight-line change in position: √(3² + 4²) = 5 m. The 7 m answer is the distance traveled along the path, not the displacement."
+      },
+      {
+        "stem": "A person on crutches pushes down on the floor through the crutch tips. According to Newton's third law, what is the reaction force?",
+        "choices": [
+          "The floor pushes up on the crutches with an equal force",
+          "Gravity pulls the person down",
+          "The crutches push down harder than the floor pushes up",
+          "Friction pushes the crutches sideways"
+        ],
+        "answer": 0,
+        "explanation": "Action-reaction pairs are equal, opposite and act on different objects, so the floor pushes up on the crutches. Gravity on the person is a different interaction, not the reaction to the push."
+      },
+      {
+        "stem": "An IV pole on wheels is rolled across a hallway at a steady 1 m/s. What is the net force on it?",
+        "choices": [
+          "Equal to its weight",
+          "Zero",
+          "Equal to the push applied",
+          "Equal to the friction force"
+        ],
+        "answer": 1,
+        "explanation": "Constant velocity means zero acceleration, so by F = ma the net force is zero; the push and friction cancel. Saying it equals the push ignores the opposing friction."
+      },
+      {
+        "stem": "What is the weight of a 60 kg patient on Earth (g ≈ 9.8 m/s²)?",
+        "choices": [
+          "60 N",
+          "6.1 N",
+          "588 N",
+          "60 kg"
+        ],
+        "answer": 2,
+        "explanation": "W = mg = 60 × 9.8 = 588 N. Answering 60 kg gives the mass, not the weight, which must be in newtons."
+      },
+      {
+        "stem": "Why does a patient's foot that begins to slide on a wet floor tend to keep sliding?",
+        "choices": [
+          "Static friction becomes larger once motion starts",
+          "Water increases the normal force",
+          "Weight decreases when the foot moves",
+          "Kinetic friction is usually smaller than the maximum static friction"
+        ],
+        "answer": 3,
+        "explanation": "Once sliding begins, the smaller kinetic friction resists motion less than static friction did. Static friction does not grow after motion starts; it is replaced by kinetic friction."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Displacement",
+        "definition": "The straight-line change in position of an object, including direction."
+      },
+      {
+        "term": "Acceleration",
+        "definition": "The rate of change of velocity, measured in m/s²."
+      },
+      {
+        "term": "Inertia",
+        "definition": "The tendency of an object to keep its state of rest or constant velocity unless a net force acts on it."
+      },
+      {
+        "term": "Weight",
+        "definition": "The gravitational force on a mass, W = mg, measured in newtons."
+      },
+      {
+        "term": "Friction",
+        "definition": "A force that opposes sliding between two surfaces; static friction acts at rest and kinetic friction acts during sliding."
+      }
+    ]
+  }
+]

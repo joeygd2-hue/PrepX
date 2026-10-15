@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Information systems components and the data hierarchy",
+    "objective": "Identify the components of an information system, classify system types by the decisions they support, and distinguish data from information.",
+    "body": "A management information system exists to turn raw facts into decisions. Before you can evaluate any system, you need to know what it is made of and who it serves.\n\n**Data versus information.** **Data** are raw, unprocessed facts, such as a list of transaction amounts. **Information** is data that has been organized and given context so it is useful, such as total sales by region this week. Good information is accurate, timely, relevant and complete. A report that arrives after the decision was made fails the timeliness test even if every number is correct.\n\n**The five components.** Every information system combines:\n- **Hardware**: the physical devices, from servers to tablets and barcode scanners.\n- **Software**: the programs, including operating systems and applications.\n- **Data**: the facts the system stores and processes.\n- **People**: users, managers and IT staff.\n- **Procedures**: the documented steps for using and maintaining the system.\n\nMany students forget people and procedures, but a system with perfect technology still fails if no one is trained to use it.\n\n**Input, processing, output and feedback.** Systems take in input, process it, produce output, and use **feedback** to correct the input or processing. A thermostat-style loop is the classic model; in business, a sales report showing a stockout feeds back into reorder quantities.\n\n**Types of systems by management level.**\n1. A **transaction processing system (TPS)** records routine daily operations, such as point-of-sale purchases or payroll. It serves operational staff.\n2. A **management information system (MIS)** summarizes TPS data into scheduled reports for middle managers, such as weekly inventory summaries.\n3. A **decision support system (DSS)** helps managers analyze semi-structured problems with models and what-if analysis.\n4. An **executive information system (EIS)**, often shown as a dashboard, gives senior leaders high-level trends and key performance indicators.\n\n**The data hierarchy.** Data is organized from smallest to largest: bit, byte, field, record, file, database. A field is a single attribute like a last name; a record is a group of related fields describing one entity, such as one customer.\n\nThe most common mistake students make is treating data and information as synonyms. On a test, ask whether the item has been processed into something meaningful for a decision; if not, it is still data.",
+    "examples": [
+      "A grocery checkout scanner recording each item sold is a TPS; the weekly report of top-selling items sent to the store manager is MIS output.",
+      "A regional manager using a spreadsheet model to test how a 5 percent price cut would affect profit is using a DSS."
+    ],
+    "questions": [
+      {
+        "stem": "A store's register logs every sale with the time, item and price. What type of system is this?",
+        "choices": [
+          "Decision support system",
+          "Transaction processing system",
+          "Executive information system",
+          "Expert system"
+        ],
+        "answer": 1,
+        "explanation": "Recording routine daily transactions is the job of a TPS. A DSS is wrong because it analyzes problems with models rather than capturing transactions."
+      },
+      {
+        "stem": "A list of 2,000 individual shipment weights has not yet been sorted or summarized. This list is best described as:",
+        "choices": [
+          "Data",
+          "Information",
+          "Knowledge",
+          "Feedback"
+        ],
+        "answer": 0,
+        "explanation": "Unprocessed facts are data. It is not yet information because it has not been organized into something meaningful for a decision."
+      },
+      {
+        "stem": "A company installs new inventory software, but warehouse workers keep using paper logs because no one explained the new steps. Which components were neglected?",
+        "choices": [
+          "Hardware and software",
+          "Data and hardware",
+          "People and procedures",
+          "Software and data"
+        ],
+        "answer": 2,
+        "explanation": "Training (people) and documented steps (procedures) were missing. The software and hardware worked, so blaming them misses the actual cause."
+      },
+      {
+        "stem": "A CEO wants a single screen showing company-wide revenue trends and key performance indicators. Which system fits best?",
+        "choices": [
+          "Transaction processing system",
+          "Management information system",
+          "Office automation system",
+          "Executive information system"
+        ],
+        "answer": 3,
+        "explanation": "An EIS or dashboard gives senior leaders high-level KPIs. An MIS produces routine summary reports for middle managers, not strategic overviews."
+      },
+      {
+        "stem": "Which order correctly lists the data hierarchy from smallest to largest?",
+        "choices": [
+          "Bit, byte, field, record, file, database",
+          "Byte, bit, record, field, file, database",
+          "Bit, field, byte, record, database, file",
+          "Field, bit, byte, record, file, database"
+        ],
+        "answer": 0,
+        "explanation": "Bits form bytes, bytes form fields, fields form records, records form files, and files form a database. Swapping field and record is the most common error."
+      },
+      {
+        "stem": "A monthly sales report reaches managers two weeks after pricing decisions were already made. Which quality of information is lacking?",
+        "choices": [
+          "Accuracy",
+          "Relevance",
+          "Timeliness",
+          "Completeness"
+        ],
+        "answer": 2,
+        "explanation": "Information that arrives too late to use fails timeliness. It may still be accurate, so accuracy is not the issue."
+      },
+      {
+        "stem": "In a customer database, one customer's name, address and phone number together form a:",
+        "choices": [
+          "Field",
+          "Record",
+          "File",
+          "Byte"
+        ],
+        "answer": 1,
+        "explanation": "A record is a set of related fields about one entity. A single field would be only the name or only the phone number."
+      },
+      {
+        "stem": "A middle manager receives a scheduled weekly report summarizing overtime hours by department. This report most likely comes from a(n):",
+        "choices": [
+          "Management information system",
+          "Transaction processing system",
+          "Executive information system",
+          "Decision support system"
+        ],
+        "answer": 0,
+        "explanation": "Scheduled summary reports for middle managers are classic MIS output. A DSS supports interactive what-if analysis rather than routine reports."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Information",
+        "definition": "Data that has been organized and given context so it is useful for decisions."
+      },
+      {
+        "term": "Transaction processing system",
+        "definition": "A system that records routine daily business operations such as sales and payroll."
+      },
+      {
+        "term": "Decision support system",
+        "definition": "A system that helps managers analyze semi-structured problems using models and what-if analysis."
+      },
+      {
+        "term": "Record",
+        "definition": "A group of related fields describing one entity, such as one customer."
+      },
+      {
+        "term": "Feedback",
+        "definition": "Output used to correct or adjust a system's input or processing."
+      }
+    ]
+  }
+]

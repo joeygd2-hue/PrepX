@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Business in a complex world: ethics, law and global trade",
+    "objective": "Evaluate business decisions using ethics, social responsibility, contract law and international trade concepts.",
+    "body": "Advanced questions place business decisions in a wider context: the law, society and the global economy. These questions reward judgment, so read every scenario for who is affected and what rules apply.\n\n**Ethics and social responsibility.** **Business ethics** are the moral principles that guide decisions, such as honesty and fairness. Something can be legal and still unethical, like hiding a known product flaw that no regulation yet covers. **Social responsibility** is a company's obligation to act in ways that benefit society. Businesses consider **stakeholders**, anyone affected by the company: employees, customers, owners, suppliers and the community. A **code of ethics** puts expected conduct in writing, and a **conflict of interest** occurs when personal interests could improperly influence an employee's decisions.\n\n**Contracts.** A **contract** is a legally enforceable agreement. To be valid it generally needs:\n1. An offer and an acceptance.\n2. **Consideration**, something of value exchanged by each party.\n3. Competent parties, meaning adults of sound mind; contracts with minors are usually voidable by the minor.\n4. A legal purpose.\n\nIf one side fails to perform, it commits a **breach of contract**, and the other party may seek damages.\n\n**Consumer and competition protection.** Laws such as antitrust laws prevent **monopolies** from unfairly limiting competition, and the Federal Trade Commission enforces rules against deceptive advertising. Intellectual property is protected by **patents** for inventions, **copyrights** for creative works and **trademarks** for brand names and logos.\n\n**Global business.** Countries trade because of **comparative advantage**: each should specialize in what it can produce at the lowest opportunity cost, even if another country is better at producing everything. **Imports** are goods bought from other countries and **exports** are goods sold abroad. When exports exceed imports, a country has a trade surplus; the reverse is a **trade deficit**. Governments may restrict trade with **tariffs**, taxes on imports, or **quotas**, limits on quantity. Companies entering foreign markets choose among exporting, licensing, franchising, joint ventures or direct investment, which increase in both control and risk. **Exchange rates** matter too: when the U.S. dollar strengthens, American exports become more expensive for foreign buyers.\n\nThe most common mistake students make is assuming that legal means ethical, or confusing comparative advantage with absolute advantage. A country with absolute advantage produces more with the same resources, but trade decisions depend on comparative advantage and opportunity cost.",
+    "examples": [
+      "A clothing company discovers a supplier uses unsafe factories; although local law allows it, the company switches suppliers because its code of ethics puts worker safety first.",
+      "A 16-year-old signs a one-year gym contract and cancels after two months; because she is a minor, the contract is generally voidable at her choice."
+    ],
+    "questions": [
+      {
+        "stem": "An engineer at a car company learns a part fails more often than reported, but no regulation requires disclosure yet. Which statement best applies?",
+        "choices": [
+          "Because it is legal to stay silent, there is no ethical issue",
+          "Only stockholders are affected, so only they must be told",
+          "The decision raises an ethical issue even though no law is broken",
+          "Ethics apply only to nonprofit organizations"
+        ],
+        "answer": 2,
+        "explanation": "Legal and ethical are not the same; withholding safety information harms customers, a key stakeholder group. Assuming legality settles the question is the common error."
+      },
+      {
+        "stem": "A purchasing manager awards a contract to a supplier owned by her brother without disclosing the relationship. This is an example of:",
+        "choices": [
+          "A conflict of interest",
+          "Comparative advantage",
+          "Consideration",
+          "A trademark violation"
+        ],
+        "answer": 0,
+        "explanation": "Personal interests improperly influencing a business decision is a conflict of interest. Consideration relates to contracts and the value exchanged, not to personal bias."
+      },
+      {
+        "stem": "Sam agrees to mow a neighbor's lawn all summer, but no payment or anything else of value is promised in return. Which contract element is missing?",
+        "choices": [
+          "Offer",
+          "Consideration",
+          "Legal purpose",
+          "Acceptance"
+        ],
+        "answer": 1,
+        "explanation": "Consideration requires each party to give something of value; the neighbor gives nothing. There was an offer and acceptance, so those elements are present."
+      },
+      {
+        "stem": "Country A can produce either 10 tons of wheat or 5 tons of steel; Country B can produce either 6 tons of wheat or 6 tons of steel. Based on comparative advantage, what should Country A specialize in?",
+        "choices": [
+          "Steel, because steel is more valuable",
+          "Both goods equally",
+          "Steel, because B has an advantage in wheat",
+          "Wheat"
+        ],
+        "answer": 3,
+        "explanation": "For A, one ton of wheat costs 0.5 ton of steel, while for B it costs 1 ton, so A has the lower opportunity cost in wheat. Choosing steel ignores opportunity cost."
+      },
+      {
+        "stem": "The U.S. places a 25% tax on imported steel to protect domestic producers. This trade barrier is a:",
+        "choices": [
+          "Quota",
+          "Embargo",
+          "Tariff",
+          "Subsidy"
+        ],
+        "answer": 2,
+        "explanation": "A tax on imports is a tariff. A quota limits the quantity of imports rather than taxing them."
+      },
+      {
+        "stem": "A U.S. fast-food chain lets a company in Brazil use its brand, recipes and operating system in exchange for fees. This entry method is:",
+        "choices": [
+          "Franchising",
+          "Exporting",
+          "Direct investment",
+          "A joint venture"
+        ],
+        "answer": 0,
+        "explanation": "Granting rights to a brand and full business system for fees is franchising. Direct investment would mean the U.S. company owns and operates the Brazilian locations itself."
+      },
+      {
+        "stem": "The U.S. dollar strengthens sharply against the euro. What is the most likely effect on an American company exporting to Europe?",
+        "choices": [
+          "Its products become cheaper for European buyers",
+          "Its products become more expensive for European buyers, reducing sales",
+          "Its tariffs automatically fall",
+          "Its trade deficit becomes a surplus"
+        ],
+        "answer": 1,
+        "explanation": "A stronger dollar means Europeans need more euros to buy U.S. goods, so exports become pricier. The opposite effect, cheaper exports, happens when the dollar weakens."
+      },
+      {
+        "stem": "A startup invents a new battery design and wants exclusive rights to make and sell it for a set period. Which protection should it seek?",
+        "choices": [
+          "Copyright",
+          "Trademark",
+          "Trade deficit protection",
+          "Patent"
+        ],
+        "answer": 3,
+        "explanation": "Patents protect inventions. A trademark protects brand names and logos, not the invention itself."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Stakeholder",
+        "definition": "Any person or group affected by a business's actions, such as employees, customers and the community."
+      },
+      {
+        "term": "Consideration",
+        "definition": "Something of value exchanged by each party that makes a contract enforceable."
+      },
+      {
+        "term": "Comparative advantage",
+        "definition": "The ability to produce a good at a lower opportunity cost than another producer."
+      },
+      {
+        "term": "Tariff",
+        "definition": "A tax placed on imported goods."
+      },
+      {
+        "term": "Conflict of interest",
+        "definition": "A situation where personal interests could improperly influence business decisions."
+      }
+    ]
+  }
+]

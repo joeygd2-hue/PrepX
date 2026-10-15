@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Investments and securities markets",
+    "objective": "Compare stocks, bonds and funds, explain the risk-return tradeoff and describe how securities are traded and regulated.",
+    "body": "Investments show up across finance events, from Stock Market Game presentations to financial consulting role-plays where you recommend products to a client. Exams focus on how each security works, how risk and return trade off, and how markets are regulated.\n\n**Stocks.** A share of stock is partial ownership of a company. *Common stock* usually carries voting rights and the chance for growth, but common shareholders are paid last if the company fails. *Preferred stock* typically pays a fixed dividend that must be paid before any common dividends, and it usually has no voting rights. Stock returns come from dividends plus capital gains (selling for more than you paid).\n\n**Bonds.** A bond is a loan to a government or company. The issuer pays interest at the *coupon rate* on the face value and repays the face value at maturity. Bond prices move opposite to market interest rates: when rates rise, older bonds paying lower coupons become less attractive, so their prices fall. Credit ratings signal default risk, and lower-rated bonds must offer higher yields.\n\n**Funds.** A *mutual fund* pools investors' money into a diversified portfolio and is priced once a day at its net asset value. An *exchange-traded fund (ETF)* also holds a basket of securities but trades on an exchange throughout the day like a stock. Index funds track a market index and usually have low expense ratios.\n\n**Risk and return.** Higher expected returns come with higher risk. *Diversification* spreads money across many companies, industries and asset classes, which reduces risk tied to any single company. It cannot remove *systematic risk*, such as a recession that drags down most stocks. *Asset allocation* divides a portfolio among stocks, bonds and cash based on goals, time horizon and risk tolerance. *Dollar-cost averaging* invests a fixed amount on a regular schedule, automatically buying more shares when prices are low.\n\n**Markets and rules.** Companies raise money in the primary market, often through an initial public offering (IPO); investors then trade shares with each other in the secondary market. A *market order* executes right away at the best available price, while a *limit order* executes only at a set price or better. The price-to-earnings (P/E) ratio, share price divided by earnings per share, shows what investors pay for each dollar of profit. The Securities and Exchange Commission (SEC) enforces disclosure rules and prohibits insider trading.\n\nA common mistake is assuming diversification guarantees a profit. It lowers company-specific risk but cannot protect a portfolio from a broad market decline.",
+    "examples": [
+      "An investor buys 100 shares at $40, collects $1.20 per share in dividends and sells at $46. The gain is $600 plus $120 of dividends, or $720 on a $4,000 investment, an 18% total return.",
+      "A $1,000 bond with a 5% coupon pays $50 a year. If new bonds start paying 6%, buyers will pay less than $1,000 for the older 5% bond."
+    ],
+    "questions": [
+      {
+        "stem": "An investor buys a share of stock for $50, receives a $2 dividend during the year and sells the share for $56 at year-end. What is the total return?",
+        "choices": ["12%", "16%", "4%", "14.3%"],
+        "answer": 1,
+        "explanation": "Total gain = ($56 − $50) + $2 = $8, and $8 ÷ $50 = 16%. Dividing by the selling price ($56) instead of the purchase price gives the incorrect 14.3%."
+      },
+      {
+        "stem": "A bond has a $1,000 face value and a 4% annual coupon rate paid semiannually. How much is each interest payment?",
+        "choices": ["$40", "$20", "$80", "$10"],
+        "answer": 1,
+        "explanation": "Annual interest = $1,000 × 4% = $40. Paid twice a year, each payment is $40 ÷ 2 = $20."
+      },
+      {
+        "stem": "Market interest rates rise after a company issues fixed-rate bonds. What most likely happens to the market price of those existing bonds?",
+        "choices": ["It rises, because the bonds now pay more interest", "It stays at face value until the bonds mature", "It falls, because new bonds offer higher coupon rates", "It rises, because demand for older bonds increases"],
+        "answer": 2,
+        "explanation": "The existing bonds pay a fixed coupon that is now below what new bonds pay, so their prices fall until their yields match the market. Bond prices move opposite to interest rates."
+      },
+      {
+        "stem": "An investor wants dividends that are paid before common shareholders receive any and is willing to give up voting rights. Which security fits best?",
+        "choices": ["Common stock", "Preferred stock", "Stock options", "Growth stock"],
+        "answer": 1,
+        "explanation": "Preferred stock usually pays a fixed dividend with priority over common dividends but carries no voting rights."
+      },
+      {
+        "stem": "An investor owns 40 stocks spread across many industries. Which risk does this diversification do the least to reduce?",
+        "choices": ["A recession that pulls down most stock prices", "One company losing a major lawsuit", "One company's new product failing", "One industry facing a new competitor"],
+        "answer": 0,
+        "explanation": "Diversification reduces company- and industry-specific risk, but systematic (market-wide) risk such as a recession affects nearly all stocks at once."
+      },
+      {
+        "stem": "An investor wants to buy shares of a stock only if the price falls to $30 or lower. Which type of order should she place?",
+        "choices": ["Market order", "Stop-loss order", "Limit order", "Short sale"],
+        "answer": 2,
+        "explanation": "A limit order executes only at the set price or better, so a buy limit at $30 fills only at $30 or less. A market order fills immediately at the current price."
+      },
+      {
+        "stem": "A stock trades at $60 per share, and the company's earnings per share are $4. What is its price-to-earnings (P/E) ratio?",
+        "choices": ["15", "240", "56", "0.07"],
+        "answer": 0,
+        "explanation": "P/E = share price ÷ earnings per share = $60 ÷ $4 = 15, so investors pay $15 for each $1 of annual earnings."
+      },
+      {
+        "stem": "An investor wants a diversified fund that can be bought and sold at changing prices throughout the trading day. Which product fits best?",
+        "choices": ["Traditional mutual fund", "Certificate of deposit", "Exchange-traded fund", "Savings account"],
+        "answer": 2,
+        "explanation": "ETFs hold a basket of securities and trade on exchanges like stocks all day. Traditional mutual funds are priced only once per day at net asset value."
+      },
+      {
+        "stem": "An investor puts $240 into the same fund each month. The share price is $20 in month 1, $30 in month 2 and $24 in month 3. What is the investor's average cost per share?",
+        "choices": ["$24.67", "$24.00", "$25.00", "$30.00"],
+        "answer": 1,
+        "explanation": "Shares bought: $240 ÷ $20 = 12, $240 ÷ $30 = 8 and $240 ÷ $24 = 10, for 30 shares. Average cost = $720 ÷ 30 = $24.00, below the simple average price of $24.67 because more shares were bought when the price was low."
+      },
+      {
+        "stem": "An employee learns that her company will announce a merger next week and buys the company's stock before the news is public. How is this best described?",
+        "choices": ["Legal arbitrage", "Illegal insider trading", "Dollar-cost averaging", "Short selling"],
+        "answer": 1,
+        "explanation": "Trading on material, nonpublic information is illegal insider trading, a violation the Securities and Exchange Commission enforces against."
+      }
+    ],
+    "flashcards": [
+      { "term": "Common stock", "definition": "Ownership shares that usually carry voting rights and growth potential but are paid last if the company fails." },
+      { "term": "Preferred stock", "definition": "Shares that typically pay a fixed dividend before common dividends and usually have no voting rights." },
+      { "term": "Coupon rate", "definition": "The annual interest rate a bond pays, stated as a percentage of its face value." },
+      { "term": "Exchange-traded fund (ETF)", "definition": "A pooled basket of securities that trades on an exchange throughout the day like a single stock." },
+      { "term": "Systematic risk", "definition": "Market-wide risk, such as a recession or interest-rate shock, that diversification cannot eliminate." },
+      { "term": "Limit order", "definition": "An instruction to buy or sell a security only at a specified price or better." }
+    ]
+  }
+]

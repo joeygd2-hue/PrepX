@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Principles of Management",
+    "url": "https://openstax.org/details/books/principles-management",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free management textbook; the decision-making and strategy chapters give frameworks for case analysis."
+  },
+  {
+    "title": "Business Ethics",
+    "url": "https://openstax.org/details/books/business-ethics",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Ethical decision frameworks and stakeholder analysis for business law and ethics cases."
+  },
+  {
+    "title": "Introduction to Business 2e",
+    "url": "https://openstax.org/details/books/introduction-business-2e",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Broad business review to back up recommendations on marketing, finance and operations."
+  }
+]

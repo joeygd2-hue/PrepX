@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Inheritance patterns, pedigrees and non-Mendelian traits",
+    "objective": "Identify autosomal and X-linked inheritance patterns in pedigrees and apply codominance, incomplete dominance and multiple alleles to human traits.",
+    "body": "Real families rarely look like a single Punnett square, so health professionals use **pedigrees** and knowledge of inheritance patterns to estimate risk. A pedigree is a family chart in which squares are males, circles are females, shaded shapes are affected people, and half-shaded or dotted shapes often mark **carriers**.\n\n**The four classic single-gene patterns.**\n- **Autosomal dominant:** affected people usually have an affected parent; the trait appears in every generation and affects both sexes. An affected heterozygote has a 50% chance of passing it on. Huntington disease and Marfan syndrome follow this pattern.\n- **Autosomal recessive:** the trait can skip generations; two unaffected carrier parents can have an affected child. Cystic fibrosis, sickle cell disease and Tay-Sachs disease are examples. **Consanguinity** (parents related by blood) raises the chance of recessive conditions.\n- **X-linked recessive:** many more males are affected because males are **hemizygous**, having one X. Affected males inherit the allele from their mother, and fathers cannot pass X-linked traits to sons. Hemophilia A, Duchenne muscular dystrophy and red-green color blindness fit here.\n- **X-linked dominant:** affected fathers pass the trait to all daughters and no sons. This pattern is rare.\n\n**Beyond simple dominance.**\n- **Incomplete dominance:** the heterozygote shows an intermediate phenotype. Familial hypercholesterolemia is often described this way, because heterozygotes have high cholesterol and homozygotes have far higher levels.\n- **Codominance:** both alleles are fully expressed. In the ABO system, I^A and I^B are codominant, giving type AB.\n- **Multiple alleles:** a gene has more than two alleles in the population. ABO has three: I^A, I^B and i, with i recessive.\n- **Polygenic traits:** many genes add together, often with environment, to produce continuous variation such as height and skin color.\n\n**Mitochondrial inheritance.** Mitochondria carry their own small DNA, inherited almost entirely from the mother. An affected mother can pass a mitochondrial disorder to all her children; an affected father normally passes it to none.\n\n**Reading a pedigree step by step.**\n1. Does an affected child have two unaffected parents? If yes, the trait is recessive.\n2. Are mostly males affected, with no male-to-male transmission? Consider X-linked recessive.\n3. Does it appear in every generation with male-to-male transmission? Think autosomal dominant.\n\n**Most common mistake:** assuming a trait is X-linked just because more males in one small family are affected. Male-to-male transmission rules X-linkage out, so always check whether an affected father has an affected son.",
+    "examples": [
+      "A father with type A blood (I^A i) and a mother with type B blood (I^B i) can have children with type A, B, AB or O blood, each with a 25% chance.",
+      "A woman whose father had hemophilia A is an obligate carrier, so each of her sons has a 50% chance of having hemophilia.",
+      "In one pedigree, an affected man has an affected son and an affected grandson, which rules out X-linked inheritance and points to an autosomal dominant pattern."
+    ],
+    "questions": [
+      {
+        "stem": "In a pedigree, two unaffected parents have an affected daughter. Which inheritance pattern is most likely?",
+        "choices": [
+          "Autosomal dominant",
+          "Autosomal recessive",
+          "X-linked recessive",
+          "Y-linked"
+        ],
+        "answer": 1,
+        "explanation": "Unaffected parents with an affected child means both are carriers of a recessive allele, and an affected daughter with an unaffected father rules out X-linked recessive. Autosomal dominant would require an affected parent."
+      },
+      {
+        "stem": "A man with red-green color blindness and a woman with no affected alleles have a son. What is the son's chance of being color-blind?",
+        "choices": [
+          "0%",
+          "25%",
+          "50%",
+          "100%"
+        ],
+        "answer": 0,
+        "explanation": "Sons receive their father's Y, not his X, so the son gets an X from his unaffected mother. 50% would apply only if the mother were a carrier."
+      },
+      {
+        "stem": "A person with blood type AB expresses both A and B antigens on red blood cells. This illustrates which concept?",
+        "choices": [
+          "Incomplete dominance",
+          "Polygenic inheritance",
+          "Codominance",
+          "Epistasis"
+        ],
+        "answer": 2,
+        "explanation": "Both alleles are fully and separately expressed, which is codominance. Incomplete dominance would produce a blended intermediate, not two distinct antigens."
+      },
+      {
+        "stem": "A parent heterozygous for an autosomal dominant condition has a child with an unaffected partner. What is the child's risk of inheriting the condition?",
+        "choices": [
+          "25%",
+          "100%",
+          "75%",
+          "50%"
+        ],
+        "answer": 3,
+        "explanation": "Aa x aa gives half Aa (affected) and half aa. 25% is the recessive risk for two carriers, not a dominant risk."
+      },
+      {
+        "stem": "A genetic counselor notes that an affected man has an affected son. Which pattern does this rule out?",
+        "choices": [
+          "Autosomal dominant",
+          "X-linked recessive",
+          "Autosomal recessive",
+          "Multifactorial"
+        ],
+        "answer": 1,
+        "explanation": "Fathers pass their Y, not their X, to sons, so male-to-male transmission excludes X-linked inheritance. Autosomal dominant inheritance routinely shows father-to-son transmission."
+      },
+      {
+        "stem": "A mother has a mitochondrial disorder; the father is unaffected. Which outcome is expected?",
+        "choices": [
+          "Only sons are at risk",
+          "Only daughters are at risk",
+          "All children may inherit the affected mitochondria",
+          "No children are at risk"
+        ],
+        "answer": 2,
+        "explanation": "Mitochondria come almost entirely from the egg, so the mother can pass them to all children, regardless of sex. Sex-limited patterns apply to X-linked traits, not mitochondrial ones."
+      },
+      {
+        "stem": "Height varies continuously across a population and is influenced by nutrition. Which term best describes this trait?",
+        "choices": [
+          "Polygenic",
+          "Codominant",
+          "Sex-linked",
+          "Single-gene recessive"
+        ],
+        "answer": 0,
+        "explanation": "Many genes plus environment produce continuous variation, the hallmark of a polygenic (multifactorial) trait. A single recessive gene would produce distinct categories, not a smooth range."
+      },
+      {
+        "stem": "A woman is a carrier for an X-linked recessive disorder and her partner is unaffected. What fraction of their daughters are expected to be carriers?",
+        "choices": [
+          "None",
+          "One quarter",
+          "All",
+          "One half"
+        ],
+        "answer": 3,
+        "explanation": "Each daughter gets her father's normal X and a 50% chance of her mother's affected X, so half are carriers. 'All' would be true only if the father were affected."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Pedigree",
+        "definition": "A family chart using standard symbols to track how a trait passes through generations."
+      },
+      {
+        "term": "Codominance",
+        "definition": "An inheritance pattern in which both alleles are fully expressed in the heterozygote, as in type AB blood."
+      },
+      {
+        "term": "Incomplete dominance",
+        "definition": "An inheritance pattern in which the heterozygote shows an intermediate phenotype."
+      },
+      {
+        "term": "Hemizygous",
+        "definition": "Having only one copy of a gene, as males do for most X-linked genes."
+      },
+      {
+        "term": "Carrier",
+        "definition": "A person who has one copy of a recessive disease allele but usually shows no signs of the condition."
+      }
+    ]
+  }
+]

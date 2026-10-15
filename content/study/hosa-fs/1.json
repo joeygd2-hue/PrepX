@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Crime scene processing, evidence, and chain of custody",
+    "objective": "Describe how investigators secure, document, collect, and package evidence, and explain how chain of custody and Locard's principle make that evidence usable in court.",
+    "body": "Forensic science is the application of scientific methods to questions of law. Every analysis a lab performs depends on what happened at the scene first, so the foundation of the field is careful scene processing.\n\n**Locard's exchange principle.** Edmond Locard proposed that every contact leaves a trace: a person who enters a scene both brings material to it and takes material away. Fibers, hair, soil and skin cells transfer between people, objects and places. This idea explains why investigators search for small, easily overlooked **trace evidence** and why they must avoid adding their own traces.\n\n**Securing and documenting the scene.** The first responding officer protects life, then secures the scene with a perimeter and starts an entry log. Investigators then document before they touch anything, using three complementary methods:\n- Notes that record times, conditions and observations.\n- Photographs, moving from overall views to midrange shots to close-ups, with close-ups taken both with and without a scale.\n- Sketches with measurements that fix each item's position, often by triangulation from two fixed points.\n\n**Search patterns.** The pattern should fit the scene. A **line (strip) search** suits large outdoor areas and many searchers; a **grid search** covers the same area twice in perpendicular directions; a **spiral search** suits a small scene with one searcher; and a **zone (quadrant) search** divides rooms or vehicles into sections.\n\n**Kinds of evidence.** **Physical evidence** includes any object or material, while **biological evidence** comes from living things, such as blood, saliva or hair. Evidence with **class characteristics** can be linked only to a group, like a common brand of shoe, whereas evidence with **individual characteristics** can be linked to a single source with a high degree of certainty, like a fingerprint or a shoe with unique wear damage.\n\n**Collection and packaging.** Each item is packaged separately to prevent cross-contamination. Damp biological items go in paper bags or envelopes, because plastic traps moisture and promotes the growth of mold and bacteria that destroy DNA. Suspected arson debris goes in airtight metal cans so volatile accelerants do not escape. Control and reference samples are collected for comparison.\n\n**Chain of custody.** The **chain of custody** is the written record of everyone who handled an item, when, and why, from collection to court. Each package is sealed with tamper-evident tape and the sealer's initials and date across the seal. A gap in the record lets the defense argue that the item was altered or swapped, and a judge may exclude it.\n\nThe most common mistake students make is choosing plastic for wet biological evidence because it seems cleaner; paper lets the item breathe and protects the DNA.",
+    "examples": [
+      "At a burglary, an investigator photographs a pry mark first with a wide shot of the door, then a close-up with a scale, and only then casts the mark.",
+      "A bloodstained shirt is air-dried, folded with paper between layers, and placed in a paper bag sealed with evidence tape and initialed.",
+      "A technician signs the custody form when taking a sealed bag from the evidence room to the lab, recording the date, time and purpose."
+    ],
+    "questions": [
+      {
+        "stem": "An investigator arrives at an outdoor scene spread across a large field and has six trained volunteers. Which search pattern is most efficient?",
+        "choices": [
+          "Spiral search",
+          "Line (strip) search",
+          "Zone search",
+          "Point-to-point search"
+        ],
+        "answer": 1,
+        "explanation": "A line search lets many searchers walk parallel lanes across a large open area. A spiral is designed for a small scene and a single searcher."
+      },
+      {
+        "stem": "A damp, blood-soaked towel must be transported to the lab. How should it be packaged?",
+        "choices": [
+          "Sealed plastic bag to stop leaks",
+          "Airtight metal paint can",
+          "Air-dried if possible, then a paper bag",
+          "Glass jar with a screw lid"
+        ],
+        "answer": 2,
+        "explanation": "Paper allows moisture to escape, preventing mold and bacteria that degrade DNA. A plastic bag seems cleaner but traps moisture and speeds decomposition."
+      },
+      {
+        "stem": "Fire debris suspected of containing gasoline should be collected in which container?",
+        "choices": [
+          "Paper envelope",
+          "Clean, unused airtight metal can",
+          "Cardboard box",
+          "Breathable cloth bag"
+        ],
+        "answer": 1,
+        "explanation": "An airtight metal can keeps volatile hydrocarbons from evaporating. Paper or cloth would allow the accelerant vapors to escape before testing."
+      },
+      {
+        "stem": "A defense attorney shows that a knife sat unlogged on a desk for two days before analysis. What is the attorney attacking?",
+        "choices": [
+          "The class characteristics of the knife",
+          "Locard's exchange principle",
+          "The chain of custody",
+          "The search pattern used"
+        ],
+        "answer": 2,
+        "explanation": "A gap in documented handling breaks the chain of custody and raises doubt about tampering. Class characteristics concern how specifically evidence links to a source, not handling."
+      },
+      {
+        "stem": "Fibers from a victim's sweater are found on a suspect's jacket. Which principle best explains this?",
+        "choices": [
+          "Locard's exchange principle",
+          "The principle of superposition",
+          "The law of individuality",
+          "Daubert standard"
+        ],
+        "answer": 0,
+        "explanation": "Locard's principle states that contact causes mutual transfer of material. The Daubert standard governs admissibility of expert testimony, not transfer."
+      },
+      {
+        "stem": "A shoeprint matches the brand and size of a suspect's sneaker but shows no unique wear. How should this evidence be described?",
+        "choices": [
+          "Individual evidence linking the suspect",
+          "Class evidence consistent with the suspect's shoe",
+          "Biological evidence",
+          "Inadmissible evidence"
+        ],
+        "answer": 1,
+        "explanation": "Brand and size are shared by many shoes, so the print has only class characteristics. It would become individual only if unique cuts or wear marks matched."
+      },
+      {
+        "stem": "What should investigators do before collecting any item at a scene?",
+        "choices": [
+          "Move items to a safer area",
+          "Test items with chemical reagents",
+          "Document the item's location with notes, photographs and sketches",
+          "Interview witnesses about the item"
+        ],
+        "answer": 2,
+        "explanation": "Documentation in place preserves the scene's original condition. Moving items first destroys positional information that cannot be recovered."
+      },
+      {
+        "stem": "Why are close-up evidence photographs taken both with and without a scale?",
+        "choices": [
+          "The version without a scale proves nothing was covered or added, and the scaled version shows size",
+          "Scales reflect the camera flash",
+          "Courts allow only one of the two versions",
+          "It replaces the need for a sketch"
+        ],
+        "answer": 0,
+        "explanation": "Showing the item with nothing added proves the scale did not hide detail, while the scaled shot allows measurement. Photos supplement, but do not replace, sketches."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Locard's exchange principle",
+        "definition": "Every contact between people, objects or places results in a transfer of material in both directions."
+      },
+      {
+        "term": "Chain of custody",
+        "definition": "The documented record of every person who handled an item of evidence, when, and why, from collection to court."
+      },
+      {
+        "term": "Class characteristics",
+        "definition": "Features that associate evidence with a group of possible sources rather than one source."
+      },
+      {
+        "term": "Individual characteristics",
+        "definition": "Features that can link evidence to a single source with a high degree of certainty."
+      },
+      {
+        "term": "Trace evidence",
+        "definition": "Small, often microscopic material such as fibers, hair, soil or glass transferred during contact."
+      }
+    ]
+  }
+]

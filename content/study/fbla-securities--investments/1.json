@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Investment basics: stocks, bonds, funds and risk",
+    "objective": "Distinguish the major types of securities, explain how each earns a return, and compare their risk and liquidity.",
+    "body": "Every investment question starts with one idea: investors give up money today in exchange for the chance of more money later, and they demand a higher expected return for taking on more risk. This **risk-return tradeoff** explains why savings accounts pay little while stocks can swing widely.\n\n**Stocks** represent ownership. A shareholder of **common stock** owns a slice of the company, usually gets voting rights, and earns returns through **dividends** (cash paid from profits) and **capital gains** (selling the shares for more than was paid). Common shareholders are last in line if the company is liquidated. **Preferred stock** usually pays a fixed dividend that must be paid before common dividends, but it typically carries no voting rights.\n\n**Bonds** represent lending. The investor lends money to a corporation or government, which promises regular interest payments, called **coupon** payments, and repayment of the **face value** (par value) at **maturity**. Bonds are generally less volatile than stocks, but they are not risk-free.\n- **Credit (default) risk**: the issuer may fail to pay.\n- **Interest rate risk**: when market rates rise, existing bond prices fall, and when rates fall, prices rise.\n- **Inflation risk**: fixed payments buy less over time.\n\n**Pooled investments** let small investors diversify cheaply. A **mutual fund** collects money from many investors and buys a portfolio managed by professionals; shares are priced once a day at the **net asset value (NAV)**. An **exchange-traded fund (ETF)** also holds a basket of securities but trades on an exchange throughout the day like a stock. Many funds are **index funds** that simply track a benchmark such as the S&P 500, usually with low fees.\n\n**Liquidity** describes how quickly an asset can be turned into cash without losing value. Cash and money market funds are highly liquid; real estate is not. Investors balance liquidity, safety and growth based on their **time horizon**, the length of time before they need the money. A student saving for a car next year needs safety and liquidity; a 25-year-old saving for retirement can tolerate more short-term swings for higher long-run growth.\n\n**Diversification** means spreading money across many investments so one failure does not sink the whole portfolio. It reduces **unsystematic risk** (risk tied to a single company or industry) but cannot remove **systematic risk** (market-wide risk such as a recession).\n\nThe most common mistake students make is mixing up ownership and lending: stockholders own the company and share in profits, while bondholders are creditors who are owed fixed interest and principal. Remember too that bond prices move opposite to interest rates.",
+    "examples": [
+      "Maya buys 10 shares of a shoe company's common stock at $40, collects a $1 per share dividend, and sells at $46, earning $10 in dividends and $60 in capital gains.",
+      "Leo buys a $1,000 corporate bond with a 5% coupon; he receives $50 of interest a year until maturity, when he gets his $1,000 back."
+    ],
+    "questions": [
+      {
+        "stem": "Jordan wants to own part of a company and vote at its annual meeting. Which security should he buy?",
+        "choices": [
+          "Corporate bond",
+          "Common stock",
+          "Treasury bill",
+          "Certificate of deposit"
+        ],
+        "answer": 1,
+        "explanation": "Common stock grants ownership and usually voting rights. A corporate bond is a loan to the company, so bondholders are creditors without votes."
+      },
+      {
+        "stem": "An investor holds a bond paying a 4% coupon. Market interest rates rise to 6%. What most likely happens to the market price of her bond?",
+        "choices": [
+          "It rises because the bond is now safer",
+          "It stays at par until maturity",
+          "It falls because new bonds pay more",
+          "It doubles to match the new rate"
+        ],
+        "answer": 2,
+        "explanation": "Bond prices move inversely to interest rates; a 4% bond is less attractive when new bonds pay 6%, so its price falls. It does not stay fixed at par in the market, although it still repays par at maturity."
+      },
+      {
+        "stem": "Which feature best distinguishes an ETF from a traditional mutual fund?",
+        "choices": [
+          "ETFs trade on an exchange throughout the day",
+          "ETFs cannot hold stocks",
+          "ETFs guarantee a minimum return",
+          "ETFs are priced only once per day at NAV"
+        ],
+        "answer": 0,
+        "explanation": "ETFs trade intraday like stocks. Pricing once a day at NAV describes traditional mutual funds, not ETFs."
+      },
+      {
+        "stem": "A company goes bankrupt and its assets are sold. Who is generally paid last?",
+        "choices": [
+          "Bondholders",
+          "Preferred shareholders",
+          "Suppliers owed money",
+          "Common shareholders"
+        ],
+        "answer": 3,
+        "explanation": "Common shareholders have the residual claim and are paid last. Preferred shareholders rank ahead of common shareholders, though behind creditors."
+      },
+      {
+        "stem": "Priya owns shares in 40 companies across many industries. Which risk has she reduced most?",
+        "choices": [
+          "Systematic risk from a recession",
+          "Unsystematic risk tied to a single company",
+          "Inflation risk on cash",
+          "Interest rate risk on bonds"
+        ],
+        "answer": 1,
+        "explanation": "Diversification reduces company-specific (unsystematic) risk. Market-wide systematic risk such as a recession affects nearly all stocks and cannot be diversified away."
+      },
+      {
+        "stem": "Sam needs his money for college tuition in eight months. Which choice best fits his time horizon?",
+        "choices": [
+          "A single small-company stock",
+          "A long-term stock index fund",
+          "A money market fund",
+          "Raw land in another state"
+        ],
+        "answer": 2,
+        "explanation": "A short time horizon calls for safety and liquidity, which a money market fund provides. A stock index fund is good for long horizons but could drop in value right before tuition is due."
+      },
+      {
+        "stem": "Which statement about preferred stock is accurate?",
+        "choices": [
+          "It usually pays a fixed dividend before common dividends are paid",
+          "It always carries more voting power than common stock",
+          "It is a loan that must be repaid at maturity",
+          "It is guaranteed by the FDIC"
+        ],
+        "answer": 0,
+        "explanation": "Preferred stock typically pays a fixed dividend with priority over common dividends. It is equity, not a loan with a maturity date, and it usually lacks voting rights."
+      },
+      {
+        "stem": "Ana bought a stock for $25 and sold it for $31 after receiving $2 in dividends. What was her total dollar return per share?",
+        "choices": [
+          "$2",
+          "$6",
+          "$8",
+          "$31"
+        ],
+        "answer": 2,
+        "explanation": "Total return = capital gain ($31 - $25 = $6) + dividends ($2) = $8. Choosing $6 ignores the dividend income."
+      }
+    ],
+    "flashcards": [
+      {
+        "term": "Risk-return tradeoff",
+        "definition": "The principle that investments with higher potential returns generally carry higher risk."
+      },
+      {
+        "term": "Dividend",
+        "definition": "A cash payment a corporation distributes to shareholders from its profits."
+      },
+      {
+        "term": "Coupon",
+        "definition": "The periodic interest payment a bond issuer makes to the bondholder."
+      },
+      {
+        "term": "Net asset value (NAV)",
+        "definition": "The per-share value of a mutual fund, calculated once a day from the value of its holdings."
+      },
+      {
+        "term": "Unsystematic risk",
+        "definition": "Risk tied to a specific company or industry that diversification can reduce."
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Nutrition for Nurses",
+    "url": "https://openstax.org/details/books/nutrition",
+    "publisher": "OpenStax",
+    "kind": "textbook",
+    "note": "Free nursing nutrition text on nutrients, assessment, life stages and nutrition by body system."
+  },
+  {
+    "title": "Physical Activity Guidelines for Americans, 2nd Edition",
+    "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf",
+    "publisher": "U.S. HHS (ODPHP)",
+    "kind": "reference",
+    "note": "Federal activity guidelines by age group; useful for Healthy Living."
+  },
+  {
+    "title": "Safe Food Handling",
+    "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+    "publisher": "U.S. FDA",
+    "kind": "reference",
+    "note": "FDA's clean, separate, cook and chill steps for food safety."
+  }
+]
