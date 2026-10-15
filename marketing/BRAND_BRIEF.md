@@ -13,7 +13,7 @@ Paste this whole file into your AI assistant before asking it for ads, scripts, 
 - **The problem:** Prep is scattered. Students hunt through old PDFs, random quiz sites and group chats, and rarely get to practice a roleplay or presentation out loud before the real thing.
 - **The promise:** Learn it, practice it and rehearse it out loud, all in one app, for whichever event you compete in.
 - **Price:** **Free.** PrepX launches free. Don't mention paid plans, tiers, "Pro" or prices anywhere.
-- **Website/domain:** Not live yet. **Don't show a URL, handle or QR code** in ads. End on the PrepX logo plus "Free to start" (or just "Free").
+- **Website/domain:** prep-x.app is bought but not live yet. **Don't show a URL, handle or QR code** in ads until it is. End on the PrepX logo plus "Free to start" (or just "Free").
 - **Platform:** A web app that installs to the phone home screen like an app (a PWA). Don't say "download on the App Store" or "Google Play".
 
 ## 2. What's actually in the app (only advertise these)

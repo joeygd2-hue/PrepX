@@ -5,15 +5,15 @@
 export const env = {
   appUrl: process.env.APP_URL ?? "http://localhost:3000",
   isProd: process.env.NODE_ENV === "production",
-  supportEmail: process.env.SUPPORT_EMAIL ?? "support@prepx.app",
-  privacyEmail: process.env.PRIVACY_EMAIL ?? "privacy@prepx.app",
+  supportEmail: process.env.SUPPORT_EMAIL ?? "support@prep-x.app",
+  privacyEmail: process.env.PRIVACY_EMAIL ?? "support@prep-x.app",
   google: {
     clientId: process.env.GOOGLE_CLIENT_ID ?? "",
     clientSecret: process.env.GOOGLE_CLIENT_SECRET ?? "",
   },
   email: {
     provider: (process.env.EMAIL_PROVIDER ?? "console") as "console" | "resend" | "smtp",
-    from: process.env.EMAIL_FROM ?? "PrepX <no-reply@prepx.app>",
+    from: process.env.EMAIL_FROM ?? "PrepX <no-reply@prep-x.app>",
     resendKey: process.env.RESEND_API_KEY ?? "",
   },
   ai: {

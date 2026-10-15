@@ -22,7 +22,7 @@ export function CodePanel({ chapterId, code, expiresAt, enabled, canEdit }: { ch
           {code}
         </p>
         <p className="mt-5 max-w-md text-sm text-hero-muted">
-          {!enabled ? "Joining is turned off." : expired ? "This code has expired." : expiresAt ? `Expires ${new Date(expiresAt).toLocaleDateString()}` : "Doesn't expire."} Members enter it at prepx.app/join.
+          {!enabled ? "Joining is turned off." : expired ? "This code has expired." : expiresAt ? `Expires ${new Date(expiresAt).toLocaleDateString()}` : "Doesn't expire."} Members enter it at prep-x.app/join.
         </p>
         <div className="mt-6 flex flex-wrap items-center gap-2 border-t border-hero-line pt-5">
           <Button size="sm" variant="accent" onClick={() => { void navigator.clipboard.writeText(code); setMsg("Copied"); }}>

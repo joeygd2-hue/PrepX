@@ -23,7 +23,7 @@ export function buildIcs(events: IcsEvent[], calName = "PrepX") {
   for (const e of events) {
     lines.push(
       "BEGIN:VEVENT",
-      `UID:${e.uid}@prepx.app`,
+      `UID:${e.uid}@prep-x.app`,
       `DTSTAMP:${stamp}`,
       `DTSTART;VALUE=DATE:${ymd(e.start)}`,
       `DTEND;VALUE=DATE:${ymd(nextDay(e.end))}`,

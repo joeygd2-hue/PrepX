@@ -109,7 +109,7 @@ A rounded square holding an **X whose rising stroke becomes an arrow**, with the
 - **Docs:** `docs/CHECKLIST.md` (every feature and its status), `docs/ARCHITECTURE.md` (sitemap, data model, flows), `docs/DESIGN.md` (design system), `docs/CONTENT.md` (study-content format), `docs/DEPLOYMENT.md` (launch setup).
 
 ### Status
-- **Not deployed. No domain yet.** Don't publish or show a URL or social handle anywhere until the owner provides one.
+- **Domain: prep-x.app** (support email: support@prep-x.app). **Not deployed yet.** Don't show the URL or a social handle in ads until the site is live.
 - **Launching free.** The app has a "launch period" setting (`app_settings.launch_access`) that gives everyone the full feature set. Stripe billing code and a `/pricing` page exist, but the owner wants no prices or paid plans mentioned. Before launch, keep the launch period on and decide whether to hide `/pricing`.
 - **Quality checks on the branch** (last run Oct 12): typecheck, lint and production build all pass; 413/413 unit and integration tests pass; 21/21 Playwright end-to-end tests pass, on desktop and on a Pixel 7 mobile viewport.
 

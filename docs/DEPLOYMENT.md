@@ -20,7 +20,7 @@ Copy `.env.example` and fill in values. Everything is read server-side; only `NE
 | Variable | Notes |
 |---|---|
 | `DATABASE_URL` | Postgres connection string. Use a pooled URL on serverless hosts. |
-| `APP_URL` | Public origin, e.g. `https://prepx.app`. Used in emails and OAuth redirects. |
+| `APP_URL` | Public origin, e.g. `https://prep-x.app`. Used in emails and OAuth redirects. |
 | `SUPPORT_EMAIL`, `PRIVACY_EMAIL` | Real, monitored inboxes; shown throughout the app and legal pages. |
 | `ADMIN_EMAILS` | Comma-separated; these accounts are promoted to `admin` on sign-in. |
 | `EMAIL_PROVIDER=resend`, `EMAIL_FROM`, `RESEND_API_KEY` | `console` is refused in production. |
